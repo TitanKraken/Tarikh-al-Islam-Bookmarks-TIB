@@ -1,0 +1,89 @@
+almohad1212buff_effect = {
+	spawn_almohad_army_effect = yes
+	add_gold = 1000
+	add_piety = 3000
+	add_prestige = 2000
+}
+
+
+spawn_almohad_army_effect = {
+    spawn_army = {
+        uses_supply = no
+        inheritable = yes
+        name = "Almohad Imperial Army"
+        men_at_arms = {
+            type = abudrar
+            stacks = 5
+        }
+        men_at_arms = {
+            type = light_horsemen
+            stacks = 5
+        }
+        men_at_arms = {
+            type = light_horsemen
+            stacks = 5
+        }
+        men_at_arms = {
+            type = armored_horsemen
+            stacks = 5
+        }
+        men_at_arms = {
+            type = mangonel
+            stacks = 1
+        }
+        men_at_arms = {
+            type = bowmen
+            stacks = 3
+        }
+        men_at_arms = {
+            type = pikemen_unit
+            stacks = 3
+        }
+        location = province:1987
+	}
+}
+
+spawn_marinid_troops_effect = {
+	spawn_army = {
+		uses_supply = yes
+		inheritable = yes
+		name = " Marinid Army"
+		men_at_arms = {
+			type = abudrar
+			stacks = 10
+		}
+		men_at_arms = {
+			type = light_horsemen
+			stacks = 5
+		}
+		men_at_arms = {
+			type = camel_rider
+			stacks = 5
+		}
+		men_at_arms = {
+			type = armored_horsemen
+			stacks = 3
+		}
+		men_at_arms = {
+			type = bowmen
+			stacks = 3
+		}
+		men_at_arms = {
+			type = pikemen_unit
+			stacks = 4
+		}
+		location = capital_province
+    }
+}
+
+spawn_almohad_army = {
+    scope:miramolin = {
+        spawn_almohad_army_effect = yes
+    }
+}
+
+castille1212_effect = {
+        set_relation_rival = character:224005 # al-Nasir
+        set_relation_rival = character:210501
+		set_relation_rival = character:206502
+}

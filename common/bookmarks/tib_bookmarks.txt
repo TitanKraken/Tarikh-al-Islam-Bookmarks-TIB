@@ -1,0 +1,51 @@
+﻿bm_the_great_siege = {
+	start_date = 715.2.25
+	is_playable = yes
+	recommended = yes
+}
+#bm_the_imamate = { # FUTURE FLAVOUR PACK
+	#start_date = 910.1.15
+	#is_playable = yes
+#}
+bm_the_hammudid_caliphate = {
+	start_date = 1016.7.1
+	is_playable = yes
+}
+
+# Almohad Pack
+bm_cycle_of_fate = {
+	start_date = 1144.1.1
+	is_playable = yes
+	recommended = yes
+}
+bm_the_successors = {
+	start_date = 1163.1.1
+	is_playable = yes
+}
+bm_las_navas_de_tolosa = {
+	start_date = 1212.7.16
+	is_playable = yes
+	recommended = yes
+	default = yes
+}
+bm_the_almohad_fitna = {
+	start_date = 1224.1.1
+	is_playable = yes
+}
+bm_the_gloom_over_the_light = {
+	start_date = 1235.12.23
+	is_playable = yes
+}
+
+# Mamluk 
+bm_the_ilkhanate = {
+	start_date = 1260.1.1
+	is_playable = yes
+	recommended = yes
+}
+
+# Cairene Abbasid Expansion
+#bm_the_shadow_caliphate = {
+	#start_date = 1412.7.1
+	#is_playable = yes
+#}

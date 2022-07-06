@@ -1,0 +1,280 @@
+﻿# Sogdian and Afghan
+tukhara0001 = { #
+    name = "Turxan"
+    dynasty = house_tukhara
+    religion = "mahayana"
+	culture = "afghan"
+	685.1.1 = {
+		birth = yes
+	}
+	750.1.1 = {
+		death = yes
+	}
+}
+
+wusun0001 = {
+    name = "Haskadatta"
+    dynasty = house_wusun
+    religion = "mahayana"
+	culture = "saka"
+	685.1.1 = {
+		birth = yes
+	}
+	750.1.1 = {
+		death = yes
+	}
+}
+
+gurak_ikhshid = {
+	name = "Gurak"
+    religion = "gayomarthianism"
+	culture = "sogdian"
+	trait = intellect_good_2
+	trait = calm
+	trait = ambitious
+	trait = brave
+	674.1.1 = {
+		birth = yes
+	}
+	710.1.1 = {
+		set_realm_capital = c_samarkand
+	}
+	738.1.1 = {
+		death = yes
+	}
+}
+
+# Western Turkic Khaganate Ashina branch
+duolu_qaghan = {
+	name = "Duolu_Nishu"
+	dynasty = 12269 # Ashina
+	father = 74002
+	culture = "khazar"
+	religion = "tengri_pagan"
+
+	580.1.1 = {
+		birth = yes
+	}
+	634.1.1 = {
+		death = yes
+	}
+}
+ishbara_tolis_qaghan = {
+	name = "Ishbara_Tolis_Tong-e"
+	dynasty = 12269 # Ashina
+	father = 74002
+	culture = "khazar"
+	religion = "tengri_pagan"
+
+	607.1.1 = {
+		birth = yes
+	}
+	659.1.1 = {
+		death = yes
+	}
+}
+helu_qaghan = {
+	name = "ArI_G_" # Helu
+	dynasty = 12269 # Ashina
+	father = 74003
+	culture = "khazar"
+	religion = "tengri_pagan"
+
+	627.1.1 = {
+		birth = yes
+	}
+	659.1.1 = {
+		death = yes
+	}
+}
+
+# 2nd Turkic Khaganate Ashina branch
+etmish_beg_ashina = {
+	name = "Etmish_Beg"
+	dynasty = 12269 # Ashina
+	culture = "turkish"
+	religion = "tengri_pagan"
+
+	624.1.1 = {
+		birth = yes
+	}
+	670.1.1 = {
+		death = yes
+	}
+}
+ilterish_qaghan = {
+	name = "Ilterish_Qutlugh"
+	dynasty = 12269 # Ashina
+	father = etmish_beg_ashina
+	culture = "turkish"
+	religion = "tengri_pagan"
+
+	660.1.1 = {
+		birth = yes
+	}
+	692.1.1 = {
+		death = yes
+	}
+}
+qapaghan_qaghan = {
+	name = "Qapaghan_BO_gU_-C_or"
+	dynasty = 12269 # Ashina
+	father = etmish_beg_ashina
+	culture = "turkish"
+	religion = "tengri_pagan"
+
+	664.1.1 = {
+		birth = yes
+	}
+	716.7.22 = {
+		death = yes
+	}
+}
+ashina_duoxifu = {
+	name = "Turs_Beg"
+	dynasty = 12269 # Ashina
+	father = etmish_beg_ashina
+	culture = "turkish"
+	religion = "tengri_pagan"
+
+	665.1.1 = {
+		birth = yes
+	}
+	716.1.1 = {
+		death = yes
+	}
+}
+
+# Issues of Ilterish Qaghan
+bilge_qaghan = {
+	name = "BilgA_"
+	dynasty = 12269 # Ashina
+	father = ilterish_qaghan
+	culture = "turkish"
+	religion = "tengri_pagan"
+
+	683.1.1 = {
+		birth = yes
+	}
+	734.11.25 = {
+		death = yes
+	}
+}
+kul_tigin = {
+	name = "KU_ltegin"
+	dynasty = 12269 # Ashina
+	father = ilterish_qaghan
+	culture = "turkish"
+	religion = "tengri_pagan"
+
+	684.1.1 = {
+		birth = yes
+	}
+	731.2.27 = {
+		death = yes
+	}
+}
+
+# Issues of Qapaghan Qaghan
+inel_qaghan = {
+	name = "InA_l"
+	dynasty = 12269 # Ashina
+	father = qapaghan_qaghan
+	culture = "turkish"
+	religion = "tengri_pagan"
+
+	684.1.1 = {
+		birth = yes
+	}
+	717.1.1 = { # Maybe 716?
+		death = {
+			death_reason = death_execution
+			killer = kul_tigin
+		}
+	}
+}
+
+# 2nd Turkic Khaganate Vassals
+wuhe_yaoluoge = {
+	name = "Wuhe" # 烏紇
+	dynasty = clan_Yaglakar # Yaoluoge
+	culture = "uyghur"
+	religion = "tengri_pagan"
+
+	572.1.1 = {
+		birth = yes
+	}
+	648.6.1 = {
+		death = yes
+	}
+}
+porun_yaoluoge = {
+	name = "Porun" # 婆閏
+	dynasty = clan_Yaglakar # Yaoluoge
+	father = wuhe_yaoluoge
+	culture = "uyghur"
+	religion = "tengri_pagan"
+
+	598.1.1 = {
+		birth = yes
+	}
+	662.1.1 = {
+		death = yes
+	}
+}
+bisidu_yaoluoge = {
+	name = "Bisidu" # 比粟毒
+	dynasty = clan_Yaglakar # Yaoluoge
+	father = porun_yaoluoge
+	culture = "uyghur"
+	religion = "tengri_pagan"
+
+	620.1.1 = {
+		birth = yes
+	}
+	680.1.1 = {
+		death = yes
+	}
+}
+dujiezhi_yaoluoge = {
+	name = "DukkaqC_i" # My Old Turkish reconstruction from Middle Chinese 独解支
+	dynasty = clan_Yaglakar # Yaoluoge
+	father = bisidu_yaoluoge
+	culture = "uyghur"
+	religion = "tengri_pagan"
+
+	644.1.1 = {
+		birth = yes
+	}
+	695.1.1 = {
+		death = yes
+	}
+}
+fudifu_yaoluoge = {
+	name = "Bugtei-Beg" # My Old Turkish reconstruction from Middle Chinese 伏帝匐
+	dynasty = clan_Yaglakar # Yaoluoge
+	father = dujiezhi_yaoluoge
+	culture = "uyghur"
+	religion = "tengri_pagan"
+
+	687.1.1 = {
+		birth = yes
+	}
+	719.1.1 = {
+		death = yes
+	}
+}
+
+# Karluk tribe leader
+karluk_gokturk_001 = {
+	name = "Uzur"
+	culture = "karluk"
+	religion = "tengri_pagan"
+
+	689.1.1 = {
+		birth = yes
+	}
+	720.1.1 = {
+		death = yes
+	}
+}

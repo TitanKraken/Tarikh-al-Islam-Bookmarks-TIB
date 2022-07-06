@@ -1,0 +1,370 @@
+﻿# Mongol
+11100 = { # Borjigin
+	pattern="pattern__solid_designer.dds"
+	color1=blue
+	color2=white
+	color3=blue
+	colored_emblem={
+		color1=white
+		texture="ce_mongol_flame.dds"
+		instance={
+			position={ 0.500000 0.170000 }
+			scale={ 0.280000 0.280000 }
+			depth=3.010000
+		}
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_circle_mask.dds"
+		instance={
+			position={ 0.500000 0.450000 }
+			scale={ 0.300000 0.300000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=blue
+		texture="ce_circle_mask.dds"
+		instance={
+			position={ 0.500000 0.540000 }
+			scale={ 0.280000 0.280000 }
+			depth=1.010000
+		}
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_african_crescent_star.dds"
+		instance={
+			position={ 0.500000 0.600000 }
+			scale={ 0.590000 0.520000 }
+			depth=2.010000
+		}
+	}
+}
+house_Toluid = {
+	pattern="pattern_solid.dds"
+	color1=rgb { 249 172 26 }
+	color2=red
+	colored_emblem={
+		color1=rgb { 188 11 3 }
+		color2=red
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.500000 0.450000 }
+			scale={ 0.500000 0.500000 }
+		}
+	}
+}
+
+house_Chagatayid = {
+	pattern="pattern_solid.dds"
+	color1=rgb { 255 255 255 }
+	color2=rgb { 250 170 25 }
+	colored_emblem={
+		color1=rgb { 255 255 255 }
+		texture="ce_double_bow_tamga.dds"
+		instance={
+			position={ 0.465000 0.450000 }
+			scale={ 0.750000 0.570000 }
+			depth=14.010000
+			rotation=90
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 290 200 20 }
+		texture="ce_block_04.dds"
+		instance={
+			position={ 0.595000 0.450000 }
+			scale={ 0.160000 0.555000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.405000 0.450000 }
+			scale={ 0.160000 0.555000 }
+			depth=13.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 290 200 20 }
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.675000 0.450000 }
+			scale={ 0.120000 0.100000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.330000 0.450000 }
+			scale={ 0.130000 0.100000 }
+			depth=11.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 290 200 20 }
+		color2=rgb { 290 200 20 }
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.500000 0.450000 }
+			scale={ 0.500000 0.500000 }
+			depth=15.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 255 255 255 }
+		texture="ce_circle_mask.dds"
+		instance={
+			position={ 0.370000 0.625000 }
+			scale={ 0.025000 0.025000 }
+		}
+
+		instance={
+			position={ 0.630000 0.625000 }
+			scale={ 0.025000 0.025000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.630000 0.275000 }
+			scale={ 0.025000 0.025000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.370000 0.275000 }
+			scale={ 0.025000 0.025000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.500000 0.280000 }
+			scale={ 0.035000 0.030000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.500000 0.620000 }
+			scale={ 0.035000 0.030000 }
+			depth=9.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 290 200 20 }
+		texture="ce_circle_mask.dds"
+		instance={
+			position={ 0.350000 0.630000 }
+			scale={ 0.040000 0.040000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.650000 0.630000 }
+			scale={ 0.040000 0.040000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.650000 0.270000 }
+			scale={ 0.040000 0.040000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.350000 0.270000 }
+			scale={ 0.040000 0.040000 }
+			depth=7.010000
+		}
+
+	}
+
+}
+
+
+house_Kublaid = {
+	pattern="pattern_solid.dds"
+	color1=rgb { 255 255 255 }
+	color2=black
+	colored_emblem={
+		color1=rgb { 208 10 5 }
+		texture="ce_circle_mask.dds"
+		instance={
+			position={ 0.290000 0.250000 }
+			scale={ 0.300000 0.300000 }
+			depth=3.010000
+		}
+	}
+
+	colored_emblem={
+		color1=rgb { 208 10 5 }
+		color2=black
+		texture="ce_circle_mask.dds"
+		instance={
+			position={ 0.700000 0.250000 }
+			scale={ 0.300000 0.300000 }
+			depth=4.010000
+		}
+	}
+
+	colored_emblem={
+		color1=rgb { 255 255 255 }
+		texture="ce_circle_mask.dds"
+		instance={
+			position={ 0.290000 0.210000 }
+			scale={ 0.250000 0.250000 }
+		}
+
+		instance={
+			position={ 0.700000 0.210000 }
+			scale={ 0.250000 0.250000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.500000 0.600000 }
+			scale={ 0.290000 0.290000 }
+			depth=2.010000
+		}
+	}
+
+	colored_emblem={
+		color1=rgb { 207 16 16 }
+		texture="ce_circle_mask.dds"
+		instance={
+			position={ 0.500000 0.650000 }
+			scale={ 0.350000 0.350000 }
+			depth=5.010000
+		}
+	}
+}
+
+house_Jochid = {
+	pattern="pattern__solid_designer.dds"
+	color1=rgb { 255 255 255 }
+	color2=red
+	color3=red
+	colored_emblem={
+		color1=rgb { 255 255 255 }
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.700000 0.300000 }
+			scale={ 0.085000 0.085000 }
+		}
+
+		instance={
+			position={ 0.555000 0.530000 }
+			scale={ 0.270000 0.310000 }
+			depth=6.010000
+		}
+	}
+
+	colored_emblem={
+		color1=rgb { 230 10 30 }
+		texture="ce_circle_mask.dds"
+		instance={
+			position={ 0.560000 0.190000 }
+			scale={ 0.130000 0.130000 }
+			depth=4.010000
+		}
+	}
+
+	colored_emblem={
+		color1=rgb { 230 10 30 }
+		texture="ce_crescent_bone.dds"
+		instance={
+			position={ 0.215000 0.515000 }
+			scale={ 0.430000 0.410000 }
+			depth=8.010000
+			rotation=90
+		}
+
+		instance={
+			position={ 0.245000 0.515000 }
+			scale={ 0.420000 0.410000 }
+			depth=9.010000
+			rotation=90
+		}
+	}
+
+	colored_emblem={
+		color1=rgb { 255 255 255 }
+		texture="ce_mena_bend.dds"
+		instance={
+			position={ 1.000000 0.435000 }
+			scale={ 0.400000 0.400000 }
+			depth=1.010000
+		}
+	}
+
+	colored_emblem={
+		color1=rgb { 230 10 30 }
+		texture="ce_bendlet.dds"
+		instance={
+			position={ 0.820000 0.495000 }
+			scale={ 0.230000 0.370000 }
+			depth=2.010000
+			rotation=90
+		}
+	}
+
+	colored_emblem={
+		color1=rgb { 255 255 255 }
+		texture="ce_circle_mask.dds"
+		instance={
+			position={ 0.560000 0.190000 }
+			scale={ 0.075000 0.075000 }
+			depth=3.010000
+		}
+	}
+
+	colored_emblem={
+		color1=rgb { 230 10 30 }
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.560000 0.270000 }
+			scale={ 0.030000 0.160000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.555000 0.515000 }
+			scale={ 0.330000 0.330000 }
+			depth=7.010000
+		}
+	}
+}
+
+house_Shaybanid = {
+	pattern="pattern_solid.dds"
+	color1=green
+	color2=yellow
+	color3=blue
+	colored_emblem={
+		color1=yellow
+		texture="ce_crescent_bone.dds"
+		instance={
+			position={ 0.440000 0.480000 }
+			scale={ 0.800000 0.700000 }
+			rotation=90
+		}
+
+		instance={
+			position={ 0.480000 0.480000 }
+			scale={ 0.700000 0.700000 }
+			depth=1.010000
+			rotation=90
+		}
+	}
+}

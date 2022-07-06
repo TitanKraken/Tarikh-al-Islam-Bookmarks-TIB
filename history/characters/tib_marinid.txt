@@ -1,0 +1,1381 @@
+﻿# Marinid Dynasty
+32993 = {
+	name = "Abd-al-Haqq" #Fez 1212-1217
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	1167.1.1 = {
+		birth = "1167.1.1"
+	}
+	1187.1.1 = {
+		add_spouse = wife_of_abd_al_haqq
+	}
+	1190.1.1 = {
+		add_spouse = wife_of_abd_al_haqq_2
+	}
+	1212.7.16 = {
+		add_pressed_claim = title:e_maghreb
+		add_pressed_claim = title:k_maghreb
+		add_pressed_claim = title:d_rif
+		add_pressed_claim = title:d_fes
+	}
+	1217.1.1 = {
+		death = "1217.1.1"
+	}
+}
+
+wife_of_abd_al_haqq = {
+	name = "Urtatia"
+	female = yes
+	religion = "ashari"
+	culture = baranis
+	1170.1.1 = {
+		birth = yes
+	}
+	1217.1.1 = {
+		death = yes
+	}
+}
+
+wife_of_abd_al_haqq_2 = {
+	name = "Umm-al-Yawm"
+	female = yes
+	religion = "ashari"
+	culture = baranis
+	1170.1.1 = {
+		birth = yes
+	}
+	1217.1.1 = {
+		death = yes
+	}
+}
+
+marinid_001 = {
+	name = "Abu 'Abdallah"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 32993
+	mother = wife_of_abd_al_haqq
+	1183.1.1 = {
+		birth = yes
+	}
+	1241.1.1 = {
+		death = yes
+	}
+}
+
+marinid_002 = {
+	name = "Zayyan"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 32993
+	mother = wife_of_abd_al_haqq
+	1184.1.1 = {
+		birth = yes
+	}
+	1242.1.1 = {
+		death = yes
+	}
+}
+
+# Banu Abu'l-'Ula cadet branch of Marinid
+marinid_003 = {
+	name = "Idris"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 32993
+	mother = wife_of_abd_al_haqq
+	1185.1.1 = {
+		birth = yes
+	}
+	1243.1.1 = {
+		death = yes
+	}
+}
+
+155163 = {
+	name = "Abd-_Allah" #ibn Abd-al-Haqq
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 32993
+	1205.1.1 = {
+		birth = "1205.1.1"
+	}
+	1250.1.1 = {
+		death = "1250.1.1"
+	}
+}
+155164 = {
+	name = "Ya_qub" #ibn Abd-'Allah
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 155163
+	1225.1.1 = {
+		birth = "1225.1.1"
+	}
+	1275.1.1 = {
+		death = "1275.1.1"
+	}
+}
+marinid_014 = {
+	name = "Muhammad"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = marinid_003
+	1205.1.1 = {
+		birth = yes
+	}
+	1260.1.1 = {
+		death = yes
+	}
+}
+marinid_015 = {
+	name = "'Amir"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = marinid_003
+	1207.1.1 = {
+		birth = yes
+	}
+	1260.1.1 = {
+		death = yes
+	}
+}
+
+marinid_016 = {
+	name = "Abu Darda"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = marinid_014
+	1230.1.1 = {
+		birth = yes
+	}
+	1280.1.1 = {
+		death = yes
+	}
+}
+banu_abul_ula_001 = {
+	name = "Abu'l-'Ula Idris"
+	dynasty_house = house_Banu_Abul_Ula
+	religion = "ashari"
+	culture = baranis
+	father = marinid_016
+	1255.1.1 = {
+		birth = yes
+	}
+	1300.1.1 = {
+		death = yes
+	}
+}
+banu_abul_ula_002 = {
+	name = "Uthman"
+	dynasty_house = house_Banu_Abul_Ula
+	religion = "ashari"
+	culture = baranis
+	father = banu_abul_ula_001
+	1277.1.1 = {
+		birth = yes
+	}
+	1300.1.1 = { # Pretender
+		add_pressed_claim = title:k_maghreb
+		add_pressed_claim = title:d_fes
+		add_pressed_claim = title:c_fes
+	}
+	1330.1.1 = {
+		death = yes
+	}
+}
+banu_abul_ula_003 = {
+	name = "'Abdallah"
+	dynasty_house = house_Banu_Abul_Ula
+	religion = "ashari"
+	culture = baranis
+	father = banu_abul_ula_001
+	1279.1.1 = {
+		birth = yes
+	}
+	1335.1.1 = {
+		death = yes
+	}
+}
+######END######
+
+marinid_004 = {
+	name = "Rahhu"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 32993
+	mother = wife_of_abd_al_haqq
+	1186.1.1 = {
+		birth = yes
+	}
+	1244.1.1 = {
+		death = yes
+	}
+}
+
+marinid_005 = {
+	name = "Abu 'Iyad"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 32993
+	mother = wife_of_abd_al_haqq
+	1187.1.1 = {
+		birth = yes
+	}
+	1245.1.1 = {
+		death = yes
+	}
+}
+
+# Uthman and his descendants
+32994 = {
+	name = "Abu Sa'id 'Uthman Adergal" #Fez 1217-1240
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 32993
+	1191.1.1 = {
+		birth = yes
+	}
+	1217.1.1 = {
+		add_pressed_claim = title:k_maghreb
+		add_pressed_claim = title:d_rif
+		add_pressed_claim = title:d_fes
+	}
+	1235.1.1 = {
+		effect = {
+			spawn_marinid_troops_effect = yes
+		}
+	}
+	1240.1.1 = {
+		death = "1240.1.1"
+	}
+}
+
+marinid_007 = {
+	name = "'Ali"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 32994
+	1215.1.1 = {
+		birth = yes
+	}
+	1270.1.1 = {
+		death = yes
+	}
+}
+
+marinid_008 = {
+	name = "'Umar"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 32994
+	1216.1.1 = {
+		birth = yes
+	}
+	1270.1.1 = {
+		death = yes
+	}
+}
+
+marinid_009 = {
+	name = "Sulayman"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 32994
+	1220.1.1 = {
+		birth = yes
+	}
+	1270.1.1 = {
+		death = yes
+	}
+}
+
+marinid_010 = {
+	name = "Ibrahim"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 32994
+	1223.1.1 = {
+		birth = yes
+	}
+	1270.1.1 = {
+		death = yes
+	}
+}
+
+# Muhammad Marini and his descendants
+32995 = {
+	name = "Abu Mu'arraf Muhammad" #Fez 1240-1244
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 32993
+	1190.1.1 = {
+		birth = yes
+	}
+	1240.1.1 = {
+		add_pressed_claim = title:k_maghreb
+		add_pressed_claim = title:d_rif
+		add_pressed_claim = title:d_fes
+	}
+	1244.1.1 = {
+		death = "1244.1.1"
+	}
+}
+
+sons_of_32995_001 = {
+	name = "al-'Abbas"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 32995
+	1210.1.1 = {
+		birth = yes
+	}
+	1260.6.1 = {
+		death = yes
+	}
+}
+
+sons_of_32995_002 = {
+	name = "Uthman"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 32995
+	1212.1.1 = {
+		birth = yes
+	}
+	1230.1.1 = {
+		add_spouse = marinid_female_001
+	}
+	1261.1.1 = {
+		death = yes
+	}
+}
+
+marinid_female_001 = {
+	name = "Nur-al-'Izzah"
+	female = yes
+	religion = "ashari"
+	culture = baranis
+	trait = chaste
+	trait = zealous
+	trait = humble
+	1210.1.1 = {
+		birth = yes
+	}
+	1261.1.1 = {
+		death = yes
+	}
+}
+
+marinid_006 = {
+	name = "Abd-al-Haqq"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = sons_of_32995_002
+	mother = marinid_female_001
+	1237.1.1 = {
+		birth = yes
+	}
+	1289.1.1 = {
+		death = yes
+	}
+}
+
+marinid_female_002 = {
+	name = "Bazzu"
+	female = yes
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = sons_of_32995_002
+	mother = marinid_female_001
+	1237.1.1 = {
+		birth = yes
+	}
+	1289.1.1 = {
+		death = yes
+	}
+}
+######END######
+
+marinid_female_003 = {
+	name = "Urtatlim"
+	female = yes
+	religion = "ashari"
+	culture = baranis
+	father = 32993
+	mother = wife_of_abd_al_haqq
+	1215.1.1 = {
+		birth = yes
+	}
+	1263.1.1 = {
+		death = yes
+	}
+}
+
+# Abu Yahya Abu Bakr and his descendants
+32996 = {
+	name = "Abu Yahya Abu Bakr" #Fez 1244-1258
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 32993
+	1214.1.1 = {
+		birth = yes
+	}
+	1244.1.1 = {
+		add_pressed_claim = title:k_maghreb
+		add_pressed_claim = title:d_rif
+		add_pressed_claim = title:d_fes
+	}
+	1258.7.1 = {
+		death = yes
+	}
+}
+
+marinid_011 = {
+	name = "Abu Muzahhir"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 32996
+	1235.1.1 = {
+		birth = yes
+	}
+	1290.1.1 = {
+		death = yes
+	}
+}
+marinid_012 = {
+	name = "Abu Hafs 'Umar"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 32996
+	1237.1.1 = {
+		birth = yes
+	}
+	1290.1.1 = {
+		death = yes
+	}
+}
+marinid_013 = {
+	name = "Ibrahim"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 32996
+	1239.1.1 = {
+		birth = yes
+	}
+	1290.1.1 = {
+		death = yes
+	}
+}
+marinid_019 = { # Fictional but to fulfill the "Abu Yahya" namesake
+	name = "Yahya"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 32996
+	1250.1.1 = {
+		birth = yes
+	}
+	1310.1.1 = {
+		death = yes
+	}
+}
+######END######
+
+# Abu Yusuf Ya'qub and his descendants
+32997 = {
+	name = "Ya_qub" # Fez 1258-1286, Mauretania 1269-1286, AKA Abu Yusuf Ya'qub
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 32993
+	mother = wife_of_abd_al_haqq_2
+	1212.1.1 = {
+		birth = yes
+	}
+	1258.1.1 = {
+		add_pressed_claim = title:k_maghreb
+		add_pressed_claim = title:d_rif
+		effect = {
+			set_realm_capital = title:c_fes
+		}
+	}
+	1260.1.1 = {
+		add_pressed_claim = title:d_marrakesh
+		add_pressed_claim = title:c_marrakesh
+		add_pressed_claim = title:e_maghreb
+		remove_claim = title:k_maghreb
+		spawn_marinid_troops_effect = yes
+	}
+	1286.3.20 = {
+		death = "1286.3.20"
+	}
+}
+
+marinid_female_004 = {
+	name = "'Ariba"
+	female = yes
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 32997
+	1239.1.1 = {
+		birth = yes
+	}
+	1310.1.1 = {
+		death = yes
+	}
+}
+
+## Yusuf al-Nasir li-al-Din-Allah and his descendants
+32998 = {
+	name = "Yusuf al-Nasir" #Mauretania 1286-1307
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 32997
+	trait = education_diplomacy_4
+	trait = fickle
+	trait = just
+	trait = diligent
+	1240.1.1 = {
+		birth = "1240.1.1"
+	}
+	1286.3.20 = {
+		add_pressed_claim = title:d_tlemcen
+	}
+	1307.5.13 = {
+		death = {
+			death_reason = death_assassination
+		}
+	}
+}
+
+marinid_017 = {
+	name = "Abu 'Amir 'Abdallah"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 32998
+	1273.9.12 = {
+		birth = yes
+	}
+	1304.1.1 = { # Probably predeceased 'Amir
+		death = yes
+	}
+}
+
+33000 = {
+	name = "'Amir" #1307-1308
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = marinid_017
+	1287.1.1 = {
+		birth = yes
+	}
+	1307.5.13 = {
+		add_pressed_claim = title:d_tlemcen
+	}
+	1308.7.28 = {
+		death = {
+			death_reason = death_ill
+		}
+	}
+}
+
+33001 = {
+	name = "Sulayman" #1308-1310 AKA: Abu al-Rabi' Sulayman
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = marinid_017
+	trait = compassionate
+	trait = just
+	trait = chaste # He got no heir from his loins :(
+	trait = education_diplomacy_3
+	disallow_random_traits = yes
+	1289.3.1 = {
+		birth = yes
+	}
+	1308.7.28 = {
+		add_pressed_claim = title:d_tlemcen
+	}
+	1310.11.23 = {
+		death = {
+			death_reason = death_ill
+		}
+	}
+}
+
+marinid_018 = {
+	name = "al-Rabi" 
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33001
+	1306.3.1 = {
+		birth = yes
+	}
+	1309.1.1 = { # Let's assume Sulayman's only heir predeceased him
+		death = {
+			death_reason = death_ill
+		}
+	}
+}
+
+33002 = {
+	name = "Uthman al-Sa'id" #1310-1331
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 32998
+	1276.12.1 = {
+		birth = yes
+	}
+	1310.11.23 = {
+		add_pressed_claim = title:d_tlemcen
+	}
+	1331.8.1 = {
+		death = yes
+	}
+}
+
+33003 = {
+	name = "'Ali"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 32998
+	1274.1.1 = {
+		birth = yes
+	}
+	1332.1.1 = {
+		death = yes
+	}
+}
+
+33005 = {
+	name = "Abu 'Ali 'Umar"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33002
+	trait = ambitious
+	trait = impatient
+	trait = brave
+	trait = education_martial_2
+	1295.1.1 = {
+		birth = yes
+	}
+	1362.1.1 = {
+		death = yes
+	}
+}
+
+marinid_021 = {
+	name = "Mansur"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33002
+	1296.1.1 = {
+		birth = yes
+	}
+	1365.1.1 = {
+		death = yes
+	}
+}
+
+33004 = {
+	name = "Abu-al-Hasan 'Ali al-Mansur" #1331-1351
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33002
+	1297.1.1 = {
+		birth = "1297.1.1"
+	}
+	1331.8.1 = {
+		add_pressed_claim = title:d_tlemcen
+	}
+	1351.5.24 = {
+		death = "1351.5.24"
+	}
+}
+
+######END######
+
+marinid_019 = {
+	name = "Uthman"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 32997
+	1247.1.1 = {
+		birth = yes
+	}
+	1310.1.1 = {
+		death = yes
+	}
+}
+
+marinid_020 = {
+	name = "'Abd-al-Wahid"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 32997
+	1247.1.1 = {
+		birth = yes
+	}
+	1310.1.1 = {
+		death = yes
+	}
+}
+
+# 'Ali al-Mansur and his descendants
+33006 = {
+	name = "Ali"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33004
+	1315.1.1 = {
+		birth = "1315.1.1"
+	}
+	1350.1.1 = {
+		death = "1350.1.1"
+	}
+}
+
+33007 = {
+	name = "Abu 'Inan Faris"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33004
+	1329.1.1 = {
+		birth = yes
+	}
+	1358.1.10 = {
+		death = yes
+	}
+}
+
+33008 = {
+	name = "Muhammad al-Mas'ud billah"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33004
+	1322.1.1 = {
+		birth = yes
+	}
+	1377.1.1 = {
+		death = yes
+	}
+}
+
+marinid_022 = {
+	name = "'Abd-al-Wahid"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33004
+	1323.1.1 = {
+		birth = yes
+	}
+	1377.1.1 = {
+		death = yes
+	}
+}
+
+marinid_023 = {
+	name = "'Abd-al-Haqq"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33004
+	1324.1.1 = {
+		birth = yes
+	}
+	1377.1.1 = {
+		death = yes
+	}
+}
+
+33009 = {
+	name = "Ibrahim al-Musta'in"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33004
+	1325.1.1 = {
+		birth = yes
+	}
+	1361.1.1 = {
+		death = yes
+	}
+}
+
+marinid_024 = {
+	name = "Abu 'Ali al-Nasir"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33004
+	1326.1.1 = {
+		birth = yes
+	}
+	1380.1.1 = {
+		death = yes
+	}
+}
+
+marinid_025 = {
+	name = "Abu 'Amir Abdallah"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33004
+	1327.1.1 = {
+		birth = yes
+	}
+	1377.1.1 = {
+		death = yes
+	}
+}
+
+marinid_026 = {
+	name = "Ahmad"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33004
+	1330.1.1 = {
+		birth = yes
+	}
+	1380.1.1 = {
+		death = yes
+	}
+}
+
+marinid_027 = {
+	name = "Abu'l-Fadl"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33004
+	1331.1.1 = {
+		birth = yes
+	}
+	1380.1.1 = {
+		death = yes
+	}
+}
+
+marinid_028 = {
+	name = "Yusuf"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33004
+	1332.1.1 = {
+		birth = yes
+	}
+	1390.1.1 = {
+		death = yes
+	}
+}
+
+marinid_029 = {
+	name = "Muhammad al-Mustansir billah"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33004
+	1335.1.1 = {
+		birth = yes
+	}
+	1390.1.1 = {
+		death = yes
+	}
+}
+
+marinid_030 = {
+	name = "Tashufin" # Marinid Sultan
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33004
+	1336.1.1 = {
+		birth = yes
+	}
+	1390.1.1 = {
+		death = yes
+	}
+}
+
+marinid_031 = {
+	name = "Mas'ud"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33004
+	1337.1.1 = {
+		birth = yes
+	}
+	1390.1.1 = {
+		death = yes
+	}
+}
+
+marinid_032 = {
+	name = "Da_ud"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33004
+	1338.1.1 = {
+		birth = yes
+	}
+	1390.1.1 = {
+		death = yes
+	}
+}
+
+33011 = {
+	name = "'Abd-al-'Aziz"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33004
+	1339.1.1 = {
+		birth = yes
+	}
+	1372.1.1 = {
+		death = yes
+	}
+}
+
+marinid_044 = {
+    name = "'Abdallah"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33011
+	1350.1.1 = {
+		birth = yes
+	}
+	1420.1.1 = {
+		death = yes
+	}
+}
+marinid_045 = {
+    name = "Muhammad"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33011
+	1360.1.1 = {
+		birth = yes
+	}
+	1420.1.1 = {
+		death = yes
+	}
+}
+marinid_046 = {
+    name = "Muhammad al-Sa'id" # Marinid Sultan
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33011
+	1368.1.1 = {
+		birth = yes
+	}
+	1374.1.1 = {
+		death = yes
+	}
+}
+# Ibrahim al-Musta'in and his descendants
+marinid_047 = {
+    name = "Ahmad al-Mustansir" # Marinid Sultan
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33009
+	1340.1.1 = {
+		birth = yes
+	}
+	1393.1.1 = {
+		death = yes
+	}
+}
+marinid_048 = {
+    name = "Abu'l-Fadl Muhammad"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33009
+	1341.1.1 = {
+		birth = yes
+	}
+	1400.1.1 = {
+		death = yes
+	}
+}
+marinid_049 = {
+    name = "Muhammad"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33009
+	1343.1.1 = {
+		birth = yes
+	}
+	1400.1.1 = {
+		death = yes
+	}
+}
+marinid_050 = {
+    name = "Muhammad"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33009
+	1344.1.1 = {
+		birth = yes
+	}
+	1400.1.1 = {
+		death = yes
+	}
+}
+######END######
+
+# Ahmad al-Mustansir and his descendants
+marinid_051 = {
+    name = "Abu 'Ali"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = marinid_047
+	1360.1.1 = {
+		birth = yes
+	}
+	1420.1.1 = {
+		death = yes
+	}
+}
+marinid_052 = {
+    name = "Abu'l-Ghayt"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = marinid_047
+	1361.1.1 = {
+		birth = yes
+	}
+	1420.1.1 = {
+		death = yes
+	}
+}
+marinid_053 = {
+    name = "Muhammad al-Wathiq billah"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = marinid_047
+	1362.1.1 = {
+		birth = yes
+	}
+	1387.1.1 = {
+		death = yes
+	}
+}
+marinid_054 = {
+    name = "Abd-al-'Aziz al-Mustansir"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = marinid_047
+	1375.1.1 = {
+		birth = yes
+	}
+	1396.1.1 = {
+		death = yes
+	}
+}
+marinid_055 = {
+    name = "'Abdallah al-Mustansir"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = marinid_047
+	1378.1.1 = {
+		birth = yes
+	}
+	1398.1.1 = {
+		death = yes
+	}
+}
+marinid_056 = {
+    name = "Abu Sa'id Uthman" # Marinid Sultan
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = marinid_047
+	1383.1.1 = {
+		birth = yes
+	}
+	1420.10.21 = {
+		death = yes
+	}
+}
+marinid_057 = {
+    name = "'Abd-al-Rahman"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = marinid_047
+	1384.1.1 = {
+		birth = yes
+	}
+	1430.1.1 = {
+		death = yes
+	}
+}
+marinid_058 = {
+    name = "Muhammad"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = marinid_047
+	1385.1.1 = {
+		birth = yes
+	}
+	1430.1.1 = {
+		death = yes
+	}
+}
+marinid_059 = {
+    name = "'Abd-al-Haqq" # Last Marinid Sultan
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = marinid_055
+	1419.1.1 = {
+		birth = yes
+	}
+	1465.8.14 = {
+		death = yes
+	}
+}
+######END######
+33010 = {
+	name = "Ya_qub"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33004
+	1340.1.1 = {
+		birth = yes
+	}
+	1366.1.1 = {
+		death = yes
+	}
+}
+
+marinid_032 = {
+	name = "Abu Ghalib Muhammad"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33004
+	1341.1.1 = {
+		birth = yes
+	}
+	1390.1.1 = {
+		death = yes
+	}
+}
+
+# Abu 'Inan Faris and his descendants
+marinid_033 = {
+    name = "Muhammad al-Wathiq billah"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33007
+	1342.1.1 = {
+		birth = yes
+	}
+	1390.1.1 = {
+		death = yes
+	}
+}
+
+marinid_034 = {
+    name = "Muhammad al-Muktafi billah"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33007
+	1343.1.1 = {
+		birth = yes
+	}
+	1390.1.1 = {
+		death = yes
+	}
+}
+
+marinid_035 = {
+    name = "Muhammad al-Muktafi billah"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33007
+	1344.1.1 = {
+		birth = yes
+	}
+	1390.1.1 = {
+		death = yes
+	}
+}
+
+marinid_036 = {
+    name = "Muhammad al-Mustansir billah"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33007
+	1346.1.1 = {
+		birth = yes
+	}
+	1390.1.1 = {
+		death = yes
+	}
+}
+
+marinid_037 = {
+    name = "Abu_Zayyan_Muhammad" # Marinid Sultan, fictional Wattasid ancestor to make them related to the Marinids
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33007
+	1348.1.1 = {
+		birth = yes
+	}
+	1366.1.1 = {
+		death = yes
+	}
+}
+
+marinid_038 = {
+    name = "Abu_Bakr_al_Sa_id"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33007
+	1349.1.1 = {
+		birth = yes
+	}
+	1359.1.1 = {
+		death = yes
+	}
+}
+
+marinid_039 = {
+    name = "Musa al-Mutawakkil"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33007
+	1350.1.1 = {
+		birth = yes
+	}
+	1386.1.1 = {
+		death = yes
+	}
+}
+
+marinid_040 = {
+    name = "Muhammad al-Mahdi billah"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33007
+	1351.1.1 = {
+		birth = yes
+	}
+	1390.1.1 = {
+		death = yes
+	}
+}
+
+marinid_041 = {
+    name = "Muhammad al-Mu'tamid 'alallah"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33007
+	1352.1.1 = {
+		birth = yes
+	}
+	1390.1.1 = {
+		death = yes
+	}
+}
+
+marinid_042 = {
+    name = "Muhammad al-Mu'tasim billah"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33007
+	1353.1.1 = {
+		birth = yes
+	}
+	1390.1.1 = {
+		death = yes
+	}
+}
+
+marinid_043 = {
+    name = "Muhammad Abu Tariq"
+	dynasty = 101732
+	religion = "ashari"
+	culture = baranis
+	father = 33007
+	1354.1.1 = {
+		birth = yes
+	}
+	1390.1.1 = {
+		death = yes
+	}
+}

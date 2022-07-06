@@ -1,0 +1,20 @@
+ardo = {
+	name = "Ardo"
+	dynasty = house_ardonusing
+	martial = 5
+	diplomacy = 7
+	intrigue = 3
+	stewardship = 5
+	religion = "catholic"
+	culture = "visigothic"
+	trait = education_martial_2
+	trait = brave
+	trait = stubborn
+	trait = ambitious
+	684.1.1 = { # Fictional
+		birth = yes
+	}
+	721.1.1 = {
+		death = yes
+	}
+}

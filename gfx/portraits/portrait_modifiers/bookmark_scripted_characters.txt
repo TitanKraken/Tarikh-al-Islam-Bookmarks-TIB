@@ -1,0 +1,207 @@
+﻿# We can use these modifiers for adding specific headgear to historical and vanity characters
+
+almohad_headwear = {
+
+    usage = game
+    selection_behavior = max
+    priority = 10
+
+    almohad_headwear = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = fp2_muslim_common
+                value = 0.5  # For the randomness to work correctly
+            }
+        }   
+        weight = {
+			base = 0
+            modifier = {
+				add = 50
+				exists = this
+				exists = character:32978 # Abd-al-Mu'min Almohad
+                this = character:32978
+			}
+			modifier = {
+				add = 50
+				exists = this
+				exists = character:tariq_the_conquerer
+                this = character:tariq_the_conquerer
+			}
+		}
+    }
+}
+
+moorish_headwear = {
+
+    usage = game
+    selection_behavior = max
+    priority = 10
+
+    moorish_headwear = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = fp2_muslim_high_nobility
+                value = 0.5 # For the randomness to work correctly
+            }
+        }   
+        weight = {
+			base = 0
+            modifier = {
+				add = 50
+				exists = this
+				exists = character:32971 # Tashfin Almoravid
+                this = character:32971
+			}
+			modifier = {
+			add = 1000
+				exists = this				
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						OR = {
+							has_title = title:d_masmudi
+							has_title = title:e_maghreb
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						NOT = { has_government = republic_government }
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								has_title = title:d_masmudi
+								has_title = title:e_maghreb
+							}
+							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { has_government = republic_government }	
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+almohad_leader_clothes = {
+    usage = game
+    almohad_leader_clothes = {
+        dna_modifiers = {
+            accessory = {
+				mode = add
+				gene = clothes
+				template = fp2_muslim_war_nobility_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+				template = bust_clothes
+			}
+        }   
+        weight = {
+			base = 0
+            modifier = {
+				add = 50
+				exists = this
+				exists = character:32978 # Abd-al-Mu'min Almohad
+                this = character:32978
+			}
+		}
+    }
+}
+
+pious_muslim_leader_clothes = {
+    usage = game
+    pious_muslim_leader_clothes = {
+        dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = fp2_muslim_low_nobility_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+				template = bust_clothes
+			}
+		}
+        weight = {
+			base = 0
+            modifier = {
+				add = 50
+				exists = this
+				exists = character:32971 # Tashfin Almoravid
+                this = character:32971
+			}
+			modifier = {
+			add = 1000
+				exists = this				
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						OR = {
+							has_title = title:d_masmudi
+							has_title = title:e_maghreb
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						NOT = { has_government = republic_government }
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								has_title = title:d_masmudi
+								has_title = title:e_maghreb
+							}
+							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							NOT = { has_government = republic_government }	
+						}
+					}
+				}
+			}
+		}
+	}
+}

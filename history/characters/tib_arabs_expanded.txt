@@ -1,0 +1,286 @@
+﻿# al-Thaqafi (From Ta'if)
+yusuf_al_thaqafi_old = {
+	name = "Yusuf"
+	dynasty = al_thaqafi
+	religion = "ashari"
+	culture = "bedouin"
+	568.1.1 = {
+		birth = yes
+	}
+	631.1.1 = {
+		death = yes
+	}
+}
+
+al_hajjaj_al_thaqafi = {
+	name = "al-Hajjaj"
+	dynasty = al_thaqafi
+	religion = "ashari"
+	culture = "bedouin"
+	661.1.1 = {
+		birth = yes
+	}
+	714.1.1 = {
+		death = yes
+	}
+}
+muhammad_al_thaqafi = {
+	name = "Muhammad"
+	dynasty = al_thaqafi
+	religion = "ashari"
+	culture = "bedouin"
+	father = yusuf_al_thaqafi_old
+	trait = diligent
+	651.1.1 = {
+		birth = yes
+	}
+	714.1.1 = {
+		death = yes
+	}
+}
+
+umm_al_hajjaj = {
+	name = "Umm al-Hajjaj"
+    female = yes
+	dynasty = al_thaqafi
+	religion = "ashari"
+	culture = "bedouin"
+	father = muhammad_al_thaqafi
+	671.1.1 = {
+		birth = yes
+	}
+	734.1.1 = {
+		death = yes
+	}
+}
+
+yusuf_al_thaqafi = { #Governor of Medina probably after coronation of Caliph Umar II
+	name = "Yusuf"
+	dynasty = al_thaqafi
+	religion = "ashari"
+	culture = "bedouin"
+	father = muhammad_al_thaqafi
+	677.1.1 = {
+		birth = yes
+	}
+	740.1.1 = {
+		death = yes
+	}
+}
+
+umar_al_thaqafi = { # Fictional Governor of Yemen 
+	name = "Umar"
+	dynasty = al_thaqafi
+	religion = "ashari"
+	culture = "bedouin"
+	677.1.1 = {
+		birth = yes
+	}
+	740.1.1 = {
+		death = yes
+	}
+}
+
+yusuf_ibn_umar_al_thaqafi = {
+	name = "Yusuf"
+	dynasty = al_thaqafi
+	religion = "ashari"
+	culture = "bedouin"
+	father = umar_al_thaqafi
+	698.1.1 = {
+		birth = yes
+	}
+	761.1.1 = {
+		death = yes
+	}
+}
+
+#Governor of Khorasan
+qutayba_bahili = {
+	name = "Qutayba"
+	dynasty = tribe_bahili
+	religion = ashari
+	culture = bedouin
+	father = muslim_bahili
+	
+	trait = education_martial_4
+	trait = education_stewardship_3
+	trait = diligent
+	trait = brave
+	trait = just
+	trait = intellect_good_1
+	martial = 10
+	stewardship = 9
+	prowess = 10
+	
+	669.4.17 = {
+		birth = yes
+	}
+	715.9.22 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+muslim_bahili = {
+	name = "Muslim"
+	dynasty = tribe_bahili
+	religion = ashari
+	culture = bedouin
+	father = amr_bahili
+	trait = education_martial_4
+	trait = diligent
+	trait = brave
+	trait = trusting
+	martial = 10
+	prowess = 10
+	
+	637.7.4 = { # Fictional
+		birth = yes
+	}
+	691.10.17 = { # My guess
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+amr_bahili = {
+	name = "Amr"
+	dynasty = tribe_bahili
+	religion = ashari
+	culture = bedouin
+	
+	602.1.1 = { # Fictional
+		birth = yes
+	}
+	649.1.1 = { # Fictional
+		death = yes
+	}
+}
+
+# Levant
+antioch_arab001 = {
+	name = "Yuhanna"
+	religion = orthodox
+	culture = levantine
+	
+	669.1.1 = { # Fictional
+		birth = yes
+	}
+	730.1.1 = { # Fictional
+		death = yes
+	}
+}
+
+maslama_umayyad = {
+	name = "Maslama"
+	dynasty_house = house_Umayyad # 597
+	religion = ashari
+	culture = bedouin
+	father = 163002
+	sexuality = heterosexual
+	trait = sayyid
+	trait = child_of_concubine_female
+	#trait = disinherited
+	trait = brave
+	trait = diligent
+	trait = content
+	trait = education_martial_4
+	
+	694.1.1 = { # Fictional
+		birth = yes
+	}
+	738.12.24 = {
+		death = yes
+	}
+}
+
+asir_chief001 = {
+	name = "Faruq"
+	dynasty = tribe_asir
+	religion = ashari
+	culture = bedouin
+	trait = brave
+	trait = education_martial_2
+	
+	687.1.1 = { # Fictional
+		birth = yes
+	}
+	732.1.1 = { # Fictional
+		death = yes
+	}
+}
+
+mudrik_muhallabi = {
+	name = "Mudrik"
+	dynasty = 1048001 # Muhallabid
+	religion = ashari
+	culture = bedouin
+	father = 210001
+	trait = brave
+	trait = gregarious
+	trait = trusting
+	trait = education_martial_3
+	
+	667.1.1 = { # Fictional
+		birth = yes
+	}
+	730.1.1 = { # Fictional
+		death = yes
+	}
+}
+
+# Misr/Egypt Governors
+abd_al_malik_al_fahmi = {
+	name = "Abd-al-Malik al-Fahmi"
+	religion = "ashari"
+	culture = "bedouin"
+	father = rifaa
+	677.1.1 = {
+		birth = yes
+	}
+	727.1.1 = {
+		death = yes
+	}
+}
+
+rifaa = {
+	name = "RifA__a"
+	religion = "ashari"
+	culture = "bedouin"
+	630.1.1 = {
+		birth = yes
+	}
+	680.1.1 = {
+		death = yes
+	}
+}
+
+# Random vassals/governors/placeholders
+syrte_berber_vassal_001 = {
+	name = "Qutaiba"
+	religion = ashari
+	culture = butr
+	
+	687.1.1 = { # Fictional
+		birth = yes
+	}
+	730.1.1 = { # Fictional
+		death = yes
+	}
+}
+oman_vassal_001 = {
+	name = "Abdul_Qadir"
+	dynasty = 1042181 # Banu 'Azd of Oman
+	religion = ibadi
+	culture = bedouin
+	
+	685.1.1 = { # Fictional
+		birth = yes
+	}
+	730.1.1 = { # Fictional
+		death = yes
+	}
+}

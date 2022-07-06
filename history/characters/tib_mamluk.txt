@@ -1,0 +1,45 @@
+﻿# Burji Dynasty
+burji_001 = {
+	name = "Barquq"
+	dynasty = house_Burji
+	religion = "ashari"
+	culture = mamluk
+	1336.1.1 = {
+		birth = yes
+	}
+	1399.6.20 = {
+		death = yes
+	}
+}
+burji_002 = {
+	name = "al-Nasir Faraj"
+	dynasty = house_Burji
+	religion = "ashari"
+	culture = mamluk
+    father = burji_001
+    trait = craven
+    trait = callous
+    trait = arrogant
+    trait = arbitrary
+	1386.1.1 = {
+		birth = yes
+	}
+	1412.5.23 = {
+		death = {
+            death_reason = death_assassination
+        }
+	}
+}
+burji_003 = {
+	name = "'Izz al-Din 'Abd al-'Aziz"
+	dynasty = house_Burji
+	religion = "ashari"
+	culture = mamluk
+    father = burji_001
+	1389.1.1 = {
+		birth = yes
+	}
+	1406.9.20 = {
+		death = yes
+	}
+}

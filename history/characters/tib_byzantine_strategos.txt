@@ -1,0 +1,119 @@
+﻿strategos001 = {
+    name = "Arcadius"
+	dynasty = house_hellas
+	martial = 9
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 5
+	religion = "orthodox"
+	culture = "greek"
+	trait = education_martial_4
+	trait = brave
+	674.1.1 = {
+		birth = yes
+	}
+	729.1.1 = {
+		death = yes
+	}
+}
+
+strategos002 = {
+    name = "Leonidas"
+	dynasty = house_achaia
+	martial = 6
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 5
+	religion = "orthodox"
+	culture = "greek"
+	trait = education_martial_3
+	trait = brave
+	673.1.1 = {
+		birth = yes
+	}
+	727.1.1 = {
+		death = yes
+	}
+}
+
+strategos003 = {
+    name = "Philippikos"
+	dynasty = house_krete
+	martial = 7
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 5
+	religion = "orthodox"
+	culture = "greek"
+	trait = education_martial_3
+	trait = brave
+	676.1.1 = {
+		birth = yes
+	}
+	731.1.1 = {
+		death = yes
+	}
+}
+
+strategos004 = {
+    name = "Christophoros"
+	dynasty = house_thracesia
+	martial = 7
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 5
+	religion = "orthodox"
+	culture = "greek"
+	trait = education_martial_4
+	trait = brave
+	675.1.1 = {
+		birth = yes
+	}
+	730.1.1 = {
+		death = yes
+	}
+}
+
+strategos005 = {
+    name = "Konstantios"
+	dynasty = house_rhodos
+	martial = 7
+	diplomacy = 2
+	intrigue = 5
+	stewardship = 3
+	religion = "orthodox"
+	culture = "greek"
+	trait = education_martial_2
+	trait = brave
+	trait = stubborn
+	670.1.1 = {
+		birth = yes
+	}
+	729.1.1 = {
+		death = yes
+	}
+}
+
+strategos006 = {
+	name = "Teodor"
+	religion = "orthodox"
+	culture = "greek"
+	667.1.1 = {
+		birth = yes
+	}
+	729.1.1 = {
+		death = yes
+	}
+}
+
+strategos007 = {
+	name = "Andrija"
+	religion = "orthodox"
+	culture = "greek"
+	669.1.1 = {
+		birth = yes
+	}
+	730.1.1 = {
+		death = yes
+	}
+}

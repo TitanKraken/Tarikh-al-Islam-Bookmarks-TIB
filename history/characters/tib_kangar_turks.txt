@@ -1,0 +1,147 @@
+﻿# Kangar Khans
+kangar_001 = {
+	name = "Kengars"
+	dynasty = house_Kangar
+	religion = "tengri_pagan"
+	culture = pecheneg
+	619.1.1 = {
+		birth = yes
+	}
+	673.1.1 = {
+		death = yes
+	}
+}
+kangar_002 = {
+	name = "Bator"
+	dynasty = house_Kangar
+	religion = "tengri_pagan"
+	culture = pecheneg
+    father = kangar_001
+	653.1.1 = {
+		birth = yes
+	}
+	703.1.1 = {
+		death = yes
+	}
+}
+kangar_003 = {
+	name = "Balgor"
+	dynasty = house_Kangar
+	religion = "tengri_pagan"
+	culture = pecheneg
+    father = kangar_002
+	685.1.1 = {
+		birth = yes
+	}
+	750.1.1 = {
+		death = yes
+	}
+}
+
+kuman_001 = {
+	name = "Uzur"
+	religion = "tengri_pagan"
+	culture = cuman
+	617.1.1 = {
+		birth = yes
+	}
+	673.1.1 = {
+		death = yes
+	}
+}
+kuman_002 = {
+	name = "Kozel"
+	religion = "tengri_pagan"
+	culture = cuman
+    father = kuman_001
+	655.1.1 = {
+		birth = yes
+	}
+	703.1.1 = {
+		death = yes
+	}
+}
+kuman_003 = {
+	name = "TO_rtogul"
+	religion = "tengri_pagan"
+	culture = cuman
+    father = kuman_002
+	685.1.1 = {
+		birth = yes
+	}
+	750.1.1 = {
+		death = yes
+	}
+}
+
+cuman_001 = {
+	name = "Ovlur"
+	religion = "tengri_pagan"
+	culture = cuman
+	617.1.1 = {
+		birth = yes
+	}
+	673.1.1 = {
+		death = yes
+	}
+}
+cuman_002 = {
+	name = "Tolun"
+	religion = "tengri_pagan"
+	culture = cuman
+    father = cuman_001
+	655.1.1 = {
+		birth = yes
+	}
+	703.1.1 = {
+		death = yes
+	}
+}
+cuman_003 = {
+	name = "Gzak"
+	religion = "tengri_pagan"
+	culture = cuman
+    father = cuman_002
+	685.1.1 = {
+		birth = yes
+	}
+	750.1.1 = {
+		death = yes
+	}
+}
+
+kimek_001 = {
+	name = "Taz"
+	religion = "tengri_pagan"
+	culture = kimek
+	617.1.1 = {
+		birth = yes
+	}
+	673.1.1 = {
+		death = yes
+	}
+}
+kimek_002 = {
+	name = "Gzak"
+	religion = "tengri_pagan"
+	culture = kimek
+    father = kimek_001
+	655.1.1 = {
+		birth = yes
+	}
+	703.1.1 = {
+		death = yes
+	}
+}
+kimek_003 = {
+	name = "Blush"
+	religion = "tengri_pagan"
+	culture = kimek
+    father = kimek_002
+	685.1.1 = {
+		birth = yes
+	}
+	750.1.1 = {
+		death = yes
+	}
+}

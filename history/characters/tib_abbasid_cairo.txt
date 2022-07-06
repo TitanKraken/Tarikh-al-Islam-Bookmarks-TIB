@@ -1,0 +1,304 @@
+﻿line_of_al_Hakim_001 = {
+    name = "Ali"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = levantine
+	father = 144060
+	trait = sayyid
+	1119.1.1 = {
+		birth = yes
+	}
+	1168.1.1 = {
+		death = yes
+	}
+}
+
+line_of_al_Hakim_002 = {
+    name = "Hasan"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = levantine
+	father = line_of_al_Hakim_001
+	trait = sayyid
+	1144.1.1 = {
+		birth = yes
+	}
+	1193.1.1 = {
+		death = yes
+	}
+}
+
+line_of_al_Hakim_003 = {
+    name = "Abu_Bakr"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = levantine
+	father = line_of_al_Hakim_002
+	trait = sayyid
+	1169.1.1 = {
+		birth = yes
+	}
+	1216.1.1 = {
+		death = yes
+	}
+}
+
+line_of_al_Hakim_004 = {
+    name = "Abu Ali"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = levantine
+	father = line_of_al_Hakim_003
+	trait = sayyid
+	1194.1.1 = {
+		birth = yes
+	}
+	1261.1.1 = {
+		death = yes
+	}
+}
+
+34033 = {
+	name = "Ahmad al-Hakim"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = levantine
+	father = line_of_al_Hakim_004
+	trait = sayyid
+	1247.1.1 = {
+		birth = yes
+	}
+	1302.1.19 = {
+		death = yes
+	}
+}
+
+34034 = {
+	name = "Sulayman al-Mustakfi"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = levantine
+	father = 34033
+	trait = sayyid
+	1285.3.23 = {
+		birth = yes
+	}
+	1340.2.1 = {
+		death = yes
+	}
+}
+
+34035 = {
+	name = "Ahmad"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = levantine
+	father = 34033
+	trait = sayyid
+	1290.1.1 = {
+		birth = yes
+	}
+	1340.1.1 = {
+		death = yes
+	}
+}
+
+34036 = {
+	name = "al-Wathiq"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = levantine
+	father = 34035
+	trait = sayyid
+	1310.1.1 = {
+		birth = yes
+	}
+	1341.1.1 = {
+		death = yes
+	}
+}
+
+cairo_abbasid_007 = {
+    name = "Zakariya al-Musta'sim"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = levantine
+	father = 34036
+	trait = sayyid
+	1330.1.1 = {
+		birth = yes
+	}
+	1389.1.1 = {
+		death = yes
+	}
+}
+
+cairo_abbasid_008 = {
+    name = "al-Wathiq" # AKA: al-Wathiq II
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = levantine
+	father = 34035
+	trait = sayyid
+	1350.1.1 = {
+		birth = yes
+	}
+	1386.11.13 = {
+		death = yes
+	}
+}
+
+34037 = {
+	name = "al-Hakim" # AKA: al-Hakim II
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = levantine
+	father = 34034
+	trait = sayyid
+	1302.1.1 = {
+		birth = yes
+	}
+	1352.1.1 = {
+		death = yes
+	}
+}
+
+34038 = {
+	name = "al-Mu_tadid"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = levantine
+	father = 34034
+	trait = sayyid
+	1305.1.1 = {
+		birth = yes
+	}
+	1362.1.1 = {
+		death = yes
+	}
+}
+
+34039 = {
+	name = "al-Mutawakkil"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = levantine
+	father = 34038
+	trait = sayyid
+	1335.1.1 = {
+		birth = yes
+	}
+    1360.1.1 = {
+        add_spouse = cairo_abbasid_female_001
+    }
+	1406.1.9 = {
+		death = yes
+	}
+}
+
+cairo_abbasid_001 = {
+    name = "al-Mu_tadid"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = levantine
+	father = 34039
+	trait = sayyid
+	1382.1.1 = {
+		birth = yes
+	}
+	1441.7.23 = {
+		death = yes
+	}
+}
+
+cairo_abbasid_002 = {
+    name = "al-Mustakfi"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = levantine
+	father = 34039
+    mother = cairo_abbasid_female_001
+	trait = sayyid
+	1388.1.1 = {
+		birth = yes
+	}
+	1451.1.29 = {
+		death = yes
+	}
+}
+
+cairo_abbasid_003 = {
+    name = "Hamza al-Qa'im"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = levantine
+	father = 34039
+    mother = cairo_abbasid_female_001
+	trait = sayyid
+	1389.1.1 = {
+		birth = yes
+	}
+	1458.1.1 = {
+		death = yes
+	}
+}
+
+cairo_abbasid_004 = {
+    name = "Yusuf al-Mustanjid"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = levantine
+	father = 34039
+	trait = sayyid
+	1406.1.1 = {
+		birth = yes
+	}
+	1479.4.7 = {
+		death = yes
+	}
+}
+
+cairo_abbasid_005 = {
+    name = "Abbas al-Musta'in"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = levantine
+	father = 34039
+    mother = cairo_abbasid_female_001
+	trait = sayyid
+	1390.2.1 = {
+		birth = yes
+	}
+	1430.3.1 = {
+		death = yes
+	}
+}
+
+cairo_abbasid_006 = {
+    name = "Ya_qub"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = levantine
+	father = 34039
+	trait = sayyid
+	1385.1.1 = {
+		birth = yes
+	}
+	1445.1.1 = {
+		death = yes
+	}
+}
+
+# Wives/Concubines
+cairo_abbasid_female_001 = {
+    name = "Bay Khatun"
+	female = yes
+	religion = "ashari"
+	culture = mamluk
+	1335.1.1 = {
+		birth = yes
+	}
+	1405.1.1 = {
+		death = yes
+	}
+}

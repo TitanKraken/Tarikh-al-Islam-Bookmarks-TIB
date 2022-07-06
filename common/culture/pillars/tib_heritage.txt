@@ -1,0 +1,3 @@
+heritage_east_germanic = {
+	type = heritage
+}

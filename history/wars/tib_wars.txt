@@ -1,0 +1,271 @@
+﻿
+###715###
+# Umayyad Conquest
+war = {
+	name = "muslim_siege_of_constaninople"
+	start_date = 711.1.1
+	end_date = 717.1.1
+	targeted_titles = {
+		k_thessalonika
+	}
+	casus_belli = major_religious_war
+	attackers = { 163033 }
+	defenders = { 70504 }
+}
+
+# Byzantine Revolt 715
+war = {
+	name = "opsikion_revolt"
+	start_date = 715.2.20
+	end_date = 716.1.1
+	targeted_titles = {
+		e_byzantium
+		c_byzantion
+	}
+	casus_belli = claim_cb
+	attackers = { komes_opsikiou gothograeci001 strategos005 }
+	defenders = { 70504 }
+	claimant = 70532
+}
+
+war = {
+	name = "frankish_civil_war"
+	start_date = 715.2.20
+	end_date = 716.1.1
+	targeted_titles = {
+		d_anjou
+        d_normandy
+        d_flanders
+	}
+	casus_belli = claim_cb
+	attackers = { ragenfrid_neustria }
+	defenders = { 190424 }
+	claimant = ragenfrid_neustria
+}
+
+# Las Navas de Tolosa, 1212
+war = {
+	name = "almohad_conquest_of_toledo"
+	start_date = 1212.1.16
+	end_date = 1213.8.1
+	targeted_titles={
+		d_toledo
+		d_cordoba
+	}
+	casus_belli = major_religious_war
+	attackers = { 224005 }
+	defenders = { 207510 210501 206502 }
+}
+# German Throne Dispute
+war = {
+	name = "german_throne_dispute"
+	start_date = 1204.5.16
+	end_date = 1215.1.1
+	targeted_titles={
+		e_hre
+	}
+	casus_belli = claim_cb
+	attackers = { 212607 204514 }
+	defenders = { 212513 }
+	claimant = 212607
+}
+# Anglo-French War
+war = {
+	name = "anglo-french_territorial_dispute"
+	start_date = 1209.1.1
+	end_date = 1214.1.1
+	targeted_titles={
+		c_montaigu
+		c_thouars
+	}
+	casus_belli = county_conquest_cb
+	attackers = { 205506 }
+	defenders = { 204514 }
+}
+
+# Almohad Civil War
+war = {
+	name = "Almohad Civil War"
+	start_date = 1224.1.1
+	end_date = 1225.1.1
+	targeted_titles={
+		e_maghreb
+		k_maghreb
+		d_masmudi
+		d_marrakesh
+		c_marrakesh
+	}
+	casus_belli = claim_cb
+	attackers = { 32983 almohad0008 almohad0009 32985 } # Almohad Andalusia
+	defenders = { 32982 } # Abd-al-Wahid al-Makhlu
+	claimant = 32983 # al-'Adil
+}
+
+# Reconquista Attempts 1230s
+war = {
+	name = "Christian Conquest of Cordoba"
+	start_date = 1235.12.23
+	end_date = 1236.2.1
+	targeted_titles={
+		c_cordoba
+	}
+	casus_belli = minor_religious_war
+	attackers = { 457620 } # Fernando of Castille
+	defenders = { 32986 } # Cordoba ruler of the time
+}
+war = {
+	name = "Christian Conquest of Valencia"
+	start_date = 1235.12.23 # To make chaos early
+	end_date = 1238.1.1
+	targeted_titles={
+		d_valencia
+		c_valencia
+	}
+	casus_belli = religious_war
+	attackers = { 460600 } # Jaume of Aragon
+	defenders = { 32986 almohad0009 } # Almohad Caliph?, Valencia ruler of the time
+}
+
+# Almohad Jihad
+war = {
+	name = "Almohad Uprising"
+	start_date = 1144.1.1
+	end_date = 1147.1.1
+	targeted_titles={
+		k_maghreb
+		d_marrakesh
+		c_marrakesh
+		c_asfi
+		c_tamasna
+		c_tadla
+		c_fazaz
+		c_sous
+		c_agadir
+		c_ifni
+		c_draa
+		c_sijilmasa
+		c_ziz
+		c_tudgha
+	}
+	casus_belli = almohad_jihad_cb
+	attackers = { 32978 }
+	defenders = { 32971 }
+	claimant = 32978
+}
+
+#Portuguese Raid
+war = {
+	name = "Portuguese Invasion"
+	start_date = 1212.1.16
+	end_date = 1228.8.1
+	targeted_titles={
+		c_alcacer_do_sal
+	}
+	casus_belli = minor_religious_war
+	attackers = { 459560 }
+	defenders = { 224005 73609 }
+}
+
+#Lisbon Conquest
+war = {
+	name = "Portuguese Invasion of Lisbon"
+	start_date = 1144.1.1
+	end_date = 1147.10.25
+	targeted_titles={
+		c_lisboa
+	}
+	casus_belli = minor_religious_war
+	attackers = { 209503 }
+	defenders = { 32971 }
+}
+
+#Sicilian Conquest of Africa
+war = {
+	name = "Sicilian Conquest of Africa"
+	start_date = 1144.1.1
+	end_date = 1147.1.1
+	targeted_titles={
+		k_africa
+	}
+	casus_belli = major_religious_war
+	attackers = { 211502 }
+	defenders = { 3211 }
+}
+
+war = {
+	name = "Sicilian Conquest of Tripolitania"
+	start_date = 1144.1.1
+	end_date = 1147.1.1
+	targeted_titles={
+		d_tripolitania
+		d_syrte
+	}
+	casus_belli = religious_war
+	attackers = { 211502 }
+	defenders = { 155188 }
+}
+
+###1260###
+# Ain Jalut
+war = {
+	name = "Mongol Invasion of Egypt"
+	start_date = 1260.1.1
+	end_date = 1263.1.1
+	targeted_titles={
+		k_egypt
+		k_syria
+		k_jerusalem
+		k_arabia
+	}
+	casus_belli = mongol_invasion_war
+	attackers = { 478011 } # Hulegu Khan
+	defenders = { 32932 32933 144089 } # Sultan Qutuz, Baibars, al-Mansur Muhammad Ayyubid
+}
+
+# Toluid Civil War
+war = {
+	name = "Berke-Hulegu War"
+	start_date = 1260.1.1
+	end_date = 1264.1.1
+	targeted_titles = {
+		k_persia
+		k_mesopotamia
+		k_jazira
+		k_daylam
+		k_armenia
+	}
+	casus_belli = mongol_invasion_war
+	attackers = { 125504 } # Berke Khan
+	defenders = { 478011 } # Hulegu Khan
+}
+war = {
+	name = "Toluid Civil War"
+	start_date = 1260.1.1
+	end_date = 1264.1.1
+	targeted_titles={
+		e_mongol_empire
+		e_mongolia
+		k_mongolia
+	}
+	casus_belli = claim_cb
+	attackers = { 125526 125504 } # Ariq Boke, Berke Khan
+	defenders = { 217266 478011 93068 } # Kublai Khan, Hulegu Khan, Alghu (Should defect from Ariq in 1262)
+	claimant = 125526 # Ariq Boke
+}
+
+# Siege of Aleppo
+war = {
+	name = "Mongol Invasion of Aleppo"
+	start_date = 1260.1.1
+	end_date = 1264.1.1
+	targeted_titles={
+		d_aleppo
+        c_aleppo
+        c_syrrusafa
+        c_qinnasarin
+        c_suriya
+	}
+	casus_belli = mongol_invasion_war
+	attackers = { 478011 93462 } # Hulegu Khan
+	defenders = { 144082 } # an-Nasir Yusuf Ayyubid
+}

@@ -1,0 +1,51 @@
+﻿@correct_culture_primary_score = 100
+@better_than_the_alternatives_score = 50
+@always_primary_score = 1000
+
+# Arabia
+
+# Titular Empires
+e_bulgaria = {
+	color = { 113 88 101 }
+	color2 = { 255 255 255 }
+	capital = c_dorostorum # Preslav
+	definite_form = yes
+		
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:bulgarian
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+	can_create = {
+		trigger_if = {
+			limit = {
+				is_ai = yes
+			}
+			culture = culture:bulgarian
+		}
+	}
+}
+e_egypt = { # Misr
+	color = { 200 255 200 }
+	color2 = { 255 255 255 }
+	capital = c_cairo # Cairo
+	ruler_uses_title_name = no
+	#can_create_on_partition = { always = no }
+}
+
+e_kangar = {
+	color = { 145 105 55 }
+	color2 = { 255 255 255 }
+	capital = c_ulytau
+	definite_form = yes
+}
+e_avar = {
+	color = { 250 120 90 }
+	color2 = { 255 255 255 }
+	capital = c_visegrad
+	definite_form = yes
+	can_create_on_partition = { always = no }
+}

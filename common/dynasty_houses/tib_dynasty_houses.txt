@@ -1,0 +1,173 @@
+﻿# Banu Quraysh
+house_Abbasid = {
+	name = "Abbasid"
+	dynasty = tribe_quraysh
+}
+house_Umayyad = {
+	name = "Umayyad"
+	dynasty = tribe_quraysh
+}
+house_Hashimid = {
+	name = "Hashimid"
+	dynasty = tribe_quraysh
+	forced_coa_religiongroup = "muslim"
+}
+house_Ukhaidhirid = {
+	name = "Ukhaidhirid"
+	dynasty = tribe_quraysh
+}
+house_Idrisid = {
+	name = "Idrisid"
+	dynasty = tribe_quraysh
+}
+house_Fatimid = {
+    name = "Fatimid"
+    dynasty = tribe_quraysh
+}
+house_Rassid = {
+    name = "Rassid"
+    dynasty = tribe_quraysh
+}
+house_Alavid = {
+    name = "Alavid"
+    dynasty = tribe_quraysh
+}
+house_Hammudid = {
+    name = "Hammudid"
+    dynasty = tribe_quraysh
+}
+
+# Almohad
+house_tumert = {
+	name = dynn_Tumert
+	dynasty = 101875 # Almohad
+}
+
+house_almohad = {
+	name = dynn_Almohad
+	dynasty = 101875 # Almohad
+	motto = house_almohad_motto
+}
+
+house_ahl_ad_dar = {
+	name = dynn_Tumert
+	dynasty = 101875 # Almohad
+}
+
+house_gadmiwa = {
+	name = "Gadmiwa"
+	dynasty = 101875 # Almohad
+}
+
+house_hazraja_almohad = {
+	name = "Hazraja"
+	dynasty = 101875 # Almohad
+}
+
+# Idrisid of Morocco
+house_hargha_idrisid = {
+	name = "Hargha"
+	dynasty = 1029055 # Idrisid
+}
+
+# Qahtanites / Azd
+house_Azd_Umani = {
+    name = "dynn_Azd_Umanid"
+	dynasty = 1042181 # Banu 'Azd Umani
+}
+house_Ghassanid = {
+    name = "dynn_Ghassanid"
+    dynasty = 1042181
+}
+house_Muhallabid = {
+    name = "dynn_Muhallabid"
+    dynasty = 1042181
+}
+house_Isaurian = {
+    name = "dynn_Isauros"
+    dynasty = 1042181
+}
+house_Nasrid = {
+    name = "dynn_Nasrid"
+    dynasty = 1042181
+}
+
+# Qays 'Aylan
+house_Amirid = { # 1029034
+    name = "dynn_Banu_Amir"
+    dynasty = 101671 # Banu Sulaym
+}
+house_Mirdasid = { # house_mirdasid
+    name = "dynn_Banu_Mirdas"
+    dynasty = 101671 # Banu Sulaym
+}
+596 = {
+    name = "dynn_Banu_Amir"
+    dynasty = 101671 # Banu Sulaym
+}
+house_thaqif = {
+    name = "al-Thaqafi"
+    dynasty = 101671 # Banu Sulaym
+}
+house_Numayr = { #bedouindyn006
+    name = "dynn_Banu_Numayr"
+    dynasty = 101671 # Banu Sulaym
+}
+
+# Borjigin
+house_Toluid = {
+    name = "dynn_Toluid"
+    dynasty = 11100
+}
+house_Chagatayid = {
+	name = "dynn_Chagatayid"
+    dynasty = 11100
+}
+house_Ogodeid = {
+	name = "dynn_Ogodeid"
+    dynasty = 11100
+}
+house_Jochid = {
+	name = "dynn_Jochid"
+    dynasty = 11100
+}
+house_Kublaid = {
+    name = "dynn_Yuan"
+    dynasty = 11100
+}
+house_Tevalid = {
+    name = "dynn_Tevalid"
+    dynasty = 11100
+}
+house_Shaybanid = {
+    name = "dynn_Shaybanid"
+    dynasty = 11100
+}
+
+# Marinid, 101732
+house_Banu_Abul_Ula = {
+    name = "Banu Abu'l-'Ula"
+    dynasty = 101732
+}
+
+# Anglo-Saxons
+2033 = {
+	name = dynn_Rein
+	dynasty = 756
+}
+
+# Anjou/Angevin
+house_Plantagenet = {
+    name = "dynn_Plantagenet"
+    dynasty = 723
+}
+house_Cornwall = {
+    name = "dynn_Cornwall"
+    dynasty = 723
+}
+
+# Sassanids
+house_Nersiani = {
+    name = "Nersiani"
+    dynasty = 1029100
+}

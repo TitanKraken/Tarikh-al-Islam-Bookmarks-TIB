@@ -1,0 +1,424 @@
+﻿k_oman = {
+    2.1.1 = {
+        de_jure_liege = e_arabia
+    }
+    #Nabhanids
+	1154.1.1 = {
+		holder = bedouin0134
+	}
+	1176.1.1 = {
+		holder = bedouin0138
+	}
+	1202.1.1 = {
+		holder = bedouin0139
+	}
+	1247.1.1 = {
+		holder = bedouin0140
+	}
+	1275.1.1 = {
+		holder = bedouin0141
+	}
+	1299.1.1 = {
+		holder = bedouin0142
+	}
+	1322.1.1 = {
+		holder = bedouin0143
+	}
+}
+d_yas = {
+    1154.1.1 = {
+		holder = 144145
+        liege = 0
+	}
+	1161.1.1 = {
+		holder = 144560
+	}
+	1210.1.1 = {
+		holder = 144561
+	}
+	1250.1.1 = {
+		holder = 144562
+	}
+	1278.1.1 = {
+		holder = 144563
+	}
+	1285.1.1 = {
+		holder = 144564
+	}
+}
+c_julfar = {
+	665.1.1 = {
+		government = tribal_government
+		liege = d_oman
+	}
+
+	715.1.1 = {
+		holder = oman_vassal_001
+		liege = k_mesopotamia
+	}
+	
+	768.1.1 = {
+		holder = 188766
+	}
+	
+	830.1.1 = {
+		holder = bedouin0158
+	}
+	854.1.1 = {
+		holder = bedouin0159
+	}
+	882.1.1 = {
+		holder = bedouin0160
+	}
+
+	903.1.1 = {
+		holder = bedouin0123
+	}
+	931.1.1 = {
+		holder = bedouin0124
+	}
+	960.1.1 = {
+		holder = bedouin0125
+	}
+	1012.1.1 = {
+		holder = bedouin0126
+	}
+	1019.1.1 = {
+		holder = bedouin0127
+	}
+
+	1066.1.1 = {
+		liege = "d_kirman"
+	}
+	1066.1.1 = {
+		holder = 3041
+	}
+	1073.1.1 = {
+		holder = 144025
+	}
+	1074.1.1 = {
+		holder = 144026
+	}
+	1075.1.1 = {
+		holder = 144027
+	}
+	1097.1.1 = {
+		holder = 144028
+	}
+	1101.1.1 = {
+		holder = 144034
+	}
+	1142.1.1 = {
+		holder = 144035
+	}
+	1154.1.1 = {
+		liege = "d_oman"
+	}
+	1154.1.1 = {
+		holder = 144145
+	}
+	1161.1.1 = {
+		holder = 144560
+	}
+	1210.1.1 = {
+		holder = 144561
+	}
+	1250.1.1 = {
+		holder = 144562
+	}
+	1278.1.1 = {
+		holder = 144563
+	}
+	1285.1.1 = {
+		holder = 144564
+	}
+}
+
+
+c_batina = {
+	867.1.1 = {	change_development_level = 8 }
+	1066.1.1 = { change_development_level = 12 }
+	
+	715.1.1 = {
+		holder = oman_vassal_001
+		liege = k_mesopotamia
+	}
+
+	768.1.1 = {
+		liege = d_oman
+		holder = bedouin0119
+	}
+	
+	799.1.1 = {
+		#liege = e_arabia
+		holder = bedouin0120
+	}
+	835.1.1 = {
+		holder = bedouin0121
+	}
+	865.1.1 = {
+		holder = bedouin0122
+	}
+	903.1.1 = {
+		holder = bedouin0123
+	}
+	931.1.1 = {
+		holder = bedouin0124
+	}
+	960.1.1 = {
+		holder = bedouin0125
+	}
+	1012.1.1 = {
+		holder = bedouin0126
+	}
+	1019.1.1 = {
+		holder = bedouin0127
+	}
+	1062.1.1 = {
+		holder = bedouin0128
+	}
+	1066.1.1 = {
+		liege = "d_kirman"
+	}
+	1094.1.1 = {
+		holder = bedouin0129
+	}
+	1115.1.1 = {
+		holder = bedouin0130
+	}
+	1154.1.1 = {
+		liege = "d_oman"
+	}
+	1166.1.1 = {
+		holder = bedouin0131
+	}
+	1197.1.1 = {
+		holder = bedouin0132
+	}
+	1220.1.1 = {
+		holder = bedouin0133
+	}
+	
+}
+
+
+c_az-dhahira = {
+	665.1.1 = {
+		government = tribal_government
+		liege = d_oman
+	}
+	
+	715.1.1 = {
+		holder = oman_vassal_001
+		liege = k_mesopotamia
+	}
+	
+	768.1.1 = {
+		holder = 188766
+	}
+	
+	830.1.1 = {
+		holder = bedouin0158
+	}
+	854.1.1 = {
+		holder = bedouin0159
+	}
+	882.1.1 = {
+		holder = bedouin0160
+	}
+
+	903.1.1 = {
+		holder = bedouin0123
+	}
+	931.1.1 = {
+		holder = bedouin0124
+	}
+	960.1.1 = {
+		holder = bedouin0125
+	}
+	1012.1.1 = {
+		holder = bedouin0126
+	}
+	1019.1.1 = {
+		holder = bedouin0127
+	}
+	
+	#Nabhanids
+	1066.1.1 = {
+		liege = "d_kirman"
+		holder = bedouin0137
+	}
+	1085.1.1 = {
+		holder = bedouin0136
+	}
+	1120.1.1 = {
+		holder = bedouin0135
+	}
+	1154.1.1 = {
+		liege = "d_oman"
+		holder = bedouin0134
+	}
+	1176.1.1 = {
+		holder = bedouin0138
+	}
+	1202.1.1 = {
+		holder = bedouin0139
+	}
+	1247.1.1 = {
+		holder = bedouin0140
+	}
+	1275.1.1 = {
+		holder = bedouin0141
+	}
+	1299.1.1 = {
+		holder = bedouin0142
+	}
+	1322.1.1 = {
+		holder = bedouin0143
+	}
+}
+# More titles at k_arabia for k_oman
+
+# Egyptian Empire
+e_egypt = {
+	996.10.13 = {
+		holder = 3092
+	}
+	1021.2.12 = {
+		holder = 3094
+	}
+	1036.6.13 = {
+		holder = 3096
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					has_dlc_feature = royal_court
+				}
+				holder = {
+					set_court_type = court_scholarly
+				}
+			}
+		}
+	}
+	1094.1.10 = {
+		holder = 3100
+	}
+	1101.1.1 = {
+		holder = 32905
+	}
+	1130.1.1 = {
+		holder = 32907
+	}
+	1149.1.1 = {
+		holder = 32908
+	}
+	1154.1.1 = {
+		holder = 32909
+	}
+	1160.1.1 = {
+		holder = 32910
+	}
+	1171.1.1 = {
+		liege = 0 # Fall of the Fatimid Caliphate
+	}
+	1171.1.1 = {
+		holder = 226000
+	}
+	1193.3.4 = {
+		holder = 226050
+	}
+	1198.11.29 = {
+		holder = 32922
+	}
+	1200.1.1 = {
+		holder = 226052
+	}
+	1218.8.1 = {
+		holder = 32924
+	}
+	1238.1.1 = {
+		holder = 32926
+	}
+	1240.1.1 = {
+		holder = 32925
+	}
+	1249.11.22 = {
+		holder = 32927
+	}
+}
+
+e_kangar = {
+	659.1.1 = {
+		holder = kangar_001
+	}
+	673.1.1 = {
+		holder = kangar_002
+	}
+	703.1.1 = {
+		holder = kangar_003
+	}
+	750.1.1 = {
+		holder = 0
+	}
+}
+
+e_avar = {
+	685.1.1 = {
+		holder = 146154
+	}
+	701.1.1 = {
+		holder = 146155
+	}
+	707.1.1 = {
+		holder = 146156
+	}
+	714.1.1 = {
+		holder = 146157
+	}
+	718.1.1 = {
+		holder = 146158
+	}
+	721.1.1 = {
+		holder = 146159
+	}
+	731.1.1 = {
+		holder = 146160
+	}
+	733.1.1 = {
+		holder = 146161
+	}
+	743.1.1 = {
+		holder = 146162
+	}
+	748.1.1 = {
+		holder = 146163
+	}
+	756.1.1 = {
+		holder = 146165
+	}
+	767.1.1 = {
+		holder = 194006
+	}
+	776.1.1 = {
+		holder = 146166
+	}
+	780.1.1 = {
+		holder = 146167
+	}
+	785.1.1 = {
+		holder = 146168
+	}
+	791.1.1 = {
+		holder = 146169
+	}
+	795.1.1 = {
+		holder = 146140
+	}
+	814.1.1 = {
+		holder = 146141
+	}
+	829.1.1 = {
+		holder = 146142
+	}
+}

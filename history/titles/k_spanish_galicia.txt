@@ -1,0 +1,711 @@
+
+k_spanish_galicia = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 8 }
+	
+	712.1.1 = {
+		holder = abd_al_aziz_ibn_musa
+		liege = e_arabia
+	}
+	716.1.1 = {
+		liege = 0
+		holder = 0
+	}
+	910.12.21 = {
+		holder = 70021 # Ordo�o II de Le�n
+		insert_title_history = k_leon
+	}
+	924.1.1 = {
+		holder = 70030 # Fruela II de Cantabria
+	}
+	925.7.1 = {
+		holder = 70023 # Alfonso IV de Le�n
+	}
+	931.6.1 = {
+		holder = 70024 # Ramiro II de Le�n
+	}
+	951.1.5 = {
+		holder = 108600 # Ordo�o III de Le�n
+	}
+	956.11.13 = {
+		holder = 70026 # Sancho I de Le�n
+	}
+	958.1.1 = {
+		holder = 70029 # Ordo�o IV de Le�n
+	}
+	960.1.1 = {
+		holder = 70026 # Sancho I de Le�n
+	}
+	966.1.1 = {
+		holder = 108610 # Ramiro III de Le�n
+	}
+	984.1.1 = {
+		holder = 108590 # Bermudo II de Le�n
+	}
+	999.9.1 = {
+		holder = 108570 # Alfonso V de Le�n
+	}
+	1028.8.7 = {
+		holder = 70075 # Bermudo III de Le�n
+	}
+	1037.9.4 = {
+		holder = 107510 # Fernando I Jimena
+	}
+	1065.12.27 = {
+		holder = 109500 # Garc�a II Jimena
+	}
+	1071.2.1 = {
+		holder = 107500 # Sancho II Jimena
+	}
+	1072.10.7 = {
+		holder = 108500 # Alfonso VI Jimena
+	}
+	1109.6.30 = {
+		holder = 207500 # Alfonso VII de Borgo�a
+	}
+	1111.9.17 = {
+		holder = 0
+	
+	}
+}
+
+
+d_galicia = {
+	712.1.1 = {
+		holder = andalusia_governor_010
+		liege = k_andalusia
+	}
+	741.1.1 = {
+		holder = 70011 # Duke Fruela Pérez of Cantabria
+		liege = k_asturias
+	}
+	757.1.1 = {
+		holder = 0
+	}
+	836.1.1 = {
+		holder = 70015 # King Ramiro I of Asturias
+		liege = k_asturias
+	}
+	843.1.1 = {
+		holder = 70017 # King Ordoño I of Asturias
+	}
+	850.2.1 = {
+		holder = 0
+	}
+	862.1.1 = {
+		holder = 70019 # King Alfonso III of Asturias
+		liege = k_asturias
+	}
+	866.5.27 = {
+		holder = galician0359 # Fruela Bermúdez
+		liege = 0
+	}
+	867.1.1 = {
+		holder = 0
+	}
+	875.1.1 = {
+		holder = galician0357 # Witiza
+		liege = k_asturias
+	}
+	895.1.1 = {
+		holder = 73857 # Hermenegildo Gutiérrez
+	}
+	900.1.1 = {
+		holder = 70021 # King Ordoño II of León, styled King of Galicia from 910.12.20
+	}
+	910.12.20 = {
+		liege = k_leon # Kingdom of Asturias becomes Kingdom of León
+	}
+	924.6.1 = {
+		holder = 70023 # King Alfonso IV of León
+	}
+	926.1.1 = {
+		holder = 70114 # Sancho Ordóñez, styled King of Galicia
+	}
+	929.6.10 = {
+		holder = 70024 # King Ramiro II of León
+	}
+	931.6.1 = {
+		holder = 73862 # Gutierre Osórez
+	}
+	941.1.1 = {
+		holder = galician0005 # Osorio Gutiérrez
+	}
+	950.1.1 = {
+		holder = 109620 # Gonçalo Mendes
+	}
+	950.7.24 = {
+		holder = 70242 # Pelayo Méndez
+	}
+	959.1.1 = {
+		holder = 109622 # Mendo Gonçalves
+	}
+	997.1.1 = {
+		holder = 0 # Title reverted to the Crown
+	}
+	1092.5.1 = {
+		holder = 298 # Raimundo de Borgoña
+		liege = k_spanish_galicia
+	}
+	1107.9.20 = {
+		holder = 207500 # Alfonso VII de León y Castilla
+	}
+	1126.3.8 = {
+		holder = 0
+		de_jure_liege = k_leon
+	}
+}
+
+c_coruna = {
+	866.5.27 = {
+		holder = 73855 # Gutierre Alóitez
+		liege = k_asturias
+	}
+	872.1.1 = {
+		holder = 73858 # Aloito Gutiérrez
+	}
+	915.10.30 = {
+		holder = galician0021 # Hermenegildo Alóitez
+	}
+	958.1.1 = {
+		holder = galician0024 # Rodrigo Menéndez I
+	}
+	966.12.10 = {
+		holder = galician0025 # Hermenegildo Rodríguez
+	}
+	997.1.1 = {
+		liege = k_leon
+	}
+	1001.1.1 = {
+		holder = galician0026 # Rodrigo Menéndez II
+	}
+	1028.1.1 = {
+		holder = galician0027 # Gutierre Rodríguez
+	}
+	1053.1.1 = {
+		holder = galician0029 # Diego Gutiérrez
+	}
+	1065.12.27 = {
+		liege = k_spanish_galicia
+	}
+	1079.1.1 = {
+		holder = galician0032 # Fruela Arias
+	}
+	1091.1.1 = {
+		holder = 71366 # Pedro Froilaz de Traba
+	}
+	1092.5.1 = {
+		liege = d_galicia
+	}
+	1126.3.8 = {
+		liege = k_leon
+	}
+	1126.5.3 = {
+		holder = 71368 # Fernando de Castro
+	}
+	1143.1.1 = {
+		holder = 71370 # Gutierre Fernández de Castro
+	}
+	1166.1.1 = {
+		holder = 71393 # Alvaro Rodríguez de Castro
+	}
+	1187.11.3 = {
+		holder = 71394 # Fernando Alvarez de Castro
+	}
+	1195.9.1 = {
+		holder = 71395 # Sancho Alvarez de Castro
+	}
+	1196.1.1 = {
+		holder = 72407 # Fernando Gutiérrez de Castro
+	}
+	1240.1.1 = {
+		holder = 72408 # Esteban Fernández de Castro
+	}
+	1288.1.1 = {
+		holder = 457674 # Fernán Estévez de Castro
+	}
+	1316.2.18 = {
+		holder = 457670 # Pedro Fernández de Castro
+	}
+}
+
+c_santiago = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+ 
+	741.1.1 = {
+		holder = 70011 # Duke Fruela Pérez of Cantabria
+		liege = d_galicia
+	}
+	757.1.1 = {
+		holder = 70004 # King Fruela I of Asturias
+		liege = k_asturias
+	}
+	768.1.1 = {
+		holder = 70012 # King Aurelio of Asturias
+	}
+	773.1.1 = {
+		holder = 70118 # King Silo of Asturias
+	}
+	783.1.1 = {
+		holder = 70006 # King Alfonso II of Asturias
+	}
+	783.2.1 = {
+		holder = 70116 # King Mauregato of Asturias
+	}
+	788.1.1 = {
+		holder = 70013 # King Bermudo I of Asturias
+	}
+	791.1.1 = {
+		holder = 70006 # King Alfonso II of Asturias (restored)
+	}
+	836.1.1 = {
+		holder = 70015 # King Ramiro I of Asturias
+	}
+	843.1.1 = {
+		holder = 70017 # King Ordoño I of Asturias
+	}
+	862.1.1 = {
+		holder = 70019 # King Alfonso III of Asturias
+	}
+	866.5.27 = {
+		holder = galician0359 # Duke Fruela Bermúdez of Galicia
+	}
+	867.1.1 = {
+		holder = 73857 # Hermenegildo Guterres
+	}
+	875.1.1 = {
+		holder = galician0357 # Duke Witiza of Galicia
+	}
+	895.1.1 = {
+		holder = 73857 # Duke Hermenegildo Gutiérrez of Galicia
+	}
+	900.1.1 = {
+		holder = 70021 # King Ordoño II of León
+	}
+	924.6.1 = {
+		holder = 70023 # King Alfonso IV of León
+	}
+	926.1.1 = {
+		holder = 70114 # Duke Sancho Ordóñez of Galicia
+	}
+	929.6.10 = {
+		holder = 70024 # King Ramiro II of León
+	}
+	931.6.1 = {
+		holder = 73862 # Duke Gutierre Osórez of Galicia
+	}
+	941.1.1 = {
+		holder = galician0005 # Duke Osorio Gutiérrez of Galicia
+	}
+	950.1.1 = {
+		holder = 109620 # Duke Gonçalo Mendes of Galicia
+	}
+	950.7.24 = {
+		holder = 70242 # Duke Pelayo Méndez of Galicia
+	}
+	959.1.1 = {
+		holder = 109622 # Duke Mendo Gonçalves of Galicia
+	}
+	997.1.1 = {
+		holder = 108590 # King Bermudo II of León
+		liege = k_leon
+	}
+	999.9.1 = {
+		holder = 108570 # King Alfonso V of León
+	}
+	1028.8.7 = {
+		holder = 70075 # King Bermudo III of León
+	}
+	1037.9.4 = {
+		holder = 107510 # King Fernando I of León
+	}
+	1065.12.27 = {
+		holder = 109500 # García I Jimena
+		liege = k_spanish_galicia
+	}
+	1071.10.1 = {
+		holder = 107500 # King Sancho II of Castille
+	}
+	1072.10.7 = {
+		holder = 108500 # King Alfonso VI of León
+	}
+	1092.5.1 = {
+		holder = 298 # Raymond de Bourgogne
+		liege = d_galicia
+	}
+	1107.9.20 = {
+		holder = 207500 # Alfonso VII de Borgoña
+	}
+ 
+	#Bishops of Santiago
+ 
+	1126.3.8 = {
+		holder = 232021 # Diego Gelmirez
+		liege = k_leon
+	}
+	1140.1.1 = {
+		holder = 458004 # Berenguel
+	}
+	1142.1.1 = {
+		holder = 210510 # Pedro Helías
+	}
+	1149.1.1 = {
+		holder = 72939 # Bernardo I
+	}
+	1152.1.1 = {
+		holder = 72940 # Pelayo Camundo
+	}
+	1156.1.1 = {
+		holder = 72941 # Martín Martínez
+	}
+	1167.1.1 = {
+		holder = 72942 # Pedro Gundestéiz
+	}
+	1173.1.1 = {
+		holder = 208520 # Pedro Suárez de Deza
+	}
+	1207.1.1 = {
+		holder = 72943 # Pedro Muñiz
+	}
+	1224.1.1 = {
+		holder = 72944 # Bernardo II
+	}
+	1238.1.1 = {
+		holder = 72850 # Juan Arias
+	}
+	1266.1.1 = {
+		holder = 72945 # Gonzalo Gómez
+	}
+	1283.1.1 = {
+		holder = 72946 # Rodrigo González
+	}
+	1304.1.1 = {
+		holder = 72947 # Rodrigo de Padrón
+	}
+	1316.1.1 = {
+		holder = 72948 # Berenguel de Landoria
+	}
+	1331.1.1 = {
+		holder = 458003 # Juan Fernández de Limia
+	}
+}
+
+c_tui = {
+	741.1.1 = {
+		holder = 200058 # Luifredo de Suevonia
+		liege = d_galicia
+	}
+	757.1.1 = {
+		liege = k_asturias
+	}
+	770.1.1 = {
+		holder = 70012 # King Aurelio of Asturias
+	}
+	773.1.1 = {
+		holder = 70118 # King Silo of Asturias
+	}
+	783.1.1 = {
+		holder = 70006 # King Alfonso II of Asturias
+	}
+	783.2.1 = {
+		holder = 70116 # King Mauregato of Asturias
+	}
+	788.1.1 = {
+		holder = 70013 # King Bermudo I of Asturias
+	}
+	791.1.1 = {
+		holder = 70006 # King Alfonso II of Asturias (restored)
+	}
+	836.1.1 = {
+		holder = 70015 # King Ramiro I of Asturias
+	}
+	843.1.1 = {
+		holder = 70017 # King Ordoño I of Asturias
+	}
+	860.1.1 = {
+		holder = 73869 # Alfonso Betote
+	}
+	866.1.1 = {
+		holder = 73857 # Hermenegildo Guterres
+	}
+	895.1.1 = {
+		holder = 73870 # Gonzalo Alfonso
+	}
+	929.1.1 = {
+		holder = 70242 # Duke Pelayo Méndez of Galicia
+	}
+	959.1.1 = {
+		holder = galician0181 # Ero Ordóñez
+	}
+	988.1.1 = {
+		holder = galician0183 # Pelayo Ériz
+	}
+	997.1.1 = {
+		liege = k_leon
+	}
+	1010.1.1 = {
+		holder = 108570 # King Alfonso V of León
+	}
+	1028.8.7 = {
+		holder = 70075 # King Bermudo III of León
+	}
+	1037.9.4 = {
+		holder = 107510 # King Fernando I of León
+	}
+	1065.12.27 = {
+		holder = 109500 # King García II of Galicia
+		liege = k_spanish_galicia
+	}
+	1071.10.1 = {
+		holder = 107500 # King Sancho II of Castille
+	}
+	1072.10.7 = {
+		holder = 108500 # King Alfonso VI of León
+	}
+	1092.5.1 = {
+		holder = 298 # Raymond de Bourgogne
+		liege = d_galicia
+	}
+	1107.9.20 = {
+		holder = 207500 # Alfonso VII de Borgoña
+	}
+ 
+	#Bishops of Santiago
+ 
+	1126.3.8 = {
+		holder = 232021 # Diego Gelmirez
+		liege = k_leon
+	}
+	1140.1.1 = {
+		holder = 458004 # Berenguel
+	}
+	1142.1.1 = {
+		holder = 210510 # Pedro Helías
+	}
+	1149.1.1 = {
+		holder = 72939 # Bernardo I
+	}
+	1152.1.1 = {
+		holder = 72940 # Pelayo Camundo
+	}
+	1156.1.1 = {
+		holder = 72941 # Martín Martínez
+	}
+	1167.1.1 = {
+		holder = 72942 # Pedro Gundestéiz
+	}
+	1173.1.1 = {
+		holder = 208520 # Pedro Suárez de Deza
+	}
+	1207.1.1 = {
+		holder = 72943 # Pedro Muñiz
+	}
+	1224.1.1 = {
+		holder = 72944 # Bernardo II
+	}
+	1238.1.1 = {
+		holder = 72850 # Juan Arias
+	}
+	1266.1.1 = {
+		holder = 72945 # Gonzalo Gómez
+	}
+	1283.1.1 = {
+		holder = 72946 # Rodrigo González
+	}
+	1304.1.1 = {
+		holder = 72947 # Rodrigo de Padrón
+	}
+	1316.1.1 = {
+		holder = 72948 # Berenguel de Landoria
+	}
+	1331.1.1 = {
+		holder = 458003 # Juan Fernández de Limia
+	}
+}
+
+c_astorga = {
+	854.1.1 = {
+		holder = 73755 # Gatón del Bierzo
+		liege = k_asturias
+	}
+	878.6.6 = {
+		holder = 73753 # Odoario Ordóñez
+	}
+	896.1.1 = {
+		holder = 73752 # Bermudo Ordóñez
+	}
+	904.1.1 = {
+		holder = 70020 # King García I of León
+		liege = d_leon
+	}
+	910.1.1 = {
+		holder = 73893 # Aires Mendes
+	}
+	910.12.20 = {
+		liege = k_leon
+	}
+	912.5.1 = {
+		holder = 70020 # King García I of León, title reverted
+	}
+	914.1.19 = {
+		holder = 70021 # King Ordoño II of León
+	}
+	924.6.1 = {
+		holder = galician0059 # Gunterico Aires
+	}
+	973.1.1 = {
+		holder = galician0062 # Rodrigo Vázquez
+	}
+	977.1.17 = {
+		holder = asturleonese0039 # Munio Godestéiz
+	}
+	988.10.8 = {
+		holder = 108590 # King Bermudo II León
+	}
+	999.9.1 = {
+		holder = castilian0085 # Juan Muñoz
+	}
+	999.9.1 = {
+		holder = 108570 # King Alfonso V of León
+	}
+	1028.8.7 = {
+		holder = asturleonese0072 # Count Pedro Froilaz of Pravia
+	}
+	1033.9.16 = {
+		holder = asturleonese0196 # Munio Rodríguez
+	}
+	1039.1.21 = {
+		holder = asturleonese0186 # Fernando Muñiz
+	}
+	1056.6.28 = {
+		holder = 70094 # Flaín Fernández
+	}
+	1065.5.28 = {
+		holder = 107643 # Diego Ansúrez
+		liege = k_spanish_galicia 
+	}
+	1084.8.1 = {
+		holder = 70034 # Oveco Sánchez de León
+	}
+	1109.1.1 = {
+		holder = 71321 # Sancho Ovéquiz de León
+	}
+	1113.1.1 = {
+		holder = 71329 # Alvaro, Señor de Santibáñez
+		liege = k_leon
+	}
+	1129.1.1 = {
+		holder = 71330 # Bermudo Alvarez
+	}
+	1156.1.1 = {
+		holder = 72398 # Fernando Gutiérrez de Castro
+	}
+	1195.4.9 = {
+		holder = 72401 # Pedro Fernández de Castro
+	}
+	1200.1.1 = {
+		holder = 72986 # Gonzalo Rodríguez de Girón I
+	}
+	1234.1.1 = {
+		holder = 73001 # Rodrigo González de Girón I
+	}
+	1256.2.1 = {
+		holder = 73020 # Gonzalo Rodríguez de Girón II
+	}
+	1280.1.1 = {
+		holder = 73024 # Rodrigo González de Girón II
+	}
+	1288.1.1 = {
+		holder = 457561 # Juan Alfónsez de Borgoña
+	}
+	1310.1.1 = {
+		holder = 457562 # Alfonso de Valencia
+	}
+	1316.8.1 = {
+		holder = 457590 # Fernando Alfónsez de Valencia
+	}
+}
+
+c_monterrei = {
+	815.1.1 = {
+		holder = visigothic0015 # Alamundo Vitíciz
+		liege = k_asturias
+	}
+	825.1.1 = {
+		holder = galician0360 # Witiza Alamúndez
+	}
+	850.1.1 = {
+		holder = galician0361 # Bermudo Vitíciz
+	}
+	867.1.1 = {
+		holder = galician0357 # Duke Witiza of Galicia
+	}
+	895.1.1 = {
+		holder = 73857 # Duke Hermenegildo Gutiérrez of Galicia
+	}
+	900.1.1 = {
+		holder = 73862 # Duke Gutierre Osórez of Galicia
+	}
+	941.1.1 = {
+		holder = galician0005 # Osorio Gutiérrez
+	}
+	950.1.1 = {
+		holder = 73863 # Rodrigo Gutiérrez
+	}
+	992.1.1 = {
+		holder = 109622 # Duke Mendo Gonçalves of Galicia
+	}
+	997.1.1 = {
+		holder = 108590 # King Bermudo II of León
+		liege = k_leon
+	}
+	999.9.1 = {
+		holder = 108570 # King Alfonso V León
+	}
+	1028.8.7 = {
+		holder = 70075 # King Bermudo III of León
+	}
+	1034.1.1 = {
+		holder = 109606 # Velasco Alfonso de Celanova
+	}
+	1065.12.27 = {
+		liege = k_spanish_galicia
+	}
+	1067.1.1 = {
+		holder = 142436 # Nuño Vázquez de Celanova
+	}
+	1105.12.13 = {
+		holder = 142023 # Sancho Núñez de Celanova
+	}
+	1130.1.1 = {
+		holder = 71330 # Bermudo Alvarez
+	}
+	1156.1.1 = {
+		holder = 72398 # Fernando Gutiérrez de Castro
+	}
+	1195.4.9 = {
+		holder = 72401 # Pedro Fernández de Castro
+	}
+	1200.1.1 = {
+		holder = 72986 # Gonzalo Rodríguez de Girón I
+	}
+	1234.1.1 = {
+		holder = 73001 # Rodrigo González de Girón I
+	}
+	1256.2.1 = {
+		holder = 73020 # Gonzalo Rodríguez de Girón II
+	}
+	1280.1.1 = {
+		holder = 73024 # Rodrigo González de Girón II
+	}
+	1288.1.1 = {
+		holder = 457561 # Juan Alfónsez de Borgoña
+	}
+	1310.1.1 = {
+		holder = 457562 # Alfonso de Valencia
+	}
+	1316.8.1 = {
+		holder = 457590 # Fernando Alfónsez de Valencia
+	}
+}

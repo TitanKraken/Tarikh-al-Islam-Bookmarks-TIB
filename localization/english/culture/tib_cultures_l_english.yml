@@ -1,0 +1,42 @@
+﻿l_english:
+ # East Germanic heritage
+ gothic:0 "Gothic"
+ gothic_prefix:0 "Gotho"
+ gothic_collective_noun:1 "Goths"
+ ostrogothic:0 "Ostrogoth"
+ ostrogothic_prefix:0 "Ostrogothic"
+ ostrogothic_collective_noun:1 "Ostrogoths"
+ burgundian:0 "Burgundian"
+ burgundian_prefix:0 "Burgando"
+ burgundian_collective_noun:1 "Burgandians"
+
+ # Central Germanic heritage
+ german:0 "Germanic"
+ german_prefix:0 "Germanic"
+ german_collective_noun:1 "Germanics"
+
+ # Iberian heritage
+ hispano_roman:0 "Hispano-Roman"
+ hispano_roman_prefix:0 "Hispano-Roman"
+ hispano_roman_collective_noun:1 "Hispano-Romans"
+ celtiberian:0 "Celtiberian"
+ celtiberian_prefix:0 "Celtiberiano"
+ celtiberian_collective_noun:1 "Celtiberians"
+
+ # MB+ Cultures
+ # Latin heritage
+ maltese:0 "Maltese"
+ maltese_prefix:0 "Malto"
+ maltese_collective_noun:0 "Malteses"
+ neapolitan:0 "Neapolitan"
+ neapolitan_prefix:0 "Neapolito"
+ neapolitan_collective_noun:0 "Neapolitans"
+ tuscan:0 "Tuscan"
+ tuscan_prefix:0 "Tuscano"
+ tuscan_collective_noun:0 "Tuscans"
+ dalmatian:0 "Dalmation"
+ dalmatian_prefix:0 "Dalmatio"
+ dalmatian_collective_noun:0 "Dalmations"
+ venetian:0 "Venetian"
+ venetian_prefix:0 "Venitio"
+ venetian_collective_noun:0 "Venetians"

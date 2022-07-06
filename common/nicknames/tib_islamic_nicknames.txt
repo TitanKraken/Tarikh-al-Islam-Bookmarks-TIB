@@ -1,0 +1,65 @@
+﻿# Abbasids
+nick_saffah = {}
+nick_mansur = {}
+nick_mahdi_billah = {}
+nick_hadi = {}
+nick_rashid = {}
+nick_amin = {}
+nick_mamun = {}
+nick_mutasim = {}
+nick_wathiq = {}
+nick_mutawakkil_ala_llah = {}
+nick_mustansir_billah = {}
+nick_mustain_billah = {}
+nick_mutazz = {}
+nick_muhtadi_billah = {}
+nick_mutamid_ala_llah = {}
+nick_muwaffaq = {}
+nick_mutadid_billah = {}
+nick_muktafi = {}
+nick_muqtadir_billah = {}
+nick_qahir_billah = {}
+nick_radi = {}
+nick_muttaqi = {}
+nick_mustakfi = {}
+nick_muti_lillah = {}
+nick_tai_li_amrillah = {}
+nick_qadir_billah = {}
+nick_qaim_bi_amrillah = {}
+nick_muqtadi_bi_amrillah = {}
+nick_mustazhir = {}
+nick_mustarshid = {}
+nick_muqtafi = {}
+nick_mustanjid = {}
+nick_mustadi = {}
+nick_nasir = {}
+nick_zahir_bi_amrillah = {}
+nick_mustasim = {}
+# Cairene Abbasids
+nick_hakim_bi_amrillah = {}
+nick_mustamsik = {}
+
+# Fatimids
+nick_mahdi = {}
+nick_qaim = {}
+nick_mansur_billah = {}
+nick_muizz = {}
+nick_aziz_billah = {}
+nick_hakim = {}
+nick_zahir = {}
+nick_mustansir = {}
+nick_mustali = {}
+nick_amir = {}
+nick_hafiz = {}
+nick_zafir = {}
+nick_faiz = {}
+nick_adid = {}
+
+# Almohad
+nick_makhlu = { is_bad = yes }
+nick_adil = {}
+nick_said = {}
+nick_murtada = {}
+nick_tahir = {}
+nick_bayyasi = {} # 'The Baezan'
+nick_adelmon = {} # Castilianised word for 'Abd-al-Mu'min

@@ -1,0 +1,9 @@
+almohad_warmonger_modifier = {
+	icon = learning_positive
+	martial = 1
+	learning = 1
+	hostile_scheme_resistance_add = 20
+	enemy_hostile_scheme_success_chance_add = -15
+    ai_war_chance = 100
+    #ai_war_cooldown = -50
+}

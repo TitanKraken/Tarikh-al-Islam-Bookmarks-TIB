@@ -1,0 +1,33 @@
+﻿patrician_provence_010 = {
+	name = "Metrannus"
+	dynasty = house_provencal
+	religion = catholic
+	culture = occitan
+	673.1.1 = {
+		birth = yes
+	}
+	736.1.1 = {
+		death = yes
+	}
+}
+
+ragenfrid_neustria = {
+    name = "Ragenfrid"
+	dynasty = house_ragenfriding
+	religion = catholic
+	culture = frankish
+    trait = education_martial_4
+    trait = brave
+    trait = trusting
+    trait = diligent
+	673.1.1 = {
+		birth = yes
+	}
+    714.1.17 = {
+		set_realm_capital = title:c_beaumont
+        add_pressed_claim = title:d_normandy
+    }
+	731.1.1 = {
+		death = yes
+	}
+}

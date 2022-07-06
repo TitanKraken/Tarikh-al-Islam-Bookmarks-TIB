@@ -1,0 +1,23 @@
+﻿gundomar_the_burgundar = {
+    name = "Gunthormr"
+    dynasty = burgundar
+    religion = "norse_pagan"
+    culture = "burgundian"
+    trait = education_martial_4
+    trait = diligent
+    trait = stubborn
+    trait = humble
+    martial = 15
+    stewardship = 10
+    learning = 10
+    prowess = 17
+
+    683.2.14 = {
+        birth = yes
+    }
+    746.8.30 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}

@@ -1,0 +1,77 @@
+﻿
+am_buff_effect = {
+    add_prestige = 2000
+    add_piety = 10000
+    early_almohad_army_effect = yes
+    spawn_second_almohad_troops_effect = yes
+    add_character_modifier = {
+		modifier = almohad_leader_modifier
+	}
+}
+
+sicily_buff_effect = {
+    add_prestige = 1000
+    add_piety = 2000
+}
+
+early_almohad_army_effect = {
+    spawn_army = {
+        uses_supply = yes
+        inheritable = yes
+        name = "Almohad Jihadis"
+        men_at_arms = {
+            type = abudrar
+            stacks = 5
+        }
+        men_at_arms = {
+            type = light_horsemen
+            stacks = 7
+        }
+        men_at_arms = {
+            type = abudrar
+            stacks = 5
+        }
+        men_at_arms = {
+            type = light_footmen
+            stacks = 5
+        }
+        men_at_arms = {
+            type = bowmen
+            stacks = 3
+        }
+        men_at_arms = {
+            type = onager
+            stacks = 7
+        }
+        location = capital_province
+	}
+}
+
+spawn_second_almohad_troops_effect = {
+	if = {
+		limit = {
+			is_at_war = yes
+		}
+		ordered_war_enemy = {
+			order_by = max_military_strength
+			position = 0
+			save_scope_as = powerful_war_enemy
+		}
+		spawn_army = {
+			uses_supply = yes
+			inheritable = no
+			name = second_almohad_event_troops
+			levies = {
+				if = {
+					limit = { exists = scope:powerful_war_enemy }
+					add = scope:powerful_war_enemy.max_military_strength
+					multiply = 2
+				}
+				else = {
+					add = 5000
+				}
+			}
+			location = capital_province
+		}
+	}
+}

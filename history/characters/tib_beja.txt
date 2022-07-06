@@ -1,0 +1,23 @@
+﻿beja_blemmyia0001 = { # k_blemmyia holder
+    name = "Elagai"
+    religion = "kushitism_pagan"
+	culture = "beja"
+	687.1.1 = {
+		birth = yes
+	}
+	750.1.1 = {
+		death = yes
+	}
+}
+
+beja_blemmyia0002 = { # d_baqlin holder
+    name = "Gwilai"
+    religion = "kushitism_pagan"
+	culture = "beja"
+	690.1.1 = {
+	    birth = yes
+	}
+	750.1.1 = {
+		death = yes
+	}
+}

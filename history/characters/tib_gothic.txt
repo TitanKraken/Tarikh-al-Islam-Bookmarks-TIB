@@ -1,0 +1,80 @@
+﻿gothograeci001 = {
+	name = "Adalfuns"
+	dynasty = house_gothograeci
+	martial = 10
+	diplomacy = 6
+	intrigue = 3
+	stewardship = 7
+	religion = "orthodox"
+	culture = "gothic"
+	trait = education_martial_4
+	trait = strong
+	trait = brave
+	trait = stubborn
+	trait = ambitious
+	677.1.1 = {
+		birth = yes
+	}
+	730.1.1 = {
+		death = yes
+	}
+}
+
+gothograeci002 = {
+	name = "Badusreiks"
+	dynasty = house_bucellarii
+	martial = 6
+	diplomacy = 6
+	intrigue = 5
+	stewardship = 5
+	religion = "orthodox"
+	culture = "gothic"
+	trait = education_martial_3
+	trait = brave
+	trait = just
+	trait = stubborn
+	680.1.1 = {
+		birth = yes
+	}
+	733.1.1 = {
+		death = yes
+	}
+}
+
+gothograeci003 = {
+    name = "Gainas"
+	dynasty = house_bucellarii
+	martial = 7
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 5
+	religion = "orthodox"
+	culture = "gothic"
+	trait = education_martial_3
+	trait = brave
+	682.1.1 = {
+		birth = yes
+	}
+	735.1.1 = {
+		death = yes
+	}
+}
+
+gothograeci004 = {
+    name = "Gundomar"
+	dynasty = house_karabisianoi
+	martial = 9
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 7
+	religion = "orthodox"
+	culture = "gothic"
+	trait = education_martial_4
+	trait = brave
+	673.1.1 = {
+		birth = yes
+	}
+	727.1.1 = {
+		death = yes
+	}
+}

@@ -1,0 +1,264 @@
+﻿ibn_tumart = { #ibn Tumart
+	name = "Muhammad"
+    dna = ibn_tumart_dna
+    dynasty_house = house_ahl_ad_dar
+    martial = 20
+	diplomacy = 15
+	intrigue = 7
+	stewardship = 10
+    learning = 30
+	religion = "ashari"
+	culture = baranis
+	father = tumart
+    trait = sayyid
+    trait = zealous
+    trait = brave
+    trait = diligent
+    trait = temperate
+    trait = scholar
+    trait = theologian
+    trait = education_learning_4
+    trait = intellect_good_2
+    disallow_random_traits = yes
+    sexuality = heterosexual
+	1080.1.1 = {
+		birth = yes
+        add_pressed_claim = title:e_maghreb
+        add_pressed_claim = title:k_maghreb
+		add_pressed_claim = title:d_rif
+		add_pressed_claim = title:d_fes
+        effect = {
+            add_character_flag = {
+                flag = has_scripted_appearance
+                flag = black_maghrebi_clothes
+                flag = ibn_tumart_headgear
+            }
+        }
+	}
+    1120.1.1 = {
+        religion = "masmudi"
+        give_nickname = nick_mahdi
+    }
+    1121.1.1 = {
+        am_buff_effect = yes
+    }
+	1130.8.1 = {
+		death = yes
+	}
+}
+
+tumart = {
+    name = "Tumart"
+    dynasty_house = house_Idrisid #1029055, Idrisid of Morocco
+    religion = "ashari"
+    culture = baranis
+    father = fictional_al_husayn
+    trait = sayyid
+    trait = zealous
+    trait = humble
+    trait = content
+    trait = scholar
+    trait = education_learning_4
+    sexuality = heterosexual
+    1057.1.1 = {
+        birth = yes
+    }
+    1118.1.1 = {
+        death = yes
+    }
+}
+
+fictional_al_husayn = { # fictional
+    name = "Al-Husayn"
+    dynasty_house = house_Idrisid #Idrisid of Morocco
+    religion = "zayidi"
+    culture = maghrebi
+    father = 159518 # Al-Hasan Idrisid 935-985
+    trait = sayyid
+    trait = shy
+    trait = humble
+    trait = content
+    sexuality = heterosexual
+    976.1.3 = {
+        birth = yes
+    }
+    1026.12.17 = {
+        death = yes
+    }
+}
+
+ibn_tumart_002 = {
+    name = "Isa"
+    dynasty_house = house_ahl_ad_dar
+    religion = "ashari"
+    culture = baranis
+    father = tumart
+    trait = sayyid
+    trait = zealous
+    trait = humble
+    trait = temperate
+    trait = education_learning_3
+    disallow_random_traits = yes
+    sexuality = heterosexual
+    1082.1.1 = {
+        birth = yes
+    }
+    1120.1.1 = {
+        religion = masmudi
+    }
+    1151.1.1 = {
+        death = yes
+    }
+}
+
+ibn_tumart_003 = {
+    name = "Abd-al-Aziz"
+    dynasty_house = house_ahl_ad_dar
+    religion = "ashari"
+    culture = baranis
+    father = tumart
+    trait = sayyid
+    trait = zealous
+    trait = stubborn
+    trait = shy
+    trait = education_learning_3
+    disallow_random_traits = yes
+    sexuality = heterosexual
+    1085.1.1 = {
+        birth = yes
+    }
+    1120.1.1 = {
+        religion = "masmudi"
+    }
+    1151.1.1 = {
+        death = yes
+    }
+}
+
+bint_tumart = {
+    name = "Zaynab"
+    female = yes
+    dynasty_house = house_Idrisid # Idrisid of Morocco
+    religion = "ashari"
+    culture = maghrebi
+    father = tumart
+    trait = sayyid
+    trait = compassionate
+    trait = humble
+    trait = temperate
+    trait = education_learning_2
+    disallow_random_traits = yes
+    sexuality = heterosexual
+    1086.1.1 = {
+        birth = yes
+    }
+    1152.1.1 = {
+        death = yes
+    }
+}
+
+idris_ibn_tumart = { # fictional
+    name = "Idris"
+    dynasty_house = house_Idrisid #Idrisid of Morocco
+    religion = "ashari"
+    culture = maghrebi
+    father = tumart
+    trait = sayyid
+    trait = brave
+    trait = humble
+    trait = temperate
+    trait = education_martial_4
+    disallow_random_traits = yes
+    sexuality = heterosexual
+    1087.1.1 = {
+        birth = yes
+    }
+    1120.1.1 = {
+        religion = "zayidi"
+    }
+    1152.1.1 = {
+        death = yes
+    }
+}
+
+yahya_ibn_tumart = { # fictional
+    name = "Yahya"
+    dynasty_house = house_Idrisid #Idrisid of Morocco
+    religion = "ashari"
+    culture = maghrebi
+    father = tumart
+    trait = sayyid
+    trait = brave
+    trait = content
+    trait = compassionate
+    trait = education_stewardship_4
+    disallow_random_traits = yes
+    sexuality = heterosexual
+    1089.1.1 = {
+        birth = yes
+    }
+    1120.1.1 = {
+        religion = "zayidi"
+    }
+    1152.1.1 = {
+        death = yes
+    }
+}
+
+hasan_ibn_tumart = { # fictional
+    name = "Al-Hasan"
+    dynasty_house = house_Idrisid #Idrisid of Morocco
+    religion = "ashari"
+    culture = maghrebi
+    father = tumart
+    trait = sayyid
+    trait = brave
+    trait = honest
+    trait = gregarious
+    trait = education_diplomacy_4
+    disallow_random_traits = yes
+    sexuality = heterosexual
+    1103.1.1 = {
+        birth = yes
+    }
+    1120.1.1 = {
+        religion = "zayidi"
+    }
+    1164.1.1 = {
+        death = yes
+    }
+}
+
+abu_imran_musa_gadmiwi = {
+    name = "Abu 'Imran Musa"
+    dynasty_house = house_gadmiwi
+    religion = "ashari"
+    culture = baranis
+    trait = zealous
+    1093.3.4 =  {
+        birth = yes
+    }
+    1120.1.1 = {
+        religion = "masmudi"
+    }
+    1154.1.1 = {
+        death = yes
+    }
+}
+
+abu_ibrahim_ismail_hazraji = {
+    name = "Abu Ibrahim Ismail"
+    dynasty_house = house_hazraja_almohad
+    religion = "ashari"
+    culture = baranis
+    trait = zealous
+    1090.1.1 =  {
+        birth = yes
+    }
+    1120.1.1 = {
+        religion = "masmudi"
+    }
+    1149.1.1 = {
+        death = yes
+    }
+}

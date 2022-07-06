@@ -1,0 +1,269 @@
+﻿musa_ibn_nusayr = {
+	name = "Musa"
+	dynasty = al_ifriqi
+	religion = "ashari"
+	culture = "bedouin"
+	father = nusayr_father
+	trait = arbitrary
+	trait = diligent
+	trait = greedy
+	trait = education_martial_3
+	sexuality = heterosexual
+	640.1.1 = {
+		birth = yes
+	}
+	716.1.1 = {
+		death = yes
+	}
+}
+
+abd_al_aziz_ibn_musa = {
+	name = "Abd-al-Aziz"
+	dynasty = al_ifriqi
+	religion = "ashari"
+	culture = "bedouin"
+	father = musa_ibn_nusayr
+	trait = humble
+	trait = diligent
+	trait = just
+	trait = education_martial_3
+	sexuality = heterosexual
+	680.1.1 = {
+		birth = yes
+	}
+	714.1.1 = {
+		add_spouse = 200063
+	}
+	715.8.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+marwan_ibn_musa = {
+	name = "Marwan"
+	dynasty = al_ifriqi
+	religion = "ashari"
+	culture = "bedouin"
+	father = musa_ibn_nusayr
+	sexuality = heterosexual
+	682.1.1 = {
+		birth = yes
+	}
+	730.1.1 = {
+		death = yes
+	}
+}
+abdallah_ibn_musa = {
+	name = "Abdallah"
+	dynasty = al_ifriqi
+	religion = "ashari"
+	culture = "bedouin"
+	father = musa_ibn_nusayr
+	sexuality = heterosexual
+	684.1.1 = {
+		birth = yes
+	}
+	735.1.1 = {
+		death = yes
+	}
+}
+
+nusayr_father = {
+	name = "Nusayr"
+	religion = "ashari"
+	culture = "bedouin"
+	trait = humble
+	trait = diligent
+	trait = just
+	trait = education_martial_3
+	sexuality = heterosexual
+	623.1.1 = {
+		birth = yes
+	}
+	680.1.1 = {
+		death = yes
+	}
+}
+
+hasan_ibn_numan = {
+    name = "Hasan ibn Nu'man"
+	religion = "ashari"
+	culture = "bedouin"
+	trait = brave
+	trait = diligent
+	trait = just
+	trait = education_martial_4
+	sexuality = heterosexual
+	629.1.1 = {
+		birth = yes
+	}
+	705.1.1 = {
+		death = yes
+	}
+}
+
+tariq_the_conquerer = {
+	name = "Tariq"
+	dynasty = gibraltar
+	religion = "ashari"
+	culture = "butr"
+	father = ziyad
+	trait = humble
+	trait = ambitious
+	trait = diligent
+	trait = education_martial_4
+	martial = 30
+	stewardship = 20
+	sexuality = heterosexual
+	657.1.1 = {
+		birth = yes
+	}
+	711.1.1 = {
+		add_pressed_claim = title:k_andalusia
+		add_pressed_claim = title:c_sevilla
+		effect = {
+			set_realm_capital = title:c_algeciras
+		}
+	}
+	720.1.1 = {
+		death = yes
+	}
+}
+
+ziyad = {
+	name = "Ziyad"
+	religion = "ashari"
+	culture = "butr"
+	sexuality = heterosexual
+	630.1.1 = {
+		birth = yes
+	}
+	683.1.1 = {
+		death = yes
+	}
+}
+
+# Berber governors of Andalusia
+andalusia_governor_001 = {
+	name = "Yahya"
+	religion = ashari
+	culture = butr
+	sexuality = heterosexual
+	680.1.1 = {
+		birth = yes
+	}
+	740.1.1 = {
+		death = yes
+	}
+}
+andalusia_governor_002 = {
+	name = "Abdul-Hakam"
+	religion = ashari
+	culture = butr
+	sexuality = heterosexual
+	690.1.1 = {
+		birth = yes
+	}
+	750.1.1 = {
+		death = yes
+	}
+}
+andalusia_governor_003 = {
+	name = "Abdullah"
+	religion = ashari
+	culture = butr
+	sexuality = heterosexual
+	678.1.1 = {
+		birth = yes
+	}
+	730.1.1 = {
+		death = yes
+	}
+}
+andalusia_governor_006 = {
+	name = "Harun"
+	religion = ashari
+	culture = baranis
+	sexuality = heterosexual
+	688.1.1 = {
+		birth = yes
+	}
+	740.1.1 = {
+		death = yes
+	}
+}
+# Yemeni governors of Andalusia
+andalusia_governor_004 = {
+	name = "Abdul-Malik"
+	religion = ashari
+	culture = yemeni
+	sexuality = heterosexual
+	688.1.1 = {
+		birth = yes
+	}
+	740.1.1 = {
+		death = yes
+	}
+}
+andalusia_governor_005 = {
+	name = "Mansur"
+	religion = ashari
+	culture = yemeni
+	sexuality = heterosexual
+	685.1.1 = {
+		birth = yes
+	}
+	740.1.1 = {
+		death = yes
+	}
+}
+# Muwallad governors of Andalusia
+andalusia_governor_007 = {
+	name = "Gundemar"
+	religion = catholic
+	culture = visigothic
+	sexuality = heterosexual
+	680.1.1 = {
+		birth = yes
+	}
+	750.1.1 = {
+		death = yes
+	}
+}
+andalusia_governor_008 = {
+	name = "Alaricho"
+	religion = catholic
+	culture = visigothic
+	sexuality = heterosexual
+	678.1.1 = {
+		birth = yes
+	}
+	750.1.1 = {
+		death = yes
+	}
+}
+andalusia_governor_009 = {
+	name = "Fridiric"
+	religion = adoptionist
+	culture = suebi
+	sexuality = heterosexual
+	678.1.1 = {
+		birth = yes
+	}
+	750.1.1 = {
+		death = yes
+	}
+}
+andalusia_governor_010 = {
+	name = "Ilderic"
+	religion = catholic
+	culture = suebi
+	sexuality = heterosexual
+	675.1.1 = {
+		birth = yes
+	}
+	750.1.1 = {
+		death = yes
+	}
+}

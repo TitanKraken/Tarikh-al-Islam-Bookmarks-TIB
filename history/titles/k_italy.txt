@@ -1,0 +1,8276 @@
+k_italy = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 8 }
+
+	493.3.15 = {
+		holder = theodoric_amali
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					has_dlc_feature = royal_court
+				}
+				holder = {
+					set_court_language = language_italian
+					if = {
+						limit = { NOT = { knows_court_language_of = this } }
+						learn_court_language_of = this
+					}
+				}
+			}
+		}
+	}
+	526.8.30 = {
+		holder = athalaric_amali
+	}
+	534.10.3 = {
+		holder = theodahad_amali
+	}
+	536.12.1 = {
+		holder = vitiges_amali
+	}
+	540.1.1 = {
+		holder = ildibad_amali
+	}
+	541.1.1 = {
+		holder = eraric_amali
+	}
+	541.6.1 = {
+		holder = totila_amali #realname Baduila
+	}
+	552.6.1 = {
+		holder = teia_amali
+	}
+	553.1.1 = {
+		holder = 0
+	}
+	#Kingdom of Lombardy
+	565.1.1 = {
+		holder = 190124 # Alboin Gausi
+	}
+	572.6.28 = {
+		holder = 190168 # Clef Beleos
+		de_jure_capital = title:c_pavia
+		set_capital = title:c_pavia
+	}
+	574.1.1 = {
+		holder = 0
+	}
+	584.1.1 = {
+		holder = 190169 # Authari Beleos
+	}
+	590.9.5 = {
+		holder = 190170 # Agilolf Anawas
+	}
+	616.1.1 = {
+		holder = 190173 # Adaloald
+	}
+	626.1.1 = {
+		holder = 190174 # Arioald Arioaldidi
+	}
+	636.1.1 = {
+		holder = 190176 # Rothari Arodingi
+	}
+	652.1.1 = {
+		holder = 190177 # Rodoald
+	}
+	652.6.1 = {
+		holder = 190181 # Aripert I Baiuvari
+	}
+	661.1.1 = {
+		holder = 190182 # Godepert
+	}
+	662.1.1 = {
+		holder = 190185 # Pectarit
+	}
+	662.6.1 = {
+		holder = 190133 # Grimoald Gausi
+	}
+	671.1.1 = {
+		holder = 190136 # Garipald
+	}
+	671.6.1 = {
+		holder = 190185 # Pectarit (2nd time)
+	}
+	688.1.1 = {
+		holder = 190188 # Cunicpert
+	}
+	689.1.1 = {
+		holder = 190354 # Alachis Alachisidi
+	}
+	689.6.1 = {
+		holder = 190188 # Cunicpert (2nd time)
+	}
+	700.1.1 = {
+		holder = 190189 # Liutpert
+	}
+	701.1.1 = {
+		holder = 190183 # Raginpert
+	}
+	701.6.1 = {
+		holder = 190189 # Liutpert (2nd time)
+	}
+	702.1.1 = {
+		holder = 190184 # Aripert II Baiuvari
+	}
+	712.1.1 = {
+		holder = 190193 # Ansprand Ansprandidi
+	}
+	712.7.1 = {
+		holder = 190196 # Liutprand
+	}
+	744.1.1 = {
+		holder = 190198 # Hildeprand
+	}
+	744.8.1 = {
+		holder = 190343 # Ratchis Billonidi
+	}
+	749.1.1 = {
+		holder = 190331 # Aistulf
+	}
+	756.12.1 = {
+		holder = 190343 # Ratchis (2nd time)
+	}
+	757.1.1 = {
+		holder = 190347 # Desiderius Desideridi
+	}
+	774.1.1 = {
+		holder = 6392 #Charlemagne
+	}
+	781.1.1 = {
+		holder = 6394 #Pepin 'Carloman'
+	}
+	810.7.8 = {
+		holder = 6396 #Bernard
+	}
+	818.8.17 = {
+		holder = 90095 #Louis I
+	}
+	840.6.20 = {
+		holder = 30227 #Lothaire
+	}
+	855.9.20 = {
+		holder = 30228 #Louis II
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					has_dlc_feature = royal_court
+				}
+				holder = {
+					set_court_language = language_high_german # Hard to pinpoint the court language, but the close ties to the Germans would indicate German language
+					if = {
+						limit = { NOT = { knows_court_language_of = this } }
+						learn_court_language_of = this
+					}
+				}
+			}
+		}
+	}
+	875.8.12 = {
+		holder = 90104 #Charles 'the Bald'
+	}
+	877.10.6 = {
+		holder = 42018 #Karlmann
+	}
+	880.9.29 = {
+		holder = 90105 #Charles 'the Fat'
+	}
+	888.1.13 = {
+		holder = 71901 #Berengar I
+	}
+	891.1.1 = {
+		holder = 71903 #Guy of Spoleto
+	}
+	894.12.12 = {
+		holder = 71904 #Lambert of Spoleto
+	}
+	898.10.15 = {
+		holder = 71901 #Berengar I
+	}
+	900.1.1 = {
+		holder = 1164 #Louis III of Provence
+	}
+	902.1.1 = {
+		holder = 71901 #Berengar I
+	}
+	902.6.1 = {
+		holder = 1164 #Louis III of Provence
+	}
+	905.6.1 = {
+		holder = 71901 #Berengar I
+	}
+	922.1.1 = {
+		holder = 1144 #Rudolf II of Burgundy
+	}
+	924.1.1 = {
+		holder = 1106 #Adalberto (?)
+	}
+	926.1.1 = {
+		holder = 7923 #Hugues Bosonid
+	}
+	948.4.10 = {
+		holder = 167000 #Lothaire Bosonid
+	}
+	
+	950.11.22 = {
+		holder = 1108 #Berengario of Ivrea
+	}
+	961.1.1 = {
+		holder = 1110 #Adalberto of Ivrea
+	}
+	962.1.1 = {
+		holder = 1282 # Otto I of HRE
+	}
+	973.5.7 = {
+		holder = 1286 #Otto II
+	}
+	1002.1.24 = {
+		holder = 71902 #Arduino of Ivrea
+	}
+	1014.1.1 = {
+		holder = 1296 #Heinrich II 
+	}
+	1024.7.13 = {
+		holder = 0 #Subsumed into HRE
+	}
+	1080.1.1 = {
+		liege=e_hre
+		holder = 1316 # Heinrich IV
+	}
+	1093.3.1 = {
+		liege=0
+		holder = 30202 # Konrad II 
+	}
+	1101.7.27 = {
+		liege=e_hre
+		holder = 7901 # Heinrich V
+	}
+	1111.5.6 = {
+		holder = 7757 # Mathilda di Canossa, vicar	
+	}
+	1115.7.24 = {
+		holder = 0
+		liege = 0
+	}
+	1125.5.23 = {
+		liege=e_hre
+		holder = 30219 # Lothar III von Supplingburg
+	}
+	1128.1.1 = {
+		liege=0
+		holder = 7903 # Konrad III von Hohenstaufen
+	}
+	1135.1.1 = {
+		liege=e_hre
+		holder = 30219 # Lothar III von Supplingburg
+	}
+	1137.12.4 = {
+		liege = 0
+		holder = 0
+	}
+	1154.12.1 = {
+		liege= e_hre
+		holder = 212501 # Friedrich I von Hohenstaufen
+	}
+	1186.1.21 = {
+		holder = 212507 # Heinrich VI von Hohenstaufen
+	}
+	1197.9.28 = {
+		liege=0
+		holder = 0
+	}
+	1209.1.1 = {
+		liege=e_hre
+		holder = 212607 # Otto IV Welf
+		government = feudal_government
+	}
+	1212.12.5 = {
+		liege=0
+		holder = 0
+	}
+	1220.12.9 = {
+		liege=e_hre
+		holder = 212513 # Friedrich II von Hohenstaufen
+	}
+	#1226.12.5 = {
+	#	liege=0
+	#	holder = 0
+	#}
+	#1237.11.28 = {
+	#	liege=e_hre
+	#	holder = 212513 # Friedrich II von Hohenstaufen
+	#}
+	1237.11.28 = {
+		holder = 71171 #Should be Conrad instead but Enzo was the Vicar General of Italy and it's better to just give Conrad Sicily a bit early
+	}
+	1254.5.21 = {
+		liege=0
+		holder = 0
+	}
+	1311.1.6 = {
+		liege=e_hre
+
+		holder = 462611 # Heinrich VII von Luxemburg
+	}
+	1313.8.24 = {
+		liege=0
+		holder = 0
+	}
+	1327.5.31 = {
+		liege=e_hre
+		holder = 462740 # Ludwig III von Wittelsbach
+	}
+}
+
+k_lombard_league = {
+
+	1167.4.7 = {
+		holder = 1061626 # league founded
+		government = republic_government
+	}
+	1172.1.1 = {
+		holder = 213007
+	}
+	1176.1.1 = {
+		holder = 1064827 # Guido da Landriano, console di Milano and pretore di Lega Lombarda 1176-1183
+	}
+	1183.6.25 = {
+		liege = e_hre # peace of Konstanz
+	}
+	1186.1.1 = {
+		holder = 213031
+	}
+	1197.9.28 = {
+		liege = 0
+	}
+	1209.1.1 = {
+		liege = e_hre
+	}
+	1212.7.5 = {
+		holder = 70752 # della Torre
+	}
+	1212.12.5 = {
+		liege = 0
+	}
+	1220.1.1 = {
+		holder = 1064835 # Amizone Sacco podesta of Milano 1221
+	}
+	1220.12.9 = {
+		liege = e_hre # Heinrich II crowned emperor
+	}
+	1223.1.1 = {
+		holder = 70753
+	}
+	#1230.12.5 = {
+	#	liege = 0 # league renewed upon Heinrich's failed march at Rome.
+	#}
+	1247.1.1 = {
+		holder = 70762
+	}
+	1250.12.13 = {
+		holder = 0 # Heinrich II dead, league dissolved
+	}
+}
+
+k_tuscan_league = {
+
+	# Lega di San Genesio/Societas inter Civitates Tuscie. Guelph confederation 
+	#Acerbo di Firenze, rettore della lega San Genesio 1197
+	#Ildebrando Pannocchieschi di Volterra, capitano dell lega San Genesio 1199
+	#Amadeus di Perugia, pretore della lega San Genesio 1203
+	1197.11.11 = {
+		holder = 1065280 # Uguccione Gherardini, consul of Firenze 1197 and 1198
+		government = republic_government
+	}
+	1199.1.1 = {
+		holder = 1065086 # Arrigo di Capraia(Alberti), podesta of Firenze 1196, consul of Firenze 1199
+	}
+	1200.1.1 = {
+		holder = 1065348 # Paganello di Montemagno(Fraolmi), podesta of firenze 1200-1201
+	}
+	1202.1.1 = {
+		holder = 1065254 # Ranieri Uberti, consul of Firenze 1202
+	}
+	1203.1.1 = {
+		holder = 1065412 # Vinciguerra Donati, consul of Firenze 1204
+	}
+	1204.1.1 = {
+		holder = 1065255 # Guido Uberti, consul of Frienze 1204
+	}
+	1205.1.1 = {
+		holder = 1065089 # Rodolfo/Ridolfo di Capraia(Alberti), podesta of Firenze 1205, 1212 and 1249
+	}
+	1209.1.1 = {
+		liege = e_hre
+	}
+	1212.12.5 = {
+		liege = 0
+	}
+	1213.1.1 = {
+		holder = 1062428 # Uguccio di Pietroleoni podesta of Firenze 1213
+	}
+	1218.1.1 = {
+		holder = 1064819 # Otto da Mandello, podesta of Firenze 1218
+	}
+	1219.1.1 = {
+		holder = 1064818 # Alberto da Mandello, podesta of Firenze 1219
+	}
+	1220.12.9 = {
+		liege = e_hre
+	}
+	1222.1.1 = {
+		holder = 1064819 # Otto da Mandello, podesta of Firenze 1230	
+	}
+	1226.12.5 = {
+		liege = e_hre
+	}
+	1236.1.1 = {
+		holder = 1062129 # Bernardo Rossi podesta of Firenze 1236
+	}
+	1237.1.1 = {
+		holder = 1064821 # Rubaconte da Mandello, podesta of Firenze 1237
+	}
+	1239.1.1 = {
+		holder = 1062093 # Guido da Sesso podesta of Firenze 1239
+	}
+	1241.1.1 = {
+		holder = 1064657 # Goffredo di Langosco(Lomello), imperial vicar of firenze 1241 and 1242
+	}
+	1243.1.1 = {
+		holder = 1062142 # Ugolino Rossi, podesta of Firenze 1243
+	}
+	1244.1.1 = {
+		holder = 1062129 # Bernardino Rossi, podesta of Firenze 1244
+	}
+	1245.1.1 = {
+		liege = 0
+		holder = 0 # k_tuscany #under imperial vicar of Tuscany
+	}
+	1248.1.1 = {
+		holder = 1065322 # Guiscardo da Pietrasanta podesta of Firenze 1254
+	}
+	1250.12.13 = {
+		holder = 0
+	}
+}
+
+d_vercelli_republic = {
+
+# Vercelli commune
+1240.1.1 = {
+    liege=k_lombard_league 
+	holder = 1064734 #Egidolo della Gente, podesta of vercelli 1240
+	government = republic_government
+}
+1249.1.1 = {
+    liege=k_italy
+	holder = 1226789 #Enrico di Spavara, podesta of vercelli 1249
+}
+1249.5.26 = {
+    liege=e_hre
+}
+1250.1.1 = {
+	holder = 1064657 #Goffredo di Langosco podesta of vercelli 1250
+}
+1257.1.1 = {
+	holder = 1064745 #Alberto Turixella, podesta of vercelli 1257-59
+}
+1270.1.1 = {
+	holder = 1064746 # Guglielmo Turixella 
+}
+1285.1.1 = {
+	holder = 1064748 # Riccardo Tizzoni, capitano of the Guelphs of Vercelli
+}
+1301.1.1 = {
+	holder = 1064786 # Ranierio Avogadro bishop and capitano del popoli of vercelli 1301
+}
+1303.1.1 = {
+	holder = 1064778 # Simone Avogadro rettore di Vercelli 1303-1306 and 1309-1325
+}
+1307.1.1 = {
+	holder = 1064663 #Filippone di Langosco, podesta of Vercelli 1307-1308
+}
+1308.1.1 = {
+	holder = 1064778 # Simone Avogadro rettore di Vercelli 1303-1306 and 1309-1325
+}
+1311.1.6 = {
+    liege=k_italy
+}
+1313.8.24 = {
+	liege=k_naples
+}
+1325.1.1 = {
+	holder = 1064781 # Giovanni Avogadro podesta di Vercelli ca 1334
+}
+1327.5.31 = {
+    liege=k_italy
+}
+1334.1.1 = {
+	liege = 0
+	holder = 0
+}
+
+
+}
+
+#Don't want Latium being under k_romagna
+d_latium = {
+
+500.1.1 = {
+de_jure_liege = k_papal_state
+government = theocracy_government
+}
+
+}
+
+
+d_arezzo_republic = {
+
+#Arentine republic
+1167.9.12 = { #Death of Welf VII
+    liege = e_hre
+	holder = 1061415# Ugolino I M.S.M
+	government = republic_government
+}
+1172.8.26 = {
+    liege = k_italy
+}
+1173.1.1 = {
+	holder = 1065465 # Botolino Botoli
+}	
+1180.1.1 = { 
+	holder = 1062874 #Guglielmino Barbolani
+}
+1185.1.1 = {
+	holder = 1061416 # Guido II M.S.M
+}
+1197.9.28 = {
+    liege = 0
+}
+1197.12.2 = {
+    liege = k_tuscan_league # League of San Genesio
+}		
+1201.1.1 = {
+	holder = 1062876 # Ubertino II di Barbolani, consul of Arezzo 1201
+}
+1213.1.1 = {
+	holder = 1061417# Uguccione IV M.S.M
+}
+1230.1.1 = {
+	holder = 1065466 # Rinaldo Botoli, capitano del poppolo of Arezzo 1234
+}
+1235.1.1 = {
+	holder = 1062129 # Bernardo Rossi, podesta of Arezzo 1235
+}
+1236.1.1 = {
+	holder = 1061418# Uguccione M.S.M
+}
+1242.1.1 = {
+	holder = 1062089 # Bernardo Sessi. Podesta of Arezzo 1242
+}
+1245.1.1 = {
+    liege = k_tuscany #under imperial vicar of Tuscany
+}
+1246.1.1 = {
+	holder = 1061246 # Ildibrandino Cacciaconti, podesta of Arezzo 1246 and 1252
+}
+1250.1.1 = {
+	holder = 1065125 # Ranieri/Rinieri aka Pazzi(Ubertini), signore di Valdarno, son of ?, brother of Guglielmino of Arezzo. imperialvicar of Arezzo and citta di castello 1250
+}
+1250.12.13 = {
+    liege = e_hre #HIP had all of north Italy independent after 1250 up until 1337 which is odd as all maps and information I find says it was still fully under the empire. I think it's more likely they forgot to properly set the liege once they got rid of the league titles
+}
+1252.1.1 = {
+	holder = 1061246 # Ildibrandino Cacciaconti, podesta of Arezzo 1246 and 1252
+}
+1255.1.1 = {
+	holder = 1061430 # Guccio/Ciacco Tarlati
+}
+1257.1.1 = {
+	holder = 1065243 # Tegghiao Boundelmonti, podesta of Arezzo 1257
+}
+1265.1.1 = {
+	holder = 1061419 # Guido III M.S.M/Guido di Valiano di Montemigiano, podesta of Firenze 1275
+}
+1270.1.1 = {
+	holder = 1065243 # Tegghiao Boundelmonti, podesta of Arezzo 1257
+}
+1275.1.1 = {
+	holder = 1065467 # Alberto Botoli
+}
+1280.1.1 = {
+	holder = 1091018 # Guido-Novello di Modigliana(Guidi) podesta of Arezzo 1289
+}
+1289.6.11 = {
+	holder = 1065118 # Ciapettino Ubertini, podesta of Arezzo 1291
+}
+1292.1.1 = {
+	holder = 73425 # Ugoccione della Faggiuola podesta of Arezzo 1292-1294 and 1302-1308, capitano di poppolo of Arezzo 1309-1310
+}
+1295.1.1 = {
+	holder = 1065468 #Fumo/Fumaiolo/Fornaiolo Botoli
+}
+1298.1.1 = {
+	holder = 1065061 #Manfredi d'Ampinana di Modigliana(Guidi)
+}
+#1062847 # Rofus/Rosso Gabrielli, podesta of Firenze, capitano generale of Arezzo when?(seemingly mostly fought on opposing sides)
+1301.1.1 = {
+	holder = 1062882 # Ubertino aka il Bocca di Barbolani, capitano generale di Arezzo 1301
+}
+1302.1.1 = {
+	holder = 73425 # Ugoccione della Faggiuola podesta of Arezzo 1292-1294 and 1302-1308, capitano di poppolo of Arezzo 1309-1310
+}
+1311.1.1 = {
+	holder = 1062918 # Borgaruccio Ottoni, podesta of Arezzo and Matelica 1321.
+}
+1311.1.6 = {
+    liege = k_italy
+}
+1313.8.24 = {
+	liege = 0
+}
+1322.1.1 = {
+	holder = 1061435 # Pier Saccone Tarlati, imperial vicar and lord of Arezzo since 1327
+}
+1327.5.31 = {
+    liege = k_italy
+}
+1356.1.1 = {
+	holder = 1065122 # Biordo Ubertini, podesta of Arezzo 1356 
+}
+
+
+}
+
+
+d_mantua_republic = {
+
+
+1167.4.7 = {
+	liege = k_lombard_league
+	holder = 1062150 # Otolino Bonalcosi
+	government = republic_government
+}
+1199.1.1 = {
+	holder = 1062151 # Gandolfo Bonlacosi consul of Mantova 1200
+}
+# Ludovico I Sambonifacio, rector/capitano of Mantova 1220
+1215.1.1 = {
+	holder = 1062152 # Martino Bonlacosi imperial rector of Mantova 1233
+}
+1233.4.7 = {
+	# liege = k_italy
+}
+1249.5.26 = {
+    liege = e_hre
+}
+#Alberto Scalieri, podesta of Mantova 1272 and 1274- october 1277
+1255.1.1 = {
+	holder = 1062153 # Pinamonte Bonlacosi capitano del popolo of Mantova 1276-1291
+}
+1293.1.1 = {
+	holder = 1062154 #Bardellone Bonlacosi Capitano del popolo of Mantova 1291-1299
+}
+1300.1.1 = {
+	holder = 1062157 #Guido detto Botesella Bonlacosi Capitano del popolo of Mantova 2nd of july 1299-1309
+}
+1309.1.24 = {
+	holder = 1062166 # Rinaldo detto Passerino Bonalcosi, Capitano del popolo of Mantova 1309-1311. signore di Mantova. Imperial vicar of Mantova 1311-,  signore di Modena 1312-1326
+}
+1311.1.6 = {
+    liege = k_italy
+}
+1313.8.24 = {
+	liege = 0
+}
+1327.5.31 = {
+    liege = k_italy
+}
+#To gonzaga
+1328.1.1 = {
+	holder = 413024 
+}
+
+
+}
+
+
+d_siena_republic = {
+
+
+#Sienese republic
+#1065190 # Rustichino Piccolomini, consul of siena 1160
+#1065166 # Braccio Malavolti, consul of Siena 1166.
+1167.9.12 = { #Death of Welf VII, the castle of Orgia of the Ardengheschi was siezed in early 1168
+    liege = e_hre
+	holder = 1065167 # Malatova Malatovi
+	government = republic_government
+}
+1170.1.1 = {
+	holder = 1065192 # Guglielmo Piccolomini, consul of Siena 1170
+}
+1172.1.1 = {
+	holder = 1065167 # Malatova Malatovi
+}
+1172.8.26 = {
+    liege = k_italy
+}
+1175.1.1 = {
+	holder = 1061224 # Ugo Ugurgieri
+}
+1178.1.1 = {
+	holder = 1065193 # Ranierio Piccolomini, consul of Siena 1178
+}
+#1061221 # Ruggerio di Berardenghi consul of Siena in 1183(????)
+1186.1.1 = {
+	holder = 1065168 # Filippo Malatovi, consul of Siena 1186 1191 and 1194. 1200 podesta of siena.
+}
+1197.11.11 = {
+    liege = k_tuscan_league # League of San Genesio
+}
+1198.1.1 = {
+	holder = 1061310 # Ranieri d'Torniellla(Ardenghesci)
+}
+1202.1.1 = {
+	holder = 1061234 # Ciampolo di Meo(Ugurgieri), consul of Siena 1202-34
+}
+1208.1.1 = {
+	holder = 1065343 # Guelfo/Guidi Pocari, podesta of Siena 1208 and 1214.
+}
+1215.1.1 = {
+	holder = 1061311 # Alberto d'Torniellla(Ardenghesci)
+}
+1224.1.1 = {
+	holder = 1062129 # Bernardo Rossi podesta of Siena 1224
+}
+1228.1.1 = {
+	holder = 1065195 # Rustichino II Piccolomini, consul of siena 1228
+}
+1232.1.1 = {
+	holder = 1062115 # Gherardo Rangoni, podesta of Siena 1232
+}
+1238.1.1 = {
+	holder = 1061953 # Bonaccorso da Palude. Podesta of Siena 1238-1239
+}
+1245.1.1 = {
+    liege = k_tuscany #under imperial vicar of Tuscany
+}
+1246.1.1 = {
+	holder = 1062106 # Ugolino Sessi. Podesta of Siena 1246
+}
+1248.1.1 = {
+    liege = k_tuscan_league # Friedrich von Antiochia expelled from Firenze
+}
+1250.1.1 = {
+	holder = 1062942 # Ranieri di Sarteano, podesta of Siena?
+}
+1250.12.13 = {
+    liege = e_hre #HIP had all of north Italy independent after 1250 up until 1337 which is odd as all maps and information I find says it was still fully under the empire. I think it's more likely they forgot to properly set the liege once they got rid of the league titles
+}
+1254.1.1 = {
+	holder = 1061232 # Bartolomeo Ugurgieri, camarlingo of Siena 1255
+}
+1258.1.1 = {
+	holder = 1065388 # Orlando Bonsignori´
+}
+1273.1.1 = {
+	holder = 1065199 # Guglielmo Piccolomini
+}
+1276.1.1 = {
+	holder = 1064387 # Guglielmo Scarabello da Canossa, podesta of Siena 1276
+}
+1277.1.1 = {
+	holder = 1062130 # Orlando Rossi, podesta di Siena 1277
+}
+1280.1.1 = {
+	holder = 1065174 # Uguccione Malavolti, camerligno of Siena 1280
+}
+#Niccolo da Palombara, podesta of Siena 1280
+#Matteo Orfini, podesta of Sinea 1281
+1282.1.1 = {
+	holder = 1091022 # Guido Salvatico di Dovadola(Guidi), podesta of Siena 1282 and (1288?)
+}
+#Ranieri di conti d'Elci(Pannocchieschi), consul of Siena 1283
+#Aghioflo da Romena(Guidi), podesta of Siena 1284
+#Accorambono di Camerino, podesta of Seina 1285
+#Bartolomeo da Brescia(Maggi?), podesta of Siena 1286
+1287.1.1 = {
+	holder = 1091018 # Guido-Novello di Modigaliana(Guidi), podesta of Siena 1287
+}
+1288.1.1 = {
+	holder = 1061342 # Nello Pannocchieschi, podesta of Siena 1288
+}
+1289.1.1 = {
+	holder = 1061319 # Neri di Sitcciano(Ardenghesci), consul of Siena 1289
+}
+1291.1.1 = {
+	holder = 1065177 # Nicolò Malatovi consiglieri of Siena 1302
+}
+1294.1.1 = {
+	holder = 1065391 # Corrado I della Branca, capitano del popolo of Siena 1294
+}
+1298.1.1 = {
+	holder = 1062849 # Cante Cabrielli, podesta of Siena 1298 and 1329
+}
+1299.1.1 = {
+	holder = 1065201 # Guglielmino Piccolomini
+}
+1301.1.1 = {
+	holder = 1091036 # Rugieri di Dovdola 1301, capitano del popolo of siena 1322
+}
+1305.1.1 = {
+	holder = 1065201 # Manno I della Branca capitano del popolo of Siena late 1305
+}
+1307.1.1 = {
+	holder = 1065393 # Pietro I della Branca capitano del popolo of Siena 1307
+}
+1308.1.1 = {
+	holder = 1065201 # Guglielmino Piccolomini
+}
+1310.1.1 = {
+	holder = 1061342 # Nello Pannocchieschi
+}
+1311.1.6 = {
+    liege = k_tuscan_league
+}
+1313.1.1 = {
+    liege = k_italy
+	holder = 1065071 # Ugo di Battifolle(Guidi di Modigliana) podesta of Siena 1319.
+}
+1313.8.24 = {
+	liege = 0
+}
+1322.1.1 = {
+	holder = 1091036 # Rugieri di Dovdola 1301, capitano del popolo of siena 1322
+}
+1323.1.1 = {
+	holder = 1061971 # Guidoriccio da Sesso
+}
+1327.5.31 = {
+    liege = k_tuscan_league
+}
+1330.1.1 = {
+    liege = k_italy
+	holder = 1061420 # Guido di Montemigiano( IV di M.S.M) Podesta of Siena 1330
+}
+
+
+}
+
+
+d_firenze_republic = {
+
+
+#Florentine republic
+1167.9.12 = { #Death of Welf VII
+	holder = 1065421 # Truffetto dei Fifanti, consul of Firenze 1172
+	government = republic_government
+}
+1170.1.1 = {
+	holder = 1065434 # Ormanno Caponsacchi, consul of firenze 1172
+}
+1172.8.26 = {
+    liege= k_italy
+}	
+1173.1.1 = {
+	holder = 1065397 # Amideus Amidei, consul of Firenze 1174
+}
+1174.1.1 = {
+	holder = 1065422 # Oderico dei Fifanti, consul of Firenze 1174
+}
+1175.1.1 = {
+	holder = 1065087 # Guido Borgognone di Capria(Alberti), consul of Firenze 1174
+}
+1176.1.1 = {
+	holder = 1065435 # Berlengario Caponsacchi, consul of Firenze 1176
+}
+1177.1.1 = {
+	holder = 1065249 # Schiatta Uberti, leader of the ghibelines of Firenze 1177
+}
+1180.1.1 = {
+	holder = 1065250 # Uberto Uberti, consul of Firenze in 1180 and 1194
+}
+1181.1.1 = {
+	holder = 1065399 # Bongianni Amidei, son of Amideus  consul of Firenze 1182
+}
+1183.1.1 = {
+	holder = 1065411 # Donato Donati, consul of Firenze 1174 and 1183
+}
+1184.1.1 = {
+	holder = 1065251 # Giovanni Uberti, consul of Firenze 1184
+}
+1186.1.1 = {
+	holder = 1065423 # Ugolino dei Fifanti, consul of Firenze 1186
+}
+1187.1.1 = {
+	holder = 1065431 # Caponsacco Caponsacchi, consul of Firenze 1187
+}
+1189.1.1 = {
+	holder = 1065252 # Tignosino Uberti, consul of Firenze 1189
+}
+1191.1.1 = {
+	holder = 1065253 # Schiatta II Uberti, consul of Frienze 1191 and 1197
+}
+1192.1.1 = {
+	holder = 1065424 # Chianni dei Fifanti, consul of Firenze 1192
+}
+1193.1.1 = {
+	holder = 1065436 # Gherardo Caponsacchi, podesta of Firenze 1193, consul of Firenze 1196, Camerlingo of Firenze 1224
+}
+1194.1.1 = {
+	holder = 1065443 # Catalano della Tosa, consul of Firenze 1194
+}
+1195.1.1 = {
+	holder = 1065250 # Uberto Uberti, consul of Firenze in 1180 and 1194
+}
+1196.1.1 = {
+	holder = 1065086 # Arrigo di Capraia(Alberti), podesta of Firenze 1196, consul of Firenze 1199
+}
+1197.1.1 = {
+	holder = 1065280 # Uguccione Gherardini, consul of Firenze 1197 and 1198
+}
+1197.11.11 = {
+    liege=k_tuscan_league # League of San Genesio
+}
+1199.1.1 = {
+	holder = 1065086 # Arrigo di Capraia(Alberti), podesta of Firenze 1196, consul of Firenze 1199
+}
+1200.1.1 = {
+	holder = 1065348 # Paganello di Montemagno(Fraolmi), podesta of firenze 1200-1201
+}
+1202.1.1 = {
+	holder = 1065254 # Ranieri Uberti, consul of Firenze 1202
+}
+1203.1.1 = {
+	holder = 1065412 # Vinciguerra Donati, consul of Firenze 1204
+}
+1204.1.1 = {
+	holder = 1065255 # Guido Uberti, consul of Frienze 1204
+}
+1205.1.1 = {
+	holder = 1065089 # Rodolfo/Ridolfo di Capraia(Alberti), podesta of Firenze 1205, 1212 and 1249
+}
+1213.1.1 = {
+	holder = 1062428 # Uguccio di Pietroleoni podesta of Firenze 1213
+}
+1218.1.1 = {
+	holder = 1064819 # Otto da Mandello, podesta of Firenze 1218
+}
+1219.1.1 = {
+	holder = 1064818 # Alberto da Mandello, podesta of Firenze 1219
+}
+1222.1.1 = {
+	holder = 1064819 # Otto da Mandello, podesta of Firenze 1230	
+}
+1236.1.1 = {
+	holder = 1062129 # Bernardo Rossi podesta of Firenze 1236
+}
+1237.1.1 = {
+	holder = 1064821 # Rubaconte da Mandello, podesta of Firenze 1237
+}
+1239.1.1 = {
+	holder = 1062093 # Guido da Sesso podesta of Firenze 1239
+}
+1241.1.1 = {
+	holder = 1064657 # Goffredo di Langosco(Lomello), imperial vicar of firenze 1241 and 1242
+}
+1243.1.1 = {
+	holder = 1062142 # Ugolino Rossi, podesta of Firenze 1243
+}
+1244.1.1 = {
+	holder = 1062129 # Bernardino Rossi, podesta of Firenze 1244
+}
+1245.1.1 = {
+	holder = 1065257 # Manente/Farinata Uberti, leader of the ghibelines of Firenze 1239-1250
+}
+1245.1.1 = {
+    liege=k_tuscany #under imperial vicar of Tuscany
+}
+1248.1.1 = {
+    liege=k_tuscan_league # Friedrich von Antiochia expelled from Firenze
+}
+1248.1.1 = {
+	holder = 1065322 # Guiscardo da Pietrasanta podesta of Firenze 1254
+}
+1250.12.13 = {
+    liege = e_hre #HIP had all of north Italy independent after 1250 up until 1337 which is odd as all maps and information I find says it was still fully under the empire. I think it's more likely they forgot to properly set the liege once they got rid of the league titles
+}
+1255.1.1 = {
+	holder = 70754 # Alamanno della Torre, podesta of Firenze 1255-56
+}
+1256.6.1 = {
+	holder = 1065243 # Tegghiao Boundelmonti, consiglieri of Firenze 1256
+}
+1257.1.1 = {
+	holder = 1062029 # Matteo III da Correggio, podesta of Firenze 1257
+}
+# Danese Crivelli, podesta of Firenze 1259
+1260.1.1 = {
+	holder = 1062120 # Jacopino II Rangoni consul of Firenze 1260
+}
+1261.1.1 = {
+	holder = 1091018 # Guido-Novello di Modigaliana(Guidi), imperial vicar of Firenze 1260-62
+}
+1263.1.1 = {
+	holder = 1061151 # Napoleone degli Alberti, podesta of Firenze 1266
+}
+1267.1.1 = {
+	holder = 73595 # Malatesta da Verucchio podesta of Firenze 1268
+}
+1269.1.1 = {
+	holder = 144183 # Guy de Montfort, podesta of Firenze 1270
+}
+1274.1.1 = {
+	holder = 1061419 # Guido III M.S.M/Guido di Valiano di Montemigiano, podesta of Firenze 1275
+}
+#Corrado da Palazzo, podesta of Firenze 1276
+1277.1.1 = {
+	holder = 1064460 # Teseo/Tedisio di Sanvitale, guelph vicar/podesta of Firenze 1278
+}
+1280.1.1 = {
+	holder = 1065245 # Albizzone Boundelmonti, consul of Firenze 1278
+}
+1281.1.1 = {
+	holder = 1064831 # Matteo/Maffeo Maggi, podesta of Firenze 1281
+}
+1282.1.1 = {
+	holder = 1064832 # Bartolommeo Maggi, podesta of Firenze 1284
+}
+1286.1.1 = {
+	holder = 1061965 # Matteo da Fogliano, podesta of Frienze 1286
+}
+1289.1.1 = {
+	holder = 1062847 # Rofus/Rosso Gabrielli, podesta of Firenze 1290
+}
+1291.1.1 = {
+	holder = 1065078 # Amerigo di Porciano(Guidi), podesta of Firenze 1291?
+}
+1293.1.1 = {
+	holder = 1065417 # Corso Donati, leader of the black gulphs of Firenze 1293-1306
+}
+1294.1.1 = {
+	holder = 1065140 # Lamberto degli Abati(Ubertini) di Gaville, podesta of Firenze 1294?
+}
+1295.1.1 = {
+	holder = 1065417 # Corso Donati, leader of the black gulphs of Firenze 1293-1306
+}
+1297.1.1 = {
+	holder = 1062849 # Cante Gabrielli, podesta of Firenze 1298 and 1300-1302
+}
+1303.1.1 = {
+	holder = 1065395 # Fulcieri Calboli, podesta of Firenze 1303, captiano generale of Firenze 1312
+}
+1304.1.1 = {
+	holder = 1091036 # Ruggieri di Dovadola(Guidi), podesta of Firenze 1304
+}
+1304.9.1 = {
+	holder = 1065392 # Manno della Branca, podesta of Firenze 1304 and late 1323
+}
+1305.9.1 = {
+	holder = 1062857 # Bino Gabrielli, podesta of Firenze 1305 and 1306
+}
+1308.1.1 = {
+	holder = 1065393 # Pietro della Branca, podesta of Firenze 1308 and 1331
+}
+1309.1.1 = {
+	holder = 1065455 # Averardo II de Bicci(Medici), Gonfaloniere of Firenze 1309,  capitano of the gulphs of Toscana and Romagana in 1314
+}
+1311.1.1 = {
+	holder = 1061546 # Gentile da Varano, podesta of Firenze 1312
+}
+1311.1.6 = {
+    liege=k_tuscan_league
+}
+1312.6.1 = {
+	holder = 1061971 # Guido da Fogliano, podesta of Firenze from mid 1312
+}
+1313.8.24 = {
+	liege=0
+}
+1314.1.1 = {
+	holder = 1065455 # Averardo II de Bicci(Medici), Gonfaloniere of Firenze 1309,  capitano of the gulphs of Toscana and Romagana in 1314
+}
+1315.1.1 = {
+	holder = 1065070 # Guido di Battifolle(Guidi), imperial vicar of Firenze 1316.
+}
+1317.1.1 = {
+	holder = 1061976 # Guido Savino da Fogliano, podesta of Firenze in 1317-19
+}
+1319.1.1 = {
+	holder = 1065073 # Simone di Battifolle(Guidi), capitano generale of Firenze 1319
+}
+1322.1.1 = {
+	holder = 1062856 # Filippo Gabrielli, podesta of Firenze 1322
+}
+1323.1.1 = {
+	holder = 1065392 # Manno della Branca, podesta of Firenze 1304 and late 1323
+}
+1327.5.31 = {
+    liege=e_hre
+}
+1332.1.1 = {
+	holder = 1062855 # Jacopo Gabrielli, podesta of Firenze 1332
+}
+1350.1.1 = {
+	holder = 1062133 # Andreasio Rossi, podesta of Firenze 1350
+}
+
+
+}
+
+
+
+d_vicenza_republic = {
+
+1147.1.1 = {
+    liege=e_hre
+	holder = 1226768
+	government = republic_government
+}
+1154.12.1 = {
+    liege= k_italy
+}
+1167.4.7 = {
+liege=k_lombard_league
+}
+1211.1.1 = {
+	holder = 1226769
+}
+1227.1.1 = {
+    liege=k_italy
+	holder = 70664 # Alberico da Romano
+}
+1240.1.1 = {
+	holder = 1226726 # Ezzelino da Romano
+}
+1249.5.26 = {
+    liege=e_hre
+}
+1259.1.1 = {
+	holder = 1226731
+}
+1266.1.1 = {
+	holder = 70794
+}
+1277.10.17 = {
+	holder = 70798
+}
+1301.1.1 = {
+	holder = 70802
+}
+1304.1.1 = {
+	holder = 412070
+}
+1305.1.1 = {
+	liege = 0
+	holder = 0
+}
+
+
+}
+
+
+d_verona_republic = {
+
+
+#Commune founded
+1135.1.1 = {
+    liege=k_italy
+	holder = 1065717 # Riprando III Gandolfingi del Palazzo
+	government = republic_government
+}
+1137.12.4 = {
+    liege = e_hre
+}
+1139.1.1 = {
+	holder = 1226755 # Marco Sambonifacio
+}
+1142.1.1 = {
+	holder = 1226756 # Scauro, capitano/podesta of Verona 1163, conte di Verona 1164-95
+}
+1154.12.1 = {
+    liege= k_italy
+}
+1167.4.7 = {
+liege=k_lombard_league
+}
+#Gandolfingi del Palazzo
+1195.1.1 = {
+	holder = 1065723 # Bartolomeo Gandolfingi del Palazzo, consul of Verona 1195 and 1210, 1212 podesta of Verona. 
+}
+#da Mandello
+1205.1.1 = {
+	holder = 1064821 # Rubaconte da Mandello aka il Carroccio, podesta of Verona 1205-1206
+}
+#Gandolfingi del Palazzo
+1207.1.1 = {
+	holder = 1065723 # Bartolomeo Gandolfingi del Palazzo, consul of Verona 1195 and 1210, 1212 podesta of Verona. 
+}
+#Sambonifacio
+1210.1.1 = {
+	holder = 1226757 # Bonifacio, conte di Sambonifacio 1206, podesta of Verona 1211
+}
+#Gandolfingi del Palazzo
+1212.1.1 = {
+	holder = 1065723 # Bartolomeo Gandolfingi del Palazzo, consul of Verona 1195 and 1210, 1212 podesta of Verona. 
+}
+1214.1.1 = {
+	holder = 1065724 # Gioavnni Gandolfingi del Palazzo, consul of Verona 1207.
+}
+#Sambonifacio
+1221.1.1 = {
+	holder = 1226760 # Rizzardo, conte di Sambonifacio, podesta of Verona 1222 and 1233
+}
+#Gandolfingi del Palazzo
+1224.1.1 = {
+	holder = 1065724 # Gioavnni Gandolfingi del Palazzo, consul of Verona 1207. 
+}
+#Da Romano
+1225.1.1 = {
+	holder = 1226726 # Ezzelino III da Romano, "podesta" of Verona 1225-1230.
+}
+#Sambonifacio
+1227.1.1 = {
+	holder = 1226760 # Rizzardo, conte di Sambonifacio, podesta of Verona 1222 and 1233
+}
+#Gandolfingi del Palazzo
+1230.1.1 = {
+	holder = 1065724 # Gioavnni Gandolfingi del Palazzo, consul of Verona 1207. 
+}
+#Sambonifacio
+1232.7.27 = {
+	holder = 1226760 # Rizzardo, conte di Sambonifacio, podesta of Verona 1222 and 1233
+}
+1240.12.13 = {
+    liege = k_lombard_league
+}
+1254.2.1 = {
+	holder = 1226763 # Leonosio
+	liege = e_hre
+}
+1259.1.1 = {
+	holder = 1226764 # Ludovico, conte di Sambonifacio pre 1259, podesta of Verona 1262
+}
+#Scalieri	
+1259.5.1 = {
+	holder = 70794
+}
+#Sambonifacio
+1262.1.1 = {
+	holder = 1226764 # Ludovico, conte di Sambonifacio pre 1259, podesta of Verona 1262
+}
+#Scalieri	
+1263.1.1 = {
+	holder = 70794
+}
+#Suardi
+1270.1.1 = {
+	holder = 1064977 # Alberico Suardi, podesta of Verona 1268 and 1280.
+}
+1275.1.1 = {
+	holder = 1065606 # Merino Suardi, Imperial rector of Verona 1275
+}
+#Scalieri
+1277.10.17 = {
+	holder = 70798
+}
+#Saurdi
+1280.1.1 = {
+	holder = 1064977 # Alberico Suardi, podesta of Verona 1268 and 1280.
+}
+#Scalieri
+1282.1.1 = {
+	holder = 70798
+}
+1301.1.1 = {
+	holder = 70802
+}
+1304.1.1 = {
+	holder = 412070
+}
+1305.1.1 = {
+	liege = 0
+	holder=0
+}
+###Podesta di Verona
+#Sanlinguerra Torelli, podesta of Verona 1200(first podesta). 
+#Egidio di Cortenova, podesta of Verona 1203
+#Drudo Marchilione, podesta of Verona 1204
+#Alberico di Faenza, podesta of Verona 1205
+#Rubaconte da Mandello aka il Carroccio/ Robaconte Buzzacarino, podtesta of verona 1206
+#Azzo d'este podesta of Verona 1207-1208
+#Guglielmo Rangoni, podesta di Verona 1209
+#Realdo dalle Carceri, podesta di Verona 1210
+#Bonifacio di Sambonifacio, podesta di Verona 1211
+#Bartolomeo di Palazzo(Gandolfingi), podesta of Verona 1212
+#Aldobrandino di este, podesta of Verona 1213
+#Gherardo di Campesco, podesta of Verona 1214
+#Rufino di Pontenovo, podesta of Verona 1219
+#Ugone di Crecenzi(Verona family not related to any other central italian ones), podesta of Verona 1220
+#Lambertin Brumarello, podesta of verona 1221
+#Rizzardo di Ridonesco/Ronco(Sambonifacio), podesta of verona 1222 and 1233
+#Lamberto Lambertini di Bologna, podesta of Verona 1224
+#Manfredo di Cortenova, podesta of Verona 1227
+#Ranierio Zeno, podesta of Verona 1230
+#Guido da Roda/Rho di Milano, podesta of Veriona 1232
+#Rizzardo di Ridonesco/Ronco(Sambonifacio), podesta of verona 1222 and 1233
+#Ranierio Bulgarello da Perugia, podest of Verona 1235-1236
+#Gherardo da Dovara, podesta of verona 1237
+#Bonacorso da Parma, podesta of verona 1238
+#Francseco Ribaldi, podesta of verona 1239-1240
+#Enrico da Egna aka il Gioavne, podesta of Verona 1246-1247
+#Arnaldo da Ponticello, podesta of verona 1249
+#Ugo da s. Guiliana, podesta of Verona 1251-1252
+#Buzzacarino di Buzzacarini, imperial vicar of Verona 1253-1254
+#Mastino della scala, podesta of Verona 1260
+#Andrea Zeno, podesta of verona 1261.
+#Marco Orso(two venetian patricans in a row thats pretty odd) podesta of Verona in second half of 1261
+#Mastino della Scala capitano del popolo of verona 1263
+
+
+}
+
+
+d_padova_republic = {
+
+
+
+1153.1.1 = {
+    liege=e_hre
+	holder = 1226722
+	government = republic_government
+}
+1154.12.1 = {
+    liege= k_italy
+}
+1167.4.7 = {
+liege=k_lombard_league 
+}
+1180.1.1 = {
+	holder = 1226724
+}
+1220.12.9 = {
+    liege=k_italy # sided with the emperor unlike his grandfather
+}
+1231.1.1 = {
+liege=k_lombard_league# was breifly part of the league 1231-1232 but never came to good terms with the commune. Firm HRE supporter again in a jiffy.
+}
+1234.1.1 = {
+	holder = 1226726 
+}
+1238.1.1 = {
+    liege=k_sardinia
+}
+1249.5.26 = {
+    liege=e_hre
+}
+1250.12.13 = {
+    liege = e_hre #HIP had all of north Italy independent after 1250 up until 1337 which is odd as all maps and information I find says it was still fully under the empire. I think it's more likely they forgot to properly set the liege once they got rid of the league titles
+}
+1255.1.1 = {
+	holder = 1226731
+}
+1266.1.1 = {
+	holder = 1226733
+}
+1311.1.6 = {
+    liege=k_italy
+}
+1312.1.1 = {
+	holder = 1226734
+}
+1313.8.24 = {
+	liege=0
+}
+1318.1.1 = {
+	holder = 70809 # Iacopo VIII Carraresi, signore/principe di Padova 1318-1324
+}
+1324.11.23={
+	holder = 70811 # Marsilio IX Carraresi, signore/principe di Padova 1324-1328 and 1337-1338
+}
+1327.5.31 = {
+    liege=k_italy
+}
+1328.1.1 = {
+	holder = 73429 # Marsiglio Rossi, podesta of Padua 1328
+}
+#Bernardo Onari(gulph from Verona), podesta of Padova 1329
+#Bailardin Nogarola(also a guleph from Verona), podesta of Padova 1330-1336
+1328.9.1 = {
+	liege = 0
+	holder = 0
+}
+1337.1.1 = {
+	liege = k_italy
+	holder = 70811 # Marsilio IX Carraresi, signore/principe di Padova 1324-1328 and 1337-1338
+}
+1338.3.21={
+	holder = 1226879 # Ubertino VIII Carraresi aka Ubertino Novello, signore/principe di Padova 1318-1324
+}
+1345.3.27={
+	holder = 1226871 # Marsilio X/Marsilietto di Papafava, signore di Padova 26. of march - 5. of may 1345
+}
+1345.5.6={
+	holder = 1226885 # Iacopo X Carraresi, signore di Padova 1345-1350
+}
+1350.12.19={
+	holder = 1226882 # Iacopino XI Carraresi, signore di Padova 1350-55 as co ruler with his nephew Francesco.
+}
+1355.6.1={
+	holder = 412074 # Francesco VI Carraresi, signore di Padova 1350-55 as co ruler, 1355-1388 as sole ruler
+}
+
+
+}
+
+
+d_ferrara_republic = {
+
+
+#Ferrara commune
+1120.1.1 = {
+	liege = e_hre
+	holder = 1062186 #Salinguerra I di Torelli capitano di ferrara 1120
+	government = republic_government
+}
+1125.5.23 = {
+	liege=k_italy
+}
+1130.1.1 = {
+	holder = 1062179 # Guglielmo II
+}
+1137.12.4 = {
+	liege = e_hre
+}
+1146.9.11 = {
+	holder = 1062180 # Guglielmo III di Adelardi signore di ferrara
+}
+1154.12.1 = {
+	liege= k_italy
+}
+1164.1.1 = {
+	holder = 1062187 # Torello di Torelli senatore e console di ferrara 1164
+}
+1167.4.7 = {
+	liege=k_lombard_league
+}
+1195.1.1 = {
+	holder = 1062188 # Sanlinguerra II di Torelli signore di ferrara
+}
+1196.1.1 = {
+	holder = 223596 # Azzo VI di este podesta of ferrara 1196
+}
+1198.1.1 = {
+	holder = 1064896 #Isacco da Dovara podesta of Ferrrara 1198
+}
+1203.1.1 = {
+	holder = 223596 # Azzo VI di este podesta of ferrara 1196
+}
+1212.11.1 = {
+	liege=k_italy
+	holder = 1062188 # Sanlinguerra II di Torelli signore di ferrara
+}
+1212.12.5 = {
+	liege=e_hre
+}
+1220.12.9 = {
+	liege=k_italy
+}
+1227.1.1 = {
+	holder = 1062142 # Ugolino Rossi podesta of Ferrara 1227
+}
+1237.1.1 = {
+	holder = 1062188 # Sanlinguerra II di Torelli signore di ferrara
+}
+1242.1.1 = {
+	liege=0
+	holder = 0
+}
+1309.1.1 = {
+	liege=e_hre
+	holder = 1062192 #Sanlinguerra III di Torelli signore di ferrara 1309
+}
+1311.1.6 = {
+	liege=k_italy
+}
+1312.8.23 = {
+	liege=0
+	holder = 0
+}
+
+
+}
+
+
+d_bergamo_republic = {
+
+
+1095.1.1 = {
+	liege=k_italy
+	holder = 1167036 # Arialdo Gisalbertini, conte di Bergamo e Soncino
+	government = republic_government
+}
+1103.1.1 = {
+	holder = 1064854 # Alberto Gisalbertini, conte di Bergamo e Soncino
+}
+1111.1.1 = {
+	holder = 1064964 # Olrico Suardi, consul of Bergamo 1111 and 1117-1118
+}
+1115.7.24 = {
+	liege = e_hre
+}
+1118.1.1 = {
+	holder = 1064901 # Gisalberto Colleoni. Consul of Bergamo 1117-1118 and 1123
+}
+1124.1.1 = {
+	holder = 1064854 # Alberto Gisalbertini, conte di Bergamo e Soncino
+}
+1125.5.23 = {
+	liege = k_italy
+}
+1132.1.1 = {
+	holder = 1064855 # Ardicio IV Gisalbertini, conte di Bergamo e Soncino
+}
+1137.12.4 = {
+	liege = e_hre
+}
+1151.1.1 = {
+	holder = 1064940 # Bertramo "Ficene" Suardi, consul of Bergamo 1151-1152
+}
+1154.12.1 = {
+	liege = k_italy
+}
+1159.1.1 = {
+	holder = 1064902 # Alberto Colleoni. Consul of Bergamo 1159-1173
+}
+1162.1.1 = {
+	holder = 1064959 # Roberto Suardi, consul of Bergamo 1162
+}
+1163.1.1 = {
+	holder = 1064902 # Alberto Colleoni. Consul of Bergamo 1159-1173
+}
+1167.1.1 = {
+	holder = 1064920 # Lanfranco del Zoppo consul of Bergamo 1167
+}
+1167.4.7 = {
+	liege = k_lombard_league
+}
+1168.1.1 = {
+	holder = 1064902 # Alberto Colleoni. Consul of Bergamo 1159-1173
+}
+1174.1.1 = {
+	holder = 1064996 # Lanfranco II Suardi, senior consul of Bergamo 1181 and 1191, judge 1184, consul 1185 and 1188
+}
+1186.1.1 = {
+	holder = 1064944 # Greppo Suardi, consul and judge of Bergamo 1187
+}
+1188.1.1 = {
+	holder = 1064996 # Lanfranco II Suardi, senior consul of Bergamo 1181 and 1191, judge 1184, consul 1185 and 1188
+}
+1189.1.1 = {
+	holder = 1064920 # Lanfranco del Zoppo consul of Bergamo 1167
+}
+1195.1.1 = {
+	holder = 1064906 # Alberto Colleoni
+}
+1202.1.1 = {
+	holder = 1064949 # Martino Suardi, consul and judge of Bergamo 1203
+}
+1207.1.1 = {
+	holder = 1064971 # Alberico Suardi, consul and judge of Bergamo 1207-1211
+}
+1216.1.1 = {
+	holder = 1064599 # Guglielmo della Pusterla, podesta of Bergamo 1216 and 1224
+}
+1218.1.1 = {
+	holder = 1065601 # Testa II Suardi, podesta of Bergamo 1218 and 1227, judge 1219 and consul 1234.
+}
+1225.1.1 = {
+	holder = 1064600 # Bonifacio della Pusterla, podesta of Bergamo 1226
+}
+1229.1.1 = {
+	holder = 1064821 # Rubaconte da Mandello aka il Carroccio, podesta of Bergamo 1229 and 1333
+}
+1234.1.1 = {
+	holder = 1064820 # Alberto da Mandello, podesta of Bergamo 1234
+}
+1235.1.1 = {
+	holder = 1065601 # Testa II Suardi, podesta of Bergamo 1218 and 1227, judge 1219 and consul 1234.
+}
+1236.1.1 = {
+	holder = 1064950 # Guglielmo Suardi, consul and judge of Bergamo 1236
+}
+1237.1.1 = {
+	holder = 1064973 # Plevano I Suardi, consul and rector of Bergamo 1237
+}
+1238.1.1 = {
+	holder = 1062129 # Bernardo Rossi, podesta of Bergamo 1238
+}
+1239.1.1 = {
+	holder = 1064921 # Giacomo del Zoppo, consul of Bergamo 1237
+}
+1250.1.1 = {
+	holder = 1064618 # Murro Beccaria, podesta of Bergamo 
+	liege = e_hre
+}
+1254.1.1 = {
+	holder = 1064560 # Guido di Castiglione, podesta of Bergamo 1271
+}
+1281.1.1 = {
+	holder = 1065615 # Suardino/Suardo Suardi, capitano generale of Milano 1323, podesta of Bergamo 1329. Was one of the main enablers of the Visconti takeover.
+}
+1296.1.1 = {
+	holder = 1064908 # Ghisalberto Colleoni, leader of the guelph party of Bergamo by 1296-1307
+}
+1298.1.1 = {
+	holder = 1064923 # Giorgio del Zoppo consul of Bergamo 1298
+}
+1300.1.1 = {
+	holder = 1064908 # Ghisalberto Colleoni, leader of the guelph party of Bergamo by 1296-1307
+}
+1306.1.1 = {
+	holder = 1064863  # Federico Ghislabertini(Crema-Offenego-Cremona branch), justicar of Bergamo 1307
+}
+1308.1.1 = {
+	holder = 1064925 # Giorgio del Zoppo II, co. leader of the guelphs alongside Galeazzo during the 1314-1330 period.
+}
+1310.1.1 = {
+	holder = 1065607 # Alberto II Suardi. Handed over Bergamo to Heinrich VII in 1310, Imperial vicar of Bergamo 1330, sindaco of Bergamo 1331, ambassador to Milano 1342, 1349 appointed castellan by the doge of Venice. 
+}
+1311.1.6 = {
+	liege = k_italy
+}
+1313.1.1 = {
+	holder = 1064910 # Galeazzo "detto Carpione" Colleoni, co. leader of the Guelphs 1315 when the Visconti siezed Bergamo. Handed over Bergamo to John of Bohemia in 1330
+}
+1313.8.24 = {
+	liege = 0
+}
+1314.1.1 = {
+	holder = 1064603 # Guglielmo della Pusterla, podesta of Bergamo 1314
+}
+#Visconti takeover
+1315.1.1 = {
+	holder = 0
+}
+
+
+}
+
+d_milano_republic = {
+
+
+1026.1.1 = {
+	liege = e_hre
+	holder = 1061619
+	government = republic_government
+}
+1026.3.31 = {
+	liege = k_italy
+}
+1039.6.4 = {
+	liege=e_hre
+}
+1046.12.25 = {
+	liege=k_italy
+}
+1055.1.1 = {
+	holder = 1061623
+}
+1056.10.5 = {
+	liege=e_hre
+}
+1075.1.1 = {
+	holder = 1061623	
+}
+1080.1.1 = {
+	liege=k_italy
+}
+1084.1.1 = {
+	holder = 1061621
+}
+1115.7.24 = {
+	liege = e_hre
+}
+1119.1.1 = {
+	holder = 1061622
+}
+1122.1.1 = {
+	holder = 1061624
+}
+1125.5.23 = {
+	liege=k_italy
+}
+1126.1.1 = {
+	holder = 1061625
+}
+1137.12.4 = {
+	liege = e_hre
+}
+1154.12.1 = {
+	liege= k_italy
+}
+1155.1.1 = {
+	holder = 1061626
+}
+1158.1.1 = {
+	holder = 1064827 #Guido da Landriano, console di Milano in 1159 and 1176
+}
+1160.1.1 = {
+	holder = 1061626
+}
+1167.4.7 = {
+	liege=k_lombard_league
+}
+1172.1.1 = {
+	holder = 213007
+}
+1176.1.1 = {
+	holder = 1064827 # #Guido da Landriano, console di Milano in 1159 and 1176
+}
+1183.6.25 = {
+	holder = 213007
+}
+1186.1.1 = {
+	holder = 213031
+}
+#1064826 # Guglielmo Landriani, leader of the noble party in Milano 1075
+#1064591 # Alcherio della Pusterla, consul of Milano in 1107
+#1064516 # Arderico/Ardericus della Torre, consul of Milano in 1125 and capitano di Milano in 1130
+#1064515 # Oprando della Torre, consul of Milano 1140
+#1064598 # Petriolo della Pusterla, consul of Milano 1184
+#1065046 # Guizzardo della Pusterla, consul of Milano 1195
+#1064821 # Rubaconte da Mandello aka il Carroccio, consul of Milano 1196
+#1064594 # Presonerio della Pusterla, consul of Milano 1198
+#1064599 # Guglielmo della Pusterla, consul of Milano 1196, podesta of Milano 1204
+#1064819 # Ottone da Mandello, consul in Milano 1239-40
+#1062121 # Gherardo III Rangoni, podesta of Milano 1251
+#1064658 # Rizzardo/Riccardo di Langosco(Lomello) podesta di Milano 1276
+#1062144 # Guglielmo Rossi, podesta of Milano 1284
+#1062132 # Ugolino Rosi. Podesta of Milano 1285 
+#1065017 # Ettore da Panigo/Toto di Panaco impeial vicar in Milano 1330
+1212.7.5 = {
+	holder = 70752 # della Torre
+}
+1220.1.1 = {
+	holder = 1064835 # Amizone Sacco podesta of Milano 1221
+}
+1223.1.1 = {
+	holder = 70753
+}
+1248.1.1 = {
+	holder = 70771
+}
+1250.12.13 = {
+    liege = e_hre #HIP had all of north Italy independent after 1250 up until 1337 which is odd as all maps and information I find says it was still fully under the empire. I think it's more likely they forgot to properly set the liege once they got rid of the league titles
+}
+1257.1.1 = {
+	holder = 70765
+}
+1259.1.1 = {
+	holder = 70766
+}
+1265.1.1 = {
+	holder = 70755
+}
+1275.1.1 = {
+	holder = 70758
+}
+1277.1.1 = {
+	holder = 70770
+}
+1295.8.1 = {
+	holder = 463145
+}
+1302.1.1 = {
+	holder = 70759
+}
+1311.1.6 = {
+	liege=k_italy
+}
+1311.8.1 = {
+	liege = 0
+	holder = 0
+}
+
+}
+
+
+
+d_pavia_republic = {
+
+
+#Beccaria
+1140.1.1 = {
+    liege = e_hre
+	holder = 1064616 # Pagano imperial vicar of Pavia
+	government = republic_government
+}
+1146.1.1 = {
+	holder = 1064617 # Ettore, imperial vicar of Pavia 1159.
+}
+1154.12.1 = {
+    liege = k_italy
+}
+#Di Lomello, Sparvara branch
+1164.2.19 = {
+	holder = 1226786 # Goffredo I
+}
+1167.4.7 = {
+	liege = k_lombard_league # early member but not willingly
+}
+1172.8.26 = {
+    liege = k_italy # switched sides after the emperor crosses the alps.
+}
+1176.5.29 = {
+	liege = k_lombard_league # forced in again after the battle of Legnano
+}
+1185.1.1 = {
+    liege = k_italy # left the league in 1185
+}
+1197.9.28 = {
+    liege = e_hre
+}
+1205.1.1 = {
+	holder = 1226787 # Guglielmo
+}
+1209.1.1 = {
+    liege = k_italy
+}
+1210.1.1 = {
+	holder = 1064896 #Isacco da Dovara podesta of Pavia 1210
+}
+1211.1.1 = {
+	holder = 1226787 # Guglielmo
+}
+1212.12.5 = {
+    liege = e_hre
+}
+1220.5.11 = {
+	holder = 1226788 # #Guiffredo/Guisinous/Goffredo II
+}
+1220.12.9 = {
+    liege = k_italy
+}
+1240.12.13 = {
+    liege = k_lombard_league
+}
+1243.1.1 = {
+	holder = 1226789 # Enrico I
+}
+1250.1.1 = {
+	holder = 1226790 # Enrico II
+}
+1250.12.13 = {
+    liege = e_hre #HIP had all of north Italy independent after 1250 up until 1337 which is odd as all maps and information I find says it was still fully under the empire. I think it's more likely they forgot to properly set the liege once they got rid of the league titles
+}
+#Beccaria
+1254.1.1 = {
+	holder = 1064618 # Murro, podesta of Pavia.
+}
+1259.1.1 = {
+	holder = 1064619 # Giovannone/Ammazzarono Tesauro aka Zanone, Capitano di Popoli of Pavia.
+}
+1275.1.1 = {
+	holder = 1064621 # Manfredo, podesta of Pavia 1282, 1289, 1300 and 1315-1322
+}
+#Di Lomello, Langosco branch
+1284.1.1 = {
+	holder = 1064658 # Riccardo/Rizzardo I
+}
+1288.1.1 = {
+	holder = 1064663 # Filippone/Filippo
+}
+#Beccaria
+1289.1.1 = {
+	holder = 1064621 # Manfredo, podesta of Pavia 1282, 1289, 1300 and 1315-1322
+}
+#Di Lomello, Langosco branch
+1301.1.1 = {
+	holder = 1064663 # Filippone/Filippo
+}
+1307.1.1 = {
+	holder = 1064664 # Riccardino/Riccardo II
+}
+1308.1.1 = {
+	holder = 1064663 # Filippone/Filippo
+}
+1311.1.6 = {
+    liege = k_italy
+}
+1313.8.24 = {
+	liege = 0
+}
+1314.1.1 = {
+	holder = 1064653 # Guido/Guidacio
+}
+#Beccaria
+1315.10.6 = {
+	holder = 1064621 # Manfredo, podesta of Pavia 1282, 1289, 1300 and 1315-1322
+}
+#Di Lomello, Langosco branch
+1322.1.1 = {
+	holder = 1064654 # Riccardino/Riccardo  III
+}
+1327.5.31 = {
+    liege = k_italy
+}
+#Beccaria
+1330.1.1 = {
+	holder = 1064624 # Musso, podesta of Pavia.
+}
+
+
+
+}
+
+
+d_modena_republic = {
+
+#Republic
+1149.1.1 = {
+    liege=e_hre
+	holder = 1062111 # Guglielmo I di Rangoni Podesta of Modena 1149
+	government = republic_government
+}
+1154.12.1 = {
+    liege= k_italy
+}
+1156.1.1 = {
+	holder = 1062112 # Gherardo di Rangoni Imperial vicar and podesta of Modena 1156-1177
+}
+1167.4.7 = {
+liege=k_lombard_league
+}
+1177.1.1 = {
+	holder = 1064353 # Guido da Canossa
+}
+1186.1.1 = {
+	holder = 1064381 # Gioavnni da Canossa
+}
+1202.1.1 = {
+	holder = 1062113 # Guglielmo II di Rangoni Podesta of Modena 1202
+}
+1207.1.1 = {
+	holder = 1062128 # Orlando Rossi Podesta of Modena 1207
+}
+1208.1.1 = {
+	holder = 1062113 # Guglielmo II di Rangoni Podesta of Modena 1208
+}
+1209.1.1 = {
+	holder = 1062139 # Ugo il Vechio di Rossi podesta of Modena 1209
+}
+1211.1.1 = {
+	holder = 1062006 # Frogerio I da Corregio Podesta of Modena 1211
+}
+1213.1.1 = {
+	holder = 1062129 # Bernardo Rossi Podesta of Modena 1213
+}
+1215.1.1 = {
+	holder = 1062009 # Matteo II da Corregio, Podesta of Modena 1215 
+}
+1216.1.1 = {
+	holder = 1062010 # Frogerio II da Corregio Podesta of Modena 1216 
+}
+1220.1.1 = {
+	liege = 0
+	holder = 0
+}
+1233.1.1 = {
+	liege = k_italy
+	holder = 1062140 # Orlando Rossi podesta di Modena 1233
+}
+1236.1.1 = {
+	holder = 1062028 # Gherardo V da Corregio podesta of Modena 1236
+}
+1240.1.1 = {
+    liege=k_lombard_league
+	holder =1062116 # Rolandino di Rangoni Podesta of Modena 1240 
+}
+1247.1.1 = {
+    liege=k_italy
+	holder =1062092 # Matteo da Sesso Podesta of Modena 1247
+}
+1249.5.26 = {
+    liege=e_hre
+}
+1250.12.13 = {
+    liege = e_hre #HIP had all of north Italy independent after 1250 up until 1337 which is odd as all maps and information I find says it was still fully under the empire. I think it's more likely they forgot to properly set the liege once they got rid of the league titles
+}
+1250.12.13 = {
+	holder =1062117 # Lanfranco di Rangoni podesta of Modena 1254 
+}
+1255.1.1 = {
+	holder =1065034  # Ugo II di Sanvitale consul of Modena 1255
+}
+1269.1.1 = {
+	holder =1062120 # Jacopino II di Rangoni podesta of Modena 1269
+}
+1274.1.1 = {
+	holder =1062029 # Matteo III da Corregio podesta of Modena 1274
+}
+1279.1.1 = {
+	holder =1064387 # Guglilmo Scarabello da Canossa
+}
+1281.1.1 = {
+	holder =1062144 # Guglielmo Rossi Podesta of Modena 1281
+}
+1284.1.1 = {
+	holder =1062030 # Guido II da Corregio podesta of Modena 1284
+}
+1286.1.1 = {
+	holder =1062132 # Ugolino Rosso podesta of Modena 1286
+}
+1288.1.1 = {
+	liege = 0
+	holder =0
+}
+
+
+}
+
+d_reggio_republic = {
+
+
+
+1136.1.1 = {
+   liege=k_italy
+  holder = 1061931 # Guido III 
+  government = republic_government
+}
+1137.12.4 = {
+    liege = e_hre
+}
+1145.10.13 = {
+	holder = 1061934 # Sigifredo
+}
+1154.12.1 = {
+    liege= k_italy
+}
+1168.1.1 = {
+    liege=k_lombard_league # joined in 1168
+}
+1169.1.1 = {
+	holder = 1062084 # Ugolino da Sesso consul of Reggio 1169 1184, 1200 and 1208.
+}
+1180.1.1 = {
+	holder = 1061961 # Albreto da Foglino consul of Reggio 1180
+}
+1184.1.1 = {
+	holder = 1062084 # Ugolino da Sesso consul of Reggio 1169 1184, 1200 and 1208.
+}
+1186.1.1 = {
+	holder = 1062084 # Guido da Canossa consul of Reggio 1186
+}
+1190.1.1 = {
+	holder = 1061961 # Albreto da Foglino consul of Reggio 1180
+}
+1195.1.1 = {
+	holder = 1061948 # Giacomo della Palude
+}
+1200.1.1 = {
+	holder = 1062084 # Ugolino da Sesso consul of Reggio 1169 1184, 1200 and 1208.
+}
+1202.1.1 = {
+	holder = 1062115 # Gherardo Rangoni podesta of Reggio 1202
+}
+1203.1.1 = {
+	holder = 1064896 #Isacco da Dovara podesta of Reggio 1203-1204 and 1213-1214
+}
+1205.1.1 = {
+	holder = 1062086 #Raimondo da Sesso. consul of Reggio 1205, 1210 and 1226.
+}
+1206.1.1 = {
+	holder = 1061962 # Guido I da Fogliano consul of Reggio 1206-1209
+}
+1208.1.1 = {
+	holder = 1062084 # Ugolino da Sesso consul of Reggio 1169 1184, 1200 and 1208.
+}
+1209.1.1 = {
+	holder = 1061962 # Guido I da Fogliano consul of Reggio 1206-1209
+}
+1210.1.1 = {
+	holder = 1062086 #Raimondo da Sesso. consul of Reggio 1205, 1210 and 1226.
+}
+1213.1.1 = {
+	holder = 1064896 #Isacco da Dovara podesta of Reggio 1203-1204 and 1213-1214
+}
+1215.1.1 = {
+	holder = 1061953 # Bonaccorso della Palude
+}
+1216.1.1 = {
+    liege=e_hre
+	holder = 1064436 # Gherardo IV da Cornazzano podesa of Reggio 1216 and 1226
+}
+1220.1.1 = {
+    liege=k_lombard_league
+	holder = 1061962 # Guido I da Fogliano consul of Reggio 1206-1209
+}
+1224.1.1 = {
+	holder = 1062086 #Raimondo da Sesso. consul of Reggio 1205, 1210 and 1226.
+}
+1226.1.1 = {
+    liege=e_hre
+	holder = 1064359 # Gherardo IV da Cornazzano podesa of Reggio 1216 and 1226
+}
+1230.1.1 = {
+    liege=k_lombard_league
+	holder = 1061953 # Bonaccorso della Palude
+}
+1233.1.1 = {
+	holder = 1064480 # Egidiolo della Gente podesta of Reggio 1233
+}
+1235.1.1 = {
+	holder = 1061964 # Ugolino da Fogliano
+}
+1240.1.1 = {
+	holder = 1062028 # Gherardo V da Corregio Podesta of Reggio 1240
+}
+1240.12.13 = {
+    liege = k_lombard_league
+}
+1244.1.1 = {
+	holder = 1064362
+}
+1247.1.1 = {
+    liege=k_italy
+	holder = 70744 # Uberto Pallavicino # Podesta of Reggio in 1247 - ca 1263-64(he still bought Della Palude land that late at least)
+}
+1249.5.26 = {
+    liege=e_hre
+}
+1250.1.1 = {
+	holder = 1062109 # Caco da Reggio leader of the Ghibelines of Reggio 1265
+}
+1250.12.13 = {
+    liege = e_hre #HIP had all of north Italy independent after 1250 up until 1337 which is odd as all maps and information I find says it was still fully under the empire. I think it's more likely they forgot to properly set the liege once they got rid of the league titles
+}
+1264.1.1 = {
+	holder = 1064481	# Guido della Gente podesta of Reggio 1265
+}
+1265.1.1 = {
+	holder = 1062120 # Jacopino II Rangoni podesta of Reggio 1265
+}
+1266.1.1 = {
+	holder = 1062141 # Giacomo Rossi podesta of reggio 1266
+}
+1269.1.1 = {
+	holder = 1061963 # Guido II da Fogliano podesta of Reggio ?-?
+}
+1271.1.1 = {
+	holder = 1062106 # Ugolino da Sesso Capitano da Reggio 1271
+}
+1272.1.1 = {
+	holder = 1064388 # Rolandino da Canossa podesta of Reggio 1272
+}
+1280.1.1 = {
+	holder = 1061963 # Guido II da Fogliano podesta of Reggio ?-?
+}
+1284.1.1 = {
+	holder = 1062118 # Tobia Rangoni podesta of Reggio 1284
+}
+1288.1.1 = {
+     	liege = 0
+	holder = 0
+}
+#Spinetto Malaspina Imperial vicar of Reggio 1310
+1312.1.1 = {
+    liege=k_italy
+	holder = 1062032 # Giberto III da Corregio Imperial vicar of Reggio 1311-1312
+}
+1313.8.24 = {
+	liege=0
+}
+1318.1.1 = {
+	holder = 1062098 # Prevostino da Sesso
+}
+1326.1.1 = {
+	liege=k_papal_state
+        holder = 1061970 #Tommaso da Fogliano
+}
+1327.5.31 = {
+    liege=k_italy
+	holder = 73429 # Marsiglio Rossi, podesta of Reggio 1328
+}
+1329.1.1 = {
+	holder = 1061969 # Niccolò da Fogliano lord of Reggio
+}
+1330.1.1 = {
+	holder = 1061972 # Giberto da Fogliano lord of Reggio
+}
+1335.1.1 = {
+        liege=0
+	holder = 0
+}
+
+
+}
+
+
+d_parma_republic = {
+
+
+
+# republic
+1138.1.1 = {
+    liege=e_hre
+	holder = 1064434 # Gherardo III da Cornazzano, consul of Parma 1140, captiano di Parma 1162
+	government = republic_government
+}
+1154.12.1 = {
+    liege= k_italy
+}
+1167.4.7 = {
+    liege=k_lombard_league # wasn't much for joining the league
+}
+1172.8.26 = {
+    liege= k_italy #  in imperial camp
+}
+1172.8.26 = {
+	holder = 1064431 # Giacopo da Cornazzano rector of parmese army 1179
+}
+1180.1.1 = {
+    liege=k_lombard_league # wasn't much for joining the league
+	holder = 1062128 # Orlando Rossi podesta of Parma  1180, 1182, 1198, 1199, and 1201
+}
+1184.1.1 = {
+	holder = 1062127 # Sigifredo Rossi consul of Parma 1184
+}
+1184.6.25 = {
+    liege=k_italy # left the league again, shortly after winning a league brookerd dispute with the commune of Piacenza in 1184
+}
+1192.1.1 = {
+	holder = 1064436 # Gherardo IV da Cornazzano, podesta of Parma 1192 and 1213
+}
+1197.9.28 = {
+    liege=e_hre
+}
+1198.1.1 = {
+	holder = 1062128 # Orlando Rossi podesta of Parma  1180, 1182, 1198, 1199, and 1201
+}
+1203.1.1 = {
+    liege=k_lombard_league
+	holder = 1062009 # Matteo II  da Correggio podesta of Parma 1203
+}
+1210.1.1 = {
+	holder = 1064454 # Anselmo san Vitale consul of Parma 1211
+}
+1213.1.1 = {
+	holder = 1064436 # Gherardo IV da Cornazzano, podesta of Parma 1192 and 1213
+}
+1216.1.1 = {
+	holder = 1064896 #Isacco da Dovara podesta of Parma 1216
+}
+1217.1.1 = {
+	holder = 1064436 # Gherardo IV da Cornazzano, podesta of Parma 1192 and 1213
+}
+1224.1.1 = {
+	holder = 1064437 # Manfredoda da Cornazzano, podesta of parma 1224
+}
+1226.12.5 = {
+ 	liege = e_hre
+}
+1227.1.1 = {
+	holder = 1062139 # Ugo il Vecchio Rossi conte di Parma 1227
+}
+1237.11.28 = {
+    liege=k_italy
+}
+1238.1.1 = {
+    liege=k_lombard_league
+	holder = 1062028 # Gherardo V  da Correggio podesta of parma 1238
+}
+1243.1.1 = {
+	holder = 1065034 # Ugo II di Sanvitale capitano di Popolo and Podesta of Parma ca 1243, capitano di Parma 1247-1248
+}
+1247.1.1 = {
+    liege=k_italy
+	holder = 1062129 # Bernardo Rossi podesta of Parma 1247-1250
+}
+1249.5.26 = {
+    liege=e_hre
+}
+1250.12.13 = {
+    liege = e_hre #HIP had all of north Italy independent after 1250 up until 1337 which is odd as all maps and information I find says it was still fully under the empire. I think it's more likely they forgot to properly set the liege once they got rid of the league titles
+}
+1253.1.1 = {
+	holder = 1064483 # Giberto della Gente podesta of Parma 1253-1259 and 1262-1264.
+}
+1259.1.1 = {
+	holder = 1064443 # Guido Terzi podesta of Parma (when?)
+}
+1262.1.1 = {
+	holder = 1064483 # Giberto della Gente podesta of Parma 1253-1259 and 1262-1264.
+}
+1266.1.1 = {
+	holder = 1064977 # Alberico Suardi, podesta of Parma 1266 and 1270.
+}
+1270.1.1 = {
+	holder = 1062031 # Matteo V  da Correggio Podesta of Parma 1303-1306
+}
+1303.1.1 = {
+	holder = 1062032 # Giberto III da Correggio, Capitano di popoli of Parma 1303-1308, Imperial vicar of Parma 1311-1312
+}
+1304.1.1 = {
+	holder = 1061615 # Cavalcabo/Carlo Cavalcabo II, marquis of Viadana, consul of Cremona 1278, signore of Cremona 1282-1306, 1303-1305 also signore of Parma
+}
+1305.1.1 = {
+	holder = 1064829 #Giacomo Landriani, podesta of Parma 1305
+}
+1306.1.1 = {
+	holder = 1062032 # Giberto III da Correggio, Capitano di popoli of Parma 1303-1308, Imperial vicar of Parma 1311-1312
+}
+1311.1.6 = {
+    liege=k_italy
+}
+1312.1.1 = {
+	holder = 1064364 # Albertino da Canossa captiano di Parma 1317
+}
+1313.8.24 = {
+	liege=0
+}
+1327.5.31 = {
+    liege=k_italy
+}
+1329.1.1 = {
+	holder = 73429 # Marsiglio Rossi, imperial vicar of Parma 1329-1330
+}
+1331.1.1 = {
+	holder = 1062035 # Azzo da Correggio, signore di Parma 1331-1334
+}
+1334.1.1 = {
+	holder = 1062102 # Gottifredo Sessi podesta of Parma 1335
+
+}
+
+}
+
+d_piacenza_republic = {
+
+1126.1.1 = {
+   liege=k_italy
+   holder = 70635   
+   government = republic_government
+}
+1137.12.4 = {
+    liege = e_hre
+}
+1148.1.1 = {
+	holder = 70716
+}
+1154.12.1 = {
+    liege= k_italy
+}
+1167.5.25 = {
+liege=k_lombard_league # joined the 25th of May
+}
+1180.1.1 = {
+	holder = 70717
+}
+1202.1.1 = {
+	holder = 70718
+}
+1225.1.1 = {
+	holder = 70743
+}
+1234.1.1 = {
+	holder = 70744
+}
+1240.12.13 = {
+    liege = k_lombard_league
+}
+1254.1.1 = {
+	holder = 70744
+	liege = e_hre
+}
+1269.5.1 = {
+	holder = 70746
+}
+1280.1.1 = {
+	holder = 1226775
+}
+1311.1.6 = {
+    liege=k_italy
+}
+1313.1.1 = {
+	liege = 0
+	holder = 0
+}
+
+
+}
+
+
+d_cremona_republic = {
+
+
+#Commune founded
+1093.1.1 = {
+	liege = k_italy
+	holder = 1167022 # Gisalberto IV Gisalbertini, conte di Bergamo e Camisano
+	government = republic_government
+}
+1106.1.1 = {
+	holder = 1064844  # Nantelmo I Gisalbertini
+}
+1115.7.24 = {
+	liege = e_hre
+}
+1120.1.1 = {
+	holder = 1064857 # Manfredo I(III counting Maginfredo) Gisalbertini
+}
+1125.5.23 = {
+	liege = k_italy
+}
+1137.12.4 = {
+	liege = e_hre
+}
+1145.1.1 = {
+	holder = 1064859 # Guglielmo III Gisalbertini, consul of Cremona 1151
+}
+1154.12.1 = {
+	liege= k_italy
+}
+1155.1.1 = {
+	holder = 1167044 # Gerardo Gisalbertini consul of Cremona and Crema 1151 and 1157, podesta of Cremona 1188
+}
+1166.1.1 = {
+	holder = 1167045 # Gilberto Gisalbertini consul of Cremona
+}
+1167.4.7 = {
+	liege = k_lombard_league
+	holder = 1064892 #Egidio da Dovara consul of Cremona 1169 and rector of the league
+}
+#14th of december 1168 a cremonese consul named "Albertonus" served the league's as cheif mediator of a dispute between Reggio commune,the city of Cavraigo, communes of Modena and Parma
+1172.8.26 = {
+	liege = k_italy # switches sides to imperial party
+	holder = 1167045 # Gilberto Gisalbertini consul of Cremona
+}
+1175.1.1 = {
+	liege = k_lombard_league
+	holder = 1064893 #Anselmo da Dovara consul of Cremona 1175
+}
+1176.12.1 = {
+	liege = k_italy # swear aligiance to the emperor again during 1176, Babarossa confirm his protection of the city in december 1176
+}
+1186.1.1 = {
+	holder = 1167044 # Gerardo Gisalbertini consul of Cremona and Crema 1151 and 1157, podesta of Cremona 1188
+}
+1190.1.1 = {
+	holder = 1064861 # Alberico Gisalbertini, podesta of Cremona 1190
+}
+1194.1.1 = {
+	holder = 1064860 # Lantelmo Gisalbertini consul of Cremona and Crema 1151 and 1157, podesta of Cremona 1194
+}
+1196.1.1 = {
+	holder = 1064896 # Issaco da Dovara consul of Cremona 1196 and 1209, podesta of Cremona 1217
+}
+1197.9.28 = {
+	liege = e_hre
+}
+1198.1.1 = {
+	holder = 1064861 # Alberico Gisalbertini
+}
+1201.1.1 = {
+	holder = 1064996  # Lanfranco II Suardi, Podesta of Cremona 1201.
+}
+1205.1.1 = {
+	holder = 1064862 # Alberto IV Gisalbertini, conte di Camisano
+}
+1208.1.1 = {
+	holder = 1064896 # Issaco da Dovara consul of Cremona 1196 and 1209, podesta of Cremona 1217
+}
+1209.1.1 = {
+	liege = k_italy
+}
+1210.1.1 = {
+	holder = 1062009 # Matteo II da Correggio, podesta of Cremona 1210
+}
+1212.12.5 = {
+	liege = e_hre
+}
+1213.1.1 = {
+	holder = 1062128 # Orlando Rossi podesta of cremona 1213
+}
+1218.1.1 = {
+	holder = 1064436 # Gherardo IV da Cornazzano, podesta of Cremona 1218
+}
+1220.12.9 = {
+	liege = k_lombard_league
+	holder = 1064897 # Girardo da Dovara consul of Cremona(when?)
+}
+1223.1.1 = {
+	#liege = k_italy
+	holder = 1061797 # Cavalcabo/Carlo Cavalcabo I, marquis of Viadana, signore of Cremona 1223-1232
+}
+1224.1.1 = {
+	holder = 1062140 # Orlando Rossi podesta of Cremona 1224
+}
+1225.1.1 = {
+	holder = 1061797 # Cavalcabo/Carlo Cavalcabo I, marquis of Viadana, signore of Cremona 1223-1232
+}
+1228.1.1 = {
+	holder = 1064480 # Egidio/Egidiolo da Panna, podesta cremona 1228-1229
+}
+1230.1.1 = {
+	holder = 1062129 # Bernardo Rossi, podesta of Cremona 1230
+}
+1231.1.1 = {
+	holder = 1061797 # Cavalcabo/Carlo Cavalcabo I, marquis of Viadana, signore of Cremona 1223-1232
+}
+1232.1.1 = {
+	holder = 1061798 # Corrado Cavalcabo, marquis di Viadana and consul of Cremona
+}
+1237.1.1 = {
+	holder = 1062142 # Ugolino Rossi podesta of Cremona 1237 
+} 
+1237.11.28 = {
+	liege = 0
+	holder = 0
+}
+#1064437 # Manfredo da Cornazzano, podesta of Cremona 1244
+1266.1.1 = {
+	holder = 1061618 # Buoso da Dovara, signore of Cremona 1266-1276
+}
+1266.1.2 = {
+    liege = e_hre #HIP had all of north Italy independent after 1250 up until 1337 which is odd as all maps and information I find says it was still fully under the empire. I think it's more likely they forgot to properly set the liege once they got rid of the league titles
+}
+1272.1.1 = {
+	holder = 1062029 # Matteo III da Correggio, podesta of Cremona 1272 
+}
+1273.1.1 = {
+	holder = 1061618 # Buoso da Dovara, signore of Cremona 1266-1276
+}
+1276.1.1 = {
+	holder = 1061615 # Cavalcabo/Carlo Cavalcabo II, marquis of Viadana, consul of Cremona 1278, signore of Cremona 1282-1306, 1303-1305 also signore of Parma
+}
+1306.1.1 = {
+	holder = 1061616 # Guglielmo Cavalcabo, signore di Cremona 1306-1310
+}
+1310.1.1 = {
+	holder = 1061617 # Giacomo Cavalcabo, signore di Cremona 1310-1320
+}
+1314.1.1 = {
+	holder = 1062032 # Giberto III da Corregio  capitano generale of Parma and Cremona 1314.
+}
+1315.1.1 = {
+	holder = 1061617 # Giacomo Cavalcabo, signore di Cremona 1310-1320
+}
+1320.1.1 = {
+	holder = 0
+}
+
+
+
+}
+
+d_asti_republic = {
+
+#Asti commune
+1140.1.1 = {
+    liege=e_hre
+	holder = 1064874 # Ottone da Roero
+	government = republic_government
+}
+1145.1.1 = {
+	holder = 1064864 # Ruffino da Solaro
+}
+#back to Monferrato
+1154.12.1 = {
+    liege=0
+	holder = 0 # Sacked by Monferrato and Babarossa
+}
+#Commune pops up again
+1164.1.1 = {
+    liege=k_italy
+	holder = 1064865 # Aurcio da Solaro
+}
+1167.4.7 = {
+    liege=k_lombard_league
+}
+1168.1.1 = {
+	holder = 1064875 # Berado da Roero
+}
+1170.1.1 = {
+	holder = 1064866 # Oberto da Solaro
+}
+1198.1.1 = {
+	holder = 1064867 # Alberto da Solaro
+}
+1202.1.1 = {
+	holder = 1064868 # Manfredo da Solaro, consul of Asti 1202
+}
+1210.1.1 = {
+	holder = 1064876 # Manfredo da Roero
+}
+1217.1.1 = {
+	holder = 1064878 # Guglielmo da Roero, sindacus of Asti 1217-1224
+}
+1231.1.1 = {
+	holder = 1062129 # Bernardo Rossi, podesta of Asti 1231
+}
+1232.1.1 = {
+	holder = 1064869 # Chiavaro da Solaro
+	liege = k_lombard_league
+}
+1250.12.13 = {
+    liege = e_hre
+}
+1260.1.1 = {
+	holder = 1064870 # Bernardo da Solaro
+}
+1278.1.1 = {
+	holder = 1064871 # Emanuele da Solaro, signore/capitano del popoli of Asti 1278-1303
+}
+1303.1.1 = {
+	holder = 1064891 # Guglielmo Turco
+}
+1309.1.1 = {
+	holder = 1064884 # Percivalle da Roero
+}
+1311.1.6 = {
+    liege=k_italy
+}
+1313.8.24 = {
+	liege=k_naples
+}
+1323.1.1 = {
+	holder = 1064884 # Guglielmo da Roero
+}
+1327.5.31 = {
+    liege=k_italy
+}
+1329.1.1 = {
+	holder = 1064889 # Manfredo/Manfredin da Roero, rettore of Asti 1335 and 1342
+}
+
+
+
+}
+
+
+d_lucca_republic = {
+
+# NN Tucci pretore di Lucca 1148, first use of the title.
+# Ranieri della Faggiuola?(seems peculiar to put it mildly, family isn't attested before early 13th century afaik), pretore di Lucca 1156-1162
+1160.1.1 = {
+    liege=e_hre
+	holder = 1065368 # Porco/Porcello Poggi(Fraolmi)
+	government = republic_government
+}
+1163.1.1 = {
+	holder = 1065323 # Bernardino da Bozzano(Fraolmi), pretore di Lucca 1163-1169
+}
+1169.1.1 = {
+	holder = 1065321 # Gualterotto Castagnacci, pretore di Lucca 1169-1183
+}
+1172.8.26 = {
+    liege= k_italy
+}
+1184.1.1 = {
+	holder = 1065348 # Paganello da Pocari(Fraolmi), pretore di lucca 1187-1188
+}
+1195.1.1 = {    
+	holder = 1065255 # Guido degli Uberti, podesta of Lucca 1199 and 1202, pretore di Lucca 1213
+}
+1197.9.28 = {
+    liege=0
+}
+1197.11.11 = {
+    liege=k_tuscan_league # League of San Genesio
+}	
+1200.1.1 = {    
+	holder = 1065346 # Inghiramo/Inghirame di Pocari(Fraolmi), podesta of Lucca 1200, imperial vicar 1209-1211 and 1214, capitano generale of Lucca 1221 and podsta again 1226
+}
+1202.1.1 = {    
+	holder = 1065255 # Guido degli Uberti, podesta of Lucca 1199 and 1202, pretore di Lucca 1213
+}
+1203.1.1 = {    
+	holder = 1065326 # Aldobrandino da Malpigli, podesta of Lucca 1203 and 1206
+}
+1207.1.1 = {    
+	holder = 1065310 # Guido da Pirovano, podesta of Lucca ?-1209
+}
+1209.1.1 = { 
+	holder = 1065346 # Inghiramo/Inghirame di Pocari(Fraolmi), podesta of Lucca 1200, imperial vicar 1209-1211 and 1214, capitano generale of Lucca 1221 and podsta again 1226
+}
+1213.1.1 = {    
+	holder = 1065255 # Guido degli Uberti, podesta of Lucca 1199 and 1202, pretore di Lucca 1213
+}
+1214.1.1 = {    
+	holder = 1065346 # Inghiramo/Inghirame di Pocari(Fraolmi), podesta of Lucca 1200, imperial vicar 1209-1211 and 1214, capitano generale of Lucca 1221 and podsta again 1226
+}
+1215.1.1 = {    
+	holder = 1065087 # Guido Borgognone di Caparia(Alberti) grande di Lucca (sounds like he came just after Inghiramo)
+}
+1219.1.1 = {    
+	holder = 1065089 # Rodolfo/Ridolfo di Capraia(Alberti), podesta of Lucca 1219-1220
+}
+1221.1.1 = {    
+	holder = 1065346 # Inghiramo/Inghirame di Pocari(Fraolmi), podesta of Lucca 1200, imperial vicar 1209-1211 and 1214, capitano generale of Lucca 1221 and podsta again 1226
+}
+1222.1.1 = {    
+	holder = 1065315 # Parenzo Romano(Parenzi), pretore di Lucca 1222 and 1228
+}
+1226.1.1 = {    
+	holder = 1065346 # Inghiramo/Inghirame di Pocari(Fraolmi), podesta of Lucca 1200, imperial vicar 1209-1211 and 1214, capitano generale of Lucca 1221 and podsta again 1226
+}
+1227.1.1 = {    
+	holder = 1065324 # Oddo degli Oddi, podesta of Lucca 1227
+}
+1228.1.1 = {    
+	holder = 1065315 # Parenzo Romano(Parenzi), pretore di Lucca 1222 and 1228
+}
+1233.1.1 = {    
+	holder = 1065316 # Bernardo Romano(Parenzi), consul of Lucca 1233.
+}
+1235.1.1 = {    
+	holder = 1065092 # Arrigo di Capraia(Alberti), consul of Lucca 1235
+}
+1239.1.1 = {    
+	holder = 1064437 # Manfredo Da Cornazzano, podesta of Lucca 1239-1240
+}
+1240.1.1 = {    
+	holder = 1065322 # Guiscardo Pietrasanta, pretore di Lucca 1240, 1242, 1255 and 1257
+}
+1243.1.1 = {    
+	holder = 1065329 # Tomasso Maltanotte , pretore of Lucca 1243 and 1250
+}
+1244.1.1 = {    
+	holder = 1061196 # Ruggero II di Castracane(Antelminelli), consul of Lucca
+}
+1245.1.1 = {
+    liege=k_tuscany #under imperial vicar of Tuscany
+}
+1246.1.1 = {    
+	holder = 1065330 # Borgognone Bonfigliastri, pretore of Lucca 1246-1249
+}
+1250.1.1 = {  
+    liege=k_tuscan_league
+	holder = 1065329 # Tomasso Maltanotte , pretore of Lucca 1243 and 1250
+}
+1250.12.13 = {
+    liege = e_hre #HIP had all of north Italy independent after 1250 up until 1337 which is odd as all maps and information I find says it was still fully under the empire. I think it's more likely they forgot to properly set the liege once they got rid of the league titles
+}
+1251.1.1 = {    
+	holder = 1065337 # Matteo di Gazzuolo, pretore di Lucca 1251
+}
+1253.1.1 = {    
+	holder = 1065318 # Filippo Romano(Parenzi), pretore di Lucca 1253
+}
+1255.1.1 = {    
+	holder = 1065322 # Guiscardo Pietrasanta, pretore di Lucca 1240, 1242, 1255 and 1257
+}
+1256.1.1 = {    
+	holder = 1061196 # Ruggero II di Castracane(Antelminelli), consul of Lucca
+}
+1257.1.1 = {    
+	holder = 1065322 # Guiscardo Pietrasanta, pretore di Lucca 1240, 1242, 1255 and 1257
+}
+1260.1.1 = {    
+	holder = 1062012 # Guido III da Corregio, podesta of Lucca 1260
+}
+1263.1.1 = {    
+	holder = 1065320 # Filippo Asinelli, pretore di Lucca 1263
+}
+1265.1.1 = {    
+	holder = 1065311 # Gozello di Gazzuolo, pretore di Lucca 1265
+}
+1270.1.1 = {    
+	holder = 73583 # Taddeo di Montefeltro podesta of Lucca 1270
+}
+1272.1.1 = {
+#	liege = k_sicliy
+	holder = 73519 # Luchetto Gattilusio
+}
+1278.1.1 = {
+#	liege = e_hre
+	holder = 1061198 # Francesco Antelminelli
+}
+1279.1.1 = {
+	holder = 1061199 # Gerio III di Castracane (Antelminelli)
+}
+1282.1.1 = {
+	holder = 1062132 # Ugolino Rossi, podesta of Lucca 1282, 1295 and 1302
+}
+1286.1.1 = {
+	holder = 1065177 # Nicolò Malatovi guelph capitano del popolo of Lucca 1286
+}
+1287.1.1 = {
+	holder = 1065391 # Corrado I della Branca capitano del popolo of Lucca 1286
+}
+1288.1.1 = {
+	holder = 1064650 # Guicciardo/Guizardi di Mede(Lomello), podesta of Lucca 1288
+}
+1290.1.1 = {
+	holder = 1062144 # Guglielmo Rossi, podesta of Lucca 1290 and 1293
+}
+1292.1.1 = {
+	holder = 1065325 # Guglielmo Olodini, podesta of Lucca 1292
+}
+1293.1.1 = {
+	holder = 1062144 # Guglielmo Rossi, podesta of Lucca 1290 and 1293
+}
+1295.1.1 = {
+	holder = 1062132 # Ugolino Rossi, podesta of Lucca 1282, 1295 and 1302
+}
+1298.1.1 = {
+	holder = 1061199 # Gerio III di Castracane (Antelminelli)
+}
+1302.1.1 = {
+	holder = 1062132 # Ugolino Rossi, podesta of Lucca 1282, 1295 and 1302
+}
+1303.1.1 = {
+	holder = 1065392 # Manno I della Branca capitano del popolo of Lucca 1303
+}
+1305.1.1 = {
+	holder = 1061199 # Gerio III di Castracane (Antelminelli)
+}
+1306.1.1 = {
+	holder = 1065393 # Pietro I della Branca capitano del popolo of Lucca 1306
+}
+1308.1.1 = {
+	holder = 1061184 # Bonturo Dati, consul of Lucca 1308 and 1314(indirectly held sway ower the republic in the entire period)
+}
+1311.1.1 = {
+	holder = 1062863 # Guidiccione Gabrielli podsta of Lucca 1311
+}
+1313.1.1 = {
+	holder = 1061342 # Nello da Pietra(Pannocchieschi), podesta of Lucca 1313
+}
+1314.1.1 = {
+	holder = 1065333 # Francesco della Faggiuola, podesta of Lucca 1314-1316(under his father who ruled from Pisa)
+}
+1316.11.4 = { 
+	holder = 1061200 # Castruccio Castracani Antelminelli
+}
+1327.11.17 = {
+	liege=0
+	holder=0
+}
+#1064446 # Giacomo Da Cornazzano, podesta of Lucca 1317
+#1065069 # Ricciado di Modigiliana(Guidi) podesta of Lucca 1326
+1329.5.10 = {   
+    liege=k_papal_state
+	holder = 73430 #Gherardino Spinola
+}
+1330.5.1 = {   
+	holder = 1062854 # Cante Gabrielli, podesta of Lucca 1330
+}
+1330.12.28 = {   
+	holder = 1065327 # Antonio Camilla podesta of Lucca from the 28th of december 1330
+}
+1331.1.1 = {
+	liege = k_italy
+	holder = 1061206 # Francesco Antelminelli
+}
+1333.10.1 = {
+	holder = 1062148 # Pietro Rossi, imperial vicar of Lucca 1333. Joint rule with brothers but he was the main one in Lucca.
+}
+#Della Scala claims Lucca in November 1335. Arrigo reinstated.
+1335.11.1 = {
+	liege = 0
+	holder = 0
+}
+#Arrigo makes an alliance with Milano to reduce reliance on Verona.
+1337.1.1 = {
+    liege=k_italy
+	holder = 1061201 # Enrico II/Arrigo Antelminelli, Duca di Lucca 1328.9.3 - 1329.5.10, pretore di Lucca 1335-1338(initially under della Scala)
+}
+1338.1.1 = {
+	holder = 1065331 # Francesco Gangalandi, pretore di Lucca 1338-1341
+}
+1342.1.1 = {
+	holder = 1065313 # Chiolo di Gazzuolo, pretore di Lucca 1342
+}
+
+
+}
+
+d_friuli = {
+	591.1.1 = {
+		liege = k_italy
+	}
+	863.1.1 = {
+		holder = 163057 #Unruoch III Unruochinger
+	}
+	874.1.1 = {
+		holder = 71901 #Berengar Unruochinger
+	}
+	891.1.1 = {
+		holder = 167806 #Vilfredo de Friuli
+	}
+	900.1.1 = {
+		holder = 0
+	}
+	952.1.1 = {
+		liege = k_east_francia
+	}
+	1024.7.13 = {
+		liege = e_hre
+	}
+}
+
+
+c_aquileia = {
+	569.1.1 = {
+		liege = k_italy
+	}
+	569.1.1 = {
+		holder = 190126 #Gisulf I
+	}
+	591.1.1 = {
+		holder = 190128 #Gisulf II
+	}
+	610.1.1 = {
+		holder = 190244 #Taso
+	}
+	625.1.1 = {
+		holder = 190246 #Grasulf
+	}
+	641.1.1 = {
+		holder = 190247 #Ago
+	}
+	663.1.1 = {
+		holder = 190248 #Lupus
+	}
+	666.1.1 = {
+		holder = 190249 #Arnefrit
+	}
+	666.6.1 = {
+		holder = 190250 #Wechtar
+	}
+	671.1.1 = {
+		holder = 190251 #Landar
+	}
+	690.1.1 = {
+		holder = 190252 #Rodoald
+	}
+	694.1.1 = {
+		holder = 190255 #Ansfrid
+	}
+	694.6.1 = {
+		holder = 190254 #Ado
+	}
+	695.1.1 = {
+		holder = 190256 #Ferdulf
+	}
+	697.1.1 = {
+		government = republic_government
+		holder = 1st_venice_doge # Paulucius Anafestus, according to tradition
+		liege = e_byzantium
+	}
+	697.1.2 = {
+		liege = k_romagna
+	}
+	739.1.1 = {
+		holder = 190343 #Ratchis
+	}
+	744.1.1 = {
+		holder = 190331 #Aistulf
+	}
+	749.1.1 = {
+		holder = 190260 #Anselm
+	}
+	751.1.1 = {
+		holder = 190262 #Peter
+	}
+	863.1.1 = {
+		liege = "d_verona"
+	}
+	863.1.1 = {
+		government = theocracy_government
+		holder = 167804
+	}
+	1063.1.1 = {
+		liege = "e_hre"
+		holder = 7700
+	}
+	1068.1.1 = {
+		holder = 70825
+	}
+	1077.1.1 = {
+		holder = 70826
+	}
+	1084.1.1 = {
+		holder = 534
+	}
+	1086.1.1 = {
+		holder = 70827
+	}
+	1121.1.1 = {
+		holder = 70828
+	}
+	1144.1.1 = {
+		holder = 70829
+	}
+	1161.1.1 = {
+		holder = 70830
+	}
+	1181.1.1 = {
+		holder = 70831
+	}
+	1194.1.1 = {
+		holder = 70832
+	}
+	1204.1.1 = {
+		holder = 70833
+	}
+	1218.1.1 = {
+		holder = 70834
+	}
+	1251.1.1 = {
+		holder = 70835
+	}
+	1273.12.21 = {
+		holder = 70761 # Raimondo della Torre
+	}
+	1299.1.1 = {
+		holder = 70836
+	}
+	1301.1.1 = {
+		holder = 70837
+	}
+	1316.1.1 = {
+		holder = 70763 # Cassono della Torre
+	}
+	1318.8.20 = {
+		holder = 70838 # Pagano della Torre
+	}
+	1331.12.19 = {
+		holder = 413022
+	}
+
+}
+
+
+c_friuli = {
+	697.1.1 = {
+		government = republic_government
+		holder = 1st_venice_doge # Paulucius Anafestus, according to tradition
+		liege = e_byzantium
+	}
+	697.1.2 = {
+		liege = k_romagna
+	}
+	763.1.1 = {
+		liege = k_italy
+	}
+	763.1.1 = {
+		holder = 190323 #Engelbert
+	}
+	863.1.1 = {
+		liege = "d_verona"
+	}
+	863.1.1 = {
+		holder = 163057
+	}
+	1028.1.1 = {
+		holder = 70626
+	}
+	1038.8.11 = {
+		holder = 20352
+	}
+	1081.7.31 = {
+		holder = 70627
+	}
+	1090.5.12 = {
+		liege = "e_hre"
+	}
+	1098.1.1 = {
+		holder = 1316 #Heinrich IV
+	}
+	1106.7.8 = {
+		holder = 7901 #Heinrich V
+	}
+	
+	1125.8.24 = {
+		holder = 30219 #Lothar III von Supplingburg
+	}
+	
+	1137.12.4 = {
+		holder = 7903 #Konrad III von Hohenstaufen
+	}
+	1152.2.15 = {
+		holder = 212501 #Friedrich I von Hohenstaufen
+	}
+	1187.1.1 = {
+		holder = 213023
+	}
+	1216.1.1 = {
+		holder = 70655
+	}
+	1235.1.1 = {
+		holder = 70664 # Alberico da Romano
+	}
+	1250.12.13 = {
+		holder = 30760 #Konrad IV von Hohenstaufen
+	}
+	1254.5.21 = {
+		holder = 94003 #Willem Gerulfing (van Holland)
+	}
+	1256.1.28 = {
+		holder = 232682 #Richard of Cornwall (Plantagenet)
+	}
+	1272.4.2 = {
+		holder = 462021 #Rudolf I von Habsburg
+	}
+	1291.7.15 = {
+		holder = 462360 #Adolf von Nassau
+	}
+	1298.6.23 = {
+		holder = 462023 #Albrecht I von Habsburg
+	}
+	1305.1.1 = {
+		liege = "d_verona"
+		holder = 412070
+	}
+	1311.10.28 = {
+		holder = 412078
+	}
+
+}
+
+
+c_gorz = {
+	569.1.1 = {
+		liege = k_italy
+	}
+	569.1.1 = {
+		holder = 190126 #Gisulf I
+	}
+	591.1.1 = {
+		holder = 190128 #Gisulf II
+	}
+	610.1.1 = {
+		holder = 190244 #Taso
+	}
+	625.1.1 = {
+		holder = 190246 #Grasulf
+	}
+	641.1.1 = {
+		holder = 190247 #Ago
+	}
+	663.1.1 = {
+		holder = 190248 #Lupus
+	}
+	666.1.1 = {
+		holder = 190249 #Arnefrit
+	}
+	666.6.1 = {
+		holder = 190250 #Wechtar
+	}
+	671.1.1 = {
+		holder = 190251 #Landar
+	}
+	690.1.1 = {
+		holder = 190252 #Rodoald
+	}
+	694.1.1 = {
+		holder = 190255 #Ansfrid
+	}
+	694.6.1 = {
+		holder = 190254 #Ado
+	}
+	695.1.1 = {
+		holder = 190256 #Ferdulf
+	}
+	705.1.1 = {
+		holder = 190257 #Corvulus
+	}
+	705.6.1 = {
+		holder = 190342 #Pemmo
+	}
+	739.1.1 = {
+		holder = 190343 #Ratchis
+	}
+	744.1.1 = {
+		holder = 190331 #Aistulf
+	}
+	749.1.1 = {
+		holder = 190260 #Anselm
+	}
+	751.1.1 = {
+		holder = 190262 #Peter
+	}
+	863.1.1 = {
+		liege = "d_verona"
+	}
+	863.1.1 = {
+		holder = 167804
+	}
+	1063.1.1 = {
+		liege = "e_hre"
+		holder = 7700
+	}
+	1068.1.1 = {
+		holder = 70825
+	}
+	1077.1.1 = {
+		holder = 70826
+	}
+	1084.1.1 = {
+		holder = 534
+	}
+	1086.1.1 = {
+		holder = 70827
+	}
+	1121.1.1 = {
+		holder = 70828
+	}
+	1144.1.1 = {
+		holder = 70829
+	}
+	1161.1.1 = {
+		holder = 70830
+	}
+	1181.1.1 = {
+		holder = 70831
+	}
+	1194.1.1 = {
+		holder = 70832
+	}
+	1204.1.1 = {
+		holder = 70833
+	}
+	1218.1.1 = {
+		holder = 70834
+	}
+	1251.1.1 = {
+		holder = 70835
+	}
+	1273.1.1 = {
+		holder = 70761
+	}
+	1299.1.1 = {
+		holder = 70836
+	}
+	1301.1.1 = {
+		holder = 70837
+	}
+	1315.1.1 = {
+		holder = 70763
+	}
+	1319.1.1 = {
+		holder = 413022
+	}
+
+}
+
+
+d_verona = {
+	569.1.1 = {
+		holder = 190126 #Gisulf I
+	}
+	591.1.1 = {
+		holder = 190128 #Gisulf II
+		liege = k_italy
+	}
+	610.1.1 = {
+		holder = 190244 #Taso
+	}
+	625.1.1 = {
+		holder = 190246 #Grasulf
+	}
+	641.1.1 = {
+		holder = 190247 #Ago
+	}
+	663.1.1 = {
+		holder = 190248 #Lupus
+	}
+	666.1.1 = {
+		holder = 190249 #Arnefrit
+	}
+	666.6.1 = {
+		holder = 190250 #Wechtar
+	}
+	671.1.1 = {
+		holder = 190251 #Landar
+	}
+	690.1.1 = {
+		holder = 190252 #Rodoald
+	}
+	694.1.1 = {
+		holder = 190255 #Ansfrid
+	}
+	694.6.1 = {
+		holder = 190254 #Ado
+	}
+	695.1.1 = {
+		holder = 190256 #Ferdulf
+	}
+	705.1.1 = {
+		holder = 190257 #Corvulus
+	}
+	705.6.1 = {
+		holder = 190342 #Pemmo
+	}
+	739.1.1 = {
+		holder = 190343 #Ratchis
+	}
+	744.1.1 = {
+		holder = 190331 #Aistulf
+	}
+	749.1.1 = {
+		holder = 190260 #Anselm
+	}
+	751.1.1 = {
+		holder = 190262 #Peter
+	}
+	787.1.1 = {
+		holder = 167807 #Unruoch III Unruochinger
+	}
+	
+	806.1.1 = {
+		holder = 161742 #Hunfrid Hunfriding
+	}
+	
+	817.1.1 = {
+		holder = 167844 #Chadaloh Alaholfinger
+	}
+	
+	828.1.1 = {
+		holder = 167790 #Unruoch II Unruochinger
+	}
+	
+	836.1.1 = {
+		liege = "k_italy"
+	}
+	836.1.1 = {
+		holder = 7909 #Eberhard Unruochinger
+	}
+	
+	863.1.1 = {
+		holder = 163057 #Unruoch III Unruochinger
+	}
+	874.1.1 = {
+		holder = 71901 #Berengar Unruochinger
+	}
+	891.1.1 = {
+		holder = 167806 #Vilfredo de Friuli
+	}
+	952.1.1 = {
+		liege = k_east_francia
+	}
+	952.1.1 = {
+		holder = 1292
+	}
+	955.1.1 = {
+		holder = 1294
+	}
+	976.1.1 = {
+		holder = 7972
+	}
+	985.1.1 = {
+		holder = 7972
+	}
+	989.1.1 = {
+		holder = 1294
+	}
+	995.1.1 = {
+		holder = 1296
+	}
+	1004.1.1 = {
+		holder = 1320
+	}
+	1024.7.13 = {
+		liege = e_hre
+	}
+	1036.1.1 = {
+		holder = 1322
+	}
+	1039.1.1 = {
+		holder = 1314
+	}
+	1047.1.1 = {
+		holder = 7941
+	}
+	1056.1.1 = {
+		holder = 7942
+	}
+	1066.1.1 = {
+		holder = 1610
+		succession_laws = { male_only_law }
+	}
+	1073.1.1 = {
+		holder = 10087
+	}
+	1078.1.1 = {
+		holder = 70623
+	}
+	1090.5.12 = {
+		holder = 0
+	}
+	1305.1.1 = {
+		liege = 0
+		holder = 412070
+	}
+	1311.10.28 = {
+		holder = 412072
+	}
+}
+
+
+c_verona = {
+	867.1.1 = { change_development_level = 8 }
+	1066.1.1 = { change_development_level = 11 }
+	
+	751.1.1={
+		liege=k_italy
+	}
+	751.1.1={
+		holder = 190271 #Ademaro
+	}
+	768.1.1={
+		holder = 190272 #Ademaro
+	}
+	863.1.1={
+		liege = "d_friuli"
+	}
+	#Manfredenghi
+	931.1.1 = {
+		liege = k_italy
+		holder = 1065656 # Milone il San Bonifacio, raised to count of Verona in 924 or 931
+	}
+	953.1.1 = {
+		liege = d_verona
+		holder = 1065659 # Milone il San Bonifacio, conte di Verona 953-955
+	}
+	955.8.1 = {
+		holder = 1065659 # Egelrico conte di Verona 955-961
+	}
+	#Gandolfingi del Palazzo
+	961.1.1 = {
+		holder = 1065710 # Gandolfo II, conte di Verona 971 and 978.
+	}
+	993.1.1 = {
+		holder = 1065712 # Riprando II, son of Gandolfo II, conte di Verona 993
+	}
+	#Sambonifacio
+	999.1.1 = {
+		holder = 1226747 # Enrico I/Egelrico II
+	}
+	1004.1.1 = {
+		holder = 1226750 # Uberto I/II conte di Verona 1005
+	}
+	1018.1.1 = {
+		liege = d_carinthia
+	}
+	1020.1.1 = {
+		holder = 1065714 # Tadone, conte di Verona 1021-1022
+	}	
+	1040.1.1 = {
+		holder = 1226751 # Enrico II/III, conte di Verona 1055
+	}
+	1048.1.1 = {
+		liege = d_verona
+	}	
+	1060.1.1 = {
+		holder = 1226752 # Uberto III/IV , conte di Verona ?-?
+	}
+	1070.1.1 = {
+		holder = 1226753 # Bonifacio, conte di Verona ?-1109
+	}
+	1090.5.12 = {
+		liege = k_italy
+	}
+	1109.1.1 = {
+		holder = 1226754 # Alberto, conte e marchese di Verona 1109-1135
+	}
+	1115.7.24 = {
+		liege = e_hre
+	}
+	1125.5.23 = {
+		liege=k_italy
+	}
+	#Gandolfingi del Palazzo
+	1135.1.1 = {
+		liege = d_verona_republic
+		holder = 1065717 # Riprando III
+	}
+	#Sambonifacio
+	1139.1.1 = {
+		holder = 1226755 # Marco
+	}
+	1142.1.1 = {
+		holder = 1226756 # Scauro, capitano/podesta of Verona 1163, conte di Verona 1164-95
+	}
+	#Gandolfingi del Palazzo
+	1195.1.1 = {
+		holder = 1065723 # Bartolomeo Gandolfingi del Palazzo, consul of Verona 1195 and 1210, 1212 podesta of Verona. 
+	}
+	#Sambonifacio
+	1210.1.1 = {
+		holder = 1226757 # Bonifacio, conte di Sambonifacio 1206, podesta of Verona 1211
+	}
+	#Gandolfingi del Palazzo
+	1212.1.1 = {
+		holder = 1065723 # Bartolomeo Gandolfingi del Palazzo, consul of Verona 1195 and 1210, 1212 podesta of Verona. 
+	}
+	1214.1.1 = {
+		holder = 1065724 # Gioavnni Gandolfingi del Palazzo, consul of Verona 1207.
+	}
+	#Sambonifacio
+	1221.1.1 = {
+		holder = 1226760 # Rizzardo, conte di Sambonifacio, podesta of Verona 1222 and 1233
+	}
+	#Gandolfingi del Palazzo
+	1224.1.1 = {
+		holder = 1065724 # Gioavnni Gandolfingi del Palazzo, consul of Verona 1207. 
+	}
+	#Da Romano
+	1225.1.1 = {
+		holder = 1226726 # Ezzelino III da Romano, "podesta" of Verona 1225-1230.
+	}
+	#Sambonifacio
+	1227.1.1 = {
+		holder = 1226760 # Rizzardo, conte di Sambonifacio, podesta of Verona 1222 and 1233
+	}
+	#Gandolfingi del Palazzo
+	1230.1.1 = {
+		holder = 1065724 # Gioavnni Gandolfingi del Palazzo, consul of Verona 1207. 
+	}
+	#Sambonifacio
+	1232.7.27 = {
+		holder = 1226760 # Rizzardo, conte di Sambonifacio, podesta of Verona 1222 and 1233
+	}
+	1254.2.1 = {
+		holder = 1226763 # Leonosio
+	}
+	1259.1.1 = {
+		holder = 1226764 # Ludovico, conte di Sambonifacio pre 1259, podesta of Verona 1262
+	}
+	#Scalieri	
+	1259.5.1 = {
+		holder = 70794
+	}
+	#Sambonifacio
+	1262.1.1 = {
+		holder = 1226764 # Ludovico, conte di Sambonifacio pre 1259, podesta of Verona 1262
+	}
+	#Scalieri	
+	1263.1.1 = {
+		holder = 70794
+	}
+	1270.1.1 = {
+		holder = 1064977 # Alberico Suardi, podesta of Verona 1268 and 1280.
+	}
+	1275.1.1 = {
+		holder = 1065606 # Merino Suardi, Imperial rector of Verona 1275
+	}
+	1277.10.17 = {
+		holder = 70798
+	}
+	1280.1.1 = {
+		holder = 1064977 # Alberico Suardi, podesta of Verona 1268 and 1280.
+	}
+	1282.1.1 = {
+		holder = 70798
+	}
+	1301.1.1 = {
+		holder = 70802
+	}
+	1304.1.1 = {
+		holder = 412070
+	}
+	1305.1.1 = {
+		liege = d_verona
+	}
+	1308.1.1 = {
+		holder = 70805
+	}
+	1329.1.1 = {
+		holder = 412072
+	}
+}
+
+
+c_treviso = {
+	
+	763.1.1={
+		liege=k_italy
+	}
+	763.1.1={
+		holder = 190323 #Engelbert
+	}
+	863.1.1={
+		liege = "d_friuli"
+	}
+	926.1.1 = {
+		liege = k_italy
+		holder = 7923 # Hugues Bosonid
+	}
+	948.4.10 = {
+		holder = 167000 # Lothaire Bosonid
+	}
+	950.11.22 = {
+		holder = 1108 # Berengario of Ivrea
+	}
+	952.1.1 = {
+		liege = d_verona
+	}
+	952.1.1 = {
+		holder = 1292
+	}
+	959.1.1 = {
+		holder = 1226735
+	}
+	976.1.1 = {
+		liege = d_carinthia
+	}
+	995.1.1 = {
+		holder = 1226736
+	}
+	1016.1.1 = {
+		holder = 70626
+	}
+	1038.8.11 = {
+		holder = 20352
+	}
+	1047.1.1 = {
+		liege = d_verona
+	}
+	1081.7.31 = {
+		holder = 1226737
+	}
+	1090.5.12 = {
+		liege = k_italy
+	}
+	1115.7.24 = {
+		liege = e_hre
+	}
+	1119.1.1 = {
+		holder = 1226739
+	}
+	1125.5.23 = {
+		liege=k_italy
+	}
+	1137.12.4 = {
+		liege = e_hre
+	}
+	1138.1.1 = {
+		holder = 1226740
+	}
+	1154.12.1 = {
+		liege= k_italy
+	}
+	1165.1.1 = {
+		holder = 1226741
+	}
+	1167.4.7 = {
+	liege=k_lombard_league
+	}
+	1210.1.1 = {
+		holder = 1226743
+	}
+	1240.1.1 = {
+		liege=k_sardinia
+		holder = 70664 # Alberico da Romano
+	}
+	1249.5.26 = {
+		liege=e_hre
+	}
+	1259.1.1 = {
+		holder = 1226744
+	}
+	1273.1.1 = {
+		holder = 1226745
+	}
+	1297.1.1 = {
+		holder = 1226746
+	}
+	1305.1.1 = {
+		liege = d_verona
+	}
+	1325.1.1 = {
+		holder = 70805
+	}
+	1329.1.1 = {
+		holder = 412072
+	}
+}
+
+
+c_padua = {
+	569.1.1 = {
+		holder = 190126 #Gisulf I
+	}
+	591.1.1 = {
+		holder = 190128 #Gisulf II
+		liege = k_italy
+	}
+	610.1.1 = {
+		holder = 190244 #Taso
+	}
+	625.1.1 = {
+		holder = 190246 #Grasulf
+	}
+	641.1.1 = {
+		holder = 190247 #Ago
+	}
+	663.1.1 = {
+		holder = 190248 #Lupus
+	}
+	666.1.1 = {
+		holder = 190249 #Arnefrit
+	}
+	666.6.1 = {
+		holder = 190250 #Wechtar
+	}
+	671.1.1 = {
+		holder = 190251 #Landar
+	}
+	690.1.1 = {
+		holder = 190252 #Rodoald
+	}
+	694.1.1 = {
+		holder = 190255 #Ansfrid
+	}
+	694.6.1 = {
+		holder = 190254 #Ado
+	}
+	695.1.1 = {
+		holder = 190256 #Ferdulf
+	}
+	705.1.1 = {
+		holder = 190257 #Corvulus
+	}
+	705.6.1 = {
+		holder = 190342 #Pemmo
+	}
+	# de'conti di Padova e Vicenza
+	710.1.1 = {
+		liege = k_italy
+		holder = 1065800 # Alarico
+	}
+	740.1.1 = {
+		holder = 1065801 # Predeo
+	}
+	775.1.1 = {
+		holder = 1065802 # Alberto
+	}
+	810.1.1 = {
+		holder = 1065803 # Maltraverso
+	}
+	850.1.1 = {
+		holder = 1065804 # Alfariso
+	}
+	863.1.1 = {
+		liege = d_friuli
+	}
+	875.1.1 = {
+		holder = 1065805 # Romoaldo
+	}
+	898.10.15 = {
+		liege = k_italy
+	}
+	910.1.1 = {
+		holder = 1065806 # Manfredo I
+	}
+	940.1.1 = {
+		holder = 1065807 # Manfredo II
+	}
+	952.1.1 = {
+		liege = d_verona
+	}
+	960.1.1 = {
+		holder = 1065808 # Ighelfredo
+	}
+	980.1.1 = {
+		holder = 1065809 # Alberto
+	}
+	995.1.1 = {
+		holder = 1065814 # Maltraverso
+	}
+	1022.1.1 = {
+		holder = 1065816 # Gherardo
+	}
+	#Maltraversi
+	1058.1.1 = {
+		holder = 1065817 # Maltraverso Terzo
+	}
+	##Republic
+	#da Romanao etc
+	1070.1.1 = {
+		holder = 1226719
+	}
+	1090.5.12 = {
+		liege = k_italy
+	}
+	1091.1.1 = {
+		holder = 1226721
+	}
+	1115.7.24 = {
+		liege = e_hre
+	}
+	1125.5.23 = {
+		liege=k_italy
+	}
+	1137.12.4 = {
+		liege = e_hre
+	}
+	1153.1.1 = {
+		liege=d_padova_republic
+		holder = 1226722
+	}
+	1180.1.1 = {
+		holder = 1226724
+	}
+	1234.1.1 = {
+		holder = 1226726 
+	}
+	1255.1.1 = {
+		holder = 1226731
+	}
+	1266.1.1 = {
+		holder = 1226733
+	}
+	1312.1.1 = {
+		holder = 1226734
+	}
+	1318.1.1 = {
+		holder = 70809 # Iacopo VIII Carraresi, signore/principe di Padova 1318-1324
+	}
+	1324.11.23={
+		holder = 70811 # Marsilio IX Carraresi, signore/principe di Padova 1324-1328 and 1337-1338
+	}
+	1328.1.1 = {
+		holder = 73429 # Marsiglio Rossi, podesta of Padua 1328
+	}
+	1328.9.1 = {
+		liege=d_verona 
+		holder = 70811 # Marsilio IX, signore/principe di Padova 1324-1328 and 1337-1338
+	}
+	1337.1.1 = {
+		liege = d_padova_republic
+	}
+	1338.3.21={
+		holder = 1226879 # Ubertino VIII aka Ubertino Novello, signore/principe di Padova 1318-1324
+	}
+	1345.3.27={
+		holder = 1226871 # Marsilio X/Marsilietto di Papafava, signore di Padova 26. of march - 5. of may 1345
+	}
+	1345.5.6={
+		holder = 1226885 # Iacopo X, signore di Padova 1345-1350
+	}
+	1350.12.19={
+		holder = 1226882 # Iacopino XI, signore di Padova 1350-55 as co ruler with his nephew Francesco.
+	}
+	1355.6.1={
+		holder = 412074 # Francesco VI, signore di Padova 1350-55 as co ruler, 1355-1388 as sole ruler
+	}
+}
+
+
+c_polesine = {
+	569.1.1 = {
+		holder = 190126 #Gisulf I
+	}
+	591.1.1 = {
+		holder = 190128 #Gisulf II
+		liege = k_italy
+	}
+	610.1.1 = {
+		holder = 190244 #Taso
+	}
+	625.1.1 = {
+		holder = 190246 #Grasulf
+	}
+	641.1.1 = {
+		holder = 190247 #Ago
+	}
+	663.1.1 = {
+		holder = 190248 #Lupus
+	}
+	666.1.1 = {
+		holder = 190249 #Arnefrit
+	}
+	666.6.1 = {
+		holder = 190250 #Wechtar
+	}
+	671.1.1 = {
+		holder = 190251 #Landar
+	}
+	690.1.1 = {
+		holder = 190252 #Rodoald
+	}
+	694.1.1 = {
+		holder = 190255 #Ansfrid
+	}
+	694.6.1 = {
+		holder = 190254 #Ado
+	}
+	695.1.1 = {
+		holder = 190256 #Ferdulf
+	}
+	697.1.1 = {
+		government = republic_government
+		holder = 1st_venice_doge # Paulucius Anafestus, according to tradition
+		liege = e_byzantium
+	}
+	697.1.2 = {
+		liege = k_romagna
+	}
+	739.1.1 = {
+		holder = 190343 #Ratchis
+	}
+	744.1.1 = {
+		holder = 190331 #Aistulf
+	}
+	749.1.1 = {
+		holder = 190260 #Anselm
+	}
+	751.1.1={
+		liege=k_italy
+		holder = 190263 #Ursus
+	}
+	834.1.1 = {
+		liege = d_spoleto
+		holder = 71906
+	}
+	836.12.30 = {
+		holder = 71905
+	}
+	860.1.1 = {
+		holder = 167882
+	}
+	#Adelardi/Marcheselli signori di Ferrara
+	#placeholder rulers of Este in lack of better alternatives
+	935.1.1 = {
+		liege=k_italy
+		holder = 1062171 # Guglilemo I
+	}
+	955.1.1 = {
+		holder = 1062173 # Guarino I
+	}
+	962.2.2 = {
+		liege=e_hre
+	}
+	984.1.1 = {
+		holder = 1062174 # Guarino II
+	}
+	1020.1.1 = {
+		holder = 1062175 # Bulgaro I
+	}
+	1029.1.1 = {
+		liege = d_ferrara
+		holder = 1118
+	}
+	1097.4.13 = {
+		holder = 20299
+	}
+	1128.12.15 = {
+		holder = 223597
+	}
+	1196.1.1 = {
+		holder = 223596
+	}
+	1212.11.1 = {
+		holder = 70658
+	}
+	1215.1.1 = {
+		holder = 70661
+	}
+	1264.2.17 = {
+		holder = 70669
+	}
+	1293.2.20 = {
+		holder = 70674
+	}
+	1308.1.31 = {
+		holder = 70678
+	}
+	1308.10.1 = {
+		holder = 70689
+	}
+	1312.8.23 = {
+		holder = 70700
+	}
+	1335.12.31 = {
+		holder = 70709
+	}
+}
+
+
+c_monferrato = {
+	757.1.1 = {
+		liege = k_italy
+		holder = 190324 # Liutfred Liutfredidi
+	}
+	860.1.1 = {
+		holder = 163069 # Odalric d'Asti
+	}
+	887.11.1 = {
+		holder = 167968 # Antiero
+	}
+	896.1.1 = {
+		holder = 167969 # Liutfrido
+	}
+	905.3.1 = {
+		holder = 167970 # Gotofredo
+	}
+	910.8.4 = {
+		holder = 167971 # Gausberto
+	}
+	940.1.1 = {
+		holder = 167972 # Uberto
+	}
+	941.11.1 = {
+		holder = 167973 # Adalberto
+	}
+	967.1.1 = {
+		liege = "k_east_francia"
+		holder = 7727 # Aleramo Aleramicci
+	}
+	991.1.1 = {
+		holder = 7728 # Ottone I
+	}
+	991.6.1 = {
+		holder = 7729 # Guglielmo I
+	}
+	1024.7.13 = {
+		liege = e_hre
+	}
+	1042.1.29 = {
+		holder = 7730 # Ottone II
+	}
+	1084.11.20 = {
+		holder = 71253 # Guglielmo II
+	}
+	1101.12.28 = {
+		holder = 232559 # Ranieri
+	}
+	1137.1.1 = {
+		holder = 213520 # Guglielmo III
+	}
+	1191.8.1 = {
+		holder = 213521 # Corrado of Jerusalem
+		liege = k_jerusalem
+	}
+	1192.4.28 = {
+		holder = 213523 # Bonifacio of Thessalonika
+		liege = e_hre
+	}
+	1204.8.1 = {
+		liege = d_thessalonika
+	}
+	1207.9.4 = {
+		holder = 213541 # Guglielmo IV
+		liege = e_hre
+	}
+	1226.9.17 = {
+		holder = 33361 # Bonifacio II
+		liege = k_lombard_league
+	}
+	1241.1.1 = {
+		liege = d_savoie
+	}
+	1253.6.12 = {
+		holder = 33364 # Guglielmo V
+		liege = e_hre
+	}
+	1292.2.6 = {
+		holder = 33365 # Giovanni I
+		liege = 0
+	}
+	1305.1.9 = {
+		holder = 465520 # Teodoro I Paleologo di Montferrato
+	}
+
+}
+
+d_piedmonte = {
+	575.1.1 = {
+		holder = 190170 # Agilolf of Italy
+		liege = k_italy
+	}
+	590.9.5 = {
+		holder = 190174 # Arioald of Italy
+	}
+	626.1.1 = {
+		holder = 0 # Unknown
+	}
+	663.1.1 = {
+		holder = 190136 # Garipald of Italy
+	}
+	671.1.1 = {
+		holder = 190183 # Raginpert of Italy
+	}
+	701.1.1 = {
+		holder = 190184 # Aripert II of Italy
+	}
+	712.6.1 = {
+		holder = lombard0096 #Princess Imberg
+	}
+	744.1.1 = {
+		holder = 0
+	}
+	962.1.1 = {
+		holder = 167957 # Ardoino Ardoinici
+		liege = e_hre
+	}
+	976.4.4 = {
+		holder = 167961 # Odelrico Manfredi I
+	}
+	1000.1.1 = {
+		holder = 10081 # Odelrico Manfredi II
+	}
+	1034.10.29 = {
+		holder = 1115 # Adelaide
+	}
+	1037.1.1 = {
+		holder = 10085 # Hermann IV of Swabia, as husband of Adelaide
+	}
+	1038.6.1 = {
+		holder = 1115 # Adelaide (2nd time)
+	}
+	1042.1.1 = {
+		holder = 71242 # Enrico Aleramicci, as husband of Adelaide
+	}
+	1045.3.15 = {
+		holder = 1115 # Adelaide (3rd time)
+	}
+	1046.1.1 = {
+		holder = 1180 # Othon of Savoy, as husband of Adelaide
+	}
+	1060.1.19 = {
+		holder = 1182 # Pierre I of Savoy, together with his mother Adelaide
+	}
+	1078.8.9 = {
+		holder = 1184 # Amédée II of Savoy, together with his mother Adelaide
+	}
+	1080.1.26 = {
+		holder = 70876 # Agnès de Savoie, together with her granmother Adelaide
+	}
+	1080.5.1 = {
+		holder = 179996 # Frederic Scarponnois, as husband of Agnès
+	}
+	1091.6.29 = {
+		holder = 70876 # Agnès (2nd time)
+	}
+	1091.12.27 = {
+		holder = 0 # With the death of Adelaide, Turin becomes a republic
+	}
+}
+
+c_turin = {
+	575.1.1 = {
+		holder = 190170 # Agilolf of Italy
+		liege = d_piedmonte
+	}
+	590.9.5 = {
+		holder = 190174 # Arioald of Italy
+	}
+	663.1.1 = {
+		holder = 190136 # Garipald of Italy
+	}
+	671.1.1 = {
+		holder = 190183 # Raginpert of Italy
+	}
+	701.1.1 = {
+		holder = 190184 # Aripert II of Italy
+	}
+	712.6.1 = {
+		holder = lombard0096 #Princess Imberg
+	}
+	744.1.1 = {
+		holder = 0
+		liege = k_italy
+	}
+	#Asti
+	757.1.1 = {
+		liege = d_piedmonte
+		holder = 190324 # Paldo
+	}
+	#di Ivrea
+	825.1.1 = {
+		liege = k_italy
+	}
+	840.1.1 = {
+		liege = d_lombardia
+		holder = 1065741 # Leone di Milano, conte di Milano 842
+	}
+	844.1.1 = {
+		holder = 1065744 # Giovanni di Milano, conte di Milano 844
+	}
+	848.1.1 = {
+		holder = 1065745 # Alberico di Milano, in control of Milano 848, conte di Milano 880
+	}
+	887.1.1 = {
+		holder = 1065653 # Manfredo/Mainfredo/Maginfredo III Manfredenghi, conte di Lodi, Milano, Sacro Palazzo(Pavia/Lomello), e Marchesi di Lombardia. attested 887, 888, 889, 892,  also conte di Seprio 888-896
+	}
+	891.1.1 = {
+		liege = k_italy
+		holder = 167925 # Ansacrio di Ivrea
+	}
+	902.1.1 = {
+		holder = 1106 # Adalberto di Ivrea
+	}
+	930.1.1 = {
+		holder = 1108 # Berengario di Ivrea
+	}
+	950.1.1 = {
+		holder = 1064800 # Guido di Ivrea
+	}
+	965.6.25 = {
+		holder = 1110 # Adalberto II di Ivrea
+	}
+	972.1.2 = {
+		holder = 1064801 # Corrado di Ivrea
+	}
+	996.1.1 = {
+		holder = 71902 # Arduino of Ivrea
+	}
+	### Ardunici
+	1015.12.15 = {
+		liege = e_hre
+		holder = 10081 # Udalrico Manfredo II
+	}
+	1034.10.29 = {
+		liege = k_italy
+		holder = 1064736 # Guido
+	}
+	1039.6.4 = {
+		liege = e_hre
+	}
+	#da Romagano, marchesi di Romagano
+	1045.1.1 = {
+		holder = 1064713 # Olrico
+	}
+	1046.12.25 = {
+		liege = k_italy
+	}
+	1056.10.5 = {
+		liege = e_hre
+	}
+	1080.1.1 = {
+		liege = k_italy
+	}
+	1090.1.1 = {
+		holder = 1064714 # Manfredo I
+	}
+	#Carignano branch
+	1115.1.1 = {
+		holder = 1064730 # Guido I
+	}
+	1115.7.24 = {
+		liege = e_hre
+	}
+	1125.5.23 = {
+		liege = k_italy
+	}
+	1137.12.4 = {
+		liege = e_hre
+	}
+	1154.12.1 = {
+		liege = k_italy
+	}
+	1164.1.1 = {
+		holder = 1064732 # Manfredo II
+	}
+	1167.4.7 = {
+		liege = k_lombard_league
+	}
+	1208.1.1 = {
+		liege = d_savoie
+	}
+	1210.1.1 = {
+		holder = 1064733 # Guglielmo
+	}
+	# Vercelli commune
+	1240.1.1 = { 
+		liege = d_vercelli_republic
+		holder = 1064734
+	}
+	1249.1.1 = {
+		holder = 1226789 #Enrico di Spavara, podesta of vercelli 1249
+	}
+	1250.1.1 = {
+		holder = 1064657 #Goffredo di Langosco podesta of vercelli 1250
+	}
+	1257.1.1 = {
+		holder = 1064745 #Alberto Turixella, podesta of vercelli 1257-59
+	}
+	1270.1.1 = {
+		holder = 1064746 # Guglielmo Turixella 
+	}
+	1285.1.1 = {
+		holder = 1064748 # Riccardo Tizzoni, capitano of the Guelphs of Vercelli
+	}
+	1301.1.1 = {
+		holder = 1064786 # Ranierio Avogadro bishop and capitano del popoli of vercelli 1301
+	}
+	1303.1.1 = {
+		holder = 1064778 # Simone Avogadro rettore di Vercelli 1303-1306 and 1309-1325
+	}
+	1307.1.1 = {
+		holder = 1064663 #Filippone di Langosco, podesta of Vercelli 1307-1308
+	}
+	1308.1.1 = {
+		holder = 1064778 # Simone Avogadro rettore di Vercelli 1303-1306 and 1309-1325
+	}
+	1325.1.1 = {
+		holder = 1064781 # Giovanni Avogadro podesta di Vercelli ca 1334
+	}
+	1334.1.1 = {
+		liege = d_lombardia
+	}
+}
+
+c_novara = {
+	
+	712.6.1 = {
+		holder = lombard0096 #Princess Imberg
+		liege = d_piedmonte
+	}
+	#Asti
+	757.1.1 = {
+		liege = k_italy
+		holder = 190324 # Paldo
+	}
+	825.1.1 = {
+		liege = k_italy
+	}
+	840.1.1 = {
+		liege = d_lombardia
+		holder = 1065741 # Leone di Milano, conte di Milano 842
+	}
+	844.1.1 = {
+		holder = 1065744 # Giovanni di Milano, conte di Milano 844
+	}
+	848.1.1 = {
+		holder = 1065745 # Alberico di Milano, in control of Milano 848, conte di Milano 880
+	}
+	887.1.1 = {
+		holder = 1065653 # Manfredo/Mainfredo/Maginfredo III Manfredenghi, conte di Lodi, Milano, Sacro Palazzo(Pavia/Lomello), e Marchesi di Lombardia. attested 887, 888, 889, 892,  also conte di Seprio 888-896
+	}
+	#di Ivrea
+	891.1.1 = {
+		liege = d_piedmonte
+		holder = 167925 # Ansacrio di Ivrea
+	}
+	902.1.1 = {
+		holder = 1106 # Adalberto di Ivrea
+	}
+	#These needs to get looked at a later point.
+	930.1.1 = {
+		holder = 167935 # Adalberto di Ivrea(Pombia)
+	}
+	962.1.1 = {
+		holder = 167936 # Dadone di Ivrea(Pombia)
+	}
+	980.1.1 = {
+		holder = 167937 # Adalberto II di Ivrea(Pombia)
+	}
+	992.1.1 = {
+		holder = 167938 # Guidberto di Ivrea(Pombia)
+	}
+	1014.1.1 = {
+		liege = e_hre
+		holder = 1226779
+	}
+	1026.3.31 = {
+		liege = k_italy
+	}
+	1039.1.1 = {
+		holder = 1226780
+	}
+	1039.6.4 = {
+		liege=e_hre
+	}
+	1046.12.25 = {
+		liege=k_italy
+	}
+	1056.10.5 = {
+		liege=e_hre
+	}
+	1058.1.1 = {
+		holder = 167940
+	}
+	1070.1.1 = {
+		holder = 1226781
+	}
+	1080.1.1 = {
+		liege=k_italy
+	}
+	1087.1.1 = {
+		holder = 167941
+	}
+	1115.7.24 = {
+		liege = e_hre
+	}
+	1119.1.1 = {
+		holder = 1226782
+	}
+	1125.5.23 = {
+		liege=k_italy
+	}
+	1126.1.1 = {
+		holder = 71262
+	}
+	1137.12.4 = {
+		liege = e_hre
+	}
+	1154.12.1 = {
+		liege= k_italy
+	}
+	1170.10.9 = {
+		liege = k_lombard_league # castle detroyed, submits to vercelli
+	}
+	1172.8.26 = {
+		#liege= k_italy
+		holder = 71264
+	}
+	1190.1.1 = {
+		holder = 31498
+	}
+	1197.9.28 = {
+		#liege=e_hre
+	}
+	1202.7.7 = {
+		holder = 1226783
+	}
+	1209.1.1 = {
+		#liege = k_italy
+	}
+	1212.12.5 = {
+		#liege = e_hre
+	}
+	1220.1.1 = {
+		holder = 71265
+	}
+	1220.12.9 = {
+		#liege = k_italy
+	}
+	1222.1.1 = {
+		holder = cisalpine0456
+	}
+	1226.12.5 = {
+		#liege = e_hre
+	}
+	1237.11.28 = {
+		liege = k_sardinia
+		holder = cisalpine0459
+	}
+	1249.5.26 = {
+		liege = e_hre
+	}
+	1266.7.13 = {
+		holder = 71268
+	}
+	1288.11.22 = {
+		holder = 71273
+	}
+	1300.1.1 = {
+		liege = d_milano_republic
+	}
+	1307.11.21 = {
+		holder = 71276
+	}
+	1311.8.1 = {
+		liege = d_lombardia
+	}
+	1315.1.1 = {
+		holder = 71278
+	}
+	1338.1.1 = {
+		holder = 71279
+	}
+}
+
+c_cuneo = {
+	712.6.1 = {
+		holder = lombard0096 #Princess Imberg
+		liege = d_piedmonte
+	}
+	744.1.1 = {
+		holder = 0
+		liege = k_italy
+	}
+	756.1.1 = {
+		liege = k_italy
+	}
+	756.1.1 = {
+		holder = 190330 # Liutprand Liutprandidi
+	}
+	867.1.1 = {
+		liege = "k_italy"
+		holder = 167951  # Rodolfo d'Auriate
+	}
+	904.4.21 = {
+		holder = 167953  # Roger Ardoinici
+	}
+	915.1.1 = {
+		holder = 167955 # Ruggero II
+	}
+	935.1.1 = {
+		holder = 167957 # Ardoino of Piedmonte
+	}
+	976.4.4 = {
+		holder= 167961 # Olderico Manfredi I of Piedmonte
+	}
+	1000.1.1 = {
+		holder = 10081 # Olderico Manfredi II of Piedmonte
+	}
+	1034.10.29 = {
+		liege = e_hre
+		holder = 70639 # Berta
+	}
+	1053.1.1 = {
+		holder = 7735 # Teuto Aleramicci
+	}
+	1064.8.31 = {
+		holder = 70639 # Berta (2nd time)
+	}
+	1065.4.22 = {
+		holder = 7737 # Bonifazio del Vasto
+	}
+	1125.1.1 = {
+		holder = 213560 # Manfredo I
+	}
+	1175.6.4 = {
+		holder = 213550 # Manfredo II
+	}
+	1215.2.27 = {
+		holder = 71181 # Manfredo III
+		liege = k_italy
+	}
+	1244.10.29 = {
+		holder = 71185 # Tommaso I
+		liege = e_hre
+	}
+	1296.12.3 = {
+		liege = 0
+		holder = 71207 # Manfredo IV
+	}
+	1330.1.1 = {
+		holder = 420304 # Manfredo V
+	}
+	1332.7.29 = {
+		holder = 420302 # Federico I
+	}
+	1336.6.29 = {
+		holder = 420301 # Tommaso II
+	}
+}
+
+d_lombardia = {
+	867.1.1 = { change_development_level = 8 }
+	1066.1.1 = { change_development_level = 12 }
+
+	855.9.20 = {
+		holder = 30228 # Louis II Karling
+	}
+	940.1.1 = {
+		holder = 261385 # Adalberto I Bonifazi'il Margravio'
+	}
+	951.1.1 = {
+		holder = 70630 # Oberto I Obertenghi
+	}
+	975.10.15 = {
+		holder = 70629 # Oberto II
+	}
+	996.1.1 = {
+		holder = 70631 # Adalberto II di Massa
+	}
+	1002.1.1 = {
+		holder = 70629 # Oberto II (2nd time)
+	}
+	1014.1.1 = {
+		holder = cisalpine0026 # Ugo
+		liege = k_east_francia
+	}
+	1014.6.1 = {
+		holder = 70628 # Alberto Azzo I
+	}
+	1024.7.13 = {
+		liege = e_hre
+	}
+	1029.1.1 = {
+		holder = 1118 # Alberto Azzo II
+	}
+	1097.4.13 = {
+		holder = 20299 # Folco I d'Este
+	}
+	1128.12.15 = {
+		holder = 223597 # Obizzo I
+	}
+	1193.12.25 = {
+		holder = 0
+	}
+	1240.1.1 = {
+		holder = 70753 # Pagano I della Torre
+		liege = 0
+		succession_laws = { feudal_elective_succession_law }
+	}
+	1241.1.6 = {
+		holder = 70762 # Pagano II 'Paganino'
+	}
+	1257.1.1 = {
+		holder = 70765 # Martino
+	}
+	1259.1.1 = {
+		holder = 70744 # Oberto III Pallavicino
+	}
+	1264.1.1 = {
+		holder = 70766 # Filippo della Torre
+	}
+	1265.12.1 = {
+		holder = 70755 # Napoleone
+	}
+	1277.1.1 = {
+		holder = 70770 # Ottone Visconti
+	}
+	1295.8.8 = {
+		holder = 463145 # Matteo I
+	}
+	1302.6.1 = {
+		holder = 70759 # Guido della Torre
+	}
+	1311.8.1 = {
+		holder = 463145 # Matteo I (2nd time)
+	}
+	1322.6.24 = {
+		holder = 463141 # Galeazzo I
+	}
+	1328.8.6 = {
+		holder = 463140 # Azzone
+	}
+}
+
+
+c_lombardia = {
+	867.1.1 = { change_development_level = 13 }
+	1066.1.1 = { change_development_level = 20 }
+	
+	766.1.1 = {
+		liege = k_italy
+	}
+	766.1.1 = {
+		holder = 190320 # Paldo Paldidi
+	}
+	860.1.1 = {
+		holder = 167975 # Alberico di Milano
+	}
+	894.1.1 = {
+		holder = cisalpine0725 # Maginfredo di Lomello
+	}
+	896.1.1 = {
+		holder = cisalpine0726 # Ugo di Lomello
+	}
+	918.1.1 = {
+		holder = 1108 # Berengario II of Italy
+	}
+	962.1.1 = {
+		holder = 70630 # Oberto I of Lombardia
+		liege = d_lombardia
+	}
+	975.10.15 = {
+		holder = 70629 # Oberto II of Lombardia
+	}
+	979.12.23 = {
+		government = theocracy_government
+		holder = cisalpine0657 # Landolfo da Carcano, Bishop of Milano
+	}
+	998.3.23 = {
+		holder = cisalpine0658 # Arnolfo de Arsago, Bishop of Milano
+	}
+	1018.2.25 = {
+		holder = cisalpine0659 # Ariberto da Intimiano, Bishop of Milano
+	}
+	1042.1.1 = {
+		government = republic_government
+		holder = cisalpine0660 # Lanzone della Corte, Podest� 
+	}
+	#1045.1.1 = {
+	#	holder = # Commune of Milan, unknown rulers (1045-1065)
+	#}
+	1065.1.1 = {
+		holder = cisalpine0661 # Giordano di Bresciano, Podest� 
+	}
+	#1069.1.1 = {
+	#	holder = # Commune of Milan, unknown rulers (1069-1075)
+	#}
+	1075.1.1 = {
+		government = theocracy_government
+		holder = cisalpine0662 # Tedaldo da Castiglione, Bishop of Milano
+	}
+	1086.7.1 = {
+		holder = cisalpine0663 # Anselmo da Rho, Bishop of Milano
+	}
+	1093.12.4 = {
+		holder = cisalpine0664 # Arnolfo di Porta Argentea, Bishop of Milano
+	}
+	1097.9.24 = {
+		holder = cisalpine0665 # Anselmo da Bovisio, Bishop of Milano
+	}
+	1101.9.30 = {
+		holder = cisalpine0666 # Pietro Grossolano, Bishop of Milano
+	}
+	1112.1.1 = {
+		holder = cisalpine0667 # Giordano da Clivio, Bishop of Milano
+	}
+	1120.10.4 = {
+		holder = cisalpine0668 # Olrico da Corte, Bishop of Milano
+	}
+	1126.5.28 = {
+		holder = cisalpine0669 # Anselmo della Pusterla, Bishop of Milano
+	}
+	1135.8.2 = {
+		holder = cisalpine0670 # Robaldo, Bishop of Milano
+	}
+	1145.12.30 = {
+		holder = cisalpine0671 # Umberto Pirovano, Bishop of Milano
+	}
+	1158.1.1 = {
+		government = feudal_government
+		holder = 212501 # Friedrich I of the Holy Roman Empire
+		liege = e_hre
+	}
+
+	1167.4.7 = {
+		holder = 1061626 # Lombard League is founded
+		government = republic_government
+	}
+	1172.1.1 = {
+		holder = 213007
+	}
+	1176.1.1 = {
+		holder = 1064827 # Guido da Landriano, console di Milano and pretore di Lega Lombarda 1176-1183
+	}
+	1183.6.25 = {
+		liege = e_hre # peace of Konstanz
+	}
+	1186.1.1 = {
+		holder = 213031
+	}
+	1197.9.28 = {
+		liege = 0
+	}
+	1209.1.1 = {
+		liege = e_hre
+	}
+	1212.7.5 = {
+		holder = 70752 # della Torre
+	}
+	1212.12.5 = {
+		liege = 0
+	}
+	1220.1.1 = {
+		holder = 1064835 # Amizone Sacco podesta of Milano 1221
+	}
+	1220.12.9 = {
+		liege = e_hre # Heinrich II crowned emperor
+	}
+	1223.1.1 = {
+		holder = 70753
+	}
+	#1230.12.5 = {
+	#	liege = 0 # league renewed upon Heinrich's failed march at Rome.
+	#}
+	1247.1.1 = {
+		holder = 70762
+	}
+
+	1248.1.1 = {
+		holder = 1065322 # Guiscardo da Pietrasanta podesta of Firenze 1254
+	}
+	1253.1.1 = {
+		holder = 70991 # Manfredo Lancia
+	}
+	1257.9.1 = {
+		holder = 70765 # Martino of Lombardia
+	}
+	1259.1.1 = {
+		holder = 70744 # Oberto III of Lombardia
+	}
+	1264.1.1 = {
+		holder = 70766 # Filippo of Lombardia
+	}
+	1265.12.1 = {
+		holder = 70755 # Napoleone of Lombardia
+	}
+	1277.1.1 = {
+		holder = 70770 # Ottone of Lombardia
+	}
+	1278.6.1 = {
+		holder = 33364 # Guglielmo V of Montferrato
+		liege = e_hre
+	}
+	1281.12.1 = {
+		holder = 70770 # Ottone (2nd time)
+		liege = d_lombardia
+	}
+	1295.8.8 = {
+		holder = 463145 # Matteo I of Lombardia
+	}
+	1302.6.1 = {
+		holder = 70759 # Guido of Lombardia
+	}
+	1311.8.1 = {
+		holder = 463145 # Matteo I (2nd time)
+	}
+	1322.6.28 = {
+		holder = 463141 # Galeazzo I of Lombardia
+	}
+	1328.8.6 = {
+		holder = 463140 # Azzone
+	}
+}
+
+
+b_monza = {
+	1240.1.1 = {
+		holder = 70770 # Ottone Visconti, Archbishop of Milan
+	}
+
+}
+
+
+c_brescia = {
+	603.1.1 = {
+		liege = k_italy
+		holder = 190175 # Nandinig Arodingi
+	}
+	626.1.1 = {
+		holder = 190176 # Rothari of Italy
+	}
+	652.1.1 = {
+		holder = 190177 # Radoald of Italy
+	}
+	680.1.1 = {
+		holder = 190354 # Alachis of Italy
+	}
+	756.1.1 = {
+		holder = 190325 # Potho Gaidoaldidi
+	}
+	814.1.1 = {
+		holder = 167879 # Suppo I of Spoleto
+	}
+	822.1.1 = {
+		holder = 167880 # Mauring of Spoleto
+		liege = d_spoleto
+	}	
+	824.3.5 = {
+	#	holder = Vilerado and succesors
+		liege = k_italy
+	}
+	865.1.1 = {
+		holder = lombard0155 # Berthari di Brescia
+	}
+	887.1.1 = {
+	liege=k_italy
+	holder = 1065653 # Manfredo/Mainfredo/Maginfredo III Manfredenghi, conte di Lodi, Milano, Sacro Palazzo(Pavia/Lomello), e Marchesi di Lombardia. attested 887, 888, 889, 892,  also conte di Seprio 888-896
+	}
+	896.12.1 = {
+		holder = 1065655 # Manfredo IV aka Manfredo Mosezzo, Manfredenghi
+	}
+	914.1.1 = {
+		holder = 1065657 # Manfredo V Manfredenghi, conte di Lomello 914-963
+	}
+	962.1.1 = {
+		holder = 1065659 # Egelrico Manfredenghi, conte di Verona 955-961, conte del Sacro palazzo 962-?
+	}
+	926.1.1 = {
+		government = theocracy_government
+	#	holder = Bishops of Brescia
+	}
+	980.1.1 = {
+		government = feudal_government
+		holder = 7926 # Tedaldo di Canossa
+	}
+	1012.1.1 = {
+		holder = 7756 # Bonifacio IV of Tuscany
+	}
+	1027.1.1 = {
+		liege = d_toscana
+	}
+	1052.5.6 = {
+		holder = 7758 # Federigo of Tuscany
+	}
+	1055.7.1 = {
+		holder = 7757 # Matilda of Tuscany
+	}
+	1115.7.24 = {
+		government = republic_government
+	#	holder = Commune of Brescia, unknown rulers (1281-1298)
+		liege = e_hre
+	}
+	1195.1.1 = {
+		government = feudal_government
+		holder = 212507 # Heinrich VI of the Holy Roman Empire
+	}
+	1197.9.28 = {
+		holder = 212506 # Philipp of the Holy Roman Empire
+	}
+	1208.6.21 = {
+		holder = 212607 # Otto IV of the Holy Roman Empire
+	}
+	1212.7.5 = {
+		holder = 212513 # Friedrich II of the Holy Roman Empire
+	}
+	1239.7.30 = {
+		holder = 71171 # Enzo of Sardinia
+		liege = k_sardinia
+	}
+	1245.1.1 = {
+		liege = e_hre
+	}
+	1257.1.1 = {
+		holder = 71036 # Ezzelino of Verona
+		liege = d_verona
+	}
+	1259.1.1 = {
+		holder = 70744 # Oberto III of Lombardia
+		liege = d_lombardia
+	}
+	1266.1.1 = {
+		holder = 70755 # Napoleone of Lombardia
+	}
+	1269.1.1 = {
+		holder = 455406 # Charles I of Sicily
+		liege = k_sicily
+	}
+	1281.1.1 = {
+		government = republic_government
+	#	holder = Commune of Brescia, unknown rulers (1281-1298)
+		liege = e_hre
+	}
+	1298.1.1 = {
+		government = feudal_government
+		holder = 163168 # Berardo Maggi
+	}
+	1308.10.6 = {
+		holder = cisalpine0708 # Matteo
+	}
+	1311.1.1 = {
+		holder = 462611 # Heinrich VII of the Holy Roman Empire
+	}
+	1313.1.1 = {
+		government = republic_government
+	#	holder = Commune of Brescia, unknown rulers (1313-1319)
+	}
+	1319.1.1 = {
+		government = feudal_government
+		holder = 461700 # Robert of Naples
+		liege = k_naples
+	}
+	1330.1.1 = {
+		holder = 462740 # Ludwig IV of the Holy Roman Empire
+		liege = e_hre
+	}
+	1322.6.28 = {
+		holder = 412078 # Mastino of Verona
+		liege = d_verona
+	}
+	1337.1.1 = {
+		holder = 463140 # Azzone of Lombardia
+		liege = d_lombardia
+	}
+}
+
+
+c_como = {
+	766.1.1 = {
+		liege = k_italy
+		holder = 190320 # Paldo of Lombardia
+	}
+	860.1.1 = {
+		holder = 167975 # Alberico di Milano
+	}
+	894.1.1 = {
+		holder = cisalpine0725 # Maginfredo di Lomello
+	}
+	896.1.1 = {
+		holder = cisalpine0726 # Ugo di Lomello
+	}
+	914.1.1 = {
+		holder = 1065657 # Manfredo V Manfredenghi, conte di Lomello 914-963
+	}
+	962.1.1 = {
+		holder = 70630 # Oberto I of Lombardia
+		liege = d_lombardia
+	}
+	975.10.15 = {
+		holder = 70629 # Oberto II of Lombardia
+	}
+	996.1.1 = {
+		holder = 70631 # Adalberto II of Lombardia
+	}
+	1002.1.1 = {
+		holder = 70629 # Oberto II of Lombardia
+	}
+	1014.1.1 = {
+		holder = cisalpine0026 # Ugo of Lombardia
+	}
+	1014.6.1 = {
+		holder = 70628 # Alberto Azzo I of Lombardia
+	}
+	1029.1.1 = {
+		holder = 1118 # Alberto Azzo II of Lombardia
+	}
+	1097.4.13 = {
+		holder = 20298 # Hugh V of Maine
+	}
+	1101.11.9 = {
+		holder = 20299 # Folco I of Lombardia
+	}
+	1118.1.1 = {
+	#	holder = Commune of Como, unknow rulers (1118-1176)
+		liege = "e_hre"
+	}
+	1176.1.1 = {
+		holder = 259002 # Lotario (I) Rusconi
+	}
+	#1177.1.1 = {
+	#	holder = Commune of Como, unknown rulers (1177-1182)
+	#}
+	1182.1.1 = {
+		holder = cisalpine0720 # Vita de Vitanis
+	}
+	1183.1.1 = {
+		holder = 259004 # Giovanni Rusconi
+	}
+	#1184.1.1 = {
+	#	holder = Commune of Como, unknown rulers (1184-1194)
+	#}
+	1194.1.1 = {
+		holder = cisalpine0710 # Adamo Rusconi
+	}
+	1195.1.1 = {
+		holder = 259004 # Giovanni Rusconi (2nd time)
+	}
+	1196.1.1 = {
+		holder = cisalpine0710 # Adamo Rusconi (2nd time)
+	}
+	1197.1.1 = {
+		holder = 259005 # Loterio II Rusconi
+	}
+	1198.1.1 = {
+		holder = 259004 # Giovanni Rusconi (3rd time)
+	}
+	#1199.1.1 = {
+	#	holder = Commune of Como, unknown rulers (1199-1200)
+	#}
+	1200.1.1 = {
+		holder = 259005 # Loterio II Rusconi (2nd time)
+	}
+	1202.1.1 = {
+		holder = 259006 # Ruggero Rusconi
+	}
+	#1203.1.1 = {
+	#	holder = Commune of Como, unknown rulers (1203-1205)
+	#}
+	1205.1.1 = {
+		holder = 259006 # Ruggero Rusconi (2nd time)
+	}
+	#1206.1.1 = {
+	#	holder = Commune of Como, unknown ruler (1206-1207)
+	#}
+	1207.1.1 = {
+		holder = cisalpine0720 # Vita de Vitanis (2nd time)
+	}
+	#1208.1.1 = {
+	#	holder = Commune of Como, unknown rulers (1208-1244)
+	#}
+	1244.1.1 = {
+		holder = cisalpine0720 # Vita de Vitanis (3rd time)
+	}
+	#1245.1.1 = {
+	#	holder = Commune of Como, unknown rulers (1245-1266)
+	#}
+	1266.1.1 = {
+		holder = cisalpine0722 # Giacomo de Vitanis
+	}
+	#1267.1.1 = {
+	#	holder = Commune of Como, unknown rulers (1267-1282)
+	#}
+	1282.1.1 = {
+		holder = 259007 # Loterio Rusconi
+		liege = d_lombardia
+	}
+	1291.1.1 = {
+		holder = cisalpine0711 # Corrado
+	}
+	1305.1.1 = {
+		holder = cisalpine0712 # Pietro
+	}
+	1313.1.1 = {
+		holder = cisalpine0713 # Franchino
+	}
+	1335.1.1 = {
+		holder = 463140 # Azzone of Lombardia
+	}
+}
+
+c_trent = {
+	678.1.1 = {
+		liege = k_italy
+		holder = 190354 # Alachis of Italy
+	}
+	769.1.1 = {
+		liege = k_bavaria
+		holder = 190228 # Tassilo III of Bavaria
+	}
+	863.1.1 = {
+		liege = "d_verona"
+		holder = 163057 # Unroach of Verona
+	}
+	995.1.1 = {
+		government = theocracy_government
+		holder = 190321 # Raimondo di Caldesio, Bishop of Trent
+	}
+	1004.1.1 = {
+		holder = 167805 # Uldarico di Flavon, Bishop of Trent
+	}
+	1022.1.1 = {
+		liege = e_hre
+		holder = bavarian0001 # Ulrich, Bishop of Trent
+	}
+	1055.1.1 = {
+		holder = cisalpine0723 # Azzo, Bishop of Trent
+	}
+	1065.10.14 = {
+		holder = 20312 # Heinrich I, Bishop of Trent
+	}
+	1082.1.1 = {
+		holder = 33575 # Bernhard II, Bishop of Trent
+	}
+	1084.1.1 = {
+		holder = 33576 # Adalberon, Bishop of Trent
+	}
+	1106.1.1 = {
+		holder = 33577 # Gebhard, Bishop of Trent
+	}
+	1120.1.1 = {
+		holder = 33578 # Albrecht I, Bishop of Trent
+	}
+	1124.1.1 = {
+		holder = 33579 # Altmann, Bishop of Trent
+	}
+	1149.3.27 = {
+		holder = 33580 # Arnold II, Bishop of Trent
+	}
+	1154.1.1 = {
+		holder = 33581 # Eberhard, Bishop of Trent
+	}
+	1156.1.1 = {
+		holder = 33582 # Adelpreto II, Bishop of Trent
+	}
+	1177.8.13 = {
+		holder = 33583 # Salomone, Bishop of Trent
+	}
+	1180.1.1 = {
+		liege = "e_hre"
+	}
+	1183.12.30 = {
+		holder = 33584 # Alberto Madruzzo, Bishop of Trent
+	}
+	1188.11.20 = {
+		holder = 33585 # Corrado di Beseno, Bishop of Trent
+	}
+	1205.3.10 = {
+		holder = 33586 # Federico Vanga, Bishop of Trent
+	}
+	1218.11.6 = {
+		holder = 33587 # Albrecht von Ravenstein, Bishop of Trent
+	}
+	1223.12.27 = {
+		holder = 33588 # Gerardo Oscasali, Bishop of Trent
+	}
+	1232.1.1 = {
+		holder = 33589 # Aldrighetto di Castelcampo, Bishop of Trent
+	}
+	1247.1.1 = {
+		holder = 33590 # Egnone d'Appiano
+	}
+	1273.3.25 = {
+		holder = 33591 # Heinrich II, Bishop of Trent
+	}
+	1289.1.1 = {
+		holder = 33592 # Filippo Bonalcolsi, Bishop of Trent
+	}
+	1303.12.8 = {
+		holder = 33593 # Bartolomeo Querini, Bishop of Trent
+	}
+	1307.1.1 = {
+		holder = 487014 # Henri de Metz, Bishop of Trent
+	}
+	1336.10.9 = {
+		holder = 33594 # Nikolaus Abrein, Bishop of Trent
+	}
+}
+
+
+c_pavia = {
+	867.1.1 = { change_development_level = 10 }
+	1066.1.1 = { change_development_level = 15 }
+	
+	565.1.1 = {
+		holder = 190124 # Alboin  of Italy
+		liege = k_italy
+	}
+	572.6.28 = {
+		holder = 190168 # Clef of Italy
+	}
+	574.1.1 = {
+		holder = 190169 # Authari of Italy
+	}
+	590.9.5 = {
+		holder = 190170 # Agilolf of Italy
+	}
+	616.1.1 = {
+		holder = 190173 # Adaloald of Italy
+	}
+	626.1.1 = {
+		holder = 190174 # Arioald of Italy
+	}
+	636.1.1 = {
+		holder = 190176 # Rothari of Italy
+	}
+	652.1.1 = {
+		holder = 190177 # Rodoald of Italy
+	}
+	652.6.1 = {
+		holder = 190181 # Aripert I of Italy
+	}
+	661.1.1 = {
+		holder = 190182 # Godepert of Italy
+	}
+	662.1.1 = {
+		holder = 190185 # Pectarit of Italy
+	}
+	662.6.1 = {
+		holder = 190133 # Grimoald of Italy
+	}
+	671.1.1 = {
+		holder = 190136 # Garipald of Italy
+	}
+	671.6.1 = {
+		holder = 190185 # Pectarit (2nd time)
+	}
+	688.1.1 = {
+		holder = 190188 # Cunicpert of Italy
+	}
+	689.1.1 = {
+		holder = 190354 # Alachis of Italy
+	}
+	689.6.1 = {
+		holder = 190188 # Cunicpert (2nd time)
+	}
+	700.1.1 = {
+		holder = 190189 # Liutpert of Italy
+	}
+	701.1.1 = {
+		holder = 190183 # Raginpert of Italy
+	}
+	701.6.1 = {
+		holder = 190189 # Liutpert of Italy
+	}
+	702.1.1 = {
+		holder = 190184 # Aripert II of Italy
+	}
+	712.1.1 = {
+		holder = 190193 # Ansprand of Italy
+	}
+	712.7.1 = {
+		holder = 190196 # Liutprand of Italy
+	}
+	744.1.1 = {
+		holder = 190198 # Hildeprand of Italy
+	}
+	744.8.1 = {
+		holder = 190343 # Ratchis of Italy
+	}
+	749.1.1 = {
+		holder = 190331 # Aistulf of Italy
+	}
+	756.12.1 = {
+		holder = 190343 # Ratchis (2nd time)
+	}
+	757.1.1 = {
+		holder = 190347 # Desiderius of Italy
+	}
+	774.1.1 = {
+		holder = 6392 # Charlemagne of France
+	}
+	781.1.1 = {
+		holder = 6394 # Pepin of Italy
+	}
+	810.7.8 = {
+		holder = 6396 # Bernard of Italy
+	}
+	818.8.17 = {
+		holder = 90095 # Louis I of France
+	}
+	840.6.20 = {
+		holder = 30227 # Lothaire I of Lotharingia
+	}
+	855.9.20 = {
+		holder = 30228 # Louis II of Italy
+	}
+	887.1.1 = {
+	liege=k_italy
+	holder = 1065653 # Manfredo/Mainfredo/Maginfredo III Manfredenghi, conte di Lodi, Milano, Sacro Palazzo(Pavia/Lomello), e Marchesi di Lombardia. attested 887, 888, 889, 892,  also conte di Seprio 888-896
+	}
+	896.12.1 = {
+		holder = 1065655 # Manfredo IV aka Manfredo Mosezzo, Manfredenghi
+		liege = k_italy
+	}
+	914.1.1 = {
+		holder = 1065657 # Manfredo V Manfredenghi, conte di Lomello 914-963
+	}
+	962.1.1 = {
+		holder = 1065659 # Egelrico Manfredenghi, conte di Verona 955-961, conte del Sacro palazzo 962-?
+	}
+	#Bernardo, conte del Palazzo 985-999
+	#### Di Lomello, Conti Palatini del Sacro Palazzo
+	989.1.1 = {
+		holder = 1064635 # Cuniberto
+	}
+	1005.1.1 = {
+		holder = 1064636 # Ottone
+	}
+	1024.1.1 = {
+		liege = e_hre
+	}
+	1026.3.31 = {
+		liege = k_italy
+	}
+	1039.6.4 = {
+		liege=e_hre
+	}
+	1040.1.1 = {
+		holder = 1064640 # Tadone
+	}
+	1046.12.25 = {
+		liege=k_italy
+	}
+	1056.10.5 = {
+		liege=e_hre
+	}
+	1060.1.1 = {
+		holder = 1064641 # Cadone
+	}
+	1080.1.1 = {
+		liege=k_italy
+	}
+	1105.1.1 = {
+		holder = 1226784 # Guido
+	}
+	1115.7.24 = {
+		liege = e_hre
+	}
+	1125.5.23 = {
+		liege=k_italy
+	}
+	1137.12.4 = {
+		liege = e_hre
+	}
+	#Beccaria
+	1140.1.1 = {
+		liege=d_pavia_republic
+		holder = 1064616 # Pagano imperial vicar of Pavia
+	}
+	1146.1.1 = {
+		holder = 1064617 # Ettore, imperial vicar of Pavia 1159.
+	}
+	#Di Lomello, Sparvara branch
+	1164.2.19 = {
+		holder = 1226786 # Goffredo I
+	}
+	1205.1.1 = {
+		holder = 1226787 # Guglielmo
+	}
+	1210.1.1 = {
+		holder = 1064896 #Isacco da Dovara podesta of Pavia 1210
+	}
+	1211.1.1 = {
+		holder = 1226787 # Guglielmo
+	}
+	1220.5.11 = {
+		holder = 1226788 # #Guiffredo/Guisinous/Goffredo II
+	}
+	1226.1.1 = {
+		liege = k_lombard_league
+	}
+	1243.1.1 = {
+		holder = 1226789 # Enrico I
+	}
+	1250.1.1 = {
+		holder = 1226790 # Enrico II
+		liege = e_hre
+	}
+	#Beccaria
+	1254.1.1 = {
+		holder = 1064618 # Murro, podesta of Pavia.
+	}
+	1259.1.1 = {
+		holder = 1064619 # Giovannone/Ammazzarono Tesauro aka Zanone, Capitano di Popoli of Pavia.
+	}
+	1275.1.1 = {
+		holder = 1064621 # Manfredo, podesta of Pavia 1282, 1289, 1300 and 1315-1322
+	}
+	#Di Lomello, Langosco branch
+	1284.1.1 = {
+		holder = 1064658 # Riccardo/Rizzardo I
+	}
+	1288.1.1 = {
+		holder = 1064663 # Filippone/Filippo
+	}
+	#Beccaria
+	1289.1.1 = {
+		holder = 1064621 # Manfredo, podesta of Pavia 1282, 1289, 1300 and 1315-1322
+	}
+	#Di Lomello, Langosco branch
+	1301.1.1 = {
+		holder = 1064663 # Filippone/Filippo
+	}
+	1307.1.1 = {
+		holder = 1064664 # Riccardino/Riccardo II
+	}
+	1308.1.1 = {
+		holder = 1064663 # Filippone/Filippo
+	}
+	1314.1.1 = {
+		holder = 1064653 # Guido/Guidacio
+	}
+	#Beccaria
+	1315.10.6 = {
+		holder = 1064621 # Manfredo, podesta of Pavia 1282, 1289, 1300 and 1315-1322
+	}
+	#Di Lomello, Langosco branch
+	1322.1.1 = {
+		holder = 1064654 # Riccardino/Riccardo  III
+	}
+	#Beccaria
+	1330.1.1 = {
+		holder = 1064624 # Musso, podesta of Pavia.
+	}
+}
+
+
+c_cremona = {
+	590.9.5 = {
+		holder = 190170 # Agilolf of Italy
+		liege = k_italy
+	}
+	616.1.1 = {
+		holder = 190173 # Adaloald of Italy
+	}
+	626.1.1 = {
+		holder = 190174 # Arioald of Italy
+	}
+	636.1.1 = {
+		holder = 190176 # Rothari of Italy
+	}
+	652.1.1 = {
+		holder = 190177 # Rodoald of Italy
+	}
+	652.6.1 = {
+		holder = 190181 # Aripert I of Italy
+	}
+	661.1.1 = {
+		holder = 190182 # Godepert of Italy
+	}
+	662.1.1 = {
+		holder = 190185 # Pectarit of Italy
+	}
+	662.6.1 = {
+		holder = 190133 # Grimoald of Italy
+	}
+	671.1.1 = {
+		holder = 190136 # Garipald of Italy
+	}
+	671.6.1 = {
+		holder = 190185 # Pectarit (2nd time)
+	}
+	688.1.1 = {
+		holder = 190188 # Cunicpert of Italy
+	}
+	689.1.1 = {
+		holder = 190354 # Alachis of Italy
+	}
+	689.6.1 = {
+		holder = 190188 # Cunicpert (2nd time)
+	}
+	700.1.1 = {
+		holder = 190189 # Liutpert of Italy
+	}
+	701.1.1 = {
+		holder = 190183 # Raginpert of Italy
+	}
+	701.6.1 = {
+		holder = 190189 # Liutpert of Italy
+	}
+	702.1.1 = {
+		holder = 190184 # Aripert II of Italy
+	}
+	712.1.1 = {
+		holder = 190193 # Ansprand of Italy
+	}
+	712.7.1 = {
+		holder = 190196 # Liutprand of Italy
+	}
+	744.1.1 = {
+		holder = 190198 # Hildeprand of Italy
+	}
+	744.8.1 = {
+		holder = 190343 # Ratchis of Italy
+	}
+	749.1.1 = {
+		holder = 190331 # Aistulf of Italy
+	}
+	756.12.1 = {
+		holder = 190343 # Ratchis (2nd time)
+	}
+	757.1.1 = {
+		holder = 190347 # Desiderius of Italy
+	}
+	766.1.1 = {
+		liege = k_italy
+		holder = 190320 # Paldo
+	}
+	860.1.1 = {
+		liege = d_lombardia
+		holder = 167890
+	}
+	872.6.1 = {
+		holder = 1064836 # Gisalberto I Gisalbertini, conte di Bergamo
+		liege = k_italy
+	}
+	915.1.1 = {
+		holder = 1064837 # Lanfranco I Gisalbertini, conte di Bergamo
+	}
+	945.1.1 = {
+		holder = 1167043 # Giselbreto II Gisalbertini, conte di Bergamo e del Sacro Palazzo
+	}
+	993.1.1 = {
+		holder = 1167042 # Maginfredo, Gisalbertini, conte di Bergamo e Camisano
+	}
+	1026.1.1 = {
+		holder = 1064840 # Gisalberto III Gisalbertini, conte di Bergamo e Camisano
+	}
+	1026.3.31 = {
+		liege = k_italy
+	}
+	1039.6.4 = {
+		liege = e_hre
+	}
+	1040.1.1 = {
+		holder = 1064843 # Maginfredo II, Gisalbertini, conte di Bergamo e Camisano
+	}
+	1046.12.25 = {
+		liege = k_italy
+	}
+	1056.10.5 = {
+		liege = e_hre
+	}
+	1070.1.1 = {
+		holder = 1167022 # Gisalberto IV Gisalbertini, conte di Bergamo e Camisano
+	}
+	1080.1.1 = {
+		liege = k_italy
+	}
+	1093.1.1 = {
+		liege = d_cremona_republic
+	}
+	1106.1.1 = {
+		holder = 1064844  # Nantelmo I Gisalbertini
+	}
+	1120.1.1 = {
+		holder = 1064857 # Manfredo I(III counting Maginfredo) Gisalbertini
+	}
+	1145.1.1 = {
+		holder = 1064859 # Guglielmo III Gisalbertini, consul of Cremona 1151
+	}
+	1155.1.1 = {
+		holder = 1167044 # Gerardo Gisalbertini consul of Cremona and Crema 1151 and 1157, podesta of Cremona 1188
+	}
+	1166.1.1 = {
+		holder = 1167045 # Gilberto Gisalbertini consul of Cremona
+	}
+	1167.4.7 = {
+		holder = 1064892 #Egidio da Dovara consul of Cremona 1169 and rector of the league
+		liege = k_lombard_league
+	}
+	#14th of december 1168 a cremonese consul named "Albertonus" served the league's as cheif mediator of a dispute between Reggio commune,the city of Cavraigo, communes of Modena and Parma
+	1172.8.26 = {
+		holder =1167045 # Gilberto Gisalbertini consul of Cremona
+	}
+	1175.1.1 = {
+		holder = 1064893 #Anselmo da Dovara consul of Cremona 1175
+	}
+	1186.1.1 = {
+		holder = 1167044 # Gerardo Gisalbertini consul of Cremona and Crema 1151 and 1157, podesta of Cremona 1188
+	}
+	1190.1.1 = {
+		holder = 1064861 # Alberico Gisalbertini, podesta of Cremona 1190
+	}
+	1194.1.1 = {
+		holder = 1064860 # Lantelmo Gisalbertini consul of Cremona and Crema 1151 and 1157, podesta of Cremona 1194
+	}
+	1196.1.1 = {
+		holder = 1064896 # Issaco da Dovara consul of Cremona 1196 and 1209, podesta of Cremona 1217
+	}
+	1198.1.1 = {
+		holder = 1064861 # Alberico Gisalbertini
+	}
+	1201.1.1 = {
+		holder = 1064996  # Lanfranco II Suardi, Podesta of Cremona 1201.
+	}
+	1205.1.1 = {
+		holder = 1064862 # Alberto IV Gisalbertini, conte di Camisano
+	}
+	1208.1.1 = {
+		holder = 1064896 # Issaco da Dovara consul of Cremona 1196 and 1209, podesta of Cremona 1217
+		liege = e_hre
+	}
+	1210.1.1 = {
+		holder = 1062009 # Matteo II da Correggio, podesta of Cremona 1210
+	}
+	1213.1.1 = {
+		holder = 1062128 # Orlando Rossi podesta of cremona 1213
+	}
+	1218.1.1 = {
+		holder = 1064436 # Gherardo IV da Cornazzano, podesta of Cremona 1218
+	}
+	1220.12.9 = {
+		liege = k_lombard_league
+		holder = 1064897 # Girardo da Dovara consul of Cremona(when?)
+	}
+	1223.1.1 = {
+		#liege = k_italy
+		holder = 1061797 # Cavalcabo/Carlo Cavalcabo I, marquis of Viadana, signore of Cremona 1223-1232
+	}
+	1224.1.1 = {
+		holder = 1062140 # Orlando Rossi podesta of Cremona 1224
+	}
+	1225.1.1 = {
+		holder = 1061797 # Cavalcabo/Carlo Cavalcabo I, marquis of Viadana, signore of Cremona 1223-1232
+	}
+	1228.1.1 = {
+		holder = 1064480 # Egidio/Egidiolo da Panna, podesta cremona 1228-1229
+	}
+	1230.1.1 = {
+		holder = 1062129 # Bernardo Rossi, podesta of Cremona 1230
+	}
+	1231.1.1 = {
+		holder = 1061797 # Cavalcabo/Carlo Cavalcabo I, marquis of Viadana, signore of Cremona 1223-1232
+	}
+	1232.1.1 = {
+		holder = 1061798 # Corrado Cavalcabo, marquis di Viadana and consul of Cremona
+	}
+	1237.1.1 = {
+		holder = 1062142 # Ugolino Rossi podesta of Cremona 1237 
+	} 
+	1237.11.28 = {
+		holder = 71171 # Enzio of Sardinia
+	}
+	#1064437 # Manfredo da Cornazzano, podesta of Cremona 1244
+	1249.5.26 = {
+		liege = d_lombardia # Enzo captured by Bologna
+		holder = 70744
+	}
+	1266.1.1 = {
+		liege = d_cremona_republic
+		holder = 1061618 # Buoso da Dovara, signore of Cremona 1266-1276
+	}
+	1272.1.1 = {
+		holder = 1062029 # Matteo III da Correggio, podesta of Cremona 1272 
+	}
+	1273.1.1 = {
+		holder = 1061618 # Buoso da Dovara, signore of Cremona 1266-1276
+	}
+	1276.1.1 = {
+		holder = 1061615 # Cavalcabo/Carlo Cavalcabo II, marquis of Viadana, consul of Cremona 1278, signore of Cremona 1282-1306, 1303-1305 also signore of Parma
+	}
+	1306.1.1 = {
+		holder = 1061616 # Guglielmo Cavalcabo, signore di Cremona 1306-1310
+	}
+	1310.1.1 = {
+		holder = 1061617 # Giacomo Cavalcabo, signore di Cremona 1310-1320
+	}
+	1314.1.1 = {
+		holder = 1062032 # Giberto III da Corregio  capitano generale of Parma and Cremona 1314.
+	}
+	1315.1.1 = {
+		holder = 1061617 # Giacomo Cavalcabo, signore di Cremona 1310-1320
+	}
+	1320.1.1 = {
+		liege = d_lombardia
+		holder = 1064461 # Gian Quirico/Gianquirico di san vitale, podesta of Piacenza and Cremona
+	}
+	1330.1.1 = {
+		holder = 73429 # Marsiglio Rossi, signore di Cremona 1330-1331
+	}
+}
+
+
+c_parma = {
+	769.1.1 = {
+		liege = k_italy
+	}
+	769.1.1 = {
+		holder = 190314 #Lambert
+	}
+	846.1.1 = {
+		liege = "d_toscana"
+	}
+	807.1.1 = {
+		holder = 167879 # Suppo I of Spoleto
+		liege = d_spoleto
+	}
+	824.3.5 = {
+		holder = 167881 # Adelchis of Spoleto
+	}
+	846.1.1 = {
+	liege = d_toscana
+	}
+	860.1.1 = {
+		holder = 167891
+	}
+	#Attoni, conti di Parma
+	918.1.1 = {	
+		holder = 1167017 # Atto I
+	}
+	965.1.1 = {
+		holder = 1167016 # Atto II
+	}
+	1015.1.1 = {
+		holder = 1061901 # Gherardo
+	}
+	1042.1.1 = {
+		holder = 71285 # Ardonio
+	}
+	1062.11.2 = {
+		holder = 2009
+	}
+	1096.1.1 = {
+		holder = 71284
+	}
+	1096.6.1 = {
+		holder = 71287
+	}
+	1101.1.1 = {
+		holder = 71288
+	}
+	# da Cornazzano
+	1111.1.1 = {
+		holder = 1064429 # Gherardo II da Cornazzano
+	}
+	1115.7.24 = {
+		liege = e_hre
+	}
+	1120.1.1 = {
+		holder = 1064430 # Oddone II da Cronazzano 1120 
+	}
+	1125.5.23 = {
+		liege=k_italy
+	}
+	1132.1.1 = {
+		holder = 167539 # Tedisio II Fieschi
+	}
+	1137.12.4 = {
+		liege = e_hre
+	}
+	# republic
+	1138.1.1 = {
+		liege= d_parma_republic
+		holder = 1064434 # Gherardo III da Cornazzano, consul of Parma 1140, captiano di Parma 1162
+	}
+	1172.8.26 = {
+		holder = 1064431 # Giacopo da Cornazzano rector of parmese army 1179
+	}
+	1180.1.1 = {
+		holder = 1062128 # Orlando Rossi podesta of Parma  1180, 1182, 1198, 1199, and 1201
+	}
+	1184.1.1 = {
+		holder = 1062127 # Sigifredo Rossi consul of Parma 1184
+	}
+	1192.1.1 = {
+		holder = 1064436 # Gherardo IV da Cornazzano, podesta of Parma 1192 and 1213
+	}
+	1198.1.1 = {
+		holder = 1062128 # Orlando Rossi podesta of Parma  1180, 1182, 1198, 1199, and 1201
+	}
+	1203.1.1 = {
+		holder = 1062009 # Matteo II  da Correggio podesta of Parma 1203
+	}
+	1210.1.1 = {
+		holder = 1064454 # Anselmo san Vitale consul of Parma 1211
+	}
+	1213.1.1 = {
+		holder = 1064436 # Gherardo IV da Cornazzano, podesta of Parma 1192 and 1213
+	}
+	1216.1.1 = {
+		holder = 1064896 #Isacco da Dovara podesta of Parma 1216
+	}
+	1217.1.1 = {
+		holder = 1064436 # Gherardo IV da Cornazzano, podesta of Parma 1192 and 1213
+	}
+	1224.1.1 = {
+		holder = 1064437 # Manfredoda da Cornazzano, podesta of parma 1224
+	}
+	1227.1.1 = {
+		holder = 1062139 # Ugo il Vecchio Rossi conte di Parma 1227
+	}
+	1238.1.1 = {
+		holder = 1062028 # Gherardo V  da Correggio podesta of parma 1238
+	}
+	1243.1.1 = {
+		holder = 1065034 # Ugo II di Sanvitale capitano di Popolo and Podesta of Parma ca 1243, capitano di Parma 1247-1248
+	}
+	1247.1.1 = {
+		holder = 1062129 # Bernardo Rossi podesta of Parma 1247-1250
+	}
+	1253.1.1 = {
+		holder = 1064483 # Giberto della Gente podesta of Parma 1253-1259 and 1262-1264.
+	}
+	1259.1.1 = {
+		holder = 1064443 # Guido Terzi podesta of Parma (when?)
+	}
+	1262.1.1 = {
+		holder = 1064483 # Giberto della Gente podesta of Parma 1253-1259 and 1262-1264.
+	}
+	1266.1.1 = {
+		holder = 1064977 # Alberico Suardi, podesta of Parma 1266 and 1270.
+	}
+	1270.1.1 = {
+		holder = 1062031 # Matteo V  da Correggio Podesta of Parma 1303-1306
+	}
+	1303.1.1 = {
+		holder = 1062032 # Giberto III da Correggio, Capitano di popoli of Parma 1303-1308, Imperial vicar of Parma 1311-1312
+	}
+	1304.1.1 = {
+		holder = 1061615 # Cavalcabo/Carlo Cavalcabo II, marquis of Viadana, consul of Cremona 1278, signore of Cremona 1282-1306, 1303-1305 also signore of Parma
+	}
+	1305.1.1 = {
+		holder = 1064829 #Giacomo Landriani, podesta of Parma 1305
+	}
+	1306.1.1 = {
+		holder = 1062032 # Giberto III da Correggio, Capitano di popoli of Parma 1303-1308, Imperial vicar of Parma 1311-1312
+	}
+	1312.1.1 = {
+		holder = 1064364 # Albertino da Canossa captiano di Parma 1317
+	}
+	1329.1.1 = {
+		holder = 73429 # Marsiglio Rossi, imperial vicar of Parma 1329-1330
+	}
+	1331.1.1 = {
+		holder = 1062035 # Azzo da Correggio, signore di Parma 1331-1334
+	}
+	1334.1.1 = {
+		holder = 1062102 # Gottifredo Sessi podesta of Parma 1335
+	}
+}
+
+c_tortona = {
+	565.1.1 = {
+		holder = 190124 # Alboin  of Italy
+		liege = k_italy
+	}
+	572.6.28 = {
+		holder = 190168 # Clef of Italy
+	}
+	574.1.1 = {
+		holder = 190169 # Authari of Italy
+	}
+	590.9.5 = {
+		holder = 190170 # Agilolf of Italy
+	}
+	616.1.1 = {
+		holder = 190173 # Adaloald of Italy
+	}
+	626.1.1 = {
+		holder = 190174 # Arioald of Italy
+	}
+	636.1.1 = {
+		holder = 190176 # Rothari of Italy
+	}
+	652.1.1 = {
+		holder = 190177 # Rodoald of Italy
+	}
+	652.6.1 = {
+		holder = 190181 # Aripert I of Italy
+	}
+	661.1.1 = {
+		holder = 190182 # Godepert of Italy
+	}
+	662.1.1 = {
+		holder = 190185 # Pectarit of Italy
+	}
+	662.6.1 = {
+		holder = 190133 # Grimoald of Italy
+	}
+	671.1.1 = {
+		holder = 190136 # Garipald of Italy
+	}
+	671.6.1 = {
+		holder = 190185 # Pectarit (2nd time)
+	}
+	688.1.1 = {
+		holder = 190188 # Cunicpert of Italy
+	}
+	689.1.1 = {
+		holder = 190354 # Alachis of Italy
+	}
+	689.6.1 = {
+		holder = 190188 # Cunicpert (2nd time)
+	}
+	700.1.1 = {
+		holder = 190189 # Liutpert of Italy
+	}
+	701.1.1 = {
+		holder = 190183 # Raginpert of Italy
+	}
+	701.6.1 = {
+		holder = 190189 # Liutpert of Italy
+	}
+	702.1.1 = {
+		holder = 190184 # Aripert II of Italy
+	}
+	712.1.1 = {
+		holder = 190193 # Ansprand of Italy
+	}
+	712.7.1 = {
+		holder = 190196 # Liutprand of Italy
+	}
+	744.1.1 = {
+		holder = 190198 # Hildeprand of Italy
+	}
+	744.8.1 = {
+		holder = 190343 # Ratchis of Italy
+	}
+	749.1.1 = {
+		holder = 190331 # Aistulf of Italy
+	}
+	756.12.1 = {
+		holder = 190343 # Ratchis (2nd time)
+	}
+	757.1.1 = {
+		holder = 190347 # Desiderius of Italy
+	}
+	774.1.1 = {
+		holder = 6392 # Charlemagne of France
+	}
+	781.1.1 = {
+		holder = 6394 # Pepin of Italy
+	}
+	810.7.8 = {
+		holder = 6396 # Bernard of Italy
+	}
+	818.8.17 = {
+		holder = 90095 # Louis I of France
+	}
+	840.6.20 = {
+		holder = 30227 # Lothaire I of Lotharingia
+	}
+	860.1.1 = {
+		liege = k_italy
+		holder = 163069
+	}
+	936.1.1 = {
+		liege = d_lombardia
+		holder = 261385 # Adalberto I di Obertenghi "the Margrave"
+	}
+	951.1.1 = {
+		holder = 70630 # Oberto I di Obertenghi
+	}
+	975.1.1 = {
+		holder = 70632 # Oberto II di Obertenghi
+	}
+	996.1.1 = {
+		holder = 70631 # Adalberto II di Obertenghi
+	}
+	998.1.1 = {
+		holder = 70629 # Oberto di Obertenghi
+	}
+	#marchesi di Gavi
+	1000.1.1 = {
+		holder = 1061641
+	}
+	1024.1.1 = {
+		holder = 1061642
+	}
+	1029.1.1 = {
+		liege = e_hre
+	}
+	1059.1.1 = {
+		holder = 1061643
+	}
+	1086.1.1 = {
+		liege=k_italy
+		holder = 1061644
+	}
+	1115.7.24 = {
+		liege = e_hre
+	}
+	1125.5.23 = {
+		liege=k_italy
+	}
+	1134.1.1 = {
+		liege=e_hre
+		holder = 1061645
+	}
+	1168.1.1 = {
+		holder = 1061646
+		liege=k_italy
+	}
+	1177.1.1 = {
+		holder = 1061647
+	}
+	1201.1.1 = {
+		holder = 1061652
+	}
+	#Spino Secco branch of Malaspina
+	1202.1.1 = {
+		holder = 1061634 # Corrado Antico/Vecchio Malaspina marchese di Lunigiana
+		liege = k_lombard_league
+	}
+	1235.1.1 = {
+		liege = k_italy
+	}
+	1250.12.13 = {
+		liege = e_hre
+	}
+	#Mulazzo subbranch
+	1254.1.1 = {
+		holder = 33364 # Morello II Malaspina, 1st marchese di Mulazzo
+	}
+	1284.1.1 = {
+		holder = 10651409 # Franceschino I Malaspina, 2nd marchese di Mulazzo
+
+	}
+	1310.1.1 = {
+
+		liege = d_monferrato
+	}
+	1320.1.1 = {
+		holder = 10651410 # Morello V Malaspina, 3rd marchese di Mulazzo
+	}
+}
+
+d_genoa = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+}
+
+c_genoa = {
+	867.1.1 = { change_development_level = 8 }
+	1066.1.1 = { change_development_level = 12 }
+	
+	741.1.1 = {
+		liege = k_italy
+		holder = 190274 # Adalpert of Genoa
+	}
+	762.1.1 = {
+		holder = 190275 # Ademaro of Genoa
+	}
+	860.1.1 = {
+		holder = 168008 # Ansaldo di Genoa
+	}
+	950.1.1 = {
+		holder = 261385 # Adalberto I  of Lombardia
+		liege = d_lombardia
+	}
+	951.1.1 = {
+		holder = 70630 # Oberto I  of Lombardia
+	}
+	958.1.1 = {
+		government = theocracy_government
+		holder = cisalpine0913 # Teodolfo I, Bishop of Genoa
+	}
+	968.1.1 = {
+		holder = cisalpine0914 # Lamberto, Bishop of Genoa
+	}
+	970.1.1 = {
+		holder = cisalpine0915 # Teodolfo II, Bishop of Genoa
+	}
+	985.1.1 = {
+		holder = cisalpine0916 # Giovanni IV, Bishop of Genoa
+	}
+	993.1.1 = {
+		holder = cisalpine0917 # Landolfo I, Bishop of Genoa
+	}
+	1001.1.1 = {
+		holder = cisalpine0918 # Giovanni V, Bishop of Genoa
+	}
+	1019.1.1 = {
+		holder = cisalpine0919 # Landolfo II, Bishop of Genoa
+	}
+	1034.10.1 = {
+		holder = cisalpine0920 # Corrado, Bishop of Genoa
+	}
+	1051.6.1 = {
+		holder = cisalpine0921 # Oberto Pevere, Bishop of Genoa
+	}
+	1078.6.1 = {
+		holder = cisalpine0922 # Corrado Manganello, Bishop of Genoa
+	}
+	1087.1.1 = {
+		holder = cisalpine0923 # Ciriaco, Bishop of Genoa
+	}
+	1092.1.1 = {
+		holder = cisalpine0924 # Ogerio, Bishop of Genoa
+	}
+	1097.1.1 = {
+		holder = cisalpine0925 # Airaldo Guaracco, Bishop of Genoa
+	}
+	1099.1.1 = {
+		liege = k_genoa
+		government = republic_government
+	}
+	1134.1.1 = {
+		holder = 91413 # Ansaldo Doria
+	}
+	1147.1.1 = {
+		holder = 91413 # Ansaldo Doria (2nd time)
+	}
+	1154.1.1 = {
+		holder = 91413 # Ansaldo Doria (3rd time)
+	}
+	1156.1.1 = {
+		holder = 91414 # Enrico Doria
+	}
+	1160.1.1 = {
+		holder = 91413 # Ansaldo Doria (4th time)
+	}
+	1165.1.1 = {
+		holder = 91416 # Simone Doria (2 year mandate)
+	}
+	1172.6.1 = {
+		holder = 91416 # Simone Doria (2nd time)
+	}
+	1174.1.1 = {
+		holder = cisalpine0244 # Guglielmo Doria
+	}
+	1176.1.1 = {
+		holder = 91416 # Simone Doria (3rd time)
+	}
+	1179.1.1 = {
+		holder = cisalpine0244 # Guglielmo Doria (2nd time)
+	}
+	1180.1.1 = {
+		holder = 91416 # Simone Doria (4th time)
+	}
+	1181.1.1 = {
+		holder = cisalpine0244 # Guglielmo Doria (3rd time)
+	}
+	1182.1.1 = {
+		holder = 235033 # Andrea Doria
+	}
+	1183.1.1 = {
+		holder = cisalpine0244 # Guglielmo Doria (4th time)
+	}
+	1185.1.1 = {
+		holder = 91416 # Simone Doria (5th time)
+	}
+	1186.1.1 = {
+		holder = cisalpine0244 # Guglielmo Doria (5th time)
+	}
+	1188.1.1 = {
+		holder = 91416 # Simone Doria (6th time)
+	}
+	1194.6.1 = {
+		holder = 71073 # Ottone del Carretto
+	}
+	1203.1.1 = {
+		holder = 91417 # Niccolò Doria (2 year mandate)
+	}
+	1207.1.1 = {
+		holder = 91417 # Niccolò Doria (2nd time)
+	}
+	1208.4.1 = {
+		holder = cisalpine0245 # Montanaro Doria
+	}
+	1290.6.1 = {
+		holder = cisalpine0246 # Daniele Doria
+	}
+	1212.4.1 = {
+		holder = 91417 # Niccolò Doria (3rd time)
+	}
+	1213.6.1 = {
+		holder = cisalpine0245 # Montanaro Doria (2nd time)
+	}
+	1215.6.1 = {
+		holder = 71150 # Manuele Doria
+	}
+	1216.4.1 = {
+		holder = cisalpine0247 # Percivalle Doria
+	}
+	1231.1.1 = {
+		holder = cisalpine0784 # Ugolino Rossi
+	}
+	1243.1.1 = {
+		holder = cisalpine0706 # Emanuele Maggi
+	}
+	1250.1.1 = {
+		holder = cisalpine0734 # Gherardo da Correggio of Parma
+	}
+	1256.1.1 = {
+		holder = 70766 # Filippo of Lombardia
+	}
+	1265.10.2 = {
+		holder = 91432 # Oberto Doria
+	}
+	1271.1.1 = {
+		holder = 91432 # Oberto Doria (2nd time)
+	}
+	1273.1.1 = {
+		holder = 91432 # Oberto Doria (3rd time)
+	}
+	1275.1.1 = {
+		holder = 91432 # Oberto Doria (4th time)
+	}
+	1277.1.1 = {
+		holder = 91432 # Oberto Doria (5th time)
+	}
+	1279.1.1 = {
+		holder = 91432 # Oberto Doria (6th time)
+	}
+	1281.1.1 = {
+		holder = 91432 # Oberto Doria (7th time)
+	}
+	1283.1.1 = {
+		holder = 91432 # Oberto Doria (8th time)
+	}
+	1285.1.1 = {
+		holder = 91432 # Oberto Doria (9th time)
+	}
+	1287.1.1 = {
+		holder = 71158 # Corrado Doria
+	}
+	1289.1.1 = {
+		holder = 71158 # Corrado Doria (2nd time)
+	}
+	1291.1.1 = {
+		holder = 71158 # Corrado Doria (3rd time)
+	}
+	1299.1.1 = {
+		holder = 91434 # Lamba Doria
+	}
+	1307.1.1 = {
+		holder = 71155 # Bernabò Doria
+	}
+	1309.1.1 = {
+		holder = 71155 # Bernabò Doria (2nd time)
+	}
+	1318.7.27 = {
+		government = feudal_government
+		holder = 461700 # Robert of Naples
+		liege = k_naples
+	}
+	1335.1.1 = {
+		government = republic_government
+		holder = cisalpine0259 # Raffaello Doria
+	}
+	1337.1.1 = {
+		holder = cisalpine0259 # Raffaello Doria (2nd time)
+	}
+}
+
+
+b_monaco = {
+	1066.1.1 = {
+		holder = 167282 # House Embriaco
+	}
+	1297.1.8 = {
+		holder = 73725
+	}
+	1301.4.10 = {
+		holder = 73715
+	}
+	1314.1.1 = {
+		holder = 73716
+	}
+}
+
+
+b_savona = {
+	1066.1.1 = {
+		holder = 73700 # House Grimaldi
+	}
+
+}
+
+
+c_luni = {
+	741.1.1 = {
+		liege = k_italy
+		holder = 190274 # Adalpert of Genoa
+	}
+	762.1.1 = {
+		holder = 190275 # Ademaro of Genoa
+	}
+	846.1.1 = {
+		holder = 163070 # Adalberto I of Tuscany
+		liege = d_toscana 
+	}
+	884.1.1 = {
+		holder = 167902 # Adalberto II of Tuscany
+	}
+	915.9.10 = {
+		holder = 167905 # Guido of Tuscany
+	}
+	930.1.1 = {
+		holder = 167906 # Lamberto of Tuscany
+	}
+	931.1.1 = {
+		holder = 261385 # Adalberto I of Lombardia
+	}
+	940.1.1 = {
+		liege = d_lombardia
+	}
+	951.1.1 = {
+		holder = 70630 # Oberto I of Lombardia
+	}
+	975.10.15 = {
+		holder = 70629 # Oberto II of Lombardia
+	}
+	1014.1.1 = {
+		holder = 70628 # Alberto Azzo I of Lombardia
+	}
+	1029.1.1 = {
+		holder = 1118 # Alberto Azzo II of Lombardia
+	}
+	1097.4.13 = {
+		holder = 20299 # Folco I of Lombardia
+	}
+	1128.12.15 = {
+		holder = 223597 # Obizzo I of Lombardia
+	}
+	1193.12.25 = {
+		government = theocracy_government
+		holder = cisalpine0665 # Gualterio, Bishop of Luni
+		liege = k_genoa
+	}
+	1213.1.1 = {
+		holder = italian0010 # Marzucco, Bishop of Luni
+	}
+	1220.1.1 = {
+		holder = cisalpine0680 # Noradino, Bishop of Luni
+	}
+	1223.1.1 = {
+		holder = cisalpine0681 # Buttafava di Fosdinovo, Bishop of Luni
+	}
+	1226.1.1 = {
+		holder = cisalpine0682 # Guglielmo di Vezzano, Bishop of Luni
+	}
+	1272.1.1 = {
+		holder = italian0011 # Enrico da Fucecchio, Bishop of Luni
+	}
+	1297.1.1 = {
+		holder = cisalpine0683 # Antonio Nuvolone da Camilla, Bishop of Luni
+	}
+	1307.1.1 = {
+		holder = cisalpine0096 # Gherardino Malaspina, Bishop of Luni
+	}
+	1318.1.1 = {
+		holder = cisalpine0673 # Bernabò Malaspina di Mulazzo, Bishop of Luni
+	}
+}
+
+b_luni = {
+	1122.1.1 = {
+		government = feudal_government
+		holder = cisalpine0035 # Alberto II Malaspina
+	}
+	1140.1.1 = {
+		holder = cisalpine0037 # Obizzo I 'the Great'
+	}
+	1186.1.1 = {
+		holder = cisalpine0055 # Obizzo II
+	}
+	1190.1.1 = {
+		holder = cisalpine0057 # Corrado I 'the Old'
+	}
+	1254.7.1 = {
+		holder = cisalpine0059 # Federico
+	}
+	1277.4.16 = {
+		holder = cisalpine0063 # Tommaso
+	}
+	1291.1.1 = {
+		holder = cisalpine0064 # Corrado II
+	}
+	1327.1.1 = {
+		holder = cisalpine0066 # Franceschino
+	}
+	1335.1.1 = {
+		holder = cisalpine0068 # Obizzino
+	}
+}
+
+
+c_modena = {
+	761.1.1 = {
+		liege = k_italy
+	}
+	761.1.1 = {
+		holder = 190322 #Lambert
+	}
+	761.1.1 = {
+		liege = k_italy
+		holder = 190322 # Lambert
+	}
+	855.9.20 = {
+		holder = 30228 # Louis II
+	}
+	#House of Canossa conti di Canossa
+	924.1.1 = {
+		holder = 1061904 # Sigifredo di Lucca
+	}
+	943.1.1 = {
+		holder = 1061905 # Adalberto Atto di Canossa
+	}
+	988.2.13 = {
+		holder = 7926 # Teodaldo di Canossa
+	}
+	1012.1.1 = {
+		holder = 7756 # Bonifazio di Canossa
+	}
+	1024.1.1 = {
+		liege=e_hre
+	}
+	1027.1.1 = {
+		liege=d_toscana
+	}
+	1052.5.6 = {
+		holder = 7758 # Federigo di Canossa
+	}
+	1055.7.1 = {
+		holder = 7757 # Mathilda di Canossa
+	}
+	1115.7.24 = {
+		holder = 1064352 # Rolando da Canossa
+	}
+	1115.7.24 = {
+		liege = e_hre
+	}
+	1125.5.23 = {
+		liege=k_italy
+	}
+	1137.12.4 = {
+		liege = e_hre
+	}
+	#Republic
+	1149.1.1 = {
+		liege=d_modena_republic
+		holder = 1062111 # Guglielmo I di Rangoni Podesta of Modena 1149
+	}
+	1156.1.1 = {
+		holder = 1062112 # Gherardo di Rangoni Imperial vicar and podesta of Modena 1156-1177
+	}
+	1177.1.1 = {
+		holder = 1064353 # Guido da Canossa
+	}
+	1186.1.1 = {
+		holder = 1064381 # Gioavnni da Canossa
+	}
+	1202.1.1 = {
+		holder = 1062113 # Guglielmo II di Rangoni Podesta of Modena 1202
+	}
+	1207.1.1 = {
+		holder = 1062128 # Orlando Rossi Podesta of Modena 1207
+	}
+	1208.1.1 = {
+		holder =1062113 # Guglielmo II di Rangoni Podesta of Modena 1208
+	}
+	1209.1.1 = {
+		holder =1062139 # Ugo il Vechio di Rossi podesta of Modena 1209
+	}
+	1211.1.1 = {
+		holder =1062006 # Frogerio I da Corregio Podesta of Modena 1211
+	}
+	1213.1.1 = {
+		holder =1062129 # Bernardo Rossi Podesta of Modena 1213
+	}
+	1215.1.1 = {
+		holder =1062009 # Matteo II da Corregio, Podesta of Modena 1215 
+	}
+	1216.1.1 = {
+		holder =1062010 # Frogerio II da Corregio Podesta of Modena 1216 
+	}
+	1220.1.1 = {
+		liege = d_milano_republic
+		holder = 1064480 # Egidiolo della Gente podesta of Modena 1220
+	}
+	1233.1.1 = {
+		liege = d_modena_republic
+		holder =1062140 # Orlando Rossi podesta di Modena 1233
+	}
+	1236.1.1 = {
+		holder =1062028 # Gherardo V da Corregio podesta of Modena 1236
+	}
+	1240.1.1 = {
+		holder =1062116 # Rolandino di Rangoni Podesta of Modena 1240 
+	}
+	1247.1.1 = {
+		holder =1062092 # Matteo da Sesso Podesta of Modena 1247
+	}
+	1250.12.13 = {
+		liege = e_hre #HIP had all of north Italy independent after 1250 up until 1337 which is odd as all maps and information I find says it was still fully under the empire. I think it's more likely they forgot to properly set the liege once they got rid of the league titles
+	}
+	1250.12.13 = {
+		holder =1062117 # Lanfranco di Rangoni podesta of Modena 1254 
+	}
+	1255.1.1 = {
+		holder =1065034  # Ugo II di Sanvitale consul of Modena 1255
+	}
+	1267.1.1 = {
+		holder =1062120 # Jacopino II di Rangoni podesta of Modena 1269
+	}
+	1274.1.1 = {
+		holder =1062029 # Matteo III da Corregio podesta of Modena 1274
+	}
+	1279.1.1 = {
+		holder =1064387 # Guglilmo Scarabello da Canossa
+	}
+	1281.1.1 = {
+		holder =1062144 # Guglielmo Rossi Podesta of Modena 1281
+	}
+	1284.1.1 = {
+		holder =1062030 # Guido II da Corregio podesta of Modena 1284
+	}
+	1286.1.1 = {
+		holder =1062132 # Ugolino Rosso podesta of Modena 1286
+	}
+	1288.1.1 = {
+		liege = d_ferrara
+		holder =1062117 # Lanfranco di Rangoni podesta of Modena 1288
+	}
+	1289.1.1 = {
+		holder =1064387 # Guglilmo Scarabello da Canossa
+	}
+	1295.1.1 = {
+		holder =1064388 # Rolandino da Canossa
+	}
+	1296.1.1 = {
+		holder = 70677 # Raniero da Canossa
+	}
+	1310.1.1 = {
+		holder =1061976 # Guido Savino di Fogliano Podesta of Modena 1310
+	}
+	#Lordship of Modena
+	1311.1.6 = {
+		liege=d_mantua_republic
+		holder =1062166 # Rinaldo detto Passerino da Bonalcosi signore di Modena 1312-1326
+	}
+	1326.8.23 = {
+		liege = d_ferrara
+		holder = 70700 # Rinaldo di Este
+	}
+	1335.12.31 = {
+		holder = 70709 # Niccolò di Este
+	}
+
+}
+
+b_reggio_emilia = {
+	1289.1.1 = {
+		holder = 70669 # Obizzo II of Romagna
+	}
+	1293.2.20 = {
+		holder = 70680 # Francesco d'Este
+	}
+	1306.1.1 = {
+		holder = 0
+	}
+}
+
+d_emilia = {
+	712.6.1 = {
+		holder = 190257 # Dux Corvulus, fictional to keep historical Italy lands
+		liege = k_italy
+	}
+}
+
+c_mantua = {
+	756.1.1 = {
+		liege = k_italy
+	}
+	756.1.1 = {
+		holder = 190312 #Varbert
+	}
+	766.1.1 = {
+		liege = k_italy
+		holder = 190320 # Paldo
+	}
+	855.9.20 = {
+		liege = k_italy
+	}
+	859.1.1 = {
+		holder = 168334
+	}
+	922.1.1 = {
+		holder = 1144 # Rudolf II of Burgundy
+	}
+	926.1.1 = {
+		holder = 7923 # Hugues Bosonid
+	}
+	948.4.10 = {
+		holder = 167000 # Lothaire Bosonid
+	}
+	950.11.22 = {
+		holder = 1108 # Berengario of Ivrea
+	}
+	979.1.1 = {
+		liege = d_toscana
+		holder = 1061592
+	}
+	1001.1.1 = {
+		holder = 1061593
+	}
+	1033.1.1 = {
+		holder = 1061594
+	}
+	1070.1.1 = {
+		holder = 1061595
+	}
+	1085.7.7 = {
+		holder = 1061596
+	}
+	1105.1.1 = {
+		holder = 1061597
+	}
+	1115.7.24 = {
+		liege = e_hre
+	}
+	1116.1.1 = {
+		holder = 1061598
+	}
+	1119.1.1 = {
+		holder = 1061600
+	}
+	1121.1.1 = {
+		holder = 1061599
+	}
+	1125.5.23 = {
+		liege=k_italy
+	}
+	1137.12.4 = {
+		liege = e_hre
+	}
+	1154.12.1 = {
+		liege= k_italy
+	}
+	1159.1.1 = {
+		holder = 1061601
+	}
+	1167.4.7 = {
+	liege=d_mantua_republic
+	holder = 1062150 # Otolino Bonalcosi
+	}
+	1199.1.1 = {
+		holder = 1062151 # Gandolfo Bonlacosi consul of Mantova 1200
+	}
+	1215.1.1 = {
+		holder = 1062152 # Martino Bonlacosi imperial rector of Mantova 1233
+	}
+	1255.1.1 = {
+		holder = 1062153 # Pinamonte Bonlacosi capitano del popolo of Mantova 1276-1291
+	}
+	1293.1.1 = {
+		holder = 1062154 #Bardellone Bonlacosi Capitano del popolo of Mantova 1291-1299
+	}
+	1300.1.1 = {
+		holder = 1062157 # Guido detto Botesella Bonlacosi Capitano del popolo of Mantova 2nd of july 1299-1309
+	}
+	1309.1.24 = {
+		holder = 1062166 # Rinaldo detto Passerino Bonalcosi, Capitano del popolo of Mantova 1309-1311. signore di Mantova. Imperial vicar of Mantova 1311-,  signore di Modena 1312-1326
+	}
+	#To gonzaga
+	1328.1.1 = {
+		holder = 413024 
+	}
+}
+
+
+d_pisa = {
+	#Associated patrician titles:
+	#b_alliata
+	#b_caetani
+	#b_dappiono
+	#b_della_gherardesca
+	#b_visconti
+	1060.1.1 = {
+		holder = 180023 #Tedice III della Gheradesca
+		liege = "k_pisa"
+	}
+	1078.1.1 = {
+		holder = 180203 #Gerardo Visconti
+	}
+	1084.1.1 = {
+		holder = 167486 #Ugo Caetani
+	}
+	1100.1.1 = {
+		holder = 167508 #Antonio Alliata
+	}
+	1115.1.1 = {
+		holder = 167407 #Leonardo I d'Appiano
+	}
+	1140.1.1 = {
+		holder = 180025 #Tedice V della Gheradesca
+	}
+	1157.1.1 = {
+		holder = 71168 #Alberto Visconti
+	}
+	1174.1.1 = {
+		holder = 167443 #Gregorio Caetani
+	}
+	1190.1.1 = {
+		holder = 167512 #Dazio Alliata
+	}
+	1215.1.1 = {
+		holder = 167410 #Jacopo II d'Appiano
+	}
+	1220.1.1 = {
+		holder = 180026 #Tedice VI della Gherardesca
+	}
+	1222.1.1 = {
+		holder = 71166 #Ubaldo Visconti
+	}
+	1230.1.1 = {
+		holder = 167453 #Mattia Caetani
+	}
+	1260.1.1 = {
+		holder = 167514 #Fillipo Alliata
+	}
+	1270.1.1 = {
+		holder = 167401 #Jacopo III d'Appiano
+	}
+	1285.1.1 = {
+	#	holder = 73454
+		holder = 0
+		liege = 0 # After the Battle of Meloria
+	}
+	#1288.1.1 = {
+	#	holder = 73463
+	#}
+	#1288.7.1 = {
+	#	holder = 73464
+	#}
+	#1289.1.1 = {
+	#	holder = 73599
+	#}
+	#1294.1.1 = {
+	#	holder = 73465
+	#}
+	#1312.1.1 = {
+	#	holder = 462611
+	#}
+	#1313.1.1 = {
+	#	holder = 73425
+	#	liege = 0
+	#}
+	#1316.1.1 = {
+	#	holder = 73455
+	#}
+	#1320.1.1 = {
+	#	holder = 73452
+	#}
+	#1325.1.1 = {
+	#	holder = 462740
+	#	liege = e_hre
+	#}
+	#1328.4.1 = {
+	#	holder = 73426
+	#	liege = 0
+	#}
+	#1328.9.1 = {
+	#	holder = 462740
+	#	liege = e_hre
+	#}
+	#1329.1.1 = {
+	#	holder = 463450
+	#	liege = 0
+	#}
+}
+
+
+c_pisa = {
+	867.1.1 = { change_development_level = 8 }
+	1066.1.1 = { change_development_level = 11 }
+	
+	713.1.1 = {
+		liege = k_italy
+	}
+	713.1.1 = {
+		holder = 190278 #Walperto
+	}
+	754.1.1 = {
+		holder = 190279 #Alperto
+	}
+	773.1.1 = {
+		holder = 190280 #Tachiperto
+	}
+	846.1.1 = {
+		liege = "d_toscana"
+	}
+	846.1.1 = {
+		holder = 168364
+	}
+	1060.1.1 = {
+		holder = 180023 #Tedice III della Gheradesca
+		liege = d_pisa
+	}
+	1078.1.1 = {
+		holder = 180203 #Gerardo Visconti
+	}
+	1084.1.1 = {
+		holder = 167486 #Ugo Caetani
+	}
+	1100.1.1 = {
+		holder = 167508 #Antonio Alliata
+	}
+	1115.1.1 = {
+		holder = 167407 #Leonardo I d'Appiano
+	}
+	1140.1.1 = {
+		holder = 180025 #Tedice V della Gheradesca
+	}
+	1157.1.1 = {
+		holder = 71168 #Alberto Visconti
+	}
+	1174.1.1 = {
+		holder = 167443 #Gregorio Caetani
+	}
+	1190.1.1 = {
+		holder = 167512 #Dazio Alliata
+	}
+	1215.1.1 = {
+		holder = 167410 #Jacopo II d'Appiano
+	}
+	1220.1.1 = {
+		holder = 180026 #Tedice VI della Gherardesca
+	}
+	1222.1.1 = {
+		holder = 71166 #Ubaldo Visconti
+	}
+	1230.1.1 = {
+		holder = 167453 #Mattia Caetani
+	}
+	1260.1.1 = {
+		holder = 167514 #Fillipo Alliata
+	}
+	1270.1.1 = {
+		holder = 167401 #Jacopo III d'Appiano
+	}
+	1285.1.1 = {
+		holder = 73454
+	}
+	1288.1.1 = {
+		holder = 73463
+	}
+	1288.7.1 = {
+		holder = 73464
+	}
+	1289.1.1 = {
+		holder = 73599
+	}
+	1294.1.1 = {
+		holder = 73465
+	}
+	1312.1.1 = {
+		holder = 462611
+	}
+	1313.1.1 = {
+		holder = 73425
+	}
+	1316.1.1 = {
+		holder = 180083
+	}
+	1320.1.1 = {
+		holder = 180090
+	}
+	1325.1.1 = {
+		holder = 462740
+	}
+	1328.4.1 = {
+		holder = 73426
+	}
+	1328.9.1 = {
+		holder = 462740
+	}
+	1329.1.1 = {
+		holder = 180085
+	}
+}
+
+
+b_piombino = {
+	768.1.1 = {
+		holder = 190329 #Faroald
+	}
+	#846.1.1 = {
+	#	holder = 163070
+	#}
+	846.1.1 = {
+		holder = 168364
+	}
+	1060.1.1 = {
+		holder = 20323
+	}
+	1085.1.1 = {
+		holder = 73442
+	}
+	1100.1.1 = {
+		holder = 73443
+	}
+	1122.1.1 = {
+		holder = 73444
+	}
+	1149.1.1 = {
+		holder = 73445
+	}
+	1169.1.1 = {
+		holder = 213018
+	}
+	1188.1.1 = {
+		holder = 73446
+	}
+	1207.1.1 = {
+		holder = 73447
+	}
+	1221.1.1 = {
+		holder = 73448
+	}
+	1234.1.1 = {
+		holder = 73449
+	}
+	1258.1.1 = {
+		holder = 73450
+	}
+	1285.1.1 = {
+		holder = 73454
+	}
+	1288.1.1 = {
+		holder = 73463
+	}
+	1288.7.1 = {
+		holder = 73464
+	}
+	1289.1.1 = {
+		holder = 73599
+	}
+	1294.1.1 = {
+		holder = 73465
+	}
+	1312.1.1 = {
+		holder = 462611
+	}
+	1313.1.1 = {
+		holder = 73425
+	}
+	1316.1.1 = {
+		holder = 180083
+	}
+	1320.1.1 = {
+		holder = 180090
+	}
+	1325.1.1 = {
+		holder = 462740
+	}
+	1328.4.1 = {
+		holder = 73426
+	}
+	1328.9.1 = {
+		holder = 462740
+	}
+	1329.1.1 = {
+		holder = 180085
+	}
+}
+
+
+d_toscana = {
+	867.1.1 = { change_development_level = 8 }
+	1066.1.1 = { change_development_level = 11 }
+	
+	713.1.1 = {
+		liege = k_italy
+	}
+	713.1.1 = {
+		holder = 190278
+	}
+	754.1.1 = {
+		holder = 190279
+	}
+	773.1.1 = {
+		holder = 190280
+	}
+	797.1.1 = {
+		holder = frankish0003 # Wicheram Wicheramingi
+	}
+	812.1.1 = {
+		holder = 167896 # Bonifacio I Bonifazi
+	}
+	823.10.5 = {
+		holder = 167897 # Bonifacio II
+	}
+	834.1.1 = {
+		holder = lombard0147 # Maginfrit Maginfritidi
+	}
+	838.1.1 = {
+		holder = lombard0148 # Agano
+	}
+	846.1.1 = {
+		holder = 163070 # Adalberto I
+	}
+	884.1.1 = {
+		holder = 167902 # Adalberto II
+	}
+	915.9.10 = {
+		holder = 167905 # Guido
+	}
+	930.1.1 = {
+		holder = 167906 # Lamberto
+	}
+	931.1.1 = {
+		liege = k_east_francia
+		holder = 7980
+	}
+	936.1.1 = {
+		holder = 7924
+	}
+	967.9.15 = {
+		holder = 7925
+	}
+	1001.12.21 = {
+		holder = 0
+	}
+	1004.1.1 = {
+		holder = 167987
+	}	
+	1011.1.1 = {
+		holder = 0
+	}
+	1014.1.1 = {
+		holder = 180251
+	}
+	1024.7.13 = {
+		liege = e_hre
+	}
+	1027.1.1 = {
+		holder = 7756
+	}
+	1052.5.6 = {
+		holder = 7758
+	}
+	1055.7.1 = {
+		holder = 7757
+	}
+	1115.7.24 = {
+		holder = 7901
+		succession_laws = { feudal_elective_succession_law }
+	}
+	1120.1.1 = {
+		holder = 33466
+	}
+	1127.1.1 = {
+		holder = 30219
+	}
+	1135.1.1 = {
+		holder = 212996
+	}
+	1137.1.1 = {
+		holder = 212602
+	}
+	1139.10.20 = {
+		holder = 73405
+	}
+	1152.1.1 = {
+		holder = 7595
+	}
+	1160.1.1 = {
+		holder = 7596
+	}
+	1167.9.12 = {
+		holder = 7595
+	}
+	1173.1.1 = {
+		holder = 212501
+	}
+	1190.6.10 = {
+		holder = 212507
+	}
+	1195.1.1 = {
+		holder = 212506
+	}
+	1197.9.28 = {
+		holder = 0
+	}
+}
+
+
+c_firenze = {
+	713.1.1 = {
+		holder = 190278
+	}
+	754.1.1 = {
+		holder = 190279
+	}
+	773.1.1 = {
+		holder = 190280
+	}
+	797.1.1 = {
+		holder = frankish0003 # Wicheram Wicheramingi
+	}
+	812.1.1 = {
+		holder = 167896 # Bonifacio I Bonifazi
+	}
+	823.10.5 = {
+		holder = 167897 # Bonifacio II
+	}
+	834.1.1 = {
+		holder = lombard0147 # Maginfrit Maginfritidi
+	}
+	838.1.1 = {
+		holder = lombard0148 # Agano
+	}
+	846.1.1 = {
+		holder = 163070 # Adalberto I
+	}
+	846.1.1 = {
+		liege = "d_toscana"
+	}
+	886.1.1 = {
+		holder = 167902
+	}
+	915.9.10 = {
+		holder = 167905
+	}
+	930.1.1 = {
+		holder = 167906
+	}
+	
+	931.1.1 = {
+		holder = 7980
+	}
+	936.1.1 = {
+		holder = 7924
+	}
+	967.9.15 = {
+		holder = 7925
+	}
+	1014.1.1 = {
+		holder = 180251
+	}
+	1027.1.1 = {
+		holder = 7756
+	}
+	1052.5.6 = {
+		holder = 7758
+	}
+	1055.7.1 = {
+		holder = 7757
+	}
+	1115.7.24 = {
+		holder = 213013
+	}
+	1120.1.1 = {
+		holder = 33466
+	}
+	1127.1.1 = {
+		holder = 30219
+	}
+	1135.1.1 = {
+		holder = 212996
+	}
+	1137.1.1 = {
+		holder = 212602
+	}
+	1139.10.20 = {
+		holder = 73405
+	}
+	1152.1.1 = {
+		holder = 7595
+	}
+	1160.1.1 = {
+		holder = 7596
+	}
+	#Florentine republic
+	1167.9.12 = { #Death of Welf VII
+		succession_laws = { feudal_elective_succession_law }
+		holder = 1065421 # Truffetto dei Fifanti, consul of Firenze 1172
+	}
+	1170.1.1 = {
+		holder = 1065434 # Ormanno Caponsacchi, consul of firenze 1172
+	}
+	1172.8.26 = {
+		liege= k_italy
+	}	
+	1173.1.1 = {
+		holder = 1065397 # Amideus Amidei, consul of Firenze 1174
+	}
+	1174.1.1 = {
+		holder = 1065422 # Oderico dei Fifanti, consul of Firenze 1174
+	}
+	1175.1.1 = {
+		holder = 1065087 # Guido Borgognone di Capria(Alberti), consul of Firenze 1174
+	}
+	1176.1.1 = {
+		holder = 1065435 # Berlengario Caponsacchi, consul of Firenze 1176
+	}
+	1177.1.1 = {
+		holder = 1065249 # Schiatta Uberti, leader of the ghibelines of Firenze 1177
+	}
+	1180.1.1 = {
+		holder = 1065250 # Uberto Uberti, consul of Firenze in 1180 and 1194
+	}
+	1181.1.1 = {
+		holder = 1065399 # Bongianni Amidei, son of Amideus  consul of Firenze 1182
+	}
+	1183.1.1 = {
+		holder = 1065411 # Donato Donati, consul of Firenze 1174 and 1183
+	}
+	1184.1.1 = {
+		holder = 1065251 # Giovanni Uberti, consul of Firenze 1184
+	}
+	1186.1.1 = {
+		holder = 1065423 # Ugolino dei Fifanti, consul of Firenze 1186
+	}
+	1187.1.1 = {
+		holder = 1065431 # Caponsacco Caponsacchi, consul of Firenze 1187
+	}
+	1189.1.1 = {
+		holder = 1065252 # Tignosino Uberti, consul of Firenze 1189
+	}
+	1191.1.1 = {
+		holder = 1065253 # Schiatta II Uberti, consul of Frienze 1191 and 1197
+	}
+	1192.1.1 = {
+		holder = 1065424 # Chianni dei Fifanti, consul of Firenze 1192
+	}
+	1193.1.1 = {
+		holder = 1065436 # Gherardo Caponsacchi, podesta of Firenze 1193, consul of Firenze 1196, Camerlingo of Firenze 1224
+	}
+	1194.1.1 = {
+		holder = 1065443 # Catalano della Tosa, consul of Firenze 1194
+	}
+	1195.1.1 = {
+		holder = 1065250 # Uberto Uberti, consul of Firenze in 1180 and 1194
+	}
+	1196.1.1 = {
+		holder = 1065086 # Arrigo di Capraia(Alberti), podesta of Firenze 1196, consul of Firenze 1199
+	}
+	1197.1.1 = {
+		holder = 1065280 # Uguccione Gherardini, consul of Firenze 1197 and 1198
+	}
+	1197.11.11 = {
+		liege=k_tuscan_league # League of San Genesio
+	}
+	1199.1.1 = {
+		holder = 1065086 # Arrigo di Capraia(Alberti), podesta of Firenze 1196, consul of Firenze 1199
+	}
+	1200.1.1 = {
+		holder = 1065348 # Paganello di Montemagno(Fraolmi), podesta of firenze 1200-1201
+	}
+	1202.1.1 = {
+		holder = 1065254 # Ranieri Uberti, consul of Firenze 1202
+	}
+	1203.1.1 = {
+		holder = 1065412 # Vinciguerra Donati, consul of Firenze 1204
+	}
+	1204.1.1 = {
+		holder = 1065255 # Guido Uberti, consul of Frienze 1204
+	}
+	1205.1.1 = {
+		holder = 1065089 # Rodolfo/Ridolfo di Capraia(Alberti), podesta of Firenze 1205, 1212 and 1249
+	}
+	1213.1.1 = {
+		holder = 1062428 # Uguccio di Pietroleoni podesta of Firenze 1213
+	}
+	1218.1.1 = {
+		holder = 1064819 # Otto da Mandello, podesta of Firenze 1218
+	}
+	1219.1.1 = {
+		holder = 1064818 # Alberto da Mandello, podesta of Firenze 1219
+	}
+	1222.1.1 = {
+		holder = 1064819 # Otto da Mandello, podesta of Firenze 1230	
+	}
+	1236.1.1 = {
+		holder = 1062129 # Bernardo Rossi podesta of Firenze 1236
+	}
+	1237.1.1 = {
+		holder = 1064821 # Rubaconte da Mandello, podesta of Firenze 1237
+	}
+	1239.1.1 = {
+		holder = 1062093 # Guido da Sesso podesta of Firenze 1239
+	}
+	1241.1.1 = {
+		holder = 1064657 # Goffredo di Langosco(Lomello), imperial vicar of firenze 1241 and 1242
+	}
+	1243.1.1 = {
+		holder = 1062142 # Ugolino Rossi, podesta of Firenze 1243
+	}
+	1244.1.1 = {
+		holder = 1062129 # Bernardino Rossi, podesta of Firenze 1244
+	}
+	1245.1.1 = {
+		holder = 1065257 # Manente/Farinata Uberti, leader of the ghibelines of Firenze 1239-1250
+	}
+	1245.1.1 = {
+		liege=k_tuscany #under imperial vicar of Tuscany
+	}
+	1248.1.1 = {
+		liege=k_tuscan_league # Friedrich von Antiochia expelled from Firenze
+	}
+	1248.1.1 = {
+		holder = 1065322 # Guiscardo da Pietrasanta podesta of Firenze 1254
+	}
+	1250.12.13 = {
+		liege = e_hre #HIP had all of north Italy independent after 1250 up until 1337 which is odd as all maps and information I find says it was still fully under the empire. I think it's more likely they forgot to properly set the liege once they got rid of the league titles
+	}
+	1255.1.1 = {
+		holder = 70754 # Alamanno della Torre, podesta of Firenze 1255-56
+	}
+	1256.6.1 = {
+		holder = 1065243 # Tegghiao Boundelmonti, consiglieri of Firenze 1256
+	}
+	1257.1.1 = {
+		holder = 1062029 # Matteo III da Correggio, podesta of Firenze 1257
+	}
+	# Danese Crivelli, podesta of Firenze 1259
+	1260.1.1 = {
+		holder = 1062120 # Jacopino II Rangoni consul of Firenze 1260
+	}
+	1261.1.1 = {
+		holder = 1091018 # Guido-Novello di Modigaliana(Guidi), imperial vicar of Firenze 1260-62
+	}
+	1263.1.1 = {
+		holder = 1061151 # Napoleone degli Alberti, podesta of Firenze 1266
+	}
+	1267.1.1 = {
+		holder = 73595 # Malatesta da Verucchio podesta of Firenze 1268
+	}
+	1269.1.1 = {
+		holder = 144183 # Guy de Montfort, podesta of Firenze 1270
+	}
+	1274.1.1 = {
+		holder = 1061419 # Guido III M.S.M/Guido di Valiano di Montemigiano, podesta of Firenze 1275
+	}
+	#Corrado da Palazzo, podesta of Firenze 1276
+	1277.1.1 = {
+		holder = 1064460 # Teseo/Tedisio di Sanvitale, guelph vicar/podesta of Firenze 1278
+	}
+	1280.1.1 = {
+		holder = 1065245 # Albizzone Boundelmonti, consul of Firenze 1278
+	}
+	1281.1.1 = {
+		holder = 1064831 # Matteo/Maffeo Maggi, podesta of Firenze 1281
+	}
+	1282.1.1 = {
+		holder = 1064832 # Bartolommeo Maggi, podesta of Firenze 1284
+	}
+	1286.1.1 = {
+		holder = 1061965 # Matteo da Fogliano, podesta of Frienze 1286
+	}
+	1289.1.1 = {
+		holder = 1062847 # Rofus/Rosso Gabrielli, podesta of Firenze 1290
+	}
+	1291.1.1 = {
+		holder = 1065078 # Amerigo di Porciano(Guidi), podesta of Firenze 1291?
+	}
+	1293.1.1 = {
+		holder = 1065417 # Corso Donati, leader of the black gulphs of Firenze 1293-1306
+	}
+	1294.1.1 = {
+		holder = 1065140 # Lamberto degli Abati(Ubertini) di Gaville, podesta of Firenze 1294?
+	}
+	1295.1.1 = {
+		holder = 1065417 # Corso Donati, leader of the black gulphs of Firenze 1293-1306
+	}
+	1297.1.1 = {
+		holder = 1062849 # Cante Gabrielli, podesta of Firenze 1298 and 1300-1302
+	}
+	1303.1.1 = {
+		holder = 1065395 # Fulcieri Calboli, podesta of Firenze 1303, captiano generale of Firenze 1312
+	}
+	1304.1.1 = {
+		holder = 1091036 # Ruggieri di Dovadola(Guidi), podesta of Firenze 1304
+	}
+	1304.9.1 = {
+		holder = 1065392 # Manno della Branca, podesta of Firenze 1304 and late 1323
+	}
+	1305.9.1 = {
+		holder = 1062857 # Bino Gabrielli, podesta of Firenze 1305 and 1306
+	}
+	1308.1.1 = {
+		holder = 1065393 # Pietro della Branca, podesta of Firenze 1308 and 1331
+	}
+	1309.1.1 = {
+		holder = 1065455 # Averardo II de Bicci(Medici), Gonfaloniere of Firenze 1309,  capitano of the gulphs of Toscana and Romagana in 1314
+	}
+	1311.1.1 = {
+		holder = 1061546 # Gentile da Varano, podesta of Firenze 1312
+	}
+	1311.1.6 = {
+		liege=k_tuscan_league
+	}
+	1312.6.1 = {
+		holder = 1061971 # Guido da Fogliano, podesta of Firenze from mid 1312
+	}
+	1313.8.24 = {
+		liege=0
+	}
+	1314.1.1 = {
+		holder = 1065455 # Averardo II de Bicci(Medici), Gonfaloniere of Firenze 1309,  capitano of the gulphs of Toscana and Romagana in 1314
+	}
+	1315.1.1 = {
+		holder = 1065070 # Guido di Battifolle(Guidi), imperial vicar of Firenze 1316.
+	}
+	1317.1.1 = {
+		holder = 1061976 # Guido Savino da Fogliano, podesta of Firenze in 1317-19
+	}
+	1319.1.1 = {
+		holder = 1065073 # Simone di Battifolle(Guidi), capitano generale of Firenze 1319
+	}
+	1322.1.1 = {
+		holder = 1062856 # Filippo Gabrielli, podesta of Firenze 1322
+	}
+	1323.1.1 = {
+		holder = 1065392 # Manno della Branca, podesta of Firenze 1304 and late 1323
+	}
+	1327.5.31 = {
+		liege=e_hre
+	}
+	1332.1.1 = {
+		holder = 1062855 # Jacopo Gabrielli, podesta of Firenze 1332
+	}
+	1350.1.1 = {
+		holder = 1062133 # Andreasio Rossi, podesta of Firenze 1350
+	}
+}
+
+
+b_volterra = {
+	1066.1.1 = {
+		holder = 167506 #House Alliata
+	}
+
+}
+
+c_lucca = {
+	713.1.1 = {
+		liege = k_italy
+		holder = 190278
+	}
+	754.1.1 = {
+		holder = 190279
+	}
+	773.1.1 = {
+		holder = 190280
+	}
+	800.1.1 = {
+		liege = "d_toscana"
+		holder = 167896 # Bonifacio I of Tuscany
+	}
+	823.10.5 = {
+		holder = 167897 # Bonifacio II of Tuscany
+	}
+	834.1.1 = {
+		holder = 163070 # Adalberto I of Tuscany
+	}
+	884.1.1 = {
+		holder = 167903 # Bonifacio III
+	}
+	894.1.1 = {
+		holder = 167902 # Adalberto II of Tuscany
+	}
+	915.9.10 = {
+		holder = 167906 # Lamberto of Tuscany
+	}
+	1032.1.1 = {
+	holder = 2022
+	}
+	1088.1.1 = {
+		holder = 73414
+	}
+	1103.1.1 = {
+		holder = 73415
+	}
+	1124.1.1 = {
+		holder = 73416
+	}
+	1143.1.1 = {
+		holder = 73417
+	}
+	1160.1.1 = {
+		liege=e_hre
+		holder = 1065368 # Porco/Porcello Poggi(Fraolmi)
+	}
+	1163.1.1 = {
+		holder = 1065323 # Bernardino da Bozzano(Fraolmi), pretore di Lucca 1163-1169
+	}
+	1169.1.1 = {
+		holder = 1065321 # Gualterotto Castagnacci, pretore di Lucca 1169-1183
+	}
+	1172.8.26 = {
+		liege= k_italy
+	}
+	1184.1.1 = {
+		holder = 1065348 # Paganello da Pocari(Fraolmi), pretore di lucca 1187-1188
+	}
+	1195.1.1 = {    
+		holder = 1065255 # Guido degli Uberti, podesta of Lucca 1199 and 1202, pretore di Lucca 1213
+	}
+	1197.9.28 = {
+		liege=0
+	}
+	1197.11.11 = {
+		liege=k_tuscan_league # League of San Genesio
+	}	
+	1200.1.1 = {    
+		holder = 1065346 # Inghiramo/Inghirame di Pocari(Fraolmi), podesta of Lucca 1200, imperial vicar 1209-1211 and 1214, capitano generale of Lucca 1221 and podsta again 1226
+	}
+	1202.1.1 = {    
+		holder = 1065255 # Guido degli Uberti, podesta of Lucca 1199 and 1202, pretore di Lucca 1213
+	}
+	1203.1.1 = {    
+		holder = 1065326 # Aldobrandino da Malpigli, podesta of Lucca 1203 and 1206
+	}
+	1207.1.1 = {    
+		holder = 1065310 # Guido da Pirovano, podesta of Lucca ?-1209
+	}
+	1209.1.1 = { 
+		holder = 1065346 # Inghiramo/Inghirame di Pocari(Fraolmi), podesta of Lucca 1200, imperial vicar 1209-1211 and 1214, capitano generale of Lucca 1221 and podsta again 1226
+	}
+	1213.1.1 = {    
+		holder = 1065255 # Guido degli Uberti, podesta of Lucca 1199 and 1202, pretore di Lucca 1213
+	}
+	1214.1.1 = {    
+		holder = 1065346 # Inghiramo/Inghirame di Pocari(Fraolmi), podesta of Lucca 1200, imperial vicar 1209-1211 and 1214, capitano generale of Lucca 1221 and podsta again 1226
+	}
+	1215.1.1 = {    
+		holder = 1065087 # Guido Borgognone di Caparia(Alberti) grande di Lucca (sounds like he came just after Inghiramo)
+	}
+	1219.1.1 = {    
+		holder = 1065089 # Rodolfo/Ridolfo di Capraia(Alberti), podesta of Lucca 1219-1220
+	}
+	1221.1.1 = {    
+		holder = 1065346 # Inghiramo/Inghirame di Pocari(Fraolmi), podesta of Lucca 1200, imperial vicar 1209-1211 and 1214, capitano generale of Lucca 1221 and podsta again 1226
+	}
+	1222.1.1 = {    
+		holder = 1065315 # Parenzo Romano(Parenzi), pretore di Lucca 1222 and 1228
+	}
+	1226.1.1 = {    
+		holder = 1065346 # Inghiramo/Inghirame di Pocari(Fraolmi), podesta of Lucca 1200, imperial vicar 1209-1211 and 1214, capitano generale of Lucca 1221 and podsta again 1226
+	}
+	1227.1.1 = {    
+		holder = 1065324 # Oddo degli Oddi, podesta of Lucca 1227
+	}
+	1228.1.1 = {    
+		holder = 1065315 # Parenzo Romano(Parenzi), pretore di Lucca 1222 and 1228
+	}
+	1233.1.1 = {    
+		holder = 1065316 # Bernardo Romano(Parenzi), consul of Lucca 1233.
+	}
+	1235.1.1 = {    
+		holder = 1065092 # Arrigo di Capraia(Alberti), consul of Lucca 1235
+	}
+	1239.1.1 = {    
+		holder = 1064437 # Manfredo Da Cornazzano, podesta of Lucca 1239-1240
+	}
+	1240.1.1 = {    
+		holder = 1065322 # Guiscardo Pietrasanta, pretore di Lucca 1240, 1242, 1255 and 1257
+	}
+	1243.1.1 = {    
+		holder = 1065329 # Tomasso Maltanotte , pretore of Lucca 1243 and 1250
+	}
+	1244.1.1 = {    
+		holder = 1061196 # Ruggero II di Castracane(Antelminelli), consul of Lucca
+	}
+	1245.1.1 = {
+		liege=k_tuscany #under imperial vicar of Tuscany
+	}
+	1246.1.1 = {    
+		holder = 1065330 # Borgognone Bonfigliastri, pretore of Lucca 1246-1249
+	}
+	1250.1.1 = {  
+		liege=k_tuscan_league
+		holder = 1065329 # Tomasso Maltanotte , pretore of Lucca 1243 and 1250
+	}
+	1250.12.13 = {
+		liege = e_hre #HIP had all of north Italy independent after 1250 up until 1337 which is odd as all maps and information I find says it was still fully under the empire. I think it's more likely they forgot to properly set the liege once they got rid of the league titles
+	}
+	1251.1.1 = {    
+		holder = 1065337 # Matteo di Gazzuolo, pretore di Lucca 1251
+	}
+	1253.1.1 = {    
+		holder = 1065318 # Filippo Romano(Parenzi), pretore di Lucca 1253
+	}
+	1255.1.1 = {    
+		holder = 1065322 # Guiscardo Pietrasanta, pretore di Lucca 1240, 1242, 1255 and 1257
+	}
+	1256.1.1 = {    
+		holder = 1061196 # Ruggero II di Castracane(Antelminelli), consul of Lucca
+	}
+	1257.1.1 = {    
+		holder = 1065322 # Guiscardo Pietrasanta, pretore di Lucca 1240, 1242, 1255 and 1257
+	}
+	1260.1.1 = {    
+		holder = 1062012 # Guido III da Corregio, podesta of Lucca 1260
+	}
+	1263.1.1 = {    
+		holder = 1065320 # Filippo Asinelli, pretore di Lucca 1263
+	}
+	1265.1.1 = {    
+		holder = 1065311 # Gozello di Gazzuolo, pretore di Lucca 1265
+	}
+	1270.1.1 = {    
+		holder = 73583 # Taddeo di Montefeltro podesta of Lucca 1270
+	}
+	1272.1.1 = {
+	#	liege = k_sicliy
+		holder = 73519 # Luchetto Gattilusio
+	}
+	1278.1.1 = {
+	#	liege = e_hre
+		holder = 1061198 # Francesco Antelminelli
+	}
+	1279.1.1 = {
+		holder = 1061199 # Gerio III di Castracane (Antelminelli)
+	}
+	1282.1.1 = {
+		holder = 1062132 # Ugolino Rossi, podesta of Lucca 1282, 1295 and 1302
+	}
+	1286.1.1 = {
+		holder = 1065177 # Nicolò Malatovi guelph capitano del popolo of Lucca 1286
+	}
+	1287.1.1 = {
+		holder = 1065391 # Corrado I della Branca capitano del popolo of Lucca 1286
+	}
+	1288.1.1 = {
+		holder = 1064650 # Guicciardo/Guizardi di Mede(Lomello), podesta of Lucca 1288
+	}
+	1290.1.1 = {
+		holder = 1062144 # Guglielmo Rossi, podesta of Lucca 1290 and 1293
+	}
+	1292.1.1 = {
+		holder = 1065325 # Guglielmo Olodini, podesta of Lucca 1292
+	}
+	1293.1.1 = {
+		holder = 1062144 # Guglielmo Rossi, podesta of Lucca 1290 and 1293
+	}
+	1295.1.1 = {
+		holder = 1062132 # Ugolino Rossi, podesta of Lucca 1282, 1295 and 1302
+	}
+	1298.1.1 = {
+		holder = 1061199 # Gerio III di Castracane (Antelminelli)
+	}
+	1302.1.1 = {
+		holder = 1062132 # Ugolino Rossi, podesta of Lucca 1282, 1295 and 1302
+	}
+	1303.1.1 = {
+		holder = 1065392 # Manno I della Branca capitano del popolo of Lucca 1303
+	}
+	1305.1.1 = {
+		holder = 1061199 # Gerio III di Castracane (Antelminelli)
+	}
+	1306.1.1 = {
+		holder = 1065393 # Pietro I della Branca capitano del popolo of Lucca 1306
+	}
+	1308.1.1 = {
+		holder = 1061184 # Bonturo Dati, consul of Lucca 1308 and 1314(indirectly held sway ower the republic in the entire period)
+	}
+	1311.1.1 = {
+		holder = 1062863 # Guidiccione Gabrielli podsta of Lucca 1311
+	}
+	1313.1.1 = {
+		holder = 1061342 # Nello da Pietra(Pannocchieschi), podesta of Lucca 1313
+	}
+	1314.1.1 = {
+		holder = 1065333 # Francesco della Faggiuola, podesta of Lucca 1314-1316(under his father who ruled from Pisa)
+	}
+	1316.11.4 = { 
+		holder = 1061200 # Castruccio Castracani Antelminelli
+	}
+	1327.11.17 = {
+		liege=0
+		holder=0
+	}
+	#1064446 # Giacomo Da Cornazzano, podesta of Lucca 1317
+	#1065069 # Ricciado di Modigiliana(Guidi) podesta of Lucca 1326
+	1329.5.10 = {   
+		liege=k_papal_state
+		holder = 73430 #Gherardino Spinola
+	}
+	1330.5.1 = {   
+		holder = 1062854 # Cante Gabrielli, podesta of Lucca 1330
+	}
+	1330.12.28 = {   
+		holder = 1065327 # Antonio Camilla podesta of Lucca from the 28th of december 1330
+	}
+	1331.1.1 = {
+		liege = k_italy
+		holder = 1061206 # Francesco Antelminelli
+	}
+	1333.10.1 = {
+		holder = 1062148 # Pietro Rossi, imperial vicar of Lucca 1333. Joint rule with brothers but he was the main one in Lucca.
+	}
+	#Della Scala claims Lucca in November 1335. Arrigo reinstated.
+	1335.11.1 = {
+		liege = 0
+		holder = 0
+	}
+	#Arrigo makes an alliance with Milano to reduce reliance on Verona.
+	1337.1.1 = {
+		liege=k_italy
+		holder = 1061201 # Enrico II/Arrigo Antelminelli, Duca di Lucca 1328.9.3 - 1329.5.10, pretore di Lucca 1335-1338(initially under della Scala)
+	}
+	1338.1.1 = {
+		holder = 1065331 # Francesco Gangalandi, pretore di Lucca 1338-1341
+	}
+	1342.1.1 = {
+		holder = 1065313 # Chiolo di Gazzuolo, pretore di Lucca 1342
+	}
+}
+
+
+c_arezzo = {
+	# Traversari dynasty, the Herulian later Italian
+	490.1.1 = {
+		holder = 1063415 # Teodoro Traversari, the Herulian
+		liege = k_italy
+	}
+	505.1.1 = {
+		holder = 1063419 # Stefano Traversari
+	}
+	515.1.1 = {
+		holder = 1063421 # Pirro Traversari
+	}
+	531.1.1 = {
+		holder = 1063423 # Bucello Traversari
+	}
+	542.1.1 = {
+		holder = 1063424 # Isnardo Traversari
+	}
+	553.1.1 = {
+		liege = e_byzantium
+	}
+	610.1.1 = {
+		holder = 1063428 # Teodoro Traversari
+	}
+	675.1.1 = {
+		holder = 1063431 # Paolo Traversari
+	}
+	713.5.3 = {
+		liege = k_sicily
+	}
+
+	720.1.1 = {
+		holder = 190278 #Walperto
+	}
+	754.1.1 = {
+		holder = 190279 #Alperto
+	}
+	773.1.1 = {
+		holder = 190280 #Tachiperto
+	}
+	812.1.1 = {
+		liege = "k_italy"
+	}
+	
+	812.1.1 = {
+		holder = 167896
+	}
+	823.10.5 = {
+		holder = 167897
+	}
+	838.1.1 = {
+		holder = 163070
+	}
+	886.1.1 = {
+		holder = 167902
+	}
+	915.9.10 = {
+		holder = 167905
+	}
+	930.1.1 = {
+		holder = 167906
+	}
+	931.1.1 = {
+		liege = k_east_francia
+	}
+	931.1.1 = {
+		holder = 7980
+	}
+	936.1.1 = {
+		holder = 7924
+	}
+	967.9.15 = {
+		holder = 7925
+	}
+	1004.1.1 = {
+		holder = 167987
+	}	
+	1014.1.1 = {
+		holder = 180251
+	}
+	1024.7.13 = {
+		liege = e_hre
+	}
+	1027.1.1 = {
+		holder = 7756
+	}
+	1052.5.6 = {
+		holder = 7758
+	}
+	1055.7.1 = {
+		holder = 7757
+		liege = d_toscana
+	}
+	1060.1.1 = {
+		holder = 167671
+	}
+	1115.7.24 = {
+		holder = 7901
+		succession_laws = { feudal_elective_succession_law }
+	}
+	1120.1.1 = {
+		holder = 33466
+	}
+	1127.1.1 = {
+		holder = 30219
+	}
+	1135.1.1 = {
+		holder = 212996
+	}
+	1137.1.1 = {
+		holder = 212602
+	}
+	1139.10.20 = {
+		holder = 73405
+	}
+	1152.1.1 = {
+		holder = 7595
+	}
+	1160.1.1 = {
+		holder = 7596
+	}
+	#Arentine republic
+	1167.9.12 = { #Death of Welf VII
+		succession_laws = { feudal_elective_succession_law }
+		liege = e_hre
+		holder = 1061415# Ugolino I M.S.M
+	}
+	1172.8.26 = {
+		liege = k_italy
+	}
+	1173.1.1 = {
+		holder = 1065465 # Botolino Botoli
+	}	
+	1180.1.1 = { 
+		holder = 1062874 #Guglielmino Barbolani
+	}
+	1185.1.1 = {
+		holder = 1061416 # Guido II M.S.M
+	}
+	1197.9.28 = {
+		liege = 0
+	}
+	1197.12.2 = {
+		liege = k_tuscan_league # League of San Genesio
+	}		
+	1201.1.1 = {
+		holder = 1062876 # Ubertino II di Barbolani, consul of Arezzo 1201
+	}
+	1213.1.1 = {
+		holder = 1061417# Uguccione IV M.S.M
+	}
+	1230.1.1 = {
+		holder = 1065466 # Rinaldo Botoli, capitano del poppolo of Arezzo 1234
+	}
+	1235.1.1 = {
+		holder = 1062129 # Bernardo Rossi, podesta of Arezzo 1235
+	}
+	1236.1.1 = {
+		holder = 1061418# Uguccione M.S.M
+	}
+	1242.1.1 = {
+		holder = 1062089 # Bernardo Sessi. Podesta of Arezzo 1242
+	}
+	1245.1.1 = {
+		liege = k_tuscany #under imperial vicar of Tuscany
+	}
+	1246.1.1 = {
+		holder = 1061246 # Ildibrandino Cacciaconti, podesta of Arezzo 1246 and 1252
+	}
+	1250.1.1 = {
+		holder = 1065125 # Ranieri/Rinieri aka Pazzi(Ubertini), signore di Valdarno, son of ?, brother of Guglielmino of Arezzo. imperialvicar of Arezzo and citta di castello 1250
+	}
+	1250.12.13 = {
+		liege = e_hre #HIP had all of north Italy independent after 1250 up until 1337 which is odd as all maps and information I find says it was still fully under the empire. I think it's more likely they forgot to properly set the liege once they got rid of the league titles
+	}
+	1252.1.1 = {
+		holder = 1061246 # Ildibrandino Cacciaconti, podesta of Arezzo 1246 and 1252
+	}
+	1255.1.1 = {
+		holder = 1061430 # Guccio/Ciacco Tarlati
+	}
+	1257.1.1 = {
+		holder = 1065243 # Tegghiao Boundelmonti, podesta of Arezzo 1257
+	}
+	1265.1.1 = {
+		holder = 1061419 # Guido III M.S.M/Guido di Valiano di Montemigiano, podesta of Firenze 1275
+	}
+	1270.1.1 = {
+		holder = 1065243 # Tegghiao Boundelmonti, podesta of Arezzo 1257
+	}
+	1275.1.1 = {
+		holder = 1065467 # Alberto Botoli
+	}
+	1280.1.1 = {
+		holder = 1091018 # Guido-Novello di Modigliana(Guidi) podesta of Arezzo 1289
+	}
+	1289.6.11 = {
+		holder = 1065118 # Ciapettino Ubertini, podesta of Arezzo 1291
+	}
+	1292.1.1 = {
+		holder = 73425 # Ugoccione della Faggiuola podesta of Arezzo 1292-1294 and 1302-1308, capitano di poppolo of Arezzo 1309-1310
+	}
+	1295.1.1 = {
+		holder = 1065468 #Fumo/Fumaiolo/Fornaiolo Botoli
+	}
+	1298.1.1 = {
+		holder = 1065061 #Manfredi d'Ampinana di Modigliana(Guidi)
+	}
+	#1062847 # Rofus/Rosso Gabrielli, podesta of Firenze, capitano generale of Arezzo when?(seemingly mostly fought on opposing sides)
+	1301.1.1 = {
+		holder = 1062882 # Ubertino aka il Bocca di Barbolani, capitano generale di Arezzo 1301
+	}
+	1302.1.1 = {
+		holder = 73425 # Ugoccione della Faggiuola podesta of Arezzo 1292-1294 and 1302-1308, capitano di poppolo of Arezzo 1309-1310
+	}
+	1311.1.1 = {
+		holder = 1062918 # Borgaruccio Ottoni, podesta of Arezzo and Matelica 1321.
+	}
+	1311.1.6 = {
+		liege = k_italy
+	}
+	1313.8.24 = {
+		liege = 0
+	}
+	1322.1.1 = {
+		holder = 1061435 # Pier Saccone Tarlati, imperial vicar and lord of Arezzo since 1327
+	}
+	1327.5.31 = {
+		liege = k_italy
+	}
+	1356.1.1 = {
+		holder = 1065122 # Biordo Ubertini, podesta of Arezzo 1356 
+	}
+}
+
+
+c_siena = {
+	765.1.1 = {
+	liege = k_italy
+	holder = 190326 # Taso
+	}
+	#Berardenghi
+	830.1.1 = {
+		liege = d_toscana
+		holder = 1061210 # Raghinerio
+	}
+	865.6.1 = {
+		holder = 1061211 # Guinigisio/Wiginisio/Wingisio
+	}
+	901.1.1 = {
+		holder = 1061214 # Berardo
+	}
+	940.1.1 = {
+		holder = 1061215 # Berardo II
+	}
+	#Ardengheschi 
+	959.1.1 = {
+		holder = 1061300 # Ranieri
+	}
+	988.1.1 = {
+		holder = 1061301 # Ardingo
+	}
+	1042.1.1 = {
+		holder = 1061302 # Bernardo
+	}
+	1082.1.1 = {
+		holder = 1061303 # Bernardo II
+	}
+	1127.1.1 = {
+		holder = 1061306 # Ranieri
+	}
+	1140.1.1 = {
+		holder = 1061309 # Ugolino
+	}
+	1167.9.12 = { #Death of Welf VII, the castle of Orgia of the Ardengheschi was siezed in early 1168 by the sienese republic
+		liege=d_siena_republic
+		holder = 1065167 # Malatova Malatovi
+	}
+	1170.1.1 = {
+		holder = 1065192 # Guglielmo Piccolomini, consul of Siena 1170
+	}
+	1172.1.1 = {
+		holder = 1065167 # Malatova Malatovi
+	}
+	1175.1.1 = {
+		holder = 1061224 # Ugo Ugurgieri
+	}
+	1178.1.1 = {
+		holder = 1065193 # Ranierio Piccolomini, consul of Siena 1178
+	}
+	#1061221 # Ruggerio di Berardenghi consul of Siena in 1183(????)
+	1186.1.1 = {
+		holder = 1065168 # Filippo Malatovi, consul of Siena 1186 1191 and 1194. 1200 podesta of siena.
+	}
+	1198.1.1 = {
+		holder = 1061310 # Ranieri d'Torniellla(Ardenghesci)
+	}
+	1202.1.1 = {
+		holder = 1061234 # Ciampolo di Meo(Ugurgieri), consul of Siena 1202-34
+	}
+	1208.1.1 = {
+		holder = 1065343 # Guelfo/Guidi Pocari, podesta of Siena 1208 and 1214.
+	}
+	1215.1.1 = {
+		holder = 1061311 # Alberto d'Torniellla(Ardenghesci)
+	}
+	1224.1.1 = {
+		holder = 1062129 # Bernardo Rossi podesta of Siena 1224
+	}
+	1228.1.1 = {
+		holder = 1065195 # Rustichino II Piccolomini, consul of siena 1228
+	}
+	1232.1.1 = {
+		holder = 1062115 # Gherardo Rangoni, podesta of Siena 1232
+	}
+	1238.1.1 = {
+		holder = 1061953 # Bonaccorso da Palude. Podesta of Siena 1238-1239
+	}
+	1246.1.1 = {
+		holder = 1062106 # Ugolino Sessi. Podesta of Siena 1246
+	}
+	1250.1.1 = {
+		holder = 1062942 # Ranieri di Sarteano, podesta of Siena?
+	}
+	1254.1.1 = {
+		holder = 1061232 # Bartolomeo Ugurgieri, camarlingo of Siena 1255
+	}
+	1258.1.1 = {
+		holder = 1065388 # Orlando Bonsignori´
+	}
+	1273.1.1 = {
+		holder = 1065199 # Guglielmo Piccolomini
+	}
+	1276.1.1 = {
+		holder = 1064387 # Guglielmo Scarabello da Canossa, podesta of Siena 1276
+	}
+	1277.1.1 = {
+		holder = 1062130 # Orlando Rossi, podesta di Siena 1277
+	}
+	1280.1.1 = {
+		holder = 1065174 # Uguccione Malavolti, camerligno of Siena 1280
+	}
+	#Niccolo da Palombara, podesta of Siena 1280
+	#Matteo Orfini, podesta of Sinea 1281
+	1282.1.1 = {
+		holder = 1091022 # Guido Salvatico di Dovadola(Guidi), podesta of Siena 1282 and (1288?)
+	}
+	#Ranieri di conti d'Elci(Pannocchieschi), consul of Siena 1283
+	#Aghioflo da Romena(Guidi), podesta of Siena 1284
+	#Accorambono di Camerino, podesta of Seina 1285
+	#Bartolomeo da Brescia(Maggi?), podesta of Siena 1286
+	1287.1.1 = {
+		holder = 1091018 # Guido-Novello di Modigaliana(Guidi), podesta of Siena 1287
+	}
+	1288.1.1 = {
+		holder = 1061342 # Nello Pannocchieschi, podesta of Siena 1288
+	}
+	1289.1.1 = {
+		holder = 1061319 # Neri di Sitcciano(Ardenghesci), consul of Siena 1289
+	}
+	1291.1.1 = {
+		holder = 1065177 # Nicolò Malatovi consiglieri of Siena 1302
+	}
+	1294.1.1 = {
+		holder = 1065391 # Corrado I della Branca, capitano del popolo of Siena 1294
+	}
+	1297.1.1 = {
+		holder = 1062849 # Cante Cabrielli, podesta of Siena 1298 and 1329
+	}
+	1299.1.1 = {
+		holder = 1065201 # Guglielmino Piccolomini
+	}
+	1301.1.1 = {
+		holder = 1091036 # Rugieri di Dovdola 1301, capitano del popolo of siena 1322
+	}
+	1305.1.1 = {
+		holder = 1065201 # Manno I della Branca capitano del popolo of Siena late 1305
+	}
+	1307.1.1 = {
+		holder = 1065393 # Pietro I della Branca capitano del popolo of Siena 1307
+	}
+	1308.1.1 = {
+		holder = 1065201 # Guglielmino Piccolomini
+	}
+	1310.1.1 = {
+		holder = 1061342 # Nello Pannocchieschi
+	}
+	1313.1.1 = {
+		holder = 1065071 # Ugo di Battifolle(Guidi di Modigliana) podesta of Siena 1319.
+	}
+	1322.1.1 = {
+		holder = 1091036 # Rugieri di Dovdola 1301, capitano del popolo of siena 1322
+	}
+	1323.1.1 = {
+		holder = 1061971 # Guidoriccio da Sesso
+	}
+	1330.1.1 = {
+		holder = 1061420 # Guido di Montemigiano( IV di M.S.M) Podesta of Siena 1330
+	}
+}
+
+
+c_orbetello = {
+	767.1.1 = {
+		liege = k_papal_state
+	}
+	767.1.1 = {
+		holder = 190569 #Amonius
+	}
+	846.1.1 = {
+		liege = "d_toscana"
+	}
+	860.1.1 = {
+		holder = 167911
+	}
+	1061.7.27 = {
+		holder = 2008
+		liege = k_papal_state
+	}
+	1073.4.21 = {
+		holder = 2010
+	}
+	1085.5.25 = {
+		holder = 2012
+	}
+	1087.9.16 = {
+		holder = 2013
+	}
+	1099.7.29 = {
+		holder = 2014
+	}
+	1118.1.21 = {
+		holder = 2017
+	}
+	1119.1.28 = {
+		holder = 294
+	}
+	1124.12.13 = {
+		holder = 2021
+	}	
+	1130.2.13 = {
+		holder = 71800
+	}
+	1143.9.24 = {
+		holder = 71805
+	}
+	1144.3.8 = {
+		holder = 71806
+	}
+	1145.2.15 = {
+		holder = 71807
+	}
+	1153.7.8 = {
+		holder = 71808
+	}	
+	1154.12.3 = {
+		holder = 71809
+	}
+	1159.9.1 = {
+		holder = 71810
+	}
+	1181.8.30 = {
+		holder = 71811
+	}
+	1185.5.25 = {
+		holder = 223754
+	}
+	1187.10.20 = {
+		holder = 71812
+	}
+	1187.12.17 = {
+		holder = 71813
+	}
+	1191.3.20 = {
+		holder = 70841
+	}
+	1198.1.8 = {
+		holder = 71814
+	}
+	1216.7.16 = {
+		holder = 71820
+	}
+	1227.3.18 = {
+		holder = 71821
+	}
+	1241.8.22 = {
+		holder = 71822
+	}
+	1241.11.10 = {
+		holder = 71823
+	}
+	1254.12.7 = {
+		holder = 71824
+	}
+	1261.5.25 = {
+		holder = 71825
+	}
+	1264.10.2 = {
+		holder = 71826
+	}
+	1268.11.29 = {
+		holder = 70785
+	}
+	1276.1.10 = {
+		holder = 71827
+	}
+	1276.6.22 = {
+		holder = 71829
+	}
+	1276.8.18 = {
+		holder = 71830
+	}
+	1277.5.20 = {
+		holder = 70851
+	}
+	1280.8.22 = {
+		holder = 71831
+	}
+	1285.3.28 = {
+		holder = 71832
+	}
+	1287.4.3 = {
+		holder = 71833
+	}
+	1292.4.4 = {
+		holder = 71834
+	}
+	1294.12.13 = {
+		holder = 71835
+	}
+	1303.10.11 = {
+		holder = 71836
+	}
+	1304.7.7 = {
+		holder = 71837
+	}
+	1314.4.20 = {
+		holder = 71838
+	}
+	1334.12.20 = {
+		holder = 478501
+	}
+}

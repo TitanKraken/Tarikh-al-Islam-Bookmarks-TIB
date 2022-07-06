@@ -1,0 +1,49 @@
+101107 = { # Laskaris
+	pattern = "pattern_solid.dds"
+	color1=white
+	color2=yellow
+	color3=red
+	colored_emblem={
+		texture = "ce_mascle.dds"
+		color1 = "green"
+		color2 = "green"
+		instance = { position = { 0.315 0.29 } scale = { 0.48 0.48 }  }
+		instance = { position = { 0.685 0.29 } scale = { 0.48 0.48 }  }
+		instance = { position = { 0.5 0.68 } scale = { 0.48 0.48 }  }
+	}
+}		
+
+20075 = { # Komnemos Doukas
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=yellow
+	color3=blue
+	colored_emblem={
+		color1=blue
+		color2=blue
+		texture="ce_ordinary_bend_dexter_5.dds"
+		instance={
+			scale={ 1.200000 1.200000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=yellow
+		texture="ce_molette.dds"
+	instance={
+		position={ 0.303000 0.304000 }
+		scale={ 0.300000 0.300000 }
+	}
+
+	instance={
+		position={ 0.504000 0.505000 }
+		scale={ 0.300000 0.300000 }
+	}
+
+	instance={
+		position={ 0.705000 0.706000 }
+		scale={ 0.300000 0.300000 }
+	}
+}

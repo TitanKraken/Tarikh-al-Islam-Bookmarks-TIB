@@ -1,0 +1,106 @@
+﻿gothic = {
+	color = greek
+	
+	ethos = ethos_bellicose
+	heritage = heritage_east_germanic
+	language = language_gothic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_stand_and_fight
+		tradition_formation_fighting
+		tradition_martial_admiration
+	}
+
+    dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_gothic
+	
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx byzantine_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+	
+	ethnicities = {
+		3 = mediterranean_byzantine
+		70 = caucasian_northern_blond
+		15 = caucasian_northern_ginger
+		10 = caucasian_northern_brown_hair
+		5 = caucasian_northern_dark_hair
+	}
+}
+
+ostrogothic = {
+	color = langobard
+	
+    created = 453.1.1
+
+	parents = { gothic }
+
+	ethos = ethos_bellicose
+	heritage = heritage_east_germanic
+	language = language_gothic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_visigothic_codes
+        tradition_stand_and_fight
+		tradition_martial_admiration
+	}
+
+    dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_ostrogothic
+	
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+	
+	ethnicities = {
+		5 = mediterranean
+		70 = caucasian_northern_blond
+		15 = caucasian_northern_ginger
+		10 = caucasian_northern_brown_hair
+		5 = caucasian_northern_dark_hair
+	}
+}
+
+burgundian = {
+	color = { 134 0 37 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_east_germanic
+	language = language_burgundian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_stand_and_fight
+		tradition_things
+		tradition_martial_admiration
+		tradition_legalistic
+	}
+
+    dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_burgundian
+	
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx french_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+	
+	ethnicities = {
+		5 = mediterranean
+		70 = caucasian_northern_blond
+		15 = caucasian_northern_ginger
+		10 = caucasian_northern_brown_hair
+		5 = caucasian_northern_dark_hair
+	}
+}
