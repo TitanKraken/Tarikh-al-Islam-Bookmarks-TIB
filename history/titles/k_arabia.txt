@@ -4,14 +4,6 @@ k_arabia = {
 }
 
 c_al_jawf = {
-	627.1.1 = {
-		liege = k_arabia
-		government = tribal_government
-	}
-	690.1.1 = {
-		liege = d_najd
-		holder = 34000
-	}
 	765.1.1 = {
 		holder = 188613
 		liege = e_arabia
@@ -66,10 +58,6 @@ c_thalabiya = {
 		government = tribal_government
 	}
 
-	690.1.1 = {
-		liege = d_najd
-		holder = 34000
-	}
 	765.1.1 = {
 		holder = 188615
 		liege = e_arabia
@@ -666,13 +654,17 @@ c_maan = {
 	867.1.1 = {	change_development_level = 7 }
 	1066.1.1 = { change_development_level = 10 }
 	
+	662.1.1 = {
+		liege = e_arabia
+		government = tribal_government
+	}
 	690.1.1 = {
-		liege = "d_shammar"
-		holder = 146054
+		#liege = d_najd
+		holder = 34000
 	}
-	710.1.1 = {
-		holder = 146055
-	}
+	#710.1.1 = {
+		#holder = 146055
+	#}
 	726.1.1 = {
 		holder = 146056
 	}
@@ -1201,17 +1193,27 @@ c_harrat_rahat = {
 	867.1.1 = {	change_development_level = 7 }
 	1066.1.1 = { change_development_level = 10 }
 	
-	705.11.1 = {
-		holder = 163035 # Umar ibn Abdul Aziz
-		liege = e_arabia
-	}
-	767.1.1 = {
-		government = tribal_government
-		liege = d_medina
-		holder = 163125 # Hasan ibn Zayd ibn Hasan
-	}
+	
+	#767.1.1 = {
+	#	government = tribal_government
+	#	liege = d_medina
+	#	holder = 163125 # Hasan ibn Zayd ibn Hasan
+	#}
 	
 	#Banu Sulaym/Suleimids
+	680.1.1 = {
+		holder = sulaym_vassal_001
+		liege = e_arabia
+	}
+	690.1.1 = {
+		holder = sulaym_vassal_002
+	}
+	700.1.1 = {
+		holder = sulaym_vassal_003
+	}
+	760.1.1 = {
+		holder = sulaym_vassal_004
+	}
 	820.1.1 = {
 		liege = 0
 		holder = bedouin0043
@@ -1723,9 +1725,9 @@ c_aqiq = {
 		liege = "e_arabia"
 		holder = asir_chief001
 	}
-	700.1.2 = {
-		liege = d_medina
-	}
+	#700.1.2 = {
+	#	liege = d_medina
+	#}
 	760.1.1 = {
 		liege = d_najd
 		holder = 188612 # Qutham Abbasid
@@ -1861,19 +1863,34 @@ d_najd = {
 	1066.1.1 = { change_development_level = 4 }
 	
 	690.1.1 = {
-		holder = 188611 #Abbas Abbasid
+		#holder = 188611 #Abbas Abbasid
 		liege = e_arabia
 		government = tribal_government
 	}
-	760.1.1 = {
+	#760.1.1 = {
 	#	liege = e_arabia
-		holder = 188612 # Qutham Abbasid
-		government = tribal_government
-	}
+		#holder = 188612 # Qutham Abbasid
+		#government = tribal_government
+	#}
 	
+	660.1.1 = {
+		holder = qays_vassal_001
+	}
+	700.1.1 = {
+		holder = qays_vassal_002
+	}
+	750.1.1 = {
+		holder = qays_vassal_003
+	}
+	790.1.1 = {
+		holder = qays_vassal_004
+	}
+	835.1.1 = {
+		holder = qays_vassal_005
+	}
 	864.1.1 = {
 		liege = 0
-	holder = 160015
+		holder = 160015
 	}
 	866.1.1 = {
 		holder = 74042
@@ -1968,13 +1985,26 @@ c_sharaf = {
 
 
 c_subay = {
-	767.1.1 = {
-		government = tribal_government
-		liege = d_medina
-		holder = 188610 # Muhammad b Ibrahim
-	}
+	#767.1.1 = {
+		#government = tribal_government
+		#liege = d_medina
+		#holder = 188610 # Muhammad b Ibrahim
+	#}
 	
 	#Banu Sulaym/Suleimids
+	680.1.1 = {
+		holder = sulaym_vassal_001
+		liege = e_arabia
+	}
+	690.1.1 = {
+		holder = sulaym_vassal_002
+	}
+	700.1.1 = {
+		holder = sulaym_vassal_003
+	}
+	760.1.1 = {
+		holder = sulaym_vassal_004
+	}
 	820.1.1 = {
 		liege = 0
 		holder = bedouin0043
@@ -2085,11 +2115,6 @@ c_shaqiq = {
 	627.1.1 = {
 		liege = e_arabia
 		government = tribal_government
-	}
-	
-	690.1.1 = {
-		liege = d_najd
-		holder = 34000
 	}
 	
 	#Banu Numayr
@@ -2280,28 +2305,21 @@ d_yamama = {
 	867.1.1 = {	change_development_level = 1 }
 	1066.1.1 = { change_development_level = 4 }
 	
-	670.1.1 = {
-		liege = k_mesopotamia
-		holder = 210002 # Yazid al-Muhallabi
-	}
 	#Banu Numayr
-	575.1.1 = {
-		government = tribal_government
-		holder = azd_ancestor_002
-	}
-	612.1.1 = {
-		holder = azd_ancestor_001
-	}
 	682.1.1 = {
 		holder = yamama_vassal_001
+		government = tribal_government
+		liege = k_mesopotamia
 	}
 	750.1.1 = {
 		holder = yamama_vassal_002
+		liege = e_arabia
 	}
 
 	800.1.1 = {
 		government = tribal_government
 		holder = bedouin0044
+		liege = 0
 	}
 	820.1.1 = {
 		holder = bedouin0045
@@ -3127,12 +3145,15 @@ c_samman = {
 
 
 d_oman = {
-	665.1.1 = {
-		liege = e_arabia
+	575.1.1 = {
+		government = tribal_government
+		holder = azd_ancestor_002
 	}
-	670.1.1 = {
-		liege = k_mesopotamia
-		holder = 210002 # Yazid al-Muhallabi
+	612.1.1 = {
+		holder = azd_ancestor_001
+	}
+	630.1.1 = {
+		liege = e_arabia
 	}
 	715.1.1 = {
 		holder = oman_vassal_001

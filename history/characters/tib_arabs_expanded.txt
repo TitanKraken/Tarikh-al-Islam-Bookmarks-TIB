@@ -1,5 +1,5 @@
 ﻿# al-Thaqafi (From Ta'if)
-yusuf_house_Thaqafi_old = {
+yusuf_al_thaqafi_old = {
 	name = "Yusuf"
 	dynasty_house = house_Thaqafi
 	religion = "ashari"
@@ -12,9 +12,9 @@ yusuf_house_Thaqafi_old = {
 	}
 }
 
-al_hajjaj_house_Thaqafi = {
+al_hajjaj_al_thaqafi = {
 	name = "al-Hajjaj"
-	dynasty = house_Thaqafi
+	dynasty_house = house_Thaqafi
 	religion = "ashari"
 	culture = "bedouin"
 	661.1.1 = {
@@ -24,12 +24,12 @@ al_hajjaj_house_Thaqafi = {
 		death = yes
 	}
 }
-muhammad_house_Thaqafi = {
+muhammad_al_thaqafi = {
 	name = "Muhammad"
-	dynasty = house_Thaqafi
+	dynasty_house = house_Thaqafi
 	religion = "ashari"
 	culture = "bedouin"
-	father = yusuf_house_Thaqafi_old
+	father = yusuf_al_Thaqafi_old
 	trait = diligent
 	651.1.1 = {
 		birth = yes
@@ -42,10 +42,10 @@ muhammad_house_Thaqafi = {
 umm_al_hajjaj = {
 	name = "Umm al-Hajjaj"
     female = yes
-	dynasty = house_Thaqafi
+	dynasty_house = house_Thaqafi
 	religion = "ashari"
 	culture = "bedouin"
-	father = muhammad_house_Thaqafi
+	father = muhammad_al_Thaqafi
 	671.1.1 = {
 		birth = yes
 	}
@@ -54,12 +54,12 @@ umm_al_hajjaj = {
 	}
 }
 
-yusuf_house_Thaqafi = { #Governor of Medina probably after coronation of Caliph Umar II
+yusuf_al_thaqafi = { #Governor of Medina probably after coronation of Caliph Umar II
 	name = "Yusuf"
-	dynasty = house_Thaqafi
+	dynasty_house = house_Thaqafi
 	religion = "ashari"
 	culture = "bedouin"
-	father = muhammad_house_Thaqafi
+	father = muhammad_al_Thaqafi
 	677.1.1 = {
 		birth = yes
 	}
@@ -68,9 +68,9 @@ yusuf_house_Thaqafi = { #Governor of Medina probably after coronation of Caliph 
 	}
 }
 
-umar_house_Thaqafi = { # Fictional Governor of Yemen 
+umar_al_thaqafi = { # Fictional Governor of Yemen 
 	name = "Umar"
-	dynasty = house_Thaqafi
+	dynasty_house = house_Thaqafi
 	religion = "ashari"
 	culture = "bedouin"
 	677.1.1 = {
@@ -81,12 +81,12 @@ umar_house_Thaqafi = { # Fictional Governor of Yemen
 	}
 }
 
-yusuf_ibn_umar_house_Thaqafi = {
+yusuf_ibn_umar_al_thaqafi = {
 	name = "Yusuf"
-	dynasty = house_Thaqafi
+	dynasty_house = house_Thaqafi
 	religion = "ashari"
 	culture = "bedouin"
-	father = umar_house_Thaqafi
+	father = umar_al_Thaqafi
 	698.1.1 = {
 		birth = yes
 	}
@@ -212,6 +212,132 @@ asir_chief001 = {
 		death = yes
 	}
 }
+qays_vassal_001 = {
+	name = "Fadl"
+	dynasty = 12281 # Qays
+
+	culture = "bedouin"
+	religion = "ashari"
+	#father = qays_vassal_00
+
+	640.1.1 = {
+		birth = yes
+	}
+	700.1.1 = {
+		death = yes
+	}
+}
+qays_vassal_002 = {
+	name = "Talib"
+	dynasty = 12281 # Qays
+
+	culture = "bedouin"
+	religion = "ashari"
+	father = qays_vassal_001
+
+	690.1.1 = {
+		birth = yes
+	}
+	750.1.1 = {
+		death = yes
+	}
+}
+qays_vassal_003 = {
+	name = "Marwan"
+	dynasty = 12281 # Qays
+
+	culture = "bedouin"
+	religion = "ashari"
+	father = qays_vassal_002
+
+	740.1.1 = {
+		birth = yes
+	}
+	790.1.1 = {
+		death = yes
+	}
+}
+qays_vassal_004 = {
+	name = "Malik"
+	dynasty = 12281 # Qays
+
+	culture = "bedouin"
+	religion = "ashari"
+	father = qays_vassal_003
+
+	770.1.1 = {
+		birth = yes
+	}
+	835.1.1 = {
+		death = yes
+	}
+}
+qays_vassal_005 = {
+	name = "Umar"
+	dynasty = 12281 # Qays
+
+	culture = "bedouin"
+	religion = "ashari"
+	father = qays_vassal_004
+
+	802.1.1 = {
+		birth = yes
+	}
+	864.1.1 = {
+		death = yes
+	}
+}
+sulaym_vassal_001 = { # Semi-fictional
+	name = "Hakim" # Historical
+	dynasty_house = house_Sulaym # 101671
+	religion = "ashari"
+	culture = "bedouin"
+	630.1.1 = { # Reign in est. 680
+		birth = yes
+	}
+	690.1.1 = {
+		death = yes
+	}
+}
+sulaym_vassal_002 = {
+	name = "al-Jahhaf"
+	dynasty_house = house_Sulaym # 101671
+	religion = "ashari"
+	culture = "bedouin"
+	father = sulaym_vassal_001
+	650.1.1 = { # Reign in 690
+		birth = yes
+	}
+	700.1.1 = {
+		death = yes
+	}
+}
+sulaym_vassal_003 = { # Fictional
+	name = "Ubayd"
+	dynasty_house = house_Sulaym # 101671
+	religion = "ashari"
+	culture = "bedouin"
+	father = sulaym_vassal_002
+	690.1.1 = {
+		birth = yes
+	}
+	760.1.1 = {
+		death = yes
+	}
+}
+sulaym_vassal_004 = { # Fictional
+	name = "Abdallah"
+	dynasty_house = house_Sulaym # 101671
+	religion = "ashari"
+	culture = "bedouin"
+	father = sulaym_vassal_003
+	750.1.1 = {
+		birth = yes
+	}
+	820.1.1 = {
+		death = yes
+	}
+}
 
 mudrik_muhallabi = {
 	name = "Mudrik"
@@ -314,7 +440,7 @@ azd_ancestor_002 = {
 }
 yamama_vassal_001 = {
 	name = "Hamza"
-	dynasty = house_Numayr
+	dynasty_house = house_Numayr
 	religion = ashari
 	culture = bedouin
 
@@ -327,7 +453,7 @@ yamama_vassal_001 = {
 }
 yamama_vassal_002 = {
 	name = "Umar"
-	dynasty = house_Numayr
+	dynasty_house = house_Numayr
 	religion = ashari
 	culture = bedouin
 	father = yamama_vassal_001

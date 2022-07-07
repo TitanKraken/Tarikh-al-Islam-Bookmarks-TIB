@@ -92,26 +92,30 @@ house_Nasrid = {
     dynasty = 1042181
 }
 
-# Qays 'Aylan
+# Qays 'Aylan 12281
 house_Amirid = { # 1029034
     name = "dynn_Banu_Amir"
-    dynasty = 101671 # Banu Sulaym
+    dynasty = 12281
 }
 house_Mirdasid = { # house_mirdasid
     name = "dynn_Banu_Mirdas"
-    dynasty = 101671 # Banu Sulaym
+    dynasty = 12281
 }
 596 = {
     name = "dynn_Banu_Amir"
-    dynasty = 101671 # Banu Sulaym
+    dynasty = 12281
 }
-house_thaqif = {
+house_Thaqafi = {
     name = "al-Thaqafi"
-    dynasty = 101671 # Banu Sulaym
+    dynasty = 12281
 }
-house_Numayr = { #bedouindyn006
+house_Numayr = { # bedouindyn006
     name = "dynn_Banu_Numayr"
-    dynasty = 101671 # Banu Sulaym
+    dynasty = 12281
+}
+house_Sulaym = { # 101671
+    name = "dynn_Banu_Sulaym"
+    dynasty = 12281
 }
 
 # Borjigin

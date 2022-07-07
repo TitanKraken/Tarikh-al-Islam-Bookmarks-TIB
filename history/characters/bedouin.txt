@@ -1761,6 +1761,11 @@
 	culture = "bedouin"
 	father = 33901
 	trait = sayyid
+	trait = zealous
+	trait = humble
+	trait = diligent
+	trait = beauty_good_2
+	trait = education_learning_4
 	648.1.1 = {
 		birth = "648.1.1"
 	}
@@ -2066,6 +2071,12 @@
 	culture = "bedouin"
 	father = 33902
 	trait = sayyid
+	trait = sayyid
+	trait = zealous
+	trait = humble
+	trait = diligent
+	trait = intellect_good_2
+	trait = education_learning_4
 	690.1.1 = {
 		birth = "690.1.1"
 	}
@@ -4477,7 +4488,7 @@
 }
 155194 = {
 	name = "Heib"
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = bedouin0040
@@ -4490,7 +4501,7 @@
 }
 155195 = {
 	name = "Azaz" #ibn Heib
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155194
@@ -4503,7 +4514,7 @@
 }
 155196 = {
 	name = "Amer" #ibn Azaz
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155195
@@ -4516,7 +4527,7 @@
 }
 155197 = {
 	name = "Rebia" #ibn Amer
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155196
@@ -4529,7 +4540,7 @@
 }
 155198 = {
 	name = "Kilab" #ibn Rebia
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155197
@@ -4542,7 +4553,7 @@
 }
 155199 = {
 	name = "Djafer" #ibn Kilab
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155198
@@ -4555,7 +4566,7 @@
 }
 155200 = {
 	name = "Kemil"
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155215
@@ -4568,7 +4579,7 @@
 }
 155201 = {
 	name = "Abu-Dib" #ibn Kemil
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155200
@@ -4581,7 +4592,7 @@
 }
 155202 = {
 	name = "Hamed" #ibn Kemil
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155200
@@ -4594,7 +4605,7 @@
 }
 155203 = {
 	name = "Hina" #ibn Djafer
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155199
@@ -4607,7 +4618,7 @@
 }
 155204 = {
 	name = "Lebid" #ibn Hina
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155203
@@ -4620,7 +4631,7 @@
 }
 155205 = {
 	name = "Torkia" #ibn Lebid
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155204
@@ -4633,7 +4644,7 @@
 }
 155206 = {
 	name = "Selam" #ibn Torkia
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155205
@@ -4646,7 +4657,7 @@
 }
 155207 = {
 	name = "Mocaddem" #ibn Torkia
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155205
@@ -4659,7 +4670,7 @@
 }
 155208 = {
 	name = "Ahmed" #ibn Djafer
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155199
@@ -4673,7 +4684,7 @@
 155209 = {
 	name = "Musa"
 	#placeholder
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155199
@@ -4687,7 +4698,7 @@
 155210 = {
 	name = "Ziyad"
 	#placeholder
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155209
@@ -4701,7 +4712,7 @@
 155211 = {
 	name = "Isa"
 	#placeholder
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155210
@@ -4715,7 +4726,7 @@
 155212 = {
 	name = "Muhammad"
 	#placeholder
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155211
@@ -4729,7 +4740,7 @@
 155213 = {
 	name = "Ali"
 	#placeholder
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155212
@@ -4742,7 +4753,7 @@
 }
 155214 = {
 	name = "Azaz"
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155213
@@ -4755,7 +4766,7 @@
 }
 155215 = {
 	name = "Sayf"
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155214
@@ -4769,7 +4780,7 @@
 155216 = {
 	name = "Amer"
 	#placeholder
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155206
@@ -4783,7 +4794,7 @@
 155217 = {
 	name = "Said"
 	#placeholder
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155216
@@ -4797,7 +4808,7 @@
 155218 = {
 	name = "Sufyan"
 	#placeholder
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155217
@@ -4810,7 +4821,7 @@
 }
 155219 = {
 	name = "Ja_far"
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155218
@@ -4823,7 +4834,7 @@
 }
 155220 = {
 	name = "Umar"
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155219
@@ -4837,7 +4848,7 @@
 155221 = {
 	name = "Urwah"
 	#placeholder
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155207
@@ -4851,7 +4862,7 @@
 155222 = {
 	name = "Muhammad"
 	#placeholder
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155221
@@ -4865,7 +4876,7 @@
 155223 = {
 	name = "Ishaq"
 	#placeholder
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155222
@@ -4879,7 +4890,7 @@
 155224 = {
 	name = "Zayd"
 	#placeholder
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155223
@@ -4893,7 +4904,7 @@
 155225 = {
 	name = "Azaz"
 	#placeholder
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155224
@@ -4907,7 +4918,7 @@
 155226 = {
 	name = "Hashim"
 	#placeholder
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155208
@@ -4921,7 +4932,7 @@
 155227 = {
 	name = "Abdan"
 	#placeholder
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155226
@@ -4935,7 +4946,7 @@
 155228 = {
 	name = "Ahmed"
 	#placeholder
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155227
@@ -4949,7 +4960,7 @@
 155229 = {
 	name = "Salih"
 	#placeholder
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155228
@@ -4963,7 +4974,7 @@
 155230 = {
 	name = "Amer"
 	#placeholder
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155229
@@ -4977,7 +4988,7 @@
 155231 = {
 	name = "Rashid"
 	#placeholder
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155230
@@ -4991,7 +5002,7 @@
 155232 = {
 	name = "Mansur"
 	#placeholder
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155231
@@ -5004,7 +5015,7 @@
 }
 155233 = {
 	name = "Ja_far" #ibn Umar
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155220
@@ -5018,7 +5029,7 @@
 155234 = {
 	name = "Malek"
 	#placeholder
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = 155232
@@ -7088,7 +7099,7 @@
 }
 74042 = {
 	name = "Mahmud"
-	dynasty = 12281
+	dynasty = 12281 # Qays
 
 	culture = "bedouin"
 	religion = "ashari"
@@ -12363,7 +12374,7 @@ bedouin0039 = {
 #Banu Sulaim/Suleimid in Arabia
 bedouin0040 = {
 	name = "A_wA_r"
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = bedouin0041
@@ -12376,7 +12387,7 @@ bedouin0040 = {
 }
 bedouin0041 = {
 	name = "Yazid"
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = bedouin0042
@@ -12389,7 +12400,7 @@ bedouin0041 = {
 }
 bedouin0042 = {
 	name = "RifA__a"
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
 	father = bedouin0043
@@ -12402,9 +12413,10 @@ bedouin0042 = {
 }
 bedouin0043 = {
 	name = "_Utba"
-	dynasty = 101671
+	dynasty_house = house_Sulaym # 101671
 	religion = "ashari"
 	culture = "bedouin"
+	father = sulaym_vassal_004
 	800.1.1 = {
 		birth = yes
 	}
