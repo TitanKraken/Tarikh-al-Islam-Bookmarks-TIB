@@ -396,6 +396,97 @@ house_Fatimid = {
 	}
 
 }
+house_Muhallabid={
+	pattern="pattern_horizontal_split_02.dds"
+	color1=white
+	color2=black
+	color3=red
+	colored_emblem={
+		color1=white
+		color2=red
+		texture="national_emblem_of_oman.dds"
+		instance={
+			position={ 0.500000 0.610000 }
+			scale={ 0.470000 0.470000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_arabic_allah_kufic.dds"
+		instance={
+			position={ 0.500000 0.160000 }
+			scale={ 0.470000 0.470000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+house_Thaqafi={
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=red
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.500000 0.840000 }
+			scale={ 1.000000 0.020000 }
+		}
+
+		instance={
+			position={ 0.500000 0.120000 }
+			scale={ 1.000000 0.030000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=white
+		texture="ce_arabic_basmala_kufic.dds"
+		instance={
+			position={ 0.500000 0.480000 }
+			scale={ 0.500000 0.500000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=red
+		color2=red
+		texture="ce_tamgha_roundel_frame.dds"
+		instance={
+			position={ 0.500000 0.480000 }
+			scale={ 0.610000 0.610000 }
+			depth=3.010000
+		}
+
+	}
+
+}
+house_Sulaym = { # Suleimid
+	pattern = "pattern_solid.dds"
+	color1 = "green"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_quadrilobe.dds"
+		color1 = "red"
+		color2 = "yellow"		
+		instance = { position = { 0.5 0.48 } scale = { 1.0 1.0 }  }
+	}	
+	colored_emblem = {
+		texture = "ce_rosetta_04.dds"
+		color1 = "white"
+		color2 = "red"		
+		instance = { position = { 0.5 0.48 } scale = { 0.65 0.65 }  }
+	}	
+}
 
 100690 = { # Nabhanid
 	pattern="pattern_solid.dds"

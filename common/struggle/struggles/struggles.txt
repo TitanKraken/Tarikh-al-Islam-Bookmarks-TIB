@@ -28,12 +28,11 @@
 		# Christian
 		catholic mozarabic_church adoptionist
 		# Islamic
-		ashari muwalladi
-		1100.1.1 = masmudi
+		ashari muwalladi masmudi
 	}
 	regions = { 
 		world_europe_west_iberia
-		1066.1.1 = custom_maghreb_struggle
+		custom_maghreb_struggle
 	}
 
 	# A culture or faith becomes involved if 80% of the total number of counties belonging to it are inside the struggle region.
