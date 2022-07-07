@@ -2087,7 +2087,7 @@ c_dinawar = {
 		holder = 93311
 	}
 	1211.1.1 = {
-		holder = 93312
+		holder = 93214 # Sharaf ad-Din Abu Bakr
 	}
 	1218.1.1 = {
 		holder = 93313
@@ -3642,7 +3642,7 @@ d_kermanshah = {
 		holder=93052
 	}
 	1210.1.1= {
-		holder=93054
+		holder = 93214 # Sharaf ad-Din Abu Bakr
 	}
 	1221.1.1= {
 		liege="e_mongol_empire"
@@ -3728,7 +3728,7 @@ c_kermanshah = {
 		holder = 144058
 	}
 	1190.1.1 = {
-		holder = 93201
+		holder = 93214 # Sharaf ad-Din Abu Bakr
 	}
 	1230.1.1 = {
 		holder = 93202
@@ -3788,7 +3788,7 @@ c_masabadhan = {
 		holder = 144058
 	}
 	1190.1.1 = {
-		holder = 93201
+		holder = 93214 # Sharaf ad-Din Abu Bakr
 	}
 	1230.1.1 = {
 		holder = 93202
@@ -3864,7 +3864,7 @@ c_saimara = {
 		holder = 144064
 	}
 	1180.1.1 = {
-		holder = 227000
+		holder = 93214 # Sharaf ad-Din Abu Bakr
 	}
 	1220.1.1 = {
 		holder = 34028

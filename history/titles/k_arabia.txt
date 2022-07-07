@@ -2285,6 +2285,20 @@ d_yamama = {
 		holder = 210002 # Yazid al-Muhallabi
 	}
 	#Banu Numayr
+	575.1.1 = {
+		government = tribal_government
+		holder = azd_ancestor_002
+	}
+	612.1.1 = {
+		holder = azd_ancestor_001
+	}
+	682.1.1 = {
+		holder = yamama_vassal_001
+	}
+	750.1.1 = {
+		holder = yamama_vassal_002
+	}
+
 	800.1.1 = {
 		government = tribal_government
 		holder = bedouin0044

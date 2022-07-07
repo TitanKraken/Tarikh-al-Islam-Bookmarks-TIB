@@ -612,7 +612,7 @@
 
 144065 = {
 	name = "Ortok"
-	dynasty = 100701
+	dynasty = 100701 # Ortokid / Artuqid
 	religion = "ashari"
 	culture = "turkish"
 	father = 1229930
@@ -626,7 +626,7 @@
 
 144066 = {
 	name = "Il-Ghazi"
-	dynasty = 100701
+	dynasty = 100701 # Ortokid / Artuqid
 	religion = "ashari"
 	culture = "turkish"
 	father = 144065
@@ -640,7 +640,7 @@
 
 144067 = {
 	name = "Sokman"
-	dynasty = 100701
+	dynasty = 100701 # Ortokid / Artuqid
 	religion = "ashari"
 	culture = "turkish"
 	father = 144065
@@ -654,7 +654,7 @@
 
 144068 = {
 	name = "Barkam"
-	dynasty = 100701
+	dynasty = 100701 # Ortokid / Artuqid
 	religion = "ashari"
 	culture = "turkish"
 	father = 144065
@@ -668,7 +668,7 @@
 
 144069 = {
 	name = "Balek"
-	dynasty = 100701
+	dynasty = 100701 # Ortokid / Artuqid
 	religion = "ashari"
 	culture = "turkish"
 	father = 144068
@@ -682,7 +682,7 @@
 
 144070 = {
 	name = "Davud"
-	dynasty = 100701
+	dynasty = 100701 # Ortokid / Artuqid
 	religion = "ashari"
 	culture = "turkish"
 	father = 144067
@@ -696,7 +696,7 @@
 
 144071 = {
 	name = "Kara_Arslan"
-	dynasty = 100701
+	dynasty = 100701 # Ortokid / Artuqid
 	religion = "ashari"
 	culture = "turkish"
 	father = 144070
@@ -710,7 +710,7 @@
 
 144072 = {
 	name = "Nur_ed-Din_Mohammed"
-	dynasty = 100701
+	dynasty = 100701 # Ortokid / Artuqid
 	religion = "ashari"
 	culture = "turkish"
 	father = 144071
@@ -807,7 +807,7 @@
 
 144123 = {
 	name = "Sabuktigin" # Founder of the Ghaznavids
-	dynasty = 790
+	dynasty = 790 # Ghaznavid
 	religion = "ashari"
 	culture = "turkish"
 
@@ -835,7 +835,7 @@
 
 144124 = {
 	name = "Ismail"
-	dynasty = 790
+	dynasty = 790 # Ghaznavid
 	religion = "ashari"
 	culture = "turkish"
 	father = 144123
@@ -850,7 +850,7 @@
 
 144125 = {
 	name = "Mahmud"
-	dynasty = 790
+	dynasty = 790 # Ghaznavid
 	religion = "ashari"
 	culture = "turkish"
 	father = 144123
@@ -865,7 +865,7 @@
 
 144126 = {
 	name = "Muhammad"
-	dynasty = 790
+	dynasty = 790 # Ghaznavid
 	religion = "ashari"
 	culture = "turkish"
 	father = 144125
@@ -879,7 +879,7 @@
 
 144127 = {
 	name = "Musud"
-	dynasty = 790
+	dynasty = 790 # Ghaznavid
 	religion = "ashari"
 	culture = "turkish"
 	father = 144125
@@ -893,7 +893,7 @@
 
 144128 = {
 	name = "Mawdud"
-	dynasty = 790
+	dynasty = 790 # Ghaznavid
 	religion = "ashari"
 	culture = "turkish"
 	father = 144127
@@ -907,7 +907,7 @@
 
 144129 = {
 	name = "Masud"
-	dynasty = 790
+	dynasty = 790 # Ghaznavid
 	religion = "ashari"
 	culture = "turkish"
 	father = 144128
@@ -921,7 +921,7 @@
 
 144130 = {
 	name = "Ali"
-	dynasty = 790
+	dynasty = 790 # Ghaznavid
 	religion = "ashari"
 	culture = "turkish"
 	father = 144127
@@ -935,7 +935,7 @@
 
 144131 = {
 	name = "Abd_al-Rashid"
-	dynasty = 790
+	dynasty = 790 # Ghaznavid
 	religion = "ashari"
 	culture = "turkish"
 	father = 144125
@@ -949,7 +949,7 @@
 
 144132 = {
 	name = "Farrukhzad"
-	dynasty = 790
+	dynasty = 790 # Ghaznavid
 	religion = "ashari"
 	culture = "turkish"
 	father = 144127
@@ -963,7 +963,7 @@
 
 144133 = {
 	name = "Ibrahim"
-	dynasty = 790
+	dynasty = 790 # Ghaznavid
 	religion = "ashari"
 	culture = "turkish"
 	father = 144127
@@ -977,7 +977,7 @@
 
 144134 = {
 	name = "Masud"
-	dynasty = 790
+	dynasty = 790 # Ghaznavid
 	religion = "ashari"
 	culture = "turkish"
 	father = 144133
@@ -991,7 +991,7 @@
 
 144135 = {
 	name = "Shirzad"
-	dynasty = 790
+	dynasty = 790 # Ghaznavid
 	religion = "ashari"
 	culture = "turkish"
 	father = 144134
@@ -1005,7 +1005,7 @@
 
 144136 = {
 	name = "Arlsan_Shah"
-	dynasty = 790
+	dynasty = 790 # Ghaznavid
 	religion = "ashari"
 	culture = "turkish"
 	father = 144135
@@ -1019,7 +1019,7 @@
 
 144137 = {
 	name = "Bahram_Shah"
-	dynasty = 790
+	dynasty = 790 # Ghaznavid
 	religion = "ashari"
 	culture = "turkish"
 	father = 144135
@@ -1033,7 +1033,7 @@
 
 144138 = {
 	name = "Khusraw_Shah"
-	dynasty = 790
+	dynasty = 790 # Ghaznavid
 	religion = "ashari"
 	culture = "turkish"
 	father = 144137
@@ -1047,7 +1047,7 @@
 
 144139 = {
 	name = "Khusraw_Malik"
-	dynasty = 790
+	dynasty = 790 # Ghaznavid
 	religion = "ashari"
 	culture = "turkish"
 	father = 144138
@@ -1580,7 +1580,7 @@
 
 225010 = {
 	name = "Sokman"
-	dynasty = 100701
+	dynasty = 100701 # Ortokid / Artuqid
 	martial = 7
 	diplomacy = 6
 	intrigue = 4
@@ -5311,7 +5311,7 @@ Rum_Female_001 = {
 
 34241 = {
 	name = "Ibrahim"
-	dynasty = 100701
+	dynasty = 100701 # Ortokid / Artuqid
 	religion = "ashari"
 	culture = "turkish"
 	father = 144067
@@ -5325,7 +5325,7 @@ Rum_Female_001 = {
 
 34242 = {
 	name = "Mahmud"
-	dynasty = 100701
+	dynasty = 100701 # Ortokid / Artuqid
 	religion = "ashari"
 	culture = "turkish"
 	father = 144072
@@ -5339,7 +5339,7 @@ Rum_Female_001 = {
 
 34243 = {
 	name = "Mawdud"
-	dynasty = 100701
+	dynasty = 100701 # Ortokid / Artuqid
 	religion = "ashari"
 	culture = "turkish"
 	father = 144072
@@ -5353,7 +5353,7 @@ Rum_Female_001 = {
 
 34244 = {
 	name = "Abu-Bakr"
-	dynasty = 100701
+	dynasty = 100701 # Ortokid / Artuqid
 	religion = "ashari"
 	culture = "turkish"
 	father = 144071
@@ -5367,7 +5367,7 @@ Rum_Female_001 = {
 
 34245 = {
 	name = "Ibrahim"
-	dynasty = 100701
+	dynasty = 100701 # Ortokid / Artuqid
 	religion = "ashari"
 	culture = "turkish"
 	father = 34244
@@ -5381,7 +5381,7 @@ Rum_Female_001 = {
 
 34246 = {
 	name = "Ahmad"
-	dynasty = 100701
+	dynasty = 100701 # Ortokid / Artuqid
 	religion = "ashari"
 	culture = "turkish"
 	father = 34245
@@ -5395,7 +5395,7 @@ Rum_Female_001 = {
 
 34247 = {
 	name = "Ortok"
-	dynasty = 100701
+	dynasty = 100701 # Ortokid / Artuqid
 	religion = "ashari"
 	culture = "turkish"
 	father = 34246
@@ -5409,7 +5409,7 @@ Rum_Female_001 = {
 
 34248 = {
 	name = "Alp_Yaruk"
-	dynasty = 100701
+	dynasty = 100701 # Ortokid / Artuqid
 	religion = "ashari"
 	culture = "turkish"
 	father = 144065
@@ -5423,7 +5423,7 @@ Rum_Female_001 = {
 
 34249 = {
 	name = "Timurtash"
-	dynasty = 100701
+	dynasty = 100701 # Ortokid / Artuqid
 	religion = "ashari"
 	culture = "turkish"
 	father = 144066
@@ -5437,7 +5437,7 @@ Rum_Female_001 = {
 
 34250 = {
 	name = "Alpi"
-	dynasty = 100701
+	dynasty = 100701 # Ortokid / Artuqid
 	religion = "ashari"
 	culture = "turkish"
 	father = 34249
@@ -5451,7 +5451,7 @@ Rum_Female_001 = {
 
 34251 = {
 	name = "Il-Ghazi"
-	dynasty = 100701
+	dynasty = 100701 # Ortokid / Artuqid
 	religion = "ashari"
 	culture = "turkish"
 	father = 34250
@@ -5465,7 +5465,7 @@ Rum_Female_001 = {
 
 34252 = {
 	name = "YU_lU_k_Arslan"
-	dynasty = 100701
+	dynasty = 100701 # Ortokid / Artuqid
 	religion = "ashari"
 	culture = "turkish"
 	father = 34251
@@ -5479,7 +5479,7 @@ Rum_Female_001 = {
 
 34253 = {
 	name = "Artuk_Arslan"
-	dynasty = 100701
+	dynasty = 100701 # Ortokid / Artuqid
 	religion = "ashari"
 	culture = "turkish"
 	father = 34251
@@ -5493,7 +5493,7 @@ Rum_Female_001 = {
 
 34254 = {
 	name = "Ghazi"
-	dynasty = 100701
+	dynasty = 100701 # Ortokid / Artuqid
 	religion = "ashari"
 	culture = "turkish"
 	father = 34252
@@ -5507,7 +5507,7 @@ Rum_Female_001 = {
 
 34255 = {
 	name = "Kara_Arslan"
-	dynasty = 100701
+	dynasty = 100701 # Ortokid / Artuqid
 	religion = "ashari"
 	culture = "turkish"
 	father = 34254
@@ -5521,7 +5521,7 @@ Rum_Female_001 = {
 
 34256 = {
 	name = "Ghazi"
-	dynasty = 100701
+	dynasty = 100701 # Ortokid / Artuqid
 	religion = "ashari"
 	culture = "turkish"
 	father = 34254
@@ -5535,7 +5535,7 @@ Rum_Female_001 = {
 
 34257 = {
 	name = "Alpi"
-	dynasty = 100701
+	dynasty = 100701 # Ortokid / Artuqid
 	religion = "ashari"
 	culture = "turkish"
 	father = 34256
@@ -5549,7 +5549,7 @@ Rum_Female_001 = {
 
 34258 = {
 	name = "Mahmud"
-	dynasty = 100701
+	dynasty = 100701 # Ortokid / Artuqid
 	religion = "ashari"
 	culture = "turkish"
 	father = 34256
@@ -5563,7 +5563,7 @@ Rum_Female_001 = {
 
 34259 = {
 	name = "Ahmad"
-	dynasty = 100701
+	dynasty = 100701 # Ortokid / Artuqid
 	religion = "ashari"
 	culture = "turkish"
 	father = 34258
@@ -5577,7 +5577,7 @@ Rum_Female_001 = {
 
 34260 = {
 	name = "Dawud"
-	dynasty = 100701
+	dynasty = 100701 # Ortokid / Artuqid
 	religion = "ashari"
 	culture = "turkish"
 	father = 34259
@@ -5591,7 +5591,7 @@ Rum_Female_001 = {
 
 34261 = {
 	name = "Isa"
-	dynasty = 100701
+	dynasty = 100701 # Ortokid / Artuqid
 	religion = "ashari"
 	culture = "turkish"
 	father = 34260
@@ -7398,7 +7398,7 @@ ibn_mamdud = { # Just to complete Sultan Qutuz's lineage
 
 93460 = {
 	name = "Suleyman"
-	dynasty = 100701
+	dynasty = 100701 # Ortokid / Artuqid
 	religion = "ashari"
 	culture = "turkish"
 	father = 144066
@@ -9016,7 +9016,7 @@ ibn_mamdud = { # Just to complete Sultan Qutuz's lineage
 	736.1.1 = {
 		birth = yes
 	}
-	790.1.1 = {
+	790 # Ghaznavid.1.1 = {
 		death = yes
 	}
 }
@@ -9181,7 +9181,7 @@ ibn_mamdud = { # Just to complete Sultan Qutuz's lineage
 	732.1.1 = {
 		birth = yes
 	}
-	790.1.1 = {
+	790 # Ghaznavid.1.1 = {
 		death = yes
 	}
 }
@@ -10866,7 +10866,7 @@ ibn_mamdud = { # Just to complete Sultan Qutuz's lineage
 1000230134 = {
 	name = "Khurra-ji"
 	female = yes
-	dynasty = 790
+	dynasty = 790 # Ghaznavid
 	religion = ashari
 	culture = turkish #turkmen
 	father = 144123
@@ -11578,7 +11578,7 @@ ibn_mamdud = { # Just to complete Sultan Qutuz's lineage
 #Artuqids/Artuqlar
 1229930 = {
 	name = "Eksu_k"
-	dynasty = 100701
+	dynasty = 100701 # Ortokid / Artuqid
 	religion = ashari
 	culture = turkish #oghuz
 	1014.1.2 = {
@@ -11689,7 +11689,7 @@ ibn_mamdud = { # Just to complete Sultan Qutuz's lineage
 
 1229938 = {
 	name = "Qarategin" # name fictional, father of Sabuktegin and Bughrachuq
-	dynasty = 790
+	dynasty = 790 # Ghaznavid
 	religion = "tengri_pagan"
 	culture = "karluk"
 	910.1.1 = { #?

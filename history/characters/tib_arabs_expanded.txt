@@ -1,7 +1,7 @@
 ﻿# al-Thaqafi (From Ta'if)
-yusuf_al_thaqafi_old = {
+yusuf_house_Thaqafi_old = {
 	name = "Yusuf"
-	dynasty = al_thaqafi
+	dynasty_house = house_Thaqafi
 	religion = "ashari"
 	culture = "bedouin"
 	568.1.1 = {
@@ -12,9 +12,9 @@ yusuf_al_thaqafi_old = {
 	}
 }
 
-al_hajjaj_al_thaqafi = {
+al_hajjaj_house_Thaqafi = {
 	name = "al-Hajjaj"
-	dynasty = al_thaqafi
+	dynasty = house_Thaqafi
 	religion = "ashari"
 	culture = "bedouin"
 	661.1.1 = {
@@ -24,12 +24,12 @@ al_hajjaj_al_thaqafi = {
 		death = yes
 	}
 }
-muhammad_al_thaqafi = {
+muhammad_house_Thaqafi = {
 	name = "Muhammad"
-	dynasty = al_thaqafi
+	dynasty = house_Thaqafi
 	religion = "ashari"
 	culture = "bedouin"
-	father = yusuf_al_thaqafi_old
+	father = yusuf_house_Thaqafi_old
 	trait = diligent
 	651.1.1 = {
 		birth = yes
@@ -42,10 +42,10 @@ muhammad_al_thaqafi = {
 umm_al_hajjaj = {
 	name = "Umm al-Hajjaj"
     female = yes
-	dynasty = al_thaqafi
+	dynasty = house_Thaqafi
 	religion = "ashari"
 	culture = "bedouin"
-	father = muhammad_al_thaqafi
+	father = muhammad_house_Thaqafi
 	671.1.1 = {
 		birth = yes
 	}
@@ -54,12 +54,12 @@ umm_al_hajjaj = {
 	}
 }
 
-yusuf_al_thaqafi = { #Governor of Medina probably after coronation of Caliph Umar II
+yusuf_house_Thaqafi = { #Governor of Medina probably after coronation of Caliph Umar II
 	name = "Yusuf"
-	dynasty = al_thaqafi
+	dynasty = house_Thaqafi
 	religion = "ashari"
 	culture = "bedouin"
-	father = muhammad_al_thaqafi
+	father = muhammad_house_Thaqafi
 	677.1.1 = {
 		birth = yes
 	}
@@ -68,9 +68,9 @@ yusuf_al_thaqafi = { #Governor of Medina probably after coronation of Caliph Uma
 	}
 }
 
-umar_al_thaqafi = { # Fictional Governor of Yemen 
+umar_house_Thaqafi = { # Fictional Governor of Yemen 
 	name = "Umar"
-	dynasty = al_thaqafi
+	dynasty = house_Thaqafi
 	religion = "ashari"
 	culture = "bedouin"
 	677.1.1 = {
@@ -81,12 +81,12 @@ umar_al_thaqafi = { # Fictional Governor of Yemen
 	}
 }
 
-yusuf_ibn_umar_al_thaqafi = {
+yusuf_ibn_umar_house_Thaqafi = {
 	name = "Yusuf"
-	dynasty = al_thaqafi
+	dynasty = house_Thaqafi
 	religion = "ashari"
 	culture = "bedouin"
-	father = umar_al_thaqafi
+	father = umar_house_Thaqafi
 	698.1.1 = {
 		birth = yes
 	}
@@ -271,16 +271,71 @@ syrte_berber_vassal_001 = {
 		death = yes
 	}
 }
-oman_vassal_001 = {
-	name = "Abdul_Qadir"
+oman_vassal_001 = { # His son, al-Julanda is supposed to be the first Ibadi imam
+	name = "Mas_ud"
 	dynasty = 1042181 # Banu 'Azd of Oman
 	religion = ibadi
 	culture = bedouin
+	father = azd_ancestor_001
 	
-	685.1.1 = { # Fictional
+	680.1.1 = { # Fictional
 		birth = yes
 	}
 	730.1.1 = { # Fictional
+		death = yes
+	}
+}
+azd_ancestor_001 = {
+	name = "Jayfar"
+	dynasty = 1042181 # Banu 'Azd of Oman
+	religion = ashari
+	culture = bedouin
+	father = azd_ancestor_002
+	
+	610.1.1 = { # Fictional
+		birth = yes
+	}
+	682.1.1 = { # Fictional
+		death = yes
+	}
+}
+azd_ancestor_002 = {
+	name = "al-Julanda"
+	dynasty = 1042181 # Banu 'Azd of Oman
+	religion = pagan
+	culture = bedouin
+	
+	550.1.1 = { # Fictional
+		birth = yes
+	}
+	612.1.1 = { # Fictional
+		death = yes
+	}
+}
+yamama_vassal_001 = {
+	name = "Hamza"
+	dynasty = house_Numayr
+	religion = ashari
+	culture = bedouin
+
+	690.1.1 = { # Fictional
+		birth = yes
+	}
+	750.1.1 = { # Fictional
+		death = yes
+	}
+}
+yamama_vassal_002 = {
+	name = "Umar"
+	dynasty = house_Numayr
+	religion = ashari
+	culture = bedouin
+	father = yamama_vassal_001
+
+	730.1.1 = { # Fictional
+		birth = yes
+	}
+	800.1.1 = { # Fictional
 		death = yes
 	}
 }

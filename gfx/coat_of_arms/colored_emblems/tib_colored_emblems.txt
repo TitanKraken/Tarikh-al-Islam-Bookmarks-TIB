@@ -31,5 +31,7 @@
 # Double underscore intentional to make it the first option in the list
 
 tib_saladin_standard_eagle.dds = { colors = 2 category = animals }
+tib_seljuk_eagle.dds = { colors = 1 category = animals }
 tib_arabic_shahada_maghrebi.dds = { colors = 1 category = writing }
 tib_arabic_shahada_maghrebi_shrinked.dds = { colors = 1 category = writing }
+national_emblem_of_oman.dds = { colors = 2 category = manmade }

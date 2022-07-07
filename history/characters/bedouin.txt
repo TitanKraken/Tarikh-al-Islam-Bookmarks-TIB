@@ -12419,6 +12419,7 @@ bedouin0044 = {
 	dynasty_house = house_Numayr
 	religion = "ashari"
 	culture = "bedouin"
+	father = yamama_vassal_002
 	776.1.1 = {
 		birth = yes
 	}

@@ -838,6 +838,7 @@
 		effect = {
 			add_character_modifier = {
 				modifier = the_great_khan_modifier
+				modifier = divine_guidance_modifier
 			}		
 			add_prestige = 20000
 			spawn_mongol_troops_effect = yes
@@ -863,7 +864,7 @@
 
 125502 = {
 	name = "Jochi"
-	dynasty = 11100
+	dynasty_house = house_Jochid
 	martial = 8		
 	religion = "tengri_pagan"
 	culture = "mongol"
@@ -884,9 +885,9 @@
 			set_relation_rival = character:93062 #Becomes rivals with Chagatai
 		}
 	}
-	1226.12.2={
-		dynasty_house = house_Jochid
-	}
+	#1226.12.2={
+	#	dynasty_house = house_Jochid
+	#}
 	1227.1.2 = {
 		death = "1227.1.2"
 	}
@@ -894,7 +895,7 @@
 
 125503 = {
 	name = "Batu"
-	dynasty = 11100
+	dynasty_house = house_Jochid
 	martial = 10
 	religion = "tengri_pagan"
 	culture = "mongol"
@@ -915,9 +916,9 @@
 			add_gold = 5000
 		}
 	}
-	1227.12.2={
-		dynasty_house = house_Jochid
-	}
+	#1227.12.2={
+	#	dynasty_house = house_Jochid
+	#}
 	1232.1.1 = {
 		effect = {
 			add_gold = 5000
@@ -935,7 +936,7 @@
 
 125504 = {
 	name = "Berke"
-	dynasty = 11100
+	dynasty_house = house_Jochid
 	martial = 4
 	diplomacy = 8
 	intrigue = 5
@@ -950,9 +951,9 @@
 	1209.1.2 = {
 		birth = "1209.1.2"
 	}
-	1227.12.2={
-		dynasty_house = house_Jochid
-	}
+	#1227.12.2={
+	#	dynasty_house = house_Jochid
+	#}
 	1240.1.2 = {
 		religion = "ashari"
 		trait = zealous
@@ -971,7 +972,7 @@
 
 125505 = {
 	name = "Sartag"
-	dynasty = 11100
+	dynasty_house = house_Jochid
 	religion = "tengri_pagan"
 	culture = "mongol"
 	father = 125503
@@ -979,9 +980,9 @@
 	1223.1.2 = {
 		birth = "1223.1.2"
 	}
-	1227.12.2={
-		dynasty_house = house_Jochid
-	}
+	#1227.12.2={
+	#	dynasty_house = house_Jochid
+	#}
 	1246.1.1 = {
 		add_spouse = DuloFemale1
 	}
@@ -1007,7 +1008,7 @@
 }
 125507 = {
 	name="Togha"
-	dynasty=11100
+	dynasty_house = house_Jochid
 	religion="tengri_pagan"
 	culture="mongol"
 	father=125503
@@ -1015,9 +1016,9 @@
 	1224.1.2={
 		birth="1224.1.2"
 	}
-	1227.12.2={
-		dynasty_house = house_Jochid
-	}
+	#1227.12.2={
+		#dynasty_house = house_Jochid
+	#}
 	1266.1.2={
 		death="1266.1.2"
 	}
@@ -1144,7 +1145,7 @@
 }
 125516 = {
 	name="Teval" #Buval
-	dynasty=11100
+	dynasty_house = house_Jochid
 	religion="tengri_pagan"
 	culture="mongol"
 	father=125502
@@ -1152,9 +1153,9 @@
 	1211.1.2={
 		birth="1211.1.2"
 	}
-	1227.12.2={
-		dynasty_house = house_Jochid
-	}
+	#1227.12.2={
+	#	dynasty_house = house_Jochid
+	#}
 	1229.12.11={
 		dynasty_house = house_Tevalid
 	}
@@ -1167,16 +1168,16 @@
 }
 125517 = {
 	name="Tatar"
-	dynasty=11100
+	dynasty_house = house_Jochid
 	religion="tengri_pagan"
 	culture="mongol"
 	father=125516
 	1225.1.2={
 		birth="1225.1.2"
 	}
-	1227.12.2={
-		dynasty_house = house_Jochid
-	}
+	#1227.12.2={
+		#dynasty_house = house_Jochid
+	#}
 	1229.12.11={
 		dynasty_house = house_Tevalid
 	}
@@ -1246,7 +1247,7 @@
 
 125520 = {
 	name="Tolui"
-	dynasty=11100
+	dynasty_house = house_Toluid
 	martial=8
 	diplomacy=8
 	religion="tengri_pagan"
@@ -1269,9 +1270,9 @@
 		add_spouse = 172010
 	}
 	
-	1227.12.2 = {
-		dynasty_house = house_Toluid
-	}
+	#1227.12.2 = {
+		#dynasty_house = house_Toluid
+	#}
 	1232.1.1 = {
 		death="1232.1.1"
 	}
@@ -1959,7 +1960,7 @@ IlkhanateFemale4 = {
 
 478011 = {
 	name = "Hulegu"
-	dynasty = 11100
+	dynasty_house = house_Toluid
 	martial = 10
 	religion = "tengri_pagan"
 	culture = "mongol"
@@ -1973,9 +1974,9 @@ IlkhanateFemale4 = {
 	1217.1.1 = {
 		birth = yes
 	}
-	1227.12.2 = {
-		dynasty_house = house_Toluid
-	}
+	#1227.12.2 = {
+		#dynasty_house = house_Toluid
+	#}
 	1234.1.1 = {
      	add_spouse = 166940
     }
@@ -3845,7 +3846,7 @@ subutai_mongol_general = {
 
 93062 = {
 	name = "Chagatai" 
-	dynasty = 11100
+	dynasty_house = house_Chagatayid
 	martial = 8
 	stewardship = 8
 	religion = "tengri_pagan"
@@ -3875,9 +3876,9 @@ subutai_mongol_general = {
 		remove_trait = rowdy
 		add_trait = education_martial_3						  
 	}
-	1227.12.2 = {
-		dynasty_house = house_Chagatayid
-	}
+	#1227.12.2 = {
+		#dynasty_house = house_Chagatayid
+	#}
 	1232.1.1 = {
 		effect = {
 			add_gold = 5000
@@ -3901,7 +3902,7 @@ subutai_mongol_general = {
 }
 93063 = {
 	name="Mö'etüken" 
-	dynasty=11100
+	dynasty_house = house_Chagatayid
 	religion="tengri_pagan"
 	culture="mongol"
 	father=93062
@@ -3909,9 +3910,9 @@ subutai_mongol_general = {
 	1200.1.1={
 		birth="1200.1.1"
 	}
-	1227.12.2={
-		dynasty_house = house_Chagatayid
-	}
+	#1227.12.2={
+		#dynasty_house = house_Chagatayid
+	#}
 	1240.1.1={
 		death="1240.1.1"
 	}
@@ -3931,7 +3932,7 @@ sons_of_mutukan_001 = {
 }
 93064 = {
 	name="Qara-Hülögü" 
-	dynasty=11100
+	dynasty_house = house_Chagatayid
 	religion="tengri_pagan"
 	culture="mongol"
 	trait="education_stewardship_3" 
@@ -3942,9 +3943,9 @@ sons_of_mutukan_001 = {
 	1223.1.1={
 		birth="1223.1.1"
 	}
-	1227.12.2={
-		dynasty_house = house_Chagatayid
-	}
+	#1227.12.2={
+	#	dynasty_house = house_Chagatayid
+	#}
 	1234.1.1={
      add_spouse=166904
     }
@@ -3954,7 +3955,7 @@ sons_of_mutukan_001 = {
 }
 93065 = {
 	name="Yesü Möngke" 
-	dynasty=11100
+	dynasty_house = house_Chagatayid
 	religion="tengri_pagan"
 	culture="mongol"
 	father=93062
@@ -3964,9 +3965,9 @@ sons_of_mutukan_001 = {
 	1202.1.1={
 		birth="1202.1.1"
 	}
-	1227.12.2={
-		dynasty_house = house_Chagatayid
-	}
+	#1227.12.2={
+		#dynasty_house = house_Chagatayid
+	#}
 	1246.1.1 = {
 		trait = drunkard
 	}
@@ -4066,7 +4067,7 @@ ChagataiFemale4 = {
 
 93067 = {
 	name = "Baidar" 
-	dynasty = 11100
+	dynasty_house = house_Chagatayid
 	religion = "tengri_pagan"
 	culture = "mongol"
 	father = 93062
@@ -4076,9 +4077,9 @@ ChagataiFemale4 = {
 	1206.1.1 = {
 		birth = "1206.1.1"
 	}
-	1227.12.2 = {
-		dynasty_house = house_Chagatayid
-	}
+	#1227.12.2 = {
+	#	dynasty_house = house_Chagatayid
+	#}
 	1247.1.1 = {
 		death = "1247.1.1"
 	}
@@ -4912,7 +4913,7 @@ mongol_placeholder_001 = {
 
 172005 = {
 	name = "Ogodei" # Ögedei Khan
-	dynasty = 11100
+	dynasty_house = house_Ogodeid
 	religion = "tengri_pagan"
 	culture = "mongol"
 	father = 125501
@@ -4935,9 +4936,9 @@ mongol_placeholder_001 = {
 		remove_trait = rowdy
 		add_trait = education_martial_3
 	}
-	1227.12.2={
-		dynasty_house = house_Ogodeid
-	}
+	#1227.12.2={
+		#dynasty_house = house_Ogodeid
+	#}
 	1232.1.1 = {
 		effect = {
 			add_gold = 5000
@@ -4977,7 +4978,7 @@ mongol_placeholder_001 = {
 }
 172007 = {
 	name="Guyug" # Güyük Khan
-	dynasty=11100
+	dynasty_house = house_Ogodeid
 	religion="tengri_pagan"
 	culture="mongol"
 	father=172005
@@ -4989,16 +4990,16 @@ mongol_placeholder_001 = {
 	1220.1.1={
      add_spouse=166908
    }
-	1227.12.2={
-		dynasty_house = house_Ogodeid
-	}
+	#1227.12.2={
+		#dynasty_house = house_Ogodeid
+	#}
 	1248.4.20={
 		death = yes
 	}
 }
 172008 = {
    name="Kadan"
-   dynasty=11100
+   dynasty_house = house_Ogodeid
    religion="tengri_pagan"
    culture="mongol"
    father=172005
@@ -5007,16 +5008,16 @@ mongol_placeholder_001 = {
    1210.1.1={
      birth=yes
    }
-   1227.12.2={
-		dynasty_house = house_Ogodeid
-	}
+   #1227.12.2={
+		#dynasty_house = house_Ogodeid
+	#}
    1252.1.1={
     death = yes
    }
 }
 172009 = {
 	name="Godan"
-	dynasty=11100
+	dynasty_house = house_Ogodeid
 	religion="tengri_pagan"
 	culture="mongol"
 	father=172005
@@ -5024,9 +5025,9 @@ mongol_placeholder_001 = {
 	1207.1.1={
 		birth="1207.1.1"
 	}
-	1227.12.2={
-		dynasty_house = house_Ogodeid
-	}
+	#1227.12.2={
+		#dynasty_house = house_Ogodeid
+	#}
 	1247.1.1={
 		religion="lamaism"
 	}#converted to Tibetan Buddhism by Sakya Pandita

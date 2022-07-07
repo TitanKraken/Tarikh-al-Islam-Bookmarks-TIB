@@ -64,6 +64,12 @@ k_dzungaria = {
 	1123.10.14 = {
 		holder = 302982	#Bilge (Bilg�)
 	}
+
+	# Kara Khitai appears
+	1124.1.1 = {
+		de_jure_liege = e_kara_khitai
+	}
+	
 	#Missing history - fictional placeholders
 	1130.5.17 = {
 		holder = 302982

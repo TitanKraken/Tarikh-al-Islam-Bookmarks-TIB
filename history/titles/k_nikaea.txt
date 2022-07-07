@@ -252,11 +252,11 @@ c_mysia = {
 
 }
 
-b_poimanenon = {
-	710.1.1 = {
-		holder = 70532 # Theodosius III still a tax collector at Adramyttium
-	}
-}
+#b_poimanenon = { # Disabled because it causes the Byzantine empire to be republic
+	#710.1.1 = {
+		#holder = 70532 # Theodosius III still a tax collector at Adramyttium
+	#}
+#}
 
 c_prusa = {
 	330.1.1 = {
