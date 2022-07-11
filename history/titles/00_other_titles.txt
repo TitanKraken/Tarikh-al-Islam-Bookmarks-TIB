@@ -5453,6 +5453,9 @@ d_yungdrung_bon = {
 }
 
 d_imami = { # Twelver Imams
+	632.6.8 = {
+		insert_title_history = d_shiite
+	}
 	765.12.14 = {
 		succession_laws = {
 			temporal_head_of_faith_succession_law
@@ -5479,5 +5482,27 @@ d_imami = { # Twelver Imams
 	}
 	909.1.1 = {
 		holder = 0
+	}
+}
+
+d_kaysanite = { # Muhammad ibn al-Hanafiyyah's line
+	632.6.8 = {
+		insert_title_history = d_shiite
+	}
+	765.12.14 = {
+		succession_laws = {
+			temporal_head_of_faith_succession_law
+		}
+		holder_ignore_head_of_faith_requirement = 163022 # Musa al-Kadhim
+	}
+	681.1.1 = {
+		holder = 163042 # Muhammad ibn al-Hanafiyyah
+		liege = e_arabia
+	}
+	700.1.1 = {
+		holder = abu_hashim_hanafiyyah
+	}
+	713.1.1 = {
+		holder_ignore_head_of_faith_requirement = 34000 # Muhammad ibn Ali al-Abbasi
 	}
 }

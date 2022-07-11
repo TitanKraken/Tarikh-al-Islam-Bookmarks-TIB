@@ -1,0 +1,73 @@
+﻿# Muslim version of the Blood of the Prophet-trait. Muslim agnatically descended from Muhammed. Female version is localized 'Sayyida'
+sayyid_quraysh = {
+	fame = yes
+	
+	islam_religion_opinion = 5
+	
+	ruler_designer_cost = 25
+	
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_sayyid_quraysh
+			}
+			triggered_desc = {
+				trigger = { is_female = yes }
+				desc = trait_sayyida_quraysh
+			}
+			desc = trait_sayyid_quraysh
+		}
+	}
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_sayyid_quraysh_desc
+			}
+			desc = trait_sayyid_quraysh_character_desc
+		}
+	}
+
+	inherit_chance = 100
+	parent_inheritance_sex = male
+	inherit_from_real_father = no
+}
+
+salaf_al_salih = { # Muslim pious predeccessors
+	fame = yes
+	monthly_piety = 2
+	
+	islam_religion_opinion = 50
+	
+	shown_in_ruler_designer = no
+	
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_salaf_al_salih
+			}
+			triggered_desc = {
+				trigger = { is_female = yes }
+				desc = trait_salafa_al_saliha
+			}
+			desc = trait_salaf_al_salih
+		}
+	}
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_salaf_al_salih_desc
+			}
+			desc = trait_salaf_al_salih_character_desc
+		}
+	}
+
+	inherit_chance = 100
+	parent_inheritance_sex = male
+	inherit_from_real_father = no
+}

@@ -200,7 +200,7 @@ d_sunni = {
 	color2 = { 220 220 0 }
 	definite_form = yes
 	ruler_uses_title_name = no
-	no_automatic_claims = yes
+	#no_automatic_claims = yes
 	always_follows_primary_heir = yes
 	destroy_if_invalid_heir = yes
 	can_be_named_after_dynasty = no
@@ -210,7 +210,7 @@ d_muwalladi = {
 	color = { 0 0.4 0 }
 	definite_form = yes
 	ruler_uses_title_name = no
-	no_automatic_claims = yes
+	#no_automatic_claims = yes
 	always_follows_primary_heir = yes
 	destroy_if_invalid_heir = yes
 	can_be_named_after_dynasty = no
@@ -230,6 +230,17 @@ d_shiite = {
 
 d_imami = {
 	color = { 28 142 62 }
+	color2 = { 220 220 0 }
+	definite_form = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	destroy_if_invalid_heir = yes
+	can_be_named_after_dynasty = no
+}
+
+d_kaysanite = {
+	color = { 197 180 67 }
 	color2 = { 220 220 0 }
 	definite_form = yes
 	ruler_uses_title_name = no

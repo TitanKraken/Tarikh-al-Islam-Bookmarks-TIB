@@ -24,6 +24,10 @@ house_Fatimid = {
     name = "Fatimid"
     dynasty = tribe_quraysh
 }
+house_Hanafiyyah = {
+    name = "Hanafid"
+    dynasty = tribe_quraysh
+}
 house_Rassid = {
     name = "Rassid"
     dynasty = tribe_quraysh

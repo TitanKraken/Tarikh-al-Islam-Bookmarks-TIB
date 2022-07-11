@@ -5,6 +5,7 @@
   Abbasid:0 "al-'Abbāsī"
   Umayyad:0 "al-Umawī"
   Fatimid:0 "al-Fātimī"
+  Hanafid:0 "al-Hanafiyyah"
   Alavid:0 "al-'Alawī"
   Idrisid:0 "al-Idrīsī"
   Rassid:0 "al-Rassī"
@@ -17,7 +18,7 @@
 
   dynn_Azd:0 "Azd"
   dynn_Banu_Numayr:0 "Banu Numayr"
-  dynn_Banu_Amir:0 "Banu 'Amirid"
+  dynn_Banu_Amir:0 "Banu 'Amir"
   dynn_Banu_Sulaym:0 "Banu Sulaym"
 
   dynn_Ogodeid:0 "Ogodeid"

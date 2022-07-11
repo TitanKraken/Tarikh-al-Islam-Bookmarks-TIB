@@ -1,18 +1,21 @@
-tib_morph_genes = {
+﻿morph_genes = {
     gene_bs_body_type = {
 
     group = body
     
-        no_portrait = {
+        tib_no_portrait = {
 			index = 4
 	        visible = no
 			male = {
 				setting = { attribute = "bs_no_portrait"	value = { min = 1.0 max = 1.0 }	} 
 				setting = { attribute = "bs_body_no_portrait"	value = { min = 1.0 max = 1.0 }	} 
 			}
-            female = male
+            female = {
+				setting = { attribute = "bs_female_no_portrait"	value = { min = 1.0 max = 1.0 }	} 
+				setting = { attribute = "bs_body_no_portrait"	value = { min = 1.0 max = 1.0 }	} 
+			}
             boy = male
-            girl = male
+            girl = female
 		} 
     }
 }

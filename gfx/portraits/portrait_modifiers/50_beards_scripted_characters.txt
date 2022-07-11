@@ -40,6 +40,7 @@ beards_scripted_characters = {
                 exists = character:easteregg_james_beaumont
                 this = character:easteregg_james_beaumont
             }
+            # TIB
             modifier = {
                 add = 200
                 exists = this
@@ -287,6 +288,7 @@ beards_scripted_characters = {
                 exists = character:108500 #king_alfonso
                 this = character:108500 #king_alfonso
             }
+            # TIB
             modifier = {
                 add = 200
 				exists = this
@@ -318,9 +320,10 @@ beards_scripted_characters = {
                 template = scripted_character_beards_01
                 value = 0.35 # For the randomness to work correctly
             }
-        }   
+        }
         weight = {
             base = 0
+            # TIB
             modifier = {
                 add = 200
 				exists = this

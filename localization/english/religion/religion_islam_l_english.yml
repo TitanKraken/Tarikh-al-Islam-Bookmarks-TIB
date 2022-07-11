@@ -18,14 +18,14 @@
  islam_good_god_the_one:0 "The One, The Indivisible"
  islam_good_god_the_prophet:0 "The Prophet"
  islam_good_god_muhammad:0 "Muhammad"
- islam_devil_name:0 "Shaitan"
- islam_devil_name_possessive:0 "Shaitan's"
+ islam_devil_name:0 "Shaytan"
+ islam_devil_name_possessive:0 "Shaytan's"
  islam_evil_god_iblis:0 "$islam_trickster_god_name$"
- islam_death_deity_name:0 "Azrail"
- islam_death_deity_name_possessive:0 "Azrail's"
+ islam_death_deity_name:0 "Izrail"
+ islam_death_deity_name_possessive:0 "Izrail's"
  islam_house_of_worship:0 "mosque"
- islam_house_of_worship_2:0 "$islam_house_of_worship$" # Optional translation alt
- islam_house_of_worship_3:0 "$islam_house_of_worship$" # Optional translation alt
+ islam_house_of_worship_2:0 "masjid" # Optional translation alt
+ islam_house_of_worship_3:0 "masajid" # Optional translation alt
  islam_house_of_worship_plural:0 "mosques"
  islam_religious_symbol:0 "shahada"
  islam_religious_symbol_2:0 "$islam_religious_symbol$" # Optional translation alt
@@ -43,11 +43,11 @@
  islam_bishop:0 "ulama"
  islam_bishop_plural:0 "ulamas"
  islam_positive_afterlife:0 "heaven"
- islam_positive_afterlife_2:0 "$islam_positive_afterlife$" # Optional translation alt
- islam_positive_afterlife_3:0 "$islam_positive_afterlife$" # Optional translation alt
+ islam_positive_afterlife_2:0 "Jannah" # Optional translation alt
+ islam_positive_afterlife_3:0 "Firdaws" # Optional translation alt
  islam_negative_afterlife:0 "hell"
- islam_negative_afterlife_2:0 "$islam_negative_afterlife$" # Optional translation alt
- islam_negative_afterlife_3:0 "$islam_negative_afterlife$" # Optional translation alt
+ islam_negative_afterlife_2:0 "Jahannam" # Optional translation alt
+ islam_negative_afterlife_3:0 "the Fire" # Optional translation alt
  christianity_witchgodname_iblis:0 "Iblis"
  christianity_witchgodname_iblis_possessive:0 "Iblis'"
 
@@ -232,3 +232,10 @@
  hafizi_adherent:0 "Hafizi"
  hafizi_adherent_plural:0 "Hafizis"
  hafizi_desc:0 "Hafizis put precedence on supporting who they consider to be the true caliph above all others, as well as resisting any and all attempts to unseat or depose them. In defeat, they are defined by rebellion for a worthy cause, and in victory, proud adherence to the will of their leader."
+
+ #Kaysani
+ kaysani:0 "Kaysanism"
+ kaysani_adj:0 "Kaysanite"
+ kaysani_adherent:0 "Kaysanite"
+ kaysani_adherent_plural:0 "Kaysanites"
+ kaysani_desc:0 "The Kaysanites were a Shia Islamic sect which emerged during the Second Muslim Civil War. They were supporters of the pro-Alid revolutionary Mukhtar ibn Abi Ubayd al-Thaqafi (c. 622–687) and believed in the Imamate of Muhammad ibn al-Hanafiyya, following his half-brother Husayn's death at the Battle of Karbala against the Umayyad Caliphate."

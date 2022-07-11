@@ -115,6 +115,7 @@ hairstyles_scripted_characters = {
 				exists = character:144998 #king_lothaire
 				this = character:144998 #king_lothaire
             }
+            # TIB
             modifier = {
                 add = 200
                 exists = this
@@ -227,6 +228,7 @@ hairstyles_scripted_characters = {
                 exists = character:easteregg_petter_vilberg
                 this = character:easteregg_petter_vilberg
             }
+            # TIB
             modifier = {
                 add = 200
                 exists = this
@@ -271,6 +273,7 @@ hairstyles_scripted_characters = {
                 exists = character:easteregg_isabella_welch
                 this = character:easteregg_isabella_welch
             }
+            # TIB
             modifier = {
                 add = 200
 				exists = this
@@ -351,6 +354,7 @@ hairstyles_scripted_characters = {
                 exists = character:easteregg_martin_anward
                 this = character:easteregg_martin_anward
             }
+            # TIB
             modifier = {
                 add = 200
 				exists = this
@@ -415,6 +419,7 @@ hairstyles_scripted_characters = {
                 exists = character:easteregg_christian_daflos
                 this = character:easteregg_christian_daflos
             }
+            # TIB
             modifier = {
                 add = 200
 				exists = this
@@ -551,6 +556,7 @@ hairstyles_scripted_characters = {
                 exists = character:easteregg_nils_wadensten
                 this = character:easteregg_nils_wadensten
             }
+            # TIB
             modifier = {
                 add = 200
 				exists = this
@@ -1196,6 +1202,7 @@ hairstyles_scripted_characters = {
                 exists = character:easteregg_mathilda_bjarnehed
                 this = character:easteregg_mathilda_bjarnehed
             }
+            # TIB
             modifier = {
                 add = 200
 				exists = this

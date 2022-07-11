@@ -1,0 +1,11 @@
+﻿l_english:
+ #Muslim male & female versions of blood of the fabled Quraysh tribe, respectively
+ trait_sayyid_quraysh:0 "Sayyid of the Quraysh"
+ trait_sayyida_quraysh:0 "Sayyida of the Quraysh"
+ trait_sayyid_quraysh_desc:1 "Coursing through the veins of this character is the blood of the great Quraysh tribe."
+ trait_sayyid_quraysh_character_desc:0 "Coursing through the veins of [ROOT.GetCharacter.GetFirstNameNoTooltip] is the blood of the great Quraysh tribe."
+ #Muslim male & female versions of Salaf al-Salih, respectively
+ trait_salaf_al_salih:0 "Salaf al-Salih"
+ trait_salafa_al_saliha:0 "Salafat al-Saliha"
+ trait_salaf_al_salih_desc:0 "This character is an important figure in the Islamic world known as the Pious Predecessors."
+ trait_salaf_al_salih_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is an important figure in the Islamic world known as one of the Pious Predecessors."
