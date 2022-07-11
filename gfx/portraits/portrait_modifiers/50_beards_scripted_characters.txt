@@ -402,6 +402,7 @@ beards_scripted_characters = {
                 exists = character:easteregg_alexander_oltner
                 this = character:easteregg_alexander_oltner
             }
+            # TIB
             modifier = {
                 add = 200
 				exists = this
@@ -572,6 +573,7 @@ beards_scripted_characters = {
         }   
         weight = {
             base = 0
+            # TIB
             modifier = {
                 add = 200
 				exists = this
@@ -612,6 +614,7 @@ beards_scripted_characters = {
         }   
         weight = {
             base = 0
+            # TIB
             modifier = {
                 add = 200
 				exists = this
@@ -774,7 +777,7 @@ beards_scripted_characters = {
                 exists = character:73683
                 this = character:73683
             }
-
+            # TIB
             modifier = {
                 add = 999
                 exists = this
@@ -808,6 +811,7 @@ beards_scripted_characters = {
                 exists = character:danis0005
                 this = character:danis0005
             }
+            # TIB
             modifier = {
                 add = 999
                 exists = this

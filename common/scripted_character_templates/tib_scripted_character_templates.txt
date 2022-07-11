@@ -4,11 +4,16 @@
 	trait = zealous
 	trait = brave
 	trait = diligent
+	trait = wrathful
 	trait = intellect_good_1
 	random_traits = no
 	culture = culture:bedouin
 	faith = faith:kaysani
 	martial = {
+		min_template_high_skill
+		max_template_high_skill
+	}
+	stewardship = {
 		min_template_high_skill
 		max_template_high_skill
 	}
