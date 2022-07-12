@@ -40,7 +40,7 @@ k_oghuz_il = {
 c_mangyshlak = {
 	762.1.1 = {
 		#holder = 188826
-		holder = 188825
+		holder = kimek_003
 		liege = k_oghuz_il
 		government = tribal_government
 	}
@@ -86,7 +86,7 @@ c_mangyshlak = {
 c_garabogazkol = {
 	762.1.1 = {
 		#holder = 188826
-		holder = 188825
+		holder = kimek_003
 		liege = k_oghuz_il
 		government = tribal_government
 	}
@@ -149,7 +149,7 @@ d_transcaspiana = {
 c_ustyurt = {
 	762.1.1 = {
 		#holder = 188826
-		holder = 188825
+		holder = kimek_003
 		liege = k_oghuz_il
 		government = tribal_government
 	}
