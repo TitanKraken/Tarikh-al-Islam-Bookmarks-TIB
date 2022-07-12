@@ -1,4 +1,4 @@
-﻿namespace = almohad
+﻿namespace = abbasid
 
 #Events for the Abbasid Revolution Story Cycle
 
@@ -6,22 +6,28 @@ abbasid.0001 = {
 	type = empty
 	hidden = yes
 
+	trigger_event = {
+		current_date >= 721.1.1
+		current_date < 725.1.1
+	}
 	immediate = {
-		find_title_for_abbasid_spawn_effect = yes
+		debug_log = "Abbasids appeared!"
+		debug_log_date = yes
+		create_abbasids_effect = yes
 	}
 }
 
-### Spawn the abbasids
+### Spawn the Abbasids
 abbasid.0002 = {
 	type = empty
 	hidden = yes
 
 	trigger = {
-		NOT = { exists = faith:kaysani.religious_head_title.holder }
+		#NOT = { exists = faith:kaysani.religious_head_title.holder }
 		scope:abbasid_county = {
 			faith = faith:kaysani
 			holder = {
-				trigger_if = { # Invalidate if the top liege has converted to Kaysanism, but NOT if the top liege is the holder themselves, UNLESS they are also the holder of the Maghreb title (in which case the abbasid's goals have already been achieved)
+				trigger_if = { # Invalidate if the top liege has converted to Kaysanism, but NOT if the top liege is the holder themselves, UNLESS they are also the holder of the Khorasan title (in which case the Abbasid's goals have already been achieved)
 					limit = {
 						OR = {
 							NOT = { this = top_liege }
@@ -42,15 +48,9 @@ abbasid.0002 = {
 			}
 		}
 	}
-
-	immediate = {
-		debug_log = "Abbasids appeared!"
-		debug_log_date = yes
-		create_abbasids_effect = yes
-	}
 }
 
-### abbasids were defeated in battle
+### Abbasids were defeated in battle
 abbasid.0003 = {
 	hidden = yes
 	scope = combat_side
@@ -105,7 +105,7 @@ abbasid.0004 = {
 			abbasids_go_to_war_effect = yes
 		}
 		else = {
-			debug_log = "abbasids were appeased and will not go to war!"
+			debug_log = "Abbasids were appeased and will not go to war!"
 			remove_global_variable = abbasids_waiting_for_player_responses
 			remove_global_variable = abbasids_player_responses_received
 		}

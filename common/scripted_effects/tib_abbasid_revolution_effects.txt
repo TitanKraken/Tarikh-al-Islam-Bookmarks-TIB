@@ -1,4 +1,27 @@
-﻿find_title_for_abbasid_spawn_effect = {
+﻿# +story_cycle, events
+create_abbasids_effect = { # abbasid.0001
+	create_character = {
+		template = as_saffah_character_template
+		name = As-Saffah
+		location = scope:abbasid_county.title_province
+		father = character:34000
+		dynasty_house = house:house_Abbasid
+		save_scope_as = as_saffah
+		add_character_flag = {
+			flag = immune_to_disease
+			years = 50
+		}
+	}
+	faith:kaysani = {
+		change_fervor = {
+			value = 50
+			desc = fervor_gain_abbasid_faction
+		}
+	}
+}
+
+
+find_title_for_abbasid_spawn_effect = {
 	if = { # The important thing is to not mess too much with players who can't resist
 		limit = {
 			title:c_merv = {
@@ -97,31 +120,12 @@
 	}
 }
 
-
-create_abbasids_effect = {
-	if = {
-		limit = {
-			current_date = 721.1.1
-		}
-	}
-	create_character = {
-		template = as_saffah_character_template
-		name = As-Saffah
-		location = scope:abbasid_county.title_province
-		father = character:34000
-		dynasty_house = house:house_Abbasid
-		save_scope_as = as_saffah
-	}
-	faith:kaysani = {
-		change_fervor = {
-			value = 50
-			desc = fervor_gain_abbasid_faction
-		}
-	}
+abbasid_revolution_effect = {
 	scope:as_saffah = {
-		if = {
+		trigger = {
 			limit = {
-				current_date = 749.1.1
+				current_date >= 749.1.1
+				current_date < 750.1.1
 			}
 		}
 		create_story = {
@@ -134,10 +138,6 @@ create_abbasids_effect = {
 		add_pressed_claim = title:e_arabia
 		add_character_modifier = {
 			modifier = almohad_leader_modifier
-		}
-		add_character_flag = {
-			flag = immune_to_disease
-			years = 15
 		}
 	}
 	scope:story = {
@@ -152,7 +152,7 @@ create_abbasids_effect = {
 	}
 	abbasids_find_target_titles_effect = yes
 
-	find_abbasids_titles_and_assign_to_as_saffah_effect = yes
+	find_abbasid_titles_and_assign_to_as_saffah_effect = yes
 
 	scope:abbasid_county.holder = {
 		set_global_variable = {
