@@ -385,6 +385,14 @@ d_aral_il = {
 }
 
 c_yangikent = {
+
+     710.1.1 = {
+      holder = bilge_qaghan
+      liege = k_oghuz_il
+      government = tribal_government
+     }
+
+
 	762.1.1 = {
 		#holder = 188826
 		holder = 188825
@@ -441,6 +449,13 @@ c_yangikent = {
 
 
 c_raimskoe = {
+
+        710.1.1 {
+	 holder = bilge_qaghan
+	 liege = k_oghuz_il
+	 government = tribal_government
+	}
+
 	762.1.1 = {
 		#holder = 188826
 		holder = 188825
