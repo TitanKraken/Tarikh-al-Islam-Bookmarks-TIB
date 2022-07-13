@@ -18,7 +18,6 @@ k_oghuz_il = {
 	750.1.1 = {
 		holder = 0
 	}
-
 	#750 start of Oghuz il / Oghuz Yabgu state
 	762.1.1 = {
 		#holder = 188826
@@ -35,12 +34,11 @@ k_oghuz_il = {
 		holder = 0
 	}
 }
-
-
 c_mangyshlak = {
 	762.1.1 = {
 		#holder = 188826
 		holder = 188825
+		holder = kimek_003
 		liege = k_oghuz_il
 		government = tribal_government
 	}
@@ -87,6 +85,7 @@ c_garabogazkol = {
 	762.1.1 = {
 		#holder = 188826
 		holder = 188825
+		holder = kimek_003
 		liege = k_oghuz_il
 		government = tribal_government
 	}
@@ -138,18 +137,17 @@ c_garabogazkol = {
 		holder = 93104
 	}
 }
-
 d_transcaspiana = {
 	712.1.1 = {
 		holder = 188593
 		government = clan_government
 	}
 }
-
 c_ustyurt = {
 	762.1.1 = {
 		#holder = 188826
 		holder = 188825
+		holder = kimek_003
 		liege = k_oghuz_il
 		government = tribal_government
 	}
@@ -190,7 +188,6 @@ c_ustyurt = {
 		holder = 93104
 	}
 }
-
 d_jemba = {
 	1260.1.1 = {
 		holder = 93101
@@ -200,7 +197,6 @@ d_jemba = {
 		liege = k_kimek
 	}
 }
-
 c_qoshagyl = {
 	762.1.1 = {
 		#holder = 188826
@@ -256,10 +252,7 @@ c_qoshagyl = {
 	1300.1.1 = {
 		holder = 93102
 	}
-
 }
-
-
 c_akkityk = {
 	762.1.1 = {
 		#holder = 188826
@@ -315,10 +308,7 @@ c_akkityk = {
 	1300.1.1 = {
 		holder = 93102
 	}
-
 }
-
-
 c_kos-buwak = {
 	762.1.1 = {
 		#holder = 188826
@@ -374,16 +364,13 @@ c_kos-buwak = {
 	1300.1.1 = {
 		holder = 93102
 	}
-
 }
-
 d_aral_il = {
 	1260.1.1 = {
 		holder = mongol_placeholder_001
 		liege = k_cuman
 	}
 }
-
 c_yangikent = {
 	762.1.1 = {
 		#holder = 188826
@@ -438,8 +425,6 @@ c_yangikent = {
 		holder = 93102
 	}
 }
-
-
 c_raimskoe = {
 	762.1.1 = {
 		#holder = 188826
@@ -495,10 +480,7 @@ c_raimskoe = {
 	1300.1.1 = {
 		holder = 93102
 	}
-
 }
-
-
 c_ak-dzulpas = {
 	762.1.1 = {
 		#holder = 188826
@@ -554,10 +536,7 @@ c_ak-dzulpas = {
 	1300.1.1 = {
 		holder = 93102
 	}
-
 }
-
-
 c_aralkizil = {
 	762.1.1 = {
 		#holder = 188826
@@ -602,8 +581,6 @@ c_aralkizil = {
 		holder = 93101
 	}
 }
-
-
 c_terekli = {
 	762.1.1 = {
 		#holder = 188826
@@ -659,10 +636,7 @@ c_terekli = {
 	1300.1.1 = {
 		holder = 93102
 	}
-
 }
-
-
 c_barsuki = {
 	762.1.1 = {
 		#holder = 188826
@@ -718,10 +692,7 @@ c_barsuki = {
 	1300.1.1 = {
 		holder = 93102
 	}
-
 }
-
-
 c_aral_karakum = {
 	762.1.1 = {
 		#holder = 188826
@@ -777,6 +748,4 @@ c_aral_karakum = {
 	1300.1.1 = {
 		holder = 93102
 	}
-
 }
-
