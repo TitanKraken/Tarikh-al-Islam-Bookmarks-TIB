@@ -5138,8 +5138,8 @@ e_mongolia = {
 	692.1.1 = {
 		holder = qapaghan_qaghan
 	}
-	716.7.22 = {
-		holder = inel_qaghan
+	715.1.1 = {
+		holder = bilge_qaghan
 	}
 	742.1.1 = {
 		name = e_mongolia
