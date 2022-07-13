@@ -11,13 +11,14 @@ tib_border_raid = {
 	allowed_for_character = {
 		scope:attacker = {
 			culture = {
-				has_cultural_parameter = unlocks_border_tib_raid_casus_belli
+				has_cultural_parameter = unlocks_tib_border_raid_casus_belli
 			}
 		}
 	}
 
 	allowed_against_character = {
-		scope:attacker = {
+		# Defender must be bordering your realm.
+		OR = {
 			character_is_land_realm_neighbor = scope:attacker
 			AND = {
 				exists = scope:attacker.liege
