@@ -148,21 +148,6 @@
 		}
 	}
 }
-k_rum_west = {
-	pattern="pattern_solid.dds"
-	color1=white
-	color2=grey
-	colored_emblem={
-		color1=grey
-		color2=grey
-		color3=white
-		texture="ce_eagle_islamic_double.dds"
-		instance={
-			position={ 0.500000 0.480000 }
-			scale={ 0.900000 0.900000 }
-		}
-	}
-}
 
 k_rum = {
 	pattern="pattern_solid.dds"
@@ -179,6 +164,23 @@ k_rum = {
 		}
 	}
 }
+k_rum_west = {
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=white
+	colored_emblem={
+		color1=grey
+		color2=yellow
+		texture="tib_seljuk_eagle.dds"
+		instance={
+			position={ 0.500000 0.455000 }
+			scale={ 0.730000 0.730000 }
+		}
+
+	}
+
+}
+
 
 e_bulgaria = {
 	pattern="pattern_solid.dds"

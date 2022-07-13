@@ -28,7 +28,7 @@ tradition_corsairs = {
                     this = culture:yemeni
                     this = culture:andalusian
                     this = culture:sicilian_arabic
-                    has_cultural_pillar = heritage_berber
+                    this = heritage:heritage_berber
 				}
 			}
 		}
@@ -42,7 +42,11 @@ tradition_corsairs = {
 		not_tribal_raiding_malus = yes
         unlocks_tib_border_raid_casus_belli = yes
 	}
-
+    war_effects = {
+        uninvolved_parameters = {
+            unlocks_border_raid_casus_belli = yes
+        }
+    }
 	character_modifier = {
 		knight_limit = 1
 		prowess = 2

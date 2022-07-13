@@ -225,13 +225,15 @@ theme_government = {
 		}
 	}
 
-	scope:character = {
-		if = {
-			limit = {
-				target_title_tier = tier_kingdom
-				target_title_tier = tier_empire
+	effect = {
+		scope:character = {
+			if = {
+				limit = {
+					target_title_tier = tier_kingdom
+					target_title_tier = tier_empire
+				}
+				change_government = feudal_government
 			}
-			change_government = feudal_government
 		}
 	}
 

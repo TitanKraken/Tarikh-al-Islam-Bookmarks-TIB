@@ -2,19 +2,20 @@
   # Special Characters #
   # ā ī ū
   # Names
-  Abbasid:0 "al-'Abbāsī"
-  Umayyad:0 "al-Umawī"
-  Fatimid:0 "al-Fātimī"
-  Hanafid:0 "al-Hanafiyyah"
-  Alavid:0 "al-'Alawī"
-  Idrisid:0 "al-Idrīsī"
-  Rassid:0 "al-Rassī"
-  Quraysh:0 "Quraysh"
-  Hashimid:0 "al-Hāshimī"
-  Hammudid:0 "al-Hammudī"
-  Ukhaidhirid:0 "al-Ukhaidhirī"
+  house_Abbasid:0 "al-'Abbāsī"
+  house_Umayyad:0 "al-Umawī"
+  house_Fatimid:0 "al-Fātimī"
+  house_Hanafid:0 "al-Hanafiyyah"
+  house_Alavid:0 "al-'Alawī"
+  house_Idrisid:0 "al-Idrīsī"
+  house_Rassid:0 "al-Rassī"
+  house_Quraysh:0 "Quraysh"
+  house_Hashimid:0 "al-Hāshimī"
+  house_Hammudid:0 "al-Hammudī"
+  house_Ukhaidhirid:0 "al-Ukhaidhirī"
 
   dynn_Ayyubid:0 "al-Ayyūbī"
+  house_Seljuk_Rum:0 "Seljuk-i Rum"
 
   dynn_Azd:0 "Azd"
   dynn_Banu_Numayr:0 "Banu Numayr"

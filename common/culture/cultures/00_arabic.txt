@@ -147,7 +147,7 @@ sicilian_arabic = { #Arabic melting pot in Southern Italy
 	created = 850.1.1
 	parents = { greek maghrebi } #Chose Greek mainly since the provinces it shows up in were all originally Greek
 	
-	ethos = ethos_spiritual
+	ethos = ethos_communal
 	heritage = heritage_arabic
 	language = language_arabic
 	martial_custom = martial_custom_male_only

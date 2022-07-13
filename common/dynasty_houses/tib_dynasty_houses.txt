@@ -1,44 +1,50 @@
 ﻿# Banu Quraysh
 house_Abbasid = {
-	name = "Abbasid"
+	name = "house_Abbasid"
 	dynasty = tribe_quraysh
 }
 house_Umayyad = {
-	name = "Umayyad"
+	name = "house_Umayyad"
 	dynasty = tribe_quraysh
 }
 house_Hashimid = {
-	name = "Hashimid"
+	name = "house_Hashimid"
 	dynasty = tribe_quraysh
 	forced_coa_religiongroup = "muslim"
 }
 house_Ukhaidhirid = {
-	name = "Ukhaidhirid"
+	name = "house_Ukhaidhirid"
 	dynasty = tribe_quraysh
 }
 house_Idrisid = {
-	name = "Idrisid"
+	name = "house_Idrisid"
 	dynasty = tribe_quraysh
 }
 house_Fatimid = {
-    name = "Fatimid"
+    name = "house_Fatimid"
     dynasty = tribe_quraysh
 }
 house_Hanafiyyah = {
-    name = "Hanafid"
+    name = "house_Hanafid"
     dynasty = tribe_quraysh
 }
 house_Rassid = {
-    name = "Rassid"
+    name = "house_Rassid"
     dynasty = tribe_quraysh
 }
 house_Alavid = {
-    name = "Alavid"
+    name = "house_Alavid"
     dynasty = tribe_quraysh
 }
 house_Hammudid = {
-    name = "Hammudid"
+    name = "house_Hammudid"
     dynasty = tribe_quraysh
+}
+
+# Turks
+house_Seljuk_Rum = {
+    name = house_Seljuk_Rum
+    dynasty = 613 # Seljuk
 }
 
 # Almohad
