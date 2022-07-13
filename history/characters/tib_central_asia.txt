@@ -92,7 +92,7 @@ helu_qaghan = {
 etmish_beg_ashina = {
 	name = "Etmish_Beg"
 	dynasty = 12269 # Ashina
-	culture = "khazar"
+	culture = "turkish"
 	religion = "tengri_pagan"
 
 	624.1.1 = {
@@ -106,7 +106,7 @@ ilterish_qaghan = {
 	name = "Ilterish_Qutlugh"
 	dynasty = 12269 # Ashina
 	father = etmish_beg_ashina
-	culture = "khazar"
+	culture = "turkish"
 	religion = "tengri_pagan"
 
 	660.1.1 = {
@@ -120,13 +120,13 @@ qapaghan_qaghan = {
 	name = "Qapaghan_BO_gU_-C_or"
 	dynasty = 12269 # Ashina
 	father = etmish_beg_ashina
-	culture = "khazar"
+	culture = "turkish"
 	religion = "tengri_pagan"
 
 	664.1.1 = {
 		birth = yes
 	}
-	715.1.1 = {
+	716.7.22 = {
 		death = yes
 	}
 }
@@ -134,7 +134,7 @@ ashina_duoxifu = {
 	name = "Turs_Beg"
 	dynasty = 12269 # Ashina
 	father = etmish_beg_ashina
-	culture = "khazar"
+	culture = "turkish"
 	religion = "tengri_pagan"
 
 	665.1.1 = {
@@ -149,20 +149,8 @@ ashina_duoxifu = {
 bilge_qaghan = {
 	name = "BilgA_"
 	dynasty = 12269 # Ashina
-	martial = 15
-	prowess = 17
-	diplomacy = 10
-	intrigue = 7
-	stewardship = 10
-	learning = 13
-	trait = diligent
-	trait = ambitious
-	trait = brave
-	trait = education_martial_3
-	trait = organizer
-	trait = mystic_2
 	father = ilterish_qaghan
-	culture = "khazar"
+	culture = "turkish"
 	religion = "tengri_pagan"
 
 	683.1.1 = {
@@ -175,21 +163,8 @@ bilge_qaghan = {
 kul_tigin = {
 	name = "KU_ltegin"
 	dynasty = 12269 # Ashina
-	martial = 17
-	prowess = 19
-	diplomacy = 10
-	intrigue = 9
-	stewardship = 9
-	learning = 9
-	trait = diligent
-	trait = ambitious
-	trait = brave
-	trait = education_martial_4
-	trait = organizer
-	trait = reaver
-	trait = aggressive_attacker
 	father = ilterish_qaghan
-	culture = "khazar"
+	culture = "turkish"
 	religion = "tengri_pagan"
 
 	684.1.1 = {
@@ -205,7 +180,7 @@ inel_qaghan = {
 	name = "InA_l"
 	dynasty = 12269 # Ashina
 	father = qapaghan_qaghan
-	culture = "khazar"
+	culture = "turkish"
 	religion = "tengri_pagan"
 
 	684.1.1 = {
@@ -215,9 +190,10 @@ inel_qaghan = {
 		death = {
 			death_reason = death_execution
 			killer = kul_tigin
-}
+		}
 	}
 }
+
 # 2nd Turkic Khaganate Vassals
 wuhe_yaoluoge = {
 	name = "Wuhe" # 烏紇

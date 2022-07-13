@@ -12,7 +12,7 @@ k_syr_darya = {
 	}
 	703.1.1 = {
 		holder = cuman_003
-		liege = e_mongolia
+		liege = e_kangar
 	}
 	750.1.1 = {
 		holder = 0

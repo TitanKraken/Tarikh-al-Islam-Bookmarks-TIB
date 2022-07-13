@@ -2239,12 +2239,6 @@ d_khorezm = {
 
 
 c_gurganj = {
-
-     710.1.1 = {
-	     liege = d_khorezm
-	     holder = kimek_003
-	}
-
 	867.1.1 = {	change_development_level = 5 }
 	1066.1.1 = { change_development_level = 8 }
 	
@@ -2389,12 +2383,6 @@ c_khiva = {
 
 
 c_kurdar = {
-
-      710.1.1 = {
-	       liege = d_khorezm
-	       holder = kimek_003
-	}
-	
 	#Samanids
 	819.1.1 = {
 		liege = d_khorezm
