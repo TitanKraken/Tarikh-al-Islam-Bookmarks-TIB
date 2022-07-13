@@ -294,6 +294,7 @@ d_armeniac = {
 	}
 	713.12.1 = {
 		holder = 145225 # Artabasdos/Artavasdos
+		government = theme_government
 	}
 	763.1.1 = {
 		holder = 145847

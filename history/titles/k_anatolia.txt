@@ -990,6 +990,7 @@ d_anatolia = {
 	}
 	714.1.1 = {
 		holder = 70502 # Leo III the Isaurian
+		government = theme_government
 	}
 	750.1.1 = {
 		holder = 145134

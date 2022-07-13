@@ -205,7 +205,7 @@ islamic_government = {
 }
 
 theme_government = {
-	primary_heritages = { heritage_byzantine }
+	#primary_heritages = { heritage_byzantine }
 	create_cadet_branches = yes
 	rulers_should_have_dynasty = yes
 	dynasty_named_realms = yes
@@ -217,12 +217,21 @@ theme_government = {
 	required_county_holdings = { castle_holding city_holding church_holding }
 
 	can_get_government = {
-		scope:vassal = {
-			is_vassal_of = {
-				OR = {
-					title = title:e_byzantium
-				}
+		NOT = {
+			scope:character = {
+				target_title_tier = tier_kingdom
+				target_title_tier = tier_empire
 			}
+		}
+	}
+
+	scope:character = {
+		if = {
+			limit = {
+				target_title_tier = tier_kingdom
+				target_title_tier = tier_empire
+			}
+			change_government = feudal_government
 		}
 	}
 
@@ -241,13 +250,13 @@ theme_government = {
 	}
 
 	character_modifier = {
-		levy_size = 0.30
+		levy_size = 1.00
 
-		vassal_tax_mult = 0.2
-		monthly_income_mult = 0.15
+		#vassal_tax_mult = 0.2
+		#monthly_income_mult = 0.15
 		army_maintenance_mult = -0.30 # Subsidised by the state
 	}
 	
-	flag = vassal_all_wars_banned
+	flag = wage_war_disallowed
 	color = hsv{ 0.67 1.00 0.78 }
 }

@@ -1400,6 +1400,7 @@ c_rhodos = {
 	714.6.3 = { # fictional
 		holder = strategos005
 		liege = 0
+		government = theme_government
 	}
 	751.1.1 = {
 		holder = 145834
@@ -1425,7 +1426,7 @@ c_rhodos = {
 		holder = 34262
 	}
 	1092.1.1 = {
-			holder = 34264
+		holder = 34264
 	}
 	1093.1.1 = {
 		liege = "d_cibyrrhaeot"
@@ -1450,6 +1451,7 @@ c_rhodos = {
 	}
 	1248.1.1 = {
 		liege = "d_genoa"
+		government = feudal_government
 	}
 	1248.1.1 = {
 		holder = 144539

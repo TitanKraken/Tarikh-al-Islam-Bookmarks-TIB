@@ -24,6 +24,7 @@ d_opsikion = {
 	700.1.1 = { # idk maybe fictional?
 		holder = komes_opsikiou
 		liege = e_byzantium
+		government = theme_government
 	}
 	758.1.1 = {
 		holder = 145826
@@ -616,6 +617,7 @@ d_thracesia = {
 	}
 	711.1.1 = { # fictional
 		holder = strategos004
+		government = theme_government
 	}
 	755.1.1 = {
 		holder = 145841
