@@ -603,7 +603,7 @@
 
 3928 = {
 	name = "Abu-Bakr" # Abu Bakr ibn Abd al-Aziz, Emir of Valencia (1075-1076), Sheik of Valencia (1075-1085)
-	dynasty = 569 # Amirid Dynasty
+	dynasty_house = 596 # Amirid Dynasty
 	martial = 6
 	diplomacy = 4
 	intrigue = 5
@@ -904,7 +904,7 @@
 
 73227 = {
 	name = "Utman" # Utman ibn Abu-Bakr, Emir of Valencia (1085-1086) & Sheik of Valencia (1085-1085)
-	dynasty = 569 # Amirid Dynasty
+	dynasty_house = 596 # Amirid Dynasty
 	religion = muwalladi
 	culture = andalusian
 	trait = education_stewardship_1
@@ -1294,7 +1294,7 @@
 73262 = {
 	name = "Fatima" # Fatima ibn Abu Bakr, wife of Emir al-Musta'in II of Zaragoza (45005 - yemeni.txt)
 	female = yes
-	dynasty = 569 # Amirid Dynasty
+	dynasty_house = 596 # Amirid Dynasty
 	religion = muwalladi
 	culture = andalusian
 
@@ -4401,7 +4401,7 @@ andalusian0055 = {
 
 andalusian0056 = {
 	name = "al-Hassan" # al-Hassan ibn Abd al-Aziz
-	dynasty = 569 # Muhammad al-Mansur Dynasty
+	dynasty_house = 596 # Muhammad al-Mansur Dynasty
 	religion = muwalladi
 	culture = andalusian
 	trait = education_stewardship_2
@@ -4418,7 +4418,7 @@ andalusian0056 = {
 
 andalusian0057 = {
 	name = "Abdallah" # Abdallah ibn Abd al-Aziz
-	dynasty = 569 # Muhammad al-Mansur Dynasty
+	dynasty_house = 596 # Muhammad al-Mansur Dynasty
 	religion = muwalladi
 	culture = andalusian
 	trait = education_diplomacy_2
@@ -4438,7 +4438,7 @@ andalusian0057 = {
 
 andalusian0058 = {
 	name = "Abd-al-Rahman" # Abd al-Rahman, real name unknown, ibn Abd al-Malik
-	dynasty = 569 # Muhammad al-Mansur Dynasty
+	dynasty_house = 596 # Muhammad al-Mansur Dynasty
 	religion = muwalladi
 	culture = andalusian
  
@@ -4476,7 +4476,7 @@ andalusian0059 = {
 andalusian0060 = {
 	name = "Umm" # Umm, name unknown, ibn Abd al-Aziz, wife of Sheik Ma'n ibn Muhammad of Almería (20877 - yemeni.txt)
 	female = yes
-	dynasty = 569 # Muhammad al-Mansur Dynasty
+	dynasty_house = 596 # Muhammad al-Mansur Dynasty
 	religion = muwalladi
 	culture = andalusian
 	trait = education_stewardship_2
@@ -6344,7 +6344,7 @@ surunbaqi0001 = {
 
 45025 = {
 	name = "Abd-al-Aziz" # Abd al-Aziz ibn Abd al-Rahman ibn Sanyul, Emir of Valencia (1021-1061) & Sheik of Valencia (1021-1061)
-	dynasty = 569 # Muhammad al-Mansur Dynasty
+	dynasty_house = 596 # Muhammad al-Mansur Dynasty
 	religion = muwalladi
 	culture = andalusian
 	trait = education_stewardship_1
@@ -6361,7 +6361,7 @@ surunbaqi0001 = {
 
 45026 = {
 	name = "Abd-al-Malik" # Abd al-Malik ibn Abd al-Aziz, Emir of Valencia (1061-1065) & Sheik of Valencia (1061-1065)
-	dynasty = 569 # Muhammad al-Mansur Dynasty
+	dynasty_house = 596 # Muhammad al-Mansur Dynasty
 	religion = muwalladi
 	culture = andalusian
 	trait = education_stewardship_1
@@ -6402,7 +6402,7 @@ surunbaqi0001 = {
 
 73226 = {
 	name = "Abd-al-Rahman" # Abd al-Rahman ibn Sanyul (or Sanchuelo)
-	dynasty = 569 # Muhammad al-Mansur Dynasty
+	dynasty_house = 596 # Muhammad al-Mansur Dynasty
 	religion = muwalladi
 	culture = andalusian
 	trait = drunkard

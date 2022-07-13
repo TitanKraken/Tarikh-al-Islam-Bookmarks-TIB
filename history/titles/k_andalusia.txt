@@ -153,7 +153,7 @@ d_cordoba = {
 		holder = 0
 	}
 	1144.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		holder = 73665 # Ahmad Hamdinid
 		liege = k_maghreb
 	}
@@ -202,7 +202,7 @@ c_cordoba = {
 	756.3.16 = {
 		holder = 73679 # Abd al-Rahman I Umayyad
 		liege = k_andalusia
-		government = clan_government
+		government = islamic_government # clan_government
 	}
 	788.10.7 = {
 		holder = 73680 # Hisham I Umayyad
@@ -354,7 +354,7 @@ c_calatrava = {
 	756.3.16 = {
 		holder = 73679 # Abd al-Rahman I Umayyad
 		liege = k_andalusia
-		government = clan_government
+		government = islamic_government # clan_government
 	}
 	788.10.7 = {
 		holder = 73680 # Hisham I Umayyad
@@ -529,7 +529,7 @@ c_almader = {
 	756.3.16 = {
 		holder = 73679 # Abd al-Rahman I Umayyad
 		liege = k_andalusia
-		government = clan_government
+		government = islamic_government # clan_government
 	}
 	788.10.7 = {
 		holder = 73680 # Hisham I Umayyad
@@ -705,7 +705,7 @@ c_andujar = { # Jaen
 	756.3.16 = {
 		holder = 73679 # Abd al-Rahman I Umayyad
 		liege = k_andalusia
-		government = clan_government
+		government = islamic_government # clan_government
 	}
 	788.10.7 = {
 		holder = 73680 # Hisham I Umayyad
@@ -957,7 +957,7 @@ c_granada = {
 	760.1.1 = {
 		holder = 200230 # Abd al-Malik Djazairid
 		liege = k_andalusia
-		government = clan_government
+		government = islamic_government # clan_government
 	}
 	781.1.1 = {
 		holder = 200232 # Ya'qub Djazairid
@@ -1077,7 +1077,7 @@ c_almeria = {
 	766.1.1 = {
 		holder = 200229 # Yusuf Nefudid
 		liege = k_andalusia
-		government = clan_government
+		government = islamic_government # clan_government
 	}
 	799.1.1 = {
 		holder = 73681 # al-Hakam I Umayyad
@@ -1210,7 +1210,7 @@ c_cabra = {
 	756.3.16 = {
 		holder = 73679 # Abd al-Rahman I Umayyad
 		liege = k_andalusia
-		government = clan_government
+		government = islamic_government # clan_government
 	}
 	788.10.7 = {
 		holder = 73680 # Hisham I Umayyad
@@ -1360,7 +1360,7 @@ c_malaga = {
 	760.1.1 = {
 		holder = 200230 # Abd al-Malik Djazairid
 		liege = k_andalusia
-		government = clan_government
+		government = islamic_government # clan_government
 	}
 	781.1.1 = {
 		holder = 200232 # Ya'qub Djazairid
@@ -1573,7 +1573,7 @@ c_sevilla = {
 	769.1.1 = {
 		holder = 73680 # Hisham I Umayyad
 		liege = d_sevilla
-		government = clan_government
+		government = islamic_government # clan_government
 	}
 	796.6.12 = {
 		holder = 73681 # al-Hakam I Umayyad
@@ -1692,7 +1692,7 @@ c_cadiz = {
 	769.1.1 = {
 		holder = 73680 # Hisham I Umayyad
 		liege = d_sevilla
-		government = clan_government
+		government = islamic_government # clan_government
 	}
 	796.6.12 = {
 		holder = 73681 # al-Hakam I Umayyad
@@ -1806,7 +1806,7 @@ c_algeciras = {
 	769.1.1 = {
 		holder = 73680 # Hisham I Umayyad
 		liege = d_sevilla
-		government = clan_government
+		government = islamic_government # clan_government
 	}
 	796.6.12 = {
 		holder = 73681 # al-Hakam I Umayyad
@@ -1939,7 +1939,7 @@ c_niebla = {
 	853.1.1 = {
 		holder = levantine0036 # al-Mundir ibn Abd al-Rahman (placeholder)
 		liege = k_andalusia
-		government = clan_government
+		government = islamic_government # clan_government
 	}
 	878.1.1 = {
 		holder = 73683 # Sultan Muhammad I of Andalusia
@@ -2046,7 +2046,7 @@ c_moura = {
 	777.12.31 = {
 		holder = levantine0011 # Abdallah ibn Abd al-Malik
 		liege = k_andalusia
-		government = clan_government
+		government = islamic_government # clan_government
 	}
 	780.1.1 = {
 		holder = 73679 # Sultan Abd al-Rahman I of Andalusia
@@ -2185,7 +2185,7 @@ d_toledo = {
 	769.1.1 = {
 		holder = 200020 # Suleyman Umayyad
 		liege = k_andalusia
-		government = clan_government
+		government = islamic_government # clan_government
 	}
 	800.1.1 = {
 		holder = 0
@@ -2238,7 +2238,7 @@ c_toledo = {
 	769.1.1 = {
 		holder = 200020 # Suleyman Umayyad
 		liege = d_toledo
-		government = clan_government
+		government = islamic_government # clan_government
 	}
 	800.1.1 = {
 		holder = 73681 # al-Hakam I Umayyad
@@ -2369,7 +2369,7 @@ c_madrid = {
 	769.1.1 = {
 		holder = 200020 # Suleyman Umayyad
 		liege = d_toledo
-		government = clan_government
+		government = islamic_government # clan_government
 	}
 	800.1.1 = {
 		holder = 73681 # al-Hakam I Umayyad
@@ -2500,7 +2500,7 @@ c_molina = {
 	756.3.16 = {
 		holder = 73679 # Abd al-Rahman I Umayyad
 		liege = k_andalusia
-		government = clan_government
+		government = islamic_government # clan_government
 	}
 	788.10.7 = {
 		holder = 73680 # Hisham I Umayyad
@@ -2641,7 +2641,7 @@ c_cuenca = {
 	769.1.1 = {
 		holder = 200020 # Suleyman Umayyad
 		liege = d_toledo
-		government = clan_government
+		government = islamic_government # clan_government
 	}
 	785.1.1 = {
 		holder = 73799 # Amrus Amrusid
@@ -2787,7 +2787,7 @@ c_malagon = {
 	769.1.1 = {
 		holder = 200020 # Suleyman Umayyad
 		liege = d_toledo
-		government = clan_government
+		government = islamic_government # clan_government
 	}
 	800.1.1 = {
 		holder = 73681 # al-Hakam I Umayyad
@@ -2918,7 +2918,7 @@ c_mora = {
 	769.1.1 = {
 		holder = 200020 # Suleyman Umayyad
 		liege = d_toledo
-		government = clan_government
+		government = islamic_government # clan_government
 	}
 	800.1.1 = {
 		holder = 73681 # al-Hakam I Umayyad

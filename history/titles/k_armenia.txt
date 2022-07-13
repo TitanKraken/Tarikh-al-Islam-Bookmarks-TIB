@@ -336,6 +336,7 @@ c_theodosiopolis = {
 	}
 	769.1.1 = {
 		holder = 145845
+		liege = d_chaldia
 	}
 	820.1.1 = {
 		holder = 159723

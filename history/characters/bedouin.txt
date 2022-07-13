@@ -7355,6 +7355,7 @@ abu_hashim_hanafiyyah = {
 
 	religion = "ashari"
 	culture = "bedouin"
+	father = andalusi_amirid_001
 
 	750.1.1 = {
 		birth = "750.1.1"

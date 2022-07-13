@@ -4,7 +4,7 @@ k_maghreb = {
 	
 	788.1.1 = {
 		holder = 159501
-		government = clan_government
+		government = islamic_government # clan_government
 		effect = {
 			if = {
 				limit = {
@@ -85,7 +85,7 @@ k_maghreb = {
 	# Almohad
 	1147.1.1 = {
 		holder = 32978 # 'Abd-al-Mu'min
-		government = clan_government
+		government = islamic_government # clan_government
 		succession_laws = { feudal_elective_succession_law }
 	}
 	1163.5.12 = {
@@ -208,7 +208,7 @@ d_marrakesh = {
 	710.1.1 = {
 		name = c_tamasna
 		holder = 168275
-		government = clan_government
+		government = islamic_government # clan_government
 	}
 	864.12.16 = {
 		name = d_marrakesh
@@ -219,13 +219,13 @@ d_marrakesh = {
 		holder = 159508
 	}
 	1061.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = k_maghreb
 		holder = 32965 #Yusuf b.Tashfin
 	}
 	1147.1.1 = {
 		holder = 32978 # Almohad Rule Start
-		government = clan_government
+		government = islamic_government # clan_government
 	}
 	1163.5.1 = {
 		holder = 224000
@@ -435,7 +435,7 @@ c_tadla = {
 		holder = 3853
 	}
 	1061.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = d_marrakesh
 		holder = 32965 #Yusuf b.Tashfin
 	}
@@ -546,7 +546,7 @@ c_fazaz = {
 		holder = 3853
 	}
 	1061.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = d_marrakesh
 		holder = 32965 #Yusuf b.Tashfin
 	}
@@ -619,7 +619,7 @@ c_fazaz = {
 
 c_tamasna = {
 	767.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		holder = 168276
 	}
 	792.1.1 = {
@@ -652,7 +652,7 @@ c_tamasna = {
 		holder = 3853
 	}
 	1061.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = d_marrakesh
 		holder = 32965 #Yusuf b.Tashfin
 	}
@@ -728,7 +728,7 @@ c_asfi = {
 	1066.1.1 = { change_development_level = 12 }
 	
 	767.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		holder = 168276
 	}
 	792.1.1 = {
@@ -763,7 +763,7 @@ c_asfi = {
 		liege = d_marrakesh
 	}
 	1076.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		holder = 32965 #Yusuf b.Tashfin
 	}
 	1106.1.1 = {
@@ -993,7 +993,7 @@ c_sous = {
 	}
 	1120.1.1 = {
 		holder = 33012 # Abu Hafs Umar Hafsid
-		government = clan_government
+		government = islamic_government # clan_government
 	}
 	1144.1.1 = {
 		liege = d_masmudi
@@ -1499,7 +1499,7 @@ c_sijilmasa = {
 	1066.1.1 = { change_development_level = 12 }
 
 	824.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		holder = 1228835
 	}
 	867.1.1 = {
@@ -1704,7 +1704,7 @@ c_tudgha = {
 
 c_ziz = {
 	824.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		holder = 1228835
 	}
 	867.1.1 = {
@@ -2114,7 +2114,7 @@ c_muluya = {
 		holder = 155002
 	}
 	1066.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = 0
 		holder = 155003
 	}
@@ -2188,7 +2188,7 @@ c_muluya = {
 
 c_taza = {
 	710.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		holder = 168254
 		liege = d_rif
 	}
@@ -2227,7 +2227,7 @@ c_taza = {
 		holder = 155002
 	}
 	1066.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = 0
 		holder = 155003
 	}
@@ -2558,7 +2558,7 @@ c_tangiers = {
 	}
 	766.1.1 = {
 		holder = 73981
-		government = clan_government
+		government = islamic_government # clan_government
 	}
 	788.1.1 = {
 		holder = 73982
@@ -2568,7 +2568,7 @@ c_tangiers = {
 		holder = 73984
 	}
 	866.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		holder = baranis0020
 		liege = 0
 	}
@@ -2644,7 +2644,7 @@ c_ceuta = {
 		holder = 0
 	}
 	866.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		holder = baranis0020
 		liege = 0
 	}
@@ -2727,7 +2727,7 @@ c_ceuta = {
 
 c_melilla = {
 	710.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		holder = 168254
 		liege = d_rif
 	}

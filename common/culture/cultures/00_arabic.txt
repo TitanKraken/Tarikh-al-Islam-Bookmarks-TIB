@@ -10,7 +10,7 @@
 		tradition_desert_nomads
 		tradition_mubarizuns
 		tradition_caravaneers
-		tradition_storytellers
+		tradition_corsairs
 	}
 	
 	name_list = name_list_bedouin
@@ -39,6 +39,7 @@ levantine = {
 		tradition_medicinal_plants
 		tradition_mubarizuns
 		tradition_dryland_dwellers
+		tradition_corsairs
 	}
 	
 	name_list = name_list_levantine
@@ -65,6 +66,7 @@ egyptian = {
 		tradition_agrarian
 		tradition_zealous_people
 		tradition_mubarizuns
+		tradition_corsairs
 	}
 	
 	name_list = name_list_egyptian
@@ -92,8 +94,9 @@ maghrebi = {
 		tradition_xenophilic
 		tradition_african_tolerance
 		tradition_mubarizuns #Replaced tradition_hit_and_run
-		tradition_dryland_dwellers
+		#tradition_dryland_dwellers
 		tradition_fishermen
+		tradition_corsairs
 	}
 	
 	name_list = name_list_maghrebi
@@ -121,6 +124,7 @@ yemeni = {
 		tradition_mountain_herding 
 		tradition_religion_blending
 		tradition_maritime_mercantilism
+		tradition_corsairs
 	}
 	
 	name_list = name_list_yemeni
@@ -141,7 +145,7 @@ yemeni = {
 sicilian_arabic = { #Arabic melting pot in Southern Italy
 	color = { 0.3 0.6 0.3 }
 	created = 850.1.1
-	parents = { greek baranis } #Chose Greek mainly since the provinces it shows up in were all originally Greek
+	parents = { greek maghrebi } #Chose Greek mainly since the provinces it shows up in were all originally Greek
 	
 	ethos = ethos_spiritual
 	heritage = heritage_arabic
@@ -150,7 +154,7 @@ sicilian_arabic = { #Arabic melting pot in Southern Italy
 	traditions = {
 		tradition_xenophilic
 		tradition_african_tolerance
-		tradition_mubarizuns #Replaced tradition_hit_and_run
+		tradition_corsairs
 		tradition_dryland_dwellers
 		tradition_fishermen
 	}
@@ -164,6 +168,8 @@ sicilian_arabic = { #Arabic melting pot in Southern Italy
 
 	ethnicities = {
 		10 = arab
+		5 = mediterranean
+		2 = mediterranean_byzantine
 		1 = african
 	}
 }

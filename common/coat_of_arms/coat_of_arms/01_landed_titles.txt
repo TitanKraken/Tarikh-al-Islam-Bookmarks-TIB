@@ -6990,20 +6990,18 @@ k_tekke = {
 }
 
 k_rum = {
-	pattern = "pattern_solid.dds"
-	color1 = "white"
-	color2 = "blue"
-	colored_emblem = {
-		texture = "ce_border_circle_fimbriated.dds"
-		color1 = "white"
-		color2 = "blue"
-		instance = { position = { 0.5 0.48 } scale = { 0.8 0.8 }  }
-	}
-	colored_emblem = {
-		texture = "ce_eagle_double.dds"
-		color1 = "blue"
-		color2 = "blue"
-		instance = { position = { 0.5 0.53 } scale = { 0.7 0.7 }  }
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=white
+	colored_emblem={
+		color1=rgb { 32 130 150 }
+		color2=white
+		texture="tib_seljuk_eagle.dds"
+		instance={
+			position={ 0.500000 0.455000 }
+			scale={ 0.730000 0.730000 }
+		}
+
 	}
 }
 

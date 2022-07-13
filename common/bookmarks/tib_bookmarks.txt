@@ -1,5 +1,5 @@
 ﻿bm_the_great_siege = {
-	start_date = 715.2.25
+	start_date = 715.2.23
 	is_playable = yes
 	recommended = yes
 }

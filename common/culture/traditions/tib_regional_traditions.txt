@@ -1,0 +1,228 @@
+﻿
+tradition_corsairs = {
+	category = regional
+
+	layers = {
+		0 = martial
+		1 = mena
+		4 = battle.dds
+	}
+	
+	is_shown = { # Replaces Practiced Pirates
+		NOR = {
+			#has_cultural_tradition = tradition_warrior_culture
+			has_cultural_tradition = tradition_practiced_pirates
+		}
+		OR = {
+			AND = {
+				has_cultural_pillar = heritage_arabic
+                has_cultural_pillar = heritage_berber
+				#has_fp1_dlc_trigger = no
+			}
+			any_parent_culture_or_above = {
+				OR = {
+					this = culture:bedouin
+					this = culture:levantine
+                    this = culture:egyptian
+                    this = culture:maghrebi
+                    this = culture:yemeni
+                    this = culture:andalusian
+                    this = culture:sicilian_arabic
+                    this = heritage:heritage_berber
+				}
+			}
+		}
+	}
+	can_pick = {
+		culture_not_pacifistic_trigger = yes
+	}
+	
+	parameters = {
+		culture_can_raid_at_sea_even_if_feudal = yes
+		not_tribal_raiding_malus = yes
+        unlocks_tib_border_raid_casus_belli = yes
+	}
+    war_effects = {
+        uninvolved_parameters = {
+            unlocks_border_raid_casus_belli = yes
+        }
+    }
+	character_modifier = {
+		knight_limit = 1
+		prowess = 2
+		ai_boldness = 25
+        max_loot_mult = 0.25
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+						any_in_list = { list = traits this = flag:ethos_bellicose }
+						any_in_list = { list = traits this = flag:ethos_spiritual }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_bellicose_or_spiritual_desc
+				}
+			}
+			if = {
+				limit = {
+					trigger_if = {
+						limit = {
+							scope:character = {
+								is_ai = no
+							}
+						}
+						NOT = {
+							any_ruler = {
+								count >= 3
+								culture = prev
+								primary_title.tier >= tier_county
+								OR = {	
+									has_trait = strong
+									has_trait = physique_good
+								}
+							}
+						}
+					}
+					trigger_else = {
+						always = no
+					}
+				}
+				add = {
+					value = tradition_unfulfilled_criteria_penalty
+					desc = strong_rulers_desc
+				}
+			}
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+
+	ai_will_do = {
+		value = 100
+		if = {
+			limit = {
+				NOT = {
+					any_in_list = { list = traits this = flag:ethos_bellicose }
+				}
+			}
+			multiply = 0
+		}
+	}
+}
+
+tradition_mubarizuns = { # Better Mubarizuns
+	category = regional
+
+	layers = {
+		0 = martial
+		1 = mena
+		4 = soldiers.dds
+	}
+	
+	#Can pick this if you have arabic heritage.
+	is_shown = { #Replaces Warriors of the Dry
+		has_cultural_pillar = heritage_arabic
+	}
+	can_pick = {
+		culture_not_pacifistic_trigger = yes
+		trigger_if = {
+			limit = {
+				OR = {
+					NOT = { exists = scope:replacing }
+					NOT = { scope:replacing = flag:tradition_warriors_of_the_dry }
+				}
+			}
+			NOT = { has_cultural_tradition = tradition_warriors_of_the_dry } #To prevent stacking after hybridization
+		}
+	}
+	
+	parameters = {
+		unlock_maa_mubarizun = yes
+		desert_warrior_trait_more_common = yes
+		dry_trait_bonuses = yes
+		can_recruit_dry_specialist = yes
+	}
+	character_modifier = {
+		drylands_levy_size = 0.1
+		desert_levy_size = 0.1
+		drylands_supply_limit_mult = 0.25
+		desert_supply_limit_mult = 0.25
+        knight_limit = 7 # Mubarizuns are knights/duelists/champions technically
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+						any_in_list = { list = traits this = flag:ethos_bellicose }
+						any_in_list = { list = traits this = flag:ethos_stoic }
+						any_in_list = { list = traits this = flag:ethos_communal }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_bellicose_stoic_or_communal_desc
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						any_culture_county = {
+							percent >= 0.3
+							any_county_province = {
+								OR = {
+									terrain = drylands
+									terrain = desert
+								}
+							}
+						}
+					}
+				}
+				add = {
+					value = tradition_unfulfilled_criteria_penalty
+					desc = dry_percentage_desc
+				}
+			}
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+
+	ai_will_do = {
+		value = 100
+		if = {
+			limit = {
+				NOT = {
+					scope:character = {
+						any_sub_realm_county = {
+							culture = scope:character.culture
+							any_county_province = {
+								OR = {
+									terrain = drylands
+									terrain = desert
+								}
+							}
+						}
+					}
+				}
+			}
+			multiply = 0
+		}
+	}
+}

@@ -1052,6 +1052,7 @@ d_optimatoi = {
 				}
 			}
 		}
+		government = theme_government
 	}
 	752.1.1={
 		holder=145827

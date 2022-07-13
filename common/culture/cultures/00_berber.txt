@@ -10,6 +10,7 @@
 		tradition_saharan_nomads
 		tradition_desert_ribat
 		tradition_equal_inheritance
+		tradition_corsairs
 	}
 	
 	name_list = name_list_butr
@@ -36,6 +37,7 @@ baranis = { # Baranis - settled Berber
 		tradition_african_tolerance
 		tradition_family_entrepreneurship
 		tradition_mountain_herding
+		tradition_corsairs
 	}
 	
 	name_list = name_list_baranis

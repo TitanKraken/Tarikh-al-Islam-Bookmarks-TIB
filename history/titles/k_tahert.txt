@@ -8,7 +8,7 @@ d_tlemcen = {
 	1066.1.1 = { change_development_level = 12 }
 
 	741.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		holder = 210032
 	}
 	790.1.1 = {
@@ -106,7 +106,7 @@ c_tlemcen = {
 	741.1.1 = {
 		holder = 210032
 		liege = d_tlemcen
-		government = clan_government
+		government = islamic_government # clan_government
 	}
 	823.1.1 = {
 		liege = "d_alger"
@@ -310,7 +310,7 @@ c_orania = {
 		liege = k_africa
 	}
 	741.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = "d_tlemcen"
 		holder = 210032
 	}
@@ -400,7 +400,7 @@ c_hunyan = {
 	741.1.1 = {
 		liege = "d_tlemcen"
 		holder = 210032
-		government = clan_government
+		government = islamic_government # clan_government
 	}
 	823.1.1 = {
 		liege = "d_alger"
@@ -516,7 +516,7 @@ c_tahert = {
 		holder = 210030
 	}
 	823.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = "d_alger"
 		holder = 163097
 	}
@@ -579,7 +579,7 @@ c_yalala = {
 		holder = 210036
 	}
 	823.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = "d_alger"
 		holder = 163097
 	}
@@ -661,7 +661,7 @@ c_yalala = {
 
 c_ashir = {
 	768.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		holder = 210029
 	}
 	784.1.1 = {
@@ -780,7 +780,7 @@ d_alger = {
 
 	832.1.1 = {
 		holder = 163097
-		government = clan_government
+		government = islamic_government # clan_government
 	}
 	871.1.1 = {
 		holder = 0
@@ -791,7 +791,7 @@ d_alger = {
 	}
 	1212.1.1 = {
 		holder = 155093
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = e_maghreb
 	}
 	1227.1.1 = {
@@ -855,7 +855,7 @@ c_algier = {
 		holder = 210035
 	}
 	823.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = "d_alger"
 		holder = 163097
 	}
@@ -969,7 +969,7 @@ c_tanas = {
 		holder = "210036"
 	}
 	823.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = "d_alger"
 		holder = 163097
 	}
@@ -1089,7 +1089,7 @@ d_bejaia = {
 	1066.1.1 = { change_development_level = 12 }
 
 	1062.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		holder = 20834
 	}
 	1088.1.1 = {
@@ -1110,7 +1110,7 @@ c_bejaia = {
 		liege = k_africa
 	}
 	767.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = "d_alger"
 		holder = 210035
 	}
@@ -1225,7 +1225,7 @@ c_satif = {
 		liege = k_africa
 	}
 	767.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = "d_alger"
 		holder = 210035
 	}
@@ -1335,7 +1335,7 @@ c_satif = {
 
 d_zab = {
 	867.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		holder = 6882	#Just to keep him from tribalifying bits of Algeria unecessarily.
 	}
 	909.1.1 = {
@@ -1369,7 +1369,7 @@ d_zab = {
 
 c_hodna = {
 	767.1.1 = {	
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = "d_alger"
 		holder = 210035
 	}
@@ -1386,7 +1386,7 @@ c_hodna = {
 		holder = 1229651
 	}
 	1089.1.1 = {
-		#government = clan_government
+		#government = islamic_government # clan_government
 		liege = 0
 		holder = 155174
 	}
@@ -1485,7 +1485,7 @@ c_hodna = {
 
 c_biskra = {
 	767.1.1 = {	
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = "d_alger"
 		holder = 210035
 	}
@@ -1588,7 +1588,7 @@ c_biskra = {
 
 c_bilizma = {
 	767.1.1 = {	
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = "d_alger"
 		holder = 210035
 	}

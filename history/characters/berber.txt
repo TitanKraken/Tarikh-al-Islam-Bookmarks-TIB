@@ -2360,6 +2360,7 @@
 	religion = "ashari"
 	culture = baranis
 	father = 155071
+	mother = 155069
 	1110.1.1 = {
 		birth = "1110.1.1"
 	}

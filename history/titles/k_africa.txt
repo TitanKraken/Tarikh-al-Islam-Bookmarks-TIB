@@ -5,7 +5,7 @@ k_africa = {
 	
 	#Umayyad
 	688.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		holder = hasan_ibn_numan
 		liege = e_arabia
 		effect = {
@@ -29,7 +29,7 @@ k_africa = {
 	}
 	#Muhallabids
 	768.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		holder = 210014
 		effect = {
 			if = {
@@ -193,7 +193,7 @@ d_kairouan = {
 	1066.1.1 = { change_development_level = 10 }
 	
 	700.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = e_arabia
 		holder = musa_ibn_nusayr
 	}
@@ -228,12 +228,12 @@ c_kairwan = {
 	1066.1.1 = { change_development_level = 12 }
 	
 	700.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = e_arabia
 		holder = musa_ibn_nusayr
 	}
 	768.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = k_africa
 		holder = 210014
 	}
@@ -350,11 +350,11 @@ c_kairwan = {
 
 c_west_qamuda = {
 	700.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = e_arabia
 	}
 	768.1.1 = {	
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = k_africa
 		holder = 210014
 	}
@@ -368,7 +368,7 @@ c_west_qamuda = {
 		holder = 155029
 	}
 	1073.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = "k_africa"
 		holder = 20825
 	}
@@ -470,7 +470,7 @@ c_west_qamuda = {
 
 c_tabassa = {
 	700.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = e_arabia
 	}
 	768.1.1 = {	
@@ -586,12 +586,12 @@ d_tunis = {
 	1066.1.1 = { change_development_level = 12 }
 	
 	700.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = k_africa
 		holder = marwan_ibn_musa
 	}
 	864.1.1 = {	
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = k_africa
 		holder = 6887
 	}
@@ -681,7 +681,7 @@ c_tunis = {
 	1066.1.1 = { change_development_level = 16 }
 	
 	700.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = e_arabia
 	}
 	768.1.1 = {	
@@ -691,7 +691,7 @@ c_tunis = {
 		liege = "k_africa"
 	}
 	864.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		holder = 163096
 	}
 	920.1.1 = {
@@ -810,7 +810,7 @@ c_tunis = {
 
 c_satfura = {
 	700.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = e_arabia
 	}
 	768.1.1 = {	
@@ -908,11 +908,11 @@ c_satfura = {
 
 c_medjerda = {
 	700.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = e_arabia
 	}
 	768.1.1 = {	
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = k_africa
 		holder = 210014
 	}
@@ -1000,7 +1000,7 @@ c_mahdiya = {
 	1066.1.1 = { change_development_level = 16 }
 	
 	700.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = e_arabia
 	}
 	768.1.1 = {	
@@ -1128,7 +1128,7 @@ d_kroumerie = {
 	1066.1.1 = { change_development_level = 10 }
 
 	700.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = e_arabia
 		holder = marwan_ibn_musa
 	}
@@ -1139,7 +1139,7 @@ d_kroumerie = {
 
 c_constantine = {
 	700.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = e_arabia
 	}
 	767.1.1 = {	
@@ -1147,7 +1147,7 @@ c_constantine = {
 		holder = 210035
 	}
 	864.1.1 = {	
-		government = clan_government
+		government = islamic_government # clan_government
 		holder = baranis0026
 	}
 	897.1.1 = {	
@@ -1234,11 +1234,11 @@ c_annaba = {
 	1066.1.1 = { change_development_level = 12 }
 	
 	700.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = e_arabia
 	}
 	767.1.1 = {	
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = k_africa
 		holder = 210035
 	}
@@ -1324,11 +1324,11 @@ c_annaba = {
 
 c_sfax = {
 	700.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = e_arabia
 	}
 	768.1.1 = {	
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = "k_africa"
 	}
 	768.1.1 = {	
@@ -1444,12 +1444,12 @@ d_gabes = {
 	1066.1.1 = { change_development_level = 10 }
 	
 	700.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = k_africa
 		holder = abdallah_ibn_musa
 	}
 	867.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = k_africa
 		holder = 163147
 	}
@@ -1460,17 +1460,17 @@ d_gabes = {
 
 c_gabes = {
 	700.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = e_arabia
 	}
 	864.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = k_africa
 		holder = 163147
 	}
 	1054.1.1 = {
 		liege = 0
-		government = clan_government
+		government = islamic_government # clan_government
 		holder = zanata0003 #Abdallah b.Muhammad of Banu al-Rand
 	}
 	1055.1.1 = {
@@ -1569,11 +1569,11 @@ c_gabes = {
 
 c_qashtiliya = {
 	700.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = e_arabia
 	}
 	768.1.1 = {	
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = k_africa
 		holder = 210014
 	}
@@ -2087,7 +2087,7 @@ c_ghadames = {
 
 d_tripolitania = {
 	700.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = e_arabia
 		holder = abdallah_ibn_musa
 	}
@@ -2097,7 +2097,7 @@ d_tripolitania = {
 	}
 	866.1.1 = {
 		#liege = "k_africa" - should not be a vasal, but tributary
-		government = clan_government
+		government = islamic_government # clan_government
 		holder = 273136 #Hawwara
 	}
 	866.10.10 = {
@@ -2195,18 +2195,18 @@ c_tripolitana = {
 	1066.1.1 = { change_development_level = 12 }
 	
 	700.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = e_arabia
 	}
 	768.1.1 = {	
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = "d_tripolitania"
 	}
 	768.1.1 = {
 		holder = 210031
 	}
 	866.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		holder = 273136 #Hawwara
 	}
 	866.10.10 = {
@@ -2283,11 +2283,11 @@ c_tripolitana = {
 
 c_djerba = {
 	700.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = e_arabia
 	}
 	768.1.1 = {	
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = d_tripolitania
 		holder = 210031
 	}
@@ -2358,11 +2358,11 @@ c_djerba = {
 
 c_jafara = {
 	700.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = e_arabia
 	}
 	768.1.1 = {	
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = d_tripolitania
 		holder = 210031
 	}
@@ -2441,12 +2441,12 @@ c_jafara = {
 
 d_syrte = {
 	700.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = k_africa
 		holder = syrte_berber_vassal_001
 	}
 	864.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = 0
 		holder = 273135
 	}
@@ -2458,11 +2458,11 @@ d_syrte = {
 
 c_syrte = {
 	700.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = e_arabia
 	}
 	768.1.1 = {	
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = d_tripolitania
 		holder = 210031
 	}
@@ -2483,7 +2483,7 @@ c_syrte = {
 
 #Old history
 	1093.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		holder = 155208
 	}
 	1105.1.1 = {
@@ -2515,11 +2515,11 @@ c_syrte = {
 
 c_labda = {
 	700.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = e_arabia
 	}
 	768.1.1 = {	
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = "d_tripolitania"
 	}
 	768.1.1 = {
@@ -2550,7 +2550,7 @@ c_labda = {
 
 #Old history
 	1093.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		holder = 155133
 	}
 	1115.1.1 = {
@@ -2603,7 +2603,7 @@ c_labda = {
 
 c_waddan = {
 	700.1.1 = {
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = e_arabia
 	}
 	768.1.1 = {	

@@ -626,6 +626,7 @@ d_cibyrrhaeot = {
 				}
 			}
 		}
+		government = theme_government
 	}
 	705.1.1 = {
 		holder = gothograeci004

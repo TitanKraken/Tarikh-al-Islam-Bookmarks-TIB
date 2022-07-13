@@ -1,0 +1,253 @@
+﻿
+clan_government = {
+	primary_holding = castle_holding
+	primary_heritages = { heritage_arabic heritage_iranian heritage_turkic heritage_mongol heritage_berber }
+	
+	fallback = 2
+	
+	#preferred_religions = { islam_religion }
+	create_cadet_branches = yes
+	rulers_should_have_dynasty = yes
+	royal_court = yes
+
+	valid_holdings = { castle_holding }
+	required_county_holdings = { castle_holding city_holding church_holding }
+	always_use_patronym = yes
+	dynasty_named_realms = yes
+
+	vassal_contract = {
+		clan_government_obligations
+		special_contract
+		religious_rights
+		war_declaration_rights
+		council_rights
+		title_revocation_rights
+		jizya_special_rights
+		iqta_special_rights
+		ghazi_special_rights
+		marriage_favor_rights
+	}
+	
+	opinion_of_liege = {
+		scope:vassal = {
+			if = {
+				limit = {
+					NOT = {
+						is_allied_to = scope:liege
+					}
+				}
+				if = {
+					limit = {
+						is_powerful_vassal = yes
+					}
+					value = -30
+				}
+				else = {
+					value = -15
+				}
+			}
+		}
+	}
+	opinion_of_liege_desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					scope:vassal = {
+						NOT = {
+							is_allied_to = scope:liege
+						}
+						is_powerful_vassal = yes
+					}
+				}
+				desc = "GOVERNMENT_CLAN_NOT_ALLIED_POWERFUL"
+			}
+			triggered_desc = {
+				trigger = {
+					scope:vassal = {
+						NOT = {
+							is_allied_to = scope:liege
+						}
+						is_powerful_vassal = no
+					}
+				}
+				desc = "GOVERNMENT_CLAN_NOT_ALLIED"
+			}
+		}
+	}
+	flag = government_can_raid_rule
+	color = hsv{ 0.39 0.93 0.54 }
+}
+
+# Mercenary will always get this
+mercenary_government = {
+	court_generate_spouses = no
+	court_generate_commanders = 5
+	council = no
+
+	ai = {
+		arrange_marriage = yes
+		use_goals = no
+		use_scripted_guis = no
+		perform_religious_reformation = yes
+	}
+
+	flag = can_not_be_vassal_or_liege
+	color = hsv{ 0.00 0.00 0.66 }
+}
+
+# Holy order will always get this
+holy_order_government = {
+	court_generate_spouses = no
+	court_generate_commanders = 5
+	council = no
+
+	ai = {
+		arrange_marriage = yes
+		use_goals = no
+		use_scripted_guis = no
+		perform_religious_reformation = no
+	}
+
+	flag = can_not_be_vassal_or_liege
+
+	valid_holdings = { castle_holding city_holding }
+	color = hsv{ 0.00 0.00 0.66 }
+}
+
+# TIB Governments
+
+islamic_government = {
+	primary_holding = castle_holding
+	
+	fallback = 3
+	
+	preferred_religions = { islam_religion }
+	create_cadet_branches = yes
+	rulers_should_have_dynasty = yes
+	royal_court = yes
+
+	valid_holdings = { castle_holding city_holding }
+	required_county_holdings = { castle_holding city_holding church_holding }
+	always_use_patronym = yes
+	dynasty_named_realms = yes
+
+	vassal_contract = {
+		clan_government_obligations
+		special_contract
+		religious_rights
+		war_declaration_rights
+		council_rights
+		title_revocation_rights
+		jizya_special_rights
+		iqta_special_rights
+		ghazi_special_rights
+		marriage_favor_rights
+	}
+
+	character_modifier = {
+		title_creation_cost_mult = -0.5
+		levy_size = -0.50
+
+		vassal_tax_mult = 0.2
+		ai_war_chance = 0.10
+		monthly_income_mult = 0.20
+		army_maintenance_mult = -0.2
+	}
+	
+	opinion_of_liege = {
+		scope:vassal = {
+			if = {
+				limit = {
+					NOT = {
+						is_allied_to = scope:liege
+					}
+				}
+				if = {
+					limit = {
+						is_powerful_vassal = yes
+					}
+					value = -30
+				}
+				else = {
+					value = -15
+				}
+			}
+		}
+	}
+	opinion_of_liege_desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					scope:vassal = {
+						NOT = {
+							is_allied_to = scope:liege
+						}
+						is_powerful_vassal = yes
+					}
+				}
+				desc = "GOVERNMENT_CLAN_NOT_ALLIED_POWERFUL"
+			}
+			triggered_desc = {
+				trigger = {
+					scope:vassal = {
+						NOT = {
+							is_allied_to = scope:liege
+						}
+						is_powerful_vassal = no
+					}
+				}
+				desc = "GOVERNMENT_CLAN_NOT_ALLIED"
+			}
+		}
+	}
+	flag = government_can_raid_rule
+	color = hsv{ 0.39 0.93 0.54 }
+}
+
+theme_government = {
+	primary_heritages = { heritage_byzantine }
+	create_cadet_branches = yes
+	rulers_should_have_dynasty = yes
+	dynasty_named_realms = yes
+	royal_court = yes
+
+	fallback = 4
+
+	primary_holding = castle_holding
+	required_county_holdings = { castle_holding city_holding church_holding }
+
+	can_get_government = {
+		scope:vassal = {
+			is_vassal_of = {
+				OR = {
+					title = title:e_byzantium
+				}
+			}
+		}
+	}
+
+	vassal_contract = {
+		feudal_government_taxes
+		feudal_government_levies
+		special_contract
+		religious_rights
+		fortification_rights
+		coinage_rights
+		succession_rights
+		war_declaration_rights
+		council_rights
+		title_revocation_rights
+		jizya_special_rights
+	}
+
+	character_modifier = {
+		levy_size = 0.30
+
+		vassal_tax_mult = 0.2
+		monthly_income_mult = 0.15
+		army_maintenance_mult = -0.30 # Subsidised by the state
+	}
+	
+	flag = vassal_all_wars_banned
+	color = hsv{ 0.67 1.00 0.78 }
+}
