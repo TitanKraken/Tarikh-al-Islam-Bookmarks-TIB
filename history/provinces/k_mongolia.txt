@@ -3,13 +3,18 @@
 
 #k_mongolia
 ##d_otuken ###################################
-#Historical region of Ötüken with heavy symbolic meaning
+#Historical region of Ã–tÃ¼ken with heavy symbolic meaning
 ###c_karakorum
 1457 = {	#Karakorum
 	#Historical capital of the Mongol Empire, founded in the XIIIth
 	culture = kerait
 	religion = tengri_pagan
 	holding = tribal_holding
+	
+	700.1.1 = {
+	 culture = khazar
+	}
+	
 	867.1.1 = {
 		buildings = {
 			longhouses_01
@@ -46,11 +51,16 @@
 	culture = mongol
 	religion = tengri_pagan
 	holding = tribal_holding
+	
+	700.1.1 = {
+	 culture = khazar
+	}
+	
 	1050.1.2 = {
 		culture = kerait
 	}
 }
-1461 = {	#Ötuken City
+1461 = {	#Ã–tuken City
 	#Legendary turko-mongol city around this area
 	holding = none
 }
@@ -77,6 +87,11 @@
 	culture = mongol
 	religion = tengri_pagan
 	holding = tribal_holding
+	
+	700.1.1 = {
+	 culture = khazar
+	}
+	
 	1050.1.2 = {
 		culture = kerait
 	}
@@ -98,12 +113,17 @@
 }
 
 ##d_ogrash ###################################
-#Ögräsh is a region somewhat east of the Ötüken
-###c_ulaanbaatar	named Örgöö in game
+#Ã–grÃ¤sh is a region somewhat east of the Ã–tÃ¼ken
+###c_ulaanbaatar	named Ã–rgÃ¶Ã¶ in game
 7532 = {	#Ulaanbaatar
 	culture = mongol
 	religion = tengri_pagan
 	holding = tribal_holding
+	
+	700.1.1 = {
+	 culture = khazar
+	}
+	
 }
 7533 = {	#Moltsog Els
 	#Named after local desert
@@ -124,6 +144,11 @@
 	culture = mongol
 	religion = tengri_pagan
 	holding = tribal_holding
+	
+	700.1.1 = {
+	 culture = khazar
+	}
+	
 }
 7537 = {	#Tuul Khentii
 	#Entirely fictional
@@ -144,6 +169,11 @@
 	culture = mongol
 	religion = tengri_pagan
 	holding = tribal_holding
+	
+	
+	700.1.1 = {
+	 culture = khazar
+	}
 }
 7541 = {	#Chikoy_OGR
 	#Named after local river
@@ -162,6 +192,11 @@
 	culture = mongol
 	religion = tengri_pagan
 	holding = tribal_holding
+	
+	700.1.1 = {
+	 culture = khazar
+	}
+	
 }
 7552 = {	#Buteeliin Nuruu
 	#Named after local region
@@ -182,6 +217,11 @@
 	culture = mongol
 	religion = tengri_pagan
 	holding = tribal_holding
+	
+	700.1.1 = {
+	 culture = khazar
+	}
+	
 }
 7544 = {	#Namnan Uul
 	#Named after local mountain
@@ -198,6 +238,10 @@
 	culture = mongol
 	religion = tengri_pagan
 	holding = tribal_holding
+		
+	700.1.1 = {
+	 culture = khazar
+	}
 }
 7546 = {	#Erkhel
 	#Named after local lake
@@ -214,6 +258,11 @@
 	culture = mongol
 	religion = tengri_pagan
 	holding = tribal_holding
+	
+	
+	700.1.1 = {
+	 culture = khazar
+	}
 }
 7549 = {	#Khargal
 	#Named after local lake
@@ -230,6 +279,10 @@
 	culture = mongol
 	religion = tengri_pagan
 	holding = tribal_holding
+	
+	700.1.1 = {
+	 culture = khazar
+	}
 }
 7557 = {	#Kyngarga
 	#Named after local river
@@ -241,13 +294,18 @@
 }
 
 ##d_ovorkhangai ###################################
-#Övörkhangai region
+#Ã–vÃ¶rkhangai region
 ###c_tovkhon
 7573 = {	#Tovkhon
 	#Monastery established in the XVIIth century
 	culture = kerait
 	religion = tengri_pagan
 	holding = tribal_holding
+	
+	700.1.1 = {
+	 culture = khazar
+	}
+	
 	1020.1.2 = {
 		religion = nestorian
 	}
@@ -271,6 +329,11 @@
 	culture = kerait
 	religion = tengri_pagan
 	holding = tribal_holding
+	
+	700.1.1 = {
+	 culture = khazar
+	}
+	
 	1020.1.2 = {
 		religion = nestorian
 	}
@@ -290,6 +353,11 @@
 	culture = kerait
 	religion = tengri_pagan
 	holding = tribal_holding
+	
+	700.1.1 = {
+	 culture = khazar
+	}
+	
 	1020.1.2 = {
 		religion = nestorian
 	}
@@ -309,6 +377,11 @@
 	culture = kerait
 	religion = tengri_pagan
 	holding = tribal_holding
+	
+	700.1.1 = {
+	 culture = khazar
+	}
+	
 	1020.1.2 = {
 		religion = nestorian
 	}
@@ -327,6 +400,11 @@
 	culture = kerait
 	religion = tengri_pagan
 	holding = tribal_holding
+	
+	700.1.1 = {
+	 culture = khazar
+	}
+	
 	1020.1.2 = {
 		religion = nestorian
 	}
@@ -341,13 +419,18 @@
 }
 
 ##d_arkhangai ###################################
-#Övörkhangai region
+#Ã–vÃ¶rkhangai region
 ###c_tarvagatai
 1458 = {	#Tarvagatai
 	#Named after local mountain
 	culture = mongol
 	religion = tengri_pagan
 	holding = tribal_holding
+	
+	700.1.1 = {
+	 culture = khazar
+	}
+	
 }
 7581 = {	#Galt
 	#Provincial district
@@ -364,6 +447,11 @@
 	culture = mongol
 	religion = tengri_pagan
 	holding = tribal_holding
+	
+	700.1.1 = {
+	 culture = khazar
+	}
+	
 }
 7575 = {	#Telmen
 	#Named after local lake
@@ -378,12 +466,17 @@
 	holding = none
 }
 
-###c_uliastai
+	###c_uliastai
 7579 = {	#Uliastai
 	#Local settlement
 	culture = mongol
 	religion = tengri_pagan
 	holding = tribal_holding
+	
+	700.1.1 = {
+	 culture = khazar
+	}
+	
 }
 7578 = {	#Ulaagchiin Khar
 	#Named after local lake
@@ -446,6 +539,11 @@
 	culture = naiman
 	religion = tengri_pagan
 	holding = tribal_holding
+	
+	700.1.1 = {
+	 culture = uyghur
+	}
+	
 	1020.1.2 = {
 		religion = nestorian
 	}
@@ -465,6 +563,11 @@
 	culture = naiman
 	religion = tengri_pagan
 	holding = tribal_holding
+	
+	700.1.1 = {
+	 culture = uyghur
+	}
+	
 	1020.1.2 = {
 		religion = nestorian
 	}
@@ -480,6 +583,11 @@
 	culture = naiman
 	religion = tengri_pagan
 	holding = tribal_holding
+	
+	700.1.1 = {
+	 culture = uyghur
+	}
+	
 	1020.1.2 = {
 		religion = nestorian
 	}
@@ -499,6 +607,11 @@
 	culture = mongol
 	religion = tengri_pagan
 	holding = tribal_holding
+	
+	
+	700.1.1 = {
+	 culture = uriankhai
+	}
 }
 7603 = {	#Khan Khokhii
 	#Named after local mountain
@@ -515,6 +628,11 @@
 	culture = naiman
 	religion = tengri_pagan
 	holding = tribal_holding
+		
+	700.1.1 = {
+	 culture = uriankhai
+	}
+	
 	1020.1.2 = {
 		religion = nestorian
 	}
@@ -534,6 +652,11 @@
 	culture = mongol
 	religion = tengri_pagan
 	holding = tribal_holding
+	
+	700.1.1 = {
+	 culture = uriankhai
+	}
+	
 }
 7601 = {	#Bayan_UVS
 	#Named after local lake
@@ -550,6 +673,11 @@
 	culture = mongol
 	religion = tengri_pagan
 	holding = tribal_holding
+	
+	700.1.1 = {
+	 culture = uyghur
+	}
+	
 }
 7606 = {	#Urgamal
 	#Provincial district
@@ -566,6 +694,11 @@
 	culture = naiman
 	religion = tengri_pagan
 	holding = tribal_holding
+	
+	700.1.1 = {
+	 culture = uyghur
+	}
+	
 	1020.1.2 = {
 		religion = nestorian
 	}
@@ -586,6 +719,11 @@
 	culture = naiman
 	religion = tengri_pagan
 	holding = tribal_holding
+	
+	700.1.1 = {
+	 culture = uriankhai
+	}
+	
 	1020.1.2 = {
 		religion = nestorian
 	}
@@ -605,6 +743,11 @@
 	culture = naiman
 	religion = tengri_pagan
 	holding = tribal_holding
+	
+	700.1.1 = {
+	 culture = kirghiz
+	}
+	
 	1020.1.2 = {
 		religion = nestorian
 	}
