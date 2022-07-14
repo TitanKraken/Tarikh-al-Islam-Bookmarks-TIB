@@ -369,7 +369,9 @@ c_dabusiya = {
 		holder = 163157
 		liege = d_soghd
 	}
-	
+	1010.1.1 = {
+		holder = 3002
+	}
 	1041.1.1 = {
 		liege = "k_transoxiana"
 	}
@@ -439,7 +441,9 @@ c_samarkand = {
 	864.1.1 = {
 		holder = 163099 # Nasr
 	}
-	
+	1010.1.1 = {
+		holder = 3002
+	}
 	1052.1.1 = {
 		holder = 3014
 	}
@@ -869,6 +873,9 @@ c_shughnan = {
 	}
 	998.1.1 = {
 		holder = 144125 # Mahmud
+	}
+	1010.1.1 = {
+		holder = 3002
 	}
 	1030.1.1 = {
 		holder = 144126 # Muhammad
@@ -1411,6 +1418,9 @@ c_oshrusana = {
 		#holder = 163099
 		liege = k_transoxiana
 	}
+	1010.1.1 = {
+		holder = 3002
+	}
 	
 	1052.1.1 = {
 		holder = 3014
@@ -1553,6 +1563,10 @@ c_zarafshan = {
 		liege = d_soghd
 		government = clan_government
 	}
+
+	1010.1.1 = {
+		holder = 3002
+	}
 	
 	1041.1.1 = {
 		liege = "k_transoxiana"
@@ -1652,7 +1666,9 @@ c_ferghana = {
 		holder = 163099 # Nasr Samanid
 		liege=k_transoxiana
 	}
-	
+	1010.1.1 = {
+		holder = 3002
+	}
 	1052.1.1={
 		holder = 3014
 	}
@@ -1776,7 +1792,9 @@ c_khojand = {
 		holder = 163099 # Nasr Samanid
 		liege=k_transoxiana
 	}
-	
+	1010.1.1 = {
+		holder = 3002
+	}
 	1052.1.1={
 		holder=3014
 	}
@@ -1896,6 +1914,9 @@ c_isfara = {
 		holder = 163099 # Nasr Samanid
 		liege=k_transoxiana
 	}
+	1010.1.1 = {
+		holder = 3002
+	}
 	
 	1052.1.1={
 		holder=3014
@@ -2012,6 +2033,10 @@ c_nasaiya = {
 	864.1.1 = {
 		holder = 163099 # Nasr Samanid
 		liege = k_transoxiana
+	}
+
+	1010.1.1 = {
+		holder = 3002
 	}
 	
 	1052.1.1 = {
@@ -2133,6 +2158,10 @@ c_nasrabad = {
 	864.1.1={
 		holder = 163099 # Nasr Samanid
 		liege=k_transoxiana
+	}
+
+	1010.1.1 = {
+		holder = 3002
 	}
 	
 	1052.1.1={

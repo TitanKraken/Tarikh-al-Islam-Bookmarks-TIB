@@ -39,6 +39,10 @@ c_jend = {
 		government = tribal_government
 	}
 	
+	1010.1.1 = {
+		holder = 3002
+	}
+
 	#1066 start
 	1066.1.1 = {
 		holder = 93087
@@ -95,7 +99,9 @@ c_sighnaq = {
 	876.5.22 = {
 		holder = 302644	#fictional Yinal Shavgari
 	}
-	
+	1010.1.1 = {
+		holder = 3002
+	}
 	#1066 start
 	1052.1.1 = {
 		liege = 0
@@ -141,7 +147,11 @@ c_uzgend_KARA = {
 	876.5.22 = {
 		holder = 302644	#fictional Yinal Shavgari
 	}
-	
+
+	1010.1.1 = {
+		holder = 3002
+	}
+
 	#1066 start
 	1052.1.1 = {
 		liege = 0
@@ -312,6 +322,10 @@ c_chah = {
 		holder = 302688	#fictional Dogan Shahn
 	}
 	
+	1010.1.1 = {
+		holder = 3002
+	}
+
 	#Chah within the Karakhanid in 1066
 	1060.1.2 = {
 		holder = 302692	#fictional Mala Karachahnid
@@ -423,7 +437,11 @@ c_otrar = {
 	882.1.9 = {
 		holder = 302688	#fictional Dogan Shahn
 	}
-	
+
+	1010.1.1 = {
+		holder = 3002
+	}
+
 	#Chah within the Karakhanid in 1066
 	1060.1.2 = {
 		holder = 302692	#fictional Mala Karachahnid
@@ -534,7 +552,9 @@ c_shavgar = {
 	876.5.22 = {
 		holder = 302644	#fictional Yinal Shavgari
 	}
-	
+	1010.1.1 = {
+		holder = 3002
+	}
 	#1066 start
 	1052.1.1 = {
 		liege = 0

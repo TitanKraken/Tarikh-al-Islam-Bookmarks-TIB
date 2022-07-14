@@ -417,6 +417,10 @@ c_yangikent = {
 		holder = 74031
 	}
 	
+	1010.1.1 = {
+		holder = 3002
+	}
+
 	#1066 start
 	1066.1.1 = {
 		holder = 93087
@@ -472,7 +476,11 @@ c_raimskoe = {
 	850.1.1 = {
 		holder = 74031
 	}
-	
+
+	1010.1.1 = {
+		holder = 3002
+	}
+
 	#1050 - Desht-i-Kipchak / Cumania
 	1066.1.1 = {
 		holder = 90143
