@@ -4321,20 +4321,11 @@ house_british_isles_brycheiniog = 200068
 
 101864 = { # Karakhanids
 	pattern = "pattern_solid.dds"
-	color1 = "red"
-	color2 = "blue_light"
+	color1 = "yellow_light"
 	colored_emblem = {
-		texture = "ce_ordinary_pily_horizontal_04.dds"
-		color1 = "blue_light"
-		color2 = "blue_light"
-		instance = { position = { 0.695 0.250 } scale = { -0.390 0.500 }  }
-		instance = { position = { 0.695 0.750 } scale = { -0.390 0.500 }  }		
-	}	
-	colored_emblem = {
-		texture = "ce_block_02.dds"
-		color1 = "blue_light"
-		color2 = "blue_light"
-		instance = { position = { 0.945 0.50 } scale = { 0.11 1.0 }  }	
+		texture = "tib_kara_khanid.dds"
+		color1 = "white"
+		instance = { scale = { 1.1 1.1 }  }	
 	}		
 }
 

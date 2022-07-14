@@ -1,0 +1,6 @@
+﻿e_mongolia = {
+	item = {
+		trigger = { holder.culture = { has_cultural_pillar = heritage_turkic } }
+		coat_of_arms = e_mongolia_gokturk
+	}
+}

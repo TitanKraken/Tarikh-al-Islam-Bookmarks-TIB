@@ -35,3 +35,5 @@ tib_seljuk_eagle.dds = { colors = 1 category = animals }
 tib_arabic_shahada_maghrebi.dds = { colors = 1 category = writing }
 tib_arabic_shahada_maghrebi_shrinked.dds = { colors = 1 category = writing }
 national_emblem_of_oman.dds = { colors = 2 category = manmade }
+tib_kara_khanid.dds = { colors = 1 category = manmade }
+tib_gokturk.dds = { colors = 1 category = animals }
