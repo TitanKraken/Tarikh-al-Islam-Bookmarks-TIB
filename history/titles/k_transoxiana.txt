@@ -134,6 +134,10 @@ c_bukhara = {
 		holder = 163157
 		liege = d_soghd
 	}
+
+	1000.1.1 = {
+        holder = 144125
+	}
 	
 	1041.1.1 = {
 		liege = "k_transoxiana"
@@ -191,6 +195,10 @@ c_kishsh = {
 		liege = d_soghd
 		government = clan_government
 	}
+
+	1000.1.1 = {
+        holder = 144125
+	}
 	
 	1041.1.1 = {
 		liege = "k_transoxiana"
@@ -247,6 +255,10 @@ c_nakhshab = {
 		holder = 163157
 		liege = d_soghd
 	}
+
+	1000.1.1 = {
+        holder = 144125
+	}
 	
 	1041.1.1 = {
 		liege = "k_transoxiana"
@@ -299,6 +311,10 @@ c_firabr = {
 	864.1.1 = {
 		holder = 163157
 		liege = d_soghd
+	}
+
+	1000.1.1 = {
+        holder = 144125
 	}
 	
 	1041.1.1 = {
@@ -1093,6 +1109,11 @@ c_khuttal = {
 		holder = 163099
 		government = clan_government
 	}
+
+	1000.1.1 = {
+        holder = 144125
+	}
+
 	1064.1.1 = {
 		holder = 93123
 	}
@@ -1159,6 +1180,10 @@ c_wakhsh = {
 	}
 	864.1.1 = {
 		holder = 163099
+	}
+
+1000.1.1 = {
+        holder = 144125
 	}
 
 	1066.1.1 = {
@@ -1229,6 +1254,10 @@ c_chaghaniyan = {
 		holder = 163099
 	}
 
+	1000.1.1 = {
+        holder = 144125
+	}
+
 	1066.1.1 = {
 		holder = 93123
 	}
@@ -1295,6 +1324,9 @@ c_rasht = {
 	}
 	864.1.1 = {
 		holder = 163099
+	}
+	1000.1.1 = {
+        holder = 144125
 	}
 	1066.1.1 = {
 		holder = 93123
@@ -2255,6 +2287,10 @@ c_gurganj = {
 	850.1.1 = {
 		holder = 188598	#historical Afrighid ruler
 	}
+
+	1000.1.1 = {
+        holder = 144125
+	}
 	
 	1066.1.1 = {
 		holder = 93121	#Arslan Argun Seljuk prince
@@ -2286,6 +2322,10 @@ c_darghan = {
 	}
 	850.1.1 = {
 		holder = 188598	#historical Afrighid ruler
+	}
+
+	1000.1.1 = {
+        holder = 144125
 	}
 	
 	1066.1.1 = {
@@ -2323,6 +2363,10 @@ c_kath = {
 	}
 	850.1.1 = {
 		holder = 188598	#historical Afrighid ruler
+	}
+
+	1000.1.1 = {
+        holder = 144125
 	}
 	
 	1066.1.1 = {
@@ -2364,6 +2408,10 @@ c_khiva = {
 	850.1.1 = {
 		holder = 188598	#historical Afrighid ruler
 	}
+
+	1000.1.1 = {
+        holder = 144125
+	}
 	
 	1066.1.1 = {
 		holder = 93121	#Arslan Argun Seljuk prince
@@ -2401,6 +2449,10 @@ c_kurdar = {
 	}
 	850.1.1 = {
 		holder = 188598	#historical Afrighid ruler
+	}
+
+	1000.1.1 = {
+        holder = 144125
 	}
 	
 	1066.1.1 = {
@@ -2482,6 +2534,10 @@ c_sarykamysh = {
 	935.1.1 = {
 		government = clan_government	#Ahistorical, just for ease of bookmarks.
 	}
+
+	1000.1.1 = {
+		holder = 144125
+	}
 	
 	1066.1.1 = {
 		government = tribal_government
@@ -2530,6 +2586,10 @@ c_uzboy = {
 	}
 	935.1.1 = {
 		government = clan_government	#Ahistorical, just for ease of bookmarks.
+	}
+
+	1000.1.1 = {
+        holder = 144125
 	}
 	
 	1066.1.1 = {

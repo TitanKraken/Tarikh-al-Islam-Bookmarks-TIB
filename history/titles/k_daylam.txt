@@ -734,6 +734,10 @@ c_gurgan = {
 	935.1.1 = {
 		government = clan_government	#Ahistorical, just for ease of bookmarks.
 	}
+
+	1000.1.1 = {
+		holder = 144125
+	}
 	
 	1066.1.1 = {
 		liege = e_persia
@@ -818,6 +822,10 @@ c_dihistan = {
 	}
 	935.1.1 = {
 		government = clan_government	#Ahistorical, just for ease of bookmarks.
+	}
+
+	1000.1.1 = {
+		holder = 144125
 	}
 	
 	1066.1.1 = {
