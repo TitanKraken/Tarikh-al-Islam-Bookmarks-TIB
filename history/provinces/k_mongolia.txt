@@ -21,6 +21,7 @@
 		}
 	}
 	1020.1.2 = {
+		culture = kerait
 		religion = nestorian
 	}
 }
@@ -123,6 +124,10 @@
 	700.1.1 = {
 	 culture = khazar
 	}
+
+	1050.1.1 = {
+		culture = mongol
+	}
 	
 }
 7533 = {	#Moltsog Els
@@ -149,6 +154,9 @@
 	 culture = khazar
 	}
 	
+	1050.1.1 = {
+		culture = mongol
+	}
 }
 7537 = {	#Tuul Khentii
 	#Entirely fictional
@@ -174,6 +182,10 @@
 	700.1.1 = {
 	 culture = khazar
 	}
+
+	1050.1.1 = {
+		culture = mongol
+	}
 }
 7541 = {	#Chikoy_OGR
 	#Named after local river
@@ -197,6 +209,9 @@
 	 culture = khazar
 	}
 	
+	1050.1.1 = {
+		culture = mongol
+	}
 }
 7552 = {	#Buteeliin Nuruu
 	#Named after local region
@@ -222,6 +237,9 @@
 	 culture = khazar
 	}
 	
+	1050.1.1 = {
+		culture = mongol
+	}
 }
 7544 = {	#Namnan Uul
 	#Named after local mountain
@@ -241,6 +259,10 @@
 		
 	700.1.1 = {
 	 culture = khazar
+	}
+
+	1050.1.1 = {
+		culture = mongol
 	}
 }
 7546 = {	#Erkhel
@@ -263,6 +285,10 @@
 	700.1.1 = {
 	 culture = khazar
 	}
+
+	1050.1.1 = {
+		culture = mongol
+	}
 }
 7549 = {	#Khargal
 	#Named after local lake
@@ -283,6 +309,11 @@
 	700.1.1 = {
 	 culture = khazar
 	}
+
+    1050.1.1 = {
+		culture = mongol
+	}
+	
 }
 7557 = {	#Kyngarga
 	#Named after local river
@@ -307,6 +338,7 @@
 	}
 	
 	1020.1.2 = {
+		culture = kerait
 		religion = nestorian
 	}
 }
@@ -335,6 +367,7 @@
 	}
 	
 	1020.1.2 = {
+		culture = kerait
 		religion = nestorian
 	}
 }
@@ -359,6 +392,7 @@
 	}
 	
 	1020.1.2 = {
+		culture = kerait
 		religion = nestorian
 	}
 }
@@ -383,6 +417,7 @@
 	}
 	
 	1020.1.2 = {
+		culture = kerait
 		religion = nestorian
 	}
 }
@@ -406,6 +441,7 @@
 	}
 	
 	1020.1.2 = {
+		culture = kerait
 		religion = nestorian
 	}
 }
@@ -431,6 +467,9 @@
 	 culture = khazar
 	}
 	
+	1050.1.1 = {
+		culture = mongol
+	}
 }
 7581 = {	#Galt
 	#Provincial district
@@ -450,6 +489,9 @@
 	
 	700.1.1 = {
 	 culture = khazar
+	}
+	1050.1.1 = {
+		culture = mongol
 	}
 	
 }
@@ -477,6 +519,9 @@
 	 culture = khazar
 	}
 	
+	1050.1.1 = {
+		culture = mongol
+	}
 }
 7578 = {	#Ulaagchiin Khar
 	#Named after local lake
