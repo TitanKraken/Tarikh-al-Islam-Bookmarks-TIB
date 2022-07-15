@@ -55,7 +55,11 @@ c_mangyshlak = {
 	850.1.1 = {
 		holder = 74031
 	}
-	
+
+	1010.1.1 = {
+		holder = 1230137
+	}
+
 	#1055 : end of Oghuz il
 	1055.1.2 = {
 		holder = 302629	#fictional Korkut Mangyt
@@ -109,6 +113,9 @@ c_garabogazkol = {
 		holder = 74031
 	}
 	
+	1010.1.1 = {
+		holder = 1230137
+	}
 	#1055 : end of Oghuz il
 	1055.1.2 = {
 		holder = 302629	#fictional Korkut Mangyt
@@ -179,6 +186,10 @@ c_ustyurt = {
 		holder = 74031
 	}
 	
+	1010.1.1 = {
+		holder = 1230137
+	}
+
 	#1055 : end of Oghuz il
 	1055.1.2 = {
 		holder = 302629	#fictional Korkut Mangyt
@@ -234,6 +245,10 @@ c_qoshagyl = {
 		holder = 74031
 	}
 	
+	1010.1.1 = {
+		holder = 1230137
+	}
+
 	#1050 - Desht-i-Kipchak / Cumania
 	1066.1.1 = {
 		holder = 194447
@@ -293,6 +308,10 @@ c_akkityk = {
 		holder = 74031
 	}
 	
+	1010.1.1 = {
+		holder = 1230137
+	}
+
 	#1050 - Desht-i-Kipchak / Cumania
 	1066.1.1 = {
 		holder = 194447
@@ -350,6 +369,10 @@ c_kos-buwak = {
 	
 	850.1.1 = {
 		holder = 74031
+	}
+
+	1010.1.1 = {
+		holder = 1230137
 	}
 	
 	#1050 - Desht-i-Kipchak / Cumania
@@ -539,7 +562,11 @@ c_ak-dzulpas = {
 	850.1.1 = {
 		holder = 74031
 	}
-	
+
+	1010.1.1 = {
+		holder = 1230137
+	}
+
 	#1050 - Desht-i-Kipchak / Cumania
 	1066.1.1 = {
 		holder = 228058
@@ -599,6 +626,10 @@ c_aralkizil = {
 		holder = 74031
 	}
 	
+	1010.1.1 = {
+		holder = 1230137
+	}
+
 	#1055 - End of Oghuz il
 	1055.1.2 = {
 		holder = 302636	#fictional Afsin Aiytid
@@ -644,7 +675,11 @@ c_terekli = {
 	850.1.1 = {
 		holder = 74031
 	}
-	
+
+	1010.1.1 = {
+		holder = 1230137
+	}
+
 	#1050 - Desht-i-Kipchak / Cumania
 	1066.1.1 = {
 		holder = 228058
@@ -704,6 +739,10 @@ c_barsuki = {
 		holder = 74031
 	}
 	
+	1010.1.1 = {
+		holder = 1230137
+	}
+
 	#1050 - Desht-i-Kipchak / Cumania
 	1066.1.1 = {
 		holder = 228058
@@ -761,6 +800,10 @@ c_aral_karakum = {
 	
 	850.1.1 = {
 		holder = 74031
+	}
+	
+	1010.1.1 = {
+		holder = 1230137
 	}
 	
 	#1050 - Desht-i-Kipchak / Cumania
