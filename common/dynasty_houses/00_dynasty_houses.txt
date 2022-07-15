@@ -1666,6 +1666,11 @@ house_oca = {
 	dynasty = alvarez # Álvarez
 }
 
+house_oghuzqayi = {
+	name = "dynn_OghuzQayi"
+	dynasty = 1000101748
+}
+
 house_ordonez = {
 	name = "dynn_OrdO_N_ez"
 	dynasty = erwigiana # Ervigio's Dynasty
