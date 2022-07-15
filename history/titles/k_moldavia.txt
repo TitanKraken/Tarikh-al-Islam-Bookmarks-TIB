@@ -39,11 +39,6 @@ c_suceava = {
 		holder = 302133		#Litovoi Bolohoveni
 		liege = d_kiev
 	}
-	# Mongol
-	1240.1.1 = { # Around the Mongol Invasion of Europe
-		holder = sons_of_orda_002 # Quremsa
-		liege = e_golden_horde
-	}
 }
 
 c_neamnt = {
@@ -68,11 +63,6 @@ c_neamnt = {
 		holder = 302133		#Litovoi Bolohoveni
 		liege = d_kiev
 	}
-	# Mongol
-	1240.1.1 = { # Around the Mongol Invasion of Europe
-		holder = sons_of_orda_002 # Quremsa
-		liege = e_golden_horde
-	}
 }
 
 c_dorohoi = {
@@ -93,11 +83,6 @@ c_dorohoi = {
 	1066.1.1 = {
 		holder = 302140
 		liege = d_kiev
-	}
-	# Mongol
-	1240.1.1 = { # Around the Mongol Invasion of Europe
-		holder = sons_of_orda_002 # Quremsa
-		liege = e_golden_horde
 	}
 }
 
@@ -120,11 +105,6 @@ c_hotin = {
 		holder = 302140
 		liege = d_kiev
 	}
-	# Mongol
-	1240.1.1 = { # Around the Mongol Invasion of Europe
-		holder = sons_of_orda_002 # Quremsa
-		liege = e_golden_horde
-	}
 }
 
 d_moldova = {
@@ -138,11 +118,6 @@ d_moldova = {
 	}
 	935.1.1 = {
 		government = feudal_government	#Ahistorical, just for ease of bookmarks.
-	}
-	# Mongol
-	1240.1.1 = { # Around the Mongol Invasion of Europe
-		holder = sons_of_orda_002 # Quremsa
-		liege = e_golden_horde
 	}
 }
 
@@ -164,12 +139,6 @@ c_iasi = {
 	}
 	1091.1.1 = {
 		liege = 0
-	}
-
-	# Mongol
-	1240.1.1 = { # Around the Mongol Invasion of Europe
-		holder = sons_of_orda_002 # Quremsa
-		liege = e_golden_horde
 	}
 }
 
@@ -319,11 +288,6 @@ c_tigheci = {
 		holder = 20642
 		liege = "k_pechenegs"
 	}
-	# Mongol
-	1240.1.1 = { # Around the Mongol Invasion of Europe
-		holder = sons_of_orda_002 # Quremsa
-		liege = e_golden_horde
-	}
 }
 
 c_cetatea_alba = {
@@ -342,11 +306,6 @@ c_cetatea_alba = {
 		holder = 20641
 		liege = 0
 	}
-	# Mongol
-	1240.1.1 = { # Around the Mongol Invasion of Europe
-		holder = sons_of_orda_002 # Quremsa
-		liege = e_golden_horde
-	}
 }
 
 c_chilia = {
@@ -363,11 +322,6 @@ c_chilia = {
 	1066.1.1 = {
 		holder = 20635
 		liege = "k_pechenegs"
-	}
-	# Mongol
-	1240.1.1 = { # Around the Mongol Invasion of Europe
-		holder = sons_of_orda_002 # Quremsa
-		liege = e_golden_horde
 	}
 }
 
@@ -390,11 +344,6 @@ c_lapusna = {
 	1066.1.1 = {
 		holder = 20642
 		liege = "k_pechenegs"
-	}
-	# Mongol
-	1240.1.1 = { # Around the Mongol Invasion of Europe
-		holder = sons_of_orda_002 # Quremsa
-		liege = e_golden_horde
 	}
 }
 
