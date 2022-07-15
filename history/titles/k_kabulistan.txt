@@ -1,5 +1,6 @@
 
 k_kabulistan = {
+        name = Ghaznavid
 	867.1.1 = {	change_development_level = 5 }
 	1066.1.1 = { change_development_level = 8 }
 
@@ -62,6 +63,10 @@ k_kabulistan = {
 	}
 	1118.1.1 = {
 		holder = 0 # Ghaznavid vassalage under Seljuks
+	}
+	
+	1142.1.1 = {
+		holder = 144137
 	}
 	
 	1157.1.1 = {
