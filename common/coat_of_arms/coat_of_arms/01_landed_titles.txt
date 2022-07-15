@@ -23581,19 +23581,12 @@ k_dzungaria = {
 # Colour switched to new lighter blue
 k_zhetysu = {
 	pattern = "pattern_solid.dds"
-	color1 = "red"
-	color2 = "blue_light"
+	color1 = "yellow_light"
 	colored_emblem = {
-		texture = "ce_block_04.dds"
-		color1 = "blue_light"
-		color2 = "blue_light"
-		instance = { position = { 0.5 0.110 } scale = { 1.0 0.6 }  }
-		instance = { position = { 0.5 0.233 } scale = { 1.0 0.6 }  }
-		instance = { position = { 0.5 0.356 } scale = { 1.0 0.6 }  }
-		instance = { position = { 0.5 0.480 } scale = { 1.0 0.6 }  }
-		instance = { position = { 0.5 0.603 } scale = { 1.0 0.6 }  }
-		instance = { position = { 0.5 0.726 } scale = { 1.0 0.6 }  }
-		instance = { position = { 0.5 0.850 } scale = { 1.0 0.6 }  }
+		texture = "tib_kara_khanid.dds"
+		color1 = "white"
+		instance = { scale = { 1.1 1.1 }  }
+		
 	}
 }
 
