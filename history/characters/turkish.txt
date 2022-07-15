@@ -12261,6 +12261,93 @@ turkish000010 = { # unknown son
 	}
 }
 
+
+1230137 = {
+	name="Shah-Malek" #Yabghu of Jand and Yangikent
+	dynasty_house = house_oghuzqayi 
+	religion="tengri_pagan"
+	culture="turkish"
+	father=1230138
+	trait="ambitious"
+	992.1.1={
+		birth = yes
+	}
+	1003.1.1 = {
+		religion="ashari"
+	}
+	1038.1.1={
+		add_pressed_claim = title:d_khorezm
+	}
+	1043.1.1={
+		death={
+			death_reason=death_execution
+			killer=3036
+		}
+	}
+}
+
+1230138 = {
+	name="'Ali" #Yabghu of Jand and Yangikent
+	dynasty_house = house_oghuzqayi 
+	religion="tengri_pagan"
+	culture="turkish"
+	father=1600009
+	964.1.1={
+		birth = yes
+	}
+	1003.1.1 = {
+		religion="ashari"
+	}
+	1015.1.1={
+		death = yes
+	}
+}
+1230146 = {
+	name="Qochqar" #Placeholder Yabghu of Jand and Yangikent
+	dynasty_house = house_oghuzqayi 
+	religion="tengri_pagan"
+	culture="turkish"
+	father=1231981
+	882.1.1={
+		birth = yes
+	}
+	946.1.1={
+		death = yes
+	}
+}
+1600009 = {
+	name="Tash" #Placeholder Yabghu of Jand and Yangikent
+	dynasty_house = house_oghuzqayi
+	religion="tengri_pagan"
+	culture="turkish"
+	father=1230146
+
+	910.1.1 = {
+		birth=yes
+	}
+	#962.1.1={
+	#	religion="ashari"
+	#}
+	980.1.1 = {
+		death=yes
+	}
+}
+1229935 = {
+	name="Sibel"
+  female=yes
+	dynasty_house = house_oghuzqayi
+	religion="tengri_pagan"
+	culture="turkish"
+	father = 1231979
+	849.1.1={
+		birth = yes
+	}
+	893.1.1={
+		death = yes
+	}
+} 
+
+
 turkish000011 = { # fictional wife
 	name = "Firuze"	
 	female = yes
