@@ -502,6 +502,9 @@ c_sthanisvara = {
 	1105.2.11 = {
 		holder = 170183 #Mahipal Tomar
 	}
+	1142.1.1 = {
+		holder = 144137
+	}
 	1151.7.19 = {
 		holder = 170184 #Anangpal III Tomar
 	}
@@ -624,6 +627,9 @@ c_hisar = {
 	1105.2.11 = {
 		holder = 170183 #Mahipal Tomar
 	}
+	1142.1.1 = {
+		holder = 144137
+	}
 	1151.7.19 = {
 		holder = 170184 #Anangpal III Tomar
 	}
@@ -707,6 +713,10 @@ c_tribandapura = {
 	1099.1.1 = {
 		holder = 144134
 	}
+	1142.1.1 = {
+		holder = 144137
+	}
+	
 	1192.1.1 = {
 		liege = k_delhi
 		holder = 170190 #Mu'izz al-Din conquered Delhi and made Qutb-ud-din Aibak governor
@@ -800,6 +810,9 @@ c_sarasvati = {
 	1079.1.1 = { #Conquered by Ghaznavids
 		liege = d_lahore
 		holder = 144133
+	}
+	1142.1.1 = {
+		holder = 144137
 	}
 	1192.1.1 = {
 		holder = 170190 #Mu'izz al-Din conquered Delhi and made Qutb-ud-din Aibak governor
