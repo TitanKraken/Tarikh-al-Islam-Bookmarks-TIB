@@ -4,7 +4,32 @@ k_sindh = {
 	1066.1.1 = { change_development_level = 10 }
 	
 	711.1.1 = {
+		holder = 163032
 		liege = e_arabia
+	}
+	715.1.1 = {
+		holder = 188527
+	}
+	717.10.1 = {
+		holder = 163035
+	}
+	720.2.10 = {
+		holder = 163036
+	}
+	724.1.1 = {
+		holder = 163001
+	}
+	743.2.6 = {
+		holder = 163037
+	}
+	744.4.15 = {
+		holder = 163038
+	}
+	744.10.3 = {
+		holder = 163039
+	}
+	744.11.3 = {
+		holder = 163041
 	}
 	
 	# 711-747: Umayyad governors
@@ -395,6 +420,10 @@ c_ranikot = {
 	
 	## To be filled
 	
+	1142.1.1 = {
+		holder = 144137
+	}
+
 	1182.1.1 = {
 		holder = 144142
 		liege = d_kabul
@@ -630,7 +659,11 @@ c_bhakkar = {
 		holder = 188353 # Zainab Tari
 	}
 	#End
-	
+
+	1142.1.1 = {
+		holder = 144137
+	}
+
 	## To be filled
 	
 	1182.1.1 = {
@@ -744,7 +777,10 @@ c_aror = {
 	}
 	#End
 	
-	
+	1142.1.1 = {
+		holder = 144137
+	}
+
 	1182.1.1 = {
 		holder = 144142
 		liege = d_kabul
@@ -849,6 +885,10 @@ c_rajanpur = {
 	}
 	#History uncertain up until Ghurid conquest.
 	
+	1142.1.1 = {
+		holder = 144137
+	}
+
 	1182.1.1 = {
 		holder = 144142
 		liege = d_kabul
@@ -965,6 +1005,9 @@ c_vijnot = {
 	1140.1.1={
 		holder = 188358 # Umar I
 	}
+	1142.1.1 = {
+		holder = 144137
+	}
 	1180.1.1={
 		holder = 188359 # Doda II
 	}
@@ -1063,6 +1106,10 @@ c_sibi = {
 	
 	866.1.1 = {
 		government = clan_government	#Ahistorical, just for ease of bookmarks.
+	}
+
+	1142.1.1 = {
+		holder = 144137
 	}
 	
 	1059.1.1 = {
