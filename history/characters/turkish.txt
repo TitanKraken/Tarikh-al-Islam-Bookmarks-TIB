@@ -2631,13 +2631,14 @@
 7299 = {
 	name = "Masud"
 	dynasty_house = house_Seljuk_Rum # dynasty = 613
-	martial = 5
-	diplomacy = 7
+	martial = 12
+	diplomacy = 8
 	intrigue = 7
-	stewardship = 7
+	stewardship = 10
+	learning = 11
 	religion = "ashari"
 	culture = "turkish"
-	trait = education_martial_2
+	trait = education_martial_3
 	father = 41701
 	1088.1.1 = {
 		birth = "1088.1.1"
