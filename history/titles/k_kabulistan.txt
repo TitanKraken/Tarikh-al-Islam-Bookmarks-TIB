@@ -66,6 +66,7 @@ k_kabulistan = {
 	}
 	
 	1142.1.1 = {
+	        liege = e_persia
 		holder = 144137
 	}
 	
