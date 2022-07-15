@@ -995,6 +995,9 @@ c_vikramapura = {
 	1126.1.1 = {
 		holder = 191821 #Panwar of Vikramapura
 	}
+	1142.1.1 = {
+		holder = 144137
+	}
 	1200.1.1 = {
 		holder = 188341 #Bijal
 	}
@@ -1068,6 +1071,9 @@ c_reni = {
 	}
 	1135.1.1 = {
 		holder = 188460 # Prithviraja
+	}
+	1142.1.1 = {
+		holder = 144137
 	}
 	1160.1.1 = {
 		holder = 188461 #  Lalachanda
