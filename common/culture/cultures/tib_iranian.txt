@@ -1,0 +1,27 @@
+azeri = {
+    color = { 0.3 0.5 0.1 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_iranian
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_poetry
+		tradition_castle_keepers
+		tradition_gardening
+		tradition_caucasian_wolves
+		tradition_futuwaa
+	}
+	
+	name_list = name_list_persian
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = {
+		2 = arab
+		10 = mediterranean_byzantine
+	}
+}

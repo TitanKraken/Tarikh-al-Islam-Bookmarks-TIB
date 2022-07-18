@@ -811,7 +811,7 @@
 	culture = "mongol"
 	health = 10
 	trait = brave
-	trait = ambitious
+	#trait = ambitious # Stressed him too much to death...
 	trait = diligent
 	trait = callous
 	trait = hunter_3

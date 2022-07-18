@@ -4465,7 +4465,7 @@ ottoman_001 = {
 
 34183 = {
 	name = "Berkyaruk"
-	dynasty_house = house_Seljuk_Rum #dynasty = 613dynasty = 613
+	dynasty_house = house_Seljuk_Rum #dynasty = 613
 	religion = "ashari"
 	culture = "turkish"
 	father = 225000
@@ -4479,7 +4479,7 @@ ottoman_001 = {
 
 34184 = {
 	name = "Argun"
-	dynasty_house = house_Seljuk_Rum #dynasty = 613dynasty = 613
+	dynasty_house = house_Seljuk_Rum #dynasty = 613
 	religion = "ashari"
 	culture = "turkish"
 	father = 225000
@@ -4493,7 +4493,7 @@ ottoman_001 = {
 
 34185 = {
 	name = "Arslan"
-	dynasty_house = house_Seljuk_Rum #dynasty = 613dynasty = 613
+	dynasty_house = house_Seljuk_Rum #dynasty = 613
 	religion = "ashari"
 	culture = "turkish"
 	father = 225000
@@ -4507,7 +4507,7 @@ ottoman_001 = {
 
 34186 = {
 	name = "Sancar"
-	dynasty_house = house_Seljuk_Rum #dynasty = 613dynasty = 613
+	dynasty_house = house_Seljuk_Rum #dynasty = 613
 	religion = "ashari"
 	culture = "turkish"
 	father = 225000
@@ -4521,7 +4521,7 @@ ottoman_001 = {
 
 34187 = {
 	name = "Kilij_Arslan"
-	dynasty_house = house_Seljuk_Rum #dynasty = 613dynasty = 613
+	dynasty_house = house_Seljuk_Rum #dynasty = 613
 	religion = "ashari"
 	culture = "turkish"
 	father = 225004
@@ -4535,7 +4535,7 @@ ottoman_001 = {
 
 34188 = {
 	name = "Kaykaus"
-	dynasty_house = house_Seljuk_Rum #dynasty = 613dynasty = 613
+	dynasty_house = house_Seljuk_Rum #dynasty = 613
 	religion = "ashari"
 	culture = "turkish"
 	father = 225002
@@ -4549,9 +4549,9 @@ ottoman_001 = {
 
 34189 = {
 	name = "Kayqubad"
-	dynasty_house = house_Seljuk_Rum #dynasty = 613dynasty = 613
+	dynasty_house = house_Seljuk_Rum #dynasty = 613
 	religion = "ashari"
-	culture = "turkish
+	culture = "turkish"
 	martial = 11
 	prowess = 14
 	diplomacy = 13
@@ -4576,7 +4576,7 @@ ottoman_001 = {
 
 34190 = {
 	name = "Kaykhusraw Ghiyath al-Din" # AKA: Kaykhusraw II
-	dynasty_house = house_Seljuk_Rum #dynasty = 613dynasty = 613
+	dynasty_house = house_Seljuk_Rum #dynasty = 613
 	religion = "ashari"
 	culture = "turkish"
 	father = 34189
@@ -4620,7 +4620,7 @@ Rum_Female_001 = {
 
 34191 = {
 	name = "Kaykaus 'Izz al-Din" # Eldest son AKA: Kaykaus II
-	dynasty_house = house_Seljuk_Rum #dynasty = 613dynasty = 613
+	dynasty_house = house_Seljuk_Rum #dynasty = 613
 	religion = "ashari"
 	culture = "turkish"
 	father = 34190
@@ -4644,7 +4644,7 @@ Rum_Female_001 = {
 
 34192 = {
 	name = "Kilij Arslan Rukn al-Din"
-	dynasty_house = house_Seljuk_Rum #dynasty = 613dynasty = 613
+	dynasty_house = house_Seljuk_Rum #dynasty = 613
 	religion = "ashari"
 	culture = "turkish"
 	father = 34190
@@ -4661,7 +4661,7 @@ Rum_Female_001 = {
 
 34193 = {
 	name = "Kayqubad 'Ala al-Din" # AKA: Kayqubad II
-	dynasty_house = house_Seljuk_Rum #dynasty = 613dynasty = 613
+	dynasty_house = house_Seljuk_Rum #dynasty = 613
 	religion = "ashari"
 	culture = "turkish"
 	father = 34190
@@ -4676,7 +4676,7 @@ Rum_Female_001 = {
 
 34194 = {
 	name = "Kaykhusraw"
-	dynasty_house = house_Seljuk_Rum #dynasty = 613dynasty = 613
+	dynasty_house = house_Seljuk_Rum #dynasty = 613
 	religion = "ashari"
 	culture = "turkish"
 	father = 34192
@@ -4690,7 +4690,7 @@ Rum_Female_001 = {
 
 34195 = {
 	name = "Masud"
-	dynasty_house = house_Seljuk_Rum #dynasty = 613dynasty = 613
+	dynasty_house = house_Seljuk_Rum #dynasty = 613
 	religion = "ashari"
 	culture = "turkish"
 	father = 34191
@@ -4704,7 +4704,7 @@ Rum_Female_001 = {
 
 34196 = {
 	name = "Kayqubad"
-	dynasty_house = house_Seljuk_Rum #dynasty = 613dynasty = 613
+	dynasty_house = house_Seljuk_Rum #dynasty = 613
 	religion = "ashari"
 	culture = "turkish"
 	father = 34193
@@ -5209,7 +5209,7 @@ Rum_Female_001 = {
 
 34233 = {
 	name = "Moghis"
-	dynasty_house = house_Seljuk_Rum #dynasty = 613dynasty = 613
+	dynasty_house = house_Seljuk_Rum #dynasty = 613
 	religion = "ashari"
 	culture = "turkish"
 	father = 34180

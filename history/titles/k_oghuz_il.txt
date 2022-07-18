@@ -166,12 +166,12 @@ c_garabogazkol = {
 	}
 }
 
-d_transcaspiana = {
-	712.1.1 = {
-		holder = 188593
-		government = clan_government
-	}
-}
+#d_transcaspiana = {
+#	712.1.1 = {
+#		holder = 188593
+#		government = clan_government
+#	}
+#}
 
 c_ustyurt = {
   

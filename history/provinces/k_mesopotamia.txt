@@ -95,7 +95,7 @@
 
 # 4788 - BADARAYA
 4788 = {	#Misc
-	culture = levantine
+	culture = iraqi
 	religion = ashari
 	
 	# History
@@ -198,7 +198,7 @@
 
 # 4797 - ISKAF
 4797 = {	#Misc
-	culture = levantine
+	culture = iraqi
 	religion = ashari
 	
 	# History
@@ -360,7 +360,7 @@
 
 # 4820 - AT-TIB
 4820 = {	#Misc
-	culture = levantine
+	culture = iraqi
 	religion = ashari
 	
 	# History
@@ -371,7 +371,7 @@
 4821 = {	# 4821 - Wasit
 	
 	# Misc
-	culture = levantine
+	culture = iraqi
 	religion = ashari
 	
 	# History
@@ -452,7 +452,7 @@
 4828 = {	# 4828 - Baghdad
 	
 	# Misc
-	culture = levantine
+	culture = iraqi
 	religion = ashari
 	
 	# History
@@ -489,7 +489,7 @@
 
 # 4830 - KARBALA
 4830 = {	#Misc
-	culture = levantine
+	culture = iraqi
 	religion = ismaili
 	
 	# History
@@ -568,7 +568,7 @@
 5991 = {	# 5991 - Safata
 	
 	# Misc
-	culture = bedouin
+	culture = iraqi
 	religion = ismaili
 	
 	# History
@@ -580,7 +580,7 @@
 5992 = {	# 5992 - Al-Kufa
 	
 	# Misc
-	culture = bedouin
+	culture = iraqi
 	religion = ismaili
 	holding = church_holding
 	# History
@@ -597,7 +597,7 @@
 5993 = {	# 5993 - An-Najaf
 	
 	# Misc
-	culture = bedouin
+	culture = iraqi
 	religion = ismaili
 	
 	# History
@@ -620,7 +620,7 @@
 5994 = {	# 5994 - Al-Qadisiya
 	
 	#Misc
-	culture = levantine
+	culture = iraqi
 	religion = ashari
 	
 	# History
@@ -680,7 +680,7 @@
 6000 = {	# 6000 - Waqisa
 	
 	#Misc
-	culture = levantine
+	culture = iraqi
 	religion = ashari
 	
 	# History
@@ -692,7 +692,7 @@
 6001 = {	# 6001 - As-Salman
 	
 	#Misc
-	culture = levantine
+	culture = iraqi
 	religion = ashari
 	
 	# History
@@ -716,7 +716,7 @@
 6003 = {	# 6003 - Niffar
 	
 	#Misc
-	culture = levantine
+	culture = iraqi
 	religion = ashari
 	
 	# History
@@ -738,7 +738,7 @@
 6005 = {	# 6005 - Ar-Rusafa-Iraq
 	
 	# Misc
-	culture = levantine
+	culture = iraqi
 	religion = ashari
 	
 	# History
@@ -782,7 +782,7 @@
 6019 = {	# 6019 - Bajlan
 	
 	# Misc
-	culture = bedouin
+	culture = iraqi
 	religion = ashari
 	holding = castle_holding
 	# History
@@ -800,7 +800,7 @@
 6020 = {	# 6020 - Al-Ubulla
 	
 	# Misc
-	culture = bedouin
+	culture = iraqi
 	religion = ashari
 	
 	# History

@@ -9,12 +9,31 @@
  burgundian:0 "Burgundian"
  burgundian_prefix:0 "Burgando"
  burgundian_collective_noun:1 "Burgandians"
+ 
+ # Arabic heritage
+ hijazi:0 "Hejazi"
+ hijazi_prefix:0 "Hejazo"
+ hijazi_collective_noun:0 "Hejazis"
+ iraqi:0 "Iraqi"
+ iraqi_prefix:0 "Iraqo"
+ iraqi_collective_noun:0 "Iraqis"
+ omani:0 "Omani"
+ omani_prefix:0 "Omano"
+ omani_collective_noun:0 "Omanis"
+ bahraini:0 "Bahraini"
+ bahraini_prefix:0 "Bahraino"
+ bahraini_collective_noun:0 "Bahrainis"
 
  # Central Germanic heritage
  german:0 "Germanic"
- german_prefix:0 "Germanic"
+ german_prefix:0 "Germanico"
  german_collective_noun:1 "Germanics"
 
+ # East African heritage
+ coptic:0 "Coptic"
+ coptic_prefix:0 "Copto"
+ coptic_collective_noun:0 "Copts"
+  
  # Iberian heritage
  hispano_roman:0 "Hispano-Roman"
  hispano_roman_prefix:0 "Hispano-Roman"
@@ -22,6 +41,11 @@
  celtiberian:0 "Celtiberian"
  celtiberian_prefix:0 "Celtiberiano"
  celtiberian_collective_noun:1 "Celtiberians"
+
+ # Iranian heritage
+ azeri:0 "Azeri"
+ azeri_prefix:0 "Azero"
+ azeri_collective_noun:0 "Azeris"
 
  # MB+ Cultures
  # Latin heritage

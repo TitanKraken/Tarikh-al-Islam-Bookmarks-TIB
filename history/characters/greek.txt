@@ -9085,14 +9085,17 @@
 	name = "Leon"
 	# AKA: Leon 'the Isaurian'
 	dynasty_house = house_Isaurian # 8646
-	martial = 6
+	martial = 7
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 7
+	prowess = 6
 	religion = "iconoclast"
 	culture = "greek"
 	trait = scholar
 	trait = diligent
+	trait = ambitious
+	trait = brave
 	trait = education_stewardship_4
 	
 	685.1.1 = {
@@ -9105,6 +9108,24 @@
 	}
 	741.6.18 = {
 		death = "741.6.18"
+	}
+}
+anna_isaurian = {
+	name = "Anna"
+	female = yes
+	dynasty_house = house_Isaurian # 8646
+	religion = "iconoclast"
+	culture = "greek"
+	father = 70502
+	
+	702.1.1 = {
+		birth = yes
+	}
+	715.1.1 = {
+		add_spouse = 145225 # Artabasdos
+	}
+	773.1.1 = {
+		death = yes
 	}
 }
 

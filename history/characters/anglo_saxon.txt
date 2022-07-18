@@ -3448,7 +3448,7 @@ eadwulf_bamburgh = {
 		birth = "591.1.1"
 	}
 	634.1.1 = {
-		trait = monk
+		trait = devoted # monk
 	}
 	641.1.1 = {
 		death = {
@@ -5786,7 +5786,7 @@ eadwulf_bamburgh = {
 	}
 	709.2.1 = {
 		death = "709.2.1"
-		trait = monk
+		trait = devoted # monk
 	}
 }
 205260 = {

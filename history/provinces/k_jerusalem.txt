@@ -44,10 +44,11 @@
 5959 = {	# 5959 - Tiberias
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = orthodox
 	
 	# History
+	867.1.1 = { culture = levantine }
 	1270.1.1 = { religion = ashari }
 
 }
@@ -56,11 +57,12 @@
 5960 = {	# 5960 - Acre
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = orthodox
 	holding = castle_holding
 	# History
 	867.1.1 = {
+		culture = levantine
 		buildings = {
 			common_tradeport_01
 			watchtowers_01

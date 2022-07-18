@@ -17,6 +17,8 @@
  CUMANS_adj:0 "Cuman"
  GOKTURK:0 "Göktürk"
  GOKTURK_adj:0 "Göktürk"
+ karakhanid:0 "Karakhani"
+ karakhanid_adj:0 "Karakhanid"
  AVARIA:0 "Avaria"
  AVARIA_adj:0 "Avari"
 
@@ -38,6 +40,7 @@
  e_kangar_adj:0 "Kangar"
  e_kangar_article:0 "the "
  d_kaysanite:0 "Kaysanite Imamate"
+ k_zhetsyu:0 "Karakhani"
 
  # More Bookmarks+ titles
  d_padova_republic:0 "Padova Republic"

@@ -178,7 +178,7 @@ maslama_umayyad = {
 	name = "Maslama"
 	dynasty_house = house_Umayyad # 597
 	religion = ashari
-	culture = bedouin
+	culture = levantine
 	father = 163002
 	sexuality = heterosexual
 	trait = sayyid
@@ -401,7 +401,7 @@ oman_vassal_001 = { # His son, al-Julanda is supposed to be the first Ibadi imam
 	name = "Mas_ud"
 	dynasty = 1042181 # Banu 'Azd of Oman
 	religion = ibadi
-	culture = bedouin
+	culture = omani
 	father = azd_ancestor_001
 	
 	680.1.1 = { # Fictional
@@ -415,7 +415,7 @@ azd_ancestor_001 = {
 	name = "Jayfar"
 	dynasty = 1042181 # Banu 'Azd of Oman
 	religion = ashari
-	culture = bedouin
+	culture = omani
 	father = azd_ancestor_002
 	
 	610.1.1 = { # Fictional
@@ -429,7 +429,7 @@ azd_ancestor_002 = {
 	name = "al-Julanda"
 	dynasty = 1042181 # Banu 'Azd of Oman
 	religion = pagan
-	culture = bedouin
+	culture = omani
 	
 	550.1.1 = { # Fictional
 		birth = yes

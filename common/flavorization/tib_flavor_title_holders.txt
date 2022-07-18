@@ -1,0 +1,184 @@
+﻿ # Default Islamic Clan tiers
+baron_islamic_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { islamic_government }
+	religions = { islam_religion }
+}
+baron_islamic_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { islamic_government }
+	religions = { islam_religion }
+}
+barony_islamic = {
+	type = title
+	tier = barony
+	priority = 7
+	governments = { islamic_government }
+	religions = { islam_religion }
+}
+count_islamic_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 17
+	governments = { islamic_government }
+	religions = { islam_religion }
+}
+count_islamic_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 17
+	governments = { islamic_government }
+	religions = { islam_religion }
+}
+county_islamic = {
+	type = title
+	tier = county
+	priority = 17
+	governments = { islamic_government }
+	religions = { islam_religion }
+}
+duke_islamic_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { islamic_government }
+	religions = { islam_religion }
+}
+duke_islamic_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { islamic_government }
+	religions = { islam_religion }
+}
+duchy_islamic = {
+	type = title
+	tier = duchy
+	priority = 27
+	governments = { islamic_government }
+	religions = { islam_religion }
+}
+king_islamic_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 47
+	governments = { islamic_government }
+	religions = { islam_religion }
+}
+king_islamic_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 47
+	governments = { islamic_government }
+	religions = { islam_religion }
+}
+kingdom_islamic = {
+	type = title
+	tier = kingdom
+	priority = 47
+	governments = { islamic_government }
+	religions = { islam_religion }
+}
+emperor_islamic_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 102
+	governments = { islamic_government }
+	religions = { islam_religion }
+}
+emperor_islamic_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 102
+	governments = { islamic_government }
+	religions = { islam_religion }
+}
+empire_islamic = {
+	type = title
+	tier = empire
+	priority = 102
+	governments = { islamic_government }
+	religions = { islam_religion }
+}
+
+# Arabic City holders
+baron_republic_arabic_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { republic_government }
+	heritage = { heritage_arabic }
+}
+baron_republic_arabic_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { republic_government }
+	heritage = { heritage_arabic }
+}
+
+# Byzantine Themes
+count_theme_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 17
+	governments = { theme_government }
+}
+count_theme_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 17
+	governments = { theme_government }
+}
+county_theme = {
+	type = title
+	tier = county
+	priority = 17
+	governments = { theme_government }
+}
+duke_theme_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { theme_government }
+}
+duchy_theme = {
+	type = title
+	tier = duchy
+	priority = 27
+	governments = { theme_government }
+}

@@ -1,0 +1,208 @@
+﻿l_english:
+
+# Islam
+ baron_theocracy_male_islam_religion:0 "Mufti"
+ baron_theocracy_female_islam_religion:0 "Mufti"
+ barony_theocracy_islam_religion:0 "Mosque"
+ count_theocracy_male_islam_religion:0 "Sheikh"
+ count_theocracy_female_islam_religion:0 "Shaykhah"
+ county_theocracy_islam_religion:0 "Sheikhdom"
+ duke_theocracy_male_islam_religion:0 "Grand Mufti"
+ duke_theocracy_female_islam_religion:0 "Grand Mufti"
+ duchy_theocracy_islam_religion:0 "Grand Mosque"
+ king_theocracy_male_islam_religion:0 "Caliph"
+ king_theocracy_female_islam_religion:0 "Calipha"
+ kingdom_theocracy_islam_religion:0 "Caliphate"
+ emperor_theocracy_male_islam_religion:0 "Imam al-Ummah"
+ emperor_theocracy_female_islam_religion:0 "Imamat al-Ummah"
+ empire_theocracy_islam_religion:0 "Grand Imamate"
+
+
+### Greek ###
+# Theme / Imperial
+ count_theme_male:0 "Komes"
+ count_theme_female:0 "Komitissa"
+ county_theme:0 "Bandon"
+ duke_theme_male:0 "Strategos"
+ duke_theme_female:0 "Strategissa"
+ duchy_theme:0 "Thema"
+
+### Byzantine ###
+# Republic 
+ duke_republic_male_byzantine_group:1 "Eparch"
+ duke_republic_female_byzantine_group:1 "Eparchessa"
+ king_republic_male_byzantine_group:0 "Serene Doge"
+ king_republic_female_byzantine_group:0 "Serene Dogaressa"
+
+# Viceroyalty 
+ duke_viceroyalty_male_byzantine_group:0 "Strategos"
+ duke_viceroyalty_female_byzantine_group:0 "Strategitissa"
+ duchy_viceroyalty_byzantine_group:0 "Theme"
+ king_viceroyalty_male_byzantine_group:0 "Exarch"
+ king_viceroyalty_female_byzantine_group:0 "Exarchessa"
+ king_viceroyalty_byzantine_group:0 "Exarchate"
+ emperor_viceroyalty_male_byzantine_group:0 "Grand Exarch"
+ emperor_viceroyalty_female_byzantine_group:0 "Grand Exarchessa"
+ empire_viceroyalty_byzantine_group:0 "Grand Exarchate"
+
+### German ###
+# Feudal / Tribal 
+ emperor_feudal_male_german:0 "Kaiser"
+ emperor_feudal_female_german:0 "Kaiserin"
+
+### Arabic ###
+# Feudal / Clan / Tribal 
+ baron_feudal_male_arabic_group:1 "Wālī"
+ baron_feudal_female_arabic_group:1 "Wālīa"
+ barony_feudal_arabic_group:1 "Wilāyah"
+ count_feudal_male_arabic_group:0 "Ra'is"
+ count_feudal_female_arabic_group:0 "Ra'isa"
+ county_feudal_arabic_group:0 "Ra'isate"
+ duke_feudal_male_arabic_group:0 "Emir"
+ duke_feudal_female_arabic_group:0 "Emira"
+ duchy_feudal_arabic_group:0 "Emirate"
+ king_feudal_male_arabic_group:1 "Malik"
+ king_feudal_female_arabic_group:1 "Malika"
+ kingdom_feudal_arabic_group:1 "Malikate"
+ king_feudal_muslim_male_arabic_group:0 "Sultan"
+ king_feudal_muslim_female_arabic_group:0 "Sultana"
+ kingdom_feudal_muslim_arabic_group:0 "Sultanate"
+ emperor_feudal_male_arabic_group:1 "Malik al-Muazzam"
+ emperor_feudal_female_arabic_group:1 "Malika al-Muazzama"
+ empire_feudal_arabic_group:0 "Empire"
+
+# Republic 
+ baron_republic_male_arabic_group:0 "ʿĀmil'"
+ baron_republic_female_arabic_group:0 "ʿĀmila"
+ count_republic_male_arabic_group:0 "Wālī"
+ count_republic_female_arabic_group:0 "Wālīa"
+ duke_republic_male_arabic_group:0 "Wālī-Emir"
+ duke_republic_female_arabic_group:0 "Wālīa-Emir"
+ king_republic_male_arabic_group:0 "Wālī-Malik"
+ king_republic_female_arabic_group:0 "Wālīa-Malik"
+
+### Turkish ###
+# Feudal / Clan 
+ baron_feudal_male_turkish:1 "Agha"
+ baron_feudal_female_turkish:1 "Hanim"
+ barony_feudal_turkish:1 "Timariot"
+ count_feudal_male_turkish:1 "Beg"
+ count_feudal_female_turkish:1 "Begum"
+ county_feudal_turkish:0 "Beylik"
+ duke_feudal_male_turkish:1 "Atabeg"
+ duke_feudal_female_turkish:1 "Atabegum"
+ duchy_feudal_turkish:1 "Atabegate"
+ king_feudal_male_turkish:0 "Sultan"
+ king_feudal_female_turkish:0 "Sultana"
+ kingdom_feudal_turkish:0 "Sultanate"
+ emperor_feudal_male_turkish:1 "Sultan al-Mu'azzam"
+ emperor_feudal_female_turkish:1 "Sultanat al-Mu'azzama"
+ empire_feudal_turkish:0 "Empire"
+
+### Iranian ###
+# Feudal / Clan 
+ baron_feudal_male_iranian_group:0 "Argbadh"
+ baron_feudal_female_iranian_group:1 "$baron_feudal_male_iranian_group$"
+ barony_feudal_iranian_group:0 "Arg"
+ count_feudal_male_iranian_group:0 "Marzoban"
+ count_feudal_female_iranian_group:1 "$count_feudal_male_iranian_group$"
+ county_feudal_iranian_group:0 "Marzpanate"
+ duke_feudal_male_iranian_group:0 "Satrap"
+ duke_feudal_female_iranian_group:1 "$duke_feudal_male_iranian_group$"
+ duchy_feudal_iranian_group:0 "Satrapy"
+ duke_feudal_independent_male_iranian_group:0 "[CHARACTER.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]shah"
+ duke_feudal_independent_female_iranian_group:0 "[CHARACTER.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]banebshen"
+ duchy_feudal_independent_iranian_group:0 "[CHARACTER.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]shahdom"
+ king_feudal_male_iranian_group:0 "Shah"
+ king_feudal_female_iranian_group:0 "Banebshen"
+ kingdom_feudal_iranian_group:1 "Shahdom"
+ emperor_feudal_male_iranian_group:0 "Shahanshah"
+ emperor_feudal_female_iranian_group:0 "Banebshenan Banebshen"
+ empire_feudal_iranian_group:0 "Empire"
+
+ # Muslim Feudal/Clan
+ baron_feudal_muslim_male_iranian_group:0 "Nā'ib"
+ baron_feudal_muslim_female_iranian_group:0 "Nā'iba"
+ barony_feudal_muslim_iranian_group:0 "$barony_feudal_iranian_group$"
+ count_feudal_muslim_male_iranian_group:0 "Vālī"
+ count_feudal_muslim_female_iranian_group:0 "Vālīa"
+ county_feudal_muslim_iranian_group:0 "Vilāyah"
+ duke_feudal_muslim_male_iranian_group:0 "Amir"
+ duke_feudal_muslim_female_iranian_group:0 "Amira"
+ duchy_feudal_muslim_iranian_group:0 "Amirate"
+ king_feudal_muslim_male_iranian_group:0 "Amir-e Amiran"
+ king_feudal_muslim_female_iranian_group:0 "Amira-e Amiran"
+ kingdom_feudal_muslim_iranian_group:0 "Grand Amirate"
+ # Muslim Iranian Empire titles are the same as non-Muslim Iranian Imperial titles
+
+ ### Islamic Government Generic ###
+ #Default Islamic government tiers
+ baron_islamic_male:0 "$baron_feudal_male_arabic_group$"
+ baron_islamic_female:0 "$baron_feudal_female_arabic_group$"
+ barony_islamic:0 "$barony_feudal_arabic_group$"
+ count_islamic_male:0 "$count_feudal_male_arabic_group$"
+ count_islamic_female:0 "$count_feudal_female_arabic_group$"
+ county_islamic:0 "$county_feudal_arabic_group$"
+ duke_islamic_male:0 "$duke_feudal_male_arabic_group$"
+ duke_islamic_female:0 "$duke_feudal_female_arabic_group$"
+ duchy_islamic:0 "$duchy_feudal_arabic_group$"
+ king_islamic_male:0 "$king_feudal_muslim_male_arabic_group$"
+ king_islamic_female:0 "$king_feudal_muslim_female_arabic_group$"
+ kingdom_islamic:0 "$kingdom_feudal_muslim_arabic_group$"
+ emperor_islamic_male:0 "$emperor_feudal_male_arabic_group$"
+ emperor_islamic_female:0 "$emperor_feudal_female_arabic_group$"
+ empire_islamic:0 "$empire_feudal_arabic_group$"
+
+### Sogdian ###
+# Feudal / Clan 
+ duke_feudal_male_sogdian:0 "Ikhshid"
+
+ ### Iberian ###
+ # Clan
+ baron_clan_male_iberian_group:0 "$baron_feudal_male_arabic_group$"
+ baron_clan_female_iberian_group:0 "$baron_feudal_female_arabic_group$"
+ barony_clan_iberian_group:0 "$barony_feudal_arabic_group$"
+ count_clan_male_iberian_group:0 "$count_feudal_male_arabic_group$"
+ count_clan_female_iberian_group:0 "$count_feudal_female_arabic_group$"
+ county_clan_iberian_group:0 "$county_feudal_arabic_group$"
+ duke_clan_male_iberian_group:0 "$duke_feudal_male_arabic_group$"
+ duke_clan_female_iberian_group:0 "$duke_feudal_female_arabic_group$"
+ duchy_clan_iberian_group:0 "$duchy_feudal_arabic_group$"
+ king_clan_male_iberian_group:0 "$king_feudal_male_arabic_group$"
+ king_clan_female_iberian_group:0 "$king_feudal_female_arabic_group$"
+ kingdom_clan_iberian_group:0 "$kingdom_feudal_arabic_group$"
+ emperor_clan_male_iberian_group:0 "$emperor_feudal_male_arabic_group$"
+ emperor_clan_female_iberian_group:0 "$emperor_feudal_female_arabic_group$"
+ empire_clan_iberian_group:0 "$empire_feudal_arabic_group$"
+
+####################################################
+
+#Princes (children of Kings/Emperors, sorted by culture)
+
+#
+### Berber ###
+# Feudal / Clan
+ baron_feudal_male_berber_group:0 "Nā'ib"
+ baron_feudal_female_berber_group:0 "Nā'iba"
+ barony_feudal_berber_group:0 "Bou"
+ count_feudal_male_berber_group:0 "Wālī"
+ count_feudal_female_berber_group:0 "Wālia"
+ county_feudal_berber_group:0 "Wilāyah"
+ count_feudal_male_berber_group_independent:0 "Ra'is"
+ count_feudal_female_berber_group_independent:0 "Ra'isa"
+ county_feudal_berber_group_independent:0 "Ra'isate"
+ duke_feudal_male_berber_group:0 "Emir"
+ duke_feudal_female_berber_group:0 "Emira"
+ duchy_feudal_berber_group:0 "Emirate"
+ king_feudal_male_berber_group:0 "Amīr al-Umarā"
+ king_feudal_female_berber_group:0 "Amīra al-Umarā"
+ kingdom_feudal_berber_group:0 "Grand Emirate"
+ emperor_feudal_male_berber_group:0 "Malik al-Mulūk"
+ emperor_feudal_female_berber_group:0 "Malika al-Mulūk"
+ empire_feudal_berber_group:0 "Empire"
+# Tribal 
+ baron_tribal_male_berber_group:0 "Ra'īs"
+ baron_tribal_female_berber_group:0 "Ra'īsa"
+ count_tribal_male_berber_group:0 "Sheikh"
+ count_tribal_female_berber_group:0 "Shaykha"
+ county_tribal_berber_group:0 "Sheikhdom"

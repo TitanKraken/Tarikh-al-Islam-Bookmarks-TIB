@@ -1,9 +1,9 @@
 ﻿caliphal_revolution_faction = {
 	casus_belli = claimant_faction_war
 
-	short_effect_desc = caliphal_revolution_faction_short_effect_desc
+	short_effect_desc = claimant_faction_short_effect_desc
 
-	sort_order = 5
+	sort_order = 1
 
 	show_special_title = yes
 	name = FACTION_CLAMAINT_DYNAMIC_NAME
@@ -41,16 +41,7 @@
 		OR = {
 			special_character = {
 				is_alive = yes
-				has_claim = {
-					OR = {
-						title = d_sunni
-						title = d_shiite
-						title = d_imami
-						title = d_kaysani
-						title = d_muwalladi
-						title = d_masmudi
-					}
-				}
+				#has_claim_on = root.special_title
 				NOT = { has_trait = incapable }
 				trigger_if = { #If they're imprisoned by the faction target they can only be so for five years before invalidating
 					limit = {
@@ -260,19 +251,6 @@
 					special_character = {
 						OR = {
 							OR = {
-								has_trait = sayyid
-								has_trait = sayyid_quraysh
-							}
-							OR = { # Basically any traits described in the Sunnah
-								has_trait = just
-								has_trait = zealous
-								has_trait = brave
-								has_trait = patient
-								has_trait = calm
-								has_trait = temperate
-								has_trait = diligent
-							}
-							OR = {
 								has_relation_soulmate = root
 								has_relation_best_friend = root
 							}
@@ -295,7 +273,7 @@
 								culture = {
 									OR = {
 										this = root.culture
-										cultural_acceptance = { target = root.culture value >= 5 } # Any familiar culture can join
+										cultural_acceptance = { target = root.culture value >= 90 } # Essentially the same culture
 									}
 								}
 							}
@@ -331,7 +309,7 @@
 			FACTION_TARGET = scope:faction.faction_target 
 			FACTION_CLAIMANT = scope:faction.special_character 
 			FACTION_TITLE = scope:faction.special_title
-		}
+		}		
 
 		##########################
 		# Faction 'Stacking' Factors, attempts to cluster AI rulers into several powerful factions instead of many weak ones.
@@ -418,26 +396,6 @@
 					value = -5.0 # Righteous
 				}
 			}
-			multiplier = {
-				if = {
-					limit = { # Righteous and more legitimate for the caliphal/imamate claim
-						OR = {
-							has_trait = sayyid
-							has_trait = sayyid_quraysh
-						}
-						OR = { # Basically any traits described in the Sunnah
-							has_trait = just
-							has_trait = zealous
-							has_trait = brave
-							has_trait = patient
-							has_trait = calm
-							has_trait = temperate
-							has_trait = diligent
-						}
-					}
-				}
-				value = 30.0
-			}	
 		}
 
 		legalism_virtue_and_sin_modifier = {

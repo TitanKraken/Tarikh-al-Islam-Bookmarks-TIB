@@ -169,10 +169,11 @@
 5906 = {	# 5906 - Tall Afrin
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = ashari
 	
 	# History
+	867.1.1 = { culture = levantine }
 
 }
 
@@ -180,10 +181,11 @@
 5907 = {	# 5907 - Azaz
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = ashari
 	
 	# History
+	867.1.1 = { culture = levantine }
 
 }
 
@@ -191,10 +193,11 @@
 5908 = {	# 5908 - Manbij
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = ashari
 	
 	# History
+	867.1.1 = { culture = levantine }
 
 }
 
@@ -278,10 +281,11 @@
 5915 = {	# 5915 - Shaizar
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = orthodox
 	
 	# History
+	867.1.1 = { culture = levantine }
 	1271.1.1 = { religion = ashari }
 
 }
@@ -290,10 +294,11 @@
 5916 = {	# 5916 - Antartus
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = orthodox
 	
 	# History
+	867.1.1 = { culture = levantine }
 	1295.1.1 = { religion = ashari }
 
 }
@@ -302,11 +307,14 @@
 5917 = {	# 5917 - Rafaniya-Krak
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = orthodox
 	
 	# History
-	867.1.1 = { religion = ashari }
+	867.1.1 = { 
+		culture = levantine
+		religion = ashari
+	}
 
 }
 
@@ -314,7 +322,7 @@
 5918 = {	# 5918 - Tripoli
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = orthodox
 	holding = castle_holding
 	# History
@@ -339,7 +347,7 @@
 5919 = {	# 5919 - Beirut
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = orthodox
 	
 	# History
@@ -350,10 +358,11 @@
 5920 = {	# 5920 - Saida
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = orthodox
 	
 	# History
+	867.1.1 = { culture = levantine }
 
 }
 
@@ -361,10 +370,11 @@
 5923 = {	# 5923 - Nawa
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = ashari
 	
 	# History
+	867.1.1 = { culture = levantine }
 
 }
 
@@ -383,11 +393,14 @@
 5925 = {	# 5925 - Az-Zabadani
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = orthodox
 	
 	# History
-	867.1.1 = { religion = ashari }
+	867.1.1 = { 
+		culture = levantine
+		religion = ashari 
+	}
 	1016.1.1 = { religion = druze }
 
 }
@@ -396,11 +409,13 @@
 5926 = {	# 5926 - Baalbak
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = orthodox
 	
 	# History
-	867.1.1 = { religion = ashari }
+	867.1.1 = {
+		religion = ashari 
+	}
 	1016.1.1 = { religion = druze }
 
 }
@@ -409,10 +424,11 @@
 5927 = {	# 5927 - Al-Qastal
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = ashari
 	
 	# History
+	867.1.1 = { culture = levantine }
 
 }
 
@@ -420,23 +436,28 @@
 5928 = {	# 5928 - Jusiya
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = orthodox
 	
 	# History
-	867.1.1 = { religion = ashari }
+	867.1.1 = { 
+		culture = levantine
+		religion = ashari 
+	}
 
 }
 
 # 5929 - HIMS
-5929 = {	# 5929 - Hims
+5929 = {	# 5929 - Hims / Homs
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = orthodox
 	holding = castle_holding
 	# History
-	867.1.1 = { religion = ashari }
+	867.1.1 = { 
+		religion = ashari 
+	}
 	1066.1.1 = {
 		buildings = {
 			cereal_fields_01
@@ -450,11 +471,14 @@
 5930 = {	# 5930 - Hama
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = orthodox
 	
 	# History
-	867.1.1 = { religion = ashari }
+	867.1.1 = { 
+		culture = levantine
+		religion = ashari 
+	}
 
 }
 
@@ -462,11 +486,14 @@
 5931 = {	# 5931 - Salamiya
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = orthodox
 	
 	# History
-	867.1.1 = { religion = ashari }
+	867.1.1 = { 
+		culture = levantine
+		religion = ashari 
+	}
 
 }
 
@@ -474,11 +501,14 @@
 5932 = {	# 5932 - Kafartab
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = orthodox
 	
 	# History
-	867.1.1 = { religion = ashari }
+	867.1.1 = { 
+		culture = levantine
+		religion = ashari 
+	}
 
 }
 
@@ -486,10 +516,13 @@
 5933 = {	# 5933 - Qinnasrin
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = orthodox
 	
 	# History
+	867.1.1 = { 
+		culture = levantine
+	}
 	1271.1.1 = { religion = ashari }
 
 }
@@ -498,13 +531,16 @@
 5934 = {	# 5934 - Halab
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = ashari
 	
 	# History
 	1.1.1 = {
 		holding = castle_holding
 		special_building = citadel_of_aleppo_01
+	}
+	867.1.1 = { 
+		culture = levantine
 	}
 	1066.1.1 = {
 		buildings = {
@@ -519,10 +555,11 @@
 5935 = {	# 5935 - Artah
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = orthodox
 	
 	# History
+	867.1.1 = { culture = levantine }
 	1271.1.1 = { religion = ashari }
 
 }
@@ -531,10 +568,11 @@
 5936 = {	# 5936 - Ar-Rikha
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = orthodox
 	
 	# History
+	867.1.1 = { culture = levantine }
 	1271.1.1 = { religion = ashari }
 
 }
@@ -543,11 +581,14 @@
 5937 = {	# 5937 - Anjar
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = orthodox
 	
 	# History
-	867.1.1 = { religion = ashari }
+	867.1.1 = { 
+		culture = levantine
+		religion = ashari 
+	}
 	1016.1.1 = { religion = druze }
 
 }
@@ -556,10 +597,11 @@
 5938 = {	# 5938 - Buzaa
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = ashari
 	
 	# History
+	867.1.1 = { culture = levantine }
 
 }
 
@@ -567,10 +609,11 @@
 5939 = {	# 5939 - Siffin
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = ashari
 	
 	# History
+	867.1.1 = { culture = levantine }
 
 }
 
@@ -578,10 +621,11 @@
 5940 = {	# 5940 - Ar-Rusafa
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = ashari
 	
 	# History
+	867.1.1 = { culture = levantine }
 
 }
 
@@ -589,10 +633,11 @@
 5941 = {	# 5941 - Khunasira
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = ashari
 	
 	# History
+	867.1.1 = { culture = levantine }
 
 }
 
@@ -600,10 +645,11 @@
 5942 = {	# 5942 - Suriya
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = ashari
 	
 	# History
+	867.1.1 = { culture = levantine }
 
 }
 
@@ -611,10 +657,11 @@
 5944 = {	# 5944 - Dair_Ar-Ruman
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = ashari
 	
 	# History
+	867.1.1 = { culture = levantine }
 
 }
 
@@ -622,10 +669,11 @@
 5945 = {	# 5945 - As-Sukhna
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = ashari
 	
 	# History
+	867.1.1 = { culture = levantine }
 
 }
 
@@ -633,10 +681,11 @@
 5946 = {	# 5946 - Urd
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = ashari
 	
 	# History
+	867.1.1 = { culture = levantine }
 
 }
 
@@ -644,11 +693,14 @@
 5947 = {	# 5947 - Arak
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = orthodox
 	
 	# History
-	867.1.1 = { religion = ashari }
+	867.1.1 = { 
+		culture = levantine
+		religion = ashari 
+	}
 
 }
 
@@ -656,11 +708,14 @@
 5948 = {	# 5948 - Tadmur
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = orthodox
 	
 	# History
-	867.1.1 = { religion = ashari }
+	867.1.1 = { 
+		culture = levantine
+		religion = ashari 
+	}
 
 }
 
@@ -668,11 +723,14 @@
 5949 = {	# 5949 - Judr
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = orthodox
 	
 	# History
-	867.1.1 = { religion = ashari }
+	867.1.1 = { 
+		culture = levantine
+		religion = ashari 
+	}
 
 }
 
@@ -680,11 +738,14 @@
 5950 = {	# 5950 - Al-Qaryatan
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = orthodox
 	
 	# History
-	867.1.1 = { religion = ashari }
+	867.1.1 = { 
+		culture = levantine
+		religion = ashari 
+	}
 
 }
 
@@ -692,10 +753,11 @@
 5951 = {	# 5951 - Juwair
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = ashari
 	
 	# History
+	867.1.1 = { culture = levantine }
 
 }
 
@@ -703,10 +765,11 @@
 5952 = {	# 5952 - Marj-Rahit
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = ashari
 	
 	# History
+	867.1.1 = { culture = levantine }
 
 }
 
@@ -714,10 +777,11 @@
 5953 = {	# 5953 - Darayya
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = ashari
 	
 	# History
+	867.1.1 = { culture = levantine }
 
 }
 
@@ -725,10 +789,11 @@
 5954 = {	# 5954 - Zurra
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = ashari
 	
 	# History
+	867.1.1 = { culture = levantine }
 
 }
 
@@ -747,10 +812,11 @@
 5956 = {	# 5956 - Sarkhad
 	
 	# Misc
-	culture = levantine
+	culture = assyrian
 	religion = ashari
 	
 	# History
+	867.1.1 = { culture = levantine }
 
 }
 

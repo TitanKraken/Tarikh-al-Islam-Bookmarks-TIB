@@ -1,0 +1,27 @@
+﻿coptic = {
+	color = hsv{ 0.08 0.10 0.5 }
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_east_african
+	language = language_coptic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_philosopher_culture
+		tradition_agrarian
+        tradition_zealous_people
+		tradition_xenophilic
+        tradition_fervent_temple_builders
+	}
+	
+	name_list = name_list_nubian
+	
+	coa_gfx = { east_african_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = {
+		7 = east_african
+		5 = arab
+	}
+}

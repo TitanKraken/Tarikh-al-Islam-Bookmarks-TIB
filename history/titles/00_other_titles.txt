@@ -2196,7 +2196,7 @@ e_golden_horde = {
 	}
 	1255.1.1 = {
 		holder = 125505
-		government = feudal_government
+		government = clan_government
 		succession_laws = { kurultai_elective }
 	}
 	1256.1.2 = {
@@ -2228,7 +2228,7 @@ e_ilkhanate = {
 	}
 	1227.12.2 = {
 		holder = 125520
-		government = tribal_government
+		government = clan_government
 	}
 	1232.1.1 = {
 		holder = 478011
@@ -2259,7 +2259,7 @@ e_ilkhanate = {
 	}	
 	1335.12.1 = {
 		holder = 125528
-		government = feudal_government
+		#government = feudal_government
 		succession_laws = { feudal_elective_succession_law }
 	}
 	1336.4.10 = {
@@ -2276,7 +2276,7 @@ e_chagatai = {
 	}
 	1227.12.2 = {
 		holder = 93062
-		government = tribal_government
+		government = clan_government
 		succession_laws = { kurultai_elective }
 	}
 	1242.1.1 = {
@@ -2371,7 +2371,7 @@ e_mongol_empire = {
 	#}
 	1227.12.2 = {
 		holder = 172005 # Ögedei Khan
-		government = feudal_government
+		government = clan_government
 		succession_laws = { kurultai_elective }
 	}
 	1241.12.12 = {
