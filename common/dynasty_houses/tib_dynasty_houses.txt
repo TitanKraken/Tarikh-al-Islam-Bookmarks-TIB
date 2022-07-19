@@ -185,3 +185,54 @@ house_Nersiani = {
     name = "Nersiani"
     dynasty = 1029100
 }
+
+# Rus' / Rurikids branch (Credits from MB+)
+
+#Izyaslavichi #705
+house_Izyaslavichi = {
+	
+    name = "dynn_Izyaslavichi"
+    dynasty = 705 #Rurikid
+}
+
+#Rostislavichi #705
+house_Rostislavichi = {
+	
+    name = "dynn_Rostislavichi"
+    dynasty = 705 #Rurikid
+}
+
+#Yurievichi #705
+house_Yurievichi = {
+	
+    name = "dynn_Yurievichi"
+    dynasty = 705 #Rurikid
+}
+
+#Vseslavichi #705
+house_Vseslavichi = {
+	
+    name = "dynn_Vseslavichi"
+    dynasty = 705 #Rurikid
+}
+
+#Olgovichi #705
+house_Olgovichi = {
+	
+    name = "dynn_Olgovichi"
+    dynasty = 705 #Rurikid
+}
+
+#Rostialvichi #705
+house_Rostialvichi = {
+	
+    name = "dynn_Rostialvichi"
+    dynasty = 705 #Rurikid
+}
+
+#IzyaslavichiTurov #705
+house_IzyaslavichiTurov = {
+	
+    name = "dynn_IzyaslavichiTurov"
+    dynasty = 705 #Rurikid
+}

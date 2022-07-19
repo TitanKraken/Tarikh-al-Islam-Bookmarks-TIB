@@ -209,7 +209,7 @@ langobard = { #Germanic Ancestor culture
 maltese = { # Based on Sicilian (and Maghrebi)
 	color = { 0.3 0.6 0.3 }
 
-	parents = { sicilian_arabic }
+	parents = { sicilian_arabic sicilian }
 	created = 1125.1.1
 	
 	ethos = ethos_courtly

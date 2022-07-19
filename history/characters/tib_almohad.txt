@@ -876,6 +876,7 @@ almohad0005 = {
 
 almohad0006 = {
 	name = "Abu_Abdallah_Muhammad"
+	dna = almohad0006_dna
 	dynasty = 101875
 	religion = "masmudi"
 	culture = baranis

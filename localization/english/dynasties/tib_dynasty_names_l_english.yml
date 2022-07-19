@@ -1,7 +1,7 @@
 ﻿l_english:
   # Special Characters #
   # ā ī ū
-  # Names
+  # Islamic dynasties
   house_Abbasid:0 "al-'Abbāsī"
   house_Umayyad:0 "al-Umawī"
   house_Fatimid:0 "al-Fātimī"
@@ -22,6 +22,7 @@
   dynn_Banu_Amir:0 "Banu 'Amir"
   dynn_Banu_Sulaym:0 "Banu Sulaym"
 
+  # Mongols
   dynn_Ogodeid:0 "Ogodeid"
   dynn_Yuan:0 "Yuan"
   dynn_Tevalid:0 "Tevalid"
@@ -29,6 +30,17 @@
 
   dynn_Poitou:0 "Poitou"
 
+  # Central Asia
   Tukhara:0 "Tukhara"
   Wusun:0 "Wusun"
   Kangar:0 "Kangar"
+
+  # Rus'
+  dynn_Rurikid:0 "Rurikovichi"
+  dynn_Izyaslavichi:0 "Izyaslavichi"
+  dynn_Rostislavichi:0 "Rostislavichi"
+  dynn_Yurievichi:0 "Yurievichi"
+  dynn_Vseslavichi:0 "Vseslavichi"
+  dynn_Olgovichi:0 "Olgovichi"
+  dynn_Rostialvichi:0 "Rostialvichi"
+  dynn_IzyaslavichiTurov:0 "Izyaslavichi-Turov"

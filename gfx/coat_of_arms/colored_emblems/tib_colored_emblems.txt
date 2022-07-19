@@ -44,3 +44,9 @@ national_emblem_of_oman.dds = { colors = 2 category = tib_emblems }
 
 # Tribal seals
 tib_kara_khanid.dds = { colors = 1 category = tib_emblems }
+
+# Rus' Crests / Seals
+tib_izyaslavich_crest.dds = { colors = 1 category = tribal_seal }
+tib_izyaslavich2_crest.dds = { colors = 1 category = tribal_seal }
+tib_yurii_crest.dds = { colors = 1 category = tribal_seal }
+tib_vsevolod_crest.dds = { colors = 1 category = tribal_seal }

@@ -205,7 +205,7 @@
 	name = "Fadl"
 	dynasty = 792
 	religion = "ismaili"
-	culture = "bedouin"
+	culture = "bahraini"
 	father  = 20900
 	1080.1.1 = {
 		birth = "1080.1.1"
@@ -220,7 +220,7 @@
 	name = "Muhammad"
 	dynasty = 792
 	religion = "ismaili"
-	culture = "bedouin"
+	culture = "bahraini"
 	father  = 144146
 	1100.1.1 = {
 		birth = "1100.1.1"
@@ -234,7 +234,7 @@
 	name = "Ali"
 	dynasty = 792
 	religion = "ismaili"
-	culture = "bedouin"
+	culture = "bahraini"
 	father  = 20900
 	1081.1.1 = {
 		birth = "1081.1.1"
@@ -248,7 +248,7 @@
 	name = "Hagras"
 	dynasty = 792
 	religion = "ismaili"
-	culture = "bedouin"
+	culture = "bahraini"
 	father  = 144147
 	1120.1.1 = {
 		birth = "1120.1.1"
@@ -262,7 +262,7 @@
 	name = "Shaqr"
 	dynasty = 792
 	religion = "ismaili"
-	culture = "bedouin"
+	culture = "bahraini"
 	father  = 144148
 	1101.1.1 = {
 		birth = "1101.1.1"
@@ -276,7 +276,7 @@
 	name = "al-Hussein"
 	dynasty = 792
 	religion = "ismaili"
-	culture = "bedouin"
+	culture = "bahraini"
 	father  = 20900
 	1082.1.1 = {
 		birth = "1082.1.1"
@@ -290,7 +290,7 @@
 	name = "Hassan"
 	dynasty = 792
 	religion = "ismaili"
-	culture = "bedouin"
+	culture = "bahraini"
 	father  = 144151
 	1102.1.1 = {
 		birth = "1102.1.1"
@@ -304,7 +304,7 @@
 	name = "Ahmed"
 	dynasty = 792
 	religion = "ismaili"
-	culture = "bedouin"
+	culture = "bahraini"
 	father  = 144151
 	1103.1.1 = {
 		birth = "1103.1.1"
@@ -318,7 +318,7 @@
 	name = "Muhammad"
 	dynasty = 792
 	religion = "ismaili"
-	culture = "bedouin"
+	culture = "bahraini"
 	father  = 144153
 	1143.1.1 = {
 		birth = "1143.1.1"
@@ -597,7 +597,7 @@
 	intrigue = 8
 	stewardship = 4
 	religion = "ismaili"
-	culture = "bedouin"
+	culture = "bahraini"
 	trait = lustful
 	trait = education_intrigue_2
 	1050.1.1 = {
@@ -3089,7 +3089,7 @@
 	name = "Fadl"
 	dynasty = 792
 	religion = "ismaili"
-	culture = "bedouin"
+	culture = "bahraini"
 	father  = 144154
 	1160.1.1 = {
 		birth = "1160.1.1"
@@ -3103,7 +3103,7 @@
 	name = "Majid"
 	dynasty = 792
 	religion = "ismaili"
-	culture = "bedouin"
+	culture = "bahraini"
 	father  = 144154
 	1162.1.1 = {
 		birth = "1162.1.1"
@@ -3117,7 +3117,7 @@
 	name = "Ali"
 	dynasty = 792
 	religion = "ismaili"
-	culture = "bedouin"
+	culture = "bahraini"
 	father  = 34472
 	1182.1.1 = {
 		birth = "1182.1.1"
@@ -3131,7 +3131,7 @@
 	name = "Muhammad"
 	dynasty = 792
 	religion = "ismaili"
-	culture = "bedouin"
+	culture = "bahraini"
 	father  = 34472
 	1185.1.1 = {
 		birth = "1185.1.1"
@@ -3145,7 +3145,7 @@
 	name = "Masud"
 	dynasty = 792
 	religion = "ismaili"
-	culture = "bedouin"
+	culture = "bahraini"
 	father  = 34472
 	1187.1.1 = {
 		birth = "1187.1.1"
@@ -3159,7 +3159,7 @@
 	name = "Muhammad"
 	dynasty = 792
 	religion = "ismaili"
-	culture = "bedouin"
+	culture = "bahraini"
 	father  = 34475
 	1207.1.1 = {
 		birth = "1207.1.1"
@@ -3173,7 +3173,7 @@
 	name = "Fadl"
 	dynasty = 792
 	religion = "ismaili"
-	culture = "bedouin"
+	culture = "bahraini"
 	father  = 34476
 	1224.1.1 = {
 		birth = "1224.1.1"

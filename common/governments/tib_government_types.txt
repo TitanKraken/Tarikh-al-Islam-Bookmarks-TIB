@@ -10,7 +10,7 @@ clan_government = {
 	rulers_should_have_dynasty = yes
 	royal_court = yes
 
-	valid_holdings = { castle_holding }
+	valid_holdings = { castle_holding tribal_holding }
 	required_county_holdings = { castle_holding city_holding church_holding }
 	always_use_patronym = yes
 	dynasty_named_realms = yes
@@ -98,17 +98,20 @@ mercenary_government = {
 # Holy order will always get this
 holy_order_government = {
 	court_generate_spouses = no
-	court_generate_commanders = 5
-	council = no
+	court_generate_commanders = 10
+	council = yes
+	primary_holding = castle_holding
+
+	required_county_holdings = { castle_holding city_holding church_holding }
 
 	ai = {
 		arrange_marriage = yes
-		use_goals = no
+		use_goals = yes
 		use_scripted_guis = no
-		perform_religious_reformation = no
+		perform_religious_reformation = yes
 	}
 
-	flag = can_not_be_vassal_or_liege
+	vassal_contract = { theocracy_government_obligations }
 
 	valid_holdings = { castle_holding city_holding }
 	color = hsv{ 0.00 0.00 0.66 }
