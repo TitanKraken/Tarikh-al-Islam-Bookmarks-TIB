@@ -79,6 +79,7 @@ c_mangyshlak = {
 	}
 	1140.8.2 = {
 		holder = 302633	#fictional Ilgazi Mangyt
+		liege = k_cuman
 	}
 	1185.9.1 = {
 		holder = 302634	#fictional Alptigin Mangyt
@@ -135,6 +136,7 @@ c_garabogazkol = {
 	}
 	1140.8.2 = {
 		holder = 302633	#fictional Ilgazi Mangyt
+		liege  = k_cuman
 	}
 	1185.9.1 = {
 		holder = 302634	#fictional Alptigin Mangyt
@@ -209,6 +211,7 @@ c_ustyurt = {
 	}
 	1140.8.2 = {
 		holder = 302633	#fictional Ilgazi Mangyt
+		liege = k_cuman
 	}
 	1185.9.1 = {
 		holder = 302634	#fictional Alptigin Mangyt
@@ -269,6 +272,9 @@ c_qoshagyl = {
 	#1127.1.1 = {
 	#	holder = 144100
 	#}
+	1140.1.1 = {
+		holder = 125401
+	}
 	#1156.1.1 = {
 	#	holder = 144101
 	#}
@@ -332,6 +338,9 @@ c_akkityk = {
 	#1127.1.1 = {
 	#	holder = 144100
 	#}
+	1140.1.1 = {
+		holder = 125401
+	}
 	#1156.1.1 = {
 	#	holder = 144101
 	#}
@@ -395,6 +404,9 @@ c_kos-buwak = {
 	#1127.1.1 = {
 	#	holder = 144100
 	#}
+	1140.1.1 = {
+		holder = 125401
+	}
 	#1156.1.1 = {
 	#	holder = 144101
 	#}
@@ -524,6 +536,9 @@ c_raimskoe = {
 	#1127.1.1 = {
 	#	holder = 144100
 	#}
+	1140.1.1 = {
+		holder = 125401
+	}
 	#1156.1.1 = {
 	#	holder = 144101
 	#}
@@ -587,6 +602,9 @@ c_ak-dzulpas = {
 	#1127.1.1 = {
 	#	holder = 144100
 	#}
+	1140.1.1 = {
+		holder = 125401
+	}
 	#1156.1.1 = {
 	#	holder = 144101
 	#}
@@ -700,6 +718,9 @@ c_terekli = {
 	#1127.1.1 = {
 	#	holder = 144100
 	#}
+	11140.1.1 = {
+		holder = 125401
+	}
 	#1156.1.1 = {
 	#	holder = 144101
 	#}
@@ -763,6 +784,9 @@ c_barsuki = {
 	#1127.1.1 = {
 	#	holder = 144100
 	#}
+	1140.1.1 = {
+		holder = 125401
+	}
 	#1156.1.1 = {
 	#	holder = 144101
 	#}
@@ -826,6 +850,10 @@ c_aral_karakum = {
 	#1127.1.1 = {
 	#	holder = 144100
 	#}
+	1140.1.1 = {
+		holder = 125401
+
+	}
 	#1156.1.1 = {
 	#	holder = 144101
 	#}
