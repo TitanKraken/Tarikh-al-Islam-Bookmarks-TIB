@@ -28,6 +28,11 @@
  german:0 "Germanic"
  german_prefix:0 "Germanico"
  german_collective_noun:1 "Germanics"
+ 
+ # Frankish / Gallo-Roman heritage
+ bourguignon:0 "Bourguignon"
+ bourguignon_prefix:0 "Bourguigno"
+ bourguignon_collective_noun:1 "Bourguignons"
 
  # East African heritage
  coptic:0 "Coptic"
