@@ -218,6 +218,40 @@ inel_qaghan = {
 }
 	}
 }
+
+tonyukuk = {
+	name = "Tonyukuk" #"He Was Something like GrandWazir "
+	dynasty = 12269 # Ashina (I'll change his dynasty house later insAllah -LichKing-)
+	stewardship = 10
+	learning = 15
+	trait = education_learning_4
+	trait = calm
+	trait = patient
+	trait = just
+	trait = intellect_good_2
+	trait = shrewd
+	trait = diplomat
+	trait = physician_2
+	trait = mystic_3
+	
+
+	culture = "khazar"
+	religion = "tengri_pagan"
+
+	646.1.1 = {
+		birth = yes
+	}
+	726.1.1 = {
+		death = yes
+	}
+}
+
+
+
+
+
+
+
 # 2nd Turkic Khaganate Vassals
 wuhe_yaoluoge = {
 	name = "Wuhe" # 烏紇

@@ -3,6 +3,10 @@ k_angara = {
 	1066.1.1 = { change_development_level = 0 }
 }
 
+700.1.1 = {
+	holder = tonyukuk
+}
+
 c_krasnoyarsk = {
 	#Kirghiz khanate
 	840.1.2 = {
