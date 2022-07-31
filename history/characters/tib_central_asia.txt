@@ -233,7 +233,7 @@ tonyukuk = {
 	trait = diplomat
 	trait = physician_2
 	trait = mystic_3
-	
+	fertility = -1
 
 	culture = "khazar"
 	religion = "tengri_pagan"
