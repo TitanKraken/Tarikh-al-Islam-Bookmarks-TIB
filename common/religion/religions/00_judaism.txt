@@ -221,9 +221,28 @@ judaism_religion = {
 			#Doctrines
 			doctrine = doctrine_spiritual_head
 		}
-
-  faiths = {
+	# Rabbinic Rites
 		musta'arabic = {
+			color = { 0.1 0.7 1.0 }
+			icon = rabbinism
+			religious_head = d_rabbinism
+
+			holy_site = jerusalem
+			holy_site = sufed
+			holy_site = sinai
+			holy_site = alexandria
+			holy_site = baghdad
+
+			#tenets
+			doctrine = tenet_communal_identity
+			doctrine = tenet_legalism
+			doctrine = doctrine = tenet_ritual_celebrations
+
+			#Doctrines
+			doctrine = doctrine_spiritual_head
+		}
+		
+		sephardic_rite = {
 			color = { 0.1 0.7 1.0 }
 			icon = rabbinism
 			religious_head = d_rabbinism
