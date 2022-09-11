@@ -2965,11 +2965,15 @@
 }
 
 33045 = {
-	name = "Yghomracen" #Alger 1229-1283
+	name = "Yaghmurasen" #Alger 1229-1283, Yghomracen
 	dynasty = 7277
 	religion = "ashari"
 	culture = baranis
 	father = 33044
+	trait = brave
+	trait = humble
+	trait = diligent
+	trait = education_martial_4
 	1210.1.1 = {
 		birth = "1210.1.1"
 	}
@@ -4915,6 +4919,10 @@
 	religion = "ashari"
 	culture = baranis
 	father = 33044
+	trait = brave
+	trait = stubborn
+	trait = diligent
+	trait = education_martial_2
 	1200.1.1 = {
 		birth = "1200.1.1"
 	}

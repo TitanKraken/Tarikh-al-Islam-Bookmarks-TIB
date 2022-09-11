@@ -1271,35 +1271,35 @@ c_harrat_rahat = {
 d_mecca = {
 	360.1.1 = {
 		holder = 163007 # Murrah
-		liege = d_mecca
+		# liege = d_mecca
 	}
 	393.1.1 = {
 		holder = 163006 # Kilab
-		liege = d_mecca
+		# liege = d_mecca
 	}
 	423.1.1 = {
 		holder = 163005 # Qusai
-		liege = d_mecca
+		# liege = d_mecca
 	}
 	480.1.1 = {
 		holder = 163004 # Abd Manaf
-		liege = d_mecca
+		# liege = d_mecca
 	}
 	487.1.1 = {
 		holder = 33925 # Hashim
-		liege = d_mecca
+		# liege = d_mecca
 	}
 	497.1.1 = {
 		holder = 163016 # Abd Shams
-		liege = d_mecca
+		# liege = d_mecca
 	}
 	520.1.1 = {
 		holder = 33924 # Shaiba (Abdul Muttalib)
-		liege = d_mecca
+		# liege = d_mecca
 	}
 	578.1.1 = {
 		holder = 33910 # Abu Talib
-		liege = d_mecca
+		# liege = d_mecca
 	}
 	# Hashimite dynasty
 	875.1.1 = {
@@ -3245,7 +3245,7 @@ d_oman = {
 	
 	#Nabhanids
 	1154.1.1 = {
-		liege = "d_oman"
+		# liege = "d_oman"
 		holder = bedouin0134
 	}
 	1176.1.1 = {

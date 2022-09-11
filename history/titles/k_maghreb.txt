@@ -883,11 +883,11 @@ c_tinmallal = {
 	}
 	1121.1.1 = {
 		holder = ibn_tumart
-		liege = c_tinmallal
+		#liege = c_tinmallal
 	}
 	1130.8.1 = {
 		holder = 32978 #Almohad Rule Start
-		liege = c_tinmallal
+		#liege = c_tinmallal
 	}
 	1147.1.1 = {
 		liege = k_maghreb

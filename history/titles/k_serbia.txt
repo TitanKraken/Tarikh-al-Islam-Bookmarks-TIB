@@ -653,9 +653,10 @@ d_macva = {
 	}
 	1186.1.1 = {
 		liege = "k_serbia"	
+		holder = 217502 # Emperor Kaloyan of Bulgaria
 	}
 	1196.1.1 = {
-		holder = 218507
+		holder = 217505 # Emperor Boril of Bulgaria #218507
 	}
 	1227.9.24 = {
 		holder = 34100

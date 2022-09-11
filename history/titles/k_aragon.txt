@@ -1494,6 +1494,7 @@ c_albarracin = {
 	}
 	1143.1.1 = {
 		holder = 224014 # Hakam Laridid
+		liege = k_valencia
 	}
 	1170.1.1 = {
 		liege = k_navarra

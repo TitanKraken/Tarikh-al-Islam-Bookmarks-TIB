@@ -21,6 +21,10 @@
   dynn_Banu_Numayr:0 "Banu Numayr"
   dynn_Banu_Amir:0 "Banu 'Amir"
   dynn_Banu_Sulaym:0 "Banu Sulaym"
+  dynn_Banu_Mirdas:0 "Banu Mirdas"
+
+  # Maghreb
+  dynn_Zayyanid:0 "Zayyanid"
 
   # Mongols
   dynn_Ogodeid:0 "Ogodeid"

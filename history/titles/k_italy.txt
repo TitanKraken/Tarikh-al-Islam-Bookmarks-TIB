@@ -281,7 +281,7 @@ k_italy = {
 		holder = 0
 	}
 	1209.1.1 = {
-		liege=e_hre
+		liege = e_hre
 		holder = 212607 # Otto IV Welf
 		government = feudal_government
 	}
@@ -3817,6 +3817,10 @@ c_padua = {
 	1180.1.1 = {
 		holder = 1226724
 	}
+	1207.1.1 = {
+		liege = k_italy
+		holder = cisalpine0206 # Bonifazio di Sambonifazio
+	}
 	1234.1.1 = {
 		holder = 1226726 
 	}
@@ -3965,6 +3969,10 @@ c_polesine = {
 	}
 	1196.1.1 = {
 		holder = 223596
+	}
+	1207.1.1 = {
+		liege = k_italy
+		holder = cisalpine0206 # Bonifazio di Sambonifazio
 	}
 	1212.11.1 = {
 		holder = 70658
@@ -6043,10 +6051,9 @@ c_tortona = {
 		holder = 10651409 # Franceschino I Malaspina, 2nd marchese di Mulazzo
 
 	}
-	1310.1.1 = {
-
-		liege = d_monferrato
-	}
+	#1310.1.1 = {
+		#liege = d_monferrato
+	#}
 	1320.1.1 = {
 		holder = 10651410 # Morello V Malaspina, 3rd marchese di Mulazzo
 	}
@@ -6538,7 +6545,7 @@ c_modena = {
 		holder =1062132 # Ugolino Rosso podesta of Modena 1286
 	}
 	1288.1.1 = {
-		liege = d_ferrara
+		#liege = d_ferrara
 		holder =1062117 # Lanfranco di Rangoni podesta of Modena 1288
 	}
 	1289.1.1 = {
@@ -6559,7 +6566,7 @@ c_modena = {
 		holder =1062166 # Rinaldo detto Passerino da Bonalcosi signore di Modena 1312-1326
 	}
 	1326.8.23 = {
-		liege = d_ferrara
+		#liege = d_ferrara
 		holder = 70700 # Rinaldo di Este
 	}
 	1335.12.31 = {

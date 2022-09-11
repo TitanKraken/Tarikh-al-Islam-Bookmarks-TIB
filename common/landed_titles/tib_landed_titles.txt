@@ -9,7 +9,7 @@ e_bulgaria = {
 	color = { 113 88 101 }
 	color2 = { 255 255 255 }
 	capital = c_dorostorum # Preslav
-	definite_form = yes
+	#definite_form = yes
 		
 	ai_primary_priority = {
 		if = {

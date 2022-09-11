@@ -753,7 +753,7 @@
 	intrigue = 7
 	stewardship = 8
 	religion = "ashari"
-	culture = "iraaqi"
+	culture = "iraqi"
 	trait = wrathful
 	trait = cynical
 	trait = education_diplomacy_2
@@ -801,7 +801,7 @@
 	stewardship = 5
 	
 	religion = ashari
-	culture = syrian
+	culture = levantine
 
 	trait = calm
 	trait = sayyid_quraysh

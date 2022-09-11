@@ -7751,6 +7751,9 @@ ibn_mamdud = { # Just to complete Sultan Qutuz's lineage
 	dynasty = 1040202
 	religion = "ashari"
 	culture = "turkish"
+	trait = brave
+	trait = diligent
+	trait = ambitious
 	1170.1.1 = {
 		birth = "1170.1.1"
 	}
@@ -7765,6 +7768,9 @@ ibn_mamdud = { # Just to complete Sultan Qutuz's lineage
 	}
 	1210.1.1 = {
 		add_pressed_claim = title:k_delhi
+	}
+	1211.6.1 = {
+		set_realm_capital = title:c_delhi
 	}
 	1236.5.1 = {
 		death = "1236.5.1"
@@ -8435,6 +8441,9 @@ ibn_mamdud = { # Just to complete Sultan Qutuz's lineage
 	dynasty = 1040205
 	religion = "ashari"
 	culture = "turkish"
+	trait = zealous
+	trait = brave
+	trait = wrathful
 	father = 170252
 	1168.1.1 = {
 		birth = "1168.1.1"

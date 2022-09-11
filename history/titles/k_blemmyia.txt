@@ -413,7 +413,7 @@ c_badi = {
 d_baqlin = {
 	700.1.1 = {
 		holder = beja_blemmyia0002
-		liege = k_blemmiya
+		liege = k_blemmyia
 	}
 	863.1.1 = {
 		government = tribal_government

@@ -1546,7 +1546,9 @@ d_normandy = {
 	}
 	714.1.17 = {
 		holder = 190424 # Theudoald
-		set_capital_county = title:c_clermont
+		effect = {		
+			set_capital_county = title:c_clermont
+		}
 		liege = k_france
 	}
 	718.1.17 = {

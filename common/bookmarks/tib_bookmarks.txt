@@ -3,10 +3,10 @@
 	is_playable = yes
 	recommended = yes
 }
-#bm_the_imamate = { # FUTURE FLAVOUR PACK
-	#start_date = 910.1.15
-	#is_playable = yes
-#}
+bm_the_imamate = { # FUTURE FLAVOUR PACK
+	start_date = 910.1.15
+	is_playable = yes
+}
 bm_the_hammudid_caliphate = {
 	start_date = 1016.7.1
 	is_playable = yes

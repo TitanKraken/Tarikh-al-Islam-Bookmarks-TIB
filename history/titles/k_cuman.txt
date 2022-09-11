@@ -42,7 +42,10 @@ k_cuman = {
 		holder = 125403
 	}
 	1223.1.1 = {
-		holder = 125404
+		holder = 194189 # Khan Kutan 
+	}
+	1223.6.1 = {
+		holder = 125502
 	}
 
 	# Mongol, switch this title to the White Horde

@@ -1,7 +1,7 @@
 k_nikaea = {
 	1190.1.2 = {
 		holder = 215674
-		liege = k_nikaea
+		# liege = k_nikaea
 	}
 	1222.8.2 = {
 		holder = 125741

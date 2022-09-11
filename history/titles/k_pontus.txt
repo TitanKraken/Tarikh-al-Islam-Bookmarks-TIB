@@ -315,6 +315,7 @@ d_armeniac = {
 	1077.1.1 = {
 		liege = "k_rum"
 		holder = 3046
+		government = islamic_government
 	}
 	1086.1.1 = {
 		holder = 41701

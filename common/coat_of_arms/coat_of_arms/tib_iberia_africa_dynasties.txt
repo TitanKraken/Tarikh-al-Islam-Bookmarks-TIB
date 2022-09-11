@@ -191,10 +191,27 @@ house_almoravid = { # Almoravid
 	}
 
 }
+7277 = { # Zayyanid of Tlemcen
+	pattern="pattern_solid.dds"
+	color1=rgb { 10 42 97 }
+	color2=white
+	color3=blue
+	colored_emblem={
+		color1=white
+		texture="ce_crescent_mask.dds"
+		instance={
+			position={ 0.470000 0.480000 }
+			scale={ 0.700000 0.700000 }
+			rotation=80
+		}
+
+	}
+
+}
 
 
 # Africa
-1030002 = {
+1030002 = { # Mali
 	pattern="pattern__solid_designer.dds"
 	color1=rgb { 160 20 0 }
 	color2=yellow

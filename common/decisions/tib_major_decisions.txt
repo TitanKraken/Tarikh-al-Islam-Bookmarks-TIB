@@ -1,0 +1,77 @@
+﻿form_mughal_empire_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+	major = yes
+
+	ai_check_interval = 120
+
+	desc = form_mughal_empire_decision
+
+	is_shown = {
+		OR = {
+			culture = { has_cultural_pillar = heritage_turkic }
+			culture = { has_cultural_pillar = heritage_iranian }
+			culture = { has_cultural_pillar = heritage_mongolic }
+		}
+
+		is_landed = yes
+		#any_sub_realm_county = {
+		#	title_province = {  geographical_region = world_europe_west_britannia }
+		#	NOR = {
+		#		culture = { has_cultural_pillar = heritage_goidelic }
+		#		culture = { has_cultural_pillar = heritage_brythonic }
+		#	}
+		#}
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:form_mughal_empire_decisiond
+			}
+		}
+	}
+
+	is_valid = {
+		#completely_controls_region  = world_europe_west_britannia
+		AND = {
+			has_title =	title:k_delhi
+			has_title =	title:d_lahore
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	effect = {
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:form_mughal_empire_decision
+		}
+		show_as_tooltip = {
+			form_mughal_empire_decision_effect = yes
+		}
+		trigger_event = mughal_empire.0001
+		# Send event to other players
+		every_player = {
+			limit = {
+				NOT = { this = root }
+				OR = {
+					culture = { has_cultural_pillar = heritage_turkic }
+					culture = { has_cultural_pillar = heritage_iranian }
+					culture = { has_cultural_pillar = heritage_mongolic }
+					culture = { has_cultural_pillar = heritage_indo_aryan }
+				}
+			}
+			trigger_event = mughal_empire.0002
+		}
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

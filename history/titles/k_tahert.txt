@@ -40,7 +40,7 @@ d_tlemcen = {
 		holder = 155082
 	}
 	1144.1.1 = {
-		liege = d_masmudi
+		liege = k_maghreb
 	}
 	1147.1.1 = {
 		liege = "k_maghreb"
@@ -809,9 +809,9 @@ d_alger = {
 	1263.1.1 = {
 		holder = 155096
 	}
-	1269.1.1 = {
-		liege = "d_tlemcen"
-	}
+	#1269.1.1 = {
+		#liege = "d_tlemcen"
+	#}
 	1269.1.1 = {
 		holder = 155097
 	}
@@ -836,9 +836,9 @@ d_alger = {
 	1302.1.1 = {
 		holder = 155100
 	}
-	1310.1.1 = {
-		liege = "d_tlemcen"
-	}
+	#1310.1.1 = {
+		#liege = "d_tlemcen"
+	#}
 	1310.1.1 = {
 		holder = 155103
 	}

@@ -809,7 +809,7 @@ c_ferrara = {
 		holder = 1062188 #Sanlinguerra II di Torelli signore di ferrara
 	}
 	1242.1.1 = {
-		liege = d_ferrara
+		#liege = d_ferrara
 		holder = 70661 #Azzo VII di este signore di ferrara 1242
 	}
 	#di este
@@ -825,7 +825,7 @@ c_ferrara = {
 		liege = e_hre
 	}
 	1289.1.1 = {
-		liege = d_ferrara
+		#liege = d_ferrara
 		holder = 70669
 	}
 	1293.2.20 = {
@@ -842,7 +842,7 @@ c_ferrara = {
 		holder = 1062192 #Sanlinguerra III di Torelli signore di ferrara 1309
 	}
 	1312.8.23 = {
-			liege=d_ferrara
+		#liege=d_ferrara
 		holder = 70700
 	}
 	1335.12.31 = {

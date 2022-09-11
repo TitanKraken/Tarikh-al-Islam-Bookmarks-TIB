@@ -25,17 +25,17 @@ house_IzyaslavichiTurov={
 	}
 }
 
-house_Rostialvichi = {
-	pattern="pattern_solid.dds"
-	color1=blue
-	color2=yellow
-	colored_emblem={
-		color1=yellow
-		color2=yellow
-		texture="tib_yurii_crest.dds"
-	}
-
-}
+#house_Rostialvichi = {
+#	pattern="pattern_solid.dds"
+#	color1=blue
+#	color2=yellow
+#	colored_emblem={
+#		color1=yellow
+#		color2=yellow
+#		texture="tib_yurii_crest.dds"
+#	}
+#
+#}
 
 house_Yurievichi = {
 	pattern="pattern_solid.dds"

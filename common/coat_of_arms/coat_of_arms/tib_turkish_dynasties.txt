@@ -47,6 +47,20 @@ house_Seljuk_Rum = {
 
 }
 
+1040205 = {
+	pattern="pattern_solid.dds"
+	color1=green
+	color2=black
+	color3=white
+	colored_emblem={
+		color1=black
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.320000 0.500000 }
+			scale={ 0.200000 1.000000 }
+		}
+	}
+}
 
 # Rum
 12108 = { # Karaman

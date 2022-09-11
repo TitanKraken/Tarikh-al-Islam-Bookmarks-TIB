@@ -882,7 +882,7 @@ almohad0006 = {
 	culture = baranis
 	father = 155085
 	sexuality = heterosexual
-	1184.6.7 = {
+	1174.6.7 = {
 		birth = yes
 	}
 	1222.1.1 = {
@@ -1072,8 +1072,12 @@ almohad0009 = {
 	trait = generous
 	trait = trusting
 	trait = diligent
+	trait = education_diplomacy_4
 	1195.1.1 = {
 		birth = yes
+	}
+	1235.1.1 = {
+		employer = 460600
 	}
 	1236.4.22 = { # Baptised and become a Christian noble lord of Aragon
 		religion = catholic

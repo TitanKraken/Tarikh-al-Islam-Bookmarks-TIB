@@ -7,7 +7,7 @@ d_corsica = {
 	500.1.1 = {
 		liege = k_italy
 	}
-	700.1.1 = 
+	700.1.1 = {
 		holder = corsica_placeholder0001
 		liege = k_italy
 	}
@@ -31,10 +31,10 @@ d_corsica = {
 }
 
 c_ajaccio = {
-	500.1.1 = {
-		liege = title:k_italy
-	}
-	700.1.1 = 
+	#500.1.1 = {
+		#liege = k_italy
+	#}
+	700.1.1 = {}
 		holder = corsica_placeholder0001
 		liege = k_italy
 	}
@@ -137,10 +137,10 @@ c_ajaccio = {
 
 
 c_bastia = {
-	500.1.1 = {
-		liege = title:k_italy
-	}
-	700.1.1 = 
+	#500.1.1 = {
+		#liege = title:k_italy
+	#}
+	700.1.1 = {
 		holder = corsica_placeholder0001
 		liege = k_italy
 	}
@@ -240,10 +240,10 @@ c_bastia = {
 
 
 c_vecchio = {
-	500.1.1 = {
-		liege = title:k_italy
-	}
-	700.1.1 = 
+	#500.1.1 = {
+		#liege = title:k_italy
+	#}
+	700.1.1 = {
 		holder = corsica_placeholder0001
 		liege = k_italy
 	}

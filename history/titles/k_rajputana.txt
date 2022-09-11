@@ -361,7 +361,10 @@ c_mandavyapura = {
 		holder = 191742 #Jayatashimha
 	}
 	1192.1.1 = {
-		holder = 191743#Samarisimha
+		holder = 191743 #Samarisimha
+	}
+	1205.1.1 = {
+		holder = 191956 # Padamsimha Dhariya
 	}
 	1232.1.1 = {
 		holder = 191745 #Udayasimha
@@ -534,6 +537,9 @@ c_medantaka = {
 	}
 	1210.1.1 = {
 		holder = 170191 #Aram
+	}
+	1211.6.1 = {
+		holder = 191956 # Padamsimha Dhariya
 	}
 	1215.1.1 = {
 		holder = 191957 #Jayatrasyasimha
@@ -852,7 +858,10 @@ c_naddula = {
 		holder = 191742 #Jayatashimha
 	}
 	1192.1.1 = {
-		holder = 191743#Samarisimha
+		holder = 191743 #Samarisimha
+	}
+	1205.1.1 = {
+		holder = 191840 # Byala Kachwaha
 	}
 	1232.1.1 = {
 		holder = 191745 #Udayasimha
@@ -1986,7 +1995,7 @@ c_kota = {
 		holder = 170191 #Aram
 	}
 	1211.1.1 = {
-		holder = 170193 #Iltutmish
+		holder = 188145 # Govinda Chauhan
 	}
 	1220.1.1 = {
 		holder = 194285
