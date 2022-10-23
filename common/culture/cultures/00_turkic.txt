@@ -522,3 +522,37 @@ mamluk = {
 		10 = asian
 	}
 }
+
+anatolian_turkish = {
+	color = { 0.90 0.10 0.10 }
+	created = 1200.1.1
+	parents = { turkish persian }
+	
+	ethos = ethos_courtly
+	heritage = heritage_turkic
+	language = language_turkic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_philosopher_culture
+		tradition_horse_lords
+		tradition_swords_for_hire
+		tradition_martial_admiration
+		tradition_garden_architects
+	}
+
+	name_list = name_list_turkish
+
+	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx arabic_coa_gfx }
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx }
+
+	ethnicities = {
+		10 = asian
+		9 = mediterranean_byzantine
+		1 = slavic_northern_blond
+		2 = slavic_northern_ginger
+		4 = slavic_northern_brown_hair
+		6 = slavic_northern_dark_hair
+	}
+}

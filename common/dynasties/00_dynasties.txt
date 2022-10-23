@@ -8064,7 +8064,7 @@ frauenfeld = {
 	forced_coa_religiongroup = "muslim"
 }
 
-quraysh = {
+tribe_quraysh = {
 	name = "dynn_quraysh"
 	culture = "bedouin"
 	forced_coa_religiongroup = "muslim"
