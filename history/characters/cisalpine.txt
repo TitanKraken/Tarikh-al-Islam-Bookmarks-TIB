@@ -305,7 +305,7 @@
 		birth = yes
 	}
 	1033.1.1 = {
-		add_spouse = arpitan0001
+		add_spouse = arpitan_ce0001
 	}
 	1069.1.1 = {
 		add_matrilineal_spouse = 1143
@@ -573,7 +573,7 @@
 
 20352 = {
 	name = "Rambaldo" # Rambaldo (II) di Treviso, Count of Treviso (1038-1081)
-	dynasty = 100357
+	dynasty = 1000035251
 	martial = 4
 	diplomacy = 4
 	intrigue = 4
@@ -1758,13 +1758,14 @@ set_realm_capital = title:c_thessalonika
 
 70626 = {
 	name = "Rambaldo" # Rambaldo (I) de Treviso, Count of Treviso
-	dynasty = 100357
+	dynasty = 1000035251
 	martial = 6
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 7
 	religion = "catholic"
 	culture = "venetian"
+	father = 1226736
 	trait = hunter_1
 	trait = brave
 	trait = education_martial_2
@@ -1780,7 +1781,7 @@ set_realm_capital = title:c_thessalonika
 70627 = {
 	name = "Matilda" # Matilda di Treviso, Countess of Treviso (1081-1098)
 	female = yes
-	dynasty = 100357
+	dynasty = 1000035251
 	martial = 4
 	diplomacy = 5
 	intrigue = 6
@@ -9955,7 +9956,7 @@ set_realm_capital = title:c_thessalonika
 	culture = cisalpine
 
 	father = 7730
-	mother = arpitan0001
+	mother = arpitan_ce0001
 
 	1034.1.1 = {
 		birth = yes
@@ -13272,7 +13273,7 @@ set_realm_capital = title:c_thessalonika
 	religion = "catholic"
 	culture = "cisalpine"
 	trait = education_stewardship_2
-
+	father = 1065744
 	840.1.1 = {
 		birth = yes
 	}
@@ -18011,7 +18012,8 @@ cisalpine0135 = {
 	dynasty_house = house_gavi
 	religion = "catholic"
 	culture = "cisalpine"
-
+	female = yes
+	
 	father = cisalpine0112
 	
 	1238.1.1 = {
@@ -20201,7 +20203,7 @@ cisalpine0259 = {
 		birth = yes
 	}
 	1310.1.1 = {
-		add_spouse = cisalpine0259
+		add_spouse = cisalpine0349
 	}
 	1351.6.7 = {
 		death = yes
@@ -20388,7 +20390,7 @@ cisalpine0270 = {
 	culture = cisalpine
 
 	father = 7730
-	mother = arpitan0001
+	mother = arpitan_ce0001
 
 	1044.1.1 = {
 		birth = yes
@@ -21165,7 +21167,7 @@ cisalpine0312 = {
 		birth = yes
 	}
 	1209.1.1 = {
-		add_matrilineal_spouse = cisalpine0312
+		add_matrilineal_spouse = cisalpine0311
 	}
 	1264.11.13 = {
 		death = yes
@@ -23213,9 +23215,6 @@ cisalpine0428 = {
 	1266.1.1 = {
 		add_spouse = cisalpine0893
 	}
-	1300.1.1 = {
-		add_spouse = cisalpine0912
-	}
 	1313.7.1 = {
 		death = yes
 	}
@@ -24806,7 +24805,7 @@ cisalpine0525 = {
 	religion = "catholic"
 	culture = "cisalpine"
 	trait = education_diplomacy_1
-
+	female = yes
 	father = cisalpine0524
 
 	1279.1.1 = {
@@ -27510,10 +27509,10 @@ cisalpine0680 = {
 	trait = theologian
 	trait = education_learning_2
 
-	1158.1.1 = {
+	1282.1.1 = {
 		birth = yes
 	}
-	1223.1.1 = {
+	1338.1.1 = {
 		death = yes
 	}
 }

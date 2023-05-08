@@ -33,10 +33,13 @@ k_kimek = {
 
 	# Shaybanids
 	1242.6.1 = { # Given lands by Batu Khan sometime after the campaign against Hungary
-		name = "Gray Horde"
+		#name = "Gray Horde"
 		holder = 34911 # Shiban, the ancestors of the Shaybanids
 		liege = e_golden_horde
 		succession_laws = { kurultai_elective }
+	}
+	1255.1.1 = {
+		government = clan_government
 	}
 	1260.1.1 = {
 		holder = 34904 # Bahadur

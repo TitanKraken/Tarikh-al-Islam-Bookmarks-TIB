@@ -35,17 +35,14 @@ d_khazaria = {
 	831.1.1 = {
 		holder = 74022
 	}
-	847.1.1 = {
-		holder = 74023
-	}
-	852.1.1 = {
-		holder = 74024
-	}
 	864.1.1 = {
-		holder = 74025
+		holder = 74023 # Isaac
 	}
-	888.1.1 = {
-		holder = 74026
+	885.1.1 = {
+		holder = 74024 # Zebulun
+	}
+	894.1.1 = {
+		holder = 74025 # Manasseh II
 	}
 	899.1.1 = {
 		holder = 146187
@@ -107,14 +104,14 @@ c_sarkel = {
 	831.1.1 = {
 		holder = 74022
 	}
-	847.1.1 = {
-		holder = 74023
-	}
-	852.1.1 = {
-		holder = 74024
-	}
 	864.1.1 = {
-		holder = 74025
+		holder = 74023 # Isaac
+	}
+	885.1.1 = {
+		holder = 74024 # Zebulun
+	}
+	894.1.1 = {
+		holder = 74025 # Manasseh II
 	}
 	888.1.1 = {
 		holder = 74026
@@ -219,14 +216,14 @@ c_astrakhan = {
 	831.1.1 = {
 		holder = 74022
 	}
-	847.1.1 = {
-		holder = 74023
-	}
-	852.1.1 = {
-		holder = 74024
-	}
 	864.1.1 = {
-		holder = 74025
+		holder = 74023 # Isaac
+	}
+	885.1.1 = {
+		holder = 74024 # Zebulun
+	}
+	894.1.1 = {
+		holder = 74025 # Manasseh II
 	}
 	888.1.1 = {
 		holder = 74026
@@ -328,14 +325,14 @@ c_beksima = {
 	831.1.1 = {
 		holder = 74022
 	}
-	847.1.1 = {
-		holder = 74023
-	}
-	852.1.1 = {
-		holder = 74024
-	}
 	864.1.1 = {
-		holder = 74025
+		holder = 74023 # Isaac
+	}
+	885.1.1 = {
+		holder = 74024 # Zebulun
+	}
+	894.1.1 = {
+		holder = 74025 # Manasseh II
 	}
 	888.1.1 = {
 		holder = 74026
@@ -1247,14 +1244,14 @@ c_samander = {
 	831.1.1 = {
 		holder = 74022
 	}
-	847.1.1 = {
-		holder = 74023
-	}
-	852.1.1 = {
-		holder = 74024
-	}
 	864.1.1 = {
-		holder = 74025
+		holder = 74023 # Isaac
+	}
+	885.1.1 = {
+		holder = 74024 # Zebulun
+	}
+	894.1.1 = {
+		holder = 74025 # Manasseh II
 	}
 	888.1.1 = {
 		holder = 74026
@@ -1358,14 +1355,14 @@ c_samiran = {
 	831.1.1 = {
 		holder = 74022
 	}
-	847.1.1 = {
-		holder = 74023
-	}
-	852.1.1 = {
-		holder = 74024
-	}
 	864.1.1 = {
-		holder = 74025
+		holder = 74023 # Isaac
+	}
+	885.1.1 = {
+		holder = 74024 # Zebulun
+	}
+	894.1.1 = {
+		holder = 74025 # Manasseh II
 	}
 	888.1.1 = {
 		holder = 74026

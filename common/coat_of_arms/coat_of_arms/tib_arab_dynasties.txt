@@ -361,6 +361,47 @@ house_Fatimid = {
 		}
 	}
 }
+house_Hanafiyyah={
+	pattern="pattern_solid.dds"
+	color1=yellow
+	color2=white
+	colored_emblem={
+		color1=white
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.500000 0.144000 }
+			scale={ 1.000000 0.030000 }
+		}
+
+		instance={
+			position={ 0.500000 0.248000 }
+			scale={ 1.000000 0.030000 }
+		}
+
+		instance={
+			position={ 0.500000 0.672000 }
+			scale={ 1.000000 0.030000 }
+		}
+
+		instance={
+			position={ 0.500000 0.776000 }
+			scale={ 1.000000 0.030000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_arabic_shahada.dds"
+		instance={
+			position={ 0.500000 0.460000 }
+			scale={ 0.900000 0.900000 }
+		}
+
+	}
+
+}
+
 
 1042181 = {
 	pattern="pattern_tricolor_bend_02.dds"
@@ -427,14 +468,14 @@ house_Muhallabid={
 house_Thaqafi={
 	pattern="pattern_solid.dds"
 	color1=white
-	color2=white
+	color2=red
 	color3=red
 	colored_emblem={
 		color1=red
 		texture="ce_block_02.dds"
 		instance={
 			position={ 0.500000 0.840000 }
-			scale={ 1.000000 0.020000 }
+			scale={ 1.000000 0.030000 }
 		}
 
 		instance={
@@ -470,6 +511,34 @@ house_Thaqafi={
 	}
 
 }
+bedouindyn010={ # Banu Tayy
+	pattern="pattern_solid.dds"
+	color1=black
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=white
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.500000 0.000000 }
+			scale={ 1.000000 0.230000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_crescent_random.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+			depth=1.010000
+			rotation=90
+		}
+
+	}
+
+}
+
 house_Sulaym = { # Suleimid
 	pattern = "pattern_solid.dds"
 	color1 = "green"
@@ -487,7 +556,71 @@ house_Sulaym = { # Suleimid
 		instance = { position = { 0.5 0.48 } scale = { 0.65 0.65 }  }
 	}	
 }
+tribe_Lihyan={
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=red
+	color3=yellow
+	colored_emblem={
+		color1=red
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.500000 0.910000 }
+			scale={ 1.000000 0.190000 }
+		}
 
+		instance={
+			position={ 0.500000 0.570000 }
+			scale={ 1.000000 0.190000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.500000 0.230000 }
+			scale={ 0.700000 0.330000 }
+			depth=2.010000
+		}
+
+	}
+
+}
+
+house_Numayr={
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=red
+	color3=blue
+	colored_emblem={
+		color1=blue
+		color2=orange
+		texture="ce_mena_fess.dds"
+		instance={
+			position={ 0.500000 0.665000 }
+			scale={ 1.000000 0.500000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=red
+		color2=grey
+		texture="ce_mena_lion.dds"
+		instance={
+			position={ 0.500000 0.320000 }
+			scale={ 0.750000 0.750000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+
+# Omani
 100690 = { # Nabhanid
 	pattern="pattern_solid.dds"
 	color1=red
@@ -506,8 +639,26 @@ house_Sulaym = { # Suleimid
 
 }
 
-
+# Arabised Kurds
 24000 = { # Ayyubid
+	pattern="pattern_solid.dds"
+	color1=rgb { 215 150 26 }
+	color2=black
+	color3=white
+	colored_emblem={
+		color1=rgb { 126 5 5 }
+		color2=rgb { 58 7 0 }
+		color3=rgb { 63 19 13 }
+		texture="tib_saladin_standard_eagle.dds"
+		instance={
+			position={ 0.500000 0.480000 }
+			scale={ 0.700000 0.700000 }
+		}
+
+	}
+
+}
+house_Ayyubid = { # Ayyubid
 	pattern="pattern_solid.dds"
 	color1=rgb { 215 150 26 }
 	color2=black

@@ -232,8 +232,11 @@
 ###c_al-asa
 6313 = {	#AL-ASA
 	culture = yemeni # bedouin
-	religion = ashari
+	religion = ibadi
 	holding = tribal_holding
+	1200.1.1 = {
+		religion = ashari
+	}
 }
 
 ###c_socotra
@@ -249,10 +252,13 @@
 ###c_dhofar
 6314 = {	#RAYSUT
 	culture = yemeni # bedouin
-	religion = ashari
+	religion = ibadi
 	holding = tribal_holding
 	1066.1.1 = {
 		holding = castle_holding
+	}
+	1200.1.1 = {
+		religion = ashari
 	}
 }
 6315 = {	#DHUFAR	tied to city of Salalah

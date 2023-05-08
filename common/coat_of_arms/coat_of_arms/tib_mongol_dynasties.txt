@@ -346,7 +346,7 @@ house_Jochid = {
 	}
 }
 
-house_Shaybanid = {
+house_Shibanid = {
 	pattern="pattern_solid.dds"
 	color1=green
 	color2=yellow
@@ -368,3 +368,216 @@ house_Shaybanid = {
 		}
 	}
 }
+house_Ogodeid={
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=black
+	color3=black
+	colored_emblem={
+		color1=black
+		texture="ce_tamgha_mongol_ogedei.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 0.850000 0.900000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.490000 0.495000 }
+			scale={ 0.230000 0.075000 }
+		}
+
+	}
+
+}
+house_TuqTemur={
+	pattern="pattern__solid_designer.dds"
+	color1=rgb { 255 255 255 }
+	color2=red
+	color3=red
+	colored_emblem={
+		color1=rgb { 230 10 30 }
+		texture="ce_bendlet.dds"
+		instance={
+			position={ 0.235000 0.510000 }
+			scale={ 0.230000 0.370000 }
+			depth=2.010000
+			rotation=180
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 255 255 255 }
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.670000 0.300000 }
+			scale={ 0.085000 0.085000 }
+		}
+
+		instance={
+			position={ 0.500000 0.540000 }
+			scale={ 0.270000 0.310000 }
+			depth=6.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 230 10 30 }
+		texture="ce_circle_mask.dds"
+		instance={
+			position={ 0.500000 0.200000 }
+			scale={ 0.130000 0.130000 }
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 255 255 255 }
+		texture="ce_circle_mask.dds"
+		instance={
+			position={ 0.500000 0.200000 }
+			scale={ 0.075000 0.075000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 255 255 255 }
+		texture="ce_mena_bend.dds"
+		instance={
+			position={ 0.100000 0.350000 }
+			scale={ 0.400000 0.400000 }
+			depth=1.010000
+			rotation=280
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 230 10 30 }
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.500000 0.285000 }
+			scale={ 0.030000 0.160000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.500000 0.530000 }
+			scale={ 0.330000 0.330000 }
+			depth=7.010000
+		}
+
+	}
+
+}
+house_Tevalid={
+	pattern="pattern_solid.dds"
+	color1=rgb { 43 125 175 }
+	color2=green
+	color3=black
+	colored_emblem={
+		color1=green_light
+		color2=rgb { 192 122 19 }
+		texture="tib_nogai_flag_beast.dds"
+		instance={
+			position={ 0.500000 0.430000 }
+			scale={ 0.590000 0.590000 }
+		}
+
+	}
+
+}
+house_Orda={
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=red
+	colored_emblem={
+		color1=red
+		color2=red
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.330000 0.565000 }
+			scale={ 0.050000 0.420000 }
+		}
+
+		instance={
+			position={ 0.670000 0.565000 }
+			scale={ 0.050000 0.420000 }
+		}
+
+		instance={
+			position={ 0.500000 0.380000 }
+			scale={ 0.380000 0.050000 }
+		}
+
+		instance={
+			position={ 0.500000 0.350000 }
+			scale={ 0.050000 0.100000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=red
+		color2=red
+		texture="ce_circle_mask.dds"
+		instance={
+			position={ 0.500000 0.210000 }
+			scale={ 0.250000 0.250000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=white
+		texture="ce_circle_mask.dds"
+		instance={
+			position={ 0.500000 0.210000 }
+			scale={ 0.150000 0.150000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=red
+		color2=red
+		texture="ce_block_04.dds"
+		instance={
+			position={ 0.706000 0.802000 }
+			scale={ 0.600000 0.600000 }
+			rotation=45
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=white
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.845000 0.800000 }
+			scale={ 0.300000 0.500000 }
+		}
+
+		instance={
+			position={ 0.670000 0.925000 }
+			scale={ 0.500000 0.300000 }
+		}
+
+	}
+
+}
+
+
+101914 = house_Toluid

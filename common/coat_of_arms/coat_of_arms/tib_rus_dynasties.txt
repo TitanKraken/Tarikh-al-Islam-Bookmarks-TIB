@@ -21,9 +21,12 @@ house_IzyaslavichiTurov={
 	colored_emblem={
 		color1=yellow
 		color2=yellow
-		texture="tib_izyaslavich_crest.dds"
+		texture="ce_rurikid_izyaslav.dds"
+		instance={
+			position={ 0.500000 0.550000 }
+		}	
 	}
-}
+}	
 
 house_Rostialvichi = {
 	pattern="pattern_solid.dds"
@@ -32,9 +35,11 @@ house_Rostialvichi = {
 	colored_emblem={
 		color1=yellow
 		color2=yellow
-		texture="tib_yurii_crest.dds"
+		texture="ce_rurikid_vzevolod_02.dds"
+		instance={
+			position={ 0.500000 0.530000 }
+		}
 	}
-
 }
 
 house_Yurievichi = {
@@ -91,4 +96,21 @@ house_Vseslavichi = {
 		}
 
 	}
+}
+
+house_Rostislavichi = {
+	pattern="pattern_solid.dds"
+	color1=blue
+	color2=yellow
+	colored_emblem={
+		color1=yellow
+		color2=yellow
+		texture="ce_rurikid_vzevolod_01.dds"
+		instance={
+			position={ 0.500000 0.500000 }
+			scale={ 0.910000 0.910000 }
+		}
+
+	}
+
 }

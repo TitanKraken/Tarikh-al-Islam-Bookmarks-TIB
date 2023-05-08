@@ -849,14 +849,6 @@ c_mosynopolis = {
 	330.1.1 = {
 		liege = "d_thessalonika"
 	}
-	700.1.1 = { # fictional
-		holder = southslavchief004
-		liege = 0
-		government = republic_government
-	}
-	750.1.1 = {
-		liege = "d_thessalonika"
-	}
 	756.1.1 = {
 		holder = 145815
 	}
@@ -935,14 +927,6 @@ c_mosynopolis = {
 
 c_serres = {
 	330.1.1 = {
-		liege = "d_thessalonika"
-	}
-	700.1.1 = { # fictional
-		holder = southslavchief004
-		liege = 0
-		government = republic_government
-	}
-	750.1.1 = {
 		liege = "d_thessalonika"
 	}
 	756.1.1 = {
@@ -1088,13 +1072,8 @@ c_naxos = {
 	330.1.1 = {
 		liege = "d_aegean_islands"
 	}
-	713.6.3 = {
-		holder = strategos001
-		liege = e_byzantium
-	}
 	761.1.1 = {
 		holder = 145822
-		liege = "d_aegean_islands"
 	}
 	865.1.1 = {
 		holder = 145189
@@ -1144,10 +1123,6 @@ c_abydos = {
 	
 	330.1.1 = {
 		liege = "d_aegean_islands"
-	}
-	700.1.1 = { # idk maybe fictional?
-		holder = komes_opsikiou
-		liege = e_byzantium
 	}
 	762.1.1 = {
 		holder = 145819
@@ -1219,9 +1194,6 @@ c_abydos = {
 c_lesbos = {
 	330.1.1 = {
 		liege = "d_aegean_islands"
-	}
-	711.1.1 = { # fictional
-		holder = strategos004
 	}
 	755.1.1 = {
 		holder = 145820
@@ -1309,9 +1281,6 @@ c_chios = {
 	330.1.1 = {
 		liege = "d_ephese"
 	}
-	711.1.1 = { # fictional
-		holder = strategos004
-	}
 	764.1.1 = {
 		holder = 145833
 	}
@@ -1397,14 +1366,8 @@ c_rhodos = {
 	330.1.1 = {
 		liege = "d_cibyrrhaeot"
 	}
-	714.6.3 = { # fictional
-		holder = strategos005
-		liege = 0
-		government = theme_government
-	}
 	751.1.1 = {
 		holder = 145834
-		liege = "d_cibyrrhaeot"
 	}
 	780.1.1 = {
 		holder = 70494
@@ -1426,7 +1389,7 @@ c_rhodos = {
 		holder = 34262
 	}
 	1092.1.1 = {
-		holder = 34264
+			holder = 34264
 	}
 	1093.1.1 = {
 		liege = "d_cibyrrhaeot"
@@ -1451,7 +1414,6 @@ c_rhodos = {
 	}
 	1248.1.1 = {
 		liege = "d_genoa"
-		government = feudal_government
 	}
 	1248.1.1 = {
 		holder = 144539
@@ -1586,14 +1548,6 @@ c_thessalonika = {
 	330.1.1 = {
 		liege = "d_thessalonika"
 	}
-	700.1.1 = { # fictional
-		holder = southslavchief003
-		liege = 0
-		government = republic_government
-	}
-	750.1.1 = {
-		liege = "d_thessalonika"
-	}
 	754.1.1 = {
 		holder = 145814
 	}
@@ -1680,14 +1634,6 @@ c_chalkidike = {
 	330.1.1 = {
 		liege = "d_thessalonika"
 	}
-	700.1.1 = { # fictional
-		holder = southslavchief003
-		liege = 0
-		government = republic_government
-	}
-	750.1.1 = {
-		liege = "d_thessalonika"
-	}
 	756.1.1 = {
 		holder = 145815
 	}
@@ -1762,14 +1708,6 @@ c_chalkidike = {
 
 c_veria = {
 	330.1.1 = {
-		liege = "d_thessalonika"
-	}
-	700.1.1 = { # fictional
-		holder = southslavchief003
-		liege = 0
-		government = republic_government
-	}
-	750.1.1 = {
 		liege = "d_thessalonika"
 	}
 	754.1.1 = {
@@ -1900,11 +1838,13 @@ d_thessaly = {
 	1216.6.11 = {
 		liege = 0
 	}
-	1225.1.1 = {
-		holder = 31216 #Guy I
+	1224.1.1 = {
+		holder = 2325000 # Alexios Melissenos
+		liege = k_nikaea
 	}
 	1263.1.1 = {
 		holder = 31217 #Jean I
+		liege = 0
 	}
 	1280.1.1 = {
 		holder = 31218 #Guillaume I
@@ -1933,14 +1873,6 @@ d_thessaly = {
 
 c_thessalia = {
 	330.1.1 = {
-		liege = "d_thessalonika"
-	}
-	700.1.1 = { # fictional
-		holder = southslavchief002
-		liege = 0
-		government = republic_government
-	}
-	750.1.1 = {
 		liege = "d_thessalonika"
 	}
 	751.1.1 = {
@@ -1987,7 +1919,8 @@ c_thessalia = {
 		holder = 215514
 	}
 	1224.1.1 = {
-		liege = "d_thessalonika"
+		holder = 2325000 # Alexios Melissenos
+		liege = k_nikaea
 	}
 	1230.3.9 = {
 		holder = 215516
@@ -2024,14 +1957,6 @@ c_thessalia = {
 c_demetrias = {
 	330.1.1 = {
 		liege = "d_athens"
-	}
-	700.1.1 = { # fictional
-		holder = southslavchief002
-		liege = 0
-		government = republic_government
-	}
-	750.1.1 = {
-		liege = "d_thessalonika"
 	}
 	767.1.1 = {
 		holder = 145805
@@ -2099,14 +2024,6 @@ c_neopatras = {
 	330.1.1 = {
 		liege = "d_athens"
 	}
-	700.1.1 = { # fictional
-		holder = southslavchief002
-		liege = 0
-		government = republic_government
-	}
-	750.1.1 = {
-		liege = "d_thessalonika"
-	}
 	767.1.1 = {
 		holder = 145805
 	}
@@ -2173,14 +2090,6 @@ c_thessaliotis = {
 	330.1.1 = {
 		liege = "d_thessalonika"
 	}
-	700.1.1 = { # fictional
-		holder = southslavchief002
-		liege = 0
-		government = republic_government
-	}
-	750.1.1 = {
-		liege = "d_thessalonika"
-	}
 	751.1.1 = {
 		holder = 145816
 	}
@@ -2225,7 +2134,8 @@ c_thessaliotis = {
 		holder = 215514
 	}
 	1224.1.1 = {
-		liege = "d_thessalonika"
+		holder = 2325000 # Alexios Melissenos
+		liege = k_nikaea
 	}
 	1230.3.9 = {
 		holder = 215516

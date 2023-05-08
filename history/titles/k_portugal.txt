@@ -299,7 +299,6 @@ c_castelo_branco = {
 	867.1.1 = {
 		holder = 73928 # al-Hakam ibn Muhammad
 		liege = k_andalusia
-		government = clan_government
 	}
 	875.1.1 = {
 		holder = 73683 # Sultan Muhammad I of Andalusia
@@ -309,6 +308,9 @@ c_castelo_branco = {
 	}
 	888.6.24 = {
 		holder = 73685 # Sultan Abdallah ibn Muhammad of Andalusia
+	}
+	890.1.1 = {
+		holder = 73959 # Zaid ibn Abd al-Rahman al-Marwani
 	}
 	912.10.15 = {
 		holder = 3200 # Caliph Abd al-Rahman III of Andalusia
@@ -401,6 +403,9 @@ d_porto = {
 	}
 	922.1.1 = {
 		holder = 73865 # Diogo Fernandes
+	}
+	924.1.1 = {
+		liege = k_spanish_galicia
 	}
 	926.2.22 = {
 		holder = 70249 # Mendo I Gonçalves

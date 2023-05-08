@@ -11,11 +11,15 @@ k_valencia = {
 
 	# Mardanishid
 	1147.1.1 = {
-		holder = 73243 # Abd al-Hajjaj Mardanishid
+		holder = 73241 # Abu 'Abdallah Muhammad ibn Sa'd ibn Mardanish
+	}
+	1172.3.1 = {
+		holder = 0 # 73243 # Abd al-Hajjaj Mardanishid
 	}
 	1186.1.1 = {
 		holder = 73621 # Sa'd Mardanishid
 	}
+
 	1229.1.1 = {
 		holder = 73622 # Zayyan Mardanishid
 	}
@@ -105,6 +109,10 @@ d_valencia = {
 	}
 	1147.1.1 = {
 		holder = 73243 # Abd al-Hajjaj Mardanishid
+		liege = k_valencia
+	}
+	1172.1.1 = {
+		liege = e_maghreb # Subjugated by Abu Ya'qub Yusuf
 	}
 	1186.1.1 = {
 		holder = 73621 # Sa'd Mardanishid
@@ -447,6 +455,7 @@ c_teruel = {
 	}
 	1009.1.1 = {
 		holder = baranis0065 # Nizam al-Dawla I
+		liege = 0
 	}
 	1030.1.1 = {
 		holder = baranis0066 # Yumm al-Dawla
@@ -552,17 +561,24 @@ c_denia = {
 	909.1.1 = {
 		holder = 73911 # Abdallah Qaysid, placeholder
 	}
-	1008.1.1 = {
-		holder = levantine0101 # Walih Musa ibn Ahmad of Murcia
-		liege = d_murcia
+	
+	927.1.1 = {
+		holder = 73916 # Muhammad ibn Walid
 	}
-	1009.1.1 = {
-		holder = 85008 # Emir Muyahid al-Amiri of Mallorca
+	943.1.1 = {
+		holder = 73917 # Walid ibn Muhammad
+	}
+	980.1.1 = {
+		holder = 73918 # Abd al-Malik ibn Walid
+	}
+	1006.1.1 = {
+		holder = 73919 # Musa ibn Abd al-Malik
 		liege = 0
 	}
-	1015.1.1 = {
-		liege = d_mallorca
+	1030.1.1 = {
+		holder = levantine0107 # Abd al-Malik ibn Musa
 	}
+
 	1045.7.15 = {
 		holder = 20869 # Emir Ali Imad al-Dawla of Mallorca
 	}
@@ -711,6 +727,7 @@ c_alicante = {
 	}
 	1006.1.1 = {
 		holder = 73919 # Musa ibn Abd al-Malik
+		liege = 0
 	}
 	1030.1.1 = {
 		holder = levantine0107 # Abd al-Malik ibn Musa
@@ -763,12 +780,12 @@ c_alicante = {
 	1146.7.1 = {
 		holder = 73241 # Muhammad Mardanishid
 	}
-	1147.1.1 = {
-		liege = d_murcia
-	}
+	#1147.1.1 = {
+		#liege = d_murcia
+	#}
 	1172.3.1 = {
 		holder = 73244 # Hilal Mardanishid
-		liege = k_maghreb
+		liege = d_valencia
 	}
 	1212.1.1 = {
 		holder = 32983 # Abdallah al-Adil Almohad
@@ -859,6 +876,10 @@ d_murcia = {
 	}
 	1126.1.1 = {
 		holder = 224012 # Tariq Musavid
+	}
+	1147.1.1 = {
+		holder = 73241 # Abu 'Abdallah Muhammad ibn Sa'd ibn Mardanish
+		liege = 0
 	}
 	1178.1.1 = {
 		holder = 72882 # G�mez Gonz�lez de Traba
@@ -972,10 +993,13 @@ c_murcia = {
 		holder = 73236 # Abdallah Fariyid
 		liege = e_maghreb
 	}
-	1148.1.1 = {
-		holder = 224024 # Ali Qunkid
-		liege = 0
+	1147.1.1 = {
+		holder = 73241 # Abu 'Abdallah Muhammad ibn Sa'd ibn Mardanish
 	}
+	#1148.1.1 = {
+		#holder = 224024 # Ali Qunkid
+		#liege = 0
+	#}
 	1178.1.1 = {
 		holder = 72882 # G�mez Gonz�lez de Traba
 		liege = k_castille
@@ -1061,8 +1085,8 @@ c_alcaraz = {
 		holder = 85008 # Emir Muyahid al-Amiri of Mallorca
 		liege = 0
 	}
-	1015.1.1 = {
-		liege = d_mallorca
+	1013.12.1 = {
+		holder = andalusian0099 # Jayran
 	}
 	1045.7.15 = {
 		holder = 20869 # Emir Ali Imad al-Dawla of Mallorca
@@ -1098,10 +1122,13 @@ c_alcaraz = {
 		holder = 73236 # Abdallah Fariyid
 		liege = e_maghreb
 	}
-	1148.1.1 = {
-		holder = 224024 # Ali Qunkid
-		liege = 0
+	1147.1.1 = {
+		holder = 73241 # Abu 'Abdallah Muhammad ibn Sa'd ibn Mardanish
 	}
+	#1148.1.1 = {
+		#holder = 224024 # Ali Qunkid
+		#liege = 0
+	#}
 	1178.1.1 = {
 		holder = 72882 # G�mez Gonz�lez de Traba
 		liege = k_castille
@@ -1218,10 +1245,13 @@ c_alarcon = {
 		holder = 73236 # Abdallah Fariyid
 		liege = e_maghreb
 	}
-	1148.1.1 = {
-		holder = 224024 # Ali Qunkid
-		liege = 0
+	1147.1.1 = {
+		holder = 73241 # Abu 'Abdallah Muhammad ibn Sa'd ibn Mardanish
 	}
+	#1148.1.1 = {
+		#holder = 224024 # Ali Qunkid
+		#liege = 0
+	#}
 	1178.1.1 = {
 		holder = 72882 # G�mez Gonz�lez de Traba
 		liege = k_castille

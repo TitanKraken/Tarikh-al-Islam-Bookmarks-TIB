@@ -19,8 +19,9 @@
 		birth = "742.1.2"
 	}
 	765.1.1 = {
-		effect = {
-			set_relation_lover = character:194168 # Himiltrude
+		effect = {	
+			set_relation_lover = { reason = lover_history target = character:194168 } # Himiltrude
+			set_relation_rival = { reason = rival_historical target = character:144999 }
 		}
 	}
 	768.9.24 = {
@@ -233,7 +234,7 @@
 	name = "Hraban"
 	dynasty_house = house_babenberger #babenberger
 	religion = "catholic"
-	culture = "french"
+	culture = "frankish"
 	father = 190398
 	837.1.1 = {
 		birth = yes
@@ -434,6 +435,12 @@
 	742.8.7 = {
 		birth = yes
 	}
+	769.1.1 = {
+	
+		effect = {
+			set_realm_capital = title:c_maastricht
+		}
+	}
 	807.6.6 = {
 		death = yes
 	}
@@ -475,7 +482,7 @@
 	father = 200143
 
 	religion = catholic
-	culture = frankish
+	culture = french
 
 	833.1.1 = {
 		birth = yes
@@ -486,13 +493,13 @@
 }
 
 200143 = {
-	name = "Guilhelm"
+	name = "Guillaume"
 	dynasty_house = house_orleans
 
 	father = 167829
 
 	religion = catholic
-	culture = frankish
+	culture = french
 
 	817.1.1 = {
 		birth = yes
@@ -742,7 +749,7 @@
 	636.1.1 = {
 		birth = yes
 	}
-	718.1.1 = {
+	674.1.1 = {
 		death = yes
 	}
 }
@@ -765,10 +772,6 @@
 	religion = "catholic"
 	culture = "frankish"
 	father = 131719
-	trait = humble
-	trait = zealous
-	trait = content
-	trait = education_learning_3
 	690.1.1 = {
 		birth = yes
 	}
@@ -777,7 +780,7 @@
 	}
 }
 190422 = {
-	name = "Pippin"
+	name = "Pepin"
 	dynasty = 25061 #Karling
 	religion = "catholic"
 	culture = "frankish"
@@ -790,7 +793,7 @@
 	}
 }
 190423 = {
-	name = "Gotfrid"
+	name = "Godefroi"
 	religion = "catholic"
 	culture = "frankish"
 	father = 131719
@@ -803,12 +806,10 @@
 	}
 }
 190424 = {
-	name = "Theudoald"
-	dynasty = 25061 # Karling
+	name = "Theodald"
 	religion = "catholic"
 	culture = "frankish"
-	father = 131723 # Grimoald
-	mother = 131724 # Thiadsvind
+	father = 131723
 	trait = bastard
 	707.1.1 = {
 		birth = yes
@@ -993,7 +994,7 @@
 }
 190437 = {
 	name = "Audoen" #count of Amiens
-	dynasty_house = house_jerome_karling #De Martel
+	dynasty_house = house_jeromekarling #De Martel
 	religion = "catholic"
 	culture = "frankish"
 	father = 168161
@@ -1021,7 +1022,7 @@
 }
 190439 = {
 	name = "Fuldrad"
-	dynasty_house = house_jerome_karling #De Martel
+	dynasty_house = house_jeromekarling #De Martel
 	religion = "catholic"
 	culture = "frankish"
 	father = 168161
@@ -1039,7 +1040,7 @@
 190440 = {
 	name = "Richarde" #wife of Nithard
 	female = yes
-	dynasty_house = house_jerome_karling #De Martel
+	dynasty_house = house_jeromekarling #De Martel
 	religion = "catholic"
 	culture = "frankish"
 	father = 168161
@@ -1053,7 +1054,7 @@
 }
 190441 = {
 	name = "Folquin"
-	dynasty_house = house_jerome_karling #De Martel
+	dynasty_house = house_jeromekarling #De Martel
 	religion = "catholic"
 	culture = "frankish"
 	father = 168161
@@ -1071,7 +1072,7 @@
 }
 190442 = {
 	name = "Adalhard"
-	dynasty_house = house_bernhard_karling #Bernhard-Karling
+	dynasty_house = house_bernhardkarling #Bernhard-Karling
 	religion = "catholic"
 	culture = "frankish"
 	father = 168624
@@ -1084,7 +1085,7 @@
 }
 190443 = {
 	name = "Walo"
-	dynasty_house = house_bernhard_karling #Bernhard-Karling
+	dynasty_house = house_bernhardkarling #Bernhard-Karling
 	religion = "catholic"
 	culture = "frankish"
 	father = 168624
@@ -1098,7 +1099,7 @@
 190444 = {
 	name = "Bertrudis"
 	female = yes
-	dynasty_house = house_bernhard_karling #Bernhard-Karling
+	dynasty_house = house_bernhardkarling #Bernhard-Karling
 	religion = "catholic"
 	culture = "frankish"
 	father = 168624
@@ -1112,7 +1113,7 @@
 190445 = {
 	name = "Gundrada"
 	female = yes
-	dynasty_house = house_bernhard_karling #Bernhard-Karling
+	dynasty_house = house_bernhardkarling #Bernhard-Karling
 	religion = "catholic"
 	culture = "frankish"
 	father = 168624
@@ -1125,7 +1126,7 @@
 }
 190446 = {
 	name = "Bernhar"
-	dynasty_house = house_bernhard_karling #Bernhard-Karling
+	dynasty_house = house_bernhardkarling #Bernhard-Karling
 	religion = "catholic"
 	culture = "frankish"
 	father = 168624
@@ -1139,7 +1140,7 @@
 190447 = {
 	name = "Theodrada"
 	female = yes
-	dynasty_house = house_bernhard_karling #Bernhard-Karling
+	dynasty_house = house_bernhardkarling #Bernhard-Karling
 	religion = "catholic"
 	culture = "frankish"
 	father = 168624
@@ -1153,7 +1154,7 @@
 190448 = {
 	name = "Ida" #wife of Ekbert duke of Saxony
 	female = yes
-	dynasty_house = house_bernhard_karling #Bernhard-Karling
+	dynasty_house = house_bernhardkarling #Bernhard-Karling
 	religion = "catholic"
 	culture = "frankish"
 	father = 168624
@@ -1219,7 +1220,7 @@
 }
 190511 = {
 	name = "Theoderic" #duke of Lower Burgundy
-	dynasty_house = house_nibelunging #Nibelunging
+	dynasty_house = house_nibelung #Nibelunging
 	religion = "catholic"
 	culture = "frankish"
 	father = 144987
@@ -1232,7 +1233,7 @@
 }
 190512 = {
 	name = "Teudoin" #duke of Lower Burgundy
-	dynasty_house = house_nibelunging #Nibelunging
+	dynasty_house = house_nibelung #Nibelunging
 	religion = "catholic"
 	culture = "frankish"
 	father = 190511
@@ -1245,7 +1246,7 @@
 }
 190513 = {
 	name = "Theoderic" #duke of Lower Burgundy
-	dynasty_house = house_nibelunging #Nibelunging
+	dynasty_house = house_nibelung #Nibelunging
 	religion = "catholic"
 	culture = "frankish"
 	father = 190512
@@ -1258,7 +1259,7 @@
 }
 190514 = {
 	name = "Guillaume" #duke of Toulouse
-	dynasty_house = house_nibelunging #Nibelunging
+	dynasty_house = house_nibelung #Nibelunging
 	religion = "catholic"
 	culture = "frankish"
 	father = 190511
@@ -1272,7 +1273,7 @@
 190515 = {
 	name = "Abba" #wife of Nibelung
 	female = yes
-	dynasty_house = house_nibelunging #Nibelunging
+	dynasty_house = house_nibelung #Nibelunging
 	religion = "catholic"
 	culture = "frankish"
 	father = 190511
@@ -1285,7 +1286,7 @@
 }
 190516 = {
 	name = "Theoderic"
-	dynasty_house = house_nibelunging #Nibelunging
+	dynasty_house = house_nibelung #Nibelunging
 	religion = "catholic"
 	culture = "frankish"
 	father = 190511
@@ -1298,7 +1299,7 @@
 }
 190517 = {
 	name = "Adalelm"
-	dynasty_house = house_nibelunging #Nibelunging
+	dynasty_house = house_nibelung #Nibelunging
 	religion = "catholic"
 	culture = "frankish"
 	father = 190511
@@ -1311,7 +1312,7 @@
 }
 190518 = {
 	name = "Niebelung"
-	dynasty_house = house_nibelunging #Nibelunging
+	dynasty_house = house_nibelung #Nibelunging
 	religion = "catholic"
 	culture = "frankish"
 	father = 190511
@@ -1324,7 +1325,7 @@
 }
 190519 = {
 	name = "Bertrand"
-	dynasty_house = house_nibelunging #Nibelunging
+	dynasty_house = house_nibelung #Nibelunging
 	religion = "catholic"
 	culture = "frankish"
 	father = 190518
@@ -1338,7 +1339,7 @@
 190520 = {
 	name = "Berta"
 	female = yes
-	dynasty_house = house_nibelunging #Nibelunging
+	dynasty_house = house_nibelung #Nibelunging
 	religion = "catholic"
 	culture = "frankish"
 	father = 190511
@@ -1351,7 +1352,7 @@
 }
 190551 = {
 	name = "Nibelung" #count of Charolais
-	dynasty_house = house_nibelunging #Nibelunging
+	dynasty_house = house_nibelung #Nibelunging
 	religion = "catholic"
 	culture = "frankish"
 	father = 144987
@@ -1367,7 +1368,7 @@
 }
 190552 = {
 	name = "Niebelung"
-	dynasty_house = house_nibelunging #Nibelunging
+	dynasty_house = house_nibelung #Nibelunging
 	religion = "catholic"
 	culture = "frankish"
 	father = 190551
@@ -1381,7 +1382,7 @@
 }
 190553 = {
 	name = "Theodbert" #count of Bourges
-	dynasty_house = house_nibelunging #Nibelunging
+	dynasty_house = house_nibelung #Nibelunging
 	religion = "catholic"
 	culture = "frankish"
 	father = 144987
@@ -1394,7 +1395,7 @@
 }
 190554 = {
 	name = "Robert" #count of Bourges
-	dynasty_house = house_nibelunging #Nibelunging
+	dynasty_house = house_nibelung #Nibelunging
 	religion = "catholic"
 	culture = "frankish"
 	father = 190553
@@ -1408,7 +1409,7 @@
 190555 = {
 	name = "Ringradis" #wife of Peppin of Aquitaine
 	female = yes
-	dynasty_house = house_nibelunging #Nibelunging
+	dynasty_house = house_nibelung #Nibelunging
 	religion = "catholic"
 	culture = "frankish"
 	father = 190553
@@ -1421,7 +1422,7 @@
 }
 190556 = {
 	name = "Bernard" #duke of Toulouse count of Barcellona
-	dynasty_house = house_nibelunging #Nibelunging
+	dynasty_house = house_nibelung #Nibelunging
 	religion = "catholic"
 	culture = "frankish"
 	father = 190514
@@ -1434,9 +1435,9 @@
 }
 190557 = {
 	name = "Bernard" #duke of Toulouse
-	dynasty_house = house_nibelunging #Nibelunging
+	dynasty_house = house_nibelung #Nibelunging
 	religion = "catholic"
-	culture = "french"
+	culture = "frankish"
 	father = 190556
 	841.3.22 = {
 		birth = yes
@@ -1447,7 +1448,7 @@
 }
 190558 = {
 	name = "Theoderic"
-	dynasty_house = house_nibelunging #Nibelunging
+	dynasty_house = house_nibelung #Nibelunging
 	religion = "catholic"
 	culture = "frankish"
 	father = 190514
@@ -1548,7 +1549,7 @@
 91391 = {
 	name = "AlpaI_de" #unnamed daughter of Jérôme
 	female = yes
-	dynasty_house = house_jerome_karling #De Martel
+	dynasty_house = house_jeromekarling #De Martel
 	religion = "catholic"
 	culture = "frankish"
 	father = 168161 #Jérôme, bastard of Charles Martel
@@ -2265,6 +2266,22 @@
 	775.1.1 = { death = yes } #after 30 Oct 759
 }
 
+915033 = { #
+	name = "Roland"
+	#dynasty = 9569
+	religion = "catholic"
+	culture = "frankish"
+	martial = 10
+	diplomacy = 12
+	learning = 11
+	trait = education_martial_3
+	730.1.1 = { birth = yes } #unknown
+	768.9.24 = {
+		employer = 6392 #Charlemagne
+	}
+	778.8.15 = { death = yes}
+}
+
 91503 = { #set in Maine
 	name = "Rothgar"
 	dynasty = 9569
@@ -2374,7 +2391,7 @@
 }
 168161 = {
 	name = "JE_rO_me" #Jérôme or Hieronymus, bastard of Charles Martel
-	dynasty_house = house_jerome_karling #De Martel
+	dynasty_house = house_jeromekarling #De Martel
 	religion = "catholic"
 	culture = "frankish"
 	trait = bastard
@@ -2394,7 +2411,7 @@
 }
 168162 = {
 	name = "Richard"
-	dynasty_house = house_jerome_karling #De Martel
+	dynasty_house = house_jeromekarling #De Martel
 	religion = "catholic"
 	culture = "frankish"
 	father = 168161
@@ -3083,8 +3100,10 @@
 	750.1.1 = {
 		birth = yes
 	}
-	
-	760.1.1 = {
+	755.1.1 = {
+		add_trait = devoted
+	}
+	770.1.1 = {
 		death = yes
 	}
 }
@@ -3138,11 +3157,11 @@
 	mother = 190418 #DODA (Chrothechildis/Rotilde), Daughter of ANSEGISEL
 	683.1.1 = {
 		birth = yes
+		give_nickname = nick_the_just
 	}
 	
 	711.4.14 = {
 		death = yes
-		give_nickname = nick_the_just
 	}
 }
 
@@ -3150,31 +3169,15 @@
 
 
 168712 = {
-	name = "Dagobert" Dagobert III
-	dna = dagobert_III_dna
-	dynasty = 542 # Merohingi/Merovingian
+	name = "Dagobert"
+	dynasty = 542
 	religion = "catholic"
 	culture = "frankish"
 	father = 168711
-	trait = calm
-	trait = ambitious # Maybe, considering he's brave enough to oppose the Karlings?
-	trait = brave # Actually, he's pretty brave to appoint his own Mayor of the Palace :p
-	trait = education_learning_2
-	sexuality = heterosexual
 	699.1.1 = {
 		birth = yes
 	}
-	702.1.1 = {
-		effect = {
-            add_character_flag = {
-                flag = has_scripted_appearance
-            }
-        }
-	}
-	715.1.1 = {
-		trait = infirm
-		set_relation_friend = character:ragenfrid_neustria
-	}
+	
 	715.12.31 = {
 		death = yes
 	}
@@ -3189,7 +3192,7 @@
 	religion = "catholic"
 	culture = "frankish"
 	father = 168712
-	715.3.1 = { # STAY OUT OF MY BOOKMARK
+	715.1.1 = {
 		birth = yes
 	}
 	
@@ -3729,7 +3732,7 @@
 
 131717 = {
 	name = "Agnerald"
-	dynasty_house = house_chaumontois
+	dynasty_house = house_chaumont
 	martial = 5
 	diplomacy = 5
 	intrigue = 5
@@ -3747,7 +3750,7 @@
 
 194170 = {
 	name = "Anselm"
-	dynasty_house = house_chaumontois
+	dynasty_house = house_chaumont
 	martial = 7
 	diplomacy = 5
 	intrigue = 5
@@ -3845,9 +3848,6 @@
 	703.1.1 = {
 		add_spouse = 190425
 	}
-	714.1.17 = {
-		set_realm_capital = title:c_metz
-	}
 	725.2.1 = {
 		add_spouse = 190426
 	}
@@ -3883,8 +3883,8 @@
 }
 
 131718 = {
-	name = "Arnulf"
-	dynasty_house = house_chaumontois
+	name = "Arnoul"
+	dynasty_house = house_chaumont
 	martial = 5
 	diplomacy = 5
 	intrigue = 5
@@ -3940,7 +3940,7 @@
 }
 131716 = {
 	name = "Arnoul"
-	dynasty_house = house_chaumontois
+	dynasty_house = house_chaumont
 	martial = 5
 	diplomacy = 5
 	intrigue = 5
@@ -4054,7 +4054,7 @@
 
 144986 = {
 	name = "Childebrand"
-	dynasty_house = house_nibelunging #Nibelunging
+	dynasty_house = house_nibelung #Nibelunging
 	religion = "catholic"
 	culture = "frankish"
 	father = 144987
@@ -4068,7 +4068,7 @@
 
 144987 = {
 	name = "Nibelung"
-	dynasty_house = house_nibelunging #Nibelunging
+	dynasty_house = house_nibelung #Nibelunging
 	religion = "catholic"
 	culture = "frankish"
 	father = 144988
@@ -4250,7 +4250,7 @@
 }
 168624 = {
 	name = "Bernard"
-	dynasty_house = house_bernhard_karling #Bernhard-Karling
+	dynasty_house = house_bernhardkarling #Bernhard-Karling
 	religion = "catholic"
 	culture = "frankish"
 	trait = bastard
@@ -4265,7 +4265,7 @@
 
 168625 = {
 	name = "Waldger"
-	dynasty_house = house_bernhard_karling #Bernhard-Karling
+	dynasty_house = house_bernhardkarling #Bernhard-Karling
 	religion = "catholic"
 	culture = "frankish"
 	father = 168624
@@ -4336,7 +4336,7 @@
 	name = "Eudes" # Eudes Ardoinici
 	dynasty = 680
 	religion = catholic
-	culture = french
+	culture = occitan
 	father = 91383
 	
 	820.1.1 = {
@@ -4352,7 +4352,7 @@
 	female = yes
 	dynasty = 680
 	religion = catholic
-	culture = french
+	culture = occitan
 	father = 91383
 	
 	826.1.1 = {
@@ -4367,7 +4367,7 @@
 	name = "Hardouin" # Hardouin Ardoinici
 	dynasty = 680
 	religion = "catholic"
-	culture = french
+	culture = occitan
 	father = 91384
 	trait = education_martial_2
 	
@@ -4419,7 +4419,7 @@
 }
 
 163069 = {
-	name = "Odalric" # Odalric d'Asti, Count of Montferrato (860-887)
+	name = "Odelric" # Odalric d'Asti, Count of Montferrato (860-887)
 	dynasty = 799
 	religion = catholic
 	culture = french
@@ -4551,7 +4551,7 @@
 }
 
 167970 = {
-	name = "Godfried" # Gotofredo d'Asti, Count of Montferrato (905-910)
+	name = "Geoffroy" # Gotofredo d'Asti, Count of Montferrato (905-910)
 	dynasty = 799
 	religion = catholic
 	culture = french
@@ -4561,7 +4561,7 @@
 		birth = yes
 	}
 	888.1.13 = {
-		name = "Gotofredo"
+		name = "Gotefredo"
 		culture = cisalpine
 	}
 	910.8.4 = {
@@ -4573,7 +4573,7 @@
 	name = "Hucbald"
 	dynasty = 9566
 	religion = catholic
-	culture = french
+	culture = bavarian
 	
 	830.1.1 = {
 		birth = yes
@@ -4590,7 +4590,7 @@
 	name = "Hucbald"
 	dynasty = 9566
 	religion = catholic
-	culture = french
+	culture = bavarian
 	father = 167976
 	mother = 167977
 	
@@ -4603,7 +4603,7 @@
 }
 
 frankish0001 = {
-	name = "Konrad" # Corrado Guideschi, name unknown, father of Guido IV of Spoletto
+	name = "Conrad" # Corrado Guideschi, name unknown, father of Guido IV of Spoletto
 	dynasty = 7389
 	religion = catholic
 	culture = french
@@ -4623,7 +4623,7 @@ frankish0002 = {
 	female = yes
 	dynasty = 7389
 	religion = catholic
-	culture = frankish
+	culture = french
 	trait = education_diplomacy_1
 	
 	father = 71906
@@ -4662,43 +4662,6 @@ frankish0003 = {
 		birth = yes
 	}
 	828.1.1 = {
-		death = yes
-	}
-}
-
-frankish0004 = {
-	name = "Suppo" # Suppo Supponidi, Count of Turin (878-888)
-	dynasty = 9561
-	religion = catholic
-	culture = italian
-	trait = education_martial_1
-	
-	father = 167884
-	
-	854.1.1 = {
-		birth = yes
-	}
-	888.1.13 = {
-		name = "Suppone"
-		culture = italian
-	}
-	904.1.1 = {
-		death = yes
-	}
-}
-bishop_savaric = {
-	name = "Savaric" # Savaric of Auxerre
-	religion = catholic
-	culture = frankish
-	trait = education_martial_3
-	learning = 10
-	martial = 12
-	stewardship = 9
-	
-	662.1.1 = {
-		birth = yes
-	}
-	715.12.31 = {
 		death = yes
 	}
 }

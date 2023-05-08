@@ -188,10 +188,6 @@
 	690.1.1 = {
 		birth = yes
 	}
-	715.1.1 = {
-		set_realm_capital = title:c_kath
-		set_primary_title = title:d_khorezm
-	}
 	740.1.1 = {
 		death = yes
 	}
@@ -226,7 +222,7 @@
 }
 
 188596 = {
-	name = "Azkajwar"
+	name = "Abdallah"
 	dynasty = 1042112 # Afrighid
 	religion = "mazdayasna"
 	culture = khwarezmian
@@ -235,7 +231,6 @@
 		birth = yes
 	}
 	790.1.1 = {
-		name = "Abdallah"
 		religion = ashari
 	}
 	815.1.1 = {
@@ -259,6 +254,7 @@
 
 188598 = {
 	name = "Eraq"
+				   
 	dynasty = 1042112 # Afrighid
 	religion = "ashari"
 	culture = khwarezmian
@@ -279,6 +275,15 @@
 	father = 188598
 	865.1.1 = {
 		birth = yes
+	}
+	930.1.1 = {
+		effect = {
+		make_tributary = {
+		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
+		TRIBUTARY = character:188599
+		SUZERAIN = character:1230611
+		}
+	}
 	}
 	940.1.1 = {
 		death = yes
@@ -308,11 +313,17 @@
 	925.1.1 = {
 		birth = yes
 	}
-	995.1.1 = {
-		death = {
-			death_reason = death_execution
-			killer = 1231221 # Ma'mun
+	992.1.1={
+	effect = {
+		make_tributary = {
+		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
+		TRIBUTARY = character:188601
+		SUZERAIN = character:1230619
+			}
 		}
+	}
+	995.1.1 = {
+		death = yes
 	}
 }
 
@@ -369,7 +380,7 @@
 	}
 }
 1231225 = {
-	name = "Muhammad" # Abu’l-Harith
+	name = "Mohammad" # Abu’l-Haret
 	dynasty = 1102251
 	religion = "ashari"
 	culture = khwarezmian
@@ -401,15 +412,56 @@
 	religion = "ashari"
 	culture = khwarezmian
 	father = 1231221
+	female = yes
 	978.1.1 = {
 		birth = yes
 	}
-	999.1.1 = {
-		add_spouse = 1000230134 # Khurra-ji Altuntashid
-	}
 	1017.3.3 = {
-		death = {
-			death_reason = death_execution
-		}
+		death = yes
+	}
+}
+
+#Yalavach
+
+1231200 = {
+	name="Abu-Bakr"
+	dynasty=1059024
+	religion="ashari"
+	culture="persian"
+	father=248166
+	1231.1.1={
+		birth=yes
+	}
+	1246.1.1 = {
+		add_spouse = ChagataiFemale1
+	}
+	1298.6.1={
+		death=yes
+	}
+}
+1231201 = {
+	name="Satilmish-Beg"
+	dynasty=1059024
+	religion="ashari"
+	culture="persian"
+	father=248166
+	1236.1.1={
+		birth=yes
+	}
+	1303.1.1={
+		death=yes
+	}
+}
+1231202 = {
+	name="Suyunich"
+	dynasty=1059024
+	religion="ashari"
+	culture="persian"
+	father=248166
+	1242.1.1={
+		birth=yes
+	}
+	1308.1.1={ #?
+		death=yes
 	}
 }

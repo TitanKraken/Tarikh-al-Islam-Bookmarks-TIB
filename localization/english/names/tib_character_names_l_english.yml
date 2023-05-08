@@ -10,9 +10,14 @@
  Abu_l_Hasan_Ali:0 "Abu'l-Hasan 'Ali"
  Abu_Ali:0 "Abu 'Ali"
  Abu_Zayd:0 "Abu Zayd"
+ Abu_Umran:0 "Abu 'Umran"
 
  Alwi:0 "'Alwi"
- Ya_la:0 "Ya'la"
+ Ya__la:0 "Ya'la"
+ Yaghmurasen:0 "Yaghmurasen"
+ Tudjin:0 "Tudjin"
+ Mardanish:0 "Mardanish"
+ Mardanis:0 "Mardanis"
  
  Abu_Sa_id__Uthman:0 "Abu Sa'id 'Uthman"
  Abu_Zayd_Abd-al-Rahman:0 "Abu Zayd 'Abd-al-Rahman"
@@ -34,6 +39,10 @@
  Abu_l-Rabi__Sulayman:0 "Abu'l-Rabi' Sulayman"
  Abu_Abdallah_Muhammad:0 "Abu 'Abdallah Muhammad"
 
+ # Zayyanid Tlemcen
+ Abu_Hammu_Musa:0 "Abu Hammu Musa"
+ Abu_Tashfin_Abd-al-Rahman:0 "Abu Tashfin Abd-al-Rahman"
+
  Vicente_BellvI_s:0 "Vicente Bellvís"
  Alda_Ferrandis:0 "Alda Ferrandis"
  Fernando_PE_rez:0 "Fernando Pérez"
@@ -42,16 +51,29 @@
  Ceyt_Aboyahya:0 "Ceyt Aboyahya"
  Zeyt_Edris:0 "Zeyt Edris"
  
+ # Mongol
  YesU_der:0 "Yesüder"
+ Buzurg:0 "Buzurg"
+ Agbuga:0 "Agbuga"
+ Tuqa-TemU_r:0 "Tuqa-Temür"
+ KO_chU_:0 "Köchü"
 
  # Arabic Corrections
  _Umar:0 "'Umar"
  _Uthman:0 "'Uthman"
  _Ali:0 "'Ali"
+ Saladin:0 "Salahuddin"
  Salahuddin:0 "Salahuddin"
+ Al_Muzaffar_Taqi_Al_Din_Umar:0 "al-Muzaffar Taqi'uddin 'Umar"
+ Naser_ed-Din_Muhammad:0 "Nasiruddin Muhammad"
  al-Musnsur_Umar:0 "al-Mansur 'Umar"
  Abdul_Qadir:0 "'Abdul Qadir"
  Abu_Hashim_Abdallah:0 "Abu Hashim Abdallah"
+ Sharaf_al-Din_Qaraqush:0 "Sharaf al-Din Qaraqush"
+
+ Abu_Salih_Muflih:0 "Abu Salih Muflih"
+
+ Sayyida_al_Aziziyya:0 "Sayyida al-'Aziziyya"
 
  # Turks
  ArI_G_:0 "Arïğ"
@@ -67,3 +89,9 @@
  DukkaqC_i:0 "Dukkaqçi"
 
  Suleiman_Shah:0 "Suleiman Shah"
+
+ # Mamluk
+ Mamluk_Regiment:0 "Mamluk Regiment"
+ Teguder_Adventurers:0 "Teguder's Adventurers"
+ Saif_al-Din_Qutuz:0 "Saif al-Din Qutuz"
+

@@ -38,7 +38,30 @@
 		holder = 0
 	}
 	990.1.1 = {
-	        holder = 144125
+	    holder = 144125
+	}
+
+	# Samaniyyan
+	900.1.1 = { # Probably spring of 900, received recognition the Caliph as "ruler over all of Khurasan"
+		holder = 163157 # Isma'il ibn Ahmad Samani
+	}
+	907.1.1 = {
+		holder = 1230610 # Ahmad ibn Isma'il Samani
+	}
+	914.1.1 = {
+		holder = 1230611
+	}
+	943.6.4 = {
+		holder = 1230615
+	}
+	954.8.8 = {
+		holder = 1230616
+	}
+	961.1.1 = {
+		holder = 1230617
+	}
+	976.6.13 = {
+		holder = 1230619
 	}
 
 	1066.1.1 = {
@@ -77,29 +100,6 @@ d_nishapur = {
 	}
 	1073.1.1 = {
 		holder = 0
-	}
-	# Toluid Mongol
-	1200.1.1 = {
-		holder = 93052 # Tolui
-		liege = e_chagatai
-	}
-	1220.1.1 = {
-		holder = 194308
-	}
-	1221.1.1 = {
-		holder = 125520
-	}
-	1223.12.2 = {
-		liege = e_ilkhanate
-	}
-	1232.1.2 = {
-		holder = 478011
-	}
-	1240.1.1 = {
-		holder = 125526 # Ariq
-	}
-	1266.1.2 = {
-		holder = 125527
 	}
 }
 
@@ -152,9 +152,8 @@ c_nishapur = {
 	1172.3.1 = {
 		holder = 230000
 	}
-	# Toluid Mongol
 	1200.1.1 = {
-		holder = 93052 # Tolui
+		holder = 93052
 	}
 	1220.1.1 = {
 		holder = 194308
@@ -162,14 +161,11 @@ c_nishapur = {
 	1221.1.1 = {
 		holder = 125520
 	}
-	1223.12.2 = {
-		liege = e_ilkhanate
-	}
 	1232.1.2 = {
 		holder = 478011
 	}
 	1240.1.1 = {
-		holder = 125526 # Ariq
+		holder = 125526
 	}
 	1266.1.2 = {
 		holder = 125527
@@ -626,13 +622,11 @@ d_merv = {
 	1253.1.1 = {
 		holder = 93066
 	}
-	1260.1.1 = { #  Should be Viceroy of Khorasan during Abaqa Khan
-		holder = son_of_hulegu_003
-		liege = e_ilkhanate
+	1260.1.1 = {
+		holder = 93068
 	}
 	1266.1.1 = {
 		holder = 93066
-		liege = e_chagatai
 	}
 	1266.9.1 = {
 		holder = 93070
@@ -735,10 +729,6 @@ c_merv = {
 	}
 	1220.1.1 = {
 		holder = 194303
-	}
-	1260.1.1 = { #  Should be Viceroy of Khorasan during Abaqa Khan
-		holder = son_of_hulegu_003
-		liege = e_ilkhanate
 	}
 }
 
@@ -1166,7 +1156,6 @@ d_ghur = {
 	}
 	1227.12.2 = {
 		holder = 93057
-		liege = e_chagatai
 	}
 	1250.1.1 = {
 		holder = 93058
@@ -1871,11 +1860,6 @@ c_zirkuh = {
 d_balkh = {
 	867.1.1 = {	change_development_level = 3 }
 	1066.1.1 = { change_development_level = 6 }
-
-	1260.1.1 = {
-		holder = sons_of_chagatai_002
-		liege = e_chagatai
-	}
 }
 
 c_balkh = {
@@ -1996,13 +1980,21 @@ c_balkh = {
 		holder = 93066
 	}
 	1260.1.1 = {
-		holder = sons_of_chagatai_002 # Placeholder, Baiju, Father of Mochi
-		liege = e_chagatai
+		holder = 93068
 	}
-	1277.1.1 = {
-		holder = sons_of_baiju_001 # Mochi, commander of Qara'unas, Mongol people later settle in Afghanistan
+	1266.1.1 = {
+		holder = 93066
 	}
-	1305.1.1 = {
+	1266.9.1 = {
+		holder = 93070
+	}
+	1271.1.1 = {
+		holder = 93072
+	}
+	1272.1.1 = {
+		holder = 93074
+	}
+	1282.1.1 = {
 		holder = 93075
 	}
 	1307.1.1 = {
@@ -2162,13 +2154,21 @@ c_west-tokharestan = {
 		holder = 93066
 	}
 	1260.1.1 = {
-		holder = sons_of_chagatai_002 # Placeholder, Baiju, Father of Mochi
-		liege = e_chagatai
+		holder = 93068
 	}
-	1277.1.1 = {
-		holder = sons_of_baiju_001 # Mochi, commander of Qara'unas, Mongol people later settle in Afghanistan
+	1266.1.1 = {
+		holder = 93066
 	}
-	1305.1.1 = {
+	1266.9.1 = {
+		holder = 93070
+	}
+	1271.1.1 = {
+		holder = 93072
+	}
+	1272.1.1 = {
+		holder = 93074
+	}
+	1282.1.1 = {
 		holder = 93075
 	}
 	1307.1.1 = {
@@ -2331,13 +2331,21 @@ c_east-tokharestan = {
 		holder = 93066
 	}
 	1260.1.1 = {
-		holder = sons_of_chagatai_002 # Placeholder, Baiju, Father of Mochi
-		liege = e_chagatai
+		holder = 93068
 	}
-	1277.1.1 = {
-		holder = sons_of_baiju_001 # Mochi, commander of Qara'unas, Mongol people later settle in Afghanistan
+	1266.1.1 = {
+		holder = 93066
 	}
-	1305.1.1 = {
+	1266.9.1 = {
+		holder = 93070
+	}
+	1271.1.1 = {
+		holder = 93072
+	}
+	1272.1.1 = {
+		holder = 93074
+	}
+	1282.1.1 = {
 		holder = 93075
 	}
 	1307.1.1 = {

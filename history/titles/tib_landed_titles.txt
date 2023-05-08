@@ -281,14 +281,20 @@ c_az-dhahira = {
 
 # Egyptian Empire
 e_egypt = {
+	973.1.1 = { # Moved the capital from Ifriqiya to Egypt
+		holder = 32903 # al-Mu'izz
+	}
+	975.12.18 = {
+		holder = 3090 # al-'Aziz bi-llah
+	}
 	996.10.13 = {
-		holder = 3092
+		holder = 3092 # al-Hakim bi-Amr-llah
 	}
 	1021.2.12 = {
-		holder = 3094
+		holder = 3094 # 'Ali al-Zahir
 	}
 	1036.6.13 = {
-		holder = 3096
+		holder = 3096 # al-Mustansir bi-llah
 		effect = {
 			if = {
 				limit = {

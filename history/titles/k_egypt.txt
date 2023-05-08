@@ -33,21 +33,22 @@ k_egypt = {
 	905.1.10 = {
 		liege = e_arabia # End of Tulunid rule
 	}
+
 	#Fatimids
-	973.1.1 = {
-		holder = 32903
+	969.1.1 = {
+		holder = 32903 # al-Mu'izz
 	}
-	975.1.1 = {
-		holder = 3090
+	975.12.18 = {
+		holder = 3090 # al-'Aziz bi-llah
 	}
 	996.10.13 = {
-		holder = 3092
+		holder = 3092 # al-Hakim bi-Amr-llah
 	}
 	1021.2.12 = {
-		holder = 3094
+		holder = 3094 # 'Ali al-Zahir
 	}
 	1036.6.13 = {
-		holder = 3096
+		holder = 3096 # al-Mustansir bi-llah
 		effect = {
 			if = {
 				limit = {
@@ -174,7 +175,7 @@ k_egypt = {
 		holder = 32940
 	}
 	1309.11.1 = {
-		holder = 485000 al-Nasir Muhammad
+		holder = 485000 # al-Nasir Muhammad
 	}
 	1341.6.7 = {
 		holder = 485002 # al-Mansur Abu Bakr
@@ -254,6 +255,18 @@ d_cyrenaica = {
 		holder = 0
 	}
 
+	# Banu Sulaym
+	996.1.1 = {
+		holder = 155196 # Amer
+		liege = k_africa
+		government = tribal_government
+	}
+	997.1.1 = {
+		holder = 155197 # Rebia
+	}
+	1022.1.1 = {
+		holder = 155198 # Kilab
+	}
 	#Suleimid
 	1050.1.1 = {
 		liege = 0
@@ -317,6 +330,18 @@ c_barqa = {
 	}
 	866.1.1 = {
 		holder = 163115
+	}
+
+	# Banu Sulaym
+	996.1.1 = {
+		holder = 155196 # Amer
+		liege = k_africa
+	}
+	997.1.1 = {
+		holder = 155197 # Rebia
+	}
+	1022.1.1 = {
+		holder = 155198 # Kilab
 	}
 
 	1050.1.1 = {
@@ -515,6 +540,11 @@ d_alexandria = {
 	866.1.1 = {
 		holder = 163138
 	}
+
+	975.1.1 = {
+		holder = 1234963 # Tamim al-Fatimi
+	}
+
 	1066.1.1 = {
 		holder = 3098
 	}
@@ -588,6 +618,11 @@ c_alexandria = {
 	866.1.1 = {
 		holder = 163138
 	}
+
+	975.1.1 = {
+		holder = 1234963 # Tamim al-Fatimi
+	}
+
 	1066.1.1 = {
 		holder = 3098
 	}
@@ -659,6 +694,11 @@ c_sullum = {
 	866.1.1 = {
 		holder = 163138
 	}
+
+	975.1.1 = {
+		holder = 1234963 # Tamim al-Fatimi
+	}
+
 	1066.1.1 = {
 		holder = 3098
 	}
@@ -731,6 +771,14 @@ c_siwa = {
 	866.1.1 = {
 		holder = 163138
 	}
+
+	975.1.1 = {
+		holder = 1234963 # Tamim al-Fatimi
+	}
+	1000.1.1 = {
+		holder = tib_copt_001
+	}
+	
 	1066.1.1 = {
 		holder = 161491
 	}
@@ -1173,8 +1221,8 @@ c_sharkiya = {
 	866.1.1 = {
 		holder = 163115
 	}
-	996.10.13 = {
-		holder = 3092
+	986.10.13 = {
+		holder = fatimid_melkite_003 # Arsenius/Arsenios the Greek Patriarch of Alexandria, just imagine this is Fustat :)
 	}
 	1021.2.12 = {
 		holder = 3094
@@ -1559,6 +1607,16 @@ c_fayyum = {
 
 }
 
+d_al-wahat = {
+	# Butr placeholders
+	969.7.1 = {
+		holder = 1236303 # Muhammad ibn 'Abd-al-Malik al-'Abdun
+		liege = k_egypt
+	}
+	994.1.1 = {
+		holder = 1236304 # 'Abdallah ibn Muhammad al-'Abdun
+	}
+}
 
 c_bahriya = {
 	762.1.1 = {
@@ -1573,6 +1631,16 @@ c_bahriya = {
 	866.1.1 = {
 		holder = 163138
 	}
+
+	# Butr placeholders
+	969.7.1 = {
+		holder = 1236303 # Muhammad ibn 'Abd-al-Malik al-'Abdun
+		liege = k_egypt
+	}
+	994.1.1 = {
+		holder = 1236304 # 'Abdallah ibn Muhammad al-'Abdun
+	}
+
 	1066.1.1 = {
 		holder = 20766
 	}
@@ -1762,9 +1830,17 @@ c_kharga = {
 	866.1.1 = {
 		holder = 163115
 	}
-	996.10.13 = {
-		holder = 3092
+
+	# Butr placeholders
+	969.7.1 = {
+		holder = 1236303 # Muhammad ibn 'Abd-al-Malik al-'Abdun
+		liege = k_egypt
 	}
+	994.1.1 = {
+		holder = 1236304 # 'Abdallah ibn Muhammad al-'Abdun
+	}
+
+	
 	1021.2.12 = {
 		holder = 3094
 	}
@@ -1852,6 +1928,11 @@ d_al-said = {
 	800.1.1 = {
 		holder = 0
 	}
+
+	998.1.1 = {
+		holder = 1236124 # al-Hasan ibn Daud al-Fatimi, placeholder
+	}
+
 	1220.1.1 = {
 		holder = 32925
 	}
@@ -1886,6 +1967,9 @@ c_qus = {
 	}
 	996.10.13 = {
 		holder = 3092
+	}
+	998.1.1 = {
+		holder = 1236124 # al-Hasan ibn Daud al-Fatimi, placeholder
 	}
 	1021.2.12 = {
 		holder = 3094
@@ -2020,6 +2104,9 @@ c_bahnasa = {
 	996.10.13 = {
 		holder = 3092
 	}
+	998.1.1 = {
+		holder = 1236124 # al-Hasan ibn Daud al-Fatimi, placeholder
+	}
 	1021.2.12 = {
 		holder = 3094
 	}
@@ -2153,6 +2240,9 @@ c_ushmun = {
 	996.10.13 = {
 		holder = 3092
 	}
+	998.1.1 = {
+		holder = 1236124 # al-Hasan ibn Daud al-Fatimi, placeholder
+	}
 	1021.2.12 = {
 		holder = 3094
 	}
@@ -2273,6 +2363,9 @@ c_asyut = {
 	996.10.13 = {
 		holder = 3092
 	}
+	998.1.1 = {
+		holder = 1236124 # al-Hasan ibn Daud al-Fatimi, placeholder
+	}
 	1021.2.12 = {
 		holder = 3094
 	}
@@ -2390,6 +2483,9 @@ c_aswan = {
 	}
 	996.10.13 = {
 		holder = 3092
+	}
+	998.1.1 = {
+		holder = 1236124 # al-Hasan ibn Daud al-Fatimi, placeholder
 	}
 	1021.2.12 = {
 		holder = 3094
@@ -2523,7 +2619,7 @@ c_qusayr = {
 	}
 	998.1.1 = {
 		liege = k_egypt
-		holder = 3092
+		holder = 3808 # Placeholder, Ali Mazyad
 	}
 	1021.2.12 = {
 		holder = 3094
@@ -2764,6 +2860,10 @@ d_sinai = {
 	867.1.1 = {	change_development_level = 8 }
 	1066.1.1 = { change_development_level = 12 }
 	
+	997.1.1 = {
+		holder = 1234949 # Yusuf al-Dawsi, Dawsi is a tribe that exist during the time of Rasulallah SAW and a sahaba, al-Tufayl ibn Amr al-Dawsi hailed from such tribe
+		liege = k_egypt
+	}
 	1220.1.1 = {
 		liege = k_egypt
 		holder = 32926
@@ -2791,6 +2891,10 @@ c_farama = {
 	}
 	996.10.13 = {
 		holder = 3092
+	}
+	997.1.1 = {
+		holder = 1234949 # Yusuf al-Dawsi, Dawsi is a tribe that exist during the time of Rasulallah SAW and a sahaba, al-Tufayl ibn Amr al-Dawsi hailed from such tribe
+		liege = k_egypt
 	}
 	1021.2.12 = {
 		holder = 3094
@@ -2909,6 +3013,10 @@ c_sinai = {
 	996.10.13 = {
 		holder = 3092
 	}
+	997.1.1 = {
+		holder = 1234949 # Yusuf al-Dawsi, Dawsi is a tribe that exist during the time of Rasulallah SAW and a sahaba, al-Tufayl ibn Amr al-Dawsi hailed from such tribe
+		liege = k_egypt
+	}
 	1021.2.12 = {
 		holder = 3094
 	}
@@ -3018,6 +3126,10 @@ c_firaun = {
 	}
 	866.1.1 = {
 		holder = 163115
+	}
+	997.1.1 = {
+		holder = 1234949 # Yusuf al-Dawsi, Dawsi is a tribe that exist during the time of Rasulallah SAW and a sahaba, al-Tufayl ibn Amr al-Dawsi hailed from such tribe
+		liege = k_egypt
 	}
 	1066.1.1 = {
 		holder = 20788

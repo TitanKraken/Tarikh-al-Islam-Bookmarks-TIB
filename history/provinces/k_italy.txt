@@ -2,7 +2,7 @@
 ##d_friuli ###################################
 ###c_aquileia
 2508 = {	#AQUILEIA
-	culture = cisalpine
+	culture = friulian
 	religion = catholic
 	holding = castle_holding
 }
@@ -21,7 +21,7 @@
 
 ###c_friuli
 2512 = {	#CAORLE
-	culture = cisalpine
+	culture = friulian
 	religion = catholic
 	holding = castle_holding
 }
@@ -35,7 +35,7 @@
 
 ###c_gorz
 2516 = {	#GORIZIA
-	culture = carantanian
+	culture = friulian
 	religion = catholic
 	holding = castle_holding
 }
@@ -99,9 +99,13 @@
 ##d_piedmonte ###################################
 ###c_monferrato
 2469 = {	#ASTI
-	culture = cisalpine
+	culture = ligurian
 	religion = catholic
 	holding = castle_holding
+
+	1250.1.1 = {
+		culture = piedmontese
+	}
 }
 2467 = {	#ALBA DI MONFERRATO
 	holding = none
@@ -112,9 +116,13 @@
 
 ###c_turin
 2041 = {	#TURIN
-	culture = cisalpine
+	culture = lombard
 	religion = catholic
 	holding = castle_holding
+
+	1250.1.1 = {
+		culture = piedmontese
+	}
 }
 2045 = {	#CHIERI
 	holding = none
@@ -128,9 +136,13 @@
 
 ###c_novara
 2471 = {	#NOVARA
-	culture = cisalpine
+	culture = lombard
 	religion = catholic
 	holding = castle_holding
+
+	1250.1.1 = {
+		culture = piedmontese
+	}
 }
 2473 = {	#BIELLA
 	holding = city_holding
@@ -144,9 +156,13 @@
 
 ###c_cuneo
 2043 = {	#CUNEO
-	culture = cisalpine
+	culture = ligurian
 	religion = catholic
 	holding = castle_holding
+
+	1250.1.1 = {
+		culture = piedmontese
+	}
 }
 2044 = {	#SALUZZO
 	holding = none
@@ -166,7 +182,7 @@
 	religion = catholic
 	holding = castle_holding
 	774.1.1 = {
-		culture = cisalpine
+		culture = lombard
 	}
 	867.1.1 = {
 		buildings = {
@@ -199,7 +215,7 @@
 
 ###c_brescia
 2494 = {	#BRESCIA
-	culture = cisalpine
+	culture = lombard
 	religion = catholic
 	holding = castle_holding
 }
@@ -217,7 +233,7 @@
 	religion = catholic
 	holding = castle_holding
 	774.1.1 = {
-		culture = cisalpine
+		culture = lombard
 	}
 }
 2472 = {	#POMBIA
@@ -233,7 +249,7 @@
 	religion = catholic
 	holding = castle_holding
 	774.1.1 = {
-		culture = cisalpine
+		culture = lombard
 	}
 	1066.1.1 = {
 		buildings = {
@@ -259,7 +275,7 @@
 	religion = catholic
 	holding = castle_holding
 	774.1.1 = {
-		culture = cisalpine
+		culture = lombard
 	}
 }
 2476 = {	#LODI
@@ -278,7 +294,7 @@
 	religion = catholic
 	holding = castle_holding
 	774.1.1 = {
-		culture = cisalpine
+		culture = lombard
 	}
 }
 2489 = {	#RONCAGLIA
@@ -294,7 +310,10 @@
 	religion = catholic
 	holding = castle_holding
 	774.1.1 = {
-		culture = cisalpine
+		culture = lombard
+	}
+	1250.1.1 = {
+		culture = emilian
 	}
 }
 2490 = {	#FLORENTIOLA
@@ -310,7 +329,7 @@
 	religion = catholic
 	holding = castle_holding
 	774.1.1 = {
-		culture = cisalpine
+		culture = lombard
 	}
 }
 2487 = {	#VOGHERA
@@ -320,7 +339,7 @@
 ##d_genoa ###################################
 ###c_genoa
 2466 = {	#GENOA
-	culture = cisalpine
+	culture = ligurian
 	religion = catholic
 	holding = castle_holding
 	special_building_slot = walls_of_genoa_01
@@ -367,6 +386,10 @@
 	culture = cisalpine
 	religion = catholic
 	holding = castle_holding
+
+	1250.1.1 = {
+		culture = emilian
+	}
 }
 2535 = {	#CANOSSA
 	holding = none
@@ -386,6 +409,10 @@
 	culture = cisalpine
 	religion = catholic
 	holding = castle_holding
+
+	1250.1.1 = {
+		culture = emilian
+	}
 }
 2530 = {	#GUASTALLA
 	holding = city_holding
@@ -400,6 +427,9 @@
 	culture = italian
 	religion = catholic
 	holding = city_holding
+	1050.1.1 = {
+		culture = tuscan
+	}
 	1066.1.1 = {
 		buildings = {
 			common_tradeport_02
@@ -424,6 +454,9 @@
 	culture = italian
 	religion = catholic
 	holding = castle_holding
+	1050.1.1 = {
+		culture = tuscan
+	}
 	1066.1.1 = {
 		buildings = {
 			farm_estates_02
@@ -447,6 +480,9 @@
 	culture = italian
 	religion = catholic
 	holding = castle_holding
+	1050.1.1 = {
+		culture = tuscan
+	}
 }
 2538 = {	#PISTORJA
 	holding = none
@@ -463,6 +499,9 @@
 	culture = italian
 	religion = catholic
 	holding = castle_holding
+	1050.1.1 = {
+		culture = tuscan
+	}
 }
 2544 = {	#VALLOMBROSA
 	holding = none
@@ -477,8 +516,11 @@
 	religion = catholic
 	holding = castle_holding
 	700.1.1 = {
-		#special_building_slot = siena_university
+		special_building_slot = siena_university
 		# handled through Found University decision
+	}
+	1050.1.1 = {
+		culture = tuscan
 	}
 	1240.1.1 = {
 		special_building = siena_university
@@ -500,6 +542,9 @@
 	culture = italian
 	religion = catholic
 	holding = castle_holding
+	1050.1.1 = {
+		culture = tuscan
+	}
 }
 2570 = {	#SOANA
 	holding = city_holding

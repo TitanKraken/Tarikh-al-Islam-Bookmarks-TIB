@@ -1,5 +1,5 @@
 ﻿gothic = {
-	color = greek
+	color = { 0.5 0.4 0.8 }
 	
 	ethos = ethos_bellicose
 	heritage = heritage_east_germanic
@@ -47,6 +47,8 @@ ostrogothic = {
 		tradition_visigothic_codes
         tradition_stand_and_fight
 		tradition_martial_admiration
+		tradition_ruling_caste
+		tradition_legalistic
 	}
 
     dlc_tradition = {

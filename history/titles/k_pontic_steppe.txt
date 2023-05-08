@@ -54,6 +54,10 @@ d_yedisan = {
 	#}
 	
 	###Pechenegs in the Pontic Steppe
+	1000.1.1 = {
+		holder = 1231749 # Qorqutay Qabuqshin-Ula, random Pecheneg Khan
+		liege = k_pechenegs
+	}
 	1066.1.1 = {
 		holder = 20641
 		liege = k_pechenegs
@@ -116,6 +120,10 @@ c_ladyzyn = {
 	
 	
 	#Pecheneg rule
+	1000.1.1 = {
+		holder = 1231749 # Qorqutay Qabuqshin-Ula, random Pecheneg Khan
+		liege = k_pechenegs
+	}
 	1066.1.1 = {
 		holder = 20637
 		liege = "k_pechenegs"
@@ -169,6 +177,10 @@ c_uman = {
 	#}
 	
 	###Pechenegs in the Pontic Steppe
+	1000.1.1 = {
+		holder = 1231749 # Qorqutay Qabuqshin-Ula, random Pecheneg Khan
+		liege = k_pechenegs
+	}
 	1066.1.1 = {
 		holder = 20641
 	}
@@ -223,6 +235,10 @@ c_cherkassy = {
 	#}
 	
 	###Pechenegs in the Pontic Steppe
+	1000.1.1 = {
+		holder = 1231749 # Qorqutay Qabuqshin-Ula, random Pecheneg Khan
+		liege = k_pechenegs
+	}
 	1066.1.1 = {
 		holder = 20640
 	}
@@ -280,6 +296,10 @@ c_odessa = {
 	#}
 	
 	###Pechenegs in the Pontic Steppe
+	1000.1.1 = {
+		holder = 1231749 # Qorqutay Qabuqshin-Ula, random Pecheneg Khan
+		liege = k_pechenegs
+	}
 	1066.1.1 = {
 		holder = 20641
 	}
@@ -334,6 +354,10 @@ c_kherson = {
 	#}
 	
 	###Pechenegs in the Pontic Steppe
+	1000.1.1 = {
+		holder = 1231749 # Qorqutay Qabuqshin-Ula, random Pecheneg Khan
+		liege = k_pechenegs
+	}
 	1066.1.1 = {
 		holder = 20641
 	}
@@ -388,6 +412,10 @@ c_dnipro = {
 	#}
 	
 	###Pechenegs in the Pontic Steppe
+	1000.1.1 = {
+		holder = 1231749 # Qorqutay Qabuqshin-Ula, random Pecheneg Khan
+		liege = k_pechenegs
+	}
 	1066.1.1 = {
 		holder = 20639
 	}
@@ -418,6 +446,7 @@ d_levedia = {
 	
 	763.1.1 = {
 		holder = 146203
+		liege = e_caspian-pontic_steppe
 	}
 	796.1.1 = {
 		holder = 74018

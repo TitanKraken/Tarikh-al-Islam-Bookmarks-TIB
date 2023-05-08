@@ -173,6 +173,9 @@ d_mesopotamia = {
 	965.1.1 = {
 		liege = "e_byzantium"
 	}
+	1013.1.1 = {
+		holder = 41584 # Grigori "Magistros" Pahlavuni
+	}
 	1060.1.1 = {
 		holder = 85001
 	}
@@ -270,6 +273,11 @@ c_melitene = {
 	863.1.1 = {
 		holder = 159725
 	}
+
+	1013.1.1 = {
+		holder = 41584 # Grigori "Magistros" Pahlavuni
+	}
+	
 	1060.1.1 = {
 		holder = 85001
 	}
@@ -346,6 +354,9 @@ c_theodosiopolis = {
 	}
 	863.1.1 = {
 		holder = 159725
+	}
+	1013.1.1 = {
+		holder = 41584 # Grigori "Magistros" Pahlavuni
 	}
 	1060.1.1 = {
 		holder = 20544
@@ -429,6 +440,11 @@ c_mesopotamia = {
 	863.1.1 = {
 		holder = 159725
 	}
+
+	1013.1.1 = {
+		holder = 41584 # Grigori "Magistros" Pahlavuni
+	}
+
 	1060.1.1 = {
 		holder = 85001
 	}
@@ -989,35 +1005,24 @@ c_vaspurakan = {
 	1259.1.1 = { # Fictional, precursor for him being Viceroy of Anatolia later on
 		holder = son_of_hulegu_002 # Qonqurtai
 	}
-	1265.2.8 = {
-		holder = 478010
+	# Chobanid / Taichuud Borjigin branch, Suldus tribe
+	1265.2.7 = {
+		holder = 217214 # Fictional
 	}
-	1282.1.1 = {
-		holder = 125523
+	1297.5.24 = {
+		holder = 217215 # Taibuqa
 	}
-	1284.1.1 = {
-		holder = 478008
+	1300.1.1 = {
+		holder = 217216 # Fictional
 	}
-	1291.1.1 = {
-		holder = 125525
+	1302.5.4 = {
+		holder = 217217 # Fictional
 	}
-	1295.1.1 = {
-		holder = 125522
+	1324.12.17 = {
+		holder = 217246 # Fictional
 	}
-	1295.8.1 = {
-		holder = 125524
-	}
-	1304.5.11 = {
-		holder = 478007
-	}
-	1316.12.16 = {
-		holder = 478006
-	}	
-	1335.12.1 = {
-		holder = 125528
-	}
-	1336.4.10 = {
-		holder = 478030
+	1357.4.16 = {
+		holder = 217247 # FIctional
 	}
 
 }
@@ -1136,6 +1141,32 @@ d_greater_armenia = {
 	}
 	1247.1.1 = {
 		holder = 0
+	}
+
+	# Chobanid / Taichuud Borjigin branch, Suldus tribe
+	1257.1.1 = {
+		liege = "e_ilkhanate"
+	}
+	1260.1.1 = {
+		holder = 217213 # Fictional
+	}
+	1265.2.7 = {
+		holder = 217214 # Fictional
+	}
+	1297.5.24 = {
+		holder = 217215 # Taibuqa
+	}
+	1300.1.1 = {
+		holder = 217216 # Fictional
+	}
+	1302.5.4 = {
+		holder = 217217 # Fictional
+	}
+	1324.12.17 = {
+		holder = 217246 # Fictional
+	}
+	1357.4.16 = {
+		holder = 217247 # FIctional
 	}
 }
 
@@ -1425,6 +1456,40 @@ c_khachen = {
 	}
 	
 	#1261 : End of KoA
+
+	1226.1.1 = {
+		holder = 31830 #Hethun I
+	}
+	1270.10.28 = {
+		holder = 461802 #Levon II
+	}
+	1289.1.1 = {
+		holder = 31857 #Hethum II
+	}
+	1293.1.1 = {
+		holder = 461801 #Thoros I
+	}
+	1294.1.1 = {
+		holder = 31857 #Hethum II
+	}
+	1296.1.1 = {
+		holder = 31860 #Smbat I
+	}
+	1298.1.1 = {
+		holder = 31879 #Gosdantin I
+	}
+	1299.1.1 = {
+		holder = 31857 #Hethum II
+	}
+	1305.1.1 = {
+		holder = 31878 #Levon III
+	}
+	1307.1.1 = {
+		holder = 461803 #Oshim I
+	}
+	1320.7.20 = {
+		holder = 461800 #Levon IV
+	}
 }
 
 
@@ -1503,6 +1568,9 @@ c_suenik = {
 	}
 	1213.1.1 = {
 		holder = 159214
+	}
+	1250.1.1 = {
+		liege = k_armenia
 	}
 	1260.1.1 = {
 		holder = 159217
@@ -1696,38 +1764,27 @@ c_dvin = {
 	1247.1.1 = {
 		holder = 478011
 	}
-	1265.2.8 = {
-		holder = 478010
+	# Chobanid / Taichuud Borjigin branch, Suldus tribe
+	1260.1.1 = {
+		holder = 217213 # Fictional
 	}
-	1282.1.1 = {
-		holder = 125523
+	1265.2.7 = {
+		holder = 217214 # Fictional
 	}
-	1284.1.1 = {
-		holder = 478008
+	1297.5.24 = {
+		holder = 217215 # Taibuqa
 	}
-	1291.1.1 = {
-		holder = 125525
+	1300.1.1 = {
+		holder = 217216 # Fictional
 	}
-	1295.1.1 = {
-		holder = 125522
+	1302.5.4 = {
+		holder = 217217 # Fictional
 	}
-	1295.8.1 = {
-		holder = 125524
+	1324.12.17 = {
+		holder = 217246 # Fictional
 	}
-	1304.5.11 = {
-		holder = 478007
-	}
-	1316.12.16 = {
-		holder = 478006
-	}	
-	1335.12.1 = {
-		holder = 125528
-	}
-	1336.4.10 = {
-		holder = 478000
-	}
-	1336.7.24 = {
-		holder = 478030
+	1357.4.16 = {
+		holder = 217247 # FIctional
 	}
 
 }

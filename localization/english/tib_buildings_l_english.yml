@@ -1,0 +1,10 @@
+﻿l_english:
+ building_type_holy_site_great_mosque_of_seville_01:0 "The Great Mosque of Seville" 
+ building_type_holy_site_great_mosque_of_seville_01_desc:0 "The Great Mosque of Seville was built to replace the older Mosque of Ibn 'Addabas, built in the 9th century under Umayyad rule, since the congregation had grown larger than that modest mosque could accommodate. Designed with a Moorish architecture, the mosque features - what is known today as - the Giralda minaret, being one of the most important symbols of the city during the Middle Ages."
+ building_holy_site_great_mosque_of_seville_01:0 "$building_type_holy_site_great_mosque_of_seville_01$"
+ building_holy_site_great_mosque_of_seville_01_desc:0 "$building_type_holy_site_great_mosque_of_seville_01_desc$"
+
+ building_type_al_qarawiyyin_university:0 "Al-Qarawiyyin University"
+ building_type_al_qarawiyyin_university_desc:0 "$building_type_generic_university_desc$\n\nThe University of al-Qarawiyyin was founded as a mosque by Fatima al-Fihri in 857–859 and subsequently became one of the leading spiritual and educational centers of the Islamic Golden Age."
+ building_al_qarawiyyin_university:0 "$building_type_al_qarawiyyin_university$"
+ building_al_qarawiyyin_university_desc:0 "$building_type_al_qarawiyyin_university_desc$"

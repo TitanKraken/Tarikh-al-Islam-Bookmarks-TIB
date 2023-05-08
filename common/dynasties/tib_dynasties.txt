@@ -3,6 +3,14 @@
     name = "dynn_Azd"
     culture = "bedouin"
 }
+tribe_Lihyan = {
+    name = "dynn_Lihyan"
+    culture = "hijazi"
+}
+tribe_Banu_Atiyah = {
+    name = "dynn_Banu_Atiyah"
+    culture = "bedouin"
+}
 
 # Umayyad Governors
 al_thaqafi = {
@@ -14,11 +22,11 @@ al_ifriqi = {
     culture = "bedouin"
 }
 gibraltar = {
-    name = "Gibraltarid"
+    name = "Jabl-al-Tariq"
     culture = "butr"
 }
 tribe_quraysh = {
-    name = "Banu Quraysh"
+    name = "dynn_Banu_Quraysh"
     culture = "bedouin"
 }
 tribe_bahili = {
@@ -84,7 +92,7 @@ house_thessalivic = {
     culture = "greek"
 }
 house_makedonic = {
-    name = "Makedonic"
+    name = "Makedon"
     culture = "greek"
 }
 tribe_guduscani = {
@@ -105,6 +113,12 @@ house_ardonusing = {
     culture = "visigothic"
 }
 
+# Andalusian dynasties
+banu_Tujib = {
+    name = "dynn_Banu_Tujib"
+    culture = "bedouin"
+}
+
 # Maghreb dynasties
 7274 = {
 	name = "dynn_Almoravid"
@@ -118,6 +132,12 @@ house_ardonusing = {
 ahl_ad_dar = {
 	name = "dynn_Tumert"
 	culture = "maghrebi"
+    motto = house_ahl_ad_dar_motto
+}
+7277 = {
+    name = "dynn_Zayyanid"
+    culture = "baranis"
+    motto = dynn_Zayyanid_motto
 }
 # Maghreb Tribes
 tribe_taghmut = {
@@ -180,4 +200,8 @@ house_Kangar = {
 clan_Yaglakar = {
     name = "Yaglakar"
     culture = "uyghur"
+}
+house_erdevelu = {
+    name = "dynn_erdevelu"
+    culture = "cuman"
 }

@@ -7,6 +7,8 @@
 	religion="tengri_pagan"
 	culture="mongol"
 	trait="beauty_good_2"
+	father=166835
+	mother=166836
 	830.1.2 = {
 		birth = yes
 	}
@@ -14,6 +16,218 @@
 		death = yes
 	}
 }
+
+#######################################
+166835 = {
+	name="Khurilardai Bayan"
+	dynasty=11100
+	religion="tengri_pagan"
+	culture="mongol"
+	father=166838
+	mother=166839
+	812.1.1={
+		birth=yes
+	}
+	840.1.1={
+		add_spouse=166836
+	}
+	886.1.1={
+		death=yes
+	}
+}
+166836 = {
+	name="Bargujin Gua"
+	female=yes
+	dynasty=1040068 # Bargujin
+	religion="tengri_pagan"
+	culture="mongol"
+	trait="beauty_good_2"
+	father=166837
+	816.1.1={
+		birth=yes
+	}
+	879.1.1={
+		death=yes
+	}
+}
+166837 = {
+	name="Bargudai Mergen"
+	dynasty=1040068 # Bargujin
+	religion="tengri_pagan"
+	culture="mongol"
+	800.1.1={
+		birth=yes
+	}
+	865.1.1={
+		death=yes
+	}
+}
+166838 = {
+	name="Borjigidai Mergen"
+	dynasty=1040071 # Quralas
+	religion="tengri_pagan"
+	culture="mongol"
+	father=166841
+	800.1.1={
+		birth=yes
+	}
+	818.1.1={
+		dynasty=11100
+		add_spouse=166839
+	}
+	853.1.1={
+		death=yes
+	}
+}
+166839 = {
+	name="Mongoljin Gua"
+	female=yes
+	dynasty=1040070
+	religion="tengri_pagan"
+	culture="mongol"
+	trait="beauty_good_2"
+	800.1.1={
+		birth=yes
+	}
+	862.1.1={
+		death=yes
+	}
+}
+166841 = {
+	name="Harchu"
+	dynasty=1040071 # Quralas
+	religion="tengri_pagan"
+	culture="mongol"
+	father=166842
+	782.1.1={
+		birth=yes
+	}
+	820.1.1={
+		death=yes
+	}
+}
+166842 = {
+	name="Sem Sochi"
+	dynasty=1040071 # Quralas
+	religion="tengri_pagan"
+	culture="mongol"
+	father=166843
+	760.1.1={
+		birth=yes
+	}
+	809.1.1={
+		death=yes
+	}
+}
+166843 = {
+	name="Yehe Nidün"
+	dynasty=1040071 # Quralas
+	religion="tengri_pagan"
+	culture="mongol"
+	father=166844
+	743.1.1={
+		birth=yes
+	}
+	793.1.1={
+		death=yes
+	}
+}
+166844 = {
+	name="Sali Hachau"
+	dynasty=1040071 # Quralas
+	religion="tengri_pagan"
+	culture="mongol"
+	father=166845
+	720.1.1={
+		birth=yes
+	}
+	778.1.1={
+		death=yes
+	}
+}
+166845 = {
+	name="Uujim Buural"
+	dynasty=1040071 # Quralas
+	religion="tengri_pagan"
+	culture="mongol"
+	father=166846
+	704.1.1={
+		birth=yes
+	}
+	755.1.1={
+		death=yes
+	}
+}
+166846 = {
+	name="Horichar Mergen"
+	dynasty=1040071 # Quralas
+	religion="tengri_pagan"
+	culture="mongol"
+	father=166847
+	685.1.1={
+		birth=yes
+	}
+	749.1.1={
+		death=yes
+	}
+}
+166847 = {
+	name="Tamacha"
+	dynasty=1040071 # Quralas
+	religion="tengri_pagan"
+	culture="mongol"
+	father=quralas1
+	661.1.1={
+		birth=yes
+	}
+	723.1.1={
+		death=yes
+	}
+}
+quralas1 = {
+	name="Bat Tsagaan"
+	dynasty=1040071 # Quralas
+	religion="tengri_pagan"
+	culture="mongol"
+	father=166849
+	mother=166850
+	625.1.1={
+		birth=yes
+	}
+	688.1.1={
+		death=yes
+	}
+}
+166849 = {
+	name="Börte Chino"
+	dynasty=1040071 # Quralas
+	religion="tengri_pagan"
+	culture="mongol"
+	597.1.1={
+		birth=yes
+	}
+	624.1.1={
+		add_spouse=166850
+	}
+	662.1.1={
+		death=yes
+	}
+}
+166850 = {
+	name="Gua Maral"
+	female=yes
+	religion="tengri_pagan"
+	culture="mongol"
+	trait="beauty_good_2"
+	601.1.1={
+		birth=yes
+	}
+	660.1.1={
+		death=yes
+	}
+}
+######################################################
+
 #Borjigin Gen12
 303251 = {
 	name="Bukhatu_Salji"
@@ -41,6 +255,22 @@
 	}
 	913.1.2 = {
 		death = yes
+	}
+}
+248193 = {
+	name="Dayir" # historical
+	dynasty=1000054559
+	martial=7
+	religion="tengri_pagan"
+	culture="mongol"
+	1198.1.1={
+		birth=yes
+	}
+	1241.12.22={
+		death={
+			death_reason=death_battle
+			killer=170198
+		}
 	}
 }
 303255 = {
@@ -184,7 +414,7 @@
 }
 303263 = {
 	name="Chirhya_Lynhua"
-	dynasty=11100
+	dynasty_house = house_solusclan # Suldus
 	religion="tengri_pagan"
 	culture="mongol"
 	father=303261
@@ -211,7 +441,7 @@
 #Borjigin Gen 18 & 19, son & grandson of Chirhya Lynhua
 303265 = {
 	name="Sengun_Bilge"
-	dynasty=11100
+	dynasty_house = house_solusclan # Suldus
 	religion="tengri_pagan"
 	culture="mongol"
 	father=303263
@@ -224,7 +454,7 @@
 }
 303266 = {
 	name="Ambaghai" # Ambaghai Khan
-	dynasty=11100
+	dynasty_house = house_solusclan # Suldus
 	religion="tengri_pagan"
 	culture="mongol"
 	father=303265
@@ -235,6 +465,155 @@
 		death=yes
 	}
 }
+##
+Suldus1 = {
+	name="Adal" 
+	dynasty_house = house_solusclan # Suldus
+	religion="tengri_pagan"
+	culture="mongol"
+	father=303266
+	1102.1.1={
+		birth=yes
+	}
+	1182.1.1={
+		death=yes
+	}
+}
+
+Suldus2 = {
+	name="Au'chu" 
+	dynasty_house = house_solusclan # Suldus
+	religion="tengri_pagan"
+	culture="mongol"
+	father=303266
+	1105.1.1={
+		birth=yes
+	}
+	1190.1.1={
+		death=yes
+	}
+}
+
+Suldus3 = {
+	name="Töda'a" 
+	dynasty_house = house_solusclan # Suldus
+	religion="tengri_pagan"
+	culture="mongol"
+	father=303266
+	1150.1.1={
+		birth=yes
+	}
+	1225.1.1={
+		death=yes
+	}
+}
+
+Suldus4 = {
+	name="Targutai Kiriltuk" 
+	dynasty_house = house_solusclan # Suldus
+	religion="tengri_pagan"
+	culture="mongol"
+	father=Suldus1
+	1160.1.1={
+		birth=yes
+	}
+	1187.1.1 = {
+		effect = {
+			set_relation_rival = { reason = rival_historical target = character:125501 } #A rival of Ghengis
+		}
+	}
+	1201.1.1={
+		death=yes
+	}
+}
+
+Suldus5 = {
+	name="Qadaan Taishi" 
+	dynasty_house = house_solusclan # Suldus
+	religion="tengri_pagan"
+	culture="mongol"
+	father=303266
+	1115.1.1={
+		birth=yes
+	}
+	1165.1.1={
+		death=yes
+	}
+}
+
+Suldus6 = {
+	name="Semsochule" 
+	dynasty_house = house_solusclan # Suldus
+	religion="tengri_pagan"
+	culture="mongol"
+	father=303265
+	1050.1.1={
+		birth=yes
+	}
+	1110.1.1={
+		death=yes
+	}
+}
+
+Suldus7 = {
+	name="Ohinbarhag" 
+	dynasty_house = house_solusclan # Suldus
+	religion="tengri_pagan"
+	culture="mongol"
+	father=Suldus6
+	1089.1.1={
+		birth=yes
+	}
+	1155.1.1={
+		death=yes
+	}
+}
+
+Suldus8 = {
+	name="Ohinbarhag" 
+	dynasty_house = house_solusclan # Suldus
+	religion="tengri_pagan"
+	culture="mongol"
+	father=Suldus7
+	1105.1.1={
+		birth=yes
+	}
+	1188.1.1={
+		death=yes
+	}
+}
+
+Suldus9 = {
+	name="Hotula" 
+	dynasty_house = house_solusclan # Suldus
+	religion="tengri_pagan"
+	culture="mongol"
+	father=Suldus8
+	1125.1.1={
+		birth=yes
+	}
+	1205.1.1={
+		death=yes
+	}
+}
+
+Suldus10 = {
+	name="Hotula" 
+	dynasty_house = house_solusclan # Suldus
+	religion="tengri_pagan"
+	culture="mongol"
+	father=Suldus9
+	1163.1.1={
+		birth=yes
+	}
+	1228.1.1={
+		death=yes
+	}
+}
+
+
+##
+
 #Borjigin Gen18
 303267 = {
 	name="Tumbinai_Setsen" # Father of Khabul Khan
@@ -443,6 +822,14 @@
 	religion = "tengri_pagan"
 	culture = "mongol"
 	father = 303273
+	martial = 9
+	diplomacy = 6
+	intrigue = 6
+	stewardship = 6
+	trait = stubborn
+	trait = diligent
+	trait = wrathful
+	trait = education_martial_1
 	1134.1.1 = {
 		birth = yes
 	}
@@ -459,6 +846,14 @@
 	female = yes
 	religion = "tengri_pagan"
 	culture = "mongol"
+	martial = 8
+	diplomacy = 10
+	intrigue = 12
+	stewardship = 10
+	trait = compassionate
+	trait = patient
+	trait = diligent
+	trait = education_intrigue_4
 	1139.1.1 = {
 		birth = "1139.1.1"
 	}
@@ -466,18 +861,18 @@
 		death = "1212.1.1"
 	}
 }
-303282 = {
-	name="Sochigel"
-	female=yes
-	religion="tengri_pagan"
-	culture="mongol"
-	1135.1.1={
-		birth=yes
-	}
-	1169.1.1={
-		death=yes
-	}
-}
+#303282 = {
+#	name="Sochigel"
+#	female=yes
+#	religion="tengri_pagan"
+#	culture="mongol"
+#	1135.1.1={
+#		birth=yes
+#	}
+#	1169.1.1={
+#		death=yes
+#	}
+#}
 93056 = {
 	name = "Hasar"	#Yesügei's 2nd son
 	dynasty = 11100
@@ -499,7 +894,7 @@
 	culture="mongol"
 	#trait="child_of_consort"
 	father=93055
-	mother=303282
+	mother=166851
 	1158.1.2 = {
 		birth = yes
 	}
@@ -507,131 +902,127 @@
 		death = yes
 	}
 }
-303284 = {
-	name="Belgütei"
-	dynasty=11100
-	religion="tengri_pagan"
-	culture="mongol"
-	#trait="child_of_consort"
-	father=93055
-	mother=303282
-	1161.1.2 = {
-		birth = yes
-	}
-	1261.1.2 = {
-		death = yes
-	}
-}
-303285 = {
-	name="Hachiun"
-	dynasty=11100
-	religion="tengri_pagan"
-	culture="mongol"
-	father=93055
-	mother=172003
-	1165.1.2 = {
-		birth = yes
-	}
-	1217.1.2 = {
-		death=yes
-	}
-}
-303286 = {
-	name="Temüge"
-	dynasty=11100
-	religion="tengri_pagan"
-	culture="mongol"
-	father=93055
-	mother=172003
-	1168.1.2 = {
-		birth = yes
-	}
-	1246.1.2 = {
-		death = yes
-	}
-}
-303287 = {
-	name="Temülen"
-	female=yes
-	dynasty=11100
-	religion="tengri_pagan"
-	culture="mongol"
-	father=93055
-	mother=172003
-	1168.1.1={
-		birth=yes
-	}
-	1219.1.1={
-		death=yes
-	}
-}
+#303284 = {
+#	name="Belgütei"
+#	dynasty=11100
+#	religion="tengri_pagan"
+#	culture="mongol"
+#	#trait="child_of_consort"
+#	father=93055
+#	mother=303282
+#	1161.1.2 = {
+#		birth = yes
+#	}
+#	1261.1.2 = {
+#		death = yes
+#	}
+#}
+#303285 = {
+#	name="Hachiun"
+#	dynasty=11100
+#	religion="tengri_pagan"
+#	culture="mongol"
+#	father=93055
+#	mother=172003
+#	1165.1.2 = {
+#		birth = yes
+#	}
+#	1217.1.2 = {
+#		death=yes
+#	}
+#}
+#303286 = {
+#	name="Temüge"
+#	dynasty=11100
+#	religion="tengri_pagan"
+#	culture="mongol"
+#	father=93055
+#	mother=172003
+#	1168.1.2 = {
+#		birth = yes
+#	}
+#	1246.1.2 = {
+#		death = yes
+#	}
+#}
+#303287 = {
+#	name="Temülen"
+#	female=yes
+#	dynasty=11100
+#	religion="tengri_pagan"
+#	culture="mongol"
+#	father=93055
+#	mother=172003
+#	1168.1.1={
+#		birth=yes
+#	}
+#	1219.1.1={
+#		death=yes
+#	}
+#}
 ##
 #End of Temujin's ancestors#
 ##
 
 217218 = {
-	name = "Begter" # fictional
-	dynasty = 1051120 # Buryat
-	religion = tengri_pagan
-	culture = mongol
-	1104.6.12 = {
-		birth = yes
+	name="Hajji Taghai" #Oirat governor of Diyar Rabi'a
+	dynasty = 2001136
+	religion="maturidi"
+	culture="oirat"
+	trait="education_martial_2"
+	trait="ambitious"
+	father=217223
+	1300.1.1={ #?
+		birth=yes
 	}
-	1161.4.19 = {
-		death = yes
+	1338.1.1={ #?
+		death=yes
 	}
 }
 217219 = {
-	name = "Jebe" # fictional
-	dynasty = 1051120 # Buryat
-	religion = tengri_pagan
-	culture = mongol
-	father = 217218
-	1131.5.25 = {
-		birth = yes
+	name="Ali Padishah" #maternal uncle of Abu Sa'id
+	dynasty = 2001136
+	religion="maturidi"
+	culture="oirat"
+	trait="ambitious"
+	father = 217221
+	1280.1.1={ #?
+		birth=yes
 	}
-	1186.7.15 = {
-		death = yes
+	1336.7.24={
+		death={
+			death_reason=death_battle
+			killer=478040
+		}
 	}
 }
 217220 = {
-	name = "Inalchi" # fictional
-	dynasty = 1051120 # Buryat
-	religion = tengri_pagan
-	culture = mongol
-	father = 217219
-	1157.11.4 = {
-		birth = yes
+	name="Arghun Agha" #Oirat; governor of Iran
+	dynasty = 2001136
+	religion="tengri_pagan"
+	culture="oirat"
+	trait="education_stewardship_2"
+	father = 3030200
+	1211.1.1={
+		birth=yes
+		add_trait = disinherited #So they don't inherit in Mongolia
 	}
-	1206.3.15 = {
-		death = yes
+	1275.1.1={
+		death=yes
 	}
 }
 217221 = {
-	name = "Orbei" # fictional
-	dynasty = 1051120 # Buryat
-	religion = tengri_pagan
-	culture = mongol
-	father = 217219
-	female = yes
-	1159.12.25 = {
-		birth = yes
+	name="Nawruz" #Oirat; governor of Khorasan
+	dynasty = 2001136
+	religion="maturidi"
+	culture="oirat"
+	trait="ambitious"
+	father=217220
+	1236.1.1={
+		birth=yes
 	}
-	1210.5.11 = {
-		death = yes
-	}
-}
-217222 = {
-	name = "Shiraghul" # fictional
-	dynasty = 1051120 # Buryat
-	religion = tengri_pagan
-	culture = mongol
-	father = 217220
-	1179.4.12 = {
-		birth = yes
-	}
-	1233.7.15 = {
-		death = yes
+	1318.1.1={ #1297.8.13, executed by Ghazan? There's also a record of a Nawruz who was still alive by ca. 1315
+		death=yes
 	}
 }
 217248 = {
@@ -639,26 +1030,43 @@
 	dynasty = 1051120 # Buryat
 	religion = tengri_pagan
 	culture = mongol
-	father = 217222
-	1201.5.14 = {
+	father = 302673
+	1219.5.14 = {
 		birth = yes
 	}
-	1258.10.6 = {
+	1301.10.23 = {
 		death = yes
 	}
 }
-217249 = {
-	name = Al-Alta # fictional
-	dynasty = 1051120 # Buryat
-	religion = tengri_pagan
-	culture = mongol
-	father = 217222
-	female = yes
-	1200.4.26 = {
-		birth = yes
+
+217222 = {
+	name="Arghun Shah" #Jauni-Qorban
+	dynasty = 2001136
+	religion="maturidi"
+	culture="oirat"
+	trait="ambitious"
+	father=217221
+	1290.1.1={
+		birth=yes
 	}
-	1252.5.16 = {
-		death = yes
+	1318.1.1={
+		dynasty=1000054556
+	}
+	1350.1.1={ #?
+		death=yes
+	}
+}
+217223 = {
+	name="Sutay Akhtaji" #Diyar Rabi'a, 1304-1332
+	dynasty = 2001136
+	religion="tengri_pagan"
+	father=217221
+	culture="oirat"
+	1274.1.1={ #?
+		birth=yes
+	}
+	1332.1.1={
+		death=yes
 	}
 }
 217285 = {
@@ -666,7 +1074,7 @@
 	dynasty = 1051120 # Buryat
 	religion = tengri_pagan
 	culture = mongol
-	father = 217222
+	father = 302673
 	1221.5.30 = {
 		birth = yes
 	}
@@ -730,7 +1138,7 @@
 	name = Toghtoga # fictional
 	dynasty = 1051120 # Buryat
 	religion = tengri_pagan
-	culture = mongol
+	culture = chagatai
 	father = 217288
 	1310.7.8 = {
 		birth = yes
@@ -744,7 +1152,7 @@
 	female = yes
 	dynasty = 1051120 # Buryat
 	religion = tengri_pagan
-	culture = mongol
+	culture = chagatai
 	father = 217288
 	1315.1.8 = {
 		birth = yes
@@ -771,7 +1179,7 @@
 	name = Khorijin # fictional
 	dynasty = 1051120 # Buryat
 	religion = tengri_pagan
-	culture = mongol
+	culture = chagatai
 	father = 217288
 	female = yes
 	1307.5.24 = {
@@ -784,9 +1192,9 @@
 125500 = {
 	name = "Konchaka"
 	female = yes
-	dynasty = 11100
+	dynasty_house = house_Jochid
 	religion = "tengri_pagan"
-	culture = "mongol"
+	culture = "tatars"
 	father = 125513
 	1301.1.2 = {
 		birth = yes
@@ -802,16 +1210,16 @@
 125501 = {
 	name = "Temujin"
 	# AKA: Genghis Khan
-	dynasty = 11100 # Borjigin
-	martial = 10
-	diplomacy = 8
-	intrigue = 8
-	stewardship = 9
+	dynasty = 11100
+	dna = 125501_genghis_khan	
+	martial = 12
+	diplomacy = 9
+	intrigue = 9
+	stewardship = 12
+	prowess = 30		 
 	religion = "tengri_pagan"
 	culture = "mongol"
-	health = 10
-	trait = brave
-	#trait = ambitious # Stressed him too much to death...
+	trait = ambitious
 	trait = diligent
 	trait = callous
 	trait = hunter_3
@@ -820,51 +1228,95 @@
 	trait = flexible_leader
 	trait = open_terrain_expert
 	disallow_random_traits = yes
-	sexuality = heterosexual
+	sexuality = heterosexual			 
 	father = 93055
 	mother = 172003
-	1162.1.1 = {
-		birth = "1162.1.1"
+	#Was 1162. Him being alive impacts events and him being 5 years older won't change much. Best to not have a 4 year old Temujin for the 1166 bookmark while him being 20 in 1187 is fine.
+	1167.1.1 = {
+		birth = "1167.1.1"
+		effect = {
+			add_character_flag = is_temujin
+			add_character_flag = has_scripted_appearance											   
+		}
 	}
+	1171.1.1 = {
+		add_pressed_claim = title:c_karakorum
+		add_pressed_claim = title:d_otuken
+		add_pressed_claim = title:d_ogrash	
+		add_pressed_claim = title:d_selenga_valley	
+		add_pressed_claim = title:d_ovorkhangai
+		add_pressed_claim = title:d_arkhangai
+		add_pressed_claim = title:d_khovsgol
+		add_pressed_claim = title:d_gobi_altai
+		add_pressed_claim = title:d_ubsunur_hollow
+		add_pressed_claim = title:d_khovd		
+	}	
 	1178.1.1 = {
 		add_spouse = 172004
 	}
+	1181.1.1={
+		add_concubine = 166864
+
+	}#recaptures Börte and marries Khulan Khatun
 	1202.1.1={
 		add_concubine = 166869
-		events = {
-			mongol_invasion.0001
-		}
-		trait = greatest_of_khans
+		add_concubine = 166870
 		effect = {
 			add_character_modifier = {
 				modifier = the_great_khan_modifier
-				modifier = divine_guidance_modifier
 			}		
 			add_prestige = 20000
-			spawn_mongol_troops_effect = yes
+			#Let's make it so he can't be easily beaten by the Kara Khitai
+			spawn_army = {
+				name = Mongol_Army
+				levies = 2000
+				location = province:1457
+				inheritable = no
+			}
+			spawn_army = {
+				name = Mongol_Army
+				levies = 2000
+				location = province:1457
+				inheritable = no
+			}
 		}
 		add_gold = 5000
 		add_dread = high_dread
+		add_trait = greatest_of_khans		
 	}
 	1206.1.1 = {
 		effect = {
 			add_prestige = 5000
 		}
-		add_concubine = 166870
 	}
 	1220.2.1 = {
 		effect = {
 			add_gold = 200
+			## TODO_CD: Figure out how we want Ghengis' hordes to work. Are the event troops tied to wars? Should they be special MaA?
+			#spawn_unit = {
+			#	province = 904 #Balkh
+			#	owner = ROOT
+			#	#leader = 34852
+			#	troops =
+			#	{
+			#		horse_archers = { 2200 2300 }
+			#		light_cavalry = { 1366 1366 }
+			#		light_infantry = { 455 455 }
+			#		heavy_infantry = { 177 177 }
+			#		knights = { 40 40 }
+			#	}
+			#}
 		}
+		
 	}
 	1227.12.2 = {
-		death = yes
+		death = "1227.12.2"
 	}
 }
 
 125502 = {
 	name = "Jochi"
-	dynasty_house = house_Jochid
+	dynasty = 11100
 	martial = 8		
 	religion = "tengri_pagan"
 	culture = "mongol"
@@ -882,20 +1334,21 @@
 	}
     1187.1.1 = {
 		effect = {
-			set_relation_rival = character:93062 #Becomes rivals with Chagatai
+			set_relation_rival = { reason = rival_historical target = character:93062 } #Becomes rivals with Chagatai
 		}
 	}
-	#1226.12.2={
-	#	dynasty_house = house_Jochid
-	#}
+	1226.12.2={
+		dynasty_house = house_Jochid
+	}
 	1227.1.2 = {
 		death = "1227.1.2"
 	}
+	
 }
 
 125503 = {
 	name = "Batu"
-	dynasty_house = house_Jochid
+	dynasty = 11100
 	martial = 10
 	religion = "tengri_pagan"
 	culture = "mongol"
@@ -910,25 +1363,64 @@
 	}
 	1222.1.1 = {
      add_spouse=166897
-    }
+   }
 	1241.1.1 = {
 		effect = {
 			add_gold = 5000
 		}
 	}
-	#1227.12.2={
-	#	dynasty_house = house_Jochid
+	1227.12.2={
+		dynasty_house = house_Jochid
+	}
+	#1229.1.1={
+	#effect = {
+	#	make_tributary = {
+	#	TYPE = tributary_permanent #(see 00_T4N_tributary_types)
+	#	TRIBUTARY = character:125503
+	#	SUZERAIN = character:172005
+	#		}
+	#	}
 	#}
 	1232.1.1 = {
 		effect = {
 			add_gold = 5000
 		}
+		spawn_army = {
+	levies = 2000
+
+	location = province:620
+	origin = province:620 # optional, location used if not set. This is used for where to base bonuses and the like on
+	name = Mongol_Army
+	inheritable = yes
+	uses_supply = yes
+	
+
+}
 	}
 	1240.1.1 = {
-		effect = {
-			set_realm_capital = title:c_itil
-		}	
+	effect = {
+set_realm_capital = title:c_itil
+}
+		
 	}
+	#1241.1.1={
+	#effect = {
+	#	make_tributary = {
+	#	TYPE = tributary_permanent #(see 00_T4N_tributary_types)
+	#	TRIBUTARY = character:125503
+	#	SUZERAIN = character:172005
+	#		}
+	#	}
+	#}	
+	#1246.1.1={
+	#effect = {
+	#	make_tributary = {
+	#	TYPE = tributary_permanent #(see 00_T4N_tributary_types)
+	#	TRIBUTARY = character:125503
+	#	SUZERAIN = character:172007
+	#		}
+	#	}
+	#}
 	1255.1.1 = {
 		death = "1255.1.1"
 	}
@@ -964,6 +1456,15 @@
 			add_piety = 1000
 			add_prestige = 1000
 		}
+		spawn_army = {
+			levies = 3000
+			horse_archers = 500
+			location = province:620 # Itil
+			origin = province:620 # optional, location used if not set. This is used for where to base bonuses and the like on
+			name = Mongol_Army
+			inheritable = yes
+			uses_supply = yes
+		}
 	}
 	1266.1.2 = {
 		death = "1266.1.2"
@@ -972,7 +1473,7 @@
 
 125505 = {
 	name = "Sartag"
-	dynasty_house = house_Jochid
+	dynasty = 11100
 	religion = "tengri_pagan"
 	culture = "mongol"
 	father = 125503
@@ -980,9 +1481,9 @@
 	1223.1.2 = {
 		birth = "1223.1.2"
 	}
-	#1227.12.2={
-	#	dynasty_house = house_Jochid
-	#}
+	1227.12.2={
+		dynasty_house = house_Jochid
+	}
 	1246.1.1 = {
 		add_spouse = DuloFemale1
 	}
@@ -1008,7 +1509,7 @@
 }
 125507 = {
 	name="Togha"
-	dynasty_house = house_Jochid
+	dynasty=11100
 	religion="tengri_pagan"
 	culture="mongol"
 	father=125503
@@ -1016,30 +1517,30 @@
 	1224.1.2={
 		birth="1224.1.2"
 	}
-	#1227.12.2={
-		#dynasty_house = house_Jochid
-	#}
+	1227.12.2={
+		dynasty_house = house_Jochid
+	}
 	1266.1.2={
 		death="1266.1.2"
 	}
 }
 125508 = {
-	name = "Möngke Temür"
+	name="Möngke Temür"
 	# AKA: Mongke Temür
 	dynasty_house = house_Jochid
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 125507
-	1246.1.2 = {
-		birth = "1246.1.2"
+	religion="tengri_pagan"
+	culture="mongol"
+	father=125507
+	1246.1.2={
+		birth="1246.1.2"
 	}
 	1266.1.1 = {
 		effect = {
-			set_realm_capital = title:c_itil
-		}
+set_realm_capital = title:c_itil
+}
 	}
-	1280.1.2 = {
-		death = "1280.1.2"
+	1280.1.2={
+		death="1280.1.2"
 	}
 }
 125509 = {
@@ -1095,7 +1596,7 @@
 		birth="1265.1.2"
 	}
 	1300.1.1={
-		culture=mongol
+		culture=tatars
 	}
 	1312.1.2={
 		death="1312.1.2"
@@ -1111,7 +1612,7 @@
 		birth="1266.1.2"
 	}
 	1300.1.1={
-		culture=mongol
+		culture=tatars
 	}
 	1302.1.2={
 		death="1302.1.2"
@@ -1121,7 +1622,7 @@
 	name="Tinibeg"
 	dynasty_house = house_Jochid
 	religion="ashari"
-	culture="mongol"
+	culture="tatars"
 	father=480000
 	1320.1.2={
 		birth="1320.1.2"
@@ -1134,7 +1635,7 @@
 	name="Janibeg"
 	dynasty_house = house_Jochid
 	religion="ashari"
-	culture="mongol"
+	culture="tatars"
 	father=480000
 	1322.1.2={
 		birth="1322.1.2"
@@ -1145,7 +1646,7 @@
 }
 125516 = {
 	name="Teval" #Buval
-	dynasty_house = house_Jochid
+	dynasty=11100
 	religion="tengri_pagan"
 	culture="mongol"
 	father=125502
@@ -1153,9 +1654,9 @@
 	1211.1.2={
 		birth="1211.1.2"
 	}
-	#1227.12.2={
-	#	dynasty_house = house_Jochid
-	#}
+	1227.12.2={
+		dynasty_house = house_Jochid
+	}
 	1229.12.11={
 		dynasty_house = house_Tevalid
 	}
@@ -1168,16 +1669,16 @@
 }
 125517 = {
 	name="Tatar"
-	dynasty_house = house_Jochid
+	dynasty=11100
 	religion="tengri_pagan"
 	culture="mongol"
 	father=125516
 	1225.1.2={
 		birth="1225.1.2"
 	}
-	#1227.12.2={
-		#dynasty_house = house_Jochid
-	#}
+	1227.12.2={
+		dynasty_house = house_Jochid
+	}
 	1229.12.11={
 		dynasty_house = house_Tevalid
 	}
@@ -1191,14 +1692,6 @@
 	religion="tengri_pagan"
 	culture="mongol"
 	father=125517
-	trait = brave
-	trait = just
-	trait = cynical
-	trait = content
-	trait = education_martial_4
-	trait = education_stewardship_4
-	sexuality = heterosexual
-
 	1240.1.2={
 		birth="1240.1.2"
 	}
@@ -1215,11 +1708,11 @@
 	}
 	1259.1.1={
      add_spouse=166945
-  	}
-   	1266.1.1={
-		add_trait="one_eyed"
-		add_spouse=166944
-   	}
+   }
+   1266.1.1={
+	add_trait="one_eyed"
+	add_spouse=166944
+   }
 	1280.1.2={
 		add_pressed_claim = title:e_golden_horde
 	} 
@@ -1228,26 +1721,43 @@
 	}
 }
 
+166944 = {
+   name="Euphrosyne" #Concubine of Nogai Khan
+   female=yes
+   dynasty=48
+   religion="orthodox"
+   culture="greek"
+   father=465527
+   trait="bastard"
+   1245.1.1={
+     birth=yes
+   }
+   1295.1.1={
+     death=yes
+   }
+}
+
 125519 = {
-	name = "Chaka"
-	dynasty = 11100
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 125518
-	1260.1.2 = {
-		birth = "1260.1.2"
+	name="Chaka"
+	dynasty_house = house_Tevalid
+	religion="tengri_pagan"
+	culture="mongol"
+	father=125518
+	mother=166945
+	1260.1.2={
+		birth="1260.1.2"
 	}
-	1298.1.1 = {
-		add_spouse = 31194
+	1298.1.1={
+		add_spouse=31194
 	}
-	1300.1.2 = {
-		death = "1300.1.2"
+	1300.1.2={
+		death="1300.1.2"
 	}
 }
 
 125520 = {
 	name="Tolui"
-	dynasty_house = house_Toluid
+	dynasty=11100
 	martial=8
 	diplomacy=8
 	religion="tengri_pagan"
@@ -1259,22 +1769,31 @@
 	trait="humble"
 	trait="compassionate"
 	1192.1.2={
-		birth="1192.1.2"
+		birth = yes
 	}
 	1201.1.1 = {
 		effect = {
-			set_relation_friend = character:172005 #close bond with Ögedei 
+			set_relation_friend = { reason = friend_generic_history target = character:172005 } #close bond with Ögedei 
 		}
-   }
-	1208.1.1 = {
-		add_spouse = 172010
+    }
+	1208.1.1={
+		add_spouse=172010
 	}
 	
-	#1227.12.2 = {
-		#dynasty_house = house_Toluid
-	#}
-	1232.1.1 = {
-		death="1232.1.1"
+	1227.12.2={
+		dynasty_house = house_Toluid
+	}
+	1229.1.1={
+	effect = {
+		make_tributary = {
+		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
+		TRIBUTARY = character:125520
+		SUZERAIN = character:172005
+			}
+		}
+	}
+	1232.1.1={
+		death = yes
 	}
 }
 
@@ -1284,8 +1803,7 @@
 	religion="tengri_pagan"
 	culture="mongol"
 	father=478011
-	#mother=166940
-	trait = child_of_concubine_female
+	mother=166940
 	1236.1.1={
 		birth="1236.1.1"
 	}
@@ -1410,50 +1928,54 @@ IlkhanateFemale4 = {
 	}
 }
 
+
+
+###
+
 125522 = {
-	name = "Baidu"
+	name="Baidu"
 	dynasty_house = house_Toluid
-	religion = "nestorian"
-	culture = "mongol"
-	father = 125521
-	1255.1.2 = {
-		birth = "1255.1.2"
+	religion="nestorian"
+	culture="mongol"
+	father=125521
+	1255.1.2={
+		birth="1255.1.2"
 	}
 	1267.1.1 = {
-     effect = {
-			set_relation_friend = character:166943 
+		effect = {
+			set_relation_friend = { reason = friend_generic_history target = character:166943 } 
 		}
-   }
-	1295.1.1 = {
+	}
+	1295.1.1={
 		religion="ashari"
 		
 	}
-	1295.10.4 = {
-		death = {
+	1295.10.4={
+		death={
 			death_reason=death_execution
 			killer=125524
 		}
 	}
 }
 125523 = {
-	name = "Teguder"
+	name="Teguder"
 	dynasty_house = house_Toluid
-	religion = "nestorian"
-	culture = "mongol"
-	father = 478011
-	#mother = 166940
-	1238.1.2 = {
-		birth = "1238.1.2"
+	religion="nestorian"
+	culture="mongol"
+	father=478011
+	mother=166940
+	1238.1.2={
+		birth="1238.1.2"
 	}
-	1282.1.1 = {
-		religion = "ashari"
-		name = "Ahmed Teguder"
-		trait = "zealous"
+	1282.1.1={
+		religion="ashari"
+		name="Ahmed Teguder"
+		add_trait="zealous"
 	}
-	1284.8.10 = {
-		death = {
-			death_reason = death_execution
-			killer = 478008
+	1284.1.2={
+		death={
+			death_reason=death_execution
+			killer=478008
 		}
 	}
 
@@ -1488,22 +2010,22 @@ IlkhanateFemale4 = {
 	culture="mongol"
 	father=478010
 	mother=166947
-    trait="drunkard"
-    trait="lustful"
-    trait="reveler_1"
-	trait="child_of_concubine_male"
-	1257.1.1 = {
-    	birth = yes
-   	}
-   	1280.1.1 = { #?
-		religion="nestorian"
-   	}
-    1295.5.1 = {
-     	death = {
-     		death_reason=death_execution
-     		killer=125522
-     	}
-   	}
+   trait="drunkard"
+   trait="lustful"
+   trait="reveler_1"
+   trait="child_of_concubine_male"
+	1257.1.1={
+     birth=yes
+   }
+   1280.1.1={ #?
+	religion="nestorian"
+   }
+   1295.5.1={
+     death={
+     	death_reason=death_execution
+     	killer=125522
+     }
+   }
 }
 125526 = {
 	name="Ariq Böke"
@@ -1514,11 +2036,10 @@ IlkhanateFemale4 = {
 	father=125520
 	mother=172010
 	trait="strong"
-    trait="ambitious"
-    trait="brave"
-    trait="wrathful"
-    trait="zealous"
-	trait = education_martial_4
+   trait="ambitious"
+   trait="brave"
+   trait="wrathful"
+   trait="zealous"
 	1219.1.2={
 		birth="1219.1.2"
 	}
@@ -1527,10 +2048,9 @@ IlkhanateFemale4 = {
 	}
 	1259.1.1 = {
     effect = {
-			set_relation_rival = character:217266
-			set_relation_rival = character:93068 # BETRAYAL!!!!!!
+			set_relation_rival = { reason = rival_historical target = character:217266  }
 		}
-    } # Toluid Civil War	 
+	}#Toluid Civil War	 
 	1266.1.2={
 		death=yes
 	}
@@ -1589,7 +2109,7 @@ IlkhanateFemale4 = {
 	religion="tengri_pagan"
 	culture="mongol"
 	father=478011
-	#mother=166940
+	mother=166940
 	1238.1.1={
 		birth="1238.1.1"
 	}
@@ -1692,10 +2212,6 @@ IlkhanateFemale4 = {
 	religion="ashari"
 	culture="mongol"
 	father=125529
-	trait = content
-	trait = brave
-	trait = diligent
-	trait = education_martial_2
 	1315.1.1={
 		birth="1315.1.1"
 	}
@@ -1710,7 +2226,7 @@ IlkhanateFemale4 = {
 478001 = {
 	name = "TemU_rtas"
 	# AKA: Temurtas
-	dynasty = 101912
+	dynasty_house = house_chupanid
 	martial = 5
 	diplomacy = 3
 	intrigue = 6
@@ -1735,7 +2251,7 @@ IlkhanateFemale4 = {
 
 478002 = {
 	name = "Chupan"
-	dynasty = 101912
+	dynasty_house = house_chupanid
 	martial = 10
 	diplomacy = 8
 	intrigue = 9
@@ -1763,7 +2279,7 @@ IlkhanateFemale4 = {
 478003 = {
 	name = "Demasq_Keja"
 	# AKA: Demasq Keja
-	dynasty = 101912
+	dynasty_house = house_chupanid
 	martial = 5
 	diplomacy = 8
 	intrigue = 8
@@ -1787,7 +2303,7 @@ IlkhanateFemale4 = {
 
 478004 = {
 	name = "Mahmud"
-	dynasty = 101912
+	dynasty_house = house_chupanid
 	martial = 4
 	diplomacy = 5
 	intrigue = 6
@@ -1812,7 +2328,7 @@ IlkhanateFemale4 = {
 478005 = {
 	name = "Amir_Hasan"
 	# AKA: Amir Hasan
-	dynasty = 101912
+	dynasty_house = house_chupanid
 	martial = 6
 	diplomacy = 5
 	intrigue = 5
@@ -1830,7 +2346,7 @@ IlkhanateFemale4 = {
 	}
 }
 478006 = {
-	name="Abu Sa'id"
+	name="Abu-Sa'id"
 	# AKA: Abu Sa'id
 	dynasty_house = house_Toluid
 	religion="ashari"
@@ -1850,29 +2366,30 @@ IlkhanateFemale4 = {
 	}
 }
 478007 = {
-	name = "Khar-banda"
+	name="Nicholas"
 	dynasty_house = house_Toluid
-	religion = "vajrayana"
-	culture = "mongol"
-	father = 478008
-	mother = 166950
-	trait = "child_of_concubine_male"
-	1280.1.2 = {
-		birth = "1280.1.2"
-		name = "Öljaitü"
+	religion="nestorian" #he may have been named after Pope Nicholas, but his mother was a Nestorian
+	culture="mongol"
+	father=478008
+	mother=166950
+	trait="child_of_concubine_male"
+	1280.1.2={
+		birth="1280.1.2"
+		name="Öljeitü" # so that Nicholas shows up as birth name
 	}
-	1290.1.2 = {
-		religion = "nestorian"
+	1290.1.2={
+		religion="vajrayana" #Buddhism
+		
 	}
-	1295.6.16 = {
-		religion = "ashari"
-		name = "Muhammad"
+	1295.6.16={
+		religion="ashari"
+		name="Muhammad"
 	}
-	1304.1.1 = {
-		religion = "ismaili"
+	1304.1.1={
+		religion="ismaili"
 	}
-	1316.12.16 = {
-		death = "1316.12.16"
+	1316.12.16={
+		death="1316.12.16"
 	}
 }
 478008 = {
@@ -1918,24 +2435,36 @@ IlkhanateFemale4 = {
 	religion="tengri_pagan" # Nominally a vajrayana
 	culture="mongol"
 	father=478011
-	#mother=166940
+	mother=166940
 	trait="drunkard"
 	1234.1.1={
 		birth="1234.1.1"
 	}
 	1251.1.1={
-     	add_spouse=478009
-    }
+     add_spouse=478009
+   }
 	1256.1.1={
-     	add_spouse=166947
-    }
-    1265.1.1={
-     	add_spouse=166943
-	}
-    1266.1.1 = {
+     add_spouse=166947
+   }
+   1265.1.1={
+     add_spouse=166943
+	 		
+	spawn_army = {
+	levies = 1600
+
+	location = province:4546
+	origin = province:4546 # optional, location used if not set. This is used for where to base bonuses and the like on
+	name = Mongol_Army
+	inheritable = yes
+	uses_supply = yes
+	
+
+}
+   }
+   1266.1.1 = {
 		effect = {
-			set_realm_capital = title:c_maragha
-		}
+set_realm_capital = title:c_maragha
+}
 	}
 	1282.1.1={
 		death="1282.1.1"
@@ -1950,17 +2479,19 @@ IlkhanateFemale4 = {
    culture="greek"
    father=465527
    trait="bastard"
-    1249.1.1={
-     	birth=yes
-	}
-	1302.1.1={
-     	death=yes
-    }
+   1249.1.1={
+     birth=yes
+   }
+
+   1302.1.1={
+     death=yes
+   }
 }
 
 478011 = {
 	name = "Hulegu"
-	dynasty_house = house_Toluid
+	# AKA: Hulagu
+	dynasty = 11100
 	martial = 10
 	religion = "tengri_pagan"
 	culture = "mongol"
@@ -1968,30 +2499,81 @@ IlkhanateFemale4 = {
 	trait = callous
 	trait = zealous
 	trait = ambitious
-	trait = wrathful #many recorded instances of execution out of rage
+	trait = "wrathful" #many recorded instances of execution out of rage
 	father = 125520
 	mother = 172010
 	1217.1.1 = {
-		birth = yes
+		birth = "1217.1.1"
 	}
-	#1227.12.2 = {
-		#dynasty_house = house_Toluid
+	1227.12.2={
+		dynasty_house = house_Toluid
+	}
+	#The T4N tributary system can't handle tributaries of tributaries
+	#1229.1.1={
+	#effect = {
+	#	make_tributary = {
+	#	TYPE = tributary_permanent #(see 00_T4N_tributary_types)
+	#	TRIBUTARY = character:125503
+	#	SUZERAIN = character:172005
+	#		}
+	#	}
 	#}
-	1234.1.1 = {
-     	add_spouse = 166940
-    }
+	1234.1.1={
+     	add_spouse=166940
+   	}
 	1232.1.1 = {
 		effect = {
-			add_gold = 1000
+			add_gold = 5000
+		}
+		spawn_army = {
+			levies = 3000
+			horse_archers = 500
+			location = province:4545 # Maragha
+			origin = province:4545 # optional, location used if not set. This is used for where to base bonuses and the like on
+			name = Mongol_Army
+			inheritable = yes
+			uses_supply = yes
 		}
 	}
+	#1241.1.1={
+	#effect = {
+	#	make_tributary = {
+	#	TYPE = tributary_permanent #(see 00_T4N_tributary_types)
+	#	TRIBUTARY = character:478011
+	#	SUZERAIN = character:172005
+	#		}
+	#	}
+	#}	
+	#1246.1.1={
+	#effect = {
+	#	make_tributary = {
+	#	TYPE = tributary_permanent #(see 00_T4N_tributary_types)
+	#	TRIBUTARY = character:478011
+	#	SUZERAIN = character:172007
+	#		}
+	#	}
+	#}	
 	1265.2.8 = {
-		death = yes
+		death = "1265.2.8"
+	}
+}
+
+Injuid1 = {
+	name = "Abu_Ishaq"
+	dynasty = 101913
+	religion = "ismaili"
+	culture = "mongol"
+	1241.1.1 = {
+		birth = "1241.1.1"
+	}
+	1315.1.1 = {
+		death = "1315.1.1"
 	}
 }
 
 478012 = {
-	name = "Sharaf_al-Din" # AKA: Sharaf al
+	name = "Sharaf_al-Din"
+	# AKA: Sharaf al
 	dynasty = 101913
 	martial = 7
 	diplomacy = 8
@@ -2002,7 +2584,7 @@ IlkhanateFemale4 = {
 	trait = education_stewardship_2
 	trait = arrogant
 	1284.1.1 = {
-		birth = yes
+		birth = "1284.1.1"
 	}
 	1310.1.1 = {
 		add_spouse = 478014
@@ -2037,7 +2619,8 @@ IlkhanateFemale4 = {
 }
 
 478014 = {
-	name = "Tas_Katun" # AKA: Tas Katun
+	name = "Tas_Katun"
+	# AKA: Tas Katun
 	female = yes
 	martial = 4
 	diplomacy = 6
@@ -2056,7 +2639,8 @@ IlkhanateFemale4 = {
 }
 
 478015 = {
-	name = "Kai-Khusrau" # AKA: Kai Khusaru
+	name = "Kai-Khusrau"
+	# AKA: Kai Khusaru
 	dynasty = 101913
 	martial = 5
 	diplomacy = 6
@@ -2078,7 +2662,8 @@ IlkhanateFemale4 = {
 }
 
 478016 = {
-	name = "Abu_Ishaq" # AKA: Abu Eshaq
+	name = "Abu_Ishaq"
+	# AKA: Abu Eshaq
 	dynasty = 101913
 	martial = 2
 	diplomacy = 7
@@ -2121,7 +2706,7 @@ IlkhanateFemale4 = {
 	}
 }
 478030 = {
-	name="Muhammad"
+	name="Mohammad"
 	dynasty_house = house_Toluid
 	religion="ashari"
 	culture="mongol"
@@ -2143,7 +2728,7 @@ IlkhanateFemale4 = {
 }
 478031 = {
 	name="Surgan"
-	dynasty=101912
+	dynasty_house = house_chupanid
 	martial=5
 	diplomacy=6
 	intrigue=6
@@ -2180,7 +2765,7 @@ IlkhanateFemale4 = {
 }
 478033 = {
 	name="Hasan"
-	dynasty=101912
+	dynasty_house = house_chupanid
 	martial=8
 	diplomacy=7
 	intrigue=8
@@ -2203,7 +2788,7 @@ IlkhanateFemale4 = {
 478034 = {
 	name="Malek Asraf"
 	# AKA: Malek Asraf
-	dynasty=101912
+	dynasty_house = house_chupanid
 	martial=6
 	diplomacy=4
 	intrigue=4
@@ -2225,7 +2810,7 @@ IlkhanateFemale4 = {
 478035 = {
 	name="Yagi Basti"
 	# AKA: Yagi Basti
-	dynasty=101912
+	dynasty_house = house_chupanid
 	martial=4
 	diplomacy=3
 	intrigue=4
@@ -2246,7 +2831,7 @@ IlkhanateFemale4 = {
 478036 = {
 	name="Pir Hosayn"
 	# AKA: Pir Hosayn
-	dynasty=101912
+	dynasty_house = house_chupanid
 	martial=7
 	diplomacy=5
 	intrigue=4
@@ -2267,7 +2852,7 @@ IlkhanateFemale4 = {
 478037 = {
 	name="Quc"
 	# AKA: Quc Hosayn
-	dynasty=101912
+	dynasty_house = house_chupanid
 	martial=5
 	diplomacy=4
 	intrigue=3
@@ -2352,7 +2937,7 @@ IlkhanateFemale4 = {
 	name = "Delsad_Katun"
 	# AKA: Delsad Katun
 	female = yes
-	dynasty = 101912
+	dynasty_house = house_chupanid
 	martial = 7
 	diplomacy = 6
 	intrigue = 7
@@ -2387,26 +2972,42 @@ IlkhanateFemale4 = {
 }
 
 480000 = {
-	name = "O_zbeg"
-	dynasty = 11100
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 125513
-	1282.1.1 = {
-		birth = "1282.1.1"
+	name="Özbeg"
+	dynasty_house = house_Jochid
+
+	religion="tengri_pagan"
+	culture="mongol"
+	father=125513
+	1282.1.1={
+		birth="1282.1.1"
 	}
-	1313.1.1 = {
-		religion = "ashari"
+	1300.1.1={
+		culture=tatars
+	
 	}
-	1341.1.1 = {
-		death = "1341.1.1"
+	1313.1.1={
+		religion="ashari"
+	
+	}
+	1330.1.1 = {  	
+		effect = {
+			add_realm_law = high_partition_succession_law #Since the way CK3 handles succession laws seems intent on driving me insane
+		}
+	}
+	1337.1.1 = {
+		effect = {
+		set_realm_capital = title:c_itil
+		}
+	}
+	1341.1.1={
+		death="1341.1.1"
 	}
 }
 
 
 34430 = {
 	name = "Malek"
-	dynasty = 101912
+	dynasty_house = house_chupanid
 	religion = "tengri_pagan"
 	culture = "mongol"
 	father = 93195
@@ -2420,24 +3021,29 @@ IlkhanateFemale4 = {
 
 34431 = {
 	name = "Jela_u"
-	dynasty = 101912
+	dynasty_house = house_chupanid
 	religion = "ismaili"
 	culture = "mongol"
 	father = 478002
+	mother = 217224
 	1306.1.1 = {
 		birth = "1306.1.1"
 	}
-	1356.1.1 = {
-		death = "1356.1.1"
+	1327.11.1 = {
+		death = {
+			death_reason=death_execution
+			killer=478006
+		}
 	}
 }
 
 34432 = {
 	name = "Siuksah"
-	dynasty = 101912
+	dynasty_house = house_chupanid
 	religion = "ismaili"
 	culture = "mongol"
 	father = 478002
+	mother = 217225			
 	1308.1.1 = {
 		birth = "1308.1.1"
 	}
@@ -2448,10 +3054,11 @@ IlkhanateFemale4 = {
 
 34433 = {
 	name = "Nowruz"
-	dynasty = 101912
+	dynasty_house = house_chupanid
 	religion = "ismaili"
 	culture = "mongol"
 	father = 478002
+	mother = 217225			
 	1310.1.1 = {
 		birth = "1310.1.1"
 	}
@@ -2463,10 +3070,11 @@ IlkhanateFemale4 = {
 34434 = {
 	name = "Baghdad_Khatun"
 	female = yes
-	dynasty = 101912
+	dynasty_house = house_chupanid
 	religion = "ismaili"
 	culture = "mongol"
 	father = 478002
+	mother = 217226			
 	1305.1.1 = {
 		birth = "1305.1.1"
 	}
@@ -2507,12 +3115,15 @@ IlkhanateFemale4 = {
 
 34830 = {
 	name = "Buri"
-	dynasty = 11100
+	dynasty_house = house_Tevalid
 	religion = "tengri_pagan"
 	culture = "mongol"
 	father = 125519
 	1280.1.1 = {
 		birth = "1280.1.1"
+	}
+	1300.1.1 = {
+		culture = tatars
 	}
 	1313.1.1 = {
 		religion = "ashari"
@@ -2524,9 +3135,9 @@ IlkhanateFemale4 = {
 
 34831 = {
 	name = "Qara-Quchuq"
-	dynasty = 11100
+	dynasty_house = house_Tevalid
 	religion = "tengri_pagan"
-	culture = "mongol"
+	culture = "tatars"
 	father = 34830
 	1300.1.1 = {
 		birth = "1300.1.1"
@@ -2659,17 +3270,23 @@ IlkhanateFemale4 = {
 	name = "Subutai"
 	dynasty = 7315
 	religion = "tengri_pagan"
-	culture = "mongol"
+	culture = "uriankhai"
 	father = 172001
-	martial = 10
-	diplomacy = 4
-	intrigue = 6
-	stewardship = 6
+	martial = 17
+	diplomacy = 6
+	intrigue = 9
+	stewardship = 9
+	prowess = 30
 	trait = brave
-	trait = strong
-	trait = intellect_good_1
 	trait = diligent
+	trait = patient
+	trait = strong
+	trait = intellect_good_2
+				 
 	trait = education_martial_4
+	trait = organizer
+	trait = flexible_leader
+	disallow_random_traits = yes					 
 	1175.1.1 = {
 		birth = "1175.1.1"
 	}
@@ -2685,7 +3302,7 @@ IlkhanateFemale4 = {
 	name = "Boroldai"
 	dynasty = 7315
 	religion = "tengri_pagan"
-	culture = "mongol"
+	culture = "uriankhai"
 	martial = 8
 	diplomacy = 5
 	intrigue = 5
@@ -2693,6 +3310,7 @@ IlkhanateFemale4 = {
 	trait = brave
 	trait = callous
 	trait = education_martial_3
+	father = 172002 #Not historical but its better than him just floating off to the side on the tree
 	1200.1.1 = {
 		birth = "1200.1.1"
 	}
@@ -2701,21 +3319,49 @@ IlkhanateFemale4 = {
 	}
 }
 
+348511 = {
+	name = "Daritai"
+	dynasty = 7315
+	religion = "tengri_pagan"
+	culture = "uriankhai"
+	martial = 8
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 5
+	trait = brave
+	trait = callous
+	trait = education_martial_3
+	father = 34851
+	1240.1.1 = {
+		birth = "1240.1.1"
+	}
+	1310.1.13 = {
+		death = "1310.1.13"
+	}
+}
+
+
 34852 = {
 	name = "Jebe"
 	#AKA Chepe
-	dynasty = 7317
+	dynasty_house = house_besudclan #Besud were part of the Taichiud/Solus tribe. Almost nothing is known about Jebe besides his clan and that he loyally served Ghengis
 	religion = "tengri_pagan"
 	culture = "mongol"
 	martial = 10
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 4
+	father = Suldus8
 	trait = education_martial_3
 	trait = brave
-	1160.1.1 = {
-		birth = "1160.1.1"
+	1180.1.1 = {
+		birth = "1180.1.1"
 	}
+	1204.1.1 = {
+		effect = {
+			set_relation_friend = { reason = friend_generic_history target = character:125501 } #
+		}
+    }
 	1225.1.1 = {
 		death = "1225.1.1"
 	}
@@ -3053,58 +3699,65 @@ IlkhanateFemale4 = {
 }
 
 34903 = {
-	name = "Banai"
-	dynasty_house = house_Shaybanid
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 34911
-	1230.1.1 = {
-		birth = "1230.1.1"
+	name="Banai"
+	dynasty_house = house_Jochid
+	religion="tengri_pagan"
+	culture="mongol"
+	father=34911
+	1229.1.1={
+		birth="1229.1.1"
 	}
-	1280.1.1 = {
-		death = "1280.1.1"
+	1229.12.1 ={
+		dynasty_house = house_Shibanid
+	}
+	1280.1.1={
+		death="1280.1.1"
 	}
 }
-
 34904 = {
-	name = "Bahadur"
-	dynasty_house = house_Shaybanid
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 34911
-	1235.1.1 = {
-		birth = "1235.1.1"
+	name="Behadur"
+	dynasty_house = house_Jochid
+	religion="tengri_pagan"
+	culture="mongol"
+	father=34911
+	1235.1.1={
+		birth="1235.1.1"
 	}
-	1285.1.1 = {
-		death = "1285.1.1"
+	1241.12.11={
+		dynasty_house = house_Shibanid
+	}
+	1285.1.1={
+		death="1285.1.1"
 	}
 }
-
 34905 = {
-	name = "Balagha"
-	dynasty_house = house_Shaybanid
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 34911
-	1240.1.1 = {
-		birth = "1240.1.1"
+	name="Balagha"
+	dynasty_house = house_Jochid
+	religion="tengri_pagan"
+	culture="mongol"
+	father=34911
+	1240.1.1={
+		birth="1240.1.1"
 	}
-	1258.1.1 = {
-		death = "1258.1.1"
+	1241.12.11={
+		dynasty_house = house_Shibanid
+	}
+	1300.1.1={
+		death="1300.1.1"
 	}
 }
 
 34906 = {
-	name = "Cherik"
-	dynasty_house = house_Shaybanid
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 34911
-	1244.1.1 = {
-		birth = "1244.1.1"
+	name="Cherik"
+	dynasty_house = house_Shibanid
+	religion="tengri_pagan"
+	culture="mongol"
+	father=34911
+	1244.1.1={
+		birth="1244.1.1"
 	}
-	1305.1.1 = {
-		death = "1305.1.1"
+	1305.1.1={
+		death="1305.1.1"
 	}
 }
 
@@ -3173,155 +3826,238 @@ IlkhanateFemale4 = {
 }
 
 34911 = {
-	name = "Shiban"
-	dynasty = 11100
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 125502
-	trait = education_martial_4
-	1210.1.1 = {
-		birth = "1210.1.1"
+	name="Shiban"
+	dynasty=11100
+	religion="tengri_pagan"
+	culture="mongol"
+	father=125502
+	#mother=166896
+	1210.1.1={
+		birth="1210.1.1"
 	}
-	1242.6.1 = {
-		dynasty_house = house_Shaybanid
+	1227.12.2={
+		dynasty_house = house_Jochid
 	}
-	1260.1.1 = {
-		death = "1260.1.1"
+	1229.12.1={
+		dynasty_house = house_Shibanid
+	}
+	1260.1.1={
+		death="1260.1.1"
 	}
 }
-
 34912 = {
-	name = "Orda"
-	dynasty = 11100
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 125502
-	1205.1.1 = {
-		birth = "1205.1.1"
+	name="Orda"
+	dynasty=11100
+	religion="tengri_pagan"
+	culture="mongol"
+	father=125502
+	#mother=166896
+	1205.1.1={
+		birth="1205.1.1"
 	}
-	1251.1.1 = {
-		death = "1251.1.1"
+	1227.12.2={
+		dynasty_house = house_Jochid
+	}
+	1229.12.11={
+		dynasty_house = house_Orda
+	}
+	#1246.1.1={
+	#effect = {
+	#	make_tributary = {
+	#	TYPE = tributary_permanent #(see 00_T4N_tributary_types)
+	#	TRIBUTARY = character:34912
+	#	SUZERAIN = character:125503
+	#		}
+	#	}
+	#}
+	1251.1.1={
+		death="1251.1.1"
 	}
 }
 
 34913 = {
-	name = "KO_chU_"
-	dynasty = 11100
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 34920
-	1241.1.1 = {
-		birth = "1241.1.1"
+	name="KO_chU_"
+	dynasty_house = house_Jochid
+	religion="tengri_pagan"
+	culture="mongol"
+	father=34921
+	1241.1.1={
+		birth="1241.1.1"
 	}
-	1301.1.1 = {
-		death = "1301.1.1"
+	1241.12.11={
+		dynasty_house = house_Orda
+	}
+	1285.11.15={
+	effect = {
+		make_tributary = {
+		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
+		TRIBUTARY = character:34913
+		SUZERAIN = character:125509
+			}
+		}
+	}
+	1297.1.1={
+	effect = {
+		make_tributary = {
+		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
+		TRIBUTARY = character:34913
+		SUZERAIN = character:125512
+			}
+		}
+	}	
+	1300.1.1={
+		culture=tatars
+	}
+	1301.1.1={
+		death="1301.1.1"
 	}
 }
-
 34914 = {
-	name = "Bayan"
-	dynasty = 11100
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 34913
-	1257.1.1 = {
-		birth = "1257.1.1"
+	name="Bayan"
+	dynasty_house = house_Orda
+	religion="tengri_pagan"
+	culture="mongol"
+	father=34913
+	1257.1.1={
+		birth="1257.1.1"
 	}
-	1309.1.1 = {
-		death = "1309.1.1"
+	1300.1.1={
+		culture=tatars
+	}
+	1309.1.1={
+		death="1309.1.1"
 	}
 }
-
 34915 = {
-	name = "Sasibuqa"
-	dynasty = 11100
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 34914
-	1271.1.1 = {
-		birth = "1271.1.1"
+	name="Sasibuqa"
+	dynasty_house = house_Orda
+	religion="tengri_pagan"
+	culture="mongol"
+	father=34914
+	1271.1.1={
+		birth="1271.1.1"
 	}
-	1315.1.1 = {
-		death = "1315.1.1"
+	1300.1.1={
+		culture=tatars
+	}
+	1310.6.1 ={
+	effect = {
+		make_tributary = {
+		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
+		TRIBUTARY = character:34915
+		SUZERAIN = character:125512
+			}
+		}
+	}
+	1315.1.1={
+		death="1315.1.1"
 	}
 }
-
 34916 = {
-	name = "Ilbasan"
-	dynasty = 11100
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 34914
-	1289.1.1 = {
-		birth = "1289.1.1"
+	name="Ilbasan"
+	dynasty_house = house_Orda
+	religion="tengri_pagan"
+	culture="mongol"
+	father=34914
+	1289.1.1={
+		birth="1289.1.1"
 	}
-	1313.1.1 = {
-		religion = "ashari"
+	1300.1.1={
+		culture=tatars
 	}
-	1320.1.1 = {
-		death = "1320.1.1"
+	1313.1.1={
+		religion="ashari"
+	}
+	1320.1.1={
+		death="1320.1.1"
 	}
 }
-
 34917 = {
-	name = "Mubarrak"
-	dynasty = 11100
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 34915
-	1290.1.1 = {
-		birth = "1290.1.1"
+	name="Mubarrak"
+	dynasty_house = house_Orda
+	religion="tengri_pagan"
+	culture="mongol"
+	father=34915
+	1290.1.1={
+		birth="1290.1.1"
 	}
-	1313.1.1 = {
-		religion = "ashari"
+	1300.1.1={
+		culture=tatars
 	}
-	1344.1.1 = {
-		death = "1344.1.1"
+	1313.1.1={
+		religion="ashari"
+	}
+	1337.5.24 ={
+	effect = {
+		make_tributary = {
+		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
+		TRIBUTARY = character:34917
+		SUZERAIN = character:480000
+			}
+		}
+	}
+	1344.1.1={
+		death="1344.1.1"
 	}
 }
-
 34918 = {
-	name = "Chimtai"
-	dynasty = 11100
-	religion = "ashari"
-	culture = "mongol"
-	father = 34916
-	1315.1.1 = {
-		birth = "1315.1.1"
+	name="Chimtai"
+	dynasty_house = house_Orda
+	religion="ashari"
+	culture="tatars"
+	father=34916
+	1315.1.1={
+		birth="1315.1.1"
 	}
-	1360.1.1 = {
-		death = "1360.1.1"
+	1360.1.1={
+		death="1360.1.1"
 	}
 }
-
 34919 = {
-	name = "Qun-Quran"
-	dynasty = 11100
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 34912
-	1230.1.1 = {
-		birth = "1230.1.1"
+	name="Qun-Quran"
+	dynasty_house = house_Orda
+	religion="tengri_pagan"
+	culture="mongol"
+	father=34912
+	sexuality = heterosexual
+	trait = education_martial_3
+	trait = brave
+	trait = ambitious
+	1229.1.1={
+		birth="1229.1.1"
 	}
-	1280.1.1 = {
-		death = "1280.1.1"
+	#1267.1.1={
+	#effect = {
+		#make_tributary = {
+		#TYPE = tributary_permanent #(see 00_T4N_tributary_types)
+		#TRIBUTARY = character:34919
+		#SUZERAIN = character:125508
+		#	}
+		#}
+	#}
+	1280.1.1={
+		death="1280.1.1"
 	}
 }
-
 34920 = {
-	name = "Kuli"
-	dynasty = 11100
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 34912
-	1225.1.1 = {
-		birth = "1225.1.1"
+	name="Kuli"
+	dynasty=11100
+	religion="tengri_pagan"
+	culture="mongol"
+	father=34912
+	1225.1.1={
+		birth="1225.1.1"
 	}
-	1270.1.1 = {
-		death = "1270.1.1"
+	1227.12.2={
+		dynasty_house = house_Jochid
+	}
+	1229.12.11={
+		dynasty_house = house_Orda
+	}
+	1270.1.1={
+		death="1270.1.1"
 	}
 }
-
 sons_of_orda_001 = {
 	name = "Kulyemsa"
 	dynasty = 11100
@@ -3330,6 +4066,9 @@ sons_of_orda_001 = {
 	father = 34912
 	1229.1.1 = {
 		birth = yes
+	}
+	1229.12.11={
+		dynasty_house = house_Orda
 	}
 	1275.1.1 = {
 		death = yes
@@ -3345,6 +4084,9 @@ sons_of_orda_002 = {
 	1228.1.1 = {
 		birth = yes
 	}
+	1229.12.11={
+		dynasty_house = house_Orda
+	}
 	1275.1.1 = {
 		death = yes
 	}
@@ -3359,62 +4101,50 @@ sons_of_orda_003 = {
 	1226.1.1 = {
 		birth = yes
 	}
+	1227.12.2={
+		dynasty_house = house_Jochid
+	}
+	1229.12.11={
+		dynasty_house = house_Orda
+	}
 	1275.1.1 = {
 		death = yes
 	}
 }
-
 34921 = {
-	name = "Sartaqtay"
-	dynasty = 11100
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 34912
-	1227.1.1 = {
-		birth = "1227.1.1"
+	name="Sartaqtay"
+	dynasty=11100
+	religion="tengri_pagan"
+	culture="mongol"
+	father=34912
+	1227.1.1={
+		birth="1227.1.1"
 	}
-	1277.1.1 = {
-		death = "1277.1.1"
+	1227.12.2={
+		dynasty_house = house_Jochid
 	}
-}
-
-kochu_khan_of_white_horde = {
-	name = "KO_chU_"
-	dynasty = 11100
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 34921
-	trait = compassionate
-	trait = just
-	trait = gregarious
-	trait = education_diplomacy_4
-	sexuality = heterosexual
-	disallow_random_traits = yes
-	1251.1.1 = {
-		birth = yes # Maybe?
+	1229.12.11={
+		dynasty_house = house_Orda
 	}
-	1302.1.1 = {
-		death = {
-			death_reason = death_obesity
-		}
+	1277.1.1={
+		death="1277.1.1"
 	}
-}
-
-subutai_mongol_general = {
-
 }
 
 34922 = {
-	name = "Koblek"
-	dynasty = 11100
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 34920
-	1260.1.1 = {
-		birth = "1260.1.1"
+	name="Koblek"
+	dynasty_house = house_Orda
+	religion="tengri_pagan"
+	culture="mongol"
+	father=34920
+	1260.1.1={
+		birth="1260.1.1"
 	}
-	1302.1.1 = {
-		death = "1302.1.1"
+	1300.1.1={
+		culture=tatars
+	}
+	1302.1.1={
+		death="1302.1.1"
 	}
 }
 
@@ -3436,8 +4166,8 @@ subutai_mongol_general = {
 	#placeholder
 	religion = "tengri_pagan"
 	culture = "mongol"
-	1230.1.1 = {
-		birth = "1230.1.1"
+	1229.1.1 = {
+		birth = "1229.1.1"
 	}
 	1285.1.1 = {
 		death = "1285.1.1"
@@ -3452,6 +4182,9 @@ subutai_mongol_general = {
 	1260.1.1 = {
 		birth = "1260.1.1"
 	}
+	1300.1.1 = {
+		culture = tatars
+	}
 	1310.1.1 = {
 		death = "1310.1.1"
 	}
@@ -3464,6 +4197,9 @@ subutai_mongol_general = {
 	culture = "mongol"
 	1290.1.1 = {
 		birth = "1290.1.1"
+	}
+	1300.1.1 = {
+		culture = tatars
 	}
 	1340.1.1 = {
 		death = "1340.1.1"
@@ -3488,8 +4224,8 @@ subutai_mongol_general = {
 	#placeholder
 	religion = "tengri_pagan"
 	culture = "mongol"
-	1230.1.1 = {
-		birth = "1230.1.1"
+	1229.1.1 = {
+		birth = "1229.1.1"
 	}
 	1285.1.1 = {
 		death = "1285.1.1"
@@ -3504,6 +4240,9 @@ subutai_mongol_general = {
 	1260.1.1 = {
 		birth = "1260.1.1"
 	}
+	1300.1.1 = {
+		culture = tatars
+	}
 	1310.1.1 = {
 		death = "1310.1.1"
 	}
@@ -3516,6 +4255,9 @@ subutai_mongol_general = {
 	culture = "mongol"
 	1290.1.1 = {
 		birth = "1290.1.1"
+	}
+	1300.1.1 = {
+		culture = tatars
 	}
 	1340.1.1 = {
 		death = "1340.1.1"
@@ -3556,6 +4298,9 @@ subutai_mongol_general = {
 	1280.1.1 = {
 		birth = "1280.1.1"
 	}
+	1300.1.1 = {
+		culture = tatars
+	}
 	1325.1.1 = {
 		death = "1325.1.1"
 	}
@@ -3565,7 +4310,7 @@ subutai_mongol_general = {
 	name = "Kogsegu"
 	#placeholder
 	religion = "tengri_pagan"
-	culture = "mongol"
+	culture = "tatars"
 	1305.1.1 = {
 		birth = "1305.1.1"
 	}
@@ -3608,6 +4353,9 @@ subutai_mongol_general = {
 	1270.1.1 = {
 		birth = "1270.1.1"
 	}
+	1300.1.1 = {
+		culture = tatars
+	}
 	1313.1.1 = {
 		religion = "ashari"
 	}
@@ -3620,7 +4368,7 @@ subutai_mongol_general = {
 	name = "Dagun"
 	dynasty = 1045103
 	religion = "tengri_pagan"
-	culture = "mongol"
+	culture = "tatars"
 	1300.1.1 = {
 		birth = "1300.1.1"
 	}
@@ -3635,7 +4383,7 @@ subutai_mongol_general = {
 	name = "Chilagun"
 	dynasty = 1045103
 	religion = ashari
-	culture = "mongol"
+	culture = "tatars"
 	father = 34953
 	1317.1.1 = {
 		birth = yes
@@ -3678,6 +4426,9 @@ subutai_mongol_general = {
 	1270.1.1 = {
 		birth = "1270.1.1"
 	}
+	1300.1.1 = {
+		culture = tatars
+	}
 	1313.1.1 = {
 		religion = "ashari"
 	}
@@ -3690,7 +4441,7 @@ subutai_mongol_general = {
 	name = "Batu"
 	dynasty = 1045104
 	religion = "tengri_pagan"
-	culture = "mongol"
+	culture = "tatars"
 	1300.1.1 = {
 		birth = "1300.1.1"
 	}
@@ -3705,7 +4456,7 @@ subutai_mongol_general = {
 	name = "Iturgen"
 	dynasty = 1045104
 	religion = ashari
-	culture = "mongol"
+	culture = "tatars"
 	father = 34962
 	1320.1.1 = {
 		birth = yes
@@ -3723,6 +4474,9 @@ subutai_mongol_general = {
 	1270.1.1 = {
 		birth = "1270.1.1"
 	}
+	1300.1.1 = {
+		culture = tatars
+	}
 	1313.1.1 = {
 		religion = "ashari"
 	}
@@ -3735,7 +4489,7 @@ subutai_mongol_general = {
 	name = "Bilge"
 	dynasty = 1045101
 	religion = "tengri_pagan"
-	culture = "mongol"
+	culture = "tatars"
 	1300.1.1 = {
 		birth = "1300.1.1"
 	}
@@ -3750,7 +4504,7 @@ subutai_mongol_general = {
 	name = "Berke"
 	dynasty = 1045101
 	religion = ashari
-	culture = "mongol"
+	culture = "tatars"
 	father = 34969
 	1320.1.1 = {
 		birth = yes
@@ -3764,7 +4518,7 @@ subutai_mongol_general = {
 	dynasty = 1045101
 	female = yes
 	religion = ashari
-	culture = "mongol"
+	culture = "tatars"
 	father = 34969
 	1322.1.1 = {
 		birth = yes
@@ -3794,8 +4548,8 @@ subutai_mongol_general = {
 	religion = "tengri_pagan"
 	culture = "mongol"
 	father = 93057
-	1230.1.1 = {
-		birth = "1230.1.1"
+	1229.1.1 = {
+		birth = "1229.1.1"
 	}
 	1280.1.1 = {
 		death = "1280.1.1"
@@ -3819,11 +4573,21 @@ subutai_mongol_general = {
 93060 = {
 	name = "Togha_Temur"
 	dynasty = 11100
-	religion = "ashari"
+	religion = "maturidi"
 	culture = "mongol"
 	father = 93059
 	1290.1.1 = {
 		birth = "1290.1.1"
+	}
+	1335.12.1 = {
+		add_pressed_claim = title:e_ilkhanate
+		spawn_army = {
+			name = event_troop_default_name
+			levies = 5000
+			location = province:4032
+			origin = province:4032
+			inheritable = no
+		}		   
 	}
 	1353.1.1 = {
 		death = "1353.1.1"
@@ -3833,7 +4597,7 @@ subutai_mongol_general = {
 93061 = {
 	name = "Luqman"
 	dynasty = 11100
-	religion = "ashari"
+	religion = "maturidi"
 	culture = "mongol"
 	father = 93060
 	1320.1.1 = {
@@ -3845,64 +4609,75 @@ subutai_mongol_general = {
 }
 
 93062 = {
-	name = "Chagatai" 
-	dynasty_house = house_Chagatayid
-	martial = 8
-	stewardship = 8
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 125501
-	mother = 172004
-	trait = "education_martial_3"
+	name="Chagatai" 
+	dynasty=11100
+	martial=8
+	stewardship=8
+	religion="tengri_pagan"
+	culture="mongol"
+	father=125501
+	mother=172004
+	trait="education_martial_3"
 	trait = wrathful
 	trait = impatient
 	trait = just
 	trait = rowdy
 	disallow_random_traits = yes
 	prowess = 20 
-	1183.1.1 = {
-		birth = "1183.1.1"
+	1183.1.1={
+		birth="1183.1.1"
 	}
 	1198.1.1 = {
-     	effect = {
-			set_relation_rival = character:125502 # Rivals with Jochi
-		}  
-    }
-    1199.1.1 = { # Fictional date
+    effect = {
+			set_relation_rival = { reason = rival_historical target = character:125502 }
+		}  #Becomes rivals with Jochi
+   	}
+   	1199.1.1 = { #?
 		add_spouse = 166899
-    }
+   	}
    	1204.1.1 = {
 		add_trait = drunkard
 		remove_trait = rowdy
-		add_trait = education_martial_3						  
+		add_trait = education_martial_3
 	}
-	#1227.12.2 = {
-		#dynasty_house = house_Chagatayid
-	#}
+  	1225.1.1={
+		add_spouse=1231515
+   	}
+	1227.12.2={
+		dynasty_house = house_Chagatayid
+	}
+	1229.1.1={
+	effect = {
+		make_tributary = {
+		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
+		TRIBUTARY = character:93062
+		SUZERAIN = character:172005
+			}
+		}
+	}
 	1232.1.1 = {
 		effect = {
 			add_gold = 5000
 		}
 		spawn_army = {
-			levies = 1500
-			location = province:7199
-			origin = province:7199 # optional, location used if not set. This is used for where to base bonuses and the like on
-			name = Mongol_Army
-			inheritable = yes
-			uses_supply = yes
-			men_at_arms = {
-				type = horse_archers
-				stacks = 100
-			}
-		}
+	levies = 2000
+
+	location = province:7199
+	origin = province:7199 # optional, location used if not set. This is used for where to base bonuses and the like on
+	name = Mongol_Army
+	inheritable = yes
+	uses_supply = yes
+	
+
+}
 	}
-	1242.1.1=  {
-		death = "1242.1.1"
+	1242.1.1={
+		death="1242.1.1"
 	}
 }
 93063 = {
 	name="Mö'etüken" 
-	dynasty_house = house_Chagatayid
+	dynasty=11100
 	religion="tengri_pagan"
 	culture="mongol"
 	father=93062
@@ -3910,9 +4685,9 @@ subutai_mongol_general = {
 	1200.1.1={
 		birth="1200.1.1"
 	}
-	#1227.12.2={
-		#dynasty_house = house_Chagatayid
-	#}
+	1227.12.2={
+		dynasty_house = house_Chagatayid
+	}
 	1240.1.1={
 		death="1240.1.1"
 	}
@@ -3932,7 +4707,7 @@ sons_of_mutukan_001 = {
 }
 93064 = {
 	name="Qara-Hülögü" 
-	dynasty_house = house_Chagatayid
+	dynasty=11100
 	religion="tengri_pagan"
 	culture="mongol"
 	trait="education_stewardship_3" 
@@ -3943,39 +4718,48 @@ sons_of_mutukan_001 = {
 	1223.1.1={
 		birth="1223.1.1"
 	}
-	#1227.12.2={
-	#	dynasty_house = house_Chagatayid
-	#}
+	1227.12.2={
+		dynasty_house = house_Chagatayid
+	}
 	1234.1.1={
      add_spouse=166904
-    }
+   }
+   1241.1.1={
+	effect = {
+		make_tributary = {
+		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
+		TRIBUTARY = character:93064
+		SUZERAIN = character:172005
+			}
+		}
+	}	
+	1246.1.1={
+	effect = {
+		make_tributary = {
+		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
+		TRIBUTARY = character:93064
+		SUZERAIN = character:172007
+			}
+		}
+	}
 	1253.1.1={
 		death="1253.1.1"
 	}
 }
 93065 = {
 	name="Yesü Möngke" 
-	dynasty_house = house_Chagatayid
+	dynasty=11100
 	religion="tengri_pagan"
 	culture="mongol"
 	father=93062
-	trait = gluttonous
-	trait = arbitrary
-	trait = content
 	1202.1.1={
 		birth="1202.1.1"
 	}
-	#1227.12.2={
-		#dynasty_house = house_Chagatayid
-	#}
-	1246.1.1 = {
-		trait = drunkard
+	1227.12.2={
+		dynasty_house = house_Chagatayid
 	}
 	1246.5.1={
-		death = {
-			death_reason = death_execution
-			killer = 166904 # Orghana
-		}
+		death="1246.5.1"
 	}
 }
 93066 = {
@@ -4066,22 +4850,22 @@ ChagataiFemale4 = {
 ###
 
 93067 = {
-	name = "Baidar" 
-	dynasty_house = house_Chagatayid
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 93062
+	name="Baidar" 
+	dynasty=11100
+	religion="tengri_pagan"
+	culture="mongol"
+	father=93062
 	trait = education_martial_3
 	trait = brave
 	trait = child_of_concubine_female
-	1206.1.1 = {
-		birth = "1206.1.1"
+	1206.1.1={
+		birth="1206.1.1"
 	}
-	#1227.12.2 = {
-	#	dynasty_house = house_Chagatayid
-	#}
-	1247.1.1 = {
-		death = "1247.1.1"
+	1227.12.2={
+		dynasty_house = house_Chagatayid
+	}
+	1247.1.1={
+		death="1247.1.1"
 	}
 }
 93068 = {
@@ -4122,53 +4906,57 @@ ChagataiFemale4 = {
 	}
 }
 93070 = {
-	name = "Baraq" 
+	name="Baraq" 
 	dynasty_house = house_Chagatayid
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 93069
-	1235.1.1 = {
-		birth = "1235.1.1"
-	}
-	1260.1.1 = {
-		set_relation_friend = character:93066 # Gained the trust of Mubarak Shah around early 1260
-		effect = {
-			add_prestige = 1500
-		}
+	religion="tengri_pagan"
+	culture="mongol"
+	father=93069
+	1235.1.1={
+		birth="1235.1.1"
 	}
 	1265.1.1 = {
 		spawn_army = {
-			levies = 2000
-			location = province:1186
-			origin = province:1186 # optional, location used if not set. This is used for where to base bonuses and the like on
-			name = Mongol_Army
-			inheritable = yes
-			uses_supply = yes
+	levies = 2000
+
+	location = province:1186
+	origin = province:1186 # optional, location used if not set. This is used for where to base bonuses and the like on
+	name = Mongol_Army
+	inheritable = yes
+	uses_supply = yes
+	
+
 		}	
 	}
-	1270.1.1 = {
-		religion = "ashari"
-		name = "Ghiyath al-Din Baraq"
+	1267.1.1={
+	effect = {
+		make_tributary = {
+		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
+		TRIBUTARY = character:93070
+		SUZERAIN = character:217266
+			}
+		}
 	}
-	1271.1.1 = {
-		death = "1271.1.1"
+	1270.1.1={
+		religion="ashari"
+	}
+	1271.1.1={
+		death="1271.1.1"
 	}
 }
 93071 = {
-	name = "Sarban" 
-	dynasty = 11100
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 93062
-	trait = child_of_concubine_female
-	1210.1.1 = {
-		birth = "1210.1.1"
+	name="Sarban" 
+	dynasty=11100
+	religion="tengri_pagan"
+	culture="mongol"
+	father=93062
+	1210.1.1={
+		birth="1210.1.1"
 	}
-	1227.12.2 = {
+	1227.12.2={
 		dynasty_house = house_Chagatayid
 	}
-	1260.1.1 = {
-		death = "1260.1.1"
+	1260.1.1={
+		death="1260.1.1"
 	}
 }
 sons_of_sarban_001 = {
@@ -4187,16 +4975,16 @@ sons_of_sarban_001 = {
 	}
 }
 93072 = {
-	name = "Negübei" 
+	name="Negübei" 
 	dynasty_house = house_Chagatayid
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 93071
-	1232.1.1 = {
-		birth = "1232.1.1"
+	religion="tengri_pagan"
+	culture="mongol"
+	father=93071
+	1232.1.1={
+		birth="1232.1.1"
 	}
-	1272.1.1 = {
-		death = {
+	1272.1.1={
+		death={
 			death_reason=death_execution
 			killer=217305
 		}
@@ -4249,7 +5037,7 @@ sons_of_sarban_001 = {
 		birth="1252.1.1"
 	}
 	1300.1.1 = {
-		culture = mongol
+		culture = chagatai
 	}
 	1307.1.1={
 		death="1307.1.1"
@@ -4265,7 +5053,7 @@ sons_of_sarban_001 = {
 		birth="1270.1.1"
 	}
 	1300.1.1 = {
-		culture = mongol
+		culture = chagatai
 	}
 	1308.1.1={
 		death="1308.1.1"
@@ -4294,7 +5082,7 @@ sons_of_sarban_001 = {
 		birth="1250.1.1"
 	}
 	1300.1.1 = {
-		culture = mongol
+		culture = chagatai
 	}
 	1309.1.1={
 		death="1309.1.1"
@@ -4313,7 +5101,7 @@ sons_of_sarban_001 = {
 		birth="1280.1.1"
 	}
 	1300.1.1={
-		culture=mongol
+		culture=chagatai
 	}
 	1326.1.1={
 		death="1326.1.1"
@@ -4329,7 +5117,7 @@ sons_of_sarban_001 = {
 		birth="1284.1.1"
 	}
 	1300.1.1 = {
-		culture = mongol
+		culture = chagatai
 	}
 	1310.1.1={
 	effect = {
@@ -4348,7 +5136,7 @@ sons_of_sarban_001 = {
 	name="Eljigidey" 
 	dynasty_house = house_Chagatayid
 	religion="tengri_pagan"
-	culture="mongol"
+	culture="chagatai"
 	father=93075
 	1290.1.1={
 		birth="1290.1.1"
@@ -4361,7 +5149,7 @@ sons_of_sarban_001 = {
 	name="D'ua Temür" 
 	dynasty_house = house_Chagatayid
 	religion="tengri_pagan"
-	culture="mongol"
+	culture="chagatai"
 	father=93075
 	1294.1.1={
 		birth="1294.1.1"
@@ -4374,7 +5162,7 @@ sons_of_sarban_001 = {
 	name="Tarmashirin" 
 	dynasty_house = house_Chagatayid
 	religion="vajrayana"
-	culture="mongol"
+	culture="chagatai"
 	father=93075
 	1296.1.1={
 		birth="1296.1.1"
@@ -4390,7 +5178,7 @@ sons_of_sarban_001 = {
 	name="Buzan" 
 	dynasty_house = house_Chagatayid
 	religion="tengri_pagan"
-	culture="mongol"
+	culture="chagatai"
 	father=93082
 	1310.1.1={
 		birth="1310.1.1"
@@ -4403,7 +5191,7 @@ sons_of_sarban_001 = {
 	name="Ebugen" 
 	dynasty_house = house_Chagatayid
 	religion="tengri_pagan"
-	culture="mongol"
+	culture="chagatai"
 	father=93075
 	1297.1.1={
 		birth="1297.1.1"
@@ -4416,7 +5204,7 @@ sons_of_sarban_001 = {
 	name="Changshi" 
 	dynasty_house = house_Chagatayid
 	religion="nestorian"
-	culture="mongol"
+	culture="chagatai"
 	father=93085
 	1315.1.1={
 		birth="1315.1.1"
@@ -4621,18 +5409,6 @@ sons_of_sarban_001 = {
 	}
 }
 
-mongol_placeholder_001 = {
-	name = "Taliqu"
-	religion = "tengri_pagan"
-	culture = "mongol"
-	1240.1.1 = {
-		birth = "1240.1.1"
-	}
-	1300.1.1 = {
-		death = "1300.1.1"
-	}
-}
-
 93102 = {
 	name = "Dagun"
 	dynasty = 1045102
@@ -4715,11 +5491,14 @@ mongol_placeholder_001 = {
 	name = "Chormagan"
 	religion = "tengri_pagan"
 	culture = "mongol"
-	1200.1.1 = {
-		birth = "1200.1.1"
+	1195.1.1={
+		birth="1195.1.1"
 	}
-	1241.1.1 = {
-		death = "1241.1.1"
+	1241.1.1={
+		add_trait="infirm"
+	}
+	1242.1.1={
+		death="1242.1.1"
 	}
 }
 
@@ -4730,8 +5509,8 @@ mongol_placeholder_001 = {
 	1205.1.1 = {
 		birth = "1205.1.1"
 	}
-	1256.1.1 = {
-		death = "1256.1.1"
+	1259.1.1 = {
+		death = "1259.1.1"
 	}
 }
 
@@ -4743,7 +5522,10 @@ mongol_placeholder_001 = {
 		birth = "1205.1.1"
 	}
 	1252.1.1 = {
-		death = "1252.1.1"
+		death = {
+			death_reason=death_execution
+			killer=125503
+		}
 	}
 }
 
@@ -4752,6 +5534,7 @@ mongol_placeholder_001 = {
 	dynasty = 101914
 	religion = "ismaili"
 	culture = "mongol"
+	father = 217260
 	1280.1.1 = {
 		birth = "1280.1.1"
 	}
@@ -4762,51 +5545,50 @@ mongol_placeholder_001 = {
 		death = "1330.1.1"
 	}
 }
-
 93308 = {
-	name = "O_ljetey"
-	female = yes
-	dynasty = 11100
-	religion = "ismaili"
-	culture = "mongol"
-	father = 478008
-	1284.1.1 = {
-		birth = "1284.1.1"
+	name="Öljetey"
+	female=yes
+	dynasty_house = house_Toluid
+	religion="ashari"
+	culture="mongol"
+	father=478008
+	1284.1.1={
+		birth="1284.1.1"
 	}
-	1334.1.1 = {
-		death = "1334.1.1"
+	1334.1.1={
+		death="1334.1.1"
 	}
 }
-
 93309 = {
-	name = "Ala_Fireng"
-	female = yes
-	dynasty = 11100
-	religion = "ismaili"
-	culture = "mongol"
-	father = 125525
-	1295.1.1 = {
-		birth = "1295.1.1"
+	name="Ala Fireng"
+	female=yes
+	dynasty_house = house_Toluid
+	religion="ashari"
+	culture="mongol"
+	father=125525
+	1295.1.1={
+		birth="1295.1.1"
 	}
-	1345.1.1 = {
-		death = "1345.1.1"
+	1345.1.1={
+		death="1345.1.1"
 	}
 }
-
 93310 = {
-	name = "Jahan_Temur"
-	dynasty = 11100
-	religion = "ismaili"
-	culture = "mongol"
-	mother = 93309
-	1320.1.1 = {
-		birth = "1320.1.1"
+	name="Jahan Temür"
+	dynasty_house = house_Toluid
+	religion="ashari"
+	culture="mongol"
+	mother=93309
+	1320.1.1={
+		birth="1320.1.1"
 	}
-	1341.1.1 = {
-		death = "1341.1.1"
+	1335.1.1={
+		add_pressed_claim = title:e_ilkhanate
+	}	
+	1341.1.1={
+		death="1341.1.1"
 	}
 }
-
 93330 = {
 	name = "Tudadju"
 	religion = "tengri_pagan"
@@ -4830,23 +5612,10 @@ mongol_placeholder_001 = {
 	1215.1.1 = {
 		birth = "1215.1.1"
 	}
-	1260.1.1 = {
-		spawn_army = {
-			levies = 1000
-			location = capital_province
-			#origin = province:7199 # optional, location used if not set. This is used for where to base bonuses and the like on
-			name = "Mongol Troops"
-			inheritable = yes
-			uses_supply = yes
-			men_at_arms = {
-				type = horse_archers
-				stacks = 10
-			}
-		}
-	}
 	1260.9.3 = {
 		death = {
-			death_reason = death_battle
+			death_reason=death_battle
+			killer=32933
 		}
 	}
 }
@@ -4855,7 +5624,7 @@ mongol_placeholder_001 = {
 	name = "Jelme"
 	dynasty = 7315
 	religion = "tengri_pagan"
-	culture = "mongol"
+	culture = "uriankhai"
 	father = 172001
 	martial = 10
 	diplomacy = 4
@@ -4874,7 +5643,7 @@ mongol_placeholder_001 = {
 	name = "Jarchiudai"
 	dynasty = 7315
 	religion = "tengri_pagan"
-	culture = "mongol"
+	culture = "uriankhai"
 	1138.1.1 = {
 		birth = "1138.1.1"
 	}
@@ -4887,24 +5656,34 @@ mongol_placeholder_001 = {
 	name = "Chaurkhan"
 	dynasty = 7315
 	religion = "tengri_pagan"
-	culture = "mongol"
+	culture = "uriankhai"
 	father = 172001
 	1178.1.1 = {
 		birth = "1178.1.1"
 	}
-	1232.1.1 = {
-		death = "1232.1.1"
+	1236.1.1 = {
+		death = "1236.1.1"
 	}
 }
 
 172004 = {
 	name = "Borte" # Wife of Genghis Khan
 	dynasty = 1041000
+	dna = 172004_borte_khatun	
 	female = yes
 	religion = "tengri_pagan"
 	culture = "mongol"
-	1161.1.1 = {
-		birth = "1161.1.1"
+	trait = calm
+	trait = callous
+	trait = gregarious
+	trait = education_martial_3
+	prowess = 30
+	diplomacy = 9
+	intrigue = 12
+	stewardship = 10
+	disallow_random_traits = yes				 
+	1166.1.1 = {
+		birth = "1166.1.1"
 	}
 	1230.1.1 = {
 		death = "1230.1.1"
@@ -4913,7 +5692,7 @@ mongol_placeholder_001 = {
 
 172005 = {
 	name = "Ogodei" # Ögedei Khan
-	dynasty_house = house_Ogodeid
+	dynasty = 11100
 	religion = "tengri_pagan"
 	culture = "mongol"
 	father = 125501
@@ -4936,24 +5715,22 @@ mongol_placeholder_001 = {
 		remove_trait = rowdy
 		add_trait = education_martial_3
 	}
-	#1227.12.2={
-		#dynasty_house = house_Ogodeid
-	#}
+	1227.12.2={
+		dynasty_house = house_Ogodeid
+	}
 	1232.1.1 = {
 		effect = {
 			add_gold = 5000
 		}
 		spawn_army = {
-	levies = 1500
+			levies = 1500
 
-	location = province:4545
-	origin = province:4545 # optional, location used if not set. This is used for where to base bonuses and the like on
-	name = Mongol_Army
-	inheritable = yes
-	uses_supply = yes
-	
-
-}
+			location = province:4545
+			origin = province:4545 # optional, location used if not set. This is used for where to base bonuses and the like on
+			name = Mongol_Army
+			inheritable = yes
+			uses_supply = yes
+		}
 	}
 	1241.12.12 = {
 		death = "1241.12.11"
@@ -4978,28 +5755,27 @@ mongol_placeholder_001 = {
 }
 172007 = {
 	name="Guyug" # Güyük Khan
-	dynasty_house = house_Ogodeid
+	dynasty=11100
 	religion="tengri_pagan"
 	culture="mongol"
 	father=172005
 	mother=172006
-	trait = education_martial_4
 	1206.1.1={
 		birth="1206.1.1"
 	}
 	1220.1.1={
      add_spouse=166908
    }
-	#1227.12.2={
-		#dynasty_house = house_Ogodeid
-	#}
+	1227.12.2={
+		dynasty_house = house_Ogodeid
+	}
 	1248.4.20={
 		death = yes
 	}
 }
 172008 = {
    name="Kadan"
-   dynasty_house = house_Ogodeid
+   dynasty=11100
    religion="tengri_pagan"
    culture="mongol"
    father=172005
@@ -5008,16 +5784,16 @@ mongol_placeholder_001 = {
    1210.1.1={
      birth=yes
    }
-   #1227.12.2={
-		#dynasty_house = house_Ogodeid
-	#}
+   1227.12.2={
+		dynasty_house = house_Ogodeid
+	}
    1252.1.1={
     death = yes
    }
 }
 172009 = {
 	name="Godan"
-	dynasty_house = house_Ogodeid
+	dynasty=11100
 	religion="tengri_pagan"
 	culture="mongol"
 	father=172005
@@ -5025,9 +5801,9 @@ mongol_placeholder_001 = {
 	1207.1.1={
 		birth="1207.1.1"
 	}
-	#1227.12.2={
-		#dynasty_house = house_Ogodeid
-	#}
+	1227.12.2={
+		dynasty_house = house_Ogodeid
+	}
 	1247.1.1={
 		religion="lamaism"
 	}#converted to Tibetan Buddhism by Sakya Pandita
@@ -5048,12 +5824,12 @@ mongol_placeholder_001 = {
 		death="1252.1.1"
 	}
 }
-
 93194 = {
 	name = "Sorgan_Sira"
-	dynasty = 101912
+	dynasty_house = house_chupanid
 	religion = "tengri_pagan"
 	culture = "mongol"
+	father = Suldus10
 	1200.1.1 = {
 		birth = "1200.1.1"
 	}
@@ -5064,7 +5840,7 @@ mongol_placeholder_001 = {
 
 93195 = {
 	name = "Sorgan_Sira"
-	dynasty = 101912
+	dynasty_house = house_chupanid
 	father = 93194
 	religion = "tengri_pagan"
 	culture = "mongol"
@@ -5075,55 +5851,51 @@ mongol_placeholder_001 = {
 		death = "1277.1.1"
 	}
 }
-217223 = {
-	name = "Gughlug" # fictional
-	dynasty = 101938 # Narantsetseg
-	religion = tengri_pagan
-	culture = mongol
-	1101.7.15 = {
-		birth = yes
-	}
-	1148.2.3 = {
-		death = yes
-	}
-}
 217224 = {
-	name = "Khorilartai" # fictional
-	dynasty = 101938 # Narantsetseg
-	religion = tengri_pagan
-	culture = mongol
-	father = 217223
-	1131.6.17 = {
-		birth = yes
+	name="Dowlandi Khatun"
+	female=yes
+	dynasty_house = house_Toluid
+	religion="ashari"
+	culture="mongol"
+	father=478007
+	1294.1.1={
+		birth=yes
 	}
-	1183.3.6 = {
-		death = yes
+	1307.1.1={
+		add_spouse=478002
+	}
+	1342.1.1={ #?
+		death=yes
 	}
 }
 217225 = {
-	name = "Kadan" # fictional
-	dynasty = 101938 # Narantsetseg
-	religion = tengri_pagan
-	culture = mongol
-	father = 217224
-	1159.4.14 = {
-		birth = yes
+	name="Korduchin"
+	female=yes
+	religion="ashari"
+	culture="mongol"
+	1285.1.1={
+		birth=yes
 	}
-	1205.4.17 = {
-		death = yes
+	1301.1.1={
+		add_spouse=478002
+	}
+	1338.1.1={ #?
+		death=yes
 	}
 }
 217226 = {
-	name = "Barghujin" # fictional
-	dynasty = 101938 # Narantsetseg
-	religion = tengri_pagan
-	culture = mongol
-	father = 217225
-	1190.4.12 = {
-		birth = yes
+	name="Khorichin" #name fictional; mother of Chupan's first four sons and Baghdad Khatun
+	female=yes
+	religion="ashari"
+	culture="mongol"
+	1270.1.1={
+		birth=yes
 	}
-	1236.12.12 = {
-		death = yes
+	1286.1.1={
+		add_spouse=478002
+	}
+	1326.1.1={ #?
+		death=yes
 	}
 }
 217227 = {
@@ -5142,14 +5914,21 @@ mongol_placeholder_001 = {
 }
 217265 = {
 	name = MO_ngke # Möngke Khan
-	dynasty_house = house_Toluid
+	dynasty = 11100
 	religion = tengri_pagan
 	culture = mongol
+    trait = ambitious
+    trait = diligent
+    trait = just
 	father = 125520
 	mother = 172010
 	1209.1.10 = {
 		birth = yes
 	}
+	1227.12.2={
+		dynasty_house = house_Toluid
+	}
+	
 	1259.8.11 = {
 		death = yes
 	}
@@ -5177,16 +5956,19 @@ mongol_placeholder_001 = {
 		add_spouse = 217267
 	}
 	1253.1.1={
-		religion = lamaism # AKA Nangchos
-	}
+		religion = lamaism
+	} #Initiated by Drogön Chögyal Phagpa
 	1255.8.21 = {
 		dynasty_house = house_Kublaid
+		spawn_mongol_troops_effect = yes
+		spawn_mongol_troops_effect = yes
 		effect = {
 			add_character_modifier = {
 				modifier = the_great_khan_modifier
-			}		
-			add_prestige = 3000
-			add_gold = 1000
+			}
+			add_gold = 10000
+			add_prestige = 10000
+			add_piety = 5000
 		}
 	}
 	1294.2.18 = {
@@ -5341,7 +6123,7 @@ mongol_placeholder_001 = {
 217277 = {
 	name = Kelmish
 	dynasty = 1051125 # Khunggirad
-	religion = vajrayana
+	religion = lamaism
 	culture = mongol
 	female = yes
 	father = 217276
@@ -5353,21 +6135,22 @@ mongol_placeholder_001 = {
 	}
 }
 217278 = {
-	name = Guchu # fictional
-	dynasty = 1051125 # Khunggirad
-	religion = vajrayana
-	culture = mongol
-	1267.5.5 = {
-		birth = yes
-	}
-	1301.3.3 = {
-		death = yes
-	}
+  dynasty = 1051120 # Buryat
+  name = "Nosal"
+  religion = tengri_pagan
+  culture = mongol
+	father = 302673
+  1193.1.1 = {
+    birth = yes
+  }
+  1251.1.1 = {
+    death = yes
+  }
 }
 217279 = {
 	name = "YesU_n_TemU_r" # Yesün Temür Khan
-	dynasty = 11100
-	religion = vajrayana
+	dynasty_house = house_Kublaid
+	religion = lamaism
 	culture = mongol
 	father = 217275
 	mother = 217277
@@ -5380,8 +6163,8 @@ mongol_placeholder_001 = {
 }
 217280 = {
 	name = Ragibagh # Ragibagh Khan
-	dynasty = 11100
-	religion = vajrayana
+	dynasty_house = house_Kublaid
+	religion = lamaism
 	culture = mongol
 	father = 217279
 	1320.4.4 = {
@@ -5395,8 +6178,8 @@ mongol_placeholder_001 = {
 }
 217281 = {
 	name = Jayaatu # Jayaatu Khan
-	dynasty = 11100
-	religion = vajrayana
+	dynasty_house = house_Kublaid
+	religion = lamaism
 	culture = mongol
 	father = 217271
 	1304.2.16 = {
@@ -5408,8 +6191,8 @@ mongol_placeholder_001 = {
 }
 217282 = {
 	name = Khutughtu # Khutughtu Khan Kusala
-	dynasty = 11100
-	religion = vajrayana
+	dynasty_house = house_Kublaid
+	religion = lamaism
 	culture = mongol
 	father = 217271
 	1300.12.22 = {
@@ -5421,8 +6204,8 @@ mongol_placeholder_001 = {
 }
 217283 = {
 	name = Rinchinbal # Rinchinbal Khan
-	dynasty = 11100
-	religion = vajrayana
+	dynasty_house = house_Kublaid
+	religion = lamaism
 	culture = mongol
 	father = 217282
 	1326.5.1 = {
@@ -5434,12 +6217,72 @@ mongol_placeholder_001 = {
 }
 217284 = {
 	name = "Toghon_TemU_r" # Toghon Temür Khan
-	dynasty = 11100
-	religion = vajrayana
+	dynasty_house = house_Kublaid
+	trait = education_learning_2						 
+	religion = lamaism
 	culture = mongol
+	trait = callous
+	trait = arbitrary			  
 	father = 217282
 	1320.5.25 = {
 		birth = yes
+	}
+	1337.1.1 = {
+		spawn_army = {
+			name = event_troop_default_name
+			levies = 2000
+			location = province:1457
+			origin = province:1457
+			inheritable = no
+		}
+		spawn_army = {
+			name = event_troop_default_name
+			levies = 500
+			men_at_arms = {
+				type = armored_footmen
+				stacks = 10
+			}
+			location = province:1457
+			origin = province:1457
+			inheritable = no
+		}
+		spawn_army = {
+			name = event_troop_default_name
+			levies = 200‬
+			location = province:1457
+			origin = province:1457
+			inheritable = no
+			men_at_arms = {
+				type = trebuchet
+				stacks = 10
+			}
+			men_at_arms = {
+				type = armored_footmen
+				stacks = 10
+			}
+		}
+		spawn_army = {
+			name = event_troop_default_name
+			levies = 500
+			men_at_arms = {
+				type = pikemen_unit
+				stacks = 10
+			}
+			location = province:1457
+			origin = province:1457
+			inheritable = no
+		}
+		spawn_army = {
+			name = event_troop_default_name
+			levies = 250
+			men_at_arms = {
+				type = pikemen_unit
+				stacks = 10
+			}
+			location = province:1457
+			origin = province:1457
+			inheritable = no
+		}
 	}
 	1370.5.23 = {
 		death = yes
@@ -5461,105 +6304,130 @@ mongol_placeholder_001 = {
 		death = yes
 	}
 }
+
 217213 = {
-	name = "Bogen" # fictional
-	dynasty = 1041001 # Naiman
-	religion = nestorian
-	culture = mongol
-	1102.5.19 = {
-		birth = yes
-	}
-	1165.2.7 = {
-		death = yes
-	}
+   name = "Bogen" # fictional
+   dynasty_house = house_solusclan # Suldus
+   religion = "tengri_pagan"
+   culture = "mongol"
+   father = Suldus3
+   1202.5.19 = {
+     birth = yes
+   }
+   1265.2.7 = {
+     death = yes
+   }
 }
+
 217214 = {
 	name = "Tamachi" # fictional
-	dynasty = 1041001 # Naiman
-	religion = nestorian
+	dynasty_house = house_solusclan # Suldus
+    religion = "tengri_pagan"
 	culture = mongol
 	father = 217213
-	1132.7.27 = {
+	1232.7.27 = {
 		birth = yes
 	}
-	1197.5.24 = {
+	1297.5.24 = {
 		death = yes
 	}
 }
 217215 = {
-	name = "Khadagh" # fictional
-	dynasty = 1041001 # Naiman
-	religion = nestorian
-	culture = mongol
-	father = 217214
-	1154.11.7 = {
-		birth = yes
-	}
-	1206.7.9 = {
-		death = yes
-	}
+   name = "Taibuqa"
+   dynasty_house = house_solusclan # Suldus
+   religion = "tengri_pagan"
+   culture = mongol
+   father = 217214
+   1254.11.7 = {
+     birth = yes
+   }
+   1300.1.1 = {
+	 culture = chagatai
+   }
+   1304.1.1 = {
+     death = yes
+   }
 }
 217216 = {
 	name = "Holuikhan" # fictional
-	dynasty = 1041001 # Naiman
-	religion = nestorian
+	 dynasty_house = house_solusclan # Suldus
+    religion = "tengri_pagan"
 	culture = mongol
 	female = yes
 	father = 217214
-	1159.5.12 = {
+	1259.5.12 = {
 		birth = yes
 	}
-	1202.5.4 = {
+	1300.1.1 = {
+		culture = chagatai
+	}
+	1302.5.4 = {
 		death = yes
 	}
 }
 217217 = {
 	name = "Shiraghul" # fictional
-	dynasty = 1041001 # Naiman
-	religion = nestorian
-	culture = mongol
+	dynasty_house = house_solusclan # Suldus
+    religion = "tengri_pagan"
+	culture = chagatai
 	father = 217215
-	1188.5.9 = {
+	1288.5.9 = {
 		birth = yes
 	}
-	1224.12.17 = {
+	1324.12.17 = {
 		death = yes
 	}
 }
 217246 = {
 	name = Khorilartai # fictional
-	dynasty = 1041001 # Naiman
-	religion = nestorian
-	culture = mongol
+	dynasty_house = house_solusclan # Suldus
+    religion = "tengri_pagan"
+	culture = chagatai
 	father = 217217
-	1211.3.24 = {
+	1311.3.24 = {
 		birth = yes
 	}
-	1257.4.16 = {
+	1357.4.16 = {
 		death = yes
 	}
 }
 217247 = {
 	name = Mandukhai # fictional
-	dynasty = 1041001 # Naiman
-	religion = nestorian
-	culture = mongol
+	dynasty_house = house_solusclan # Suldus
+    religion = "tengri_pagan"
+	culture = chagatai
 	father = 217217
 	female = yes
-	1213.7.12 = {
+	1313.7.12 = {
 		birth = yes
 	}
-	1262.11.3 = {
+	1362.11.3 = {
+		death = yes
+	}
+}
+jalayir_general_01 = {
+	name = "Bilge" # fictional
+	dynasty = 101914 # Jalayir
+	religion = tengri_pagan
+	culture = mongol
+	trait = education_martial_4
+	trait = brave
+	1197.1.1 = {
+		birth = yes
+	}
+	1258.1.1 = {
 		death = yes
 	}
 }
 217259 = {
-	name = Chormakhan # fictional
-	dynasty = 1041001 # Naiman
-	religion = nestorian
+	name = Buzurg # fictional
+	dynasty = 101914 # Jalayir
+	religion = tengri_pagan
 	culture = mongol
-	father = 217246
-	1239.3.11 = {
+	father = jalayir_general_01
+	trait = education_martial_4
+	trait = brave
+	1230.3.11 = {
 		birth = yes
 	}
 	1272.4.7 = {
@@ -5568,25 +6436,31 @@ mongol_placeholder_001 = {
 }
 217260 = {
 	name = Munglig # fictional
-	dynasty = 1041001 # Naiman
-	religion = nestorian
+	dynasty = 101914 # Jalayir
+	religion = tengri_pagan
 	culture = mongol
 	father = 217259
 	1264.5.22 = {
 		birth = yes
+	}
+	1300.1.1 = {
+		culture = chagatai
 	}
 	1304.12.14 = {
 		death = yes
 	}
 }
 217261 = {
-	name = Kokochu # fictional
-	dynasty = 1041001 # Naiman
-	religion = nestorian
+	name = Agbuga # fictional
+	dynasty = 101914 # Jalayir
+	religion = tengri_pagan
 	culture = mongol
 	father = 217260
 	1291.4.15 = {
 		birth = yes
+	}
+	1300.1.1 = {
+		culture = chagatai
 	}
 	1315.4.2 = {
 		add_spouse = 217262
@@ -5597,11 +6471,14 @@ mongol_placeholder_001 = {
 }
 217262 = {
 	name = Khojin # fictional
-	religion = nestorian
+	religion = tengri_pagan
 	culture = mongol
 	female = yes
 	1294.3.16 = {
 		birth = yes
+	}
+	1300.1.1 = {
+		culture = chagatai
 	}
 	1338.2.3 = {
 		death = yes
@@ -5609,9 +6486,9 @@ mongol_placeholder_001 = {
 }
 217263 = {
 	name = Ibakha # fictional
-	dynasty = 1041001 # Naiman
-	religion = nestorian
-	culture = mongol
+	dynasty = 101914 # Jalayir
+	religion = tengri_pagan
+	culture = chagatai
 	father = 217261
 	mother = 217262
 	female = yes
@@ -5624,9 +6501,9 @@ mongol_placeholder_001 = {
 }
 217264 = {
 	name = Oronartai # fictional
-	dynasty = 1041001 # Naiman
-	religion = nestorian
-	culture = mongol
+	dynasty = 101914 # Jalayir
+	religion = tengri_pagan
+	culture = chagatai
 	father = 217261
 	mother = 217262
 	1318.5.12 = {
@@ -5668,13 +6545,9 @@ mongol_placeholder_001 = {
 	trait="just"
 	trait="patient"
 	father = 217304
-	sexuality = heterosexual
 	
 	1229.6.12 = {
 		birth = yes
-	}
-	1260.1.1 = {
-		add_pressed_claim = title:e_chagatai
 	}
 	1301.10.23 = {
 		death = {
@@ -5706,1702 +6579,79 @@ mongol_placeholder_001 = {
 	}
 }
 
-#Concubines of Genghis
-166864 = {
-	name="Khulan" # Secondary Wife of Genghis Khan
-	female=yes
-	dynasty=1040072
+217307 = {
+	name="Qarabugha" #commander of the Mongol_Army in Iraq
 	religion="tengri_pagan"
 	culture="mongol"
-	trait="beauty_good_1"
-	1174.1.1={
-		birth=yes
-	}
-	1215.1.1={
-		death=yes
-	}
-}
-166865 = {
-	name="Kölgen"
-	dynasty=11100
-	religion="tengri_pagan"
-	culture="mongol"
-	trait="child_of_concubine_male"
-	father=125501
-	mother=166864
-	1195.1.1={
-		birth=yes
-	}
-	1238.1.1={
-		death=yes
-	}
-}
-166869 = {
-	name="Yesugen" # Concubine of Genghis Khan
-	female=yes
-	dynasty=1040073
-	religion="tengri_pagan"
-	culture="mongol"
-	#father=166868
-	1181.1.1={
-		birth=yes
-	}
-	1228.1.1={
-		death=yes
-	}
-}
-166870 = {
-	name="Yesui" # Concubine of Genghis Khan
-	female=yes
-	dynasty=1040073
-	religion="tengri_pagan"
-	culture="mongol"
-	#father=166868
-	1184.1.1={
-		birth=yes
-	}
-	1236.1.1={
-		death=yes
-	}
-}
-#daughters of Genghis Khan
-166871 = {
-	name="Khochen"
-	female=yes
-	dynasty=11100
-	religion="tengri_pagan"
-	culture="mongol"
-	father=125501
-	mother=172004
-	1184.1.1={
-		birth=yes
-	}
-	1223.1.1={
-		death=yes
-	}
-}
-166872 = {
-	name="Alakhai"
-	female=yes
-	dynasty=11100
-	religion="tengri_pagan"
-	culture="mongol"
-	father=125501
-	mother=172004
-	1193.1.1={
-		birth=yes
-	}
-	1252.1.1={
-		death=yes
-	}
-}
-166873 = {
-	name="Tümelün"
-	female=yes
-	dynasty=11100
-	religion="tengri_pagan"
-	culture="mongol"
-	father=125501
-	mother=172004
-	1189.1.1={
-		birth=yes
-	}
-	1249.1.1={
-		death=yes
-	}
-}
-166874 = {
-	name="Checheikhen" #Wife of Qutuqi Beki, chief of the Oirats
-	female=yes
-	dynasty=11100
-	religion="tengri_pagan"
-	culture="mongol"
-	father=125501
-	mother=172004
-	1188.1.1={
-		birth=yes
-	}
-	1235.1.1={
-		death=yes
-	}
-}
-166875 = {
-	name="Altun Begi" #Wife of Barchuq, King of Qocho
-	female=yes
-	dynasty=11100
-	religion="tengri_pagan"
-	culture="mongol"
-	father=125501
-	mother=172004
-	1194.1.1={
-		birth=yes
-	}
-	1252.1.1={
-		death=yes
-	}
-}
-166876 = {
-	name="Altalün"
-	female=yes
-	dynasty=11100
-	religion="tengri_pagan"
-	culture="mongol"
-	father=125501
-	mother=172004
-	1198.1.1={
-		birth=yes
-	}
-	1248.1.1={
-		death=yes
-	}
-}
+	trait="education_martial_3"
 
-# Descendants of Tolui
-166921 = {
-	name = "Jurikha" # son of Tolui
-	dynasty = 11100
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 125520
-	trait="child_of_concubine_male"
-	1211.1.1 = {
-		birth = yes
+	1215.1.1={ #?
+		birth="1215.1.1"
 	}
-	1227.12.2={
-		dynasty_house = house_Toluid
-	}
-	1252.1.1 = {
-		death = yes
+	1270.1.1={ #sometime during Abaqa's reign
+		death={
+			death_reason=death_execution
+			killer=478010
+		}
 	}
 }
-166922 = {
-	name = "Qutughtu" # son of Tolui
-	dynasty = 11100
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 125520
-	trait="child_of_concubine_male"
-	1214.1.1 = {
-		birth = yes
+217308 = {
+	name="Sughunjaq" #commander of the army in Iraq (appointed ca. 1265)
+	religion="tengri_pagan"
+	culture="mongol"
+	1226.1.1={ #?
+		birth="1226.1.1"
 	}
-	1227.12.2={
-		dynasty_house = house_Toluid
-	}
-	1240.1.1 = {
-		death = yes
+	1287.1.1={ #?
+		death=yes
 	}
 }
-166923 = {
-	name = "Bujek" # son of Tolui
-	dynasty = 11100
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 125520
-	mother=172010
-	1221.1.1 = {
-		birth = yes
+217309 = {
+	name="Bugha" #governor of Anatolia, vizier of Arghun
+	religion="tengri_pagan"
+	culture="mongol"
+	trait="ambitious"
+	1247.1.1={ #?
+		birth="1247.1.1"
 	}
-	1227.12.2={
-		dynasty_house = house_Toluid
-	}
-	1255.1.1 = {
-		death = yes
+	1289.1.1={
+		death={
+			death_reason=death_execution
+			killer=478008
+		}
 	}
 }
-166924 = {
-	name = "Mukha" # son of Tolui
+217341 = {
+	name = "Khugurchin" #fictional name
 	dynasty = 11100
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 125520
-	trait="child_of_concubine_male"
-	1222.1.1 = {
+	religion = tengri_pagan
+	culture = mongol
+	father = 125502
+	female = yes
+	1206.1.1 = {
 		birth = yes
 	}
-	1227.12.2={
-		dynasty_house = house_Toluid
-	}
-	1261.1.1 = {
-		death = yes
-	}
-}
-166925 = {
-	name = "Satukhtai" # son of Tolui
-	dynasty = 11100
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 125520
-	trait="twin"
-	trait="child_of_concubine_male"
-	1225.1.1 = {
-		birth = yes
-	}
-	1227.12.2={
-		dynasty_house = house_Toluid
+	1227.12.1 = {
+		dynasty_house = house_Jochid
 	}
 	1268.1.1 = {
 		death = yes
 	}
 }
-166926 = {
-	name = "Sabukhtai" # son of Tolui
-	dynasty = 11100
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 125520
-	trait="twin"
-	trait="child_of_concubine_male"
-	1225.1.1 = {
-		birth = yes
-	}
-	1227.12.2={
-		dynasty_house = house_Toluid
-	}
-	1277.1.1 = {
-		death = yes
-	}
-}
-166927 = {
-	name="Oghul Khoimish" #concubine of Tolui and second wife of Möngke Khan
-	female=yes
-	dynasty=11100
-	religion="tengri_pagan"
-	culture="mongol"
-	trait="beauty_good_1"
-	#father=166900
-	mother=166874
-	1211.1.1={
-		birth=yes
-	}
-	1254.1.1={
-		death=yes
-	}
-}
-166928 = {
-	name = "Shirin" # daughter of Möngke
-	female=yes
-	dynasty_house = house_Toluid
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 217265
-	mother=166927
-	1233.1.1 = {
-		birth = yes
-	}
-	1283.1.1 = {
-		death = yes
-	}
-}
-166929 = {
-	name = "Bichike" # daughter of Möngke
-	female=yes
-	dynasty_house = house_Toluid
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 217265
-	mother=166927
-	1238.1.1 = {
-		birth = yes
-	}
-	1294.1.1 = {
-		death = yes
-	}
-}
-166930 = {
-	name="Qutuqui" #first wife of Möngke Khan
-	female=yes
-	dynasty=1040076
-	religion="tengri_pagan"
-	culture="mongol"
-	1205.1.1={
-		birth=yes
-	}
-	1232.1.1={
-		death=yes
-	}
-}
-166931 ={
-	name="Baltu" # son of Möngke
-	dynasty=11100
-	religion="tengri_pagan"
-	culture="mongol"
-	father=217265
-	mother=166930
-	1225.1.1 = {
-		birth = yes
-	}
-	1227.12.2 = {
-		dynasty_house = house_Toluid
-	}
-	1280.1.1 = {
-		death = yes
-	}
-}
-166932 ={
-	name="Urendash" # son of Möngke
-	dynasty_house = house_Toluid
-	religion="tengri_pagan"
-	culture="mongol"
-	father=217265
-	mother=166930
-	1228.1.1 = {
-		birth = yes
-	}
-	1283.1.1 = {
-		death = yes
-	}
-}
-166933 ={
-	name="Baylun" # daughter of Möngke
-	female=yes
-	dynasty_house = house_Toluid
-	religion="tengri_pagan"
-	culture="mongol"
-	father=217265
-	mother=166930
-	1232.1.1 = {
-		birth = yes
-	}
-	1274.1.1 = {
-		death = yes
-	}
-}
-166934 = {
-	name="Chubei" #third wife of Möngke Khan
-	female=yes
-	dynasty=1051140
-	religion="tengri_pagan"
-	culture="mongol"
-	1227.1.1={
-		birth=yes
-	}
-	1259.1.1={
-		death = yes
-	}
-}
-166935 = {
-	name="Bayavchin" #concubine of Möngke Khan
-	female=yes
-	dynasty=1051138 #Bayid
-	religion="tengri_pagan"
-	culture="mongol"
-	1214.1.1={
-		birth=yes
-	}
-	1257.1.1={
-		death = yes
-	}
-}
-166936 ={
-	name="Shiregi" # son of Möngke
-	dynasty_house = house_Toluid
-	religion="tengri_pagan"
-	culture="mongol"
-	father=217265
-	mother=166935
-	trait="child_of_concubine_male"
-	1233.1.1 = {
-		birth = yes
-	}
-	1278.1.1 = {
-		death = yes
-	}
-}
-166937 ={
-	name="Asutai" # son of Möngke
-	dynasty_house = house_Toluid
-	religion="tengri_pagan"
-	culture="mongol"
-	father=217265
-	mother=166938
-	trait="child_of_concubine_male"
-	1240.1.1 = {
-		birth = yes
-	}
-	1266.1.1 = {
-		death = yes
-	}
-}
-166938 = {
-	name="Quitani" #concubine of Möngke Khan
-	female=yes
-	dynasty=1051138 #Bayid
-	religion="tengri_pagan"
-	culture="mongol"
-	father=93255
-	1221.1.1={
-		birth=yes
-	}
-	1250.1.1={
-		death = yes
-	}
-}
-166940 = {
-	name="Doquz" #Doquz Khatun, wife of Hulagu
-	female=yes
-	dynasty=1041002
-	religion="nestorian"
-	culture="mongol"
-	#father=166895
-	trait="beauty_good_1"
-	trait="compassionate"
-	trait="just"
-	1214.1.1={
-		birth=yes
-	}
-	1265.6.1={
-		death=yes
-	}
-}
-166941 = {
-	name="Yoshmut" #third son of Hulagu
-	dynasty_house = house_Toluid
-	religion="tengri_pagan"
-	culture="mongol"
-	father=478011
-	#mother=166940
-	trait="wrathful"
-	1237.1.1={
-		birth=yes
-	}
-	1246.1.1 = {
-		add_spouse = Shansabanifemale
-	}
-	1279.1.1={
-		death=yes
-	}
-}
-166945 = {
-	name="Alagh" #chief wife of Nogai
-	female=yes
-	dynasty=7316
-	religion="tengri_pagan"
-	culture="mongol"
-	1243.1.1={
-		birth=yes
-	}
-	1288.1.1={
-		death=yes
-	}
-}
-166947 = {
-	name="Haimash" #concubine of Abaqa Khan
-	female=yes
-	dynasty=1041001
-	religion="nestorian"
-	culture="mongol"
-	1242.1.1={
-		birth=yes
-	}
-	1280.1.1={
-		death=yes
-	}
-}
-166948 = {
-	name="Kököchin"
-	# AKA: Kököchin, wife of Ghazan
-	female = yes
-	dynasty=1051138
-	religion="tengri_pagan"
-	culture="mongol"
-	trait="beauty_good_1"
-	1274.1.1={
-		birth=yes
-	}
-	1317.1.1={
-		death=yes
-	}
-}
-166949 = {
-	name="Qutlugh"
-	# AKA: Qutlugh, wife of Arghun
-	female = yes
-	dynasty=1040078
-	religion="tengri_pagan"
-	culture="mongol"
-	1255.1.1={
-		birth=yes
-	}
-	1297.1.1={
-		death=yes
-	}
-}
-166950 = {
-	name="Uruk" #concubine of Arghun
-	female = yes
-	dynasty=1041002
-	religion="nestorian"
-	culture="mongol"
-	1260.1.1={
-		birth=yes
-	}
-	1306.1.1={
-		death=yes
-	}
-}
-166952 = {
-	name="Anchen" #father of Chabi
-	dynasty=1051124 # Onggirat
-	religion="tengri_pagan"
-	culture="mongol"
-	1193.1.1 = {
-		birth=yes
-	}
-	1253.1.1 = {
-		death=yes
-	}
-}
 
-# Descendants of Jochi, he got 40 children btw but only 14 are named so there will fictional ones to act as placeholders
-166896 = {
-	name="Ukhaa" #wife of Jochi
-	female=yes
-	dynasty=101946
-	religion="tengri_pagan"
-	culture="mongol"
-	#father=166861 #brother of 
-	#mother=166856
-	1186.1.1={
-		birth=yes
-	}
-	1238.1.1={
-		death=yes
-	}
-}
-188991 = {
-	name="Berkhechir"
-	dynasty=11100
-	religion="tengri_pagan"
-	culture="mongol"
-	father=125502
-	#mother=166896
-	1210.1.1={
-		birth=yes
-	}
-	1227.12.2={
-		dynasty_house = house_Jochid
-	}
-	1243.1.1={
-		death=yes
-	}
-}
-166898 = {
-	name="Tangad"
-	dynasty=11100
-	religion="tengri_pagan"
-	culture="mongol"
-	father=125502
-	#mother=166896
-	1212.1.1={
-		birth=yes
-	}
-	1227.12.2={
-		dynasty_house = house_Jochid
-	}
-	1253.1.1={
-		death=yes
-	}
-}
-188995 = {
-	name="Qoluyiqan"
-	female=yes
-	dynasty=11100
-	religion="tengri_pagan"
-	culture="mongol"
-	father=125502
-	#mother=166896
-	1214.1.1={
-		birth=yes
-	}
-	1227.12.2={
-		dynasty_house = house_Jochid
-	}
-	1260.1.1={
-		death=yes
-	}
-}
-188992 = {
-	name="Chilagun"
-	dynasty=11100
-	religion="tengri_pagan"
-	culture="mongol"
-	father=125502
-	#mother=166896
-	1215.1.1={
-		birth=yes
-	}
-	1227.12.2={
-		dynasty_house = house_Jochid
-	}
-	1258.1.1={
-		death=yes
-	}
-}
-188998 = {
-	name="Sinqur"
-	dynasty=11100
-	religion="tengri_pagan"
-	culture="mongol"
-	father=125502
-	#mother=166896
-	1217.1.1={
-		birth=yes
-	}
-	1227.12.2={
-		dynasty_house = house_Jochid
-	}
-	1263.1.1={
-		death=yes
-	}
-}
-188989 = {
-	name="Chimbay"
-	dynasty=11100
-	religion="tengri_pagan"
-	culture="mongol"
-	father=125502
-	#mother=166896
-	1218.1.1={
-		birth=yes
-	}
-	1227.12.2={
-		dynasty_house = house_Jochid
-	}
-	1266.1.1={
-		death=yes
-	}
-}
-188997 = {
-	name="Bura"
-	dynasty=11100
-	religion="tengri_pagan"
-	culture="mongol"
-	father=125502
-	1220.1.1={
-		birth=yes
-	}
-	1227.12.2={
-		dynasty_house = house_Jochid
-	}
-	1252.1.1={
-		death=yes
-	}
-}
-188996 = {
-	name="Udur"
-	dynasty=11100
-	religion="tengri_pagan"
-	culture="mongol"
-	father=125502
-	#mother=166896
-	1221.1.1={
-		birth=yes
-	}
-	1227.12.2={
-		dynasty_house = house_Jochid
-	}
-	1267.1.1={
-		death=yes
-	}
-}
-#188988 = {
-#	name="Tuqtemür" #ancestor of the Great Horde Khans; duplicate
-#	dynasty=11100
-#	religion="tengri_pagan"
-#	culture="mongol"
-#	father=125502
-#	mother=166896
-#	1224.1.1={
-#		birth=yes
-#	}
-#	1269.1.1={
-#		death=yes
-#	}
-#}
-188993 = {
-	name="Shingum"
-	dynasty=11100
-	religion="tengri_pagan"
-	culture="mongol"
-	father=125502
-	#mother=166896
-	1226.1.1={
-		birth=yes
-	}
-	1227.12.2={
-		dynasty_house = house_Jochid
-	}
-	1259.1.1={
-		death=yes
-	}
-}
-188994 = {
-	name = "Tuqa-TemU_r" # AKA Tuqa-Timur
-	dynasty = 11100
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 125502
-	1227.1.1 = {
-		birth = yes
-	}
-	1227.12.2 = {
-		dynasty_house = house_Jochid
-	}
-	1257.1.1 = {
-		religion = "ashari"
-	}
-	1260.1.1 = {
-		death = yes
-	}
-}
-sons_of_tuqa_timur_001 = {
-	name = "Bay-Timur"
-	dynasty_house = house_Jochid
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 188994
-	1237.1.1 = {
-		birth = yes
-	}
-	1257.1.1 = {
-		religion = "ashari"
-	}
-	1270.1.1 = {
-		death = yes
-	}
-}
-sons_of_tuqa_timur_002 = {
-	name = "Bayan"
-	dynasty_house = house_Jochid
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 188994
-	1238.1.1 = {
-		birth = yes
-	}
-	1257.1.1 = {
-		religion = "ashari"
-	}
-	1275.1.1 = {
-		death = yes
-	}
-}
-sons_of_tuqa_timur_003 = {
-	name = "Urung-Timur"
-	dynasty_house = house_Jochid
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 188994
-	1239.1.1 = {
-		birth = yes
-	}
-	1257.1.1 = {
-		religion = "ashari"
-	}
-	1280.1.1 = {
-		death = yes
-	}
-}
-sons_of_tuqa_timur_004 = {
-	name = "Kay-Timur"
-	dynasty_house = house_Jochid
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 188994
-	1240.1.1 = {
-		birth = yes
-	}
-	1257.1.1 = {
-		religion = "ashari"
-	}
-	1280.1.1 = {
-		death = yes
-	}
-}
-166897 = {
-	name="Borakchin" #wife of Batu Khan
-	female=yes
-	dynasty=101946
-	religion="tengri_pagan"
-	culture="mongol"
-	#father=188987
-	1207.1.1={
-		birth=yes
-	}
-	1267.1.1={
-		death=yes
-	}
-}
-188990 = {
-	name="Andewan"
-	dynasty=11100
-	religion="tengri_pagan"
-	culture="mongol"
-	father=125503
-	mother=166897
-	1226.1.1={
-		birth=yes
-	}
-	1227.12.2={
-		dynasty_house = house_Jochid
-	}
-	1260.1.1={
-		death=yes
-	}
-}
-
-#descendants of Kublai
-166957 = {
-	name="Tegulen" #Kublai's first wife
-	female=yes
-	dynasty=101946
-	religion="tengri_pagan"
-	culture="mongol"
-	#father=166857
-	#mother=166858
-	1217.1.1={
-		birth=yes
-	}
-	1239.1.1={
-		death=yes
-	}
-}
-166958 = {
-	name="Dorji" # First Son of Kublai Khan
-	dynasty_house = house_Toluid
-	religion="tengri_pagan"
-	culture="mongol"
-	father=217266
-	mother=217267
-	trait="sickly"
-	1239.1.1 = {
-		birth=yes
-	}
-	1255.8.21 = {
-		dynasty_house = house_Kublaid
-	}
-	1256.1.1 = {
-		death=yes
-	}
-}
-166959 = {
-	name="Manggala" # Son of Kublai Khan
-	dynasty_house = house_Toluid
-	religion="lamaism"
-	culture="mongol"
-	father=217266
-	mother=217267
-	1245.1.1 = {
-		birth=yes
-	}
-	1255.8.21 = {
-		dynasty_house = house_Kublaid
-	}
-	1290.1.1 = {
-		death=yes
-	}
-}
-166960 = {
-	name="Nomukhan" # Son of Kublai Khan
-	dynasty_house = house_Toluid
-	religion="tengri_pagan"
-	culture="mongol"
-	father=217266
-	mother=217267
-	1246.1.1 = {
-		birth=yes
-	}
-	1255.8.21 = {
-		dynasty_house = house_Kublaid
-	}
-	1288.1.1 = {
-	death=yes
-	}
-}
-166966 = {
-	name="Khutugh Beki" # Daughter of Kublai Khan, mother of Chungseon of Korea
-	female=yes
-	dynasty_house = house_Kublaid
-	religion="lamaism"
-	culture="mongol"
-	father=217266
-	#mother=166957
-	trait="beauty_good_1"
-	1259.1.1 = {
-		birth=yes
-	}
-	1297.1.1 = {
-		death=yes
-	}
-}
-166967 = {
-	name="Agsaldai"
-	dynasty=1051124 # Onggirat
-	religion="tengri_pagan"
-	culture="mongol"
-	father=166952
-	1211.1.1 = {
-		birth=yes
-	}
-	1273.1.1 = {
-		death=yes
-	}
-}
-188999 = {
-	name="Kül-Bolat"
-	religion="tengri_pagan"
-	culture="mongol"
-	1205.1.1 = { #?
-		birth=yes
-	}
-	1254.1.1 = { #?
-		death=yes
-	}
-}
-166968 = {
-	name="Nambui" #third wife of Kublai
-	female=yes
-	dynasty=1051124 # Onggirat
-	religion="tengri_pagan"
-	culture="mongol"
-	father=166967
-	1261.1.1 = {
-		birth=yes
-	}
-	1299.1.1 = {
-		death=yes
-	}
-}
-166969 = {
-	name="Khulan Temür" # Son of Kublai Khan
-	dynasty_house = house_Kublaid
-	religion="lamaism"
-	culture="mongol"
-	father=217266
-	mother=166968
-	1282.1.1 = {
-		birth=yes
-	}
-	1328.1.1 = {
-	death=yes
-	}
-}
-166970 = {
-	name="Tsever" # Son of Kublai Khan
-	dynasty_house = house_Kublaid
-	religion="lamaism"
-	culture="mongol"
-	father=217266
-	mother=166968
-	1285.1.1 = {
-		birth=yes
-	}
-	1330.1.1 = {
-		death=yes
-	}
-}
-166971 = {
-	name="Kökejin" # wife of Jingim Zhenjin
-	female=yes
-	dynasty=1040080
-	religion="lamaism"
-	culture="mongol"
-	1242.1.1 = {
-		birth=yes
-	}
-	1298.1.1 = {
-		death=yes
-	}
-}
-166979 = {
-	name="Batachikhan" # son of Ariq Boke
-	dynasty_house = house_Toluid
-	religion="tengri_pagan"
-	culture="mongol"
-	father=125526
-	1242.1.1={
-		birth=yes
-	}
-	1293.1.1={
-		death=yes
-	}
-}
-166980 = {
-	name="Bolad" # grandson of Ariq Boke
-	dynasty_house = house_Toluid
-	religion="tengri_pagan"
-	culture="mongol"
-	father=166979
-	1265.1.1={
-		birth=yes
-	}
-	1324.1.1={
-		death=yes
-	}
-}
-166981 = {
-	name="Babukhan" # wife of Yesün Temür
-	female=yes
-	dynasty=1051125
-	religion="vajrayana"
-	culture="mongol"
-	1301.1.1 = {
-		birth=yes
-	}
-	1333.1.1 = {
-		death=yes
-	}
-}
-166982 = {
-	name="Budashiri" # wife of Tugh Temur Khan
-	female=yes
-	dynasty=1051125
-	religion="vajrayana"
-	culture="mongol"
-	1303.1.1 = {
-		birth=yes
-	}
-	1342.1.1 = {
-		death=yes
-	}
-}
-166984 = {
-	name="Babusha" # wife of Khutughtu Khan
-	female=yes
-	dynasty=1041001 #Naiman
-	religion="nestorian"
-	culture="mongol"
-	1302.1.1 = {
-		birth=yes
-	}
-	1331.1.1 = {
-	death=yes
-	}
-}
-166985 = {
-	name="Aratnadara" # son of Tugh Temur Khan
-	dynasty_house = house_Kublaid
-	religion="vajrayana"
-	culture="mongol"
-	father=217281
-	mother=166982
-	1322.1.1 = {
-		birth=yes
-	}
-	1331.2.1 = {
-	death=yes
-	}
-}
-
-# Chagatai's Family
-sons_of_chagatai_001 = {
-	name = "Mochi Yebe" # First son but not given high regard by his papa Chagatai :(
-	dynasty_house = house_Chagatayid
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 93062
-	trait = child_of_concubine_female
-	trait = education_martial_4
-	trait = brave
-	trait = ambitious
-	trait = humble
-	1198.1.1 = {
-		birth = yes
-	}
-	1240.1.1 = {
-		death = yes
-	}
-}
-sons_of_mochi_yebe_001 = {
-	name = "Teguder" # Commander in Georgia
-	dynasty_house = house_Chagatayid
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = sons_of_chagatai_001
-	trait = education_martial_4
-	trait = brave
-	trait = ambitious
-	trait = diligent # He's really gonna die of stress XD
-	1214.1.1 = {
-		birth = yes
-	}
-	1272.1.1 = { # Got imprisoned for a year in late 1269
-		death = yes
-	}
-}
-sons_of_mochi_yebe_002 = {
-	name = "Baidu" # Fictional birth name, a commander under Baraq
-	dynasty_house = house_Chagatayid
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = sons_of_chagatai_001
-	trait = education_martial_3
-	trait = brave
-	trait = zealous
-	trait = diligent
-	1215.1.1 = {
-		birth = yes
-	}
-	1233.1.1 = { # Fictional date but it is his true name maybe after conversion
-		religion = "ashari"
-		name = "Ahmad"
-	}
-	1270.1.1 = {
-		death = yes
-	}
-}
-sons_of_mochi_yebe_003 = {
-	name = "Tekshi"
-	dynasty_house = house_Chagatayid
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = sons_of_chagatai_001
-	trait = humble # Not much is known about him except he did exist
-	trait = content # Didn't even try to take his claim of the Chagatai Khanate
-	1216.1.1 = {
-		birth = yes
-	}
-	1270.1.1 =
-		death = yes
-	}
-}
-sons_of_mochi_yebe_004 = {
-	name = "Nom-Quli"
-	dynasty_house = house_Chagatayid
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = sons_of_chagatai_001
-	trait = humble # Not much is known about him except he did exist
-	1217.1.1 = {
-		birth = yes
-	}
-	1270.1.1 =
-		death = yes
-	}
-}
-sons_of_mochi_yebe_005 = {
-	name = "Bük-Buqa"
-	dynasty_house = house_Chagatayid
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = sons_of_chagatai_001
-	trait = humble # Not much is known about him except he did exist
-	1218.1.1 = {
-		birth = yes
-	}
-	1270.1.1 =
-		death = yes
-	}
-}
-sons_of_mochi_yebe_006 = {
-	name = "Temüder" # THE MURDERER XD
-	dynasty_house = house_Chagatayid
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = sons_of_chagatai_001
-	trait = education_intrigue_4 # For fun sake let's give a play to his name LOL
-	trait = humble # Not much is known about him except he did exist
-	trait = deceitful
-	trait = sadistic
-	1219.1.1 = {
-		birth = yes
-	}
-	1270.1.1 =
-		death = yes
-	}
-}
-sons_of_mochi_yebe_007 = {
-	name = "Qotan"
-	dynasty_house = house_Chagatayid
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = sons_of_chagatai_001
-	trait = humble # Not much is known about him except he did exist
-	1220.1.1 = {
-		birth = yes
-	}
-	1270.1.1 =
-		death = yes
-	}
-}
-sons_of_mochi_yebe_008 = {
-	name = "Cheche"
-	dynasty_house = house_Chagatayid
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = sons_of_chagatai_001
-	trait = humble # Not much is known about him except he did exist
-	1221.1.1 = {
-		birth = yes
-	}
-	1270.1.1 =
-		death = yes
-	}
-}
-sons_of_mochi_yebe_009 = {
-	name = "Chichektü"
-	dynasty_house = house_Chagatayid
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = sons_of_chagatai_001
-	trait = humble # Not much is known about him except he did exist
-	1222.1.1 = {
-		birth = yes
-	}
-	1270.1.1 =
-		death = yes
-	}
-}
-sons_of_mochi_yebe_010 = {
-	name = "Ishal"
-	dynasty_house = house_Chagatayid
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = sons_of_chagatai_001
-	trait = humble # Not much is known about him except he did exist
-	1223.1.1 = {
-		birth = yes
-	}
-	1270.1.1 =
-		death = yes
-	}
-}
-sons_of_mochi_yebe_011 = {
-	name = "Toghan"
-	dynasty_house = house_Chagatayid
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = sons_of_chagatai_001
-	trait = humble # Not much is known about him except he did exist
-	1224.1.1 = {
-		birth = yes
-	}
-	1270.1.1 =
-		death = yes
-	}
-}
-sons_of_chagatai_002 = {
-	name = "Baiju" 
-	dynasty_house = house_Chagatayid
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 93062
-	trait = child_of_concubine_female
-	1230.1.1 = {
-		birth = yes
-	}
-	1277.1.1={
-		death = yes
-	}
-}
-sons_of_baiju_001 = {
-	name = "Mochi" # Commander of Qara'unas, a Mongol people later settle in Afghanistan
-	dynasty_house = house_Chagatayid
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = sons_of_chagatai_002
-	trait = education_martial_4
-	trait = brave
-	1248.1.1 = {
-		birth = yes
-	}
-	1305.1.1={
-		death = yes
-	}
-}
-166899 = {
-	name="Yesulun Khatun" #wife of Chagatai
-	female=yes
-	dynasty=101946
-	religion="tengri_pagan"
-	culture="mongol"
-	1184.1.1={
-		birth=yes
-	}
-	1254.1.1={
-		death=yes
-	}
-}
-166904 = {
-	name="Orghana" #wife of Qara Hülögü and Alghu
-	female=yes
-	dynasty=11100
-	religion="tengri_pagan"
-	culture="mongol"
-	trait="beauty_good_1"
-	trait="education_diplomacy_4"
-	#father=166900
-	mother=166874
-	1221.1.1={
-		birth=yes
-	}
-	1266.6.1={
-		death=yes
-	}
-}
-166908 = {
-	name="Oghul Qaimish" #wife of Güyük Khan
-	female=yes
-	dynasty=1051139 #Merkit
-	religion="tengri_pagan"
-	culture="mongol"
-	#father=166907
-	1204.1.1={
-		birth=yes
-	}
-	1251.1.1={
-		death = yes
-	}
-}
-
-# Ogodei's Family
-166909 = {
-	name="Borakchin" #first wife of Ögedei
-	female=yes
-	dynasty=1040066 # Jadaran
-	religion="tengri_pagan"
-	culture="mongol"
-	#father=166796
-	1185.1.1={
-		birth=yes
-	}
-	1228.1.1={
-		death=yes
-	}
-}
-#166910 = {
-#	name="Shiremun"
-#	dynasty=11100
-#	religion="tengri_pagan"
-#	culture="mongol"
-#	father=172009
-#	1224.1.1={
-#		birth=yes
-#	}
-#	1227.12.2={
-#		dynasty_house = house_Ogodeid
-#	}
-#	1251.1.1={
-#		death=yes
-#	}
-#}
-166911 = {
-	name="Khoja"
-	dynasty=11100
-	religion="tengri_pagan"
-	culture="mongol"
-	father=172007
-	mother=166908
-	1222.1.1={
-		birth=yes
-	}
-	1227.12.2={
-		dynasty_house = house_Ogodeid
-	}
-	1256.1.1={
-		death = yes
-	}
-}
-166912 = {
-	name="Naqu"
-	dynasty=11100
-	religion="tengri_pagan"
-	culture="mongol"
-	father=172007
-	mother=166908
-	1226.1.1={
-		birth=yes
-	}
-	1227.12.2={
-		dynasty_house = house_Ogodeid
-	}
-	1268.1.1={
-		death = yes
-	}
-}
-166951 = {
-	name="Khochu"
-	dynasty=11100
-	religion="tengri_pagan"
-	culture="mongol"
-	father=172005
-	mother=172006
-	1210.1.1={
-		birth="1210.1.1"
-	}
-	1227.12.2={
-		dynasty_house = house_Ogodeid
-	}
-	1236.1.1={
-		death = yes
-	}
-}
-166913 = {
-	name="Khorachar"
-	dynasty=11100
-	religion="tengri_pagan"
-	culture="mongol"
-	father=172005
-	mother=172006
-	1210.1.1={
-		birth=yes
-	}
-	1227.12.2={
-		dynasty_house = house_Ogodeid
-	}
-	1255.1.1={
-		death = yes
-	}
-}
-166914 = {
-	name="Melig"
-	dynasty=11100
-	religion="tengri_pagan"
-	culture="mongol"
-	father=172005
-	mother=166909
-	trait="child_of_concubine_male"
-	1215.1.1={
-		birth=yes
-	}
-	1227.12.2={
-		dynasty_house = house_Ogodeid
-	}
-	1260.1.1={
-		death = yes
-	}
-}
-166915 = {
-	name = "Chapar" # Son of Kaidu
-	dynasty_house = house_Ogodeid
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 217305
-	1250.1.1 = {
-		birth = yes
-	}
-	1309.1.1 = {
-		death = yes
-	}
-}
-166916 = {
-	name = "Orus" # Son of Kaidu
-	dynasty_house = house_Ogodeid
-	religion = "tengri_pagan"
-	culture = "mongol"
-	father = 217305
-	1262.1.1 = {
-		birth = yes
-	}
-	1315.1.1 = {
-		death = yes
-	}
-}
-166917 = {
-	name="Ajai"
-	dynasty_house = house_Ogodeid
-	religion="tengri_pagan"
-	culture="mongol"
-	father=172008
-	1238.1.1={
-		birth=yes
-	}
-	1260.1.1={
-		religion="ashari"
-	}
-	1296.1.1={
-		death=yes
-	}
-}
-166918 = {
-	name="Ali Khalil"
-	dynasty_house = house_Ogodeid
-	religion="ashari"
-	culture="mongol"
-	father=166917
-	1275.1.1={
-		birth=yes
-	}
-	1342.1.1={
-		death=yes
-	}
-}
-166919 = {
-	name="Danishmendji"
-	dynasty_house = house_Ogodeid
-	religion="ashari"
-	culture="mongol"
-	father=166918
-	1293.1.1={
-		birth=yes
-	}
-	1348.1.1={
-		death=yes
-	}
-}
-166920 = {
-	name="Suurgatmish"
-	dynasty_house = house_Ogodeid
-	religion="ashari"
-	culture="mongol"
-	father=166919
-	1315.1.1={
-		birth=yes
-	}
-	1384.1.1={
-		death=yes
-	}
-}
-217307 = {
-	name = Husun # fictional
-	dynasty = 1051138
-	religion = tengri_pagan
-	culture = mongol
-	715.7.12 = { birth = yes }
-	759.4.25 = { death = yes }
-}
-217308 = {
-	name = Burkhan # fictional
-	dynasty = 1051138
-	religion = tengri_pagan
-	culture = mongol
-	father = 217307
-	732.10.4 = { birth = yes }
-	793.5.21 = { death = yes }
-}
-194351 = {
-	name = Chigu # fictional
-	dynasty = 1051138
-	father = 217308
-	religion = tengri_pagan
-	culture = mongol
-	father = 217307
-	750.10.4 = { birth = yes }
-	793.5.21 = { death = yes }
-}
-217309 = {
-	name = Nomolun # fictional
-	dynasty = 1051138
-	religion = tengri_pagan
-	culture = mongol
-	father = 217307
-	female = yes
-	741.4.12 = { birth = yes }
-	783.12.20 = { death = yes }
-}
-217341 = {
-	name = Nomolun # fictional
-	dynasty = 101934 # Nergüi
-	religion = tengri_pagan
-	culture = mongol
-	female = yes
-	822.5.10 = { birth = yes }
-	881.12.12 = { death = yes }
-}
-217342 = {
-	name = Guyug # fictional
-	dynasty = 101934 # Nergüi
-	religion = tengri_pagan
-	culture = mongol
-	mother = 217341
-	847.10.5 = { birth = yes }
-	879.6.10 = { death = yes }
-}
-217343 = {
-	name = Yesui # fictional
-	dynasty = 101934 # Nergüi
-	religion = tengri_pagan
-	culture = mongol
-	female = yes
-	mother = 217341
-	
-	trait = brave
-	850.4.16 = { birth = yes }
-	877.6.1 = { death = yes }
-}
-217344 = {
-	name = Targhutai # fictional
-	dynasty = 101934 # Nergüi
-	religion = tengri_pagan
-	culture = mongol
-	mother = 217341
-	861.4.15 = { birth = yes }
-	893.5.17 = { death = yes }
-}
-217345 = { # mother # fictional
-	name = Ibakha
-	dynasty = 101929 # Batyabar
-	religion = tengri_pagan
-	culture = mongol
-	#father =
-	#mother =
-	female = yes
-	
-	1009.5.12 = { birth = yes }
-	
-	1045.7.4 = { death = yes }
-}
-
-217346 = { #1st ruler # fictional
-	name = Targhutai
-	dynasty = 101929 # Batyabar
-	religion = tengri_pagan
-	culture = mongol
-	#father =
-	mother = 217345
-	
-	1035.12.13 = { birth = yes }
-	
-	1051.4.10 = { add_spouse = 217353 }
-	
-	1071.3.3 = { death = yes }
-}
 
 217347 = { #sister / 2nd ruler # fictional
 	name = Sokhatai
 	dynasty = 101929 # Batyabar
-	religion = tengri_pagan
+	religion = tengri_pagan 
 	culture = mongol
-	#father =
-	mother = 217345
+	
 	female = yes
-	
 	1032.5.10 = { birth = yes }
-	
 	1068.6.4 = { add_spouse = 217355 }
-	
 	1083.7.11 = { death = yes }
 }
 
-217348 = { #1st rulers son 3rd ruler # fictional
-	name = Bagaridai
-	dynasty = 101929 # Batyabar
-	religion = tengri_pagan
-	culture = mongol
-	father = 217346
-	mother = 217353
-	
-	1066.2.5 = { birth = yes }
-
-	1083.5.3 = { add_spouse = 217360 }
-	
-	1087.5.15 = { death = yes }
-}
-
-217349 = { #2nd rulers son 4th ruler # fictional
-	name = Ambaghai
-	dynasty = 101930 # Bat-Erdene
-	religion = tengri_pagan
-	culture = mongol
-	father = 217355
-	mother = 217347
-	
-	1069.7.9 = { birth = yes }
-	
-	1077.10.5 = { add_spouse = 217361 }
-	
-	1096.10.14 = { death = yes }
-}
 
 217350 = { #4th rulers brother 5th ruler # fictional
 	name = Todogen
@@ -7460,19 +6710,6 @@ sons_of_baiju_001 = {
 	1075.7.15 = { death = yes }
 }
 
-217354 = { #1st rulers 2nd sister # fictional
-	name = Mandukhai
-	dynasty = 101929 # Batyabar
-	religion = tengri_pagan
-	culture = mongol
-	#father =
-	mother = 217345
-	female = yes
-	
-	1038.4.12 = { birth = yes }
-	
-	1087.6.22 = { death = yes }
-}
 
 217355 = { #2nd rulers spouse # fictional
 	name = Bulughan
@@ -7485,20 +6722,6 @@ sons_of_baiju_001 = {
 	1049.8.30 = { birth = yes }
 	
 	1081.6.25 = { death = yes }
-}
-
-217356 = { #2nd rulers daughter # fictional
-	name = Khorijin
-	dynasty = 101930 # Bat-Erdene
-	religion = tengri_pagan
-	culture = mongol
-	father = 217355
-	mother = 217347
-	female = yes
-
-	1071.8.2 = { birth = yes }
-	
-	1094.6.15 = { death = yes }
 }
 
 217357 = { #5th rulers sister # fictional
@@ -7598,19 +6821,6 @@ sons_of_baiju_001 = {
 	1129.5.19 = { death = yes }
 }
 
-217364 = { #3rd rulers sister # fictional
-	name = Tekine
-	dynasty = 101929 # Batyabar
-	religion = tengri_pagan
-	culture = mongol
-	father = 217346
-	mother = 217353
-	female = yes
-	
-	1065.5.12 = { birth = yes }
-	
-	1089.3.18 = { death = yes }
-}
 
 #Qun tribe
 302664 = {
@@ -7725,7 +6935,7 @@ sons_of_baiju_001 = {
 	1097.1.11 = {
 		birth = yes
 	}
-	1137.1.2 = {
+	1157.1.2 = {
 		death = yes
 	}
 }
@@ -7735,10 +6945,10 @@ sons_of_baiju_001 = {
 	religion = tengri_pagan
 	culture = mongol
 	father = 302672
-	1123.9.15 = {
+	1150.9.15 = {
 		birth = yes
 	}
-	1186.10.24 = {
+	1220.10.24 = {
 		death = yes
 	}
 }
@@ -7976,6 +7186,22 @@ sons_of_baiju_001 = {
 	}
 }
 
+3031200 = {
+	name = "Berke"
+	dynasty = 2001144	#Mergid
+	religion = tengri_pagan
+	culture = mongol
+	father = 303120
+
+	1200.12.8 = {
+		birth = yes
+	}
+	1280.8.14 = {
+		death = yes
+	}
+}
+
+
 303121 = {
 	name = "Morokha"
 	dynasty = 2001144	#Mergid
@@ -8118,12 +7344,51 @@ sons_of_baiju_001 = {
 		death = yes
 	}
 }
-
+80000025 = {
+	name = "Bugidai"
+	dynasty = 2001144	#Mergid
+	religion = tengri_pagan
+	culture = mongol
+	father = 303104
+	900.3.19 = {
+		birth = yes
+	}
+	980.5.10 = {
+		death = yes
+	}
+}
+Mergid1 = {
+	name = "Bedugun"
+	dynasty = 2001144	#Mergid
+	religion = tengri_pagan
+	culture = mongol
+	father = 80000025
+	941.1.1 = {
+		birth = yes
+	}
+	1008.1.1 = {
+		death = yes
+	}
+}
+Mergid2 = {
+	name = "Jebe"
+	dynasty = 2001144	#Mergid
+	religion = tengri_pagan
+	culture = mongol
+	father = Mergid1
+	987.1.1 = {
+		birth = yes
+	}
+	1039.9.17 = {
+		death = yes
+	}
+}
 303131 = {
 	name = "Dagun"
 	dynasty = 2001144	#Mergid
 	religion = tengri_pagan
 	culture = mongol
+	father = Mergid2
 	1031.5.8 = {
 		birth = yes
 	}
@@ -8246,9 +7511,21 @@ sons_of_baiju_001 = {
 		birth = yes
 	}
 	1129.4.2 = {
-		add_spouse = bayad0001
+		add_spouse = 303141
 	}
 	1178.5.20 = {
+		death = yes
+	}
+}
+303141 = {
+	name = "Yesugun"
+	female = yes
+	religion = tengri_pagan
+	culture = mongol
+	1113.4.2 = {
+		birth = yes
+	}
+	1183.8.14 = {
 		death = yes
 	}
 }
@@ -8258,12 +7535,12 @@ sons_of_baiju_001 = {
 	religion = tengri_pagan
 	culture = mongol
 	father = 303140
-	mother = bayad0001
+	mother = 303141
 	1129.10.4 = {
 		birth = yes
 	}
 	1150.6.2 = {
-		add_spouse = bayad0004
+		add_spouse = 303146
 	}
 	1187.3.17 = {
 		death = yes
@@ -8275,18 +7552,205 @@ sons_of_baiju_001 = {
 	religion = tengri_pagan
 	culture = mongol
 	father = 303140
-	mother = bayad0001
+	mother = 303141
 	1131.5.26	= {
 		birth = yes
 	}
 	1150.6.2 = {
-		add_spouse = bayad0007
+		add_spouse = 303149
 	}
 	1181.8.24 = {
 		death = yes
 	}
 }
-##mongol linked to Kerait Khan Kurchakus
+303144 = {
+	name = "Uighurtai"
+	dynasty = 1051138	#Bayad
+	religion = tengri_pagan
+	culture = mongol
+	father = 303140
+	mother = 303141
+	1133.4.8 = {
+		birth = yes
+	}
+	1156.9.17 = {
+		add_spouse = 303152
+	}
+	1189.8.8 = {
+		death = yes
+	}
+}
+303145 = {
+	name = "Ebegei"
+	female = yes
+	dynasty = 1051138	#Bayad
+	religion = tengri_pagan
+	culture = mongol
+	father = 303140
+	mother = 303141
+	1135.10.17 = {
+		birth = yes
+	}
+	1224.3.3 = {
+		death = yes
+	}
+}
+303146 = {
+	name = "Hogelun"
+	female = yes
+	religion = tengri_pagan
+	culture = mongol
+	1132.2.14 = {
+		birth = yes
+	}
+	1188.10.17 = {
+		death = yes
+	}
+}
+303147 = {
+	name = "Bartan"
+	dynasty = 1051138	#Bayad
+	religion = tengri_pagan
+	culture = mongol
+	father = 303142
+	mother = 303146
+	1152.7.23 = {
+		birth = yes
+	}
+	1205.2.3 = {
+		death = yes
+	}
+}
+303148 = {
+	name = "Munglig"
+	dynasty = 1051138	#Bayad
+	religion = tengri_pagan
+	culture = mongol
+	father = 303142
+	mother = 303146
+	1154.2.28 = {
+		birth = yes
+	}
+	1211.4.26 = {
+		death = yes
+	}
+}
+303149 = {
+	name = "Tekine"
+	female = yes
+	religion = tengri_pagan
+	culture = mongol
+	1133.1.20 = {
+		birth = yes
+	}
+	1198.7.20 = {
+		death = yes
+	}
+}
+303150 = {
+	name = "Khojin"
+	female = yes
+	dynasty = 1051138	#Bayad
+	religion = tengri_pagan
+	culture = mongol
+	father = 303143
+	mother = 303149
+	1152.7.28 = {
+		birth = yes
+	}
+	1250.12.15 = {
+		death = yes
+	}
+}
+303151 = {
+	name = "Godan"
+	dynasty = 1051138	#Bayad
+	religion = tengri_pagan
+	culture = mongol
+	father = 303143
+	mother = 303149
+	1155.5.22 = {
+		birth = yes
+	}
+	1204.6.10 = {
+		death = yes
+	}
+}
+303152 = {
+	name = "Ibakha"
+	female = yes
+	religion = tengri_pagan
+	culture = mongol
+	1140.9.17 = {
+		birth = yes
+	}
+	1208.2.8 = {
+		death = yes
+	}
+}
+303153 = {
+	name = "Ghazan"
+	dynasty = 1051138	#Bayad
+	religion = tengri_pagan
+	culture = mongol
+	father = 303144
+	mother = 303152
+	1160.10.1 = {
+		birth = yes
+	}
+	1221.12.3 = {
+		death = yes
+	}
+}
+303154 = {
+	name = "Conchaka"
+
+	dynasty = 1051138	#Bayad
+	religion = tengri_pagan
+	culture = mongol
+	father = 303144
+	mother = 303152
+	1200.1.13 = {
+		birth = yes
+	}
+	1280.7.24 = {
+		death = yes
+	}
+}
+3031544 = {
+	name = "Ghazan"
+	female = yes
+	dynasty = 1051138	#Bayad
+	religion = tengri_pagan
+	culture = mongol
+	father = 303154
+
+	1240.1.13 = {
+		birth = yes
+	}
+	1310.7.24 = {
+		death = yes
+	}
+}
+		   
+3031545 = {
+	name = "Conchaka"
+	dynasty = 1051138	#Bayad
+	religion = tengri_pagan
+	culture = mongol
+	mother = 3031544
+
+	1270.1.13 = {
+		birth = yes
+	}
+	1370.7.24 = {
+		death = yes
+	}
+}			  
+			 
+  
+ 
+##Tatars linked to Kerait Khan Kurchakus
 303206 = {
 	name = "Ilma"
 	female = yes
@@ -8305,6 +7769,9 @@ sons_of_baiju_001 = {
 	dynasty = 2001153	#dynn_Tatar
 	religion = tengri_pagan
 	culture = mongol	#in reality a Tatar
+	
+	mother = 303206
+	
 	1126.1.2 = {	#fictional date
 		birth = yes
 	}
@@ -8312,6 +7779,80 @@ sons_of_baiju_001 = {
 		death = yes
 	}
 }
+tatarmongol1 = {
+	name = "Conchaka"
+	dynasty = 2001153	#dynn_Tatar
+	religion = tengri_pagan
+	culture = mongol	#in reality a Tatar
+	
+	father = 303207 
+	
+	1141.1.2 = {	#fictional date
+		birth = yes
+	}
+	1195.1.2 = {	#fictional date
+		death = yes
+	}
+}
+
+tatarmongol2 = {
+	name = "Jebe"
+	dynasty = 2001153	#dynn_Tatar
+	religion = tengri_pagan
+	culture = mongol	#in reality a Tatar
+	
+	father = tatarmongol1 
+	
+	1160.1.2 = {	#fictional date
+		birth = yes
+	}
+	1204.1.1 = {	#fictional date
+		death = yes
+	}
+}
+166868 = {
+	name="Jalibukha" # Khan of the Tatars
+	dynasty = 2001153	#dynn_Tatar
+	religion="tengri_pagan"
+	culture="mongol"
+	father=tatarmongol1
+	1154.1.1={
+		birth=yes
+	}
+	1211.1.1={
+		death=yes
+	}
+}
+
+188987 = {
+	name="YesU_gei" # Khan of the Tatars
+	dynasty = 2001153
+	religion="tengri_pagan"
+	culture="mongol"
+	father=166868
+	1190.1.1={
+		birth=yes
+	}
+	1250.1.2={
+		death=yes
+	}
+}
+
+Tatars1 = {
+	name="Jebe" # 
+	dynasty = 2001153
+	religion="tengri_pagan"
+	culture="mongol"
+	father=188987
+	1216.1.1={
+		birth=yes
+	}
+	1298.1.2={
+		death=yes
+	}
+}
+
+
 #
 #Fictional mongols in Tarvagatai and Uvs Nuur
 303288 = {
@@ -8416,11 +7957,64 @@ sons_of_baiju_001 = {
 		death = yes
 	}
 }
+Balormaa1 = {
+	name = "Megetu"
+	dynasty = 2001158	#Bolormaa
+	religion = tengri_pagan
+	culture = mongol
+	father = 303295
+	862.1.1 = {
+		birth = yes
+	}
+	928.1.1 = {
+		death = yes
+	}
+}
+Balormaa2 = {
+	name = "Megetu"
+	dynasty = 2001158	#Bolormaa
+	religion = tengri_pagan
+	culture = mongol
+	father = Balormaa1
+	899.1.1 = {
+		birth = yes
+	}
+	972.1.1 = {
+		death = yes
+	}
+}
+Balormaa3 = {
+	name = "Megetu"
+	dynasty = 2001158	#Bolormaa
+	religion = tengri_pagan
+	culture = mongol
+	father = Balormaa2
+	937.1.1 = {
+		birth = yes
+	}
+	1005.1.1 = {
+		death = yes
+	}
+}
+Balormaa4 = {
+	name = "Megetu"
+	dynasty = 2001158	#Bolormaa
+	religion = tengri_pagan
+	culture = mongol
+	father = Balormaa3
+	972.1.1 = {
+		birth = yes
+	}
+	1066.1.2 = {
+		death = yes
+	}
+}
 303296 = {
 	name = "Arkhai"
 	dynasty = 2001158	#Bolormaa
 	religion = tengri_pagan
 	culture = mongol
+	father = Balormaa4
 	1032.9.20 = {
 		birth = yes
 	}
@@ -8471,7 +8065,7 @@ sons_of_baiju_001 = {
 	name = "Kokochu"
 	dynasty = 2001158	#Bolormaa
 	religion = tengri_pagan
-	culture = mongol
+	culture = oirat
 	father = 303299
 	1150.3.23 = {
 		birth = yes
@@ -8480,31 +8074,34 @@ sons_of_baiju_001 = {
 		death = yes
 	}
 }
-#
-258102 = {
-	name = "Eljigedei"
-	dynasty = 1100024
-	religion = "nestorian"
-	culture = "mongol"
-	839.1.1 = {
-		birth=yes
-	}
-	870.1.1={
-		death=yes
-	}
-}
-261081 = {
-	name = "Chiledu"
-	dynasty = 1062519
-	religion = nestorian
-	culture = mongol
-	905.1.1 = {
+3033000 = {
+	name = "Kokochu"
+	dynasty = 2001158	#Bolormaa
+	religion = tengri_pagan
+	culture = oirat
+	father = 303300
+	1215.3.23 = {
 		birth = yes
 	}
-	948.1.1 = {
+	1308.6.28 = {
 		death = yes
 	}
 }
+3033001 = {
+	name = "Yedi"
+	dynasty = 2001158	#Bolormaa
+	religion = tengri_pagan
+	culture = oirat
+	father = 3033000
+	1275.3.23 = {
+		birth = yes
+	}
+	1350.6.28 = {
+		death = yes
+	}
+} 
+#
+
 
 #Mongol Vassals of Liangzhou - fictional placeholders
 dodaid0001 = {
@@ -8954,180 +8551,2924 @@ yedid0008 = {
 	}
 }
 
-bayad0001 = {
-	name = "Yesugun"
+
+248241 = {
+	name = "Siremun"
+	dynasty = 1059034
+	religion = tengri_pagan
+	culture = mongol
+	father=93253
+	1217.1.1 = {
+		birth = yes # unknown
+	}
+	1266.1.1 = {
+		death = yes
+	}
+}
+248244 = {
+	name = "Orbei" #name fictional, a relative of Ghazan given to the king of Armenia Smbat ca. 1297
 	female = yes
+	dynasty_house = house_Toluid
 	religion = tengri_pagan
 	culture = mongol
-	1113.4.2 = {
+	father=166941 #fictional relation
+	1277.1.1 = {
 		birth = yes
 	}
-	1183.8.14 = {
+	1328.1.1 = {
+		death = yes
+	}
+}
+166848 = {
+	name="Qipchaq"
+	dynasty_house = house_Toluid
+	religion="nestorian"
+	culture="mongol"
+	father=125522
+	1280.1.2={
+		birth="1280.1.2"
+	}
+	1295.10.4={
+		death={
+			death_reason=death_execution
+			killer=125524
+		}
+	}
+}
+258102 = {
+	name="Eljigedei"
+		   
+	dynasty=1100024
+	religion="nestorian"
+	culture="mongol"
+			  
+	839.1.1={
+		birth=yes
+	}
+	870.1.1={
+				   
+  
+			  
+		death=yes
+	}
+}
+258103 = {
+	name="Megetu"
+	dynasty=1100025
+	religion="tengri_pagan"
+	culture="mongol"
+	836.1.1={
+		birth=yes
+	}
+	870.1.1={
+				   
+  
+			  
+		death=yes
+	}
+}
+258111 = {
+	name="Bukha"
+	dynasty=1100033
+	religion="tengri_pagan"
+	culture="mongol"
+	742.1.1={
+		birth=yes
+	}
+	770.1.1={
+				   
+  
+			  
+		death=yes
+	}
+}
+258112 = {
+	name="Guchu"
+	dynasty=1100034										   
+	religion="tengri_pagan"
+	culture="mongol"
+						  
+				
+	744.1.1={
+		birth=yes
+	}
+	770.1.1={
+			  
+		death=yes
+	}
+}
+261080 = {
+  name =  "Khaidu"
+  dynasty = 1062518
+  religion = tengri_pagan
+  culture = mongol
+				  
+  899.1.1 = {
+    birth = yes
+  }
+  939.1.1 = {
+		 
+    death = yes
+				
+  }
+  
+}
+261081 = {
+  name = "Chiledu"
+  dynasty = 1062519
+  religion = nestorian
+  culture = mongol
+			 
+  905.1.1 = {
+    birth = yes
+  }
+  948.1.1 = {
+    death = yes
+  }
+}
+261082 = {
+  name = "Bugidai"
+			 
+  dynasty = 1062520
+  religion = tengri_pagan
+  culture = mongol
+								  
+  910.1.1 = {
+    birth = yes
+  }
+  950.1.1 = {
+    death = yes
+  
+  }
+		 		 
+  
+}
+
+248194 = {
+	name="Sali Noyan"
+	dynasty=1059028
+	martial=7
+	religion="tengri_pagan"
+	culture="mongol"
+
+
+	#father=248193
+	1211.1.1={
+		birth=yes
+	}
+	1263.1.1={
+		death=yes
+	}
+}
+248195 = {
+	name="Uladu Noyan"
+	dynasty=1059028
+	religion="tengri_pagan"
+	culture="mongol"
+
+	father=248194
+	1240.1.1={
+		birth=yes
+	}
+	1280.1.1={
+		death=yes
+	}
+}
+
+248196 = {
+	name="Baktut Noyan"
+	dynasty=1059028
+	religion="tengri_pagan"
+	culture="mongol"
+
+	father=248195
+	1258.1.1={
+		birth=yes
+	}
+	1310.1.1={
+		death=yes
+	}
+}
+248197 = {
+	name="Qazaghan Noyan"
+	dynasty=1059028
+	religion="ashari"
+	culture="mongol"
+
+	trait=ambitious
+	father=248196
+	1275.1.1={
+		birth=yes
+	}
+	#1310.1.1={
+	#	add_pressed_claim = title:d_kabulistan
+	#	add_pressed_claim = title:e_chagatai
+	#}
+	1358.1.1={
+		death=yes
+	}
+}
+
+125534 = {
+	name="Tuq-Temür"
+	dynasty=11100
+	religion="tengri_pagan"
+	culture="mongol"
+	father=125502
+	#mother=166896
+	1222.1.1={
+		birth="1222.1.1"
+	}
+	1227.12.2={
+		dynasty_house = house_Jochid
+	}
+	1229.12.11={
+		dynasty_house = house_TuqTemur
+	}
+	1252.1.1 = {
+		religion = "ashari"
+	}
+	1275.1.2={
+		death="1275.1.2"
+	}
+}
+125535 = {
+	name="Ulun-Temür"
+	dynasty_house = house_Jochid
+	religion="tengri_pagan"
+	culture="mongol"
+	father=125534
+	1234.1.1={
+		birth="1234.1.1"
+	}
+	1241.1.1={
+		dynasty_house = house_UlunTemur
+	}
+	1289.1.2={
+		death="1289.1.2"
+	}
+}
+125536 = {
+	name="Sarcha"
+	dynasty_house = house_UlunTemur
+	religion="tengri_pagan"
+	culture="mongol"
+	father=125535
+	1260.1.1={
+		birth="1260.1.1"
+	}
+	1294.1.2={
+		death="1294.1.2"
+	}
+}
+125537 = {
+	name="Gonchek"
+	dynasty_house = house_UlunTemur
+	religion="tengri_pagan"
+	culture="mongol"
+	father=125536
+	1279.1.1={
+		birth="1279.1.1"
+	}
+	1300.1.1 = {
+		culture = crimean
+	}
+	1313.1.1={
+		religion="ashari"
+	}
+	1321.1.2={
+		death="1321.1.2"
+	}
+}
+125538 = {
+	name="Tugluk Hoja"
+	dynasty_house = house_UlunTemur
+	religion="tengri_pagan"
+	culture="turkmeni"
+	father=125537
+	1304.1.1={
+		birth="1304.1.1"
+	}
+	1313.1.1={
+		religion="ashari"
+	}
+	1358.1.2={
+		death="1358.1.2"
+	}
+}
+125539 = {
+	name="Toy Hoja"
+	dynasty_house = house_UlunTemur
+	religion="ashari"
+	culture="turkmeni"
+	father=125538
+	1323.1.1={
+		birth="1323.1.1"
+	}
+	1358.1.2={
+		death="1358.1.2"
+	}
+}
+
+248230 = {
+	name = Jamugha # fictional member of Dughlat clan
+	dynasty = 1059030 # Dughlat
+	religion = tengri_pagan
+	culture = mongol
+	trait=education_martial_2
+	trait=zealous
+	1190.1.1 = {
+		birth = yes
+	}
+	1250.1.1 = {
 		death = yes
 	}
 }
 
-bayad0002 = {
-	name = "Uighurtai"
-	dynasty = 1051138	#Bayad
+248231 = {
+	name = Nayaga # fictional member of Dughlat clan
+	dynasty = 1059030 # Dughlat
 	religion = tengri_pagan
 	culture = mongol
-	father = 303140
-	mother = bayad0001
-	1133.4.8 = {
+	father=248230
+	1218.1.1 = {
 		birth = yes
 	}
-	1156.9.17 = {
-		add_spouse = bayad0010
+	1287.1.1 = {
+		death = yes
 	}
-	1189.8.8 = {
+}
+248232 = {
+	name = Oljaitu # fictional member of Dughlat clan
+	dynasty = 1059030 # Dughlat
+	religion = tengri_pagan
+	culture = mongol
+	father=248231
+	1240.1.1 = {
+		birth = yes
+	}
+	1300.1.1 = {
 		death = yes
 	}
 }
 
-bayad0003 = {
-	name = "Ebegei"
+248233 = {
+	name = Dayir # fictional member of Dughlat clan
+	dynasty = 1059030 # Dughlat
+	religion = tengri_pagan
+	culture = mongol
+	father=248232
+	1260.1.1 = {
+		birth = yes
+	}
+	1300.1.1 = {
+		culture = chagatai
+	}
+	1320.1.1 = {
+		death = yes
+	}
+}
+
+248234 = {
+	name = Dodai # fictional member of Dughlat clan
+	dynasty = 1059030 # Dughlat
+	religion = tengri_pagan
+	culture = chagatai
+	father=248233
+	1290.1.1 = {
+		birth = yes
+	}
+	1337.1.1 = {
+		religion = ashari
+		
+	}
+	1338.1.1 = {
+		death = yes
+	}
+}
+
+248235 = {
+	name = Tulik # historical members of Dughlat dynasty
+	dynasty = 1059030 # Dughlat
+	religion = tengri_pagan
+	culture = chagatai
+	father=248234
+	1315.1.1 = {
+		birth = yes
+	}
+	1337.1.1 = {
+		religion = ashari
+	
+	}
+	1339.1.1 = {
+		death = yes
+	}
+}
+248236 = {
+	name = Bulaji # historical members of Dughlat dynasty
+	dynasty = 1059030 # Dughlat
+	religion = tengri_pagan
+	culture = chagatai
+	father=248234
+	1316.1.1 = {
+		birth = yes
+	}
+	1337.1.1 = {
+		religion = ashari
+	
+	}
+	1339.1.1 = {
+		death = yes
+	}
+}
+248237 = {
+	name = Qamar # historical members of Dughlat dynasty
+	dynasty = 1059030 # Dughlat
+	religion = tengri_pagan
+	culture = chagatai
+	father=248234
+	1317.1.1 = {
+		birth = yes
+	}
+	1337.1.1 = {
+		religion = ashari
+
+	}
+	1339.1.1 = {
+		death = yes
+	}
+}
+
+#descendants of Tolui
+166921 = {
+	name = "Jurikha" # son of Tolui
+	dynasty = 11100
+	religion = "tengri_pagan"
+	culture = "mongol"
+	father = 125520
+	trait="child_of_concubine_male"
+	1211.1.1 = {
+		birth = yes
+	}
+	1227.12.2={
+		dynasty_house = house_Toluid
+	}
+	1252.1.1 = {
+		death = yes
+	}
+}
+166922 = {
+	name = "Qutughtu" # son of Tolui
+	dynasty = 11100
+	religion = "tengri_pagan"
+	culture = "mongol"
+	father = 125520
+	trait="child_of_concubine_male"
+	1214.1.1 = {
+		birth = yes
+	}
+	1227.12.2={
+		dynasty_house = house_Toluid
+	}
+	1240.1.1 = {
+		death = yes
+	}
+}
+166923 = {
+	name = "Bujek" # son of Tolui
+	dynasty = 11100
+	religion = "tengri_pagan"
+	culture = "mongol"
+	father = 125520
+	mother=172010
+	1221.1.1 = {
+		birth = yes
+	}
+	1227.12.2={
+		dynasty_house = house_Toluid
+	}
+	1255.1.1 = {
+		death = yes
+	}
+}
+166924 = {
+	name = "Mukha" # son of Tolui
+	dynasty = 11100
+	religion = "tengri_pagan"
+	culture = "mongol"
+	father = 125520
+	trait="child_of_concubine_male"
+	1222.1.1 = {
+		birth = yes
+	}
+	1227.12.2={
+		dynasty_house = house_Toluid
+	}
+	1261.1.1 = {
+		death = yes
+	}
+}
+166925 = {
+	name = "Satukhtai" # son of Tolui
+	dynasty = 11100
+	religion = "tengri_pagan"
+	culture = "mongol"
+	father = 125520
+	trait="twin"
+	trait="child_of_concubine_male"
+	1225.1.1 = {
+		birth = yes
+	}
+	1227.12.2={
+		dynasty_house = house_Toluid
+	}
+	1268.1.1 = {
+		death = yes
+	}
+}
+166926 = {
+	name = "Sabukhtai" # son of Tolui
+	dynasty = 11100
+	religion = "tengri_pagan"
+	culture = "mongol"
+	father = 125520
+	trait="twin"
+	trait="child_of_concubine_male"
+	1225.1.1 = {
+		birth = yes
+	}
+	1227.12.2={
+		dynasty_house = house_Toluid
+	}
+	1277.1.1 = {
+		death = yes
+	}
+}
+166927 = {
+	name="Oghul Khoimish" #concubine of Tolui and second wife of Möngke Khan
+	female=yes
+	dynasty=11100
+	religion="tengri_pagan"
+	culture="mongol"
+	trait="beauty_good_1"
+	#father=166900
+	mother=166874
+	1211.1.1={
+		birth=yes
+	}
+	1254.1.1={
+		death=yes
+	}
+}
+166928 = {
+	name = "Shirin" # daughter of Möngke
+	female=yes
+	dynasty_house = house_Toluid
+	religion = "tengri_pagan"
+	culture = "mongol"
+	father = 217265
+	mother=166927
+	1233.1.1 = {
+		birth = yes
+	}
+	1283.1.1 = {
+		death = yes
+	}
+}
+166929 = {
+	name = "Bichike" # daughter of Möngke
+	female=yes
+	dynasty_house = house_Toluid
+	religion = "tengri_pagan"
+	culture = "mongol"
+	father = 217265
+	mother=166927
+	1238.1.1 = {
+		birth = yes
+	}
+	1294.1.1 = {
+		death = yes
+	}
+}
+166930 = {
+	name="Qutuqui" #first wife of Möngke Khan
+	female=yes
+	dynasty=1040076
+	religion="tengri_pagan"
+	culture="mongol"
+	1205.1.1={
+		birth=yes
+	}
+	1232.1.1={
+		death=yes
+	}
+}
+166931 ={
+	name="Baltu" # son of Möngke
+	dynasty=11100
+	religion="tengri_pagan"
+	culture="mongol"
+	father=217265
+	mother=166930
+	1225.1.1 = {
+		birth = yes
+	}
+	1227.12.2 = {
+		dynasty_house = house_Toluid
+	}
+	1280.1.1 = {
+		death = yes
+	}
+}
+166932 ={
+	name="Urendash" # son of Möngke
+	dynasty_house = house_Toluid
+	religion="tengri_pagan"
+	culture="mongol"
+	father=217265
+	mother=166930
+	1228.1.1 = {
+		birth = yes
+	}
+	1283.1.1 = {
+		death = yes
+	}
+}
+166933 ={
+	name="Baylun" # daughter of Möngke
+	female=yes
+	dynasty_house = house_Toluid
+	religion="tengri_pagan"
+	culture="mongol"
+	father=217265
+	mother=166930
+	1232.1.1 = {
+		birth = yes
+	}
+	1274.1.1 = {
+		death = yes
+	}
+}
+166934 = {
+	name="Chubei" #third wife of Möngke Khan
+	female=yes
+	dynasty=1051140
+	religion="tengri_pagan"
+	culture="mongol"
+	1227.1.1={
+		birth=yes
+	}
+	1259.1.1={
+		death = yes
+	}
+}
+166935 = {
+	name="Bayavchin" #concubine of Möngke Khan
+	female=yes
+	dynasty=1051138 #Bayid
+	religion="tengri_pagan"
+	culture="mongol"
+	1214.1.1={
+		birth=yes
+	}
+	1257.1.1={
+		death = yes
+	}
+}
+166936 ={
+	name="Shiregi" # son of Möngke
+	dynasty_house = house_Toluid
+	religion="tengri_pagan"
+	culture="mongol"
+	father=217265
+	mother=166935
+	trait="child_of_concubine_male"
+	1233.1.1 = {
+		birth = yes
+	}
+	1278.1.1 = {
+		death = yes
+	}
+}
+166937 ={
+	name="Asutai" # son of Möngke
+	dynasty_house = house_Toluid
+	religion="tengri_pagan"
+	culture="mongol"
+	father=217265
+	mother=166938
+	trait="child_of_concubine_male"
+	1240.1.1 = {
+		birth = yes
+	}
+	1266.1.1 = {
+		death = yes
+	}
+}
+166938 = {
+	name="Quitani" #concubine of Möngke Khan
+	female=yes
+	dynasty=1051138 #Bayid
+	religion="tengri_pagan"
+	culture="mongol"
+	father=93255
+	1221.1.1={
+		birth=yes
+	}
+	1250.1.1={
+		death = yes
+	}
+}
+166940 = {
+	name="Doquz" #Doquz Khatun, wife of Hulagu
+	female=yes
+	dynasty=1041002
+	religion="nestorian"
+	culture="mongol"
+	#father=166895
+	trait="beauty_good_1"
+	trait="compassionate"
+	trait="just"
+	1214.1.1={
+		birth=yes
+	}
+	1265.6.1={
+		death=yes
+	}
+}
+166941 = {
+	name="Yoshmut" #third son of Hulagu
+	dynasty_house = house_Toluid
+	religion="tengri_pagan"
+	culture="mongol"
+	father=478011
+	mother=166940
+	trait="wrathful"
+	1237.1.1={
+		birth=yes
+	}
+	1246.1.1 = {
+		add_spouse = Shansabanifemale
+	}
+	1279.1.1={
+		death=yes
+	}
+}
+166945 = {
+	name="Alagh" #chief wife of Nogai
+	female=yes
+	dynasty=7316
+	religion="tengri_pagan"
+	culture="mongol"
+	1243.1.1={
+		birth=yes
+	}
+	1288.1.1={
+		death=yes
+	}
+}
+166947 = {
+	name="Haimash" #concubine of Abaqa Khan
+	female=yes
+	dynasty=1041001
+	religion="nestorian"
+	culture="mongol"
+	1242.1.1={
+		birth=yes
+	}
+	1280.1.1={
+		death=yes
+	}
+}
+166948 = {
+	name="Kököchin"
+	# AKA: Kököchin, wife of Ghazan
 	female = yes
-	dynasty = 1051138	#Bayad
-	religion = tengri_pagan
-	culture = mongol
-	father = 303140
-	mother = bayad0001
-	1135.10.17 = {
-		birth = yes
+	dynasty=1051138
+	religion="tengri_pagan"
+	culture="mongol"
+	trait="beauty_good_1"
+	1274.1.1={
+		birth=yes
 	}
-	1224.3.3 = {
-		death = yes
+	1317.1.1={
+		death=yes
 	}
 }
-
-bayad0004 = {
-	name = "Hogelun"
+166949 = {
+	name="Qutlugh"
+	# AKA: Qutlugh, wife of Arghun
 	female = yes
-	religion = tengri_pagan
-	culture = mongol
-	1132.2.14 = {
-		birth = yes
+	dynasty=1040078
+	religion="tengri_pagan"
+	culture="mongol"
+	1255.1.1={
+		birth=yes
 	}
-	1188.10.17 = {
-		death = yes
-	}
-}
-
-bayad0005 = {
-	name = "Bartan"
-	dynasty = 1051138	#Bayad
-	religion = tengri_pagan
-	culture = mongol
-	father = 303142
-	mother = bayad0004
-	1152.7.23 = {
-		birth = yes
-	}
-	1200.2.3 = {
-		death = yes
+	1297.1.1={
+		death=yes
 	}
 }
-
-bayad0006 = {
-	name = "Munglig"
-	dynasty = 1051138	#Bayad
-	religion = tengri_pagan
-	culture = mongol
-	father = 303142
-	mother = bayad0004
-	1154.2.28 = {
-		birth = yes
-	}
-	1211.4.26 = {
-		death = yes
-	}
-}
-
-bayad0007 = {
-	name = "Tekine"
+166950 = {
+	name="Uruk" #concubine of Arghun
 	female = yes
-	religion = tengri_pagan
-	culture = mongol
-	1133.1.20 = {
+	dynasty=1041002
+	religion="nestorian"
+	culture="mongol"
+	1260.1.1={
+		birth=yes
+	}
+	1306.1.1={
+		death=yes
+	}
+}
+166952 = {
+	name="Anchen" #father of Chabi
+	dynasty=1051124 # Onggirat
+	religion="tengri_pagan"
+	culture="mongol"
+	1193.1.1 = {
+		birth=yes
+	}
+	1253.1.1 = {
+		death=yes
+	}
+}
+
+#descendants of Temüge
+166953 = {
+	name="Jibügan"
+	dynasty=11100
+	religion="tengri_pagan"
+	culture="mongol"
+	father=166855
+	1192.1.1={
+		birth=yes
+	}
+	1239.1.1={
+		death=yes
+	}
+}
+#descendants of Kublai
+166957 = {
+	name="Tegulen" #Kublai's first wife
+	female=yes
+	dynasty=101946
+	religion="tengri_pagan"
+	culture="mongol"
+	#father=166857
+	#mother=166858
+	1217.1.1={
+		birth=yes
+	}
+	1239.1.1={
+		death=yes
+	}
+}
+166958 = {
+	name="Dorji" # First Son of Kublai Khan
+	dynasty_house = house_Toluid
+	religion="tengri_pagan"
+	culture="mongol"
+	father=217266
+	mother=217267
+	trait="sickly"
+	1239.1.1 = {
+		birth=yes
+	}
+	1255.8.21 = {
+		dynasty_house = house_Kublaid
+	}
+	1256.1.1 = {
+		death=yes
+	}
+}
+166959 = {
+	name="Manggala" # Son of Kublai Khan
+	dynasty_house = house_Toluid
+	religion="lamaism"
+	culture="mongol"
+	father=217266
+	mother=217267
+	1245.1.1 = {
+		birth=yes
+	}
+	1255.8.21 = {
+		dynasty_house = house_Kublaid
+	}
+	1290.1.1 = {
+		death=yes
+	}
+}
+166960 = {
+	name="Nomukhan" # Son of Kublai Khan
+	dynasty_house = house_Toluid
+	religion="tengri_pagan"
+	culture="mongol"
+	father=217266
+	mother=217267
+	1246.1.1 = {
+		birth=yes
+	}
+	1255.8.21 = {
+		dynasty_house = house_Kublaid
+	}
+	1288.1.1 = {
+	death=yes
+	}
+}
+166966 = {
+	name="Khutugh Beki" # Daughter of Kublai Khan, mother of Chungseon of Korea
+	female=yes
+	dynasty_house = house_Kublaid
+	religion="lamaism"
+	culture="mongol"
+	father=217266
+	#mother=166957
+	trait="beauty_good_1"
+	1259.1.1 = {
+		birth=yes
+	}
+	1297.1.1 = {
+		death=yes
+	}
+}
+166967 = {
+	name="Agsaldai"
+	dynasty=1051124 # Onggirat
+	religion="tengri_pagan"
+	culture="mongol"
+	father=166952
+	1211.1.1 = {
+		birth=yes
+	}
+	1273.1.1 = {
+		death=yes
+	}
+}
+188999 = {
+	name="Kül-Bolat"
+	religion="tengri_pagan"
+	culture="mongol"
+	1205.1.1 = { #?
+		birth=yes
+	}
+	1254.1.1 = { #?
+		death=yes
+	}
+}
+166968 = {
+	name="Nambui" #third wife of Kublai
+	female=yes
+	dynasty=1051124 # Onggirat
+	religion="tengri_pagan"
+	culture="mongol"
+	father=166967
+	1261.1.1 = {
+		birth=yes
+	}
+	1299.1.1 = {
+		death=yes
+	}
+}
+166969 = {
+	name="Khulan Temür" # Son of Kublai Khan
+	dynasty_house = house_Kublaid
+	religion="lamaism"
+	culture="mongol"
+	father=217266
+	mother=166968
+	1282.1.1 = {
+		birth=yes
+	}
+	1328.1.1 = {
+	death=yes
+	}
+}
+166970 = {
+	name="Tsever" # Son of Kublai Khan
+	dynasty_house = house_Kublaid
+	religion="lamaism"
+	culture="mongol"
+	father=217266
+	mother=166968
+	1285.1.1 = {
+		birth=yes
+	}
+	1330.1.1 = {
+		death=yes
+	}
+}
+166971 = {
+	name="Kökejin" # wife of Jingim Zhenjin
+	female=yes
+	dynasty=1040080
+	religion="lamaism"
+	culture="mongol"
+	1242.1.1 = {
+		birth=yes
+	}
+	1298.1.1 = {
+		death=yes
+	}
+}
+166979 = {
+	name="Batachikhan" # son of Ariq Boke
+	dynasty_house = house_Toluid
+	religion="tengri_pagan"
+	culture="mongol"
+	father=125526
+	1242.1.1={
+		birth=yes
+	}
+	1293.1.1={
+		death=yes
+	}
+}
+166980 = {
+	name="Bolad" # grandson of Ariq Boke
+	dynasty_house = house_Toluid
+	religion="tengri_pagan"
+	culture="mongol"
+	father=166979
+	1265.1.1={
+		birth=yes
+	}
+	1324.1.1={
+		death=yes
+	}
+}
+166981 = {
+	name="Babukhan" # wife of Yesün Temür
+	female=yes
+	dynasty=1051125
+	religion="vajrayana"
+	culture="mongol"
+	1301.1.1 = {
+		birth=yes
+	}
+	1333.1.1 = {
+		death=yes
+	}
+}
+166982 = {
+	name="Budashiri" # wife of Tugh Temur Khan
+	female=yes
+	dynasty=1051125
+	religion="vajrayana"
+	culture="mongol"
+	1303.1.1 = {
+		birth=yes
+	}
+	1342.1.1 = {
+		death=yes
+	}
+}
+166984 = {
+	name="Babusha" # wife of Khutughtu Khan
+	female=yes
+	dynasty=1041001 #Naiman
+	religion="nestorian"
+	culture="mongol"
+	1302.1.1 = {
+		birth=yes
+	}
+	1331.1.1 = {
+	death=yes
+	}
+}
+166985 = {
+	name="Aratnadara" # son of Tugh Temur Khan
+	dynasty_house = house_Kublaid
+	religion="vajrayana"
+	culture="mongol"
+	father=217281
+	mother=166982
+	1322.1.1 = {
+		birth=yes
+	}
+	1331.2.1 = {
+	death=yes
+	}
+}
+# Chagatai's Family
+sons_of_chagatai_001 = {
+	name = "Mochi Yebe" # First son but not given high regard by his papa Chagatai :(
+	dynasty_house = house_Chagatayid
+	religion = "tengri_pagan"
+	culture = "mongol"
+	father = 93062
+	trait = child_of_concubine_female
+	trait = education_martial_4
+	trait = brave
+	trait = ambitious
+	trait = humble
+	1198.1.1 = {
 		birth = yes
 	}
-	1198.7.20 = {
+	1240.1.1 = {
+		death = yes
+	}
+}
+sons_of_mochi_yebe_001 = {
+	name = "Teguder" # Commander in Georgia
+	dynasty_house = house_Chagatayid
+	religion = "tengri_pagan"
+	culture = "mongol"
+	father = sons_of_chagatai_001
+	trait = education_martial_4
+	trait = brave
+	trait = ambitious
+	trait = diligent # He's really gonna die of stress XD
+	1214.1.1 = {
+		birth = yes
+	}
+	1257.1.2 = { # The Mongol Adventurer
+		effect = {
+			add_gold = 1000
+			add_piety = 1000
+			add_prestige = 1000
+		}
+		trait = adventurer
+		spawn_army = {
+			levies = 1500
+			horse_archers = 700
+			location = province:5268 # Odessa
+			origin = province:5268 # optional, location used if not set. This is used for where to base bonuses and the like on
+			name = Teguder_Adventurers
+			inheritable = yes
+			uses_supply = yes
+		}
+	}
+	1272.1.1 = { # Got imprisoned for a year in late 1269
+		death = yes
+	}
+}
+sons_of_mochi_yebe_002 = {
+	name = "Baidu" # Fictional birth name, a commander under Baraq
+	dynasty_house = house_Chagatayid
+	religion = "tengri_pagan"
+	culture = "mongol"
+	father = sons_of_chagatai_001
+	trait = education_martial_3
+	trait = brave
+	trait = zealous
+	trait = diligent
+	1215.1.1 = {
+		birth = yes
+	}
+	1233.1.1 = { # Fictional date but it is his true name maybe after conversion
+		religion = "ashari"
+		name = "Ahmad"
+	}
+	1270.1.1 = {
+		death = yes
+	}
+}
+sons_of_mochi_yebe_003 = {
+	name = "Tekshi"
+	dynasty_house = house_Chagatayid
+	religion = "tengri_pagan"
+	culture = "mongol"
+	father = sons_of_chagatai_001
+	trait = humble # Not much is known about him except he did exist
+	trait = content # Didn't even try to take his claim of the Chagatai Khanate
+	1216.1.1 = {
+		birth = yes
+	}
+	1270.1.1 =
+		death = yes
+	}
+}
+sons_of_mochi_yebe_004 = {
+	name = "Nom-Quli"
+	dynasty_house = house_Chagatayid
+	religion = "tengri_pagan"
+	culture = "mongol"
+	father = sons_of_chagatai_001
+	trait = humble # Not much is known about him except he did exist
+	1217.1.1 = {
+		birth = yes
+	}
+	1270.1.1 =
+		death = yes
+	}
+}
+sons_of_mochi_yebe_005 = {
+	name = "Bük-Buqa"
+	dynasty_house = house_Chagatayid
+	religion = "tengri_pagan"
+	culture = "mongol"
+	father = sons_of_chagatai_001
+	trait = humble # Not much is known about him except he did exist
+	1218.1.1 = {
+		birth = yes
+	}
+	1270.1.1 =
+		death = yes
+	}
+}
+sons_of_mochi_yebe_006 = {
+	name = "Temüder" # THE MURDERER XD
+	dynasty_house = house_Chagatayid
+	religion = "tengri_pagan"
+	culture = "mongol"
+	father = sons_of_chagatai_001
+	trait = education_intrigue_4 # For fun sake let's give a play to his name LOL
+	trait = humble # Not much is known about him except he did exist
+	trait = deceitful
+	trait = sadistic
+	1219.1.1 = {
+		birth = yes
+	}
+	1270.1.1 =
+		death = yes
+	}
+}
+sons_of_mochi_yebe_007 = {
+	name = "Qotan"
+	dynasty_house = house_Chagatayid
+	religion = "tengri_pagan"
+	culture = "mongol"
+	father = sons_of_chagatai_001
+	trait = humble # Not much is known about him except he did exist
+	1220.1.1 = {
+		birth = yes
+	}
+	1270.1.1 =
+		death = yes
+	}
+}
+sons_of_mochi_yebe_008 = {
+	name = "Cheche"
+	dynasty_house = house_Chagatayid
+	religion = "tengri_pagan"
+	culture = "mongol"
+	father = sons_of_chagatai_001
+	trait = humble # Not much is known about him except he did exist
+	1221.1.1 = {
+		birth = yes
+	}
+	1270.1.1 =
+		death = yes
+	}
+}
+sons_of_mochi_yebe_009 = {
+	name = "Chichektü"
+	dynasty_house = house_Chagatayid
+	religion = "tengri_pagan"
+	culture = "mongol"
+	father = sons_of_chagatai_001
+	trait = humble # Not much is known about him except he did exist
+	1222.1.1 = {
+		birth = yes
+	}
+	1270.1.1 =
+		death = yes
+	}
+}
+sons_of_mochi_yebe_010 = {
+	name = "Ishal"
+	dynasty_house = house_Chagatayid
+	religion = "tengri_pagan"
+	culture = "mongol"
+	father = sons_of_chagatai_001
+	trait = humble # Not much is known about him except he did exist
+	1223.1.1 = {
+		birth = yes
+	}
+	1270.1.1 =
+		death = yes
+	}
+}
+sons_of_mochi_yebe_011 = {
+	name = "Toghan"
+	dynasty_house = house_Chagatayid
+	religion = "tengri_pagan"
+	culture = "mongol"
+	father = sons_of_chagatai_001
+	trait = humble # Not much is known about him except he did exist
+	1224.1.1 = {
+		birth = yes
+	}
+	1270.1.1 =
+		death = yes
+	}
+}
+sons_of_chagatai_002 = {
+	name = "Baiju" 
+	dynasty_house = house_Chagatayid
+	religion = "tengri_pagan"
+	culture = "mongol"
+	father = 93062
+	trait = child_of_concubine_female
+	1230.1.1 = {
+		birth = yes
+	}
+	1277.1.1={
+		death = yes
+	}
+}
+sons_of_baiju_001 = {
+	name = "Mochi" # Commander of Qara'unas, a Mongol people later settle in Afghanistan
+	dynasty_house = house_Chagatayid
+	religion = "tengri_pagan"
+	culture = "mongol"
+	father = sons_of_chagatai_002
+	trait = education_martial_4
+	trait = brave
+	1248.1.1 = {
+		birth = yes
+	}
+	1305.1.1={
 		death = yes
 	}
 }
 
-bayad0008 = {
-	name = "Khojin"
+242110 = {
+	name="Jochi" # baptised as John by Catholic missionaries at age of 7
+	dynasty_house = house_Chagatayid
+	religion="tengri_pagan"
+	culture="chagatai"
+	father=93086
+	1330.1.1={
+		birth="1330.1.1"
+	}
+	1337.1.1={
+		religion=nestorian
+	}
+	1338.1.1={
+		death="1338.1.1"
+	}
+}
+
+242111 = {
+	name="Yesun Temur" 
+	dynasty_house = house_Chagatayid
+	religion="tengri_pagan"
+	
+	culture="chagatai"
+
+	father=93085
+	1315.1.1={
+		birth="1315.1.1"
+	}
+	1338.1.1={
+		death="1338.1.1"
+	}
+}
+
+244010 = { # fictitious mongol
+  dynasty = 1000054561 # Yasa'uri
+  name = "Jamugha"
+  religion = tengri_pagan
+  culture = mongol
+
+  1251.2.10 = {
+    birth = yes
+  }
+  1300.1.1 = {
+	culture = chagatai
+  }
+  1305.12.10 = {
+    death = yes
+  }
+}
+244011 = { # fictitious mongol
+  dynasty = 1000054561 # Yasa'uri
+  name = "Nakhu"
+  religion = tengri_pagan
+  culture = mongol
+  father=244010
+
+  1274.1.1 = {
+    birth = yes
+  }
+  1300.1.1 = {
+	culture = chagatai
+  }
+  1333.1.1 = {
+    death = yes
+  }
+}
+244012 = { # fictitious mongol
+  dynasty = 1000054561 # Yasa'uri
+  name = "Menggei"
+  religion = tengri_pagan
+  culture = chagatai
+  father=244011
+
+  1300.1.1 = {
+    birth = yes
+  }
+  1350.1.1 = {
+    death = yes
+  }
+}
+
+248191 = {
+	name="Qutlugh-Khwaja" # Sources say he was Duwas son who moved to Afghanistan
+	dynasty_house = house_Chagatayid
+	religion="tengri_pagan"
+	culture="mongol"
+
+	father=93075
+	1269.1.1={
+		birth=yes
+	}
+	1300.1.1 = {
+		culture = chagatai
+	}
+	1338.1.1={
+		death=yes
+	}
+}
+248192 = {
+	name="Dawud-Khoja"
+	dynasty_house = house_Chagatayid
+	religion="tengri_pagan"
+	culture="chagatai"
+
+	father=248191
+	1290.1.1={
+		birth=yes
+	}
+	1320.1.1={
+		religion=ashari
+		
+	}
+	1350.1.1={
+		death=yes
+	}
+}
+
+
+#siblings of Genghis
+166851 = {
+	name="Sochigel"
+	female=yes
+	religion="tengri_pagan"
+	culture="mongol"
+	1135.1.1={
+		birth=yes
+	}
+	1169.1.1={
+		death=yes
+	}
+}
+166853 = {
+	name = "Belgütei"
+	dynasty = 11100
+	martial=7
+	stewardship=6
+	religion = tengri_pagan
+	culture = mongol
+	trait="education_martial_2"
+	trait="strong"
+	trait="physique_good_2"
+	trait="child_of_concubine_male"
+	father = 93055
+	mother=166851
+	1151.1.1 = {
+		birth = yes
+	}
+	1251.9.1 = {
+		death = yes
+	}
+}
+166854 = {
+	name = "Hachiun"
+	dynasty = 11100
+	religion = tengri_pagan
+	culture = mongol
+	father=93055
+	mother=172003
+	1166.1.1 = {
+		birth = yes
+	}
+	1225.1.1 = { #?
+		death = yes
+	}
+}
+166855 = {
+	name = "Temüge"
+	dynasty = 11100
+	martial=6
+	stewardship=7
+	religion = tengri_pagan
+	culture = mongol
+	trait="education_stewardship_2"
+	trait="gregarious"
+	trait="ambitious"
+	father=93055
+	mother=172003
+	1168.1.1 = {
+		birth = yes
+	}
+	1246.1.1 = {
+		death = yes
+	}
+}
+166856 = {
+	name="Temülen"
+	female=yes
+	dynasty=11100
+	religion="tengri_pagan"
+	culture="mongol"
+	father=93055
+	mother=172003
+	1168.1.1={
+		birth=yes
+	}
+	1219.1.1={
+		death=yes
+	}
+}
+#Concubines of Genghis
+166864 = {
+	name="Khulan" # Secondary Wife of Genghis Khan
+	female=yes
+	dynasty=1040072
+	religion="tengri_pagan"
+	culture="mongol"
+	trait="beauty_good_1"
+	1174.1.1={
+		birth=yes
+	}
+	1215.1.1={
+		death=yes
+	}
+}
+166865 = {
+	name="Kölgen"
+	dynasty=11100
+	religion="tengri_pagan"
+	culture="mongol"
+	trait="child_of_concubine_male"
+	father=125501
+	mother=166864
+	1195.1.1={
+		birth=yes
+	}
+	1238.1.1={
+		death=yes
+	}
+}
+166869 = {
+	name="Yesugen" # Concubine of Genghis Khan
+	female=yes
+	dynasty = 2001153	#dynn_Tatar
+	religion="tengri_pagan"
+	culture="mongol"
+	father=166868
+	1181.1.1={
+		birth=yes
+	}
+	1228.1.1={
+		death=yes
+	}
+}
+166870 = {
+	name="Yesui" # Concubine of Genghis Khan
+	female=yes
+	dynasty = 2001153	#dynn_Tatar
+	religion="tengri_pagan"
+	culture="mongol"
+	father=166868
+	1184.1.1={
+		birth=yes
+	}
+	1236.1.1={
+		death=yes
+	}
+}
+#daughters of Genghis Khan
+166871 = {
+	name="Khochen"
+	female=yes
+	dynasty=11100
+	religion="tengri_pagan"
+	culture="mongol"
+	father=125501
+	mother=172004
+	1184.1.1={
+		birth=yes
+	}
+	1223.1.1={
+		death=yes
+	}
+}
+166872 = {
+	name="Alakhai"
+	female=yes
+	dynasty=11100
+	religion="tengri_pagan"
+	culture="mongol"
+	father=125501
+	mother=172004
+	1193.1.1={
+		birth=yes
+	}
+	1252.1.1={
+		death=yes
+	}
+}
+166873 = {
+	name="Tümelün"
+	female=yes
+	dynasty=11100
+	religion="tengri_pagan"
+	culture="mongol"
+	father=125501
+	mother=172004
+	1189.1.1={
+		birth=yes
+	}
+	1249.1.1={
+		death=yes
+	}
+}
+166874 = {
+	name="Checheikhen" #Wife of Qutuqi Beki, chief of the Oirats
+	female=yes
+	dynasty=11100
+	religion="tengri_pagan"
+	culture="mongol"
+	father=125501
+	mother=172004
+	1188.1.1={
+		birth=yes
+	}
+	1235.1.1={
+		death=yes
+	}
+}
+166875 = {
+	name="Altun Begi" #Wife of Barchuq, King of Qocho
+	female=yes
+	dynasty=11100
+	religion="tengri_pagan"
+	culture="mongol"
+	father=125501
+	mother=172004
+	1194.1.1={
+		birth=yes
+	}
+	1252.1.1={
+		death=yes
+	}
+}
+166876 = {
+	name="Altalün"
+	female=yes
+	dynasty=11100
+	religion="tengri_pagan"
+	culture="mongol"
+	father=125501
+	mother=172004
+	1198.1.1={
+		birth=yes
+	}
+	1248.1.1={
+		death=yes
+	}
+}
+
+#Descendants of Jochi
+166896 = {
+	name="Ukhaa" #wife of Jochi
+	female=yes
+	dynasty=101946
+	religion="tengri_pagan"
+	culture="mongol"
+	#father=166861 #brother of 
+	#mother=166856
+	1186.1.1={
+		birth=yes
+	}
+	1238.1.1={
+		death=yes
+	}
+}
+188991 = {
+	name="Berkhechir"
+	dynasty=11100
+	religion="tengri_pagan"
+	culture="mongol"
+	father=125502
+	#mother=166896
+	1210.1.1={
+		birth=yes
+	}
+	1227.12.2={
+		dynasty_house = house_Jochid
+	}
+	1243.1.1={
+		death=yes
+	}
+}
+166898 = {
+	name="Tangad"
+	dynasty=11100
+	religion="tengri_pagan"
+	culture="mongol"
+	father=125502
+	#mother=166896
+	1212.1.1={
+		birth=yes
+	}
+	1227.12.2={
+		dynasty_house = house_Jochid
+	}
+	1259.1.1={
+		death=yes
+	}
+}
+188995 = {
+	name="Qoluyiqan"
+	female=yes
+	dynasty=11100
+	religion="tengri_pagan"
+	culture="mongol"
+	father=125502
+	#mother=166896
+	1214.1.1={
+		birth=yes
+	}
+	1227.12.2={
+		dynasty_house = house_Jochid
+	}
+	1260.1.1={
+		death=yes
+	}
+}
+188992 = {
+	name="Chilagun"
+	dynasty=11100
+	religion="tengri_pagan"
+	culture="mongol"
+	father=125502
+	#mother=166896
+	1215.1.1={
+		birth=yes
+	}
+	1227.12.2={
+		dynasty_house = house_Jochid
+	}
+	1258.1.1={
+		death=yes
+	}
+}
+188998 = {
+	name="Sinqur"
+	dynasty=11100
+	religion="tengri_pagan"
+	culture="mongol"
+	father=125502
+	#mother=166896
+	1217.1.1={
+		birth=yes
+	}
+	1227.12.2={
+		dynasty_house = house_Jochid
+	}
+	1263.1.1={
+		death=yes
+	}
+}
+188989 = {
+	name="Chimbay"
+	dynasty=11100
+	religion="tengri_pagan"
+	culture="mongol"
+	father=125502
+	#mother=166896
+	1218.1.1={
+		birth=yes
+	}
+	1227.12.2={
+		dynasty_house = house_Jochid
+	}
+	1266.1.1={
+		death=yes
+	}
+}
+188997 = {
+	name="Bura"
+	dynasty=11100
+	religion="tengri_pagan"
+	culture="mongol"
+	father=125502
+	1220.1.1={
+		birth=yes
+	}
+	1227.12.2={
+		dynasty_house = house_Jochid
+	}
+	1252.1.1={
+		death=yes
+	}
+}
+188996 = {
+	name="Udur"
+	dynasty=11100
+	religion="tengri_pagan"
+	culture="mongol"
+	father=125502
+	#mother=166896
+	1221.1.1={
+		birth=yes
+	}
+	1227.12.2={
+		dynasty_house = house_Jochid
+	}
+	1267.1.1={
+		death=yes
+	}
+}
+#188988 = {
+#	name="Tuqtemür" #ancestor of the Great Horde Khans; duplicate
+#	dynasty=11100
+#	religion="tengri_pagan"
+#	culture="mongol"
+#	father=125502
+#	mother=166896
+#	1224.1.1={
+#		birth=yes
+#	}
+#	1269.1.1={
+#		death=yes
+#	}
+#}
+188993 = {
+	name="Shingum"
+	dynasty=11100
+	religion="tengri_pagan"
+	culture="mongol"
+	father=125502
+	#mother=166896
+	1226.1.1={
+		birth=yes
+	}
+	1227.12.2={
+		dynasty_house = house_Jochid
+	}
+	1259.1.1={
+		death=yes
+	}
+}
+188994 = {
+	name = "Tuqa-TemU_r" # AKA Tuqa-Timur
+	dynasty = 11100
+	religion = "tengri_pagan"
+	culture = "mongol"
+	father = 125502
+	1227.1.1 = {
+		birth = yes
+	}
+	1227.12.2 = {
+		dynasty_house = house_Jochid
+	}
+	1257.1.1 = {
+		religion = "ashari"
+	}
+	1260.1.1 = {
+		death = yes
+	}
+}
+sons_of_tuqa_timur_001 = {
+	name = "Bay-Timur"
+	dynasty_house = house_Jochid
+	religion = "tengri_pagan"
+	culture = "mongol"
+	father = 188994
+	1237.1.1 = {
+		birth = yes
+	}
+	1257.1.1 = {
+		religion = "ashari"
+	}
+	1270.1.1 = {
+		death = yes
+	}
+}
+sons_of_tuqa_timur_002 = {
+	name = "Bayan"
+	dynasty_house = house_Jochid
+	religion = "tengri_pagan"
+	culture = "mongol"
+	father = 188994
+	1238.1.1 = {
+		birth = yes
+	}
+	1257.1.1 = {
+		religion = "ashari"
+	}
+	1275.1.1 = {
+		death = yes
+	}
+}
+sons_of_tuqa_timur_003 = {
+	name = "Urung-Timur"
+	dynasty_house = house_Jochid
+	religion = "tengri_pagan"
+	culture = "mongol"
+	father = 188994
+	1239.1.1 = {
+		birth = yes
+	}
+	1257.1.1 = {
+		religion = "ashari"
+	}
+	1280.1.1 = {
+		death = yes
+	}
+}
+sons_of_tuqa_timur_004 = {
+	name = "Kay-Timur"
+	dynasty_house = house_Jochid
+	religion = "tengri_pagan"
+	culture = "mongol"
+	father = 188994
+	1240.1.1 = {
+		birth = yes
+	}
+	1257.1.1 = {
+		religion = "ashari"
+	}
+	1280.1.1 = {
+		death = yes
+	}
+}
+166897 = {
+	name="Borakchin" #wife of Batu Khan
+	female=yes
+	dynasty=101946
+	religion="tengri_pagan"
+	culture="mongol"
+	#father=188987
+	1207.1.1={
+		birth=yes
+	}
+	1267.1.1={
+		death=yes
+	}
+}
+188990 = {
+	name="Andewan"
+	dynasty=11100
+	religion="tengri_pagan"
+	culture="mongol"
+	father=125503
+	mother=166897
+	1226.1.1={
+		birth=yes
+	}
+	1227.12.2={
+		dynasty_house = house_Jochid
+	}
+	1260.1.1={
+		death=yes
+	}
+}
+
+#descendants of Chagatai
+166899 = {
+	name="Yesulun Khatun" #wife of Chagatai
+	female=yes
+	dynasty=101946
+	religion="tengri_pagan"
+	culture="mongol"
+	1184.1.1={
+		birth=yes
+	}
+	1254.1.1={
+		death=yes
+	}
+}
+166904 = {
+	name="Orghana" #wife of Qara Hülögü and Alghu
+	female=yes
+	dynasty=11100
+	religion="tengri_pagan"
+	culture="mongol"
+	trait="beauty_good_1"
+	trait="education_diplomacy_4"
+	#father=166900
+	mother=166874
+	1221.1.1={
+		birth=yes
+	}
+	1266.6.1={
+		death=yes
+	}
+}
+166908 = {
+	name="Oghul Qaimish" #wife of Güyük Khan
+	female=yes
+	dynasty=1051139 #Merkit
+	religion="tengri_pagan"
+	culture="mongol"
+	#father=166907
+	1204.1.1={
+		birth=yes
+	}
+	1251.1.1={
+		death = yes
+	}
+}
+166909 = {
+	name="Borakchin" #first wife of Ögedei
+	female=yes
+	dynasty=1040066 # Jadaran
+	religion="tengri_pagan"
+	culture="mongol"
+	#father=166796
+	1185.1.1={
+		birth=yes
+	}
+	1228.1.1={
+		death=yes
+	}
+}
+#166910 = {
+#	name="Shiremun"
+#	dynasty=11100
+#	religion="tengri_pagan"
+#	culture="mongol"
+#	father=172009
+#	1224.1.1={
+#		birth=yes
+#	}
+#	1227.12.2={
+#		dynasty_house = house_Ogodeid
+#	}
+#	1251.1.1={
+#		death=yes
+#	}
+#}
+166911 = {
+	name="Khoja"
+	dynasty=11100
+	religion="tengri_pagan"
+	culture="mongol"
+	father=172007
+	mother=166908
+	1222.1.1={
+		birth=yes
+	}
+	1227.12.2={
+		dynasty_house = house_Ogodeid
+	}
+	1256.1.1={
+		death = yes
+	}
+}
+166912 = {
+	name="Naqu"
+	dynasty=11100
+	religion="tengri_pagan"
+	culture="mongol"
+	father=172007
+	mother=166908
+	1226.1.1={
+		birth=yes
+	}
+	1227.12.2={
+		dynasty_house = house_Ogodeid
+	}
+	1268.1.1={
+		death = yes
+	}
+}
+166951 = {
+	name="Khochu"
+	dynasty=11100
+	religion="tengri_pagan"
+	culture="mongol"
+	father=172005
+	mother=172006
+	1210.1.1={
+		birth="1210.1.1"
+	}
+	1227.12.2={
+		dynasty_house = house_Ogodeid
+	}
+	1236.1.1={
+		death = yes
+	}
+}
+166913 = {
+	name="Khorachar"
+	dynasty=11100
+	religion="tengri_pagan"
+	culture="mongol"
+	father=172005
+	mother=172006
+	1210.1.1={
+		birth=yes
+	}
+	1227.12.2={
+		dynasty_house = house_Ogodeid
+	}
+	1255.1.1={
+		death = yes
+	}
+}
+166914 = {
+	name="Melig"
+	dynasty=11100
+	religion="tengri_pagan"
+	culture="mongol"
+	father=172005
+	mother=166909
+	trait="child_of_concubine_male"
+	1215.1.1={
+		birth=yes
+	}
+	1227.12.2={
+		dynasty_house = house_Ogodeid
+	}
+	1260.1.1={
+		death = yes
+	}
+}
+166915 = {
+	name = "Chapar" # Son of Kaidu
+	dynasty_house = house_Ogodeid
+	religion = "tengri_pagan"
+	culture = "mongol"
+	father = 217305
+	1250.1.1 = {
+		birth = yes
+	}
+	1309.1.1 = {
+		death = yes
+	}
+}
+166916 = {
+	name = "Orus" # Son of Kaidu
+	dynasty_house = house_Ogodeid
+	religion = "tengri_pagan"
+	culture = "mongol"
+	father = 217305
+	1262.1.1 = {
+		birth = yes
+	}
+	1315.1.1 = {
+		death = yes
+	}
+}
+166917 = {
+	name="Ajai"
+	dynasty_house = house_Ogodeid
+	religion="tengri_pagan"
+	culture="mongol"
+	father=172008
+	1238.1.1={
+		birth=yes
+	}
+	1260.1.1={
+		religion="ashari"
+	}
+	1296.1.1={
+		death=yes
+	}
+}
+166918 = {
+	name="Ali Khalil"
+	dynasty_house = house_Ogodeid
+	religion="ashari"
+	culture="mongol"
+	father=166917
+	1275.1.1={
+		birth=yes
+	}
+	1342.1.1={
+		death=yes
+	}
+}
+166919 = {
+	name="Danishmendji"
+	dynasty_house = house_Ogodeid
+	religion="ashari"
+	culture="mongol"
+	father=166918
+	1293.1.1={
+		birth=yes
+	}
+	1348.1.1={
+		death=yes
+	}
+}
+166920 = {
+	name="Suurgatmish"
+	dynasty_house = house_Ogodeid
+	religion="ashari"
+	culture="mongol"
+	father=166919
+	1315.1.1={
+		birth=yes
+	}
+	1384.1.1={
+		death=yes
+	}
+}
+
+248204 = {
+	name="Yasaur" # fictional ruler of historical tribe in afghanistan
+	dynasty=1059025
+	religion="tengri_pagan"
+	culture="mongol"
+	1200.1.1={
+		birth=yes
+	}
+	1260.1.1={
+		death=yes
+	}
+}
+248205 = {
+	name="Bolkhada" # fictional ruler of historical tribe in afghanistan
+	dynasty=1059025
+	religion="tengri_pagan"
+	culture="mongol"
+	father=248204
+	1225.1.1={
+		birth=yes
+	}
+	1260.1.1={
+		religion=maturidi
+	}
+	1290.1.1={
+		death=yes
+	}
+}
+248206 = {
+	name="Chotan" # fictional
+	female=yes
+	dynasty=1059025
+	religion="tengri_pagan"
+	culture="mongol"
+	father=248204
+	
+	1227.1.1={
+		birth=yes
+	}
+	1286.1.1={
+		death=yes
+	}
+}
+248207 = {
+	name="Altan" # fictional ruler of historical tribe in afghanistan
+	dynasty=1059025
+	religion="maturidi"
+	culture="mongol"
+	father=248205
+
+	1261.1.1={
+		birth=yes
+	}
+	1318.1.1={
+		death=yes
+	}
+}
+248208 = {
+	name="Doguz" # fictional
+	female=yes
+	dynasty=1059025
+	religion="maturidi"
+	culture="mongol"
+	father=248205
+	
+	1264.1.1={
+		birth=yes
+	}
+	1307.1.1={
+		death=yes
+	}
+}
+248209 = {
+	name="Khal" # fictional ruler of historical tribe in afghanistan
+	dynasty=1059025
+	religion="maturidi"
+	culture="mongol"
+	
+	father=248207
+	1290.1.1={
+		birth=yes
+	}
+	1338.1.1={
+		death=yes
+	}
+}
+248210 = {
+	name="Yesunge" # fictional ruler of historical tribe in afghanistan
+	dynasty=1059025
+	religion="maturidi"
+	culture="mongol"
+	
+	father=248209
+	1310.1.1={
+		birth=yes
+	}
+	1350.1.1={
+		death=yes
+	}
+}
+248211 = {
+	name="Khadagan" # fictional
+	female=yes
+	dynasty=1059025
+	religion="maturidi"
+	culture="mongol"
+	
+	father=248209
+	1309.1.1={
+		birth=yes
+	}
+	1360.1.1={
+		death=yes
+	}
+}
+
+248212 = {
+	name="Daifu" # powerful governor mentioned in sources
+	dynasty=1059029 # a tribe mentioned in Mongol sources
+	religion="tengri_pagan"
+	culture="mongol"
+	trait=strong
+	trait=education_martial_3
+
+	1200.1.1={
+		birth=yes
+	}
+	1271.1.1={
+		death=yes
+	}
+}
+248213 = {
+	name="Nogai" # fictional
+	dynasty=1059029
+	religion="tengri_pagan"
+	culture="mongol"
+	father=248212
+
+	1235.1.1={
+		birth=yes
+	}
+	1300.1.1={
+		death=yes
+	}
+}
+248214 = {
+	name="Tumen" # fictional
+	dynasty=1059029
+	religion="tengri_pagan"
+	culture="mongol"
+	father=248213
+
+	1270.1.1={
+		birth=yes
+	}
+	1300.1.1 = {
+		culture = "chagatai"
+	}
+	1338.1.1={
+		death=yes
+	}
+}
+248215 = {
+	name="Yeke" # fictional
+	dynasty=1059029
+	religion="tengri_pagan"
+	culture="chagatai"
+	father=248214
+
+	1292.1.1={
+		birth=yes
+	}
+	1350.1.1={
+		death=yes
+	}
+}
+
+
+
+
+#248180 = {
+#   name="Qarachar"
+#   dynasty_house = house_barlas
+#   religion="tengri_pagan"
+#   culture="mongol"
+#   trait=education_martial_2
+#   1160.1.1={
+#     birth=yes
+#   }
+#   1227.1.1={
+#     death=yes
+#   }
+#}
+#
+#248181 = {
+#   name="Ildiz"
+#   dynasty_house = house_barlas
+#   religion="tengri_pagan"
+#   culture="mongol"
+#   father=248180
+#   1190.1.1={
+#     birth=yes
+#   }
+#   1250.1.1={
+#     death=yes
+#   }
+#}
+
+248182 = {
+   name="Ajai" # fictional
+   dynasty_house = house_barlas
+   religion="tengri_pagan"
+   culture="mongol"
+   father=ichil
+   1225.1.1={
+     birth=yes
+   }
+   1250.1.1={
+	 religion=maturidi
+	 
+   }
+   1290.1.1={
+     death=yes
+   }
+}
+248183 = {
+   name="Khadagan" # fictional
+   female=yes
+   dynasty_house = house_barlas
+   religion="tengri_pagan"
+   culture="mongol"
+   father=ichil
+   1232.1.1={
+     birth=yes
+   }
+   1250.1.1={
+	 religion=maturidi
+	
+   }
+   1300.1.1={
+     death=yes
+   }
+}
+
+248184 = {
+   name="Oljaitu" # fictional
+   dynasty_house = house_barlas
+   religion="tengri_pagan"
+   culture="mongol"
+   father=248182
+   1248.1.1={
+     birth=yes
+   }
+   1250.1.1={
+	 religion=maturidi
+	
+   }
+   1305.1.1={
+     death=yes
+   }
+}
+
+248185 = {
+   name="Vahide" # fictional
+   female=yes
+   dynasty_house = house_barlas
+   religion="tengri_pagan"
+   culture="mongol"
+   father=248182
+   1249.1.1={
+     birth=yes
+   }
+   1250.1.1={
+	 religion=maturidi
+	
+   }
+   1300.1.1={
+     death=yes
+   }
+}
+
+248186 = {
+   name="Alaeddin" # fictional
+   dynasty_house = house_barlas
+   religion="maturidi"
+   culture="mongol"
+   father=248184
+   1270.1.1={
+     birth=yes
+   }
+   1300.1.1={
+	 culture=chagatai
+	
+   }
+   1330.1.1={
+     death=yes
+   }
+}
+
+248187 = {
+   name="Zuhal" # fictional
+   female=yes
+   dynasty_house = house_barlas
+   religion="maturidi"
+   culture="mongol"
+   father=248184
+   1274.1.1={
+     birth=yes
+   }
+   1300.1.1={
+	 culture=chagatai
+	
+   }   
+   1320.1.1={
+     death=yes
+   }
+}
+
+248188 = {
+   name="Hasan" # fictional
+   dynasty_house = house_barlas
+   religion="maturidi"
+   culture="chagatai"
+   father=248186
+   1290.1.1={
+     birth=yes
+   }
+   1338.1.1={
+     death=yes
+   }
+}
+
+248189 = {
+   name="Hajji" # fictional
+   dynasty_house = house_barlas
+   religion="maturidi"
+   culture="chagatai"
+   father=248188
+   1320.1.1={
+     birth=yes
+   }
+   1338.1.1={
+     death=yes
+   }
+}
+248190 = {
+   name="Songul" # fictional
+   female=yes
+   dynasty_house = house_barlas
+   religion="maturidi"
+   culture="chagatai"
+   father=248188
+   1321.1.1={
+     birth=yes
+   }
+   1338.1.1={
+     death=yes
+   }
+}
+
+
+125540 = {
+	name="Kin-Temür"
+	dynasty_house = house_TuqTemur
+	religion="tengri_pagan"
+	culture="mongol"
+	father=125534
+	1233.1.1={
+		birth="1233.1.1"
+	}
+	1300.1.1={
+		culture=tatars
+	}
+	1304.1.2={
+		death="1304.1.2"
+	}
+}
+125541 = {
+	name="Abai"
+	dynasty_house = house_TuqTemur
+	religion="tengri_pagan"
+	culture="mongol"
+	father=125540
+	1268.1.1={
+		birth="1268.1.1"
+	}
+	1300.1.1={
+		culture=tatars
+	}
+	1313.1.1={
+		religion="ashari"
+	}
+	1327.1.2={
+		death="1327.1.2"
+	}
+}
+125542 = {
+	name="Nomkan"
+	dynasty_house = house_TuqTemur
+	religion="tengri_pagan"
+	culture="mongol"
+	father=125541
+	1290.1.1={
+		birth="1290.1.1"
+	}
+	1300.1.1={
+		culture=turkmeni
+	}
+	1313.1.1={
+		religion="ashari"
+	}
+	1338.1.2={
+		death="1338.1.2"
+	}
+}
+125543 = {
+	name="Kutluk Temür"
+	dynasty_house = house_TuqTemur
+	religion="ashari"
+	culture="turkmeni"
+	father=125542
+	1313.1.1={
+		birth="1313.1.1"
+	}
+	1358.1.2={
+		death="1358.1.2"
+	}
+}
+125544 = {
+	name="Turek Temür"
+	dynasty_house = house_UlunTemur
+	religion="tengri_pagan"
+	culture="crimean"
+	father=125537
+	1308.1.1={
+		birth="1308.1.1"
+	}
+	1313.1.1={
+		religion="ashari"
+	}
+	1355.1.2={
+		death="1355.1.2"
+	}
+}
+125545 = {
+	name="China"
+	dynasty_house = house_UlunTemur
+	religion="ashari"
+	culture="crimean"
+	father=125544
+	1332.1.1={
+		birth="1332.1.1"
+	}
+	1384.1.2={
+		death="1384.1.2"
+	}
+}
+125546 = {
+	name="Menkeser"
+	dynasty_house = house_TuqTemur
+	religion="tengri_pagan"
+	culture="mongol"
+	father=125541
+	1291.1.1={
+		birth="1291.1.1"
+	}
+	1300.1.1={
+		culture=tatars
+	}
+	1313.1.1={
+		religion="ashari"
+	}
+	1354.1.2={
+		death="1354.1.2"
+	}
+}
+125547 = {
+	name="Akmar"
+	dynasty_house = house_TuqTemur
+	religion="ashari"
+	culture="tatars"
+	father=125546
+	1314.1.1={
+		birth="1314.1.1"
+	}
+	1372.1.2={
+		death="1372.1.2"
+	}
+}
+125548 = {
+	name="Jochi-Buqa"
+	dynasty_house = house_Shibanid
+	religion="tengri_pagan"
+	culture="mongol"
+	father=34904
+	1270.1.1={
+		birth="1270.1.1"
+	}
+	1300.1.1={
+		culture=tatars
+	}
+	1310.1.1={
+		death="1310.1.1"
+	}
+}
+125549 = {
+	name="Badakul"
+	dynasty_house = house_Shibanid
+	religion="tengri_pagan"
+	culture="mongol"
+	father=125548
+	1294.1.1={
+		birth="1294.1.1"
+	}
+	1300.1.1={
+		culture=tatars
+	}
+	1338.1.1={
+		death="1338.1.1"
+	}
+}
+125550 = {
+	name="Mengu-Temür"
+	dynasty_house = house_Shibanid
+	religion="tengri_pagan"
+	culture="tatars"
+	father=125549
+	1322.1.1={
+		birth="1322.1.1"
+	}
+	1359.1.1={
+		death="1359.1.1"
+	}
+}
+
+###TAMERLANE AND HIS ANCESTORS
+qachuli = { 
+	name = "Qachuli"
+	dynasty = 11100
+	religion = "tengri_pagan"
+	culture = "mongol"
+	father = 303267
+	1070.1.1 = { #fictional date
+		birth = yes
+	}
+	1130.1.1 = { #fictional date
+		death = yes
+	}
+}
+erdemchu = {
+	name = "Erdemchu"
+	dynasty_house = house_barlas
+	religion = "tengri_pagan"
+	culture = "mongol"
+	father = qachuli
+	trait = education_martial_4
+	1100.1.1 = {
+		birth = yes
+	}
+	1160.1.1 = {
+		death = yes
+	}
+}
+suqu = {
+	name = "Suqu"
+	dynasty_house = house_barlas
+	religion = "tengri_pagan"
+	culture = "mongol"
+	father = erdemchu
+	1130.1.1 = { #fictional date
+		birth = yes
+		give_nickname = nick_the_sage
+	}
+	1187.1.1 = {
+		employer = 125501
+	}
+	1191.1.1 = { #Conflicting info on if he died shortly after Yesugei or if he was still alive in 1190, but I am going with the latter because the source is earlier
+		death = yes
+	}
+}
+qarachar = {
+	name = "Qarachar"
+	dynasty_house = house_barlas
+	religion = "tengri_pagan"
+	culture = "mongol"
+	father = suqu
+	trait = education_martial_4
+	1166.1.1 = {
+		birth = yes
+	}
+	1187.1.1 = {
+		employer = 125501
+	}
+	1255.1.1 = {
+		death = yes
+	}
+}
+ichil = {
+	name = "Ichil"
+	dynasty_house = house_barlas
+	religion = "tengri_pagan"
+	culture = "mongol"
+	father = qarachar
+	1190.1.1 = { #fictional date
+		birth = yes
+	}
+	1204.1.1 = {
+		employer = 125501
+	}
+	1250.1.1 = { #fictional date
+		death = yes
+	}
+}
+aylangir = {
+	name = "Aylangir"
+	dynasty_house = house_barlas
+	religion = "maturidi"
+	culture = "mongol"
+	father = ichil
+	1220.1.1 = { #fictional date
+		birth = yes
+	}
+	1280.1.1 = { #fictional date
+		death = yes
+	}
+}
+burgul = {
+	name = "Burgul"
+	dynasty_house = house_barlas
+	religion = "maturidi"
+	culture = "chagatai"
+	father = aylangir
+	1260.1.1 = { #fictional date
+		birth = yes
+	}
+	1320.1.1 = { #fictional date
+		death = yes
+	}
+}
+taraghai = {
+	name = "Taraghai"
+	dynasty_house = house_barlas
+	religion = "maturidi"
+	culture = "chagatai"
+	father = burgul
+	trait = education_martial_2
+	1300.1.1 = { #fictional date
+		birth = yes
+	}
+	1330.1.1 = {
+		add_spouse = tekina
+	}
+	1337.1.1 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1
+			}
+			vassal_contract_set_obligation_level = {
+				type = title_revocation_rights
+				level = 1
+			}
+		}
+		capital = c_kishsh
+	}
+	1360.1.1 = { #attested date
+		death = yes
+	}
+}
+tekina = {
+	name = "Tekina_Khatun"
 	female = yes
-	dynasty = 1051138	#Bayad
-	religion = tengri_pagan
-	culture = mongol
-	father = 303143
-	mother = bayad0007
-	1152.7.28 = {
+	religion = "maturidi"
+	culture = "chagatai" #However, according to Ibn Khaldun, Timur said that his mother could trace her ancestry to Persian hero Manuchehr
+	1310.1.1 = { #fictional date
 		birth = yes
 	}
-	1215.12.15 = {
+	1350.1.1 = { #fictional date
 		death = yes
 	}
 }
-
-bayad0009 = {
-	name = "Godan"
-	dynasty = 1051138	#Bayad
-	religion = tengri_pagan
-	culture = mongol
-	father = 303143
-	mother = bayad0007
-	1155.5.22 = {
+tamerlane = {
+	name = "TemU_r"
+	dynasty_house = house_timurid
+	religion = "maturidi"
+	culture = "chagatai"
+	father = taraghai
+	mother = tekina
+	trait = rowdy
+	1336.4.9 = {
 		birth = yes
+		#give_nickname = nick_the_lame
 	}
-	1204.6.10 = {
-		death = yes
-	}
-}
-
-bayad0010 = {
-	name = "Ibakha"
-	female = yes
-	religion = tengri_pagan
-	culture = mongol
-	1140.9.17 = {
-		birth = yes
-	}
-	1208.2.8 = {
-		death = yes
-	}
-}
-
-bayad0011 = {
-	name = "Ghazan"
-	dynasty = 1051138	#Bayad
-	religion = tengri_pagan
-	culture = mongol
-	father = bayad0002
-	mother = bayad0010
-	1157.10.1 = {
-		birth = yes
-	}
-	1218.12.3 = {
-		death = yes
-	}
-}
-
-bayad0012 = {
-	name = "Conchaka"
-	female = yes
-	dynasty = 1051138	#Bayad
-	religion = tengri_pagan
-	culture = mongol
-	father = bayad0002
-	mother = bayad0010
-	1160.1.13 = {
-		birth = yes
-	}
-	1222.7.24 = {
+	1405.2.18 = {
 		death = yes
 	}
 }

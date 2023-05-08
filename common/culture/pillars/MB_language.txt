@@ -1,0 +1,494 @@
+﻿
+language_phoenician = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_phoenician
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_phoenician }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.15 0.18 0.62 }
+}
+
+language_celtiberian = { 
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_celtiberian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_celtiberian }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.35 0.7 0.1 }
+}
+
+language_palaungic = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_palaungic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_palaungic }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.75 0.3 0.7 }
+}
+
+
+# Coptic
+
+language_egpytian_coptic = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_egpytian_coptic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_egpytian_coptic }
+			multiply = 10
+		}
+		if = {
+			limit = {
+				scope:character = {
+					religion = religion:christianity_religion
+				}
+			}
+			multiply = 2
+		}
+	}
+	
+	color = hsv{ 0.08 0.10 0.5 }
+}
+
+# Albanian/Arberian
+
+language_albanian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_albanian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_albanian }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.5 0.5 0.8 }
+}
+
+# Caucasus - Area is well known for having many diverse languages
+
+language_udi = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_udi
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_udi }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.5 0.8 0.7 }
+}
+
+language_circassian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_circassian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_circassian }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.55 0.2 0.1 }
+}
+
+language_cauc_avar = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_cauc_avar
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_cauc_avar }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.75 0.3 0.7 }
+}
+
+language_crimeangothic = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_crimeangothic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_crimeangothic }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.5 0.4 0.8 }
+}
+
+language_mon = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_mon
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_mon }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.35 0.6 0.1 }
+}
+
+language_walloon = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_walloon
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_walloon }
+			multiply = 10
+		}
+	}
+	
+	color = { 54 102 141 }
+}
+
+language_xianbei = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_xianbei
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_xianbei }
+			multiply = 10
+		}
+	}
+	
+	color = { 45 49 107 }
+}
+
+language_nenets = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_nenets
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_nenets }
+			multiply = 10
+		}
+	}
+	
+	color = komi
+}
+
+language_picard = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_picard
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_picard }
+			multiply = 10
+		}
+	}
+	
+	color = { 0 0 128 }
+}
+
+language_low_german = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_low_german
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_low_german }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.4 0.4 0.4 }
+}
+
+language_east_saxon = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_east_saxon
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_east_saxon }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.4 0.4 0.4 }
+}
+
+language_african_romance = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_african_romance
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_african_romance }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.737 0.368 0.321 }
+}
+
+language_vandalic = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_vandalic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_vandalic }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.7 0.65 0.6 }
+}
+
+language_rhaeto = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_rhaeto
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_rhaeto }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.70 0.4 0.20 }
+}
+
+language_lezgi = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_lezgi
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_lezgi }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.45 0.2 0.7 }
+}
+
+language_adharic = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_adharic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_adharic }
+			multiply = 10
+		}
+		if = {
+			limit = {
+				scope:character = {
+					OR = {
+						religion = religion:islam_religion
+						religion = religion:zoroastrianism_religion
+					}
+				}
+			}
+			multiply = 2
+		}
+	}
+	
+	color = { 0.60 0.25 0.60 }
+}
+
+language_hindi = { # Hindi
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_hindi
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_hindi }
+			multiply = 10
+		}
+	}
+	
+	color = kashmiri
+}
+
+language_nakhi = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_nakhi
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_nakhi }
+			multiply = 10
+		}
+	}
+
+	color = nakhi
+}
+
+language_doric = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_doric
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_doric }
+			multiply = 10
+		}
+	}
+	
+	color = { 0 0 128 }
+}
+
+language_etruscan = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_etruscan
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_etruscan }
+			multiply = 10
+		}
+	}
+	
+	color = { 0 0 128 }
+}
+
+language_celtic = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_celtic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_celtic }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.4 0.8 0.12 }
+}

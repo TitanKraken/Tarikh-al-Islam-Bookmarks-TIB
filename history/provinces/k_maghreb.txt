@@ -2,7 +2,7 @@
 ##d_marrakesh ###################################
 ###c_marrakesh
 4718 = {	#MARRAKESH
-	culture = baranis
+	culture = masmuda
 	religion = ashari
 	holding = castle_holding
 	1147.1.1 = {
@@ -24,7 +24,7 @@
 
 ###c_tadla
 4709 = {	#TADLA
-	culture = baranis
+	culture = masmuda
 	religion = ashari
 	holding = castle_holding
 	1147.1.1 = {
@@ -49,7 +49,7 @@
 
 ###c_fazaz
 4706 = {	#MRIRA
-	culture = baranis
+	culture = masmuda
 	religion = ashari
 	holding = castle_holding
 	1147.1.1 = {
@@ -65,7 +65,7 @@
 
 ###c_tamasna
 4703 = {	#ANFA
-	culture = baranis
+	culture = masmuda
 	religion = najdat
 	holding = castle_holding
 	1070.1.1 = {
@@ -87,7 +87,7 @@
 
 ###c_asfi
 4720 = {	# 4720 - ASFI
-	culture = baranis
+	culture = masmuda
 	religion = najdat
 	holding = castle_holding
 	1066.1.1 = {
@@ -113,7 +113,7 @@
 
 ###tinmallal
 4716 = {	#TINMALLAL
-	culture = baranis
+	culture = masmuda
 	religion = ashari
 	holding = castle_holding
 	buildings = {
@@ -139,7 +139,7 @@
 ##d_sous ###################################
 ###c_sous
 4724 = {	#TARUDANT
-	culture = baranis
+	culture = tagelmust # Sanhaja
 	religion = ashari
 	holding = tribal_holding
 	1000.1.1 = {
@@ -158,7 +158,7 @@
 
 ###c_agadir
 4723 = {	#AGADIR
-	culture = baranis
+	culture = tagelmust # Sanhaja
 	#culture = masmuda
 	religion = ashari
 	holding = tribal_holding
@@ -175,7 +175,7 @@
 
 ###c_ifni
 4727 = {	#IFNI
-	culture = butr
+	culture = tagelmust # Sanhaja
 	#culture = tagelmust
 	religion = ashari
 	holding = tribal_holding
@@ -197,7 +197,7 @@
 }
 ###c_draa
 4735 = {	#TAZAGOURT
-	culture = butr
+	culture = tagelmust # Sanhaja
 	#culture = tagelmust
 	religion = ashari
 	holding = tribal_holding
@@ -218,7 +218,7 @@
 ##d_tafilalt ###################################
 ###c_sijilmasa
 4737 = {	#SIJILMASA
-	culture = butr
+	culture = tagelmust
 	religion = sufri
 	holding = castle_holding
 	1055.1.1 = {
@@ -240,7 +240,7 @@
 
 ###c_tudgha
 4736 = {	#TUDGHA
-	culture = butr
+	culture = tagelmust
 	religion = ashari
 	holding = tribal_holding
 	1000.1.1 = {
@@ -255,7 +255,7 @@
 }
 ###c_ziz
 4739 = {	# 4739 - ZIZ
-	culture = butr
+	culture = tagelmust
 	religion = sufri
 	holding = castle_holding
 	1055.1.1 = {
@@ -269,7 +269,7 @@
 ##d_fes ###################################
 ###c_fes
 4694 = {	#FES
-	culture = baranis
+	culture = masmuda
 	religion = ashari
 	holding = castle_holding
 	867.1.1 = {
@@ -302,7 +302,7 @@
 
 ###c_muluya
 4745 = {	#MISSOUR
-	culture = butr
+	culture = masmuda
 	religion = ashari
 	holding = castle_holding
 }
@@ -315,7 +315,7 @@
 
 ###c_taza
 4677 = {	#TAZA
-	culture = baranis
+	culture = masmuda
 	religion = ashari
 	holding = castle_holding
 }
@@ -325,7 +325,7 @@
 
 ###c_meknes
 4699 = {	#MEKNES
-	culture = baranis
+	culture = masmuda
 	religion = ashari
 	holding = castle_holding
 }
@@ -341,7 +341,7 @@
 
 ###c_gharb
 4700 = {	#SALA
-	culture = baranis
+	culture = masmuda
 	religion = muwalladi
 	holding = castle_holding
 }
@@ -364,7 +364,7 @@
 ##d_rif ###################################
 ###c_tangiers
 4683 = {	#TANGIERS
-	culture = baranis
+	culture = masmuda
 	religion = muwalladi
 	holding = castle_holding
 	867.1.1 = {
@@ -392,7 +392,7 @@
 
 ###c_ceuta
 4682 = {	#SABTA
-	culture = baranis
+	culture = masmuda
 	religion = muwalladi
 	holding = castle_holding
 	1066.1.1 = {
@@ -412,8 +412,8 @@
 
 ###c_melilla
 4678 = {	#MELILLA
-	culture = baranis
-	#culture = sanhaja
+	culture = masmuda
+	#culture = tagelmust # Sanhaja
 	religion = ashari
 	holding = castle_holding
 }
@@ -425,18 +425,18 @@
 ###c_canarias
 849 = {		#GRAN CANARIA
 	culture = guanches
-	religion = west_african_pagan
+	religion = north_african_acham_pagan
 	holding = tribal_holding
 }
 8713 = {	#TENERIFE
 	culture = guanches
-	religion = west_african_pagan
+	religion = north_african_acham_pagan
 	holding = tribal_holding
 }
 ###c_fuerteventura
 8714 = {	#FUERTEVENTURA	
 	culture = guanches
-	religion = west_african_pagan
+	religion = north_african_acham_pagan
 	holding = tribal_holding
 }
 8715 = {	#LANZAROTE
@@ -445,6 +445,6 @@
 ###c_madeira
 8716 = {	#MADEIRA
 	culture = guanches
-	religion = west_african_pagan
+	religion = north_african_acham_pagan
 	holding = tribal_holding
 }

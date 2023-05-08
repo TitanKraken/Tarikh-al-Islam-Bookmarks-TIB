@@ -753,7 +753,7 @@
 	intrigue = 7
 	stewardship = 8
 	religion = "ashari"
-	culture = "iraaqi"
+	culture = "iraqi"
 	trait = wrathful
 	trait = cynical
 	trait = education_diplomacy_2
@@ -801,7 +801,7 @@
 	stewardship = 5
 	
 	religion = ashari
-	culture = syrian
+	culture = levantine
 
 	trait = calm
 	trait = sayyid_quraysh
@@ -957,7 +957,7 @@
 
 3816 = {
 	name = "Mu_tamid_ad-Dawlah"
-	# AKA: Mu'tamid ad
+	# AKA: Mu'tamid al-Dawlah
 	dynasty = 101862
 	martial = 5
 	diplomacy = 7
@@ -7296,7 +7296,7 @@ abu_hashim_hanafiyyah = {
 
 73184 = {
 	name = "Mundir"
-	dynasty = 12194
+	dynasty = banu_Tujib # 12194
 	father = 73850
 	religion = "ashari"
 	culture = "bedouin"
@@ -7310,7 +7310,7 @@ abu_hashim_hanafiyyah = {
 
 73187 = {
 	name = "Abdallah"
-	dynasty = 12194
+	dynasty = banu_Tujib # 12194
 	religion = "ashari"
 	culture = "bedouin"
 	father = 73189
@@ -7324,7 +7324,7 @@ abu_hashim_hanafiyyah = {
 
 73189 = {
 	name = "Hakam"
-	dynasty = 12194
+	dynasty = banu_Tujib # 12194
 	religion = "ashari"
 	culture = "bedouin"
 	father = 73847
@@ -7549,7 +7549,7 @@ abu_hashim_hanafiyyah = {
 
 73839 = {
 	name = "Yahya"
-	dynasty = 12194
+	dynasty = banu_Tujib # 12194
 
 	religion = "muwalladi"
 	culture = "bedouin"
@@ -7582,7 +7582,7 @@ abu_hashim_hanafiyyah = {
 
 73841 = {
 	name = "Muhammad"
-	dynasty = 12194
+	dynasty = banu_Tujib # 12194
 
 	religion = "muwalladi"
 	culture = "bedouin"
@@ -7600,7 +7600,7 @@ abu_hashim_hanafiyyah = {
 
 73842 = {
 	name = "Hashim"
-	dynasty = 12194
+	dynasty = banu_Tujib # 12194
 
 	father = 73839
 	mother = 73840
@@ -7618,7 +7618,7 @@ abu_hashim_hanafiyyah = {
 
 73843 = {
 	name = "Muhammad"
-	dynasty = 12194
+	dynasty = banu_Tujib # 12194
 
 	religion = "ashari"
 	culture = "bedouin"
@@ -7635,7 +7635,7 @@ abu_hashim_hanafiyyah = {
 
 73845 = {
 	name = "Yahya"
-	dynasty = 12194
+	dynasty = banu_Tujib # 12194
 
 	religion = "ashari"
 	culture = "bedouin"
@@ -7652,7 +7652,7 @@ abu_hashim_hanafiyyah = {
 
 73846 = {
 	name = "Abd-al-Rahman"
-	dynasty = 12194
+	dynasty = banu_Tujib # 12194
 
 	father = 73843
 
@@ -7669,7 +7669,7 @@ abu_hashim_hanafiyyah = {
 
 73847 = {
 	name = "Abd-al-Rahman"
-	dynasty = 12194
+	dynasty = banu_Tujib # 12194
 
 	father = 73845
 
@@ -7686,7 +7686,7 @@ abu_hashim_hanafiyyah = {
 
 73848 = {
 	name = "Yahya"
-	dynasty = 12194
+	dynasty = banu_Tujib # 12194
 
 	religion = "ashari"
 	culture = "bedouin"
@@ -7703,7 +7703,7 @@ abu_hashim_hanafiyyah = {
 
 73849 = {
 	name = "Mundir"
-	dynasty = 12194
+	dynasty = banu_Tujib # 12194
 
 	religion = "ashari"
 	culture = "bedouin"
@@ -7720,7 +7720,7 @@ abu_hashim_hanafiyyah = {
 
 73850 = {
 	name = "Yahya"
-	dynasty = 12194
+	dynasty = banu_Tujib # 12194
 
 	religion = "ashari"
 	culture = "bedouin"

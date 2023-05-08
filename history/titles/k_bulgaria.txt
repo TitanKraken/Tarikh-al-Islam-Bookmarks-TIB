@@ -2107,42 +2107,66 @@ d_bulgaria = {
 	1149.1.1 = {
 		holder = 215035
 	}
-	1185.9.12 = {
-		holder = 215508
-	}
-	1200.1.1 = {
-		holder = 215513
-	}
-	1203.1.2 = {
-		holder = 215514
-	}
-	1204.5.16 = {
-		liege = 0
-	}
-	1204.5.16 = {
-		holder = 215517
-	}
-	1215.1.1 = {
-		holder = 215514
-	}
-	1230.3.9 = {
-		holder = 125715
-	}
-	1268.1.1 = {
-		holder = 125726
-	}
-	1297.1.1 = {
-		holder = 125728
-	}
 	
-	1318.1.1 = {
-		holder = 31440 #Nicolo Orsini
+	1185.1.1 = {
+		holder = 217501 #Petar III
 	}
-	1323.1.1 = {
-		holder = 31441 #Giovanni II Orsini
+	1190.1.1 = {
+		holder = 217500 #Ivan I
 	}
-	1335.1.1 = {
-		holder = 31443 #Nikephoros Orsini
+	1196.1.1 = {
+		holder = 217502 #Kaloyan
+	}
+	1207.10.1 = {
+		holder = 217505 #Boril
+	}
+	1218.1.2 = {
+		holder = 31160 #Ivan II
+	}
+	1241.6.24 = {
+		holder = 31165 #Koloman I
+	}
+	1246.8.1 = {
+		holder = 31166 #Mihail I
+	}
+	1256.1.1 = {
+		holder = 31170 #Koloman II
+	}
+	1257.1.1 = {
+		holder = 31185 #Micho
+	}
+	1258.1.1 = {
+		holder = 31187 #Konstandin
+	}
+	1277.9.1 = {
+		holder = 465551 #Ivan III
+	}
+	1279.1.1 = {
+		holder = 31192 #Ivaljo
+	}
+	1280.1.1 = {
+		holder = 467530 #Georgi I
+	}
+	1292.1.1 = {
+		holder = 467540 #Smiletz
+	}
+	1298.1.2 = {
+		holder = 125519 #Chaka
+	}
+	1299.1.2 = {
+		holder = 31193 #Todor
+	}
+	1322.1.1 = {
+		holder = 31195 #Georgi II
+	}
+	1322.8.1 = {
+		holder = 467520 #Mihail II
+	}
+	1330.7.28 = {
+		holder = 467521 #Ivan Stefan
+	}
+	1331.3.1 = {
+		holder = 467500 #Ivan Aleksandr
 	}
 }
 
@@ -3018,6 +3042,9 @@ c_philippopolis = {
 		liege = "d_strymon"
 		holder = 465527
 	}
+	1256.1.1 = {
+		holder = 31198 #Ivan
+	}
 	1272.1.1 = {
 		holder = 465521
 	}
@@ -3256,6 +3283,9 @@ c_beroe = {
 		liege = "d_strymon"
 		holder = 465527
 	}
+	1256.1.1 = {
+		holder = 31198 #Ivan
+	}
 	1272.1.1 = {
 		holder = 465521
 	}
@@ -3291,7 +3321,7 @@ c_burgas = {
 	1086.1.1 = {
 		holder = 41701
 	}
-	#to Byzantiune Empire
+	#to Byzantine Empire
 	1099.1.1 = {
 		holder = 20526
 	}
@@ -3310,44 +3340,34 @@ c_burgas = {
 	1187.1.1 = {
 		holder = 215032
 	}
-	1200.1.1 = {
-		holder = 225004
+	# Latin Empire
+	1204.5.16 = {
+		liege = "e_latin_empire"
 	}
-	1204.1.1 = {
-		holder = 34187
+	1204.5.16 = {
+		holder = 34592
 	}
-	1205.1.1 = {
-		holder = 225002
+	1220.12.17 = {
+		holder = 34593
 	}
-	1211.1.1 = {
-		holder = 34188
+	1230.1.1 = {
+		liege = "k_bulgaria"
 	}
-	1220.1.1 = {
-		holder = 34189
+	1230.1.1 = {
+		holder = 31160 #Ivan II
 	}
-	1237.1.1 = {
-		holder = 34190
+	1241.6.24 = {
+		holder = 31165 #Koloman I
 	}
-	1246.1.1 = {
-		holder = 34191
+	1246.8.1 = {
+		liege = "d_strymon"
+		holder = 465527
 	}
-	1248.1.1 = {
-		holder = 34192
+	1272.1.1 = {
+		holder = 465521
 	}
-	1249.1.1 = {
-		holder = 34193
-	}
-	1257.1.1 = {
-		holder = 34192
-	}
-	1265.1.1 = {
-		holder = 34194
-	}
-	1280.1.1 = {
-		holder = 71867
-	}
-	1327.1.1 = {
-		holder = 71868
+	1332.2.13 = {
+		holder = 465530
 	}
 }
 
@@ -3589,6 +3609,9 @@ c_rhodopes = {
 	1246.8.1 = {
 		liege = "d_strymon"
 		holder = 465527
+	}
+	1256.1.1 = {
+		holder = 31198 #Ivan
 	}
 	1272.1.1 = {
 		holder = 465521

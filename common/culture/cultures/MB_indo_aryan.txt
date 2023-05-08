@@ -1,0 +1,552 @@
+﻿############MORE BOOKMARKS########################
+
+munda = { #Based on Bengali
+
+	color = { 0.7 0.5 0.1 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_indo_aryan
+	language = language_magadhan
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_philosopher_culture
+		tradition_religious_patronage
+		tradition_agrarian
+	}
+	
+	name_list = name_list_bengali
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = indian
+	}
+}
+
+konkani = { #
+	color = { 0.6 0.4 0.1 }
+	
+	created = 700.1.1
+	parents = { marathi }
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_indo_aryan
+	language = language_marathi
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_seafaring
+		tradition_modest
+		tradition_city_keepers
+	}
+	
+	name_list = name_list_marathi
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = indian
+	}
+}
+
+sambalpuri = { # Indo-Aryan #Mainly to represent the region having a more distinct identity than the coast as this region would also be more tribal
+	color = { 0.6 0.5 0.1 }
+	
+	created = 1100.1.1
+	parents = { oriya }
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_indo_aryan
+	language = language_magadhan
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_hill_dwellers
+		tradition_isolationist
+	}
+	
+	name_list = name_list_oriya
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = indian
+	}
+}
+
+nagpuri = {# nagpuri
+	color = { 94 25 20 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_indo_aryan
+	language = language_sauraseni
+	martial_custom = martial_custom_male_only
+	traditions = {
+		
+		tradition_pastoralists
+		tradition_sacred_groves
+		tradition_family_entrepreneurship
+	}
+
+	name_list = name_list_nagpuri
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+		10 = indian
+	}
+}
+
+bihari = {# Bihari
+	color = { 219 0 7 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_indo_aryan
+	language = language_magadhan
+	martial_custom = martial_custom_male_only
+	traditions = {
+		
+		tradition_khadga_puja
+		tradition_court_eunuchs
+		tradition_religious_patronage
+	}
+
+	name_list = name_list_bihari
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+		10 = indian
+	}
+}
+
+awadhi = {# Awadhi
+	color = {150 0 24 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_indo_aryan
+	language = language_sauraseni
+	martial_custom = martial_custom_male_only
+	traditions = {
+		
+		tradition_agrarian
+		tradition_religious_patronage
+		tradition_court_eunuchs
+		tradition_city_keepers
+	}
+
+	name_list = name_list_awadhi
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+		10 = indian
+	}
+}
+
+bhil = {# bhil
+	color = { 202 52 51 }
+	
+	ethos = ethos_communal
+	heritage = heritage_indo_aryan
+	language = language_rajasthani
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_sacred_groves
+		tradition_collective_lands
+		tradition_isolationist
+	}
+
+	name_list = name_list_bhil
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+		10 = indian
+	}
+}
+
+kamarupi = {# kamarupi
+	color = {  224 60 49   }
+	
+	ethos = ethos_stoic
+	heritage = heritage_indo_aryan
+	language = language_magadhan
+	martial_custom = martial_custom_male_only
+	traditions = {
+		
+		tradition_jungle_dwellers
+		tradition_jungle_warriors
+		tradition_language_scholars
+	}
+	
+	name_list = name_list_kamarupi
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = indian
+	}
+}
+
+hindustani_proper = {# Hindustani 
+	color = { 0.6 0.3 0.0 }
+	created = 1206.1.1
+	parents = { hindustani turkish }
+	
+	ethos = ethos_courtly
+	heritage = heritage_turkic
+	language = language_hindi
+	martial_custom = martial_custom_male_only
+	traditions = {
+		
+		tradition_court_eunuchs
+		tradition_philosopher_culture
+		tradition_music_theory
+		tradition_gardening
+		tradition_lords_of_the_elephant
+	}
+	
+	name_list = name_list_turkish
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		5 = indian
+		5 = asian
+	}
+}
+
+gujarati = { # Indo-Aryan
+	color = { 0.4 0.2 0.2 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_indo_aryan
+	language = language_rajasthani
+	martial_custom = martial_custom_male_only
+	traditions = {
+		
+		tradition_vegetarianism
+		tradition_religion_blending
+		tradition_seafaring
+		tradition_artisans
+	}
+	
+	name_list = name_list_gujarati
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = indian
+	}
+}
+
+rajput = { # Indo-Aryan - #Renamed to Rajasthani
+	color = rajput
+	
+	ethos = ethos_bellicose
+	heritage = heritage_indo_aryan
+	language = language_rajasthani
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_warrior_culture
+		tradition_dryland_dwellers
+		tradition_quarrelsome
+		tradition_mystical_ancestors
+		tradition_khadga_puja
+	}
+
+	name_list = name_list_rajput
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+		10 = indian
+	}
+}
+
+marwari = { # Indo-Aryan
+	color = { 0.1 0.4 0.4 }
+	
+	created = 1250.1.1 #The main dialect for Rajasthani
+	parents = { rajput }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_indo_aryan
+	language = language_rajasthani
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_dryland_dwellers
+		tradition_quarrelsome
+		tradition_khadga_puja
+		tradition_family_entrepreneurship
+		tradition_staunch_traditionalists
+	}
+	
+	name_list = name_list_rajput
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = indian
+	}
+}
+
+mewari = { # Indo-Aryan
+	color = { 0.3 0.2 0.3 }
+	
+	created = 1250.1.1
+	parents = { rajput }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_indo_aryan
+	language = language_rajasthani
+	martial_custom = martial_custom_male_only
+	traditions = {	
+		tradition_hill_dwellers
+		tradition_quarrelsome
+		tradition_khadga_puja
+		tradition_mystical_ancestors
+	}
+	
+	name_list = name_list_rajput
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = indian
+	}
+}
+
+dhundari = { # Indo-Aryan
+	color = { 0.4 0.1 0.5 }
+	
+	created = 1250.1.1
+	parents = { rajput }
+	
+	ethos = ethos_stoic
+	heritage = heritage_indo_aryan
+	language = language_rajasthani
+	martial_custom = martial_custom_male_only
+	traditions = {	
+		tradition_dryland_dwellers
+		tradition_quarrelsome
+		tradition_khadga_puja
+		tradition_music_theory
+	}
+	
+	name_list = name_list_rajput
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = indian
+	}
+}
+
+harauti = { # Indo-Aryan
+	color = { 0.6 0.2 0.1 }
+	
+	created = 1250.1.1
+	parents = { rajput }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_indo_aryan
+	language = language_rajasthani
+	martial_custom = martial_custom_male_only
+	traditions = {	
+		tradition_hill_dwellers
+		tradition_quarrelsome
+		tradition_khadga_puja
+		tradition_fervent_temple_builders
+	}
+	
+	name_list = name_list_rajput
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = indian
+	}
+}
+
+ahirwati = { # Indo-Aryan
+	color = { 0.4 0.4 0.1 }
+	
+	created = 1250.1.1
+	parents = { rajput }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_indo_aryan
+	language = language_rajasthani
+	martial_custom = martial_custom_male_only
+	traditions = {	
+		tradition_hill_dwellers
+		tradition_quarrelsome
+		tradition_khadga_puja
+		tradition_agrarian
+	}
+	
+	name_list = name_list_rajput
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = indian
+	}
+}
+
+kathiawari = { # Indo-Aryan #Renamed to Saurashtra which rather than a dialect in a small area is an actual language/culture
+	color = { 0.6 0.3 0.3 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_indo_aryan
+	language = language_rajasthani
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_zealous_people
+		tradition_hereditary_hierarchy
+		tradition_seafaring
+		tradition_artisans
+	}
+	
+	name_list = name_list_gujarati
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = indian
+	}
+}
+
+kumaoni = { # Nepali renamed to Khas
+	color = { 140 100 95  }
+	
+	ethos = ethos_communal
+	heritage = heritage_indo_aryan
+	language = language_pahari
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_himalayan_settlers
+		tradition_music_theory
+		tradition_religious_patronage
+	}
+	
+	name_list = name_list_kumaoni
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		6 = indian
+		4 = asian
+	}
+}
+
+muslim_punjabi = { # Indo-Aryan
+	color = han
+	
+	ethos = ethos_communal
+	heritage = heritage_indo_aryan
+	language = language_vrachada
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_poetry
+		tradition_city_keepers
+		tradition_equal_inheritance
+		tradition_khadga_puja
+	}
+	# Should make a custom name list in future
+	name_list = name_list_punjabi
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = {
+		5 = indian
+		5 = arab
+	}
+}
+
+punjabi = { # Indo-Aryan (Panchanadi w/ Muslim Enhancements)
+	color = punjabi
+	
+	ethos = ethos_communal
+	heritage = heritage_indo_aryan
+	language = language_vrachada
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_wedding_ceremonies
+		tradition_religion_blending
+		tradition_agrarian
+		tradition_khadga_puja
+	}
+	
+	name_list = name_list_punjabi
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = indian
+	}
+}
+
+############END ADDED CULTURES####################
+

@@ -27,6 +27,12 @@
 
 greek = {
 	color = greek
+
+	parents = { roman }
+
+	created = 610.1.1
+
+	history_loc_override = romaioi_history_loc
 	
 	ethos = ethos_bureaucratic
 	heritage = heritage_byzantine
@@ -56,7 +62,7 @@ alan = {
 	
 	ethos = ethos_communal
 	heritage = heritage_byzantine
-	language = language_scythian
+	language = language_alani
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_horse_lords

@@ -2,7 +2,7 @@
 ##d_sjaelland ###################################
 ###c_sjaelland
 63 = {		#ROSKILDE
-	culture = norse
+	culture = dane
 	religion = norse_pagan
 	holding = tribal_holding
 	867.1.1 = {
@@ -49,7 +49,7 @@
 
 ###c_fyn
 65 = {		#ODENSE
-	culture = norse
+	culture = dane
 	religion = norse_pagan
 	holding = tribal_holding
 	965.1.1 = {
@@ -72,7 +72,7 @@
 
 ###c_lolland_falster
 67 = {		#NYKOBING
-	culture = norse
+	culture = dane
 	religion = norse_pagan
 	holding = tribal_holding
 	965.1.1 = {
@@ -90,12 +90,12 @@
 ##d_skane ###################################
 ###c_skane
 70 = {		#LUND
-	culture = norse
+	culture = dane
 	religion = norse_pagan
 	holding = tribal_holding
 	special_building_slot = lund_cathedral_01
 	965.1.1 = {
-		culture = danish
+		culture = scanian
 		religion = catholic
 	}
 	1020.1.1 = {
@@ -130,11 +130,11 @@
 
 ###c_halland
 74 = {		#HALMSTAD
-	culture = norse
+	culture = dane
 	religion = norse_pagan
 	holding = tribal_holding
 	965.1.1 = {
-		culture = danish
+		culture = scanian
 		religion = catholic
 	}
 	1066.1.1 = {
@@ -153,11 +153,11 @@
 	culture = burgundian
 	religion = norse_pagan
 	holding = tribal_holding
-	746.8.30 = {
-        culture = norse
-    }
+	#746.8.30 = {
+    #    culture = dane
+    #}
 	965.1.1 = {
-		culture = danish
+		culture = scanian
 		religion = catholic
 	}
 	1000.1.1 = {
@@ -167,11 +167,11 @@
 
 ###c_blekinge
 78 = {		#BREGNE
-	culture = norse
+	culture = dane
 	religion = norse_pagan
 	holding = tribal_holding
 	965.1.1 = {
-		culture = danish
+		culture = scanian
 		religion = catholic
 	}
 	1066.1.1 = {
@@ -194,7 +194,7 @@
 ##d_jylland ###################################
 ###c_aarhus
 57 = {		#AARHUS
-	culture = norse
+	culture = jute
 	religion = norse_pagan
 	holding = tribal_holding
 	965.1.1 = {
@@ -215,7 +215,7 @@
 
 ###c_viborg
 56 = {		#VIBORG
-	culture = norse
+	culture = jute
 	religion = norse_pagan
 	holding = tribal_holding
 	965.1.1 = {
@@ -230,7 +230,7 @@
 
 ###c_ringkobing
 82 = {		#RINGKOBING
-	culture = norse
+	culture = jute
 	religion = norse_pagan
 	holding = tribal_holding
 	965.1.1 = {
@@ -254,7 +254,7 @@
 
 ###c_aalborg
 81 = {		#AALBORG
-	culture = norse
+	culture = jute
 	religion = norse_pagan
 	holding = tribal_holding
 	965.1.1 = {
@@ -274,7 +274,7 @@
 ##d_slesvig ###################################
 ###c_slesvig
 62 = {		#HEDEBY
-	culture = norse
+	culture = jute
 	religion = norse_pagan
 	holding = tribal_holding
 	special_building_slot = danevirke_01
@@ -306,7 +306,7 @@
 
 ###c_vorbasse
 59 = {		#VORBASSE
-	culture = norse
+	culture = jute
 	religion = norse_pagan
 	holding = tribal_holding
 	965.1.1 = {

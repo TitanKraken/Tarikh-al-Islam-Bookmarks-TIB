@@ -135,6 +135,7 @@
 	
 	# History
 	800.1.1 = { culture = catalan }
+	1100.1.1 = { religion = catholic }
 }
 8796 = {	# AGRAMUNT
 	holding = church_holding
@@ -158,6 +159,7 @@
 	
 	# History
 	800.1.1 = { culture = catalan }
+	1100.1.1 = { religion = catholic }
 }
 1859 = {	# TORTOSA
 	holding = church_holding
@@ -180,7 +182,11 @@
 	special_building_slot = aljaferia_palace_01
 	
 	# History
-	800.1.1 = { culture = andalusian }
+	800.1.1 = { culture = mozarab }
+	1050.1.1 = { 
+		culture = aragonese
+		religion = catholic
+	}
 	1066.1.1 = {
 		buildings = {
 			ramparts_01
@@ -209,8 +215,9 @@
 	holding = castle_holding
 	
 	# History
-	800.1.1 = { culture = andalusian }
+	800.1.1 = { culture = mozarab }
 	939.1.1 = { religion = muwalladi }
+	1050.1.1 = { culture = aragonese }
 	1235.1.1 = {
 		culture = castilian
 		religion = catholic
@@ -306,7 +313,8 @@
 	holding = castle_holding
 	
 	# History
-	800.1.1 = { culture = andalusian }
+	800.1.1 = { culture = mozarab }
+	1050.1.1 = { culture = aragonese }
 }
 1934 = {	# DAROCA
 	holding = city_holding
@@ -339,7 +347,7 @@
 	holding = castle_holding
 	
 	# History
-	800.1.1 = { culture = andalusian }
+	800.1.1 = { culture = mozarab }
 	939.1.1 = { religion = muwalladi }
 	1259.1.1 = {
 		culture = catalan

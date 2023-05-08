@@ -108,7 +108,7 @@ d_sicily = {
 #		holder = 0
 #	}
 	910.1.1 = {
-		liege = k_egypt
+		liege = k_africa
 	}
 	948.1.1 = {
 		holder = 159183 # al-Hasan Kalbid
@@ -134,6 +134,7 @@ d_sicily = {
 	}
 	998.1.1 = {
 		holder = 159191 # Jafar II
+		liege = k_africa
 	}
 	1019.1.1 = {
 		holder = 159192 # Ahmad II
@@ -648,6 +649,7 @@ c_malta = {
 #	}
 	948.1.1 = {
 		holder = 159183 # al-Hasan of Sicily
+		liege = k_africa
 	}
 	954.1.1 = {
 		holder = 159184 # Ahmad I of Sicily
@@ -661,29 +663,30 @@ c_malta = {
 	983.1.1 = {
 		holder = 159188 # Jafar I of Sicily
 	}
-	985.1.1 = {
-		holder = 159189 # Abdallah of Sicily
+	937.1.1 = {
+		holder = 1900508 # Abu'l Qasim Mdnid
+		#liege = d_sicily
 	}
-	990.1.1 = {
-		holder = 159190 # Yusuf of Sicily
+	948.1.1 = {
+		liege = d_sicily
+	}
+	966.1.1 = {
+		holder = 1900509 # Abdallah Mdnid
 	}
 	998.1.1 = {
-		holder = 159191 # Jafar II of Sicily
+		holder = 1900510 # Ja'far Mdnid
 	}
-	1019.1.1 = {
-		holder = 159192 # Ahmad II of Sicily
-	}
-	1040.1.1 = {
-		holder = 73310 # Abdallah Mankudid
+	1021.1.1 = {
+		holder = 1600700 # Abdallah Mdnid
 		liege = 0
 	}
-	1055.1.1 = {
-		holder = 73309 # Muhammad Kalbid
+	1032.1.1 = {
+		holder = 1226717 # Ahmad Mdnid
 	}
 	909.1.1 = {
 		liege = 0
 	}
-	1060.1.1 = {
+	1065.1.1 = {
 		holder = 20828 # Ramadan Mdnid
 	}
 	1092.1.1 = {
@@ -2760,7 +2763,16 @@ d_calabria = {
 		holder = 0
 		liege = 0
 	}
-	 1101.6.22 = {
+
+	# Catepanate of Italy
+	970.1.1 = {
+		liege = e_byzantium
+	}
+	1010.1.1 = {
+		holder = 1500374 # Basil Mesardonites
+	}
+
+	1101.6.22 = {
 		holder = 127070 # Simon of Sicily
 	}
 	1105.9.28 = {
@@ -2799,6 +2811,15 @@ c_cosenza = {
 		liege = d_apulia
 		holder = 163094 # Sawdan of Bari
 	}
+
+	# Catepanate of Italy
+	970.1.1 = {
+		liege = e_byzantium
+	}
+	1010.1.1 = {
+		holder = 1500374 # Basil Mesardonites
+	}
+
 	1057.1.1 = {
 		holder = 1132 # Roger I of Sicily
 	}
@@ -2885,6 +2906,15 @@ c_rossano = { # County of Catanzaro
 		liege = d_apulia
 		holder = 163094 # Sawdan of Bari
 	}
+
+	# Catepanate of Italy
+	970.1.1 = {
+		liege = e_byzantium
+	}
+	1010.1.1 = {
+		holder = 1500374 # Basil Mesardonites
+	}
+
 	1057.1.1 = {
 		holder = 1128 # Robert of Apulia
 	}
@@ -2945,6 +2975,15 @@ c_reggio_calabria = {
 		liege = d_apulia
 		holder = 163094 # Sawdan of Bari
 	}
+
+	# Catepanate of Italy
+	970.1.1 = {
+		liege = e_byzantium
+	}
+	1010.1.1 = {
+		holder = 1500374 # Basil Mesardonites
+	}
+
 	1057.1.1 = {
 		holder = 1132 # Roger I of Sicily
 	}

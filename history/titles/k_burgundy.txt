@@ -1003,10 +1003,13 @@ d_dauphine = {
 	}
 	996.10.18 = {
 		holder = 138403 #Guigues II d'Albon
-		liege = e_hre
+		#liege = e_hre
 	}
 	1009.1.1 = {
 		holder = 40462 # Guigues III the old d'Albon
+	}
+	1066.1.1 = {
+		liege = "e_hre"
 	}
 	1074.4.22 = {
 		holder = 212804 # Guigues IV Pinguis d'Albon

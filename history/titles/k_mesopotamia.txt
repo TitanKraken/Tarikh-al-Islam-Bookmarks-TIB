@@ -51,6 +51,23 @@ k_mesopotamia = {
 d_samarra = {
 	867.1.1 = {	change_development_level = 8 }
 	1066.1.1 = { change_development_level = 12 }
+
+	# Uqayli
+	910.1.1 = {
+		holder = 1500105 # Ma'an al-Uqayli
+		liege = k_persia
+	}
+	941.1.1 = {
+		holder = 1500107 # Abu 'Abdallah Muhammad / Makan ibn Ma'an
+	}
+	1011.1.1 = {
+		holder = 1500114 # Gharib ibn Makan
+	}
+
+	1254.1.1 = {
+		holder = 166925 # Satukhtai Toluid, maybe
+		liege = "e_ilkhanate"
+	}
 }
 
 c_samarra = {
@@ -110,27 +127,20 @@ c_samarra = {
 	908.1.1 = {
 		holder = 34021
 	}
-	932.1.1 = {
-		holder = 34020
+	
+
+	# Uqayli
+	910.1.1 = {
+		holder = 1500105 # Ma'an al-Uqayli
+		liege = d_sunni
 	}
-	934.1.1 = {
-		holder = 34022
+	941.1.1 = {
+		holder = 1500107 # Abu 'Abdallah Muhammad / Makan ibn Ma'an
 	}
-	940.1.1 = {
-		holder = 34023
+	1011.1.1 = {
+		holder = 1500114 # Gharib ibn Makan
 	}
-	944.1.1 = {
-		holder = 34024
-	}
-	946.1.1 = {
-		holder = 34025
-	}
-	974.1.1 = {
-		holder = 3080
-	}
-	991.1.1 = {
-		holder = 3082
-	}
+
 	1031.1.1 = {
 		holder = 3084
 	}
@@ -201,6 +211,24 @@ c_hulwan = {
 		holder = 34016
 		liege = e_arabia
 	}
+
+	# Dustak / Marwanid
+	940.1.1 = {
+		holder = 159142 # Dostik, probably the chieftain of his tribe
+	}
+	968.1.1 = {
+		holder = 159143 # Badh Dustak/Dusta
+	}
+	990.1.1 = {
+		holder = 159145 # Abu 'Ali Hasan ibn Marwan
+	}
+	997.1.1 = {
+		holder = 159146 # Abu 'Ali Sai'd Mumahhid al-Dawla ibn Marwan
+	}
+	1010.1.1 = {
+		holder = 159147 # Ahmad Abu Nasr Nasr al-Dawla ibn Marwan
+		liege = k_persia
+	}
 	
 	1066.1.1 = {
 		liege = k_persia
@@ -270,12 +298,12 @@ c_hulwan = {
 	1222.1.1 = {
 		holder = 93315
 	}
-	1259.1.1 = {
-		holder = 93316
+
+	1254.1.1 = {
+		holder = 166925 # Satukhtai Toluid, maybe
+		liege = "e_ilkhanate"
 	}
-	1260.1.1 = {
-		holder = 478011
-	}
+	
 	1265.2.8 = {
 		holder = 478010
 	}
@@ -322,6 +350,24 @@ c_kirkuk = {
 		liege = e_arabia
 		holder = 34014
 	}
+
+	# Dustak / Marwanid
+	940.1.1 = {
+		holder = 159142 # Dostik, probably the chieftain of his tribe
+	}
+	968.1.1 = {
+		holder = 159143 # Badh Dustak/Dusta
+	}
+	990.1.1 = {
+		holder = 159145 # Abu 'Ali Hasan ibn Marwan
+	}
+	997.1.1 = {
+		holder = 159146 # Abu 'Ali Sai'd Mumahhid al-Dawla ibn Marwan
+	}
+	1010.1.1 = {
+		holder = 159147 # Ahmad Abu Nasr Nasr al-Dawla ibn Marwan
+		liege = k_persia
+	}
 	
 	1066.1.1 = {
 		liege = k_persia
@@ -391,12 +437,12 @@ c_kirkuk = {
 	1222.1.1 = {
 		holder = 93315
 	}
-	1259.1.1 = {
-		holder = 93316
+
+	1254.1.1 = {
+		holder = 166925 # Satukhtai Toluid, maybe
+		liege = "e_ilkhanate"
 	}
-	1260.1.1 = {
-		holder = 478011
-	}
+
 	1265.2.8 = {
 		holder = 478010
 	}
@@ -440,11 +486,24 @@ c_takrit = {
 	}
 	862.1.1 = {
 		liege = e_arabia
-		holder = turkish000007
+		holder = Doger4 # Amajur Atsizoglu, previously turkish000007
 	}
 	867.10.29 = {
 		holder = turkish000008
 	}
+
+	# Uqayli
+	910.1.1 = {
+		holder = 1500105 # Ma'an al-Uqayli
+		liege = d_sunni
+	}
+	941.1.1 = {
+		holder = 1500107 # Abu 'Abdallah Muhammad / Makan ibn Ma'an
+	}
+	1011.1.1 = {
+		holder = 1500114 # Gharib ibn Makan
+	}
+
 	1066.1.1 = {
 		liege = k_persia
 		holder = 3040 # Alp Arslan
@@ -513,12 +572,12 @@ c_takrit = {
 	1222.1.1 = {
 		holder = 93315
 	}
-	1259.1.1 = {
-		holder = 93316
+
+	1254.1.1 = {
+		holder = 166925 # Satukhtai Toluid, maybe
+		liege = "e_ilkhanate"
 	}
-	1260.1.1 = {
-		holder = 478011
-	}
+	
 	1265.2.8 = {
 		holder = 478010
 	}
@@ -583,6 +642,9 @@ c_wasit = {
 	866.1.1 = {
 		liege = d_wasit
 		holder = 34015
+	}
+	1013.1.1 = {
+		holder = 1231074 # Abu Tahir Buyi
 	}
 	1066.1.1 = {
 	    liege = d_baghdad
@@ -676,7 +738,9 @@ c_tib = {
 	869.1.1 = {
 		liege = 0
 	}
-	
+	1013.1.1 = {
+		holder = 1231074 # Abu Tahir Buyi
+	}
 	1066.1.1 = {
 		liege = "d_kermanshah"
 	}
@@ -743,6 +807,12 @@ c_tib = {
 
 }
 
+d_kufa = {
+	1013.1.1 = {
+		holder = 1235964 # 'Abd-al-Wahid Ahmadzade Mankuli, some random available Ismaili character
+		liege = k_persia
+	}
+}
 c_kufa = {
 	867.1.1 = {	change_development_level = 12 }
 	1066.1.1 = { change_development_level = 18 }
@@ -755,6 +825,11 @@ c_kufa = {
 	866.1.1 = {
 		liege = d_basra
 		holder = 34017
+	}
+
+	1013.1.1 = {
+		holder = 1235964 # 'Abd-al-Wahid Ahmadzade Mankuli, some random available Ismaili character
+		liege = k_persia
 	}
 	
 	1066.1.1 = {
@@ -842,6 +917,11 @@ c_safata = {
 		liege = d_basra
 		holder = 34017
 	}
+
+	1013.1.1 = {
+		holder = 1235964 # 'Abd-al-Wahid Ahmadzade Mankuli, some random available Ismaili character
+		liege = k_persia
+	}
 	
 	1066.1.1 = {
 		holder = 20700
@@ -927,6 +1007,11 @@ c_qadisiya = {
 	866.1.1 = {
 		liege = d_basra
 		holder = 34017
+	}
+
+	1013.1.1 = {
+		holder = 1235964 # 'Abd-al-Wahid Ahmadzade Mankuli, some random available Ismaili character
+		liege = k_persia
 	}
 	
 	1066.1.1 = {
@@ -1019,6 +1104,11 @@ c_batiha = {
 	869.1.1 = {
 		liege = 0
 	}
+
+	1013.1.1 = {
+		holder = 1235964 # 'Abd-al-Wahid Ahmadzade Mankuli, some random available Ismaili character
+		liege = k_persia
+	}
 	
 	1066.1.1 = {
 		liege = d_basra
@@ -1108,6 +1198,11 @@ c_akhadid = {
 		holder = 34017
 	}
 	
+	1013.1.1 = {
+		holder = 1235964 # 'Abd-al-Wahid Ahmadzade Mankuli, some random available Ismaili character
+		liege = k_persia
+	}
+
 	1066.1.1 = {
 		holder = 93319
 	}
@@ -1192,6 +1287,11 @@ c_waqisa = {
 	866.1.1 = {
 		liege = d_basra
 		holder = 34017
+	}
+	
+	1013.1.1 = {
+		holder = 1235964 # 'Abd-al-Wahid Ahmadzade Mankuli, some random available Ismaili character
+		liege = k_persia
 	}
 	
 	1066.1.1 = {
@@ -1281,6 +1381,9 @@ d_basra = {
 	}
 	978.1.1 = {
 		liege = "k_persia"
+	}
+	1013.1.1 = {
+		holder = 1231074 # Abu Tahir Buyi
 	}
 	1066.1.1 = {
 		holder = 93319
@@ -1373,6 +1476,9 @@ c_basra = {
 		liege = d_basra
 		holder = 34017
 	}
+	1013.1.1 = {
+		holder = 1231074 # Abu Tahir Buyi
+	}
 	1066.1.1 = {
 		holder = 93319
 	}
@@ -1458,7 +1564,9 @@ c_ubulla = {
 		liege = d_basra
 		holder = 34017
 	}
-	
+	1013.1.1 = {
+		holder = 1231074 # Abu Tahir Buyi
+	}
 	1066.1.1 = {
 		holder = 93319
 	}
@@ -1551,6 +1659,9 @@ c_rusafa = {
 	}
 	869.1.1 = {
 		liege = 0
+	}
+	1013.1.1 = {
+		holder = 1231074 # Abu Tahir Buyi
 	}
 	1066.1.1 = {
 		liege = "d_basra"
@@ -1709,6 +1820,7 @@ d_baghdad = {
 	}
 	991.1.1 = {
 		holder = 3082
+		liege = k_persia
 	}
 	1031.1.1 = {
 		holder = 3084
@@ -2119,27 +2231,19 @@ c_anbar = {
 	908.1.1 = {
 		holder = 34021
 	}
-	932.1.1 = {
-		holder = 34020
+
+	# Uqayli
+	910.1.1 = {
+		holder = 1500105 # Ma'an al-Uqayli
+		liege = d_sunni
 	}
-	934.1.1 = {
-		holder = 34022
+	941.1.1 = {
+		holder = 1500107 # Abu 'Abdallah Muhammad / Makan ibn Ma'an
 	}
-	940.1.1 = {
-		holder = 34023
+	1011.1.1 = {
+		holder = 1500114 # Gharib ibn Makan
 	}
-	944.1.1 = {
-		holder = 34024
-	}
-	946.1.1 = {
-		holder = 34025
-	}
-	974.1.1 = {
-		holder = 3080
-	}
-	991.1.1 = {
-		holder = 3082
-	}
+
 	1031.1.1 = {
 		holder = 3084
 	}

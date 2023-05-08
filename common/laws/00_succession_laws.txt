@@ -22,6 +22,7 @@
 					OR = {
 						has_government = feudal_government
 						has_government = clan_government
+						has_government = islamic_government
 					}
 					culture = {
 						NOR = {
@@ -70,6 +71,7 @@
 			OR = {
 				has_government = feudal_government
 				has_government = clan_government
+				has_government = islamic_government
 			}
 			culture = {
 				has_innovation = innovation_hereditary_rule
@@ -121,6 +123,7 @@
 			OR = {
 				has_government = feudal_government
 				has_government = clan_government
+				has_government = islamic_government
 			}
 			culture = {
 				has_innovation = innovation_heraldry
@@ -330,6 +333,23 @@
 		}
 		should_start_with = {
 			has_government = holy_order_government
+		}
+		succession = {
+			order_of_succession = theocratic
+			faith = same_faith
+			pool_character_config = pool_holy_order_succession
+		}
+	}
+
+	holy_order_county_succession_law = { # From Kingdom of Heaven
+		can_keep = {
+			can_have_holy_order_county_succession_law_trigger = yes
+		}
+		can_have = {
+			can_have_holy_order_county_succession_law_trigger = yes
+		}
+		should_start_with = {
+			has_government = holy_order_county_government
 		}
 		succession = {
 			order_of_succession = theocratic

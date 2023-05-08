@@ -943,7 +943,7 @@ c_perigord = {
 		holder = 138060 #Archambaud III de P�rigord
 	}
 	1258.1.1 = {
-		liege = "d_aquitaine"
+		liege = "k_france"
 	}
 	1294.1.1 = {
 		liege = "k_france"
@@ -1114,7 +1114,7 @@ c_saintonge = {
 		holder = 455402
 	}
 	1226.11.8 = {
-		holder = 455404
+		holder = 454522 # Henry III of England
 	}
 	1270.8.25 = {
 		holder = 455528 # Philippe III
@@ -1874,6 +1874,10 @@ c_uses = {
 	
 	#House of Aragon
 	#1213 forward
+
+	1260.1.1 = { # Placeholder
+		holder = 455406 # Charles III of Anjou
+	}
 }
 
 c_montpellier = {
@@ -1928,6 +1932,10 @@ c_montpellier = {
 	
 	#House of Aragon
 	#1213 forward
+
+	1260.1.1 = { # Placeholder
+		holder = 455406 # Charles III of Anjou
+	}
 }
 
 c_carcassonne = {
@@ -2051,6 +2059,10 @@ c_beziers = {
 	#961 - Rainard II
 	#969 - Guillaume II
 	#993 - Garsinde
+
+	985.1.1 = { # Placeholder
+		holder = 138285 # Guilhem Montpellier
+	}
 	
 	#House of Carcassonne
 	1030.1.1 = {
@@ -2331,7 +2343,7 @@ c_bigorre = {
 	1004.1.1 = {
 		holder = 138170 #Gaston II de Béarn
 	}
-	1022.1.1 = {
+	1012.1.1 = {
 		holder = 40000 #Centule IV de Béarn
 	}
 	1030.1.1 = {
@@ -2454,7 +2466,7 @@ c_bearn = {
 	1004.1.1 = {
 		holder = 138170 #Gaston II de B�arn
 	}
-	1022.1.1 = {
+	1012.1.1 = {
 		holder = 40000 #Centule IV de B�arn
 	}
 	1058.1.1 = {
@@ -3127,6 +3139,9 @@ c_bourbon = {
 	1249.1.15 = {
 		holder = 91155
 	}
+	1260.1.1 = { # Placeholder
+		holder = 455404 # Louis IX
+	}
 	1262.9.1 = {
 		holder = 7476
 	}
@@ -3331,6 +3346,9 @@ c_jaligny = {
 	}
 	1249.1.15 = {
 		holder = 91155
+	}
+	1260.1.1 = { # Placeholder
+		holder = 455404 # Louis IX
 	}
 	1262.9.1 = {
 		holder = 7476

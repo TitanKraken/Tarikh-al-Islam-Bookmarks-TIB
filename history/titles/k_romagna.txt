@@ -362,7 +362,7 @@ d_romagna = {
 		holder = 1063431 # Paolo Traversari
 	}
 	713.5.3 = {
-		liege = k_sicily
+		liege = "k_italy"
 	}
 	750.1.1 = {
 		holder = 1063433 # Andrea Traversari
@@ -372,6 +372,7 @@ d_romagna = {
 	}
 	820.1.1 = {
 		holder = 0
+		liege = "k_sicily"
 	}
 
 	1209.1.1 = {
@@ -809,7 +810,7 @@ c_ferrara = {
 		holder = 1062188 #Sanlinguerra II di Torelli signore di ferrara
 	}
 	1242.1.1 = {
-		liege = d_ferrara
+		#liege = d_ferrara
 		holder = 70661 #Azzo VII di este signore di ferrara 1242
 	}
 	#di este
@@ -825,7 +826,7 @@ c_ferrara = {
 		liege = e_hre
 	}
 	1289.1.1 = {
-		liege = d_ferrara
+		#liege = d_ferrara
 		holder = 70669
 	}
 	1293.2.20 = {
@@ -842,7 +843,7 @@ c_ferrara = {
 		holder = 1062192 #Sanlinguerra III di Torelli signore di ferrara 1309
 	}
 	1312.8.23 = {
-			liege=d_ferrara
+		#liege=d_ferrara
 		holder = 70700
 	}
 	1335.12.31 = {
@@ -946,6 +947,9 @@ c_casentino = {
 	1250.12.13 = {
 	liege=d_firenze_republic  
 	}
+	1260.1.1 = { # Placeholder
+		liege = e_hre
+	}
 	1269.1.1 = {
 		liege=d_arezzo_republic     
 	}
@@ -1001,6 +1005,10 @@ d_ancona = {
 	}
 	1245.1.1 = {
 		holder = 73501
+		liege = k_papal_state # Maybe
+	}
+	1260.1.1 = {
+		liege = k_sicily
 	}
 	1263.1.1 = {
 		holder = 73502
@@ -1167,7 +1175,10 @@ c_urbino = {
 	}
 	1255.1.1 = {
 		holder = 73587
-	liege = 0
+		liege = k_papal_state # 0 maybe
+	}
+	1260.1.1 = {
+		liege = k_sicily
 	}
 	1286.1.1 = {
 		holder = 73582
@@ -1472,6 +1483,9 @@ d_spoleto = {
 	}
 	1251.1.1 = {
 		holder = 73468
+	}
+	1260.1.1 = {
+		liege = k_sicily
 	}
 	1276.1.1 = {
 		holder = 70785
@@ -2089,6 +2103,9 @@ c_lanciano = {
 c_abruzzi = {
 	700.1.1 = {
 		liege = k_italy
+	}
+	708.2.4 = {
+		holder = 7896 # Pope Constantinus
 	}
 	762.1.1 = {
 		liege = d_benevento

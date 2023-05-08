@@ -1,11 +1,48 @@
 k_tahert = {
-	867.1.1 = {	change_development_level = 3 }
-	1066.1.1 = { change_development_level = 6 }
+	#867.1.1 = { change_development_level = 3 }
+	#1066.1.1 = { change_development_level = 6 }
+
+	# Hammadid
+	1014.1.1 = {
+		holder = 20936 # Hammad ibn Buluggin
+		liege = e_egypt
+		set_realm_capital = title:c_satif
+	}
+	1017.1.1 = {
+		liege = 0
+	}
+	1028.1.1 = {
+		holder = 45018 # al-Qaid ibn Hammad
+	}
+	1054.1.1 = {
+		holder = 45021 # Muhsin ibn al-Qaid
+	}
+
+	# Zayyanid
+	1235.1.1 = {
+		liege = 0 # Independant of the Almohads
+		holder = 33045 # Yaghmurasen
+	}
+	1283.1.1 = {
+		holder = 33046 # 'Uthman ibn Yaghmurasen
+	}
+	1304.1.1 = {
+		holder = 33047 # Abu Zayyan Muhammad ibn 'Uthman
+	}
+	1308.1.1 = {
+		holder = 33046 # Abu Hammu Musa ibn 'Uthman
+	}
+	1318.1.1 = {
+		holder = 33046 # Abu Tashfin 'Abd-al-Rahman ibn Abu Hammu Muhammad
+	}
+	1337.1.1 = {
+		holder = 0 # TBC
+	}
 }
 
 d_tlemcen = {
-	867.1.1 = {	change_development_level = 8 }
-	1066.1.1 = { change_development_level = 12 }
+	#867.1.1 = { change_development_level = 8 }
+	#1066.1.1 = { change_development_level = 12 }
 
 	741.1.1 = {
 		government = islamic_government # clan_government
@@ -40,7 +77,7 @@ d_tlemcen = {
 		holder = 155082
 	}
 	1144.1.1 = {
-		liege = d_masmudi
+		liege = k_maghreb
 	}
 	1147.1.1 = {
 		liege = "k_maghreb"
@@ -56,7 +93,7 @@ d_tlemcen = {
 		liege = k_maghreb
 	}
 	1196.1.1 = {
-		holder = 32988
+		holder = 32988 # Ishaq al-Tahir Almohad
 	}
 	1229.1.1 = {
 		holder = 155110
@@ -96,8 +133,8 @@ d_tlemcen = {
 
 
 c_tlemcen = {
-	867.1.1 = {	change_development_level = 10 }
-	1066.1.1 = { change_development_level = 16 }
+	#867.1.1 = { change_development_level = 10 }
+	#1066.1.1 = { change_development_level = 16 }
 
 	710.1.1 = {
 		holder = tariq_the_conquerer
@@ -166,6 +203,9 @@ c_tlemcen = {
 	}
 	1234.1.1 = {
 		holder = 155112
+	}
+	1235.1.1 = {
+		liege = k_tahert
 	}
 	1236.1.1 = {
 		holder = 33045
@@ -256,7 +296,7 @@ c_wajda = {
 		holder = 155085
 	}
 	1191.1.1 = {
-		holder = 32983
+		holder = almohad0004 # Ya'qub ibn Umar Almohad
 	}
 	1212.7.16 = {
 		liege = "k_maghreb"
@@ -302,8 +342,8 @@ c_wajda = {
 
 
 c_orania = {
-	867.1.1 = {	change_development_level = 10 }
-	1066.1.1 = { change_development_level = 16 }
+	#867.1.1 = { change_development_level = 10 }
+	#1066.1.1 = { change_development_level = 16 }
 	
 	710.1.1 = {
 		holder = tariq_the_conquerer
@@ -365,6 +405,9 @@ c_orania = {
 	}
 	1190.1.1 = {
 		holder = 155093
+	}
+	1196.1.1 = {
+		holder = 32988 # Ishaq al-Tahir Almohad
 	}
 	1226.1.1 = {
 		holder = 155094
@@ -506,8 +549,8 @@ d_tahert = {
 }
 
 c_tahert = {
-	867.1.1 = {	change_development_level = 10 }
-	1066.1.1 = { change_development_level = 16 }
+	#867.1.1 = { change_development_level = 10 }
+	#1066.1.1 = { change_development_level = 16 }
 
 	768.1.1 = {
 		holder = 210029
@@ -568,8 +611,8 @@ c_tahert = {
 
 
 c_yalala = {
-	867.1.1 = {	change_development_level = 7 }
-	1066.1.1 = { change_development_level = 10 }
+	#867.1.1 = { change_development_level = 7 }
+	#1066.1.1 = { change_development_level = 10 }
 	
 	710.1.1 = {
 		holder = tariq_the_conquerer
@@ -775,8 +818,8 @@ c_figuig = {
 
 
 d_alger = {
-	867.1.1 = {	change_development_level = 8 }
-	1066.1.1 = { change_development_level = 12 }
+	#867.1.1 = { change_development_level = 8 }
+	#1066.1.1 = { change_development_level = 12 }
 
 	832.1.1 = {
 		holder = 163097
@@ -801,7 +844,7 @@ d_alger = {
 		holder = 155094
 	}
 	1236.1.1 = {
-		liege = "k_africa"
+		liege = "k_tahert"
 	}
 	1249.1.1 = {
 		holder = 155095
@@ -809,9 +852,9 @@ d_alger = {
 	1263.1.1 = {
 		holder = 155096
 	}
-	1269.1.1 = {
-		liege = "d_tlemcen"
-	}
+	#1269.1.1 = {
+		#liege = "d_tlemcen"
+	#}
 	1269.1.1 = {
 		holder = 155097
 	}
@@ -836,9 +879,9 @@ d_alger = {
 	1302.1.1 = {
 		holder = 155100
 	}
-	1310.1.1 = {
-		liege = "d_tlemcen"
-	}
+	#1310.1.1 = {
+		#liege = "d_tlemcen"
+	#}
 	1310.1.1 = {
 		holder = 155103
 	}
@@ -1085,8 +1128,8 @@ c_tanas = {
 }
 
 d_bejaia = {
-	867.1.1 = {	change_development_level = 8 }
-	1066.1.1 = { change_development_level = 12 }
+	#867.1.1 = { change_development_level = 8 }
+	#1066.1.1 = { change_development_level = 12 }
 
 	1062.1.1 = {
 		government = islamic_government # clan_government
@@ -1102,8 +1145,8 @@ d_bejaia = {
 
 
 c_bejaia = {
-	867.1.1 = {	change_development_level = 10 }
-	1066.1.1 = { change_development_level = 16 }
+	#867.1.1 = { change_development_level = 10 }
+	#1066.1.1 = { change_development_level = 16 }
 	
 	710.1.1 = {
 		holder = tariq_the_conquerer
@@ -1242,6 +1285,23 @@ c_satif = {
 		liege = "k_africa"
 		holder = 20930 # Manad Zirid
 	}
+
+	# Hammadid
+	1014.1.1 = {
+		holder = 20936 # Hammad ibn Buluggin
+		liege = e_egypt
+		set_realm_capital = title:b_qalaa_bhammad
+	}
+	1017.1.1 = {
+		liege = 0
+	}
+	1028.1.1 = {
+		holder = 45018 # al-Qaid ibn Hammad
+	}
+	1054.1.1 = {
+		holder = 45021 # Muhsin ibn al-Qaid
+	}
+
 	1062.1.1 = {
 		liege = "d_bejaia"
 		holder = 20834
@@ -1690,8 +1750,21 @@ d_mzab = {
 		holder = 1228238
 	}
 	871.1.1 = {	
-		holder = 0
+		holder = 1236360 # Sa'id Mzab
 	}
+	915.1.1 = {
+		holder = 1236361 # Ash'ath Mzab
+	}
+	953.1.1 = {
+		holder = 1236362 # 'Isa Mzab
+	}
+	994.1.1 = {
+		holder = 1236363 # Kasin Mzab
+	}
+	1014.1.1 = {
+		liege = "k_tahert"
+	}
+
 	1066.1.1 = {
 		holder = 1144671
 	}
@@ -1719,6 +1792,16 @@ c_wargla = {
 		holder = 1228832
 	}
 	
+	915.1.1 = {
+		holder = 1236361 # Ash'ath Mzab
+	}
+	953.1.1 = {
+		holder = 1236362 # 'Isa Mzab
+	}
+	994.1.1 = {
+		holder = 1236363 # Kasin Mzab
+	}
+
 	1066.1.1 = {
 		holder = 1144672
 	}
@@ -1816,6 +1899,19 @@ c_laghwat = {
 	864.1.1 = {	
 		liege = 0
 		holder = 1228830
+	}
+
+	871.1.1 = {	
+		holder = 1236360 # Sa'id Mzab
+	}
+	915.1.1 = {
+		holder = 1236361 # Ash'ath Mzab
+	}
+	953.1.1 = {
+		holder = 1236362 # 'Isa Mzab
+	}
+	994.1.1 = {
+		holder = 1236363 # Kasin Mzab
 	}
 
 	1066.1.1 = {
@@ -1920,6 +2016,19 @@ c_ghardaia = {
 		holder = 1228830
 	}
 
+	871.1.1 = {	
+		holder = 1236360 # Sa'id Mzab
+	}
+	915.1.1 = {
+		holder = 1236361 # Ash'ath Mzab
+	}
+	953.1.1 = {
+		holder = 1236362 # 'Isa Mzab
+	}
+	994.1.1 = {
+		holder = 1236363 # Kasin Mzab
+	}
+
 	1066.1.1 = {
 		liege = 0
 		holder = 1144673
@@ -2021,6 +2130,19 @@ c_arigh = {
 		holder = 1228238
 	}
 	
+	871.1.1 = {	
+		holder = 1236360 # Sa'id Mzab
+	}
+	915.1.1 = {
+		holder = 1236361 # Ash'ath Mzab
+	}
+	953.1.1 = {
+		holder = 1236362 # 'Isa Mzab
+	}
+	994.1.1 = {
+		holder = 1236363 # Kasin Mzab
+	}
+	
 	1066.1.1 = {
 		holder = 1144671
 	}
@@ -2115,8 +2237,5 @@ c_arigh = {
 	1318.1.1 = {
 		holder = 33032
 	}
-	
-	
 
 }
-

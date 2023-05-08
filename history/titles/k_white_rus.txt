@@ -762,7 +762,7 @@ c_minsk = {
 	# Lithuanian Assimilation
 	1252.1.1 = {
 		holder = 125306 # Tautvilas
-		liefe = k_lithuania
+		liege = k_lithuania
 	}
 }
 
@@ -831,7 +831,7 @@ c_orsha = {
 	# Lithuanian Assimilation
 	1252.1.1 = {
 		holder = 125306 # Tautvilas
-		liefe = k_lithuania
+		liege = k_lithuania
 	}
 }
 
@@ -1300,7 +1300,7 @@ c_smolensk = {
 	# Lithuanian Assimilation
 	1252.1.1 = {
 		holder = 125306 # Tautvilas
-		liefe = k_lithuania
+		liege = k_lithuania
 	}
 }
 
@@ -1409,7 +1409,7 @@ c_gnezdovo = {
 	# Lithuanian Assimilation
 	1252.1.1 = {
 		holder = 125306 # Tautvilas
-		liefe = k_lithuania
+		liege = k_lithuania
 	}
 }
 
@@ -1512,7 +1512,7 @@ c_roslavl = {
 	# Lithuanian Assimilation
 	1252.1.1 = {
 		holder = 125306 # Tautvilas
-		liefe = k_lithuania
+		liege = k_lithuania
 	}
 }
 
@@ -1612,7 +1612,7 @@ c_mozhaysk = {
 	# Lithuanian Assimilation
 	1252.1.1 = {
 		holder = 125306 # Tautvilas
-		liefe = k_lithuania
+		liege = k_lithuania
 	}
 }
 
@@ -1695,7 +1695,7 @@ c_toropets = {
 	# Lithuanian Assimilation
 	1252.1.1 = {
 		holder = 125306 # Tautvilas
-		liefe = k_lithuania
+		liege = k_lithuania
 	}
 }
 

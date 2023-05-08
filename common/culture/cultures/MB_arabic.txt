@@ -1,0 +1,117 @@
+﻿#######MORE BOOKMARKS########################
+
+madan = { #A derogatory name in modern times but not sure what else to use as 'Marsh Arab' doesn't sound any better
+
+	color = { 0.3 0.60 0.48 }
+	created = 850.1.1 #First mentioned in 9th century
+	parents = { bedouin }
+	
+	ethos = ethos_communal
+	heritage = heritage_arabic
+	language = language_arabic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_pastoralists
+		tradition_medicinal_plants
+		tradition_mubarizuns
+		tradition_wetlanders
+	}
+	
+	name_list = name_list_levantine
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 
+
+	ethnicities = {
+		10 = arab
+	}
+}
+
+saidi = { #Peoples of Upper Egypt. Mostly to represent the cultural distinction between the more rural Upper Egypt and the more urban Lower Egypt
+	color = { 0.15 0.75 0.20 }
+	
+	created = 800.1.1 #Random date. No actual date given for when the culture and dialect really formed
+	parents = { egyptian }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_arabic
+	language = language_arabic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_music_theory
+		tradition_agrarian
+		tradition_tribe_unity
+		tradition_mubarizuns
+	}
+	
+	name_list = name_list_egyptian
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 	
+
+	ethnicities = {
+		10 = arab
+	}
+}
+
+hadhrami = {
+	color = { 0.25 0.4 0.35 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_arabic
+	language = language_arabic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_dryland_dwellers
+		tradition_quarrelsome
+		tradition_storytellers
+	}
+	
+	name_list = name_list_yemeni
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 	
+
+	ethnicities = {
+		10 = arab
+		8 = east_african
+	}
+}
+
+libyan = { #A maybe questionable culture to add. It's mainly to cover the area the Banu Sulaym and Hilal migrated to in North Africa that's marked as Bedouin post 1050 mainly so I can make them end up with a Maghrebi Arabic language
+	color = { 0.30 0.3 0.40 }
+	
+	created = 1100.1.1
+	parents = { bedouin butr }
+	
+	ethos = ethos_stoic
+	heritage = heritage_arabic
+	language = language_arabic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_desert_nomads
+		tradition_mubarizuns
+		tradition_caravaneers
+	}
+	
+	name_list = name_list_bedouin
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx }  
+
+	ethnicities = {
+		10 = arab
+		6 = african
+	}
+}
+
+############END ADDED CULTURES################

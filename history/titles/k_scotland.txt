@@ -202,7 +202,7 @@ k_scotland = {
 		holder = 6026
 	}
 	935.1.1 = {
-		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+		government = clan_government	#Ahistorical, just for ease of bookmarks.
 	}
 	943.1.1 = {
 		holder = 974
@@ -324,7 +324,7 @@ c_gowrie = {
 	1066.1.1 = { change_development_level = 9 }
 	
 	695.1.1 = {
-		liege = "k_scotland"
+		liege = "d_moray"
 		holder = 166595
 		government = tribal_government
 	}
@@ -386,7 +386,7 @@ c_gowrie = {
 		holder = 6026
 	}
 	935.1.1 = {
-		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+		government = clan_government	#Ahistorical, just for ease of bookmarks.
 	}
 	943.1.1 = {
 		holder = 974
@@ -607,7 +607,7 @@ c_fife = {
 		holder = 183511
 	}
 	935.1.1 = {
-		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+		government = clan_government	#Ahistorical, just for ease of bookmarks.
 	}
 	1066.1.1 = {
 		holder = 131002
@@ -781,7 +781,7 @@ c_strathearn = {
 		liege = k_scotland
 	}
 	935.1.1 = {
-		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+		government = clan_government	#Ahistorical, just for ease of bookmarks.
 	}
 	1040.1.1 = {
 		holder = 82011
@@ -833,7 +833,7 @@ c_atholl = {
 		holder = 183518
 	}
 	935.1.1 = {
-		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+		government = clan_government	#Ahistorical, just for ease of bookmarks.
 	}
 	1058.1.1 = {
 		liege = k_scotland
@@ -883,7 +883,7 @@ c_atholl = {
 
 c_angus = {
 	695.1.1 = {
-		liege = "k_scotland"
+		liege = "d_moray"
 		holder = 166595
 		government = tribal_government
 	}
@@ -945,7 +945,7 @@ c_angus = {
 		holder = 6026
 	}
 	935.1.1 = {
-		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+		government = clan_government	#Ahistorical, just for ease of bookmarks.
 	}
 	943.1.1 = {
 		holder = 974
@@ -1032,7 +1032,7 @@ c_mearns = {
 	1066.1.1 = { change_development_level = 9 }
 	
 	695.1.1 = {
-		liege = "k_scotland"
+		liege = "d_moray"
 		holder = 166595
 		government = tribal_government
 	}
@@ -1094,7 +1094,7 @@ c_mearns = {
 		holder = 6026
 	}
 	935.1.1 = {
-		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+		government = clan_government	#Ahistorical, just for ease of bookmarks.
 	}
 	943.1.1 = {
 		holder = 974
@@ -1227,7 +1227,7 @@ d_the_isles = {
 		holder = 0
 	}
 	935.1.1 = {
-		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+		government = clan_government	#Ahistorical, just for ease of bookmarks.
 	}
 }
 
@@ -1286,24 +1286,9 @@ c_isle_of_man = {
 		liege = "d_western_isles"
 		holder = 168610
 	}
-	872.1.1 = {
-		holder = 166442
-	}
-	878.1.1 = {
-		holder = 166441
-	}
-	889.1.1 = {
-		holder = 166440
-	}
-	916.1.1 = {
-		holder = 166439
-	}
-	934.1.1 = {
-		holder = 166438
-	}
 	935.1.1 = {
 		liege = 0
-		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+		government = clan_government	#Ahistorical, just for ease of bookmarks.
 	}
 	1066.1.1 = {
 		holder = 131524
@@ -1465,7 +1450,7 @@ d_galloway = {
 		holder = 166438
 	}
 	935.1.1 = {
-		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+		government = clan_government	#Ahistorical, just for ease of bookmarks.
 	}
 	937.1.1 = {
 		holder = 166439
@@ -1520,7 +1505,7 @@ c_galloway = {
 		holder = 163104
 	}
 	935.1.1 = {
-		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+		government = clan_government	#Ahistorical, just for ease of bookmarks.
 	}
 	1066.1.2 = {
 		liege = "d_western_isles"
@@ -1575,7 +1560,7 @@ c_carrick = {
 		holder = 163104
 	}
 	935.1.1 = {
-		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+		government = clan_government	#Ahistorical, just for ease of bookmarks.
 	}
 	1066.1.1 = {
 		liege = "d_western_isles"
@@ -1644,7 +1629,7 @@ c_ayrshire = {
 		holder = 163104
 	}
 	935.1.1 = {
-		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+		government = clan_government	#Ahistorical, just for ease of bookmarks.
 	}
 	1058.1.1 = {
 		holder = 984 # Malcolm Canmore
@@ -1706,30 +1691,9 @@ c_ayrshire = {
 
 
 c_annandale = {
-	654.1.1 = {
-		holder = 205213 # Oswiu
-	}
-	670.2.15 = {
-		holder = 205213ecgfrith
-	}
-	685.5.20 = {
-		holder = 205213aldfrith
-	}
-	704.12.14 = {
-		holder = 205240 # Eadwulf, the Usurper
-	}
-	705.1.1 = {
-		holder = 205213osred
-	}
-	759.7.24 = {
-		holder = 205243 # Aethelwald Moll
-	}
 	765.1.1 = {
-		liege = "d_northumberland"
-		holder = 205250
-	}
-	774.1.1 = {
-		holder = 205244 # Aethelred I, Son of Aethelwald Moll
+		holder = 205050
+		liege = d_northumberland
 	}
 	862.1.1 = {
 		holder = 163103
@@ -1834,7 +1798,7 @@ c_lennox = {
 		holder = 166438
 	}
 	935.1.1 = {
-		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+		government = clan_government	#Ahistorical, just for ease of bookmarks.
 	}
 	937.1.1 = {
 		holder = 166439
@@ -2023,11 +1987,8 @@ d_western_isles = {
 	888.1.1 = {
 		holder = 40608 #Sigtrygg
 	}
-	896.1.1 = { # Placeholder
-		holder = 5789 # Sihtric Caech Guthfrithsson
-	}
 	935.1.1 = {
-		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+		government = clan_government	#Ahistorical, just for ease of bookmarks.
 	}
 	1066.1.1 = {
 		holder = 5788
@@ -2228,7 +2189,7 @@ c_inner_hebrides = {
 		holder = 163111
 	}
 	935.1.1 = {
-		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+		government = clan_government	#Ahistorical, just for ease of bookmarks.
 	}
 	1066.1.1 = {
 		holder = 5788
@@ -2432,7 +2393,7 @@ c_outer_hebrides = {
 		holder = 163111
 	}
 	935.1.1 = {
-		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+		government = clan_government	#Ahistorical, just for ease of bookmarks.
 	
 	}
 	1066.1.1 = {
@@ -2626,7 +2587,7 @@ c_argyll = {
 		holder = 163111
 	}
 	935.1.1 = {
-		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+		government = clan_government	#Ahistorical, just for ease of bookmarks.
 	}
 	1066.1.2 = {
 		holder = 131104
@@ -2726,36 +2687,12 @@ c_lothian = {
 	867.1.1 = { change_development_level = 4 }
 	1066.1.1 = { change_development_level = 9 }
 	
-	654.1.1 = {
-		holder = 205213 # Oswiu
-	}
-	670.2.15 = {
-		holder = 205213ecgfrith
-	}
-	685.5.20 = {
-		holder = 205213aldfrith
-	}
-	704.12.14 = {
-		holder = 205240 # Eadwulf, the Usurper
-	}
-	705.1.1 = {
-		holder = 205213osred
-	}
-	759.7.24 = {
-		holder = 205243 # Aethelwald Moll
-	}
 	765.1.1 = {
 		liege = "d_northumberland"
 		holder = 205250
 	}
-	774.1.1 = {
-		holder = 205244 # Aethelred I, Son of Aethelwald Moll
-	}
 	862.1.1 = {
 		holder = 163103
-	}
-	895.1.1 = {
-		holder = eadwulf_bamburgh
 	}
 	1066.1.1 = {
 		liege = "d_lothian"
@@ -2818,36 +2755,12 @@ c_dunbar = {
 	867.1.1 = { change_development_level = 4 }
 	1066.1.1 = { change_development_level = 10 }
 	
-	654.1.1 = {
-		holder = 205213 # Oswiu
-	}
-	670.2.15 = {
-		holder = 205213ecgfrith
-	}
-	685.5.20 = {
-		holder = 205213aldfrith
-	}
-	704.12.14 = {
-		holder = 205240 # Eadwulf, the Usurper
-	}
-	705.1.1 = {
-		holder = 205213osred
-	}
-	759.7.24 = {
-		holder = 205243 # Aethelwald Moll
-	}
 	765.1.1 = {
 		liege = "d_northumberland"
 		holder = 205249
 	}
-	774.1.1 = {
-		holder = 205244 # Aethelred I, Son of Aethelwald Moll
-	}
 	862.1.1 = {
 		holder = 163103
-	}
-	895.1.1 = {
-		holder = eadwulf_bamburgh
 	}
 	1066.1.1 = {
 		liege = "d_lothian"
@@ -2884,39 +2797,15 @@ c_dunbar = {
 
 
 c_teviotdale = {
-	654.1.1 = {
-		holder = 205213 # Oswiu
-	}
-	670.2.15 = {
-		holder = 205213ecgfrith
-	}
-	685.5.20 = {
-		holder = 205213aldfrith
-	}
-	704.12.14 = {
-		holder = 205240 # Eadwulf, the Usurper
-	}
-	705.1.1 = {
-		holder = 205213osred
-	}
-	759.7.24 = {
-		holder = 205243 # Aethelwald Moll
-	}
 	765.1.1 = {
-		liege = "d_northumberland"
-		holder = 205250
-	}
-	774.1.1 = {
-		holder = 205244 # Aethelred I, Son of Aethelwald Moll
+		holder = 205050
+		liege = d_northumberland
 	}
 	862.1.1 = {
 		holder = 163103
 	}
-	895.1.1 = {
-		holder = eadwulf_bamburgh
-	}
 	935.1.1 = {
-		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+		government = clan_government	#Ahistorical, just for ease of bookmarks.
 	}
 	1066.1.2 = {
 		liege = "d_lothian"
@@ -2962,33 +2851,6 @@ c_teviotdale = {
 
 
 c_linlithgowshire = {
-	# Northumbria
-	654.1.1 = {
-		holder = 205213 # Oswiu
-	}
-	670.2.15 = {
-		holder = 205213ecgfrith
-	}
-	685.5.20 = {
-		holder = 205213aldfrith
-	}
-	704.12.14 = {
-		holder = 205240 # Eadwulf, the Usurper
-	}
-	705.1.1 = {
-		holder = 205213osred
-	}
-	759.7.24 = {
-		holder = 205243 # Aethelwald Moll
-	}
-	765.1.1 = {
-		liege = "d_northumberland"
-		holder = 205250
-	}
-	774.1.1 = {
-		holder = 205244 # Aethelred I, Son of Aethelwald Moll
-	}
-
 	858.1.1 = {
 		holder = 183528
 		liege = k_scotland
@@ -2996,7 +2858,7 @@ c_linlithgowshire = {
 	}
 	
 	935.1.1 = {
-		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+		government = clan_government	#Ahistorical, just for ease of bookmarks.
 	}
 	
 	1058.1.1 = {
@@ -3006,36 +2868,16 @@ c_linlithgowshire = {
 
 
 c_lanarkshire = {
-	654.1.1 = {
-		holder = 205213 # Oswiu
-	}
-	670.2.15 = {
-		holder = 205213ecgfrith
-	}
-	685.5.20 = {
-		holder = 205213aldfrith
-	}
-	704.12.14 = {
-		holder = 205240 # Eadwulf, the Usurper
-	}
-	705.1.1 = {
-		holder = 205213osred
-	}
-	759.7.24 = {
-		holder = 205243 # Aethelwald Moll
-	}
 	765.1.1 = {
-		liege = "d_northumberland"
-		holder = 205250
-	}
-	774.1.1 = {
-		holder = 205244 # Aethelred I, Son of Aethelwald Moll
+		holder = 205050
+		liege = d_northumberland
+		government = tribal_government
 	}
 	862.1.1 = {
 		holder = 163103
 	}
 	935.1.1 = {
-		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+		government = clan_government	#Ahistorical, just for ease of bookmarks.
 	}
 	1066.1.2 = {
 		liege = "d_lothian"
@@ -3146,7 +2988,7 @@ d_moray = {
 		holder = 166573
 	}
 	706.1.1 = {
-		holder = 166485 #idk but need to balance domain size
+		holder = 166574
 	}
 	724.1.1 = {
 		holder = 166575
@@ -3200,25 +3042,25 @@ d_moray = {
 		holder = 6024
 	}
 	935.1.1 = {
-		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+		government = clan_government	#Ahistorical, just for ease of bookmarks.
 	}
 	1005.7.1 = {
-		holder = 5998 #Findlï¿½ech mac Ruaidri
+		holder = 5998 #Findláech mac Ruaidri
 	}
 	1020.7.1 = {
-		holder = 83587 #Mï¿½el Coluim mac Maï¿½l Brigte
+		holder = 83587 #Máel Coluim mac Maíl Brigte
 	}
 	1029.7.1 = {
-		holder = 6002 #Gille-Comgï¿½in mac Maï¿½l-Brigte
+		holder = 6002 #Gille-Comgáin mac Maíl-Brigte
 	}
 	1032.7.1 = {
-		holder = 5996 #Mac Bethad mac Findlaï¿½ch
+		holder = 5996 #Mac Bethad mac Findlaích
 	}
 	1040.1.1 = {
-		holder = 6006 #Lulach mac Gille-Comgï¿½in
+		holder = 6006 #Lulach mac Gille-Comgáin
 	}
 	1058.1.2 = {
-		holder = 6008 #Mï¿½el-Snechtai mac Lulaigh
+		holder = 6008 #Máel-Snechtai mac Lulaigh
 	}
 	1085.1.1 = {
 		holder = 6012 #Aengus mac ingine Lulaigh
@@ -3233,7 +3075,7 @@ d_moray = {
 		holder = 202973 #Gofraid mac Uilleim
 	}
 	1213.1.1 = {
-		holder = 202974 #Domnall Bï¿½n mac Uilleim
+		holder = 202974 #Domnall Bán mac Uilleim
 	}
 	1215.6.15 = {
 		holder = 6900 #Alexander II
@@ -3329,25 +3171,25 @@ c_moray = {
 		holder = 6024
 	}
 	935.1.1 = {
-		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+		government = clan_government	#Ahistorical, just for ease of bookmarks.
 	}
 	1005.7.1 = {
-		holder = 5998 #Findlï¿½ech mac Ruaidri
+		holder = 5998 #Findláech mac Ruaidri
 	}
 	1020.7.1 = {
-		holder = 83587 #Mï¿½el Coluim mac Maï¿½l Brigte
+		holder = 83587 #Máel Coluim mac Maíl Brigte
 	}
 	1029.7.1 = {
-		holder = 6002 #Gille-Comgï¿½in mac Maï¿½l-Brigte
+		holder = 6002 #Gille-Comgáin mac Maíl-Brigte
 	}
 	1032.7.1 = {
-		holder = 5996 #Mac Bethad mac Findlaï¿½ch
+		holder = 5996 #Mac Bethad mac Findlaích
 	}
 	1040.1.1 = {
-		holder = 6006 #Lulach mac Gille-Comgï¿½in
+		holder = 6006 #Lulach mac Gille-Comgáin
 	}
 	1058.1.2 = {
-		holder = 6008 #Mï¿½el-Snechtai mac Lulaigh
+		holder = 6008 #Máel-Snechtai mac Lulaigh
 	}
 	1085.1.1 = {
 		holder = 6012 #Aengus mac ingine Lulaigh
@@ -3362,7 +3204,7 @@ c_moray = {
 		holder = 202973 #Gofraid mac Uilleim
 	}
 	1213.1.1 = {
-		holder = 202974 #Domnall Bï¿½n mac Uilleim
+		holder = 202974 #Domnall Bán mac Uilleim
 	}
 	1215.6.15 = {
 		holder = 203005 #William Comyn
@@ -3407,28 +3249,28 @@ c_ross = {
 		holder = 183521
 	}
 	935.1.1 = {
-		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+		government = clan_government	#Ahistorical, just for ease of bookmarks.
 	}
 	1005.7.1 = {
-		holder = 5998 #Findlï¿½ech mac Ruaidri
+		holder = 5998 #Findláech mac Ruaidri
 	}
 	1020.7.1 = {
-		holder = 83587 #Mï¿½el Coluim mac Maï¿½l Brigte
+		holder = 83587 #Máel Coluim mac Maíl Brigte
 	}
 	1029.7.1 = {
-		holder = 6002 #Gille-Comgï¿½in mac Maï¿½l-Brigte
+		holder = 6002 #Gille-Comgáin mac Maíl-Brigte
 	}
 	1032.7.1 = {
-		holder = 5996 #Mac Bethad mac Findlaï¿½ch
+		holder = 5996 #Mac Bethad mac Findlaích
 	}
 	1040.1.1 = {
-		holder = 6006 #Lulach mac Gille-Comgï¿½in
+		holder = 6006 #Lulach mac Gille-Comgáin
 	}
 	1058.1.2 = {
-		holder = 6008 #Mï¿½el-Snechtai mac Lulaigh
+		holder = 6008 #Máel-Snechtai mac Lulaigh
 	}
 	1085.1.1 = {
-		holder = 6014 #Mï¿½el-Coluim mac ingine Lulaigh
+		holder = 6014 #Máel-Coluim mac ingine Lulaigh
 	}
 	1116.7.1 = {
 		holder = 83588 #Aed of the Macheths
@@ -3437,10 +3279,10 @@ c_ross = {
 		liege = "k_scotland"
 	}
 	1129.7.1 = {
-		holder = 83589 #Mï¿½el-Coluim Macheth
+		holder = 83589 #Máel-Coluim Macheth
 	}
 	1168.10.23 = {
-		holder = 220038 #daughter of Mï¿½ï¿½l-Coluim Macheth, wife of Harald of Orkney
+		holder = 220038 #daughter of Máél-Coluim Macheth, wife of Harald of Orkney
 	}
 	1215.7.1 = {
 		holder = 83593 #Ferchar mac in tSagairt
@@ -3461,9 +3303,6 @@ c_ross = {
 
 
 c_buchan = {
-	706.1.1 = {
-		holder = 166574
-	}
 	760.1.1 = {
 		liege = "d_moray"
 		holder = 166612
@@ -3476,7 +3315,7 @@ c_buchan = {
 		holder = 183525
 	}
 	935.1.1 = {
-		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+		government = clan_government	#Ahistorical, just for ease of bookmarks.
 	}
 	1066.1.1 = {
 		liege = "k_scotland"
@@ -3534,7 +3373,7 @@ c_sutherland = {
 		holder = 183515
 	}
 	935.1.1 = {
-		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+		government = clan_government	#Ahistorical, just for ease of bookmarks.
 	}
 	1058.1.2 = {
 		holder = 6008 #MÃ¡el-Snechtai mac Lulaigh
@@ -3603,7 +3442,7 @@ c_caithness = {
 		holder = 183515
 	}
 	935.1.1 = {
-		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+		government = clan_government	#Ahistorical, just for ease of bookmarks.
 	}
 	1066.1.1 = {
 		liege = "d_northern_isles"
@@ -3724,7 +3563,7 @@ c_inverness = {
 		holder = 6024
 	}
 	935.1.1 = {
-		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+		government = clan_government	#Ahistorical, just for ease of bookmarks.
 	}
 	1005.7.1 = {
 		holder = 5998 #FindlÃ¡ech mac Ruaidri

@@ -537,7 +537,7 @@
 		holding = castle_holding
 	}
 	1170.1.1 = {
-		culture = franconian
+		culture = thuringian
 		religion = catholic
 	}
 }
@@ -567,6 +567,9 @@
 	}
 	968.1.1 = {
 		holding = castle_holding
+	}
+	1170.1.1 = {
+		culture = thuringian
 	}
 }
 3033 = {	#BISCHOFSWERDA
@@ -599,7 +602,7 @@
 		holding = castle_holding
 	}
 	1170.1.1 = {
-		culture = franconian
+		culture = thuringian
 		religion = catholic
 	}
 }
@@ -629,7 +632,7 @@
 		holding = castle_holding
 	}
 	1150.1.1 = {
-		culture = franconian
+		culture = thuringian
 		religion = catholic
 	}
 }
@@ -662,7 +665,7 @@
 		holding = castle_holding
 	}
 	1150.1.1 = {
-		culture = franconian
+		culture = thuringian
 		religion = catholic
 	}
 }
@@ -689,7 +692,7 @@
 		holding = castle_holding
 	}
 	1150.1.1 = {
-		culture = franconian
+		culture = thuringian
 		religion = catholic
 	}
 }
@@ -721,7 +724,12 @@
 	religion = slavic_pagan
 	holding = tribal_holding
 	950.1.1 = {
+		culture = saxon
+		religion = catholic
 		holding = castle_holding
+	}
+	1150.1.1 = {
+		culture = thuringian
 	}
 }
 3141 = {	#KAMENZ
@@ -741,7 +749,12 @@
 	religion = slavic_pagan
 	holding = tribal_holding
 	990.1.1 = {
+		culture = saxon
+		religion = catholic
 		holding = castle_holding
+	}
+	1150.1.1 = {
+		culture = thuringian
 	}
 }
 3032 = {	#BAUTZEN
@@ -761,7 +774,12 @@
 	religion = slavic_pagan
 	holding = tribal_holding
 	1000.1.1 = {
+		culture = saxon
+		religion = catholic
 		holding = castle_holding
+	}
+	1150.1.1 = {
+		culture = thuringian
 	}
 }
 3178 = {	#DAHME
@@ -830,7 +848,12 @@
 	religion = slavic_pagan
 	holding = tribal_holding
 	929.1.1 = {
+		culture = saxon
+		religion = catholic
 		holding = castle_holding
+	}
+	1150.1.1 = {
+		culture = thuringian
 	}
 }
 3159 = {	#STORKOW
@@ -844,7 +867,12 @@
 	religion = slavic_pagan
 	holding = tribal_holding
 	1000.1.1 = {
+		culture = saxon
+		religion = catholic
 		holding = castle_holding
+	}
+	1150.1.1 = {
+		culture = thuringian
 	}
 }
 3138 = {	#FORST
@@ -909,7 +937,7 @@
 	religion = norse_pagan
 	holding = tribal_holding
 	
-	864.1.1 = {
+	900.1.1 = { # Probably Christianised late
 		culture = saxon
 		religion = catholic
 		holding = castle_holding
@@ -926,7 +954,7 @@
 ##d_thuringia ###################################
 ###c_gottingen
 2918 = {	#GOSLAR
-	culture = franconian
+	culture = thuringian
 	religion = catholic
 	holding = castle_holding
 	867.1.1 = {
@@ -942,7 +970,7 @@
 
 ###c_gleichenstein
 2919 = {	#GLEICHENSTEIN
-	culture = franconian
+	culture = thuringian
 	religion = catholic
 	holding = castle_holding
 }
@@ -955,12 +983,12 @@
 
 ###c_orlamunde
 3005 = {	#ORLAMUNDE
-	culture = polabian
+	culture = thuringian
 	religion = catholic
 	holding = castle_holding
-	1120.1.1 = {
-		culture = franconian
-		religion = catholic
+	#1120.1.1 = {
+	#	culture = thuringian
+	#	religion = catholic
 	}
 }
 2999 = {	#SCHWARZBURG
@@ -975,7 +1003,7 @@
 
 ###c_schmalkalden
 3010 = {	#SCHMALKALDEN
-	culture = franconian
+	culture = thuringian
 	religion = catholic
 	holding = castle_holding
 }
@@ -997,12 +1025,12 @@
 
 ###c_lobdaburg
 3003 = {	#LOBDABURG
-	culture = polabian
+	culture = thuringian
 	religion = catholic
 	holding = castle_holding
-	1120.1.1 = {
-		culture = franconian
-	}
+	#1120.1.1 = {
+	#	culture = thuringian
+	#}
 }
 3000 = {	#HOF
 	holding = none

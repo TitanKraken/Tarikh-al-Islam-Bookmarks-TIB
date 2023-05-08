@@ -33,10 +33,10 @@ d_cilicia = {
 		holder = 159729
 	}
 	852.1.1 = {
-		holder = 163135
+		holder = 163135 # Ali ibn Yahya al-Armani
 	}
-	862.1.1 = {
-		holder = armenian.000084
+	863.1.1 = {
+		holder = 1234558 # Muhammad ibn Ali Armani
 	}
 	900.1.1 = {
 		holder = 163134
@@ -166,10 +166,10 @@ c_cilicia = {
 		holder = 159729
 	}
 	852.1.1 = {
-		holder = 163135
+		holder = 163135 # Ali ibn Yahya al-Armani
 	}
-	862.1.1 = {
-		holder = armenian.000084
+	863.1.1 = {
+		holder = 1234558 # Muhammad ibn Ali Armani
 	}
 	962.1.1 = {
 		liege = "d_antioch"
@@ -255,6 +255,12 @@ c_seleucia = {
 	}
 	850.1.1 = {
 		holder = 145147
+	}
+	852.1.1 = {
+		holder = 163135 # Ali ibn Yahya al-Armani
+	}
+	863.1.1 = {
+		holder = 1234558 # Muhammad ibn Ali Armani
 	}
 	965.1.1 = {
 		liege = "d_cilicia"
@@ -350,6 +356,12 @@ c_lycandus = {
 	}
 	855.1.1 = {
 		holder = 145110
+	}
+	852.1.1 = {
+		holder = 163135 # Ali ibn Yahya al-Armani
+	}
+	863.1.1 = {
+		holder = 1234558 # Muhammad ibn Ali Armani
 	}
 	908.1.1 = {
 		liege = "e_byzantium"
@@ -489,10 +501,10 @@ c_tall_hamid = {
 		holder=146041
 	}
 	852.1.1 = {
-		holder = 163135
+		holder = 163135 # Ali ibn Yahya al-Armani
 	}
-	862.1.1 = {
-		holder = armenian.000084
+	863.1.1 = {
+		holder = 1234558 # Muhammad ibn Ali Armani
 	}
 	962.1.1={
 		liege="d_cilicia" # now byzantine

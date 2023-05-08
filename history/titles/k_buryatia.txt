@@ -45,7 +45,7 @@ d_uda_valley = {
 	1188.11.20 = {
 		holder = 303118		#fictional Ajai Mergid
 	}
-	1206.1.1  {
+	1206.1.1 = {
 		liege = k_mongolia
 	}
 }
@@ -317,7 +317,9 @@ c_kotera = {
 	1194.11.4 = {
 		holder = 303147		#fictional Tsyren Galzuud
 	}
-
+	1206.1.1 = {
+		liege = k_mongolia
+	}
 }
 
 
@@ -351,7 +353,9 @@ c_vitim = {
 	1194.11.4 = {
 		holder = 303147		#fictional Tsyren Galzuud
 	}
-
+	1206.1.1 = {
+		liege = k_mongolia
+	}
 }
 
 
@@ -385,7 +389,9 @@ c_karabaigal = {
 	1194.11.4 = {
 		holder = 303147		#fictional Tsyren Galzuud
 	}
-
+	1206.1.1 = {
+		liege = k_mongolia
+	}
 }
 
 
@@ -589,6 +595,9 @@ c_ryty = {
 	}
 	1190.1.13 = {
 		holder = 303163		#fictional Khotsa Abazaj
+	}
+	1206.1.1 = {
+		liege = k_mongolia
 	}
 }
 

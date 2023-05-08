@@ -54,26 +54,6 @@
 	}
 }
 
-10014 = {
-	name = "Judith"
-	female = yes
-	dynasty_house = house_evreux
-	martial = 4
-	diplomacy = 6
-	intrigue = 4
-	stewardship = 7
-	religion = "catholic"
-	culture = norman
-	trait = education_diplomacy_2
-	father = 260
-	1037.1.2 = {
-		birth = "1037.1.2"
-	}
-	1087.1.2 = {
-		death = "1087.1.2"
-	}
-}
-
 10015 = {
 	name = "Adele"
 	female = yes
@@ -94,8 +74,8 @@
 }
 
 10016 = {
-	name = "William" # Son of Richard de Evreux
-	dynasty_house = house_evreux
+	name = "William"
+	dynasty_house = house_vassy
 	martial = 8
 	diplomacy = 5
 	intrigue = 6
@@ -118,9 +98,9 @@
 }
 
 10018 = {
-	name = "Agnes" # Daughter of Richard de Evreux
+	name = "Agnes"
 	female = yes
-	dynasty_house = house_evreux
+	dynasty_house = house_vassy
 	martial = 4
 	diplomacy = 5
 	intrigue = 6
@@ -141,9 +121,9 @@
 }
 
 10020 = {
-	name = "Godechilde" # Daughter of Richard de Evreux
+	name = "Godechilde"
 	female = yes
-	dynasty_house = house_evreux
+	dynasty_house = house_vassy
 	martial = 4
 	diplomacy = 5
 	intrigue = 6
@@ -164,7 +144,7 @@
 
 10021 = {
 	name = "Radulf"
-	dynasty_house = house_evreux
+	dynasty = 752
 	martial = 8
 	diplomacy = 5
 	intrigue = 6
@@ -445,7 +425,7 @@
 	trait = ambitious
 	trait = physique_good_2
 	trait = education_martial_4
-	sexuality = heterosexual
+	sexuality = heterosexual		 
 	father = 1120
 	mother = 10008
 	1015.1.1 = {
@@ -513,6 +493,7 @@
 	
 	1031.1.2 = {
 		birth = yes
+		give_nickname = nick_great_count
 	}
 	1061.1.1 = {
 		add_spouse = 10014
@@ -722,13 +703,12 @@
 	trait = cynical
 	trait = ambitious
 	trait = deceitful
-	trait = pensive #childhood trait 
-	trait = physique_good_2
+	trait = physique_good_2				
 	trait = education_martial_2
 	father = 1128
 	mother = 10003
-	1055.1.1 = {
-		birth = "1055.1.1"
+	1058.1.1 = {
+		birth = "1058.1.1"
 	}
 	1105.1.1 = {
 		add_spouse = 205511
@@ -777,7 +757,6 @@
 	disallow_random_traits = yes
 	trait = disinherited # Her parent's marriage was annulled, effectively making her a bastard.
 	trait = generous
-	trait = charming #childhood trait
 	trait = diligent
 	trait = education_learning_2
 	father = 1128
@@ -979,7 +958,7 @@
 	trait = brave
 	trait = legitimized_bastard
 	trait = education_martial_4
-	sexuality = heterosexual
+	sexuality = heterosexual					 
 	father = 252
 	mother = 41001
 	1027.1.15 = {
@@ -1013,10 +992,6 @@
 				levies = 800
 				men_at_arms = {
 					type = armored_footmen
-					stacks = 4
-				}
-				men_at_arms = {
-					type = onager
 					stacks = 2
 				}
 				location = province:2174
@@ -1025,15 +1000,7 @@
 			}
 			spawn_army = {
 				name = event_troop_default_name
-				levies = 800
-				men_at_arms = {
-					type = bowmen
-					stacks = 4
-				}
-				men_at_arms = {
-					type = onager
-					stacks = 2
-				}
+				levies = 800‬
 				location = province:2174
 				origin = province:2325
 				inheritable = no
@@ -1041,34 +1008,16 @@
 			spawn_army = {
 				name = event_troop_default_name
 				levies = 800
-				men_at_arms = {
-					type = armored_footmen
-					stacks = 4
-				}
-				men_at_arms = {
-					type = onager
-					stacks = 2
-				}
 				location = province:2174
 				origin = province:2325
 				inheritable = no
-				war_keep_on_attacker_victory = no
 			}
 			spawn_army = {
 				name = event_troop_default_name
 				levies = 800
-				men_at_arms = {
-					type = light_footmen
-					stacks = 4
-				}
-				men_at_arms = {
-					type = pikemen_unit
-					stacks = 4
-				}
 				location = province:2174
 				origin = province:2325
 				inheritable = no
-				war_keep_on_attacker_victory = no
 			}
 		}
 	}
@@ -1117,7 +1066,7 @@
 	1087.9.9 = {
 		add_pressed_claim = title:k_england
 	}
-	1074.1.1 = {
+	1088.1.1 = {
 		death = yes
 	}
 }
@@ -1196,19 +1145,17 @@
 	religion = "catholic"
 	culture = "norman"
 	trait = education_learning_2
+	trait = ill
 	father = 140
 	mother = 367
 	1055.1.1 = {
 		birth = "1055.1.1"
 	}
-	1066.1.1 = {
-		contract_disease_effect = { DISEASE = ill TREATMENT_EVENT = yes }
-	}
 	1087.9.9 = {
 		add_pressed_claim = title:k_england
 	}
-	1081.1.1 = {
-		death = "1081.1.1"
+	1088.1.1 = {
+		death = "1088.1.1"
 	}
 }
 
@@ -1227,7 +1174,6 @@
 	trait = brave
 	trait = cynical
 	trait = generous
-	trait = pensive # childhood
 	sexuality = homosexual
 	trait = education_martial_3
 	father = 140
@@ -1243,7 +1189,9 @@
 		add_pressed_claim = title:k_england
 	}
 	1100.8.3 = {
-		death = "1100.8.3"
+		death = {
+			death_reason = death_hunting_accident
+		}
 	}
 }
 
@@ -1291,6 +1239,9 @@
 	mother = 41001
 	1030.1.1 = {
 		birth = "1030.1.1"
+	}
+	1066.1.1 = {
+		employer = 140
 	}
 	1096.1.1 = {
 		trait = faith_warrior
@@ -1921,6 +1872,7 @@
 	# AKA: Maltilda
 	female = yes
 	dynasty = 752
+	dna = 202991_empress_matilda						 
 	martial = 5
 	diplomacy = 8
 	intrigue = 7
@@ -1967,6 +1919,11 @@
 	mother = 367
 	1068.9.1 = {
 		birth = yes
+		give_nickname = nick_beauclerc
+	}
+	1084.9.1 = {
+		remove_trait = curious
+		add_trait = education_diplomacy_3
 	}
 	1087.9.9 = {
 		add_pressed_claim = title:k_england
@@ -2228,9 +2185,7 @@
 	1095.1.1 = {
 		birth = "1095.1.1"
 	}
-	1119.1.1 = {
-		employer = 73280
-	}
+	
 	1127.7.1 = {
 		death = "1127.7.1"
 	}
@@ -2260,8 +2215,8 @@
 212508 = {
 	name = "Constance" #Queen of Sicily
 	female = yes
-	dna = constance_sicily_dna
 	dynasty = 678
+	dna = 212508_empress_constance				   
 	martial = 8
 	diplomacy = 6
 	intrigue = 5
@@ -2270,14 +2225,15 @@
 	culture = "norman"
 	trait = generous
 	trait = just
-	trait = cynical
+	trait = calm
 	trait = brave
-	trait = lustful
+	trait = humble
 	trait = education_diplomacy_2
 	father = 211502
 	mother = 211503
 	1154.1.1 = {
 		birth = "1154.1.1"
+		add_pressed_claim = title:k_sicily
 	}
 	1198.11.28 = {
 		death = "1198.11.28"
@@ -2310,7 +2266,7 @@
 232504 = {
 	name = "Roger"
 	# AKA: Roger Dagobertos
-	dynasty = 20066
+	dynasty_house = house_rogerios
 	martial = 4
 	diplomacy = 4
 	intrigue = 4
@@ -2323,6 +2279,9 @@
 	father = 34605
 	1052.1.1 = {
 		birth = "1052.1.1"
+	}
+	1100.1.1={
+		add_spouse = 1500445
 	}
 	1107.1.1 = {
 		death = "1107.1.1"
@@ -2347,23 +2306,69 @@
 	}
 }
 
+242 = {
+	name = "Hrolfr" # Hrolf Gange - founder of Normandy
+	dynasty = 752
+	martial = 7
+	diplomacy = 6
+	intrigue = 8
+	stewardship = 7
+	learning = 5
+	religion = norse_pagan
+	culture = norse # Maybe from Denmark (Dane) or Norway
+	trait = lustful
+	trait = arrogant
+	trait = strong
+	trait = brave
+	trait = education_martial_4
+	846.6.6 = {
+		birth = yes
+	}
+	866.1.1 = {
+		trait = viking
+	}
+	867.1.1 = {
+		employer = 186004
+	}
+	886.1.1 = {
+		add_spouse = 241
+	}
+	912.1.1 = {
+		religion = catholic
+	}
+	930.1.1 = {
+		trait = lunatic_1
+		religion = norse_pagan
+	}
+	932.1.1 = {
+		death = yes
+	}
+}
+
 243 = {
-	name = "Adela"
+	name = "Geirlaug"
 	female = yes
 	dynasty = 752
 	martial = 8
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 6
-	religion = "catholic"
-	culture = "norman"
+	religion = "norse_pagan"
+	culture = "norse"
 	trait = lustful
 	trait = greedy
 	trait = education_learning_2
 	father = 242
 	mother = 241
-	917.1.2 = {
-		birth = "917.1.2"
+	910.1.1 = { # Should be 912 but intentionally early
+		birth = yes
+	}
+	912.1.1 = {
+		name = "Adela"
+		religion = "catholic"
+	}
+	927.1.1 = {
+		culture = "norman"
 	}
 	962.1.2 = {
 		death = "962.1.2"
@@ -2371,20 +2376,27 @@
 }
 
 244 = {
-	name = "William"
+	name = "William" # Vilhjálmr
 	dynasty = 752
 	martial = 8
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 5
-	religion = "catholic"
-	culture = "norman"
+	religion = "norse_pagan"
+	culture = "norse"
 	trait = gluttonous
 	trait = education_diplomacy_2
 	father = 242
 	mother = 241
-	914.1.2 = {
-		birth = "914.1.2"
+	893.1.2 = {
+		birth = "893.1.2"
+		give_nickname = nick_longsword # Langaspjót					
+	}
+	912.1.1 = {
+		religion = catholic
+	}
+	927.1.1 = {
+		culture = "norman"
 	}
 	942.12.17 = {
 		death = "942.12.17"
@@ -2616,7 +2628,7 @@
 
 260 = {
 	name = "Robert"
-	dynasty_house = house_evreux
+	dynasty = 752
 	martial = 5
 	diplomacy = 8
 	intrigue = 6
@@ -2630,34 +2642,8 @@
 	965.1.2 = {
 		birth = "965.1.2"
 	}
-	1037.1.1 = {
-		death = "1037.1.1"
-	}
-}
-
-20112 = {
-	name = "Richard" # Richard de Evreux
-	dynasty_house = house_evreux
-	martial = 8
-	diplomacy = 5
-	intrigue = 6
-	stewardship = 6
-	religion = "catholic"
-	culture = norman
-	trait = just
-	trait = education_martial_2
-	father = 260
-	986.1.1 = {
-		birth = "986.1.1"
-	}
-	1029.1.2 = {
-		add_spouse = 10015
-	}
-	1045.1.1 = {
-		set_primary_title_to = title:c_evreux
-	}
-	1067.1.1 = {
-		death = "1067.1.1"
+	1037.1.2 = {
+		death = "1037.1.2"
 	}
 }
 
@@ -2705,8 +2691,8 @@
 	1035.1.1 = {
 		add_spouse = 168471
 	}
-	1040.1.1 = {
-		death = "1040.1.1"
+	1043.1.1 = {
+		death = "1043.1.1"
 	}
 }
 
@@ -2749,8 +2735,8 @@
 	1100.1.1 = {
 		birth = "1100.1.1"
 	}
-	1120.6.10 = {
-		death = "1120.6.10"
+	1125.6.10 = {
+		death = "1125.6.10"
 	}
 }
 
@@ -2823,6 +2809,7 @@
 	dynasty = 7182 #Ridel
 	religion = "catholic"
 	culture = "norman"
+	father = 1167001
 	1079.1.1 = {
 		birth = "1079.1.1"
 	}
@@ -2951,11 +2938,13 @@
 	dynasty = 678
 	religion = "catholic"
 	culture = "norman"
+	martial = 8
 	trait = deceitful
 	trait = education_martial_3
 	father = 7730
 	mother = 1143
-	
+	trait = ambitious
+	trait = arrogant
 	1072.1.1 = {
 		birth = yes
 	}
@@ -3369,7 +3358,6 @@
 	name = "Herleva"
 	female = yes
 	dynasty = 101755
-	father = norman0014
 	martial = 2
 	diplomacy = 5
 	intrigue = 7
@@ -3377,16 +3365,16 @@
 	religion = "catholic"
 	culture = "norman"
 	1003.1.2 = {
-		birth = yes
+		birth = "1003.1.2"
 	}
-	1050.1.1 = {
-		death = yes
+	1050.1.2 = {
+		death = "1050.1.2"
 	}
 }
 
 41004 = {
 	name = "Robert" #3rd Earl of Shrewsbury
-	dynasty = 751
+	dynasty=709
 	religion = "catholic"
 	culture = "norman"
 	father = 152 #Roger II de Montgommery
@@ -3501,7 +3489,7 @@
 
 41014 = {
 	name = "Richard" # de Tonbridge FitzGilbert de Clare
-	dynasty_house = house_brionne # may need changing to Clare if later start dates are introduced
+	dynasty_house = house_clare
 	religion = "catholic"
 	culture = "norman"
 	father = 41013
@@ -3537,7 +3525,7 @@
 
 41017 = {
 	name = "Robert"
-	dynasty_house = house_brionne # may need changing to Clare if later start dates are introduced
+	dynasty_house = house_clare
 	martial = 9
 	diplomacy = 4
 	intrigue = 8
@@ -3747,28 +3735,6 @@
 	}
 }
 
-41237 = {
-	name = "Gundreda"
-	female = yes
-	dynasty = 352
-	martial = 7
-	diplomacy = 5
-	intrigue = 4
-	stewardship = 6
-	religion = "catholic"
-	culture = norman
-	trait = temperate
-	trait = chaste
-	trait = education_intrigue_1
-	father = norman0015
-	1035.1.1 = {
-		birth = yes
-	}
-	1086.1.1 = {
-		death = yes
-	}
-}
-
 41238 = {
 	name = "Gilbert"
 	dynasty_house = house_blount
@@ -3780,8 +3746,8 @@
 	culture = "norman"
 	father = 41236
 	mother = 41237
-	1066.9.15 = {
-		birth = yes
+	1066.1.1 = {
+		birth = "1066.1.1"
 	}
 	1116.1.1 = {
 		death = "1116.1.1"
@@ -3791,7 +3757,6 @@
 41241 = {
 	name = "Henry"
 	dynasty = 352
-	father = norman0015
 	martial = 5
 	diplomacy = 6
 	intrigue = 5
@@ -3801,8 +3766,8 @@
 	trait = lustful
 	trait = brave
 	trait = education_martial_2
-	1030.1.1 = {
-		birth = "1030.1.1"
+	1035.1.1 = {
+		birth = "1035.1.1"
 	}
 	1053.1.2 = {
 		add_spouse = 41242
@@ -3845,9 +3810,6 @@
 	mother = 41242
 	1058.1.1 = {
 		birth = "1058.1.1"
-	}
-	1066.1.1 = {
-		employer = 6818
 	}
 	1099.1.1 = {
 		death = "1099.1.1"
@@ -4344,6 +4306,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 4
+	father = 1227377
 	religion = "catholic"
 	culture = "norman"
 	trait = education_martial_3
@@ -4424,12 +4387,10 @@
 	stewardship = 4
 	religion = "catholic"
 	culture = "norman"
+	trait = ill
 	trait = education_learning_3
 	1038.1.2 = {
 		birth = "1038.1.2"
-	}
-	1066.1.1 = {
-		contract_disease_effect = { DISEASE = ill TREATMENT_EVENT = yes }
 	}
 	1088.1.2 = {
 		death = "1088.1.2"
@@ -4794,13 +4755,11 @@
 	trait = greedy
 	trait = temperate
 	trait = craven
+	trait = ill
 	trait = education_learning_2
 	father = 6816
 	1046.1.1 = {
 		birth = "1046.1.1"
-	}
-	1066.1.1 = {
-		contract_disease_effect = { DISEASE = ill TREATMENT_EVENT = yes }
 	}
 	1075.1.1 = {
 		death = "1075.1.1"
@@ -4834,8 +4793,7 @@
 6821 = {
 	name = "Beatrix"
 	female = yes
-	dynasty = 101755
-	father = norman0014
+	dynasty = 100096
 	martial = 8
 	diplomacy = 5
 	intrigue = 4
@@ -4884,8 +4842,8 @@
 	culture = "norman"
 	father = 41241
 	mother = 41242
-	1062.1.1 = {
-		birth = yes
+	1060.1.1 = {
+		birth = "1060.1.1"
 	}
 	1139.1.1 = {
 		death = "1139.1.1"
@@ -4894,7 +4852,7 @@
 
 7582 = {
 	name = "Edward"
-	dynasty_house = house_evreux
+	dynasty_house = house_vassy
 	religion = "catholic"
 	culture = "norman"
 	father = 10016
@@ -4908,7 +4866,7 @@
 
 7583 = {
 	name = "Walter"
-	dynasty = 22001
+	dynasty_house = house_vassy
 	religion = "catholic"
 	culture = "norman"
 	father = 7582
@@ -4960,7 +4918,7 @@
 
 82052 = {
 	name = "Roger" # lord of Lancaster and Westmorland who revolted against Rufus and was expelled by henry
-	# AKA: Roger 'the Poitevin'
+	# AKA: Roger 'the french'
 	dynasty = 751
 	religion = "catholic"
 	culture = "norman"
@@ -5110,13 +5068,11 @@
 	stewardship = 5
 	religion = "catholic"
 	culture = "norman"
+	trait = ill
 	father = 82060
 	mother = 82059
 	1061.1.1 = {
 		birth = "1061.1.1"
-	}
-	1066.1.1 = {
-		contract_disease_effect = { DISEASE = ill TREATMENT_EVENT = yes }
 	}
 	1079.1.1 = {
 		death = "1079.1.1"
@@ -5419,9 +5375,7 @@
 	1018.1.2 = {
 		birth = yes
 	}
-	#1061.1.1 = { # Outcommented due to already being married with 171155, Geoffroy.
-	#	add_spouse = 200365
-	#}
+	
 	1071.1.2 = {
 		death = yes
 	}
@@ -5795,6 +5749,7 @@
 	religion = "catholic"
 	culture = "norman"
 	trait = education_learning_2
+	father = 168182
 	1110.1.1 = {
 		birth = "1110.1.1"
 	}
@@ -5806,10 +5761,10 @@
 
 138054 = {
 	name = "Aldebert"  #Aldebert III de la marche/montgommery
-	dynasty = 751
+	dynasty = 100145
 	religion = "catholic"
-	culture = "norman"
-	father = 82052  #Roger le Poitevin
+	culture = "french"
+	father = 82052  #Roger le french
 	mother = 138045 #Almodis de la marche
 	1095.1.1 = {
 		birth = "1095.1.1"
@@ -5822,10 +5777,10 @@
 
 138055 = {
 	name = "Boson"  #Boson IV de la marche/montgommery
-	dynasty = 751
+	dynasty = 100145
 	religion = "catholic"
-	culture = "norman"
-	father = 82052  #Roger le Poitevin
+	culture = "french"
+	father = 82052  #Roger le french
 	mother = 138045 #Almodis de la marche
 	1093.1.1 = {
 		birth = "1093.1.1"
@@ -5837,10 +5792,10 @@
 
 138056 = {
 	name = "Eudes"  #Eudes II de la marche/montgommery
-	dynasty = 751
+	dynasty = 100145
 	religion = "catholic"
-	culture = "norman"
-	father = 82052  #Roger le Poitevin
+	culture = "french"
+	father = 82052  #Roger le french
 	mother = 138045 #Almodis de la marche
 	1094.1.1 = {
 		birth = "1094.1.1"
@@ -5853,10 +5808,10 @@
 138057 = {
 	name = "Pontia"  #Pontia de la Marche/montgommery
 	female = yes
-	dynasty = 751
+	dynasty = 100145
 	religion = "catholic"
-	culture = "norman"
-	father = 82052  #Roger le Poitevin
+	culture = "french"
+	father = 82052  #Roger le french
 	mother = 138045 #Almodis de la marche
 	1099.1.1 = {
 		birth = "1099.1.1"
@@ -5869,9 +5824,9 @@
 
 138062 = {
 	name = "Adelbert"  #Adelbert IV de la marche
-	dynasty = 751
+	dynasty = 100145
 	religion = "catholic"
-	culture = "norman"
+	culture = "french"
 	father = 138054  #Adelbert III de la marche/montgommery
 	1148.1.1 = {
 		birth = "1148.1.1"
@@ -5886,15 +5841,43 @@
 
 138064 = {
 	name = "Boson"  #Boson V de la marche
-	dynasty = 751
+	dynasty = 100145
 	religion = "catholic"
-	culture = "norman"
+	culture = "french"
 	father = 138054  #Adelbert III de la marche/montgommery
 	1146.1.1 = {
 		birth = "1146.1.1"
 	}
 	1172.1.1 = {
 		death = "1172.1.1"
+	}	
+}
+
+Lamarche1 = {
+	name = "Eudes" 
+	dynasty = 100145
+	religion = "catholic"
+	culture = "french"
+	father = 138062
+	1168.1.1 = {
+		birth = "1168.1.1"
+	}
+	1228.8.29 = {
+		death = "1228.8.29"
+	}	
+}
+
+Lamarche2 = {
+	name = "Eudes" 
+	dynasty = 100145
+	religion = "catholic"
+	culture = "french"
+	father = Lamarche1
+	1203.1.1 = {
+		birth = "1203.1.1"
+	}
+	1270.9.24 = {
+		death = "1270.9.24"
 	}	
 }
 
@@ -6118,7 +6101,7 @@
 129020 = {
 	name = "William"
 	religion = "catholic"
-	culture = "norman"
+	culture = "northerner"
 	1092.1.1 = {
 		birth = "1092.1.1"
 	}
@@ -6130,7 +6113,7 @@
 129021 = {
 	name = "William"
 	religion = "catholic"
-	culture = "norman"
+	culture = "northerner"
 	1096.1.1 = {
 		birth = "1096.1.1"
 	}
@@ -6233,6 +6216,7 @@
 	dynasty = 4037
 	religion = "catholic"
 	culture = "norman"
+	father = 1227361
 	1045.1.1 = {
 		birth = "1045.1.1"
 	}
@@ -6448,7 +6432,7 @@
 41210 = {
 	name = "Avice"
 	female = yes
-	dynasty_house = house_brionne # may need changing to Clare if later start dates are introduced
+	dynasty_house = house_clare
 	father = 41014 #Richard de Tonbridge FitzGilbert de Clare
 	mother = 41015 #Rohese Giffard
 	religion = "catholic"
@@ -6707,7 +6691,7 @@
 
 204792 = {
 	name = "Gilbert"
-	dynasty_house = house_brionne # may need changing to Clare if later start dates are introduced
+	dynasty_house = house_clare
 	martial = 7
 	diplomacy = 5
 	intrigue = 7
@@ -6757,7 +6741,7 @@
 
 204794 = {
 	name = "Richard"
-	dynasty = 364
+	dynasty_house = house_clare
 	martial = 7
 	diplomacy = 5
 	intrigue = 7
@@ -6987,6 +6971,7 @@
 205851 = {
 	name = "E_tienne"
 	dynasty = 721
+	dna = 205851_stephen_of_england
 	martial = 8
 	diplomacy = 5
 	intrigue = 5
@@ -7000,8 +6985,12 @@
 	trait = education_martial_2
 	father = 205897
 	mother = 205898
+	sexuality = heterosexual	
 	1096.1.1 = {
 		birth = "1096.1.1"
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}				
 	}
 	1125.1.1 = {
 		add_spouse = 205860 #Mathilde de Boulogne
@@ -7017,7 +7006,7 @@
 
 168182 = {
 	name = "William"
-	dynasty = 751
+	dynasty=709
 	religion = "catholic"
 	culture = "norman"
 	father = 41004
@@ -7527,50 +7516,16 @@
 	religion = catholic
 	culture = norman
 
-	1071.1.1 = {
+
+	1042.1.1={
 		birth = yes
 	}	
-	1104.1.1 = {
+	1104.1.1={
 		death = yes
 	}
 }
 
-30842 = {
-	name = "Rainolf" # Rainolf Drengot
-	dynasty = 676
-	religion = catholic
-	culture = norman
-	father = 144702
-	
-	1077.1.1 = {
-		birth = yes
-	}
-	1094.1.1 = {
-		add_spouse = 1133
-	}
-	1130.1.1 = {
-		name = "Rainulfu"
-		culture = sicilian
-	}
-	1139.4.30 = {
-		death = yes
-	}
-}
 
-30843 = {
-	name = "Richard" # Richard Drengot
-	dynasty = 676
-	religion = catholic
-	culture = norman
-	father = 144702
-	
-	1078.1.1 = {
-		birth = yes
-	}
-	1130.1.1 = {
-		death = yes
-	}
-}
 
 30844 = {
 	name = "Gaitelgrima" # Gaitelgrima Drengot
@@ -7606,143 +7561,140 @@ norman0001 = {
 	}
 }
 
-norman0002 = {
-	name = "Geoffroy" # Geoffroy de Medania
-	dynasty = medania
-	religion = catholic
-	culture = norman
-
-	father = norman0003
-
-	1067.1.1 = {
-		birth = yes
-	}
-	1088.1.1 = {
-		add_spouse = lombard0036
-	}
-	1116.3.1 = {
-		death = yes
-	}
-}
-
-norman0003 = {
-	name = "Robert" # Robert de Medania
-	dynasty = medania
-	religion = catholic
-	culture = norman
-	trait = education_martial_1
-
-	1046.1.1 = {
-		birth = yes
-	}
-	1108.1.1 = {
-		death = yes
-	}
-}
-
-norman0004 = {
-	name = "Roger" # Roger de Sanseverino
-	dynasty = 101843
-	religion = catholic
-	culture = norman
-
-	father = norman0005
-
-	1060.1.1 = {
-		birth = yes
-	}
-	1088.1.1 = {
-		add_spouse = lombard0035
-	}
-	1125.3.1 = {
-		death = yes
-	}
-}
-
-norman0005 = {
-	name = "Turgise" # Turgise de Sanseverino
-	dynasty = 101843
-	religion = catholic
-	culture = norman
-	trait = education_martial_2
-
-	1035.1.1 = {
-		birth = yes
-	}
-	1060.1.1 = {
-		employer = 1128
-	}
-	1185.1.1 = {
-		death = yes
-	}
-}
-
-norman0006 = {
-	name = "Robert" # Robert de Sanseverino
-	dynasty = 101843
-	religion = catholic
-	culture = norman
-
-	father = norman0005
-
-	1062.1.1 = {
-		birth = yes
-	}
-	1112.1.1 = {
-		death = yes
-	}
-}
-
-norman0007 = {
-	name = "Robert" # Robert de Sanseverino
-	dynasty = 101843
-	religion = catholic
-	culture = norman
-
-	father = norman0004
-	mother = lombard0035
-
-	1086.1.1 = {
-		birth = yes
-	}
-	1110.1.1 = {
-		death = yes
-	}
-}
-
-norman0008 = {
-	name = "Turgise" # Turgise de Sanseverino
-	dynasty = 101843
-	religion = catholic
-	culture = norman
-
-	father = norman0004
-	mother = lombard0035
-
-	1088.1.1 = {
-		birth = yes
-	}
-	1105.4.1 = {
-		death = yes
-	}
-}
-
-norman0009 = {
-	name = "Roger" # Roger de Sanseverino
-	dynasty = 101843
-	religion = catholic
-	culture = norman
-
-	father = norman0004
-	mother = lombard0035
-
-	1088.1.1 = {
-		birth = yes
-	}
-	1105.4.1 = {
-		death = yes
-	}
-}
+#norman0002 = {
+#	name = "Geoffroy" # Geoffroy de Medania
+#	dynasty = medania
+#	religion = catholic
+#	culture = norman
+#
+#	father = norman0003
+#
+#	1067.1.1 = {
+#		birth = yes
+#	}
+#	1088.1.1 = {
+#		add_spouse = lombard0036
+#	}
+#	1116.3.1 = {
+#		death = yes
+#	}
+#}
+#
+#norman0003 = {
+#	name = "Robert" # Robert de Medania
+#	dynasty = medania
+#	religion = catholic
+#	culture = norman
+#	trait = education_martial_1
+#
+#	1046.1.1 = {
+#		birth = yes
+#	}
+#	1108.1.1 = {
+#		death = yes
+#	}
+#}
+#
+#norman0004 = {
+#	name = "Roger" # Roger de Sanseverino
+#	dynasty = 101843
+#	religion = catholic
+#	culture = norman
+#
+#	father = norman0005
+#
+#	1060.1.1 = {
+#		birth = yes
+#	}
+#	1125.3.1 = {
+#		death = yes
+#	}
+#}
+#
+#norman0005 = {
+#	name = "Turgise" # Turgise de Sanseverino
+#	dynasty = 101843
+#	religion = catholic
+#	culture = norman
+#	trait = education_martial_2
+#
+#	1035.1.1 = {
+#		birth = yes
+#	}
+#	1060.1.1 = {
+#		employer = 1128
+#	}
+#	1185.1.1 = {
+#		death = yes
+#	}
+#}
+#
+#norman0006 = {
+#	name = "Robert" # Robert de Sanseverino
+#	dynasty = 101843
+#	religion = catholic
+#	culture = norman
+#
+#	father = norman0005
+#
+#	1062.1.1 = {
+#		birth = yes
+#	}
+#	1112.1.1 = {
+#		death = yes
+#	}
+#}
+#
+#norman0007 = {
+#	name = "Robert" # Robert de Sanseverino
+#	dynasty = 101843
+#	religion = catholic
+#	culture = norman
+#
+#	father = norman0004
+#	mother = lombard0035
+#
+#	1097.1.1 = {
+#		birth = yes
+#	}
+#	1110.1.1 = {
+#		death = yes
+#	}
+#}
+#
+#norman0008 = {
+#	name = "Turgise" # Turgise de Sanseverino
+#	dynasty = 101843
+#	religion = catholic
+#	culture = norman
+#
+#	father = norman0004
+#	mother = lombard0035
+#
+#	1096.1.1 = {
+#		birth = yes
+#	}
+#	1105.4.1 = {
+#		death = yes
+#	}
+#}
+#
+#norman0009 = {
+#	name = "Roger" # Roger de Sanseverino
+#	dynasty = 101843
+#	religion = catholic
+#	culture = norman
+#
+#	father = norman0004
+#	mother = lombard0035
+#
+#	1095.1.1 = {
+#		birth = yes
+#	}
+#	1105.4.1 = {
+#		death = yes
+#	}
+#}
 
 norman0010 = {
 	name = "Geoffrey" # Geoffrey di Marsico
@@ -7782,7 +7734,7 @@ norman0011 = {
 
 norman0012 = {
 	name = "Manfred" # Manfred di Paternò
-	dynasty_house = house_paterno
+	dynasty = 678
 	religion = "catholic"
 	culture = "norman"
 
@@ -7799,7 +7751,7 @@ norman0012 = {
 
 norman0013 = {
 	name = "Jordan" # Jordan di Paternò
-	dynasty_house = house_paterno
+	dynasty = 678
 	religion = "catholic"
 	culture = "norman"
 
@@ -7813,73 +7765,39 @@ norman0013 = {
 		death = yes
 	}
 }
-
-norman0014 = {
-	name = "Folbert"
-	dynasty = 101755
-	religion = "catholic"
-	culture = "norman"
-	978.1.1 = {
-		birth = "978.1.1"
-	}
-	1034.1.1 = {
-		death = "1034.1.1"
-	}
-}
-
-norman0015 = {
-	name = "Walkelin" # father of Henry de Ferrers
-	dynasty = 352
-	religion = "catholic"
-	culture = "norman"
-	983.1.1 = {
+260555 = {
+	name = "Bernard" # the Dane
+	dynasty = danebeaumont
+	religion = catholic
+	culture = norse
+	trait = education_martial_3
+	trait = viking
+	880.1.1 = {
 		birth = yes
 	}
-	1040.1.1 = {
+	919.1.1 = {
+		culture = norman
+	}	
+	930.1.1 = {
+		give_nickname = nick_the_dane
+	}
+	951.1.1 = {
 		death = yes
 	}
 }
-
-norman0016 = {
-	name = "William" # son of Walkelin de Ferrers
-	dynasty = 352
-	religion = "catholic"
-	culture = norman
-	father = norman0015
-	1028.1.1 = {
+260556 = {
+	name = "Torf" # le Riche
+	dynasty = danebeaumont
+	religion = catholic
+	culture = norse
+	father = 260555
+	905.1.1 = {
 		birth = yes
 	}
-	1090.1.1 = {
+	919.1.1 = {
+		culture = norman
+	}	
+	973.1.1 = {
 		death = yes
 	}
 }
-
-norman0017 = {
-	name = "William" # son of Henry de Ferrers
-	dynasty = 352
-	religion = "catholic"
-	culture = "norman"
-	father = 41241
-	1060.1.1 = {
-		birth = yes
-	}
-	1120.1.1 = {
-		death = yes
-	}
-}
-
-norman0018 = {
-	name = "Amicia" # daughter of Henry de Ferrers
-	female = yes
-	dynasty = 352
-	religion = "catholic"
-	culture = "norman"
-	father = 41241
-	1066.1.1 = {
-		birth = yes
-	}
-	1130.1.1 = {
-		death = yes
-	}
-}
-

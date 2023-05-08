@@ -93,7 +93,7 @@
 #Rassids
 159397 = {
 	name = "Al-Qasim" #
-	dynasty_house = house_Rassid
+	dynasty_house = house_Rassi
 	religion = "zayidi"
 	culture = "yemeni"
 	trait = sayyid
@@ -108,7 +108,7 @@
 
 159398 = {
 	name = "Al-Husayn" #
-	dynasty_house = house_Rassid
+	dynasty_house = house_Rassi
 	religion = "zayidi"
 	culture = "yemeni"
 	trait = sayyid
@@ -123,7 +123,7 @@
 
 159399 = {
 	name = "Al-Hadi_ila_l-Haqq_Yahya" #
-	dynasty_house = house_Rassid
+	dynasty_house = house_Rassi
 	religion = "zayidi"
 	culture = "yemeni"
 	trait = sayyid
@@ -138,7 +138,7 @@
 
 159400 = {
 	name = "Al-Murtada_Muhammad" #
-	dynasty_house = house_Rassid
+	dynasty_house = house_Rassi
 	religion = "zayidi"
 	culture = "yemeni"
 	trait = sayyid
@@ -153,7 +153,7 @@
 
 159401 = {
 	name = "An-Nasir_Ahmad" #
-	dynasty_house = house_Rassid
+	dynasty_house = house_Rassi
 	religion = "zayidi"
 	culture = "yemeni"
 	trait = sayyid
@@ -161,14 +161,14 @@
 	881.1.1 = {
 		birth = "881.1.1" #Unknown
 	}
-	937.1.1 = {
-		death = "937.1.1"
+	934.1.1 = {
+		death = "934.1.1"
 	}
 }
 
 159402 = {
 	name = "Al-Muntakhab_al-Hasan" #
-	dynasty_house = house_Rassid
+	dynasty_house = house_Rassi
 	religion = "zayidi"
 	culture = "yemeni"
 	trait = sayyid
@@ -176,14 +176,14 @@
 	901.1.1 = {
 		birth = "901.1.1" #Unknown
 	}
-	939.1.1 = {
-		death = "939.1.1"
+	936.1.1 = {
+		death = "936.1.1"
 	}
 }
 
 159403 = {
 	name = "Al-Mukhtar_al-Qasim" #
-	dynasty_house = house_Rassid
+	dynasty_house = house_Rassi
 	religion = "zayidi"
 	culture = "yemeni"
 	trait = sayyid
@@ -197,7 +197,7 @@
 }
 159404 = {
 	name = "Al-Mansur_Yahya" #
-	dynasty_house = house_Rassid
+	dynasty_house = house_Rassi
 	religion = "zayidi"
 	culture = "yemeni"
 	trait = sayyid
@@ -212,7 +212,7 @@
 
 159405 = {
 	name = "Ad-Da_i_Yusuf" #
-	dynasty_house = house_Rassid
+	dynasty_house = house_Rassi
 	religion = "zayidi"
 	culture = "yemeni"
 	trait = sayyid
@@ -227,7 +227,7 @@
 
 159406 = {
 	name = "Muhammed" #
-	dynasty_house = house_Rassid
+	dynasty_house = house_Rassi
 	religion = "zayidi"
 	culture = "yemeni"
 	trait = sayyid
@@ -242,7 +242,7 @@
 
 159407 = {
 	name = "Abdullah" #
-	dynasty_house = house_Rassid
+	dynasty_house = house_Rassi
 	religion = "zayidi"
 	culture = "yemeni"
 	trait = sayyid
@@ -257,7 +257,7 @@
 
 159408 = {
 	name = "Ali"#
-	dynasty_house = house_Rassid
+	dynasty_house = house_Rassi
 	religion = "zayidi"
 	culture = "yemeni"
 	trait = sayyid
@@ -272,7 +272,7 @@
 
 159409 = {
 	name = "al-Mansur_al-Qasim_al-Iyyani"#
-	dynasty_house = house_Rassid
+	dynasty_house = house_Rassi
 	religion = "zayidi"
 	culture = "yemeni"
 	trait = sayyid
@@ -287,7 +287,7 @@
 
 159410 = {
 	name = "al-Mahdi_al-Husayn"#
-	dynasty_house = house_Rassid
+	dynasty_house = house_Rassi
 	religion = "zayidi"
 	culture = "yemeni"
 	trait = sayyid
@@ -302,7 +302,7 @@
 
 159411 = {
 	name = "Abdullah" #
-	dynasty_house = house_Rassid
+	dynasty_house = house_Rassi
 	religion = "zayidi"
 	culture = "yemeni"
 	trait = sayyid
@@ -317,7 +317,7 @@
 
 159412 = {
 	name = "Yahya" #
-	dynasty_house = house_Rassid
+	dynasty_house = house_Rassi
 	religion = "zayidi"
 	culture = "yemeni"
 	trait = sayyid
@@ -332,7 +332,7 @@
 
 159413 = {
 	name = "Abdrahman" #
-	dynasty_house = house_Rassid
+	dynasty_house = house_Rassi
 	religion = "zayidi"
 	culture = "yemeni"
 	trait = sayyid
@@ -347,7 +347,7 @@
 
 159414 = {
 	name = "Abu_Hashim_al-Hasan" #
-	dynasty_house = house_Rassid
+	dynasty_house = house_Rassi
 	religion = "zayidi"
 	culture = "yemeni"
 	trait = sayyid
@@ -362,7 +362,7 @@
 
 159415 = {
 	name = "Al-Muhtasib_al-Mujahid_Hamzah" #
-	dynasty_house = house_Rassid
+	dynasty_house = house_Rassi
 	religion = "zayidi"
 	culture = "yemeni"
 	trait = sayyid
@@ -370,14 +370,14 @@
 	980.1.1 = {
 		birth = "980.1.1" #Unknown
 	}
-	1066.1.1 = {
-		death = "1066.1.1"
+	1067.1.1={
+		death = "1067.1.1"
 	}
 }
 
 159416 = {
 	name = "Ali" #
-	dynasty_house = house_Rassid
+	dynasty_house = house_Rassi
 	religion = "zayidi"
 	culture = "yemeni"
 	trait = sayyid
@@ -392,7 +392,7 @@
 
 159417 = {
 	name = "Mutahar" #
-	dynasty_house = house_Rassid
+	dynasty_house = house_Rassi
 	religion = "zayidi"
 	culture = "yemeni"
 	trait = sayyid
@@ -407,7 +407,7 @@
 
 159418 = {
 	name = "Muhammed" #
-	dynasty_house = house_Rassid
+	dynasty_house = house_Rassi
 	religion = "zayidi"
 	culture = "yemeni"
 	trait = sayyid
@@ -422,13 +422,14 @@
 
 159419 = {
 	name = "Sulayman" #
-	dynasty_house = house_Rassid
+	dynasty_house = house_Rassi
 	religion = "zayidi"
 	culture = "yemeni"
 	trait = sayyid
 	father = 159418
 	1045.1.1 = {
 		birth = "1045.1.1" #Unknown
+		add_pressed_claim = title:d_shiite
 	}
 	1100.1.1 = {
 		death = "1100.1.1"
@@ -437,13 +438,14 @@
 
 159420 = {
 	name = "Al-Mutawakkil_Ahmad" #
-	dynasty_house = house_Rassid
+	dynasty_house = house_Rassi
 	religion = "zayidi"
 	culture = "yemeni"
 	trait = sayyid
 	father = 159419
 	1100.1.1 = {
 		birth = "1100.1.1" #Unknown
+		add_pressed_claim = title:d_shiite
 	}
 	1171.1.1 = {
 		death = "1171.1.1"
@@ -452,7 +454,7 @@
 
 159421 = {
 	name = "al-Qasim" #
-	dynasty_house = house_Rassid
+	dynasty_house = house_Rassi
 	religion = "zayidi"
 	culture = "yemeni"
 	trait = sayyid
@@ -467,7 +469,7 @@
 
 159422 = {
 	name = "Yusuf" #
-	dynasty_house = house_Rassid
+	dynasty_house = house_Rassi
 	religion = "zayidi"
 	culture = "yemeni"
 	trait = sayyid
@@ -482,7 +484,7 @@
 
 159423 = {
 	name = "Muhammed" #
-	dynasty_house = house_Rassid
+	dynasty_house = house_Rassi
 	religion = "ismaili"
 	culture = "yemeni"
 	trait = sayyid
@@ -497,7 +499,7 @@
 
 45048 = {
 	name = "Djafar"
-	dynasty_house = house_Rassid
+	dynasty_house = house_Rassi
 	martial = 6
 	diplomacy = 4
 	intrigue = 4
@@ -508,6 +510,7 @@
 	father = 159422
 	1000.1.1 = {
 		birth = "1000.1.1"
+		add_pressed_claim = title:d_shiite
 	}
 	1050.1.1 = {
 		death = "1050.1.1"
@@ -516,7 +519,7 @@
 
 45049 = {
 	name = "Fadl"
-	dynasty_house = house_Rassid
+	dynasty_house = house_Rassi
 	martial = 6
 	diplomacy = 4
 	intrigue = 4
@@ -527,6 +530,7 @@
 	father = 45048
 	1040.1.1 = {
 		birth = "1040.1.1"
+		add_pressed_claim = title:d_shiite
 	}
 	1068.1.1 = {
 		death = "1068.1.1"
@@ -535,7 +539,7 @@
 
 45050 = {
 	name = "Muhammad"
-	dynasty_house = house_Rassid
+	dynasty_house = house_Rassi
 	martial = 6
 	diplomacy = 4
 	intrigue = 4
@@ -546,6 +550,7 @@
 	father = 45048
 	1045.1.1 = {
 		birth = "1045.1.1"
+		add_pressed_claim = title:d_shiite
 	}
 	1099.1.1 = {
 		death = "1099.1.1"
@@ -559,6 +564,7 @@
 	dynasty = 1042165 # Ziyadid
 	religion = "ashari"
 	culture = "yemeni"
+	father = 1236022
 	790.1.1 = {
 		birth = yes
 	}
@@ -633,7 +639,10 @@
 		birth = yes
 	}
 	1018.1.1 = {
-		death = yes
+		death = {
+			death_reason = death_execution_immurement
+			killer = 1500189 # Marjan
+		}
 	}
 }
 
@@ -643,6 +652,7 @@ yemeni0001 = {
 	dynasty = 590
 	religion = "ismaili"
 	culture = "yemeni"
+	father = 1236031
 	995.1.1 = {
 		birth = yes
 	}
@@ -781,113 +791,311 @@ yemeni0011 = {
 	}
 }
 
-145614 = {
-	name = "Eliya"
-	dynasty = 1022235
-	religion = "nestorian"
-	culture = "yemeni"
-	father = 145615
-	1060.1.1 = {
-		birth = "1060.1.1"
+
+yemeni0030 = {
+	name = "Abd-al-Aziz" # Abd al-Aziz al-Tuyyib, Sheik of Calatayud (860-871)
+	dynasty = 12194 # Tuyyibid Dynasty
+	religion = ashari
+	culture = yemeni
+	trait = education_martial_1
+	814.1.1 = {
+		birth = yes
 	}
-	1103.10.18 = {
-		death = "1103.10.18"
+	830.1.1 = {
+		add_spouse = yemeni0031 # Qamara
+	}
+	850.1.1 = {
+		effect = {
+			set_relation_friend = { reason = friend_generic_history target = character:73683 } # Sultan Muhammad I of Andalusia. Helped him while he was fghting rebels in Zaragoza
+		}
+	}
+	871.1.1 = {
+		death = yes
 	}
 }
 
-145615 = {
-	name = "Abraham"
-	dynasty = 1022235
-	religion = "nestorian"
-	culture = "yemeni"
-	1038.1.1 = {
-		birth = "1038.1.1"
+yemeni0031 = {
+	name = "Qamara" # Qamara, fictional wife of Sheik Abd al-Aziz al-Tuyyib of Calatayud (yemeni0030)
+	female = yes
+	religion = ashari
+	culture = yemeni
+	trait = education_stewardship_1
+
+	816.1.1 = {
+		birth = yes
 	}
-	1076.7.6 = {
-		death = "1076.7.6"
+	871.1.1 = {
+		death = yes
 	}
 }
 
-145616 = {
-	name = "Nikolas"
-	dynasty = 1022236
-	religion = "nestorian"
-	culture = "yemeni"
-	father = 145617
-	862.1.1 = {
-		birth = "862.1.1"
+yemeni0032 = {
+	name = "Yahya" # Yahya ibn Hashim, Sheik of Lleida (927-976)
+	dynasty = 12194 # Tuyyibid Dynasty
+	religion = muwalladi
+	culture = yemeni
+	trait = education_stewardship_2
+
+	father = 73842 # Walih Hashim ibn Muhammad al-Anqar of Zaragoza
+
+	901.1.1 = {
+		birth = yes
 	}
-	928.1.2 = {
-		death = "928.1.2"
+	976.1.1 = {
+		death = yes
 	}
 }
 
-145617 = {
-	name = "Abraham"
-	dynasty = 1022236
-	religion = "nestorian"
-	culture = "yemeni"
-	father = 145618
-	845.1.1 = {
-		birth = "845.1.1"
+yemeni0033 = {
+	name = "Lubb" # Lubb ibn Suleyman, Sheik of Huesca (1047-1048)
+	dynasty = 599 # Hudid Dynasty
+	religion = muwalladi
+	culture = yemeni
+	trait = education_diplomacy_1
+
+	father = 3933 # Emir al-Musta'in I of Zaragoza
+
+	1020.1.1 = {
+		birth = yes
 	}
-	897.6.3 = {
-		death = "897.6.3"
+	1048.1.1 = {
+		employer = 3938 # Sheik al-Muzaffar II of Lleida
+	}
+	1070.1.1 = {
+		death = yes
 	}
 }
 
-145618 = {
-	name = "Denha"
-	dynasty = 1022236
-	religion = "nestorian"
-	culture = "yemeni"
-	father = 145967
-	825.1.1 = {
-		birth = "825.1.1"
+yemeni0034 = {
+	name = "Mundir" # Mundir ibn Suleyman, Sheik of Tudela (1047-1049)
+	dynasty = 599 # Hudid Dynasty
+	religion = muwalladi
+	culture = yemeni
+	trait = education_martial_1
+
+	father = 3933 # Emir al-Musta'in I of Zaragoza
+
+	1022.1.1 = {
+		birth = yes
 	}
-	872.3.20 = {
-		death = "872.3.20"
+	1049.1.1 = {
+		employer = 3938 # Sheik al-Muzaffar II of Lleida
+	}
+	1072.1.1 = {
+		death = yes
 	}
 }
 
-145965 = {
-	name = "Philemon"
-	dynasty = 1022236
-	religion = "nestorian"
-	culture = "yemeni"
+yemeni0035 = {
+	name = "Ya_far" # Ya'far ibn Ahmad
+	dynasty = 599 # Hudid Dynasty
+	religion = muwalladi
+	culture = yemeni
+	trait = education_stewardship_1
 
-	737.1.1 = {
-		birth = "737.1.1"
+	father = 45005 # Emir al-Musta'in II of Zaragoza
+	mother = 73262 # Emira Fatima bint Abu Bakr
+
+	1090.1.1 = {
+		birth = yes
 	}
-	789.1.1 = {
-		death = "789.1.1"
+	1140.1.1 = {
+		death = yes
 	}
 }
 
-145966 = {
-	name = "Athanasios"
-	dynasty = 1022236
-	religion = "nestorian"
-	culture = "yemeni"
-	father = 145965
-	757.1.1 = {
-		birth = "757.1.1"
+yemeni0036 = {
+	name = "Amir" # Amir ibn Ahmad
+	dynasty = 599 # Hudid Dynasty
+	religion = muwalladi
+	culture = yemeni
+	trait = education_martial_1
+
+	father = 45005 # Emir al-Musta'in II of Zaragoza
+	mother = 73262 # Emira Fatima bint Abu Bakr
+
+	1088.1.1 = {
+		birth = yes
 	}
-	822.1.1 = {
-		death = "822.1.1"
+	1138.1.1 = {
+		death = yes
 	}
 }
 
-145967 = {
-	name = "Epiphanios"
-	dynasty = 1022236
-	religion = "nestorian"
-	culture = "yemeni"
-	father = 145966
-	790.1.1 = {
-		birth = "790.1.1"
+yemeni0037 = {
+	name = "Marwan" # Marwan ibn Abd al-Malik
+	dynasty = 599 # Hudid Dynasty
+	religion = muwalladi
+	culture = yemeni
+	trait = education_stewardship_1
+
+	father = 73180 # Emir Imad al-Dawla of Zaragoza
+
+	1104.1.1 = {
+		birth = yes
 	}
-	853.4.1 = {
-		death = "853.4.1"
+	1154.1.1 = {
+		death = yes
+	}
+}
+
+yemeni0038 = {
+	name = "al-Dalfa" # al-Dalfa, wife of Muhammad al-Mansur (3206)
+	female = yes
+	religion = muwalladi
+	culture = yemeni
+	trait = education_intrigue_2
+
+	951.1.1 = {
+		birth = yes
+	}
+	1026.1.1 = {
+		death = yes
+	}
+}
+
+yemeni0039 = {
+	name = "Abd-al-Malik" # Abd al-Malik ibn Muhammad al-Mansur, known as al-Muzzafar, Walih of Fes (998-999) & Sheik of Ceuta, Fes & Tangiers (998-999)
+	dynasty = 569 # al-Mansur Dynasty
+	religion = muwalladi
+	culture = yemeni
+	trait = education_stewardship_3
+
+	father = 3206 # Muhammad al-Mansur
+	mother = yemeni0038 # al-Dalfa
+
+	975.1.1 = {
+		birth = yes
+	}
+	1002.8.9 = {
+		name = "al-Muzzafar"
+	}
+	1008.10.20 = {
+		death = {
+			death_reason = death_ill
+		}
+	}
+}
+
+yemeni0040 = {
+	name = "Adballah" # Abdallah ibn Muhammad al-Mansur
+	dynasty = 569 # al-Mansur Dynasty
+	religion = muwalladi
+	culture = yemeni
+	trait = education_intrigue_1
+
+	father = 3206 # Muhammad al-Mansur
+	mother = yemeni0038 # al-Dalfa
+
+	969.1.1 = {
+		birth = yes
+	}
+	990.9.8 = {
+		death = {
+			death_reason = death_punishment
+			killer = 3206 # Muhammad al-Mansur
+		}
+	}
+}
+
+yemeni0041 = {
+	name = "Muhammad" # Muhammad ibn Abd al-Malik, Sheik of Jaen (1009-1018) & Murcia (1018-1028)
+	dynasty = 569 # al-Mansur Dynasty
+	religion = muwalladi
+	culture = yemeni
+	trait = education_stewardship_2
+
+	father = yemeni0039 # Walih al-Muzzafar of Fes
+
+	991.1.1 = {
+		birth = yes
+	}
+	1030.1.1 = {
+		death = yes
+	}
+}
+
+yemeni0042 = {
+	name = "Sumadih" # Sumadih ibn Muhammad
+	dynasty = 12194 # Tuyyibid Dynasty
+	religion = muwalladi
+	culture = yemeni
+	trait = education_stewardship_1
+
+	father = yemeni0044 # Muhammad ibn Ahmad
+
+	964.1.1 = {
+		birth = yes
+	}
+	1010.1.1 = {
+		death = yes
+	}
+}
+
+yemeni0043 = {
+	name = "Yahya" # Yahya ibn Sumadih
+	dynasty = 12194 # Tuyyibid Dynasty
+	religion = muwalladi
+	culture = yemeni
+	trait = education_intrigue_1
+
+	father = yemeni0042 # Sumadih ibn Muhammad
+
+	980.1.1 = {
+		birth = yes
+	}
+	1030.1.1 = {
+		death = yes
+	}
+}
+
+yemeni0044 = {
+	name = "Muhammad" # Muhammad ibn Ahmad
+	dynasty = 12194 # Tuyyibid Dynasty
+	religion = muwalladi
+	culture = yemeni
+	trait = education_diplomacy_1
+
+	father = yemeni0045 # Ahmad ibn Muhammad
+
+	948.1.1 = {
+		birth = yes
+	}
+	1003.1.1 = {
+		death = yes
+	}
+}
+
+yemeni0045 = {
+	name = "Ahmad" # Ahmad ibn Muhammad
+	dynasty = 12194 # Tuyyibid Dynasty
+	religion = muwalladi
+	culture = yemeni
+	trait = education_diplomacy_1
+
+	father = 73843 # Walih Muhammad ibn Hashim of Zaragoza or a relative
+
+	932.1.1 = {
+		birth = yes
+	}
+	985.1.1 = {
+		death = yes
+	}
+}
+
+yemeni0046 = {
+	name = "Ya_far" # Ya'far ibn Abu Ya'far
+	dynasty_house = house_banu_sumadih # House Banu Sumadih
+	religion = muwalladi
+	culture = yemeni
+	trait = education_martial_1
+
+	father = 73250 # Abu Ya'far ibn Yahya
+
+	1085.1.1 = {
+		birth = yes
+	}
+	1135.1.1 = {
+		death = yes
 	}
 }

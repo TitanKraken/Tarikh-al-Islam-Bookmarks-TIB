@@ -1,4 +1,133 @@
-﻿language_gothic = {
+﻿# Brythonic
+language_breton = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_breton
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_breton }
+			multiply = 10
+		}
+	}
+	
+	color = hsv { 0.72 0.6 0.76 }
+}
+language_cymraeg = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_cymraeg
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_cymraeg }
+			multiply = 10
+		}
+	}
+	
+	color = hsv { 0.72 0.6 0.76 }
+}
+language_cornish = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_cornish
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_cornish }
+			multiply = 10
+		}
+	}
+	
+	color = hsv { 0.72 0.6 0.72 }
+}
+language_cumbrian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_cumbrian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_cumbrian }
+			multiply = 10
+		}
+	}
+	
+	color = hsv { 0.64 0.6 0.72 }
+}
+language_pictish = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_pictish
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_pictish }
+			multiply = 10
+		}
+	}
+	
+	color = hsv { 0.58 1.00 0.72 }
+}
+
+# Byzantine/Balkans
+language_albanian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_albanian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_albanian }
+			multiply = 10
+		}
+	}
+	
+	color = { 1.0 1.0 1.0 }
+}
+
+# Caucasus
+
+
+# Coptic
+language_coptic = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_coptic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_coptic }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.08 0.10 0.5 }
+}
+
+# East Germanic
+language_gothic = {
 	type = language
 	is_shown = {
 		language_is_shown_trigger = {
@@ -34,20 +163,477 @@ language_burgundian = {
 	color = { 134 0 37 }
 }
 
-language_coptic = {
+# Frankish/Gallo-Roman (TIB)
+language_occitano_romance = {
 	type = language
 	is_shown = {
 		language_is_shown_trigger = {
-			LANGUAGE = language_coptic
+			LANGUAGE = language_occitano_romance
 		}
 	}
 	ai_will_do = {
 		value = 10
 		if = {
-			limit = { has_cultural_pillar = language_coptic }
+			limit = { has_cultural_pillar = language_occitano_romance }
 			multiply = 10
 		}
 	}
 	
-	color = { 0.08 0.10 0.5 }
+	color = { 0.32 0.12 0.90 }
+}
+
+# Iberian
+
+language_asturleonese = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_asturleonese
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_asturleonese }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.98 0.85 0.36 }
+}
+language_galpor = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_galpor
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_galpor }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.92 0.93 0.63 }
+}
+language_mozarabic = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_mozarabic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_mozarabic }
+			multiply = 10
+		}
+	}
+	
+	color = { 124 255 142 }
+}
+language_pyreanean = { # Aragonese
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_pyreanean
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_pyreanean }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.80 0.67 0.24 }
+}
+
+language_suebi = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_suebi
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_suebi }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.8 0.7 0.4 }
+}
+
+# Iranian
+
+language_alani = { # Scytian dialect?
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_alani
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_alani }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.7 0.5 0.7 }
+}
+language_balochi = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_balochi
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_balochi }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.4 0.4 0.05 }
+}
+language_caspian_iranian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_caspian_iranian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_caspian_iranian }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.75 0.85 0.35 }
+}
+language_kurdish = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_kurdish
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_kurdish }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.3 0.35 0.1 }
+}
+language_pashto = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_pashto
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_pashto }
+			multiply = 10
+		}
+	}
+	
+	color = afghan
+}
+language_persian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_persian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_persian }
+			multiply = 10
+		}
+	}
+	
+	color = persian
+}
+# Latin
+language_arpetan = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_arpetan
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_arpetan }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.2 0.6 1.0 }
+}
+language_dalmatian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_dalmatian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_dalmatian }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.6 0.7 0.77 }
+}
+language_gallo_italic = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_gallo_italic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_gallo_italic }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.95 0.95 0.55 }
+}
+language_picard = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_rhaeto
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_rhaeto }
+			multiply = 10
+		}
+	}
+	
+	color = { 0 0 128 }
+}
+language_rhaeto = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_rhaeto
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_rhaeto }
+			multiply = 10
+		}
+	}
+	
+	color = { 253 204 189 }
+}
+language_venetian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_venetian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_venetian }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.26 0.52 0.52 }
+}
+
+# South Slavic
+language_bulgarian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_bulgarian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_bulgarian }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.7 0.5 0.5 }
+}
+language_czech_slovak = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_czech_slovak
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_czech_slovak }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.3 0.6 0.5 }
+}
+language_slavonic = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_slavonic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_slavonic }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.27 0.49 0.59 }
+}
+language_slovenian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_slovenian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_slovenian }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.28 0.52 0.5 }
+}
+
+# Turkic
+language_karluk = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_karluk
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_karluk }
+			multiply = 10
+		}
+	}
+	
+	color = { 248 138 71 }
+}
+language_kipchak = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_kipchak
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_kipchak }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.55 0.50 0.15 }
+}
+language_ongud = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_ongud
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_ongud }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.65 0.4 0.15 }
+}
+language_yeniseian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_yeniseian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_yeniseian }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.85 0.72 0.30 }
+}
+
+# West Slavic
+language_sorbian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_sorbian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_sorbian }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.6 0.8 0.9 }
 }

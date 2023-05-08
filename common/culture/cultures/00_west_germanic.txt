@@ -31,8 +31,9 @@
 
 anglo_saxon = {
 	color = { 0.8 0.3 0.3 }
-	created = 500.1.1
-	parents = { old_saxon }
+	created = 900.1.1
+	parents = { angles west_saxon } # Not sure which Angles, but definitely West Saxon of "English" Saxon
+	history_loc_override = anglosaxon_history_loc
 	
 	ethos = ethos_bureaucratic
 	heritage = heritage_west_germanic
@@ -65,11 +66,12 @@ old_saxon = {
 	
 	ethos = ethos_bellicose
 	heritage = heritage_west_germanic
-	language = language_saxon
+	language = language_anglic
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_things
 		tradition_stalwart_defenders
+		tradition_seafaring
 	}
 	
 	dlc_tradition = {
@@ -101,7 +103,7 @@ old_saxon = {
 scottish = {
 	color = hsv{ 0.035 0.8 0.8 }
 	created = 1050.1.1
-	parents = { anglo_saxon cumbrian }
+	parents = { northumbrian cumbrian }
 	
 	ethos = ethos_bureaucratic
 	heritage = heritage_west_germanic

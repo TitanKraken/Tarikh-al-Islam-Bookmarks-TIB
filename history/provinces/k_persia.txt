@@ -519,13 +519,14 @@
 	culture = persian
 	religion = azariqa
 	holding = castle_holding
-	790.1.1 = { religion = ashari }
+	790.1.1 = { religion = ibadi }
 	867.1.1 = {
 		buildings = {
 			common_tradeport_01
 		}
 	}
-	1066.1.1 = {		
+	1066.1.1 = {
+		religion = ashari
 		buildings = {
 			common_tradeport_02
 			pastures_01
@@ -544,11 +545,14 @@
 	culture = persian
 	religion = azariqa
 	holding = castle_holding
-	790.1.1 = { religion = ashari }
+	790.1.1 = { religion = ibadi }
 	867.1.1 = {
 		buildings = {
 			common_tradeport_01
 		}
+	}
+	1066.1.1 = {
+		religion = ashari
 	}
 }
 4188 = {	#Kaurestan

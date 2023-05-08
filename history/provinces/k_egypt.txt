@@ -103,6 +103,10 @@
 			common_tradeport_02
 		}
 	}
+	1050.1.1 = {
+		culture = egyptian
+		religion = ashari
+	}
 	1066.1.1 = {
 		buildings = {
 			common_tradeport_02
@@ -123,6 +127,10 @@
 	culture = butr
 	religion = coptic
 	holding = castle_holding
+
+	1050.1.1 = {
+		religion = ashari
+	}
 }
 6095 = {	#QASR_ASH_SHAMMAS
 	#holding = none
@@ -136,6 +144,10 @@
 	culture = butr
 	religion = coptic
 	holding = castle_holding
+
+	1050.1.1 = {
+		religion = ashari
+	}
 }
 6092 = {	#AIN_AL-GHANBI
 	holding = none
@@ -151,6 +163,7 @@
 	religion = coptic
 	holding = castle_holding
 	900.1.1 = {
+		culture = egyptian
 		religion = ashari
 	}
 }
@@ -167,6 +180,7 @@
 	religion = coptic
 	holding = castle_holding
 	900.1.1 = {
+		culture = egyptian
 		religion = ashari
 	}
 }
@@ -183,6 +197,7 @@
 	religion = coptic
 	holding = castle_holding
 	900.1.1 = {
+		culture = egyptian
 		religion = ashari
 	}
 }
@@ -205,6 +220,7 @@
 	religion = coptic
 	holding = castle_holding
 	900.1.1 = {
+		culture = egyptian
 		religion = ashari
 	}
 }
@@ -260,6 +276,7 @@
 		special_building = the_pyramids_01
 	}
 	900.1.1 = {
+		culture = egyptian
 		religion = ashari
 	}
 }

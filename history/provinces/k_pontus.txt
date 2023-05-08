@@ -19,6 +19,9 @@
 		culture = turkish
 		religion = ashari
 	}
+	1235.1.1 = {
+		culture = anatolian_turkish
+	}
 	1204.5.16 = {
 	    culture = greek
 	    religion = orthodox
@@ -40,6 +43,9 @@
 		culture = turkish
 		religion = ashari
 	}
+	1235.1.1 = {
+		culture = anatolian_turkish
+	}
 	1204.5.16 = {
 	    culture = greek
 	    religion = orthodox
@@ -59,6 +65,9 @@
 	1100.1.1 = {
 		culture = turkish
 		religion = ashari
+	}
+	1235.1.1 = {
+		culture = anatolian_turkish
 	}
 	1204.5.16 = {
 	    culture = greek
@@ -80,6 +89,9 @@
 		culture = turkish
 		religion = ashari
 	}
+	1235.1.1 = {
+		culture = anatolian_turkish
+	}
 }
 
 # 737 - Kaisereia
@@ -95,6 +107,9 @@
 	1100.1.1 = {
 		culture = turkish
 		religion = ashari
+	}
+	1235.1.1 = {
+		culture = anatolian_turkish
 	}
 }
 
@@ -151,6 +166,9 @@
 	1100.1.1 = {
 		culture = turkish
 		religion = ashari
+	}
+	1235.1.1 = {
+		culture = anatolian_turkish
 	}
 }
 
@@ -416,6 +434,9 @@
 		culture = turkish
 		religion = ashari
 	}
+	1235.1.1 = {
+		culture = anatolian_turkish
+	}
 }
 
 # 5600 - Agranai
@@ -445,6 +466,9 @@
 		culture = turkish
 		religion = ashari
 	}
+	1235.1.1 = {
+		culture = anatolian_turkish
+	}
 }
 
 # 5602 - Sebasteia
@@ -460,6 +484,9 @@
 	1100.1.1 = {
 		culture = turkish
 		religion = ashari
+	}
+	1235.1.1 = {
+		culture = anatolian_turkish
 	}
 }
 
@@ -477,6 +504,9 @@
 		culture = turkish
 		religion = ashari
 	}
+	1235.1.1 = {
+		culture = anatolian_turkish
+	}
 }
 
 # 5604 - Karnalis
@@ -492,6 +522,9 @@
 	1100.1.1 = {
 		culture = turkish
 		religion = ashari
+	}
+	1235.1.1 = {
+		culture = anatolian_turkish
 	}
 }
 
@@ -509,6 +542,9 @@
 		culture = turkish
 		religion = ashari
 	}
+	1235.1.1 = {
+		culture = anatolian_turkish
+	}
 }
 
 # 5606 - Gauraina
@@ -524,6 +560,9 @@
 	1100.1.1 = {
 		culture = turkish
 		religion = ashari
+	}
+	1235.1.1 = {
+		culture = anatolian_turkish
 	}
 }
 
@@ -541,6 +580,9 @@
 		culture = turkish
 		religion = ashari
 	}
+	1235.1.1 = {
+		culture = anatolian_turkish
+	}
 }
 
 # 5608 - Osdara
@@ -556,6 +598,9 @@
 	1100.1.1 = {
 		culture = turkish
 		religion = ashari
+	}
+	1235.1.1 = {
+		culture = anatolian_turkish
 	}
 }
 
@@ -573,6 +618,9 @@
 		culture = turkish
 		religion = ashari
 	}
+	1235.1.1 = {
+		culture = anatolian_turkish
+	}
 }
 
 # 5613 - Ariaratheia
@@ -588,6 +636,9 @@
 	1100.1.1 = {
 		culture = turkish
 		religion = ashari
+	}
+	1235.1.1 = {
+		culture = anatolian_turkish
 	}
 }
 
@@ -605,6 +656,9 @@
 		culture = turkish
 		religion = ashari
 	}
+	1235.1.1 = {
+		culture = anatolian_turkish
+	}
 }
 
 # 5615 - Herpha
@@ -620,6 +674,9 @@
 	1100.1.1 = {
 		culture = turkish
 		religion = ashari
+	}
+	1235.1.1 = {
+		culture = anatolian_turkish
 	}
 }
 
@@ -637,6 +694,9 @@
 		culture = turkish
 		religion = ashari
 	}
+	1235.1.1 = {
+		culture = anatolian_turkish
+	}
 }
 
 # 5617 - Charsianon
@@ -652,6 +712,9 @@
 	1100.1.1 = {
 		culture = turkish
 		religion = ashari
+	}
+	1235.1.1 = {
+		culture = anatolian_turkish
 	}
 }
 
@@ -669,6 +732,9 @@
 		culture = turkish
 		religion = ashari
 	}
+	1235.1.1 = {
+		culture = anatolian_turkish
+	}
 }
 
 # 5619 - Soanda
@@ -684,6 +750,9 @@
 	1100.1.1 = {
 		culture = turkish
 		religion = ashari
+	}
+	1235.1.1 = {
+		culture = anatolian_turkish
 	}
 }
 
@@ -701,6 +770,9 @@
 		culture = turkish
 		religion = ashari
 	}
+	1235.1.1 = {
+		culture = anatolian_turkish
+	}
 }
 
 # 5621 - Euaissa
@@ -716,6 +788,9 @@
 	1100.1.1 = {
 		culture = turkish
 		religion = ashari
+	}
+	1235.1.1 = {
+		culture = anatolian_turkish
 	}
 }
 
@@ -733,6 +808,9 @@
 		culture = turkish
 		religion = ashari
 	}
+	1235.1.1 = {
+		culture = anatolian_turkish
+	}
 }
 
 # 5623 - Kyzistra
@@ -748,6 +826,9 @@
 	1100.1.1 = {
 		culture = turkish
 		religion = ashari
+	}
+	1235.1.1 = {
+		culture = anatolian_turkish
 	}
 }
 
@@ -765,6 +846,9 @@
 		culture = turkish
 		religion = ashari
 	}
+	1235.1.1 = {
+		culture = anatolian_turkish
+	}
 
 }
 
@@ -781,6 +865,9 @@
 	1100.1.1 = {
 		culture = turkish
 		religion = ashari
+	}
+	1235.1.1 = {
+		culture = anatolian_turkish
 	}
 
 }
@@ -802,6 +889,9 @@
 		culture = turkish
 		religion = ashari
 	}
+	1235.1.1 = {
+		culture = anatolian_turkish
+	}
 
 }
 
@@ -818,6 +908,9 @@
 	1100.1.1 = {
 		culture = turkish
 		religion = ashari
+	}
+	1235.1.1 = {
+		culture = anatolian_turkish
 	}
 
 }
@@ -836,6 +929,9 @@
 		culture = turkish
 		religion = ashari
 	}
+	1235.1.1 = {
+		culture = anatolian_turkish
+	}
 
 }
 
@@ -852,6 +948,9 @@
 	1100.1.1 = {
 		culture = turkish
 		religion = ashari
+	}
+	1235.1.1 = {
+		culture = anatolian_turkish
 	}
 
 }
@@ -870,6 +969,9 @@
 		culture = turkish
 		religion = ashari
 	}
+	1235.1.1 = {
+		culture = anatolian_turkish
+	}
 
 }
 
@@ -886,6 +988,9 @@
 	1100.1.1 = {
 		culture = turkish
 		religion = ashari
+	}
+	1235.1.1 = {
+		culture = anatolian_turkish
 	}
 
 }
@@ -904,6 +1009,9 @@
 		culture = turkish
 		religion = ashari
 	}
+	1235.1.1 = {
+		culture = anatolian_turkish
+	}
 
 }
 
@@ -920,6 +1028,9 @@
 	1100.1.1 = {
 		culture = turkish
 		religion = ashari
+	}
+	1235.1.1 = {
+		culture = anatolian_turkish
 	}
 
 }
@@ -938,6 +1049,9 @@
 		culture = turkish
 		religion = ashari
 	}
+	1235.1.1 = {
+		culture = anatolian_turkish
+	}
 
 }
 
@@ -954,6 +1068,9 @@
 	1100.1.1 = {
 		culture = turkish
 		religion = ashari
+	}
+	1235.1.1 = {
+		culture = anatolian_turkish
 	}
 
 }
@@ -972,6 +1089,9 @@
 		culture = turkish
 		religion = ashari
 	}
+	1235.1.1 = {
+		culture = anatolian_turkish
+	}
 
 }
 
@@ -989,6 +1109,9 @@
 		culture = turkish
 		religion = ashari
 	}
+	1235.1.1 = {
+		culture = anatolian_turkish
+	}
 
 }
 
@@ -1005,6 +1128,9 @@
 	1100.1.1 = {
 		culture = turkish
 		religion = ashari
+	}
+	1235.1.1 = {
+		culture = anatolian_turkish
 	}
 
 }

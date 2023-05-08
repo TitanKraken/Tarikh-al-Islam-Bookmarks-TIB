@@ -18,7 +18,7 @@
 
 163099 = {
 	name = "Nasr"
-	dynasty = 810
+	dynasty_house = house_samanid
 	religion = "maturidi"
 	culture = "tajik"
 	father = 163154
@@ -26,14 +26,14 @@
 		birth = yes
 	}
 	
-	892.8.1 = {
+	892.1.1 = {
 		death = yes
 	}
 }
 
 163153 = {
 	name = "Asad"
-	dynasty = 810
+	dynasty_house = house_samanid
 	religion = "maturidi"
 	culture = "tajik"
 	father = 188637
@@ -47,7 +47,7 @@
 
 163154 = {
 	name = "Ahmad"
-	dynasty = 810
+	dynasty_house = house_samanid
 	religion = "maturidi"
 	culture = "tajik"
 	father = 163153
@@ -61,7 +61,7 @@
 
 163155 = {
 	name = "Ilyas"
-	dynasty = 810
+	dynasty_house = house_samanid
 	religion = "maturidi"
 	culture = "tajik"
 	father = 163153
@@ -75,7 +75,7 @@
 
 163156 = {
 	name = "Ibrahim"
-	dynasty = 810
+	dynasty_house = house_samanid
 	religion = "maturidi"
 	culture = "tajik"
 	father = 163155
@@ -89,28 +89,14 @@
 
 163157 = {
 	name = "Isma_il"
-	dynasty = 810
+	dynasty_house = house_samanid
 	religion = "maturidi"
 	culture = "tajik"
 	father = 163154
-	849.5.1 = {
+	820.1.1 = {
 		birth = yes
 	}
-	907.11.24 = {
-		death = yes
-	}
-}
-
-ahmad_samani = {
-	name = "Ahmad"
-	dynasty = 810
-	religion = "ashari"
-	culture = "tajik"
-	father = 163157
-	870.1.1 = {
-		birth = yes
-	}
-	914.1.24 = {
+	907.1.1 = {
 		death = yes
 	}
 }
@@ -119,7 +105,7 @@ ahmad_samani = {
 	name = "Noshrad"
 	dynasty = 1042070 # Samanid
 	religion = "mazdayasna"
-	culture = "tajik"
+	culture = tajik
 	father = 180645
 	590.1.1 = {
 		birth = yes
@@ -133,7 +119,7 @@ ahmad_samani = {
 	name = "Togmath"
 	dynasty = 1042070 # Samanid
 	religion = "mazdayasna"
-	culture = "tajik"
+	culture = tajik
 	father = 188634
 	635.1.1 = {
 		birth = yes
@@ -147,7 +133,7 @@ ahmad_samani = {
 	name = "Jotman"
 	dynasty = 1042070 # Samanid
 	religion = "mazdayasna"
-	culture = "tajik"
+	culture = tajik
 	father = 188635
 	680.1.1 = {
 		birth = yes
@@ -159,7 +145,7 @@ ahmad_samani = {
 
 188637 = {
 	name = "Saman-Khuda"
-	dynasty = 810 # Samanid
+	dynasty_house = house_samanid # Samanid
 	religion = "mazdayasna"
 	culture = "tajik"
 	father = 188636
@@ -169,6 +155,15 @@ ahmad_samani = {
 	737.1.1 = {
 		religion = "maturidi"
 	}
+	769.1.1={
+	effect = {
+		make_tributary = {
+		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
+		TRIBUTARY = character:188637
+		SUZERAIN = character:34002
+			}
+		}
+	}	
 	785.1.1 = {
 		death = yes
 	}
@@ -176,7 +171,7 @@ ahmad_samani = {
 
 188638 = {
 	name = "Nuh"
-	dynasty = 810 # Samanid
+	dynasty_house = house_samanid # Samanid
 	religion = "maturidi"
 	culture = "tajik"
 	father = 163153
@@ -190,7 +185,7 @@ ahmad_samani = {
 
 188639 = {
 	name = "Yahya"
-	dynasty = 810 # Samanid
+	dynasty_house = house_samanid # Samanid
 	religion = "maturidi"
 	culture = "tajik"
 	father = 163153
@@ -205,23 +200,24 @@ ahmad_samani = {
 #Tahirids
 163100 = {
 	name = "Muhammad"
+
 	dynasty = 811
-	religion = "ashari"
-	culture = "tajik"
+	religion = "maturidi"
+	culture = tajik
 	father = 163159
 	840.1.1 = {
 		birth = yes
 	}
-	873.1.1 = {
+	885.1.1 = {
 		death = yes
 	}
 }
 
 163158 = {
-	name = "Adballah"
+	name = "Abdallah"
 	dynasty = 811
-	religion = "ashari"
-	culture = "tajik"
+	religion = "maturidi"
+	culture = tajik
 	father = 188686
 	798.1.1 = {
 		birth = yes
@@ -234,8 +230,8 @@ ahmad_samani = {
 163159 = {
 	name = "Tahir"
 	dynasty = 811
-	religion = "ashari"
-	culture = "tajik"
+	religion = "maturidi"
+	culture = tajik
 	father = 163158
 	815.1.1 = {
 		birth = yes
@@ -248,13 +244,13 @@ ahmad_samani = {
 163160 = {
 	name = "Ubaudallah"
 	dynasty = 811
-	religion = "ashari"
-	culture = "tajik"
+	religion = "maturidi"
+	culture = tajik
 	father = 163158
 	822.1.1 = {
 		birth = yes
 	}
-	881.1.1 = {
+	891.1.1 = {
 		death = yes
 	}
 }
@@ -262,8 +258,8 @@ ahmad_samani = {
 163161 = {
 	name = "Sulayman"
 	dynasty = 811
-	religion = "ashari"
-	culture = "tajik"
+	religion = "maturidi"
+	culture = tajik
 	father = 163158
 	824.1.1 = {
 		birth = yes
@@ -276,8 +272,8 @@ ahmad_samani = {
 163162 = {
 	name = "Muhammad"
 	dynasty = 811
-	religion = "ashari"
-	culture = "tajik"
+	religion = "maturidi"
+	culture = tajik
 	father = 163158
 	820.1.1 = {
 		birth = yes
@@ -290,8 +286,8 @@ ahmad_samani = {
 188686 = {
 	name = "Tahir"
 	dynasty = 811 # Tahirid
-	religion = "ashari"
-	culture = "tajik"
+	religion = "maturidi"
+	culture = tajik
 	father = 188687
 	775.1.1 = {
 		birth = yes
@@ -304,9 +300,9 @@ ahmad_samani = {
 188687 = {
 	name = "Husayn"
 	dynasty = 811 # Tahirid
-	religion = "ashari"
-	culture = "tajik"
-	father = 188688
+	religion = "maturidi"
+	culture = tajik
+	father = 1230519
 	745.1.1 = {
 		birth = yes
 	}
@@ -319,14 +315,11 @@ ahmad_samani = {
 	name = "Ruzaiq"
 	dynasty = 811 # Tahirid
 	religion = "mazdayasna"
-	culture = "tajik"
-	720.1.1 = {
+	culture = tajik
+	660.1.1={
 		birth = yes
 	}
-	745.1.1 = {
-		religion = "ashari"
-	}
-	782.1.1 = {
+	740.1.1={
 		death = yes
 	}
 }
@@ -334,8 +327,8 @@ ahmad_samani = {
 188689 = {
 	name = "Talha"
 	dynasty = 811 # Tahirid
-	religion = "ashari"
-	culture = "tajik"
+	religion = "maturidi"
+	culture = tajik
 	father = 188686
 	797.1.1 = {
 		birth = yes
@@ -347,38 +340,33 @@ ahmad_samani = {
 
 #some Tahirids orininaly forgotten
 
-1000230508 = {
-	name = "al-Husain" #last Tahirid to hold a title - Merv
-	dynasty = 811
-	religion = "ashari"
-	culture = "tajik"
-	father = 163159
-	845.1.1 = {
-		birth = yes
-	}
-	880.1.1 = {
-		death = yes
-	}
-}
+#1000230508 = {
+#	name = "Husayn" #last Tahirid to hold a title - Merv
+#	dynasty = 811
+#	religion = "maturidi"
+#	culture = tajik
+#	father = 163159
+#	845.1.1 = {
+#		birth = yes
+#	}
+#	880.1.1 = {
+#		death = yes
+#	}
+#}
 
 1000230509 = {
 	name = "Muhammad" # b.Abdallah b.Tahir, governor of Fars cs 855-867
 	dynasty = 811
-	religion = ashari
-	culture = "tajik"
+	religion = maturidi
+	culture = tajik
 	father = 163158
 	820.1.1 = {
 		birth = yes
-	}
-	850.1.1 = {
-		culture = "persian" #since he owns d_fars, let's make him Persian
 	}
 	867.10.10 = {
 		death = yes
 	}
 }
-
-
 
 248565 = {
 	name = "Zayn_al-Din_Gorgani" # famous doctor
@@ -398,9 +386,6 @@ ahmad_samani = {
 	}
 	1066.1.1 = {
 		employer = 20703
-	}
-	1096.1.1 = {
-		employer = 144099
 	}
 	1130.1.1 = {
 		employer = 144015
@@ -584,7 +569,7 @@ ahmad_samani = {
 	name = "Shansab"
 	dynasty = 791
 	religion = "mahayana"
-	culture = "tajik"
+	culture = tajik
 	father = 1230318
 	860.1.1 = {
 		birth = yes
@@ -595,10 +580,10 @@ ahmad_samani = {
 }
 
 93133 = {
-	name = "Mohammad"
+	name = "Muhammad"
 	dynasty = 791
-	religion = "maturidi"
-	culture = "tajik"
+	religion = "mahayana"
+	culture = tajik
 	father = 1230317
 	960.1.1 = {
 		birth = yes
@@ -615,10 +600,19 @@ ahmad_samani = {
 	name = "Muhammad"
 	dynasty = 791
 	religion = "maturidi"
-	culture = "tajik"
+	culture = tajik
 	father = 93133
 	980.1.1 = {
 		birth = yes
+	}
+	1017.1.1={
+	effect = {
+		make_tributary = {
+		TYPE = tributary_non_permanent #(see 00_T4N_tributary_types)
+		TRIBUTARY = character:93134
+		SUZERAIN = character:144125
+			}
+		}
 	}
 	1030.1.1 = {
 		death = yes
@@ -629,7 +623,7 @@ ahmad_samani = {
 	name = "Shith"
 	dynasty = 791
 	religion = "maturidi"
-	culture = "tajik"
+	culture = tajik
 	father = 93133
 	982.1.1 = {
 		birth = yes
@@ -643,7 +637,7 @@ ahmad_samani = {
 	name = "Abbas"
 	dynasty = 791
 	religion = "maturidi"
-	culture = "tajik"
+	culture = tajik
 	father = 93135
 	999.1.1 = {
 		birth = yes
@@ -657,10 +651,19 @@ ahmad_samani = {
 	name = "Muhammad"
 	dynasty = 791
 	religion = "maturidi"
-	culture = "tajik"
+	culture = tajik
 	father = 93136
 	1020.1.1 = {
 		birth = yes
+	}
+	1066.1.1={
+	effect = {
+		make_tributary = {
+		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
+		TRIBUTARY = character:93137
+		SUZERAIN = character:144133
+			}
+		}
 	}
 	1070.1.1 = {
 		death = yes
@@ -671,10 +674,28 @@ ahmad_samani = {
 	name = "Hasan"
 	dynasty = 791
 	religion = "maturidi"
-	culture = "tajik"
+	culture = tajik
 	father = 93137
 	1050.1.1 = {
 		birth = yes
+	}
+	1081.1.1={
+	effect = {
+		make_tributary = {
+		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
+		TRIBUTARY = character:93138
+		SUZERAIN = character:144133
+			}
+		}
+	}
+	1099.1.1={
+	effect = {
+		make_tributary = {
+		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
+		TRIBUTARY = character:93138
+		SUZERAIN = character:144134
+			}
+		}
 	}
 	1100.1.1 = {
 		death = yes
@@ -685,7 +706,7 @@ ahmad_samani = {
 	name = "Hussain"
 	dynasty = 791
 	religion = "maturidi"
-	culture = "tajik"
+	culture = tajik
 	father = 93138
 	1084.1.1 = {
 		birth = yes
@@ -699,7 +720,7 @@ ahmad_samani = {
 	name = "Saif"
 	dynasty = 791
 	religion = "maturidi"
-	culture = "tajik"
+	culture = tajik
 	father = 93139
 	1110.1.1 = {
 		birth = yes
@@ -713,7 +734,7 @@ ahmad_samani = {
 	name = "SA_m"
 	dynasty = 791
 	religion = "maturidi"
-	culture = "tajik"
+	culture = tajik
 	father = 93139
 	1113.1.1 = {
 		birth = yes
@@ -727,10 +748,13 @@ ahmad_samani = {
 	name = "Hussain"
 	dynasty = 791
 	religion = "maturidi"
-	culture = "tajik"
+	culture = tajik
 	father = 93139
 	1112.1.1 = {
 		birth = yes
+	}
+	1152.1.1={
+		give_nickname=nick_the_world_burner #Jahansuz
 	}
 	1161.1.1 = {
 		death = yes
@@ -741,7 +765,7 @@ ahmad_samani = {
 	name = "SA_m"
 	dynasty = 791
 	religion = "maturidi"
-	culture = "tajik"
+	culture = tajik
 	father = 144143
 	1167.1.1 = {
 		birth = yes
@@ -755,7 +779,7 @@ ahmad_samani = {
 	name = "Atsiz"
 	dynasty = 791
 	religion = "maturidi"
-	culture = "tajik"
+	culture = tajik
 	father = 93143
 	1150.1.1 = {
 		birth = yes
@@ -769,7 +793,7 @@ ahmad_samani = {
 	name = "Mas_ud"
 	dynasty = 791
 	religion = "maturidi"
-	culture = "tajik"
+	culture = tajik
 	father = 93139
 	1116.1.1 = {
 		birth = yes
@@ -783,7 +807,7 @@ ahmad_samani = {
 	name = "Muhammad"
 	dynasty = 791
 	religion = "maturidi"
-	culture = "tajik"
+	culture = tajik
 	father = 93146
 	1140.1.1 = {
 		birth = yes
@@ -797,7 +821,7 @@ ahmad_samani = {
 	name = "SA_m"
 	dynasty = 791
 	religion = "maturidi"
-	culture = "tajik"
+	culture = tajik
 	father = 93147
 	1160.1.1 = {
 		birth = yes
@@ -811,7 +835,7 @@ ahmad_samani = {
 	name = "Jalal-ud-Din_Ali"
 	dynasty = 791
 	religion = "maturidi"
-	culture = "tajik"
+	culture = tajik
 	father = 93148
 	1180.1.1 = {
 		birth = yes
@@ -825,7 +849,7 @@ ahmad_samani = {
 	name = "Muhammad"
 	dynasty = 791
 	religion = "maturidi"
-	culture = "tajik"
+	culture = tajik
 	father = 93139
 	1113.1.1 = {
 		birth = yes
@@ -839,10 +863,90 @@ ahmad_samani = {
 	name = "Ghiyath"
 	dynasty = 791
 	religion = "maturidi"
-	culture = "tajik"
+	culture = tajik
 	father = 144140
 	1130.1.1 = {
 		birth = yes
+	}
+	trait = education_martial_4
+	father = 144140
+	1130.1.1 = {
+		birth = yes
+	}
+	1186.1.1 = {
+		capital = c_ghur # Firuzkuh
+		set_relation_best_friend = character:144142
+		add_prestige = 2000
+		add_prestige_experience = 5000 # So that we have enough prestige to use an invasion CB
+		effect = {
+			create_alliance	= {
+				target = character:144142
+				allied_through_owner = character:144141
+				allied_through_target = character:144142
+			}
+			spawn_army = {
+				name = event_troop_default_name
+				levies = 1700
+				location = province:4212
+				origin = province:4215
+			}
+			spawn_army = {
+				name = event_troop_default_name
+				levies = 1700
+				location = province:4212
+				origin = province:4215
+			}
+			spawn_army = {
+				name = event_troop_default_name
+				levies = 1700
+				location = province:4212
+				origin = province:4215
+			}
+			spawn_army = {
+				name = event_troop_default_name
+				levies = 1700
+				location = province:4212
+				origin = province:4215
+			}
+			
+			spawn_army = {
+				name = event_troop_default_name
+				levies = 2000
+				location = province:4335
+				origin = province:4215
+			}
+			spawn_army = {
+				name = event_troop_default_name
+				levies = 2000
+				location = province:4335
+				origin = province:4215
+			}
+			spawn_army = {
+				name = event_troop_default_name
+				levies = 2000
+				location = province:4335
+				origin = province:4215
+			}
+			spawn_army = {
+				name = event_troop_default_name
+				levies = 2000
+				location = province:4335
+				origin = province:4215
+			}
+			
+			spawn_army = {
+				name = event_troop_default_name
+				levies = 1410‬
+				location = province:4073
+				origin = province:4215
+			}
+			spawn_army = {
+				name = event_troop_default_name
+				levies = 1410
+				location = province:4073
+				origin = province:4215
+			}
+		}
 	}
 	1203.1.1 = {
 		death = yes
@@ -853,10 +957,79 @@ ahmad_samani = {
 	name = "Mu_izz"
 	dynasty = 791
 	religion = "maturidi"
-	culture = "tajik"
+	culture = tajik
 	father = 144140
 	1132.1.1 = {
 		birth = yes
+	}
+	1186.1.1 = {
+		capital = c_ghazna
+	}
+	1187.1.1 = {
+		effect = {
+			spawn_army = {
+				name = event_troop_default_name
+				levies = 1700
+				location = province:4212
+				origin = province:4215
+			}
+			spawn_army = {
+				name = event_troop_default_name
+				levies = 1700
+				location = province:4212
+				origin = province:4215
+			}
+			spawn_army = {
+				name = event_troop_default_name
+				levies = 1700
+				location = province:4212
+				origin = province:4215
+			}
+			spawn_army = {
+				name = event_troop_default_name
+				levies = 1700
+				location = province:4212
+				origin = province:4215
+			}
+			
+			spawn_army = {
+				name = event_troop_default_name
+				levies = 2000
+				location = province:4335
+				origin = province:4215
+			}
+			spawn_army = {
+				name = event_troop_default_name
+				levies = 2000
+				location = province:4335
+				origin = province:4215
+			}
+			spawn_army = {
+				name = event_troop_default_name
+				levies = 2000
+				location = province:4335
+				origin = province:4215
+			}
+			spawn_army = {
+				name = event_troop_default_name
+				levies = 2000
+				location = province:4335
+				origin = province:4215
+			}
+			
+			spawn_army = {
+				name = event_troop_default_name
+				levies = 1410‬
+				location = province:4073
+				origin = province:4215
+			}
+			spawn_army = {
+				name = event_troop_default_name
+				levies = 1410
+				location = province:4073
+				origin = province:4215
+			}
+		}
 	}
 	1206.3.15 = {
 		death = yes
@@ -867,7 +1040,7 @@ ahmad_samani = {
 	name = "Mahmud"
 	dynasty = 791
 	religion = "maturidi"
-	culture = "tajik"
+	culture = tajik
 	father = 144141
 	1147.1.1 = {
 		birth = yes
@@ -881,7 +1054,7 @@ ahmad_samani = {
 	name = "SU_rI_"
 	dynasty = 791
 	religion = mahayana
-	culture = "tajik"
+	culture = tajik
 	father = 93132
 	890.1.1 = {
 		birth = yes
@@ -892,10 +1065,10 @@ ahmad_samani = {
 }
 
 1230317 = {
-	name = "Mohammad"	# after 977 subordinates to Sebuktegin
+	name = "Muhammad"	# after 977 subordinates to Sebuktegin
 	dynasty = 791
 	religion = mahayana
-	culture = "tajik"
+	culture = tajik
 	father = 1230316
 	930.1.1 = {
 		birth = yes
@@ -911,7 +1084,7 @@ ahmad_samani = {
 	name = "Zahhak"
 	dynasty = 791
 	religion = mahayana
-	culture = "tajik"
+	culture = tajik
 	830.1.1 = {
 		birth = yes
 	}
@@ -923,7 +1096,7 @@ ahmad_samani = {
 	name = "FaridU_n"
 	dynasty = 791
 	religion = mahayana
-	culture = "tajik"
+	culture = tajik
 	father = 1230318
 	862.1.1 = {
 		birth = yes
@@ -933,37 +1106,35 @@ ahmad_samani = {
 	}
 }
 
-
-1228199 = {
-	name = "Jahanshah" #fantasy placeholder
-	dynasty = 1101800
-	religion = "maturidi"
-	culture = "tajik"
-	840.1.1 = {
-		birth = yes
-	}
-	1060.1.1 = {
-		death = yes
-	}
-}
 1228198 = {
-	name = "Mehrab" #fantasy placeholder
-	dynasty = 1101800
-	religion = "maturidi"
-	culture = "tajik"
-	father = 1228199
-	1040.1.1 = {
-		birth = yes
+	name="'Ali" #Ali b. Karmakh, Ghurid governor of Multan and Uch ca. 1178-1190s, commander of Lahore 1186-?
+	dynasty=1000101827
+	religion="maturidi"
+	culture="persian" #?
+	1141.1.1={ #?
+		birth=yes
 	}
-	1090.1.1 = {
-		death = yes
+	1198.1.1={ #in the late 1190s
+		death=yes
 	}
 }
+1228199 = {
+	name="Mohammad" #place holder governor of Multan
+	religion="maturidi"
+	culture="persian"
+	1160.1.1={
+		birth=yes
+	}
+	1214.1.1={
+		death=yes
+	}
+}
+
 
 #Farighunids
 1230300 = {
 	name = "Farighun"
-	dynasty = 1101801
+	dynasty_house = house_farighunid
 	religion = "maturidi"
 	culture = "tajik"
 	father = 188597
@@ -976,7 +1147,7 @@ ahmad_samani = {
 }
 1230301 = {
 	name = "Ahmad"
-	dynasty = 1101801
+	dynasty_house = house_farighunid
 	religion = "maturidi"
 	culture = "tajik"
 	father = 1230300
@@ -989,7 +1160,7 @@ ahmad_samani = {
 }
 1230302 = {
 	name = "Mohammad" #Abu’l-Haret Mohammad
-	dynasty = 1101801
+	dynasty_house = house_farighunid
 	religion = "maturidi"
 	culture = "tajik"
 	father = 1230301
@@ -1002,7 +1173,7 @@ ahmad_samani = {
 }
 1230303 = {
 	name = "Ahmad" #Abu’l-Haret Ahmad
-	dynasty = 1101801
+	dynasty_house = house_farighunid
 	religion = "maturidi"
 	culture = "tajik"
 	father = 1230302
@@ -1015,7 +1186,7 @@ ahmad_samani = {
 }
 1230304 = {
 	name = "Farighun"
-	dynasty = 1101801
+	dynasty_house = house_farighunid
 	religion = "maturidi"
 	culture = "tajik"
 	father = 1230302
@@ -1028,7 +1199,7 @@ ahmad_samani = {
 }
 1230305 = {
 	name = "Abu_n_Nasr_Mohammad"
-	dynasty = 1101801
+	dynasty_house = house_farighunid
 	religion = "maturidi"
 	culture = "tajik"
 	father = 1230304
@@ -1041,7 +1212,7 @@ ahmad_samani = {
 }
 1230306 = {
 	name = "Hasan"
-	dynasty = 1101801
+	dynasty_house = house_farighunid
 	religion = "maturidi"
 	culture = "tajik"
 	father = 1230305
@@ -1054,7 +1225,7 @@ ahmad_samani = {
 }
 1230307 = {
 	name = "Farighun"
-	dynasty = 1101801
+	dynasty_house = house_farighunid
 	religion = "maturidi"
 	culture = "tajik"
 	father = 1230306
@@ -1068,7 +1239,7 @@ ahmad_samani = {
 1230308 = {
 	name = "Javaneh"  #fantasy, but need some females
 	female = yes
-	dynasty = 1101801
+	dynasty_house = house_farighunid
 	religion = "maturidi"
 	culture = "tajik"
 	father = 1230307
@@ -1090,9 +1261,6 @@ ahmad_samani = {
 	father = 1230310
 	838.1.1 = {
 		birth = yes
-	}
-	860.1.1 = {
-		employer = 163100
 	}
 	882.10.10 = {
 		death = yes

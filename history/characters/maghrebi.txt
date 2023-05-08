@@ -98,6 +98,97 @@
 		death = "823.1.1"
 	}
 }
+260852 = {
+	name = "Salim" #Salim bin As'ad bin Rashid, Paradox managed to get his name wrong
+	dynasty = 1062435
+	religion = ismaili
+	culture = maghrebi
+	884.1.1 = { #appointed wali in 917, so likely older than Paradox set him up to be
+		birth = yes
+	}
+	940.8.31 = {
+		death = yes
+	}
+}
+260859 = {
+	name = "Mukhtar" #vanilla placeholder
+	dynasty = 1062441
+	religion = ismaili
+	culture = baranis
+	894.1.1 = {
+		birth = yes
+	}
+	938.1.1 = {
+		death = yes
+	}
+}
+32900 = {
+	name = "Abdullah" # Rabi Abdullah - the Eleventh Ismaili Imam and first Fatimid Caliph
+	dynasty_house = house_Fatimid
+	religion = "ismaili"
+	culture = "maghrebi"
+	father = 33920
+	trait = sayyid
+	870.1.1 = {
+		birth = "870.1.1"
+	}
+	934.1.1 = {
+		death = "934.1.1"
+	}
+}
+32901 = {
+	name = "al-Qaim"
+	dynasty_house = house_Fatimid
+	diplomacy = 7
+	martial = 6
+	stewardship = 7
+	intrigue = 5
+	learning = 7
+	religion = "ismaili"
+	culture = "maghrebi"
+	trait = education_martial_3
+	trait = sayyid
+	trait = brave
+	trait = temperate
+	trait = arrogant
+	trait = zealous
+	father = 32900
+	893.1.1 = {
+		birth = "893.1.1"
+	}
+	946.5.17 = {
+		death = "946.5.17"
+	}
+}
+32902 = {
+	name = "al-Mansur"
+	dynasty_house = house_Fatimid
+	religion = "ismaili"
+	culture = "maghrebi"
+	father = 32901
+	trait = sayyid
+	913.1.1 = {
+		birth = "913.1.1"
+	}
+	953.3.19 = {
+		death = "953.3.19"
+	}
+}
+
+32903 = {
+	name = "al-Muizz"
+	dynasty_house = house_Fatimid
+	religion = "ismaili"
+	culture = "maghrebi"
+	father = 32902
+	trait = sayyid
+	932.1.1 = {
+		birth = "932.1.1"
+	}
+	984.1.1 = {
+		death = "984.1.1"
+	}
+}
 
 
 ############

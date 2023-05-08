@@ -5,7 +5,7 @@ persian = {
 	
 	ethos = ethos_courtly
 	heritage = heritage_iranian
-	language = language_iranian
+	language = language_persian
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_poetry
@@ -33,7 +33,7 @@ kurdish = {
 	
 	ethos = ethos_communal
 	heritage = heritage_iranian
-	language = language_iranian
+	language = language_kurdish
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_swords_for_hire
@@ -60,7 +60,7 @@ baloch = {
 	
 	ethos = ethos_communal
 	heritage = heritage_iranian
-	language = language_iranian
+	language = language_balochi
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_futuwaa
@@ -86,7 +86,7 @@ daylamite = {
 	
 	ethos = ethos_bellicose
 	heritage = heritage_iranian
-	language = language_iranian
+	language = language_caspian_iranian
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_swords_for_hire
@@ -113,7 +113,7 @@ tajik = {
 	
 	ethos = ethos_spiritual
 	heritage = heritage_iranian
-	language = language_iranian
+	language = language_persian
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_caravaneers
@@ -142,7 +142,7 @@ afghan = { # a.k.a. Pashtun
 	
 	ethos = ethos_communal
 	heritage = heritage_iranian
-	language = language_scythian
+	language = language_pashto
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_loyal_soldiers

@@ -2,7 +2,7 @@
 ##d_dalmatia ###################################
 ###c_zadar
 465 = {		#Zadar
-	culture = greek
+	culture = dalmatian
 	religion = orthodox
 	holding = castle_holding
 	1066.1.1 = {
@@ -31,7 +31,7 @@
 
 ###c_knin
 3548 = {	#Knin
-	culture = croatian
+	culture = dalmatian
 	religion = catholic
 	holding = castle_holding
 }
@@ -50,11 +50,10 @@
 
 ###c_cetina
 3551 = {	#Sinj / c_sinjcroat
-	culture = greek
+	culture = dalmatian
 	religion = orthodox
 	holding = castle_holding
 	1066.1.1 = {
-		culture = dalmatian
 		religion = catholic
 	}
 }
@@ -135,7 +134,7 @@
 ##d_slavonia ###################################
 ###c_zagreb
 461 = {		#Zagreb
-	culture = croatian
+	culture = slavonian
 	religion = catholic
 	holding = castle_holding
 }
@@ -157,7 +156,7 @@
 
 ###c_zagorje
 458 = {		#Istria / Krapina
-	culture = croatian
+	culture = slavonian
 	religion = catholic
 	holding = castle_holding
 }
@@ -179,7 +178,7 @@
 
 ###c_pozega
 3529 = {	#Po�ega
-	culture = croatian
+	culture = slavonian
 	religion = catholic
 	holding = castle_holding
 }
@@ -193,7 +192,7 @@
 
 ###c_vukovar
 3610 = {	#Vakovo
-	culture = croatian
+	culture = slavonian
 	religion = catholic
 	holding = castle_holding
 }

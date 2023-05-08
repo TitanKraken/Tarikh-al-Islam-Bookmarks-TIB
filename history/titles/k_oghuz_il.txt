@@ -1,12 +1,12 @@
 
 k_oghuz_il = {
-	name = Oghuz_Yabgu_State
 	867.1.1 = { change_development_level = 0 }
 	1066.1.1 = { change_development_level = 0 }
 	
 	659.1.1 = {
 		holder = kimek_001
 		liege = e_kangar
+		name = Oghuz_Yabgu_State
 	}
 	673.1.1 = {
 		holder = kimek_002

@@ -1,9 +1,9 @@
 ﻿32978 = {
-	name = "Abd-al-Mu_min" # Almohad Founder 1147-1163
+	name = "Abd-al-Mu_min" # Almohad Founder, the 1st Almohad Caliph 1147-1163
 	dna = 32978_am
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = tagelmust
 	father = kumi_003
 	martial = 10
 	diplomacy = 15
@@ -19,6 +19,7 @@
 	trait = strategist
 	trait = overseer
 	trait = intellect_good_2
+	trait = beauty_good_1 # It was said that he was good-looking and attractive
 	sexuality = heterosexual
 	1094.1.1 = {
 		birth = "1094.1.1"
@@ -72,9 +73,10 @@
 	name = "Muhammad"
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
 	father = 32978
 	trait = arbitrary
+	sexuality = heterosexual
 	1110.1.1 = {
 		birth = "1110.1.1"
 	}
@@ -90,7 +92,8 @@ almohad1004 = {
 	name = "Abu_Zayd_Abd-al-Rahman"
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = 32978
 	1112.3.1 = {
 		birth= yes
@@ -104,7 +107,8 @@ almohad1005 = {
 	name = "Abu_Zakariya_Abd-al-Rahman"
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = 32978
 	1112.8.14 = {
 		birth= yes
@@ -118,7 +122,8 @@ almohad1006 = {
 	name = "Abu_Abd-al-Rahman_Ya_qub"
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = 32978
 	1124.9.7 = {
 		birth= yes
@@ -132,7 +137,8 @@ almohad1007 = {
 	name = "Abu_Ibrahim_Ismail"
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = 32978
 	1126.3.1 = {
 		birth= yes
@@ -146,7 +152,8 @@ almohad1009 = {
 	name = "Abu_Ali_al-Hussayn"
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = 32978
 	1140.5.1 = {
 		birth= yes
@@ -157,10 +164,13 @@ almohad1009 = {
 }
 
 almohad1010 = {
-	name = "Abu_Muhammad_Abdallah"
+	name = "Abu_Muhammad_Abdallah" # Governor of Bejaia/Bijaya during the 2nd Almohad Caliph reign
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
+	trait = brave # Bravely opposed the bay'ah (pledge of allegiance) to the 2nd Almohad Caliph
+	trait = education_stewardship_2
 	father = 32978
 	1141.1.19 = {
 		birth= yes
@@ -174,7 +184,8 @@ almohad1011 = {
 	name = "Abu_Musa_Isa"
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = 32978
 	1143.3.14 = {
 		birth= yes
@@ -188,7 +199,8 @@ almohad1012 = {
 	name = "Abu_Ishaq_Ibrahim"
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = 32978
 	1145.9.13 = {
 		birth= yes
@@ -199,18 +211,23 @@ almohad1012 = {
 }
 
 almohad1013 = {
-	name = "Sulayman"
+	name = "Sulayman" # AKA: Abu'l-Rabi' Sulayman
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
-	trait = education_learning_3 # Fictional
+	culture = masmuda
+	trait = education_stewardship_3 # Fictional, trusted enough to be governor of Tadla
+	trait = brave # Bravely joined a conspiracy against Abu Yusuf Ya'qub al-Mansur
 	trait = humble
+	sexuality = heterosexual
 	father = 32978
 	1149.3.1 = {
 		birth= yes
 	}
-	1213.1.1 ={
-		death = yes
+	1190.1.1 = {
+		death = {
+			death_reason = death_execution # Executed at Sale
+			killer = 32980
+		}
 	}
 }
 
@@ -219,7 +236,7 @@ almohad1014 = {
 	dna = almohad1014_dna
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
 	trait = brave
 	trait = diligent
 	trait = gregarious
@@ -236,14 +253,19 @@ almohad1014 = {
 }
 
 32980 = {
-	name = "Abu_Yusuf_Ya_qub" #1184-1199
+	name = "Abu_Yusuf_Ya_qub" # The 3rd Almohad Caliph 1184-1199
 	dna = 32980_dna
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	trait = education_stewardship_4
 	trait = zealous
-	trait = humble
+	trait = diligent
+	trait = honest
 	trait = just
+	trait = compassionate
+	trait = intellect_good_2
+	sexuality = heterosexual
 	father = 224000
 	1155.1.1 = {
 		birth = "1155.1.1"
@@ -251,6 +273,9 @@ almohad1014 = {
 	}
 	1180.1.1 = {
 		add_spouse = zahr_flor
+	}
+	1184.1.1 = {
+		add_trait = "strategist" # Talented organizer in both military and administrative matters
 	}
 	1199.1.23 = {
 		death = "1199.1.23"
@@ -261,7 +286,8 @@ almohad1014 = {
 	name = "Abu_Ya_qub_Yusuf" #1213-1224
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = 224005
 	mother = qamar_luna
 	1199.1.1 = {
@@ -277,11 +303,12 @@ almohad1014 = {
 	name = "Abd-al-Wahid" #1224
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
 	trait = zealous
 	trait = content
 	trait = just
 	trait = education_stewardship_4
+	sexuality = heterosexual
 	father = 224000
 	1169.1.1 = {
 		birth = yes
@@ -301,11 +328,12 @@ almohad1014 = {
 	name = "Abdallah" #1225-1227
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
 	trait = brave
 	trait = ambitious 
 	trait = arbitrary
 	trait = education_martial_3
+	sexuality = heterosexual
 	father = 32980
 	1185.1.1 = {
 		birth = "1185.1.1"
@@ -320,7 +348,8 @@ almohad0003_ibn_almanzor = {
 	name = "Abu_Muhammad_Sa_id"
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = 32980
 	1186.1.1 = {
 		birth = "1186.1.1"
@@ -334,7 +363,8 @@ almohad0005_ibn_almanzor = {
 	name = "Ibrahim"
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = 32980
 	1189.1.1 = {
 		birth = "1189.1.1"
@@ -348,7 +378,8 @@ almohad0006_ibn_almanzor = {
 	name = "Abu_Muhammad_Sa_id"
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = 32980
 	1189.1.1 = {
 		birth = "1189.1.1"
@@ -362,7 +393,8 @@ almohad0006_ibn_almanzor = {
 	name = "Yahya" #1227-1229
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = 224005
 	1210.1.1 = {
 		birth = yes
@@ -377,10 +409,11 @@ almohad0006_ibn_almanzor = {
 	name = "Idris" #1229-1233
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
 	trait = zealous
 	trait = trusting
 	trait = honest
+	sexuality = heterosexual
 	father = 32980
 	1184.1.1 = {
 		birth = yes
@@ -399,7 +432,7 @@ almohad0006_ibn_almanzor = {
 	dna = abd_al_wahid_al_rashid_castilian_dna
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
 	father = 32985
 	mother = hababa_amor
 	martial = 5
@@ -436,12 +469,13 @@ almohad0006_ibn_almanzor = {
 	name = "_Ali" #1242-1248
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
 	father = 32985
 	trait = diligent
 	trait = wrathful
 	trait = vengeful
 	trait = callous
+	sexuality = heterosexual
 	1215.1.1 = {
 		birth = "1215.1.1"
 		give_nickname = nick_said
@@ -451,14 +485,15 @@ almohad0006_ibn_almanzor = {
 	}
 }
 
-32988 = { #ibn Yusuf Almohad2ndCaliph
+32988 = { #ibn Yusuf the 2nd Almohad Caliph
 	name = "Ishaq"
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
 	trait = chaste
 	trait = content
 	trait = shy
+	sexuality = heterosexual
 	father = 224000
 	1171.1.1 = {
 		birth = "1171.1.1"
@@ -472,14 +507,15 @@ almohad0006_ibn_almanzor = {
 	}
 }
 32989 = {
-	name = "_Umar" #1248-1266
+	name = "_Umar" # al-Murtadha 1248-1266
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
 	trait = content
 	trait = calm
 	trait = humble
 	trait = education_learning_3
+	sexuality = heterosexual
 	father = 32988
 	1187.1.1 = {
 		birth = "1187.1.1"
@@ -500,12 +536,13 @@ almohad_descendants_003 = {
 	name = "Muhammad"
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
 	father = 32989
 	trait = education_stewardship_4
 	trait = content
 	trait = patient
 	trait = just # Maybe?
+	sexuality = heterosexual
 	1253.1.1 = {
 		birth = yes
 	}
@@ -517,16 +554,17 @@ almohad_descendants_003 = {
 	}
 }
 
-almohad_descendants_006 = {
+almohad_descendants_006 = { # Previously governor of Malaga in 1202, Silves and Algarve ca. 1203, Sijilmasa before 1221, and Seville 1221-1224
 	name = "Abd-al-Wahid"
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
 	father = 32989
 	trait = education_stewardship_4
 	trait = content
 	trait = calm
 	trait = temperate # Maybe?
+	sexuality = heterosexual
 	1227.1.1 = {
 		birth = yes
 	}
@@ -542,11 +580,12 @@ almohad_descendants_006 = {
 	name = "Abu_Musa"
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
 	father = 32980
 	trait = ambitious
 	trait = brave
 	trait = arbitrary
+	sexuality = heterosexual
 	1188.1.1 = {
 		birth = yes
 	}
@@ -560,11 +599,18 @@ almohad_descendants_006 = {
 
 155085 = {
 	name = "_Umar"
+	dna = 155085_umar_almohad_dna
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	diplomacy = 6
+	intrigue = 10
+	stewardship = 10
 	trait = temperate
+	trait = arbitrary # Wants more power for himself
 	trait = ambitious
+	trait = education_stewardship_4
+	sexuality = heterosexual
 	father = 32978
 	1139.1.1 = {
 		birth = "1139.1.1"
@@ -575,16 +621,38 @@ almohad_descendants_006 = {
 }
 
 155086 = {
-	name = "_Uthman"
+	name = "Abu_Sa_id__Uthman"
+	dna = 155086_uthman_almohad_dna
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	trait = humble
+	trait = trusting
+	trait = brave
+	trait = forder
+	trait = loyal
+	trait = education_martial_3
+	sexuality = heterosexual
 	father = 32978
 	1136.1.1 = {
-		birth = "1136.1.1"
+		birth = yes
 	}
 	1196.1.1 = {
-		death = "1196.1.1"
+		death = yes
+	}
+}
+almohad0023 = {
+	name = "Sa_id"
+	dynasty = 101875
+	religion = "masmudi"
+	culture = masmuda
+	sexuality = heterosexual
+	father = 155086
+	1159.1.1 = {
+		birth = yes
+	}
+	1213.1.1 = {
+		death = yes
 	}
 }
 
@@ -592,7 +660,8 @@ almohad_descendants_006 = {
 	name = "Abdallah"
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = 32978
 	1137.1.1 = {
 		birth = "1137.1.1"
@@ -606,7 +675,8 @@ almohad_descendants_006 = {
 	name = "_Ali"
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = 32978
 	1136.1.1 = {
 		birth = "1136.1.1"
@@ -617,20 +687,25 @@ almohad_descendants_006 = {
 }
 
 224000 = {
-	name = "Abu_Ya_qub_Yusuf" #1163-1184 Almohad2ndCaliph
+	name = "Abu_Ya_qub_Yusuf" # 1163-1184 2nd Almohad Caliph
 	# AKA: Abu Ya'qub Yusuf
+	dna = 224000_abu_yaqub_yusuf_dna
 	dynasty = 101875
-	martial = 7
+	martial = 2 # Not really interested or good in military
 	diplomacy = 5
-	intrigue = 5
-	stewardship = 8
+	intrigue = 2
+	stewardship = 5
 	learning = 13
 	religion = "masmudi"
-	culture = baranis
-	trait = just
-	trait = humble
-	trait = brave
+	culture = masmuda
+	sexuality = heterosexual
+	#trait = stubborn # His decision is everything, none can oppose
+	trait = impatient # A hasty ruler
+	trait = calm # Too calm to leave revolts and a literal PLAGUE running on
+	trait = generous # Loves to give charity
+	trait = diligent # A very good learner and will do anything to pursue knowledge
 	trait = education_learning_4
+	trait = physique_bad_2 # It was said that he frequently got sick, to the point of bedridden for a year.
 	disallow_random_traits = yes
 	father = 32978
 	1135.1.1 = {
@@ -647,20 +722,21 @@ almohad_descendants_006 = {
 	}
 }
 224005 = {
-	name = "Muhammad" #1199-1213
+	name = "Abu_Muhammad_Abdallah" #1199-1213 3rd Almohad Caliph
+	dna = 224005_muhammad_al_nasir_dna
 	dynasty = 101875
 	martial = 10
 	diplomacy = 9
 	intrigue = 5
 	stewardship = 7
 	religion = "masmudi"
-	culture = baranis
-	trait = compassionate
-	trait = wrathful
-	trait = greedy
-	trait = shy
+	culture = masmuda
+	trait = ambitious
+	trait = wrathful # Instantly kills Abu Yusuf al-Hajjaj, blaming him for the losses before Las Navas de Tolosa
+	trait = impatient # Always makes immature decisions
+	trait = lustful # After the loss of Las Navas de Tolosa, he indulges in having "fun" too much as to leave his realm into the hands of his 10 years old son and heir.
 	trait = stuttering
-	trait = education_martial_4
+	trait = education_martial_2 # Pretty terrible
 	sexuality = heterosexual
 	father = 32980
 	mother = zahr_flor
@@ -670,14 +746,14 @@ almohad_descendants_006 = {
 	}
 	1199.1.1 = {
 		add_spouse = qamar_luna
-		trait = depressed
+		#trait = depressed
 	}
 	1212.6.17 = {
 		almohad1212buff_effect = yes
 	}
 	1213.1.1 = {
 		death = {
-			death_reason = death_murder
+			death_reason = death_murder # Got poisoned by one of his ministers that was sentenced to death by the Caliph.
 		}
 	}
 }
@@ -686,7 +762,8 @@ almohad0015 = { #ibn Ishaq al-Tahir
 	name = "Abu_Zayd"
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = 32988
 	1217.3.23 = {
 		birth = yes
@@ -700,7 +777,8 @@ almohad0016 = { #ibn Ishaq al-Tahir
 	name = "Ishaq"
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = 32988
 	1220.3.15 = {
 		birth = yes
@@ -722,13 +800,15 @@ almohad0010 = {
 	name = "Abu_l-Ula_Idris" #ibn Yusuf Almohad2ndCaliph
 	dynasty = 101875
 	learning = 15
+	martial = 10
 	trait = intellect_good_2
 	trait = zealous
 	trait = humble
-	trait = content
-	trait = education_learning_4
+	trait = brave
+	trait = education_martial_3 # Chosen as navy commander against Banu Ghaniya revolution
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = 224000
 	1162.6.7 = {
 		birth = "1162.6.7"
@@ -742,7 +822,8 @@ almohad0011 = {
 	name = "Abu_Yahya" #ibn Yusuf Almohad2ndCaliph
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = 224000
 	1164.5.4 = {
 		birth = "1164.5.4"
@@ -756,23 +837,27 @@ almohad0012 = {
 	name = "Abu_Ishaq_Ibrahim" #ibn Yusuf Almohad2ndCaliph
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = 224000
-	1166.6.3 = {
-		birth = "1166.6.3"
+	1156.6.3 = {
+		birth = yes
 	}
 	1225.8.1 = {
-		death = "1225.8.1"
+		death = yes
 	}
 }
 
 almohad0013 = {
 	name = "Abu_Hafs_Umar" #ibn Yusuf Almohad2ndCaliph
 	dynasty = 101875
-	trait = zealous
-	trait = just
+	trait = brave
+	trait = trusting
+	trait = honest
+	trait = education_stewardship_2
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = 224000
 	1168.5.4 = {
 		birth = "1168.5.4"
@@ -781,25 +866,76 @@ almohad0013 = {
 	1184.1.1 = {
 		disallow_random_traits = yes
 	}
-	1225.9.1 = {
-		death = "1225.9.1"
+	1190.1.1 = {
+		death = {
+			death_reason = death_execution # Executed at Sale
+			killer = 32980
+		}
 	}
 }
 
 almohad0014 = { 
-	name = "Abu_Zayd_Muhammad" #ibn Yusuf Almohad2ndCaliph
+	name = "Abu_Zayd_Muhammad" # ibn Yusuf Almohad2ndCaliph, al-Hardani
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = 224000
-	1168.10.4 = {
-		birth = "1168.10.4"
+	1165.10.4 = {
+		birth = yes
 	}
 	1184.1.1 = {
 		disallow_random_traits = yes
 	}
 	1225.12.1 = {
-		death = "1225.12.1"
+		death = yes
+	}
+}
+
+almohad0020 = {
+	name = "Abu_Imran_Musa" # b. Abu Ya'qub Yusuf, governor of Tlemcen
+	dynasty = 101875
+	religion = "masmudi"
+	culture = "masmuda"
+	sexuality = heterosexual
+	father = 224000
+	1174.1.1 = { #?
+		birth = yes
+	}
+	1208.5.1 = { #sometime in 1208
+		death = {
+			death_reason = death_battle
+			killer = 32977
+		}
+	}
+}
+
+almohad0021 = {
+	name="Abu_Abdallah" # al-Hardani b. Abu Ya'qub Yusuf (?)
+	dynasty = 101875
+	religion = "masmudi"
+	culture = "masmuda"
+	sexuality = heterosexual
+	father = 224000 #? possibly same mother (note "al-Hardani") as Abu Zayd
+	1167.1.1 = { #?
+		birth = yes
+	}
+	1216.1.1 = { #?
+		death = yes
+	}
+}
+almohad0022 = {
+	name = "Abu_Umran" # b. Abu Abd Allah al-Hardani, governor of Bijaya under al-Ma'mun
+	dynasty = 101875
+	religion = "masmudi"
+	culture = "masmuda"
+	sexuality = heterosexual
+	father = 1230059
+	1196.1.1 = { #?
+		birth = yes
+	}
+	1245.1.1 = { #?
+		death = yes
 	}
 }
 
@@ -807,7 +943,8 @@ almohad0001 = {
 	name = "Abd-al-Rahman"
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = 155085
 	1170.1.16 = {
 		birth = yes
@@ -821,7 +958,8 @@ almohad0002 = {
 	name = "Abu_Zakariya_Yahya"
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = 155085
 	1161.2.25 = {
 		birth = "1161.2.25"
@@ -835,7 +973,8 @@ almohad0003 = {
 	name = "Abu_l_Hasan_Ali"
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = 155085
 	1163.1.19 = {
 		birth = "1163.1.19"
@@ -846,11 +985,12 @@ almohad0003 = {
 }
 
 almohad0004 = {
-	name = "Abu_Yusuf_Ya_qub"
+	name = "Abu_Yusuf_Ya_qub" # ibn 'Umar ibn Abd-al-Mu'min
 	dna = almohad0004_yaqub_ibn_umar
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = 155085
 	1164.1.1 = {
 		birth = "1164.1.1"
@@ -864,7 +1004,8 @@ almohad0005 = {
 	name = "Abu_l-Rabi__Sulayman"
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = 155085
 	1166.2.14 = {
 		birth = "1166.2.14"
@@ -875,14 +1016,14 @@ almohad0005 = {
 }
 
 almohad0006 = {
-	name = "Abu_Abdallah_Muhammad"
+	name = "Abu_Abdallah_Muhammad" # Governor of Majorca and later Valencia
 	dna = almohad0006_dna
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
 	father = 155085
 	sexuality = heterosexual
-	1184.6.7 = {
+	1174.6.7 = {
 		birth = yes
 	}
 	1222.1.1 = {
@@ -895,7 +1036,8 @@ almohad0006 = {
 	dna = 32990_idris_al-wathiq
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	trait = ambitious
 	trait = deceitful
 	trait = arbitrary
@@ -922,7 +1064,8 @@ almohad_descendants_001 = {
 	name = "Abd-al-Salam"
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = 32990
 	1255.1.1 = {
 		birth = yes
@@ -942,7 +1085,8 @@ almohad_descendants_002 = {
 	name = "Ahmad"
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = almohad_descendants_001
 	trait = education_martial_4
 	trait = brave
@@ -960,7 +1104,8 @@ almohad_descendants_004 = {
 	name = "_Uthman"
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = 32990
 	1267.1.1 = {
 		birth = yes
@@ -980,7 +1125,8 @@ almohad_descendants_005 = {
 	name = "Ahmad"
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = 32990
 	trait = education_diplomacy_4
 	trait = shy
@@ -1002,7 +1148,8 @@ almohad0007 = {
 	name = "Abu_Ali" #ibn Abu Abdallah
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = almohad0006
 	1222.6.7 = {
 		birth = "1191.6.7"
@@ -1016,7 +1163,8 @@ almohad0008 = {
 	name = "Abdallah" #ibn Abu Abdallah 
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = almohad0006
 	trait = diligent
 	trait = ambitious
@@ -1044,7 +1192,8 @@ fernando_de_adelmon = {
 	name = "Abd-al-Mu_min"
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = almohad0008
 	trait = brave
 	trait = zealous # Participated in the Conquest of Seville in 1248 against MUSLIMS
@@ -1067,13 +1216,18 @@ almohad0009 = {
 	name = "Abu_Zayd_Abd-al-Rahman" #ibn Abu Abdallah
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = almohad0006
 	trait = generous
 	trait = trusting
 	trait = diligent
+	trait = education_diplomacy_4
 	1195.1.1 = {
 		birth = yes
+	}
+	1235.1.1 = {
+		employer = 460600
 	}
 	1236.4.22 = { # Baptised and become a Christian noble lord of Aragon
 		religion = catholic
@@ -1085,11 +1239,12 @@ almohad0009 = {
 }
 
 sons_of_vicente_001 = {
-	name = "Alda_Ferrandis"
+	name = "Alda_Ferrandis" # First of the Arenos dynasty
 	female = yes
 	dynasty = 101875
 	religion = "catholic"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = almohad0009
 	1237.1.1 = {
 		birth = yes
@@ -1103,7 +1258,8 @@ sons_of_vicente_002 = {
 	name = "Fernando_PE_rez"
 	dynasty = 101875
 	religion = "catholic"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = almohad0009
 	1240.1.1 = {
 		birth = yes
@@ -1117,7 +1273,8 @@ sons_of_vicente_003 = {
 	name = "Sancho_Ferrandis"
 	dynasty = 101875
 	religion = "catholic"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = almohad0009
 	1242.1.1 = {
 		birth = yes
@@ -1131,7 +1288,8 @@ sons_of_vicente_004 = {
 	name = "Mahomat_Abiceit"
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = almohad0009
 	1220.1.1 = { # Should born before his father baptised as he still retains Muslim/Arabic name
 		birth = yes
@@ -1145,8 +1303,9 @@ sons_of_vicente_005 = {
 	name = "Ceyt_Aboyahya"
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
 	father = almohad0009
+	sexuality = heterosexual
 	1224.1.1 = { # Should born before his father baptised as he still retains Muslim/Arabic name
 		birth = yes
 	}
@@ -1159,8 +1318,9 @@ sons_of_vicente_006 = {
 	name = "Zeyt_Edris"
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
 	father = almohad0009
+	sexuality = heterosexual
 	1230.1.1 = { # Should born before his father baptised as he still retains Muslim/Arabic name
 		birth = yes
 	}
@@ -1169,11 +1329,42 @@ sons_of_vicente_006 = {
 	}
 }
 
+sons_of_vicente_007 = {
+	name = "Hasan" # b. Abu Zayd, Almohad caliph for 5 days before fleeing Marrakech
+	dynasty = 101875
+	religion = "masmudi"
+	culture = "masmuda"
+	sexuality = heterosexual
+	father = almohad0009
+	trait = patient
+	trait = generous
+	trait = forgiving
+	trait = education_martial_2
+	diplomacy = 5
+	martial = 17
+	stewardship = 5
+	intrigue = 9
+	learning = 10
+	prowess = 10
+	1228.1.1 = { #?
+		birth = yes
+	}
+	1236.1.1 = {
+		religion = "catholic"
+		name = "Alfonso"
+	}
+	
+	1285.1.1 = { #?
+		death = yes
+	}
+}
+
 almohad0017 = { 
 	name = "Musa" #ibn al-Nasir
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = 224005
 	1196.4.7 = {
 		birth = "1196.4.7"
@@ -1187,7 +1378,8 @@ almohad0018 = {
 	name = "Zakariya" #ibn al-Nasir
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = 224005
 	1197.6.7 = {
 		birth = "1197.6.7"
@@ -1201,7 +1393,8 @@ almohad0019 = {
 	name = "_Ali" #ibn al-Nasir
 	dynasty = 101875
 	religion = "masmudi"
-	culture = baranis
+	culture = masmuda
+	sexuality = heterosexual
 	father = 224005
 	1198.11.27 = {
 		birth = "1198.11.27"
@@ -1211,13 +1404,61 @@ almohad0019 = {
 	}
 }
 
-# Almohad Consorts, Wives, Concubines
+# Almohad Consorts, Wives, Concubines, Princesses
+
+1230042 = {
+	name="Safiyya" # bint Abd al-Mu'min, name fictional; the daughter who married Abu Abd Allah b. Wannudin al-Hintati
+	female=yes
+	dynasty=101875
+	religion="masmudi"
+	culture="masmuda"
+	father=32978
+	1123.1.1 = { #?
+		birth=yes
+	}
+	1186.1.1 = { #?
+		death=yes
+	}
+}
+3298000 = {
+	name="Bannu" 
+	dynasty=101875
+	religion="masmudi"
+	culture="masmuda"
+	female = yes
+	sexuality = heterosexual
+	father=224000
+
+	1154.1.1 = { 
+		birth=yes
+	}
+	1199.1.23 = {
+		death=yes
+	}
+}
+3298001 = {
+	name="Zaynab" 
+	dynasty=101875
+	religion="masmudi"
+	culture="masmuda"
+	female = yes
+	sexuality = heterosexual
+	father=224000
+
+	1160.1.1 = { 
+		birth=yes
+	}
+	1199.1.23 = {
+		death=yes
+	}
+}
 
 qamar_luna = {
 	name = "Luna" # Maybe?
 	female = yes
 	religion = "catholic"
 	culture = "castilian"
+	sexuality = heterosexual
 	1185.1.1 = {
 		birth = yes
 	}
@@ -1234,6 +1475,7 @@ zahr_flor = {
 	female = yes
 	religion = "catholic"
 	culture = "castilian"
+	sexuality = heterosexual
 	1160.1.1 = {
 		birth = yes
 	}
@@ -1251,6 +1493,7 @@ hababa_amor = {
 	female = yes
 	religion = "catholic"
 	culture = "castilian"
+	sexuality = heterosexual
 	1185.1.1 = {
 		birth = yes
 	}
@@ -1265,10 +1508,11 @@ hababa_amor = {
 
 # al-Kumi/Gumi Tribe
 kumi_001 = {
-	name = "Ya_la"
+	name = "Ya__la"
 	dynasty = tribe_Kumi
 	religion = "ashari"
-	culture = baranis
+	culture = tagelmust
+	sexuality = heterosexual
 	1028.1.1 = {
 		birth = yes
 	}
@@ -1280,7 +1524,8 @@ kumi_002 = {
 	name = "Alwi"
 	dynasty = tribe_Kumi
 	religion = "ashari"
-	culture = baranis
+	culture = tagelmust
+	sexuality = heterosexual
 	father = kumi_001
 	1049.1.1 = {
 		birth = yes
@@ -1293,7 +1538,8 @@ kumi_003 = {
 	name = "_Ali"
 	dynasty = tribe_Kumi
 	religion = "ashari"
-	culture = baranis
+	culture = tagelmust
+	sexuality = heterosexual
 	father = kumi_002
 	1071.1.1 = {
 		birth = yes

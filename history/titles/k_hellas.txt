@@ -300,7 +300,7 @@ c_euboea = {
 		holder = 212072
 	}
 	1216.1.1 = {
-		liege = "d_athens"
+		liege = k_venice #"d_athens"
 	}
 	1268.1.1 = {
 		holder = 70751
@@ -437,9 +437,11 @@ c_achaia = {
 	}
 	865.1.1 = {
 		holder = 145183
+		liege = "e_byzantium"
 	}
 	1060.1.1 = {
 		holder = 1766
+		liege = d_achaia
 	}
 	1089.1.1 = {
 		holder = 232504
@@ -613,9 +615,11 @@ c_messenia = {
 	}
 	866.1.1 = {
 		holder = 145184
+		liege = "e_byzantium"
 	}
 	1060.1.1 = {
 		holder = 34606
+		liege = d_achaia
 	}
 	1095.1.1 = {
 		holder = 34607
@@ -629,44 +633,34 @@ c_messenia = {
 	1195.1.1 = {
 		holder = 34611
 	}
+	#de Villehardouin
+	
 	1204.8.1 = {
-		liege = "k_venice"
+		holder = 31336 #Geoffory I
 	}
-	1204.8.1 = {
-		holder = 213601 #Enrico Dandolo
+	1218.9.1 = {
+		holder = 31337 #Geoffory II
 	}
-	1205.6.21 = {
-		holder = 32120 #Pietro Ziani
+	1246.5.6 = {
+		holder = 31338 #Guillaume II
 	}
-	1229.3.13 = {
-		holder = 32124 #Iacopo Tiepolo
+	1262.1.1 = {
+		liege = "e_byzantium"
 	}
-	1249.7.19 = {
-		holder = 32125 #Marino Morosini
+	1262.1.1 = {
+		holder = 34422
 	}
-	1253.1.1 = {
-		holder = 32126 #Reniero Zeno
+	1264.3.1 = {
+		holder = 34423
 	}
-	1268.7.7 = {
-		holder = 32127 #Lorenzo Tiepolo
+	1294.1.1 = {
+		holder = 34425
 	}
-	1275.8.15 = {
-		holder = 32128 #Iacopo Contarini
+	1305.1.1 = {
+		holder = 34424
 	}
-	1280.3.6 = {
-		holder = 32129 #Giovanni Dandalo
-	}
-	1289.11.2 = {
-		holder = 32130 #Pietro Gradenigo
-	}
-	1311.8.13 = {
-		holder = 32131 #Marino Zorzi
-	}
-	1312.7.3 = {
-		holder = 32132 #Giovannia Soranza
-	}
-	1328.12.31 = {
-		holder = 463600 #Francesco Dandalo
+	1311.1.1 = {
+		holder = 465550
 	}
 }
 
@@ -716,34 +710,45 @@ c_laconia = {
 		holder = 215011
 	}
 	
-	#de Villehardouin
-	
 	1204.8.1 = {
-		holder = 31336 #Geoffory I
+		liege = "k_venice"
 	}
-	1218.9.1 = {
-		holder = 31337 #Geoffory II
+	1204.8.1 = {
+		holder = 213601 #Enrico Dandolo
 	}
-	1246.5.6 = {
-		holder = 31338 #Guillaume II
+	1205.6.21 = {
+		holder = 32120 #Pietro Ziani
 	}
-	1262.1.1 = {
-		liege = "e_byzantium"
+	1229.3.13 = {
+		holder = 32124 #Iacopo Tiepolo
 	}
-	1262.1.1 = {
-		holder = 34422
+	1249.7.19 = {
+		holder = 32125 #Marino Morosini
 	}
-	1264.3.1 = {
-		holder = 34423
+	1253.1.1 = {
+		holder = 32126 #Reniero Zeno
 	}
-	1294.1.1 = {
-		holder = 34425
+	1268.7.7 = {
+		holder = 32127 #Lorenzo Tiepolo
 	}
-	1305.1.1 = {
-		holder = 34424
+	1275.8.15 = {
+		holder = 32128 #Iacopo Contarini
 	}
-	1311.1.1 = {
-		holder = 465550
+	1280.3.6 = {
+		holder = 32129 #Giovanni Dandalo
 	}
+	1289.11.2 = {
+		holder = 32130 #Pietro Gradenigo
+	}
+	1311.8.13 = {
+		holder = 32131 #Marino Zorzi
+	}
+	1312.7.3 = {
+		holder = 32132 #Giovannia Soranza
+	}
+	1328.12.31 = {
+		holder = 463600 #Francesco Dandalo
+	}
+	
 }
 

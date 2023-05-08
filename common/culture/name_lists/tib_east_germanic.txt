@@ -1,0 +1,345 @@
+﻿name_list_gothic = {
+
+	cadet_dynasty_names = {
+		{ "dynnp_af" "dynn_Aujum" }
+		{ "dynnp_af" "dynn_Raidagutaland" }
+		{ "dynnp_af" "dynn_Taureika" }
+		{ "dynnp_af" "dynn_Gutthiuda" }
+		{ "dynnp_af" "dynn_Danpar" }
+		{ "dynnp_af" "dynn_Nedao" }
+		{ "dynnp_af" "dynn_Arahaims" }
+		{ "dynnp_af" "dynn_Kuni" }
+		{ "dynnp_af" "dynn_Waurda" }
+		{ "dynnp_af" "dynn_Dusnahaithi" }
+		{ "dynnp_af" "dynn_Haliuruna" }
+		{ "dynnp_af" "dynn_Ahsa" }
+		{ "dynnp_af" "dynn_Harvada" }
+		{ "dynnp_af" "dynn_Doros" }
+		"dynn_Iggligg"
+		"dynn_Athalreikigg"
+		"dynn_Alareikigg"
+		"dynn_Thurigg"
+		"dynn_Harjimannigg"
+		"dynn_Wulfigg"
+		"dynn_Hannoigg"
+		"dynn_Tiusigg"
+		"dynn_Reikigg"
+		"dynn_Kunigg"
+		"dynn_Athanreikigg"
+		"dynn_Thervigg"
+		"dynn_Iusuzigg"
+		"dynn_Greuthigg"
+		"dynn_Frithureikigg"
+		"dynn_Wandjiligg"
+		"dynn_Gausigg"
+		"dynn_Anagaginthiusigg"
+		"dynn_Gizurigg"
+		"dynn_Heidrekigg"
+		"dynn_Hardareikigg"
+		"dynn_Rugigg"
+		"dynn_Eruligg"
+		"dynn_Amaligg"
+		"dynn_Baltigg"
+		"dynn_Amuthigg"
+		"dynn_Ildibadigg"
+		"dynn_Killigg"
+
+		"dynn_Erwigiana"
+		"dynn_Kindasuinthiana"
+		"dynn_Athanagildid"
+		"dynn_Athaulf"
+		"dynn_Sigireik"
+		"dynn_Gaisalaik"
+		"dynn_Thiudis"
+		"dynn_Liwa"
+		"dynn_Guntimer"
+		"dynn_Swinthila"
+		"dynn_Tulga"
+		"dynn_Hairwig"
+		"dynn_Witiza"
+		"dynn_Rotreik"
+		"dynn_Lewigild"
+		"dynn_Walja"
+		"dynn_Witireik"
+		"dynn_Sisibaud"
+		"dynn_Kindila"
+		"dynn_Wanbs"
+		"dynn_Amaling"
+		"dynn_Athaulfing"
+		"dynn_Balthing"
+		"dynn_Ansiling"
+		"dynn_Genobalding"
+		"dynn_Winitharing"
+		"dynn_Wultulfing"
+	}
+	
+	dynasty_names = {
+		{ "dynnp_af" "dynn_Aujum" }
+		{ "dynnp_af" "dynn_Taureika" }
+		{ "dynnp_af" "dynn_Gutthiuda" }
+		{ "dynnp_af" "dynn_Danpar" }
+		{ "dynnp_af" "dynn_Nedao" }
+		{ "dynnp_af" "dynn_Arahaims" }
+		{ "dynnp_af" "dynn_Kuni" }
+		{ "dynnp_af" "dynn_Waurda" }
+		{ "dynnp_af" "dynn_Dusnahaithi" }
+		{ "dynnp_af" "dynn_Haliuruna" }
+		{ "dynnp_af" "dynn_Ahsa" }
+		{ "dynnp_af" "dynn_Harvada" }
+		{ "dynnp_af" "dynn_Doros" }
+		"dynn_Athalreikigg"
+		"dynn_Alareikigg"
+		"dynn_Harjimannigg"
+		"dynn_Wulfigg"
+		"dynn_Hannoigg"
+		"dynn_Tiusigg"
+		"dynn_Reikigg"
+		"dynn_Kunigg"
+		"dynn_Athanreikigg"
+		"dynn_Frithureikigg"
+		"dynn_Anagaginthiusigg"
+		"dynn_Gizurigg"
+		"dynn_Heidrekigg"
+		"dynn_Hardareikigg"
+		"dynn_Eruligg"
+		"dynn_Baltigg"
+		"dynn_Amuthigg"
+		"dynn_Ildibadigg"
+		"dynn_Killigg"
+
+		"dynn_Erwigiana"
+		"dynn_Kindasuinthiana"
+		"dynn_Athanagildid"
+		"dynn_Athaulf"
+		"dynn_Sigireik"
+		"dynn_Gaisalaik"
+		"dynn_Thiudis"
+		"dynn_Liwa"
+		"dynn_Guntimer"
+		"dynn_Swinthila"
+		"dynn_Tulga"
+		"dynn_Hairwig"
+		"dynn_Witiza"
+		"dynn_Rotreik"
+		"dynn_Lewigild"
+		"dynn_Walja"
+		"dynn_Witireik"
+		"dynn_Sisibaud"
+		"dynn_Kindila"
+		"dynn_Wanbs"
+	}
+
+	male_names = {
+		Agilas Adafuns Adalfuns Adagaster Adalgaster Agila Airmanagild Alareiks Alatheo Aloito Amalafrid Amalareiks Athalareiks Amalmund
+		Aoreiks Ardo Arias Assur Athaulf Athanagild Athanareiks Aureli Bego Bera Berengar 
+		Airmanareiks Ermanareiks Ermengar Erwigi Euric Fafila Fredol Fridinand Friednand Frithareiks 
+		Gausebert Geila Gesalec Gundemar Guttier Garulf Geisalec Giselmar Gundobald Gundogast
+		Khindaswintho Khintil Leovigild Liuveric Lucidi Hermanaric Hermanagild Hilderic Hildibald Hunimund Ingbald Ludolf Liuva Liuvagild
+	 	Oddil Odoari Oduulf Olib Olmund
+		Ordonn Radulf Ranimir Rekkared Rekkeswinth Ricimer Riculf
+		Roderic Savareiks Sigibald Sigfred Sigigast Siegmund Sigimar Sigureiks Sisenand Suinthil Suniefred
+	    Theodefred Thiudefred Theodemir Thiudemir Theodoreiks Thiudareiks Theudigisl Theudis Thurismund Veremund Wifred
+		Witiz Wittereiks Wittekind Wulfila Wulfram Wolfram Walbald Waldemar Waldogast Wallia Wamba Wandalar Winithar Witiza Withemir Witheric Wultulf 
+	}
+	female_names = {
+		Adelgundis Adosinda Ariberga Brunechildis Adelberga Adelchisa Adelberga Amalasuntha Amalaberga Amalafrida Ansa Anselberga Ansia
+		Bado Brunhilda Egilona Ereleuva Geretruda Gerberga Giseltruda Glismoda Gudeliva Gundeberga Guntruda Egilona Ercheswintha Ermeneberga Ermengardis Ermenierdis Ermenisinda
+		Fafinia Flamula Froiliuva Fronilde Gado Gaudiosa Gonterote Gothina Gudilona Hermelinda
+		Imma Ingundis Leodegundis Liuvigothona Menenda Menia Monnia Ralindis Ragnahilda Rodelinda Rosamunda Rotruda Rumetruda 
+		Riciberga Sibilia Sisenanda Sunigilda Sunilda Theodegotha Theodelinda Theodorada Winidilda
+	}
+	patronym_suffix_male = "dynnpat_suf_ssunus"
+	patronym_suffix_female = "dynnpat_suf_sdauhtar"
+	always_use_patronym = yes
+	dynasty_of_location_prefix = "dynnp_af"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 5
+	father_name_chance = 10
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 50
+	mother_name_chance = 5
+}
+
+name_list_ostrogothic = {
+	cadet_dynasty_names = {
+		"dynn_Lethings"
+		"dynn_Lotharling"
+		"dynn_Theoderisian"
+		"dynn_Landulfid"
+		"dynn_Atenulfing"
+		"dynn_Hunding"
+		"dynn_Wulfing"
+		"dynn_Arodi"
+		"dynn_Alboining"
+		"dynn_Clephing"
+		"dynn_Autharing"
+		"dynn_Ariolading"
+		"dynn_Aripertid"
+		"dynn_Perctartid"
+		"dynn_Grimualding"
+		"dynn_Alahisid"
+		"dynn_Raginperting"
+		"dynn_Liutperting"
+	}
+
+	dynasty_names = {
+		"dynn_Lethings"
+		"dynn_Lotharling"
+		"dynn_Theoderisian"
+		"dynn_Landulfid"
+		"dynn_Atenulfing"
+		"dynn_Hunding"
+		"dynn_Wulfing"
+		"dynn_Arodi"
+		"dynn_Alboining"
+		"dynn_Clephing"
+		"dynn_Autharing"
+		"dynn_Ariolading"
+		"dynn_Aripertid"
+		"dynn_Perctartid"
+		"dynn_Grimualding"
+		"dynn_Alahisid"
+		"dynn_Raginperting"
+		"dynn_Liutperting"
+	}
+
+	male_names = {
+		Adalgis Adafuns Adalfuns Adaloald Adhemar Ado Agelmund Agilof Agilulf Agiprand Ago Ahthari Aimereiks
+		Aistulf Aiulf Ajo Alahis Alboin Aldihoc Alo Altbert Amefrith Anselm Ansfrid Ansfrith
+		Ansibrand Ardoin Arechis Ariald Aribert Arichis Aribert Ariulf Arnefrith Arnifrid Atenulf
+		Atto Audelahis Audoin Aunepert Ausfrid Ausfred Authari Berin Bernard Birinus Cleph Corvulus
+		Daufer Desiderius Donnolo Erchempert Erchinoald Erlembald Ewin Fara Faroald Ferdulf Gacco Garibald Gisulf Godehoc
+		Godepert Godescalc Grasulf Grimoald Guaifer Guaimar Gumpert Gundo Gundoald
+		Hermenfred Hildeprand Hilderic Hildigis Hilmagis Hrodgaud Hucpert Ibor Ildiches Indulf
+		Ingoald Ioann Irnerius Kakko Kunibert Laiamicho Laidulf Lambert Landari Landenulf Lando
+		Landulf Lantpert Laudari Liutbald Liutbrand Liutpert Liutprand Liutward Lupus Maginulf Manso Munichis
+		Nordepert Odilo Odoaker Odoin Orson Pandenulf Pandulf Pemmo Penno Perctarit Petrus
+		Pippin Poppo Radelchis Radelgar Radgis Radwald Raginpert Ratchis Reccared Risiulf Rochus Rodgand
+		Rodoald Rodolf Rodwald Romuald Rothari Saxo Sico Siconulf Sigibuld Sigibald Sigisbert Sigisbrand Sikard
+		Sinibald Taino Taso Theodelap Theoderich Theodicius Theodo Theodorich Theotpert Theudoald Thrasimund
+		Unichis Unigild Unulf Ursus Vacho Waifar Waimar Waldchis Waldipert Walthari Wechthari Wido Zotto Zuchilo
+	}
+	female_names = {
+		Adelberga Adelchisa Adelgrima Adelperga Altruda Amalasuintha Amalberga Amalfrida Ansa Anselberga Anselperga Ansia
+		Appa Areagne Aurona Chlotsuintha Cotani Cunigunda Desiderata Ereleuva Erelieva Gaatha Gaila Gaitelgrima Gambara Geila
+		Gemma Geretrudis Gerperga Giseltrude Giso Glismoda Gudeliva Gundeperga Guntrud Helchen Hermelinda
+		Hunila Imma Kriemhild Liutberga Liutperga Liutpirc Maria Marozia Matasuntha Menia Pilitrud Rodelinda Rosamund Rotrude Rumetruda
+		Serenahilt Sichelgaita Sunigilda Sunilda Swanahild Theodarada Theodelinda Theodorada Theodota Theuderada Thiudigotho Uta
+		Vadamerca Valdamerca Walderada Wilgefortis Wisigarda
+	}
+	patronym_suffix_male = "dynnpat_suf_ssunus"
+	patronym_suffix_female = "dynnpat_suf_sdauhtar"
+	always_use_patronym = yes	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 5
+	father_name_chance = 10
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 50
+	mother_name_chance = 5
+}
+
+name_list_burgundian = {
+
+	cadet_dynasty_names = {
+		"dynn_Erwigiana"
+		"dynn_Kindasuinthiana"
+		"dynn_Athanagildid"
+		"dynn_Athaulf"
+		"dynn_Sigireik"
+		"dynn_Gaisalaik"
+		"dynn_Thiudis"
+		"dynn_Liwa"
+		"dynn_Guntimer"
+		"dynn_Swinthila"
+		"dynn_Tulga"
+		"dynn_Hairwig"
+		"dynn_Witiza"
+		"dynn_Rotreik"
+		"dynn_Lewigild"
+		"dynn_Walja"
+		"dynn_Witireik"
+		"dynn_Sisibaud"
+		"dynn_Kindila"
+		"dynn_Wanbs"
+	}
+	
+	dynasty_names = {
+		"dynn_Erwigiana"
+		"dynn_Kindasuinthiana"
+		"dynn_Athanagildid"
+		"dynn_Athaulf"
+		"dynn_Sigireik"
+		"dynn_Gaisalaik"
+		"dynn_Thiudis"
+		"dynn_Liwa"
+		"dynn_Guntimer"
+		"dynn_Swinthila"
+		"dynn_Tulga"
+		"dynn_Hairwig"
+		"dynn_Witiza"
+		"dynn_Rotreik"
+		"dynn_Lewigild"
+		"dynn_Walja"
+		"dynn_Witireik"
+		"dynn_Sisibaud"
+		"dynn_Kindila"
+		"dynn_Wanbs"
+	}
+
+	male_names = {
+		Adafuns Adalfuns Adagaster Adalgaster Agila Alboin Airmanagild Alareiks Alatheo Aloito Amalareiks Athalareiks Amalmund
+		Aoreiks Ardo Arias Assur Athaulf Athanagild Athanareiks Aureli Bego Bera Berengar 
+		Airmanareiks Ermanareiks Ermengar Erwigi Euric Fafila Fredol Fridinand Friednand Frithareiks 
+		Gausebert Geila Gesalec Gundemar Guttier Garulf Geisalec Giselmar Gundobald Gundogast
+		Khindaswintho Khintil Leovigild Liuveric Lucidi Hermanaric Hermanagild Hilderic Hildibald Hunimund Ingbald Ludolf Liuva Liuvagild
+	 	Oddil Odoari Oduulf Olib Olmund
+		Ordonn Radulf Ranimir Rekkared Rekkeswinth Ricimer Riculf
+		Roderic Savareiks Sigibald Sigfred Sigigast Siegmund Sigimar Sigureiks Sisenand Suinthil Suniefred
+	    Theodefred Thiudefred Theodemir Thiudemir Theodoreiks Thiudareiks Theudigisl Theudis Thurismund Veremund Wifred
+		Witiz Wittereiks Wittekind Wulfila Wulfram Wolfram Walbald Waldemar Waldogast Wallia Wamba Wandalar Winithar Witiza Withemir Witheric Wultulf 
+		Gebicca Gundomar Giselher Gunther Gunnar Gunther Gundahar Gundereiks Chilpereiks Godomar Godegisel Sigismund
+	}
+	female_names = {
+		Adalgundis Adalsuintha Albsuintha Adelaide Adosinda Argilo Ariberga Ava Brunechildis
+		Clothilde Creusa Egilona Ercheswintha Ermeneberga Ermengardis Ermenierdis Ermenisinda Himildis
+		Flamula Froiliuva Fronilde Gaudiosa Gonterote Gothina Gudilona Gudrun Gudni Gulrond Grimhilda
+		Ingundis Leodegundis Liuvigothona Ralindis
+		Riciberga Ricilo Sibilia Sisenanda Theodora Winidilda
+		Adela Adelinda Alberade Amalberga Amalie
+		Binhilda Brunhilda Chlothilda
+		Engeltrauda Ermengarda
+		Fastrada Frida Friedrica
+		Gerberga Gerhilda Gertruda Gisela Gundemara Gundeoca Gunhilda 
+		Helga Hemma Hildeberga Hildegarda
+		Ida Ilsa Ingunda Ingeltruda Irmela Irmeltruda Irmgarda Isentruda
+		Jutta
+		Krimhilda Kunigunda
+		Mechthilda
+		Oda Osterhilda
+		Richara Richwara Romhilda
+		Serhilda
+		Theodehilda
+		Walberga Winfrida Wulfhilda
+	}
+	patronym_suffix_male = "dynnpat_suf_ssunus"
+	patronym_suffix_female = "dynnpat_suf_sdauhtar"
+	always_use_patronym = yes
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 5
+	father_name_chance = 10
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 50
+	mother_name_chance = 5
+}

@@ -1065,6 +1065,11 @@ d_anjou = {
 	}
 	#Not as the Duchy of Anjou, but placeholder for the March of Neustria against the Bretons
 	#Note : there were 2 Marches of Neustria, the other one being the March against the Normands
+	800.1.1 = {
+		effect = {
+			set_capital_county = title:c_anjou
+		}
+	}
 	853.1.1 = {
 		liege = "k_france"
 		holder = 6440 #Robert le fort
@@ -1546,12 +1551,19 @@ d_normandy = {
 	}
 	714.1.17 = {
 		holder = 190424 # Theudoald
-		set_capital_county = title:c_clermont
+		effect = {		
+			set_capital_county = title:c_clermont
+		}
 		liege = k_france
 	}
 	718.1.17 = {
 		holder = 131721 # Charles Martel
 		liege = k_france
+	}
+	800.1.1 = {
+		effect = {
+			set_capital_county = title:c_rouen
+		}
 	}
 	853.1.1 = {
 		liege = "k_france"

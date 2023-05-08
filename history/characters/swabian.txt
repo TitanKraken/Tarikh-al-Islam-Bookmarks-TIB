@@ -881,8 +881,8 @@
 	trait = education_intrigue_2
 	father = 212402
 	mother = 7637
-	1230.1.1 = {
-		birth = "1230.1.1"
+	1229.1.1 = {
+		birth = "1229.1.1"
 	}
 	1288.1.1 = {
 		death = "1288.1.1"
@@ -953,8 +953,10 @@
 	name = "Friedrich"
 	# AKA: Frederick
 	dynasty_house = house_zahringen
+	dna = 7524_friedrich_i_of_baden
 	religion = "catholic"
 	culture = swabian
+	trait = patient
 	father = 7520
 	mother = 7523
 	1249.1.1 = {
@@ -1151,8 +1153,8 @@
 	religion = "catholic"
 	culture = swabian
 	father = 33532
-	1230.1.1 = {
-		birth = "1230.1.1"
+	1229.1.1 = {
+		birth = "1229.1.1"
 	}
 	1271.6.26 = {
 		death = "1271.6.26"
@@ -1561,7 +1563,7 @@
 	1226.1.1 = {
 		birth = "1226.1.1"
 	}
-	1247.1.1 = {
+	1246.1.1 = {
 		add_spouse = 33716
 	}
 	1259.1.1 = {
@@ -1879,7 +1881,7 @@
 ##Start of von Habsburg
 11006 = {
 	name = "Radbot"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 6
 	diplomacy = 8
 	intrigue = 4
@@ -1899,7 +1901,7 @@
 }
 11010 = {
 	name = "Otto"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 6
 	diplomacy = 8
 	intrigue = 4
@@ -1920,7 +1922,7 @@
 11011 = {
 	name = "Ida"
 	female = yes
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 6
 	diplomacy = 4
 	intrigue = 5
@@ -1940,7 +1942,7 @@
 11012 = {
 	name = "Richenza"
 	female = yes
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 6
 	diplomacy = 6
 	intrigue = 6
@@ -1950,8 +1952,8 @@
 	trait = education_intrigue_1
 	father = 11006
 	mother = 11007
-	1029.1.1 = {
-		birth = "1029.1.1"
+	1018.1.1 = {
+		birth = "1018.1.1"
 	}
 	1079.1.1 = {
 		death = "1079.1.1"
@@ -1960,7 +1962,7 @@
 
 20289 = {
 	name = "Werner"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 6
 	diplomacy = 6
 	intrigue = 6
@@ -1982,7 +1984,7 @@
 }
 213130 = {
 	name = "Albrecht"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 6
 	diplomacy = 4
 	intrigue = 7
@@ -2006,7 +2008,7 @@
 
 213131 = {
 	name = "Werner"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 5
 	diplomacy = 5
 	intrigue = 7
@@ -2028,7 +2030,7 @@
 213132 = {
 	name = "Gertruda"
 	female = yes
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 3
 	diplomacy = 5
 	intrigue = 7
@@ -2049,7 +2051,7 @@
 213133 = {
 	name = "Richenza"
 	female = yes
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 4
 	diplomacy = 4
 	intrigue = 7
@@ -2090,7 +2092,7 @@
 
 213135 = {
 	name = "Rudolf"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 5
 	diplomacy = 4
 	intrigue = 5
@@ -2134,7 +2136,7 @@
 
 462020 = {
 	name = "Albrecht"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 6
 	diplomacy = 6
 	intrigue = 4
@@ -2154,6 +2156,7 @@
 	}
 	1337.1.1 = {
 		give_nickname = nick_the_wise
+		capital = c_vienna			
 	}
 	1358.8.16 = {
 		death = "1358.8.16"
@@ -2162,19 +2165,25 @@
 
 462021 = {
 	name = "Rudolf"
-	dynasty_house = house_habsburg
-	martial = 7
-	diplomacy = 6
-	intrigue = 4
+	dynasty_house = house_habsurg
+	dna = 462021_rudolf_i_habsburg						   
+	martial = 8
+	diplomacy = 8
+	intrigue = 5
 	stewardship = 8
 	religion = "catholic"
 	culture = swabian
 	trait = zealous
+	trait = patient
+	trait = brave
 	trait = education_martial_2
 	father = 462044
 	mother = 7644
 	1218.5.1 = {
 		birth = "1218.5.1"
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	1245.1.2 = {
 		add_spouse = 462022
@@ -2186,7 +2195,7 @@
 
 462023 = {
 	name = "Albrecht"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 5
 	diplomacy = 5
 	intrigue = 4
@@ -2210,7 +2219,7 @@
 
 462024 = {
 	name = "Rudolf"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 5
 	diplomacy = 5
 	intrigue = 4
@@ -2237,7 +2246,7 @@
 
 462025 = {
 	name = "Friedrich"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 5
 	diplomacy = 5
 	intrigue = 4
@@ -2248,8 +2257,10 @@
 	trait = education_martial_2
 	father = 462023
 	mother = 462713
+	trait = beauty_good_1				  
 	1289.1.1 = {
 		birth = "1289.1.1"
+		give_nickname = nick_the_fair					   
 	}
 	1321.1.2 = {
 		add_spouse = 460565
@@ -2262,7 +2273,7 @@
 462026 = {
 	name = "Anna"
 	female = yes
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 5
 	diplomacy = 5
 	intrigue = 4
@@ -2283,7 +2294,7 @@
 
 462027 = {
 	name = "Friedrich"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 6
 	diplomacy = 5
 	intrigue = 4
@@ -2304,7 +2315,7 @@
 
 462028 = {
 	name = "Friedrich"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 5
 	diplomacy = 5
 	intrigue = 5
@@ -2326,7 +2337,7 @@
 
 462029 = {
 	name = "Leopold"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 5
 	diplomacy = 5
 	intrigue = 4
@@ -2351,7 +2362,7 @@
 462031 = {
 	name = "Katharina"
 	female = yes
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 7
 	diplomacy = 8
 	intrigue = 8
@@ -2374,7 +2385,7 @@
 462032 = {
 	name = "Agnes"
 	female = yes
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 5
 	diplomacy = 6
 	intrigue = 6
@@ -2396,7 +2407,7 @@
 
 462035 = {
 	name = "Otto"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 5
 	diplomacy = 5
 	intrigue = 4
@@ -2418,6 +2429,15 @@
 		give_nickname = nick_the_merry
 		add_spouse = 462617
 	}
+	1337.1.1 = {
+		effect = {
+			create_alliance	= { #Ruled jointly with brother, representing this with alliance
+				target = character:462020
+				allied_through_owner = character:462035
+				allied_through_target = character:462020
+			}
+		}
+	}
 	1339.2.17 = {
 		death = "1339.2.17"
 	}
@@ -2425,7 +2445,7 @@
 
 462037 = {
 	name = "Friedrich"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 5
 	diplomacy = 5
 	intrigue = 5
@@ -2445,7 +2465,7 @@
 
 462038 = {
 	name = "Leopold"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 5
 	diplomacy = 5
 	intrigue = 5
@@ -2465,7 +2485,7 @@
 
 462039 = {
 	name = "Otto"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 8
 	diplomacy = 5
 	intrigue = 5
@@ -2486,7 +2506,7 @@
 
 462040 = {
 	name = "Leopold"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 5
 	diplomacy = 5
 	intrigue = 5
@@ -2506,7 +2526,7 @@
 
 462041 = {
 	name = "Johann"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 5
 	diplomacy = 5
 	intrigue = 5
@@ -2528,7 +2548,7 @@
 
 462042 = {
 	name = "Leopold"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 5
 	diplomacy = 5
 	intrigue = 5
@@ -2549,7 +2569,7 @@
 462043 = {
 	name = "Elisabeth"
 	female = yes
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 6
 	diplomacy = 6
 	intrigue = 5
@@ -2571,7 +2591,7 @@
 
 462044 = {
 	name = "Albrecht"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 5
 	diplomacy = 5
 	intrigue = 5
@@ -2593,7 +2613,7 @@
 
 462046 = {
 	name = "Rudolf"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 5
 	diplomacy = 5
 	intrigue = 5
@@ -2612,7 +2632,7 @@
 
 462047 = {
 	name = "Gottfried"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 5
 	diplomacy = 5
 	intrigue = 5
@@ -2634,7 +2654,7 @@
 
 462048 = {
 	name = "Rudolf"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 5
 	diplomacy = 5
 	intrigue = 5
@@ -2676,7 +2696,7 @@
 
 462050 = {
 	name = "Johann"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 5
 	diplomacy = 5
 	intrigue = 5
@@ -2720,7 +2740,7 @@
 
 462052 = {
 	name = "Johann"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 5
 	diplomacy = 5
 	intrigue = 5
@@ -2764,7 +2784,7 @@
 
 462054 = {
 	name = "Johann"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 5
 	diplomacy = 5
 	intrigue = 5
@@ -2784,7 +2804,7 @@
 462055 = {
 	name = "Verana"
 	female = yes
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 5
 	diplomacy = 5
 	intrigue = 6
@@ -2803,7 +2823,7 @@
 
 462056 = {
 	name = "Rudolf"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 5
 	diplomacy = 5
 	intrigue = 5
@@ -2825,7 +2845,7 @@
 
 462057 = {
 	name = "Gottfried"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 3
 	diplomacy = 5
 	intrigue = 8
@@ -2848,7 +2868,7 @@
 462058 = {
 	name = "Adelheid"
 	female = yes
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 2
 	diplomacy = 5
 	intrigue = 6
@@ -2870,7 +2890,7 @@
 462059 = {
 	name = "Adelheid"
 	female = yes
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 4
 	diplomacy = 5
 	intrigue = 4
@@ -2892,7 +2912,7 @@
 462060 = {
 	name = "Elisabeth"
 	female = yes
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 4
 	diplomacy = 5
 	intrigue = 4
@@ -2914,7 +2934,7 @@
 462062 = {
 	name = "Agnes"
 	female = yes
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 5
 	diplomacy = 5
 	intrigue = 4
@@ -2936,7 +2956,7 @@
 462751 = {
 	name = "Mathilde"
 	female = yes
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 7
 	diplomacy = 8
 	intrigue = 5
@@ -2959,7 +2979,7 @@
 	name = "Margaretha"
 	# AKA: Mathilde
 	female = yes
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 7
 	diplomacy = 8
 	intrigue = 4
@@ -2981,7 +3001,7 @@
 469521 = {
 	name = "Klementia"
 	female = yes
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 7
 	diplomacy = 7
 	intrigue = 6
@@ -3002,7 +3022,7 @@
 7526 = {
 	name = "Jutta"
 	female = yes
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	religion = "catholic"
 	culture = swabian
 	father = 462021
@@ -3017,7 +3037,7 @@
 
 7630 = {
 	name = "Eberhard"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	religion = "catholic"
 	culture = swabian
 	father = 462046
@@ -3035,7 +3055,7 @@
 98010 = {
 	name = "Katharine"
 	female = yes
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	martial = 2
 	diplomacy = 7
 	intrigue = 7
@@ -3057,7 +3077,7 @@
 125999 = {
 	name = "Anna"
 	female = yes
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	religion = "catholic"
 	culture = swabian
 	father = 462023
@@ -3072,7 +3092,7 @@
 
 33636 = {
 	name = "Hartmann"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	religion = "catholic"
 	culture = swabian
 	father = 7630
@@ -3090,7 +3110,7 @@
 
 33637 = {
 	name = "Hartmann"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	religion = "catholic"
 	culture = swabian
 	father = 33636
@@ -3106,7 +3126,7 @@
 
 33638 = {
 	name = "Eberhard"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	religion = "catholic"
 	culture = swabian
 	father = 33636
@@ -3126,7 +3146,7 @@
 33639 = {
 	name = "Katharina"
 	female = yes
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	religion = "catholic"
 	culture = swabian
 	father = 33636
@@ -3157,7 +3177,7 @@
 
 33641 = {
 	name = "Eberhard"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	religion = "catholic"
 	culture = swabian
 	father = 33638
@@ -3173,7 +3193,7 @@
 
 33642 = {
 	name = "Egon"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	religion = "catholic"
 	culture = swabian
 	father = 33638
@@ -3189,7 +3209,7 @@
 
 33643 = {
 	name = "Hartmann"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	religion = "catholic"
 	culture = swabian
 	father = 33638
@@ -3205,7 +3225,7 @@
 
 33645 = {
 	name = "Rudolf"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	religion = "catholic"
 	culture = swabian
 	father = 462021
@@ -3223,7 +3243,7 @@
 
 33646 = {
 	name = "Albrecht"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	religion = "catholic"
 	culture = swabian
 	trait = bastard
@@ -3239,7 +3259,7 @@
 
 33647 = {
 	name = "Johann"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	religion = "catholic"
 	culture = swabian
 	father = 33645
@@ -3258,7 +3278,7 @@
 
 33648 = {
 	name = "Rudolf" #bishop of Konstanz
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	religion = "catholic"
 	culture = swabian
 	trait = education_learning_2
@@ -3274,7 +3294,7 @@
 
 33649 = {
 	name = "Rudolf"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	religion = "catholic"
 	culture = swabian
 	trait = bastard
@@ -3290,7 +3310,7 @@
 
 33650 = {
 	name = "Peter"
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	religion = "catholic"
 	culture = swabian
 	trait = bastard
@@ -3306,7 +3326,7 @@
 161904 = {
 	name = "Katharina" # Katharina von Habsburg
 	female = yes
-	dynasty_house = house_habsburg
+	dynasty_house = house_habsurg
 	religion = "catholic"
 	culture = swabian
 	father = 462023
@@ -3443,6 +3463,12 @@
 	1156.1.1 = {
 		add_spouse = 30819 #Elisabeth von Stahleck
 	}
+	1156.10.2 = {
+		vassal_contract_set_obligation_level = {
+			type = special_contract
+			level = special_contract_palatinate
+		}
+	}
 	1161.1.1 = {
 		add_spouse = 212491 #Irmgard von Henneberg
 	}
@@ -3475,21 +3501,31 @@
 212495 = {
 	name = "Friedrich" #Friedrich II d. of Swabia (1105-1147)
 	dynasty = 529
-	martial = 6
+	dna = 212495_friedrich_ii_duke_swabia
+	martial = 8
 	diplomacy = 6
 	intrigue = 8
-	stewardship = 7
+	stewardship = 9
 	religion = "catholic"
 	culture = swabian
 	trait = education_intrigue_2
+	trait = brave
+	trait = just
 	father = 7054
 	mother = 212547
 	1090.1.1 = {
 		birth = "1090.1.1"
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}				
 	}
 	1121.1.1 = {
 		add_spouse = 212498 #Judith Welf
 	}
+	1127.1.1 = {
+		add_trait = one_eyed
+		give_nickname = nick_the_one_eyed
+	}	
 	1135.1.1 = {
 		add_spouse = 212496 #Agnes von Saarbrucken
 	}
@@ -3550,20 +3586,29 @@
 212500 = {
 	name = "Friedrich" #Friedrich VI of Swabia, originally named Konrad
 	dynasty = 529
+	dna = 212500_friedrich_vi_swabia
 	martial = 7
 	diplomacy = 6
 	intrigue = 8
 	stewardship = 5
 	religion = "catholic"
 	culture = swabian
-	trait = hunchbacked
+	trait = zealous
+	trait = humble
 	trait = ill
 	trait = education_learning_3
 	father = 212501
 	mother = 205599
+	sexuality = heterosexual	
 	1167.1.1 = {
 		birth = "1167.1.1"
-	}
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
+	}		
+	1189.5.11 = {
+		trait = faith_warrior
+	}	
 	1191.1.20 = {
 		death = "1191.1.20"
 	}
@@ -3571,13 +3616,14 @@
 
 212501 = {
 	name = "Friedrich" #III of Swabia (1147-1152), E. of HRE (1152-1190)
-	# AKA: Frederick Barbarossa
-	dna = frederick_1_barbarossa_dna
-	dynasty = 529
+	# AKA: Friedrich Barbarossa
+	dna = 212501_friedrich_barbarossa	
+	dynasty = 529							   
 	martial = 7
 	diplomacy = 7
 	intrigue = 7
-	stewardship = 4
+	stewardship = 6
+	learning = 7
 	religion = "catholic"
 	culture = swabian
 	trait = wrathful
@@ -3587,14 +3633,19 @@
 	trait = education_diplomacy_4
 	father = 212495
 	mother = 212498
+	sexuality = heterosexual					 
 	1122.1.1 = {
 		birth = "1122.1.1"
-		add_character_flag = {
-			flag = has_scripted_appearance
-		}
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}			
 	}
+	1146.12.25 = {
+		trait = faith_warrior
+	}	
 	1147.1.1 = {
 		add_spouse = 31519 #Adelheid Ratoponen
+		give_nickname = nick_the_barbarossa		
 	}
 	1153.3.1 = {
 		remove_spouse = 31519 #Adelheid Ratoponen
@@ -3602,8 +3653,10 @@
 	1156.1.1 = {
 		add_spouse = 205599 #Beatrice of Burgundy
 	}
-	1190.6.2 = {
-		death = "1190.6.2"
+	1190.6.10 = {
+		death = {
+			death_reason = death_drowned
+		}
 	}
 }
 
@@ -3634,21 +3687,25 @@
 212506 = {
 	name = "Philipp" #Duke of Swabia 1196-1208
 	# AKA: Philipp
-	dna = philip_of_swabia_hre_dna
 	dynasty = 529
+	dna = 212506_philip_of_swabia						  
 	martial = 8
-	diplomacy = 4
-	intrigue = 5
+	diplomacy = 6
+	intrigue = 4
 	stewardship = 7
+	learning = 6
 	religion = "catholic"
 	culture = swabian
+	trait = calm
+	trait = brave
+	trait = forgiving
 	trait = education_stewardship_2
 	father = 212501
 	mother = 205599
 	1177.1.1 = {
 		birth = "1177.1.1"
-		add_character_flag = {
-			flag = has_scripted_appearance
+		effect = {
+			add_character_flag = has_scripted_appearance
 		}
 	}
 	1197.1.1 = {
@@ -3660,27 +3717,34 @@
 }
 
 212507 = {
-	name = "Heinrich" #E. of HRE 1190-1197, k.of Sicily 1194-1197
-	dna = henry_6_hre_dna
+	name = "Heinrich" #E of HRE 1190-1197, k.of Sicily 1194-1197
 	dynasty = 529
-	martial = 7
-	diplomacy = 6
+	dna = 212507_heinrich_vi_staufer
+	martial = 8
+	diplomacy = 8
 	intrigue = 6
-	stewardship = 8
+	stewardship = 9
+	learning = 8
 	religion = "catholic"
 	culture = swabian
-	trait = lustful
-	trait = humble
-	trait = education_learning_2
+	trait = temperate
+	trait = calm
+	trait = education_learning_3
 	father = 212501
 	mother = 205599
+	sexuality = heterosexual	
 	1165.1.1 = {
 		birth = "1165.1.1"
-		add_character_flag = {
-			flag = has_scripted_appearance
-		}
+		effect = {
+			set_relation_friend = { reason = friend_generic_history target = character:212501 }
+			add_character_flag = has_scripted_appearance
+		}		
 	}
-	1186.1.1 = {
+	1166.1.1 = {
+		trait = ambitious
+		trait = callous
+		trait = patient		
+		trait = poet		
 		add_spouse = 212508
 	}
 	1197.9.28 = {
@@ -3759,36 +3823,58 @@
 }
 
 212513 = {
-	name = "Friedrich" # II E.of HRE (1197-1250), k.of Sicily (1198-1250), d. of Swabia (1212-1216)
+	name = "Friedrich" # Friedrich II E.of HRE (1197-1250), k.of Sicily (1198-1250), d. of Swabia (1212-1216)
 	# AKA: Frederick
 	dna = frederick_2_hre_dna
 	dynasty = 529
-	martial = 6
+	martial = 7
 	diplomacy = 7
 	intrigue = 7
-	stewardship = 5
+	stewardship = 6
+	learning = 9
 	religion = "catholic"
 	culture = swabian
 	trait = chaste
 	trait = ambitious
+	trait = cynical
 	trait = stubborn
 	trait = education_martial_4
 	father = 212507
 	mother = 212508
-	sexuality = heterosexual
+	sexuality = heterosexual	
 	1194.12.26 = {
 		birth = "1194.12.26"
-		add_character_flag = {
-			flag = has_scripted_appearance
-		}
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}			
 	}
+	1197.9.28 = {
+		birth = "1194.12.26"
+		effect = {
+			spawn_army = {
+				name = event_troop_default_name	
+				men_at_arms = {
+				type = armored_horsemen
+				stacks = 10
+				}			
+				location = province:9734
+				inheritable = yes
+			}		
+		}		
+	}	
 	1210.1.1 = {
 		add_spouse = 210503 #Constanca d'Arago
 	}
+	1220.1.1 = {
+		give_nickname = nick_the_stupor_mundi
+	}	
 	1225.1.1 = {
 		add_spouse = 30809 #Yolande de Brienne
 	}
-	1235.1.1 = {
+	1225.1.1 = {
+		set_relation_lover = { reason = lover_history target = character:70996 } # Bianca Lancia
+	}	
+	1234.1.1 = {
 		add_spouse = 7510 #Isabella Plantagenet
 	}
 	1250.12.13 = {
@@ -3803,7 +3889,7 @@
 	religion = "catholic"
 	culture = swabian
 	father = 212506
-	mother = 215506
+	#mother = Eirene-Maria Angelos
 	1205.3.1 = {
 		birth = "1205.3.1"
 	}
@@ -3972,12 +4058,15 @@
 	religion = "catholic"
 	culture = swabian
 	father = 212513
-	mother = 7510
+	mother = 30809
 	1228.4.25 = {
 		birth = "1228.4.25"
 	}
-	1246.9.1 = {
+	1229.9.1 = {
 		add_spouse = 462712 #Elisabeth von Wittelsbach
+	}
+	1254.1.1 = {
+		trait = "excommunicated" # possibly also in 1245
 	}
 	1254.5.21 = {
 		death = "1254.5.21"
@@ -4007,11 +4096,11 @@
 	culture = swabian
 	father = 212513
 	#mother = 103003
-	1237.1.1 = {
-		birth = "1237.1.1"
+	1229.1.1 = {
+		birth = "1229.1.1"
 	}
-	1270.8.8 = {
-		death = "1270.8.8"
+	1298.1.1 = {
+		death = "1298.1.1"
 	}
 }
 
@@ -4046,7 +4135,7 @@
 }
 
 30776 = {
-	name = "Beatrix" # Beatrice of Swabia
+	name = "Beatrix"
 	female = yes
 	dynasty = 529
 	religion = "catholic"
@@ -4056,13 +4145,8 @@
 	1198.1.1 = {
 		birth = "1198.1.1"
 	}
-	1212.7.23 = {
-		trait = ill
-	}
 	1212.8.11 = {
-		death = {
-			death_type = death_ill
-		}
+		death = "1212.8.11"
 	}
 }
 
@@ -4179,8 +4263,8 @@
 	culture = swabian
 	father = 30759
 	mother = 30810
-	1230.1.1 = {
-		birth = "1230.1.1"
+	1229.1.1 = {
+		birth = "1229.1.1"
 	}
 	1251.1.1 = {
 		death = "1251.1.1"
@@ -4190,14 +4274,25 @@
 30785 = {
 	name = "Konrad" #Duke of Swabia (1254-1268), k.of Sicily (1254-1258) k.of Jerusalem (1254-1268)
 	dynasty = 529
+	dna = 30785_conradin_of_swabia_staufer
 	religion = "catholic"
 	culture = swabian
+	trait = ambitious
+	trait = gregarious
 	trait = beauty_good_1
 	father = 30760
 	mother = 462712
 	1252.1.1 = {
 		birth = "1252.1.1"
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}		
 	}
+	1266.1.1 = {
+		effect = {
+			set_relation_friend = { reason = friend_generic_history target = character:7524 }
+		}
+	}	
 	1268.10.29 = {
 		death = "1268.10.29"
 	}
@@ -4407,8 +4502,8 @@
 	trait = education_learning_3
 	father = 7636
 	mother = 70900
-	1248.1.2 = {
-		birth = "1248.1.2"
+	1246.1.2 = {
+		birth = "1246.1.2"
 	}
 	1301.1.2 = {
 		death = "1301.1.2"
@@ -4513,17 +4608,24 @@
 	name = "Konrad" #Duke of Franconia 1116-1152, Emperor HRE 1138-1152
 	# AKA: Conrad
 	dynasty = 529
+	dna = 7903_konrad_iii_hre
 	martial = 6
-	diplomacy = 6
+	diplomacy = 8
 	intrigue = 8
 	stewardship = 7
 	religion = "catholic"
 	culture = swabian
 	trait = education_intrigue_2
+	trait = zealous
+	trait = ambitious
 	father = 7054
 	mother = 212547
 	1093.1.1 = {
 		birth = "1093.1.1"
+		effect = {
+			add_character_flag = has_scripted_appearance
+			set_relation_friend = { reason = friend_generic_history target = character:212495 }
+		}				
 	}
 	1109.1.1 = {
 		add_spouse = 30807 #Gertrude von Komburg
@@ -4531,6 +4633,9 @@
 	1135.1.1 = {
 		add_spouse = 7672 #Gertrude von Babenberg
 	}
+	1146.12.25 = {
+		trait = faith_warrior
+	}	
 	1152.2.15 = {
 		death = "1152.2.15"
 	}
@@ -4804,8 +4909,8 @@
 	trait = zealous
 	trait = education_intrigue_1
 	father = 33301
-	1230.1.1 = {
-		birth = "1230.1.1"
+	1229.1.1 = {
+		birth = "1229.1.1"
 	}
 	1281.2.16 = {
 		death = "1281.2.16"
@@ -4930,7 +5035,7 @@
 	1220.1.1 = {
 		birth = "1220.1.1"
 	}
-	1258.1.1 = {
+	1246.1.1 = {
 		add_spouse = 33634
 	}
 	1289.5.24 = {
@@ -4952,6 +5057,12 @@
 	mother = 212392
 	1188.1.1 = {
 		birth = "1188.1.1"
+	}
+	1200.1.1 = {
+		vassal_contract_set_obligation_level = {
+			type = special_contract
+			level = special_contract_march
+		}
 	}
 	1255.1.1 = {
 		death = "1255.1.1"
@@ -5046,6 +5157,13 @@
 	mother = 462719
 	1307.1.1 = {
 		birth = "1307.1.1"
+	}
+	1332.1.1 = {
+		vassal_contract_set_obligation_level = {
+			type = special_contract
+			level = special_contract_march
+		}
+		capital = c_ansbach			 
 	}
 	1333.1.1 = {
 		add_spouse = 487030
@@ -5332,8 +5450,8 @@
 	religion = "catholic"
 	culture = swabian
 	father = 33301
-	1235.1.1 = {
-		birth = "1235.1.1"
+	1234.1.1 = {
+		birth = "1234.1.1"
 	}
 	1253.7.14 = {
 		give_nickname = nick_the_troubadour
@@ -5811,7 +5929,7 @@
 	1059.1.1 = {
 		add_spouse = 1315
 	}
-	1060.1.2 = {
+	1060.1.1 = {
 		add_spouse = 1181
 	}
 	1079.1.1 = {
@@ -6220,7 +6338,9 @@
 		name = "Leo"
 	}
 	1054.4.19 = {
+		trait = "saint"
 		death = "1054.4.19"
+		give_nickname =  nick_the_saint
 	}
 }
 
@@ -6966,31 +7086,36 @@
 	839.1.1 = {
 		birth = "839.1.1"
 	}
+	866.1.2 = {
+	effect = {
+		set_realm_capital = title:c_sundgau
+		}
+	}
 	916.1.1 = {
 		death = "916.1.1"
 	}
 }
 
-167877 = {
-	name = "Lanzelin"
-	dynasty = 664
-	religion = "catholic"
-	culture = swabian
-	father = 161487
-	986.1.1 = {
-		birth = "986.1.1"
-	}
-	1027.1.1 = {
-		death = "1027.1.1"
-	}
-}
+#167877 = {
+#	name = "Lanzelin"
+#	dynasty = 664
+#	religion = "catholic"
+#	culture = swabian
+#	father = 161487
+#	986.1.1 = {
+#		birth = "986.1.1"
+#	}
+#	1027.1.1 = {
+#		death = "1027.1.1"
+#	}
+#}
 
 167878 = {
 	name = "Bezzelin"
-	dynasty = 664
+	dynasty_house = house_zahringen
 	religion = "catholic"
 	culture = swabian
-	father = 167877
+	father = 1604002
 	1002.1.1 = {
 		birth = "1002.1.1"
 	}
@@ -7019,7 +7144,7 @@
 ## Start of Udalrichinger
 167826 = {	
 	name = "Udalrich"	
-	dynasty = 9558	
+	dynasty_house = house_udalrinh	
 	religion = "catholic"	
 	culture = swabian
 	father = 167825		
@@ -7032,7 +7157,7 @@
 }
 167831 = {	
 	name = "Ratbert"	
-	dynasty = 9558	
+	dynasty_house = house_udalrinh	
 	religion = "catholic"	
 	culture = swabian
 	father = 167826		
@@ -7046,7 +7171,7 @@
 
 167832 = {	
 	name = "Udalrich"	
-	dynasty = 9558	
+	dynasty_house = house_udalrinh	
 	religion = "catholic"	
 	culture = swabian
 	father = 167831		
@@ -7060,7 +7185,7 @@
 
 167833 = {	
 	name = "Udalrich"	
-	dynasty = 9558	
+	dynasty_house = house_udalrinh	
 	religion = "catholic"	
 	culture = swabian
 	father = 167832		
@@ -7074,7 +7199,7 @@
 
 167834 = {	
 	name = "Gerold"	
-	dynasty = 9558
+	dynasty_house = house_udalrinh
 	religion = "catholic"	
 	culture = swabian
 	father = 167833		
@@ -7089,7 +7214,7 @@
 167835 = {	
 	name = "Irmintrud"
 	female = yes	
-	dynasty = 9558	
+	dynasty_house = house_udalrinh	
 	religion = "catholic"	
 	culture = swabian
 	father = 167833		
@@ -7133,8 +7258,8 @@
 	culture = swabian
 	trait = education_martial_3
 	father = 462320
-	1230.1.1 = {
-		birth = "1230.1.1"
+	1229.1.1 = {
+		birth = "1229.1.1"
 	}
 	1246.1.1 = {
 		add_spouse = 33635
@@ -8204,8 +8329,8 @@
 	900.1.1 = {
 		birth = "900.1.1"
 	}
-	980.1.1 = {
-		death = "980.1.1"
+	1008.1.1 = {
+		death = "1008.1.1"
 	}
 }
 
@@ -8271,6 +8396,11 @@
 	mother = 7646
 	1227.1.1 = {
 		birth = "1227.1.1"
+	}
+	1246.1.1 = {
+		effect = {
+			create_betrothal = character:7648
+		}
 	}
 	1256.1.1 = {
 		add_spouse = 7648
@@ -8657,7 +8787,7 @@
 	dynasty_house = house_hupoldinger
 	religion = "catholic"
 	culture = swabian
-	father = 33627
+	father = 33627		
 	1221.1.1 = {
 		birth = "1221.1.1"
 	}
@@ -8846,8 +8976,8 @@
 	trait = education_stewardship_2
 	father = 20287
 	mother = 11012
-	1045.1.1 = {
-		birth = "1045.1.1"
+	1034.1.1 = {
+		birth = "1034.1.1"
 	}
 	1090.1.1 = {
 		death = "1090.1.1"
@@ -9690,8 +9820,8 @@
 	religion = "catholic"
 	culture = swabian
 	father = 33668
-	1230.1.1 = {
-		birth = "1230.1.1"
+	1229.1.1 = {
+		birth = "1229.1.1"
 	}
 	1302.1.1 = {
 		death = "1302.1.1"
@@ -9883,8 +10013,8 @@
 	1028.1.1 = {
 		birth = "1028.1.1"
 	}
-	1059.9.14 = {
-		death = "1059.9.14"
+	1067.9.14 = {
+		death = "1067.9.14"
 	}
 }
 
@@ -10097,6 +10227,263 @@
 	}
 }
 ## End of von Greyerz
+## Start of Calw
+144191 = {
+	name = "Gottfried"
+	dynasty = 101558
+	religion = "catholic"
+	culture = swabian
+	father = 7591
+	1145.1.1 = {
+		birth = "1145.1.1"
+	}
+	1233.1.1 = {
+		death = "1233.1.1"
+	}
+}
+
+144192 = {
+	name = "Gottfried"
+	dynasty = 101558
+	religion = "catholic"
+	culture = swabian
+	father = 144191
+	1175.1.1 = {
+		birth = "1175.1.1"
+	}
+	1255.4.1 = {
+		death = "1255.4.1"
+	}
+}
+
+144193 = {
+	name = "Konrad"
+	dynasty = 101558
+	religion = "catholic"
+	culture = swabian
+	father = 144192
+	1205.1.1 = {
+		birth = "1205.1.1"
+	}
+	1277.12.1 = {
+		death = "1277.12.1"
+	}
+}
+
+144194 = {
+	name = "Konrad"
+	dynasty = 101558
+	religion = "catholic"
+	culture = swabian
+	father = 144193
+	1235.1.1 = {
+		birth = "1235.1.1"
+	}
+	1284.2.13 = {
+		death = "1284.2.13"
+	}
+}
+
+144195 = {
+	name = "Konrad"
+	dynasty = 101558
+	religion = "catholic"
+	culture = swabian
+	father = 144194
+	1265.1.1 = {
+		birth = "1265.1.1"
+	}
+	1321.10.18 = {
+		death = "1321.10.18"
+	}
+}
+
+144196 = {
+	name = "Konrad"
+	dynasty = 101558
+	religion = "catholic"
+	culture = swabian
+	father = 144195
+	1295.1.1 = {
+		birth = "1295.1.1"
+	}
+	1352.4.24 = {
+		death = "1352.4.24 "
+	}
+}
+
+20237 = {
+	name = "Adalbert"
+	dynasty = 101558
+	martial = 6
+	diplomacy = 7
+	intrigue = 4
+	stewardship = 5
+	religion = "catholic"
+	culture = swabian
+	trait = deceitful
+	trait = gluttonous
+	trait = craven
+	trait = education_martial_3
+	father = 20240
+	mother = 1337
+	1025.1.1 = {
+		birth = "1025.1.1"
+	}
+	1064.1.1 = {
+		add_spouse = 11038
+	}
+	1099.9.22 = {
+		death = "1099.9.22"
+	}
+}
+
+20240 = {
+	name = "Adalbert"
+	dynasty = 101558
+	martial = 6
+	diplomacy = 7
+	intrigue = 4
+	stewardship = 5
+	religion = "catholic"
+	culture = swabian
+	father = 1604009
+	1000.1.1 = {
+		birth = "1000.1.1"
+	}
+	1026.1.2 = {
+		add_spouse = 1337
+	}
+	1049.1.1 = {
+		death = "1049.1.1"
+	}
+}
+
+70613 = {
+	name = "Judith"
+	female = yes
+	dynasty = 101558
+	martial = 4
+	diplomacy = 7
+	intrigue = 6
+	stewardship = 5
+	religion = "catholic"
+	culture = swabian
+	trait = beauty_good_1
+	trait = diligent
+	trait = education_stewardship_1
+	father = 70619
+	
+	1048.1.1 = {
+		birth = "1048.1.1"
+	}
+	1091.7.27 = {
+		death = "1091.7.27"
+	}
+}
+
+70619 = {
+	name = "Hesso"
+	dynasty = 101558
+	martial = 6
+	diplomacy = 5
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = swabian
+	trait = hunter_1
+	trait = greedy
+	trait = education_martial_1
+	father = 20240
+	mother = 1337
+	1027.1.1 = {
+		birth = "1027.1.1"
+	}
+	1070.1.1 = {
+		death = "1070.1.1"
+	}
+}
+
+7589 = {
+	name = "Adalbert"
+	# AKA: Aldalbert
+	dynasty = 101558
+	religion = "catholic"
+	culture = swabian
+	father = 20237
+	mother = 11038
+	1056.1.1 = {
+		birth = "1056.1.1"
+	}
+	1094.12.3 = {
+		death = "1094.12.3"
+	}
+}
+
+7590 = {
+	name = "Adalbert"
+	# AKA: Aldalbert
+	dynasty = 101558
+	religion = "catholic"
+	culture = swabian
+	father = 7589
+	1085.1.1 = {
+		birth = "1085.1.1"
+	}
+	1147.3.17 = {
+		death = "1147.3.17"
+	}
+}
+
+7591 = {
+	name = "Adalbert"
+	# AKA: Aldabert
+	dynasty = 101558
+	religion = "catholic"
+	culture = swabian
+	father = 7590
+	1105.1.1 = {
+		birth = "1105.1.1"
+	}
+	1188.1.1 = {
+		death = "1188.1.1"
+	}
+}
+
+7592 = {
+	name = "Gottfried"
+	dynasty = 101558
+	religion = "catholic"
+	culture = swabian
+	father = 20237
+	mother = 11038
+	1060.1.1 = {
+		birth = "1060.1.1"
+	}
+	1114.1.1 = {
+		add_spouse = 7593
+	}
+	1131.2.6 = {
+		death = "1131.2.6"
+	}
+}
+
+7594 = {
+	name = "Uta"
+	female = yes
+	dynasty = 101558
+	religion = "catholic"
+	culture = swabian
+	father = 7592
+	mother = 7593
+	1115.1.1 = {
+		birth = "1115.1.1"
+	}
+	1196.1.1 = {
+		death = "1196.1.1"
+	}
+}
+## End of Calw
 ## Start of various
 212422 = {
 	name = "Willibirg"
@@ -10394,6 +10781,12 @@
 	728.1.1 = {
 		birth = yes
 	}
+	769.1.1 = {
+	
+		effect = {
+			set_realm_capital = title:c_sankt_gallen
+		}
+	}
 	787.1.1 = {
 		death = yes
 	}
@@ -10518,3 +10911,108 @@
 	}
 }
 ## End of lowborn
+
+#Bishops of Constance
+
+john_ii_constance = {
+	name = "Johannes"
+	religion = "catholic"
+	culture = swabian
+	700.1.2 = { #fictional date
+		birth = yes
+	}
+	782.2.9 = {
+		death = yes
+	}
+}
+
+solomon_constance = {
+	name = "Salomo"
+	religion = "catholic"
+	culture = swabian
+	820.1.2 = { #fictional date
+		birth = yes
+	}
+	871.3.5 = {
+		death = yes
+	}
+}
+
+saint_gebhard_constance = {
+	name = "Gebhard"
+	religion = "catholic"
+	culture = bavarian
+	trait = saint
+	949.1.2 = { 
+		birth = yes
+	}
+	995.8.27 = {
+		death = yes
+	}
+}
+
+rumold_von_bonstetten = {
+	name = "Rumold"
+	dynasty = bonstetten
+	religion = "catholic"
+	culture = swabian
+	1010.1.2 = { #fictional date
+		birth = yes
+	}
+	1066.1.1 = {
+		effect = {
+			set_relation_friend = { reason = friend_generic_history target = character:1316 }
+		}
+	}
+	1069.11.4 = {
+		death = yes
+	}
+}
+bertolf_von_konstanz = {
+	name = "Bertolf"
+	religion = "catholic"
+	culture = swabian
+	1020.1.2 = { #fictional date
+		birth = yes
+	}
+	1084.1.1 = {
+		death = yes
+	}
+}
+	
+hermann_von_friedingen = {
+	name = "Hermann"
+	dynasty = friedingen
+	religion = "catholic"
+	culture = swabian
+	1130.1.2 = { #fictional date
+		birth = yes
+	}
+	1189.11.20 = {
+		death = yes
+	}
+}
+diethelm_von_krenkingen = {
+	name = "Diethelm"
+	dynasty = krenkingen
+	religion = "catholic"
+	culture = swabian
+	1169.1.2 = {
+		birth = yes
+	}
+	1206.4.12 = {
+		death = yes
+	}
+}
+nikolaus_von_frauenfeld = {
+	name = "Nikolaus"
+	dynasty = frauenfeld
+	religion = "catholic"
+	culture = swabian
+	1288.1.2 = { 
+		birth = yes
+	}
+	1344.7.25 = {
+		death = yes
+	}
+}

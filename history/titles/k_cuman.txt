@@ -4,7 +4,7 @@ k_cuman = {
 	1066.1.1 = { change_development_level = 0 }
 	
 	659.1.1 = {
-		name = CUMANS
+		#name = CUMANS
 		holder = kangar_001
 	}
 	673.1.1 = {
@@ -42,12 +42,15 @@ k_cuman = {
 		holder = 125403
 	}
 	1223.1.1 = {
-		holder = 125404
+		holder = 194189 # Khan Kutan 
+	}
+	1223.6.1 = {
+		holder = 125502
 	}
 
 	# Mongol, switch this title to the White Horde
 	1227.2.1 = {
-		name = "White Horde"
+		#name = "White Horde"
 		holder = 34912 # Orda Khan
 		liege = e_golden_horde
 	}
@@ -155,9 +158,14 @@ c_turgay = {
 	1227.2.2 = {
 		holder = 34912 # Orda Khan
 		liege = e_golden_horde
+		succession_laws = { kurultai_elective }
 	}
+	
 	1251.1.1 = {
 		holder = 34919 # Qun-Quran
+	}
+	1255.1.1 = {
+		government = clan_government
 	}
 	1280.1.1 = {
 		holder = kochu_khan_of_white_horde # Kochu

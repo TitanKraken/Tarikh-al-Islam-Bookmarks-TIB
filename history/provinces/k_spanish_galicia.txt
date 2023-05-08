@@ -135,8 +135,12 @@
 	holding = castle_holding
 	
 	# History
-	800.1.1 = { culture = galician }
+	868.1.1 = { culture = galician } # I WANT MY SUEBI
 	950.1.1 = { faith = catholic }
+	1163.1.1 = {
+		culture = portuguese
+		religion = catholic
+	}
 }
 1761 = {	# BRAGA
 	holding = city_holding
@@ -157,8 +161,12 @@
 	holding = castle_holding
 	
 	# History
-	800.1.1 = { culture = galician }
+	868.1.1 = { culture = galician } # I WANT MY SUEBI
 	950.1.1 = { faith = catholic }
+	1163.1.1 = {
+		culture = portuguese
+		religion = catholic
+	}
 }
 1764 = {	# MIRANDA DO DUORO
 	holding = city_holding
@@ -183,8 +191,11 @@
 	holding = castle_holding
 	
 	# History
-	800.1.1 = { culture = andalusian }
+	800.1.1 = { culture = mozarab }
 	931.1.1 = { culture = galician }
+	1163.1.1 = {
+		culture = portuguese
+	}
 }
 1757 = {	# LEIRIA
 	holding = church_holding
@@ -202,8 +213,11 @@
 	holding = castle_holding
 	
 	# History
-	800.1.1 = { culture = andalusian }
+	800.1.1 = { culture = mozarab }
 	926.1.1 = { culture = galician }
+	1163.1.1 = {
+		culture = portuguese
+	}
 }
 1770 = {	# TRANCOSO
 	holding = city_holding
@@ -218,9 +232,13 @@
 	holding = castle_holding
 	
 	# History
-	800.1.1 = { culture = andalusian }
+	800.1.1 = { culture = mozarab }
 	931.1.1 = { culture = galician }
 	950.1.1 = { faith = catholic }
+	1163.1.1 = {
+		culture = portuguese
+		religion = catholic
+	}
 }
 2003 = {	# GRALHEIRA/Cinfaes
 	holding = none
@@ -238,8 +256,11 @@
 	holding = castle_holding
 	
 	# History
-	800.1.1 = { culture = andalusian }
+	800.1.1 = { culture = mozarab }
 	926.1.1 = { culture = asturleonese }
+	1163.1.1 = {
+		culture = portuguese
+	}
 }
 1771 = {	# IDANHA/Beira
 	holding = city_holding

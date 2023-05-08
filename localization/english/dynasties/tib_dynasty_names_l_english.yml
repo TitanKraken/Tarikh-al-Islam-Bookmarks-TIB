@@ -2,6 +2,9 @@
   # Special Characters #
   # ā ī ū
   # Islamic dynasties
+  dynn_quraysh:0 "Quraysh"
+  dynn_Banu_Quraysh:0 "Banu Quraysh"
+
   house_Abbasid:0 "al-'Abbāsī"
   house_Umayyad:0 "al-Umawī"
   house_Fatimid:0 "al-Fātimī"
@@ -21,6 +24,18 @@
   dynn_Banu_Numayr:0 "Banu Numayr"
   dynn_Banu_Amir:0 "Banu 'Amir"
   dynn_Banu_Sulaym:0 "Banu Sulaym"
+  dynn_Banu_Mirdas:0 "Banu Mirdas"
+  dynn_Banu_Atiyah:0 "Banu 'Atiyah"
+
+  dynn_Lihyan:0 "al-Lihyani"
+
+  Jabl-al-Tariq:0 "Jabl-al-Tariq"
+  dynn_Banu_Harun:0 "Banu Harun"
+  dynn_Banu_Tujib:0 "Banu Tujib"
+
+  # Maghreb
+  dynn_Zayyanid:0 "Zayyanid"
+  dynn_Banu_Ghaniya:0 "Banu Ghaniya"
 
   # Mongols
   dynn_Ogodeid:0 "Ogodeid"
@@ -29,6 +44,7 @@
   dynn_Shaybanid:0 "Shaybanid"
 
   dynn_Poitou:0 "Poitou"
+  dynn_estrid:0 "Estrid"
 
   # Central Asia
   Tukhara:0 "Tukhara"
@@ -44,3 +60,18 @@
   dynn_Olgovichi:0 "Olgovichi"
   dynn_Rostialvichi:0 "Rostialvichi"
   dynn_IzyaslavichiTurov:0 "Izyaslavichi-Turov"
+
+  # MB+
+  dynn_oghuzSeljuks:0 "Seljuq"
+  dynn_OghuzQarqin:0 "Qarqin"
+  dynn_OghuzQiniq:0 "Qiniq"
+  dynn_KayI_:0 "Kayi"
+  dynn_Oghuzbegdili:0 "Begdili"
+
+  # Motto
+  dynn_Almohad_motto:0 "We Profess the Oneness of Allah"
+  house_almohad_motto:0 "Partisans of the Divine Unity of Allah"
+  house_ahl_ad_dar_motto:0 "Allah's Blessing upon the House of the Imam, the Muwahhid"
+  dynn_Almoravid_motto:0 "We testify there is no god but Allah, and we testify Muhammad is the Messenger of Allah"
+  dynn_Banu_Ghaniya_motto:0 "The Children of the Almoravids, Returned from Their Ribats"
+  dynn_Zayyanid_motto:0 "If it is true, it will benefit us before God; but, in this world, we will owe our success only to our swords."

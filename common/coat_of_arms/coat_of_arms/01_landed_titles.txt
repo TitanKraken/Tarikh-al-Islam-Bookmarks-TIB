@@ -23708,6 +23708,40 @@ k_arabia = {
 		instance = { position = { 0.435 0.25 } scale = { 0.17 0.16 }  }
 	}
 }
+k_oman = {
+	pattern="pattern_solid.dds"
+	color1=red
+	color2=white
+	color3=blue
+	colored_emblem={
+		color1=red
+		color2=white
+		texture="national_emblem_of_oman.dds"
+		instance={
+			position={ 0.500000 0.450000 }
+			scale={ 0.650000 0.650000 }
+		}
+
+	}
+
+}
+d_oman = { # Nabhanid
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=white
+	color3=blue
+	colored_emblem={
+		color1=red
+		color2=white
+		texture="national_emblem_of_oman.dds"
+		instance={
+			position={ 0.500000 0.450000 }
+			scale={ 0.650000 0.650000 }
+		}
+
+	}
+
+}
 
 e_kanem_bornu = {
 	pattern = "pattern_solid.dds"

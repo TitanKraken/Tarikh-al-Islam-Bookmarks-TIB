@@ -1474,34 +1474,6 @@ house_ahl_ad_dar = k_almohad
 	}
 }
 
-7276 = { # Hafsid of Africa
-	pattern="pattern__solid_designer.dds"
-	color1=yellow_light
-	color2=white
-	color3=red
-	colored_emblem={
-		color1=rgb { 255 255 255 }
-		texture="ce_crescent_random.dds"
-		instance={
-			position={ 0.500000 0.470000 }
-			scale={ 0.750000 0.750000 }
-			depth=1.010000
-		}
-
-	}
-
-	colored_emblem={
-		color1=rgb { 255 255 255 }
-		texture="ce_star_05.dds"
-		instance={
-			position={ 0.500000 0.330000 }
-			scale={ 0.360000 0.360000 }
-			rotation=45
-		}
-
-	}
-}
-
 101732 = { # Marinids
 	pattern="pattern__solid_designer.dds"
 	color1=red
@@ -1619,14 +1591,62 @@ house_british_isles_crovan = 556
 }
 
 1687 = { # Dunkeld
-	pattern = "pattern_solid.dds"
-	color1 = "yellow"
-	color2 = "red"	
-	colored_emblem = {
-		texture = "ce_lion_rampant.dds"
-		color1 = "red"
-		color2 = "red"
+	pattern="pattern_solid.dds"
+	color1=yellow
+	color2=red
+	colored_emblem={
+		color1=red
+		texture="ce_fleur.dds"
+		instance={
+			position={ 0.150000 0.410000 }
+			scale={ 0.090000 0.090000 }
+			rotation=270
+		}
+
+		instance={
+			position={ 0.845000 0.410000 }
+			scale={ 0.090000 0.090000 }
+			depth=1.010000
+			rotation=90
+		}
+
+		instance={
+			position={ 0.500000 0.920000 }
+			scale={ 0.090000 0.090000 }
+			depth=2.010000
+			rotation=180
+		}
+
+		instance={
+			position={ 0.500000 0.065000 }
+			scale={ 0.090000 0.090000 }
+			depth=3.010000
+		}
+
 	}
+
+	colored_emblem={
+		color1=red
+		color2=red
+		texture="ce_double_tressure.dds"
+		instance={
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=red
+		color2=blue
+		texture="ce_lion_rampant.dds"
+		instance={
+			position={ 0.500000 0.485000 }
+			scale={ 0.570000 0.570000 }
+			depth=5.010000
+		}
+
+	}
+
 }
 
 442 = { # Navarra

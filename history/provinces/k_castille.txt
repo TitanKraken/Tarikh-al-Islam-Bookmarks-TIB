@@ -82,7 +82,7 @@
 	holding = castle_holding
 	
 	# History
-	800.1.1 = { culture = andalusian }
+	800.1.1 = { culture = mozarab }
 	867.1.1 = { special_building_slot = alcazar_of_segovia_01 }
 	955.1.1 = { culture = castilian }
 	1120.1.1 = { special_building_slot = alcazar_of_segovia_01 }
@@ -103,8 +103,9 @@
 	holding = castle_holding
 	
 	# History
-	800.1.1 = { culture = andalusian }
+	800.1.1 = { culture = mozarab }
 	955.1.1 = { culture = asturleonese }
+	1100.1.1 = { culture = castilian }
 }
 1922 = {	# CORACERA
 	holding = none

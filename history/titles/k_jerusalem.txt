@@ -215,52 +215,68 @@ c_kerak = {
 	749.8.29 = {
 		holder = 188575
 	}
-	754.1.1 = {
-		holder = 188576
+	750.1.1 = {
+		liege = d_damascus
+		holder = 146023
 	}
-	815.1.1 = {
-		holder = 146073
+	778.1.1 = {
+		holder = 146024
 	}
-	822.1.1 = {
-		holder = 159731
+	855.1.1 = {
+		holder = 1230178
 	}
-	847.1.1 = {
-		holder = 159732
+	870.1.1 = {
+		holder = 0
 	}
-	866.1.1 = {
-		holder = 146080
-		liege = "d_damascus"
+	914.1.1 = {
+		liege = e_arabia
+		holder = 260819 # Muhammad ibn Tughj al-Ikhshid, appointed governor of Amman sometime between 909 and 918
 	}
-	877.1.1 = {
-		liege = 0
+	#931.1.1 = {
+	#	holder = 260819
+	#}
+	935.1.1={
+		liege = d_damascus
+		holder = 260838 # Abu'l-Fath al-Fadl al-Furat
 	}
-	1066.1.1 = {
-		liege = "d_damascus"
+	936.1.1 = {
+		liege = k_egypt
+		holder = 261327 # Muhammad al-Ikhshid leaves for Egypt while his brother Ubaydh Allah remains in Syria
 	}
-	1066.1.1 = {
-		holder = 20780
+	941.1.1 = {
+		holder = 261328 # al-Hasan b. Ubaydh Allah b. Tughj
 	}
-	1089.1.1 = {
-		holder = 3044
+	992.1.1 = {
+		liege = d_palestine
+		holder = 1500002 # Mufarrij ibn Daghfal returned to Palestine and resumed his tribe's dominant position upon the death of Ibn Killis
 	}
-	1095.1.1 = {
-		holder = 144023
+	1013.1.1 = {
+		holder = 1500003
 	}
-	1104.6.1 = {
-		holder = 144024
+	1022.1.1 = {
+		liege = d_amman
 	}
-	1105.1.1 = {
-		holder = 93436
+	1029.1.1 = {
+		holder = 1600006
 	}
-	
+	1041.1.1 = {
+		holder = 1500003
+	}
+	1044.1.1 = {
+		holder = 1500006
+	}
+	1079.1.1 = {
+		holder = 1500008
+	}
+	1104.1.1 = {
+		holder = 1500011
+	}
 	1115.1.1 = {
-		liege = "d_palestine"
-		holder = 10073 #Badouin I de Boulogne
+		liege = d_palestine
+		holder = 10073 # Badouin I de Boulogne
 	}
 	1118.4.2 = {
-		liege = "d_oultrejourdain"
-	}
-	1118.4.2 = {
+		liege = d_oultrejourdain
 		holder = 93000
 	}
 	1126.1.1 = {
@@ -271,7 +287,7 @@ c_kerak = {
 	}
 	1161.1.1 = {
 		holder = 232700
-	}	
+	}
 	1168.1.1 = {
 		holder = 223561
 	}
@@ -287,35 +303,51 @@ c_kerak = {
 	1187.7.4 = {
 		holder = 223560
 	}
-	
 	1187.10.2 = {
-		holder = 226052
+		liege = d_medina
+		holder = 1500023
 	}
-	1218.8.1 = {
-		holder = 144077
+	1219.1.1 = {
+		holder = 1500024
 	}
-	1227.1.1 = {
-		holder = 144078
-	}
-	1248.1.1 = {
-		holder = 93034
+	1250.5.2 = {
+		liege = d_oultrejourdain
+		holder = 93034 # Reign of al-Mughith
 	}
 	1263.1.1 = {
-		holder = 32936
+		holder = 8000480 
 	}
-	1279.7.1 = {
-		holder = 34984
+	1271.1.1 = {
+		holder = 8000461 # Aydakin al-Fakhri
 	}
-	1292.1.1 = {
-		holder = 34985
+	1279.1.1 = {
+		holder = 8000495   # Aybak al-Mawsili technically from 1280
 	}
-	1312.1.1 = {
-		holder = 485000
+	# Kashtaghdi al-Mansuri until 1290 or 1296
+	# Sanjar al-Jawuli 1296-99
+	1298.1.1 = {
+		holder = 8000467 # Aqqush al-Ashrafi as a placeholder
 	}
-	1336.1.1 = {
-		holder = 485002
+	1300.1.1 = {
+		holder = 34992 # Sayf ad-din Qipchaq al-Mansuri
 	}
-
+	1303.1.1 = {
+		holder = 8000467 # Aqqush al-Ashrafi as a placeholder
+	}
+	1309.1.1 = {
+		liege = d_medina
+		holder = 1500043
+	}
+	1325.1.1 = {
+		holder = 1500031
+	}
+	1330.1.1 = {
+		holder = 1500029
+	}
+	1335.1.1 = {
+		holder = 1500032
+	}
+	
 }
 
 
@@ -329,41 +361,67 @@ c_negev = {
 		holder = 34000
 	}
 	750.1.1 = {
-		liege = "d_damascus"
+		liege = d_damascus
 		holder = 146023
 	}
-	760.1.1 = {
+	778.1.1 = {
 		holder = 146024
 	}
-	847.1.1 = {
-		holder = 159732
-		liege = "d_palestine"
+	855.1.1 = {
+		holder = 1230178
 	}
-	1066.1.1 = {
-		holder = 20784
+	870.1.1 = {
+		holder = 0
 	}
-	1076.1.1 = {
-		holder = 144065
+	914.1.1 = {
+		liege = e_arabia
+		holder = 260819 # Muhammad ibn Tughj al-Ikhshid, appointed governor of Amman sometime between 909 and 918
 	}
-	1091.1.1 = {
-		holder = 144067
+	#931.1.1 = {
+	#	holder = 260819
+	#}
+	935.1.1={
+		liege = d_damascus
+		holder = 260838 # Abu'l-Fath al-Fadl al-Furat
 	}
-	1095.1.1 = {
-		holder = 144066
+	936.1.1 = {
+		liege = k_egypt
+		holder = 261327 # Muhammad al-Ikhshid leaves for Egypt while his brother Ubaydh Allah remains in Syria
 	}
-	1098.1.1 = {
-		holder = 34700
+	941.1.1 = {
+		holder = 261328 # al-Hasan b. Ubaydh Allah b. Tughj
 	}
-	1099.7.15 = {
-		holder = 10072 #Godefroy I de Boulogne
+	992.1.1 = {
+		liege = d_palestine
+		holder = 1500002 # Mufarrij ibn Daghfal returned to Palestine and resumed his tribe's dominant position upon the death of Ibn Killis
 	}
-	1100.4.2 = {
-		holder = 10073 #Badouin I de Boulogne
+	1013.1.1 = {
+		holder = 1500003
+	}
+	1022.1.1 = {
+		liege = d_amman
+	}
+	1029.1.1 = {
+		holder = 1600006
+	}
+	1041.1.1 = {
+		holder = 1500003
+	}
+	1044.1.1 = {
+		holder = 1500006
+	}
+	1079.1.1 = {
+		holder = 1500008
+	}
+	1104.1.1 = {
+		holder = 1500011
+	}
+	1115.1.1 = {
+		liege = d_palestine
+		holder = 10073 # Badouin I de Boulogne
 	}
 	1118.4.2 = {
-		liege = "d_oultrejourdain"
-	}
-	1118.4.2 = {
+		liege = d_oultrejourdain
 		holder = 93000
 	}
 	1126.1.1 = {
@@ -374,7 +432,7 @@ c_negev = {
 	}
 	1161.1.1 = {
 		holder = 232700
-	}	
+	}
 	1168.1.1 = {
 		holder = 223561
 	}
@@ -390,33 +448,49 @@ c_negev = {
 	1187.7.4 = {
 		holder = 223560
 	}
-	
 	1187.10.2 = {
-		holder = 226052
+		liege = d_medina
+		holder = 1500023
 	}
-	1218.8.1 = {
-		holder = 144077
+	1219.1.1 = {
+		holder = 1500024
 	}
-	1227.1.1 = {
-		holder = 144078
-	}
-	1248.1.1 = {
-		holder = 93034
+	1250.5.2 = {
+		liege = d_oultrejourdain
+		holder = 93034 # Reign of al-Mughith
 	}
 	1263.1.1 = {
-		holder = 32936
+		holder = 8000480 
 	}
-	1279.7.1 = {
-		holder = 34984
+	1271.1.1 = {
+		holder = 8000461 # Aydakin al-Fakhri
 	}
-	1292.1.1 = {
-		holder = 34985
+	1279.1.1 = {
+		holder = 8000495   # Aybak al-Mawsili technically from 1280
 	}
-	1312.1.1 = {
-		holder = 485000
+	# Kashtaghdi al-Mansuri until 1290 or 1296
+	# Sanjar al-Jawuli 1296-99
+	1298.1.1 = {
+		holder = 8000467 # Aqqush al-Ashrafi as a placeholder
 	}
-	1336.1.1 = {
-		holder = 485002
+	1300.1.1 = {
+		holder = 34992 # Sayf ad-din Qipchaq al-Mansuri
+	}
+	1303.1.1 = {
+		holder = 8000467 # Aqqush al-Ashrafi as a placeholder
+	}
+	1309.1.1 = {
+		liege = d_medina
+		holder = 1500043
+	}
+	1325.1.1 = {
+		holder = 1500031
+	}
+	1330.1.1 = {
+		holder = 1500029
+	}
+	1335.1.1 = {
+		holder = 1500032
 	}
 
 }
@@ -461,6 +535,16 @@ d_palestine = {
 	877.1.1 = {
 		liege = 0
 		holder = 0
+	}
+	992.1.1 = {
+		holder = 1500002 # Mufarrij ibn Daghfal returned to Palestine and resumed his tribe's dominant position upon the death of Ibn Killis
+		liege = k_egypt
+	}
+	1013.1.1 = {
+		holder = 1500003
+	}
+	1022.1.1 = {
+		holder = 1600006
 	}
 	1066.1.1 = {
 		liege = "k_egypt"
@@ -580,6 +664,16 @@ c_jerusalem = {
 	870.1.1 = {
 		holder = 163137
 	}
+	992.1.1 = {
+		holder = 1500002 # Mufarrij ibn Daghfal returned to Palestine and resumed his tribe's dominant position upon the death of Ibn Killis
+		liege = k_egypt
+	}
+	1013.1.1 = {
+		holder = 1500003
+	}
+	1022.1.1 = {
+		holder = 1600006
+	}
 	1066.1.1 = {
 		holder = 41706
 	}
@@ -692,6 +786,16 @@ c_ghazza = {
 	}
 	877.1.1 = {
 		liege = 0
+	}
+	992.1.1 = {
+		holder = 1500002 # Mufarrij ibn Daghfal returned to Palestine and resumed his tribe's dominant position upon the death of Ibn Killis
+		liege = k_egypt
+	}
+	1013.1.1 = {
+		holder = 1500003
+	}
+	1022.1.1 = {
+		holder = 1600006
 	}
 	1066.1.1 = {
 		liege = "d_palestine"
@@ -809,6 +913,16 @@ c_jaffa = {
 	}
 	877.1.1 = {
 		liege = 0
+	}
+	992.1.1 = {
+		holder = 1500002 # Mufarrij ibn Daghfal returned to Palestine and resumed his tribe's dominant position upon the death of Ibn Killis
+		liege = k_egypt
+	}
+	1013.1.1 = {
+		holder = 1500003
+	}
+	1022.1.1 = {
+		holder = 1600006
 	}
 	1066.1.1 = {
 		liege = "d_palestine"
@@ -1015,11 +1129,14 @@ d_urdunn = {
 
 c_tiberias = {
 	733.1.1 = {
-		liege = "d_urdunn"
-		holder = 146027
+		liege = d_urdunn
+	#	holder = 146027
 	}
 	751.1.1 = {
 		holder = 146042
+	}
+	867.1.1 = {
+		holder = 163134
 	}
 	788.1.1 = {
 		holder = 146043
@@ -1027,78 +1144,95 @@ c_tiberias = {
 	817.1.1 = {
 		holder = 146044
 	}
-	849.1.1 = {
-		holder = 146045
-	}
-	852.3.1 = {
-		holder = 155148
-	}
-	860.1.1 = {
-		holder = 155149
-	}
-	850.1.1 = {
-		holder = levantine0001
-	}
-	866.1.1 = {
-		holder = 146080
+	847.1.1 = {
+		liege = d_palestine
+		holder = 159732
 	}
 	877.1.1 = {
-		liege = 0
+		holder = 0
 	}
-	
-	1066.1.1 = {
-		liege = "d_palestine"
+	936.1.1 = {
+		liege = d_palestine
+		holder = 261327 # Muhammad al-Ikhshid leaves for Egypt while his brother Ubaydh Allah remains in Syria
+	}
+	941.1.1 = {
+		holder = 261328 # al-Hasan b. Ubaydh Allah b. Tughj
+	}
+	969.1.1 = {
+		holder = 0
+	}
+	992.1.1 = {
+		holder = 1500002 # Mufarrij ibn Daghfal returned to Palestine and resumed his tribe's dominant position upon the death of Ibn Killis
+	}
+	1013.1.1 = {
+		holder = 1500003
+	}
+	1022.1.1 = {
+		holder = 1600006
+	}
+	1024.6.1 = {
+		holder = 1234926
+	}
+	1041.1.1 = {
+		holder = 1234887
+	}
+	1049.1.1 = {
+		holder = 1234888
+	}
+	1053.1.1 = {
+		holder = 1232565
 	}
 	1066.1.1 = {
 		holder = 20775
 	}
-	1076.1.1 = {
-		holder = 144065
+	1075.1.1 = {
+		holder = 1229929
 	}
-	1091.1.1 = {
-		holder = 144067
+	1079.1.1 = {
+		holder = 3044
 	}
 	1095.1.1 = {
 		holder = 144066
 	}
 	1098.1.1 = {
 		holder = 34700
-	
 	}
-	#First Crusade
+	# First Crusade
 	1099.7.15 = {
-		liege = "d_urdunn"
-	}
-	1099.7.15 = {
-		holder = 30871 #Tancred de Hauteville
+		liege = d_palestine
+		holder = 30871 # Tancred de Hauteville
 	}
 	1101.1.1 = {
-		holder = 31352 #Hugues de Saint-Omer
+		holder = 31352 # Hugues de Saint-Omer
 	}
 	1106.8.1 = {
-		holder = 31385 #Gervaise de Bazoches
+		holder = 31385 # Gervaise de Bazoches
 	}
 	1108.1.1 = {
-		holder = 231012 #Joscelin I de Courtenay
+		holder = 231012 # Joscelin I de Courtenay
 	}
 	1118.4.2 = {
-		holder = 31388 #Guillaume I de Bures
+		holder = 31388 # Guillaume I de Bures
 	}
 	1141.2.1 = {
-		holder = 31392 #Elinard Bures
+		holder = 31392 # Elinard Bures
 	}
 	1148.1.1 = {
-		holder = 31393 #Guillaume II de Bures
+		holder = 31393 # Guillaume II de Bures
 	}
 	1159.3.1 = {
-		holder = 31355 #Gauthier de Saint-Omer
+		holder = 31355 # Gauthier de Saint-Omer
 	}
 	1171.1.1 = {
-		holder = 223650 #Raimond III de Toulouse
+		holder = 223650 # Raimond III de Toulouse
+	}
+	1185.1.1 = {
+		holder = 223541
+		
 	}
 	1187.9.1 = {
-		liege = "d_palestine"
-		holder = 226000 #Salahdin
+		#liege = d_palestine
+		holder = 226000 # Salahdin
 	}
 	1193.3.4 = {
 		holder = 226051
@@ -1118,25 +1252,31 @@ c_tiberias = {
 	1245.1.1 = {
 		holder = 144082
 	}
-	1260.1.1 = {
-		holder = 34990
+	1260.9.3 = {
+		holder = 93363 
 	}
 	1280.1.1 = {
-		holder = 32939
+		holder = 93364
 	}
-	1296.1.1 = {
-		holder = 34991
+	1291.1.1 = {
+		holder = 34991 # Sanjar al-Shuja'i
+	}
+	1292.1.1 = {
+		holder = 8000531 # Aybak al-Hamawi. 
 	}
 	1297.1.1 = {
 		holder = 34992
 	}
+	1299.1.1 = {
+		holder = 8000466 # Jamal al-Din Aqqush al-Afram.  
+	}
+	1310.1.1 = {
+		holder = 8000507 # Qarasunqur
+	}
 	1312.1.1 = {
 		holder = 34993
 	}
-	1320.1.1 = {
-		holder = 485220
-	}
-
+	
 }
 
 
@@ -1145,8 +1285,8 @@ c_acre = {
 	1066.1.1 = { change_development_level = 18 }
 	
 	733.1.1 = {
-		liege = "d_urdunn"
-		holder = 146027
+		liege = d_urdunn
+	#	holder = 146027
 	}
 	751.1.1 = {
 		holder = 146042
@@ -1160,41 +1300,70 @@ c_acre = {
 	837.1.1 = {
 		holder = 146045
 	}
-	852.3.1 = {
-		holder = 163134
+	847.1.1 = {
+		liege = d_palestine
+		holder = 159732
 	}
-	866.1.1 = {
-		liege = "d_palestine"
+	877.1.1 = {
+		holder = 0
 	}
-	900.1.1 = {
+	904.1.1 = {
 		liege = e_arabia
-		holder = 
+		holder = 159728 # Damian of Tarsus, short-term Governor of Tarsus, long-term Qadi of Tyre (an important Abbasid Naval Base)
 	}
-	1066.1.1 = {
-		holder = 34980
+	936.1.1 = {
+		liege = d_palestine
+		holder = 260847
 	}
-	1076.1.1 = {
-		holder = 144067
+	946.7.24 = {
+		liege = k_egypt
+		holder = 1234890
+	}
+	992.1.1 = {
+		liege = d_palestine
+		holder = 1500002 # Mufarrij ibn Daghfal returned to Palestine and resumed his tribe's dominant position upon the death of Ibn Killis
+	}
+	1013.1.1 = {
+		holder = 1500003
+	}
+	1022.1.1 = {
+		holder = 1600006
+	}
+	1024.6.1 = {
+		holder = 1234926
+	}
+	1041.1.1 = {
+		holder = 1232565
+	}
+	1057.1.1 = {
+		holder = 159273
+	}
+	1061.1.1 = {
+		holder = 1232565
+	}
+	1075.1.1 = {
+		holder = 1229929
+	}
+	1079.1.1 = {
+		holder = 3044
+	}
+	1095.1.1 = {
+		holder = 144066
 	}
 	1098.1.1 = {
 		holder = 34700
 	}
-	
-	#First Crusade
+	# First Crusade
 	1099.7.15 = {
-		liege = "d_urdunn"
-	}
-	1099.7.15 = {
-		holder = 30871 #Tancred de Hauteville
+		liege = d_palestine
+		holder = 30871 # Tancred de Hauteville
 	}
 	1101.1.1 = {
-		liege = "d_palestine"
-	}
-	1101.1.1 = {
-		holder = 10073 #Badouin I de Boulogne
+		#liege = d_palestine
+		holder = 10073 # Badouin I de Boulogne
 	}
 	1118.4.2 = {
-		holder = 232007 #Badouin II de Rethel
+		holder = 232007 # Badouin II de Rethel
 	}
 	1131.8.21 = {
 		holder = 223525
@@ -1208,78 +1377,75 @@ c_acre = {
 	1174.7.11 = {
 		holder = 223523
 	}
-	1176.1.1 = {
+	1166.1.1 = {
 		holder = 231015
 	}
-	#conquered by Saladin
+	# conquered by Saladin
 	1187.10.2 = {
 		holder = 226000
 	}
-	#conquered by the Crusaders
+	# conquered by the Crusaders
 	1191.7.1 = {
-		liege = "k_jerusalem"
-	}
-	1191.7.1 = {
-		holder = 223524 #Isabelle
+		liege = k_jerusalem
+		holder = 223524 # Isabelle
 	}
 	1192.1.1 = {
-		holder = 213521 #Corrado de Montferrat
+		holder = 213521 # Corrado de Montferrat
 	}
 	1192.4.28 = {
-		holder = 223524 #Isabelle
+		holder = 223524 # Isabelle
 	}
 	1197.9.10 = {
-		holder = 223505 #Amaury II de Lusignan
+		holder = 223505 # Amaury II de Lusignan
 	}
 	1205.4.1 = {
-		holder = 34994 #Maria de Montferrat
+		holder = 34994 # Maria de Montferrat
 	}
-	
 	1210.1.1 = {
-		holder = 461742 #Jean de Brienne
+		holder = 461742 # Jean de Brienne
 	}
 	1212.1.1 = {
-		holder = 30809 #Isabelle II de Brienne
+		holder = 30809 # Isabelle II de Brienne
 	}
 	#1228.1.1 = {
-	#	holder = 30760 #Konrad Hohenstauffen
+	#	holder = 30760 # Konrad Hohenstauffen
 	#}
 	1228.1.1 = {
-		holder = 138019 #Alix de Blois (acting as regent)
+		holder = 138019 # Alix de Blois (acting as regent)
 	}
 	#1254.5.21 = {
-	#	holder = 30785 #Konradin Hohenstaufen
+	#	holder = 30785 # Konradin Hohenstaufen
 	#}
-	
 	1247.1.1 = {
-		holder = 461905 #Hugues III de Chypres/Lusignan
+		holder = 461905 # Hugues III de Chypres/Lusignan
 	}
 	1284.3.24 = {
-		holder = 138023 #John I of Cyprus/Lusignan
+		holder = 138023 # John I of Cyprus/Lusignan
 	}
 	1285.5.20 = {
-		holder = 138024 #Henri II of Cyprus/Lusignan
+		holder = 138024 # Henri II of Cyprus/Lusignan
 	}
-	#conquered by the Mamluks
+	# conquered by the Mamluks
 	1291.5.28 = {
-		liege = "d_palestine"
-	}
-	1291.5.28 = {
-		holder = 32939
-	}
-	1296.1.1 = {
+		liege = d_palestine
 		holder = 34991
+	}
+	1292.1.1 = {
+		holder = 8000531 # Aybak al-Hamawi. 
 	}
 	1297.1.1 = {
 		holder = 34992
 	}
+	1299.1.1 = {
+		holder = 8000466 # Jamal al-Din Aqqush al-Afram.  
+	}
+	1310.1.1 = {
+		holder = 8000507 # Qarasunqur
+	}
 	1312.1.1 = {
 		holder = 34993
 	}
-	1317.1.1 = {
-		holder = 485180
-	}
-
+		
 }
 
 
@@ -1368,6 +1534,15 @@ c_irbid = {
 	}
 	866.1.1 = {
 		holder = 146080
+	}
+	992.1.1 = {
+		holder = 1500002 # Mufarrij ibn Daghfal returned to Palestine and resumed his tribe's dominant position upon the death of Ibn Killis
+	}
+	1013.1.1 = {
+		holder = 1500003
+	}
+	1022.1.1 = {
+		holder = 1600006
 	}
 	1066.1.1 = {
 		holder = 20768

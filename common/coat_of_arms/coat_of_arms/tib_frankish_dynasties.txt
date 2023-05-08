@@ -1,3 +1,50 @@
+k_lotharingia={
+	pattern="pattern__solid_designer.dds"
+	color1=yellow
+	color2=red
+	color3=blue
+	colored_emblem={
+		color1=red
+		texture="ce_cross_fleury.dds"
+		instance={
+			position={ 0.500000 0.450000 }
+			scale={ 0.930000 0.930000 }
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=blue
+		texture="ce_circle_mask.dds"
+		instance={
+			position={ 0.650000 0.600000 }
+			scale={ 0.060000 0.060000 }
+		}
+
+		instance={
+			position={ 0.350000 0.600000 }
+			scale={ 0.060000 0.060000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.650000 0.300000 }
+			scale={ 0.060000 0.060000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.350000 0.300000 }
+			scale={ 0.060000 0.060000 }
+			depth=3.010000
+		}
+
+	}
+
+}
+
+
 25061 = { # Karling
 	pattern="pattern_vertical_split_01.dds"
 	color1=rgb { 235 175 15 }
@@ -76,53 +123,53 @@
 	}
 
 	colored_emblem={
+		color1=yellow
+		texture="tib_anjou_fleur_de_lis.dds"
+		instance={
+			position={ 0.710000 0.755000 }
+			scale={ 0.200000 0.200000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.820000 0.550000 }
+			scale={ 0.200000 0.200000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.600000 0.550000 }
+			scale={ 0.200000 0.200000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.820000 0.320000 }
+			scale={ 0.200000 0.200000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.600000 0.320000 }
+			scale={ 0.200000 0.200000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.710000 0.135000 }
+			scale={ 0.200000 0.200000 }
+			depth=6.010000
+		}
+
+	}
+
+	colored_emblem={
 		color1=rgb { 210 183 144 }
 		texture="ce_circle.dds"
 		instance={
 			position={ 0.405000 0.155000 }
 			scale={ 0.240000 0.240000 }
 			depth=12.010000
-		}
-
-	}
-
-	colored_emblem={
-		color1=yellow
-		texture="ce_fleur.dds"
-		instance={
-			position={ 0.730000 0.750000 }
-			scale={ 0.200000 0.200000 }
-			depth=1.010000
-		}
-
-		instance={
-			position={ 0.840000 0.550000 }
-			scale={ 0.200000 0.200000 }
-			depth=2.010000
-		}
-
-		instance={
-			position={ 0.620000 0.550000 }
-			scale={ 0.200000 0.200000 }
-			depth=3.010000
-		}
-
-		instance={
-			position={ 0.840000 0.320000 }
-			scale={ 0.200000 0.200000 }
-			depth=4.010000
-		}
-
-		instance={
-			position={ 0.620000 0.320000 }
-			scale={ 0.200000 0.200000 }
-			depth=5.010000
-		}
-
-		instance={
-			position={ 0.730000 0.130000 }
-			scale={ 0.200000 0.200000 }
-			depth=6.010000
 		}
 
 	}
@@ -135,4 +182,1070 @@
 		}
 
 	}
+
+}
+
+house_reginarluxum={
+	pattern="pattern__solid_designer.dds"
+	color1=white
+	color2=blue
+	color3=black
+	colored_emblem={
+		color1=rgb { 168 37 37 }
+		color2=rgb { 220 169 73 }
+		color3=white
+		texture="ce_lion_rampant_crown_forked.dds"
+		instance={
+			position={ 0.500000 0.495000 }
+			depth=1.010000
+			rotation=1
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		texture="ce_circle_mask.dds"
+		instance={
+			position={ 0.450000 0.155000 }
+			scale={ 0.010000 0.010000 }
+		}
+
+	}
+
+}
+
+house_chiny={
+	pattern="pattern_solid.dds"
+	color1=red
+	color2=yellow
+	color3=red
+	colored_emblem={
+		color1=yellow
+		color2=white
+		texture="ce_barbels_addorsed.dds"
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_religion_custom_faith_1.dds"
+		instance={
+			position={ 0.500000 0.850000 }
+			scale={ 0.250000 0.250000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.800000 0.650000 }
+			scale={ 0.250000 0.250000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.200000 0.650000 }
+			scale={ 0.250000 0.250000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.850000 0.400000 }
+			scale={ 0.250000 0.250000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.150000 0.400000 }
+			scale={ 0.250000 0.250000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.500000 0.160000 }
+			scale={ 0.250000 0.250000 }
+			depth=6.010000
+		}
+
+	}
+
+}
+
+house_Wigeriche={ # Ardennes/Wigeriche
+	pattern="pattern__solid_designer.dds"
+	color1=white
+	color2=yellow
+	color3=black
+	colored_emblem={
+		color1=white
+		color2=blue
+		texture="ce_bendy_06.dds"
+		instance={
+			position={ 0.550000 0.500000 }
+			scale={ 0.820000 0.820000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_border_shield_engrailed_02.dds"
+	}
+
+}
+
+house_karligsalm={ # Salm
+	pattern="pattern_solid.dds"
+	color1=red
+	color2=white
+	color3=black
+	colored_emblem={
+		color1=white
+		color2=grey
+		texture="ce_barbels_addorsed.dds"
+		instance={
+			scale={ 0.990000 0.990000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_religion_custom_faith_1.dds"
+		instance={
+			position={ 0.500000 0.950000 }
+			scale={ 0.200000 0.200000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.900000 0.750000 }
+			scale={ 0.200000 0.200000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.700000 0.750000 }
+			scale={ 0.200000 0.200000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.100000 0.750000 }
+			scale={ 0.200000 0.200000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.300000 0.750000 }
+			scale={ 0.200000 0.200000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.500000 0.750000 }
+			scale={ 0.200000 0.200000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.800000 0.600000 }
+			scale={ 0.200000 0.200000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.600000 0.600000 }
+			scale={ 0.200000 0.200000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.200000 0.600000 }
+			scale={ 0.200000 0.200000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.400000 0.600000 }
+			scale={ 0.200000 0.200000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.900000 0.450000 }
+			scale={ 0.200000 0.200000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.700000 0.450000 }
+			scale={ 0.200000 0.200000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.100000 0.450000 }
+			scale={ 0.200000 0.200000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.300000 0.450000 }
+			scale={ 0.200000 0.200000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.500000 0.450000 }
+			scale={ 0.210000 0.210000 }
+			depth=16.010000
+		}
+
+		instance={
+			position={ 0.800000 0.300000 }
+			scale={ 0.200000 0.200000 }
+			depth=17.010000
+		}
+
+		instance={
+			position={ 0.600000 0.300000 }
+			scale={ 0.200000 0.200000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 0.200000 0.300000 }
+			scale={ 0.210000 0.210000 }
+			depth=19.010000
+		}
+
+		instance={
+			position={ 0.400000 0.300000 }
+			scale={ 0.200000 0.200000 }
+			depth=20.010000
+		}
+
+		instance={
+			position={ 0.900000 0.150000 }
+			scale={ 0.200000 0.200000 }
+			depth=21.010000
+		}
+
+		instance={
+			position={ 0.700000 0.150000 }
+			scale={ 0.200000 0.200000 }
+			depth=22.010000
+		}
+
+		instance={
+			position={ 0.100000 0.150000 }
+			scale={ 0.200000 0.200000 }
+			depth=23.010000
+		}
+
+		instance={
+			position={ 0.300000 0.150000 }
+			scale={ 0.200000 0.200000 }
+			depth=24.010000
+		}
+
+		instance={
+			position={ 0.500000 0.150000 }
+			scale={ 0.200000 0.200000 }
+			depth=25.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=grey
+		color2=white
+		texture="ce_barbels_addorsed.dds"
+		instance={
+			depth=1.010000
+		}
+
+	}
+
+}
+
+house_salmvianden={
+	pattern="pattern_solid.dds"
+	color1=red
+	color2=white
+	color3=black
+	colored_emblem={
+		color1=white
+		color2=grey
+		texture="ce_barbels_addorsed.dds"
+		instance={
+			scale={ 0.990000 0.990000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_religion_custom_faith_1.dds"
+		instance={
+			position={ 0.500000 0.950000 }
+			scale={ 0.200000 0.200000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.900000 0.750000 }
+			scale={ 0.200000 0.200000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.700000 0.750000 }
+			scale={ 0.200000 0.200000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.100000 0.750000 }
+			scale={ 0.200000 0.200000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.300000 0.750000 }
+			scale={ 0.200000 0.200000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.500000 0.750000 }
+			scale={ 0.200000 0.200000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.800000 0.600000 }
+			scale={ 0.200000 0.200000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.600000 0.600000 }
+			scale={ 0.200000 0.200000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.200000 0.600000 }
+			scale={ 0.200000 0.200000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.400000 0.600000 }
+			scale={ 0.200000 0.200000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.900000 0.450000 }
+			scale={ 0.200000 0.200000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.700000 0.450000 }
+			scale={ 0.200000 0.200000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.100000 0.450000 }
+			scale={ 0.200000 0.200000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.300000 0.450000 }
+			scale={ 0.200000 0.200000 }
+			depth=16.010000
+		}
+
+		instance={
+			position={ 0.500000 0.450000 }
+			scale={ 0.210000 0.210000 }
+			depth=17.010000
+		}
+
+		instance={
+			position={ 0.800000 0.300000 }
+			scale={ 0.200000 0.200000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 0.600000 0.300000 }
+			scale={ 0.200000 0.200000 }
+			depth=19.010000
+		}
+
+		instance={
+			position={ 0.200000 0.300000 }
+			scale={ 0.210000 0.210000 }
+			depth=20.010000
+		}
+
+		instance={
+			position={ 0.400000 0.300000 }
+			scale={ 0.200000 0.200000 }
+			depth=21.010000
+		}
+
+		instance={
+			position={ 0.900000 0.150000 }
+			scale={ 0.200000 0.200000 }
+			depth=22.010000
+		}
+
+		instance={
+			position={ 0.700000 0.150000 }
+			scale={ 0.200000 0.200000 }
+			depth=23.010000
+		}
+
+		instance={
+			position={ 0.100000 0.150000 }
+			scale={ 0.200000 0.200000 }
+			depth=24.010000
+		}
+
+		instance={
+			position={ 0.300000 0.150000 }
+			scale={ 0.200000 0.200000 }
+			depth=25.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_escutcheon.dds"
+		instance={
+			position={ 0.500000 0.150000 }
+			scale={ 0.250000 0.250000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=grey
+		color2=white
+		texture="ce_barbels_addorsed.dds"
+		instance={
+			depth=2.010000
+		}
+
+	}
+
+}
+
+# French dynasties
+# Angevin
+723={ # Anjou
+	pattern="pattern_shield_01.dds"
+	color1=rgb { 114 21 25 }
+	color2=rgb { 0 43 84 }
+	color3=yellow
+	colored_emblem={
+		color1=rgb { 235 188 30 }
+		texture="tib_anjou_fleur_de_lis.dds"
+		instance={
+			position={ 0.500000 0.640000 }
+			scale={ 0.330000 0.330000 }
+		}
+
+		instance={
+			position={ 0.675000 0.300000 }
+			scale={ 0.330000 0.330000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.330000 0.300000 }
+			scale={ 0.350000 0.350000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 0 57 111 }
+		color2=blue
+		texture="ce_shield_01.dds"
+		instance={
+			scale={ 0.800000 0.800000 }
+			depth=3.010000
+		}
+
+	}
+
+}
+
+302 = {
+	pattern="pattern__solid_designer.dds"
+	color1=yellow
+	color2=white
+	color3=green
+	colored_emblem={
+		color1=red
+		texture="ce_bend_thin.dds"
+	}
+
+	colored_emblem={
+		color1=black
+		color2=red
+		color3=white
+		texture="ce_lion_rampant_wide_stance.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 0.920000 0.920000 }
+			depth=1.010000
+			rotation=15
+		}
+
+	}
+
+}
+
+# Capetian / Capet
+house_babenberger = { # Henneberg, Franconian
+	pattern="pattern_solid.dds"
+	color1=yellow
+	color2=white
+	color3=black
+	colored_emblem={
+		color1=green
+		texture="ce_circle_mask.dds"
+		instance={
+			position={ 0.800000 0.950000 }
+			scale={ 0.570000 0.570000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.200000 0.950000 }
+			scale={ 0.560000 0.560000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.500000 0.925000 }
+			scale={ 0.570000 0.570000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		color2=red
+		color3=white
+		texture="ce_cockerel.dds"
+		instance={
+			position={ 0.500000 0.515000 }
+			scale={ 0.880000 0.880000 }
+			rotation=350
+		}
+
+	}
+
+}
+
+house_VermandoisCapet={
+	pattern="pattern_horizontal_split_02.dds"
+	color1=white
+	color2=blue
+	color3=black
+	colored_emblem={
+		color1=yellow
+		texture="ce_fleur.dds"
+		instance={
+			position={ 0.800000 0.160000 }
+			scale={ 0.333000 0.333000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.200000 0.160000 }
+			scale={ 0.333000 0.333000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.500000 0.160000 }
+			scale={ 0.333000 0.333000 }
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=blue
+		color2=yellow
+		texture="ce_checkers_06.dds"
+		instance={
+			position={ 0.500000 0.820000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.500000 0.320000 }
+			scale={ 1.000000 0.005000 }
+		}
+
+	}
+
+}
+house_Bourgogne = {
+	pattern="pattern_solid.dds"
+	color1=blue
+	color2=yellow
+	colored_emblem={
+		color1=blue
+		color2=yellow
+		texture="ce_diagonal_stripes_01.dds"
+		instance={
+			position={ 0.364000 0.610000 }
+			scale={ 1.230000 1.230000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=red
+		color2=red
+		texture="ce_border_shield.dds"
+	}
+
+}
+house_Courtenay = {
+	pattern="pattern_solid.dds"
+	color1=yellow
+	color2=red
+	color3=red
+	colored_emblem={
+		color1=red
+		texture="ce_circle_mask.dds"
+		instance={
+			position={ 0.500000 0.700000 }
+			scale={ 0.320000 0.320000 }
+		}
+
+		instance={
+			position={ 0.690000 0.300000 }
+			scale={ 0.320000 0.320000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.310000 0.300000 }
+			scale={ 0.320000 0.320000 }
+			depth=2.010000
+		}
+
+	}
+
+}
+
+house_Dreux = {
+	pattern="pattern_solid.dds"
+	color1=blue
+	color2=yellow
+	colored_emblem={
+		color1=blue
+		color2=yellow
+		texture="ce_checkers_09.dds"
+		instance={
+			position={ 0.374000 0.610000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=red
+		color2=red
+		texture="ce_border_shield.dds"
+		instance={
+			scale={ 0.960000 0.990000 }
+		}
+
+	}
+
+}
+house_AnjouCapet = d_anjou
+house_BourbonCapet = {
+	pattern="pattern_solid.dds"
+	color1=blue
+	color2=yellow
+	color3=yellow
+	colored_emblem={
+		color1=rgb { 235 188 30 }
+		texture="tib_anjou_fleur_de_lis.dds"
+		instance={
+			position={ 0.500000 0.685000 }
+			scale={ 0.470000 0.470000 }
+		}
+
+		instance={
+			position={ 0.700000 0.300000 }
+			scale={ 0.470000 0.470000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.300000 0.300000 }
+			scale={ 0.470000 0.470000 }
+			depth=2.010000
+		}
+
+	}
+
+}
+
+
+house_Artois = {
+	pattern="pattern_solid.dds"
+	color1=blue
+	color2=yellow
+	colored_emblem={
+		color1=yellow
+		color2=yellow
+		texture="ce_castle.dds"
+		instance={
+			position={ 0.750000 0.315000 }
+			scale={ 0.090000 0.090000 }
+		}
+
+		instance={
+			position={ 0.750000 0.245000 }
+			scale={ 0.090000 0.090000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.750000 0.170000 }
+			scale={ 0.090000 0.090000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.500000 0.315000 }
+			scale={ 0.090000 0.090000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.500000 0.245000 }
+			scale={ 0.090000 0.090000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.500000 0.170000 }
+			scale={ 0.090000 0.090000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.250000 0.315000 }
+			scale={ 0.090000 0.090000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.250000 0.245000 }
+			scale={ 0.090000 0.090000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.250000 0.170000 }
+			scale={ 0.090000 0.090000 }
+			depth=8.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=red
+		color2=red
+		texture="ce_label_03.dds"
+		instance={
+			depth=9.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		color2=yellow
+		texture="ce_fleur.dds"
+		instance={
+			position={ 1.000000 1.000000 }
+			scale={ 0.230000 0.260000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.800000 1.000000 }
+			scale={ 0.230000 0.260000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.600000 1.000000 }
+			scale={ 0.230000 0.260000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.400000 1.000000 }
+			scale={ 0.230000 0.260000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.200000 1.000000 }
+			scale={ 0.230000 0.260000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.000000 1.000000 }
+			scale={ 0.230000 0.260000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.900000 0.800000 }
+			scale={ 0.230000 0.260000 }
+			depth=16.010000
+		}
+
+		instance={
+			position={ 0.700000 0.800000 }
+			scale={ 0.230000 0.260000 }
+			depth=17.010000
+		}
+
+		instance={
+			position={ 0.500000 0.800000 }
+			scale={ 0.230000 0.260000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 0.300000 0.800000 }
+			scale={ 0.230000 0.260000 }
+			depth=19.010000
+		}
+
+		instance={
+			position={ 0.100000 0.800000 }
+			scale={ 0.230000 0.260000 }
+			depth=20.010000
+		}
+
+		instance={
+			position={ 1.000000 0.600000 }
+			scale={ 0.230000 0.260000 }
+			depth=21.010000
+		}
+
+		instance={
+			position={ 0.800000 0.600000 }
+			scale={ 0.230000 0.260000 }
+			depth=22.010000
+		}
+
+		instance={
+			position={ 0.600000 0.600000 }
+			scale={ 0.230000 0.260000 }
+			depth=23.010000
+		}
+
+		instance={
+			position={ 0.400000 0.600000 }
+			scale={ 0.230000 0.260000 }
+			depth=24.010000
+		}
+
+		instance={
+			position={ 0.200000 0.600000 }
+			scale={ 0.230000 0.260000 }
+			depth=25.010000
+		}
+
+		instance={
+			position={ 0.000000 0.600000 }
+			scale={ 0.230000 0.260000 }
+			depth=26.010000
+		}
+
+		instance={
+			position={ 0.900000 0.400000 }
+			scale={ 0.230000 0.260000 }
+			depth=27.010000
+		}
+
+		instance={
+			position={ 0.700000 0.400000 }
+			scale={ 0.230000 0.260000 }
+			depth=28.010000
+		}
+
+		instance={
+			position={ 0.500000 0.400000 }
+			scale={ 0.230000 0.260000 }
+			depth=29.010000
+		}
+
+		instance={
+			position={ 0.300000 0.400000 }
+			scale={ 0.230000 0.260000 }
+			depth=30.010000
+		}
+
+		instance={
+			position={ 0.100000 0.400000 }
+			scale={ 0.230000 0.260000 }
+			depth=31.010000
+		}
+
+		instance={
+			position={ 1.000000 0.200000 }
+			scale={ 0.230000 0.260000 }
+			depth=32.010002
+		}
+
+		instance={
+			position={ 0.800000 0.200000 }
+			scale={ 0.230000 0.260000 }
+			depth=33.010002
+		}
+
+		instance={
+			position={ 0.600000 0.200000 }
+			scale={ 0.230000 0.260000 }
+			depth=34.010002
+		}
+
+		instance={
+			position={ 0.400000 0.200000 }
+			scale={ 0.230000 0.260000 }
+			depth=35.010002
+		}
+
+		instance={
+			position={ 0.200000 0.200000 }
+			scale={ 0.230000 0.260000 }
+			depth=36.010002
+		}
+
+		instance={
+			position={ 0.000000 0.200000 }
+			scale={ 0.230000 0.260000 }
+			depth=37.010002
+		}
+
+		instance={
+			position={ 0.900000 0.000000 }
+			scale={ 0.230000 0.260000 }
+			depth=38.010002
+		}
+
+		instance={
+			position={ 0.700000 0.000000 }
+			scale={ 0.230000 0.260000 }
+			depth=39.010002
+		}
+
+		instance={
+			position={ 0.500000 0.000000 }
+			scale={ 0.230000 0.260000 }
+			depth=40.010002
+		}
+
+		instance={
+			position={ 0.300000 0.000000 }
+			scale={ 0.230000 0.260000 }
+			depth=41.010002
+		}
+
+		instance={
+			position={ 0.100000 0.000000 }
+			scale={ 0.230000 0.260000 }
+			depth=42.010002
+		}
+
+	}
+
+}
+
+92 = {
+	pattern="pattern_solid.dds"
+	color1=rgb { 114 21 21 }
+	color2=yellow_light
+	color3=red
+	colored_emblem={
+		color1=rgb { 255 230 60 }
+		color2=black
+		color3=blue
+		texture="tib_plantagenet_lion.dds"
+		instance={
+			position={ 0.500000 0.640000 }
+			scale={ 0.720000 0.720000 }
+		}
+
+		instance={
+			position={ 0.500000 0.320000 }
+			scale={ 0.820000 0.820000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+
+# Norman dynasties
+752 = { # Normandie
+	pattern="pattern_solid.dds"
+	color1=rgb { 114 21 21 }
+	color2=yellow_light
+	color3=red
+	colored_emblem={
+		color1=rgb { 255 230 60 }
+		color2=black
+		color3=blue
+		texture="tib_plantagenet_lion.dds"
+		instance={
+			position={ 0.500000 0.620000 }
+			scale={ 0.790000 0.790000 }
+		}
+
+		instance={
+			position={ 0.500000 0.300000 }
+			scale={ 0.790000 0.790000 }
+			depth=1.010000
+		}
+
+	}
+
 }

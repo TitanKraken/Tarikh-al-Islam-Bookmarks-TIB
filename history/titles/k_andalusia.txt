@@ -1,7 +1,7 @@
 
 k_andalusia = {
-	867.1.1 = { change_development_level = 8 }
-	1066.1.1 = { change_development_level = 11 }
+	#867.1.1 = { change_development_level = 8 }
+	#1066.1.1 = { change_development_level = 11 }
 	
 	712.1.1 = {
 		holder = abd_al_aziz_ibn_musa
@@ -130,8 +130,8 @@ k_andalusia = {
 
 
 d_cordoba = {
-	867.1.1 = { change_development_level = 10 }
-	1066.1.1 = { change_development_level = 13 }
+	#867.1.1 = { change_development_level = 10 }
+	#1066.1.1 = { change_development_level = 13 }
 	
 	712.1.1 = {
 		holder = abd_al_aziz_ibn_musa
@@ -184,8 +184,8 @@ d_cordoba = {
 
 
 c_cordoba = {
-	867.1.1 = { change_development_level = 20 }
-	1066.1.1 = { change_development_level = 25 }
+	#867.1.1 = { change_development_level = 20 }
+	#1066.1.1 = { change_development_level = 25 }
 	
 	21.1.1 = {
 		change_development_level = 12
@@ -743,55 +743,23 @@ c_andujar = { # Jaen
 	1010.7.23 = {
 		holder = 3204 # Hisham II Umayyad
 	}
-	1013.4.19 = {
-		holder = 73675 # Suleyman Umayyad
+	1012.1.1 = {
+		holder = 45014 # Zawi Zirid
+		liege = 0
 	}
-	1016.7.1 = {
-		holder = 73687 # Ali Hammudid
+	1019.1.1 = {
+		holder = 45015 # Habud Zirid
 	}
-	1018.3.22 = {
-		holder = 73678 # Abd al-Rahman IV Umayyad
+	1038.1.1 = {
+		holder = 45016 # Badis Zirid
 	}
-	1018.6.1 = {
-		holder = 73689 # al-Qasim Hammudid
+	1073.1.1 = {
+		holder = 32952 # Abdallah Zirid
 	}
-	1021.1.1 = {
-		holder = 73690 # Yahya Hammudid
+	1090.1.1 = {
+		holder = 0
 	}
-	1023.2.1 = {
-		holder = 73689 # al-Qasim Hammudid
-	}
-	1023.12.2 = {
-		holder = 73672 # Abd al-Rahman V Umayyad
-	}
-	1024.1.1 = {
-		holder = 3922 # Isma'il Dhunnunid
-		liege = d_toledo
-	}
-	1043.1.1 = {
-		holder = 3924 # Yahya Dhunnunid
-	}
-	1050.1.1 = {
-		holder = 73197 # Yahaff Yahaffid
-	}
-	1067.1.1 = {
-		holder = 73198 # Abdallah Yahaffid
-	}
-	1080.1.1 = {
-		holder = 73200 # Jyad Jyadid
-		liege = d_badajoz
-	}
-	1081.1.1 = {
-		liege = d_toledo
-	}
-	1085.5.25 = {
-		holder = 108500 # Alfonso VI Jimena
-		liege = k_castille
-	}
-	1086.10.23 = {
-		holder = 464010 # Muhammad Qaturbid
-		liege = k_maghreb
-	}
+
 	1119.1.1 = {
 		holder = 224025 # Amr Qaturbid
 	}
@@ -884,8 +852,8 @@ c_andujar = { # Jaen
 
 
 d_granada = {
-	867.1.1 = { change_development_level = 10 }
-	1066.1.1 = { change_development_level = 14 }
+	#867.1.1 = { change_development_level = 10 }
+	#1066.1.1 = { change_development_level = 14 }
 	
 	712.1.1 = {
 		holder = andalusia_governor_005
@@ -951,8 +919,8 @@ d_granada = {
 
 
 c_granada = {
-	867.1.1 = { change_development_level = 12 }
-	1066.1.1 = { change_development_level = 17 }
+	#867.1.1 = { change_development_level = 12 }
+	#1066.1.1 = { change_development_level = 17 }
 	
 	760.1.1 = {
 		holder = 200230 # Abd al-Malik Djazairid
@@ -1169,7 +1137,7 @@ c_almeria = {
 		holder = 224016 # Abd al-Malik Gharnatid
 	}
 	1200.1.1 = {
-		holder = 73617 # Tariq Sebtaid
+		holder = almohad0003_ibn_almanzor # Abu Said Muhammad Almohad
 	}
 	1223.1.1 = {
 		holder = almohad0008 # Abdallah al-Bayyasi Almohad
@@ -1484,9 +1452,6 @@ c_malaga = {
 		holder = 224016 # Abd al-Malik Gharnatid
 	}
 	1200.1.1 = {
-		holder = 73617 # Tariq Sebtaid
-	}
-	1204.1.1 = {
 		holder = almohad0003_ibn_almanzor # Abu Said Muhammad Almohad
 	}
 	1228.1.1 = {
@@ -1515,8 +1480,8 @@ c_malaga = {
 
 
 d_sevilla = {
-	867.1.1 = { change_development_level = 11 }
-	1066.1.1 = { change_development_level = 15 }
+	#867.1.1 = { change_development_level = 11 }
+	#1066.1.1 = { change_development_level = 15 }
 	
 	712.1.1 = {
 		holder = andalusia_governor_004
@@ -1567,8 +1532,8 @@ d_sevilla = {
 
 
 c_sevilla = {
-	867.1.1 = { change_development_level = 14 }
-	1066.1.1 = { change_development_level = 18 }
+	#867.1.1 = { change_development_level = 14 }
+	#1066.1.1 = { change_development_level = 18 }
 	
 	769.1.1 = {
 		holder = 73680 # Hisham I Umayyad
@@ -1655,7 +1620,7 @@ c_sevilla = {
 		holder = 32980
 	}
 	1204.1.1 = {
-		holder = 32989
+		holder = 32989 # 'Umar al-Murtadha
 		liege = k_maghreb
 	}
 	1221.1.1 = {
@@ -2019,8 +1984,9 @@ c_niebla = {
 	1190.1.1 = {
 		holder = 73611 # Yahya Utmanid
 	}
-	1212.1.1 = {
-		holder = 73612 # Umar Utmanid
+	1204.1.1 = {
+		holder = 32989 # 'Umar al-Murtadha
+		liege = k_maghreb
 	}
 	1220.1.1 = {
 		liege = 0
@@ -2174,8 +2140,8 @@ c_moura = {
 }
 
 d_toledo = {
-	867.1.1 = { change_development_level = 10 }
-	1066.1.1 = { change_development_level = 14 }
+	#867.1.1 = { change_development_level = 10 }
+	#1066.1.1 = { change_development_level = 14 }
 	
 	712.1.1 = {
 		holder = abd_al_aziz_ibn_musa
@@ -2207,11 +2173,34 @@ d_toledo = {
 	907.1.1 = {
 		holder = 0
 	}
-	1024.1.1 = {
-		holder = 3922 # Isma'il Dhunnunid
-		liege = 0
+
+	997.1.1 = {
+		holder = andalusian0097 # Walih Wadih of Toledo
+	}
+	1010.1.1 = {
+		holder = baranis0092 # Emir Ibn Masarra of Toledo
+	}
+	1012.1.1 = {
+		holder = baranis0094 # Emir Ya'is ibn Muhammad of Toledo
+	}
+	1026.1.1 = {
+		holder = baranis0096 # Emir Abd al-Rahman ibn Manyuh of Toledo
+	}
+	1030.1.1 = {
+		holder = baranis0097 # Emir Abd al-Malik ibn Abd al-Rahman of Toledo
+	}
+	1032.1.1 = {
+		holder = 3922 # Emir al-Zafir of Toledo
 	}
 	1043.1.1 = {
+		holder = 3924 # Emir al-Ma'mun of Toledo
+	}
+
+	#1024.1.1 = {
+	#	holder = 3922 # Isma'il Dhunnunid
+	#	liege = 0
+	#}
+	1045.1.1 = { # Maybe?
 		holder = 3924 # Yahya I Dhunnunid
 	}
 	1075.1.1 = {
@@ -2232,8 +2221,8 @@ d_toledo = {
 
 
 c_toledo = {	
-	867.1.1 = { change_development_level = 13 }
-	1066.1.1 = { change_development_level = 17 }
+	#867.1.1 = { change_development_level = 13 }
+	#1066.1.1 = { change_development_level = 17 }
 	
 	769.1.1 = {
 		holder = 200020 # Suleyman Umayyad
@@ -2274,44 +2263,30 @@ c_toledo = {
 	976.10.16 = {
 		holder = 3204 # Hisham II Umayyad
 	}
-	1009.2.15 = {
-		holder = 73671 # Muhammad II Umayyad
+
+	997.1.1 = {
+		holder = andalusian0097 # Walih Wadih of Toledo
 	}
-	1009.11.1 = {
-		holder = 73675 # Suleyman Umayyad
+	1010.1.1 = {
+		holder = baranis0092 # Emir Ibn Masarra of Toledo
 	}
-	1010.5.10 = {
-		holder = 73671 # Muhammad II Umayyad
+	1012.1.1 = {
+		holder = baranis0094 # Emir Ya'is ibn Muhammad of Toledo
 	}
-	1010.7.23 = {
-		holder = 3204 # Hisham II Umayyad
+	1026.1.1 = {
+		holder = baranis0096 # Emir Abd al-Rahman ibn Manyuh of Toledo
 	}
-	1013.4.19 = {
-		holder = 73675 # Suleyman Umayyad
+	1030.1.1 = {
+		holder = baranis0097 # Emir Abd al-Malik ibn Abd al-Rahman of Toledo
 	}
-	1016.7.1 = {
-		holder = 73687 # Ali Hammudid
-	}
-	1018.3.22 = {
-		holder = 73678 # Abd al-Rahman IV Umayyad
-	}
-	1018.6.1 = {
-		holder = 73689 # al-Qasim Hammudid
-	}
-	1021.1.1 = {
-		holder = 73690 # Yahya Hammudid
-	}
-	1023.2.1 = {
-		holder = 73689 # al-Qasim Hammudid
-	}
-	1023.12.2 = {
-		holder = 73672 # Abd al-Rahman V Umayyad
-	}
-	1024.1.1 = {
-		holder = 3922 # Isma'il Dhunnunid
-		liege = d_toledo
+	1032.1.1 = {
+		holder = 3922 # Emir al-Zafir of Toledo
 	}
 	1043.1.1 = {
+		holder = 3924 # Emir al-Ma'mun of Toledo
+	}
+
+	1045.1.1 = { # Maybe?
 		holder = 3924 # Yahya I Dhunnunid
 	}
 	1075.1.1 = {
@@ -2405,44 +2380,30 @@ c_madrid = {
 	976.10.16 = {
 		holder = 3204 # Hisham II Umayyad
 	}
-	1009.2.15 = {
-		holder = 73671 # Muhammad II Umayyad
+
+	997.1.1 = {
+		holder = andalusian0097 # Walih Wadih of Toledo
 	}
-	1009.11.1 = {
-		holder = 73675 # Suleyman Umayyad
+	1010.1.1 = {
+		holder = baranis0092 # Emir Ibn Masarra of Toledo
 	}
-	1010.5.10 = {
-		holder = 73671 # Muhammad II Umayyad
+	1012.1.1 = {
+		holder = baranis0094 # Emir Ya'is ibn Muhammad of Toledo
 	}
-	1010.7.23 = {
-		holder = 3204 # Hisham II Umayyad
+	1026.1.1 = {
+		holder = baranis0096 # Emir Abd al-Rahman ibn Manyuh of Toledo
 	}
-	1013.4.19 = {
-		holder = 73675 # Suleyman Umayyad
+	1030.1.1 = {
+		holder = baranis0097 # Emir Abd al-Malik ibn Abd al-Rahman of Toledo
 	}
-	1016.7.1 = {
-		holder = 73687 # Ali Hammudid
-	}
-	1018.3.22 = {
-		holder = 73678 # Abd al-Rahman IV Umayyad
-	}
-	1018.6.1 = {
-		holder = 73689 # al-Qasim Hammudid
-	}
-	1021.1.1 = {
-		holder = 73690 # Yahya Hammudid
-	}
-	1023.2.1 = {
-		holder = 73689 # al-Qasim Hammudid
-	}
-	1023.12.2 = {
-		holder = 73672 # Abd al-Rahman V Umayyad
-	}
-	1024.1.1 = {
-		holder = 3922 # Isma'il Dhunnunid
-		liege = d_toledo
+	1032.1.1 = {
+		holder = 3922 # Emir al-Zafir of Toledo
 	}
 	1043.1.1 = {
+		holder = 3924 # Emir al-Ma'mun of Toledo
+	}
+
+	1045.1.1 = { # Maybe?
 		holder = 3924 # Yahya I Dhunnunid
 	}
 	1075.1.1 = {
@@ -2539,44 +2500,30 @@ c_molina = {
 	976.10.16 = {
 		holder = 3204 # Hisham II Umayyad
 	}
-	1009.2.15 = {
-		holder = 73671 # Muhammad II Umayyad
+
+	997.1.1 = {
+		holder = andalusian0097 # Walih Wadih of Toledo
 	}
-	1009.11.1 = {
-		holder = 73675 # Suleyman Umayyad
+	1010.1.1 = {
+		holder = baranis0092 # Emir Ibn Masarra of Toledo
 	}
-	1010.5.10 = {
-		holder = 73671 # Muhammad II Umayyad
+	1012.1.1 = {
+		holder = baranis0094 # Emir Ya'is ibn Muhammad of Toledo
 	}
-	1010.7.23 = {
-		holder = 3204 # Hisham II Umayyad
+	1026.1.1 = {
+		holder = baranis0096 # Emir Abd al-Rahman ibn Manyuh of Toledo
 	}
-	1013.4.19 = {
-		holder = 73675 # Suleyman Umayyad
+	1030.1.1 = {
+		holder = baranis0097 # Emir Abd al-Malik ibn Abd al-Rahman of Toledo
 	}
-	1016.7.1 = {
-		holder = 73687 # Ali Hammudid
-	}
-	1018.3.22 = {
-		holder = 73678 # Abd al-Rahman IV Umayyad
-	}
-	1018.6.1 = {
-		holder = 73689 # al-Qasim Hammudid
-	}
-	1021.1.1 = {
-		holder = 73690 # Yahya Hammudid
-	}
-	1023.2.1 = {
-		holder = 73689 # al-Qasim Hammudid
-	}
-	1023.12.2 = {
-		holder = 73672 # Abd al-Rahman V Umayyad
-	}
-	1024.1.1 = {
-		holder = 3922 # Isma'il Dhunnunid
-		liege = d_toledo
+	1032.1.1 = {
+		holder = 3922 # Emir al-Zafir of Toledo
 	}
 	1043.1.1 = {
+		holder = 3924 # Emir al-Ma'mun of Toledo
+	}
+
+	1045.1.1 = { # Maybe?
 		holder = 3924 # Yahya I Dhunnunid
 	}
 	1066.1.1 = {
@@ -2683,44 +2630,30 @@ c_cuenca = {
 	976.10.16 = {
 		holder = 3204 # Hisham II Umayyad
 	}
-	1009.2.15 = {
-		holder = 73671 # Muhammad II Umayyad
+
+	997.1.1 = {
+		holder = andalusian0097 # Walih Wadih of Toledo
 	}
-	1009.11.1 = {
-		holder = 73675 # Suleyman Umayyad
+	1010.1.1 = {
+		holder = baranis0092 # Emir Ibn Masarra of Toledo
 	}
-	1010.5.10 = {
-		holder = 73671 # Muhammad II Umayyad
+	1012.1.1 = {
+		holder = baranis0094 # Emir Ya'is ibn Muhammad of Toledo
 	}
-	1010.7.23 = {
-		holder = 3204 # Hisham II Umayyad
+	1026.1.1 = {
+		holder = baranis0096 # Emir Abd al-Rahman ibn Manyuh of Toledo
 	}
-	1013.4.19 = {
-		holder = 73675 # Suleyman Umayyad
+	1030.1.1 = {
+		holder = baranis0097 # Emir Abd al-Malik ibn Abd al-Rahman of Toledo
 	}
-	1016.7.1 = {
-		holder = 73687 # Ali Hammudid
-	}
-	1018.3.22 = {
-		holder = 73678 # Abd al-Rahman IV Umayyad
-	}
-	1018.6.1 = {
-		holder = 73689 # al-Qasim Hammudid
-	}
-	1021.1.1 = {
-		holder = 73690 # Yahya Hammudid
-	}
-	1023.2.1 = {
-		holder = 73689 # al-Qasim Hammudid
-	}
-	1023.12.2 = {
-		holder = 73672 # Abd al-Rahman V Umayyad
-	}
-	1024.1.1 = {
-		holder = 3922 # Isma'il Dhunnunid
-		liege = d_toledo
+	1032.1.1 = {
+		holder = 3922 # Emir al-Zafir of Toledo
 	}
 	1043.1.1 = {
+		holder = 3924 # Emir al-Ma'mun of Toledo
+	}
+
+	1045.1.1 = { # Maybe?
 		holder = 3924 # Yahya I Dhunnunid
 	}
 	1066.1.1 = {
@@ -2954,44 +2887,30 @@ c_mora = {
 	976.10.16 = {
 		holder = 3204 # Hisham II Umayyad
 	}
-	1009.2.15 = {
-		holder = 73671 # Muhammad II Umayyad
+
+	997.1.1 = {
+		holder = andalusian0097 # Walih Wadih of Toledo
 	}
-	1009.11.1 = {
-		holder = 73675 # Suleyman Umayyad
+	1010.1.1 = {
+		holder = baranis0092 # Emir Ibn Masarra of Toledo
 	}
-	1010.5.10 = {
-		holder = 73671 # Muhammad II Umayyad
+	1012.1.1 = {
+		holder = baranis0094 # Emir Ya'is ibn Muhammad of Toledo
 	}
-	1010.7.23 = {
-		holder = 3204 # Hisham II Umayyad
+	1026.1.1 = {
+		holder = baranis0096 # Emir Abd al-Rahman ibn Manyuh of Toledo
 	}
-	1013.4.19 = {
-		holder = 73675 # Suleyman Umayyad
+	1030.1.1 = {
+		holder = baranis0097 # Emir Abd al-Malik ibn Abd al-Rahman of Toledo
 	}
-	1016.7.1 = {
-		holder = 73687 # Ali Hammudid
-	}
-	1018.3.22 = {
-		holder = 73678 # Abd al-Rahman IV Umayyad
-	}
-	1018.6.1 = {
-		holder = 73689 # al-Qasim Hammudid
-	}
-	1021.1.1 = {
-		holder = 73690 # Yahya Hammudid
-	}
-	1023.2.1 = {
-		holder = 73689 # al-Qasim Hammudid
-	}
-	1023.12.2 = {
-		holder = 73672 # Abd al-Rahman V Umayyad
-	}
-	1024.1.1 = {
-		holder = 3922 # Isma'il Dhunnunid
-		liege = d_toledo
+	1032.1.1 = {
+		holder = 3922 # Emir al-Zafir of Toledo
 	}
 	1043.1.1 = {
+		holder = 3924 # Emir al-Ma'mun of Toledo
+	}
+
+	1045.1.1 = { # Maybe?
 		holder = 3924 # Yahya I Dhunnunid
 	}
 	1066.1.1 = {

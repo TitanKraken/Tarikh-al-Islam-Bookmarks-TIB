@@ -1,26 +1,6 @@
 k_dacia = {
 	867.1.1 = { change_development_level = 3 }
 	1066.1.1 = { change_development_level = 7 }
-
-	###Post-Cuman rule
-	1241.1.1 = {
-		holder = 228027	
-	}
-	1248.1.1 = {
-		holder = 34800	
-	}
-	1277.1.1 = {
-		holder = 34801	
-	}
-	1290.1.1 = {
-		holder = 475560	
-	}
-	1300.1.2 = {
-		holder = 475550
-	}
-	1332.1.1 = {
-		holder = 475553	
-	}
 }
 
 c_campulung = {
@@ -33,7 +13,7 @@ c_campulung = {
 	860.1.1 = {
 		#holder = 168067 #Gavril
 		holder = vlach_000004 #Given to a fictious local Vlach for governmental neatness.
-		liege = d_muntenia
+		liege = e_bulgaria
 	}
 	935.1.1 = {
 		government = feudal_government	#Ahistorical, just for ease of bookmarks.

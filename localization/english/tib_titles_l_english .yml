@@ -21,6 +21,8 @@
  karakhanid_adj:0 "Karakhanid"
  AVARIA:0 "Avaria"
  AVARIA_adj:0 "Avari"
+ Oghuz_Yabgu_State:0 "Oghuz Yabgu State"
+ Oghuz_Yabgu_State_adj:0 "Oghuz Yabgu"
 
  # Default title names
  k_oman:1 "Oman"

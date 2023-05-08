@@ -1016,20 +1016,14 @@ c_tarragona = {
 	989.1.1 = {
 		holder = 73847 # Walih Abd al-Rahman iban Yahya of Zaragoza
 	}
-	1009.3.3 = {
-		holder = andalusian0101 # Emir Labib of Valencia
-		liege = 0
-	}
-	1009.7.1 = {
+	1013.1.1 = {
 		holder = 73184 # Emir Mundir I of Zaragoza
-		liege = d_aragon
 	}
-	1010.1.1 = {
-		holder = andalusian0101 # Emir Labib of Valencia (2nd time)
-		liege = 0
+	1022.1.1 = {
+		holder = 73185 # Emir al-Muzaffar of Zaragoza
 	}
-	1016.1.1 = {
-		liege = d_valencia
+	1031.1.1 = {
+		holder = 3933 # Emir al-Musta'in I of Zaragoza
 	}
 	1038.1.1 = {
 		holder = andalusian0102 # Muqatil
@@ -1494,6 +1488,7 @@ c_albarracin = {
 	}
 	1143.1.1 = {
 		holder = 224014 # Hakam Laridid
+		liege = k_valencia
 	}
 	1170.1.1 = {
 		liege = k_navarra

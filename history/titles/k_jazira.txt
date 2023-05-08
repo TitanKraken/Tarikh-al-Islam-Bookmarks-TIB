@@ -70,33 +70,17 @@ d_diyarrabia = {
 		holder = levantine000009
 	}
 	
-	905.1.1 = {
-		holder = 159170
+	# Uqaylids
+	991.1.1 = {
+		holder = 159391 # Abu'l Dhawwad Muhammad al-Uqayli
 	}
-	942.1.1 = {
-		holder = 159172
+	996.1.1 = {
+		holder = 159392 # Abu Hasan al-Muqallad Husam al-Dawlah al-Uqayli
 	}
-	999.1.1 = {
-		holder = 159174
+	1001.1.1 = {
+		holder = 3816 # Mu'tamid al-Dawlah Kirwash al-Uqayli
 	}
-	1039.1.1 = {
-		holder = 159176
-	}
-	1044.1.1 = {
-		holder = 159177
-	}
-	1045.1.1 = {
-		holder = 159179
-	}
-	1046.1.1 = {
-		holder = 159180
-	}
-	1048.1.1 = {
-		holder = 159181
-	}
-	1063.1.1 = {
-		holder = 159182
-	}
+
 	1066.1.1 = {
 		liege = "k_persia"
 	}
@@ -167,44 +151,25 @@ d_diyarrabia = {
 	1222.1.1 = {
 		holder = 93315
 	}
+	# Jalayir Mongol
 	1254.1.1 = {
 		liege = "e_ilkhanate"
+		holder = jalayir_general_01
 	}
-	1259.1.1 = {
-		holder = 93316
+	1258.1.1 = {
+		holder = 217259 # Fictional, Buzurg
 	}
-	1260.1.1 = {
-		holder = 478011
+	1272.4.7 = {
+		holder = 217260 # Fictional, Munglig
 	}
-	1265.2.8 = {
-		holder = 478010
+	1304.12.14 = {
+		holder = 217261 # Fictional, Agbuga
 	}
-	1282.1.1 = {
-		holder = 125523
+	1342.8.11 = {
+		holder = 217263 # Fictional, Ibakha
 	}
-	1284.1.1 = {
-		holder = 478008
-	}
-	1291.1.1 = {
-		holder = 125525
-	}
-	1295.1.1 = {
-		holder = 125522
-	}
-	1295.8.1 = {
-		holder = 125524
-	}
-	1304.5.11 = {
-		holder = 478007
-	}
-	1316.12.16 = {
-		holder = 478006
-	}	
-	1320.1.1 = {
-		holder = 93307
-	}
-	1330.1.1 = {
-		holder = 478040
+	1346.2.8 = {
+		holder = 217264 # Fictional, Oronartai
 	}
 
 }
@@ -227,6 +192,18 @@ c_mosul = {
 	874.1.1 = {
 		liege = 0
 	}
+
+	# Uqaylids
+	991.1.1 = {
+		holder = 159391 # Abu'l Dhawwad Muhammad al-Uqayli
+	}
+	996.1.1 = {
+		holder = 159392 # Abu Hasan al-Muqallad Husam al-Dawlah al-Uqayli
+	}
+	1001.1.1 = {
+		holder = 3816 # Mu'tamid al-Dawlah Kirwash al-Uqayli
+	}
+
 	1066.1.1 = {
 		liege = "d_diyarrabia"
 	}
@@ -293,41 +270,25 @@ c_mosul = {
 	1222.1.1 = {
 		holder = 93315
 	}
-	1259.1.1 = {
-		holder = 93316
+	# Jalayir Mongol
+	1254.1.1 = {
+		liege = "e_ilkhanate"
+		holder = jalayir_general_01
 	}
-	1260.1.1 = {
-		holder = 478011
+	1258.1.1 = {
+		holder = 217259 # Fictional, Buzurg
 	}
-	1265.2.8 = {
-		holder = 478010
+	1272.4.7 = {
+		holder = 217260 # Fictional, Munglig
 	}
-	1282.1.1 = {
-		holder = 125523
+	1304.12.14 = {
+		holder = 217261 # Fictional, Agbuga
 	}
-	1284.1.1 = {
-		holder = 478008
+	1342.8.11 = {
+		holder = 217263 # Fictional, Ibakha
 	}
-	1291.1.1 = {
-		holder = 125525
-	}
-	1295.1.1 = {
-		holder = 125522
-	}
-	1295.8.1 = {
-		holder = 125524
-	}
-	1304.5.11 = {
-		holder = 478007
-	}
-	1316.12.16 = {
-		holder = 478006
-	}	
-	1320.1.1 = {
-		holder = 93307
-	}
-	1330.1.1 = {
-		holder = 478040
+	1346.2.8 = {
+		holder = 217264 # Fictional, Oronartai
 	}
 
 }
@@ -348,6 +309,18 @@ c_ninive = {
 	874.1.1 = {
 		liege = 0
 	}
+
+	# Uqaylids
+	991.1.1 = {
+		holder = 159391 # Abu'l Dhawwad Muhammad al-Uqayli
+	}
+	996.1.1 = {
+		holder = 159392 # Abu Hasan al-Muqallad Husam al-Dawlah al-Uqayli
+	}
+	1001.1.1 = {
+		holder = 3816 # Mu'tamid al-Dawlah Kirwash al-Uqayli
+	}
+
 	1066.1.1 = {
 		liege = "d_diyarrabia"
 	}
@@ -393,49 +366,26 @@ c_ninive = {
 	1222.1.1 = {
 		holder = 93315
 	}
-	1259.1.1 = {
-		holder = 93316
-	}
-	1260.1.1 = {
-		holder = 478011
-	}
-	1265.2.8 = {
-		holder = 478010
-	}
-	1282.1.1 = {
-		holder = 125523
-	}
-	1284.1.1 = {
-		holder = 478008
-	}
-	1291.1.1 = {
-		holder = 125525
-	}
-	1295.1.1 = {
-		holder = 125522
-	}
-	1295.8.1 = {
-		holder = 125524
-	}
-	1304.5.11 = {
-		holder = 478007
-	}
-	1316.12.16 = {
-		holder = 478006
-	}
-	1320.1.1 = {
+	# Jalayir Mongol
+	1254.1.1 = {
 		liege = "e_ilkhanate"
-	}	
-	1335.12.1 = {
-		holder = 125528
+		holder = jalayir_general_01
 	}
-	1336.4.10 = {
-		holder = 478000
+	1258.1.1 = {
+		holder = 217259 # Fictional, Buzurg
 	}
-	1336.7.24 = {
-		holder = 478030
+	1272.4.7 = {
+		holder = 217260 # Fictional, Munglig
 	}
-
+	1304.12.14 = {
+		holder = 217261 # Fictional, Agbuga
+	}
+	1342.8.11 = {
+		holder = 217263 # Fictional, Ibakha
+	}
+	1346.2.8 = {
+		holder = 217264 # Fictional, Oronartai
+	}
 }
 
 
@@ -459,6 +409,18 @@ c_sinjar = {
 	874.1.1 = {
 		liege = 0
 	}
+
+	# Uqaylids
+	991.1.1 = {
+		holder = 159391 # Abu'l Dhawwad Muhammad al-Uqayli
+	}
+	996.1.1 = {
+		holder = 159392 # Abu Hasan al-Muqallad Husam al-Dawlah al-Uqayli
+	}
+	1001.1.1 = {
+		holder = 3816 # Mu'tamid al-Dawlah Kirwash al-Uqayli
+	}
+	
 	1066.1.1 = {
 		liege = "d_diyarrabia"
 	}
@@ -525,43 +487,26 @@ c_sinjar = {
 	1222.1.1 = {
 		holder = 93315
 	}
-	1259.1.1 = {
-		holder = 93316
+	# Jalayir Mongol
+	1254.1.1 = {
+		liege = "e_ilkhanate"
+		holder = jalayir_general_01
 	}
-	1260.1.1 = {
-		holder = 478011
+	1258.1.1 = {
+		holder = 217259 # Fictional, Buzurg
 	}
-	1265.2.8 = {
-		holder = 478010
+	1272.4.7 = {
+		holder = 217260 # Fictional, Munglig
 	}
-	1282.1.1 = {
-		holder = 125523
+	1304.12.14 = {
+		holder = 217261 # Fictional, Agbuga
 	}
-	1284.1.1 = {
-		holder = 478008
+	1342.8.11 = {
+		holder = 217263 # Fictional, Ibakha
 	}
-	1291.1.1 = {
-		holder = 125525
+	1346.2.8 = {
+		holder = 217264 # Fictional, Oronartai
 	}
-	1295.1.1 = {
-		holder = 125522
-	}
-	1295.8.1 = {
-		holder = 125524
-	}
-	1304.5.11 = {
-		holder = 478007
-	}
-	1316.12.16 = {
-		holder = 478006
-	}	
-	1320.1.1 = {
-		holder = 93307
-	}
-	1330.1.1 = {
-		holder = 478040
-	}
-
 }
 
 
@@ -583,6 +528,18 @@ c_nasibin = {
 		holder = 163133
 		liege = d_diyarrabia
 	}
+
+	# Uqaylids
+	991.1.1 = {
+		holder = 159391 # Abu'l Dhawwad Muhammad al-Uqayli
+	}
+	996.1.1 = {
+		holder = 159392 # Abu Hasan al-Muqallad Husam al-Dawlah al-Uqayli
+	}
+	1001.1.1 = {
+		holder = 3816 # Mu'tamid al-Dawlah Kirwash al-Uqayli
+	}
+
 	1066.1.1 = {
 		holder = 144016
 	}
@@ -625,49 +582,26 @@ c_nasibin = {
 	1222.1.1 = {
 		holder = 93315
 	}
-	1259.1.1 = {
-		holder = 93316
-	}
-	1260.1.1 = {
-		holder = 478011
-	}
-	1265.2.8 = {
-		holder = 478010
-	}
-	1282.1.1 = {
-		holder = 125523
-	}
-	1284.1.1 = {
-		holder = 478008
-	}
-	1291.1.1 = {
-		holder = 125525
-	}
-	1295.1.1 = {
-		holder = 125522
-	}
-	1295.8.1 = {
-		holder = 125524
-	}
-	1304.5.11 = {
-		holder = 478007
-	}
-	1316.12.16 = {
-		holder = 478006
-	}
-	1320.1.1 = {
+	# Jalayir Mongol
+	1254.1.1 = {
 		liege = "e_ilkhanate"
-	}	
-	1335.12.1 = {
-		holder = 125528
+		holder = jalayir_general_01
 	}
-	1336.4.10 = {
-		holder = 478000
+	1258.1.1 = {
+		holder = 217259 # Fictional, Buzurg
 	}
-	1336.7.24 = {
-		holder = 478030
+	1272.4.7 = {
+		holder = 217260 # Fictional, Munglig
 	}
-	
+	1304.12.14 = {
+		holder = 217261 # Fictional, Agbuga
+	}
+	1342.8.11 = {
+		holder = 217263 # Fictional, Ibakha
+	}
+	1346.2.8 = {
+		holder = 217264 # Fictional, Oronartai
+	}
 
 }
 
@@ -695,6 +629,18 @@ c_khabur = {
 	#877.1.1 = {
 	#	liege = 0
 	#}
+
+	# Uqaylids
+	991.1.1 = {
+		holder = 159391 # Abu'l Dhawwad Muhammad al-Uqayli
+	}
+	996.1.1 = {
+		holder = 159392 # Abu Hasan al-Muqallad Husam al-Dawlah al-Uqayli
+	}
+	1001.1.1 = {
+		holder = 3816 # Mu'tamid al-Dawlah Kirwash al-Uqayli
+	}
+
 	1066.1.1 = {
 		liege = "d_aleppo"
 	}
@@ -761,6 +707,18 @@ c_upper_khabur = {
 	874.1.1 = {
 		liege = 0
 	}
+
+	# Uqaylids
+	991.1.1 = {
+		holder = 159391 # Abu'l Dhawwad Muhammad al-Uqayli
+	}
+	996.1.1 = {
+		holder = 159392 # Abu Hasan al-Muqallad Husam al-Dawlah al-Uqayli
+	}
+	1001.1.1 = {
+		holder = 3816 # Mu'tamid al-Dawlah Kirwash al-Uqayli
+	}
+
 	1066.1.1 = {
 		liege = "d_diyarrabia"
 	}
@@ -893,6 +851,18 @@ c_edessa = {
 	860.1.1 = {
 		holder = 159736
 	}
+
+	# Uqaylids
+	991.1.1 = {
+		holder = 159391 # Abu'l Dhawwad Muhammad al-Uqayli
+	}
+	996.1.1 = {
+		holder = 159392 # Abu Hasan al-Muqallad Husam al-Dawlah al-Uqayli
+	}
+	1001.1.1 = {
+		holder = 3816 # Mu'tamid al-Dawlah Kirwash al-Uqayli
+	}
+	
 	1066.1.1 = {
 		holder = 20738
 	}
@@ -1196,6 +1166,18 @@ d_diyarmudar = {
 	999.1.1 = {
 		holder = 159174
 	}
+
+	# Uqaylids
+	991.1.1 = {
+		holder = 159391 # Abu'l Dhawwad Muhammad al-Uqayli
+	}
+	996.1.1 = {
+		holder = 159392 # Abu Hasan al-Muqallad Husam al-Dawlah al-Uqayli
+	}
+	1001.1.1 = {
+		holder = 3816 # Mu'tamid al-Dawlah Kirwash al-Uqayli
+	}
+
 	1039.1.1 = {
 		holder = 159176
 	}
@@ -1242,6 +1224,18 @@ c_raqqa = {
 	877.1.1 = {
 		liege = 0
 	}
+
+	# Uqaylids
+	991.1.1 = {
+		holder = 159391 # Abu'l Dhawwad Muhammad al-Uqayli
+	}
+	996.1.1 = {
+		holder = 159392 # Abu Hasan al-Muqallad Husam al-Dawlah al-Uqayli
+	}
+	1001.1.1 = {
+		holder = 3816 # Mu'tamid al-Dawlah Kirwash al-Uqayli
+	}
+	
 	1066.1.1 = {
 		liege = "d_aleppo"
 	}
@@ -1297,6 +1291,18 @@ d_diyarbakr = {
 		liege = 0
 		holder = 0
 	}
+	
+	# Uqaylids
+	991.1.1 = {
+		holder = 159391 # Abu'l Dhawwad Muhammad al-Uqayli
+	}
+	996.1.1 = {
+		holder = 159392 # Abu Hasan al-Muqallad Husam al-Dawlah al-Uqayli
+	}
+	1001.1.1 = {
+		holder = 1500099 # Abu'l-Fadl Badran ibn al-Muqallad al-Uqayli
+		liege = d_diyarrabia
+	}
 }
 
 
@@ -1335,6 +1341,19 @@ c_tall_basma = {
 	968.1.1 = {
 		liege = "d_mesopotamia"
 	}
+	
+	# Uqaylids
+	991.1.1 = {
+		holder = 159391 # Abu'l Dhawwad Muhammad al-Uqayli
+	}
+	996.1.1 = {
+		holder = 159392 # Abu Hasan al-Muqallad Husam al-Dawlah al-Uqayli
+	}
+	1001.1.1 = {
+		holder = 1500099 # Abu'l-Fadl Badran ibn al-Muqallad al-Uqayli
+		liege = d_diyarrabia
+	}
+
 	1060.1.1 = {
 		holder = 85001
 	}
@@ -1402,6 +1421,18 @@ c_hakkari = {
 		liege = 0
 	}
 	
+	# Uqaylids
+	991.1.1 = {
+		holder = 159391 # Abu'l Dhawwad Muhammad al-Uqayli
+	}
+	996.1.1 = {
+		holder = 159392 # Abu Hasan al-Muqallad Husam al-Dawlah al-Uqayli
+	}
+	1001.1.1 = {
+		holder = 1500099 # Abu'l-Fadl Badran ibn al-Muqallad al-Uqayli
+		liege = d_diyarrabia
+	}
+	
 	1066.1.1 = {
 		liege = "d_diyarrabia"
 	}
@@ -1447,12 +1478,12 @@ c_hakkari = {
 	1222.1.1 = {
 		holder = 93315
 	}
-	1259.1.1 = {
-		holder = 93316
+	
+	1254.1.1 = {
+		holder = 166926 # Sabukhtai Toluid, maybe
+		liege = "e_ilkhanate"
 	}
-	1260.1.1 = {
-		holder = 478011
-	}
+
 	1265.2.8 = {
 		holder = 478010
 	}
@@ -1529,6 +1560,19 @@ c_mayyafariqin = {
 	968.1.1 = {
 		liege = "d_mesopotamia"
 	}
+	
+	# Uqaylids
+	991.1.1 = {
+		holder = 159391 # Abu'l Dhawwad Muhammad al-Uqayli
+	}
+	996.1.1 = {
+		holder = 159392 # Abu Hasan al-Muqallad Husam al-Dawlah al-Uqayli
+	}
+	1001.1.1 = {
+		holder = 1500099 # Abu'l-Fadl Badran ibn al-Muqallad al-Uqayli
+		liege = d_diyarrabia
+	}
+	
 	1060.1.1 = {
 		holder = 85001
 	}
@@ -1608,6 +1652,19 @@ c_bakriya = {
 	968.1.1 = {
 		liege = "d_mesopotamia"
 	}
+	
+	# Uqaylids
+	991.1.1 = {
+		holder = 159391 # Abu'l Dhawwad Muhammad al-Uqayli
+	}
+	996.1.1 = {
+		holder = 159392 # Abu Hasan al-Muqallad Husam al-Dawlah al-Uqayli
+	}
+	1001.1.1 = {
+		holder = 1500099 # Abu'l-Fadl Badran ibn al-Muqallad al-Uqayli
+		liege = d_diyarrabia
+	}
+	
 	1060.1.1 = {
 		holder = 85001
 	}
@@ -1678,6 +1735,19 @@ c_amida = {
 	852.1.1 = {
 		holder = levantine000003
 	}
+	
+	# Uqaylids
+	991.1.1 = {
+		holder = 159391 # Abu'l Dhawwad Muhammad al-Uqayli
+	}
+	996.1.1 = {
+		holder = 159392 # Abu Hasan al-Muqallad Husam al-Dawlah al-Uqayli
+	}
+	1001.1.1 = {
+		holder = 1500099 # Abu'l-Fadl Badran ibn al-Muqallad al-Uqayli
+		liege = d_diyarrabia
+	}
+	
 	1066.1.1 = {
 		liege = "d_edessa"
 	}
@@ -1753,6 +1823,10 @@ c_rahba = {
 	877.1.1 = {
 		liege = 0
 	}
+	1000.1.1 = {
+		holder = sons_of_al_qadir_001
+		liege = d_sunni
+	}
 	1066.1.1 = {
 		liege = "d_diyarrabia"
 	}
@@ -1773,6 +1847,7 @@ c_rahba = {
 	}
 	1240.1.1 = {
 		holder = 93395
+		liege = 0
 	}
 	1280.1.1 = {
 		holder = 93396
@@ -1815,6 +1890,10 @@ c_hadithat-ana = {
 	877.1.1 = {
 		liege = 0
 	}
+	1000.1.1 = {
+		holder = sons_of_al_qadir_001
+		liege = d_sunni
+	}
 	1066.1.1 = {
 		liege = "d_diyarrabia"
 	}
@@ -1835,6 +1914,7 @@ c_hadithat-ana = {
 	}
 	1240.1.1 = {
 		holder = 93395
+		liege = 0
 	}
 	1280.1.1 = {
 		holder = 93396
@@ -1988,6 +2068,42 @@ c_al-haditha = {
 
 }
 
+d_kurdistan = {
+	
+	# Hadhabani tribe
+	905.1.1 = {
+		holder = 159170
+	}
+	942.1.1 = {
+		holder = 159172
+	}
+	999.1.1 = {
+		holder = 159174
+	}
+	1039.1.1 = {
+		holder = 159176
+	}
+	1044.1.1 = {
+		holder = 159177
+	}
+	1045.1.1 = {
+		holder = 159179
+	}
+	1046.1.1 = {
+		holder = 159180
+	}
+	1048.1.1 = {
+		holder = 159181
+	}
+	1063.1.1 = {
+		holder = 159182
+	}
+	
+	1254.1.1 = {
+		holder = 166926 # Sabukhtai Toluid, maybe
+		liege = "e_ilkhanate"
+	}
+}
 
 c_kurdistan = {
 	765.1.1 = {
@@ -1999,11 +2115,40 @@ c_kurdistan = {
 		liege = "d_diyarbakr"
 	}
 	866.1.1 = {
-		holder = kurdish0001
+		holder = 1231420 # Hisen, previously kurdish0001
 		liege = d_diyarrabia
 	}
 	880.1.1 = {
 		liege = 0
+	}
+	
+	# Hadhabani tribe
+	905.1.1 = {
+		holder = 159170
+	}
+	942.1.1 = {
+		holder = 159172
+	}
+	999.1.1 = {
+		holder = 159174
+	}
+	1039.1.1 = {
+		holder = 159176
+	}
+	1044.1.1 = {
+		holder = 159177
+	}
+	1045.1.1 = {
+		holder = 159179
+	}
+	1046.1.1 = {
+		holder = 159180
+	}
+	1048.1.1 = {
+		holder = 159181
+	}
+	1063.1.1 = {
+		holder = 159182
 	}
 	
 	1066.1.1 = {
@@ -2051,12 +2196,12 @@ c_kurdistan = {
 	1222.1.1 = {
 		holder = 93315
 	}
-	1259.1.1 = {
-		holder = 93316
+
+	1254.1.1 = {
+		holder = 166926 # Sabukhtai Toluid, maybe
+		liege = "e_ilkhanate"
 	}
-	1260.1.1 = {
-		holder = 478011
-	}
+
 	1265.2.8 = {
 		holder = 478010
 	}
@@ -2110,6 +2255,36 @@ c_irbil = {
 	874.1.1 = {
 		liege = 0
 	}
+	
+	# Hadhabani tribe
+	905.1.1 = {
+		holder = 159170
+	}
+	942.1.1 = {
+		holder = 159172
+	}
+	999.1.1 = {
+		holder = 159174
+	}
+	1039.1.1 = {
+		holder = 159176
+	}
+	1044.1.1 = {
+		holder = 159177
+	}
+	1045.1.1 = {
+		holder = 159179
+	}
+	1046.1.1 = {
+		holder = 159180
+	}
+	1048.1.1 = {
+		holder = 159181
+	}
+	1063.1.1 = {
+		holder = 159182
+	}
+	
 	1066.1.1 = {
 		liege = "d_diyarrabia"
 	}
@@ -2176,11 +2351,9 @@ c_irbil = {
 	1222.1.1 = {
 		holder = 93315
 	}
-	1259.1.1 = {
-		holder = 93316
-	}
-	1260.1.1 = {
-		holder = 478011
+	1254.1.1 = {
+		holder = 166925 # Satukhtai Toluid, maybe
+		liege = "e_ilkhanate"
 	}
 	1265.2.8 = {
 		holder = 478010
@@ -2224,6 +2397,35 @@ c_shahrazur = {
 	866.1.1 = {
 		liege = e_arabia
 		holder = 34014
+	}
+	
+	# Hadhabani tribe
+	905.1.1 = {
+		holder = 159170
+	}
+	942.1.1 = {
+		holder = 159172
+	}
+	999.1.1 = {
+		holder = 159174
+	}
+	1039.1.1 = {
+		holder = 159176
+	}
+	1044.1.1 = {
+		holder = 159177
+	}
+	1045.1.1 = {
+		holder = 159179
+	}
+	1046.1.1 = {
+		holder = 159180
+	}
+	1048.1.1 = {
+		holder = 159181
+	}
+	1063.1.1 = {
+		holder = 159182
 	}
 	
 	1066.1.1 = {
@@ -2294,12 +2496,12 @@ c_shahrazur = {
 	1222.1.1 = {
 		holder = 93315
 	}
-	1259.1.1 = {
-		holder = 93316
+
+	1254.1.1 = {
+		holder = 166926 # Sabukhtai Toluid, maybe
+		liege = "e_ilkhanate"
 	}
-	1260.1.1 = {
-		holder = 478011
-	}
+
 	1265.2.8 = {
 		holder = 478010
 	}

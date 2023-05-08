@@ -49,6 +49,22 @@ k_syria = {
 	750.1.20 = {
 		holder = 0
 	}
+
+	1093.1.1 = { #Tutush proclaimed sultan in Baghdad
+		holder = 3044
+	}
+	1095.1.1 = {
+		holder = 0
+	}
+	1250.5.1 = {
+		holder = 144082 # An-Nasir Yusuf refuses to recognise the new Mamluk regime under Shajar al-Durr
+	}
+	# Mongol invasion
+	1260.1.1 = {
+		liege = 0
+		holder = 0
+	}
+
 }
 
 d_aleppo = {
@@ -62,8 +78,95 @@ d_aleppo = {
 	900.1.1 = {
 		holder = 163134
 	}
-	1066.1.1 = {
+
+	936.1.1 = { #936-937, Muhammad al-Ikhshid installs Abu 'l-Abbas Ahmad al-Kilabi as emir of Aleppo
+		holder = 261325 # Ahmad ibn Sa'id al-Kilabi
+	}	
+	944.1.1 = {
+		liege = 0
+		holder = 260824 # Sayf-al-Dawla Hamdanid
+	}
+	967.1.1 = {
+		holder = 1234874
+	}
+	969.1.1 = {
+
+		liege = e_byzantium
+			
+	}
+	991.1.1 = {
+		holder = 1234875
+	}
+	1002.1.1 = {
+		holder = 1234876
+	}
+	1004.1.1 = {
+		holder = 1234878
+	}
+	1009.1.1 = {
+		holder = 1234879
+	}
+	1016.1.1 = {
+		
+		liege = k_egypt
+		holder = 1234926
+	}
+	1016.6.1 = {
+		holder = 1234587
+	}
+	
+	1020.1.1 = { #Fatik becomes virtually independent
+		liege = 0
+	}
+	1022.7.6 = {
+		liege = k_egypt
+		holder = 1600508
+	}
+	1023.4.10 = {
+		holder = 1600501
+	}
+	1024.7.2 = {
+		holder = 1600500
+	}
+	1025.1.18 = {
+		liege = 0
+		holder = 159270
+	}
+	1029.1.1 = {
+		holder = 159271
+	}
+	1038.1.1 = {
+
+		liege = k_egypt
+		holder = 3096
+	}
+	1042.1.1 = {
+		liege = 0
+		holder = 159273
+	}
+	1050.1.1 = {
+		liege = k_egypt
+	}
+	1057.1.1 = {
+		holder = 3096
+	}
+	1060.1.1 = {
+		liege = 0
 		holder = 20743
+	}
+	1061.1.1 = {
+		liege = k_egypt
+		holder = 159273
+	}
+	1062.1.1 = {
+		holder = 159272
+	}
+	1065.1.1 = {
+		holder = 20743
+	}
+
+	1066.1.1 = {
+		#holder = 20743
 		liege = "k_persia"
 	}
 	1075.1.1 = {
@@ -207,9 +310,75 @@ c_aleppo = {
 		liege = "d_aleppo"
 		holder = 159738
 	}
-	1066.1.1 = {
+
+	936.1.1 = {
+		liege = d_aleppo
+		holder = 261325 # Ahmad ibn Sa'id al-Kilabi
+	}
+	944.1.1 = {
+		holder = 260824 # Sayf-al-Dawla Hamdanid
+	}
+	967.1.1 = {
+		holder = 1234874
+	}
+	991.1.1 = {
+		holder = 1234875
+	}
+	1002.1.1 = {
+		holder = 1234876
+	}
+	1004.1.1 = {
+		holder = 1234878
+	}
+	1009.1.1 = {
+		holder = 1234879
+	}
+	1016.1.1 = {
+		holder = 1234926
+	}
+	1016.6.1 = {
+		holder = 1234587
+	}
+	1022.7.6 = {
+		holder = 1600508
+	}
+	1023.4.10 = {
+		holder = 1600501
+	}
+	1024.7.2 = {
+		holder = 1600500
+	}
+	1025.1.18 = {
+		holder = 159270
+	}
+	1029.1.1 = {
+		holder = 159271
+	}
+	1038.1.1 = {
+		holder = 3096
+	}
+	1042.1.1 = {
+		holder = 159273
+	}
+	1057.1.1 = {
+		holder = 3096
+	}
+	1060.1.1 = {
 		holder = 20743
 	}
+	1061.1.1 = {
+		holder = 159273
+	}
+	1062.1.1 = {
+		holder = 159272
+	}
+	1065.1.1 = {
+		holder = 20743
+	}
+
+	#1066.1.1 = {
+	#	holder = 20743
+	#}
 	1075.1.1 = {
 		holder = 144018
 	}
@@ -408,9 +577,74 @@ c_syrrusafa = {
 	860.1.1 = {
 		holder = 159738
 	}
-	1066.1.1 = {
+
+	936.1.1 = {
+		holder = 260826 # Uthman ibn Sa'id al-Kilabi
+	}
+	944.1.1 = {
+		holder = 260824 # Sayf-al-Dawla Hamdanid
+	}
+	967.1.1 = {
+		holder = 1234874
+	}
+	991.1.1 = {
+		holder = 1234875
+	}
+	1002.1.1 = {
+		holder = 1234876
+	}
+	1004.1.1 = {
+		holder = 1234878
+	}
+	1009.1.1 = {
+		holder = 1234879
+	}
+	1016.1.1 = {
+		holder = 1234926
+	}
+	1016.6.1 = {
+		holder = 1234587
+	}
+	1022.7.6 = {
+		holder = 1600508
+	}
+	1023.4.10 = {
+		holder = 1600501
+	}
+	1024.7.2 = {
+		holder = 1600500
+	}
+	1025.1.18 = {
+		holder = 159270
+	}
+	1029.1.1 = {
+		holder = 159271
+	}
+	1038.1.1 = {
+		holder = 3096
+	}
+	1042.1.1 = {
+		holder = 159273
+	}
+	1057.1.1 = {
+		holder = 3096
+	}
+	1060.1.1 = {
 		holder = 20743
 	}
+	1061.1.1 = {
+		holder = 159273
+	}
+	1062.1.1 = {
+		holder = 159272
+	}
+	1065.1.1 = {
+		holder = 20743
+	}
+
+	#1066.1.1 = {
+	#	holder = 20743
+	#}
 	1075.1.1 = {
 		holder = 144018
 	}
@@ -512,12 +746,74 @@ c_qinnasrin = {
 	860.1.1 = {
 		holder = 159738
 	}
-	1066.1.1 = {
-		liege = "d_aleppo"
+	
+	936.1.1 = {
+		holder = 260826 # Uthman ibn Sa'id al-Kilabi
 	}
-	1066.1.1 = {
-		holder = 20747
+	944.1.1 = {
+		holder = 260824 # Sayf-al-Dawla Hamdanid
 	}
+	967.1.1 = {
+		holder = 1234874
+	}
+	991.1.1 = {
+		holder = 1234875
+	}
+	1002.1.1 = {
+		holder = 1234876
+	}
+	1004.1.1 = {
+		holder = 1234878
+	}
+	1009.1.1 = {
+		holder = 1234879
+	}
+	1016.1.1 = {
+		holder = 1234926
+	}
+	1016.6.1 = {
+		holder = 1234587
+	}
+	1022.7.6 = {
+		holder = 1600508
+	}
+	1023.4.10 = {
+		holder = 1600501
+	}
+	1024.7.2 = {
+		holder = 1600500
+	}
+	1025.1.18 = {
+		holder = 159270
+	}
+	1029.1.1 = {
+		holder = 159271
+	}
+	1038.1.1 = {
+		holder = 3096
+	}
+	1042.1.1 = {
+		holder = 159273
+	}
+	1057.1.1 = {
+		holder = 3096
+	}
+	1060.1.1 = {
+		holder = 20743
+	}
+	1061.1.1 = {
+		holder = 159273
+	}
+	1062.1.1 = {
+		holder = 159272
+	}
+	1065.1.1 = {
+		holder = 20743
+	}
+
+	#1066.1.1 = {
+	#	holder = 20743
+	#}
 	1100.1.1 = {
 		liege = "d_hashshashin"
 		holder = 144225
@@ -584,27 +880,51 @@ d_edessa = {
 	900.1.1 = {
 		holder = 163134
 	}
-	983.1.1= {
-	    liege=0
-		holder=159143
+
+	983.1.1 = {
+		holder = 159143
 	}
-	990.1.1= {
-		holder=159145
+	990.1.1 = {
+		liege = 0
+		holder = 1234880
 	}
-	997.1.1= {
-		holder=159146
+	1019.1.1 = {
+		holder = 1234881
 	}
-	1010.1.1= {
-		holder=0
+	1025.1.18 = {
+		holder = 1234928
 	}
-	1011.1.1= {
-		holder=159147
+	1030.1.1 = {
+		holder = 1234930
 	}
-	1061.1.1= {
-		holder=20738
+	1031.1.1 = {
+		liege = e_byzantium
+		holder = 1232274
 	}
+	1035.1.1 = {
+		holder = 1232331
+	}
+	1053.1.1 = {
+		holder = 90089
+	}
+	1057.1.1 = {
+		holder = 20516
+	}
+	1059.1.1 = {
+		holder = 1740
+	}
+	1062.1.1 = {
+		holder = 7242
+	}
+	1064.1.1 = {
+		holder = 1232148
+	}
+	1066.1.1 = {
+		holder = 1232151
+	}
+
 	1066.1.1= {
-		holder=20738
+		#holder=20738
 		liege="k_persia"
 	}
 	1077.1.1= {
@@ -696,6 +1016,68 @@ c_samosata = {
 	962.1.1 = {
 		liege = "d_armeniac"
 	}
+
+	907.1.1 = {
+		holder = 159726
+	}
+	934.1.1 = {
+		liege = e_byzantium
+		holder = 1706
+	}
+	936.1.1 = {
+		liege = d_coloneia
+		holder = 145173 # Ioannes Kourkouas, Domestic of the Schools 923-945
+	}
+	944.12.16 = {
+		liege = e_byzantium
+		holder = 145223
+	}
+	945.1.27 = {
+		holder = 1708
+	}
+	950.1.1 = {
+		liege = d_dzopk
+		holder = 145174 # Romanos Kourkouas, based on sigillography he likely served as Strategos of Mesopotamia, like his uncle Theophilos Kourkouas and John Tzimiskes. Served as Stratelates of the East in 963 upon Nikephoros Phokas taking the throne
+	}
+	963.3.15 = {
+		liege = e_byzantium
+		holder = 1712
+	}
+	969.12.10 = {
+		holder = 1714
+	}
+	976.1.10 = {
+		holder = 1716
+	}
+
+	# Uqaylids
+	991.1.1 = {
+		holder = 159391 # Abu'l Dhawwad Muhammad al-Uqayli
+	}
+	996.1.1 = {
+		holder = 159392 # Abu Hasan al-Muqallad Husam al-Dawlah al-Uqayli
+	}
+	1001.1.1 = {
+		holder = 3816 # Mu'tamid al-Dawlah Kirwash al-Uqayli
+	}
+	
+	1028.1.1 = {
+		holder = 1500397
+	}
+	1042.1.1 = {
+		liege = d_melitene
+		holder = 70435
+	}
+	1047.1.1 = {
+		holder = 1500394
+	}
+	1054.1.1 = {
+		holder = 1232314
+	}
+	1064.1.1 = {
+		holder = 1232176
+	}
+
 	1066.1.1 = {
 		liege = "d_edessa"
 	}
@@ -789,12 +1171,88 @@ c_marash = {
 	806.1.1 = {
 		liege = "d_edessa"
 	}
-	860.1.1 = {
-		holder = 159736
+	865.1.1 = {
+		liege = d_cilicia
+		holder = 1234558
+	}
+	913.1.1 = {
+		holder = 1230686 # Bishr al-Afshini
+	}
+	936.1.1 = {
+		holder = 260827 # Bushra al-Thamali, wali of Tarsus after the death of Thamal al-Dulafi
+	}
+	941.1.1 = {
+		liege = d_aleppo
+		holder = 260828 # Nasr al-Thalimi, wali of Tarsus
+	}
+	954.1.1 = {
+		holder = 1900846 # az-Zayyat, wali of Tarsus
 	}
 	962.1.1 = {
-		liege = "d_armeniac"
+		holder = 1900847 # Rashiq al-Nasimi, wali of Tarsus
 	}
+	962.9.1 = {
+		liege = e_byzantium
+		holder = 1710
+	}
+	963.3.15 = {
+		holder = 1712
+	}
+	969.12.10 = {
+		holder = 1712
+	}
+	969.12.10 = {
+		holder = 1714
+	}
+	970.1.1 = {
+		liege = d_cilicia
+		holder = 1232456 # Eustathios Maleinos, Was transferred from Antioch to become Strategos of Tarsos in 970, maintained the position until the end of the Skleros Rebellion
+	}
+	979.1.1 = {
+		holder = 1900806 # Oubeïdallah, Governor of Antioch
+	}
+	989.1.1 = {
+		holder = 1232207 # Michael Bourtzes
+	}
+	992.1.1 = {
+		liege = e_byzantium
+		holder = 1500496
+	}
+
+	# Uqaylids
+	991.1.1 = {
+		holder = 159391 # Abu'l Dhawwad Muhammad al-Uqayli
+	}
+	996.1.1 = {
+		holder = 159392 # Abu Hasan al-Muqallad Husam al-Dawlah al-Uqayli
+	}
+	1001.1.1 = {
+		holder = 3816 # Mu'tamid al-Dawlah Kirwash al-Uqayli
+	}
+	
+	1011.1.1 = {
+		liege = d_cilicia
+		holder = 1232269
+	}
+	1015.1.1 = {
+		holder = 1232511
+	}
+	1038.1.1 = {
+		holder = 1232158
+	}
+	1048.1.1 = {
+		holder = 90091
+	}
+	1056.1.1 = {
+		holder = 20516
+	}
+	1059.1.1 = {
+		holder = 1232317
+	}
+	1060.1.1 = {
+		holder = 41568
+	}
+
 	1066.1.1 = {
 		liege = "d_edessa"
 	}
@@ -891,9 +1349,92 @@ c_aintab = {
 	860.1.1 = {
 		holder = 159736
 	}
-	962.1.1 = {
-		liege = "d_cilicia"
+
+	936.1.1 = { #936-937, Muhammad al-Ikhshid installs Abu 'l-Abbas Ahmad al-Kilabi as emir of Aleppo
+		holder = 261325 # Ahmad ibn Sa'id al-Kilabi
+	}	
+	944.1.1 = {
+		liege = 0
+		holder = 260824 # Sayf-al-Dawla Hamdanid
 	}
+	967.1.1 = {
+		holder = 1234874
+	}
+	969.1.1 = {
+
+		liege = e_byzantium
+			
+	}
+	991.1.1 = {
+		holder = 1234875
+	}
+	1002.1.1 = {
+		holder = 1234876
+	}
+	1004.1.1 = {
+		holder = 1234878
+	}
+	1009.1.1 = {
+		holder = 1234879
+	}
+	1016.1.1 = {
+		
+		liege = k_egypt
+		holder = 1234926
+	}
+	1016.6.1 = {
+		holder = 1234587
+	}
+	1020.1.1 = { #Fatik becomes virtually independent
+		liege = 0
+	}
+	1022.7.6 = {
+		liege = k_egypt
+		holder = 1600508
+	}
+	1023.4.10 = {
+		holder = 1600501
+	}
+	1024.7.2 = {
+		holder = 1600500
+	}
+	1025.1.18 = {
+		liege = 0
+		holder = 159270
+	}
+	1029.1.1 = {
+		holder = 159271
+	}
+	1038.1.1 = {
+
+		liege = k_egypt
+		holder = 3096
+	}
+	1042.1.1 = {
+		liege = 0
+		holder = 159273
+	}
+	1050.1.1 = {
+		liege = k_egypt
+	}
+	1057.1.1 = {
+		holder = 3096
+	}
+	1060.1.1 = {
+		liege = 0
+		holder = 20743
+	}
+	1061.1.1 = {
+		liege = k_egypt
+		holder = 159273
+	}
+	1062.1.1 = {
+		holder = 159272
+	}
+	1065.1.1 = {
+		holder = 20743
+	}
+
 	1066.1.1 = {
 		liege = "d_edessa"
 	}
@@ -1013,6 +1554,74 @@ c_homs = {
 		holder = levantine000010
 		liege = e_arabia
 	}
+
+	888.1.1 = {
+		holder = 0
+	}
+	936.1.1 = {
+		holder = 260826 # Uthman ibn Sa'id al-Kilabi
+	}
+	944.1.1 = {
+		holder = 260824 # Sayf-al-Dawla Hamdanid
+	}
+	967.1.1 = {
+		holder = 1234874
+	}
+	991.1.1 = {
+		holder = 1234875
+	}
+	1002.1.1 = {
+		holder = 1234876
+	}
+	1004.1.1 = {
+		holder = 1234878
+	}
+	1009.1.1 = {
+		holder = 1234879
+	}
+	1016.1.1 = {
+		holder = 1234926
+	}
+	1016.6.1 = {
+		holder = 1234587
+	}
+	1022.7.6 = {
+		holder = 1600508
+	}
+	1023.4.10 = {
+		holder = 1600501
+	}
+	1024.7.2 = {
+		holder = 1600500
+	}
+	1025.1.18 = {
+		holder = 159270
+	}
+	1029.1.1 = {
+		holder = 159271
+	}
+	1038.1.1 = {
+		holder = 3096
+	}
+	1042.1.1 = {
+		holder = 159273
+	}
+	1057.1.1 = {
+		holder = 3096
+	}
+	1060.1.1 = {
+		holder = 20743
+	}
+	1061.1.1 = {
+		holder = 159273
+	}
+	1062.1.1 = {
+		holder = 159272
+	}
+	1065.1.1 = {
+		holder = 20743
+	}
+
 	1066.1.1 = {
 		holder = 20745
 		liege = "d_aleppo"
@@ -1120,6 +1729,92 @@ c_shayzar = {
 	860.1.1 = {
 		holder = 159737
 	}
+
+	936.1.1 = { #936-937, Muhammad al-Ikhshid installs Abu 'l-Abbas Ahmad al-Kilabi as emir of Aleppo
+		holder = 261325 # Ahmad ibn Sa'id al-Kilabi
+	}	
+	944.1.1 = {
+		liege = 0
+		holder = 260824 # Sayf-al-Dawla Hamdanid
+	}
+	967.1.1 = {
+		holder = 1234874
+	}
+	969.1.1 = {
+
+		liege = e_byzantium
+			
+	}
+	991.1.1 = {
+		holder = 1234875
+	}
+	1002.1.1 = {
+		holder = 1234876
+	}
+	1004.1.1 = {
+		holder = 1234878
+	}
+	1009.1.1 = {
+		holder = 1234879
+	}
+	1016.1.1 = {
+		
+		liege = k_egypt
+		holder = 1234926
+	}
+	1016.6.1 = {
+		holder = 1234587
+	}
+	1020.1.1 = { #Fatik becomes virtually independent
+		liege = 0
+	}
+	1022.7.6 = {
+		liege = k_egypt
+		holder = 1600508
+	}
+	1023.4.10 = {
+		holder = 1600501
+	}
+	1024.7.2 = {
+		holder = 1600500
+	}
+	1025.1.18 = {
+		liege = 0
+		holder = 159270
+	}
+	1029.1.1 = {
+		holder = 159271
+	}
+	1038.1.1 = {
+
+		liege = k_egypt
+		holder = 3096
+	}
+	1042.1.1 = {
+		liege = 0
+		holder = 159273
+	}
+	1050.1.1 = {
+		liege = k_egypt
+	}
+	1057.1.1 = {
+		holder = 3096
+	}
+	1060.1.1 = {
+		liege = 0
+		holder = 20743
+	}
+	1061.1.1 = {
+		liege = k_egypt
+		holder = 159273
+	}
+	1062.1.1 = {
+		holder = 159272
+	}
+	1065.1.1 = {
+		holder = 20743
+	}
+
 	1066.1.1 = {
 		holder = 20769
 	}
@@ -1207,6 +1902,71 @@ c_hama = {
 		holder = levantine000010
 		liege = e_arabia
 	}
+
+	936.1.1 = {
+		holder = 260826 # Uthman ibn Sa'id al-Kilabi
+	}
+	944.1.1 = {
+		holder = 260824 # Sayf-al-Dawla Hamdanid
+	}
+	967.1.1 = {
+		holder = 1234874
+	}
+	991.1.1 = {
+		holder = 1234875
+	}
+	1002.1.1 = {
+		holder = 1234876
+	}
+	1004.1.1 = {
+		holder = 1234878
+	}
+	1009.1.1 = {
+		holder = 1234879
+	}
+	1016.1.1 = {
+		holder = 1234926
+	}
+	1016.6.1 = {
+		holder = 1234587
+	}
+	1022.7.6 = {
+		holder = 1600508
+	}
+	1023.4.10 = {
+		holder = 1600501
+	}
+	1024.7.2 = {
+		holder = 1600500
+	}
+	1025.1.18 = {
+		holder = 159270
+	}
+	1029.1.1 = {
+		holder = 159271
+	}
+	1038.1.1 = {
+		holder = 3096
+	}
+	1042.1.1 = {
+		holder = 159273
+	}
+	1057.1.1 = {
+		holder = 3096
+	}
+	1060.1.1 = {
+		holder = 20743
+	}
+	1061.1.1 = {
+		holder = 159273
+	}
+	1062.1.1 = {
+		holder = 159272
+	}
+	1065.1.1 = {
+		holder = 20743
+	}
+
 	1066.1.1 = {
 		holder = 20745
 		liege = "d_aleppo"
@@ -1314,12 +2074,62 @@ d_antioch = {
 	860.1.1 = {
 		holder = 0
 	}
-	969.1.1 = {
+
+	975.1.1 = {
+		holder = 1900807 # Kouleïb, Governor of Antioch
+	}
+	978.1.1 = {
+		holder = 1900806 # Oubeïdallah, Governor of Antioch
+	}
+	989.1.1 = {
+		holder = 1232207 # Michael Bourtzes
 		liege = "e_byzantium"
 	}
-	1060.1.1 = {
-		holder = 1758
+	996.1.1 = {
+		holder = 1232268 # Damian Dalassenos
 	}
+	998.7.19 = {
+		holder = 1500449 # Nikephoros Ouranos
+	}
+	1011.1.1 = {
+		holder = 1232269
+	}
+	1025.1.1 = {
+		holder = 1232208
+	}
+	1030.1.1 = {
+		holder = 1232481
+	}
+	1032.1.1 = {
+		holder = 1232270
+	}
+	1034.1.1 = {
+		holder = 1500373
+	}
+	1035.1.1 = {
+		holder = 1500372
+	}
+	1040.1.1 = {
+		holder = 1232158
+	}
+	1048.1.1 = {
+		holder = 90091
+	}
+	1056.1.1 = {
+		holder = 20516
+	}
+	1059.1.1 = {
+		holder = 1232317
+	}
+	1064.1.1 = {
+		holder = 1232564
+	}
+	1067.1.1 = {
+		holder = 1232502
+	}
+	#1060.1.1 = {
+	#	holder = 1758
+	#}
 	1071.8.26 = {
 		liege = 0
 		holder = 85001
@@ -1456,13 +2266,96 @@ c_antiocheia = {
 	}
 	863.1.1 = {
 		holder = 159730
+	}
+
+	936.1.1 = { #936-937, Muhammad al-Ikhshid installs Abu 'l-Abbas Ahmad al-Kilabi as emir of Aleppo
+		holder = 261325 # Ahmad ibn Sa'id al-Kilabi
 	}	
+	944.1.1 = {
+		liege = 0
+		holder = 260824 # Sayf-al-Dawla Hamdanid
+	}
+	967.1.1 = {
+		holder = 1234874
+	}
 	969.1.1 = {
-		liege = "d_antioch"
+
+		liege = e_byzantium
+			
+	}
+	991.1.1 = {
+		holder = 1234875
+	}
+	1002.1.1 = {
+		holder = 1234876
+	}
+	1004.1.1 = {
+		holder = 1234878
+	}
+	1009.1.1 = {
+		holder = 1234879
+	}
+	1016.1.1 = {
+		
+		liege = k_egypt
+		holder = 1234926
+	}
+	1016.6.1 = {
+		holder = 1234587
+	}
+	1020.1.1 = { #Fatik becomes virtually independent
+		liege = 0
+	}
+	1022.7.6 = {
+		liege = k_egypt
+		holder = 1600508
+	}
+	1023.4.10 = {
+		holder = 1600501
+	}
+	1024.7.2 = {
+		holder = 1600500
+	}
+	1025.1.18 = {
+		liege = 0
+		holder = 159270
+	}
+	1029.1.1 = {
+		holder = 159271
+	}
+	1038.1.1 = {
+
+		liege = k_egypt
+		holder = 3096
+	}
+	1042.1.1 = {
+		liege = 0
+		holder = 159273
+	}
+	1050.1.1 = {
+		liege = k_egypt
+	}
+	1057.1.1 = {
+		holder = 3096
 	}
 	1060.1.1 = {
-		holder = 1758
+		liege = 0
+		holder = 20743
 	}
+	1061.1.1 = {
+		liege = k_egypt
+		holder = 159273
+	}
+	1062.1.1 = {
+		holder = 159272
+	}
+	1065.1.1 = {
+		holder = 20743
+	}
+
+	#1060.1.1 = {
+	#	holder = 1758
+	#}
 	1071.8.26 = {
 		holder = 85001
 	}
@@ -1582,18 +2475,79 @@ c_alexandretta = {
 	862.1.1 = {
 		holder = armenian.000084
 	}
-	900.1.1 = {
-		holder = 163134
+	
+	865.1.1 = {
+		liege = d_cilicia
+		holder = 1234558
 	}
-	966.1.1 = {
-		liege = "e_byzantium"
+	913.1.1 = {
+		holder = 1230686 # Bishr al-Afshini
+	}
+	936.1.1 = {
+		holder = 260828 # Nasr al-Thalimi, wali of Tarsus
+	}
+	954.1.1 = {
+		holder = 1900846 # az-Zayyat, wali of Tarsus
+	}
+	962.1.1 = {
+		holder = 1900847 # Rashiq al-Nasimi, wali of Tarsus
+	}
+	966.5.11 = {
+		holder = 260824 # Sayf-al-Dawla Hamdanid
+	}
+	967.1.1 = {
+		holder = 1234874
 	}
 	969.1.1 = {
-		liege = "d_antioch"
+		liege = d_cilicia
+		holder = 1232456 # Eustathios Maleinos, Was transferred from Antioch to become Strategos of Tarsos in 970, maintained the position until the end of the Skleros Rebellion
+	}
+	979.1.1 = {
+		holder = 1900806 # Oubeïdallah, Governor of Antioch
+	}
+	989.1.1 = {
+		holder = 1232207 # Michael Bourtzes
+	}
+	996.1.1 = {
+		holder = 1232268 # Damian Dalassenos
+	}
+	998.7.19 = {
+		holder = 1500449 # Nikephoros Ouranos
+	}
+	1011.1.1 = {
+		holder = 1232269
+	}
+	1025.1.1 = {
+		holder = 1232208
+	}
+	1030.1.1 = {
+		holder = 1232481
+	}
+	1032.1.1 = {
+		holder = 1232270
+	}
+	1034.1.1 = {
+		holder = 1500373
+	}
+	1035.1.1 = {
+		holder = 1500372
+	}
+	1040.1.1 = {
+		holder = 1232158
+	}
+	1048.1.1 = {
+		holder = 90091
+	}
+	1056.1.1 = {
+		holder = 20516
+	}
+	1059.1.1 = {
+		holder = 1232317
 	}
 	1060.1.1 = {
-		holder = 1758
+		holder = 41568
 	}
+
 	1071.8.26 = {
 		holder = 85001
 	}
@@ -1713,10 +2667,29 @@ d_lebanon = {
 	860.1.1 = {
 		holder = 159737
 	}
-	880.1.1 = {
-		holder = 0
-		liege = 0
+
+	866.1.1 = {
+		holder = 1234923
 	}
+	936.1.1 = {
+		liege = k_egypt
+	}
+	939.1.1 = {
+		holder = 1234921
+	}
+	961.1.1 = {
+		holder = 1234895
+	}
+	996.1.1 = {
+		holder = 1234896
+	}
+	1019.1.1 = {
+		holder = 1234898
+	}
+	1038.1.1 = {
+		holder = 1900864
+	}
+
 	1099.7.15 = {
 		liege = "k_jerusalem"
 	}
@@ -1817,6 +2790,49 @@ c_beirut = {
 	877.1.1 = {
 		liege = 0
 	}
+
+	991.1.1 = {
+		liege = k_egypt
+		holder = 1900809 # Manjutakin
+	}
+	996.1.1 = {
+		holder = 1600507 # Sulayman ibn Jafar
+	}
+	997.1.1 = {
+		holder = 1900810 # Bishara al-Ikhshidi
+	}
+	998.1.1 = {
+		holder = 1900811 # Jaysh ibn al-Samsama
+	}
+	1000.1.1 = {
+		holder = 1600507 # Sulayman ibn Jafar
+	}
+	1002.1.1 = {
+		holder = 1600506 # Abu'l-Hasan Ali ibn Jafar
+	}
+	1004.1.1 = {
+		holder = lihyani_001 # Abu Salih Muflih al-Lihyani
+	}
+
+	939.1.1 = {
+		holder = 1234921
+	}
+	961.1.1 = {
+		holder = 1234895
+	}
+	996.1.1 = {
+		holder = 1234896
+	}
+	1019.1.1 = {
+		holder = 1234898
+	}
+	1038.1.1 = {
+		holder = 1234899
+	}
+	1050.1.1 = {
+		holder = 1234897
+	}
+
 	1066.1.1 = {
 		holder = 20772
 	}
@@ -1914,6 +2930,57 @@ c_tripoli = {
 	860.1.1 = {
 		holder = 159737
 	}
+
+	904.1.1 = {
+		holder = 1232475
+	}
+	921.1.1 = {
+		holder = 1234923
+	}
+	939.1.1 = {
+		holder = 1234921
+	}
+	961.1.1 = {
+		holder = 1234895
+	}
+	989.1.1 = {
+		liege = k_egypt
+		holder = 1900811 # Jaysh ibn Samsama, Governor of Tropoli, before being promoted to control Damascus
+	}
+	998.1.1 = {
+		liege = d_lebanon
+		holder = 1234896
+	}
+	1019.1.1 = {
+		holder = 1234898
+	}
+	1038.1.1 = {
+		holder = 1900864
+	}
+
+	991.1.1 = {
+		liege = k_egypt
+		holder = 1900809 # Manjutakin
+	}
+	996.1.1 = {
+		holder = 1600507 # Sulayman ibn Jafar
+	}
+	997.1.1 = {
+		holder = 1900810 # Bishara al-Ikhshidi
+	}
+	998.1.1 = {
+		holder = 1900811 # Jaysh ibn al-Samsama
+	}
+	1000.1.1 = {
+		holder = 1600507 # Sulayman ibn Jafar
+	}
+	1002.1.1 = {
+		holder = 1600506 # Abu'l-Hasan Ali ibn Jafar
+	}
+	1004.1.1 = {
+		holder = lihyani_001 # Abu Salih Muflih al-Lihyani
+	}
+
 	1066.1.1 = {
 		holder = 20769
 	}
@@ -2080,12 +3147,88 @@ d_damascus = {
 	866.1.1 = {
 		holder = 146080
 	}
-	978.1.1 = {
-		liege = "k_egypt"
+
+	870.1.1 = {
+		holder = 1230178
 	}
-	1066.1.1 = {
+	878.1.1 = {
+		holder = 0
+	}
+	931.1.1 = {
+		holder = 260819
+	}
+	935.1.1={
+		holder = 260838 # Abu'l-Fath al-Fadl al-Furat
+	}
+	936.1.1 = {
+		liege = k_egypt
+		holder = 261327 # Muhammad al-Ikhshid leaves for Egypt while his brother Ubaydh Allah remains in Syria
+	}
+	941.1.1 = {
+		holder = 261328 # al-Hasan b. Ubaydh Allah b. Tughj
+	}
+	944.1.1 = {
+		liege = 0
+	}
+	953.1.1 = {
+		holder = 0
+	}
+	991.1.1 = {
+		liege = k_egypt
+		holder = 1900809 # Manjutakin
+	}
+	996.1.1 = {
+		holder = 1600507 # Sulayman ibn Jafar
+	}
+	997.1.1 = {
+		holder = 1900810 # Bishara al-Ikhshidi
+	}
+	998.1.1 = {
+		holder = 1900811 # Jaysh ibn al-Samsama
+	}
+	1000.1.1 = {
+		holder = 1600507 # Sulayman ibn Jafar
+	}
+	1002.1.1 = {
+		holder = 1600506 # Abu'l-Hasan Ali ibn Jafar
+	}
+	1004.1.1 = {
+		holder = lihyani_001 # Abu Salih Muflih al-Lihyani
+	}
+	1009.1.1 = {
+		holder = 1234924
+	}
+	1011.1.1 = {
+		holder = 1900814 # Badr al-Attar
+	}
+	1012.1.1 = {
+		holder = 1900815 # Abu Abdallah al-Muzahhir
+	}
+	1014.1.1 = {
+		holder = 1234925
+	}
+	1021.1.1 = {
+		holder = 1234924
+	}
+	1029.1.1 = {
+		holder = 1600006
+	}
+	1041.1.1 = {
+		holder = 1234887
+	}
+	1049.1.1 = {
+		holder = 1234888
+	}
+	1058.1.1 = {
+		holder = 1234887
+	}
+	1060.1.1 = {
+		holder = 1234888
+	}
+	1063.1.1 = {
 		holder = 20768
 	}
+
 	1067.1.1 = {
 		holder = 93430
 	}
@@ -2281,9 +3424,91 @@ c_damascus = {
 		liege = "d_damascus"
 		holder = 146080
 	}
-	1066.1.1 = {
+
+	870.1.1 = {
+		holder = 1230178
+	}
+	878.1.1 = {
+		holder = 0
+	}
+	931.1.1 = {
+		holder = 260819
+	}
+	935.1.1={
+		holder = 260838 # Abu'l-Fath al-Fadl al-Furat
+	}
+	936.1.1 = {
+		liege = k_egypt
+		holder = 261327 # Muhammad al-Ikhshid leaves for Egypt while his brother Ubaydh Allah remains in Syria
+	}
+	941.1.1 = {
+		holder = 261328 # al-Hasan b. Ubaydh Allah b. Tughj
+	}
+	944.1.1 = {
+		liege = 0
+	}
+	953.1.1 = {
+		holder = 0
+	}
+	991.1.1 = {
+		liege = k_egypt
+		holder = 1900809 # Manjutakin
+	}
+	996.1.1 = {
+		holder = 1600507 # Sulayman ibn Jafar
+	}
+	997.1.1 = {
+		holder = 1900810 # Bishara al-Ikhshidi
+	}
+	998.1.1 = {
+		holder = 1900811 # Jaysh ibn al-Samsama
+	}
+	1000.1.1 = {
+		holder = 1600507 # Sulayman ibn Jafar
+	}
+	1002.1.1 = {
+		holder = 1600506 # Abu'l-Hasan Ali ibn Jafar
+	}
+	1004.1.1 = {
+		holder = 1900813 # Abu Salih Muflih al-Lihyani
+	}
+	1009.1.1 = {
+		holder = 1234924
+	}
+	1011.1.1 = {
+		holder = 1900814 # Badr al-Attar
+	}
+	1012.1.1 = {
+		holder = 1900815 # Abu Abdallah al-Muzahhir
+	}
+	1014.1.1 = {
+		holder = 1234925
+	}
+	1021.1.1 = {
+		holder = 1234924
+	}
+	1029.1.1 = {
+		holder = 1600006
+	}
+	1041.1.1 = {
+		holder = 1234887
+	}
+	1049.1.1 = {
+		holder = 1234888
+	}
+	1058.1.1 = {
+		holder = 1234887
+	}
+	1060.1.1 = {
+		holder = 1234888
+	}
+	1063.1.1 = {
 		holder = 20768
 	}
+
+	#1066.1.1 = {
+	#	holder = 20768
+	#}
 	1067.1.1 = {
 		holder = 93430
 	}
@@ -2835,6 +4060,11 @@ d_palmyra = {
 		liege = 0
 		holder = 0
 	}
+
+	1000.1.1 = {
+		liege = e_egypt
+		holder = 1231052 # Muhammad Rustamzade Kakuyid
+	}
 }
 
 
@@ -2857,7 +4087,12 @@ c_palmyra = {
 	}
 	866.1.1 = {
 		holder = levantine0001
-	}	
+	}
+
+	1000.1.1 = {
+		holder = 1231052 # Muhammad Rustamzade Kakuyid
+	}
+
 	1066.1.1 = {
 		holder = 20743
 	}
@@ -2965,6 +4200,11 @@ c_sukhna = {
 	877.1.1 = {
 		liege = 0
 	}
+
+	1000.1.1 = {
+		holder = 1231052 # Muhammad Rustamzade Kakuyid
+	}
+	
 	1066.1.1 = {
 		liege = "d_aleppo"
 	}
@@ -3022,6 +4262,11 @@ c_qaryatan = {
 	877.1.1 = {
 		liege = 0
 	}
+
+	1000.1.1 = {
+		holder = 1231052 # Muhammad Rustamzade Kakuyid
+	}
+
 	1066.1.1 = {
 		liege = "d_damascus"
 		holder = 20771

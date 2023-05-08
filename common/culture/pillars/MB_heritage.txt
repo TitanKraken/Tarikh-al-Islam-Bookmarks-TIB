@@ -1,0 +1,25 @@
+﻿heritage_caucasian = {
+	type = heritage
+}
+heritage_east_bantu = {
+	type = heritage
+}
+heritage_egyptian = {
+	type = heritage
+}
+heritage_siberian = {
+	type = heritage
+}
+heritage_celtic = {
+	type = heritage
+}
+heritage_palaungic = {
+	type = heritage
+}
+heritage_celtiberian = { 
+	type = heritage
+}
+
+heritage_levantine = {
+	type = heritage
+}

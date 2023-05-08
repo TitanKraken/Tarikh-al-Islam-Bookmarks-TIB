@@ -339,6 +339,36 @@ sulaym_vassal_004 = { # Fictional
 	}
 }
 
+# END
+
+# Banu Lihyan (ancient tribe having their own kingdom in the early 3rd B.C known as Mlk Lhyn)
+lihyani_ancestor = {
+	name = "Lihyan"
+	dynasty = tribe_Lihyan
+	religion = "pagan"
+	culture = "hijazi"
+	-700.1.1 = {
+		birth = yes
+	}
+	-630.1.1 = {
+		death = yes
+	}
+}
+lihyani_001 = {
+	name = "Abu_Salih_Muflih"
+	dynasty = tribe_Lihyan
+	religion = "ashari"
+	culture = "hijazi"
+	990.1.1 = {
+		birth = yes
+	}
+	1050.1.1 = {
+		death = yes
+	}
+}
+
+# END
+
 mudrik_muhallabi = {
 	name = "Mudrik"
 	dynasty = 1048001 # Muhallabid
@@ -462,6 +492,99 @@ yamama_vassal_002 = {
 		birth = yes
 	}
 	800.1.1 = { # Fictional
+		death = yes
+	}
+}
+# Banu 'Atiyah of d_shammar
+banu_atiyah_001 = {
+	name = "Abdul-Rahman"
+	dynasty= tribe_Banu_Atiyah
+	religion = ashari
+	culture = bedouin
+
+	1150.1.1 = { # Fictional
+		birth = yes
+	}
+	1205.1.1 = { # Fictional
+		death = yes
+	}
+}
+banu_atiyah_002 = {
+	name = "Hamad"
+	dynasty= tribe_Banu_Atiyah
+	religion = ashari
+	culture = bedouin
+	father = banu_atiyah_001
+
+	1170.1.1 = { # Fictional
+		birth = yes
+	}
+	1205.1.1 = { # Fictional
+		death = yes
+	}
+}
+banu_atiyah_003 = {
+	name = "Umar"
+	dynasty= tribe_Banu_Atiyah
+	religion = ashari
+	culture = bedouin
+	father = banu_atiyah_002
+
+	1200.1.1 = { # Fictional
+		birth = yes
+	}
+	1265.1.1 = { # Fictional
+		death = yes
+	}
+}
+banu_atiyah_004 = {
+	name = "Fadl"
+	dynasty= tribe_Banu_Atiyah
+	religion = ashari
+	culture = bedouin
+	father = banu_atiyah_003
+
+	1230.1.1 = { # Fictional
+		birth = yes
+	}
+	1294.1.1 = { # Fictional
+		death = yes
+	}
+}
+
+# Extra Abbasi
+sons_of_al_qadir_001 = { # Fictional
+	name = "Abbas"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = iraqi
+	father = 3082
+	#trait = education_learning_3
+	trait = sayyid_quraysh
+	979.1.1 = {
+		birth = yes
+	}
+	1033.1.1 = {
+		death = yes
+	}
+}
+sons_of_al_qadir_002 = {
+	name = "Al-Ghalib"
+	# AKA: Muhammad ibn Ahmad
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = iraqi
+	father = 3082
+	martial = 4
+	diplomacy = 7
+	intrigue = 4
+	stewardship = 4
+	trait = education_learning_3
+	trait = sayyid_quraysh
+	992.1.1 = {
+		birth = yes
+	}
+	1020.1.1 = { # Died before his father
 		death = yes
 	}
 }

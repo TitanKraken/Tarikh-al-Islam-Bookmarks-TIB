@@ -1,4 +1,710 @@
-﻿### Nasrids
+﻿3200 = {
+	name = "Abd-al-Rahman" # Abd al-Rahman (III) ibn Muhammad, Muwalladi Caliph (929-961), Sultan of Andalusia (912-961) & Sheik of Alarcon, Alarcos, Algeciras, Almeria, Cabra, Calatrava, Castelo Branco, Cordoba, Ibiza, Mallorca, Menorca & Niebla (912-961), Jaén (913-961), Faro & Silves (920-961), Malagon & Moura (930-961), Malaga (931-961) & Sevilla (937-961)
+	dynasty_house = house_Umawi
+	martial = 6
+	diplomacy = 7
+	intrigue = 4
+	stewardship = 5
+	religion = muwalladi
+	culture = andalusian
+	trait = calm
+	trait = quraysh
+	trait = education_stewardship_4
+
+	father = 73686 # Muhammad ibn Abdallah (levantine.txt)
+	mother = basque0148 # Muzna (basque.txt)
+	trait = child_of_concubine_female
+ 
+	891.1.7 = {
+		birth = yes
+	}
+	913.1.1 = {
+		add_spouse = levantine0086 # Fatima bint al-Mundir (levantine.txt)
+	}
+	914.1.1 = {
+		add_spouse = andalusian0033 # Maryam
+	}
+	950.1.1 = {
+		add_spouse = levantine0087 # Mustaq (levantine.txt)
+	}
+	961.10.15 = {
+		death = yes
+	}
+}
+
+3202 = {
+	name = "al-Hakam"
+	dynasty_house = house_Umawi
+	martial = 5
+	diplomacy = 4
+	intrigue = 5
+	stewardship = 5
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = quraysh
+	trait = education_learning_3
+	father = 3200
+	915.1.13 = {
+		birth = "915.1.13"
+	}
+	976.10.16 = {
+		death = "976.10.16"
+	}
+}
+
+3204 = {
+	name = "Hisham"
+	dynasty_house = house_Umawi
+	martial = 4
+	diplomacy = 8
+	intrigue = 8
+	stewardship = 8
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = chaste
+	trait = wrathful
+	trait = quraysh
+	trait = education_stewardship_2
+	father = 3202
+	965.6.11 = {
+		birth = "965.6.11"
+	}
+	1013.4.19 = {
+		death = "1013.4.19"
+	}
+}
+
+3208 = {
+	name = "Hisham"
+	dynasty_house = house_Umawi
+	martial = 7
+	diplomacy = 7
+	intrigue = 6
+	stewardship = 5
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = humble
+	trait = quraysh
+	trait = education_intrigue_2
+	father = 73677
+	980.1.1 = {
+		birth = "980.1.1"
+	}
+	1036.1.1 = {
+		death = "1036.1.1"
+	}
+}
+
+20780 = {
+	name = "Muawiyah"
+	dynasty = 101015
+	martial = 7
+	diplomacy = 4
+	intrigue = 4
+	stewardship = 5
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = education_learning_2
+	1039.1.1 = {
+		birth = "1039.1.1"
+	}
+	1089.1.1 = {
+		death = "1089.1.1"
+	}
+}
+
+20816 = {
+	name = "Bilal"
+	dynasty = 101046
+	martial = 5
+	diplomacy = 8
+	intrigue = 4
+	stewardship = 7
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = gluttonous
+	trait = craven
+	trait = education_martial_3
+	1039.1.1 = {
+		birth = "1039.1.1"
+	}
+	1089.1.1 = {
+		death = "1089.1.1"
+	}
+}
+
+20840 = {
+	name = "Salahaddin"
+	dynasty = 101030
+	martial = 8
+	diplomacy = 6
+	intrigue = 8
+	stewardship = 7
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = lustful
+	trait = temperate
+	trait = brave
+	trait = education_diplomacy_2
+	1039.1.1 = {
+		birth = "1039.1.1"
+	}
+	1089.1.1 = {
+		death = "1089.1.1"
+	}
+}
+
+20855 = {
+	name = "Azzun"
+	dynasty = 101699
+	martial = 8
+	diplomacy = 8
+	intrigue = 7
+	stewardship = 8
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = gluttonous
+	trait = education_intrigue_2
+	1033.1.1 = {
+		birth = "1033.1.1"
+	}
+	1083.1.1 = {
+		death = "1083.1.1"
+	}
+}
+
+20869 = {
+	name = "Ali"
+	dynasty = 596
+	martial = 5
+	diplomacy = 5
+	intrigue = 6
+	stewardship = 4
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = arbitrary
+	trait = lazy
+	trait = education_martial_2
+	father = 85008
+	1003.1.1 = {
+		birth = "1003.1.1"
+	}
+	1076.1.1 = {
+		death = "1076.1.1"
+	}
+}
+
+20876 = {
+	name = "Muhammad" # Muhammad ibn Yahya, Sheik of Huesca (1013-1018)
+	dynasty_house = house_banu_sumadih # House Banu Sumadih
+	martial = 7
+	diplomacy = 7
+	intrigue = 4
+	stewardship = 7
+	religion = muwalladi
+	culture = yemeni
+	trait = humble
+	trait = zealous
+	trait = wrathful
+	trait = education_stewardship_2
+
+	father = yemeni0042 # Sumadih ibn Muhammad
+
+	982.1.1 = {
+		birth = yes
+	}
+	1014.1.1 = {
+		add_spouse = 4876 # Fahriya
+	}
+	1033.1.1 = {
+		death = yes
+	}
+}
+
+20877 = {
+	name = "Ma_n" # Ma'n ibn Muhammad, Sheik of Almería (1038-1052)
+	dynasty_house = house_banu_sumadih # House Banu Sumadih
+	martial = 5
+	diplomacy = 7
+	intrigue = 4
+	stewardship = 7
+	religion = muwalladi
+	culture = yemeni
+	trait = wrathful
+	trait = education_stewardship_3
+
+	father = 20876 # Sheik Muhammad ibn Yahya of Huesca
+	mother = 4876 # Sheikah Fahriya
+
+	1010.1.1 = {
+		birth = yes
+	}
+	1037.1.1 = {
+		add_spouse = andalusian0060 # Umm ibn Abd al-Aziz (andalusian.txt)
+	}
+	1052.2.1 = {
+		death = yes
+	}
+}
+
+20889 = {
+	name = "Abdul-Kareem"
+	# AKA: Abdul
+	dynasty = 101056
+	martial = 4
+	diplomacy = 5
+	intrigue = 4
+	stewardship = 4
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = chaste
+	trait = cynical
+	trait = education_diplomacy_2
+	1039.1.1 = {
+		birth = "1039.1.1"
+	}
+	1089.1.1 = {
+		death = "1089.1.1"
+	}
+}
+
+20890 = {
+	name = "Giyasaddin"
+	dynasty = 101055
+	martial = 5
+	diplomacy = 5
+	intrigue = 6
+	stewardship = 4
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = humble
+	trait = cynical
+	trait = hunchbacked
+	trait = education_martial_3
+	1039.1.1 = {
+		birth = "1039.1.1"
+	}
+	1089.1.1 = {
+		death = "1089.1.1"
+	}
+}
+
+20894 = {
+	name = "Murtaza"
+	dynasty = 101054
+	martial = 7
+	diplomacy = 8
+	intrigue = 5
+	stewardship = 5
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = education_martial_3
+	1039.1.1 = {
+		birth = "1039.1.1"
+	}
+	1089.1.1 = {
+		death = "1089.1.1"
+	}
+}
+
+20895 = {
+	name = "Sa_id"
+	# AKA: Said
+	dynasty = 101053
+	martial = 8
+	diplomacy = 4
+	intrigue = 5
+	stewardship = 6
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = just
+	trait = greedy
+	trait = education_intrigue_1
+	1039.1.1 = {
+		birth = "1039.1.1"
+	}
+	1089.1.1 = {
+		death = "1089.1.1"
+	}
+}
+
+20896 = {
+	name = "Hussamaddin"
+	dynasty = 101052
+	martial = 5
+	diplomacy = 5
+	intrigue = 7
+	stewardship = 5
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = arrogant
+	trait = education_learning_3
+	1039.1.1 = {
+		birth = "1039.1.1"
+	}
+	1089.1.1 = {
+		death = "1089.1.1"
+	}
+}
+
+
+
+20898 = {
+	name = "Abdul-Qadir"
+	# AKA: Abdul
+	dynasty = 101050
+	martial = 4
+	diplomacy = 5
+	intrigue = 7
+	stewardship = 7
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = education_diplomacy_3
+	1039.1.1 = {
+		birth = "1039.1.1"
+	}
+	1089.1.1 = {
+		death = "1089.1.1"
+	}
+}
+
+224049 = {
+	name = "Abdul-Madjid"
+	# AKA: Abdul
+	dynasty = 100826
+	martial = 4
+	diplomacy = 6
+	intrigue = 5
+	stewardship = 8
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = cynical
+	trait = education_intrigue_2
+	1150.1.1 = {
+		birth = "1150.1.1"
+	}
+	1200.1.1 = {
+		death = "1200.1.1"
+	}
+}
+
+3212 = {
+	name = "Abbad"
+	dynasty = 594
+	martial = 8
+	diplomacy = 6
+	intrigue = 5
+	stewardship = 6
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 73209
+	trait = cynical
+	trait = gluttonous
+	trait = craven
+	trait = greedy
+	trait = ambitious
+	trait = education_martial_2
+	1016.1.1 = {
+		birth = "1016.1.1"
+	}
+	1038.1.1 = {
+		add_spouse = 85009
+	}
+	1066.1.1={
+	effect = {
+		make_tributary = {
+		TYPE = tributary_non_permanent #(see 00_T4N_tributary_types)
+		TRIBUTARY = character:3212
+		SUZERAIN = character:109500
+			}
+		}
+	}
+	1080.1.15 = {
+		death = "1080.1.15"
+	}
+}
+
+3214 = {
+	name = "Muhammad"
+	dynasty = 594
+	martial = 5
+	diplomacy = 6
+	intrigue = 7
+	stewardship = 4
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = ambitious
+	trait = arbitrary
+	trait = cynical
+	trait = education_martial_2
+	father = 3212
+	mother = 85009
+	disallow_random_traits = yes
+	1040.1.1 = {
+		birth = "1040.1.1"
+	}
+	1062.1.1 = {
+		add_spouse = 73211
+	}
+	1081.1.1={
+	effect = {
+		make_tributary = {
+		TYPE = tributary_non_permanent #(see 00_T4N_tributary_types)
+		TRIBUTARY = character:3214
+		SUZERAIN = character:108500
+			}
+		}
+	}
+	1091.1.1 = {
+		effect = {
+			add_pressed_claim = title:d_sevilla
+			add_pressed_claim = title:d_cordoba
+			add_pressed_claim = title:d_murcia
+		}
+	}
+	1095.1.1 = {
+		death = "1095.1.1"
+	}
+}
+
+3928 = {
+	name = "Abu-Bakr"
+	dynasty = 569
+	martial = 6
+	diplomacy = 4
+	intrigue = 5
+	stewardship = 8
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 45025
+	1022.1.1 = {
+		birth = "1022.1.1"
+	}
+	1059.1.1 = {
+		add_spouse = 73193
+	}
+	1069.1.1 = {
+		effect = {
+			add_pressed_claim = title:d_valencia
+		}
+	}
+	1076.1.1 = {
+		effect = {	
+			remove_claim = title:d_valencia
+			add_pressed_claim = title:d_zaragoza
+			add_pressed_claim = title:d_mallorca
+			add_pressed_claim = title:d_murcia
+			add_pressed_claim = title:d_toledo
+			add_pressed_claim = title:d_cordoba
+			add_pressed_claim = title:d_badajoz
+			add_pressed_claim = title:d_sevilla
+			add_pressed_claim = title:d_granada
+		}
+	}
+	1085.1.1 = {
+		death = "1085.1.1"
+	}
+}
+
+3938 = {
+	name = "Yusuf"
+	dynasty = 599
+	martial = 5
+	diplomacy = 5
+	intrigue = 2
+	stewardship = 4
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = humble
+	trait = education_martial_2
+	father = 3933
+	1030.1.1 = {
+		birth = "1030.1.1"
+	}
+	1086.1.1 = {
+		death = "1086.1.1"
+	}
+}
+
+45001 = {
+	name = "Muhammad"
+	dynasty = 101607
+	martial = 4
+	diplomacy = 12
+	intrigue = 4
+	stewardship = 8
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = education_diplomacy_3
+	trait = humble
+	father = 45000
+	1015.1.1 = {
+		birth = "1015.1.1"
+	}
+	1065.1.1 = {
+		death = "1065.1.1"
+	}
+}
+
+45006 = {
+	name = "Yahya" # Yahya ibn Ma'n, known as al-Mutasim, Sheik of Almería (1052-1091)
+	dynasty_house = house_banu_sumadih # House Banu Sumadih
+	martial = 2
+	diplomacy = 4
+	intrigue = 6
+	stewardship = 6
+	religion = muwalladi
+	culture = yemeni
+	trait = education_martial_2
+
+	father = 20877 # Sheik Ma'n ibn Muhammad of Almería
+
+	1038.1.1 = {
+		birth = yes
+	}
+	1054.1.1 = {
+		name = "al-Mu_tasim"
+	}
+	1091.6.1 = {
+		death = yes
+	}
+}
+
+45030 = {
+	name = "Hayibisa"
+	dynasty = 7500
+	martial = 4
+	diplomacy = 4
+	intrigue = 4
+	stewardship = 6
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = education_learning_2
+	960.1.2 = {
+		birth = "960.1.2"
+	}
+	1040.1.2 = {
+		death = "1040.1.2"
+	}
+}
+
+45031 = {
+	name = "Isa"
+	dynasty = 7500
+	martial = 4
+	diplomacy = 4
+	intrigue = 4
+	stewardship = 6
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = education_learning_2
+	father = 45033
+	1000.1.2 = {
+		birth = "1000.1.2"
+	}
+	1053.1.2 = {
+		death = "1053.1.2"
+	}
+}
+
+45032 = {
+	name = "Muzaffar"
+	# AKA: Nuzaffar
+	dynasty = 7500
+	martial = 4
+	diplomacy = 4
+	intrigue = 4
+	stewardship = 6
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = education_learning_2
+	father = 45034
+	1040.1.2 = {
+		birth = "1040.1.2"
+	}
+	1080.1.2 = {
+		death = "1080.1.2"
+	}
+}
+
+45033 = {
+	name = "Hayibisa"
+	# AKA: Amid
+	dynasty = 7500
+	martial = 4
+	diplomacy = 4
+	intrigue = 4
+	stewardship = 6
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = education_learning_2
+	father = 45030
+	980.1.2 = {
+		birth = "980.1.2"
+	}
+	1048.1.2 = {
+		death = "1048.1.2"
+	}
+}
+
+45034 = {
+	name = "Nasir"
+	dynasty = 7500
+	martial = 4
+	diplomacy = 4
+	intrigue = 4
+	stewardship = 6
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = education_learning_2
+	father = 45031
+	1020.1.2 = {
+		birth = "1020.1.2"
+	}
+	1053.1.2 = {
+		death = "1053.1.2"
+	}
+}
+
+464010 = {
+	name = "Muhammad"
+	dynasty = 12224
+	martial = 4
+	diplomacy = 12
+	intrigue = 4
+	stewardship = 8
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = education_diplomacy_3
+	trait = humble
+	1055.1.1 = {
+		birth = "1055.1.1"
+	}
+	1119.1.1 = {
+		death = "1119.1.1"
+	}
+}
+
+485260 = {
+	name = "Abdul-Razzaq"
+	# AKA: Abdul
+	dynasty = 100778
+	martial = 4
+	diplomacy = 6
+	intrigue = 5
+	stewardship = 4
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = arrogant
+	trait = education_stewardship_2
+	1300.1.1 = {
+		birth = "1300.1.1"
+	}
+	1350.1.1 = {
+		death = "1350.1.1"
+	}
+}
+
 487000 = {
 	name = "Yusuf"
 	dynasty = 101904
@@ -16,6 +722,15 @@
 	1318.1.1 = {
 		birth = "1318.1.1"
 	}
+	1337.1.1={
+	effect = {
+		make_tributary = {
+		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
+		TRIBUTARY = character:487000
+		SUZERAIN = character:457500
+			}
+		}
+	}	
 	1354.1.1 = {
 		death = "1354.1.1"
 	}
@@ -37,9 +752,2798 @@
 		birth = "1315.1.1"
 	}
 	1333.1.1 = {
-		death = "1333.1.1"
+		death = {
+			death_reason=death_murder
+			#killer = #sons of the Marinid commander Uthman b. Abi 'l-Ula
+		}
 	}
 }
+
+4876 = {
+	name = "Fahriya"
+	female = yes
+
+	religion = muwalladi
+	culture = andalusian
+
+	998.1.1 = {
+		birth = yes
+	}
+	1047.1.1 = {
+		death = yes
+	}
+}
+
+85009 = {
+	name = "Kera"
+	female = yes
+	dynasty = 596
+	martial = 4
+	diplomacy = 5
+	intrigue = 6
+	stewardship = 4
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = lazy
+	trait = education_stewardship_1
+	father = 85008
+	1020.1.1 = {
+		birth = "1020.1.1"
+	}
+	1072.1.1 = {
+		death = "1072.1.1"
+	}
+}
+
+33053 = {
+	name = "Abdallah" #AKA: al-Murqtada
+	dynasty = 7278
+	religion = "muwalladi"
+	culture = "andalusian"
+	1043.1.1 = {
+		birth = "1043.1.1"
+	}
+	1076.1.1 = {
+		add_pressed_claim = title:d_zaragoza
+		add_pressed_claim = title:d_valencia
+		add_pressed_claim = title:d_murcia
+		add_pressed_claim = title:d_toledo
+		add_pressed_claim = title:d_cordoba
+		add_pressed_claim = title:d_badajoz
+		add_pressed_claim = title:d_sevilla
+		add_pressed_claim = title:d_granada
+	}
+	1085.5.25 = {
+		remove_claim = title:d_toledo
+	}
+	1093.1.1 = {
+		death = "1093.1.1"
+	}
+}
+
+33054 = {
+	name = "Mubashir"
+	dynasty = 7278
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = eunuch
+	father = 33053
+	1069.1.1 = {
+		birth = "1069.1.1"
+	}
+	1093.1.1 = {
+		add_pressed_claim = title:d_zaragoza
+		add_pressed_claim = title:d_valencia
+		add_pressed_claim = title:d_murcia
+		add_pressed_claim = title:d_cordoba
+		add_pressed_claim = title:d_badajoz
+		add_pressed_claim = title:d_sevilla
+		add_pressed_claim = title:d_granada
+	}
+	1115.1.1 = {
+		death = "1115.1.1"
+	}
+}
+
+33055 = {
+	name = "Suleyman" #AKA: al-Rabi
+	dynasty = 12202
+	religion = "muwalladi"
+	culture = "andalusian"
+	1050.1.1 = {
+		birth = "1050.1.1"
+	}
+	1114.1.1 = {
+		add_pressed_claim = title:d_zaragoza
+		add_pressed_claim = title:d_valencia
+		add_pressed_claim = title:d_mallorca
+		add_pressed_claim = title:d_murcia
+		add_pressed_claim = title:d_cordoba
+		add_pressed_claim = title:d_badajoz
+		add_pressed_claim = title:d_sevilla
+		add_pressed_claim = title:d_granada
+	}
+	1116.1.1 = {
+		death = "1116.1.1"
+	}
+}
+
+71373 = {
+	name = "ZaI_da"
+	female = yes
+
+	religion = muwalladi
+	culture = andalusian
+
+	1070.1.1 = {
+		birth = yes
+	}
+	1090.1.1 = {
+		religion = catholic
+		name = "Ilizabeth"
+	}
+	1107.9.13 = {
+		death = yes
+	}
+}
+
+73180 = {
+	name = "Abd-al-Malik"
+	dynasty = 599
+	
+	father = 45005
+
+	religion = muwalladi
+	culture = andalusian
+
+	1073.1.1 = {
+		birth = yes
+	}
+	1110.1.1 = {
+		add_pressed_claim = title:c_castellon
+	}
+	1110.5.1 = {
+		add_pressed_claim = title:c_zaragoza
+	}
+	1118.12.18 = {
+		remove_claim = title:c_zaragoza
+	}
+	1130.1.1 = {
+		death = { death_reason=death_battle }
+	}
+}
+
+73181 = {
+	name = "Ahmad"
+	dynasty = 599
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 73180
+	1097.1.1 = {
+		birth = "1097.1.1"
+	}
+	1130.1.1 = {
+		add_pressed_claim = title:d_valencia
+		add_pressed_claim = title:d_mallorca
+		add_pressed_claim = title:d_murcia
+		add_pressed_claim = title:d_cordoba
+		add_pressed_claim = title:d_badajoz
+		add_pressed_claim = title:d_sevilla
+		add_pressed_claim = title:d_granada
+	}
+	1145.1.1 = {
+		remove_claim = title:d_granada
+	}
+	1146.1.1 = {
+		remove_claim = title:d_valencia
+		add_pressed_claim = title:d_granada
+	}
+	1147.1.1 = {
+		add_pressed_claim = title:d_valencia
+	}
+	1153.1.1 = {
+		death = "1153.1.1"
+	}
+}
+
+73182 = {
+	name = "Muhammad"
+	dynasty = 12192
+	religion = "muwalladi"
+	culture = "andalusian"
+	1059.1.1 = {
+		birth = "1059.1.1"
+	}
+	1115.1.1 = {
+		death = "1115.1.1"
+	}
+}
+
+73185 = {
+	name = "Yahya"
+	dynasty = banu_Tujib # 12194
+	religion = "ashari"
+	culture = "andalusian"
+	father = 73184
+	998.1.1 = {
+		birth = "998.1.1"
+	}
+	1026.1.1 = {
+		add_spouse = 73188
+	}
+	1036.1.1 = {
+		death = "1036.1.1"
+	}
+}
+
+73186 = {
+	name = "Mundir"
+	dynasty = banu_Tujib # 12194
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 73185
+	mother = 73188
+	1027.1.1 = {
+		birth = "1027.1.1"
+	}
+	1038.1.1 = {
+		death = "1038.1.1"
+	}
+}
+
+73188 = {
+	name = "Abda"
+	female = yes
+	dynasty = 570
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 73194
+	1010.1.1 = {
+		birth = "1010.1.1"
+	}
+	1067.1.1 = {
+		death = "1067.1.1"
+	}
+}
+
+73190 = {
+	name = "Mundir"
+	dynasty = 599
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 3934
+	1048.1.1 = {
+		birth = "1048.1.1"
+	}
+	1082.1.1 = {
+		add_pressed_claim = title:d_zaragoza
+		add_pressed_claim = title:d_valencia
+		add_pressed_claim = title:d_mallorca
+		add_pressed_claim = title:d_murcia
+		add_pressed_claim = title:d_toledo
+		add_pressed_claim = title:d_cordoba
+		add_pressed_claim = title:d_badajoz
+		add_pressed_claim = title:d_sevilla
+		add_pressed_claim = title:d_granada
+	}
+	1085.5.25 = {
+		remove_claim = title:d_toledo
+	}
+	1090.1.1 = {
+		death = "1090.1.1"
+	}
+}
+
+73191 = {
+	name = "Suleyman"
+	dynasty = 599
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 73190
+	1070.1.1 = {
+		birth = "1070.1.1"
+	}
+	1090.1.1 = {
+		add_pressed_claim = title:d_zaragoza
+		add_pressed_claim = title:d_valencia
+		add_pressed_claim = title:d_mallorca
+		add_pressed_claim = title:d_murcia
+		add_pressed_claim = title:d_cordoba
+		add_pressed_claim = title:d_badajoz
+		add_pressed_claim = title:d_sevilla
+		add_pressed_claim = title:d_granada
+	}
+	1118.12.18 = {
+		remove_claim = title:d_zaragoza
+	}
+	1150.1.1 = {
+		death = "1150.1.1"
+	}
+}
+
+73192 = {
+	name = "Muhammad"
+	dynasty = 599
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 3933
+	1029.1.1 = {
+		birth = "1029.1.1"
+	}
+	1084.1.1 = {
+		death = "1084.1.1"
+	}
+}
+
+73193 = {
+	name = "Aiza"
+	female = yes
+	dynasty = 599
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 3934
+	1043.1.1 = {
+		birth = "1043.1.1"
+	}
+	1100.1.1 = {
+		death = "1100.1.1"
+	}
+}
+
+73194 = {
+	name = "Yahya"
+	dynasty = 570
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 1236450
+	963.1.1 = {
+		birth = "963.1.1"
+	}
+	1019.1.1 = {
+		death = "1019.1.1"
+	}
+}
+
+73195 = {
+	name = "Isma_il"
+	dynasty = 570
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 3924
+	disallow_random_traits = yes
+	trait = honest
+	trait = compassionate
+	trait = vengeful
+	trait = education_martial_3
+	1042.1.1 = {
+		birth = "1042.1.1"
+	}
+	1074.1.1 = {
+		death = "1074.1.1"
+	}
+}
+
+73196 = {
+	name = "Umar"
+	dynasty = 573
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 3902
+	1066.1.1 = {
+		birth = "1066.1.1"
+	}
+	1117.1.1 = {
+		death = "1117.1.1"
+	}
+}
+
+73197 = {
+	name = "Yahaff"
+	dynasty = 12195
+	religion = "muwalladi"
+	culture = "andalusian"
+	1008.1.1 = {
+		birth = "1008.1.1"
+	}
+	1067.1.1 = {
+		death = "1067.1.1"
+	}
+}
+
+73198 = {
+	name = "Abdallah"
+	dynasty = 12195
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 73197
+	1030.1.1 = {
+		birth = "1030.1.1"
+	}
+	1075.1.1 = {
+		add_pressed_claim = title:d_toledo
+	}
+	1080.1.1 = {
+		remove_claim = title:d_toledo
+	}
+	1086.1.1 = {
+		death = "1086.1.1"
+	}
+}
+
+73199 = {
+	name = "Ya_far"
+	dynasty = 12195
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 73198
+	1055.1.1 = {
+		birth = "1055.1.1"
+	}
+	1092.10.28 = {
+		add_pressed_claim = title:d_zaragoza
+		add_pressed_claim = title:d_mallorca
+		add_pressed_claim = title:d_murcia
+		add_pressed_claim = title:d_cordoba
+		add_pressed_claim = title:d_badajoz
+		add_pressed_claim = title:d_sevilla
+		add_pressed_claim = title:d_granada
+	}
+	1108.1.1 = {
+		death = "1108.1.1"
+	}
+}
+
+73200 = {
+	name = "Jyad"
+	dynasty = 12196
+	religion = "muwalladi"
+	culture = "andalusian"
+	1045.1.1 = {
+		birth = "1045.1.1"
+	}
+	1118.1.1 = {
+		death = "1118.1.1"
+	}
+}
+
+73201 = {
+	name = "Muhammad"
+	dynasty = 12196
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 73200
+	1084.1.1 = {
+		birth = "1084.1.1"
+	}
+	1145.1.1 = {
+		add_pressed_claim = title:d_valencia
+	}
+	1145.7.1 = {
+		remove_claim = title:d_valencia
+		add_pressed_claim = title:d_mallorca
+		add_pressed_claim = title:d_cordoba
+		add_pressed_claim = title:d_badajoz
+		add_pressed_claim = title:d_sevilla
+		add_pressed_claim = title:d_granada
+	}
+	1146.1.1 = {
+		add_pressed_claim = title:d_valencia
+	}
+	1147.1.1 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+73202 = {
+	name = "Wazir"
+	dynasty = 12197
+	religion = "muwalladi"
+	culture = "andalusian"
+	1084.1.1 = {
+		birth = "1084.1.1"
+	}
+	1140.1.1 = {
+		death = "1140.1.1"
+	}
+}
+
+73203 = {
+	name = "Siddray"
+	dynasty = 12197
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 73202
+	1108.1.1 = {
+		birth = "1108.1.1"
+	}
+	1145.1.1 = {
+		add_pressed_claim = title:d_valencia
+		add_pressed_claim = title:d_mallorca
+		add_pressed_claim = title:d_murcia
+		add_pressed_claim = title:d_cordoba
+		add_pressed_claim = title:d_sevilla
+		add_pressed_claim = title:d_granada
+	}
+	1146.1.1 = {
+		add_pressed_claim = title:d_badajoz
+	}
+	1152.1.1 = {
+		death = "1152.1.1"
+	}
+}
+
+73204 = {
+	name = "Hakam"
+	dynasty = 12192
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 73182
+	1089.1.1 = {
+		birth = "1089.1.1"
+	}
+	1144.1.1 = {
+		death = "1144.1.1"
+	}
+}
+
+73205 = {
+	name = "Yusuf"
+	dynasty = 12198
+	religion = "muwalladi"
+	culture = "andalusian"
+	1055.1.1 = {
+		birth = "1055.1.1"
+	}
+	1116.1.1 = {
+		death = "1116.1.1"
+	}
+}
+
+73206 = {
+	name = "Ali"
+	dynasty = 12198
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 73205
+	1081.1.1 = {
+		birth = "1081.1.1"
+	}
+	1136.1.1 = {
+		death = "1136.1.1"
+	}
+}
+
+73207 = {
+	name = "Isma_il"
+	dynasty = 12199
+	religion = "muwalladi"
+	culture = "andalusian"
+	1073.1.1 = {
+		birth = "1073.1.1"
+	}
+	1142.1.1 = {
+		death = "1142.1.1"
+	}
+}
+
+73208 = {
+	name = "Muhammad"
+	dynasty = 12199
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 73207
+	1095.1.1 = {
+		birth = "1095.1.1"
+	}
+	1149.1.1 = {
+		death = "1149.1.1"
+	}
+}
+
+73209 = {
+	name = "Muhammad"
+	dynasty = 594
+	martial = 8
+	diplomacy = 6
+	intrigue = 5
+	stewardship = 6
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = deceitful
+	trait = calm
+	trait = education_martial_2
+	father = 1235098
+	984.1.1 = {
+		birth = "984.1.1"
+	}
+	1042.1.1 = {
+		death = "1042.1.1"
+	}
+}
+
+73210 = {
+	name = "Abd-al-Malik"
+	dynasty = 569
+
+	father = 73228
+
+	religion = muwalladi
+	culture = andalusian
+
+	1116.1.1 = {
+		birth = yes
+	}
+	1144.1.1 = {
+		add_pressed_claim = title:d_valencia
+		add_pressed_claim = title:c_valencia
+		add_pressed_claim = title:c_castellon		
+	}
+	1145.1.1 = {
+		remove_claim = title:d_valencia
+		remove_claim = title:c_valencia
+		remove_claim = title:c_castellon
+	}
+	1145.7.1 = {
+		add_pressed_claim = title:d_valencia
+		add_pressed_claim = title:c_valencia
+		add_pressed_claim = title:c_castellon
+	}
+	1146.1.1 = {
+		add_pressed_claim = title:c_denia
+	}
+	1147.1.1 = {
+		remove_claim = title:d_valencia
+	}
+	1163.1.1 = {
+		death = yes
+	}
+}
+
+73212 = {
+	name = "Butayna"
+	female = yes
+	dynasty = 594
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 3214
+	mother = 73211
+	1063.1.1 = {
+		birth = "1063.1.1"
+	}
+	1120.1.1 = {
+		death = "1120.1.1"
+	}
+}
+
+73213 = {
+	name = "Abbad"
+	dynasty = 594
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 3214
+	mother = 73211
+	1064.1.1 = {
+		birth = "1064.1.1"
+	}
+	1074.1.1 = {
+		death = { death_reason = death_murder killer = 3924 }
+	}
+}
+
+73214 = {
+	name = "Fath"
+	dynasty = 594
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 3214
+	mother = 73211
+	1065.1.1 = {
+		birth = "1065.1.1"
+	}
+	1091.1.1 = {
+		death = { death_reason = death_battle killer = 155075 }
+	}
+}
+
+73215 = {
+	name = "Rashid"
+	dynasty = 594
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 3214
+	mother = 73211
+	1066.1.1 = {
+		birth = "1066.1.1"
+	}
+	1091.1.1 = {
+		death = { death_reason = death_battle killer = 155075 }
+	}
+}
+
+73216 = {
+	name = "Abd-al-Yabbar"
+	dynasty = 594
+	
+	father = 3214
+	mother = 73211
+	
+	religion = muwalladi
+	culture = andalusian
+	
+	1067.1.1 = {
+		birth = yes
+	}
+	1095.1.1 = {
+		death = yes
+	}
+}
+
+73217 = {
+	name = "Muhammad"
+	dynasty = 594
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 3214
+	mother = 73211
+	1068.1.1 = {
+		birth = "1068.1.1"
+	}
+	1091.1.1 = {
+		death = { death_reason = death_execution killer = 32965 }
+	}
+}
+
+73218 = {
+	name = "Isma_il"
+	dynasty = 594
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 3214
+	mother = 73211
+	1069.1.1 = {
+		birth = "1069.1.1"
+	}
+	1095.1.1 = {
+		add_pressed_claim = title:d_sevilla
+	}
+	1112.1.1 = {
+		death = "1112.1.1"
+	}
+}
+
+73223 = {
+	name = "Ya_far"
+	dynasty = 12201
+	religion = "muwalladi"
+	culture = "andalusian"
+	1060.1.1 = {
+		birth = "1060.1.1"
+	}
+	1117.1.1 = {
+		death = "1117.1.1"
+	}
+}
+
+73224 = {
+	name = "Ayyub"
+	dynasty = 12201
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 73223
+	1091.1.1 = {
+		birth = "1091.1.1"
+	}
+	1148.1.1 = {
+		death = "1148.1.1"
+	}
+}
+
+73225 = {
+	name = "Ibrahim"
+	dynasty = 12201
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 73223
+	1087.1.1 = {
+		birth = "1087.1.1"
+	}
+	1135.1.1 = {
+		death = "1135.1.1"
+	}
+}
+
+73226 = {
+	name = "Abd-al-Rahman" #AKA: Sanchuelo
+	dynasty = 569
+
+	father = 3206
+	mother = 70125
+
+	religion = muwalladi
+	culture = andalusian
+	
+	983.1.1 = {
+		birth = yes
+	}
+	1009.3.3 = {
+		death = {
+			death_reason=death_execution
+			killer=73675
+		}
+	}
+}
+
+73227 = {
+	name = "Utman"
+	dynasty = 569
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 3928
+	mother = 73193
+	1070.1.1 = {
+		birth = "1070.1.1"
+	}
+	1085.1.1 = {
+		add_pressed_claim = title:d_zaragoza
+		add_pressed_claim = title:d_mallorca
+		add_pressed_claim = title:d_murcia
+		add_pressed_claim = title:d_cordoba
+		add_pressed_claim = title:d_badajoz
+		add_pressed_claim = title:d_sevilla
+		add_pressed_claim = title:d_granada
+	}
+	1085.5.25 = {
+		remove_claim = title:d_toledo
+	}
+	1086.1.1 = {
+		add_pressed_claim = title:d_valencia
+	}
+	1118.12.18 = {
+		remove_claim = title:d_zaragoza
+	}
+	1126.1.1 = {
+		death = "1126.1.1"
+	}
+}
+
+73228 = {
+	name = "Abd-al-Aziz"
+	dynasty = 569
+
+	father = 73227
+
+	religion = muwalladi
+	culture = andalusian
+
+	1092.1.1 = {
+		birth = yes
+	}
+	1126.1.1 = {
+		add_pressed_claim = title:d_valencia
+		add_pressed_claim = title:c_valencia
+		add_pressed_claim = title:c_castellon
+	}
+	1144.1.1 = {
+		death = yes
+	}
+}
+
+73235 = {
+	name = "Abd-al-Rahman"
+	dynasty = 12192
+
+	father = 73182
+
+	religion = muwalladi
+	culture = andalusian
+
+	1111.1.1 = {
+		birth = yes
+	}
+	1145.3.1 = {
+		add_pressed_claim = title:d_murcia
+		add_pressed_claim = title:c_almansa
+	}
+	1164.1.1 = {
+		death = yes
+	}
+}
+
+73236 = {
+	name = "Abdallah"
+	dynasty = 12209
+	religion = "muwalladi"
+	culture = "andalusian"
+	1113.1.1 = {
+		birth = "1113.1.1"
+	}
+	1145.1.1 = {
+		add_pressed_claim = title:d_murcia
+	}
+	1145.3.1 = {
+		add_pressed_claim = title:d_valencia
+		add_pressed_claim = title:d_mallorca
+		add_pressed_claim = title:d_murcia
+		add_pressed_claim = title:d_cordoba
+		add_pressed_claim = title:d_badajoz
+		add_pressed_claim = title:d_sevilla
+		add_pressed_claim = title:d_granada
+	}
+	1145.6.1 = {
+		add_pressed_claim = title:d_murcia
+	}
+	1163.1.1 = {
+		death = "1163.1.1"
+	}
+}
+
+73237 = {
+	name = "Ya_far"
+	dynasty = 12210
+	religion = "muwalladi"
+	culture = "andalusian"
+	1104.1.1 = {
+		birth = "1104.1.1"
+	}
+	1145.3.1 = {
+		add_pressed_claim = title:d_murcia
+	}
+	1145.6.1 = {
+		remove_claim = title:d_murcia
+		add_pressed_claim = title:d_valencia
+		add_pressed_claim = title:d_mallorca
+		add_pressed_claim = title:d_cordoba
+		add_pressed_claim = title:d_badajoz
+		add_pressed_claim = title:d_sevilla
+		add_pressed_claim = title:d_granada
+	}
+	1145.9.1 = {
+		add_pressed_claim = title:d_murcia
+	}
+	1160.1.1 = {
+		death = "1160.1.1"
+	}
+}
+
+73238 = {
+	name = "Abu-Bakr"
+	dynasty = 572
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 3910
+	1060.1.1 = {
+		birth = "1060.1.1"
+	}
+	1081.1.1 = {
+		add_pressed_claim = title:d_murcia
+	}
+	1109.1.1 = {
+		death = "1109.1.1"
+	}
+}
+
+73239 = {
+	name = "Abd-al-Rahman"
+	dynasty = 572
+
+	father = 73238
+
+	religion = muwalladi
+	culture = andalusian
+
+	1086.1.1 = {
+		birth = yes
+	}
+	1109.1.1 = {
+		add_pressed_claim = title:c_murcia
+	}
+	1145.9.1 = {
+		remove_claim = title:c_murcia
+	}
+	1146.1.1 = {
+		add_pressed_claim = title:c_murcia
+	}
+	1168.1.1 = {
+		death = yes
+	}
+}
+
+mardanish_the_founder = {
+	name = "Mardanish"
+	dynasty = 12211
+	religion = mozarabic_church
+	culture = andalusian
+	1077.1.1 = {
+		birth = yes
+	}
+	1140.1.1 = {
+		death = yes
+	}
+}
+73240 = {
+	name = "Sa_d"
+	dynasty = 12211
+	religion = muwalladi
+	culture = andalusian
+	father = mardanish_the_founder
+	1100.1.1 = {
+		birth = "1100.1.1"
+	}
+	1123.1.1 = {
+		add_spouse = 73242
+	}
+	1156.1.1 = {
+		death = "1156.1.1"
+	}
+}
+73241 = {
+	name = "Abu_Abdallah_Muhammad"
+	dynasty = 12211
+	religion = muwalladi
+	culture = andalusian
+	father = 73240
+	mother = 73242
+	trait = education_martial_3
+	trait = brave
+	trait = diligent
+	trait = patient # ?
+	1124.1.1 = {
+		birth = "1124.1.1"
+	}
+	1147.1.1 = {
+		add_pressed_claim = title:d_mallorca
+		add_pressed_claim = title:d_cordoba
+		add_pressed_claim = title:d_badajoz
+		add_pressed_claim = title:d_sevilla
+		add_pressed_claim = title:d_granada
+	}
+	1148.1.1 = {
+		remove_claim = title:d_granada
+	}
+	1172.3.1 = {
+		death = "1172.3.1"
+	}
+}
+
+73242 = {
+	name = "Thashim"
+	female = yes
+	dynasty = 12196
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 73200
+	1105.1.1 = {
+		birth = "1105.1.1"
+	}
+	1124.1.1 = {
+		add_spouse = 73240
+	}
+	1162.1.1 = {
+		death = "1162.1.1"
+	}
+}
+73243 = {
+	name = "Abd-al-Hajjaj"
+	dynasty = 12211
+
+	religion = muwalladi
+	culture = andalusian
+
+	father = 73240
+	mother = 73242
+
+	trait = education_martial_3
+	trait = ambitious
+	trait = diligent
+	trait = brave
+
+	1126.1.1 = {
+		birth = yes
+	}
+	#1172.1.1 = {
+		#religion = ismaili
+	#}
+	1172.1.1 = {
+		add_pressed_claim = title:k_valencia
+		add_pressed_claim = title:d_murcia
+		add_pressed_claim = title:d_granada
+	}
+	1186.1.1 = {
+		death = yes
+	}
+}
+73244 = {
+	name = "Hilal"
+	dynasty = 12211
+	religion = muwalladi
+	culture = andalusian
+	father = 73241
+	1150.1.1 = {
+		birth = "1150.1.1"
+	}
+	#1172.3.1 = {
+		#religion = "ismaili"
+	#}
+	1212.1.1 = {
+		death = "1212.1.1"
+	}
+}
+
+73245 = {
+	name = "Musa"
+	dynasty = 12212
+	religion = "muwalladi"
+	culture = "andalusian"
+	1066.1.1 = {
+		birth = "1066.1.1"
+	}
+	1111.1.1 = {
+		death = "1111.1.1"
+	}
+}
+
+73246 = {
+	name = "Muhammad"
+	dynasty = 12212
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 73245
+	1092.1.1 = {
+		birth = "1092.1.1"
+	}
+	1145.1.1 = {
+		death = "1145.1.1"
+	}
+}
+
+73247 = {
+	name = "Musa"
+	dynasty = 12213
+	religion = "muwalladi"
+	culture = "andalusian"
+	1075.1.1 = {
+		birth = "1075.1.1"
+	}
+	1126.1.1 = {
+		death = "1126.1.1"
+	}
+}
+
+73249 = {
+	name = "Ahmad" # Ahmad ibn Yahya, known as Muizz al-Dawla, Sheik of Almería (1091)
+	dynasty_house = house_banu_sumadih # House Banu Sumadih
+	religion = muwalladi
+	culture = yemeni
+ 
+	father = 45006 # Sheik al-Mutasim of Almería
+
+	1060.1.1 = {
+		birth = yes
+	}
+	1076.1.1 = {
+		trait = education_martial_2
+	}
+	1091.6.1 = {
+		name = "Muizz_al-Dawla"
+	}
+	1102.1.1 = {
+		death = yes
+	}
+}
+
+73250 = {
+	name = "Abu-Ya_far" # Abu Ya'far ibn Yahya
+	dynasty_house = house_banu_sumadih # House Banu Sumadih
+	religion = muwalladi
+	culture = yemeni
+
+	father = 45006 # Sheik al-Mutasim of Almería
+
+	1064.1.1 = {
+		birth = yes
+	}
+	1114.1.1 = {
+		death = yes
+	}
+}
+
+73251 = {
+	name = "Ubayd-Allah" # Ubayd Allah ibn Yahya
+	dynasty_house = house_banu_sumadih # House Banu Sumadih
+	religion = muwalladi
+	culture = yemeni
+
+	father = 45006 # Sheik al-Mutasim of Almería
+
+	1062.1.1 = {
+		birth = yes
+	}
+	1078.1.1 = {
+		trait = education_stewardship_1
+	}
+	1112.1.1 = {
+		death = yes
+	}
+}
+
+73252 = {
+	name = "Raf" # Raf ibn Yahya
+	dynasty_house = house_banu_sumadih # House Banu Sumadih
+	religion = muwalladi
+	culture = yemeni
+
+	father = 45006 # Sheik al-Mutasim of Almería
+
+	1066.1.1 = {
+		birth = yes
+	}
+	1082.1.1 = {
+		trait = education_intrigue_1
+	}
+	1116.1.1 = {
+		death = yes
+	}
+}
+
+73253 = {
+	name = "Umm" # Umm ibn Yahya
+	female = yes
+	dynasty_house = house_banu_sumadih # House Banu Sumadih
+	religion = muwalladi
+	culture = yemeni
+
+	father = 45006 # Sheik al-Mutasim of Almería
+
+	1068.1.1 = {
+		birth = yes
+	}
+	1118.1.1 = {
+		death = yes
+	}
+}
+
+73254 = {
+	name = "Abdallah"
+	dynasty = 12227
+	religion = "muwalladi"
+	culture = "andalusian"
+	1120.1.1 = {
+		birth = "1120.1.1"
+	}
+	1144.1.1 = {
+		add_pressed_claim = title:d_valencia
+		add_pressed_claim = title:d_mallorca
+		add_pressed_claim = title:d_murcia
+		add_pressed_claim = title:d_cordoba
+		add_pressed_claim = title:d_badajoz
+		add_pressed_claim = title:d_sevilla
+		add_pressed_claim = title:d_granada
+	}
+	1178.1.1 = {
+		death = "1178.1.1"
+	}
+}
+
+73255 = {
+	name = "Abu-Bakr"
+	dynasty = 12228
+	religion = "muwalladi"
+	culture = "andalusian"
+	1020.1.1 = {
+		birth = "1020.1.1"
+	}
+	1076.1.1 = {
+		death = "1076.1.1"
+	}
+}
+
+73256 = {
+	name = "Abd-al-Aziz"
+	dynasty = 12228
+
+	father = 73255
+
+	religion = muwalladi
+	culture = andalusian
+
+	1054.1.1 = {
+		birth = yes
+	}
+	1076.1.1 = {
+		add_pressed_claim = title:c_almeria
+	}
+	1113.1.1 = {
+		death = yes
+	}
+}
+
+73257 = {
+	name = "Muhammad"
+	dynasty = 12228
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 73256
+	1077.1.1 = {
+		birth = "1077.1.1"
+	}
+	1126.1.1 = {
+		death = "1126.1.1"
+	}
+}
+
+73258 = {
+	name = "Abdallah"
+	dynasty = 12228
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 73257
+	1100.1.1 = {
+		birth = "1100.1.1"
+	}
+	1146.1.1 = {
+		add_pressed_claim = title:d_valencia
+		add_pressed_claim = title:d_mallorca
+		add_pressed_claim = title:d_murcia
+		add_pressed_claim = title:d_cordoba
+		add_pressed_claim = title:d_badajoz
+		add_pressed_claim = title:d_sevilla
+		add_pressed_claim = title:d_granada
+	}
+	1154.1.1 = {
+		death = "1154.1.1"
+	}
+}
+
+73259 = {
+	name = "Ya_far"
+	dynasty = 12229
+	religion = "muwalladi"
+	culture = "andalusian"
+	1112.1.1 = {
+		birth = "1112.1.1"
+	}	
+	1145.1.1 = {
+		add_pressed_claim = title:d_valencia
+		add_pressed_claim = title:d_mallorca
+		add_pressed_claim = title:d_murcia
+		add_pressed_claim = title:d_cordoba
+		add_pressed_claim = title:d_badajoz
+		add_pressed_claim = title:d_sevilla
+	}
+	1145.7.1 = {
+		add_pressed_claim = title:d_granada
+	}
+	1146.1.1 = {
+		remove_claim = title:d_granada
+		remove_claim = title:d_valencia
+		remove_claim = title:d_mallorca
+		remove_claim = title:d_murcia
+		remove_claim = title:d_cordoba
+		remove_claim = title:d_badajoz
+		remove_claim = title:d_sevilla
+	}
+	1170.1.1 = {
+		death = "1170.1.1"
+	}
+}
+
+73260 = {
+	name = "Abd-al-Hakam"
+	dynasty = 12230
+
+	religion = muwalladi
+	culture = andalusian
+
+	1120.1.1 = {
+		birth = yes
+	}	
+	1153.1.1 = {
+		add_pressed_claim = title:c_malaga
+	}
+	1176.1.1 = {
+		death = yes
+	}
+}
+
+73261 = {
+	name = "Ibrahim"
+	dynasty = 12234
+	religion = "muwalladi"
+	culture = "andalusian"
+	1090.1.1 = {
+		birth = "1090.1.1"
+	}
+	1144.1.1 = {
+		death = "1144.1.1"
+	}
+}
+
+73262 = {
+	name = "Fatima"
+	female = yes
+	dynasty = 569
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 3928
+	mother = 73193
+	1060.1.1 = {
+		birth = "1060.1.1"
+	}
+	1112.1.1 = {
+		death = "1112.1.1"
+	}
+}
+
+3910 = {
+	name = "Abd-al-Rahman"
+	dynasty = 572
+
+	father = 45027
+
+	religion = muwalladi
+	culture = andalusian
+
+	1028.1.1 = {
+		birth = yes
+	}
+	1081.1.1 = {
+		death = yes
+	}
+}
+
+3933 = {
+	name = "Suleyman"
+	dynasty = 599
+	martial = 4
+	diplomacy = 5
+	intrigue = 4
+	stewardship = 8
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = education_stewardship_2
+	990.1.1 = {
+		birth = "990.1.1"
+	}
+	1046.1.1 = {
+		death = "1046.1.1"
+	}
+}
+
+3934 = {
+	name = "Ahmad" #AKA: al-Muqtadir
+	dynasty = 599
+	martial = 3
+	diplomacy = 4
+	intrigue = 4
+	stewardship = 8
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = calm
+	trait = humble
+	trait = honest
+	trait = cynical
+	trait = education_diplomacy_2
+	father = 3933
+	1026.1.1 = {
+		birth = "1026.1.1"
+	}
+	1081.1.1={
+	effect = {
+		make_tributary = {
+		TYPE = tributary_non_permanent #(see 00_T4N_tributary_types)
+		TRIBUTARY = character:3934
+		SUZERAIN = character:108500
+			}
+		}
+	}
+	1082.1.1 = {
+		death = "1082.1.1"
+	}
+}
+
+3935 = {
+	name = "Yusuf"
+	dynasty = 599
+	martial = 5
+	diplomacy = 6
+	intrigue = 5
+	stewardship = 6
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = education_martial_2
+	father = 3934
+	1043.1.1 = {
+		birth = "1043.1.1"
+	}
+	1076.1.1 = {
+		add_spouse = 73262
+	}
+	1082.1.1 = {
+		add_pressed_claim = title:d_valencia
+		add_pressed_claim = title:d_mallorca
+		add_pressed_claim = title:d_murcia
+		add_pressed_claim = title:d_toledo
+		add_pressed_claim = title:d_cordoba
+		add_pressed_claim = title:d_badajoz
+		add_pressed_claim = title:d_sevilla
+		add_pressed_claim = title:d_granada
+	}
+	1085.1.1 = {
+		death = "1085.1.1"
+	}
+}
+
+45000 = {
+	name = "Abd-al-Hazm"
+	dynasty = 101607
+	
+	father = 1235099
+
+	religion = muwalladi
+	culture = andalusian
+
+	991.1.1 = {
+		birth = yes
+	}
+	1043.1.1 = {
+		death = yes
+	}
+}
+
+45002 = {
+	name = "Abd-al-Rahman"
+	dynasty = 101607
+	
+	father = 45001
+
+	religion = muwalladi
+	culture = andalusian
+
+	1034.1.1 = {
+		birth = yes
+	}
+	1085.1.1 = {
+		death = yes
+	}
+}
+
+45005 = {
+	name = "Ahmad"
+	dynasty = 599
+	martial = 5
+	diplomacy = 3
+	intrigue = 4
+	stewardship = 8
+	religion = "mozarabic_church"
+	culture = "mozarab"
+	trait = education_martial_2
+	father = 3934
+	1050.1.1 = {
+		birth = "1050.1.1"
+	}
+	1085.1.1 = {
+		add_pressed_claim = title:d_mallorca
+		add_pressed_claim = title:d_murcia
+		add_pressed_claim = title:d_toledo
+		add_pressed_claim = title:d_cordoba
+		add_pressed_claim = title:d_badajoz
+		add_pressed_claim = title:d_sevilla
+		add_pressed_claim = title:d_granada
+	}
+	1085.5.25 = {
+		remove_claim = title:d_toledo
+	}
+	1092.10.28 = {
+		add_pressed_claim = title:d_valencia
+	}
+	1110.1.1 = {
+		death = "1110.1.1"
+	}
+}
+
+45025 = {
+	name = "Abd-al-Aziz"
+	dynasty = 569
+	
+	father = 73226
+
+	religion = muwalladi
+	culture = andalusian
+
+	999.1.1 = {
+		birth = yes
+	}
+	1061.1.1 = {
+		death = yes
+	}
+}
+
+45026 = {
+	name = "Abd-al-Malik"
+	dynasty = 569
+	
+	father = 45025
+
+	religion = muwalladi
+	culture = andalusian
+
+	1020.1.1 = {
+		birth = yes
+	}
+	1060.1.1 = {
+		add_spouse = 20858
+	}
+	1065.1.1 = {
+		add_pressed_claim = title:d_valencia
+	}
+	1069.1.1 = {
+		death = yes
+	}
+}
+
+45027 = {
+	name = "Abu-Bakr"
+	dynasty = 572
+	martial = 8
+	diplomacy = 5
+	intrigue = 8
+	stewardship = 6
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = greedy
+	trait = education_martial_2
+	1005.1.1 = {
+		birth = "1005.1.1"
+	}
+	1063.1.1 = {
+		death = "1063.1.1"
+	}
+}
+200225 = {
+	name = "Ya_qub" # Ya'qub, placeholder Count of Valladolid (865-890)
+	dynasty = walidid # Balad al-Walid Dynasty
+	religion = mozarabic_church
+	culture = mozarab
+	trait = education_diplomacy_1
+
+	840.1.1 = {
+		birth = yes
+	}
+	864.1.1 = {
+		add_spouse = andalusian0149 # Suraya
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+224002 = {
+	name = "Khaleel"
+	dynasty = 12226
+	martial = 6
+	diplomacy = 7
+	intrigue = 4
+	stewardship = 8
+	religion = "ismaili"
+	culture = "andalusian"
+	trait = education_martial_2
+	1157.1.1 = {
+		birth = "1157.1.1"
+	}
+	1212.1.1 = {
+		death = "1212.1.1"
+	}
+}
+
+224006 = {
+	name="Abu-Ali" #b. Khalas al-Balansi, qadi of Ceuta 
+	dynasty=12214
+	#martial=7
+	#diplomacy=4
+	#intrigue=6
+	#stewardship=4
+	religion="muwalladi"
+	culture="andalusian"
+	#trait="deceitful"
+	father=224002
+	1190.1.1={ #?
+		birth=yes
+	}
+	1246.1.1={
+	effect = {
+		make_tributary = {
+		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
+		TRIBUTARY = character:224006
+		SUZERAIN = character:33021
+			}
+		}
+	}
+	1248.1.1={
+		death=yes
+	}
+}
+
+224007 = {
+	name = "Abdallah"
+	dynasty = 12215
+	martial = 7
+	diplomacy = 4
+	intrigue = 6
+	stewardship = 5
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = chaste
+	trait = arbitrary
+	trait = education_martial_3
+	1074.1.1 = {
+		birth = "1074.1.1"
+	}
+	1130.1.1 = {
+		death = "1130.1.1"
+	}
+}
+
+224008 = {
+	name = "Muhammad"
+	dynasty = 12192
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 73204
+	1113.1.1 = {
+		birth = "1113.1.1"
+	}
+	1145.1.1 = {
+		add_pressed_claim = title:d_badajoz
+	}
+	1146.1.1 = {
+		add_pressed_claim = title:d_valencia
+		add_pressed_claim = title:d_mallorca
+		add_pressed_claim = title:d_murcia
+		add_pressed_claim = title:d_cordoba
+		add_pressed_claim = title:d_sevilla
+		add_pressed_claim = title:d_granada
+	}
+	1150.1.1 = {
+		death = "1150.1.1"
+	}
+}
+
+224012 = {
+	name = "Tariq"
+	dynasty = 12212
+	martial = 8
+	diplomacy = 6
+	intrigue = 8
+	stewardship = 7
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = greedy
+	trait = education_intrigue_1
+	father = 73245
+	1099.1.1 = {
+		birth = "1099.1.1"
+	}
+	1144.1.1 = {
+		death = "1144.1.1"
+	}
+}
+
+224014 = {
+	name = "Hakam"
+	dynasty = 12216
+	martial = 8
+	diplomacy = 7
+	intrigue = 7
+	stewardship = 5
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = education_martial_2
+	1116.1.1 = {
+		birth = "1116.1.1"
+	}
+	1170.1.1 = {
+		death = "1170.1.1"
+	}
+}
+
+224016 = {
+	name = "Abd-al-Malik"
+	dynasty = 12232
+
+	religion = ismaili
+	culture = andalusian
+
+	1146.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+224017 = {
+	name = "Ya_qub"
+	dynasty = 12231
+	martial = 7
+	diplomacy = 4
+	intrigue = 6
+	stewardship = 7
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = diligent
+	trait = deceitful
+	trait = arbitrary
+	trait = education_stewardship_3
+	1065.1.1 = {
+		birth = "1065.1.1"
+	}
+	1118.1.1 = {
+		death = "1118.1.1"
+	}
+}
+
+224023 = {
+	name = "Ibrahim"
+	dynasty = 574
+	martial = 5
+	diplomacy = 4
+	intrigue = 7
+	stewardship = 5
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = greedy
+	trait = wrathful
+	trait = education_martial_2
+	1094.1.1 = {
+		birth = "1094.1.1"
+	}
+	1148.1.1 = {
+		death = "1148.1.1"
+	}
+}
+
+224024 = {
+	name = "Ali"
+	dynasty = 12223
+	martial = 4
+	diplomacy = 4
+	intrigue = 6
+	stewardship = 6
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = calm
+	trait = brave
+	trait = education_martial_2
+	1122.1.1 = {
+		birth = "1122.1.1"
+	}
+	1178.1.1 = {
+		death = "1178.1.1"
+	}
+}
+
+224025 = {
+	name = "Amr"
+	dynasty = 12224
+	martial = 5
+	diplomacy = 4
+	intrigue = 5
+	stewardship = 7
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = diligent
+	trait = education_intrigue_2
+	father = 464010
+	1079.1.1 = {
+		birth = "1079.1.1"
+	}
+	1147.1.1 = {
+		death = "1147.1.1"
+	}
+}
+
+3922 = {
+	name = "Isma_il"
+	dynasty = 570
+	martial = 4
+	diplomacy = 8
+	intrigue = 8
+	stewardship = 6
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = wrathful
+	trait = cynical
+	trait = education_intrigue_2
+	father = 73194
+	990.1.1 = {
+		birth = "990.1.1"
+	}
+	1043.1.1 = {
+		death = "1043.1.1"
+	}
+}
+
+3924 = {
+	name = "Yahya" # Yahya ibn Isma'il, known as al-Ma'mun, Emir of Toledo (1043-1075) & Sheik of Alarcón, Alarcos, Calatrava, Madrid, Malagón & Toledo (1043-1075), Soria (1043-1060), Cuenca & Uclés (1043-1066), Córdoba & Madrid (1075)
+	dna = 3924_emir_yahya
+	dynasty = 570 # Banu Dhu-l-Nun Dynasty
+	martial = 6
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 7
+	religion = muwalladi
+	culture = baranis
+	disallow_random_traits = yes
+	trait = just
+	trait = diligent
+	trait = compassionate
+	trait = education_martial_2
+	sexuality = heterosexual
+
+	father = 3922 # Emir al-Zafir of Toledo
+
+	1023.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
+	}
+	1065.1.1 = {
+		effect = {
+			set_relation_rival = { reason = rival_historical target = character:3214 } # Muhammad ibn Abbad, 26 year old in 1066, and heir to the Abbadid Emirate
+		}
+	}
+	1075.6.1 = {
+		death = {
+			death_reason = death_poison
+		}
+	}
+}
+
+3926 = {
+	name = "Yahya"
+	dynasty = 570
+	martial = 5
+	diplomacy = 2
+	intrigue = 7
+	stewardship = 4
+	religion = "muwalladi"
+	culture = "andalusian"
+	disallow_random_traits = yes
+	trait = calm
+	trait = brave
+	trait = lisping
+	trait = bossy
+	father = 73195
+	1064.1.1 = {
+		birth = "1064.1.1"
+	}
+	1075.1.1 = {
+		add_pressed_claim = title:d_zaragoza
+		add_pressed_claim = title:d_mallorca
+		add_pressed_claim = title:d_murcia
+		add_pressed_claim = title:d_toledo
+		add_pressed_claim = title:d_cordoba
+		add_pressed_claim = title:d_badajoz
+		add_pressed_claim = title:d_sevilla
+		add_pressed_claim = title:d_granada
+	}
+	1075.7.1 = {
+		add_pressed_claim = title:d_valencia
+	}
+	1080.1.1 = {
+		add_pressed_claim = title:d_toledo
+		
+	}
+	1081.1.1 = {
+		remove_claim = title:d_toledo
+		
+	}
+	1081.1.1={
+	effect = {
+		make_tributary = {
+		TYPE = tributary_non_permanent #(see 00_T4N_tributary_types)
+		TRIBUTARY = character:3926
+		SUZERAIN = character:108500
+			}
+		}
+	}
+	1085.5.25 = {
+		employer = 108500
+	}
+	1086.1.1 = {
+		remove_claim = title:d_valencia
+	
+	}
+	1092.10.28 = {
+		death = "1092.10.28"
+	}
+}
+
+3912 = {
+	name = "Muhammad" # Muhammd ibn Ammar, known as Ibn Ammar, Sheik of Silves (1069-1070), Murcia (1079-1080) & Molina (1082-1085)
+	dynasty = 12204 # Banu Ammar
+	martial = 6
+	diplomacy = 8
+	intrigue = 8
+	stewardship = 7
+	religion = muwalladi
+	culture = andalusian
+	trait = poet
+	trait = education_stewardship_3
+
+	1031.1.1 = {
+		birth = yes
+	}
+	1063.1.1 = {
+		effect = {
+			set_relation_lover = { reason = lover_history target = character:3214 } # Emir al-Mu'tamid of Seville
+		}
+		employer = 3214
+	}
+	1079.1.1 = {
+		add_pressed_claim = title:d_murcia		 
+	}
+	1086.1.1 = {
+		death = {
+			death_reason = death_murder_known
+			killer = 3214
+		}
+	}
+}
+
+3914 = {
+	name = "Rashid" # AKA: Ibn Rasiq
+	dynasty = 572
+	martial = 6
+	diplomacy = 8
+	intrigue = 4
+	stewardship = 6
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = cynical
+	trait = education_martial_2
+	father = 73248
+	mother = 45028
+	1048.1.1 = {
+		birth = "1048.1.1"
+	}
+	1088.1.1 = {
+		death = "1088.1.1"
+	}
+}
+
+3916 = {
+	name = "Abd-al-Hasan"
+	dynasty = 12205
+
+	religion = muwalladi
+	culture = andalusian
+
+	1059.1.1 = {
+		birth = yes
+	}
+	1115.1.1 = {
+		death = yes
+	}
+}
+
+45028 = {
+	name = "Ahu"
+	female = yes
+	dynasty = 572
+	martial = 8
+	diplomacy = 5
+	intrigue = 8
+	stewardship = 6
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 45027
+	1030.1.1 = {
+		birth = "1030.1.1"
+	}
+	1067.1.1 = {
+		death = "1067.1.1"
+	}
+}
+
+20883 = {
+	name = "Abd-al-Malik"
+	dynasty = 586
+	
+	father = 1235014
+
+	religion = muwalladi
+	culture = andalusian
+
+	1026.1.1 = {
+		birth = yes
+	}
+	1103.1.1 = {
+		death = yes
+	}
+}
+
+20884 = {
+	name = "Yahya"
+	dynasty = 586
+	martial = 7
+	diplomacy = 3
+	intrigue = 4
+	stewardship = 5
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = education_martial_2
+	father = 20883
+	1049.1.1 = {
+		birth = "1049.1.1"
+	}
+	1115.1.1 = {
+		death = "1115.1.1"
+	}
+}
+
+3900 = {
+	name = "Muhammad" # Muhammad ibn Abdallah, known as al-Muzaffar, Emir of Badajoz (1045-1067) & Sheik of Alcacer do Sal, Castelo Branco, Coimbra & Lisboa (1034-1061), Viseu (1034-1057), Badajoz, Medellín & Mérida (1045-1067) Cáceres, Elvas, Évora & Plasencia (1045-1061)
+	dynasty = 573 # Banu-l-Aftas Dynasty
+	martial = 4
+	diplomacy = 2
+	intrigue = 6
+	stewardship = 4
+	religion = muwalladi
+	culture = baranis
+	trait = generous
+	trait = wrathful
+	trait = arbitrary
+	trait = honest
+	trait = education_diplomacy_2
+
+	father = 45007 # Emir al-Mansur I of Badajoz
+
+	1005.1.1 = {
+		birth = yes
+	}
+	1045.1.1 = {
+		name = "al-Muzaffar"
+	}
+	1066.1.1={
+	effect = {
+		make_tributary = {
+		TYPE = tributary_non_permanent #(see 00_T4N_tributary_types)
+		TRIBUTARY = character:3900
+		SUZERAIN = character:109500
+			}
+		}
+	}
+	1067.1.1 = {
+		death = yes
+	}
+}
+
+3901 = {
+	name = "Yahya" # Yahya ibn Muhammad, known as al-Mansur II, Emir of Badajoz (1067-1079) & Sheik of Caceres & Plasencia (1061-1079), Badajoz, Medellín & Mérida (1067-1079)
+	dynasty = 573 # Banu-l-Aftas Dynasty
+	martial = 5
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 4
+	religion = muwalladi
+	culture = baranis
+	trait = honest
+	trait = education_intrigue_1
+
+	father = 3900 # Emir al-Muzaffar of Badajoz
+
+	1040.1.1 = {
+		birth = yes
+	}
+	1045.1.1 = {
+		employer = 3900
+	}
+	1067.1.1 = {
+		name = "al-Mansur"
+		employer = 0
+	}
+	1079.1.1 = {
+		death = yes
+	}
+}
+
+3902 = {
+	name = "Umar" # Umar ibn Muhammad, known as al-Mutawakkil, Emir of Beja (1067-1079) & Badajoz (1079-1094) & Sheik of Alcacer do Sal& Castelo Branco (1061-1094), Coimbra (1061-1064), Elvas & Évora (1061-1079), Lisboa (1061-1093), Badajoz, Cáceres & Plasencia (1079-1094), Alarcón, Alarcos, Calatrava, Cuenca, Madrid, Malagón & Toledo (1080-1081)
+	dynasty = 573 # Banu-l-Aftas Dynasty
+	martial = 6
+	diplomacy = 8
+	intrigue = 8
+	stewardship = 5
+	religion = muwalladi
+	culture = baranis
+	trait = wrathful
+	trait = education_intrigue_3
+
+	father = 3900 # Emir al-Muzaffar of Badajoz
+
+	1045.1.1 = {
+		birth = yes
+	}
+	1067.1.1 = {
+		add_pressed_claim = title:d_badajoz
+		add_pressed_claim = title:c_badajoz
+		add_pressed_claim = title:c_caceres
+		add_pressed_claim = title:c_medellin
+		add_pressed_claim = title:c_merida
+		add_pressed_claim = title:c_plasencia
+ 
+	}
+	1079.1.1 = {
+		name = "Al-Mutawakkil"
+		remove_claim = title:d_badajoz
+		remove_claim = title:c_badajoz
+		remove_claim = title:c_caceres
+		remove_claim = title:c_medellin
+		remove_claim = title:c_merida
+		remove_claim = title:c_plasencia
+	}
+	1080.1.1 = {
+		add_pressed_claim = title:d_toledo
+		add_pressed_claim = title:c_alarcon
+		add_pressed_claim = title:c_almader
+		add_pressed_claim = title:c_calatrava
+		add_pressed_claim = title:c_cuenca
+		add_pressed_claim = title:c_madrid
+		add_pressed_claim = title:c_mora
+		add_pressed_claim = title:c_toledo
+	}
+	1080.6.1 = {
+		remove_claim = title:d_toledo
+		remove_claim = title:c_alarcon
+		remove_claim = title:c_almader
+		remove_claim = title:c_calatrava
+		remove_claim = title:c_cuenca
+		remove_claim = title:c_madrid
+		remove_claim = title:c_mora
+		remove_claim = title:c_toledo
+	}
+	1094.1.1 = {
+		death = {
+			death_reason = death_execution
+			killer = 32965 # Sultan Yusuf ibn Tashfin of Maghreb
+		}
+	}
+}
+
+45008 = {
+	name = "al-Fadl" # al-Fadl ibn Umar, Sheik of Medellín & Mérida (1079-1094)
+	dynasty = 573 # Banu-l-Aftas Dynasty
+	martial = 6
+	diplomacy = 8
+	intrigue = 8
+	stewardship = 5
+	religion = muwalladi
+	culture = baranis
+
+	father = 3902 # Emir al-Mutawakkil of Badajoz
+
+	1062.1.1 = {
+		birth = yes
+	}
+	1078.1.1 = {
+		trait = education_martial_1
+	}
+	1094.1.1 = {
+		death = {
+			death_reason = death_execution
+			killer = 32965 # Sultan Yusuf ibn Tashfin of Maghreb
+		}
+	}
+}
+
+45007 = {
+	name = "Abdallah" # Abdallah ibn al-Aftas, known as al-Mansur I, Emir of Badajoz (1022-1045) & Sheik of Badajoz, Caceres, Castelo Branco, Elvas, Evora, Medellin, Merida & Plasencia (1022-1045)
+	dynasty = 573 # Banu-l-Aftas Dynasty
+	martial = 4
+	diplomacy = 2
+	intrigue = 6
+	stewardship = 4
+	religion = muwalladi
+	culture = baranis
+	trait = generous
+	trait = wrathful
+	trait = arbitrary
+	trait = honest
+	trait = education_stewardship_3
+
+	980.1.1 = {
+		birth = yes
+	}
+	1022.4.8 = {
+		name = "al-Mansur"
+	}
+	1045.1.1 = {
+		death = yes
+	}
+}
+
+45009 = {
+	name = "al-Abbas" # al-Abbas ibn Umar, Sheik of Elvas & Évora (1079-1094)
+	dynasty = 573 # Banu-l-Aftas Dynasty
+	martial = 6
+	diplomacy = 8
+	intrigue = 8
+	stewardship = 5
+	religion = muwalladi
+	culture = baranis
+
+	father = 3902 # Emir al-Mutawakkil of Badajoz
+
+	1064.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		trait = education_stewardship_2
+	}
+	1094.1.1 = {
+		death = {
+			death_reason = death_execution
+			killer = 32965 # Sultan Yusuf ibn Tashfin of Maghreb
+		}
+	}
+}
+
+20852 = {
+	name = "Abd-al-Malik" # Abd al-Malik ibn Muhammad, known as al-Mansur, Emir of Cordoba (1063-1070) & Sheik of Cabra & Cordoba (1063-1070)
+	dynasty = 101607 # Banu Jahwar Dynasty
+	religion = muwalladi
+	culture = levantine
+	trait = education_martial_2
+
+	father = 45001 # Emir al-Rasid of Cordoba
+
+	1037.1.1 = {
+		birth = yes
+		effect = {
+			set_up_elected_ruler_republic = yes
+			effect_create_personal_army = yes
+		}
+	}
+	1063.1.1 = {
+		name = "al-Mansur"
+	}
+	1070.7.27 = {
+		death = yes
+	}
+}
+
+20858 = {
+	name = "Zahida"
+	female = yes
+	dynasty = 570
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 3924
+	disallow_random_traits = yes
+	trait = generous
+	trait = gregarious
+	trait = stubborn
+	trait = education_intrigue_4
+
+	1044.1.1 = {
+		birth = "1044.1.1"
+	}
+	1095.1.1 = {
+		death = "1095.1.1"
+	}
+}
+
+73621 = {
+	name = "Sa_d"
+	dynasty = 12211
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 73243
+	1158.1.1 = {
+		birth = "1158.1.1"
+	}
+	1221.1.1 = {
+		death = "1221.1.1"
+	}
+}
+
+73622 = {
+	name = "Zayyan"
+	dynasty = 12211
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 73621
+	1184.1.1 = {
+		birth = "1184.1.1"
+	}
+	1236.1.1 = {
+		add_pressed_claim = title:d_murcia
+		add_pressed_claim = title:d_sevilla
+		add_pressed_claim = title:d_granada
+	}
+	1238.1.1 = {
+		remove_claim = title:d_sevilla
+	}
+	1239.1.1 = {
+		remove_claim = title:d_murcia
+	}
+	1241.1.1 = {
+		death = "1241.1.1"
+	}
+}
+
+73623 = {
+	name = "Muhammad"
+	dynasty = 599
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 73181
+	trait = bastard
+	1135.1.1 = {
+		birth = "1135.1.1"
+	}
+	1180.1.1 = {
+		death = "1180.1.1"
+	}
+}
+
+73624 = {
+	name = "Yusuf"
+	dynasty = 599
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 73623
+	1162.1.1 = {
+		birth = "1162.1.1"
+	}
+	1221.1.1 = {
+		death = "1221.1.1"
+	}
+}
+
+73625 = {
+	name = "Muhammad"
+	dynasty = 599
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 73624
+	trait = "education_martial_2"
+	trait = "brave"			
+	1186.1.1 = {
+		birth = "1186.1.1"
+	}
+	1228.1.1 = {
+		add_pressed_claim = title:d_valencia
+		add_pressed_claim = title:d_mallorca
+		add_pressed_claim = title:d_badajoz
+	}
+	1230.1.1 = {
+		remove_claim = title:d_mallorca
+	}
+	1230.3.19 = {
+		remove_claim = title:d_badajoz
+	}
+	1236.1.1 = {
+		remove_claim = title:d_valencia
+	}
+	1237.1.1 = {
+		add_pressed_claim = title:d_granada
+	}
+	1238.1.1 = {
+		death = { death_reason=death_murder }
+	}
+}
+
+73626 = {
+	name = "Ali"
+	dynasty = 599
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 73624
+	1188.1.1 = {
+		birth = "1188.1.1"
+	}
+	1249.1.1 = {
+		death = "1249.1.1"
+	}
+}
+
+73627 = {
+	name = "Abu-Bakr"
+	dynasty = 599
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 73625
+	1223.1.1 = {
+		birth = "1223.1.1"
+	}
+	1238.1.1 = {
+		add_pressed_claim = title:d_granada
+	}
+	1238.7.1 = {
+		add_pressed_claim = title:d_murcia
+	}
+	1264.1.1 = {
+		remove_claim = title:d_murcia
+	}
+	1278.1.1 = {
+		death = "1278.1.1"
+	}
+}
+
+73628 = {
+	name = "Muhammad"
+	dynasty = 599
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 73625
+	1223.1.1 = {
+		birth = "1223.1.1"
+	}
+	1241.1.1 = {
+		add_pressed_claim = title:d_granada
+	}
+	1246.1.1={
+	effect = {
+		make_tributary = {
+		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
+		TRIBUTARY = character:73628
+		SUZERAIN = character:457620
+			}
+		}
+	}	
+	1258.1.1={
+	effect = {
+		make_tributary = {
+		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
+		TRIBUTARY = character:73628
+		SUZERAIN = character:457540
+			}
+		}
+	}
+	1260.1.1 = {
+		death = "1260.1.1"
+	}
+}
+
+73629 = {
+	name = "Ya_far"
+	dynasty = 599
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 73628
+	1246.1.1 = {
+		birth = "1246.1.1"
+	}
+	1260.1.1 = {
+		add_pressed_claim = title:d_granada
+	}
+	1263.1.1 = {
+		death = "1263.1.1"
+	}
+}
+
+73630 = {
+	name = "Muhammad"
+	dynasty = 599
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 73629
+	1263.1.1 = {
+		birth = "1263.1.1"
+	}
+	1263.1.1 = {
+		add_pressed_claim = title:d_granada
+	}
+	1264.1.1 = {
+		death = "1264.1.1"
+	}
+}
+
+73632 = {
+	name = "Su_ayb"
+	dynasty = 12261
+	religion = "muwalladi"
+	culture = "andalusian"
+	1210.1.1 = {
+		birth = "1210.1.1"
+	}
+	1234.1.1 = {
+		add_pressed_claim = title:d_valencia
+		add_pressed_claim = title:d_murcia
+		add_pressed_claim = title:d_cordoba
+		add_pressed_claim = title:d_sevilla
+		add_pressed_claim = title:d_granada
+	}
+	1236.1.1 = {
+		remove_claim = title:d_valencia
+		remove_claim = title:d_cordoba
+	}
+	1238.1.1 = {
+		remove_claim = title:d_sevilla
+	}
+	1241.1.1={
+	effect = {
+		make_tributary = {
+		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
+		TRIBUTARY = character:73632
+		SUZERAIN = character:457620
+			}
+		}
+	}
+	1258.1.1={
+	effect = {
+		make_tributary = {
+		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
+		TRIBUTARY = character:73632
+		SUZERAIN = character:457540
+			}
+		}
+	}
+	1262.1.1 = {
+		death = "1262.1.1"
+	}
+}
+
+73633 = {
+	name = "Abdallah"
+	dynasty = 12262
+	religion = "muwalladi"
+	culture = "andalusian"
+	1190.1.1 = {
+		birth = "1190.1.1"
+	}
+	1241.1.1 = {
+		add_pressed_claim = title:d_murcia
+		add_pressed_claim = title:d_sevilla
+		add_pressed_claim = title:d_granada
+	}
+	1244.1.1 = {
+		death = "1244.1.1"
+	}
+}
+
+73634 = {
+	name = "Ali"
+	dynasty = 12262
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 73633
+	1222.1.1 = {
+		birth = "1222.1.1"
+	}
+	1244.1.1 = {
+		add_pressed_claim = title:d_murcia
+		add_pressed_claim = title:d_granada
+	}
+	1264.1.1 = {
+		death = "1264.1.1"
+	}
+}
+
+73635 = {
+	name = "Muhammad"
+	dynasty = 12262
+	religion = "muwalladi"
+	culture = "andalusian"
+	father = 73634
+	1247.1.1 = {
+		birth = "1247.1.1"
+	}
+	1264.1.1 = {
+		add_pressed_claim = title:d_murcia
+		add_pressed_claim = title:d_granada
+	}
+	1266.1.1 = {
+		remove_claim = title:d_murcia
+	}
+	1300.1.1 = {
+		death = "1300.1.1"
+	}
+}
+
+73636 = {
+	name = "Zannun"
+	dynasty = 12263
+	religion = "muwalladi"
+	culture = "andalusian"
+	1185.1.1 = {
+		birth = "1185.1.1"
+	}
+	1228.1.1 = {
+		add_pressed_claim = title:d_valencia
+		add_pressed_claim = title:d_mallorca
+		add_pressed_claim = title:d_murcia
+		add_pressed_claim = title:d_cordoba
+		add_pressed_claim = title:d_badajoz
+		add_pressed_claim = title:d_sevilla
+		add_pressed_claim = title:d_granada
+	}
+	1230.1.1 = {
+		remove_claim = title:d_mallorca
+	}
+	1230.3.19 = {
+		remove_claim = title:d_badajoz
+	}
+	1236.1.1 = {
+		remove_claim = title:d_valencia
+		remove_claim = title:d_cordoba
+	}
+	1238.1.1 = {
+		death = "1238.1.1"
+	}
+}
+
+73637 = {
+	name = "Ahmad"
+	dynasty = 12264
+	religion = "muwalladi"
+	culture = "andalusian"
+	1200.1.1 = {
+		birth = "1200.1.1"
+	}
+	1238.1.1 = {
+		add_pressed_claim = title:d_murcia
+		add_pressed_claim = title:d_granada
+	}
+	1251.1.1 = {
+		death = "1251.1.1"
+	}
+}
+
+73638 = {
+	name = "Ali"
+	dynasty = 12265
+	religion = "muwalladi"
+	culture = "andalusian"
+	1220.1.1 = {
+		birth = "1220.1.1"
+	}
+	1238.1.1 = {
+		add_pressed_claim = title:d_murcia
+		add_pressed_claim = title:d_granada
+	}
+	1266.1.1 = {
+		remove_claim = title:d_murcia
+	}
+	1275.1.1 = {
+		death = "1275.1.1"
+	}
+}
+
+73639 = {
+	name = "Abd-al-Rahman"
+	dynasty = 12266
+
+	religion = muwalladi
+	culture = andalusian
+
+	1206.1.1 = {
+		birth = yes
+	}
+	1248.1.1 = {
+		death = yes
+	}
+}
+
+73640 = {
+	name = "Umar"
+	dynasty = 12267
+	religion = "muwalladi"
+	culture = "andalusian"
+	1212.1.1 = {
+		birth = "1212.1.1"
+	}
+	1238.1.1 = {
+		add_pressed_claim = title:d_murcia
+		add_pressed_claim = title:d_granada
+	}
+	1264.1.1 = {
+		death = "1264.1.1"
+	}
+}
+
 73641 = {
 	name = "Isma_il"
 	dynasty = 101904
@@ -57,7 +3561,10 @@
 		remove_claim = title:d_granada
 	}
 	1325.1.1 = {
-		death = "1325.1.1"
+		death = {
+			death_reason=death_murder
+			killer=1235511 #Muhammad b. Isma'il, his cousin
+		}
 	}
 }
 
@@ -126,6 +3633,15 @@
 	1287.11.2 = {
 		birth = "1287.11.2"
 	}
+	1310.1.1={
+	effect = {
+		make_tributary = {
+		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
+		TRIBUTARY = character:73646
+		SUZERAIN = character:457520
+			}
+		}
+	}	
 	1322.11.16 = {
 		death = "1322.11.16"
 	}
@@ -137,6 +3653,7 @@
 	religion = "muwalladi"
 	culture = "andalusian"
 	father = 73650
+	trait = "sadistic" #known for cruelty								  
 	1257.8.15 = {
 		birth = "1257.8.15"
 	}
@@ -184,6 +3701,24 @@
 	1235.1.1 = {
 		birth = "1235.1.1"
 	}
+	1285.1.1={
+	effect = {
+		make_tributary = {
+		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
+		TRIBUTARY = character:73650
+		SUZERAIN = character:457530
+			}
+		}
+	}
+	1297.1.1={
+	effect = {
+		make_tributary = {
+		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
+		TRIBUTARY = character:73650
+		SUZERAIN = character:457520
+			}
+		}
+	}
 	1302.4.7 = {
 		death = "1302.4.7"
 	}
@@ -209,9 +3744,36 @@
 	1238.1.1 = {
 		remove_claim = title:d_sevilla
 	}
+	1246.1.1={
+	effect = {
+		make_tributary = {
+		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
+		TRIBUTARY = character:73651
+		SUZERAIN = character:457620
+			}
+		}
+	}	
+	1258.1.1={
+	effect = {
+		make_tributary = {
+		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
+		TRIBUTARY = character:73651
+		SUZERAIN = character:457540
+			}
+		}
+	}
 	1266.1.1 = {
 		remove_claim = title:d_murcia
 	}
+	1267.1.1={
+	effect = {
+		make_tributary = {
+		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
+		TRIBUTARY = character:73651
+		SUZERAIN = character:457540
+			}
+		}
+	}	
 	1273.1.1 = {
 		death = "1273.1.1"
 	}
@@ -231,11 +3793,24 @@
 	}
 }
 
-73653 = {
-	name = "Nasr"
+736533 = {
+	name = "Yusuf"
 	dynasty = 101904
 	religion = "muwalladi"
 	culture = "andalusian"
+	1100.1.1 = {
+		birth = "1100.1.1"
+	}
+	1195.1.1 = {
+		death = "1195.1.1"
+	}
+}
+
+73653 = {
+	name = "Nasr"
+	dynasty = 101904
+	religion = muwalladi
+	culture = bedouin
 	1160.1.1 = {
 		birth = "1160.1.1"
 	}
@@ -247,8 +3822,8 @@
 73654 = {
 	name = "Isma_il"
 	dynasty = 101904
-	religion = "muwalladi"
-	culture = "andalusian"
+	religion = muwalladi
+	culture = bedouin
 	father = 73653
 	1210.1.1 = {
 		birth = "1210.1.1"
@@ -258,1096 +3833,420 @@
 	}
 }
 
-### END ###
-
-20816 = {
-	name = "Bilal"
-	dynasty = 101046
-	martial = 5
-	diplomacy = 8
-	intrigue = 4
-	stewardship = 7
-	religion = muwalladi
-	culture = andalusian
-	trait = gluttonous
-	trait = craven
-	trait = education_martial_3
-	1039.1.1 = {
-		birth = "1039.1.1"
-	}
-	1089.1.1 = {
-		death = "1089.1.1"
-	}
-}
-
-20840 = {
-	name = "Salahaddin"
-	dynasty = 101030
-	martial = 8
-	diplomacy = 6
-	intrigue = 8
-	stewardship = 7
-	religion = muwalladi
-	culture = andalusian
-	trait = lustful
-	trait = temperate
-	trait = brave
-	trait = education_diplomacy_2
-	1039.1.1 = {
-		birth = "1039.1.1"
-	}
-	1089.1.1 = {
-		death = "1089.1.1"
-	}
-}
-
-20889 = {
-	name = "Abdul-Kareem"
-	# AKA: Abdul
-	dynasty = 101056
-	martial = 4
-	diplomacy = 5
-	intrigue = 4
-	stewardship = 4
-	religion = muwalladi
-	culture = andalusian
-	trait = chaste
-	trait = cynical
-	trait = education_diplomacy_2
-	1039.1.1 = {
-		birth = "1039.1.1"
-	}
-	1089.1.1 = {
-		death = "1089.1.1"
-	}
-}
-
-20890 = {
-	name = "Giyasaddin"
-	dynasty = 101055
-	martial = 5
-	diplomacy = 5
-	intrigue = 6
-	stewardship = 4
-	religion = muwalladi
-	culture = andalusian
-	trait = humble
-	trait = cynical
-	trait = hunchbacked
-	trait = education_martial_3
-	1039.1.1 = {
-		birth = "1039.1.1"
-	}
-	1089.1.1 = {
-		death = "1089.1.1"
-	}
-}
-
-20894 = {
-	name = "Murtaza"
-	dynasty = 101054
-	martial = 7
-	diplomacy = 8
-	intrigue = 5
-	stewardship = 5
-	religion = muwalladi
-	culture = andalusian
-	trait = education_martial_3
-	1039.1.1 = {
-		birth = "1039.1.1"
-	}
-	1089.1.1 = {
-		death = "1089.1.1"
-	}
-}
-
-20895 = {
-	name = "Sa_id"
-	# AKA: Said
-	dynasty = 101053
-	martial = 8
-	diplomacy = 4
-	intrigue = 5
-	stewardship = 6
-	religion = muwalladi
-	culture = andalusian
-	trait = just
-	trait = greedy
-	trait = education_intrigue_1
-	1039.1.1 = {
-		birth = "1039.1.1"
-	}
-	1089.1.1 = {
-		death = "1089.1.1"
-	}
-}
-
-20896 = {
-	name = "Hussamaddin"
-	dynasty = 101052
-	martial = 5
-	diplomacy = 5
-	intrigue = 7
-	stewardship = 5
-	religion = muwalladi
-	culture = andalusian
-	trait = arrogant
-	trait = education_learning_3
-	1039.1.1 = {
-		birth = "1039.1.1"
-	}
-	1089.1.1 = {
-		death = "1089.1.1"
-	}
-}
-
-20898 = {
-	name = "Abdul-Qadir"
-	# AKA: Abdul
-	dynasty = 101050
-	martial = 4
-	diplomacy = 5
-	intrigue = 7
-	stewardship = 7
-	religion = muwalladi
-	culture = andalusian
-	trait = education_diplomacy_3
-	1039.1.1 = {
-		birth = "1039.1.1"
-	}
-	1089.1.1 = {
-		death = "1089.1.1"
-	}
-}
-
-45030 = {
-	name = "Hayibisa"
-	dynasty = 7500
-	martial = 4
-	diplomacy = 4
-	intrigue = 4
-	stewardship = 6
-	religion = muwalladi
-	culture = andalusian
-	trait = education_learning_2
-	960.1.2 = {
-		birth = "960.1.2"
-	}
-	1040.1.2 = {
-		death = "1040.1.2"
-	}
-}
-
-45031 = {
-	name = "Isa"
-	dynasty = 7500
-	martial = 4
-	diplomacy = 4
-	intrigue = 4
-	stewardship = 6
-	religion = muwalladi
-	culture = andalusian
-	trait = education_learning_2
-	father = 45033
-	1000.1.2 = {
-		birth = "1000.1.2"
-	}
-	1053.1.2 = {
-		death = "1053.1.2"
-	}
-}
-
-45032 = {
-	name = "Muzaffar"
-	# AKA: Nuzaffar
-	dynasty = 7500
-	martial = 4
-	diplomacy = 4
-	intrigue = 4
-	stewardship = 6
-	religion = muwalladi
-	culture = andalusian
-	trait = education_learning_2
-	father = 45034
-	1040.1.2 = {
-		birth = "1040.1.2"
-	}
-	1080.1.2 = {
-		death = "1080.1.2"
-	}
-}
-
-45033 = {
-	name = "Hayibisa"
-	# AKA: Amid
-	dynasty = 7500
-	martial = 4
-	diplomacy = 4
-	intrigue = 4
-	stewardship = 6
-	religion = muwalladi
-	culture = andalusian
-	trait = education_learning_2
-	father = 45030
-	980.1.2 = {
-		birth = "980.1.2"
-	}
-	1048.1.2 = {
-		death = "1048.1.2"
-	}
-}
-
-45034 = {
-	name = "Nasir"
-	dynasty = 7500
-	martial = 4
-	diplomacy = 4
-	intrigue = 4
-	stewardship = 6
-	religion = muwalladi
-	culture = andalusian
-	trait = education_learning_2
-	father = 45031
-	1020.1.2 = {
-		birth = "1020.1.2"
-	}
-	1053.1.2 = {
-		death = "1053.1.2"
-	}
-}
-
-224049 = {
-	name = "Abdul-Madjid"
-	# AKA: Abdul
-	dynasty = 100826
-	martial = 4
-	diplomacy = 6
-	intrigue = 5
-	stewardship = 8
-	religion = muwalladi
-	culture = andalusian
-	trait = cynical
-	trait = education_intrigue_2
-	1150.1.1 = {
-		birth = "1150.1.1"
-	}
-	1200.1.1 = {
-		death = "1200.1.1"
-	}
-}
-
-485260 = {
-	name = "Abdul-Razzaq"
-	# AKA: Abdul
-	dynasty = 100778
-	martial = 4
-	diplomacy = 6
-	intrigue = 5
-	stewardship = 4
-	religion = muwalladi
-	culture = andalusian
-	trait = arrogant
-	trait = education_stewardship_2
-	1300.1.1 = {
-		birth = "1300.1.1"
-	}
-	1350.1.1 = {
-		death = "1350.1.1"
-	}
-}
-
-3912 = {
-	name = "Muhammad" # Muhammd ibn Ammar, known as Ibn Ammar, Sheik of Silves (1069-1070), Murcia (1079-1080) & Molina (1082-1085)
-	dynasty = 12204 # Banu Ammar
-	martial = 6
-	diplomacy = 8
-	intrigue = 8
-	stewardship = 7
-	religion = muwalladi
-	culture = andalusian
-	trait = poet
-	trait = education_stewardship_3
-	sexuality = homosexual
-
-	1031.1.1 = {
-		birth = yes
-	}
-	1063.1.1 = {
-		effect = {
-			set_relation_lover = character:3214 # Emir al-Mu'tamid of Seville
-		}
-		employer = 3214
-	}
-	1086.1.1 = {
-		death = {
-			death_reason = death_murder_known
-			killer = 3214
-		}
-	}
-}
-
-3916 = {
-	name = "Abd-al-Hasan"
-	dynasty = 12205
-
-	religion = ashari
-	culture = andalusian
-
-	1059.1.1 = {
-		birth = yes
-	}
-	1115.1.1 = {
-		death = yes
-	}
-}
-
-3928 = {
-	name = "Abu-Bakr" # Abu Bakr ibn Abd al-Aziz, Emir of Valencia (1075-1076), Sheik of Valencia (1075-1085)
-	dynasty_house = 596 # Amirid Dynasty
-	martial = 6
-	diplomacy = 4
-	intrigue = 5
-	stewardship = 8
-	religion = muwalladi
-	culture = andalusian
-	trait = education_diplomacy_3
-
-	father = 45025 # Emir Abd al-Aziz ibn Abd al-Rahman of Valencia
-
-	1050.1.1 = {
-		birth = yes
-	}
-	1066.1.1 = {
-		add_spouse = 73193 # Aiza ibn Ahmad (yemeni.txt)
-		employer = 3934 # Emir al-Muqtadir of Zaragoza
-		effect = {
-			add_pressed_claim = title:d_valencia
-			add_pressed_claim = title:c_valencia
-		}
-	}
-	1075.1.1 = {
-		effect = {
-			remove_claim = title:d_valencia
-			remove_claim = title:c_valencia
-		}
-	}
-	1085.6.6 = {
-		death = yes
-	}
-}
-
-20869 = {
-	name = "Ali" # Ali ibn Muyahid al-Amiri, known as Imad al-Dawla, Emir of Mallorca (1045-1076), Sheik of Alcaraz, Denia & Ibiza (1045-1076) & Mallorca (1050-1076)
-	dynasty = al-amiri # Muyahid al-Amiri's Dynasty
-	martial = 5
-	diplomacy = 5
-	intrigue = 6
-	stewardship = 4
-	religion = muwalladi
-	culture = andalusian
-	trait = arbitrary
-	trait = lazy
-	trait = education_learning_2
-
-	father = 85008 # Emir Muyahid al-Amiri of Mallorca
-
-	1009.1.1 = {
-		birth = yes
-	}
-	#1045.7.15 = {
-	#	name = "Imad_al-Dawla"
-	#	capital = c_denia
-	#}
-	#1063.1.1 = { #ahistorical, used because Yahya of Toledo possesses Denia, this characters actual capital, in the 1066 Rags to Riches bookmark 
-	#	capital = title:c_alicante 
-	#	}
-	#}
-	1076.1.1 = {
-		death = yes
-	}
-}
-
-33053 = {
-	name = "Abdallah" # Abdallah ibn al-Aglab, known as al-Murtada, Emir of Mallorca (1076-1093) & Sheik of Menorca (1045-1093), Mallorca & Ibiza (1076-1093)
-	dynasty = 7278 # Banu Aglab Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = education_martial_2
-
-	father = andalusian0070 # al-Aglab, Sheik of Menorca
-
-	1020.1.1 = {
-		birth = yes
-	}
-	1076.1.1 = {
-		name = "al-Murtada"
-	}
-	1093.1.1 = {
-		death = yes
-	}
-}
-
-33054 = {
-	name = "Mubashir" # Mubashir ibn Suleyman, Emir of Mallorca (1093-1114) & Sheik of Ibiza, Mallorca & Menorca (1093-1114)
-	dynasty = 12202 # Suleymanid Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = eunuch
-	trait = education_stewardship_2
-
-	father = andalusian0074 # Suleyman
-
-	1050.1.1 = {
-		birth = yes
-		employer = 33053 # Emir al-Murtada of Mallorca
-	}
-	1114.1.1 = {
-		death = yes
-	}
-}
-
-33055 = {
-	name = "Suleyman" # Suleyman ibn Lubbun, Emir of Mallorca (1114-1116) & Sheik of Ibiza, Mallorca & Menorca (1114-1116)
-	dynasty = 12202 # Suleymanid Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = education_martial_1
-
-	father = andalusian0073 # Lubbun ibn Suleyman
-
-	1074.1.1 = {
-		birth = yes
-	}
-	1124.1.1 = {
-		death = yes
-	}
-}
-
-71373 = {
-	name = "ZaI_da" # Zaïda, later Isabel, wife of Sheik al-Fath of Córdoba (73214) & King Alfonso VI of León (108500 - castilian.txt)
-	female = yes
-	religion = muwalladi
-	culture = andalusian
-	trait = education_diplomacy_2
-
-	1071.1.1 = {
-		birth = yes
-	}
-	1090.1.1 = {
-		religion = catholic
-		name = "Ilizabith"
-	}
-	1107.9.13 = {
-		death = yes
-	}
-}
-
-73182 = {
-	name = "Muhammad"
-	dynasty = 12192
-	religion = muwalladi
-	culture = andalusian
-	1059.1.1 = {
-		birth = "1059.1.1"
-	}
-	1115.1.1 = {
-		death = "1115.1.1"
-	}
-}
-
-73202 = {
-	name = "Wazir"
-	dynasty = 12197
-	religion = muwalladi
-	culture = andalusian
-	1084.1.1 = {
-		birth = "1084.1.1"
-	}
-	1140.1.1 = {
-		death = "1140.1.1"
-	}
-}
-
-73203 = {
-	name = "Siddray"
-	dynasty = 12197
-	religion = muwalladi
-	culture = andalusian
-	father = 73202
-	1108.1.1 = {
-		birth = "1108.1.1"
-	}
-	1145.1.1 = {
-		add_pressed_claim = title:d_valencia
-		add_pressed_claim = title:d_mallorca
-		add_pressed_claim = title:d_murcia
-		add_pressed_claim = title:d_cordoba
-		add_pressed_claim = title:d_sevilla
-		add_pressed_claim = title:d_granada
-	}
-	1146.1.1 = {
-		add_pressed_claim = title:d_badajoz
-	}
-	1150.1.1 = {
-		death = "1150.1.1"
-	}
-}
-
-73204 = {
-	name = "Hakam"
-	dynasty = 12192
-	religion = muwalladi
-	culture = andalusian
-	father = 73182
-	1089.1.1 = {
-		birth = "1089.1.1"
-	}
-	1144.1.1 = {
-		death = "1144.1.1"
-	}
-}
-
-73205 = {
-	name = "Yusuf"
-	dynasty = 12198
-	religion = muwalladi
-	culture = andalusian
-	1055.1.1 = {
-		birth = "1055.1.1"
-	}
-	1116.1.1 = {
-		death = "1116.1.1"
-	}
-}
-
-73206 = {
-	name = "Ali"
-	dynasty = 12198
-	religion = muwalladi
-	culture = andalusian
-	father = 73205
-	1081.1.1 = {
-		birth = "1081.1.1"
-	}
-	1136.1.1 = {
-		death = "1136.1.1"
-	}
-}
-
-73207 = {
-	name = "Isma_il"
-	dynasty = 12199
-	religion = muwalladi
-	culture = andalusian
-	1073.1.1 = {
-		birth = "1073.1.1"
-	}
-	1142.1.1 = {
-		death = "1142.1.1"
-	}
-}
-
-73208 = {
-	name = "Muhammad"
-	dynasty = 12199
-	religion = muwalladi
-	culture = andalusian
-	father = 73207
-	1095.1.1 = {
-		birth = "1095.1.1"
-	}
-	1149.1.1 = {
-		death = "1149.1.1"
-	}
-}
-
-73223 = {
-	name = "Ya_far"
-	dynasty = 12201
-	religion = muwalladi
-	culture = andalusian
-	1060.1.1 = {
-		birth = "1060.1.1"
-	}
-	1117.1.1 = {
-		death = "1117.1.1"
-	}
-}
-
-73224 = {
-	name = "Ayyub"
-	dynasty = 12201
-	religion = muwalladi
-	culture = andalusian
-	father = 73223
-	1091.1.1 = {
-		birth = "1091.1.1"
-	}
-	1148.1.1 = {
-		death = "1148.1.1"
-	}
-}
-
-73225 = {
-	name = "Ibrahim"
-	dynasty = 12201
-	religion = muwalladi
-	culture = andalusian
-	father = 73223
-	1087.1.1 = {
-		birth = "1087.1.1"
-	}
-	1135.1.1 = {
-		death = "1135.1.1"
-	}
-}
-
-73227 = {
-	name = "Utman" # Utman ibn Abu-Bakr, Emir of Valencia (1085-1086) & Sheik of Valencia (1085-1085)
-	dynasty_house = 596 # Amirid Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = education_stewardship_1
-
-	father = 3928 # Emir Abu-Bakr ibn Abd al-Aziz of Valencia
-	mother = 73193 # Emira Aiza ibn Ahmad (yemeni.txt)
-
-	1070.1.1 = {
-		birth = yes
-	}
-	1126.1.1 = {
-		death = yes
-	}
-}
-
-73235 = {
-	name = "Abd-al-Rahman"
-	dynasty = 12192
-
-	father = 73182
-
-	religion = ashari
-	culture = andalusian
-
-	1111.1.1 = {
-		birth = yes
-	}
-	1145.3.1 = {
-		add_pressed_claim = title:d_murcia
-		add_pressed_claim = title:c_alcaraz
-	}
-	1164.1.1 = {
-		death = yes
-	}
-}
-
-73236 = {
-	name = "Abdallah"
-	dynasty = 12209
-	religion = muwalladi
-	culture = andalusian
-	1113.1.1 = {
-		birth = "1113.1.1"
-	}
-	1145.1.1 = {
-		add_pressed_claim = title:d_murcia
-	}
-	1145.3.1 = {
-		add_pressed_claim = title:d_valencia
-		add_pressed_claim = title:d_mallorca
-		add_pressed_claim = title:d_murcia
-		add_pressed_claim = title:d_cordoba
-		add_pressed_claim = title:d_badajoz
-		add_pressed_claim = title:d_sevilla
-		add_pressed_claim = title:d_granada
-	}
-	1145.6.1 = {
-		add_pressed_claim = title:d_murcia
-	}
-	1163.1.1 = {
-		death = "1163.1.1"
-	}
-}
-
-73237 = {
-	name = "Ya_far"
-	dynasty = 12210
-	religion = muwalladi
-	culture = andalusian
-	1104.1.1 = {
-		birth = "1104.1.1"
-	}
-	1145.3.1 = {
-		add_pressed_claim = title:d_murcia
-	}
-	1145.6.1 = {
-		remove_claim = title:d_murcia
-		add_pressed_claim = title:d_valencia
-		add_pressed_claim = title:d_mallorca
-		add_pressed_claim = title:d_cordoba
-		add_pressed_claim = title:d_badajoz
-		add_pressed_claim = title:d_sevilla
-		add_pressed_claim = title:d_granada
-	}
-	1145.9.1 = {
-		add_pressed_claim = title:d_murcia
-	}
-	1160.1.1 = {
-		death = "1160.1.1"
-	}
-}
-
-73240 = {
-	name = "Sa_d"
-	dynasty = 12211
+73665 = {
+	name = "Ahmad"
+	dynasty = 12268
 	religion = muwalladi
 	culture = andalusian
 	1100.1.1 = {
 		birth = "1100.1.1"
 	}
-	1123.1.1 = {
-		add_spouse = 73242
-	}
-	1156.1.1 = {
-		death = "1156.1.1"
+	1166.1.1 = {
+		death = "1166.1.1"
 	}
 }
 
-73241 = {
-	name = "Muhammad"
-	dynasty = 12211
+73666 = {
+	name = "Ubayd-Allah" # Ubayd Allah ibn Abd al-Rahman
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
-	father = 73240
-	mother = 73242
-	1124.1.1 = {
-		birth = "1124.1.1"
-	}
-	1147.1.1 = {
-		add_pressed_claim = title:d_mallorca
-		add_pressed_claim = title:d_cordoba
-		add_pressed_claim = title:d_badajoz
-		add_pressed_claim = title:d_sevilla
-		add_pressed_claim = title:d_granada
-	}
-	1148.1.1 = {
-		remove_claim = title:d_granada
-	}
-	1172.3.1 = {
-		death = "1172.3.1"
-	}
-}
-
-73243 = {
-	name = "Abd-al-Hajjaj"
-	dynasty = 12211
-
-	religion = ashari
-	culture = andalusian
-
-	father = 73240
-	mother = 73242
-
-	1126.1.1 = {
-		birth = yes
-	}
-	1172.1.1 = {
-		religion = ismaili
-	}
-	1186.1.1 = {
-		death = yes
-	}
-}
-
-73244 = {
-	name = "Hilal"
-	dynasty = 12211
-	religion = muwalladi
-	culture = andalusian
-	father = 73241
-	1150.1.1 = {
-		birth = "1150.1.1"
-	}
-	1172.3.1 = {
-		religion = "ismaili"
-	}
-	1212.1.1 = {
-		death = "1212.1.1"
-	}
-}
-
-73245 = {
-	name = "Musa"
-	dynasty = 12212
-	religion = muwalladi
-	culture = andalusian
-	1066.1.1 = {
-		birth = "1066.1.1"
-	}
-	1111.1.1 = {
-		death = "1111.1.1"
-	}
-}
-
-73246 = {
-	name = "Muhammad"
-	dynasty = 12212
-	religion = muwalladi
-	culture = andalusian
-	father = 73245
-	1092.1.1 = {
-		birth = "1092.1.1"
-	}
-	1143.1.1 = {
-		death = "1143.1.1"
-	}
-}
-
-73247 = {
-	name = "Musa"
-	dynasty = 12213
-	religion = muwalladi
-	culture = andalusian
-	1075.1.1 = {
-		birth = "1075.1.1"
-	}
-	1126.1.1 = {
-		death = "1126.1.1"
-	}
-}
-
-73254 = {
-	name = "Abdallah"
-	dynasty = 12227
-	religion = muwalladi
-	culture = andalusian
-	1120.1.1 = {
-		birth = "1120.1.1"
-	}
-	1144.1.1 = {
-		add_pressed_claim = title:d_valencia
-		add_pressed_claim = title:d_mallorca
-		add_pressed_claim = title:d_murcia
-		add_pressed_claim = title:d_cordoba
-		add_pressed_claim = title:d_badajoz
-		add_pressed_claim = title:d_sevilla
-		add_pressed_claim = title:d_granada
-	}
-	1178.1.1 = {
-		death = "1178.1.1"
-	}
-}
-
-73255 = {
-	name = "Abu-Bakr" # Abu Bakr ar-Ramimi, Sheik of Almeria (1038)
-	dynasty = 12228 # Banu ar-Ramimi Dynasty, Founder
-	religion = muwalladi
-	culture = andalusian
+	trait = quraysh
 	trait = education_stewardship_1
 
-	1020.1.1 = {
+	father = 3200 # Caliph Adb al-Rahman III of Andalusia
+
+	927.1.1 = {
 		birth = yes
 	}
-	1038.9.1 = {
-		add_pressed_claim = title:c_almeria
-	}
-	1065.9.1 = {
-		employer = 3924 # Emir al-Ma'mun of Toledo
-	}
-	1076.1.1 = {
+	967.1.1 = {
 		death = yes
 	}
 }
 
-73256 = {
-	name = "Abd-al-Aziz" # Abd al-Aziz ibn Abu Bakr
-	dynasty = 12228 # Banu al-Ramimi Dynasty
+73667 = {
+	name = "Abd-al-Rahman" # Abd al-Rahman ibn Ubayd Allah
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
+	trait = quraysh
+	trait = education_diplomacy_1
 
-	father = 73255 # Sheik Abu Bakr ar-Ramimi of Almería
+	father = 73666 # Ubayd Allah ibn Abd al-Rahman
 
-	1054.1.1 = {
+	946.1.1 = {
 		birth = yes
 	}
-	1070.1.1 = {
-		trait = education_diplomacy_1
-	}
-	1076.1.1 = {
-		add_pressed_claim = title:c_almeria
-	}
-	1113.1.1 = {
+	1003.1.1 = {
 		death = yes
 	}
 }
 
-73257 = {
-	name = "Muhammad" # Muhammad ibn Abu Bakr
-	dynasty = 12228 # Banu ar-Ramimi Dynasty
+73668 = {
+	name = "Muhammad" # Muhammad (III) ibn Abd al-Rahman, Muwalladi Caliph (1024-1025), Sultan of Andalusia (1024-1025) & Sheik of Cabra, Cordoba & Moura (1024-1025)
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
+	trait = quraysh
+	trait = education_stewardship_1
+
+	father = 73667 # Abd al-Rahman ibn Ubayd Allah
+
+	979.1.1 = {
+		birth = yes
+	}
+	1025.6.12 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+73669 = {
+	name = "Abd-al-Yabbar" # Abd al-Yabbar ibn Abd al-Rahman
+	dynasty_house = house_Umawi
+	religion = muwalladi
+	culture = andalusian
+	trait = quraysh
+	trait = education_diplomacy_1
+
+	father = 3200 # Caliph Abd al-Rahman III of Andalusia
+
+	929.1.1 = {
+		birth = yes
+	}
+	979.1.1 = {
+		death = yes
+	}
+}
+73670 = {
+	name = "Hisham" # Hisham ibn Abd al-Yabbar
+	dynasty_house = house_Umawi
+	religion = muwalladi
+	culture = andalusian
+	trait = quraysh
+	trait = education_intrigue_2
+
+	father = 73669 # Abd al-Yabbar ibn Abd al-Rahman
+
+	952.1.1 = {
+		birth = yes
+	}
+	974.1.1 = {
+		add_spouse = levantine0088 # Muzna (levantine.txt)
+	}
+	988.1.1 = {
+		add_spouse = levantine0089 # Ghaya (levantine.txt)
+	}
+	1008.1.1 = {
+		death = {
+			death_reason = death_dungeon
+		}
+	}
+}
+
+73671 = {
+	name = "Muhammad" # Muhammad (II) ibn Hisham, Muwalladi Caliph (1009 & 1010), Sultan of Andalusia (1009 & 1010) & Sheik of Algeciras, Almeria, Cabra, Cordoba, Faro, Granada, Malaga, Moura, Niebla, Sevilla & Silves (1009 & 1010)
+	dynasty_house = house_Umawi
+	religion = muwalladi
+	culture = andalusian
+	trait = quraysh
+	trait = education_intrigue_1
+
+	father = 73670 # Hisham ibn Abd al-Yabbar
+
+	977.1.1 = {
+		birth = yes
+	}
+	1010.7.23 = {
+		death = {
+			death_reason = death_murder_known
+			killer = andalusian0097 # Walih Wadih of Toledo
+		}
+	}
+}
+
+73672 = {
+	name = "Abd-al-Rahman" # Abd al-Rahman (V) ibn Hisham, Muwalladi Caliph (1023-1024), Sultan of Andalusia (1023-1024) & Sheik of Cabra, Cordoba & Moura (1023-1024)
+	dynasty_house = house_Umawi
+	religion = muwalladi
+	culture = andalusian
+	trait = quraysh
+	trait = education_stewardship_2
+
+	father = 73670 # Hisham ibn Abd al-Yabbar
+
+	989.1.1 = {
+		birth = yes
+	}
+	1024.1.17 = {
+		death = {
+			death_reason = death_murder_known
+			killer = 73668 # Caliph Muhammad III of Andalusia
+		}
+	}
+}
+
+73673 = {
+	name = "Suleyman" # Suleyman ibn Abd al-Rahman
+	dynasty_house = house_Umawi
+	religion = muwalladi
+	culture = andalusian
+	trait = quraysh
+	trait = education_stewardship_1
+
+	father = 3200 # Caliph Abd al-Rahman III of Andalusia
+
+	930.1.1 = {
+		birth = yes
+	}
+	1000.1.1 = {
+		death = yes
+	}
+}
+
+73674 = {
+	name = "al-Hakam" # al-Hakam ibn Suleyman
+	dynasty_house = house_Umawi
+	religion = muwalladi
+	culture = andalusian
+	trait = quraysh
+	trait = content
+	trait = education_stewardship_1
+
+	father = 73673 # Suleyman ibn Abd al-Rahman
+
+	948.1.1 = {
+		birth = yes
+	}
+	1016.7.1 = {
+		death = {
+			death_reason = death_execution
+			killer = 73687 # Caliph Ali ibn Hamud of Andalusia
+		}
+	}
+}
+
+73675 = {
+	name = "Suleyman" # Suleyman ibn al-Hakam, Muwalladi Caliph (1009-1010 & 1013-1016), Sultan of Andalusia (1009-1010 & 1013-1016) & Sheik of Algeciras, Cabra, Cordoba, Malaga, Moura & Niebla (1009-1010 & 1013-1016), Almería, Faro, Granada, Sevilla & Silves (1009-1010)
+	dynasty_house = house_Umawi
+	religion = muwalladi
+	culture = andalusian
+	trait = quraysh
+	trait = education_stewardship_1
+
+	father = 73674 # al-Hakam ibn Suleyman
+
+	965.1.1 = {
+		birth = "986.1.1"
+	}
+	1016.7.1 = {
+		death = {
+			death_reason = death_execution
+			killer = 73687 # Caliph Ali ibn Hamud of Andalusia
+		}
+	}
+}
+
+73676 = {
+	name = "Abd-al-Malik" # Abd al-Malik ibn Abd al-Rahman
+	dynasty_house = house_Umawi
+	religion = muwalladi
+	culture = andalusian
+	trait = quraysh
+	trait = education_diplomacy_1
+
+	father = 3200 # Caliph Abd al-Rahman III of Andalusia
+
+	940.1.1 = {
+		birth = yes
+	}
+	996.1.1 = {
+		death = yes
+	}
+}
+
+73677 = {
+	name = "Muhammad" # Muhammad ibn Abd al-Malik
+	dynasty_house = house_Umawi
+	religion = muwalladi
+	culture = andalusian
+	trait = quraysh
 	trait = education_martial_1
 
-	father = 73255 # Sheik Abu Bakr al-Ramimi of Almería
+	father = 73676 # Abd al-Malik ibn Abd al-Rahman
 
-	1059.1.1 = {
+	958.1.1 = {
 		birth = yes
 	}
-	1113.1.1 = {
-		add_pressed_claim = title:c_almeria
+	974.1.1 = {
+		add_spouse = levantine0090 # Atib (levantine.txt)
 	}
-	1119.1.1 = {
+	1009.1.1 = {
 		death = yes
 	}
 }
 
-73258 = {
-	name = "Abdallah" # Abdallah ibn Muhammad, Sheik of Almería (1146-1147)
-	dynasty = 12228 # Banu ar-Ramimi Dynasty
+73678 = {
+	name = "Abd-al-Rahman" # Abd al-Rahman (IV) ibn Muhammad, Muwalladi Caliph (1018), Sultan of Andalusia (1018) & Sheik of Cabra, Cordoba, Moura & Niebla (1018)
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
-	trait = education_martial_1
+	trait = quraysh
+	trait = education_stewardship_3
 
-	father = 73257 # Muhammad ibn Abu Bakr
+	father = 73677 # Muhammad ibn Abd al-Malik
 
+	979.1.1 = {
+		birth = yes
+	}
+	1018.9.1 = {
+		death = {
+			death_reason = death_murder_known
+			killer = andalusian0099 # Emir Jayran of Murcia
+		}
+	}
+}
+
+73919 = {
+	name = "Musa" # Musa ibn Abd al-Malik, Sheik of Alicante (1006-1030)
+	dynasty_house = house_abu_yamra # House Banu Abu Yamra
+	religion = muwalladi
+	culture = levantine
+	trait = education_learning_1
+
+	father = 73918 # Sheik Abd al-Malik ibn Walid of Alicante
+
+	969.1.1 = {
+		birth = yes
+	}
+	1030.1.1 = {
+		death = yes
+	}
+}
+
+73920 = {
+	name = "Abu-Bakr" # Abu Bakr ibn Musa
+	dynasty_house = house_abu_yamra # House Banu Abu Yamra
+	religion = muwalladi
+	culture = levantine
+	trait = education_diplomacy_1
+
+	father = 73919 # Sheik Musa ibn Abd al-Malik of Alicante
+
+	995.1.1 = {
+		birth = yes
+	}
+	1058.1.1 = {
+		death = yes
+	}
+}
+
+73921 = {
+	name = "Fadl" # Fadl ibn Abu Bakr
+	dynasty_house = house_abu_yamra # House Banu Abu Yamra
+	religion = muwalladi
+	culture = levantine
+	trait = education_learning_1
+
+	father = 73920 # Abu Bakr ibn Musa
+
+	1015.1.1 = {
+		birth = yes
+	}
+	1063.1.1 = {
+		employer = 3910 # Emir Muhammad ibn Ahmad of Murcia
+	}
+	1077.1.1 = {
+		death = yes
+	}
+}
+
+73922 = {
+	name = "Abd-al-Wahid" # Abd al-Wahid ibn Fadl
+	dynasty_house = house_abu_yamra # House Banu Abu Yamra
+	religion = muwalladi
+	culture = levantine
+	trait = education_intrigue_1
+
+	father = 73921 # Fadl ibn Abu Bakr
+
+	1041.1.1 = {
+		birth = yes
+	}
+	1063.1.1 = {
+		employer = 3910 # Emir Muhammad ibn Ahmad of Murcia
+	}
 	1100.1.1 = {
+		death = yes
+	}
+}
+
+73923 = {
+	name = "Musa" # Musa ibn Abd al-Wahid
+	dynasty_house = house_abu_yamra # House Banu Abu Yamra
+	religion = muwalladi
+	culture = levantine
+	trait = education_martial_1
+
+	father = 73922 # Abd al-Wahid ibn Fadl
+
+	1068.1.1 = {
 		birth = yes
 	}
-	1119.1.1 = {
-		add_pressed_claim = title:c_almeria
+	1125.1.1 = {
+		death = yes
 	}
-	1146.7.1 = {
-		remove_claim = title:c_almeria
+}
+
+73924 = {
+	name = "Hamdun" # Hamdun ibn Musa
+	dynasty_house = house_abu_yamra # House Banu Abu Yamra
+	religion = muwalladi
+	culture = levantine
+	trait = education_learning_1
+
+	father = 73923 # Musa ibn Abd al-Wahid
+
+	1096.1.1 = {
+		birth = yes
 	}
-	1147.1.1 = {
-		add_pressed_claim = title:c_almeria
+	1157.1.1 = {
+		death = yes
 	}
+}
+
+73925 = {
+	name = "Ibrahim" # Ibrahim ibn Hamdun
+	dynasty_house = house_abu_yamra # House Banu Abu Yamra
+	religion = muwalladi
+	culture = levantine
+	trait = education_diplomacy_1
+
+	father = 73924 # Hamdun ibn Musa
+
+	1122.1.1 = {
+		birth = yes
+	}
+	1180.1.1 = {
+		death = yes
+	}
+}
+
+73926 = {
+	name = "Abd-al-Malik" # Abd al-Malik ibn Ibrahim
+	dynasty_house = house_abu_yamra # House Banu Abu Yamra
+	religion = muwalladi
+	culture = levantine
+	trait = education_martial_1
+
+	father = 73925 # Ibrahim ibn Hamdun
+
 	1150.1.1 = {
-		death = yes
-	}
-}
-
-73259 = {
-	name = "Ya_far"
-	dynasty = 12229
-	religion = muwalladi
-	culture = andalusian
-	1112.1.1 = {
-		birth = "1112.1.1"
-	}
-	1145.1.1 = {
-		add_pressed_claim = title:d_valencia
-		add_pressed_claim = title:d_mallorca
-		add_pressed_claim = title:d_murcia
-		add_pressed_claim = title:d_cordoba
-		add_pressed_claim = title:d_badajoz
-		add_pressed_claim = title:d_sevilla
-	}
-	1145.7.1 = {
-		add_pressed_claim = title:d_granada
-	}
-	1146.1.1 = {
-		remove_claim = title:d_granada
-		remove_claim = title:d_valencia
-		remove_claim = title:d_mallorca
-		remove_claim = title:d_murcia
-		remove_claim = title:d_cordoba
-		remove_claim = title:d_badajoz
-		remove_claim = title:d_sevilla
-	}
-	1170.1.1 = {
-		death = "1170.1.1"
-	}
-}
-
-73260 = {
-	name = "Abd-al-Hakam"
-	dynasty = 12230
-
-	religion = ashari
-	culture = andalusian
-
-	1120.1.1 = {
 		birth = yes
 	}
-	1153.1.1 = {
-		add_pressed_claim = title:c_malaga
-	}
-	1176.1.1 = {
+	1216.1.1 = {
 		death = yes
-	}
-}
-
-73261 = {
-	name = "Ibrahim"
-	dynasty = 12234
-	religion = muwalladi
-	culture = andalusian
-	1090.1.1 = {
-		birth = "1090.1.1"
-	}
-	1144.1.1 = {
-		death = "1144.1.1"
-	}
-}
-
-73262 = {
-	name = "Fatima" # Fatima ibn Abu Bakr, wife of Emir al-Musta'in II of Zaragoza (45005 - yemeni.txt)
-	female = yes
-	dynasty_house = 596 # Amirid Dynasty
-	religion = muwalladi
-	culture = andalusian
-
-	father = 3928 # Emir Abu Bakr of Valencia
-	mother = 73193 # Emira Aiza ibn Ahmad (yemeni.txt)
-
-	1069.1.1 = {
-		birth = yes
-	}
-	1085.1.1 = {
-		trait = education_diplomacy_1
-	}
-	1112.1.1 = {
-		death = yes
-	}
-}
-
-73621 = {
-	name = "Sa_d"
-	dynasty = 12211
-	religion = muwalladi
-	culture = andalusian
-	father = 73243
-	1158.1.1 = {
-		birth = "1158.1.1"
-	}
-	1221.1.1 = {
-		death = "1221.1.1"
-	}
-}
-
-73622 = {
-	name = "Zayyan"
-	dynasty = 12211
-	religion = muwalladi
-	culture = andalusian
-	father = 73621
-	1184.1.1 = {
-		birth = "1184.1.1"
-	}
-	1236.1.1 = {
-		add_pressed_claim = title:d_murcia
-		add_pressed_claim = title:d_sevilla
-		add_pressed_claim = title:d_granada
-	}
-	1238.1.1 = {
-		remove_claim = title:d_sevilla
-	}
-	1239.1.1 = {
-		remove_claim = title:d_murcia
-	}
-	1241.1.1 = {
-		death = "1241.1.1"
 	}
 }
 
@@ -1368,1267 +4267,54 @@
 	}
 }
 
-73632 = {
-	name = "Su_ayb"
-	dynasty = 12261
-	religion = muwalladi
-	culture = andalusian
-	1210.1.1 = {
-		birth = "1210.1.1"
-	}
-	1234.1.1 = {
-		add_pressed_claim = title:d_valencia
-		add_pressed_claim = title:d_murcia
-		add_pressed_claim = title:d_cordoba
-		add_pressed_claim = title:d_sevilla
-		add_pressed_claim = title:d_granada
-	}
-	1236.1.1 = {
-		remove_claim = title:d_valencia
-		remove_claim = title:d_cordoba
-	}
-	1238.1.1 = {
-		remove_claim = title:d_sevilla
-	}
-	1262.1.1 = {
-		death = "1262.1.1"
-	}
-}
-
-73633 = {
-	name = "Abdallah"
-	dynasty = 12262
-	religion = muwalladi
-	culture = andalusian
-	1190.1.1 = {
-		birth = "1190.1.1"
-	}
-	1241.1.1 = {
-		add_pressed_claim = title:d_murcia
-		add_pressed_claim = title:d_sevilla
-		add_pressed_claim = title:d_granada
-	}
-	1244.1.1 = {
-		death = "1244.1.1"
-	}
-}
-
-73634 = {
-	name = "Ali"
-	dynasty = 12262
-	religion = muwalladi
-	culture = andalusian
-	father = 73633
-	1222.1.1 = {
-		birth = "1222.1.1"
-	}
-	1244.1.1 = {
-		add_pressed_claim = title:d_murcia
-		add_pressed_claim = title:d_granada
-	}
-	1264.1.1 = {
-		death = "1264.1.1"
-	}
-}
-
-73635 = {
-	name = "Muhammad"
-	dynasty = 12262
-	religion = muwalladi
-	culture = andalusian
-	father = 73634
-	1247.1.1 = {
-		birth = "1247.1.1"
-	}
-	1264.1.1 = {
-		add_pressed_claim = title:d_murcia
-		add_pressed_claim = title:d_granada
-	}
-	1266.1.1 = {
-		remove_claim = title:d_murcia
-	}
-	1300.1.1 = {
-		death = "1300.1.1"
-	}
-}
-
-73636 = {
-	name = "Zannun"
-	dynasty = 12263
-	religion = muwalladi
-	culture = andalusian
-	1185.1.1 = {
-		birth = "1185.1.1"
-	}
-	1228.1.1 = {
-		add_pressed_claim = title:d_valencia
-		add_pressed_claim = title:d_mallorca
-		add_pressed_claim = title:d_murcia
-		add_pressed_claim = title:d_cordoba
-		add_pressed_claim = title:d_badajoz
-		add_pressed_claim = title:d_sevilla
-		add_pressed_claim = title:d_granada
-	}
-	1230.1.1 = {
-		remove_claim = title:d_mallorca
-	}
-	1230.3.19 = {
-		remove_claim = title:d_badajoz
-	}
-	1236.1.1 = {
-		remove_claim = title:d_valencia
-		remove_claim = title:d_cordoba
-	}
-	1238.1.1 = {
-		death = "1238.1.1"
-	}
-}
-
-73637 = {
-	name = "Ahmad"
-	dynasty = 12264
-	religion = muwalladi
-	culture = andalusian
-	1200.1.1 = {
-		birth = "1200.1.1"
-	}
-	1238.1.1 = {
-		add_pressed_claim = title:d_murcia
-		add_pressed_claim = title:d_granada
-	}
-	1251.1.1 = {
-		death = "1251.1.1"
-	}
-}
-
-73638 = {
-	name = "Ali"
-	dynasty = 12265
-	religion = muwalladi
-	culture = andalusian
-	1220.1.1 = {
-		birth = "1220.1.1"
-	}
-	1238.1.1 = {
-		add_pressed_claim = title:d_murcia
-		add_pressed_claim = title:d_granada
-	}
-	1266.1.1 = {
-		remove_claim = title:d_murcia
-	}
-	1275.1.1 = {
-		death = "1275.1.1"
-	}
-}
-
-73639 = {
-	name = "Abd-al-Rahman"
-	dynasty = 12266
-
-	religion = ashari
-	culture = andalusian
-
-	1206.1.1 = {
-		birth = yes
-	}
-	1248.1.1 = {
-		death = yes
-	}
-}
-
-73640 = {
-	name = "Umar"
-	dynasty = 12267
-	religion = muwalladi
-	culture = andalusian
-	1212.1.1 = {
-		birth = "1212.1.1"
-	}
-	1238.1.1 = {
-		add_pressed_claim = title:d_murcia
-		add_pressed_claim = title:d_granada
-	}
-	1264.1.1 = {
-		death = "1264.1.1"
-	}
-}
-
-73665 = {
-	name = "Ahmad"
-	dynasty = 12268
-	religion = muwalladi
-	culture = andalusian
-	1100.1.1 = {
-		birth = "1100.1.1"
-	}
-	1166.1.1 = {
-		death = "1166.1.1"
-	}
-}
-
-73800 = {
-	name = "Yusuf" # Yusuf ibn Amrus, Sheik of Tudela (802-803) & Cuenca (802-832)
-	dynasty = 12291 # Banu Amrus Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = education_stewardship_1
-
-	father = 73799 # Walih Amrus ibn Yusuf of Toledo (visigothic.txt)
-
-	782.1.1 = {
-		birth = yes
-	}
-	832.1.1 = {
-		death = yes
-	}
-}
-
-73801 = {
-	name = "Umar" # Umar ibn Amrus
-	dynasty = 12291 # Banu Amrus Dynasty
-	culture = andalusian
-	religion = muwalladi
-	trait = education_diplomacy_1
-
-	father = 73799 # Emir Amrus ibn Yusuf of Toledo (visigothic.txt)
-
-	780.1.1 = {
-		birth = yes
-	}
-	830.1.1 = {
-		death = yes
-	}
-}
-
-73802 = {
-	name = "Ya_far" # Ya'far, placeholder Sheik of Malaga (845-870)
-	dynasty = 12292 # Hafsunid Dynasty, ancestor
-	religion = muwalladi
-	culture = andalusian
-	trait = education_diplomacy_1
-
-	805.1.1 = {
-		birth = yes
-	}
-	870.1.1 = {
-		death = yes
-	}
-}
-
-73803 = {
-	name = "Hafsun" # Hafsun ibn Ya'far
-	dynasty = 12292 # Hafsunid Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = education_stewardship_1
-
-	father = 73802 # Ya'far
-
-	830.1.1 = {
-		birth = yes
-	}
-	853.1.1 = {
-		add_spouse = 73804 # Neila
-	}
-	860.1.1 = {
-		death = {
-			death_reason = death_hunting_accident
-		}
-	}
-}
-
-73804 = {
-	name = "Neila" # Neila, wife of Hafsun ibn Ya'far (73803)
-	female = yes
-	religion = muwalladi
-	culture = andalusian
-	trait = education_stewardship_1
-
-	835.1.1 = {
-		birth = yes
-	}
-	885.1.1 = {
-		death = yes
-	}
-}
-
-73805 = {
-	name = "Umar" # Umar ibn Hafsun, Emir of Granada (880-883 & 884-891), Sheik of Malaga (878-917), Granada (880-883 & 884-891), Algeciras (889-891) & Jaen (891)
-	dynasty = 12292 # Hafsunid Dynasty
-	culture = andalusian
-	religion = muwalladi
-
-	father = 73803 # Hafsun ibn Ya'far
-	mother = 73804 # Neila
-
-	854.1.1 = {
-		birth = yes
-	}
-	870.1.1 = {
-		trait = education_martial_4
-	}
-	899.1.1 = {
-		name = "Samu_il"
-		religion = mozarabic_church
-	}
-	917.1.1 = {
-		death = yes
-	}
-}
-
-73806 = {
-	name = "Ayyub" # Ayyub ibn Hafsun
-	dynasty = 12292 # Hafsunid Dynasty
-	religion = muwalladi
-	culture = andalusian
-
-	father = 73803 # Hafsun ibn Ya'far
-	mother = 73804 # Neila
-
-	856.1.1 = {
-		birth = yes
-	}
-	872.1.1 = {
-		trait = education_diplomacy_1
-	}
-	920.1.1 = {
-		death = yes
-	}
-}
-
-73807 = {
-	name = "Ya_far" # Ya'far ibn Hafsun
-	dynasty = 12292 # Hafsunid Dynasty
-	religion = muwalladi
-	culture = andalusian
-
-	father = 73803 # Hafsun ibn Ya'far
-	mother = 73804 # Neila
-
-	858.1.1 = {
-		birth = yes
-	}
-	874.1.1 = {
-		trait = education_stewardship_1
-	}
-	924.1.1 = {
-		death = yes
-	}
-}
-
-73814 = {
-	name = "Ayab" # Ayab, wife of Walih Lubb ibn Musa of Toledo (73813 - basque.txt)
-	female = yes
-	religion = muwalladi
-	culture = andalusian
-	trait = education_stewardship_1
-
-	831.1.1 = {
-		birth = yes
-		effect = {
-			add_character_flag = has_scripted_appearance
-		}	
-	}
-	881.1.1 = {
-		death = yes
-	}
-}
-
-73819 = {
-	name = "Zahida" # Zahida ibn Abdallah, wife of Walih Isma'il ibn Musa of Zaragoza (78318 - basque.txt)
-	female = yes
-	dynasty = banu_jalaf # Banu Khalaf Dynasty
-	religion = muwalladi
-	culture = andalusian
- 
-	father = andalusian0080 # Walih Abdallah ibn Jalaf of Barbastro
-
-	854.1.1 = {
-		birth = yes
-	}
-	870.1.1 = {
-		trait = education_stewardship_1
-	}
-	904.1.1 = {
-		death = yes
-	}
-}
-
-73912 = {
-	name = "Zakariyya" # Zakariyya ibn Hayyun
-	dynasty = 12297 # Banu Hayyun Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = education_diplomacy_2
-
-	832.1.1 = {
-		birth = yes
-	}
-	859.1.1 = {
-		add_spouse = 73915 # Zahida
-	}
-	862.1.1 = {
-		employer = 73755 # Count Gatón of Astorga
-	}
-	890.1.1 = {
-		death = yes
-	}
-}
-
-73913 = {
-	name = "Abd-al-Aziz" # Abd al-Aziz ibn Zakariyya
-	dynasty = 12297 # Banu Hayyun Dynasty
-	religion = muwalladi
-	culture = andalusian
-
-	father = 73912 # Zakariyya ibn Hayyun
-	mother = 73915 # Zahida
-
-	860.1.1 = {
-		birth = yes
-	}
-	877.1.1 = {
-		trait = education_diplomacy_2
-	}
-	932.1.1 = {
-		death = yes
-	}
-}
-
-73914 = {
-	name = "Yahya" # Yahya ibn Zakariyya
-	dynasty = 12297 # Banu Hayyun Dynasty
-	religion = muwalladi
-	culture = andalusian
-
-	father = 73912 # Zakariyya ibn Hayyun
-	mother = 73915 # Zahida
-
-	863.1.1 = {
-		birth = yes
-	}
-	880.1.1 = {
-		trait = education_stewardship_1
-	}
-	931.1.1 = {
-		death = yes
-	}
-}
-
-73915 = {
-	name = "Zahida" # Zahida, fictional wife of Zakariyya ibn Hayyun (73912)
-	female = yes
-	religion = muwalladi
-	culture = andalusian
-	trait = education_stewardship_1
-
-	841.1.1 = {
-		birth = yes
-	}
-	910.1.1 = {
-		death = yes
-	}
-}
-
-73929 = {
-	name = "Muhammad" # Muhammad ibn Zakariyya
-	dynasty = 12299 # Banu Qutam Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = education_stewardship_2
-
-	father = 73930 # Zakariyya ibn Qutam
-
-	823.1.1 = {
-		birth = yes
-	}
-	848.1.1 = {
-		add_spouse = 73932 # Leila
-	}
-	888.1.1 = {
-		death = yes
-	}
-}
-
-73930 = {
-	name = "Zakariyya" # Zakariyya ibn Qutam
-	dynasty = 12299 # Banu Qutam Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = education_stewardship_1
-
-	794.1.1 = {
-		birth = yes
-	}
-	859.1.1 = {
-		death = yes
-	}
-}
-
-73931 = {
-	name = "Yusuf" # Yusuf ibn Zakariyya
-	dynasty = 12299 # Banu Qutam Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = education_diplomacy_2
-
-	father = 73930 # Zakariyya ibn Qutam
-
-	825.1.1 = {
-		birth = yes
-		add_character_flag = should_become_independent
-	}
-	870.1.1 = {
-		death = yes
-	}
-}
-
-73932 = {
-	name = "Leila" # Leila, fictional wife of Muhammad ibn Zakariyya (73929)
-	female = yes
-	religion = muwalladi
-	culture = andalusian
-	trait = education_diplomacy_1
-
-	830.1.1 = {
-		birth = yes
-	}
-	897.1.1 = {
-		death = yes
-	}
-}
-
-73933 = {
-	name = "Yahya" # Yahya ibn Muhammad
-	dynasty = 12299 # Banu Qutam Dynasty
-	religion = muwalladi
+159521 = {
+	name = "Ic_a" # Isa
+	dynasty = 1029093 # Banu Hafs Dynasty
+	religion = "muwalladi"
 	culture = visigothic
-	trait = education_diplomacy_1
-
-	father = 73929 # Muhammad ibn Zakariyya
-	mother = 73932 # Leila
-
-
-	849.1.1 = {
-		birth = yes
-	}
-	906.1.1 = {
-		death = yes
-	}
-}
-
-73934 = {
-	name = "Abd-al-Aziz" # Abd al-Aziz ibn Jarraz
-	dynasty = 12300 # Banu Jarraz Dynasty
-	religion = muwalladi
-	culture = andalusian
 	trait = education_stewardship_1
 
-	816.1.1 = {
+	725.1.1 = {
 		birth = yes
 	}
-	852.9.22 = {
-		employer = 73683 # Sultan Muhammad I of Andalusia
-	}
-	877.1.1 = {
+	775.1.1 = {
 		death = yes
 	}
 }
 
-73935 = {
-	name = "Muhammad" # Muhammad ibn Abd al-Aziz
-	dynasty = 12300 # Banu Jarraz Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = education_diplomacy_1
-
-	father = 73934 # Abd al-Aziz ibn Jarraz
-
-	841.1.1 = {
-		birth = yes
-	}
-	852.9.22 = {
-		employer = 73683 # Sultan Muhammad I of Andalusia
-	}
-	906.1.1 = {
-		death = yes
-	}
-}
-
-73936 = {
-	name = "Yahya" # Yahya ibn Abd al-Aziz
-	dynasty = 12300 # Banu Jarraz Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = education_martial_1
-
-	father = 73934 # Abd al-Aziz ibn Jarraz
-
-	843.1.1 = {
-		birth = yes
-	}
-	852.9.22 = {
-		employer = 73683 # Sultan Muhammad I of Andalusia
-	}
-	867.1.1 = {
-		add_spouse = 73937 # Karima
-	}
-	908.1.1 = {
-		death = yes
-	}
-}
-
-73937 = {
-	name = "Karima" # Karima, fictional wife of Yahya ibn Abd al-Aziz (73936)
-	female = yes
-	religion = muwalladi
-	culture = andalusian
+159522 = {
+	name = "C_uayb" # Shu'ayb ibn Isa
+	dynasty = 1029093 # Banu Hafs Dynasty
+	religion = "muwalladi"
+	culture = visigothic
 	trait = education_stewardship_1
 
-	851.1.1 = {
+	father = 159521 # Isa
+
+	745.1.1 = {
 		birth = yes
 	}
-	915.1.1 = {
-		death = yes
-	}
-}
-
-73938 = {
-	name = "Ibrahim" # Ibrahim ibn Burrun
-	dynasty = 12301 # Banu Burrun Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = education_stewardship_2
-
-	826.1.1 = {
-		birth = yes
-	}
-	850.1.1 = {
-		add_spouse = 73939 # Malika
-	}
-	888.1.1 = {
-		death = yes
-	}
-}
-
-73939 = {
-	name = "Malika" # Malika, fictional wife of Ibrahim ibn Burrun (73938)
-	female = yes
-	religion = muwalladi
-	culture = andalusian
-	trait = education_diplomacy_1
-
-	833.1.1 = {
-		birth = yes
-	}
-	900.1.1 = {
-		death = yes
-	}
-}
-
-73940 = {
-	name = "Ishaq" # Ishaq ibn Ibrahim
-	dynasty = 12301 # Banu Burrun Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = education_stewardship_1
-
-	father = 73938 # Ibrahim ibn Burrun
-	mother = 73939 # Malika
-
-	851.1.1 = {
-		birth = yes
-	}
-	912.1.1 = {
-		death = yes
-	}
-}
-
-73952 = {
-	name = "Ahmad" # Ahmad ibn Zuhr, Sheik of Sevilla (860-895)
-	dynasty = 12304 # Banu Zuhr Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = education_stewardship_2
-
-	830.1.1 = {
-		birth = yes
-	}
-	866.1.1 = {
-		add_spouse = 73953 # Habiba
-	}
-	895.1.1 = {
-		death = yes
-	}
-}
-
-73953 = {
-	name = "Habiba" # Habiba, fictional wife of Sheik Ahmad ibn Zuhr of Sevilla (73952)
-	female = yes
-	religion = muwalladi
-	culture = andalusian
-	trait = education_diplomacy_1
-
-	848.1.1 = {
-		birth = yes
-	}
-	914.1.1 = {
-		death = yes
-	}
-}
-
-73954 = {
-	name = "Muhammad" # Muhammad ibn Ahmad, Sheik of Sevilla (895-937)
-	dynasty = 12304 # Banu Zuhr Dynasty
-	religion = muwalladi
-	culture = andalusian
-
-	father = 73952 # Sheik Ahmad ibn Zuhr of Sevilla
-	mother = 73953 # Sheikah Habiba
-
-	867.1.1 = {
-		birth = yes
-	}
-	883.1.1 = {
-		trait = education_stewardship_1
-	}
-	937.1.1 = {
-		death = yes
-	}
-}
-
-73956 = {
-	name = "Marwan" # Marwan ibn Yunus al-Yiliqi, Walih of Badajoz (820-827), Sheik of Merida (817-827), Badajoz, Cáceres, Medellín & Plasencia  (820-827)
-	dna = 73957_ibn_marwan
-	dynasty = 12305 # Banu Marwan Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = education_stewardship_2
-
-	father = 73955 # Sheik Yunus al-Yiliqi of Merida (visigothic.txt)
-
-	793.1.1 = {
-		birth = yes
-	}
-	827.1.1 = {
-		death = yes
-	}
-}
-
-73957 = {
-	name = "Abd-al-Rahman" # Abd al-Rahman ibn Marwan, Sultan of Badajoz (875-889), Walih of Badajoz (867-868 & 875-889) & Sheik of Badajoz (867-868 & 874-889), Caceres, Medellin, Merida & Plasencia (867-868 & 875-889) & Moura (875-889)
-	dna = 73957_ibn_marwan
-	dynasty = 12305 # Banu Marwan Dynasty
-	religion = muwalladi
-	culture = andalusian
-	martial = 4
-	diplomacy = 4
-	intrigue = 7
-	stewardship = 7
-	trait = education_martial_4 # Defeated the Ummayyads of Cordoba
-
-	father = 73956 # Walih Marwan ibn Yunus al-Yiliqi of Badajoz
-
-	trait = ambitious
-	trait = cynical
-	trait = fickle
-	trait = intellect_good_1
-	trait = blademaster_2
-	trait = aggressive_attacker 
-	disallow_random_traits = yes
-
-	819.1.1 = {
-		birth = yes
-		add_character_flag = has_scripted_appearance
-	}
-	852.1.1 = {
-		add_spouse = 73958 # Isra
-	}
-	863.1.1 = {
-		add_spouse = 73958
-	}
-	866.1.1 = {
-		effect = {
-			set_relation_lover = character:73958 #his wife! (fictional, but it seemed fiting for this romantic figure)
-			set_relation_potential_rival = character:73683 #The Umayyad emir
-			add_pressed_claim = title:c_coimbra #he attacked it together with Surunbaqi
-			add_pressed_claim = title:c_beja #he attacked it together with Surunbaqi
-		}
-		effect = {
-			set_variable = {
-				name = false_convert
-				value = faith:mozarabic_church
-			}
-		}
-	}
-	889.1.1 = {
-		death = yes
-	}
-}
-
-73958 = {
-	name = "Isra" # Isra, wife of Emir Abd al-Rahman ibn Marwan of Badajoz (73957)
-	female = yes
-	religion = muwalladi
-	culture = andalusian
-	trait = education_diplomacy_1
-
-	martial = 3
-	diplomacy = 8
-	intrigue = 3
-	stewardship = 5
-	learning = 6
-	trait = cynical
-	trait = generous
-	trait = humble 
-	trait = wild_oat
-	
-	834.1.1 = {
-		birth = yes
-	}
-	896.1.1 = {
-		death = yes
-	}
-}
-
-73959 = {
-	name = "Zaid" # Zaid ibn Abd al-Rahman, Sultan of Badajoz (890-913), Walih of Badajoz (890-913), Sheik of Badajoz, Caceres, Medellin, Merida, Moura & Plasencia (889-913), Evora & Viseu (909-913)
-	dynasty = 12305 # Banu Marwan Dynasty
-	religion = muwalladi
-	culture = andalusian
-
-	father = 73957 # Emir Abd al-Rahman ibn Marwan of Badajoz
-	mother = 73958 # Emiress Isra
-
-	856.1.1 = {
-		birth = yes
-	}
-	872.1.1 = {
-		trait = education_stewardship_2
-	}
-	913.1.1 = {
-		death = yes
-	}
-}
-
-73960 = {
-	name = "Muhammad" # Muhammad ibn Adb al-Rahman
-	dynasty = 12305 # Banu Marwan Dynasty
-	religion = muwalladi
-	culture = andalusian
-
-	father = 73957 # Emir Abd al-Rahman ibn Marwan of Badajoz
-	mother = 73958 # Emiress Isra
-
-	trait = intellect_good_1
-
-	858.1.1 = {
-		birth = yes
-	}
-	874.1.1 = {
-		trait = education_martial_2
-	}
-	908.1.1 = {
-		death = yes
-	}
-}
-
-73961 = {
-	name = "Alkada" # Alkada al-Ruayni
-	dynasty = 12306 # Alkada al-Ruayni Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = education_stewardship_1
-
-	800.1.1 = {
-		birth = yes
-	}
-	851.1.1 = {
-		death = yes
-	}
-}
-
-73962 = {
-	name = "Ubada" # Ubada ibn Alkada
-	dynasty = 12306 # Alkada al-Ruayni Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = education_stewardship_2
-
-	father = 73961 # Alkada al-Ruayni
-
-	834.1.1 = {
-		birth = yes
-	}
-	852.9.22 = {
-		employer = 73683 # Sultan Muhammad I of Andalusia
-	}
-	867.1.1 = {
-		add_spouse = 73963 # Yasmin
-	}
-	895.1.1 = {
-		death = yes
-	}
-}
-
-73963 = {
-	name = "Yasmin" # Yasmin, fictional wife of Ubada ibn Alkada (73962)
-	female = yes
-	religion = muwalladi
-	culture = andalusian
-	trait = education_diplomacy_1
-
-	850.1.1 = {
-		birth = yes
-	}
-	912.1.1 = {
-		death = yes
-	}
-}
-
-73964 = {
-	name = "Zuhayr" # Zuhayr al-Balawi
-	dynasty = 12307 # Zuhayr al-Balawi Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = education_stewardship_2
-
-	815.1.1 = {
-		birth = yes
-	}
-	852.1.1 = {
-		death = yes
-	}
-}
-
-73965 = {
-	name = "Kinana" # Kinana ibn Zuhayr
-	dynasty = 12307 # Zuhayr al-Balawi Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = education_stewardship_1
-
-	father = 73964 # Sheik Zuhayr al-Balawi of Alcacer do Sal
-
-	843.1.1 = {
-		birth = yes
-	}
-	848.1.1 = {
-		employer = danis0005 # Walih Adanis ibn Awsaga of Beja
-	}
-	909.1.1 = {
-		death = yes
-	}
-}
-
-73966 = {
-	name = "Salama" # Salama ibn Zuhayr
-	dynasty = 12307 # Zuhayr al-Balawi Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = education_stewardship_1
-
-	father = 73964 # Sheik Zuhayr al-Balawi of Alcacer do Sal
-
-	850.1.1 = {
-		birth = yes
-		employer = danis0005 # Walih Adanis ibn Awsaga of Beja
-	}
-	915.1.1 = {
-		death = yes
-	}
-}
-
-73969 = {
-	name = "Abdallah" # Abdallah ibn Numayr
-	dynasty = 12309 # Banu Numayr Dinasty
-	religion = muwalladi
-	culture = andalusian
-	trait = education_stewardship_1
-
-	811.1.1 = {
-		birth = yes
-	}
-	840.1.1 = {
-		add_spouse = 73970 # Munya
-	}
-	852.9.22 = {
-		employer = 73683 # Sultan Muhammad I of Andalusia
-	}
-	874.1.1 = {
-		death = yes
-	}
-}
-
-73970 = {
-	name = "Munya" # Munya, fictional wife of Abdallah ibn Nuhayr (73969)
-	female = yes
-	religion = muwalladi
-	culture = andalusian
-	trait = education_diplomacy_1
-
-	822.1.1 = {
-		birth = yes
-	}
-	885.1.1 = {
-		death = yes
-	}
-}
-
-73971 = {
-	name = "Ahmad" # Ahmad ibn Abdallah
-	dynasty = 12309 # Banu Numayr Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = education_stewardship_1
-
-	father = 73969 # Abdallah ibn Nuhayr
-	mother = 73970 # Munya
-
-	842.1.1 = {
-		birth = yes
-	}
-	852.9.22 = {
-		employer = 73683 # Sultan Muhammad I of Andalusia
-	}
-	915.1.1 = {
-		death = yes
-	}
-}
-
-73972 = {
-	name = "Jalid" # Jalid
-	dynasty = 12310 # Banu Jalid Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = education_stewardship_1
-
-	828.1.1 = {
-		birth = yes
-	}
-	852.9.22 = {
-		employer = 73683 # Sultan Muhammad I of Andalusia
-	}
-	859.1.1 = {
-		add_spouse = 73973 # Tarifa
-	}
-	880.1.1 = {
-		death = yes
-	}
-}
-
-73973 = {
-	name = "Tarifa" # Tarifa, fictional wife of Jalid (73972)
-	female = yes
-	religion = muwalladi
-	culture = andalusian
-	trait = education_diplomacy_1
-
-	840.1.1 = {
-		birth = yes
-	}
-	908.1.1 = {
-		death = yes
-	}
-}
-
-73974 = {
-	name = "Ahmad" # Ahmad ibn Jalid
-	dynasty = 12310 # Banu Jalid Dynasty
-	religion = muwalladi
-	culture = andalusian
-
-	father = 73972 # Jalid
-	mother = 73973 # Tarifa
-
-	860.1.1 = {
-		birth = yes
-	}
-	876.1.1 = {
-		trait = education_stewardship_3
-	}
-	934.1.1 = {
-		death = yes
-	}
-}
-
-73983 = {
-	name = "Hakam" # Hakam ibn Abdallah
-	dynasty = 12312 # Banu Quti Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = education_martial_1
-
-	father = 73982 # Abdallah ibn Balakayus
-
 	795.1.1 = {
-		birth = yes
-	}
-	860.1.1 = {
 		death = yes
 	}
 }
 
-73987 = {
-	name = "Yuhanna" # Yuhanna, placeholder Count of Ibiza, Mallorca & Menorca (867-903)
-	dynasty = 12313 # Mayurqa Dynasty
-	religion = mozarabic_church
-	culture = andalusian
-	trait = education_diplomacy_2
-
-	father = andalusian0152 # Count Gurg of Mallorca
-
-	842.1.1 = {
-		birth = yes
-	}
-	866.1.1 = {
-		add_spouse = 200224 # Laya
-	}
-	903.1.1 = {
-		death = yes
-	}
-}
-
-73988 = {
-	name = "Urdun" # Urdun, placeholder Count of Soria (857-882)
-	dynasty = castallid # Castalla Dynasty
-	religion = mozarabic_church
-	culture = andalusian
-	trait = education_martial_1
-
-	832.1.1 = {
-		birth = yes
-	}
-	856.1.1 = {
-		add_spouse = andalusian0133 # Doha
-	}
-	882.1.1 = {
-		death = yes
-	}
-}
-
-73989 = {
-	name = "Boutros" # Boutros, placeholder Count of Salamanca (860-885)
-	dynasty = salamanqid # Salamanqa Dynasty
-	religion = mozarabic_church
-	culture = andalusian
+159523 = {
+	name = "Hafs" # Hafs ibn Shu'ayb
+	dynasty = 1029093 # Banu Hafs Dynasty
+	religion = "muwalladi"
+	culture = visigothic
 	trait = education_stewardship_1
 
-	835.1.1 = {
+	father = 159522 # Shuhayb ibn Isa
+
+	760.1.1 = {
 		birth = yes
 	}
-	859.1.1 = {
-		add_spouse = andalusian0136 # Hawwa
-	}
-	885.1.1 = {
+	820.1.1 = {
 		death = yes
 	}
 }
-
-73990 = {
-	name = "Sabariquh" # Sabariquh, placeholder Count of Cuéllar (866-891)
-	dynasty = 12314 # Siqubiyyah Dynasty
-	religion = mozarabic_church
-	culture = andalusian
-	trait = education_intrigue_1
-
-	841.1.1 = {
-		birth = yes
-	}
-	865.1.1 = {
-		add_spouse = andalusian0139 # Batul
-	}
-	891.1.1 = {
-		death = yes
-	}
-}
-
-73992 = {
-	name = "Fath" # Fath
-	dynasty = al-surunbaqi # Sa'dun al-Surubaqi's Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = education_stewardship_1
-
-	806.1.1 = {
-		birth = yes
-	}
-	856.1.1 = {
-		death = yes
-	}
-}
-
-85009 = {
-	name = "Kera" # Kera ibn Muyahid al-Amiri, wife of Emir al-Mu'tadid of Seville (3212 - bedouin.txt)
-	female = yes
-	dynasty = al-amiri # Muyahid al-Amiri's Dynasty
-	martial = 4
-	diplomacy = 5
-	intrigue = 6
-	stewardship = 4
-	religion = muwalladi
-	culture = andalusian
-	trait = lazy
-	trait = education_diplomacy_1
-
-	father = 85008 # Emir Muyahid al-Amiri of Mallorca
-
-	1020.1.1 = {
-		birth = yes
-	}
-	1072.1.1 = {
-		death = yes
-	}
-}
-
-109610 = {
-	name = "Shishnand" # Sisnando Davides, Count of Coimbra (1064-1091)
-	dynasty = 20051 # Davides Dynasty
-	martial = 5
-	diplomacy = 7
-	intrigue = 4
-	stewardship = 7
-	religion = mozarabic_church
-	culture = andalusian
-	trait = honest
-	trait = humble
-	trait = education_martial_3
-
-	father = andalusian0106 # David
-	mother = andalusian0107 # Susana
-
-	1038.1.1 = {
-		birth = yes
-	}
-	1065.1.1 = {
-		add_spouse = 109609 # Loba Aurovelida Nunes (galician.txt)
-	}
-	1091.8.25 = {
-		death = yes
-	}
-}
-
-143001 = {
-	name = "Abu-Nasr" # Aboazar Lovesendes da Maia
-	dynasty_house = house_maia # House of Maia, Founder
-	religion = mozarabic_church
-	culture = andalusian
-	trait = education_martial_2
- 
-	father = 143003 # Lovesendo Ramires de León
-	mother = andalusian0004 # Zayra ben Zayda
-
-	960.1.1 = {
-		birth = yes
-	}
-	980.1.1 = {
-		add_spouse = 142996 # Unisco Godinhes
-	}
-	1010.1.1 = {
-		death = yes
-	}
-}
-
 159524 = {
 	name = "Umar" # Umar ibn Hafs 'the Fat', Emir of Krete (827-855), Sheik of Chandax & Chania (827-855)
 	dynasty = 1029093 # Banu Hafs Dynasty
@@ -2648,7 +4334,6 @@
 		death = yes
 	}
 }
-
 159525 = {
 	name = "Shuayb" # Shu'ayb ibn Umar, Emir of Krete (855-880), Sheik of Chandax & Chania (855-880)
 	dynasty = 1029093 # Banu Hafs Dynasty
@@ -2754,7 +4439,6 @@
 		death = yes
 	}
 }
-
 159531 = {
 	name = "Shuayb" # Shu'ayb ibn Ahmad, Emir of Krete (940-943), Sheik of Chandax & Chania (940-943)
 	dynasty = 1029093 # Banu Hafs Dynasty
@@ -2805,7 +4489,6 @@
 		death = yes
 	}
 }
-
 159534 = {
 	name = "Al-Numan" # al-Nu'man ibn Abd al-Aziz, known as Anemas
 	dynasty = 1029093
@@ -2830,563 +4513,162 @@
 		}
 	}
 }
-
-200045 = {
-	name = "Burrun" # Burrun ibn Ishaq
-	dynasty = 12301 # Banu Burrun Dynasty
+261364 = {
+	name = "Omar"
+	dynasty = 1062602
 	religion = muwalladi
 	culture = andalusian
-	trait = education_stewardship_1
-
-	876.1.1 = {
+	father = 261365
+	881.1.1 = {
 		birth = yes
 	}
-	926.1.1 = {
+	964.1.1 = {
 		death = yes
 	}
 }
 
-200055 = {
-	name = "Yahya" # Yahya ibn Burrun
-	dynasty = 12301 # Banu Burrun Dynasty
+261365 = {
+	name = "Aswad"
+	dynasty = 1062602
 	religion = muwalladi
 	culture = andalusian
-	trait = education_stewardship_1
-
-	901.1.1 = {
+	860.1.1 = {
 		birth = yes
 	}
-	951.1.1 = {
+	932.1.1 = {
 		death = yes
 	}
 }
 
-200149 = {
-	name = "Ibrahim" # Ibrahim ibn Yahya
-	dynasty = 12301 # Banu Burrun Dynasty
+261366 = {
+	name = "Sadiq"
+	dynasty = 1062602 
 	religion = muwalladi
 	culture = andalusian
-	trait = education_stewardship_2
-
-	father = 200055 # Yahya ibn Burrun
-
+	father = 261364
+	905.1.1 = {
+		birth = yes
+	}
+	967.1.1 = {
+		death = yes
+	}
+}
+261367 = {
+	name = "Yahya"
+	dynasty = 1062602
+	religion = muwalladi
+	culture = andalusian
+	father = 261364
+	908.1.1 = {
+		birth = yes
+	}
+	982.1.1 = {
+		death = yes
+	}
+}
+261368 = {
+	name = "Aram"
+	dynasty = 1062603
+	religion = muwalladi
+	culture = andalusian
+	885.1.1 = {
+		birth = yes
+	}
 	921.1.1 = {
-		birth = yes
-	}
-	971.1.1 = {
 		death = yes
 	}
 }
-
-200150 = {
-	name = "Faray" # Faray ibn Salama
-	dynasty = 12307 # Zuhayr al-Balawi Dynasty
-	religion = mozarabic_church
+261369 = {
+	name = "Aarif"
+	dynasty = 1062603
+	religion = muwalladi
 	culture = andalusian
-	trait = education_stewardship_2
-
-	father = 73966 # Salama ibn Zuhayr
-
-	900.1.1 = {
+	father = 261368
+	910.1.1 = {
 		birth = yes
 	}
 	956.1.1 = {
 		death = yes
 	}
 }
-
-200154 = {
-	name = "Yunus" # Yunus ibn Yahya
-	dynasty = 1046019
+261370 = {
+	name = "Ghalib"
+	dynasty = 1062603
 	religion = muwalladi
 	culture = andalusian
-	trait = education_stewardship_1
-
-	father = 73914 # Yahya ibn Zakariyya
-
-	888.1.1 = {
+	father = 261368
+	915.1.1 = {
 		birth = yes
 	}
-	938.1.1 = {
+	978.1.1 = {
 		death = yes
 	}
 }
-
-200156 = {
-	name = "Ulyan" # Ulyan, placeholder Count of Ávila (854-882)
-	dynasty = ramlid # al-Ramla Dynasty
-	religion = mozarabic_church
+261375 = {
+	name = "Ahmad"
+	dynasty = 1062605
 	culture = andalusian
-	trait = education_stewardship_1
-
-	832.1.1 = {
+	religion = muwalladi
+	father = 261376
+	866.1.1 = {
 		birth = yes
 	}
-	852.1.1 = {
-		add_spouse = andalusian0143 # Susanah
-	}
-	882.1.1 = {
+	925.1.1 = {
 		death = yes
 	}
 }
-
-200206 = {
-	name = "Amrus" # Amrus ibn Umar, Sheik of Huesca (870-871 & 873-875)
-	dynasty = 12291 # Banu Amrus Dynasty
-	religion = muwalladi
+261376 = {
+	name = "Hashas"
+	dynasty = 1062605
 	culture = andalusian
-	trait = education_intrigue_3
-
-	father = 73801 # Umar ibn Amrus
-
-	804.1.1 = {
+	religion = muwalladi
+	father = 261377
+	830.1.1 = {
 		birth = yes
 	}
-	875.4.1 = {
+	911.1.1 = {
 		death = yes
 	}
 }
-
-200207 = {
-	name = "Zakariyya" # Zakariyya ibn Amrus
-	dynasty = 12291 # Banu Amrus Dynasty
+261377 = {
+	name = "Said"
+	dynasty = 1062605
+	culture = bedouin
 	religion = muwalladi
-	culture = andalusian
-	trait = education_intrigue_1
-
-	father = 73799 # Emir Amrus ibn Yusuf of Toledo (visigothic.txt)
-
-	784.1.1 = {
+	805.1.1 = {
 		birth = yes
 	}
-	871.1.1 = {
-		death = {
-			death_reason = death_execution
-			killer = 73683 # Sultan Muhammad I of Andalusia
-		}
-	}
-}
-
-200208 = {
-	name = "Umar" # Umar ibn Zakariyya
-	dynasty = 12291 # Banu Amrus Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = education_stewardship_1
-
-	father = 200207 # Zakariyya ibn Amrus
-
-	814.1.1 = {
-		birth = yes
-	}
-	871.1.1 = {
-		death = {
-			death_reason = death_execution
-			killer = 73683 # Sultan Muhammad I of Andalusia
-		}
-	}
-}
-
-200209 = {
-	name = "Lubb" # Lubb ibn Zakariyya
-	dynasty = 12291 # Banu Amrus Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = education_martial_1
-
-	father = 200207 # Zakariyya ibn Amrus
-
-	816.1.1 = {
-		birth = yes
-	}
-	871.1.1 = {
-		death = {
-			death_reason = death_execution
-			killer = 73683 # Sultan Muhammad I of Andalusia
-		}
-	}
-}
-
-200210 = {
-	name = "Abdallah" # Abdallah ibn Shabrit
-	dynasty_house = house_banu_shabrit # House Banu Shabrit
-	religion = muwalladi
-	culture = andalusian
-	trait = education_martial_1
-
-	father = visigothic0003 # Shabrit ibn Rashid (visigothic.txt)
-
-	800.1.1 = {
-		birth = yes
-	}
-	823.1.1 = {
-		add_spouse = 200213 # Tarifa
-	}
-	850.1.1 = {
-		death = yes
-	}
-}
-
-200211 = {
-	name = "Masud" # Masud ibn Amrus, Sheik of Huesca (875-887)
-	dynasty = 12291 # Banu Amrus Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = education_stewardship_1
-
-	father = 200206 # Sheik Amrus ibn Umar of Huesca
-
-	831.1.1 = {
-		birth = yes
-	}
-	887.3.12 = {
-		death = {
-			death_reason = death_murder_known
-			killer = andalusian0082 # Sheik Muhammad al-Tawil of Huesca
-		}
-	}
-}
-
-200212 = {
-	name = "Abd-al-Malik" # Abd al-Malik ibn Abdallah
-	dynasty_house = house_banu_shabrit # House Banu Shabrit
-	religion = muwalladi
-	culture = andalusian
-	trait = education_martial_1
-
-	father = 200210 # Abdallah ibn Shabrit
-	mother = 200213 # Tarifa
-
-	824.1.1 = {
-		birth = yes
-	}
-	846.1.1 = {
-		add_spouse = andalusian0083 # Zahida
-	}
-	886.1.1 = {
-		death = yes
-	}
-}
-
-200213 = {
-	name = "Tarifa" # Tarifa, fictional wife of Abdallah ibn Shabrit (200210)
-	female = yes
-	religion = muwalladi
-	culture = andalusian
-	trait = education_stewardship_1
-
-	807.1.1 = {
-		birth = yes
-	}
-	857.1.1 = {
-		death = yes
-	}
-}
-
-200215 = {
-	name = "Lubb" # Lubb, placeholder Count of Burgos (858-882)
-	dynasty = burgusid # Burgus Dynasty
-	religion = mozarabic_church
-	culture = andalusian
-	trait = education_stewardship_1
-
-	832.1.1 = {
-		birth = yes
-	}
-	856.1.1 = {
-		add_spouse = andalusian0146 # Majdala
-	}
-	882.1.1 = {
-		death = yes
-	}
-}
-
-200223 = {
-	name = "Filibus" # Fictional
-	dynasty = 12313 # Mayurqa Dynasty
-	religion = mozarabic_church
-	culture = andalusian
- 
-	father = 73987 # Count Yuhanna of Mallorca
-	mother = 200224 # Countess Laya
-
 	867.1.1 = {
-		birth = yes
-	}
-	883.1.1 = {
-		trait = education_learning_1
-	}
-	917.1.1 = {
 		death = yes
 	}
 }
-
-200224 = {
-	name = "Laya" # Fictional Spouse of Count Yuhanna of Mallorca (73987)
-	female = yes
-	religion = mozarabic_church
+261378 = {
+	name = "Muyahid"
+	dynasty = 1062605
 	culture = andalusian
-	trait = education_stewardship_1
-
-	846.1.1 = {
+	religion = muwalladi
+	father = 261375
+	905.1.1 = {
 		birth = yes
 	}
-	896.1.1 = {
+	951.1.1 = {
 		death = yes
 	}
 }
-
-200225 = {
-	name = "Ya_qub" # Ya'qub, placeholder Count of Valladolid (865-890)
-	dynasty = walidid # Balad al-Walid Dynasty
-	religion = mozarabic_church
-	culture = andalusian
-	trait = education_diplomacy_1
-
-	840.1.1 = {
-		birth = yes
-	}
-	864.1.1 = {
-		add_spouse = andalusian0149 # Suraya
-	}
-	890.1.1 = {
-		death = yes
-	}
-}
-
-224002 = {
-	name = "Khaleel"
-	dynasty = 12226
-	martial = 6
-	diplomacy = 7
-	intrigue = 4
-	stewardship = 8
-	religion = "ismaili"
-	culture = andalusian
-	trait = education_martial_2
-	1157.1.1 = {
-		birth = "1157.1.1"
-	}
-	1212.1.1 = {
-		death = "1212.1.1"
-	}
-}
-
-224006 = {
-	name = "Sa_d"
-	dynasty = 12214
-	martial = 7
-	diplomacy = 4
-	intrigue = 6
-	stewardship = 4
-	religion = muwalladi
-	culture = andalusian
-	trait = deceitful
-	1042.1.1 = {
-		birth = "1042.1.1"
-	}
-	1100.1.1 = {
-		death = "1100.1.1"
-	}
-}
-
-224007 = {
-	name = "Abdallah"
-	dynasty = 12215
-	martial = 7
-	diplomacy = 4
-	intrigue = 6
-	stewardship = 5
-	religion = muwalladi
-	culture = andalusian
-	trait = chaste
-	trait = arbitrary
-	trait = education_martial_3
-	1074.1.1 = {
-		birth = "1074.1.1"
-	}
-	1130.1.1 = {
-		death = "1130.1.1"
-	}
-}
-
-224008 = {
-	name = "Muhammad"
-	dynasty = 12192
-	religion = muwalladi
-	culture = andalusian
-	father = 73204
-	1113.1.1 = {
-		birth = "1113.1.1"
-	}
-	1145.1.1 = {
-		add_pressed_claim = title:d_badajoz
-	}
-	1146.1.1 = {
-		add_pressed_claim = title:d_valencia
-		add_pressed_claim = title:d_mallorca
-		add_pressed_claim = title:d_murcia
-		add_pressed_claim = title:d_cordoba
-		add_pressed_claim = title:d_sevilla
-		add_pressed_claim = title:d_granada
-	}
-	1150.1.1 = {
-		death = "1150.1.1"
-	}
-}
-
-224012 = {
+261379 = {
 	name = "Tariq"
-	dynasty = 12212
-	martial = 8
-	diplomacy = 6
-	intrigue = 8
-	stewardship = 7
+	dynasty = 1062605
+	culture = andalusian
 	religion = muwalladi
-	culture = andalusian
-	trait = greedy
-	trait = education_intrigue_1
-	father = 73245
-	1099.1.1 = {
-		birth = "1099.1.1"
-	}
-	1144.1.1 = {
-		death = "1144.1.1"
-	}
-}
-
-224014 = {
-	name = "Hakam"
-	dynasty = 12216
-	martial = 8
-	diplomacy = 7
-	intrigue = 7
-	stewardship = 5
-	religion = muwalladi
-	culture = andalusian
-	trait = education_martial_2
-	1116.1.1 = {
-		birth = "1116.1.1"
-	}
-	1170.1.1 = {
-		death = "1170.1.1"
-	}
-}
-
-224016 = {
-	name = "Abd-al-Malik"
-	dynasty = 12232
-
-	religion = ismaili
-	culture = andalusian
-
-	1146.1.1 = {
+	father = 261375
+	914.1.1 = {
 		birth = yes
 	}
-	1200.1.1 = {
+	967.1.1 = {
 		death = yes
 	}
 }
 
-224017 = {
-	name = "Ya_qub"
-	dynasty = 12231
-	martial = 7
-	diplomacy = 4
-	intrigue = 6
-	stewardship = 7
-	religion = muwalladi
-	culture = andalusian
-	trait = diligent
-	trait = deceitful
-	trait = arbitrary
-	trait = education_stewardship_3
-	1065.1.1 = {
-		birth = "1065.1.1"
-	}
-	1118.1.1 = {
-		death = "1118.1.1"
-	}
-}
-
-224023 = {
-	name = "Ibrahim"
-	dynasty = 574
-	martial = 5
-	diplomacy = 4
-	intrigue = 7
-	stewardship = 5
-	religion = muwalladi
-	culture = andalusian
-	trait = greedy
-	trait = wrathful
-	trait = education_martial_2
-	1094.1.1 = {
-		birth = "1094.1.1"
-	}
-	1148.1.1 = {
-		death = "1148.1.1"
-	}
-}
-
-224024 = {
-	name = "Ali"
-	dynasty = 12223
-	martial = 4
-	diplomacy = 4
-	intrigue = 6
-	stewardship = 6
-	religion = muwalladi
-	culture = andalusian
-	trait = calm
-	trait = brave
-	trait = education_martial_2
-	1122.1.1 = {
-		birth = "1122.1.1"
-	}
-	1178.1.1 = {
-		death = "1178.1.1"
-	}
-}
-
-224025 = {
-	name = "Amr"
-	dynasty = 12224
-	martial = 5
-	diplomacy = 4
-	intrigue = 5
-	stewardship = 7
-	religion = muwalladi
-	culture = andalusian
-	trait = diligent
-	trait = education_intrigue_2
-	father = 464010
-	1079.1.1 = {
-		birth = "1079.1.1"
-	}
-	1147.1.1 = {
-		death = "1147.1.1"
-	}
-}
-
-464010 = {
-	name = "Muhammad"
-	dynasty = 12224
-	martial = 4
-	diplomacy = 12
-	intrigue = 4
-	stewardship = 8
-	religion = muwalladi
-	culture = andalusian
-	trait = education_diplomacy_3
-	trait = humble
-	1055.1.1 = {
-		birth = "1055.1.1"
-	}
-	1119.1.1 = {
-		death = "1119.1.1"
-	}
-}
 
 andalusian0001 = {
 	name = "Abdallah" # Abdallah (I) ibn Muhammad, Sultan of Badajoz (913-923), Walih of Badajoz (913-923), Sheik of Badajoz, Caceres, Evora, Medellín, Merida, Moura, Plasencia & Viseu (913-923)
@@ -3446,7 +4728,7 @@ andalusian0004 = {
 	name = "Zayra" # Ortega ben Zayda, wife of Lovesendo Ramírez (143003 - galician.txt)
 	female = yes
 	religion = muwalladi
-	culture = andalusian
+	culture = mozarab
 	trait = education_diplomacy_2
 
 	940.1.1 = {
@@ -3840,10 +5122,10 @@ andalusian0025 = {
 
 andalusian0026 = {
 	name = "Hisham" # Hisham ibn Abd al-Rahman
-	dynasty = 597 # Umayyad Dynasty
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
-	trait = sayyid
+	trait = quraysh
 
 	father = 3200 # Calih Abd al-Rahman III of Andalusia
 	mother = levantine0086 # Sultana Fatima bint al-Mundir (levantine.txt)
@@ -3858,10 +5140,10 @@ andalusian0026 = {
 
 andalusian0027 = {
 	name = "al-Mundir" # al-Mundir ibn Abd al-Rahman
-	dynasty = 597 # Umayyad Dynasty
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
-	trait = sayyid
+	trait = quraysh
 	trait = education_martial_1
 
 	father = 3200 # Calih Abd al-Rahman III of Andalusia
@@ -3877,10 +5159,10 @@ andalusian0027 = {
 
 andalusian0028 = {
 	name = "Abdallah" # Abdallah ibn Abd al-Rahman
-	dynasty = 597 # Umayyad Dynasty
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
-	trait = sayyid
+	trait = quraysh
 	trait = education_intrigue_2
 
 	father = 3200 # Calih Abd al-Rahman III of Andalusia
@@ -3899,10 +5181,10 @@ andalusian0028 = {
 
 andalusian0029 = {
 	name = "Marwan" # Marwan ibn Abd al-Rahman
-	dynasty = 597 # Umayyad Dynasty
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
-	trait = sayyid
+	trait = quraysh
 
 	father = 3200 # Calih Abd al-Rahman III of Andalusia
 	trait = child_of_concubine_female
@@ -3917,10 +5199,10 @@ andalusian0029 = {
 
 andalusian0030 = {
 	name = "al-Asbag" # al-Asbag ibn Abd al-Rahman
-	dynasty = 597 # Umayyad Dynasty
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
-	trait = sayyid
+	trait = quraysh
 	trait = education_stewardship_1
 
 	father = 3200 # Calih Abd al-Rahman III of Andalusia
@@ -3936,10 +5218,10 @@ andalusian0030 = {
 
 andalusian0031 = {
 	name = "al-Zuhayr" # al-Zuhayr ibn Abd al-Rahman
-	dynasty = 597 # Umayyad Dynasty
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
-	trait = sayyid
+	trait = quraysh
 	trait = education_diplomacy_1
 
 	father = 3200 # Calih Abd al-Rahman III of Andalusia
@@ -3955,10 +5237,10 @@ andalusian0031 = {
 
 andalusian0032 = {
 	name = "al-Mughira" # al-Mughira ibn Abd al-Rahman
-	dynasty = 597 # Umayyad Dynasty
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
-	trait = sayyid
+	trait = quraysh
 	trait = education_stewardship_3
 
 	father = 3200 # Calih Abd al-Rahman III of Andalusia
@@ -3993,10 +5275,10 @@ andalusian0033 = {
 andalusian0034 = {
 	name = "Hind" # Hind bint Abd al-Rahman
 	female = yes
-	dynasty = 597 # Umayyad Dynasty
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
-	trait = sayyid
+	trait = quraysh
 	trait = education_stewardship_3
 
 	father = 3200 # Calih Abd al-Rahman III of Andalusia
@@ -4013,10 +5295,10 @@ andalusian0034 = {
 andalusian0035 = {
 	name = "Wallada" # Wallada bint Abd al-Rahman
 	female = yes
-	dynasty = 597 # Umayyad Dynasty
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
-	trait = sayyid
+	trait = quraysh
 	trait = education_diplomacy_1
 
 	father = 3200 # Calih Abd al-Rahman III of Andalusia
@@ -4033,10 +5315,10 @@ andalusian0035 = {
 andalusian0036 = {
 	name = "Saniyya" # Saniyya bint Abd al-Rahman
 	female = yes
-	dynasty = 597 # Umayyad Dynasty
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
-	trait = sayyid
+	trait = quraysh
 	trait = education_stewardship_1
 
 	father = 3200 # Calih Abd al-Rahman III of Andalusia
@@ -4052,10 +5334,10 @@ andalusian0036 = {
 
 andalusian0037 = {
 	name = "Salama" # Salama ibn Abd al-Rahman
-	dynasty = 597 # Umayyad Dynasty
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
-	trait = sayyid
+	trait = quraysh
 	trait = education_intrigue_1
 
 	father = 3200 # Calih Abd al-Rahman III of Andalusia
@@ -4071,10 +5353,10 @@ andalusian0037 = {
 
 andalusian0038 = {
 	name = "al-Mutarrif" # al-Mutarrif ibn al-Mughira
-	dynasty = 597 # Umayyad Dynasty
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
-	trait = sayyid
+	trait = quraysh
 	trait = education_stewardship_1
 
 	father = andalusian0032 # al-Mughira ibn Abd al-Rahman
@@ -4089,10 +5371,10 @@ andalusian0038 = {
 
 andalusian0039 = {
 	name = "Abd-al-Rahman" # Abd al-Rahman ibn al-Hakam
-	dynasty = 597 # Umayyad Dynasty
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
-	trait = sayyid
+	trait = quraysh
 
 	father = 3202 # Calih al-Hakam II of Andalusia
 	mother = basque0149 # Subh (basque.txt)
@@ -4108,10 +5390,10 @@ andalusian0039 = {
 
 andalusian0040 = {
 	name = "Abd-al-Aziz" # Abd al-Aziz ibn Abd al-Rahman
-	dynasty = 597 # Umayyad Dynasty
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
-	trait = sayyid
+	trait = quraysh
 	trait = education_diplomacy_1
 
 	father = 3200 # Calih Abd al-Rahman III of Andalusia
@@ -4127,10 +5409,10 @@ andalusian0040 = {
 
 andalusian0041 = {
 	name = "al-Asbag" # al-Asbag ibn Abd al-Aziz
-	dynasty = 597 # Umayyad Dynasty
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
-	trait = sayyid
+	trait = quraysh
 	trait = education_stewardship_1
 
 	father = andalusian0040 # Abd al-Aziz ibn Abd al-Rahman
@@ -4145,10 +5427,10 @@ andalusian0041 = {
 
 andalusian0042 = {
 	name = "al-Qasim" # al-Qasim ibn al-Asbag
-	dynasty = 597 # Umayyad Dynasty
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
-	trait = sayyid
+	trait = quraysh
 	trait = education_diplomacy_1
 
 	father = andalusian0030 # al-Asbag ibn Abd al-Rahman
@@ -4163,10 +5445,10 @@ andalusian0042 = {
 
 andalusian0043 = {
 	name = "Muhammad" # Muhammad ibn Suleyman
-	dynasty = 597 # Umayyad Dynasty
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
-	trait = sayyid
+	trait = quraysh
 	trait = education_stewardship_1
 
 	father = 73675 # Caliph Suleyman ibn al-Hakam of Andalusia
@@ -4181,10 +5463,10 @@ andalusian0043 = {
 
 andalusian0044 = {
 	name = "Walid" # Walid ibn Suleyman
-	dynasty = 597 # Umayyad Dynasty
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
-	trait = sayyid
+	trait = quraysh
 	trait = education_martial_1
 
 	father = 73675 # Caliph Suleyman ibn al-Hakam of Andalusia
@@ -4199,10 +5481,10 @@ andalusian0044 = {
 
 andalusian0045 = {
 	name = "Maslama" # Maslama ibn Suleyman
-	dynasty = 597 # Umayyad Dynasty
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
-	trait = sayyid
+	trait = quraysh
 	trait = education_diplomacy_1
 
 	father = 73675 # Caliph Suleyman ibn al-Hakam of Andalusia
@@ -4218,10 +5500,10 @@ andalusian0045 = {
 andalusian0046 = {
 	name = "Umm" # Umm bint Suleyman
 	female = yes
-	dynasty = 597 # Umayyad Dynasty
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
-	trait = sayyid
+	trait = quraysh
 	trait = education_stewardship_1
 
 	father = 73675 # Caliph Suleyman ibn al-Hakam of Andalusia
@@ -4236,10 +5518,10 @@ andalusian0046 = {
 
 andalusian0047 = {
 	name = "Ubayd-Allah" # Ubayd Allah ibn Muhammad
-	dynasty = 597 # Umayyad Dynasty
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
-	trait = sayyid
+	trait = quraysh
 	trait = education_diplomacy_1
 
 	father = 73671 # Caliph Muhammad II of Andalusia
@@ -4254,10 +5536,10 @@ andalusian0047 = {
 
 andalusian0048 = {
 	name = "Hisham" # Hisham ibn Suleyman
-	dynasty = 597 # Umayyad Dynasty
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
-	trait = sayyid
+	trait = quraysh
 	trait = education_diplomacy_1
 
 	father = 73673 # Suleyman ibn Abd al-Rahman
@@ -4272,10 +5554,10 @@ andalusian0048 = {
 
 andalusian0049 = {
 	name = "Abd-al-Rahman" # Abd al-Rahman ibn Hisham
-	dynasty = 597 # Umayyad Dynasty
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
-	trait = sayyid
+	trait = quraysh
 	trait = education_martial_1
 
 	father = andalusian0048 # Hisham ibn Suleyman
@@ -4290,10 +5572,10 @@ andalusian0049 = {
 
 andalusian0050 = {
 	name = "Muhammad" # Muhammad ibn Abd al-Rahman
-	dynasty = 597 # Umayyad Dynasty
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
-	trait = sayyid
+	trait = quraysh
 	trait = education_stewardship_1
 
 	father = andalusian0049 # Abd al-Rahman ibn Hisham
@@ -4308,10 +5590,10 @@ andalusian0050 = {
 
 andalusian0051 = {
 	name = "Suleyman" # Suleyman ibn Abd al-Rahman
-	dynasty = 597 # Umayyad Dynasty
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
-	trait = sayyid
+	trait = quraysh
 	trait = education_stewardship_2
 
 	father = 73678 # Caliph Abd al-Rahman IV of Andalusia
@@ -4326,10 +5608,10 @@ andalusian0051 = {
 
 andalusian0052 = {
 	name = "Hisham" # Hisham ibn Ubayd Allah
-	dynasty = 597 # Umayyad Dynasty
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
-	trait = sayyid
+	trait = quraysh
 	trait = content
 	trait = education_stewardship_2
 
@@ -4345,10 +5627,10 @@ andalusian0052 = {
 
 andalusian0053 = {
 	name = "Abd-al-Yabbar" # Abd al-Yabbar ibn al-Mughira
-	dynasty = 597 # Umayyad Dynasty
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
-	trait = sayyid
+	trait = quraysh
 	trait = education_martial_2
 
 	father = andalusian0032 # al-Mughira ibn Abd al-Rahman
@@ -4363,10 +5645,10 @@ andalusian0053 = {
 
 andalusian0054 = {
 	name = "Abd-al-Malik" # Abd al-Malik ibn al-Mundir
-	dynasty = 597 # Umayyad Dynasty
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
-	trait = sayyid
+	trait = quraysh
 	trait = education_diplomacy_1
 
 	father = andalusian0027 # al-Mundir ibn Abd al-Rahman
@@ -4381,10 +5663,10 @@ andalusian0054 = {
 
 andalusian0055 = {
 	name = "Hisham" # Hisham ibn Abd al-Malik
-	dynasty = 597 # Umayyad Dynasty
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
-	trait = sayyid
+	trait = quraysh
 	trait = education_stewardship_2
 
 	father = andalusian0054 # Abd al-Malik ibn Hisham
@@ -4401,7 +5683,7 @@ andalusian0055 = {
 
 andalusian0056 = {
 	name = "al-Hassan" # al-Hassan ibn Abd al-Aziz
-	dynasty_house = 596 # Muhammad al-Mansur Dynasty
+	dynasty = 569 # Muhammad al-Mansur Dynasty
 	religion = muwalladi
 	culture = andalusian
 	trait = education_stewardship_2
@@ -4418,7 +5700,7 @@ andalusian0056 = {
 
 andalusian0057 = {
 	name = "Abdallah" # Abdallah ibn Abd al-Aziz
-	dynasty_house = 596 # Muhammad al-Mansur Dynasty
+	dynasty = 569 # Muhammad al-Mansur Dynasty
 	religion = muwalladi
 	culture = andalusian
 	trait = education_diplomacy_2
@@ -4438,7 +5720,7 @@ andalusian0057 = {
 
 andalusian0058 = {
 	name = "Abd-al-Rahman" # Abd al-Rahman, real name unknown, ibn Abd al-Malik
-	dynasty_house = 596 # Muhammad al-Mansur Dynasty
+	dynasty = 569 # Muhammad al-Mansur Dynasty
 	religion = muwalladi
 	culture = andalusian
  
@@ -4476,7 +5758,7 @@ andalusian0059 = {
 andalusian0060 = {
 	name = "Umm" # Umm, name unknown, ibn Abd al-Aziz, wife of Sheik Ma'n ibn Muhammad of Almería (20877 - yemeni.txt)
 	female = yes
-	dynasty_house = 596 # Muhammad al-Mansur Dynasty
+	dynasty = 569 # Muhammad al-Mansur Dynasty
 	religion = muwalladi
 	culture = andalusian
 	trait = education_stewardship_2
@@ -4511,10 +5793,10 @@ andalusian0061 = {
 
 andalusian0062 = {
 	name = "al-Asbag" # al-Asbag ibn al-Hakam
-	dynasty = 597 # Umayyad Dynasty
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
-	trait = sayyid
+	trait = quraysh
 	trait = education_stewardship_1
 
 	father = 3202 # Sultan al-Hakam II of Andalusia
@@ -4529,10 +5811,10 @@ andalusian0062 = {
 
 andalusian0063 = {
 	name = "Muhammad" # Muhammad ibn al-Asbag
-	dynasty = 597 # Umayyad Dynasty
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
-	trait = sayyid
+	trait = quraysh
 	trait = education_diplomacy_1
 
 	father = andalusian0062 # al-Asbag ibn al-Hakam
@@ -4547,10 +5829,10 @@ andalusian0063 = {
 
 andalusian0064 = {
 	name = "Muhammad" # Muhammad ibn Muhammad
-	dynasty = 597 # Umayyad Dynasty
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
-	trait = sayyid
+	trait = quraysh
 	trait = education_stewardship_1
 
 	father = andalusian0063 # Muhamamd ibn al-Asbag
@@ -4565,10 +5847,10 @@ andalusian0064 = {
 
 andalusian0065 = {
 	name = "Ahmad" # Ahmad ibn Muhammad
-	dynasty = 597 # Umayyad Dynasty
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
-	trait = sayyid
+	trait = quraysh
 	trait = education_diplomacy_1
 
 	father = andalusian0064 # Muhammad ibn Muhammad
@@ -4586,10 +5868,10 @@ andalusian0065 = {
 
 andalusian0066 = {
 	name = "Abd-al-Aziz" # Abd al-Aziz ibn Ahmad, Sheik of Melilla (1058-1063)
-	dynasty = 597 # Umayyad Dynasty
+	dynasty_house = house_Umawi
 	religion = muwalladi
 	culture = andalusian
-	trait = sayyid
+	trait = quraysh
 	trait = education_diplomacy_1
 
 	father = andalusian0065 # Ahmad ibn Muhammad
@@ -4912,7 +6194,7 @@ andalusian0084 = {
 	name = "Coreix" # Coreix, concubine of Sultan Abdallah I of Andalusia (73685 - levantine.txt)
 	female = yes
 	religion = mozarabic_church
-	culture = andalusian
+	culture = mozarab
 	trait = education_intrigue_1
 
 	868.1.1 = {
@@ -5279,7 +6561,7 @@ andalusian0106 = {
 	name = "Dawud" # David
 	dynasty = 20051 # Davides Dynasty
 	religion = mozarabic_church
-	culture = andalusian
+	culture = mozarab
 	trait = education_stewardship_1
 
 	1015.1.1 = {
@@ -5297,7 +6579,7 @@ andalusian0107 = {
 	name = "Susanah" # Susana, wife of David (andalusian0106)
 	female = yes
 	religion = mozarabic_church
-	culture = andalusian
+	culture = mozarab
 	trait = education_diplomacy_1
 
 	1019.1.1 = {
@@ -5312,7 +6594,7 @@ andalusian0108 = {
 	name = "Zakariyya" # Zacarías Davides
 	dynasty = 20051 # Davides Dynasty
 	religion = mozarabic_church
-	culture = andalusian
+	culture = mozarab
 	trait = education_diplomacy_1
 
 	father = andalusian0106 # David
@@ -5330,7 +6612,7 @@ andalusian0109 = {
 	name = "Mido" # Mido Davides
 	dynasty = 20051 # Davides Dynasty
 	religion = mozarabic_church
-	culture = andalusian
+	culture = mozarab
 	trait = education_stewardship_1
 
 	father = andalusian0106 # David
@@ -5673,7 +6955,7 @@ andalusian0125 = {
 }
 
 andalusian0126 = {
-	name = "Sa_id" # Sa'id ibn Harun, Sheik of Faro (1013-1043)
+	name = "Sa_id" # Sa'id ibn Harun, Sheikh of Faro (1013-1043)
 	dynasty = banu_harun # Banu Harun Dynasty
 	religion = muwalladi
 	culture = andalusian
@@ -5690,7 +6972,7 @@ andalusian0126 = {
 }
 
 andalusian0127 = {
-	name = "Muhammad" # Muhammad ibn Harun, Sheik of Faro (1043-1052)
+	name = "Muhammad" # Muhammad ibn Harun, Sheikh of Faro (1043-1052)
 	dynasty = banu_harun # Banu Harun Dynasty
 	religion = muwalladi
 	culture = andalusian
@@ -5811,7 +7093,7 @@ andalusian0133 = {
 	name = "Doha" # Doha, fictional wife of Count Urdun of Soria (73988)
 	female = yes
 	religion = mozarabic_church
-	culture = andalusian
+	culture = mozarab
 	trait = education_stewardship_1
 
 	836.1.1 = {
@@ -5827,7 +7109,7 @@ andalusian0134 = {
 	female = yes
 	dynasty = castallid # Castalla Dynasty
 	religion = mozarabic_church
-	culture = andalusian
+	culture = mozarab
 
 	father = 73988 # Count Urdun of Soria
 	mother = andalusian0133 # Countess Doha
@@ -5847,7 +7129,7 @@ andalusian0135 = {
 	name = "Balashk" # Balashk, placeholder Count of Soria (882-909)
 	dynasty = castallid # Castalla Dynasty
 	religion = mozarabic_church
-	culture = andalusian
+	culture = mozarab
 
 	father = 73988 # Count Urdun of Soria
 	mother = andalusian0133 # Countess Doha
@@ -5867,7 +7149,7 @@ andalusian0136 = {
 	name = "Hawwa" # Hawwa, fictional wife of Count Boutros of Salamanca (73989)
 	female = yes
 	religion = mozarabic_church
-	culture = andalusian
+	culture = mozarab
 	trait = education_diplomacy_1
 
 	839.1.1 = {
@@ -5883,7 +7165,7 @@ andalusian0137 = {
 	female = yes
 	dynasty = salamanqid # Salamanqa Dynasty
 	religion = mozarabic_church
-	culture = andalusian
+	culture = mozarab
 
 	father = 73989 # Count Boutros of Salamanca
 	mother = andalusian0136 # Countess Hawwa
@@ -5904,7 +7186,7 @@ andalusian0138 = {
 	female = yes
 	dynasty = salamanqid # Salamanqa Dynasty
 	religion = mozarabic_church
-	culture = andalusian
+	culture = mozarab
 
 	father = 73989 # Count Boutros of Salamanca
 	mother = andalusian0136 # Countess Hawwa
@@ -5924,7 +7206,7 @@ andalusian0139 = {
 	name = "Batul" # Batul, fictional wife of Count Sabariquh of Cuellar (73990)
 	female = yes
 	religion = mozarabic_church
-	culture = andalusian
+	culture = mozarab
 	trait = education_stewardship_1
 
 	845.1.1 = {
@@ -5936,11 +7218,10 @@ andalusian0139 = {
 }
 
 andalusian0140 = {
-	name = "Belay" # Belay, placheolder Count of Cuellar (891-916)
-	female = yes
+	name = "Amrus" # Amrus, placheolder Count of Cuellar (891-916)
 	dynasty = 12314 # Siqubiyyah Dynasty
 	religion = mozarabic_church
-	culture = andalusian
+	culture = mozarab
 
 	father = 73990 # Count Sabariquh of Cuellar
 	mother = andalusian0139 # Countess Batul
@@ -5956,11 +7237,43 @@ andalusian0140 = {
 	}
 }
 
+andalusianMB1 = {
+	name = "Balashk" 
+	dynasty = 12314 # Siqubiyyah Dynasty
+	religion = mozarabic_church
+	culture = mozarab
+
+	father = andalusian0140
+
+	898.1.1 = {
+		birth = yes
+	}
+	965.1.1 = {
+		death = yes
+	}
+}
+
+andalusianMB2 = {
+	name = "Gurg" 
+	dynasty = 12314 # Siqubiyyah Dynasty
+	religion = mozarabic_church
+	culture = mozarab
+
+	father = andalusianMB1
+
+	939.1.1 = {
+		birth = yes
+	}
+	1002.8.10 = {
+		death = yes
+	}
+}
+
 andalusian0141 = {
 	name = "Mansura" # Mansura, fictional wife of Count Adfuns of Olmedo (73991)
 	female = yes
 	religion = mozarabic_church
-	culture = andalusian
+	culture = mozarab
 	trait = education_stewardship_1
 
 	846.1.1 = {
@@ -5976,7 +7289,7 @@ andalusian0142 = {
 	female = yes
 	dynasty = ulmetid # Ulmetu Dynasty
 	religion = mozarabic_church
-	culture = andalusian
+	culture = mozarab
 
 	father = andalusian0153 # Count Adfuns of Olmedo
 	mother = andalusian0141 # Countess Mansura
@@ -5996,7 +7309,7 @@ andalusian0143 = {
 	name = "Susanah" # Susanah, fictional wife of Count Ulyan of Avila (200156)
 	female = yes
 	religion = mozarabic_church
-	culture = andalusian
+	culture = mozarab
 	trait = education_stewardship_1
 
 	832.1.1 = {
@@ -6011,7 +7324,7 @@ andalusian0144 = {
 	name = "Amrus" # Fictional
 	dynasty = ramlid # al-Ramla Dynasty
 	religion = mozarabic_church
-	culture = andalusian
+	culture = mozarab
 
 	father = 200156 # Count Ulyan of Avila
 	mother = andalusian0143 # Countess Susanah
@@ -6032,7 +7345,7 @@ andalusian0145 = {
 	female = yes
 	dynasty = ramlid # al-Ramla Dynasty
 	religion = mozarabic_church
-	culture = andalusian
+	culture = mozarab
 
 	father = 200156 # Count Ulyan of Avila
 	mother = andalusian0143 # Countess Susanah
@@ -6052,7 +7365,7 @@ andalusian0146 = {
 	name = "Majdala" # Majdala, fictional wife of Count Lubb of Burgos (200215)
 	female = yes
 	religion = mozarabic_church
-	culture = andalusian
+	culture = mozarab
 	trait = education_diplomacy_1
 
 	836.1.1 = {
@@ -6068,7 +7381,7 @@ andalusian0147 = {
 	female = yes
 	dynasty = burgusid # Burgus Dynasty
 	religion = mozarabic_church
-	culture = andalusian
+	culture = mozarab
 
 	father = 200215 # Count Lubb of Burgos
 	mother = andalusian0146 # Countess Majdala
@@ -6089,7 +7402,7 @@ andalusian0148 = {
 	female = yes
 	dynasty = burgusid # Burgus Dynasty
 	religion = mozarabic_church
-	culture = andalusian
+	culture = mozarab
 
 	father = 200215 # Count Lubb of Burgos
 	mother = andalusian0146 # Countess Majdala
@@ -6109,7 +7422,7 @@ andalusian0149 = {
 	name = "Suraya" # Suraya, fictional wife of Count Ya'qub of Valladolid (200225)
 	female = yes
 	religion = mozarabic_church
-	culture = andalusian
+	culture = mozarab
 	trait = education_stewardship_1
 
 	844.1.1 = {
@@ -6125,7 +7438,7 @@ andalusian0150 = {
 	female = yes
 	dynasty = walidid # Balad al-Walid Dynasty
 	religion = mozarabic_church
-	culture = andalusian
+	culture = mozarab
 
 	father = 200225 # Count Ya'qub of Valladolid
 	mother = andalusian0149 # Countess Suraya
@@ -6145,7 +7458,7 @@ andalusian0151 = {
 	name = "Lubb" # Fictional
 	dynasty = walidid # Balad al-Walid Dynasty
 	religion = mozarabic_church
-	culture = andalusian
+	culture = mozarab
 
 	father = 200225 # Count Ya'qub of Valladolid
 	mother = andalusian0149 # Countess Suraya
@@ -6165,7 +7478,7 @@ andalusian0152 = {
 	name = "Gurg" # Gurg, placeholder Count of Ibiza, Mallorca & Menorca (848-867)
 	dynasty = 12313 # Mayurqa Dynasty
 	religion = mozarabic_church
-	culture = andalusian
+	culture = mozarab
 	trait = education_diplomacy_2
 
 	817.1.1 = {
@@ -6180,7 +7493,7 @@ andalusian0153 = {
 	name = "Adfuns" # Adfuns, placeholder Count of Olmedo (867-892)
 	dynasty = ulmetid # Ulmetu Dynasty
 	religion = mozarabic_church
-	culture = andalusian
+	culture = mozarab
 	trait = education_martial_1
 
 	842.1.1 = {
@@ -6220,608 +7533,10 @@ surunbaqi0001 = {
 	865.1.1 = {
 		add_spouse = andalusian0094 # Zayra
 		effect = {
-			set_relation_friend = character:73957 # Ibn Marwan
+			set_relation_friend = { reason = friend_generic_history target = character:73957 } # Ibn Marwan
 		}
 	}
 	881.1.1 = {
-		death = yes
-	}
-}
-
-3200 = {
-	name = "Abd-al-Rahman" # Abd al-Rahman (III) ibn Muhammad, Muwalladi Caliph (929-961), Sultan of Andalusia (912-961) & Sheik of Alarcon, Alarcos, Algeciras, Almeria, Cabra, Calatrava, Castelo Branco, Cordoba, Ibiza, Mallorca, Menorca & Niebla (912-961), Jaén (913-961), Faro & Silves (920-961), Malagon & Moura (930-961), Malaga (931-961) & Sevilla (937-961)
-	dynasty = 597 # Umayyad Dynasty
-	martial = 6
-	diplomacy = 7
-	intrigue = 4
-	stewardship = 5
-	religion = muwalladi
-	culture = andalusian
-	trait = calm
-	trait = sayyid
-	trait = education_stewardship_4
-
-	father = 73686 # Muhammad ibn Abdallah (levantine.txt)
-	mother = basque0148 # Muzna (basque.txt)
-	trait = child_of_concubine_female
- 
-	891.1.7 = {
-		birth = yes
-	}
-	913.1.1 = {
-		add_spouse = levantine0086 # Fatima bint al-Mundir (levantine.txt)
-	}
-	914.1.1 = {
-		add_spouse = andalusian0033 # Maryam
-	}
-	950.1.1 = {
-		add_spouse = levantine0087 # Mustaq (levantine.txt)
-	}
-	961.10.15 = {
-		death = yes
-	}
-}
-
-3202 = {
-	name = "al-Hakam" # al-Hakam (II) ibn Abd al-Rahman, Muwalladi Caliph (961-976), Sultan of Andalusia (961-976) & Sheik of Alarcon, Alarcos, Algeciras, Almeria, Cabra, Calatrava, Castelo Branco, Cordoba, Faro, Ibiza, Jaen, Malaga, Malagon, Mallorca, Menorca, Moura, Niebla, Sevilla & Silves (961-976)
-	dynasty = 597 # Umayyad Dynasty
-	martial = 5
-	diplomacy = 4
-	intrigue = 5
-	stewardship = 5
-	religion = muwalladi
-	culture = andalusian
-	trait = sayyid
-	sexuality = homosexual
-	trait = education_stewardship_3
-
-	father = 3200 # Caliph Abd al-Rahman III of Andalusia
-	mother = andalusian0033 # Maryam
-
-	915.1.13 = {
-		birth = yes
-	}
-	964.1.1 = {
-		add_concubine = basque0149 # Subh (basque.txt)
-	}
-	976.10.1 = {
-		death = yes
-	}
-}
-
-3204 = {
-	name = "Hisham" # Hisham (II) ibn al-Hakam, Muwalladi Caliph (976-1009 & 1010-1013), Sultan of Andalusia (976-1009 & 1010-1013) & Sheik of Algeciras, Cabra, Cordoba, Malaga, Moura & Niebla (976-1009 & 1010-1013), Alarcon (976-978), Castelo Branco (976-981), Alarco, Calatrava & Malagon (976-997), Almeria, Ibiza, Jaen, Mallorca & Menorca (976-1009), Sevilla (976-1009 & 1010-1011), Faro, Granada & Silves (976-1009 & 1010-1013), Alcacer do Sal & Lisboa (977-981)
-	dynasty = 597 # Umayyad Dynasty
-	martial = 4
-	diplomacy = 8
-	intrigue = 8
-	stewardship = 8
-	religion = muwalladi
-	culture = andalusian
-	trait = chaste
-	trait = wrathful
-	trait = sayyid
-	trait = education_stewardship_1
-
-	father = 3202 # Caliph al-Hakam II of Andalusia
-	mother = basque0149 # Subh (basque.txt)
-	trait = child_of_concubine_female
-
-	965.6.11 = {
-		birth = yes
-	}
-	1013.4.19 = {
-		death = {
-			death_reason = death_murder_known
-			killer = 73675 # Caliph Suleyman ibn al-Hakam of Andalusia
-		}
-	}
-}
-
-3208 = {
-	name = "Hisham" # Hisham (III) ibn Muhammad, Muwalladi Caliph (1027-1031), Sultan of Andalusia (1027-1031) & Sheik of Cabra, Cordoba & Moura (1027-1031)
-	dynasty = 597 # Umayyad Dynasty
-	martial = 7
-	diplomacy = 7
-	intrigue = 6
-	stewardship = 5
-	religion = muwalladi
-	culture = andalusian
-	trait = humble
-	trait = sayyid
-	trait = education_stewardship_1
-
-	father = 73677 # Muhammad ibn Abd al-Malik
-	mother = levantine0090 # Atib (levantine.txt)
-
-	975.1.1 = {
-		birth = yes
-	}
-	1036.1.1 = {
-		death = yes
-	}
-}
-
-45025 = {
-	name = "Abd-al-Aziz" # Abd al-Aziz ibn Abd al-Rahman ibn Sanyul, Emir of Valencia (1021-1061) & Sheik of Valencia (1021-1061)
-	dynasty_house = 596 # Muhammad al-Mansur Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = education_stewardship_1
- 
-	father = 73226 # Abd al-Rahman ibn Sanyul
-
-	1006.1.1 = {
-		birth = yes
-	}
-	1061.1.1 = {
-		death = yes
-	}
-}
-
-45026 = {
-	name = "Abd-al-Malik" # Abd al-Malik ibn Abd al-Aziz, Emir of Valencia (1061-1065) & Sheik of Valencia (1061-1065)
-	dynasty_house = 596 # Muhammad al-Mansur Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = education_stewardship_1
- 
-	father = 45025 # Emir Abd al-Aziz ibn Abd al-Rahman ibn Sanyul of Valencia
-
-	1045.1.1 = {
-		birth = yes
-	}
-	1061.1.1 = {
-		add_spouse = 20858 # Zahida bint Yahya (berber.txt)
-	}
-	1065.9.1 = {
-		add_pressed_claim = title:d_valencia
-	}
-	1066.1.1 = {
-		death = {
-			death_reason = death_dungeon
-		}
-	}
-}
-
-73211 = {
-	name = "al-Rumaikiyya" # al-Rumaikiyya, wife of Emir al-Mu'tadid of Sevilla (3214 - bedouin.txt)
-	female = yes
-	religion = muwalladi
-	culture = andalusian
-	trait = poet
-	trait = education_stewardship_3
-
-	1045.1.1 = {
-		birth = yes
-	}
-	1095.1.1 = {
-		death = yes
-	}
-}
-
-73226 = {
-	name = "Abd-al-Rahman" # Abd al-Rahman ibn Sanyul (or Sanchuelo)
-	dynasty_house = 596 # Muhammad al-Mansur Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = drunkard
-	trait = education_intrigue_1
-
-	father = 3206 # Muhammad al-Mansur (yemeni.txt)
-	mother = 70125 # Urraca Sánchez, known as Abda (basque.txt)
- 
-	983.1.1 = {
-		birth = yes
-	}
-	1009.3.3 = {
-		death = {
-			death_reason = death_decapitated
-			killer = 73671 # Sultan Muhammad II of Andalusia
-		}
-	}
-}
-
-73666 = {
-	name = "Ubayd-Allah" # Ubayd Allah ibn Abd al-Rahman
-	dynasty = 597 # Umayyad Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = sayyid
-	trait = education_stewardship_1
-
-	father = 3200 # Caliph Adb al-Rahman III of Andalusia
-
-	927.1.1 = {
-		birth = yes
-	}
-	967.1.1 = {
-		death = yes
-	}
-}
-
-73667 = {
-	name = "Abd-al-Rahman" # Abd al-Rahman ibn Ubayd Allah
-	dynasty = 597 # Umayyad Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = sayyid
-	trait = education_diplomacy_1
-
-	father = 73666 # Ubayd Allah ibn Abd al-Rahman
-
-	946.1.1 = {
-		birth = yes
-	}
-	1003.1.1 = {
-		death = yes
-	}
-}
-
-73668 = {
-	name = "Muhammad" # Muhammad (III) ibn Abd al-Rahman, Muwalladi Caliph (1024-1025), Sultan of Andalusia (1024-1025) & Sheik of Cabra, Cordoba & Moura (1024-1025)
-	dynasty = 597 # Umayyad Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = sayyid
-	trait = education_stewardship_1
-
-	father = 73667 # Abd al-Rahman ibn Ubayd Allah
-
-	979.1.1 = {
-		birth = yes
-	}
-	1025.6.12 = {
-		death = {
-			death_reason = death_murder
-		}
-	}
-}
-
-73669 = {
-	name = "Abd-al-Yabbar" # Abd al-Yabbar ibn Abd al-Rahman
-	dynasty = 597 # Umayyad Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = sayyid
-	trait = education_diplomacy_1
-
-	father = 3200 # Caliph Abd al-Rahman III of Andalusia
-
-	929.1.1 = {
-		birth = yes
-	}
-	979.1.1 = {
-		death = yes
-	}
-}
-
-73670 = {
-	name = "Hisham" # Hisham ibn Abd al-Yabbar
-	dynasty = 597 # Umayyad Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = sayyid
-	trait = education_intrigue_2
-
-	father = 73669 # Abd al-Yabbar ibn Abd al-Rahman
-
-	952.1.1 = {
-		birth = yes
-	}
-	974.1.1 = {
-		add_spouse = levantine0088 # Muzna (levantine.txt)
-	}
-	988.1.1 = {
-		add_spouse = levantine0089 # Ghaya (levantine.txt)
-	}
-	1008.1.1 = {
-		death = {
-			death_reason = death_dungeon
-		}
-	}
-}
-
-73671 = {
-	name = "Muhammad" # Muhammad (II) ibn Hisham, Muwalladi Caliph (1009 & 1010), Sultan of Andalusia (1009 & 1010) & Sheik of Algeciras, Almeria, Cabra, Cordoba, Faro, Granada, Malaga, Moura, Niebla, Sevilla & Silves (1009 & 1010)
-	dynasty = 597 # Umayyad Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = sayyid
-	trait = education_intrigue_1
-
-	father = 73670 # Hisham ibn Abd al-Yabbar
-
-	977.1.1 = {
-		birth = yes
-	}
-	1010.7.23 = {
-		death = {
-			death_reason = death_murder_known
-			killer = andalusian0097 # Walih Wadih of Toledo
-		}
-	}
-}
-
-73672 = {
-	name = "Abd-al-Rahman" # Abd al-Rahman (V) ibn Hisham, Muwalladi Caliph (1023-1024), Sultan of Andalusia (1023-1024) & Sheik of Cabra, Cordoba & Moura (1023-1024)
-	dynasty = 597 # Umayyad Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = sayyid
-	trait = education_stewardship_2
-
-	father = 73670 # Hisham ibn Abd al-Yabbar
-
-	989.1.1 = {
-		birth = yes
-	}
-	1024.1.17 = {
-		death = {
-			death_reason = death_murder_known
-			killer = 73668 # Caliph Muhammad III of Andalusia
-		}
-	}
-}
-
-73673 = {
-	name = "Suleyman" # Suleyman ibn Abd al-Rahman
-	dynasty = 597
-	religion = muwalladi
-	culture = andalusian
-	trait = sayyid
-	trait = education_stewardship_1
-
-	father = 3200 # Caliph Abd al-Rahman III of Andalusia
-
-	930.1.1 = {
-		birth = yes
-	}
-	1000.1.1 = {
-		death = yes
-	}
-}
-
-73674 = {
-	name = "al-Hakam" # al-Hakam ibn Suleyman
-	dynasty = 597 # Umayyad Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = sayyid
-	trait = content
-	trait = education_stewardship_1
-
-	father = 73673 # Suleyman ibn Abd al-Rahman
-
-	948.1.1 = {
-		birth = yes
-	}
-	1016.7.1 = {
-		death = {
-			death_reason = death_execution
-			killer = 73687 # Caliph Ali ibn Hamud of Andalusia
-		}
-	}
-}
-
-73675 = {
-	name = "Suleyman" # Suleyman ibn al-Hakam, Muwalladi Caliph (1009-1010 & 1013-1016), Sultan of Andalusia (1009-1010 & 1013-1016) & Sheik of Algeciras, Cabra, Cordoba, Malaga, Moura & Niebla (1009-1010 & 1013-1016), Almería, Faro, Granada, Sevilla & Silves (1009-1010)
-	dynasty = 597 # Umayyad Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = sayyid
-	trait = education_stewardship_1
-
-	father = 73674 # al-Hakam ibn Suleyman
-
-	965.1.1 = {
-		birth = "986.1.1"
-	}
-	1016.7.1 = {
-		death = {
-			death_reason = death_execution
-			killer = 73687 # Caliph Ali ibn Hamud of Andalusia
-		}
-	}
-}
-
-73676 = {
-	name = "Abd-al-Malik" # Abd al-Malik ibn Abd al-Rahman
-	dynasty = 597 # Umayyad Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = sayyid
-	trait = education_diplomacy_1
-
-	father = 3200 # Caliph Abd al-Rahman III of Andalusia
-
-	940.1.1 = {
-		birth = yes
-	}
-	996.1.1 = {
-		death = yes
-	}
-}
-
-73677 = {
-	name = "Muhammad" # Muhammad ibn Abd al-Malik
-	dynasty = 597 # Umayyad
-	religion = muwalladi
-	culture = andalusian
-	trait = sayyid
-	trait = education_martial_1
-
-	father = 73676 # Abd al-Malik ibn Abd al-Rahman
-
-	958.1.1 = {
-		birth = yes
-	}
-	974.1.1 = {
-		add_spouse = levantine0090 # Atib (levantine.txt)
-	}
-	1009.1.1 = {
-		death = yes
-	}
-}
-
-73678 = {
-	name = "Abd-al-Rahman" # Abd al-Rahman (IV) ibn Muhammad, Muwalladi Caliph (1018), Sultan of Andalusia (1018) & Sheik of Cabra, Cordoba, Moura & Niebla (1018)
-	dynasty = 597 # Umayyad Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = sayyid
-	trait = education_stewardship_3
-
-	father = 73677 # Muhammad ibn Abd al-Malik
-
-	979.1.1 = {
-		birth = yes
-	}
-	1018.9.1 = {
-		death = {
-			death_reason = death_murder_known
-			killer = andalusian0099 # Emir Jayran of Murcia
-		}
-	}
-}
-
-73927 = {
-	name = "Ushar" # Ushar, wife of Sultan Muhammad I of Andalusia (73683 - levantine.txt)
-	female = yes
-	religion = ashari
-	culture = andalusian
-	trait = education_stewardship_2
-
-	824.1.1 = {
-		birth = yes
-	}
-	890.1.1 = {
-		death = yes
-	}
-}
-
-85008 = {
-	name = "Muyahid" # Muyahid ibn Abdallah, Emir of Mallorca (1015-1045), Sheik of Alcaraz & Denia (1009-1045), Arborea, Cagliari, Gallura, Logudoro & Tortoli (1015-1016), Mallorca & Menorca (1015-1036), Ibiza (1015-1045) & Alicante (1038-1045)
-	dynasty = al-amiri # Muyahid al-Amiri Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = calm
-	trait = education_martial_3
-
-	960.1.1 = {
-		birth = yes
-	}
-	1015.1.1 = {
-		capital = c_denia
-	}
-	1045.7.15 = {
-		death = yes
-	}
-}
-
-200219 = {
-	name = "Sabur" # Abdallah ibn Muhammad, known as Sabur, Emir of Badajoz (981-1022), Sheik of Alcacer do Sal, Badajoz, Caceres, Castelo Branco, Evora, Lisboa, Medellin, Merida, Plasencia & Viseu (981-1022) & Elvas (983-1022)
-	dynasty = 1046023 # Banu Sabur Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = education_martial_3
-
-	950.1.1 = {
-		birth = yes
-	}
-	1022.4.8 = {
-		death = yes
-	}
-}
-
-200220 = {
-	name = "Abd-al-Aziz" # Abd al-Aziz ibn Sabur, Emir of Beja (1022-1030), Sheik of Alcacer do Sal, Lisboa & Viseu (1022-1030)
-	dynasty = 1046023 # Banu Sabur Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = education_stewardship_1
-
-	father = 200219 # Emir Sabur of Badajoz
-
-	1012.1.1 = {
-		birth = yes
-	}
-	1030.1.1 = {
-		death = yes
-	}
-}
-
-200221 = {
-	name = "Abd-al-Malik" # Emir of Beja (1030-1034), Sheik of Alcacer do Sal, Lisboa & Viseu (1030-1034)
-	dynasty = 1046023 # Banu Sabur Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = education_stewardship_1
-
-	father = 200219 # Emir Sabur of Badajoz
-
-	1014.1.1 = {
-		birth = yes
-	}
-	1064.1.1 = {
-		death = yes
-	}
-}
-
-73984 = {
-	name = "Suleyman" # Suleyman ibn Hakam
-	dynasty = 12312 # Banu Quti Dynasty
-	religion = muwalladi
-	culture = andalusian
-	trait = education_stewardship_2
-
-	father = 73983 # Hakam ibn Abdallah
-
-	826.1.1 = {
-		birth = yes
-	}
-	852.9.22 = {
-		employer = 73683 # Sultan Muhammad I of Andalusia
-	}
-	862.1.1 = {
-		add_spouse = 73985 # Nadia
-	}
-	908.1.1 = {
-		death = yes
-	}
-}
-
-73985 = {
-	name = "Nadia" # Nadia, fictional wife of Suleyman ibn Hakam (73984)
-	female = yes
-	religion = muwalladi
-	culture = andalusian
-	trait = education_diplomacy_1
-
-	846.1.1 = {
-		birth = yes
-	}
-	910.1.1 = {
-		death = yes
-	}
-}
-
-73986 = {
-	name = "Ayyub" # Ayyub ibn Suleyman
-	dynasty = 12312 # Banu Quti Dynasty
-	religion = muwalladi
-	culture = andalusian
-
-	father = 73984 # Suleyman ibn Hakam
-	mother = 73985 # Nadia
-
-	865.1.1 = {
-		birth = yes
-	}
-	881.1.1 = {
-		trait = education_stewardship_1
-	}
-	938.1.1 = {
 		death = yes
 	}
 }

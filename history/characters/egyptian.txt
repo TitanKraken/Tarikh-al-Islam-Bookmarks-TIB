@@ -1,6 +1,6 @@
 ﻿144092 = {
 	name = "Al-Mu_izz_Ismail"
-	dynasty = 24000
+	dynasty_house = house_Ayyubid
 	religion = "ashari"
 	culture = "egyptian"
 	father = 32916
@@ -14,15 +14,15 @@
 
 144093 = {
 	name = "An-Nasir"
-	dynasty = 24000
+	dynasty_house = house_Ayyubid
 	religion = "ashari"
 	culture = "egyptian"
 	father = 32916
 	1169.1.1 = {
 		birth = "1169.1.1"
 	}
-	1203.1.1 = {
-		death = "1203.1.1"
+	1214.1.1={
+		death="1214.1.1"
 	}
 }
 
@@ -357,20 +357,26 @@
 	name = "al-Hakim"
 	dynasty_house = house_Fatimid
 	martial = 4
-	diplomacy = 4
+	diplomacy = 8
 	intrigue = 8
 	stewardship = 6
+	learning = 10 # Scholarly figure
 	religion = "ismaili"
 	culture = "egyptian"
-	trait = chaste
-	trait = greedy
+	trait = chaste # Ascetic lifestyle
+	trait = humble # Willing to receive petitions in person, as well as for riding out in person among the people in the streets of Fustat
 	trait = zealous
-	trait = lunatic_1
+	trait = wrathful # lunatic_1, very strict in combating "corruption" according to him
 	trait = education_martial_3
+	trait = aggresive_attacker
 	trait = sayyid
 	father = 3090
+	mother = sayyida_al_aziziyya_001
 	985.1.1 = {
 		birth = "985.1.1"
+	}
+	1003.1.1 = {
+		add_spouse = 1234964
 	}
 	1021.2.12 = {
 		death = "1021.2.12"
@@ -379,7 +385,7 @@
 
 3094 = {
 	name = "az-Zahir"
-	# AKA: az
+	# AKA: Ali
 	dynasty_house = house_Fatimid
 	martial = 6
 	diplomacy = 5
@@ -390,14 +396,12 @@
 	trait = education_martial_3
 	trait = sayyid
 	father = 3092
+	mother = 1234964
 	1005.6.20 = {
-		birth = yes
-	}
-	1022.1.1 = {
-		add_spouse = additional_fatimids_1
+		birth = "1005.6.20"
 	}
 	1036.6.13 = {
-		death = yes
+		death = "1036.6.13"
 	}
 }
 
@@ -508,7 +512,7 @@
 
 32914 = {
 	name = "ad-Dawla_Turanshah"
-	dynasty = 24000
+	dynasty_house = house_Ayyubid
 	religion = "ashari"
 	culture = "egyptian"
 	father = 226053
@@ -521,7 +525,7 @@
 }
 32915 = {
 	name = "Abu_Sa_id_Buri"
-	dynasty = 24000
+	dynasty_house = house_Ayyubid
 	religion = "ashari"
 	culture = "egyptian"
 	father = 226053
@@ -535,7 +539,7 @@
 
 32916 = {
 	name = "Tughtekin"
-	dynasty = 24000
+	dynasty_house = house_Ayyubid
 	religion = "ashari"
 	culture = "egyptian"
 	father = 226053
@@ -550,7 +554,7 @@
 
 32917 = {
 	name = "Ghazi"
-	dynasty = 24000
+	dynasty_house = house_Ayyubid
 	religion = "ashari"
 	culture = "egyptian"
 	father = 226000
@@ -564,7 +568,7 @@
 
 32918 = {
 	name = "Khider" #Aleppo
-	dynasty = 24000
+	dynasty_house = house_Ayyubid
 	religion = "ashari"
 	culture = "egyptian"
 	father = 226000
@@ -578,7 +582,7 @@
 
 32919 = {
 	name = "Da_ud"
-	dynasty = 24000
+	dynasty_house = house_Ayyubid
 	religion = "ashari"
 	culture = "egyptian"
 	father = 226000
@@ -592,7 +596,7 @@
 
 32920 = {
 	name = "Turanshah"
-	dynasty = 24000
+	dynasty_house = house_Ayyubid
 	religion = "ashari"
 	culture = "egyptian"
 	father = 226000
@@ -606,7 +610,7 @@
 
 32921 = {
 	name = "Nosrat-es-Din"
-	dynasty = 24000
+	dynasty_house = house_Ayyubid
 	religion = "ashari"
 	culture = "egyptian"
 	father = 226000
@@ -620,7 +624,7 @@
 
 32922 = {
 	name = "al-Mansour_Muhammad" #Egypt 1200
-	dynasty = 24000
+	dynasty_house = house_Ayyubid
 	religion = "ashari"
 	culture = "egyptian"
 	father = 226050
@@ -634,12 +638,22 @@
 
 32924 = {
 	name = "al-Kamil_Naser-al-Din" #Egypt
-	dynasty = 24000
+	dynasty_house = house_Ayyubid
+	dna = 32924_al_kamil_ayyubid
+	martial = 6
+	diplomacy = 9
+	intrigue = 6
+	stewardship = 7
+	learning = 9	
 	religion = "ashari"
 	culture = "egyptian"
+	trait = cynical
+	trait = diligent
+	trait = education_martial_3
 	father = 226052
 	1180.1.1 = {
 		birth = "1180.1.1"
+		give_nickname = nick_meledin					  
 	}
 	1238.1.1 = {
 		death = "1238.1.1"
@@ -648,7 +662,7 @@
 
 32925 = {
 	name = "as-Salih_Ayyub" #Damascus and Egypt
-	dynasty = 24000
+	dynasty_house = house_Ayyubid
 	religion = "ashari"
 	culture = "egyptian"
 	father = 32924
@@ -658,6 +672,11 @@
 	1231.1.1 = {
 		add_spouse = 32928
 	}
+	1246.1.1 = {
+		effect = {
+			set_relation_friend = { reason = friend_generic_history target = character:32930 }
+		}
+	}
 	1249.11.22 = {
 		death = "1249.11.22"
 	}
@@ -665,7 +684,7 @@
 
 32926 = {
 	name = "al-Adil" #Egypt
-	dynasty = 24000
+	dynasty_house = house_Ayyubid
 	religion = "ashari"
 	culture = "egyptian"
 	father = 32924
@@ -679,7 +698,7 @@
 
 32927 = {
 	name = "al-Muazzam_Turanshah" #Egypt
-	dynasty = 24000
+	dynasty_house = house_Ayyubid
 	religion = "ashari"
 	culture = "egyptian"
 	father = 32925
@@ -693,7 +712,7 @@
 
 32929 = {
 	name = "Mas_ud_Yusuf"
-	dynasty = 24000
+	dynasty_house = house_Ayyubid
 	religion = "ashari"
 	culture = "egyptian"
 	father = 32924
@@ -706,64 +725,6 @@
 	}
 }
 
-32900 = {
-	name = "Abdullah" # Rabi Abdullah - the Eleventh Ismaili Imam and first Fatimid Caliph
-	dynasty_house = house_Fatimid
-	religion = "ismaili"
-	culture = "egyptian"
-	father = 33920
-	trait = sayyid
-	870.1.1 = {
-		birth = "870.1.1"
-	}
-	934.1.1 = {
-		death = "934.1.1"
-	}
-}
-32901 = {
-	name = "al-Qaim"
-	dynasty_house = house_Fatimid
-	religion = "ismaili"
-	culture = "egyptian"
-	father = 32900
-	trait = sayyid
-	893.1.1 = {
-		birth = "893.1.1"
-	}
-	946.5.17 = {
-		death = "946.5.17"
-	}
-}
-32902 = {
-	name = "al-Mansur"
-	dynasty_house = house_Fatimid
-	religion = "ismaili"
-	culture = "egyptian"
-	father = 32901
-	trait = sayyid
-	913.1.1 = {
-		birth = "913.1.1"
-	}
-	953.3.19 = {
-		death = "953.3.19"
-	}
-}
-
-32903 = {
-	name = "al-Muizz"
-	dynasty_house = house_Fatimid
-	religion = "ismaili"
-	culture = "egyptian"
-	father = 32902
-	trait = sayyid
-	932.1.1 = {
-		birth = "932.1.1"
-	}
-	975.1.1 = {
-		death = "975.1.1"
-	}
-}
-
 32904 = {
 	name = "Sitt_al-Mulk"
 	female = yes
@@ -771,9 +732,21 @@
 	religion = "ismaili"
 	culture = "egyptian"
 	father = 3090
+	mother = sayyida_al_aziziyya_001
 	trait = sayyid
+	trait = education_stewardship_4
+	trait = temperate
+	trait = diligent
+	trait = gregarious
+	trait = generous
+	trait = beauty_good_3
 	970.1.1 = {
 		birth = "970.1.1"
+	}
+	990.1.1 = {
+		effect = {
+			add_gold = 7313 # Al-Aziz lavished gifts and wealth on her, and even put a military unit at her disposal
+		}
 	}
 	1023.1.1 = {
 		death = "1023.1.1"
@@ -879,16 +852,17 @@
 	intrigue = 6
 	stewardship = 5
 	religion = "ashari"
-	culture = "egyptian"
+	culture = "mamluk"
 	trait = lazy
 	trait = arbitrary
 	trait = education_learning_2
+	#trait="mamaluk"
 	father = 485000
 	1321.1.1 = {
 		birth = "1321.1.1"
 	}
-	1341.8.5 = {
-		death = "1341.8.5"
+	1341.1.1 = {
+		death = "1341.1.1"
 	}
 }
 
@@ -900,95 +874,16 @@
 	intrigue = 8
 	stewardship = 7
 	religion = "ashari"
-	culture = "egyptian"
+	culture = "mamluk"
+	#trait="mamaluk"
 	trait = honest
 	trait = education_martial_2
 	father = 32936
 	1285.1.1 = {
-		birth = yes
+		birth = "1285.1.1"
 	}
-	1341.6.7 = {
-		death = yes
-	}
-}
-
-an_nasir_ahmad_mamluk = {
-	name = "al-Nasir Ahmad"
-	dynasty = 762
-	martial = 5
-	diplomacy = 3
-	intrigue = 4
-	stewardship = 3
-	religion = "ashari"
-	culture = "egyptian"
-	trait = humble
-	trait = gregarious
-	trait = content
-	trait = education_diplomacy_2
-	father = 485000
-	1315.1.1 = {
-		birth = yes
-	}
-	1344.7.16 = {
-		death = {
-			death_reason = death_execution
-		}
-	}
-}
-
-al_amjad_husayn = {
-	name = "al-Amjad Husayn"
-	dynasty = 762
-	religion = "ashari"
-	culture = "egyptian"
-	father = 485000
-	1315.1.1 = {
-		birth = yes
-	}
-	1345.1.1 = {
-		death = yes
-	}
-}
-
-al_ashraf_shaban = {
-	name = "al-Ashraf Sha'ban"
-	dynasty = 762
-	religion = "ashari"
-	culture = "egyptian"
-	father = al_amjad_husayn
-	1353.1.1 = {
-		birth = yes
-	}
-	1377.3.15 = {
-		death = yes
-	}
-}
-
-al_mansur_ali = {
-	name = "al-Mansur Ali"
-	dynasty = 762
-	religion = "ashari"
-	culture = "egyptian"
-	father = 485007
-	1368.1.1 = {
-		birth = yes
-	}
-	1381.5.19 = {
-		death = yes
-	}
-}
-
-al_salih_hajji = {
-	name = "al-Salih Hajji"
-	dynasty = 762
-	religion = "ashari"
-	culture = "egyptian"
-	father = 485007
-	1372.1.1 = {
-		birth = yes
-	}
-	1412.2.4 = {
-		death = yes
+	1343.1.1 = {
+		death = "1343.1.1"
 	}
 }
 
@@ -1008,13 +903,12 @@ al_salih_hajji = {
 	trait = trusting
 	trait = shy
 	father = 3094
-	mother = additional_fatimids_1
 	1029.7.5 = {
 		birth = "1029.7.5"
 	}
 	1060.1.1 = {
 		effect = {
-			remove_short_term_gold = 500
+			remove_short_term_gold = 200
 		}
 	}
 	1094.1.10 = {
@@ -1053,7 +947,8 @@ al_salih_hajji = {
 	name = "al-Said_Barakah"
 	dynasty = 7267
 	religion = "ashari"
-	culture = "egyptian"
+	culture = "mamluk"
+	#trait="mamaluk"
 	father = 32933
 	1260.1.1 = {
 		birth = "1260.1.1"
@@ -1067,7 +962,8 @@ al_salih_hajji = {
 	name = "Solamish"
 	dynasty = 7267
 	religion = "ashari"
-	culture = "egyptian"
+	culture = "mamluk"
+	#trait="mamaluk"
 	father = 32933
 	1272.1.1 = {
 		birth = "1272.1.1"
@@ -1081,7 +977,8 @@ al_salih_hajji = {
 	name = "Khadir"
 	dynasty = 7267
 	religion = "ashari"
-	culture = "egyptian"
+	culture = "mamluk"
+	#trait="mamaluk"
 	father = 32933
 	1273.1.1 = {
 		birth = "1273.1.1"
@@ -1095,7 +992,8 @@ al_salih_hajji = {
 	name = "Qalawun"
 	dynasty = 762
 	religion = "ashari"
-	culture = "kipchak"
+	culture = "mamluk"
+	#trait="mamaluk"
 	trait = education_martial_3
 	trait = brave
 	trait = cynical
@@ -1111,7 +1009,8 @@ al_salih_hajji = {
 	name = "al-Ashraf_Khalil"
 	dynasty = 762
 	religion = "ashari"
-	culture = "egyptian"
+	culture = "mamluk"
+	#trait="mamaluk"
 	father = 32936
 	1262.1.1 = {
 		birth = "1262.1.1"
@@ -1125,7 +1024,8 @@ al_salih_hajji = {
 	name = "Kitbugha"
 	dynasty = 7270
 	religion = "ashari"
-	culture = "egyptian"
+	culture = "mamluk"
+	#trait="mamaluk"
 	1247.1.1 = {
 		birth = "1247.1.1"
 	}
@@ -1151,12 +1051,13 @@ al_salih_hajji = {
 	name = "Baibars"
 	dynasty = 7272
 	religion = "ashari"
-	culture = "egyptian"
+	culture = "mamluk"
+	#trait="mamaluk"
 	1270.1.1 = {
 		birth = "1270.1.1"
 	}
-	1310.1.1 = {
-		death = "1310.1.1"
+	1309.11.1 = {
+		death = "1309.11.1"
 	}
 }
 
@@ -1261,7 +1162,8 @@ al_salih_hajji = {
 	name = "as-Salih_Ali"
 	dynasty = 762
 	religion = "ashari"
-	culture = "egyptian"
+	culture = "mamluk"
+	#trait="mamaluk"
 	father = 32936
 	1264.1.1 = {
 		birth = "1264.1.1"
@@ -1275,7 +1177,8 @@ al_salih_hajji = {
 	name = "Musa"
 	dynasty = 762
 	religion = "ashari"
-	culture = "egyptian"
+	culture = "mamluk"
+	#trait="mamaluk"
 	father = 34984
 	1285.1.1 = {
 		birth = "1285.1.1"
@@ -1304,9 +1207,10 @@ al_salih_hajji = {
 
 34987 = {
 	name = "Abdallah"
-	dynasty = 7322
+	dynasty_house = house_banukanz
 	religion = "ashari"
 	culture = "egyptian"
+	father = 1236243
 	1275.1.1 = {
 		birth = "1275.1.1"
 	}
@@ -1318,7 +1222,7 @@ al_salih_hajji = {
 
 34988 = {
 	name = "Kanz"
-	dynasty = 7322
+	dynasty_house = house_banukanz
 	religion = "ashari"
 	culture = "egyptian"
 	father = 34987
@@ -1333,7 +1237,7 @@ al_salih_hajji = {
 
 34989 = {
 	name = "Mahmud"
-	dynasty = 7322
+	dynasty_house = house_banukanz
 	religion = "ashari"
 	culture = "egyptian"
 	father = 34988
@@ -1347,420 +1251,447 @@ al_salih_hajji = {
 }
 
 35001 = {
-	name = "Christodolos"
-	religion = "coptic"
-	culture = "coptic"
-	1012.1.1 = {
-		birth = "1012.1.1"
+	name="Christodolos"
+	religion="coptic"
+	culture = egyptian_coptic
+	1012.1.1={
+		birth="1012.1.1"
 	}
-	1077.1.1 = {
-		death = "1077.1.1"
+	1077.1.1={
+		death="1077.1.1"
 	}
 }
 
 161491 = {
-	name = "Kyril" #II
-	religion = "coptic"
-	culture = "coptic"
-	1032.1.1 = {
-		birth = "1032.1.1"
+	name="Kyrillos" #II
+	religion="coptic"
+	culture = egyptian_coptic
+	1032.1.1={
+		birth="1032.1.1"
 	}
-	1092.6.6 = {
-		death = "1092.6.6"
+	1092.6.6={
+		death="1092.6.6"
 	}
 }
 
 161492 = {
-	name = "Khail" #IV
-	religion = "coptic"
-	culture = "coptic"
-	1042.1.1 = {
-		birth = "1042.1.1"
+	name="Khail" #IV
+	religion="coptic"
+	culture = egyptian_coptic
+	1042.1.1={
+		birth="1042.1.1"
 	}
-	1102.5.25 = {
-		death = "1102.5.25"
+	1102.5.25={
+		death="1102.5.25"
 	}
 }
 
 161493 = {
-	name = "Makarios" #II
-	religion = "coptic"
-	culture = "coptic"
-	1070.1.1 = {
-		birth = "1070.1.1"
+	name="Makarios" #II
+	religion="coptic"
+	culture = egyptian_coptic
+	1070.1.1={
+		birth="1070.1.1"
 	}
-	1131.1.1 = {
-		death = "1131.1.1"
+	1131.1.1={
+		death="1131.1.1"
 	}
 }
 
 161494 = {
-	name = "Gabriel" #II
-	religion = "coptic"
-	culture = "coptic"
-	1080.1.1 = {
-		birth = "1080.1.1"
+	name="Gabriel" #II
+	religion="coptic"
+	culture = egyptian_coptic
+	1080.1.1={
+		birth="1080.1.1"
 	}
-	1145.1.1 = {
-		death = "1145.1.1"
+	1145.1.1={
+		death="1145.1.1"
 	}
 }
 
 161495 = {
-	name = "Khail" #V
-	religion = "coptic"
-	culture = "coptic"
-	1090.1.1 = {
-		birth = "1090.1.1"
+	name="Khail" #V
+	religion="coptic"
+	culture = egyptian_coptic
+	1090.1.1={
+		birth="1090.1.1"
 	}
-	1146.1.1 = {
-		death = "1146.1.1"
+	1146.1.1={
+		death="1146.1.1"
 	}
 }
 
 161496 = {
-	name = "Yohannes" #V
-	religion = "coptic"
-	culture = "coptic"
-	1100.1.1 = {
-		birth = "1100.1.1"
+	name="Yohannes" #V
+	religion="coptic"
+	culture = egyptian_coptic
+	1100.1.1={
+		birth="1100.1.1"
 	}
-	1166.4.29 = {
-		death = "1166.4.29"
+	1166.4.29={
+		death="1166.4.29"
 	}
 }
 
 
 161497 = {
-	name = "Markos" #III
-	religion = "coptic"
-	culture = "coptic"
-	1120.1.1 = {
-		birth = "1120.1.1"
+	name="Markos" #III
+	religion="coptic"
+	culture="egyptian"
+	1120.1.1={
+		birth="1120.1.1"
 	}
-	1189.1.1 = {
-		death = "1189.1.1"
+	1189.1.1={
+		death="1189.1.1"
 	}
 }
 
 
 161498 = {
-	name = "Yohannes" #VI
-	religion = "coptic"
-	culture = "coptic"
-	1150.1.1 = {
-		birth = "1150.1.1"
+	name="Yohannes" #VI
+	religion="coptic"
+	culture="egyptian"
+	1150.1.1={
+		birth="1150.1.1"
 	}
-	1216.1.1 = {
-		death = "1216.1.1"
+	1216.1.1={
+		death="1216.1.1"
 	}
 }
 
 161499 = {
-	name = "Kyril" #III
-	religion = "coptic"
-	culture = "coptic"
-	1170.1.1 = {
-		birth = "1170.1.1"
+	name="Kyrillos" #III
+	religion="coptic"
+	culture="egyptian"
+	1170.1.1={
+		birth="1170.1.1"
 	}
-	1243.1.1 = {
-		death = "1243.1.1"
+	1243.1.1={
+		death="1243.1.1"
 	}
 }
 
-
 161500 = {
-	name = "Athanasios" #III
-	religion = "coptic"
-	culture = "coptic"
-	1200.1.1 = {
-		birth = "1200.1.1"
+	name="Athanasios" #III
+	religion="coptic"
+	culture="egyptian"
+	1200.1.1={
+		birth="1200.1.1"
 	}
-	1261.1.1 = {
-		death = "1261.1.1"
+	1261.1.1={
+		death="1261.1.1"
 	}
 }
 
 
 161502 = {
-	name = "Yohannes" #VII
-	religion = "coptic"
-	culture = "coptic"
-	1225.1.1 = {
-		birth = "1225.1.1"
+	name="Yohannes" #VII
+	religion="coptic"
+	culture="egyptian"
+	1225.1.1={
+		birth="1225.1.1"
 	}
-	1293.1.1 = {
-		death = "1293.1.1"
+	1293.1.1={
+		death="1293.1.1"
 	}
 }
 
 161503 = {
-	name = "Gabriel" #III
-	religion = "coptic"
-	culture = "coptic"
-	1210.1.1 = {
-		birth = "1210.1.1"
+	name="Gabriel" #III
+	religion="coptic"
+	culture="egyptian"
+	1210.1.1={
+		birth="1210.1.1"
 	}
-	1270.1.1 = {
-		death = "1270.1.1"
+	1270.1.1={
+		death="1270.1.1"
 	}
 }
 
 161504 = {
-	name = "Theodosios" #III
-	religion = "coptic"
-	culture = "coptic"
-	1240.1.1 = {
-		birth = "1240.1.1"
+	name="Theodosios" #III
+	religion="coptic"
+	culture="egyptian"
+	1240.1.1={
+		birth="1240.1.1"
 	}
-	1300.1.1 = {
-		death = "1300.1.1"
+	1300.1.1={
+		death="1300.1.1"
 	}
 }
 
 161505 = {
-	name = "Yohannes" #VIII
-	religion = "coptic"
-	culture = "coptic"
-	1260.1.1 = {
-		birth = "1260.1.1"
+	name="Yohannes" #VIII
+	religion="coptic"
+	culture="egyptian"
+	1260.1.1={
+		birth="1260.1.1"
 	}
-	1320.5.29 = {
-		death = "1320.5.29"
+	1320.5.29={
+		death="1320.5.29"
 	}
 }
 
 161506 = {
-	name = "Yohannes" #IX
-	religion = "coptic"
-	culture = "coptic"
-	1270.1.1 = {
-		birth = "1270.1.1"
+	name="Yohannes" #IX
+	religion="coptic"
+	culture="egyptian"
+	1270.1.1={
+		birth="1270.1.1"
 	}
-	1327.1.1 = {
-		death = "1327.1.1"
+	1327.1.1={
+		death="1327.1.1"
 	}
 }
 
 161507 = {
-	name = "Benjamin" #II
-	religion = "coptic"
-	culture = "coptic"
-	1280.1.1 = {
-		birth = "1280.1.1"
+	name="Benjamin" #II
+	religion="coptic"
+	culture="egyptian"
+	1280.1.1={
+		birth="1280.1.1"
 	}
-	1339.1.1 = {
-		death = "1339.1.1"
+	1339.1.1={
+		death="1339.1.1"
 	}
 }
 
 #pre 1066
 
 161508 = {
-	name = "Kyril" #I
-	religion = "coptic"
-	culture = "coptic"
-	376.1.1 = {
-		birth = "376.1.1"
+	name="Kyril" #I
+	religion="coptic"
+	culture = egyptian_coptic
+	376.1.1={
+		birth="376.1.1"
 	}
-	444.1.1 = {
-		death = "444.1.1"
+	444.1.1={
+		give_nickname = "nick_the_saint"
+		trait = "saint"
+		death="444.1.1"
 	}
 }
 
 161509 = {
-	name = "Khail" #I
-	religion = "coptic"
-	culture = "coptic"
-	710.1.1 = {
-		birth = "710.1.1"
+	name="Khail" #I
+	religion="coptic"
+	culture = egyptian_coptic
+	710.1.1={
+		birth="710.1.1"
 	}
-	767.1.1 = {
-		death = "767.1.1"
+	767.1.1={
+		give_nickname = "nick_the_saint"
+		trait = "saint"
+		death="767.1.1"
 	}
 }
 
 
 161510 = {
-	name = "Khail" #II
-	religion = "coptic"
-	culture = "coptic"
-	790.1.1 = {
-		birth = "790.1.1"
+	name="Khail" #II
+	religion="coptic"
+	culture = egyptian_coptic
+	790.1.1={
+		birth="790.1.1"
 	}
-	851.1.1 = {
-		death = "851.1.1"
+	851.1.1={
+		give_nickname = "nick_the_saint"
+		trait = "saint"
+		death="851.1.1"
 	}
 }
 
 161511 = {
-	name = "Khail" #III
-	religion = "coptic"
-	culture = "coptic"
-	850.1.1 = {
-		birth = "850.1.1"
+	name="Khail" #III
+	religion="coptic"
+	culture = egyptian_coptic
+	850.1.1={
+		birth="850.1.1"
 	}
-	907.1.1 = {
-		death = "907.1.1"
+	907.1.1={
+		death="907.1.1"
 	}
 }
 
 161512 = {
-	name = "Makarios" #I
-	religion = "coptic"
-	culture = "coptic"
-	900.1.1 = {
-		birth = "900.1.1"
+	name="Makarios" #I
+	religion="coptic"
+	culture = egyptian_coptic
+	900.1.1={
+		birth="900.1.1"
 	}
-	953.1.1 = {
-		death = "953.1.1"
+	953.1.1={
+		death="953.1.1"
 	}
 }
 
 
 161513 = {
-	name = "Gabriel" #I
-	religion = "coptic"
-	culture = "coptic"
-	860.1.1 = {
-		birth = "860.1.1"
+	name="Gabriel" #I
+	religion="coptic"
+	culture = egyptian_coptic
+	860.1.1={
+		birth="860.1.1"
 	}
-	921.1.1 = {
-		death = "921.1.1"
+	921.1.1={
+		death="921.1.1"
 	}
 }
 
 
 161514 = {
-	name = "Yohannes" #I
-	religion = "coptic"
-	culture = "coptic"
-	450.1.1 = {
-		birth = "450.1.1"
+	name="Yohannes" #I
+	religion="coptic"
+	culture = egyptian_coptic
+	450.1.1={
+		birth="450.1.1"
 	}
-	505.4.29 = {
-		death = "505.4.29"
+	505.4.29={
+		give_nickname = "nick_the_saint"
+		trait = "saint"
+		death="505.4.29"
 	}
 }
 
 161515 = {
-	name = "Yohannes" #II
-	religion = "coptic"
-	culture = "coptic"
-	460.1.1 = {
-		birth = "460.1.1"
+	name="Yohannes" #II
+	religion="coptic"
+	culture = egyptian_coptic
+	460.1.1={
+		birth="460.1.1"
 	}
-	516.5.22 = {
-		death = "516.5.22"
+	516.5.22={
+		give_nickname = "nick_the_saint"
+		trait = "saint"
+		death="516.5.22"
 	}
 }
 
 161516 = {
-	name = "Yohannes" #III
-	religion = "coptic"
-	culture = "coptic"
-	630.1.1 = {
-		birth = "630.1.1"
+	name="Yohannes" #III
+	religion="coptic"
+	culture = egyptian_coptic
+	630.1.1={
+		birth="630.1.1"
 	}
-	689.1.1 = {
-		death = "689.1.1"
+	689.1.1={
+		give_nickname = "nick_the_saint"
+		trait = "saint"
+		death="689.1.1"
 	}
 }
 
 161517 = {
-	name = "Yohannes" #IV
-	religion = "coptic"
-	culture = "coptic"
-	735.1.1 = {
-		birth = "735.1.1"
+	name="Yohannes" #IV
+	religion="coptic"
+	culture = egyptian_coptic
+	735.1.1={
+		birth="735.1.1"
 	}
-	799.1.1 = {
-		death = "799.1.1"
+	799.1.1={
+		give_nickname = "nick_the_saint"
+		trait = "saint"
+		death="799.1.1"
 	}
 }
 
 161518 = {
-	name = "Markos" #I
-	religion = "coptic"
-	culture = "coptic"
-	10.1.1 = {
-		birth = "10.1.1"
+	name="Markos" #I
+	religion="coptic"
+	culture = egyptian_coptic
+	10.1.1={
+		birth="10.1.1"
 	}
-	68.1.1 = {
-		death = "68.1.1"
+	68.1.1={
+		give_nickname = nick_the_apostle
+		trait = "saint"
+		death="68.1.1"
 	}
 }
 
 161519 = {
-	name = "Markos" #II
-	religion = "coptic"
-	culture = "coptic"
-	760.1.1 = {
-		birth = "760.1.1"
+	name="Markos" #II
+	religion="coptic"
+	culture = egyptian_coptic
+	760.1.1={
+		birth="760.1.1"
 	}
-	819.1.1 = {
-		death = "819.1.1"
+	819.1.1={
+		trait = "saint"
+		give_nickname = "nick_the_saint"
+		death="819.1.1"
 	}
 }
 
 
 161520 = {
-	name = "Athanasios" #I
-	religion = "coptic"
-	culture = "coptic"
-	296.1.1 = {
-		birth = "296.1.1"
+	name="Athanasios" #I
+	religion="coptic"
+	culture = egyptian_coptic
+	296.1.1={
+		birth="296.1.1"
 	}
-	373.5.2 = {
-		death = "373.5.2"
+	373.5.2={
+		trait = "saint"
+		give_nickname = "nick_the_saint"
+		death="373.5.2"
 	}
 }
 
 161521 = {
-	name = "Athanasios" #II
-	religion = "coptic"
-	culture = "coptic"
-	440.1.1 = {
-		birth = "440.1.1"
+	name="Athanasios" #II
+	religion="coptic"
+	culture = egyptian_coptic
+	440.1.1={
+		birth="440.1.1"
 	}
-	496.1.1 = {
-		death = "496.1.1"
+	496.1.1={
+		trait = "saint"
+		give_nickname = "nick_the_saint"
+		death="496.1.1"
 	}
 }
 
 161522 = {
-	name = "Theodosios" #I
-	religion = "coptic"
-	culture = "coptic"
-	500.1.1 = {
-		birth = "500.1.1"
+	name="Theodosios" #I
+	religion="coptic"
+	culture = egyptian_coptic
+	500.1.1={
+		birth="500.1.1"
 	}
-	567.6.5 = {
-		death = "567.6.5"
+	567.6.5={
+		trait = "saint"
+		give_nickname = "nick_the_saint"
+		death="567.6.5"
 	}
 }
 
 161523 = {
-	name = "Theodosios" #II
-	religion = "coptic"
-	culture = "coptic"
-	690.1.1 = {
-		birth = "690.1.1"
+	name="Theodosios" #II
+	religion="coptic"
+	culture = egyptian_coptic
+	690.1.1={
+		birth="690.1.1"
 	}
-	742.1.1 = {
-		death = "742.1.1"
+	742.1.1={
+		trait = "saint"
+		give_nickname = "nick_the_saint"
+		death="742.1.1"
 	}
 }
 
 161524 = {
-	name = "Benjamin" #I
-	religion = "coptic"
-	culture = "coptic"
-	590.1.1 = {
-		birth = "590.1.1"
+	name="Benjamin" #I
+	religion="coptic"
+	culture = egyptian_coptic
+	590.1.1={
+		birth="590.1.1"
 	}
-	661.1.3 = {
-		death = "661.1.3"
+	661.1.3={
+		trait = "saint"
+		give_nickname = "nick_the_saint"
+		death="661.1.3"
 	}
 }
 
@@ -1771,6 +1702,16 @@ al_salih_hajji = {
 	culture = "egyptian"
 	835.9.1 = {
 		birth = "835.9.1"
+	}
+	867.1.1 = {
+		birth = yes
+		effect = {
+		make_tributary = {
+		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
+		TRIBUTARY = character:163115
+		SUZERAIN = character:34014
+		}
+	}
 	}
 	884.3.1 = {
 		death = "884.3.1"
@@ -1786,45 +1727,13 @@ al_salih_hajji = {
 	855.1.1 = {
 		birth = "855.1.1"
 	}
-	896.1.18 = {
-		death = "896.1.18"
-	}
-}
-
-sons_of_khumarawayh_001 = {
-	name = "Jaysh"
-	dynasty = 820
-	religion = "ashari"
-	culture = "egyptian"
-	father = 163138
-	882.1.1 = {
-		birth = yes
-	}
-	896.11.1 = {
-		death = {
-			death_reason = death_murdered
-		}
-	}
-}
-
-sons_of_khumarawayh_002 = {
-	name = "Harun"
-	dynasty = 820
-	religion = "ashari"
-	culture = "egyptian"
-	father = 163138
-	883.1.1 = {
-		birth = yes
-	}
-	904.12.30 = {
-		death = {
-			death_reason = death_execution
-		}
+	896.1.1 = {
+		death = "896.1.1"
 	}
 }
 
 163139 = {
-	name = "Shayban"
+	name = "Shaybad"
 	dynasty = 820
 	religion = "ashari"
 	culture = "egyptian"
@@ -1832,20 +1741,20 @@ sons_of_khumarawayh_002 = {
 	856.1.1 = {
 		birth = "856.1.1"
 	}
-	915.1.10 = {
-		death = "915.1.10"
+	905.1.10 = {
+		death = "905.1.10"
 	}
 }
 
 168592 = {
-	name = "Shenouda"
-	religion = "coptic"
-	culture = "coptic"
-	820.1.1 = {
-		birth = yes
+	name="Shenouda" 
+	religion="coptic"
+	culture = egyptian_coptic
+	820.1.1={
+		birth=yes
 	}
-	880.1.1 = {
-		death = yes
+	880.1.1={
+		death=yes
 	}
 }
 
@@ -1857,15 +1766,16 @@ sons_of_khumarawayh_002 = {
 	intrigue = 8
 	stewardship = 4
 	religion = "ashari"
-	culture = "egyptian"
+	culture = "mamluk"
+	#trait="mamaluk"
 	trait = honest
 	trait = education_intrigue_2
 	father = 485000
 	1334.1.1 = {
 		birth = "1334.1.1"
 	}
-	1345.10.1 = {
-		death = "1345.10.1"
+	1345.1.1 = {
+		death = "1345.1.1"
 	}
 }
 
@@ -1877,7 +1787,8 @@ sons_of_khumarawayh_002 = {
 	intrigue = 8
 	stewardship = 7
 	religion = "ashari"
-	culture = "egyptian"
+	#trait="mamaluk"
+	culture = "mamluk"
 	trait = education_intrigue_2
 	father = 485000
 	1326.1.1 = {
@@ -1896,7 +1807,8 @@ sons_of_khumarawayh_002 = {
 	intrigue = 8
 	stewardship = 7
 	religion = "ashari"
-	culture = "egyptian"
+	culture = "mamluk"
+	#trait="mamaluk"
 	trait = education_intrigue_2
 	father = 485000
 	1325.1.1 = {
@@ -1915,7 +1827,8 @@ sons_of_khumarawayh_002 = {
 	intrigue = 6
 	stewardship = 5
 	religion = "ashari"
-	culture = "egyptian"
+	culture = "mamluk"
+	#trait="mamaluk"
 	trait = lazy
 	trait = education_martial_2
 	father = 485000
@@ -1928,14 +1841,15 @@ sons_of_khumarawayh_002 = {
 }
 
 485007 = {
-	name = "al-Muzzafar_Hajji"
+	name = "al-Muzzafar_Haji"
 	dynasty = 762
 	martial = 8
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 6
 	religion = "ashari"
-	culture = "egyptian"
+	culture = "mamluk"
+	#trait="mamaluk"
 	trait = generous
 	trait = honest
 	trait = education_intrigue_1
@@ -1948,32 +1862,16 @@ sons_of_khumarawayh_002 = {
 	}
 }
 
-al_mansur_muhammad = {
-	name = "al-Mansur Muhammad"
-	dynasty = 762
-	religion = "ashari"
-	culture = "egyptian"
-	trait = content
-	trait = calm
-	trait = education_intrigue_1
-	father = 485007
-	1347.1.1 = {
-		birth = yes
-	}
-	1398.1.1 = {
-		death = yes
-	}
-}
-
 485008 = {
-	name = "al-Nasir Hasan"
+	name = "al-Nasir_Hassan"
 	dynasty = 762
 	martial = 5
 	diplomacy = 7
 	intrigue = 4
 	stewardship = 7
 	religion = "ashari"
-	culture = "egyptian"
+	culture = "mamluk"
+	#trait="mamaluk"
 	trait = education_intrigue_2
 	father = 485000
 	1329.1.1 = {
@@ -1985,14 +1883,15 @@ al_mansur_muhammad = {
 }
 
 485009 = {
-	name = "al-Salih_Salih"
+	name = "al-Salik_Salih"
 	dynasty = 762
 	martial = 4
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 8
 	religion = "ashari"
-	culture = "egyptian"
+	culture = "mamluk"
+	#trait="mamaluk"
 	trait = gluttonous
 	trait = education_diplomacy_2
 	father = 485000
@@ -2092,23 +1991,89 @@ al_mansur_muhammad = {
 	}
 }
 
-additional_fatimids_1 = {
-	name = "Rasad" #De facto regent of the Fatimids in 1066.
-	religion = "ismaili"
-	culture = "ethiopian"
-	martial = 6
-	diplomacy = 10
-	intrigue = 10
-	stewardship = 6
-	trait = diligent
-	trait = ambitious
-	trait = family_first
-	trait = education_diplomacy_4
-	female = yes
-	1003.1.1 = {
+#COPTIC
+
+
+#Melkite Coptic mother of Sitt al-Mulk, who was allowed to remain Christian by her husband
+1500420 = {
+	name="Sayyida al-Aziziyya"
+	female=yes
+	religion="orthodox"
+	culture = egyptian_coptic
+
+	956.1.1={
 		birth = yes
 	}
-	1071.1.1 = {
+	997.1.1={
+		death = yes
+	}
+}
+#Coptic Fatimid Vizier
+1900000 = {
+	name="Isa"
+	dynasty=1000103837	
+	religion="coptic"
+	culture = egyptian_coptic
+	father=1900003
+	948.1.1={
+		birth = yes
+	}
+	996.1.1={
+		death = yes
+	}
+}
+#Coptic Fatimid Vizier, son of Isa ibn Nasturus
+1900001 = {
+	name="Zur'ah Abu al-Khayr"
+	dynasty=1000103837	
+	religion="coptic"
+	culture = egyptian_coptic
+	father=1900000
+	969.1.1={
+		birth = yes
+	}
+	1012.1.1={
+		death = yes
+	}
+}
+#Coptic Fatimid Vizier, son of Isa ibn Nasturus
+1900002 = {
+	name="Sa'id"
+	dynasty=1000103837	
+	religion="coptic"
+	culture = egyptian_coptic
+	father=1900000
+	975.1.1={
+		birth = yes
+	}
+	1018.1.1={
+		death = yes
+	}
+}
+#Father of Isa
+1900003 = {
+	name="Nasturus"
+	dynasty=1000103837	
+	religion="coptic"
+	culture = egyptian_coptic
+
+	923.1.1={
+		birth = yes
+	}
+	984.1.1={
+		death = yes
+	}
+}
+#Coptic Fatimid Vizier
+1900004 = {
+	name="Fahd"
+	dynasty=1000103838	
+	religion="coptic"
+	culture = egyptian_coptic
+	941.1.1={
+		birth = yes
+	}
+	997.1.1={
 		death = yes
 	}
 }

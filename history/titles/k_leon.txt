@@ -780,17 +780,18 @@ d_asturias = {
 		liege = k_andalusia
 	}
 	900.1.1 = {
-		holder = 70030 # Fruela II de Cantabria
-		liege = k_asturias
+		holder = 70019 # Alfonso III de Cantabria
+		#liege = k_asturias
 	}
 	910.12.20 = {
-		holder = 0
+		holder = 70030 # Fruela II de Cantabria
+		#liege = k_asturias
 	}
 	924.1.1 = {
 		de_jure_liege = k_leon
 	}
 	925.7.1 = {
-		holder = 70064 #Alfonso Froilaz
+		holder = 70064 # Alfonso Froilaz
 		liege = 0
 	}
 	932.1.1 = {
@@ -843,12 +844,12 @@ c_asturias_de_oviedo = {
 	866.5.27 = {
 		holder = 70019 # Alfonso III de Cantabria
 	}
-	900.1.1 = {
+	910.12.20 = {
 		holder = 70030 # Fruela II de Cantabria
-		liege = d_asturias
+		#liege = d_asturias
 	}
 	910.12.22 = {
-		liege = k_asturias
+		#liege = k_asturias
 	}
 	924.1.1 = {
 		liege = k_leon

@@ -1,0 +1,218 @@
+# Greek
+e_byzantium = {
+	pattern="pattern__solid_designer.dds"
+	color1=purple
+	color2=yellow
+	color3=red
+	colored_emblem={
+		color1=yellow
+		color2=yellow
+		texture="ce_circle_mask.dds"
+		instance={
+			position={ 0.500000 0.435000 }
+			scale={ 0.170000 0.170000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_beta.dds"
+		instance={
+			position={ 0.500000 0.140000 }
+			scale={ 0.190000 0.190000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=purple
+		texture="ce_circle_mask.dds"
+		instance={
+			position={ 0.500000 0.435000 }
+			scale={ 0.200000 0.200000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=purple
+		texture="ce_chi_rho.dds"
+		instance={
+			position={ 0.500000 0.435000 }
+			scale={ 0.180000 0.180000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="tib_greek_orthodox_eagle.dds"
+		instance={
+			position={ 0.505000 0.470000 }
+			scale={ 0.790000 0.790000 }
+			depth=4.010000
+		}
+
+	}
+
+}
+
+house_komnenos_doukas={
+	pattern="pattern_vertical_split_01.dds"
+	color1=blue
+	color2=yellow
+	color3=green
+	colored_emblem={
+		color1=white
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.120000 0.460000 }
+			scale={ 0.760000 0.130000 }
+		}
+
+		instance={
+			position={ 0.280000 0.500000 }
+			scale={ 0.130000 1.000000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=blue
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.165000 0.450000 }
+			scale={ 0.666000 1.000000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		color2=yellow
+		color3=white
+		texture="ce_eagle_double.dds"
+		instance={
+			scale={ 0.970000 1.000000 }
+			depth=3.010000
+		}
+
+	}
+
+}
+
+644={ # Makedon
+	pattern="pattern_solid.dds"
+	color1=rgb { 34 31 77 }
+	color2=yellow
+	color3=black
+	colored_emblem={
+		color1=yellow
+		color2=rgb { 35 26 89 }
+		color3=yellow
+		texture="tib_roman_eagle_aquila.dds"
+		instance={
+			position={ 0.500000 0.520000 }
+			scale={ 0.695000 0.695000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="tib_macedonian_empire_vergina_sun_simple.dds"
+		instance={
+			position={ 0.500000 0.150000 }
+			scale={ 0.170000 0.170000 }
+		}
+
+	}
+
+}
+house_megas_komnenos = {
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=black
+	colored_emblem={
+		color1=yellow
+		texture="ce_annulet_cross.dds"
+		instance={
+			position={ 0.430000 0.350000 }
+			scale={ 0.160000 0.160000 }
+		}
+
+		instance={
+			position={ 0.180000 0.350000 }
+			scale={ 0.150000 0.150000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.425000 0.100000 }
+			scale={ 0.150000 0.150000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.180000 0.100000 }
+			scale={ 0.150000 0.150000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=black
+		texture="ce_horizontal_stripes_02.dds"
+		instance={
+			scale={ 0.900000 1.000000 }
+			depth=7.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=red
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.280000 0.205000 }
+			scale={ 0.450000 0.450000 }
+			depth=6.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.295000 0.235000 }
+			scale={ 0.415000 0.080000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.300000 0.085000 }
+			scale={ 0.080000 0.690000 }
+			depth=5.010000
+		}
+
+	}
+
+}
+
+# Bulgarian
+house_balgarsko={
+	pattern="pattern_cross_01.dds"
+	color1=red
+	color2=yellow
+	color3=red
+}

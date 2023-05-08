@@ -9,7 +9,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 7
-	religion = "catholic"
+	religion = "orthodox"
 	culture = "sardinian"
 	trait = greedy
 	trait = education_stewardship_3
@@ -19,6 +19,9 @@
 	}
 	1029.1.1 = {
 		add_spouse = 75009
+	}
+	1060.1.1 = {
+		religion = catholic
 	}
 	1073.1.1 = {
 		death = "1073.1.1"
@@ -223,8 +226,8 @@
 	1207.1.1 = {
 		birth = "1207.1.1"
 	}
-	1259.1.1 = {
-		death = "1259.1.1"
+	1270.1.1 = {
+		death = "1270.1.1"
 	}
 }
 
@@ -403,7 +406,7 @@
 	father = 71635
 	mother = 235018
 
-	1207.1.1 = {
+	1205.1.1 = {
 		birth = yes
 	}
 	1222.1.1 = {
@@ -762,11 +765,7 @@
 	1112.12.1 = {
 		birth = yes
 	}
-	1127.1.1 = {
-		effect = {
-			set_relation_friend = character:235188
-		}
-	}
+
 	1129.1.1 = {
 		add_spouse = 144524
 	}
@@ -919,7 +918,7 @@
 	}
 	1266.1.1 = {
 		effect = {
-			set_relation_lover = character:235023
+			set_relation_lover = { reason = lover_history target = character:235023 }
 		}
 	}
 	1287.1.1 = {
@@ -964,7 +963,7 @@
 	}
 	1295.1.1 = {
 		effect = {
-			set_relation_lover = character:235161
+			set_relation_lover = { reason = lover_history target = character:235161 }
 		}
 	}
 	1321.1.1 = {
@@ -1022,8 +1021,8 @@
 	677.1.1 = {
 		birth = yes
 	}
-	722.1.1 = {
-		death = "804.1.1"
+	762.1.1 = {
+		death = "762.1.1"
 	}
 }
 
@@ -1038,7 +1037,7 @@
 	701.1.1 = {
 		birth = yes
 	}
-	740.1.1 = {
+	780.1.1 = {
 		death = yes
 	}
 }
@@ -1235,7 +1234,7 @@
 	female = yes
 	religion="orthodox"
 	culture="sardinian"
-
+	father = 235182
 	1070.1.1={
 		birth=yes
 	}
@@ -1361,13 +1360,16 @@
 235101 = {
 	name = "Izocor" # Ittocorre di Lacon
 	dynasty_house = house_lacon
-	religion="catholic"
+	religion="orthodox"
 	culture="sardinian"
 
 	father=235100
 
 	1015.1.1 = {
 		birth=yes
+	}
+	1060.1.1 = {
+		religion = catholic
 	}
 	1070.1.1 = {
 		death=yes
@@ -1522,6 +1524,9 @@
 
 	1003.1.1 = {
 		birth=yes
+	}
+	1060.1.1 = {
+		religion = catholic
 	}
 	1067.1.1 = {
 		death=yes
@@ -2122,7 +2127,7 @@
 	father = 235144
 	mother = 235143
 
-	1110.1.1 = {
+	1106.1.1 = {
 		birth=yes
 	}
 	1125.1.1 = {
@@ -2160,7 +2165,7 @@
 	father = 235145
 	mother = 235232
 
-	1126.1.1 = {
+	1118.1.1 = {
 		birth=yes
 	}
 	1129.1.1 = {
@@ -2212,7 +2217,7 @@
 
 	father = 235148
 
-	1122.1.1 = {
+	1117.1.1 = {
 		birth=yes
 	}
 	1158.1.1 = {
@@ -2257,7 +2262,7 @@
 
 235153 = {
 	name = "Orzocor" # Orsocorre III di Lacon-Zori, Giudice of Arborea (1133-1145)
-	dynasty_house = house_lacon-zori
+	dynasty_house = house_lacon-serra
 	religion="catholic"
 	culture="sardinian"
 
@@ -2331,7 +2336,7 @@
 	religion="catholic"
 	culture="sardinian"
 
-	1212.1.1 = {
+	1206.1.1 = {
 		birth=yes
 	}
 	1264.1.1 = {
@@ -3629,7 +3634,7 @@
 
 	father = 235218
 
-	1110.1.1 = {
+	1106.1.1 = {
 		birth=yes
 	}
 	1162.1.1 = {
@@ -3705,19 +3710,6 @@ sardinian0003 = {
 		birth = yes
 	}
 	1284.1.1 = {
-		death = yes
-	}
-}
-
-corsica_placeholder0001 = {
-	name = "Austiniu"
-	dynasty = house_vecchio
-	religion = "catholic"
-	culture = "sardinian"
-	667.1.1 = {
-		birth = yes
-	}
-	720.1.1 = {
 		death = yes
 	}
 }

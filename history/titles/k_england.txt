@@ -1019,6 +1019,10 @@ c_northumberland = {
 	862.1.1 = {
 		holder = 163103
 	}
+	902.1.1 = { # Eowils, duo-king of south Northumbria
+		holder = 168340 # Audgisl Hwitserk?
+		liege = d_york
+	}
 	1041.1.1 = {
 		holder = 196 #Siward
 	}
@@ -1115,6 +1119,9 @@ c_durham = {
 	862.1.1 = {
 		holder = 163120
 		liege = d_northumberland
+	}
+	902.1.1 = { # Halfdan, duo-king king of south Northumbria
+		holder = 168339 # Halfdan af Hvitserk?
 	}
 	1066.1.1 = {
 		government = theocracy_government

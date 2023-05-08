@@ -200,6 +200,17 @@ c_balqa = {
 	866.1.1 = {
 		holder = 146080
 	}
+	# Jarrahi of Banu Tayy
+	949.1.1 = {
+		holder = 1500001 # Daghfal Jarrahi of Banu Tayy
+	}
+	976.1.1 = {
+		holder = 1500002 # Mufarrij Jarrahi of Banu Tayy
+	}
+	1013.1.1 = {
+		holder = 1500005 # Mahmud Jarrahi of Banu Tayy
+		liege = "d_palestine"
+	}
 	1066.1.1 = {
 		holder = 20768
 	}
@@ -328,6 +339,16 @@ c_maab = {
 	877.1.1 = {
 		liege = 0
 	}
+	# Jarrahi of Banu Tayy
+	949.1.1 = {
+		holder = 1500001 # Daghfal Jarrahi of Banu Tayy
+	}
+	976.1.1 = {
+		holder = 1500002 # Mufarrij Jarrahi of Banu Tayy
+	}
+	1013.1.1 = {
+		holder = 1500003 # Hassan Jarrahi of Banu Tayy
+	}
 	1066.1.1 = {
 		liege = "d_damascus"
 	}
@@ -443,6 +464,17 @@ c_jilat = {
 	877.1.1 = {
 		liege = 0
 	}
+	# Jarrahi of Banu Tayy
+	949.1.1 = {
+		holder = 1500001 # Daghfal Jarrahi of Banu Tayy
+	}
+	976.1.1 = {
+		holder = 1500002 # Mufarrij Jarrahi of Banu Tayy
+	}
+	1013.1.1 = {
+		holder = 1500004 # Ali Jarrahi of Banu Tayy
+		liege = "d_palestine"
+	}
 	1066.1.1 = {
 		holder = 20780
 	}
@@ -545,126 +577,123 @@ d_shammar = {
 		liege = 0
 		holder = 0
 	}
+	1243.1.1 = {
+		holder = banu_atiyah_003
+		liege = k_egypt
+	}
+	1265.1.1 = {
+		holder = banu_atiyah_004
+	}
 }
 
-
 c_tabuk = {
-	867.1.1 = {	change_development_level = 8 }
-	1066.1.1 = { change_development_level = 12 }
-	
-	767.1.1 = {
-		liege = "d_medina"
-		holder = 188619
+	630.1.1 = {
+		liege = d_medina
 	}
-	
-	855.1.1 = {
-		liege = "d_shammar"
-		holder = bedouin00161
+	767.1.1={
+		liege="d_medina"
+		holder=188619
 	}
-	869.1.1 = {
-		liege = 0
-	}
-	
-	1066.1.1 = {
+	841.1.1 = {
+		holder = 1236115 # Tahir Banu Husayni
 		liege = "d_medina"
 	}
-	1066.1.1 = {
-		holder = 20794
+	888.1.1 = {
+		holder = 1236114 # Ubayd-Allah Banu Husayni
 	}
-	1089.1.1 = {
-		holder = 93359
+	920.1.1 = {
+		holder = 1236113 # al-Qasim Banu Husayni
 	}
-	1120.1.1 = {
-		holder = 93360
+	954.1.1 = {
+		holder = 1236120 # Muslim Banu Husayni
 	}
-	1160.1.1 = {
-		holder = 93361
+	967.1.1 = {
+		holder = 1236121 # Tahir Banu Husayni
 	}
-	1200.1.1 = {
-		holder = 93362
+	992.1.1 = {
+		holder = 1236122 # al-Hasan Banu Husayni
 	}
-	1240.1.1 = {
-		holder = 93363
+	1007.1.1 = {
+		holder = 1236112 # Daud Banu Husayni
 	}
-	1280.1.1 = {
-		holder = 93364
+	1013.1.1 = {
+		liege = d_amman
+		holder = 1500003
 	}
-	1320.1.1 = {
-		holder = 93365
+	1018.1.1 = {
+		liege = d_palestine
 	}
+	1022.1.1 = {
+		liege = d_amman
+	}
+	1029.1.1 = {
+		holder = 1600006
+	}
+	1041.1.1 = {
+		holder = 1500003
+	}
+	1044.1.1 = {
+		holder = 1500006
+	}
+	1079.1.1 = {
+		holder = 1500008
+	}
+	1104.1.1 = {
+		holder = 1500011
+	}
+	1126.1.1 = {
+		holder = 1500012
+	}
+	1128.1.1 = {
+		holder = 1500016
+	}
+	1173.1.1 = {
+		holder = 1500021
+	}
+	1187.10.2 = {
+		liege = d_medina
+	}
+	1206.1.1 = {
+		holder = 1500022
+	}
+
+	1243.1.1 = {
+		holder = banu_atiyah_003
+		liege = k_egypt
+	}
+	1265.1.1 = {
+		holder = banu_atiyah_004
+	}
+
+	#1243.1.1 = {
+	#	holder = Faraj1
+	#}
+	#1286.1.1 = {
+	#	holder = Faraj2
+	#}
+	1325.1.1 = {
+		holder = 1500031
+	}
+	1330.1.1 = {
+		holder = 1500029
+	}
+	1335.1.1 = {
+		holder = 1500032
+	}
+
 }
 
 
 c_al_aqabah = {
-	867.1.1 = {	change_development_level = 7 }
-	1066.1.1 = { change_development_level = 10 }
-	
-	755.1.1 = {
-		liege = "d_medina"
-		holder = 188618
-	}
-	855.1.1 = {
-		liege = "d_shammar"
-	}
-	855.1.1 = {
-		holder = bedouin00161
-	}
-	869.1.1 = {
-		liege = 0
-	}
-	
-	1066.1.1 = {
-		liege = "k_egypt"
-	}
-	1066.1.1 = {
-		holder = 20786
-	}
-	1076.1.1 = {
-		liege = "d_damascus"
-	}
-	1089.1.1 = {
-		holder = 93366
-	}
-	1120.1.1 = {
-		holder = 93367
-	}
-	1160.1.1 = {
-		holder = 93368
-	}
-	1187.10.2 = {
-		liege = "d_oultrejourdain"
-	}
-	1200.1.1 = {
-		holder = 93369
-	}
-	1240.1.1 = {
-		holder = 93370
-	}
-	1280.1.1 = {
-		holder = 93371
-	}
-	1320.1.1 = {
-		holder = 93372
-	}
 
-}
-
-
-c_maan = {
-	867.1.1 = {	change_development_level = 7 }
-	1066.1.1 = { change_development_level = 10 }
-	
-	662.1.1 = {
-		liege = e_arabia
-		government = tribal_government
-	}
 	690.1.1 = {
-		#liege = d_najd
-		holder = 34000
+
+		holder = 146054
 	}
-	#710.1.1 = {
-		#holder = 146055
-	#}
+	710.1.1 = {
+		holder = 146055
+		liege = d_shammar
+	}
 	726.1.1 = {
 		holder = 146056
 	}
@@ -672,7 +701,7 @@ c_maan = {
 		holder = 146057
 	}
 	750.1.1 = {
-		liege = "d_damascus"
+		liege = d_damascus
 	}
 	752.1.1 = {
 		holder = 146058
@@ -681,117 +710,286 @@ c_maan = {
 		holder = 146059
 	}
 	855.1.1 = {
-		liege = "d_shammar"
+		holder = 1230178
 	}
-	855.1.1 = {
-		holder = bedouin00161
+	870.1.1 = {
+		holder = 0
 	}
-	869.1.1 = {
-		liege = 0
+	936.1.1 = {
+		holder = 260950
 	}
-	1066.1.1 = {
-		liege = "d_damascus"
+	946.7.24 = {
+		liege = k_egypt
+		holder = 1234890
 	}
-	1066.1.1 = {
-		holder = 20785
+	992.1.1 = {
+		liege = d_palestine
+		holder = 1500002 # Mufarrij ibn Daghfal returned to Palestine and resumed his tribe's dominant position upon the death of Ibn Killis
 	}
-	1089.1.1 = {
-		holder = 93352
+	1013.1.1 = {
+		holder = 1500003
 	}
-	1120.1.1 = {
-		holder = 93353
+	1022.1.1 = {
+		liege = d_amman
 	}
-	1160.1.1 = {
-		holder = 93354
+	1029.1.1 = {
+		holder = 1600006
+	}
+	1041.1.1 = {
+		holder = 1500003
+	}
+	1044.1.1 = {
+		holder = 1500006
+	}
+	1079.1.1 = {
+		holder = 1500008
+	}
+	1104.1.1 = {
+		holder = 1500011
+	}
+	1126.1.1 = {
+		holder = 1500012
+	}
+	1128.1.1 = {
+		holder = 1500016
+	}
+	1173.1.1 = {
+		holder = 1500021
 	}
 	1187.10.2 = {
-		liege = "d_oultrejourdain"
+		liege = d_medina
 	}
-	1200.1.1 = {
-		holder = 93355
+	1206.1.1 = {
+		holder = 1500022
 	}
-	1240.1.1 = {
-		holder = 93356
-	}
-	1280.1.1 = {
-		holder = 93357
-	}
-	1320.1.1 = {
-		holder = 93358
-	}
-}
 
+	1243.1.1 = {
+		holder = banu_atiyah_003
+		liege = k_egypt
+	}
+	1265.1.1 = {
+		holder = banu_atiyah_004
+	}
+
+	#1243.1.1 = {
+	#	holder = Faraj1
+	#}
+	#1286.1.1 = {
+	#	holder = Faraj2
+	#}
+	1325.1.1 = {
+		holder = 1500031
+	}
+	1330.1.1 = {
+		holder = 1500029
+	}
+	1335.1.1 = {
+		holder = 1500032
+	}
+
+}
 
 c_tayma = {
-	867.1.1 = {	change_development_level = 7 }
-	1066.1.1 = { change_development_level = 10 }
-	
-	767.1.1 = {
-		liege = "d_medina"
-		holder = 188620
+
+	630.1.1 = {
+		liege = d_medina
 	}
-	
-	830.1.1 = {
-		holder = bedouin00162
+	767.1.1={
+		holder=163125 # Hasan ibn Zayd ibn Hasan
 	}
-	
-	1061.1.1 = {
-		holder = 20794
+	841.1.1 = {
+		holder = 1236115 # Tahir Banu Husayni
 		liege = "d_medina"
 	}
-	1094.1.1 = {
-		holder = 34047 # Issa - not actually the Emir of Mecca (it was Ibn Abul-Hashim Al-Thalab )
+	888.1.1 = {
+		holder = 1236114 # Ubayd-Allah Banu Husayni
 	}
-	1101.1.1 = {
-		holder = 34048 # Abd al-Karim - probably not Emir of Mecca
+	920.1.1 = {
+		holder = 1236113 # al-Qasim Banu Husayni
 	}
-	1130.1.1 = {
-		holder = 34049 # Muta'in - probably not Emir of Mecca
+	954.1.1 = {
+		holder = 1236120 # Muslim Banu Husayni
 	}
-	1150.1.1 = {
-		holder = 34050 # Idris - probably not Emir of Mecca
+	967.1.1 = {
+		holder = 1236121 # Tahir Banu Husayni
 	}
-	1201.1.1 = {
-		holder = 34051 # Qatada - Emir of Mecca
+	#973.1.1 = {
+	#	liege = e_egypt
+	#}
+	992.1.1 = {
+		holder = 1236122 # al-Hasan Banu Husayni
 	}
-	1220.1.1 = {
-		holder = 34052
+	1007.1.1 = {
+		holder = 1236112 # Daud Banu Husayni
 	}
-	1232.1.1 = {
-		holder = 34053
+	1014.1.1 = {
+		holder = 1236111 # Hani Banu Husayni
 	}
-	1239.1.1 = {
-		holder = 34054
+	1016.1.1 = {
+		holder = 1236123 # Muhanna Banu Husayni
 	}
-	1240.1.1 = {
-		holder = 34053
+	1018.1.1 = {
+		holder = 1236110 # Ubayd-Allah Banu Husayni
 	}
-	1241.1.1 = {
-		holder = 34055
+	1021.1.1 = {
+		holder = 1236125 # Hashim Banu Husayni
 	}
-	1245.1.1 = {
-		holder = 34053
+	1040.1.1 = {
+		holder = 1236126 # al-Husayn Banu Husayni
 	}
-	1254.1.1 = {
-		holder = 34057
+	1078.1.1 = {
+		holder = 1236128 # Mansur Banu Husayni
 	}
-	1255.1.1 = {
-		holder = 34058
+	1103.1.1 = {
+		holder = 1236129 # Qasim Banu Husayni
 	}
-	1270.1.1 = {
-		holder = 34056
+	1135.1.1 = {
+		holder = 1236108 # al-Husayn Banu Husayni
 	}
-	1301.1.1 = {
-		holder = 34060
+	1149.1.1 = {
+		holder = 1236107 # Muhanna Banu Husayni
 	}
+	1170.1.1 = {
+		holder = 1236106 # Qasim Banu Husayni
+	}
+	1194.1.1 = {
+		holder = 1236130 # Salim Banu Husayni
+	}
+	1216.1.1 = {
+		holder = 1236133 # Qasim Banu Husayni
+	}
+	1226.1.1 = {
+		holder = 1236134 # Shiha Banu Husayni
+	}
+	1249.1.1 = {
+		holder = 1236135 # Isa Banu Husayni
+	}
+	1251.1.1 = {
+		holder = 12500233 # Munif Banu Husayni
+	}
+	1259.1.1 = {
+		holder = 1500232 # Jammaz Banu Husayni
+	}
+	# ca. 1267 Munif and his niece Jammaz possibly ruled as co-rulers, though contradictory sources exist
 	1302.1.1 = {
-		holder = 34062
+		holder = 1500234 # Mansur Banu Husayni
 	}
-	1314.1.1 = {
-		holder = 34060
+	1325.9.24 = {
+		holder = 1500237 # Kubaysh Banu Husayni
+	}
+	1328.6.12 = {
+		holder = 1500242 # Tufayl Banu Husayni
+	}
+	1336.4.17 = {
+		holder = 1500240 # Wudayy Banu Husayni
 	}
 }
 
+c_maan = {
+	#867.1.1 = {	change_development_level = 7 }
+	#1066.1.1 = { change_development_level = 10 }
+
+	690.1.1 = {
+
+		holder = 146054
+	}
+	710.1.1 = {
+		holder = 146055
+	}
+	726.1.1 = {
+		holder = 146056
+	}
+	744.1.1 = {
+		holder = 146057
+	}
+	750.1.1 = {
+		liege = d_damascus
+	}
+	752.1.1 = {
+		holder = 146058
+	}
+	756.1.1 = {
+		holder = 146059
+	}
+	855.1.1 = {
+		holder = 1230178
+	}
+	870.1.1 = {
+		holder = 0
+	}
+	936.1.1 = {
+		holder = 260950
+	}
+	946.7.24 = {
+		liege = k_egypt
+		holder = 1234890
+	}
+	992.1.1 = {
+		liege = d_palestine
+		holder = 1500002 # Mufarrij ibn Daghfal returned to Palestine and resumed his tribe's dominant position upon the death of Ibn Killis
+	}
+	1013.1.1 = {
+		holder = 1500003
+	}
+	1022.1.1 = {
+		liege = d_amman
+	}
+	1029.1.1 = {
+		holder = 1600006
+	}
+	1041.1.1 = {
+		holder = 1500003
+	}
+	1044.1.1 = {
+		holder = 1500006
+	}
+	1079.1.1 = {
+		holder = 1500008
+	}
+	1104.1.1 = {
+		holder = 1500011
+	}
+	1126.1.1 = {
+		holder = 1500012
+	}
+	1128.1.1 = {
+		holder = 1500016
+	}
+	1173.1.1 = {
+		holder = 1500021
+	}
+	1187.10.2 = {
+		liege = d_medina
+	}
+	1206.1.1 = {
+		holder = 1500022
+	}
+	
+	1243.1.1 = {
+		holder = banu_atiyah_003
+		liege = k_egypt
+	}
+	1265.1.1 = {
+		holder = banu_atiyah_004
+	}
+
+	#1243.1.1 = {
+	#	holder = Faraj1
+	#}
+	#1286.1.1 = {
+	#	holder = Faraj2
+	#}
+
+	1325.1.1 = {
+		holder = 1500031
+	}
+	1330.1.1 = {
+		holder = 1500029
+	}
+	1335.1.1 = {
+		holder = 1500032
+	}
+}
 
 d_medina = {
 
@@ -822,6 +1020,7 @@ d_medina = {
 	}
 	1000.1.1 = {
 		holder = 34044
+		liege = e_egypt
 	}
 	1039.1.1 = {
 		holder = 34045
@@ -1271,35 +1470,35 @@ c_harrat_rahat = {
 d_mecca = {
 	360.1.1 = {
 		holder = 163007 # Murrah
-		liege = d_mecca
+		# liege = d_mecca
 	}
 	393.1.1 = {
 		holder = 163006 # Kilab
-		liege = d_mecca
+		# liege = d_mecca
 	}
 	423.1.1 = {
 		holder = 163005 # Qusai
-		liege = d_mecca
+		# liege = d_mecca
 	}
 	480.1.1 = {
 		holder = 163004 # Abd Manaf
-		liege = d_mecca
+		# liege = d_mecca
 	}
 	487.1.1 = {
 		holder = 33925 # Hashim
-		liege = d_mecca
+		# liege = d_mecca
 	}
 	497.1.1 = {
 		holder = 163016 # Abd Shams
-		liege = d_mecca
+		# liege = d_mecca
 	}
 	520.1.1 = {
 		holder = 33924 # Shaiba (Abdul Muttalib)
-		liege = d_mecca
+		# liege = d_mecca
 	}
 	578.1.1 = {
 		holder = 33910 # Abu Talib
-		liege = d_mecca
+		# liege = d_mecca
 	}
 	# Hashimite dynasty
 	875.1.1 = {
@@ -1922,65 +2121,55 @@ c_sharaf = {
 		liege = e_arabia
 		government = tribal_government
 	}
-	
-	765.1.1 = {
-		holder = 188613
+		
+	# c_ar_ar/Jawf
+	860.1.1 = {
+		liege = d_najd
+		holder = 1236161
 	}
-	
-	810.1.1 = {
-		liege = 0
-		holder = bedouin0053
+	902.1.1 = {
+		holder = 1236162
 	}
-	848.1.1 = {
-		holder = bedouin0054
+	921.1.1 = {
+		holder = 1236163
 	}
-	863.1.1 = {
-		liege = "d_najd"
-		holder = bedouin0055
+	959.1.1 = {
+		holder = 1236164
 	}
-	900.1.1 = {
-		holder = bedouin0056
+	980.1.1 = {
+		holder = 1236165
 	}
-	869.1.1 = {
-		liege = 0
+	1002.1.1 = {
+		holder = 1236166
 	}
-	
-	1066.1.1 = {
-		liege = "d_najd"
+	1045.1.1 = {
+		holder = 1236167
 	}
-	1066.1.1 = {
-		holder = 34507
+	1069.1.1 = {
+		holder = 1236168
 	}
-	1084.1.1 = {
-		holder = 34508
+	1100.1.1 = {
+		holder = 1236193
 	}
-	1110.1.1 = {
-		holder = 34509
+	1149.1.1 = {
+		holder = 1236194
 	}
-	1150.1.1 = {
-		holder = 34510
+	1186.1.1 = {
+		holder = 1236195
 	}
-	1175.1.1 = {
-		holder = 34511
+	1205.1.1 = {
+		holder = 1236202
 	}
-	1195.1.1 = {
-		holder = 34512
+	1237.1.1 = {
+		holder = 1236207
 	}
-	1230.1.1 = {
-		holder = 34513
+	1262.1.1 = {
+		holder = 1236212
 	}
-	1250.1.1 = {
-		holder = 34514
+	1282.1.1 = {
+		holder = Ghatafan1
 	}
-	1285.1.1 = {
-		holder = 34515
-	}
-	1310.1.1 = {
-		holder = 34516
-	}
-	1325.1.1 = {
-		holder = 34517
-	}
+
 }
 
 
@@ -2259,6 +2448,30 @@ c_surrah = {
 		holder = bedouin0056
 	}
 	
+	# c_sharaf
+	#860.1.1 = {
+	#	liege = d_najd
+	#	holder = 1236161
+	#}
+	920.1.1 = {
+		holder = 1236162
+	}
+	921.1.1 = {
+		holder = 1236163
+	}
+	959.1.1 = {
+		holder = 1236164
+	}
+	980.1.1 = {
+		holder = 1236165
+	}
+	1002.1.1 = {
+		holder = 1236166
+	}
+	1045.1.1 = {
+		holder = 1236167
+	}
+
 	1061.1.1 = {
 		holder = bedouin0118 #Muta'in al-Juhavni
 	}
@@ -2873,8 +3086,22 @@ d_bahrain = {
 		holder = 0
 	}
 	
+	# Jannabid
 	886.1.1 = {
-		holder = 74040
+		holder = 74040 # Aarif Jannabid
+	}
+	913.1.1 = {
+		holder = 1236143 # Abu Mansur Ahmad, begins Qarmatian rule
+		liege = 0
+	}
+	972.1.1 = {
+		holder = 1236144 # al-Hasan
+	}
+	977.1.1 = {
+		holder = 1236145 # Isa al-Jannabi
+	}
+	1017.1.1 = {
+		holder = 1236146 # Ahmad al-Jannabi
 	}
 	
 	1066.1.1 = {
@@ -2946,9 +3173,23 @@ c_qatif = {
 		holder = 74039
 		liege = e_arabia
 	}
+
+	# Jannabid
 	886.1.1 = {
-		liege = "d_bahrain"
-		holder = 74040
+		holder = 74040 # Aarif Jannabid
+	}
+	913.1.1 = {
+		holder = 1236143 # Abu Mansur Ahmad, begins Qarmatian rule
+		liege = 0
+	}
+	972.1.1 = {
+		holder = 1236144 # al-Hasan
+	}
+	977.1.1 = {
+		holder = 1236145 # Isa al-Jannabi
+	}
+	1017.1.1 = {
+		holder = 1236146 # Ahmad al-Jannabi
 	}
 	
 	1066.1.1 = {
@@ -3019,9 +3260,23 @@ c_uwal = {
 		holder = 74039
 		liege = e_arabia
 	}
+
+	# Jannabid
 	886.1.1 = {
-		liege = "d_bahrain"
-		holder = 74040
+		holder = 74040 # Aarif Jannabid
+	}
+	913.1.1 = {
+		holder = 1236143 # Abu Mansur Ahmad, begins Qarmatian rule
+		liege = 0
+	}
+	972.1.1 = {
+		holder = 1236144 # al-Hasan
+	}
+	977.1.1 = {
+		holder = 1236145 # Isa al-Jannabi
+	}
+	1017.1.1 = {
+		holder = 1236146 # Ahmad al-Jannabi
 	}
 	1066.1.1 = {
 		holder = 34555
@@ -3085,6 +3340,21 @@ c_samman = {
 	902.1.1 = {
 		liege = 0
 		holder = bedouin0061
+	}
+
+	# Jannabid
+	913.1.1 = {
+		holder = 1236143 # Abu Mansur Ahmad, begins Qarmatian rule
+		liege = 0
+	}
+	972.1.1 = {
+		holder = 1236144 # al-Hasan
+	}
+	977.1.1 = {
+		holder = 1236145 # Isa al-Jannabi
+	}
+	1017.1.1 = {
+		holder = 1236146 # Ahmad al-Jannabi
 	}
 	1066.1.1 = {
 		liege = 0
@@ -3245,7 +3515,7 @@ d_oman = {
 	
 	#Nabhanids
 	1154.1.1 = {
-		liege = "d_oman"
+		# liege = "d_oman"
 		holder = bedouin0134
 	}
 	1176.1.1 = {

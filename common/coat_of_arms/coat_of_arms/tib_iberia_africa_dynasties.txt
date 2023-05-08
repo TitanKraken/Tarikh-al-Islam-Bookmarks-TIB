@@ -14,6 +14,24 @@ house_asturias = {
 		}
 	}
 }
+house_cantabria={
+	pattern="pattern_solid.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=yellow_light
+		color2=rgb { 166 27 9 }
+		color3=green
+		texture="ce_cross_asturias.dds"
+		instance={
+			scale={ 0.820000 0.820000 }
+		}
+
+	}
+
+}
+
 house_bourgogne = {
 	pattern="pattern_solid.dds"
 	color1=white
@@ -52,6 +70,105 @@ house_bourgogne = {
 	}
 
 }
+house_portugal = { # Afonsine
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=blue
+	colored_emblem={
+		color1=blue
+		color2=white
+		texture="ce_shield_portugal.dds"
+		instance={
+			position={ 0.500000 0.200000 }
+			scale={ 0.450000 0.450000 }
+		}
+
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 0.450000 0.450000 }
+		}
+
+		instance={
+			position={ 0.500000 0.740000 }
+			scale={ 0.450000 0.450000 }
+		}
+
+		instance={
+			position={ 0.280000 0.450000 }
+			scale={ 0.450000 0.450000 }
+			rotation=270
+		}
+
+		instance={
+			position={ 0.720000 0.450000 }
+			scale={ 0.450000 0.450000 }
+			rotation=90
+		}
+
+	}
+
+}
+house_ivreacastille = {
+	pattern="pattern_checkers_02.dds"
+	color1=white
+	color2=red
+	color3=red
+	colored_emblem={
+		color1=purple
+		color2=yellow
+		color3=white
+		texture="ce_lion_rampant_wide_stance_crown.dds"
+		instance={
+			position={ 0.300000 0.750000 }
+			scale={ 0.500000 0.500000 }
+		}
+
+		instance={
+			position={ 0.730000 0.260000 }
+			scale={ 0.500000 0.500000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		color2=blue
+		texture="ce_castle.dds"
+		instance={
+			position={ 0.740000 0.720000 }
+			scale={ 0.500000 0.500000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.270000 0.265000 }
+			scale={ 0.500000 0.500000 }
+			depth=3.010000
+		}
+
+	}
+
+}
+house_leon-spain = {
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=yellow
+	color3=red
+	colored_emblem={
+		color1=purple
+		color2=yellow
+		color3=white
+		texture="ce_lion_rampant_wide_stance_crown.dds"
+		instance={
+			scale={ 0.900000 0.900000 }
+		}
+
+	}
+
+}
+
+# Andalusia
 
 101904 = { # Nasrid
 	pattern="pattern__solid_designer.dds"
@@ -68,6 +185,16 @@ house_bourgogne = {
 	}
 
 	colored_emblem={
+		color1=black
+		texture="ce_arabic_nazrid.dds"
+		instance={
+			position={ 0.450000 0.450000 }
+			rotation=45
+		}
+
+	}
+
+	colored_emblem={
 		color1=rgb { 85 20 20 }
 		texture="ce_block_02.dds"
 		instance={
@@ -76,21 +203,57 @@ house_bourgogne = {
 
 	}
 
+}
+
+12211={ # Banu Mardanish / Mardanishid
+	pattern="pattern__solid_designer.dds"
+	color1=green
+	color2=green
+	color3=red
+	colored_emblem={
+		color1=yellow
+		color2=green
+		texture="ce_crown_head.dds"
+		instance={
+			position={ 0.810000 0.335000 }
+			scale={ 0.210000 0.210000 }
+			rotation=8
+		}
+
+	}
+
 	colored_emblem={
 		color1=black
-		texture="ce_arabic_nazrid.dds"
+		color2=red
+		color3=white
+		texture="ce_wolf_head.dds"
 		instance={
-			position={ 0.480000 0.470000 }
-			rotation=45
+			position={ 0.750000 0.550000 }
+			scale={ 0.500000 0.500000 }
+			depth=1.010000
 		}
+
 	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_crescent_mask_02.dds"
+		instance={
+			position={ 0.300000 0.450000 }
+			scale={ -0.666000 0.666000 }
+			depth=2.010000
+			rotation=340
+		}
+
+	}
+
 }
 
 # Maghreb
 101732 = { # Marinid
 	pattern="pattern__solid_designer.dds"
 	color1=red
-	color2=white
+	color2=yellow
 	color3=green
 	colored_emblem={
 		color1=red
@@ -178,6 +341,16 @@ house_bourgogne = {
 
 }
 house_almoravid = { # Almoravid
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	color2 = "black"
+	
+	colored_emblem = {
+		texture = "ce_arabic_shahada.dds"
+		color1 = "black"
+	}
+}
+house_Banu_Ghaniya = { # Almoravid of Balearic Islands
 	pattern="pattern_solid.dds"
 	color1=white
 	color2=black
@@ -191,10 +364,95 @@ house_almoravid = { # Almoravid
 	}
 
 }
+7277 = { # Zayyanid of Tlemcen
+	pattern="pattern_solid.dds"
+	color1=rgb { 10 42 97 }
+	color2=white
+	color3=blue
+	colored_emblem={
+		color1=white
+		texture="ce_crescent_mask.dds"
+		instance={
+			position={ 0.470000 0.480000 }
+			scale={ 0.700000 0.700000 }
+			rotation=80
+		}
 
+	}
+
+}
+7276 = { # Hafsid of Africa
+	pattern="pattern__solid_designer.dds"
+	color1=yellow_light
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=rgb { 255 255 255 }
+		texture="ce_crescent_random.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 0.750000 0.750000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 255 255 255 }
+		texture="ce_star_05.dds"
+		instance={
+			position={ 0.500000 0.330000 }
+			scale={ 0.360000 0.360000 }
+			rotation=45
+		}
+
+	}
+}
+1027012={ # Banu Tudjin / Tudjinid
+	pattern="pattern__solid_designer.dds"
+	color1=yellow
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=black
+		texture="tib_arabic_shahada_maghrebi_shrinked.dds"
+		instance={
+			position={ 0.500000 0.430000 }
+			scale={ 0.820000 0.820000 }
+		}
+
+		instance={
+			position={ 0.500000 0.430000 }
+			scale={ 0.810000 0.810000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		color2=black
+		texture="ce_mena_ceremonial_sword.dds"
+		instance={
+			position={ 0.550000 0.790000 }
+			scale={ 0.400000 -0.400000 }
+			depth=2.010000
+			rotation=150
+		}
+
+		instance={
+			position={ 0.450000 0.790000 }
+			scale={ 0.400000 0.400000 }
+			depth=3.010000
+			rotation=30
+		}
+
+	}
+
+}
 
 # Africa
-1030002 = {
+1030002 = { # Mali
 	pattern="pattern__solid_designer.dds"
 	color1=rgb { 160 20 0 }
 	color2=yellow

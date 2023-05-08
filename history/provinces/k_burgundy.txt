@@ -5,6 +5,9 @@
 	culture = occitan
 	religion = catholic
 	holding = castle_holding
+	1000.1.1 = {
+		culture = provencal
+	}
 }
 2062 = {	# ORANGE
 	holding = city_holding
@@ -24,6 +27,9 @@
 	culture = occitan
 	religion = catholic
 	holding = castle_holding
+	1000.1.1 = {
+		culture = provencal
+	}
 }
 2024 = {	#DRAGUIGNIAN
 	holding = none
@@ -50,6 +56,9 @@
 	culture = occitan
 	religion = catholic
 	holding = castle_holding
+	1000.1.1 = {
+		culture = provencal
+	}
 }
 2020 = {	#GRASSE
 	holding = none
@@ -75,6 +84,9 @@
 	culture = occitan
 	religion = catholic
 	holding = castle_holding
+	1000.1.1 = {
+		culture = provencal
+	}
 }
 2060 = {	#APT
 	holding = city_holding
@@ -95,7 +107,7 @@
 ##d_savoie ###################################
 ###c_savoie
 2031 = {	#MOUTIERS
-	culture = bourguignon
+	culture = arpitan_ce
 	religion = catholic
 	holding = castle_holding
 }
@@ -117,7 +129,7 @@
 
 ###c_aosta
 2039 = {	#AOSTA
-	culture = cisalpine
+	culture = arpitan_ce
 	religion = catholic
 	holding = castle_holding
 }
@@ -127,7 +139,7 @@
 
 ###c_geneva
 2035 = {	#GENEVA
-	culture = bourguignon
+	culture = arpitan_ce
 	religion = catholic
 	holding = castle_holding
 }
@@ -150,7 +162,7 @@
 
 ###c_canavese
 2040 = {	#IVREA
-	culture = cisalpine
+	culture = arpitan_ce
 	religion = catholic
 	holding = castle_holding
 }
@@ -167,7 +179,7 @@
 ##d_dauphine ###################################
 ###c_lyon
 2065 = {	#LYON
-	culture = bourguignon
+	culture = arpitan_ce
 	religion = catholic
 	holding = castle_holding
 }
@@ -186,7 +198,7 @@
 
 ###c_forez
 2297 = {	#FEURS
-	culture = bourguignon
+	culture = arpitan_ce
 	religion = catholic
 	holding = castle_holding
 }
@@ -212,7 +224,7 @@
 
 ###c_viennois
 2030 = {	#GRENOBLE
-	culture = bourguignon
+	culture = arpitan_ce
 	religion = catholic
 	holding = castle_holding
 }

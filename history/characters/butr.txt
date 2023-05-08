@@ -3,15 +3,15 @@
 
 #Almoravids - descendants of the Lamtuna tribe
 3853 = {
-	name = "Abu Bakr"
+	name = "Abu-Bakr"
 	# AKA: Abu Bakr
-	dynasty = 7274
+	dynasty_house = house_almoravid
 	martial = 10
 	diplomacy = 7
 	intrigue = 4
 	stewardship = 4
 	religion = "ashari"
-	culture = butr
+	culture = tagelmust
 	trait = education_martial_3
 	trait = calm
 	trait = just
@@ -22,6 +22,7 @@
 		birth = yes
 	}
 	1060.1.1 = {
+		
 		add_pressed_claim = title:d_fes
 		add_pressed_claim = title:d_tlemcen
 		add_pressed_claim = title:d_sevilla
@@ -41,13 +42,13 @@
 
 3855 = {
 	name = "Ismail"
-	dynasty = 7274
+	dynasty_house = house_almoravid
 	martial = 7
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 6
 	religion = "ashari"
-	culture = butr
+	culture = tagelmust
 	trait = education_martial_2
 	father = 3853
 	1057.1.1 = {
@@ -60,9 +61,9 @@
 
 32957 = {
 	name = "Umar"
-	dynasty = 7274
+	dynasty_house = house_almoravid
 	religion = "ashari"
-	culture = butr
+	culture = tagelmust
 	father = 32963
 	1011.1.1 = {
 		birth = yes
@@ -74,9 +75,9 @@
 
 32958 = {
 	name = "Yahya" #Mauretania 1055-1056
-	dynasty = 7274
+	dynasty_house = house_almoravid
 	religion = "ashari"
-	culture = butr
+	culture = tagelmust
 	father = 32957
 	1028.1.1 = {
 		birth = yes
@@ -88,9 +89,9 @@
 
 32962 = {
 	name = "Tashfin"
-	dynasty = 7274
+	dynasty_house = house_almoravid
 	religion = "ashari"
-	culture = butr
+	culture = tagelmust
 	father = 32963
 	1016.1.1 = {
 		birth = yes
@@ -102,9 +103,9 @@
 
 32963 = {
 	name = "Ibrahim"
-	dynasty = 7274
+	dynasty_house = house_almoravid
 	religion = "ashari"
-	culture = butr
+	culture = tagelmust
 	father = 155077
 	992.1.1 = {
 		birth = yes
@@ -116,11 +117,11 @@
 
 32964 = {
 	name = "Yahya" #Maghreb 1051-1048
-	dynasty = 7274
+	dynasty_house = house_almoravid
 	religion = "ashari"
-	culture = butr
+	culture = tagelmust
 	father = 32963
-	1015.1.1 = {
+	1008.1.1 = {
 		birth = yes
 	}
 	1048.1.1 = {
@@ -130,13 +131,13 @@
 
 32965 = {
 	name = "Yusuf" #Maghreb 1071-1106
-	dynasty = 7274
+	dynasty_house = house_almoravid
 	martial = 9
 	diplomacy = 8
 	intrigue = 5
 	stewardship = 7
 	religion = "ashari"
-	culture = butr
+	culture = tagelmust
 	father = 32962
 	trait = zealous
 	trait = diligent
@@ -149,6 +150,7 @@
 	}
 	1060.1.1 = {
 		add_pressed_claim = title:k_maghreb
+		
 		add_pressed_claim = title:d_fes
 		add_pressed_claim = title:d_tlemcen
 	}
@@ -177,9 +179,9 @@
 
 32966 = {
 	name = "al-Mu_izz"
-	dynasty = 7274
+	dynasty_house = house_almoravid
 	religion = "ashari"
-	culture = butr
+	culture = tagelmust
 	father = 32965
 	mother = 3856
 	1072.1.1 = {
@@ -193,9 +195,9 @@
 
 32967 = {
 	name = "Fadl"
-	dynasty = 7274
+	dynasty_house = house_almoravid
 	religion = "ashari"
-	culture = butr
+	culture = tagelmust
 	father = 32965
 	mother = 3856
 	1075.1.1 = {
@@ -209,9 +211,9 @@
 
 32968 = {
 	name = "Abu-Bakr"
-	dynasty = 7274
+	dynasty_house = house_almoravid
 	religion = "ashari"
-	culture = butr
+	culture = tagelmust
 	father = 32965
 	1060.1.1 = {
 		birth = yes
@@ -224,49 +226,26 @@
 
 32969 = {
 	name = "Ali" #Mauretania 1106-1143
-	dynasty = 7274
+	dynasty_house = house_almoravid
 	religion = "ashari"
-	culture = butr
+	culture = tagelmust
 	father = 32965
-	trait = generous
-	trait = gregarious
-	trait = diligent
-	trait = intellect_good_2
-	trait = beauty_good_1 # His mother was a very beautiful Christian slave, even called as Faid al-Husn (Paragon of Beauty)
 	1080.1.1 = {
 		birth = yes
 	}
-	1100.1.1 = {
-		add_spouse = almoravid_consort_001
+	1123.1.1 = {
+		set_primary_title_to = title:k_maghreb
 	}
 	1143.1.1 = {
 		death = yes
 	}
 }
 
-almoravid_consort_001 = { 
-	name = "Daw_al_sabah"
-	female = yes
-	
-	religion = catholic
-	culture = castilian 
-	
-	1090.1.1 = {
-		birth = yes
-	}
-	1100.1.1 = {
-		religion = ashari
-	}
-	1150.1.1 = {
-		death = yes		
-	}
-}
-
 32970 = {
 	name = "Ishaq" #Mauretania 1145-1147
-	dynasty = 7274
+	dynasty_house = house_almoravid
 	religion = "ashari"
-	culture = butr
+	culture = tagelmust
 	father = 32969
 	1100.1.1 = {
 		birth = yes
@@ -278,16 +257,11 @@ almoravid_consort_001 = {
 }
 
 32971 = {
-	name = "Tashfin" #Mauretania 1143-1145 / Almoravid
-	dynasty = 7274
+	name = "Tashfin" #Mauretania 1143-1145
+	dynasty_house = house_almoravid
 	religion = "ashari"
-	culture = butr
+	culture = tagelmust
 	father = 32969
-	mother = almoravid_consort_001
-	trait = brave
-	trait = diligent
-	trait = compassionate
-	trait = education_martial_3
 	1103.1.1 = {
 		birth = yes
 	}
@@ -299,9 +273,9 @@ almoravid_consort_001 = {
 
 32972 = {
 	name = "Ibrahim" #Mauretania 1145-1145
-	dynasty = 7274
+	dynasty_house = house_almoravid
 	religion = "ashari"
-	culture = butr
+	culture = tagelmust
 	father = 32971
 	1135.1.1 = {
 		birth = yes
@@ -313,9 +287,9 @@ almoravid_consort_001 = {
 
 155073 = {
 	name = "Muhammad"
-	dynasty = 7274
+	dynasty_house = house_almoravid
 	religion = "ashari"
-	culture = butr
+	culture = tagelmust
 	father = 155077
 	1000.1.1 = {
 		birth = yes
@@ -326,9 +300,9 @@ almoravid_consort_001 = {
 }
 155074 = {
 	name = "al-Hajj"
-	dynasty = 7274
+	dynasty_house = house_almoravid
 	religion = "ashari"
-	culture = butr
+	culture = tagelmust
 	father = 155073
 	1033.1.1 = {
 		birth = yes
@@ -339,9 +313,9 @@ almoravid_consort_001 = {
 }
 155075 = {
 	name = "Muhammad" #ibn al-Hajj
-	dynasty = 7274
+	dynasty_house = house_almoravid
 	religion = "ashari"
-	culture = butr
+	culture = tagelmust
 	father = 155074
 	1075.1.1 = {
 		birth = yes
@@ -352,9 +326,9 @@ almoravid_consort_001 = {
 }
 155076 = {
 	name = "Abu-Bakr"
-	dynasty = 7274
+	dynasty_house = house_almoravid
 	religion = "ashari"
-	culture = butr
+	culture = tagelmust
 	father = 32962
 	1042.1.1 = {
 		birth = yes
@@ -366,9 +340,9 @@ almoravid_consort_001 = {
 
 155077 = {
 	name = "Turjut"
-	dynasty = 7274
+	dynasty_house = house_almoravid
 	religion = "ashari"
-	culture = butr
+	culture = tagelmust
 	father = 273077
 	973.1.1 = {
 		birth = yes
@@ -379,9 +353,9 @@ almoravid_consort_001 = {
 }
 155078 = {
 	name = "Hamid"
-	dynasty = 7274
+	dynasty_house = house_almoravid
 	religion = "ashari"
-	culture = butr
+	culture = tagelmust
 	father = 155077
 	998.1.1 = {
 		birth = yes
@@ -392,9 +366,9 @@ almoravid_consort_001 = {
 }
 155079 = {
 	name = "Tilankan"
-	dynasty = 7274
+	dynasty_house = house_almoravid
 	religion = "ashari"
-	culture = butr
+	culture = tagelmust
 	father = 155078
 	1020.1.1 = {
 		birth = yes
@@ -405,9 +379,9 @@ almoravid_consort_001 = {
 }
 155080 = {
 	name = "Mazdali"
-	dynasty = 7274
+	dynasty_house = house_almoravid
 	religion = "ashari"
-	culture = butr
+	culture = tagelmust
 	father = 155079
 	1050.1.1 = {
 		birth = yes
@@ -418,9 +392,9 @@ almoravid_consort_001 = {
 }
 155081 = {
 	name = "Abd-_Allah"
-	dynasty = 7274
+	dynasty_house = house_almoravid
 	religion = "ashari"
-	culture = butr
+	culture = tagelmust
 	father = 155080
 	1070.1.1 = {
 		birth = yes
@@ -432,9 +406,9 @@ almoravid_consort_001 = {
 
 155082 = {
 	name = "Abu-Bakr"
-	dynasty = 7274
+	dynasty_house = house_almoravid
 	religion = "ashari"
-	culture = butr
+	culture = tagelmust
 	father = 155080
 	1075.1.1 = {
 		birth = yes
@@ -446,9 +420,9 @@ almoravid_consort_001 = {
 
 155083 = {
 	name = "Yahya"
-	dynasty = 7274
+	dynasty_house = house_almoravid
 	religion = "ashari"
-	culture = butr
+	culture = tagelmust
 	father = 32968
 	1080.1.1 = {
 		birth = yes
@@ -460,9 +434,9 @@ almoravid_consort_001 = {
 
 224013 = {
 	name = "Yahya"
-	dynasty = 7274
+	dynasty_house = house_almoravid
 	religion = "ashari"
-	culture = butr
+	culture = tagelmust
 	trait = calm
 	trait = education_intrigue_2
 	father = 32965
@@ -476,9 +450,9 @@ almoravid_consort_001 = {
 
 155036 = {
 	name = "Syr" #ibn Abu-Bakr ibn Tashfin
-	dynasty = 7274
+	dynasty_house = house_almoravid
 	religion = "ashari"
-	culture = butr
+	culture = tagelmust
 	father = 155076
 	1059.1.1 = {
 		birth = yes
@@ -490,9 +464,9 @@ almoravid_consort_001 = {
 155069 = {
 	name = "Ghaniya"
 	female = yes
-	dynasty = 7274
+	dynasty_house = house_almoravid
 	religion = "ashari"
-	culture = butr
+	culture = tagelmust
 	father = 155036 #speculative
 	1080.1.1 = {
 		birth = yes
@@ -535,7 +509,7 @@ almoravid_consort_001 = {
 	name = "Al-Khattab" #semi-historical
 	dynasty = 1059963
 	religion = ibadi
-	culture = butr
+	culture = tuareg
 	850.1.1 = {
 		birth = yes
 	}
@@ -547,7 +521,7 @@ almoravid_consort_001 = {
 	name = "Abdallah_ibn_al_Khattab_al_Hawwari" #historical founder of the Banu Khatt? tribe/dynasty lived in 918
 	dynasty = 1059963
 	religion = ibadi
-	culture = butr
+	culture = tuareg
 	father = 248790
 	880.1.1 = {
 		birth = yes
@@ -560,7 +534,7 @@ almoravid_consort_001 = {
 	name = "Abdallah" #fictional son of historical founder of the Banu Khatt? tribe/dynasty
 	dynasty = 1059963
 	religion = ibadi
-	culture = butr
+	culture = tuareg
 	father = 248791
 	910.1.1 = {
 		birth = yes
@@ -573,7 +547,7 @@ almoravid_consort_001 = {
 	name = "ThakI_ya" #placeholder
 	dynasty = 1059963
 	religion = ibadi
-	culture = butr
+	culture = tuareg
 	father = 248792
 	945.1.1 = {
 		birth = yes
@@ -586,7 +560,7 @@ almoravid_consort_001 = {
 	name = "Abdallah" #placeholder
 	dynasty = 1059963
 	religion = ibadi
-	culture = butr
+	culture = tuareg
 	father = 248793
 	980.1.1 = {
 		birth = yes
@@ -599,7 +573,7 @@ almoravid_consort_001 = {
 	name = "Isma_il" #placeholder
 	dynasty = 1059963
 	religion = ibadi
-	culture = butr
+	culture = tuareg
 	father = 248794
 	1015.1.1 = {
 		birth = yes
@@ -612,7 +586,7 @@ almoravid_consort_001 = {
 	name = "ThakI_ya" #placeholder
 	dynasty = 1059963
 	religion = ibadi
-	culture = butr
+	culture = tuareg
 	father = 248795
 	1040.1.1 = {
 		birth = yes
@@ -625,7 +599,7 @@ almoravid_consort_001 = {
 	name = "Abdallah" #placeholder
 	dynasty = 1059963
 	religion = ibadi
-	culture = butr
+	culture = tuareg
 	father = 248796
 	1072.1.1 = {
 		birth = yes
@@ -638,7 +612,7 @@ almoravid_consort_001 = {
 	name = "Hiyan" #placeholder
 	dynasty = 1059963
 	religion = ibadi
-	culture = butr
+	culture = tuareg
 	father = 248797
 	1100.1.1 = {
 		birth = yes
@@ -651,7 +625,7 @@ almoravid_consort_001 = {
 	name = "Musa" #placeholder
 	dynasty = 1059963
 	religion = ibadi
-	culture = butr
+	culture = tuareg
 	father = 248798
 	1132.1.1 = {
 		birth = yes
@@ -902,43 +876,8 @@ almoravid_consort_001 = {
 	}
 }
 ## End of Air rulers
-260859 = {
-	name = "Mukhtar"
-	dynasty = 1062441
-	religion = ismaili
-	culture = butr
-	894.1.1 = {
-		birth = yes
-	}
-	938.1.1 = {
-		death = yes
-	}
-}
-260861 = {
-	name = "Abu_Yazid"
-	dynasty = 1062442
-	religion = sufri
-	culture = butr
-	873.1.1 = {
-		birth = yes
-	}
-	943.8.19 = {
-		death = yes
-	}
-}
-260862 = {
-	name = "Azrur"
-	dynasty = 1062442
-	religion = sufri
-	culture = butr
-	father = 260861
-	901.1.1 = {
-		birth = yes
-	}
-	943.8.19 = {
-		death = yes
-	}
-}
+
+
 260863 = {
 	name = "Ahamatu"
 	dynasty = 1062443
@@ -1039,59 +978,6 @@ almoravid_consort_001 = {
 	}
 }
 
-261371 = {
-	name = "Awdia"
-	dynasty = 1062604
-	culture = butr
-	religion = ashari
-	895.1.1 = {
-		birth = yes
-	}
-	945.1.1 = {
-		death = yes
-	}
-}
-261372 = {
-	name = "Masnsen"
-	dynasty = 1062604
-	culture = butr
-	religion = ashari
-	father = 261371
-	924.1.1 = {
-		birth = yes
-	}
-	976.1.1 = {
-		death = yes
-	}
-}
-261373 = {
-	name = "Adelah"
-	female = yes
-	dynasty = 1062604
-	culture = butr
-	religion = ashari
-	father = 261371
-	927.1.1 = {
-		birth = yes
-	}
-	981.1.1 = {
-		death = yes
-	}
-}
-261374 = {
-	name = "Ilyas"
-	dynasty = 1062604
-	culture = butr
-	religion = ashari
-	father = 261371
-	929.1.1 = {
-		birth = yes
-	}
-	995.1.1 = {
-		death = yes
-	}
-}
-
 # historical Lamtuna kings
 
 273070 = {
@@ -1152,7 +1038,7 @@ almoravid_consort_001 = {
 }
 273074 = {
 	name = "Nizar"
-	dynasty = 1069089 #Ghusti
+	dynasty_house = house_ghusti #Ghusti
 	religion = ashari
 	culture = butr #tagelmust
 	father = 273101
@@ -1165,7 +1051,7 @@ almoravid_consort_001 = {
 }
 273075 = {
 	name = "Wanshik" #ibn Bizar
-	dynasty = 1069089 #Ghusti
+	dynasty_house = house_ghusti #Ghusti
 	religion = ashari
 	culture = butr #tagelmust
 	father = 273074
@@ -1178,7 +1064,7 @@ almoravid_consort_001 = {
 }
 273076 = {
 	name = "Tinazwa" #ibn Wanshik #AKA Tin Yarutan ibn Wisni ibn Nazar
-	dynasty = 1069089 #Ghusti
+	dynasty_house = house_ghusti #Ghusti
 	religion = ashari
 	culture = butr #tagelmust
 	father = 273075
@@ -1215,6 +1101,78 @@ almoravid_consort_001 = {
 		death = yes
 	}
 }
+#
+2730788 = {
+	name = "Wanshik" #ibn Tifawt, 1035 unites the Lamtuna
+	dynasty = 1069080 #Lamtuna
+	religion = ashari
+	culture = butr #tagelmust
+	father = 273078
+	1020.1.1 = {
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+
+2730789 = {
+	name = "al-Athir" #ibn Tifawt, 1035 unites the Lamtuna
+	dynasty = 1069080 #Lamtuna
+	religion = ashari
+	culture = butr #tagelmust
+	father = 2730788
+	1080.1.1 = {
+		birth = yes
+	}
+	1150.1.1 = {
+		death = yes
+	}
+}
+
+2730790 = {
+	name = "Tamim" #ibn Tifawt, 1035 unites the Lamtuna
+	dynasty = 1069080 #Lamtuna
+	religion = ashari
+	culture = butr #tagelmust
+	father = 2730789
+	1140.1.1 = {
+		birth = yes
+	}
+	1220.1.1 = {
+		death = yes
+	}
+}
+
+2730791 = {
+	name = "Abu-Abd_Allah_Muhammad" #ibn Tifawt, 1035 unites the Lamtuna
+	dynasty = 1069080 #Lamtuna
+	religion = ashari
+	culture = butr #tagelmust
+	father = 2730790
+	1200.1.1 = {
+		birth = yes
+	}
+	1280.1.1 = {
+		death = yes
+	}
+}
+
+2730792 = {
+	name = "Batin" #ibn Tifawt, 1035 unites the Lamtuna
+	dynasty = 1069080 #Lamtuna
+	religion = ashari
+	culture = butr #tagelmust
+	father = 2730791
+	1260.1.1 = {
+		birth = yes
+	}
+	1340.1.1 = {
+		death = yes
+	}
+}
+
+#
 273079 = {
 	name = "Abdallah" #ibn Muhammad"
 	dynasty = 1069080 #Lamtuna
@@ -1223,6 +1181,15 @@ almoravid_consort_001 = {
 	father = 273077
 	972.1.1 = {
 		birth = yes
+	}
+	1017.1.1={
+	effect = {
+		make_tributary = {
+		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
+		TRIBUTARY = character:273079
+		SUZERAIN = character:184019
+			}
+		}
 	}
 	1019.1.1 = {#?
 		death = yes
@@ -1325,7 +1292,7 @@ almoravid_consort_001 = {
 }
 273087 = {
 	name = "Ali"
-	dynasty = 7274
+	dynasty_house = house_almoravid
 	religion = ashari
 	culture = butr #tagelmust
 	father = 32958
@@ -1631,7 +1598,7 @@ almoravid_consort_001 = {
 }
 273108 = {
 	name = "Yahya" #al-Massufi, son of Abu Bakr, ruler of Saharan Almoravids
-	dynasty = 7274
+	dynasty_house = house_almoravid
 	religion = ashari
 	culture = butr #tagelmust
 	father = 3853
@@ -1643,56 +1610,9 @@ almoravid_consort_001 = {
 		death = yes
 	}
 }
-saharan_almoravid_001 = {
-	name = "Zakariya" # Fictional son of Yahya, ruler of Saharan Almoravids
-	dynasty = 7274
-	religion = ashari
-	culture = butr # tagelmust
-	father = 273108
-
-	1070.1.1 = {
-		birth = yes
-	}
-	1134.1.1 = {
-		death = yes
-	}
-}
-saharan_almoravid_002 = {
-	name = "Isa" # Fictional son of Yahya, ruler of Saharan Almoravids
-	dynasty = 7274
-	religion = ashari
-	culture = butr # tagelmust
-	father = 273108
-	trait = brave
-	trait = education_martial_2
-
-	1090.1.1 = {
-		birth = yes
-	}
-	1165.1.1 = {
-		death = yes
-	}
-}
-saharan_almoravid_003 = {
-	name = "Abu Yasin" # Fictional ruler of Saharan Almoravids
-	dynasty = 7274
-	religion = ashari
-	culture = butr # tagelmust
-	father = saharan_almoravid_002
-	trait = brave
-	trait = education_martial_3
-
-	1140.1.1 = {
-		birth = yes
-	}
-	1205.1.1 = {
-		death = yes
-	}
-}
-
 273109 = {
 	name = "Ibrahim" # son of Abu Bakr, ruled in Sijilmasa
-	dynasty = 7274
+	dynasty_house = house_almoravid
 	religion = ashari
 	culture = butr #tagelmust
 	father = 3853
@@ -2232,6 +2152,7 @@ tagelmust0016 = {
 		death = yes
 	}
 }
+# TIB Tagelmust
 tagelmust0017 = {
 	name = "Abdallah"
 	dynasty = 1069088
@@ -2326,42 +2247,29 @@ tagelmust0011 = {
 	1175.1.1 = {
 		birth = yes
 	}
-	1233.1.1 = {
+	1245.1.1 = {
 		death = yes
 	}
 }
-tagelmust0013 = {
+
+tagelmust0012 = {
 	#placeholder
-	name = "Muhammad"
+	name = "Tiljad"
 	dynasty = 1069082 #Lamta
 	religion = ashari
 	culture = butr #tagelmust
 	father = tagelmust0011
-	1196.1.1 = {
+	1200.1.1 = {
 		birth = yes
 	}
-	1249.1.1 = {
-		death = yes
-	}
-}
-tagelmust0014 = {
-	#placeholder
-	name = "Yahya"
-	dynasty = 1069082 #Lamta
-	religion = ashari
-	culture = butr #tagelmust
-	father = tagelmust0013
-	1223.1.1 = {
-		birth = yes
-	}
-	1281.1.1 = {
+	1285.1.1 = {
 		death = yes
 	}
 }
 
 #placeholder ruler of Tuat
 
-tagelmust0012 = {
+tagelmust00012 = {
 	#placeholder
 	name = "Abdallah"
 	dynasty = 1069082 #Lamta
@@ -2376,75 +2284,11 @@ tagelmust0012 = {
 	}
 }
 
-1228871 = {
-	#placeholder ruler of Tadmekka
-	name = "Seghada"
-	dynasty = 1101120 #Tánmak
-	religion = "west_african_pagan"
-	culture = "butr"
-	851.1.1 = {
-		birth = yes
-	}
-	908.1.1 = {
-		death = yes
-	}
-}
-1228872 = {
-	#placeholder ruler of Djanet
-	name = "Seghada"
-	dynasty = 1101121 #Azger
-	religion = "west_african_pagan"
-	culture = "butr"
-	845.1.1 = {
-		birth = yes
-	}
-	908.1.1 = {
-		death = yes
-	}
-}
 
-######## IBW/SWMH characters
 
-#Banú Kaldîn in Fezzan
-1228235 = {
-	name = "KaldI_n" #placeholder
-	dynasty = 1101146
-	religion = "ibadi"
-	culture = butr #zanata
-	1029.1.1 = {
-		birth = yes
-	}
-	1068.1.1 = {
-		death = yes
-	}
-}
-1228236 = {
-	name = "Ma_A_fira" #placeholder
-	dynasty = 1101146
-	religion = "ibadi"
-	culture = butr #zanata
-	father = 1228235
-	1051.1.1 = {
-		birth = yes
-	}
-	1108.1.1 = {
-		death = yes
-	}
-}
-1228237 = {
-	name = "Silya" #placeholder
-	female = yes
-	dynasty = 1101146
-	religion = "ibadi"
-	culture = butr #zanata
-	father = 1228235
-	1048.1.1 = {
-		birth = yes
-	}
-	1106.1.1 = {
-		death = yes
-	}
-}
+######## IBW/SWMH characters 
+
+
 #Rîgha rulers in Wâdî Rîgh (Mzâb)
 butr0014 = {
 	name = "ZaghlI_n" #
@@ -2458,87 +2302,11 @@ butr0014 = {
 		death = yes
 	}
 }
-1228238 = {
-	name = "YabI_d" # ibn Zaghlîn historical character in times of Aflah ibn Abd al-Wahhâb Rustamid (823-871)
-	dynasty = 1101149
-	religion = "ibadi"
-	culture = butr #zanata
-	823.1.1 = {
-		birth = yes
-	}
-	871.1.1 = {
-		death = yes
-	}
-}
-1228239 = {
-	name = "Silya" #placeholder daughter of above
-	female = yes
-	dynasty = 1101149
-	religion = "ibadi"
-	culture = butr #zanata
-	father = 1228238
-	846.1.1 = {
-		birth = yes
-	}
-	902.1.1 = {
-		death = yes
-	}
-}
 
-#Mus'ab rulers in (western)Mzâb
-1228830 = {
-	name = "Ash_ath" #placeholder
-	dynasty = 1101144
-	religion = "ibadi"
-	culture = butr #zanata
-	823.1.1 = {
-		birth = yes
-	}
-	871.1.1 = {
-		death = yes
-	}
-}
 
 #Warjîlânî rulers in Wargla
-1228831 = {
-	name = "KA_sin" #semi historical father of historical Ismâ'îl ibn Kâsin
-	dynasty = 1101260
-	religion = "ibadi"
-	culture = butr #zanata
-	846.1.1 = {
-		birth = yes
-	}
-	895.1.1 = {
-		death = yes
-	}
-}
-1228832 = {
-	name = "IsmA__I_l" # ibn Kâsin historical ibâdî ra'îs of Wargla
-	dynasty = 1101260
-	religion = "ibadi"
-	culture = butr #zanata
-	father = 1228831
-	862.1.1 = {
-		birth = yes
-	}
-	920.1.1 = {
-		death = yes
-	}
-}
 
-#Tanâta rulers in Ghadâmes
-1228833 = {
-	name = "Masnsen" #placeholder
-	dynasty = 1101142
-	religion = "ibadi"
-	culture = butr #zanata
-	840.1.1 = {
-		birth = yes
-	}
-	890.1.1 = {
-		death = yes
-	}
-}
+
 #Banú Midrar rulers in Sijilmasa
 butr0015 = {
 	name = "Midrar"
@@ -2552,165 +2320,15 @@ butr0015 = {
 		death = yes
 	}
 }
-1228834 = {
-	name = "Yasa" # ibn Midrar
-	dynasty = 1101265
-	religion = "sufri"
-	culture = butr #zanata
-	father = butr0015
-	775.1.1 = {
-		birth = yes
-	}
-	823.1.1 = {
-		death = yes
-	}
-}
-1228835 = {
-	name = "Midrar" #AKA Abu_Malik_al-Mustansir
-	dynasty = 1101265
-	religion = "sufri"
-	culture = butr #zanata
-	father = 1228834
-	800.1.1 = {
-		birth = yes
-	}
-	867.11.11 = {
-		death = yes
-	}
-}
-1228836 = {
-	name = "al-RustamI_ya"
-	dynasty = 1101265
-	religion = "sufri"
-	culture = butr #zanata
-	father = 1228834
-	801.1.1 = {
-		birth = yes
-	}
-	860.1.1 = {
-		death = yes
-	}
-}
-1228837 = {
-	name = "ThakI_ya_al-AmI_r"
-	dynasty = 1101265
-	religion = "sufri"
-	culture = butr #zanata
-	father = 1228834
-	805.1.1 = {
-		birth = yes
-	}
-	862.1.1 = {
-		death = yes
-	}
-}
-1228838 = {
-	name = "MaymU_n" #ibn al-Rustamîya
-	dynasty = 1101265
-	religion = "sufri"
-	culture = butr #zanata
-	father = 1228836
-	830.1.1 = {
-		birth = yes
-	}
-	875.1.1 = {
-		death = yes
-	}
-}
-1228839 = {
-	name = "MaymU_n" #ibn Thakîya al-Amîr
-	dynasty = 1101265
-	religion = "sufri"
-	culture = butr #zanata
-	father = 1228837
-	833.1.1 = {
-		birth = yes
-	}
-	877.1.1 = {
-		death = yes
-	}
-}
-1228840 = {
-	name = "Muhammad" #ibn Maymún
-	dynasty = 1101265
-	religion = "sufri"
-	culture = butr #zanata
-	father = 1228839
-	853.1.1 = {
-		birth = yes
-	}
-	883.1.1 = {
-		death = yes
-	}
-}
-1228841 = {
-	name = "Yasa" #ibn Midrar
-	dynasty = 1101265
-	religion = "sufri"
-	culture = butr #zanata
-	father = 1228835
-	833.1.1 = {
-		birth = yes
-	}
-	909.1.1 = {
-		death = yes
-	}
-}
 
-#placeholders for sub-Saharan Berber outposts
-1228842 = {
-	name = "As-Samh"
-	dynasty = 1101145
-	religion = "ibadi"
-	culture = butr #zanata
-	790.1.1 = {
-		birth = yes
-	}
-	830.1.1 = {
-		death = yes
-	}
-}
+
+
+
 
 #Rulers of Masin
-1228855 = {
-	name = "ThakI_ya"
-	dynasty = 1101266
-	religion = "ibadi"
-	culture = butr #zanata
-	1028.1.1 = {
-		birth = yes
-	}
-	1090.1.1 = {
-		death = yes
-	}
-}
-1228856 = {
-	name = "Yasa"
-	dynasty = 1101266
-	religion = "ibadi"
-	culture = butr #zanata
-	father = 1228855
-	1053.1.1 = {
-		birth = yes
-	}
-	1110.1.1 = {
-		death = yes
-	}
-}
+
 
 #Tehlawa placeholder for Touar
-1144553 = {
-	name = "Amawal" #1066 - Tuat
-	dynasty = 1053592
-	religion = "ashari"
-	culture = butr
-	1049.8.5 = {
-		birth = yes
-	}
-	1111.11.11 = {
-		death = yes
-	}
-}
 
 # Awlad Sidi Abid of Tamentit (Hoggar)
 1144669 = {
@@ -2905,6 +2523,7 @@ butr0015 = {
 	dynasty = 1027001
 	religion = "ashari"
 	culture = butr #zanata
+	father = 155009
 	1020.1.1 = {
 		birth = yes
 	}
@@ -2944,215 +2563,12 @@ butr0015 = {
 	#placeholder
 	dynasty = 1027001
 	religion = "ashari"
-	culture = butr #zanata
+	culture = baranis #zanata
 	father = 155009
 	1025.1.1 = {
 		birth = yes
 	}
 	1083.1.1 = {
-		death = yes
-	}
-}
-
-
-1236438 = {
-	name = "Hafs" #name fictional
-	dynasty = 1027001
-	religion = "ashari"
-	culture = butr #zanata
-	833.1.1 = {
-		birth = yes
-	}
-	888.1.1 = {
-		death=yes
-	}
-}
-1236307 = {
-	name = "Khazar"
-	dynasty = 1027001
-	religion = ashari
-	culture = butr #zanata
-	father = 1236438
-	856.1.1 = {
-		birth = yes
-	}
-	
-	910.1.1 = {
-		death = yes
-	}
-}
-1236308 = {
-	name = "Khazrun"
-	dynasty = 1027001
-	religion = ashari
-	culture = butr #zanata
-	father = 1236307
-	904.1.1 = {
-		birth = yes
-	}
-	
-	979.1.1 = {
-		death = yes
-	}
-}
-1236309 = {
-	name = "Wanudin"
-	dynasty = 1027001
-	religion = ashari
-	culture = butr #zanata
-	father = 1236308
-	940.1.1 = {
-		birth = yes
-	}
-	
-	1020.1.1 = {
-		death = yes
-	}
-}
-1236310 = {
-	name = "Yasal"
-	dynasty = 1027001
-	religion = ashari
-	culture = butr #zanata
-	father = 1236307
-	906.1.1 = {
-		birth = yes
-	}
-	
-	961.1.1 = {
-		death = yes
-	}
-}
-1236311 = {
-	name = "Hamid"
-	dynasty = 1027001
-	religion = ashari
-	culture = butr #zanata
-	father = 1236310
-	946.1.1 = {
-		birth = yes
-	}
-	
-	999.1.1 = {
-		death = yes
-	}
-}
-1236312 = {
-	name = "Masud"
-	dynasty = 1027001
-	religion = ashari
-	culture = butr #zanata
-	father = 1236309
-	982.1.1 = {
-		birth = yes
-	}
-	
-	1055.1.1 = {
-		death = {
-			death_reason = death_battle
-			killer = 32965
-		}
-	}
-}
-1236313 = {
-	name = "Ali"
-	dynasty = 1027001
-	religion = ashari
-	culture = butr #zanata
-	father = 155120
-	960.1.1 = {
-		birth = yes
-	}
-	
-	1020.1.1 = {
-		death = yes
-	}
-}
-1236314 = {
-	name = "Yusuf"
-	dynasty = 1027001
-	religion = ashari
-	culture = butr #zanata
-	father = 1236313
-	986.1.1 = {
-		birth = yes
-	}
-	
-	1040.1.1 = {
-		death = yes
-	}
-}
-1236315 = {
-	name = "Lakut"
-	dynasty = 1027001
-	religion = ashari
-	culture = butr #zanata
-	father = 1236314
-	1010.1.1 = {
-		birth = yes
-	}
-	
-	1058.1.1 = {
-		death = yes
-	}
-}
-1236379 = {
-	name = "Muhammad" #b. Khazar, Maghrawa emir by 922-ca. 955
-	dynasty = 1027001
-	religion = ashari
-	culture = butr #zanata
-	father = 1236307
-	trait = "strong" #lived a long life + active military career
-	881.1.1 = {
-		birth = yes
-	}
-	955.1.1 = {
-		religion = "ismaili"
-	}
-	962.1.1 = { #was supposedly more than 100 years old
-		death = yes
-	}
-}
-1236380 = {
-	name = "al-Khayr"
-	dynasty = 1027001
-	religion = ashari
-	culture = butr #zanata
-	father = 1236379
-	904.1.1 = {
-		birth = yes
-	}
-	
-	961.1.1 = {
-		death = yes
-	}
-}
-1236381 = {
-	name = "Muhammad"
-	dynasty = 1027001
-	religion = ashari
-	culture = butr #zanata
-	father = 1236380
-	924.1.1 = {
-		birth = yes
-	}
-	
-	971.2.15 = {
-		death = { #killed himself while fighting against Buluggin
-			death_reason = death_suicide
-		}
-	}
-}
-1236382 = {
-	name = "Ya_la"
-	dynasty = 1027001
-	religion = ashari
-	culture = butr #zanata
-	father = 1236381
-	971.1.1 = {
-		birth = yes
-	}
-	1037.1.1 = {
 		death = yes
 	}
 }
@@ -3329,27 +2745,17 @@ butr0013 = {
 		death = yes
 	}
 }
-egyptianbutr0001 = {
-	name = "Khalid" # fictional
+
+butr00133 = {
+	name = "_IsA_" # fictional
+	dynasty = butrdyn001
 	religion = ashari
-	culture = butr # Egyptian Amazigh
-	trait = education_martial_2
-	1237.1.1 = {
+	culture = butr #tagelmust
+	father = butr0013
+	1195.1.1 = {
 		birth = yes
 	}
-	1297.1.1 = {
-		death = yes
-	}
-}
-egyptianbutr0002 = {
-	name = "Uthman" # fictional
-	religion = ashari
-	culture = butr # Egyptian Amazigh
-	trait = education_stewardship_2
-	1239.1.1 = {
-		birth = yes
-	}
-	1301.1.1 = {
+	1265.1.1 = {
 		death = yes
 	}
 }

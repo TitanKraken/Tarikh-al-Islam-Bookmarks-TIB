@@ -170,7 +170,7 @@
 	trait = education_martial_3
 	trait = varangian
 	trait = berserker
-	sexuality = heterosexual
+	sexuality = heterosexual					 
 	father = 102500
 	mother = 102501
 	1015.1.2 = {
@@ -185,8 +185,10 @@
 	1066.1.5 = {
 		add_pressed_claim = title:k_england
 		give_nickname = nick_haardraade
-		set_relation_lover = character:102551 #Thora Torbergsdatter, historically actually married to harald, mother to at least two of his children
-		set_relation_rival = character:101515 #King Svend II Ulfsen, at war for a long time
+		effect = {
+			set_relation_lover = { reason = lover_history target = character:102551 } #Thora Torbergsdatter, historically actually married to harald, mother to at least two of his children
+			set_relation_rival = { reason = rival_historical target = character:101515 } #King Svend II Ulfsen, at war for a long time
+		}
 	}
 
 	1066.9.14 = {
@@ -695,6 +697,9 @@
 	1017.1.2 = {
 		birth = yes
 	}
+	1035.1.1={
+		culture=icelandic
+	}
 	1047.1.1 = {
 		employer = 102529
 		move_to_pool = yes
@@ -715,6 +720,7 @@
 	culture = "norwegian"
 	trait = calm
 	trait = education_intrigue_2
+	father = 1228172
 	1020.1.2 = {
 		birth = yes
 	}
@@ -798,7 +804,7 @@
 	name = "Teitur"
 	dynasty = 101891
 	religion = "catholic"
-	culture = "norse"
+	culture = "icelandic"
 	father = 20579
 	1041.1.1 = {
 		birth = "1041.1.1"
@@ -812,7 +818,7 @@
 	name = "Hallur"
 	dynasty = 101891
 	religion = "catholic"
-	culture = "norwegian"
+	culture = "icelandic"
 	father = 144632
 	1075.1.1 = {
 		birth = "1075.1.1"
@@ -826,7 +832,7 @@
 	name = "Gissur"
 	dynasty = 101891
 	religion = "catholic"
-	culture = "norwegian"
+	culture = "icelandic"
 	father = 202012
 	1208.1.1 = {
 		birth = "1208.1.1"
@@ -1030,7 +1036,7 @@
 
 202005 = {
 	name = "Jon"
-	dynasty = 499
+	dynasty_house = house_gille
 	martial = 6
 	diplomacy = 4
 	intrigue = 5
@@ -1133,7 +1139,7 @@
 	intrigue = 5
 	stewardship = 5
 	religion = "catholic"
-	culture = "norwegian"
+	culture = "icelandic"
 	trait = deceitful
 	trait = education_diplomacy_2
 	father = 144633
@@ -1153,7 +1159,7 @@
 	intrigue = 6
 	stewardship = 5
 	religion = "catholic"
-	culture = "norwegian"
+	culture = "icelandic"
 	trait = generous
 	trait = calm
 	trait = education_learning_2
@@ -1248,12 +1254,13 @@
 202019 = {
 	name = "Ragnheid"
 	female = yes
+	dynasty = 101908
 	martial = 4
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 5
 	religion = "catholic"
-	culture = "norwegian"
+	culture = "icelandic"
 	trait = lustful
 	trait = gluttonous
 	trait = education_diplomacy_3
@@ -1335,13 +1342,13 @@
 202023 = {
 	name = "Sigrid"
 	female = yes
-	dynasty = 101892
+	dynasty = 480
 	martial = 5
 	diplomacy = 8
 	intrigue = 7
 	stewardship = 8
 	religion = "catholic"
-	culture = "norwegian"
+	culture = "icelandic"
 	trait = education_intrigue_1
 	father = 202024
 	mother = 202025
@@ -1356,13 +1363,13 @@
 202024 = {
 	name = "JO_n"
 	# AKA: Jon
-	dynasty = 101892
+	dynasty = 480
 	martial = 6
 	diplomacy = 8
 	intrigue = 7
 	stewardship = 8
 	religion = "catholic"
-	culture = "norwegian"
+	culture = "icelandic"
 	trait = calm
 	trait = just
 	trait = education_learning_2
@@ -1390,7 +1397,7 @@
 	intrigue = 7
 	stewardship = 8
 	religion = "catholic"
-	culture = "norwegian"
+	culture = "icelandic"
 	trait = education_intrigue_1
 	1130.1.1 = {
 		birth = "1130.1.1"
@@ -1402,13 +1409,13 @@
 
 202026 = {
 	name = "Loftur"
-	dynasty = 101892
+	dynasty = 480
 	martial = 6
 	diplomacy = 5
 	intrigue = 7
 	stewardship = 6
 	religion = "catholic"
-	culture = "norwegian"
+	culture = "icelandic"
 	trait = education_learning_3
 	father = 20581
 	1076.1.1 = {
@@ -1446,13 +1453,13 @@
 202028 = {
 	name = "SE_mund"
 	# AKA: Saemund
-	dynasty = 101892
+	dynasty = 480
 	martial = 4
 	diplomacy = 7
 	intrigue = 5
 	stewardship = 6
 	religion = "catholic"
-	culture = "norwegian"
+	culture = "icelandic"
 	trait = humble
 	trait = honest
 	trait = calm
@@ -1470,13 +1477,13 @@
 202029 = {
 	name = "PA_ll"
 	# AKA: Pall
-	dynasty = 101892
+	dynasty = 480
 	martial = 6
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 4
 	religion = "catholic"
-	culture = "norwegian"
+	culture = "icelandic"
 	trait = bastard
 	trait = honest
 	trait = chaste
@@ -1494,7 +1501,7 @@
 202030 = {
 	name = "BA_rd"
 	# AKA: Baard
-	dynasty_house = 2033
+	dynasty_house = house_reingodwin
 	martial = 5
 	diplomacy = 8
 	intrigue = 7
@@ -1536,7 +1543,7 @@
 
 202032 = {
 	name = "Inge"
-	dynasty_house = 2033 # Rein
+	dynasty_house = house_reingodwin
 	martial = 6
 	diplomacy = 5
 	intrigue = 7
@@ -1577,7 +1584,7 @@
 202034 = {
 	name = "Skule"
 	# AKA: Skule Baardsson
-	dynasty_house = 2033
+	dynasty_house = house_reingodwin
 	martial = 7
 	diplomacy = 5
 	intrigue = 4
@@ -1600,7 +1607,7 @@
 	name = "Margareta" #Margrete Skulesdotter
 	# AKA: Margareta Skulesdotter
 	female = yes
-	dynasty_house = 2033
+	dynasty_house = house_reingodwin
 	martial = 4
 	diplomacy = 7
 	intrigue = 7
@@ -1619,7 +1626,7 @@
 
 202040 = {
 	name = "Guttorm"
-	dynasty_house = 2033
+	dynasty_house = house_reingodwin
 	martial = 5
 	diplomacy = 8
 	intrigue = 7
@@ -1683,7 +1690,7 @@
 202043 = {
 	name = "Ingrid"
 	female = yes
-	dynasty_house = 2033
+	dynasty_house = house_reingodwin
 	martial = 5
 	diplomacy = 7
 	intrigue = 7
@@ -1744,7 +1751,7 @@
 	1156.1.1 = {
 		birth = "1156.1.1"
 	}
-	1172.1.1 = {
+	1166.1.1 = {
 		add_spouse = 161128
 	}
 	1184.1.16 = {
@@ -1795,7 +1802,7 @@
 
 202500 = {
 	name = "Sverre"
-	dynasty = 499
+	dynasty_house = house_sverre
 	martial = 9
 	diplomacy = 5
 	intrigue = 6
@@ -1806,6 +1813,7 @@
 	trait = cynical
 	trait = just
 	trait = education_learning_2
+	trait = legitimized_bastard						
 	father = 202501
 	1152.1.1 = {
 		birth = "1152.1.1"
@@ -1823,7 +1831,7 @@
 
 202501 = {
 	name = "Sigurd" # 'Munn'
-	dynasty = 499
+	dynasty_house = house_gille
 	martial = 4
 	diplomacy = 4
 	intrigue = 4
@@ -1845,7 +1853,7 @@
 202502 = {
 	name = "HA_kon"
 	# AKA: Haakon
-	dynasty = 499
+	dynasty_house = house_sverre
 	martial = 4
 	diplomacy = 7
 	intrigue = 7
@@ -1865,7 +1873,7 @@
 
 202503 = {
 	name = "Sigurd" # Lavard
-	dynasty = 499
+	dynasty_house = house_sverre
 	martial = 5
 	diplomacy = 8
 	intrigue = 4
@@ -1888,7 +1896,7 @@
 202504 = {
 	name = "Ingeborg"
 	female = yes
-	dynasty = 499
+	dynasty_house = house_sverre
 	martial = 4
 	diplomacy = 8
 	intrigue = 8
@@ -1912,7 +1920,7 @@
 202505 = {
 	name = "Cecilia"
 	female = yes
-	dynasty = 499
+	dynasty_house = house_sverre
 	martial = 8
 	diplomacy = 5
 	intrigue = 8
@@ -1933,7 +1941,7 @@
 202506 = {
 	name = "Cecilia"
 	female = yes
-	dynasty = 499
+	dynasty_house = house_gille
 	martial = 6
 	diplomacy = 6
 	intrigue = 6
@@ -1955,7 +1963,7 @@
 202507 = {
 	name = "Haakon"
 	# AKA: Haakon Herdebrei
-	dynasty = 499
+	dynasty_house = house_gille
 	martial = 6
 	diplomacy = 4
 	intrigue = 5
@@ -1976,7 +1984,7 @@
 202508 = {
 	name = "Guttorm"
 	# AKA: Guttorm Sigurdsson
-	dynasty = 499
+	dynasty_house = house_sverre
 	martial = 5
 	diplomacy = 5
 	intrigue = 3
@@ -1995,7 +2003,7 @@
 202509 = {
 	name = "HA_kon"
 	# AKA: Haakon Haakonson
-	dynasty = 499
+	dynasty_house = house_sverre
 	martial = 4
 	diplomacy = 6
 	intrigue = 7
@@ -2008,17 +2016,18 @@
 	1204.1.1 = {
 		birth = "1204.1.1"
 	}
-	1230.1.1 = {
+	1229.1.1 = {
 		add_spouse = 202035 # Margareta Skulesdotter
 	}
 	1263.12.15 = {
 		death = "1263.12.15"
+		give_nickname = nick_the_old
 	}
 }
 
 202510 = {
 	name = "Harald" # Gille
-	dynasty = 499
+	dynasty_house = house_gille
 	martial = 5
 	diplomacy = 5
 	intrigue = 4
@@ -2055,6 +2064,7 @@
 	father = 102534 # Olaf Kyrre
 	1073.1.1 = {
 		birth = "1073.1.1"
+		give_nickname = nick_the_barefoot
 	}
 	1101.1.1 = {
 		add_spouse = 200494 # Margareta Ingesdotter
@@ -2067,7 +2077,7 @@
 
 202512 = {
 	name = "Inge" # Krokrygg
-	dynasty = 499
+	dynasty_house = house_gille
 	martial = 6
 	diplomacy = 6
 	intrigue = 4
@@ -2092,7 +2102,7 @@
 202513 = {
 	name = "Brigida"
 	female = yes
-	dynasty = 499
+	dynasty_house = house_gille
 	martial = 6
 	diplomacy = 4
 	intrigue = 4
@@ -2114,7 +2124,7 @@
 202514 = {
 	name = "O_ystein"
 	# AKA: Oystein Haraldsson
-	dynasty = 499
+	dynasty_house = house_gille
 	martial = 6
 	diplomacy = 6
 	intrigue = 4
@@ -2232,6 +2242,9 @@
 	1006.1.1 = {
 		birth = "1006.1.1"
 	}
+	1035.1.1={
+		culture = icelandic
+	}
 	1080.6.5 = {
 		death = "1080.6.5"
 	}
@@ -2239,13 +2252,13 @@
 
 20580 = {
 	name = "Sigfus"
-	dynasty = 101892
+	dynasty = 480
 	martial = 8
 	diplomacy = 8
 	intrigue = 4
 	stewardship = 5
 	religion = "catholic"
-	culture = "norse"
+	culture = "icelandic"
 	trait = greedy
 	trait = arbitrary
 	trait = calm
@@ -2254,6 +2267,11 @@
 	1038.1.1 = {
 		birth = "1038.1.1"
 	}
+	1065.1.1 = {
+		employer = 20579
+		effect = {
+		}
+	}
 	1088.1.1 = {
 		death = "1088.1.1"
 	}
@@ -2261,13 +2279,13 @@
 
 20581 = {
 	name = "Saemundr"
-	dynasty = 101892
+	dynasty = 480
 	martial = 7
 	diplomacy = 8
 	intrigue = 7
 	stewardship = 7
 	religion = "catholic"
-	culture = "norwegian"
+	culture = "icelandic"
 	trait = education_learning_2
 	father = 20580
 	1056.1.1 = {
@@ -2287,7 +2305,7 @@
 	intrigue = 5
 	stewardship = 3
 	religion = "catholic"
-	culture = "norwegian"
+	culture = "gall_goidel"
 	trait = temperate
 	trait = lustful
 	trait = education_diplomacy_3
@@ -2338,7 +2356,7 @@
 	intrigue = 5
 	stewardship = 4
 	religion = "catholic"
-	culture = "norwegian"
+	culture = "gall_goidel"
 	trait = greedy
 	trait = cynical
 	trait = education_learning_2
@@ -2365,7 +2383,7 @@
 	intrigue = 5
 	stewardship = 4
 	religion = "catholic"
-	culture = "norwegian"
+	culture = "gall_goidel"
 	trait = greedy
 	trait = arrogant
 	trait = education_martial_2
@@ -2391,7 +2409,7 @@
 	intrigue = 5
 	stewardship = 4
 	religion = "catholic"
-	culture = "norwegian"
+	culture = "gall_goidel"
 	father = 5788
 	1095.1.1 = {
 		birth = "1095.1.1"
@@ -2413,7 +2431,7 @@
 	intrigue = 5
 	stewardship = 4
 	religion = "catholic"
-	culture = "norwegian"
+	culture = "gall_goidel"
 	father = 220036
 	1095.1.1 = {
 		birth = "1095.1.1"
@@ -2432,7 +2450,7 @@
 	intrigue = 5
 	stewardship = 4
 	religion = "catholic"
-	culture = "norwegian"
+	culture = "gall_goidel"
 	father = 220023
 	mother = 220025
 	1117.1.11 = {
@@ -2556,7 +2574,7 @@
 	intrigue = 5
 	stewardship = 4
 	religion = "catholic"
-	culture = "norwegian"
+	culture = "gall_goidel"
 	trait = wrathful
 	trait = education_stewardship_2
 	father = 220021
@@ -2578,7 +2596,7 @@
 	intrigue = 5
 	stewardship = 4
 	religion = "catholic"
-	culture = "norwegian"
+	culture = "gall_goidel"
 	father = 220022
 	mother = 220047
 	1186.1.1 = {
@@ -2868,6 +2886,7 @@
 	mother = 450662
 	1312.1.2 = {
 		birth = "1312.1.2"
+		add_pressed_claim = title:k_norway					  
 	}
 	1362.1.2 = {
 		death = "1362.1.2"
@@ -2901,7 +2920,7 @@
 	name = "Agnes"
 	# AKA: Agnes Hakonsdotter
 	female = yes
-	dynasty = 499
+	dynasty_house = house_sverre
 	martial = 6
 	diplomacy = 4
 	intrigue = 8
@@ -2937,6 +2956,7 @@
 	mother = 450662
 	1315.1.2 = {
 		birth = "1315.1.2"
+		add_pressed_claim = title:k_norway				  
 	}
 	1365.1.2 = {
 		death = "1365.1.2"
@@ -3643,7 +3663,7 @@
 	name = "Ingeborg"
 	# AKA: Ingeborg Hakonsdotter
 	female = yes
-	dynasty = 499
+	dynasty_house = house_sverre
 	martial = 8
 	diplomacy = 6
 	intrigue = 7
@@ -3667,7 +3687,7 @@
 452510 = {
 	name = "HA_kon" # Magnusson
 	# AKA: Hakon
-	dynasty = 499
+	dynasty_house = house_sverre
 	martial = 4
 	diplomacy = 4
 	intrigue = 4
@@ -4068,7 +4088,7 @@
 	intrigue = 4
 	stewardship = 5
 	religion = "catholic"
-	culture = "norwegian"
+	culture = "gall_goidel"
 	trait = education_intrigue_2
 	father = 5793
 	1051.1.2 = {
@@ -4088,7 +4108,7 @@
 	intrigue = 4
 	stewardship = 5
 	religion = "catholic"
-	culture = "norwegian"
+	culture = "gall_goidel"
 	trait = education_diplomacy_2
 	trait = lustful
 	trait = arrogant
@@ -4107,7 +4127,7 @@
 
 6905 = {
 	name = "Magnus" # Lagaböter
-	dynasty = 499
+	dynasty_house = house_sverre
 	martial = 4
 	diplomacy = 4
 	intrigue = 4
@@ -4121,17 +4141,23 @@
 	1238.5.1 = {
 		birth = "1238.5.1"
 	}
+	1246.1.1 = {
+		effect = {
+			create_betrothal = character:6904
+		}
+	}
 	1263.1.1 = {
 		add_spouse = 6904
 	}
 	1280.5.9 = {
 		death = "1280.5.9"
+		give_nickname = nick_the_lawmender
 	}
 }
 
 6906 = {
 	name = "Erik" # Prästhatare
-	dynasty = 499
+	dynasty_house = house_sverre
 	martial = 6
 	diplomacy = 4
 	intrigue = 4
@@ -4159,7 +4185,7 @@
 6907 = {
 	name = "Margaret"
 	female = yes
-	dynasty = 499
+	dynasty_house = house_sverre
 	martial = 4
 	diplomacy = 4
 	intrigue = 4
@@ -4172,6 +4198,7 @@
 	mother = 6903
 	1283.4.1 = {
 		birth = "1283.4.1"
+		give_nickname = nick_maid_norway
 	}
 	1290.9.1 = {
 		death = "1290.9.1"
@@ -4244,7 +4271,7 @@
 	name = "Magnus"
 	dynasty_house = house_british_isles_crovan
 	religion = "catholic"
-	culture = "norwegian"
+	culture = "gall_goidel"
 	father = 220046
 	1195.1.1 = {
 		birth = "1195.1.1"
@@ -4258,7 +4285,7 @@
 	name = "Ragnall"
 	dynasty_house = house_british_isles_crovan
 	religion = "catholic"
-	culture = "norwegian"
+	culture = "gall_goidel"
 	father = 220046
 	1194.1.1 = {
 		birth = "1194.1.1"
@@ -4272,7 +4299,7 @@
 	name = "Harald"
 	dynasty_house = house_british_isles_crovan
 	religion = "catholic"
-	culture = "norwegian"
+	culture = "gall_goidel"
 	father = 220046
 	1193.1.1 = {
 		birth = "1193.1.1"
@@ -4290,7 +4317,7 @@
 	intrigue = 5
 	stewardship = 4
 	religion = "catholic"
-	culture = "norwegian"
+	culture = "gall_goidel"
 	father = 5788
 	1094.1.1 = {
 		birth = "1094.1.1"
@@ -4308,7 +4335,7 @@
 	intrigue = 4
 	stewardship = 8
 	religion = "catholic"
-	culture = "norwegian"
+	culture = "gall_goidel"
 	father = 83244
 	1069.1.1 = {
 		birth = "1069.1.1"
@@ -4326,7 +4353,7 @@
 	intrigue = 5
 	stewardship = 6
 	religion = "catholic"
-	culture = "norwegian"
+	culture = "gall_goidel"
 	father = 83240
 	1102.1.1 = {
 		birth = "1102.1.1"
@@ -4344,7 +4371,7 @@
 	intrigue = 4
 	stewardship = 5
 	religion = "catholic"
-	culture = "norwegian"
+	culture = "gall_goidel"
 	father = 83240
 	1104.1.1 = {
 		birth = "1104.1.1"
@@ -4362,7 +4389,7 @@
 	intrigue = 4
 	stewardship = 5
 	religion = "catholic"
-	culture = "norwegian"
+	culture = "gall_goidel"
 	father = 83241
 	1124.1.1 = {
 		birth = "1124.1.1"
@@ -4380,7 +4407,7 @@
 	intrigue = 4
 	stewardship = 7
 	religion = "catholic"
-	culture = "norwegian"
+	culture = "gall_goidel"
 	1041.1.1 = {
 		birth = "1041.1.1"
 	}
@@ -4397,7 +4424,7 @@
 	intrigue = 4
 	stewardship = 7
 	religion = "catholic"
-	culture = "norwegian"
+	culture = "gall_goidel"
 	father = 83244
 	1072.1.1 = {
 		birth = "1072.1.1"
@@ -4415,7 +4442,7 @@
 	intrigue = 6
 	stewardship = 4
 	religion = "catholic"
-	culture = "norwegian"
+	culture = "gall_goidel"
 	father = 83245
 	1093.1.1 = {
 		birth = "1093.1.1"
@@ -4433,7 +4460,7 @@
 	intrigue = 6
 	stewardship = 4
 	religion = "catholic"
-	culture = "norwegian"
+	culture = "gall_goidel"
 	father = 83246
 	1114.1.1 = {
 		birth = "1114.1.1"
@@ -4451,7 +4478,7 @@
 	intrigue = 6
 	stewardship = 4
 	religion = "catholic"
-	culture = "norwegian"
+	culture = "gall_goidel"
 	father = 83246
 	1133.1.1 = {
 		birth = "1133.1.1"
@@ -4469,7 +4496,7 @@
 	intrigue = 4
 	stewardship = 4
 	religion = "catholic"
-	culture = "norwegian"
+	culture = "gall_goidel"
 	father = 83241
 	1131.1.1 = {
 		birth = "1131.1.1"
@@ -4627,7 +4654,7 @@
 161127 = {
 	name = "Ragnhild"
 	female = yes
-	dynasty_house = 2033
+	dynasty_house = house_reingodwin
 	religion = "catholic"
 	culture = "norwegian"
 	father = 202040
@@ -4643,7 +4670,7 @@
 161128 = {
 	name = "Rangrid"
 	female = yes
-	dynasty_house = 2033
+	dynasty_house = house_reingodwin
 	religion = "catholic"
 	culture = "norwegian"
 	mother = 161127
@@ -4690,7 +4717,7 @@
 
 161124 = {
 	name = "Asulf"
-	dynasty_house = 2033
+	dynasty_house = house_reingodwin
 	religion = "catholic"
 	culture = "norwegian"
 	father = 125
@@ -4802,7 +4829,7 @@
 170019 = {
 	name = "Kristina" #Sverresdotter
 	female = yes
-	dynasty = 499
+	dynasty_house = house_sverre
 	religion = "catholic"
 	culture = "norwegian"
 	father = 202500
@@ -4818,7 +4845,7 @@
 132000 = {
 	name = "Kristina" #Christina of Norway
 	female = yes
-	dynasty = 499
+	dynasty_house = house_sverre
 	religion = "catholic"
 	culture = "norwegian"
 	father = 202509 # Håkon Håkonsson
@@ -4833,7 +4860,7 @@
 
 170007 = {
 	name = "HA_kon" # Håkon the Young
-	dynasty = 499
+	dynasty_house = house_sverre
 	religion = "catholic"
 	culture = "norwegian"
 	father = 202509 # Håkon Håkonsson
@@ -4843,6 +4870,11 @@
 	}
 	1240.4.1 = {
 		give_nickname = nick_the_young
+	}
+	1246.1.1 = {
+		effect = {
+			create_betrothal = character:30605
+		}
 	}
 	1251.1.1 = {
 		add_spouse = 30605
@@ -4854,7 +4886,7 @@
 
 170008 = {
 	name = "Sverre" # Son of Håkon the Young
-	dynasty = 499
+	dynasty_house = house_sverre
 	religion = "catholic"
 	culture = "norwegian"
 	father = 170007 # Håkon the Young
@@ -4870,7 +4902,7 @@
 170009 = {
 	name = "Ingeborg" #Ingeborg Eriksdottir
 	female = yes
-	dynasty = 499
+	dynasty_house = house_sverre
 	religion = "catholic"
 	culture = "norwegian"
 	father = 6906 # Erik Prästhatare
@@ -5005,7 +5037,7 @@
 183909 = {
 	name = "Sigrid"
 		female = yes
-	dynasty_house = 2033
+	dynasty_house = house_reingodwin
 	religion = "catholic"
 	culture = "norwegian"
 	father = 161124
@@ -5158,19 +5190,6 @@ norwegian.1002 = {	#Fictional holder to allow barony placement.
 	religion = catholic
 	culture = norwegian
 	1030.1.1 = {
-		birth = yes
-	}
-	1090.1.1 = {
-		death = yes
-	}
-}
-
-norwegian.1003 = {	#Fictional
-	name = "Tore"
-	religion = norse_pagan
-	culture = norwegian
-	dynasty = norwegian_ormslev
-	1039.1.1 = {
 		birth = yes
 	}
 	1090.1.1 = {

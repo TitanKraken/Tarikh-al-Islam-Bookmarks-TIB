@@ -28,19 +28,34 @@
 # writing
 # figures
 
+# Added:
+# tib_emblems
+
 # Double underscore intentional to make it the first option in the list
 
 # Animals
 tib_saladin_standard_eagle.dds = { colors = 2 category = tib_emblems }
 tib_seljuk_eagle.dds = { colors = 1 category = tib_emblems }
 tib_gokturk.dds = { colors = 1 category = tib_emblems }
+tib_senmurv_wikipedia.dds = { colors = 1 category = tib_emblems }
+tib_nogai_flag_beast.dds = { colors = 2 category = tib_emblems }
+tib_plantagenet_lion.dds = { colors = 3 category = tib_emblems }
+tib_roman_eagle_aquila.dds = { colors = 3 category = tib_emblems }
+tib_greek_orthodox_eagle.dds = { colors = 1 category = tib_emblems }
+hashshashin.dds = { colors = 1 category = tib_emblems }
 
 # Writing
 tib_arabic_shahada_maghrebi.dds = { colors = 1 category = tib_emblems }
 tib_arabic_shahada_maghrebi_shrinked.dds = { colors = 1 category = tib_emblems }
+tib_shahada_kufic.dds = { colors = 1 category = tib_emblems }
 
 # Man-made
 national_emblem_of_oman.dds = { colors = 2 category = tib_emblems }
+
+# Nature
+tib_anjou_fleur_de_lis.dds = { colors = 1 category = tib_emblems }
+tib_macedonian_empire_vergina_sun.dds = { colors = 1 category = tib_emblems }
+tib_macedonian_empire_vergina_sun_simple.dds = { colors = 1 category = tib_emblems }
 
 # Tribal seals
 tib_kara_khanid.dds = { colors = 1 category = tib_emblems }
@@ -50,3 +65,8 @@ tib_izyaslavich_crest.dds = { colors = 1 category = tribal_seal }
 tib_izyaslavich2_crest.dds = { colors = 1 category = tribal_seal }
 tib_yurii_crest.dds = { colors = 1 category = tribal_seal }
 tib_vsevolod_crest.dds = { colors = 1 category = tribal_seal }
+
+# Iberia
+tib_spanish_galicia_cross.dds = { colors = 1 category = crosses_and_knots }
+tib_spanish_galicia_chalice.dds = { colors = 2 category = tib_emblems }
+tib_castille_castle_fort.dds = { colors = 3 category = tib_emblems }

@@ -1344,12 +1344,14 @@ d_upper_lorraine = {
 
 	903.1.1 = {
 		holder = 7961 #Gebhard I Conradine
+		liege = k_east_francia
 	}
 	910.6.22 = {
 		holder = 7812 #Reginar I
 	}
 	915.1.1 = {
 		holder = 7813 #Giselbert I
+		liege = k_france
 	}
 	939.10.2 = {
 		holder = 1292 #Heinrich I

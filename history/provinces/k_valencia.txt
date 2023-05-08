@@ -7,7 +7,7 @@
 	holding = castle_holding
 	
 	# History
-	800.1.1 = { culture = andalusian }
+	800.1.1 = { culture = mozarab }
 	812.1.1 = { religion = muwalladi }
 	1259.1.1 = {
 		culture = catalan
@@ -62,7 +62,7 @@
 	holding = castle_holding
 	
 	# History
-	800.1.1 = { culture = andalusian }
+	800.1.1 = { culture = mozarab }
 	939.1.1 = { religion = muwalladi }
 	1259.1.1 = {
 		culture = catalan
@@ -85,7 +85,7 @@
 	holding = castle_holding
 	
 	# History
-	800.1.1 = { culture = andalusian }
+	800.1.1 = { culture = mozarab }
 	939.1.1 = { religion = muwalladi }
 	1259.1.1 = {
 		culture = catalan
@@ -152,7 +152,7 @@
 	holding = castle_holding
 	
 	# History
-	800.1.1 = { culture = andalusian }
+	800.1.1 = { culture = mozarab }
 	812.1.1 = { religion = muwalladi }
 	1235.1.1 = {
 		culture = castilian
@@ -208,7 +208,11 @@
 	# History
 	800.1.1 = { culture = catalan }
 	928.1.1 = { religion = muwalladi }
-	1245.1.1 = { religion = catholic }
+	1100.1.1 = { culture = andalusian }
+	1245.1.1 = { 
+		culture = catalan
+		religion = catholic 
+	}
 }
 
 ###c_mallorca
@@ -222,7 +226,11 @@
 	# History
 	800.1.1 = { culture = catalan }
 	928.1.1 = { religion = muwalladi }
-	1245.1.1 = { religion = catholic }
+	1100.1.1 = { culture = andalusian }
+	1245.1.1 = { 
+		culture = catalan
+		religion = catholic 
+	}
 }
 2001 = {	# Alcudia
 	holding = city_holding
@@ -239,5 +247,9 @@
 	# History
 	800.1.1 = { culture = catalan }
 	928.1.1 = { religion = muwalladi }
-	1245.1.1 = { religion = catholic }
+	1100.1.1 = { culture = andalusian }
+	1245.1.1 = { 
+		culture = catalan
+		religion = catholic 
+	}
 }

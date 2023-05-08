@@ -209,7 +209,7 @@
 	culture = bolghar
 	religion = tengri_pagan
 	holding = castle_holding
-	864.1.1 = {
+	868.1.1 = {
 		culture = bulgarian
 		religion = slavic_pagan
 	}
@@ -251,7 +251,7 @@
 	culture = bolghar
 	religion = tengri_pagan
 	holding = castle_holding
-	864.1.1 = {
+	868.1.1 = {
 		culture = bulgarian
 		religion = slavic_pagan
 	}

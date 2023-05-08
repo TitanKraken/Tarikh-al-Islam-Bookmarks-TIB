@@ -24,6 +24,9 @@ k_xia = {
 	#Subjugated by the Mongols
 	1211.1.1 = {
 		holder = 206666 # coup
+		#liege = e_mongolia
+	}
+	1213.1.1 = {
 		liege = e_mongolia
 	}
 	1223.1.1 = {

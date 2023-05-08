@@ -5,6 +5,10 @@
 	culture = russian
 	religion = slavic_pagan
 	#holding = castle_holding
+	850.1.1 = {
+		culture = mogyer
+		religion = magyar_pagan
+	}
 	895.1.2 = {
 		culture = pecheneg
 		religion = tengri_pagan
@@ -25,6 +29,10 @@
 	culture = russian
 	religion = slavic_pagan
 	#holding = castle_holding
+	850.1.1 = {
+		culture = mogyer
+		religion = magyar_pagan
+	}
 	895.1.2 = {
 		culture = pecheneg
 		religion = tengri_pagan
@@ -42,6 +50,10 @@
 	culture = russian
 	religion = slavic_pagan
 	#holding = castle_holding
+	850.1.1 = {
+		culture = mogyer
+		religion = magyar_pagan
+	}
 	895.1.2 = {
 		culture = pecheneg
 		religion = tengri_pagan
@@ -59,6 +71,10 @@
 	culture = russian
 	religion = slavic_pagan
 	#holding = castle_holding
+	850.1.1 = {
+		culture = mogyer
+		religion = magyar_pagan
+	}
 	895.1.2 = {
 		culture = pecheneg
 		religion = tengri_pagan
@@ -79,6 +95,10 @@
 	culture = russian
 	religion = slavic_pagan
 	#holding = castle_holding
+	850.1.1 = {
+		culture = mogyer
+		religion = magyar_pagan
+	}
 	895.1.2 = {
 		culture = pecheneg
 		religion = tengri_pagan
@@ -96,6 +116,10 @@
 	culture = russian
 	religion = slavic_pagan
 	#holding = castle_holding
+	850.1.1 = {
+		culture = mogyer
+		religion = magyar_pagan
+	}
 	895.1.2 = {
 		culture = pecheneg
 		religion = tengri_pagan

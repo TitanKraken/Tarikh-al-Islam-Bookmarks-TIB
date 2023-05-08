@@ -9,7 +9,7 @@
 		culture = french
 	}
 	1000.1.1 = {
-		culture = franconian
+		culture = ripuarian
 	}
 }
 2090 = {	#BASTOGNE
@@ -32,6 +32,9 @@
 	holding = castle_holding
 	867.1.1 = {
 		culture = french
+	}
+	1200.1.1 = {
+		culture = walloon
 	}
 }
 2686 = {	#CHINY
@@ -58,6 +61,9 @@
 	867.1.1 = {
 		culture = french
 	}
+	1200.1.1 = {
+		culture = walloon
+	}
 }
 2094 = {	#LA ROCHE
 	holding = none
@@ -74,6 +80,9 @@
 	867.1.1 = {
 		culture = french
 	}
+	1200.1.1 = {
+		culture = walloon
+	}
 }
 2116 = {	#DINANT
 	holding = city_holding
@@ -85,11 +94,14 @@
 ##d_brabant ###################################
 ###c_brabant
 2105 = {	#LEUVEN
-	culture = frankish
+	culture = low_frankish
 	religion = catholic
 	holding = castle_holding
-	867.1.1 = {
+	900.1.1 = {
 		culture = dutch
+	}
+	1150.1.1 = {
+		culture = brabantian
 	}
 }
 2107 = {	#BRUSSELS
@@ -101,11 +113,14 @@
 
 ###c_antwerpen
 2106 = {	#ANTWERP
-	culture = frankish
+	culture = low_frankish
 	religion = catholic
 	holding = castle_holding
-	867.1.1 = {
+	900.1.1 = {
 		culture = dutch
+	}
+	1150.1.1 = {
+		culture = brabantian
 	}
 }
 2108 = {	#ROSENDAAL
@@ -120,11 +135,14 @@
 
 ###c_hainaut
 2117 = {	#MONS
-	culture = frankish
+	culture = low_frankish
 	religion = catholic
 	holding = castle_holding
-	867.1.1 = {
+	900.1.1 = {
 		culture = dutch
+	}
+	1200.1.1 = {
+		culture = walloon
 	}
 }
 2127 = {	#TOURNAI
@@ -139,11 +157,14 @@
 
 ###c_cambray
 2118 = {	#CAMBRAI
-	culture = frankish
+	culture = low_frankish
 	religion = catholic
 	holding = castle_holding
-	867.1.1 = {
+	900.1.1 = {
 		culture = dutch
+	}
+	1200.1.1 = {
+		culture = walloon
 	}
 }
 2121 = {	# MALBODEN
@@ -165,7 +186,7 @@
 			curtain_walls_01
 			hunting_grounds_01
 		}
-		culture = franconian
+		culture = ripuarian
 	}
 	1066.1.1 = {
 		buildings = {
@@ -197,7 +218,7 @@
 	religion = catholic
 	holding = castle_holding
 	867.1.1 = {
-		culture = franconian
+		culture = ripuarian
 	}
 }
 2102 = {	#GLADBACH
@@ -222,7 +243,7 @@
 	religion = catholic
 	holding = castle_holding
 	867.1.1 = {
-		culture = franconian
+		culture = ripuarian
 	}
 }
 2100 = {	#EINDHOVEN
@@ -267,6 +288,9 @@
 	867.1.1 = {
 		culture = franconian
 	}
+	1200.1.1 = {
+		culture = lorrainian
+	}
 }
 2078 = {	#EPINAL
 	holding = church_holding
@@ -289,6 +313,9 @@
 	holding = castle_holding
 	867.1.1 = {
 		culture = franconian
+	}
+	1200.1.1 = {
+		culture = lorrainian
 	}
 }
 2698 = {	#SAARBURG
@@ -334,6 +361,9 @@
 	867.1.1 = {
 		culture = franconian
 	}
+	1200.1.1 = {
+		culture = lorrainian
+	}
 }
 2712 = {	#FINSTIGEN
 	holding = none
@@ -347,6 +377,9 @@
 	867.1.1 = {
 		culture = franconian
 	}
+	1200.1.1 = {
+		culture = lorrainian
+	}
 }
 2715 = {	#VAUDEMONT
 	holding = city_holding
@@ -358,7 +391,7 @@
 ##d_lower_lorraine ###################################
 ###c_cologne
 2088 = {	#COLOGNE
-	culture = frankish
+	culture = ripuarian
 	religion = catholic
 	holding = castle_holding
 	special_building_slot = holy_site_cologne_cathedral_01
@@ -366,7 +399,7 @@
 		buildings = {
 			cereal_fields_01
 		}
-		culture = franconian
+		culture = ripuarian
 	}
 	1066.1.1 = {
 		buildings = {
@@ -393,7 +426,7 @@
 	religion = catholic
 	holding = castle_holding
 	867.1.1 = {
-		culture = franconian
+		culture = ripuarian
 	}
 }
 2677 = {	#ESSEN
@@ -412,7 +445,7 @@
 	religion = catholic
 	holding = castle_holding
 	867.1.1 = {
-		culture = franconian
+		culture = ripuarian
 	}
 }
 2681 = {	#BILSTEIN
@@ -425,7 +458,7 @@
 	religion = catholic
 	holding = castle_holding
 	867.1.1 = {
-		culture = franconian
+		culture = ripuarian
 	}
 }
 2678 = {	#HAGEN
@@ -444,7 +477,7 @@
 	religion = catholic
 	holding = castle_holding
 	867.1.1 = {
-		culture = franconian
+		culture = ripuarian
 	}
 }
 2086 = {	#ADENAU
@@ -466,7 +499,7 @@
 	religion = catholic
 	holding = castle_holding
 	867.1.1 = {
-		culture = franconian
+		culture = ripuarian
 	}
 }
 2688 = {	#SIEGBURG
@@ -479,7 +512,7 @@
 	religion = catholic
 	holding = castle_holding
 	867.1.1 = {
-		culture = franconian
+		culture = ripuarian
 	}
 }
 2690 = {	#WIED

@@ -628,8 +628,8 @@
 
 ###c_julfar
 6131 = {	#JULFAR
-	culture = bedouin
-	religion = najdat
+	culture = omani
+	religion = ibadi
 	holding = tribal_holding
 	1066.1.1 = {
 		holding = castle_holding
@@ -676,7 +676,7 @@
 
 ###c_az-dhahira
 6137 = {	#HAFIT
-	culture = bedouin
+	culture = omani
 	religion = najdat
 	holding = tribal_holding
 }

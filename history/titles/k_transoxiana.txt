@@ -12,14 +12,45 @@ k_transoxiana = {
 	}
 	864.1.1 = {
 		holder = 163099 # Nasr I Samani
-		government = clan_government
+		government = islamic_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					has_dlc_feature = royal_court
+				}
+				holder = {
+					set_court_language = language_arabic
+					if = {
+						limit = { NOT = { knows_court_language_of = this } }
+						learn_court_language_of = this
+					}
+				}
+			}
+		}
 	}
-	892.8.1 = {
-		holder = 163157 # Ismail Samani
+	892.1.1 = { # Peak height of power and unification of realm
+		holder = 163157 # Isma'il ibn Ahmad Samani
 	}
-	907.11.24 = {
-		holder = ahmad_samani
+	907.1.1 = {
+		holder = 1230610 # Ahmad ibn Isma'il Samani
 	}
+	914.1.1 = {
+		holder = 1230611
+	}
+	943.6.4 = {
+		holder = 1230615
+	}
+	954.8.8 = {
+		holder = 1230616
+	}
+	961.1.1 = {
+		holder = 1230617
+	}
+	976.6.13 = {
+		holder = 1230619
+	}
+	
 	1041.1.1 = {
 		holder = 3012
 	}
@@ -116,13 +147,166 @@ d_soghd = {
 	867.1.1 = {	change_development_level = 7 }
 	1066.1.1 = { change_development_level = 10 }
 
-	867.1.1 = {
+	710.1.1={
+	liege=e_arabia
+	}
+
+	769.1.1={
+		holder=188603
+		liege = 0 # De facto
+	}
+
+	820.1.1 = {
+		holder = 163154
+	}
+	864.1.1 = {
+		holder = 163099
+	}
+	875.1.1 = {
+		liege = k_transoxiana
+	}
+	892.1.1 = {
 		holder = 163157
-		liege = k_transoxiana	#Samanid
 	}
-	1066.1.1 = {
-		holder = 0
+	907.1.1 = {
+		holder = 1230610
 	}
+	914.1.1 = {
+		holder = 1230611
+	}
+	943.6.4 = {
+		holder = 1230615
+	}
+	954.8.8 = {
+		holder = 1230616
+	}
+	961.1.1 = {
+		holder = 1230617
+	}
+	976.6.13 = {
+		holder = 1230619
+	}
+# Karakhanids
+#992.1.1 = {
+#	liege = k_zhetysu
+#	holder = 1230266
+#}
+# Samanids again
+#992.8.8 = {
+#	liege = k_transoxiana
+#	holder = 1230619
+#}
+# Karakhanids
+997.5.5 = {
+	liege = k_zhetysu
+	holder = 1230264
+}
+1012.1.2 = {
+	holder = 3002
+}
+1017.1.2 = {
+	holder = 3004
+}
+1020.1.2 = {
+	liege = k_transoxiana
+	holder = 3010
+}
+1034.1.2 = {
+	holder = 3012
+}
+1040.1.1 = {
+	
+	effect = {
+		set_capital_county = title:c_samarkand
+	}
+}
+1042.1.2 = {
+	holder = 3014
+}
+1068.1.1 = {
+	holder = 3016
+}
+1080.1.1 = {
+	holder = 3018
+}
+1086.1.1 = {
+	holder = 3020
+}
+1089.1.1 = {
+	holder = 1231611
+}
+1090.1.1 = {
+	holder = 1231612
+}
+1092.1.1 = {
+	holder = 3020
+}
+1095.1.1 = {
+	holder = 1231613
+}
+1097.1.1 = {
+	holder = 144110
+}
+1097.6.1 = {
+	holder = 1231614
+}
+1099.1.1 = {
+	holder = 144109
+}
+1102.6.6 = {
+	holder = 144111
+}
+1130.1.1 = {
+	holder = 1230271
+}
+1132.1.1 = {
+	holder = 144117
+}
+1132.6.1 = {
+	holder = 144118
+}
+1141.1.1 = {
+	holder = 144119
+}
+# title passes to Ferghana branch
+1156.1.1 = {
+	holder = 1230272 # Ali b.Hasan
+}
+1158.1.1 = {
+	holder = 1230273 # Ma'súd b.Hasan
+}
+1171.1.1 = {
+	holder = 1230277 # Ibrahím b. Husayn - 63-79 Ferghana
+}
+1195.1.1 = {
+	holder = 1230280 # 'Uthmán' b. Ibrahím
+}
+1212.1.1 = {
+	holder = 93052
+}
+1221.1.1 = {
+	holder = 0
+}
+1228.12.2 = {
+	liege = e_chagatai
+	holder = ichil
+}
+1250.1.1 = {
+	holder = 248182
+}
+1289.11.1 = {
+	holder = 1231200
+}
+1298.1.1 = {
+	holder = 1231201
+}
+1303.1.1 = {
+	holder = 1231202
+}
+1308.1.1 = {
+	liege = 0
+	holder = 0
+}
 }
 
 

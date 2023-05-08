@@ -83,13 +83,17 @@ c_gilan = {
 		holder = 180760 # Justan IV
 	}
 	935.1.1 = {
-		government = clan_government	#Ahistorical, just for ease of bookmarks.
+		government = islamic_government	#Ahistorical, just for ease of bookmarks.
 	}
 	940.1.1 = {
 		holder = 180761 # Manadhar Justanid
 	}
 	970.1.1 = {
 		holder = 180762 # Khosrow Justanid
+	}
+	1004.1.1 = {
+		holder = 1231092 # Firuz Fuladzade Justanid
+		liege = k_persia
 	}
 	1066.1.1 = {
 		liege = "d_azerbaijan"
@@ -177,7 +181,10 @@ c_zanjan = {
 		liege = "d_tabaristan"
 		holder = 45108
 	}
-	
+	1004.1.1 = {
+		holder = 1231092 # Firuz Fuladzade Justanid
+		liege = k_persia
+	}
 	1066.1.1 = {
 		liege = "d_kermanshah"
 	}
@@ -217,8 +224,9 @@ c_zanjan = {
 	1243.1.1 = {
 		holder = 93218
 	}
-	1259.1.1 = {
-		holder = 93219
+	1254.1.1 = {
+		holder = 166941 # Yoshmut Toluid, maybe
+		liege = "e_ilkhanate"
 	}
 	1262.1.1 = {
 		holder = 93220
@@ -268,7 +276,10 @@ c_qazwin = {
 		liege = "d_tabaristan"
 		holder = 45108
 	}
-	
+	1004.1.1 = {
+		holder = 1231092 # Firuz Fuladzade Justanid
+		liege = k_persia
+	}
 	1066.1.1 = {
 		liege = "d_kermanshah"
 	}
@@ -308,8 +319,9 @@ c_qazwin = {
 	1243.1.1 = {
 		holder = 93218
 	}
-	1259.1.1 = {
-		holder = 93219
+	1254.1.1 = {
+		holder = 166941 # Yoshmut Toluid, maybe
+		liege = "e_ilkhanate"
 	}
 	1262.1.1 = {
 		holder = 93220
@@ -388,9 +400,11 @@ d_tabaristan = {
 	}
 	1012.1.11 = {
 		holder = 166994
+		liege = k_persia
 	}
 	1031.1.1 = {
 		holder = 166995
+		liege = 0
 	}
 	1035.1.1 = {
 		liege = "k_kabulistan"
@@ -685,23 +699,27 @@ c_baduspan = {
 	1236.1.1 = {
 		holder = 93187
 	}
-	1272.1.1 = {
-		holder = 93188
+	
+	1249.1.1 = {
+		holder = 93170
 	}
-	1302.1.1 = {
-		holder = 93189
+	1267.1.1 = {
+		holder = 93171
 	}
-	1312.1.1 = {
-		holder = 93190
+	1271.1.1 = {
+		holder = 93172
 	}
-	1318.1.1 = {
-		holder = 93191
+	1300.1.1 = {
+		holder = 93173
 	}
-	1325.1.1 = {
-		holder = 93192
+	1310.1.1 = {
+		holder = 93174
+	}
+	1328.1.1 = {
+		holder = 93175
 	}
 	1334.1.1 = {
-		holder = 93193
+		holder = 93176
 	}
 }
 
@@ -1000,8 +1018,16 @@ c_talish = {
 	879.1.1 = {
 		holder = sogdian0009
 	}
+	
+	# Arran
+	991.1.1 = {
+		holder = 1232558
+		liege = 0
+	}
+
 	1066.1.1 = {
 		holder = 20722
+		liege = d_azerbaijan
 	}
 	1071.1.1 = {
 		holder = 3040
@@ -1099,8 +1125,16 @@ c_tabriz = {
 	879.1.1 = {
 		holder = sogdian0009
 	}
+
+	# Arran
+	991.1.1 = {
+		holder = 1232558
+		liege = 0
+	}
+
 	1066.1.1 = {
 		holder = 20722
+		liege = d_azerbaijan
 	}
 	1071.1.1 = {
 		holder = 3040
@@ -1144,15 +1178,19 @@ c_tabriz = {
 	1225.1.1 = {
 		holder = 93053
 	}
-	1230.1.1 = {
-		
+	1227.12.2 = {
 		holder = 125520
+		government = clan_government
 	}
 	1232.1.1 = {
-		holder = 93187
+		holder = 478011
+	}
+	1256.1.1 = {
+		set_realm_capital = title:c_maragha
 	}
 	1265.2.8 = {
 		holder = 478010
+		set_realm_capital = title:c_tabriz
 	}
 	1282.1.1 = {
 		holder = 125523
@@ -1175,11 +1213,16 @@ c_tabriz = {
 	1316.12.16 = {
 		holder = 478006
 	}	
-	1318.1.1 = {
-		holder = 478006
+	1335.12.1 = {
+		holder = 125528
+		#government = feudal_government
+		#succession_laws = { feudal_elective_succession_law }
 	}
-	1328.1.1 = {
-		holder = 478033
+	1336.4.10 = {
+		holder = 478000
+	}
+	1336.7.24 = {
+		holder = 478030
 	}
 }
 
@@ -1198,8 +1241,16 @@ c_ardabil = {
 	879.1.1 = {
 		holder = sogdian0009
 	}
+
+	# Arran
+	991.1.1 = {
+		holder = 1232558
+		liege = 0
+	}
+
 	1066.1.1 = {
 		holder = 20722
+		liege = d_azerbaijan
 	}
 	1071.1.1 = {
 		holder = 3040
@@ -1294,6 +1345,36 @@ c_maragha = {
 	879.1.1 = {
 		holder = sogdian0009
 	}
+	
+	# Hadhabani tribe
+	905.1.1 = {
+		holder = 159170
+	}
+	942.1.1 = {
+		holder = 159172
+	}
+	999.1.1 = {
+		holder = 159174
+	}
+	1039.1.1 = {
+		holder = 159176
+	}
+	1044.1.1 = {
+		holder = 159177
+	}
+	1045.1.1 = {
+		holder = 159179
+	}
+	1046.1.1 = {
+		holder = 159180
+	}
+	1048.1.1 = {
+		holder = 159181
+	}
+	1063.1.1 = {
+		holder = 159182
+	}
+	
 	1066.1.1 = {
 		holder = 20722
 	}
@@ -1339,15 +1420,19 @@ c_maragha = {
 	1225.1.1 = {
 		holder = 93053
 	}
-	1230.1.1 = {
-		
+	1227.12.2 = {
 		holder = 125520
+		government = clan_government
 	}
 	1232.1.1 = {
-		holder = 93187
+		holder = 478011
+	}
+	1256.1.1 = {
+		set_realm_capital = title:c_maragha
 	}
 	1265.2.8 = {
 		holder = 478010
+		set_realm_capital = title:c_tabriz
 	}
 	1282.1.1 = {
 		holder = 125523
@@ -1370,11 +1455,16 @@ c_maragha = {
 	1316.12.16 = {
 		holder = 478006
 	}	
-	1318.1.1 = {
-		holder = 478006
+	1335.12.1 = {
+		holder = 125528
+		#government = feudal_government
+		#succession_laws = { feudal_elective_succession_law }
 	}
-	1328.1.1 = {
-		holder = 478033
+	1336.4.10 = {
+		holder = 478000
+	}
+	1336.7.24 = {
+		holder = 478030
 	}
 }
 
@@ -1390,6 +1480,36 @@ c_bailaqan = {
 	879.1.1 = {
 		holder = sogdian0010
 	}
+	
+	# Hadhabani tribe
+	905.1.1 = {
+		holder = 159170
+	}
+	942.1.1 = {
+		holder = 159172
+	}
+	999.1.1 = {
+		holder = 159174
+	}
+	1039.1.1 = {
+		holder = 159176
+	}
+	1044.1.1 = {
+		holder = 159177
+	}
+	1045.1.1 = {
+		holder = 159179
+	}
+	1046.1.1 = {
+		holder = 159180
+	}
+	1048.1.1 = {
+		holder = 159181
+	}
+	1063.1.1 = {
+		holder = 159182
+	}
+	
 	1066.1.1 = {
 		holder = 20722
 	}
@@ -1441,39 +1561,28 @@ c_bailaqan = {
 	1232.1.1 = {
 		holder = 478011
 	}
-	1265.2.8 = {
-		holder = 478010
+	# Chobanid / Taichuud Borjigin branch, Suldus tribe
+	1260.1.1 = {
+		holder = 217213 # Fictional
 	}
-	1282.1.1 = {
-		holder = 125523
+	1265.2.7 = {
+		holder = 217214 # Fictional
 	}
-	1284.1.1 = {
-		holder = 478008
+	1297.5.24 = {
+		holder = 217215 # Taibuqa
 	}
-	1291.1.1 = {
-		holder = 125525
+	1300.1.1 = {
+		holder = 217216 # Fictional
 	}
-	1295.1.1 = {
-		holder = 125522
+	1302.5.4 = {
+		holder = 217217 # Fictional
 	}
-	1295.8.1 = {
-		holder = 125524
+	1324.12.17 = {
+		holder = 217246 # Fictional
 	}
-	1304.5.11 = {
-		holder = 478007
+	1357.4.16 = {
+		holder = 217247 # Fictional
 	}
-	1316.12.16 = {
-		holder = 478006
-	}
-	1335.12.1 = {
-		holder = 125528
-	}
-	1336.4.10 = {
-		holder = 478000
-	}
-	1336.7.24 = {
-		holder = 478030
-	}	
 
 }
 
@@ -1491,6 +1600,36 @@ c_urmiya = {
 	879.1.1 = {
 		holder = sogdian0010
 	}
+	
+	# Hadhabani tribe
+	905.1.1 = {
+		holder = 159170
+	}
+	942.1.1 = {
+		holder = 159172
+	}
+	999.1.1 = {
+		holder = 159174
+	}
+	1039.1.1 = {
+		holder = 159176
+	}
+	1044.1.1 = {
+		holder = 159177
+	}
+	1045.1.1 = {
+		holder = 159179
+	}
+	1046.1.1 = {
+		holder = 159180
+	}
+	1048.1.1 = {
+		holder = 159181
+	}
+	1063.1.1 = {
+		holder = 159182
+	}
+	
 	1066.1.1 = {
 		holder = 20722
 	}
@@ -1542,40 +1681,29 @@ c_urmiya = {
 	1232.1.1 = {
 		holder = 478011
 	}
-	1265.2.8 = {
-		holder = 478010
+	# Chobanid / Taichuud Borjigin branch, Suldus tribe
+	1260.1.1 = {
+		holder = 217213 # Fictional
 	}
-	1282.1.1 = {
-		holder = 125523
+	1265.2.7 = {
+		holder = 217214 # Fictional
 	}
-	1284.1.1 = {
-		holder = 478008
+	1297.5.24 = {
+		holder = 217215 # Taibuqa
 	}
-	1291.1.1 = {
-		holder = 125525
+	1300.1.1 = {
+		holder = 217216 # Fictional
 	}
-	1295.1.1 = {
-		holder = 125522
+	1302.5.4 = {
+		holder = 217217 # Fictional
 	}
-	1295.8.1 = {
-		holder = 125524
+	1324.12.17 = {
+		holder = 217246 # Fictional
 	}
-	1304.5.11 = {
-		holder = 478007
+	1357.4.16 = {
+		holder = 217247 # Fictional
 	}
-	1316.12.16 = {
-		holder = 478006
-	}
-	1335.12.1 = {
-		holder = 125528
-	}
-	1336.4.10 = {
-		holder = 478000
-	}
-	1336.7.24 = {
-		holder = 478030
-	}	
-
+	
 }
 
 

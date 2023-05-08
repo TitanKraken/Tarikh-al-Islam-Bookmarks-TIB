@@ -47,6 +47,18 @@ house_Seljuk_Rum = {
     dynasty = 613 # Seljuk
 }
 
+# Lamtuna
+house_almoravid = {
+    name = dynn_Almoravid
+    dynasty = 1069080 # Lamtuna
+    motto = dynn_Almoravid_motto
+}
+house_Banu_Ghaniya = {
+	name = "dynn_Banu_Ghaniya"
+	dynasty = 1069080 # Lamtuna
+	motto = "dynn_Banu_Ghaniya_motto"
+}
+
 # Almohad
 house_tumert = {
 	name = dynn_Tumert

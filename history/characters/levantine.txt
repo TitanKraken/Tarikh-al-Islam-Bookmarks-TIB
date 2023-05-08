@@ -64,7 +64,7 @@
 
 144077 = {
 	name = "Al-Mu_zzam"
-	dynasty = 24000
+	dynasty_house = house_Ayyubid #24000
 	religion = "ashari"
 	culture = "levantine"
 	father = 226052
@@ -78,7 +78,7 @@
 
 144078 = {
 	name = "An-Nasir_Dawud"
-	dynasty = 24000
+	dynasty_house = house_Ayyubid #24000
 	religion = "ashari"
 	culture = "levantine"
 	father = 144077
@@ -92,7 +92,7 @@
 
 144079 = {
 	name = "Al-Ashraf"
-	dynasty = 24000
+	dynasty_house = house_Ayyubid #24000
 	religion = "ashari"
 	culture = "levantine"
 	father = 226052
@@ -106,7 +106,7 @@
 
 144080 = {
 	name = "As-Salih_Ismail"
-	dynasty = 24000
+	dynasty_house = house_Ayyubid #24000
 	religion = "ashari"
 	culture = "levantine"
 	father = 226052
@@ -120,7 +120,7 @@
 
 144081 = {
 	name = "Al-Aziz_Mohammed"
-	dynasty = 24000
+	dynasty_house = house_Ayyubid #24000
 	religion = "ashari"
 	culture = "levantine"
 	father = 226054
@@ -134,7 +134,7 @@
 
 144082 = {
 	name = "An-Nasir_Yusuf"
-	dynasty = 24000
+	dynasty_house = house_Ayyubid #24000
 	religion = "ashari"
 	culture = "levantine"
 	father = 144081
@@ -154,7 +154,7 @@
 
 144083 = {
 	name = "Al-Mansur_Muhammad"
-	dynasty = 24000
+	dynasty_house = house_Ayyubid #24000
 	religion = "ashari"
 	culture = "levantine"
 	father = 226011
@@ -168,7 +168,7 @@
 
 144084 = {
 	name = "Kilij_Arslan"
-	dynasty = 24000
+	dynasty_house = house_Ayyubid #24000
 	religion = "ashari"
 	culture = "levantine"
 	father = 144083
@@ -182,7 +182,7 @@
 
 144085 = {
 	name = "Al-Muzaffar Mahmud"
-	dynasty = 24000
+	dynasty_house = house_Ayyubid #24000
 	religion = "ashari"
 	culture = "levantine"
 	father = 144083
@@ -196,7 +196,7 @@
 
 144086 = {
 	name = "al-Mujahid"
-	dynasty = 24000
+	dynasty_house = house_Ayyubid #24000
 	religion = "ashari"
 	culture = "levantine"
 	father = 226012
@@ -210,7 +210,7 @@
 
 144087 = {
 	name = "al-Mansur_Ibrham"
-	dynasty = 24000
+	dynasty_house = house_Ayyubid #24000
 	religion = "ashari"
 	culture = "levantine"
 	father = 144086
@@ -224,7 +224,7 @@
 
 144088 = {
 	name = "al-Ashraf_Musa"
-	dynasty = 24000
+	dynasty_house = house_Ayyubid #24000
 	religion = "ashari"
 	culture = "levantine"
 	father = 144087
@@ -239,7 +239,7 @@
 
 144089 = {
 	name = "Al-Mansur_Muhammad"
-	dynasty = 24000
+	dynasty_house = house_Ayyubid #24000
 	religion = "ashari"
 	culture = "levantine"
 	father = 144085
@@ -253,7 +253,7 @@
 
 144090 = {
 	name = "Malik_ul-Afdal"
-	dynasty = 24000
+	dynasty_house = house_Ayyubid #24000
 	religion = "ashari"
 	culture = "levantine"
 	father = 144085
@@ -268,7 +268,7 @@
 
 144091 = {
 	name = "Abu_Al-Fida"
-	dynasty = 24000
+	dynasty_house = house_Ayyubid #24000
 	religion = "ashari"
 	culture = "levantine"
 	father = 144090
@@ -1114,7 +1114,7 @@
 
 226011 = {
 	name = "Al-Muzaffar_Umar"
-	dynasty = 24000
+	dynasty_house = house_Ayyubid #24000
 	religion = "ashari"
 	culture = "levantine"
 	father = 32913
@@ -1128,7 +1128,7 @@
 
 226012 = {
 	name = "Naser_ed-Din_Muhammad"
-	dynasty = 24000
+	dynasty_house = house_Ayyubid #24000
 	religion = "ashari"
 	culture = "levantine"
 	father = 32912
@@ -2546,7 +2546,7 @@
 485430 = {
 	name = "Al-Afdal_Muhammad"
 	# AKA: Abdul
-	dynasty = 24000
+	dynasty_house = house_Ayyubid #24000
 	religion = "ashari"
 	culture = "levantine"
 	father = 144091
@@ -2677,7 +2677,7 @@
 226000 = {
 	name = "Salahuddin" #Egypt
 	# AKA: Salah-al-Din
-	dynasty = 24000
+	dynasty_house = house_Ayyubid #24000
 	martial = 7
 	diplomacy = 5
 	intrigue = 7
@@ -2700,7 +2700,7 @@
 
 226054 = {
 	name = "Az-Zahir_Ghazi"
-	dynasty = 24000
+	dynasty_house = house_Ayyubid #24000
 	martial = 5
 	diplomacy = 4
 	intrigue = 5
@@ -2720,7 +2720,7 @@
 226051 = {
 	name = "Al-Afdal" #Damascus
 	# AKA: Al
-	dynasty = 24000
+	dynasty_house = house_Ayyubid #24000
 	martial = 3
 	diplomacy = 4
 	intrigue = 4
@@ -2740,7 +2740,7 @@
 226052 = {
 	name = "al-Adil_Sayf_al-Din" #Aleppo 1186-1186
 	# AKA: Abu
-	dynasty = 24000
+	dynasty_house = house_Ayyubid #24000
 	martial = 7
 	diplomacy = 8
 	intrigue = 6
@@ -3430,7 +3430,7 @@
 
 34701 = {
 	name = "Saladin"
-	dynasty = 24000
+	dynasty_house = house_Ayyubid #24000
 	religion = "ashari"
 	culture = "levantine"
 	father = 226051
@@ -3445,7 +3445,7 @@
 
 34702 = {
 	name = "Muhammad" #El Bira
-	dynasty = 24000
+	dynasty_house = house_Ayyubid #24000
 	religion = "ashari"
 	culture = "levantine"
 	father = 226051
@@ -3461,7 +3461,7 @@
 
 34703 = {
 	name = "Yusuf"
-	dynasty = 24000
+	dynasty_house = house_Ayyubid #24000
 	religion = "ashari"
 	culture = "levantine"
 	father = 34702
@@ -3477,7 +3477,7 @@
 
 34704 = {
 	name = "El-Aziz"
-	dynasty = 24000
+	dynasty_house = house_Ayyubid #24000
 	religion = "ashari"
 	culture = "levantine"
 	father = 34703
@@ -3493,7 +3493,7 @@
 
 34705 = {
 	name = "Al-Zahir"
-	dynasty = 24000
+	dynasty_house = house_Ayyubid #24000
 	religion = "ashari"
 	culture = "levantine"
 	father = 144081
@@ -3509,7 +3509,7 @@
 
 34706 = {
 	name = "Al-Aziz"
-	dynasty = 24000
+	dynasty_house = house_Ayyubid #24000
 	religion = "ashari"
 	culture = "levantine"
 	father = 144082
@@ -3524,7 +3524,7 @@
 34707 = {
 	name = "El-Malek"
 	#AKA El-Malek es-Saleh
-	dynasty = 24000
+	dynasty_house = house_Ayyubid #24000
 	religion = "ashari"
 	culture = "levantine"
 	father = 226051
@@ -3538,7 +3538,7 @@
 
 93034 = {
 	name = "Al-Mughith_Umar"
-	dynasty = 24000
+	dynasty_house = house_Ayyubid #24000
 	religion = "ashari"
 	culture = "levantine"
 	father = 144078
@@ -5362,7 +5362,7 @@
 
 93485 = {
 	name = "Al-Muzaffar Mahmud"
-	dynasty = 24000
+	dynasty_house = house_Ayyubid #24000
 	religion = "ashari"
 	culture = "levantine"
 	father = 144089
@@ -5376,7 +5376,7 @@
 
 93486 = {
 	name = "Al_Muzaffar_Muhmud"
-	dynasty = 24000
+	dynasty_house = house_Ayyubid #24000
 	religion = "ashari"
 	culture = "levantine"
 	father = 93485
@@ -5532,15 +5532,20 @@
 }
 
 155113 = {
-	name = "Karakush"
+	name = "Sharaf_al-Din_Qaraqush"
 	#AKA Sharaf al-Din Qaraqush
 	religion = "ashari"
-	culture = "levantine"
+	culture = "armenian"
+	trait = education_martial_4
+	trait = ambitious
+	trait = arbitrary
+	trait = brave
 	1150.1.1 = {
 		birth = "1150.1.1"
 	}
 	1212.1.1 = {
-		death = "1212.1.1"
+		death_type = death_execution # Failed his Banu Ghaniya ally, so the emir Yahya executed him
+		killer = 32977
 	}
 }
 
@@ -8457,7 +8462,7 @@ gharib_ghilman = {
 
 3082 = {
 	name = "Al-Qadir"
-	# AKA: Ahmad al
+	# AKA: Abu'l 'Abbas Ahmad ibn Ishaq
 	dynasty_house = house_Abbasid
 	religion = "ashari"
 	culture = iraqi
@@ -8466,11 +8471,18 @@ gharib_ghilman = {
 	diplomacy = 8
 	intrigue = 4
 	stewardship = 4
-	trait = deceitful
-	trait = education_learning_2
+	trait = humble
+	trait = calm
+	trait = brave
+	trait = diligent
+	trait = education_learning_4
 	trait = sayyid_quraysh
+	trait = intellect_good_1
 	943.1.1 = {
 		birth = "943.1.1"
+	}
+	991.1.1 = {
+		set_realm_capital = title:c_baghdad
 	}
 	1031.1.1 = {
 		death = "1031.1.1"
@@ -8479,7 +8491,7 @@ gharib_ghilman = {
 
 3084 = {
 	name = "Al-Qa_im"
-	# AKA: Abdallah al
+	# AKA: Abu Ja'far Abdallah ibn Ahmad
 	dynasty_house = house_Abbasid
 	religion = "ashari"
 	culture = iraqi
@@ -8490,8 +8502,8 @@ gharib_ghilman = {
 	stewardship = 4
 	trait = education_learning_3
 	trait = sayyid_quraysh
-	1017.1.1 = {
-		birth = "1017.1.1"
+	1001.1.1 = {
+		birth = yes
 	}
 	1075.1.1 = {
 		death = "1075.1.1"
