@@ -22,7 +22,7 @@
 	trait = callous
 	
 	#Other Traits
-	trait = sayyid_quraysh
+	trait = sayyid
 
 	sexuality = heterosexual
 	disallow_random_traits = yes
@@ -1424,7 +1424,7 @@
 	stewardship = 4
 	religion = "ismaili"
 	culture = "bedouin"
-	trait = sayyid_quraysh
+	trait = sayyid
 	father = 45050
 	1080.1.1 = {
 		birth = "1080.1.1"
@@ -1443,7 +1443,7 @@
 	stewardship = 4
 	religion = "ismaili"
 	culture = "bedouin"
-	trait = sayyid_quraysh
+	trait = sayyid
 	father = 45050
 	1075.1.1 = {
 		birth = "1075.1.1"
@@ -1462,7 +1462,7 @@
 	stewardship = 4
 	religion = "ismaili"
 	culture = "bedouin"
-	trait = sayyid_quraysh
+	trait = sayyid
 	father = 45050
 	1076.1.1 = {
 		birth = "1076.1.1"
@@ -1482,7 +1482,7 @@
 	stewardship = 4
 	religion = "ismaili"
 	culture = "bedouin"
-	trait = sayyid_quraysh
+	trait = sayyid
 	father = 45056
 	1100.1.1 = {
 		birth = "1100.1.1"
@@ -1501,7 +1501,7 @@
 	stewardship = 4
 	religion = "ismaili"
 	culture = "bedouin"
-	trait = sayyid_quraysh
+	trait = sayyid
 	father = 45057
 	1110.1.1 = {
 		birth = "1110.1.1"
@@ -1800,7 +1800,7 @@
 	culture = "hijazi"
 	father = 33910
 	trait = salaf_al_salih
-	trait = sayyid_quraysh
+	trait = sayyid # By marriage to Fatimah al-Zahra
 	598.10.23 = {
 		birth = "598.10.23"
 	}
@@ -1820,7 +1820,7 @@
 	father = 33911
 	#mother = 33921
 	trait = salaf_al_salih
-	trait = sayyid_quraysh
+	trait = sayyid
 	626.1.8 = {
 		birth = "626.1.8"
 	}
@@ -1840,7 +1840,7 @@
 	father = 33912
 	mother = 180638
 	trait = salaf_al_salih
-	trait = sayyid_quraysh
+	trait = sayyid
 	659.1.1 = {
 		birth = "659.1.1"
 	}
@@ -1856,7 +1856,7 @@
 	culture = "hijazi"
 	father = 33913
 	trait = salaf_al_salih
-	trait = sayyid_quraysh
+	trait = sayyid
 	676.1.1 = {
 		birth = "676.1.1"
 	}
@@ -1872,7 +1872,7 @@
 	culture = "hijazi"
 	father = 33914
 	trait = salaf_al_salih
-	trait = sayyid_quraysh
+	trait = sayyid
 	702.4.20 = {
 		birth = "702.4.20"
 	}
@@ -1887,7 +1887,7 @@
 	religion = "ismaili"
 	culture = "hijazi"
 	father = 33915
-	trait = sayyid_quraysh
+	trait = sayyid
 	721.1.1 = {
 		birth = "721.1.1"
 	}
@@ -1902,7 +1902,7 @@
 	religion = "ismaili"
 	culture = "hijazi"
 	father = 33916
-	trait = sayyid_quraysh
+	trait = sayyid
 	740.1.1 = {
 		birth = "740.1.1"
 	}
@@ -1917,7 +1917,7 @@
 	religion = "ismaili"
 	culture = "hijazi"
 	father = 33917
-	trait = sayyid_quraysh
+	trait = sayyid
 	795.1.1 = {
 		birth = "795.1.1"
 	}
@@ -1932,7 +1932,7 @@
 	religion = "ismaili"
 	culture = "hijazi"
 	father = 33918
-	trait = sayyid_quraysh
+	trait = sayyid
 	814.1.1 = {
 		birth = "814.1.1"
 	}
@@ -1947,7 +1947,7 @@
 	religion = "ismaili"
 	culture = "hijazi"
 	father = 33919
-	trait = sayyid_quraysh
+	trait = sayyid
 	834.1.1 = {
 		birth = "834.1.1"
 	}
@@ -1964,7 +1964,7 @@
 #	culture = "bedouin"
 #	father = 33922
 #	trait = salaf_al_salih
-#	trait = sayyid_quraysh
+#	trait = sayyid
 #	605.1.1 = {
 #		birth = "605.1.1"
 #	}
@@ -1977,7 +1977,7 @@
 	name = "Muhammad" # The Prophet, Allah's Salutations and Peace be upon him
 	dynasty_house = house_Hashimid
 	religion = "ashari"
-	culture = "bedouin"
+	culture = "hijazi"
 	father = 33923
 	martial = 7
 	diplomacy = 15
@@ -1986,7 +1986,7 @@
 	learning = 10
 	trait = education_diplomacy_4
 	trait = salaf_al_salih
-	trait = sayyid_quraysh
+	trait = sayyid # The Prophet himself
 	trait = zealous
 	trait = calm
 	trait = gregarious
@@ -2006,7 +2006,7 @@
 	name = "Abdullah"
 	dynasty_house = house_Hashimid
 	religion = "pagan"
-	culture = "bedouin"
+	culture = "hijazi"
 	father = 33924
 	545.1.1 = {
 		birth = "545.1.1"
@@ -2019,7 +2019,7 @@
 	name = "Shaiba" # Abdul Muttalib
 	dynasty_house = house_Hashimid
 	religion = "pagan"
-	culture = "bedouin"
+	culture = "hijazi"
 	father = 33925
 	497.1.1 = {
 		birth = "497.1.1"
@@ -2033,7 +2033,7 @@
 	name = "Hashim" # Founder of the great Hashemite dynasty
 	dynasty_house = house_Hashimid
 	religion = "pagan"
-	culture = "bedouin"
+	culture = "hijazi"
 	trait = "twin"
 	father = 163004
 	464.1.1 = {
@@ -2052,7 +2052,7 @@
 	father = 33911
 	#mother = 33921
 	trait = salaf_al_salih
-	trait = sayyid_quraysh
+	trait = sayyid
 	trait = compassionate
 	trait = brave
 	trait = zealous
@@ -2071,7 +2071,7 @@
 	culture = "hijazi"
 	father = 33926
 	trait = salaf_al_salih
-	trait = sayyid_quraysh
+	trait = sayyid
 	664.1.1 = {
 		birth = "664.1.1"
 	}
@@ -2165,7 +2165,7 @@
 	religion = "ismaili"
 	culture = "hijazi"
 	father = 33927
-	trait = sayyid_quraysh
+	trait = sayyid
 	700.1.1 = {
 		birth = "700.1.1"
 	}
@@ -2178,9 +2178,9 @@
 	name = "Musa"
 	dynasty_house = house_Hashimid
 	religion = "ashari"
-	culture = "bedouin"
+	culture = "hijazi"
 	father = 33928
-	trait = sayyid_quraysh
+	trait = sayyid
 	720.1.1 = {
 		birth = "720.1.1"
 	}
@@ -2193,9 +2193,9 @@
 	name = "Abdullah"
 	dynasty_house = house_Hashimid
 	religion = "ashari"
-	culture = "bedouin"
+	culture = "hijazi"
 	father = 33929
-	trait = sayyid_quraysh
+	trait = sayyid
 	740.1.1 = {
 		birth = "740.1.1"
 	}
@@ -2208,9 +2208,9 @@
 	name = "Musa"
 	dynasty_house = house_Hashimid
 	religion = "ashari"
-	culture = "bedouin"
+	culture = "hijazi"
 	father = 33930
-	trait = sayyid_quraysh
+	trait = sayyid
 	780.1.1 = {
 		birth = "780.1.1"
 	}
@@ -2223,9 +2223,9 @@
 	name = "Muhammad"
 	dynasty_house = house_Hashimid
 	religion = "ashari"
-	culture = "bedouin"
+	culture = "hijazi"
 	father = 33931
-	trait = sayyid_quraysh
+	trait = sayyid
 	820.1.1 = {
 		birth = "820.1.1"
 	}
@@ -2241,9 +2241,9 @@
 	name = "Abdullah"
 	dynasty_house = house_Hashimid
 	religion = "ashari"
-	culture = "bedouin"
+	culture = "hijazi"
 	father = 33932
-	trait = sayyid_quraysh
+	trait = sayyid
 	860.1.1 = {
 		birth = "860.1.1"
 	}
@@ -2256,9 +2256,9 @@
 	name = "Muhammad"
 	dynasty_house = house_Hashimid
 	religion = "ashari"
-	culture = "bedouin"
+	culture = "hijazi"
 	father = 34041
-	trait = sayyid_quraysh
+	trait = sayyid
 	900.1.1 = {
 		birth = "900.1.1"
 	}
@@ -2271,9 +2271,9 @@
 	name = "Abdullah"
 	dynasty_house = house_Hashimid
 	religion = "ashari"
-	culture = "bedouin"
+	culture = "hijazi"
 	father = 34042
-	trait = sayyid_quraysh
+	trait = sayyid
 	940.1.1 = {
 		birth = "940.1.1"
 	}
@@ -2286,9 +2286,9 @@
 	name = "Ali"
 	dynasty_house = house_Hashimid
 	religion = "ashari"
-	culture = "bedouin"
+	culture = "hijazi"
 	father = 34043
-	trait = sayyid_quraysh
+	trait = sayyid
 	970.1.1 = {
 		birth = "970.1.1"
 	}
@@ -2300,10 +2300,10 @@
 34045 = {
 	name = "Suleiman"
 	dynasty_house = house_Hashimid
-	culture = "bedouin"
+	culture = "hijazi"
 	religion = "ashari"
 	father = 34044
-	trait = sayyid_quraysh
+	trait = sayyid
 	1010.1.1 = {
 		birth = "1010.1.1"
 	}
@@ -2316,9 +2316,9 @@
 	name = "Hussayn"
 	dynasty_house = house_Hashimid
 	religion = "ashari"
-	culture = "bedouin"
+	culture = "hijazi"
 	father = 34045
-	trait = sayyid_quraysh
+	trait = sayyid
 	1030.1.1 = {
 		birth = "1030.1.1"
 	}
@@ -2331,9 +2331,9 @@
 	name = "Issa"
 	dynasty_house = house_Hashimid
 	religion = "ashari"
-	culture = "bedouin"
+	culture = "hijazi"
 	father = 34046
-	trait = sayyid_quraysh
+	trait = sayyid
 	1050.1.1 = {
 		birth = "1050.1.1"
 	}
@@ -2345,9 +2345,9 @@
 	name = "Abd_al-Karim"
 	dynasty_house = house_Hashimid
 	religion = "ashari"
-	culture = "bedouin"
+	culture = "hijazi"
 	father = 34047
-	trait = sayyid_quraysh
+	trait = sayyid
 	1070.1.1 = {
 		birth = "1070.1.1"
 	}
@@ -2360,8 +2360,8 @@
 	name = "Muta_in"
 	dynasty_house = house_Hashimid
 	religion = "ashari"
-	culture = "bedouin"
-	trait = sayyid_quraysh
+	culture = "hijazi"
+	trait = sayyid
 	father = 34048
 	1090.1.1 = {
 		birth = "1090.1.1"
@@ -2375,9 +2375,9 @@
 	name = "Idris"
 	dynasty_house = house_Hashimid
 	religion = "ashari"
-	culture = "bedouin"
+	culture = "hijazi"
 	father = 34049
-	trait = sayyid_quraysh
+	trait = sayyid
 	1130.1.1 = {
 		birth = "1130.1.1"
 	}
@@ -2390,8 +2390,8 @@
 	name = "Qatada" # Abu-Aziz Qatada, Emir of Mecca
 	dynasty_house = house_Hashimid
 	religion = "ashari"
-	culture = "bedouin"
-	trait = sayyid_quraysh
+	culture = "hijazi"
+	trait = sayyid
 	father = 34049
 	1130.1.1 = {
 		birth = "1130.1.1"
@@ -2407,9 +2407,9 @@
 	name = "Hassan"
 	dynasty_house = house_Hashimid
 	religion = "ashari"
-	culture = "bedouin"
+	culture = "hijazi"
 	father = 34051
-	trait = sayyid_quraysh
+	trait = sayyid
 	1200.1.1 = {
 		birth = "1200.1.1"
 	}
@@ -2422,9 +2422,9 @@
 	name = "Rajih"
 	dynasty_house = house_Hashimid
 	religion = "ashari"
-	culture = "bedouin"
+	culture = "hijazi"
 	father = 34051
-	trait = sayyid_quraysh
+	trait = sayyid
 	1202.1.1 = {
 		birth = "1202.1.1"
 	}
@@ -2438,8 +2438,8 @@
 	name = "Shiha"
 	dynasty_house = house_Hashimid
 	religion = "ashari"
-	culture = "bedouin"
-	trait = sayyid_quraysh
+	culture = "hijazi"
+	trait = sayyid
 	father = 34049
 	1150.1.1 = {
 		birth = "1150.1.1"
@@ -2453,9 +2453,9 @@
 	name = "Abu-Sa_ad_al-Hasan"
 	dynasty_house = house_Hashimid
 	religion = "ashari"
-	culture = "bedouin"
+	culture = "hijazi"
 	father = 34050
-	trait = sayyid_quraysh
+	trait = sayyid
 	1180.1.1 = {
 		birth = "1180.1.1"
 	}
@@ -2468,9 +2468,9 @@
 	name = "Muhammad"
 	dynasty_house = house_Hashimid
 	religion = "ashari"
-	culture = "bedouin"
+	culture = "hijazi"
 	father = 34055
-	trait = sayyid_quraysh
+	trait = sayyid
 	1220.1.1 = {
 		birth = "1220.1.1"
 	}
@@ -2483,9 +2483,9 @@
 	name = "Ganim"
 	dynasty_house = house_Hashimid
 	religion = "ashari"
-	culture = "bedouin"
+	culture = "hijazi"
 	father = 34055
-	trait = sayyid_quraysh
+	trait = sayyid
 	1222.1.1 = {
 		birth = "1222.1.1"
 	}
@@ -2498,9 +2498,9 @@
 	name = "Idris"
 	dynasty_house = house_Hashimid
 	religion = "ashari"
-	culture = "bedouin"
+	culture = "hijazi"
 	father = 34055
-	trait = sayyid_quraysh
+	trait = sayyid
 	1224.1.1 = {
 		birth = "1224.1.1"
 	}
@@ -2513,9 +2513,9 @@
 	name = "Djammaz"
 	dynasty_house = house_Hashimid
 	religion = "ashari"
-	culture = "bedouin"
+	culture = "hijazi"
 	father = 34054
-	trait = sayyid_quraysh
+	trait = sayyid
 	1230.1.1 = {
 		birth = "1230.1.1"
 	}
@@ -2528,9 +2528,9 @@
 	name = "Rumaitha"
 	dynasty_house = house_Hashimid
 	religion = "ashari"
-	culture = "bedouin"
+	culture = "hijazi"
 	father = 34056
-	trait = sayyid_quraysh
+	trait = sayyid
 	1280.1.1 = {
 		birth = "1280.1.1"
 	}
@@ -2543,9 +2543,9 @@
 	name = "Humaida"
 	dynasty_house = house_Hashimid
 	religion = "ashari"
-	culture = "bedouin"
+	culture = "hijazi"
 	father = 34056
-	trait = sayyid_quraysh
+	trait = sayyid
 	1260.1.1 = {
 		birth = "1260.1.1"
 	}
@@ -2558,9 +2558,9 @@
 	name = "Abu_l-Ghais"
 	dynasty_house = house_Hashimid
 	religion = "ashari"
-	culture = "bedouin"
+	culture = "hijazi"
 	father = 34056
-	trait = sayyid_quraysh
+	trait = sayyid
 	1242.1.1 = {
 		birth = "1242.1.1"
 	}
@@ -2574,9 +2574,9 @@
 	name = "Ataifa"
 	dynasty_house = house_Hashimid
 	religion = "ashari"
-	culture = "bedouin"
+	culture = "hijazi"
 	father = 34056
-	trait = sayyid_quraysh
+	trait = sayyid
 	1250.1.1 = {
 		birth = "1250.1.1"
 	}
@@ -2589,9 +2589,9 @@
 	name = "Ajlan"
 	dynasty_house = house_Hashimid
 	religion = "ashari"
-	culture = "bedouin"
+	culture = "hijazi"
 	father = 34063
-	trait = sayyid_quraysh
+	trait = sayyid
 	1300.1.1 = {
 		birth = "1300.1.1"
 	}
@@ -2603,9 +2603,9 @@
 	name = "Muhammad"
 	dynasty_house = house_Hashimid
 	religion = "ashari"
-	culture = "bedouin"
+	culture = "hijazi"
 	father = 34064
-	trait = sayyid_quraysh
+	trait = sayyid
 	1320.1.1 = {
 		birth = "1320.1.1"
 	}
@@ -5866,7 +5866,7 @@
 	religion = "imami"
 	culture = "bedouin"
 	father = 33915
-	trait = sayyid_quraysh
+	trait = sayyid
 	745.11.6 = {
 		birth = "745.11.6"
 	}
@@ -5881,7 +5881,7 @@
 	religion = "imami"
 	culture = "bedouin"
 	father = 163022
-	trait = sayyid_quraysh
+	trait = sayyid
 	765.12.9 = {
 		birth = "765.12.9"
 	}
@@ -5896,7 +5896,7 @@
 	religion = "imami"
 	culture = "bedouin"
 	father = 163023
-	trait = sayyid_quraysh
+	trait = sayyid
 	811.4.8 = {
 		birth = "811.4.8"
 	}
@@ -5911,7 +5911,7 @@
 	religion = "imami"
 	culture = "bedouin"
 	father = 163024
-	trait = sayyid_quraysh
+	trait = sayyid
 	828.1.1 = {
 		birth = "828.1.1"
 	}
@@ -5926,7 +5926,7 @@
 	religion = "imami"
 	culture = "bedouin"
 	father = 163025
-	trait = sayyid_quraysh
+	trait = sayyid
 	846.12.1 = {
 		birth = "846.12.1"
 	}
@@ -5941,7 +5941,7 @@
 	religion = "imami"
 	culture = "bedouin"
 	father = 163026
-	trait = sayyid_quraysh
+	trait = sayyid
 	869.7.29 = {
 		birth = "869.7.29"
 	}
@@ -6229,7 +6229,7 @@
 	culture = "hijazi"
 	father = 33911
 	#mother = 33921
-	trait = sayyid_quraysh
+	trait = sayyid
 	trait = salaf_al_salih
 	trait = zealous
 	trait = brave
@@ -6248,7 +6248,7 @@ abu_hashim_hanafiyyah = {
 	religion = "kaysani"
 	culture = "hijazi"
 	father = 163042
-	trait = sayyid_quraysh
+	trait = sayyid
 	trait = salaf_al_salih
 	trait = zealous
 	trait = content
@@ -6267,7 +6267,7 @@ abu_hashim_hanafiyyah = {
 	religion = "ismaili"
 	culture = "hijazi"
 	father = 33913
-	trait = sayyid_quraysh
+	trait = sayyid
 	695.1.1 = {
 		birth = "695.1.1"
 	}
@@ -6297,7 +6297,7 @@ abu_hashim_hanafiyyah = {
 	religion = "imami"
 	culture = "bedouin"
 	father = 163025
-	trait = sayyid_quraysh
+	trait = sayyid
 	848.1.1 = {
 		birth = yes
 	}
@@ -6581,7 +6581,7 @@ abu_hashim_hanafiyyah = {
 	religion = "ismaili"
 	culture = "hijazi"
 	trait = salaf_al_salih
-	trait = sayyid_quraysh
+	trait = sayyid
 	father = 33926
 	655.1.1 = {
 		birth = "655.1.1" #Unknown
@@ -6595,7 +6595,7 @@ abu_hashim_hanafiyyah = {
 	dynasty_house = house_Hashimid
 	religion = "ismaili"
 	culture = "hijazi"
-	trait = sayyid_quraysh
+	trait = sayyid
 	father = 159393
 	685.1.1 = {
 		birth = "685.1.1" #Unknown
@@ -6609,7 +6609,7 @@ abu_hashim_hanafiyyah = {
 	dynasty_house = house_Hashimid
 	religion = "ismaili"
 	culture = "hijazi"
-	trait = sayyid_quraysh
+	trait = sayyid
 	father = 159394
 	715.1.1 = {
 		birth = "715.1.1" #Unknown
@@ -6623,7 +6623,7 @@ abu_hashim_hanafiyyah = {
 	dynasty_house = house_Hashimid
 	religion = "ismaili"
 	culture = "hijazi"
-	trait = sayyid_quraysh
+	trait = sayyid
 	father = 159395
 	745.1.1 = {
 		birth = "745.1.1" #Unknown
@@ -6941,7 +6941,7 @@ abu_hashim_hanafiyyah = {
 	dynasty_house = house_Idrisid
 	religion = "ismaili"
 	culture = "bedouin"
-	trait = sayyid_quraysh
+	trait = sayyid
 	father = 33928
 	745.1.2 = {
 		birth = "745.1.2"
@@ -7136,7 +7136,7 @@ abu_hashim_hanafiyyah = {
 
 	culture = "bedouin"
 	religion = "zayidi"
-	trait = sayyid_quraysh
+	trait = sayyid
 	father = 163130
 	846.1.1 = {
 		birth = "846.1.1"
@@ -7194,7 +7194,7 @@ abu_hashim_hanafiyyah = {
 	religion = "ismaili"
 	culture = "hijazi"
 	trait = salaf_al_salih
-	trait = sayyid_quraysh
+	trait = sayyid
 	father = 33926
 	653.1.1 = {
 		birth = "653.1.1" #Unknown
@@ -7209,7 +7209,7 @@ abu_hashim_hanafiyyah = {
 	dynasty_house = house_Hashimid
 	religion = "ismaili"
 	culture = "hijazi"
-	trait = sayyid_quraysh
+	trait = sayyid
 	father = 163124
 	703.1.1 = {
 		birth = "703.1.1" #Unknown
@@ -7224,7 +7224,7 @@ abu_hashim_hanafiyyah = {
 	dynasty_house = house_Hashimid
 	religion = "ismaili"
 	culture = "hijazi"
-	trait = sayyid_quraysh
+	trait = sayyid
 	father = 163125
 	740.1.1 = {
 		birth = "740.1.1" #Unknown
@@ -7239,7 +7239,7 @@ abu_hashim_hanafiyyah = {
 	dynasty_house = house_Hashimid
 	religion = "ismaili"
 	culture = "hijazi"
-	trait = sayyid_quraysh
+	trait = sayyid
 	father = 163126
 	780.1.1 = {
 		birth = "780.1.1" #Unknown
@@ -7254,7 +7254,7 @@ abu_hashim_hanafiyyah = {
 	dynasty_house = house_Hashimid
 	religion = "zayidi"
 	culture = "hijazi"
-	trait = sayyid_quraysh
+	trait = sayyid
 	father = 163127
 	810.1.1 = {
 		birth = "810.1.1" #Unknown
@@ -7269,7 +7269,7 @@ abu_hashim_hanafiyyah = {
 	dynasty_house = house_Hashimid
 	religion = "ismaili"
 	culture = "hijazi"
-	trait = sayyid_quraysh
+	trait = sayyid
 	father = 33929
 	780.1.1 = {
 		birth = "780.1.1" #Unknown
@@ -7284,7 +7284,7 @@ abu_hashim_hanafiyyah = {
 	dynasty_house = house_Hashimid
 	religion = "ismaili"
 	culture = "hijazi"
-	trait = sayyid_quraysh
+	trait = sayyid
 	father = 163129
 	810.1.1 = {
 		birth = "810.1.1" #Unknown
@@ -8110,9 +8110,9 @@ abu_hashim_hanafiyyah = {
 	name = "Isma_il"
 	dynasty_house = house_Hashimid
 
-	culture = "bedouin"
+	culture = "hijazi"
 	religion = "ismaili"
-	trait = sayyid_quraysh
+	trait = sayyid
 	father = 163130
 	840.1.1 = {
 		birth = "840.1.1"
@@ -8127,7 +8127,7 @@ abu_hashim_hanafiyyah = {
 
 	culture = "bedouin"
 	religion = "zayidi"
-	trait = sayyid_quraysh
+	trait = sayyid
 	father = 74041
 	860.1.1 = {
 		birth = "860.1.1"
@@ -8142,7 +8142,7 @@ abu_hashim_hanafiyyah = {
 
 	culture = "bedouin"
 	religion = "zayidi"
-	trait = sayyid_quraysh
+	trait = sayyid
 	father = 160016
 	880.1.1 = {
 		birth = "880.1.1"
@@ -8157,7 +8157,7 @@ abu_hashim_hanafiyyah = {
 
 	culture = "bedouin"
 	religion = "zayidi"
-	trait = sayyid_quraysh
+	trait = sayyid
 	father = 160017
 	900.1.1 = {
 		birth = "900.1.1"
@@ -8172,7 +8172,7 @@ abu_hashim_hanafiyyah = {
 
 	culture = "bedouin"
 	religion = "zayidi"
-	trait = sayyid_quraysh
+	trait = sayyid
 	father = 160017
 	901.1.1 = {
 		birth = "901.1.1"
@@ -8187,7 +8187,7 @@ abu_hashim_hanafiyyah = {
 
 	culture = "bedouin"
 	religion = "zayidi"
-	trait = sayyid_quraysh
+	trait = sayyid
 	father = 160017
 	903.1.1 = {
 		birth = "903.1.1"
@@ -8245,7 +8245,7 @@ abu_hashim_hanafiyyah = {
 	dynasty_house = house_Alavid
 	religion = "zayidi"
 	culture = "hijazi"
-	trait = sayyid_quraysh
+	trait = sayyid
 	father = 163128
 	832.1.1 = {
 		birth = "832.1.1"

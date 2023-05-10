@@ -1,6 +1,7 @@
 ﻿on_game_start = {
 	on_actions = {
 		tib_update_title_coa
+		tib_add_islamic_elective
 	}
 }
 
@@ -10,5 +11,17 @@
 tib_update_title_coa = {
 	effect = {
 		title:e_mongolia = {update_dynamic_coa = yes} # Gokturks
+	}
+}
+tib_add_islamic_elective = {
+	effect = {
+		title.holder = {
+			if = {
+				limit = {
+					has_government = islamic_government
+				}
+			}
+			add_title_law = tib_islamic_dynastic_elective_succession_law
+		}
 	}
 }

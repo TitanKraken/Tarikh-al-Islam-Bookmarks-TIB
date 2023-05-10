@@ -128,8 +128,9 @@ islamic_government = {
 	create_cadet_branches = yes
 	rulers_should_have_dynasty = yes
 	royal_court = yes
+	#can_change_title_law_trigger = yes
 
-	valid_holdings = { castle_holding city_holding }
+	valid_holdings = { castle_holding city_holding church_holding }
 	required_county_holdings = { castle_holding city_holding church_holding }
 	always_use_patronym = yes
 	dynasty_named_realms = yes
@@ -148,7 +149,7 @@ islamic_government = {
 	}
 
 	character_modifier = {
-		#title_creation_cost_mult = -0.5
+		title_creation_cost_mult = -0.2
 		levy_size = -0.50
 
 		vassal_tax_mult = 0.2
@@ -208,7 +209,7 @@ islamic_government = {
 }
 
 theme_government = {
-	#primary_heritages = { heritage_byzantine }
+	primary_heritages = heritage_byzantine
 	create_cadet_branches = yes
 	rulers_should_have_dynasty = yes
 	dynasty_named_realms = yes
@@ -235,7 +236,7 @@ theme_government = {
 					target_title_tier = tier_kingdom
 					target_title_tier = tier_empire
 				}
-				change_government = feudal_government
+				change_government = theme_government
 			}
 		}
 	}

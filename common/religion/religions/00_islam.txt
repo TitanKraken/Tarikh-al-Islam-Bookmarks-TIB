@@ -53,7 +53,24 @@
 	}
 
 	reserved_male_names = {
-		Abbas Abdul Abdullah Abolhassan Abu-Bakr Ahmad Akbar Allahyar Ali Ali-Fay Ali-Kolon Ali-Zalil Hasan Hossein Hussayn Ismail Mahmud Mohammed Muammar Muhammad
+		# Asma'ul-Husna Names
+		Abdullah Abdul-Rahman Abdul-Jaleel Abdul-Fattah Abdul-Haq Abdul-Aziz Abdul-Salaam Abdul-Qadir Abdul-Majid Abdul-Wahab
+		Ahmad Qasim
+		#Akbar Allahyar #Ali-Fay #Ali-Kolon Ali-Zalil 
+		Hasan Hussayn Hussein Mahmud Muammar Muhammad Mohammed
+		# Sahaba Names
+		Abu_Bakr Umar Uthman Ali Zayd Abbad Abbas Ammar Amr Anas Asim Ayman Bashir Bilal Fadl Hamza Habab Habib Hakim Hanzala Hisham 
+		Hashim Harith Hudhayfah Imran Iyad Jabir Jafar Khalid Khubayb Mu_awiyah Sa_d Sa_id Said Safwan Sufyan Talhah Ubayy Umayr Usama Walid Yasir Zubayr
+		# Prophets' Names
+		Adam Idris Nuh Hud Salih Ibrahim Ismail Isma_il Ishaq Ya_qub Yusuf Lut Musa Harun Daud Sulayman Sulaiman Suleiman Ayyub Yahya Zakaria Isa
+	}
+	reserved_female_names = {
+		# Female Figures in the Qur'an
+		Asiyah Maryam Hawa Sarah Hajar Zulaykha Zulaikha Safura Bilqis Balqis Hannah
+		# Wives of Prophet Muhammad
+		Khadija Sawda Aisha Hafsa Juwayriyya Safiyya Maymuna Maimuna Rayhana Maria
+		# Daughters of Prophet Muhammad
+		Zainab Zaynab Ruqayyah Fatimah Fatima
 	}
 
 	custom_faith_icons = {

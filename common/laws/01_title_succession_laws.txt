@@ -4,9 +4,10 @@
 		can_have = {
 			has_government = feudal_government
 			highest_held_title_tier >= tier_duchy
-			NOR = { #Cultures have their special flavor.
+			NOR = { # Cultures have their special flavor.
 				culture = { has_cultural_parameter = witenagemot_succession_enabled }
 				culture = { has_cultural_parameter = scandinavian_elective_enabled }
+				#has_government = islamic_government
 			}
 		}
 		can_pass = {
@@ -35,6 +36,7 @@
 			OR = {
 				has_government = feudal_government
 				has_government = clan_government
+				has_government = islamic_government
 			}
 			highest_held_title_tier = tier_empire
 		}
@@ -178,6 +180,92 @@
 		}
 	}
 
+	# Islamic Electives
+	tib_islamic_dynastic_elective_succession_law = {
+		can_have = {
+			OR = {
+				has_government = islamic_government
+				has_government = clan_government
+				has_government = tribal_government
+			}
+			highest_held_title_tier >= tier_duchy
+		}
+		can_pass = {
+			can_change_title_law_trigger = yes
+		}
+		can_title_have = {
+			can_title_have_law_general_trigger = yes
+		}
+		succession = {
+			order_of_succession = election
+			election_type = tib_islamic_dynastic_elective
+		}
+		flag = elective_succession_law
+		title_allegiance_opinion = 10
+		revoke_cost = {
+			prestige = change_title_succession_law_prestige_cost
+		}
+		pass_cost = {
+			prestige = change_title_succession_law_prestige_cost
+		}
+	}
+	tib_islamic_general_elective_succession_law = {
+		can_have = {
+			OR = {
+				has_government = islamic_government
+				has_government = clan_government
+				has_government = tribal_government
+			}
+			highest_held_title_tier >= tier_duchy
+		}
+		can_pass = {
+			can_change_title_law_trigger = yes
+		}
+		can_title_have = {
+			can_title_have_law_general_trigger = yes
+		}
+		succession = {
+			order_of_succession = election
+			election_type = tib_islamic_general_elective
+		}
+		flag = elective_succession_law
+		title_allegiance_opinion = 10
+		revoke_cost = {
+			prestige = change_title_succession_law_prestige_cost
+		}
+		pass_cost = {
+			prestige = change_title_succession_law_prestige_cost
+		}
+	}
+	tib_rashidun_elective_succession_law = {
+		can_have = {
+			OR = {
+				has_government = islamic_government
+				has_government = clan_government
+				has_government = tribal_government
+			}
+			highest_held_title_tier >= tier_duchy
+		}
+		can_pass = {
+			can_change_title_law_trigger = yes
+		}
+		can_title_have = {
+			can_title_have_law_general_trigger = yes
+		}
+		succession = {
+			order_of_succession = election
+			election_type = tib_rashidun_elective
+		}
+		flag = elective_succession_law
+		title_allegiance_opinion = 10
+		revoke_cost = {
+			prestige = change_title_succession_law_prestige_cost
+		}
+		pass_cost = {
+			prestige = change_title_succession_law_prestige_cost
+		}
+	}
+
 	# Kurultai Succession
 	kurultai_elective = {
 			can_have = {
@@ -187,21 +275,21 @@
 					has_government = tribal_government
 				}			
 				highest_held_title_tier >= tier_duchy
-				NOR = { #Cultures have their special flavor.
+				NOR = { # Cultures have their special flavor.
 					culture = { has_cultural_parameter = witenagemot_succession_enabled }
 					culture = { has_cultural_parameter = scandinavian_elective_enabled }
 				}
 			}
 			can_pass = {
 				can_change_title_law_trigger = yes
-				culture_heritage = heritage_mongolic
+				culture = { has_cultural_pillar = heritage_mongolic }
 			}
 			can_title_have = {
 				can_title_have_law_general_trigger = yes
 			}
 			succession = {
 				order_of_succession = election
-				election_type = feudal_elective
+				election_type = kurultai_elective
 			}
 			flag = elective_succession_law
 			title_allegiance_opinion = 10
