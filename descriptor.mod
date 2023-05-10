@@ -8,6 +8,6 @@ tags={
 	"Culture"
 	"Decisions"
 }
-name="Almohad History: Detailed"
-supported_version="1.8.1"
+name="Almohad History: Detailed (GitHub)"
+supported_version="1.8.2"
 remote_file_id="2860237527"

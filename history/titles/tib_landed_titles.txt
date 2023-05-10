@@ -283,6 +283,9 @@ c_az-dhahira = {
 e_egypt = {
 	973.1.1 = { # Moved the capital from Ifriqiya to Egypt
 		holder = 32903 # al-Mu'izz
+		succession_laws = {
+			tib_islamic_dynastic_elective_succession_law
+		}
 	}
 	975.12.18 = {
 		holder = 3090 # al-'Aziz bi-llah
