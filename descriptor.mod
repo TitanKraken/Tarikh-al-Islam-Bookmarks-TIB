@@ -9,5 +9,5 @@ tags={
 	"Decisions"
 }
 name="Almohad History: Detailed (GitHub)"
-supported_version="1.8.2"
+supported_version="1.9.0.2"
 remote_file_id="2860237527"

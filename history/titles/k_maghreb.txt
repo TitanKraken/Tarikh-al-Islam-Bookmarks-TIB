@@ -86,7 +86,7 @@ k_maghreb = {
 	1147.1.1 = {
 		holder = 32978 # 'Abd-al-Mu'min
 		government = islamic_government # clan_government
-		succession_laws = { feudal_elective_succession_law }
+		succession_laws = { tib_islamic_dynastic_elective_succession_law }
 	}
 	1163.5.12 = {
 		holder = 32979 # Muhammad
