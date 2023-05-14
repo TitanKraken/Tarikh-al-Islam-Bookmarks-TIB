@@ -1,4 +1,5 @@
-﻿ # Default Islamic Clan tiers
+﻿
+# Default Islamic Clan tiers
 baron_islamic_male = {
 	type = character
 	gender = male
@@ -181,4 +182,40 @@ duchy_theme = {
 	tier = duchy
 	priority = 27
 	governments = { theme_government }
+}
+
+# Scotland Fix for clan
+king_clan_male_scots = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 7
+	governments = { clan_government }
+	heritages = { 
+		heritage_goidelic
+		heritage_west_germanic
+	}
+}
+king_clan_female_scots = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 7
+	governments = { clan_government }
+	heritages = { 
+		heritage_goidelic
+		heritage_west_germanic
+	}
+}
+kingdom_clan_scots = {
+	type = title
+	tier = kingdom
+	priority = 7
+	governments = { clan_government }
+	heritages = { 
+		heritage_goidelic
+		heritage_west_germanic
+	}
 }

@@ -138,12 +138,6 @@
 			rank = oldest
 			title_division = partition
 			primary_heir_minimum_share = 0.5
-			if = {
-				limit = {
-					has_government = islamic_government
-				}
-				election_type = tib_islamic_dynastic_elective
-			}
 		}
 		flag = partition_succession_law
 		modifier = {
@@ -339,23 +333,6 @@
 		}
 		should_start_with = {
 			has_government = holy_order_government
-		}
-		succession = {
-			order_of_succession = theocratic
-			faith = same_faith
-			pool_character_config = pool_holy_order_succession
-		}
-	}
-
-	holy_order_county_succession_law = { # From Kingdom of Heaven
-		can_keep = {
-			can_have_holy_order_county_succession_law_trigger = yes
-		}
-		can_have = {
-			can_have_holy_order_county_succession_law_trigger = yes
-		}
-		should_start_with = {
-			has_government = holy_order_county_government
 		}
 		succession = {
 			order_of_succession = theocratic

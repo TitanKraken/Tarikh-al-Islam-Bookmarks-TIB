@@ -1,7 +1,7 @@
 ﻿
 clan_government = {
 	primary_holding = castle_holding
-	primary_heritages = { heritage_arabic heritage_iranian heritage_turkic heritage_mongol heritage_berber heritage_goidelic heritage_horn_african }
+	primary_heritages = { heritage_arabic heritage_iranian heritage_turkic heritage_mongolic heritage_berber heritage_goidelic heritage_horn_african }
 	
 	fallback = 2
 	
@@ -96,7 +96,7 @@ mercenary_government = {
 }
 
 # Holy order will always get this
-holy_order_county_government = {
+holy_order_government = {
 	court_generate_spouses = yes
 	court_generate_commanders = 10
 	council = yes

@@ -3315,9 +3315,12 @@ d_damascus = {
 	1250.1.1 = {
 		liege = 0
 	}
-	1260.9.3 = {
-		holder = 34990
+
+	1258.1.1 = {
+		liege = k_egypt
+		holder = 8000477 # Jamal-al-Din Aqush
 	}
+
 	1280.1.1 = {
 		holder = 32939
 	}

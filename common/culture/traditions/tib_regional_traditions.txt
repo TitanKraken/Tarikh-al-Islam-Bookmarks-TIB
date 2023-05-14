@@ -111,7 +111,10 @@ tradition_corsairs = {
 		if = {
 			limit = {
 				NOT = {
-					any_in_list = { list = traits this = flag:ethos_bellicose }
+					any_in_list = { 
+						list = traits 
+						this = flag:ethos_bellicose 
+					}
 				}
 			}
 			multiply = 0

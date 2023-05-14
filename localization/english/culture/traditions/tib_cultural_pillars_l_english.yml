@@ -1,0 +1,18 @@
+﻿l_english:
+ # Heritages
+ heritage_frankish_name:0 "Gallo-Roman"
+ heritage_frankish_collective_noun:0 "Gallo-Romans"
+
+ # Traditions
+ tradition_corsairs_name:0 "Corsairs"
+ tradition_corsairs_desc:0 "The Middle East and North Africa are known for the raids that was launched towards the Byzantine empire and the Mediterrenean seas. Nicknamed as the "Corsairs" in European writings, they launch strong raids that inflict fear - and booty for the realm!"
+ culture_parameter_unlocks_tib_border_raid_casus_belli:0 "[characters|E] of this [culture|E] can launch [border_raid|E] [casus_belli|E] outside of a [struggle|E]."
+
+ # Aesthetics
+ iberian_muslim_clothing_gfx:0 Iberian Muslim
+ iberian_muslim_unit_gfx:0 Iberian Muslim
+ 
+ iberian_christian_clothing_gfx:0 Iberian Christian
+ iberian_christian_unit_gfx:0 Iberian Christian
+
+ iberian_building_gfx:0 Iberian

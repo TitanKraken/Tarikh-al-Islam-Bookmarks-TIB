@@ -12,13 +12,13 @@
 	trait="gregarious"
 	trait="generous"
 	trait="education_martial_2"
-	trait="mamaluk"
+	#trait="mamaluk"
 	1238.1.1 = {
 		birth="1238.1.1" # ?
 	}
 	1254.1.1 = {
 	    employer="32933" # Was with Baibars during his Syrian exile.
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		religion="ashari"
 		
 		dynasty=8000559
@@ -34,10 +34,10 @@
 	dynasty=8000560
 	religion="ashari"
 	culture="turkish"
-	trait="mamaluk"
+	#trait="mamaluk"
 	1240.1.1 = {
 		birth="1240.1.1" # ?
-		culture="levantine"
+		culture="mamluk" #"levantine"
 		
 	}
 	1279.1.1 = {
@@ -47,7 +47,7 @@
 
 #  Mamluk educated in al-Bira by governor Jamal al-Din Aqqush al-Mughiti. Joined the Mansuriyya when Qalawun became sultan.
 8000462 = {
-	name="Sayf al-din"  # Sayf al-din Tughan al-Mansuri
+	name="Sayf al-Din"  # Sayf al-din Tughan al-Mansuri
 	dynasty=8000561
 	religion="ashari"
 	culture="cuman"
@@ -55,10 +55,10 @@
 	trait="gregarious"
 	trait="diligent"
 	trait="education_martial_2" # Among other things he governed al-Bira from 1299 for 12 years. An important frontier post against the Ilkhanate.
-	trait="mamaluk"
+	#trait="mamaluk"
 	1265.1.1 = {
 		birth="1265.1.1" # ?
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
         
 	}
 	1324.1.1 = {
@@ -73,12 +73,12 @@
 	religion="ashari"
 	culture="turkish"
 	trait="education_martial_2" 
-	trait="mamaluk"
+	#trait="mamaluk"
 	1210.1.1 = {
 		birth="1210.1.1" # ?
 	}
 	1226.1.1={
-		culture="levantine"
+		culture="mamluk" #"levantine"
         
 	
 	}
@@ -97,10 +97,10 @@
 	trait="gregarious" # Diffused a rebellion by Baybar's grandsons at Kerak using only diplomacy.
 	trait="brave"
 	trait="education_martial_3" # Qalawun's most trusted general. Many campaigns including a vital role at Homs in 1281.
-	trait="mamaluk"
+	#trait="mamaluk"
 	1260.1.1 = {
 		birth="1260.1.1" # Was certainly older than this.
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
 		employer="32933"
 	}
@@ -125,10 +125,10 @@
 	trait="just"
 	trait="temperate"
 	trait="education_diplomacy_3"
-	trait="mamaluk"
+	#trait="mamaluk"
 	1279.1.1 = {
 		birth="1279.1.1" 
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
 		employer="32936"
 	}
@@ -146,10 +146,10 @@
 	dynasty=8000566
 	religion="ashari"
 	culture="alan"
-	trait="mamaluk"
+	#trait="mamaluk"
 	1265.1.1 = {
 		birth="1265.1.1" 
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
 		employer="32933"
 	}
@@ -170,10 +170,10 @@
 	dynasty=8000567
 	religion="ashari"
 	culture="cuman"
-	trait="mamaluk"
+	#trait="mamaluk"
 	1265.1.1 = {
 		birth="1265.1.1" # ? Old to enough to govern Kerak 1291-1309.
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
 	}
 	1279.1.1 = {
@@ -193,10 +193,10 @@
 	dynasty=8000568
 	religion="ashari"
 	culture="cuman"
-	trait="mamaluk"
+	#trait="mamaluk"
 	1290.1.1 = {
 		birth="1290.1.1" 
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
 		employer="32936"
 	}
@@ -211,10 +211,10 @@
 	dynasty=8000569
 	religion="ashari"
 	culture="cuman"
-	trait="mamaluk"
+	#trait="mamaluk"
 	1285.1.1 = {
 		birth="1285.1.1" # ?
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
 		employer="32936"
 	}
@@ -231,10 +231,10 @@
 	culture="cuman"
 	trait="just"
 	trait="education_martial_2"
-	trait="mamaluk"
+	#trait="mamaluk"
 	1279.1.1 = {
 		birth="1279.1.1" # ?
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
 		employer="32936"
 	}
@@ -250,10 +250,10 @@
 	religion="ashari"
 	culture="cuman"
 	trait="education_martial_3"
-	trait="mamaluk"
+	#trait="mamaluk"
 	1265.1.1 = {
 		birth="1265.1.1"
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
     }
 	1265.1.1 = {
@@ -276,10 +276,10 @@
 	dynasty=8000572
 	religion="ashari"
 	culture="cuman"
-	trait="mamaluk"
+	#trait="mamaluk"
 	1280.1.1 = {
 		birth="1280.1.1"
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
     }
 	1280.1.1 = {
@@ -303,10 +303,10 @@
 	trait="arrogant" # Humiliation and fear of reprisal was the catalyst for his murder of Al-Ashraf
 	trait="callous"
 	trait="ambitious"  
-	trait="mamaluk"
+	#trait="mamaluk"
 	1260.1.1 = {
 		birth="1260.1.1" 
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
 		employer="32932"
 
@@ -331,10 +331,10 @@
 	dynasty=8000574
 	religion="ashari"
 	culture="mongol" # As per sources
-	trait="mamaluk"
+	#trait="mamaluk"
 	1245.1.1 = {
 		birth="1245.1.1" # ?
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
 		employer="32925"
 	}
@@ -352,10 +352,10 @@
 	dynasty=8000575
 	religion="ashari"
 	culture="cuman"
-	trait="mamaluk"
+	#trait="mamaluk"
 	1245.1.1 = {
 		birth="1245.1.1" # ?
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
 		employer="32925"
 	}
@@ -370,10 +370,10 @@
 	dynasty=8000576
 	religion="ashari"
 	culture="cuman"
-	trait="mamaluk"
+	#trait="mamaluk"
 	1241.1.1 = {
 		birth="1241.1.1" # ?
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
 		employer="32925"
 	}
@@ -388,10 +388,10 @@
 	dynasty=8000577
 	religion="ashari"
 	culture="cuman"
-	trait="mamaluk"
+	#trait="mamaluk"
 	1232.1.1 = {
 		birth="1232.1.1" # ?
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
 		employer="32925"
 	}
@@ -410,10 +410,10 @@
 	trait="callous"
 	trait="ambitious"  # Attempted to set up his own Syrian state.
 	trait="education_martial_2" # Fought at the Battle of Homs 1281
-	trait="mamaluk"
+	#trait="mamaluk"
 	1232.1.1 = {
 		birth="1232.1.1" # ?
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
 		employer="32925"
 	}
@@ -434,13 +434,13 @@
 	trait="diligent"  # Trained Baibars
 	trait="strong"        # Long lived
 	trait="education_martial_3" # Commander of the left wing of the army under al-Said Baraka
-	trait="mamaluk"
+	#trait="mamaluk"
 	1210.1.1={           
 		birth="1210.1.1"  #?
 	}
 	1232.1.1 = {
 		employer=32925
-		culture="levantine"
+		culture="mamluk" #"levantine"
 		
 	}
 
@@ -456,10 +456,10 @@
 	religion="ashari"
 	culture="cuman"
 	trait="education_martial_2"
-	trait="mamaluk"
+	#trait="mamaluk"
 	1240.1.1 = {
 		birth="1240.1.1" # ?
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
 	}
 	
@@ -475,10 +475,10 @@
 	religion="ashari"
 	culture="cuman"
 	trait="education_martial_2"
-	trait="mamaluk"
+	#trait="mamaluk"
 	1240.1.1 = {
 		birth="1240.1.1" # ?
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
 	}
 	1279.7.1 = {
@@ -495,13 +495,13 @@
 	dynasty=8000583
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="mamaluk"
+	#trait="mamaluk"
 	1223.1.1 = {
 		birth="1223.1.1" # ? Old enough to be governor of Jerusalem in 1254.
 	}
 	1232.1.1={
 		religion="ashari"
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
 	    employer="32925"
 	}
@@ -516,10 +516,10 @@
 	dynasty=8000584
 	religion="ashari"
 	culture="cuman"
-	trait="mamaluk"
+	#trait="mamaluk"
 	1280.1.1 = {
 		birth="1280.1.1" # ?
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
 	}
     1285.1.1 = {
@@ -536,10 +536,10 @@
 	dynasty=8000585
 	religion="ashari"
 	culture="cuman"
-	trait="mamaluk"
+	#trait="mamaluk"
 	1260.1.1 = {
 		birth="1260.1.1" # ?
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
     }
 	1279.1.1 = {
@@ -556,10 +556,10 @@
 	dynasty=8000586
 	religion="ashari"
 	culture="cuman"
-	trait="mamaluk"
+	#trait="mamaluk"
 	1250.1.1 = {
 		birth="1250.1.1" # ?
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
     }
 	1290.1.1 = {
@@ -573,10 +573,10 @@
 	dynasty=8000587
 	religion="ashari"
 	culture="cuman"
-	trait="mamaluk"
+	#trait="mamaluk"
 	1250.1.1 = {
 		birth="1250.1.1" # ?
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
     }
 	1284.1.1 = {
@@ -590,10 +590,10 @@
 	dynasty=8000588
 	religion="ashari"
 	culture="cuman"
-	trait="mamaluk"
+	#trait="mamaluk"
 	1250.1.1 = {
 		birth="1250.1.1" # ?
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
     }
 	1279.1.1 = {
@@ -610,10 +610,10 @@
 	dynasty=8000589
 	religion="ashari"
 	culture="cuman"
-	trait="mamaluk"
+	#trait="mamaluk"
 	1260.1.1 = {
 		birth="1260.1.1"
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
     }
 	1279.1.1 = {
@@ -630,14 +630,14 @@
 	dynasty = 8000592
 	religion = "ashari"
 	culture = "cuman"
-	trait="mamaluk"
+	#trait="mamaluk"
 	trait = "zealous"  # Endower of religious buildings etc. Features in many fanciful hagiographies of Upper Egyptian Sufis.
 	trait = "lustful"  # As per one of the above mentioned stories.
 	trait = "education_martial_3" # Led expeditions into Nubia based on his knowledge of the region.
 	trait = "architect" # Noted military engineer in the sources. Very active as one during the numerous late 13th century campaigns against faith_warrior citadels.
 	1232.1.1 = {
 		birth = "1232.1.1"  # Speculative and was likely born earlier but we need him living up to 1295
-		culture = "egyptian"
+		culture = "mamluk" #"egyptian"
 		
 		employer = "32925"
     }
@@ -652,11 +652,11 @@
 	dynasty=8000593
 	religion="ashari"
 	culture="cuman"
-	trait="mamaluk"
+	#trait="mamaluk"
 	trait="education_martial_3"
 	1263.1.1 = {
 		birth="1263.1.1"
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
     }
 	1279.1.1 = {
@@ -674,12 +674,12 @@
 	dynasty=8000594
 	religion="ashari"
 	culture="cuman"
-	trait="mamaluk"
+	#trait="mamaluk"
 	trait="brave" # Sources say he died trying to rescue his wives from Mongol captivity.
 	trait="education_martial_2" # One of the commanders at the battle
 	1262.1.1 = {
 		birth="1262.1.1"
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
     }
 	1279.1.1 = {
@@ -698,10 +698,10 @@
 	dynasty=8000595
 	religion="ashari"
 	culture="cuman"
-	trait="mamaluk"
+	#trait="mamaluk"
 	1260.1.1 = {
 		birth="1260.1.1"
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
     }
 	
@@ -716,10 +716,10 @@
 	dynasty=8000596
 	religion="ashari"
 	culture="cuman"
-	trait="mamaluk"
+	#trait="mamaluk"
 	1262.1.1 = {
 		birth="1262.1.1"
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
     }
 	1279.1.1 = {
@@ -736,10 +736,10 @@
 	dynasty=8000597
 	religion="ashari"
 	culture="alan"
-	trait="mamaluk"
+	#trait="mamaluk"
 	1262.1.1 = {
 		birth="1262.1.1"
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
     }
 	1279.1.1 = {
@@ -756,13 +756,13 @@
 	dynasty=8000598
 	religion="ashari"
 	culture="turkish"
-	trait="mamaluk"
+	#trait="mamaluk"
 	trait="education_martial_3" # Inflicted a catastrophic defeat on the Kingdom of Jerusalem from which it never recovered.
 	1210.1.1 = {
 		birth="1210.1.1" # He was a senior amir in 1244.
 	}
 	1226.1.1={
-		culture="levantine"
+		culture="mamluk" #"levantine"
         
 	
 	}
@@ -780,10 +780,10 @@
 	dynasty=8000599
 	religion="ashari"
 	culture="cuman"
-	trait="mamaluk"
+	#trait="mamaluk"
 	1240.1.1 = {
 		birth="1240.1.1"
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
     }
 	1281.1.1 = {
@@ -801,13 +801,13 @@
 	culture="cuman"
 	trait="education_martial_3"
 	trait = "brave"
-	trait="mamaluk"
+	#trait="mamaluk"
 	1223.1.1 = {
 		birth="1223.1.1"
     }
 	1232.1.1={
 		religion="ashari"
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
         
 		employer="32925"
 	}
@@ -827,14 +827,14 @@
 	religion="tengri_pagan"
 	culture="cuman" # Captured along with the future sultan Baybars
 	trait="education_martial_2"
-	trait="mamaluk"
+	#trait="mamaluk"
 	1225.1.1 = {
 		birth="1225.1.1"
     }
 
 	1232.1.1 = {
 		religion="ashari"
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
         
 		employer="32925"
 	}
@@ -852,7 +852,7 @@
 	religion="ashari"
 	culture="mongol"
 	trait="beauty_good_1"
-	trait="mamaluk"
+	#trait="mamaluk"
 	
 	trait="education_stewardship_3"
 	1302.1.1 = {
@@ -873,11 +873,11 @@
 	dynasty=8000603
 	religion="ashari"
 	culture="cuman"
-	trait="mamaluk"
+	#trait="mamaluk"
 	trait="education_martial_1"
 	1318.1.1 = {
 		birth="1318.1.1"
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
     }
 	1334.1.1 = {
@@ -896,10 +896,10 @@
 	culture="alan"
 	trait="strong"
 	trait="education_martial_2"
-	trait="mamaluk"
+	#trait="mamaluk"
 	1293.1.1 = {
 		birth="1293.1.1"
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
     }
 	1309.11.1 = {
@@ -922,10 +922,10 @@
 	trait="beauty_good_1"
 	trait="callous"
 	trait="education_intrigue_3"
-	trait="mamaluk"
+	#trait="mamaluk"
 	1292.1.1 = {
 		birth="1292.1.1"
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
     }
 	1309.11.1 = {
@@ -951,11 +951,11 @@
 	trait="humble" 
 	trait="brave" # Led a succesful and heroic defence of the citadel of Damascus during the Mongol occupation
 	trait="honest" # Refused multiple attempts at bribery to surrender from the Mongols.
-	trait="mamaluk"
+	#trait="mamaluk"
 	trait="education_martial_2"
 	1260.1.1 = {
 		birth="1260.1.1"
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
     }
 	1279.1.1 = {
@@ -977,10 +977,10 @@
 	trait="diligent"
 	trait="shrewd"
 	trait="education_martial_2"
-	trait="mamaluk"
+	#trait="mamaluk"
 	1260.1.1 = {
 		birth="1260.1.1"
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
 		employer="32933"
     }
@@ -1003,10 +1003,10 @@
 	dynasty=8000608
 	religion="ashari"
 	culture="georgian" # As per Muqaffa
-	trait="mamaluk"
+	#trait="mamaluk"
 	1280.1.1 = {
 		birth="1280.1.1"
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
     }
 	1280.1.1 = {
@@ -1027,10 +1027,10 @@
 	religion="ashari"
 	culture="cuman"
 	trait="education_martial_2"
-	trait="mamaluk"
+	#trait="mamaluk"
 	1261.1.1 = {
 		birth="1261.1.1"
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
     }
 	1279.1.1 = {
@@ -1048,10 +1048,10 @@
 	religion="ashari"
 	culture="cuman"
 	trait="education_martial_2"
-	trait="mamaluk"
+	#trait="mamaluk"
 	1241.1.1 = {
 		birth="1241.1.1"
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 		
     }
 	1279.7.1 = {
@@ -1072,7 +1072,7 @@
 	culture="turkish"
 	1238.1.1={
 		birth="1238.1.1"
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 	}
 	1284.12.26={
 		death="1284.12.26"
@@ -1138,7 +1138,7 @@
 	dynasty=8000611
 	religion="ashari"
 	culture="mongol"
-	trait="mamaluk"
+	#trait="mamaluk"
 	1240.1.2={
 		birth="1240.1.1"
 	}
@@ -1158,7 +1158,7 @@
 	culture="cuman"
 	1238.1.1={
 		birth="1238.1.1"
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 	}
 	1295.1.1={
 		death="1295.1.1" # No idea about lifespan
@@ -1176,7 +1176,7 @@
 	mother=8000511
 	1261.11.1={
 		birth="1261.11.1"
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 	}
 	1268.12.31={
 	    add_spouse="32934" # Marriage was arranged as per sources
@@ -1196,7 +1196,7 @@
 	trait="education_stewardship_3" # She became very wealthy and invested in many building projects.
 	1305.1.1={
 		birth="1305.1.1"
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 	}
 	1349.1.1={
 		death="1349.1.1" # Of plague as per sources
@@ -1211,7 +1211,7 @@
 	culture="cuman"
 	1320.1.1={
 		birth="1320.1.1"
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 	}
 	1349.1.1={
 		death="1349.1.1" # No idea about lifespan
@@ -1228,7 +1228,7 @@
 	father=32933
 	1260.1.1={
 		birth="1260.1.1"
-		culture="egyptian"
+		culture="mamluk" #"egyptian"
 	}
 	1300.1.1={
 		death="1300.1.1" # No idea. She was alive in 1285 when she set up the Ribat al-Baghdadiyya

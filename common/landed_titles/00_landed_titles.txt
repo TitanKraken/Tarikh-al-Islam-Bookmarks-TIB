@@ -60279,21 +60279,21 @@ e_arabia = {
 		}
 	}
 	k_oman = {
-	color = { 130 140 180 }
+		color = { 130 140 180 }
 	
 		
-	capital	= c_nizwa
+		capital	= c_nizwa
 	
-	ai_primary_priority = {
-		if = {
-			limit = {
-				culture = { has_cultural_pillar = heritage_arabic }
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture = { has_cultural_pillar = heritage_arabic }
+				}
+				add = @better_than_the_alternatives_score
 			}
-			add = @better_than_the_alternatives_score
 		}
-	}
 
-    d_oman = {
+    	d_oman = {
 			color = { 235 160 30 }
 			
 			

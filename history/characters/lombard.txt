@@ -2,7 +2,7 @@
 	name = "Audoin" # Audoin Gausi, King of the Lombards
 	dynasty = 1044031
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	510.1.1 = {
 		birth = yes
@@ -22,7 +22,7 @@
 	female = yes
 	dynasty = 9619
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	mother = 168779
 
@@ -38,7 +38,7 @@
 	name = "Alboin" # Alboin Gausi, Lombard King of Italy (565-572)
 	dynasty = 1044031
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190122
 	mother = 190123
@@ -57,7 +57,7 @@
 	name = "Grasulf" # Grasulf (I) Gausi, Duke of Friuli (591-590)
 	dynasty = 1044031
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190122
 	mother = 190123
@@ -74,7 +74,7 @@
 	name = "Gisulf" # Gisulf (I) Gausian, Duke of Friuli (569-591)
 	dynasty = 1044031
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190125
 
@@ -92,7 +92,7 @@
 	name = "Zotto" # Zotto Gausi, Duke of Benevento (571-591)
 	dynasty = 1044031
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190125
 
@@ -113,7 +113,7 @@
 	name = "Gisulf" # Gisulf (II) Gausi, Duke of Friuli (590-611)
 	dynasty = 1044031
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190126
 
@@ -134,7 +134,7 @@
 	name = "Taso" # Taso Gausi, Duke of Friuli (611-625)
 	dynasty = 1044031
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190128
 	mother = 190129
@@ -153,7 +153,7 @@
 	name = "Caco" # Caco Gausi, Duke of Friuli (611)
 	dynasty = 1044031 #Gausi
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190128
 	mother = 190129
@@ -172,7 +172,7 @@
 	name = "Radoald" # Radoald Gausi, Duke of Benevento (642-651)
 	dynasty = 1044031
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190128
 	mother = 190129
@@ -192,7 +192,7 @@
 	female = yes
 	dynasty = 1044031
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190128
 	mother = 190129
@@ -210,7 +210,7 @@
 	female = yes
 	dynasty = 1044031
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190128
 	mother = 190129
@@ -227,7 +227,7 @@
 	name = "Grimoald" # Grimoald (I) Gausi, King of Lombard Italy (662-671) and Duke of Benevento (651-671)
 	dynasty = 1044031
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190128
 	mother = 190129
@@ -250,7 +250,7 @@
 	female = yes
 	dynasty_house = house_baiuvari
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190181
 
@@ -266,7 +266,7 @@
 	name = "Romoald" # Romoald (I) Gausi, Duke of Benevento (671-687)
 	dynasty = 1044031
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190133
 	#son of an early marriage of his father
@@ -286,7 +286,7 @@
 	name = "Garipald" # Garibald Gausi, Lombard King of Italy (671), Duke of Piedmonte (663-671)
 	dynasty = 1044031
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190133
 	mother = 190134
@@ -304,7 +304,7 @@
 	female = yes
 	dynasty = 1044031
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190248
 
@@ -320,7 +320,7 @@
 	name = "Grimoald" # Grimoald (II) Gausi, Duke of Benevento (687-689)
 	dynasty = 1044031
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190135
 	mother = 190137
@@ -342,7 +342,7 @@
 	name = "Gisulf" # Gisulf (I) Gausi, Duke of Benevento (689-706)
 	dynasty = 1044031 #Gausi
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190135
 	mother = 190137
@@ -364,7 +364,7 @@
 	name = "Winiperga" # Winiperga, wife of Gisulf I of Benevento
 	female = yes
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	669.1.1 = {
 		birth = yes
@@ -378,7 +378,7 @@
 	name = "Romoald" # Romoald (II) Gausi, Duke of Benevento (706-731)
 	dynasty = 1044031
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190139
 	mother = 190140
@@ -407,7 +407,7 @@
 	female = yes
 	dynasty = 1044037
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = lombard0095
 	mother = 190195
@@ -424,7 +424,7 @@
 	female = yes
 	dynasty = 1044038 #Gaiduldling
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 	709.1.1 = {
 		birth = yes
 	}
@@ -437,7 +437,7 @@
 	name = "Gisulf" # Gisulf (II) Gausi, Duke of Benevento (742-751)
 	dynasty = 1044031 #Gausi
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 	father = 190141
 	mother = 190142
 	702.1.1 = {
@@ -455,7 +455,7 @@
 	name = "Scauniperga" # Scauniperga, wife of Gisulf II of Benevento
 	female = yes
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 	701.1.1 = {
 		birth = yes
 	}
@@ -468,7 +468,7 @@
 	name = "Liutprand" # Liutprand Gausi, Duke of Benevento (751-758)
 	dynasty = 1044031
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190144
 	mother = 190145
@@ -485,7 +485,7 @@
 	name = "Arechis" # Arechis (II) Gausi, Duke of Benevento (758-787)
 	dynasty = 1044031
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = lombard0093
 
@@ -494,6 +494,7 @@
 	}
 	751.1.1 = {
 		add_spouse = 190148
+		culture = "lombard"
 	}
 	769.1.1={
 	effect = {
@@ -526,6 +527,9 @@
 
 	735.1.1 = {
 		birth = yes
+	}
+	751.1.1 = {
+		culture = "lombard"
 	}
 	772.1.1 = {
 		death = yes
@@ -610,7 +614,7 @@
 	name = "Arechis" # Arechis (I) Gausi, Duke of Benevento (591-641)
 	dynasty = 1044031
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190126
 
@@ -628,7 +632,7 @@
 	name = "Aio" # Aio (I) Gausi, Duke of Benevento (641-642)
 	dynasty = 1044031
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190153
 
@@ -646,7 +650,7 @@
 	name = "Grasulf" # Grasulf (II) Gausi, Duke of Friuli (625-653)
 	dynasty = 1044031
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190126
 
@@ -662,7 +666,7 @@
 	name = "Ago" # Ago Gausi, Duke of Friuli (653-662)
 	dynasty = 1044031
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190246
 
@@ -678,7 +682,7 @@
 	name = "Lupus" # Lupus Gausi, Duke of Friuli (662-663)
 	dynasty = 1044031
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 	father = 190247
 
 	620.1.1 = {
@@ -695,7 +699,7 @@
 	name = "Arnefrit" # Arnefrit Gausi, Duke of Friuli (663)
 	dynasty = 1044031
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190248
 
@@ -714,7 +718,7 @@
 	name = "Wechtari" # Wechtar Wechtaridi, Duke of Friuli (663-671)
 	dynasty = 1044059
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	636.1.1 = {
 		birth = yes
@@ -730,7 +734,7 @@
 	name = "Landari" # Landar Wechtaridi, Duke of Friuli (671)
 	dynasty = 1044059
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190250
 
@@ -746,7 +750,7 @@
 	name = "Rodoald" # Radoald Wechtaridi, Duke of Friuli (671-695)
 	dynasty = 1044059
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190250
 
@@ -763,7 +767,7 @@
 	female = yes
 	dynasty = 1044059
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190250
 
@@ -779,7 +783,7 @@
 	name = "Ado" # Ado Wechtaridi, Duke of Friuli (698-700)
 	dynasty = 1044059
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190250
 
@@ -795,7 +799,7 @@
 	name = "Ansfrid" # Ansfrid Ansfrididi, Duke of Friuli (695-698)
 	dynasty = 1044060
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 	trait = blind
 
 	656.1.1 = {
@@ -815,7 +819,7 @@
 	name = "Ferdulf" # Ferdulf Ansfrididi, Duke of Friuli (700-705)
 	dynasty = 1044060
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190255
 	mother = 190253
@@ -832,7 +836,7 @@
 	name = "Corvulus" # Corvulus Ansfrididi, Duke of Friuli (705)
 	dynasty = 1044060
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 	trait = blind
 
 	father = 190255
@@ -850,7 +854,7 @@
 	name = "Munichis" # Munichis Munichisidi
 	dynasty = 1044052
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	701.1.1 = {
 		birth = yes
@@ -864,7 +868,7 @@
 	name = "Anselm" # Anselm Munichisidi, Duke of Friuli (749-751)
 	dynasty = 1044052
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190259
 
@@ -874,6 +878,7 @@
 	751.1.1 = {
 		trait = devoted
 		trait = mystic_3
+		culture = "lombard"
 	}
 	803.1.1 = {
 		death = yes
@@ -885,12 +890,15 @@
 	name = "Petrus" # Petrus Munichisidi, Duke of Friuli (751-767)
 	dynasty = 1044052
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190259
 
 	720.1.1 = {
 		birth = yes
+	}
+	750.1.1 = {
+		culture = "lombard"
 	}
 	767.1.1 = {
 		death = yes
@@ -901,12 +909,15 @@
 	name = "Ursus" # Ursus Munichisidi, Count of Padua (751-774)
 	dynasty = 1044052
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190259
 
 	722.1.1 = {
 		birth = yes
+	}
+	750.1.1 = {
+		culture = "lombard"
 	}
 	774.1.1 = {
 		death = yes
@@ -917,12 +928,15 @@
 	name = "Rodgoald" # Rotgaudo Munichisidi, Duke of Friuli (767-776)
 	dynasty = 1044052
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190262
 
 	740.1.1 = {
 		birth = yes
+	}
+	750.1.1 = {
+		culture = "lombard"
 	}
 	790.1.1 = {
 		death = yes
@@ -934,10 +948,13 @@
 	female = yes
 	dynasty = 1044052 #Munichingi
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 	father = 190259
 	730.1.1 = {
 		birth = yes
+	}
+	750.1.1 = {
+		culture = "lombard"
 	}
 	781.1.1 = {
 		death = yes
@@ -1078,7 +1095,7 @@
 	female = yes
 	dynasty = 1044031
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190122
 	mother = 190123
@@ -1096,7 +1113,7 @@
 	female = yes
 	dynasty = 1044031
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190122
 	mother = 190123
@@ -1113,7 +1130,7 @@
 	name = "Beleo" # Beleo Beleos
 	dynasty = 1044045
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	507.1.1 = {
 		birth = yes
@@ -1127,7 +1144,7 @@
 	name = "Clef" # Clef Beleos, Lombard King of Italy (572-574)
 	dynasty = 1044045
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190167
 
@@ -1148,7 +1165,7 @@
 	name = "Authari" # Authari Beleos, Lombard King of Italy (584-590)
 	dynasty = 1044045
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190168
 
@@ -1169,7 +1186,7 @@
 	name = "Agilolf" # Agilulf Anawas, Lombard King of Italy (591-616) and Duke of Piedmonte (575-590)
 	dynasty = anawas
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	559.1.1 = {
 		birth = yes
@@ -1192,7 +1209,7 @@
 	female = yes
 	dynasty = anawas
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190170
 	mother = 190171
@@ -1209,7 +1226,7 @@
 	name = "Adaloald" # Adaloald Anawas, Lombard King of Italy (616-626)
 	dynasty = anawas
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190170
 	mother = 190171
@@ -1228,7 +1245,7 @@
 	name = "Arioald" # Arioald Arioaldidi, Lombard King of Italy (626-636) and Duke of Piedmonte (590-626)
 	dynasty = 1044047
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	578.1.1 = {
 		birth = yes
@@ -1247,7 +1264,7 @@
    name = "Nandinig" # Nandinig Arodingi, Count of Brescia (603-626)
    dynasty = 1044048
    religion = "catholic"
-   culture = "lombard"
+   culture = "langobard"
 
    578.1.1 = {
        birth = yes
@@ -1261,7 +1278,7 @@
 	name = "Rothari" # Rothari Arodingi, Lombard King of Italy (636-652)
 	dynasty = 1044048
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190175
 
@@ -1282,7 +1299,7 @@
 	name = "Rodoald" # Radoald Arodingi, Lombard King of Italy (652)
 	dynasty = 1044048
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190176
 	mother = 190172
@@ -1301,7 +1318,7 @@
 	name = "Aripert" # Aripert (I) Baiuvari, Lombard King of Italy (652-661)
 	dynasty_house = house_baiuvari
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190180
 
@@ -1317,7 +1334,7 @@
 	name = "Godepert" # Godepert Baiuvari, Lombard King of Italy (661-662)
 	dynasty_house = house_baiuvari
 	religion = "catholic" #arian
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190181
 
@@ -1336,7 +1353,7 @@
 	name = "Raginpert" # Raginpert Baiuvari, Lombard King of Italy (701), Duke of Piedmonte (663-701)
 	dynasty_house = house_baiuvari
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190182
 
@@ -1354,7 +1371,7 @@
 	name = "Aripert" # Aripert (II) Baiuvari, Lombard King of Italy (702-712) and Duke of Piedmonte (701-702)
 	dynasty_house = house_baiuvari
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190183
 
@@ -1372,7 +1389,7 @@
 	name = "Perctarit" # Perctarit Baiuvari, Lombard King of Italy (662 & 671-688)
 	dynasty_house = house_baiuvari
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190181
 
@@ -1393,7 +1410,7 @@
 	name = "Rodelinda" # Rodelinda, wife of Perctarit of Italy
 	female = yes
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	639.1.1 = {
 		birth = yes
@@ -1408,7 +1425,7 @@
 	female = yes
 	dynasty_house = house_baiuvari
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190185
 	mother = 190186
@@ -1425,7 +1442,7 @@
 	name = "Cunicpert" # Cunicpert Baiuvari, Lombard King of Italy (688-689 & 689-700)
 	dynasty_house = house_baiuvari
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190185
 	mother = 190186
@@ -1444,7 +1461,7 @@
 	name = "Liutpert" # Liutpert Baiuvari, Lombard King of Italy (700-701 & 701-702)
 	dynasty_house = house_baiuvari
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190188
 
@@ -1464,7 +1481,7 @@
 	female = yes
 	dynasty_house = house_baiuvari
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190182
 
@@ -1481,7 +1498,7 @@
 	female = yes
 	dynasty_house = house_baiuvari
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190184
 
@@ -1497,7 +1514,12 @@
 	name = "Ansprand" # Ansprand Ansprandidi, Lombard King of Italy (712)
 	dynasty = 1044051
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
+	sexuality = heterosexual
+	trait = ambitious
+	trait = just
+	trait = diligent
+	trait = brave # Warlike
 
 	647.1.1 = {
 		birth = yes
@@ -1514,7 +1536,7 @@
 	name = "Sigiprand" # Sigiprand Ansprandidi
 	dynasty = 1044051
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190193
 	mother = 190192
@@ -1537,7 +1559,7 @@
 	female = yes
 	dynasty = 1044051
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190193
 	mother = 190192
@@ -1557,7 +1579,7 @@
 	name = "Liutprand" # Liutprand Ansprandidi, Lombard King of Italy (712-744)
 	dynasty = 1044051
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190193
 	mother = 190192
@@ -1579,7 +1601,7 @@
 	name = "Hildeprand" # Hildeprand Ansprandidi, Lombard King of Italy (744)
 	dynasty = 1044051
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190194
 
@@ -1595,10 +1617,13 @@
 	name = "Ansa" # Ansa, wife of Desiderius of Italy
 	female = yes
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	712.1.1 = {
 		birth = yes
+	}
+	750.1.1 = {
+		culture = "lombard"
 	}
 	774.6.1 = {
 		trait = devoted
@@ -1612,7 +1637,7 @@
 	name = "Billo" # Billo Billonidi
 	dynasty = 1044050
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	658.1.1 = {
 		birth = yes
@@ -1626,7 +1651,7 @@
 	name = "Pemmo" # Pemmo Billonidi, Duke of Friuli (705-737)
 	dynasty = 1044050
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190341
 
@@ -1645,7 +1670,7 @@
 	name = "Ratchis" # Ratchis Billonidi, Lombard King of Italy (744-749 and 756-757), Duke of Friuli (737-744) and Duke of Spoleto (756-757)
 	dynasty = 1044050
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190342
 	mother = 190191
@@ -1655,6 +1680,9 @@
 	}
 	732.1.1 = {
 		add_spouse = 190199
+	}
+	750.1.1 = {
+		culture = "lombard"
 	}
 	758.1.1 = {
 		death = {
@@ -1667,7 +1695,7 @@
 	name = "Aistulf" # Aistulf Billonidi, Lombard King of Italy (749-756), Duke of Friuli (744-749) and Spoleto (752-756)
 	dynasty = 1044050
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190342
 	mother = 190191
@@ -1690,7 +1718,7 @@
 	dynasty = 1044053
 
 	religion = catholic
-	culture = lombard
+	culture = langobard
 
 	717.1.1 = {
 		birth = yes
@@ -1713,7 +1741,7 @@
 	female = yes
 	dynasty = 1044053
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190347
 	mother = 190340
@@ -1801,8 +1829,8 @@
 190354 = {
 	name = "Alachis" # Alachis, Lombard King of Italy (689)
 	dynasty = 1044054
-	religion = "arianism"
-	culture = "lombard"
+	religion = "adoptionist" #"arianism"
+	culture = "langobard"
 
 	654.1.1 = {
 		birth = yes
@@ -1819,12 +1847,15 @@
 	name = "Theodicus" #duke of Spoleto
 	dynasty = 1044061 #Theodingi
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 	727.1.1 = {
 		birth = yes
 	}
 	747.1.1 = {
 		add_spouse = 190266
+	}
+	750.1.1 = {
+		culture = "lombard"
 	}
 	776.1.1 = {
 		death = yes
@@ -1834,9 +1865,12 @@
 	name = "Giselberga" #wife of Theodicus
 	female = yes
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 	731.1.1 = {
 		birth = yes
+	}
+	750.1.1 = {
+		culture = "lombard"
 	}
 	780.6.1 = {
 		death = yes
@@ -1860,9 +1894,12 @@
 	name = "Ursus" #count of Bologna (Persiceta)
 	dynasty = 1044063 #Ursingi
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 	721.1.1 = {
 		birth = yes
+	}
+	750.1.1 = {
+		culture = "lombard"
 	}
 	772.1.1 = {
 		death = yes
@@ -1872,10 +1909,13 @@
 	name = "Ioannes" #count of Bologna
 	dynasty = 1044063 #Ursingi
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 	father = 190268
 	740.1.1 = {
 		birth = yes
+	}
+	750.1.1 = {
+		culture = "lombard"
 	}
 	776.1.1 = {
 		death = yes
@@ -1898,9 +1938,12 @@
 	name = "Ademar" #count of Verona
 	dynasty = 1044064 #Ademingi
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 	701.1.1 = {
 		birth = yes
+	}
+	750.1.1 = {
+		culture = "lombard"
 	}
 	768.1.1 = {
 		death = yes
@@ -1937,10 +1980,13 @@
 	name = "Adalpert" # Adalpert Adalpertidi, Count of Genoa and Luni (741-772)
 	dynasty = 1044065
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 	
 	725.1.1 = {
 		birth = yes
+	}
+	750.1.1 = {
+		culture = "lombard"
 	}
 	762.1.1 = {
 		death = yes
@@ -1950,11 +1996,14 @@
 	name = "Ademar" # Ademar Adalpertidi, Count of Genoa and Luni (772-774)
 	dynasty = 1044065
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 	father = 190274
 	
 	742.1.1 = {
 		birth = yes
+	}
+	750.1.1 = {
+		culture = "lombard"
 	}
 	806.1.1 = {
 		death = yes
@@ -1965,11 +2014,14 @@
 	female = yes
 	dynasty = 1044065
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 	father = 190274
 	
 	744.1.1 = {
 		birth = yes
+	}
+	750.1.1 = {
+		culture = "lombard"
 	}
 	816.1.1 = {
 		death = yes
@@ -1993,7 +2045,7 @@
 	name = "Walpert" #duke of Tuscany
 	dynasty = 1044066 #Walpertingi
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 	702.1.1 = {
 		birth = yes
 	}
@@ -2005,10 +2057,13 @@
 	name = "Alpert" #duke of Tuscany
 	dynasty = 1044066 #Walpertingi
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 	father = 190278
 	722.1.1 = {
 		birth = yes
+	}
+	750.1.1 = {
+		culture = "lombard"
 	}
 	760.1.1 = {
 		add_spouse = 190276
@@ -2048,10 +2103,13 @@
 	name = "Lupus" #count of Ferrara
 	dynasty = 1044066 #Walpertingi
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 	father = 190278
 	727.1.1 = {
 		birth = yes
+	}
+	750.1.1 = {
+		culture = "lombard"
 	}
 	770.1.1 = {
 		death = yes
@@ -2061,9 +2119,12 @@
 	name = "Tachipert" #count of Ancona and Urbino
 	dynasty = 1044067 #Tachipertingi
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 	721.1.1 = {
 		birth = yes
+	}
+	750.1.1 = {
+		culture = "lombard"
 	}
 	760.1.1 = {
 		death = yes
@@ -2238,10 +2299,13 @@
 	name = "Rodoald" # Rodoald Rodoaldidi, Count of Rossano (740-766)
 	dynasty = 1044070
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	723.1.1 = {
 		birth = yes
+	}
+	750.1.1 = {
+		culture = "lombard"
 	}
 	766.1.1 = {
 		death = yes
@@ -2368,10 +2432,13 @@
 	name = "Gandulf" # Gandulf Gandulfidi, Count of Bari (742-766)
 	dynasty = 1044071
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	721.1.1 = {
 		birth = yes
+	}
+	750.1.1 = {
+		culture = "lombard"
 	}
 	766.1.1 = {
 		death = yes
@@ -8607,7 +8674,7 @@ lombard0089 = {
 	dynasty = 1044031 #Gausi
 	female = yes
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190133
 	#daughter of an early marriage of his father
@@ -8624,7 +8691,7 @@ lombard0090 = {
 	name = "Audelais" # Audelais Audelaisidi, Duke of Benevento (732)
 	dynasty = audelaisidi
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	700.1.1 = {
 		birth = yes
@@ -8638,7 +8705,7 @@ lombard0091 = {
 	name = "Godescalc" # Godescalc Godescalcidi, Duke of Benevento (739-742)
 	dynasty = godescalcidi
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	702.1.1 = {
 		birth = yes
@@ -8654,7 +8721,7 @@ lombard0092 = {
 	name = "Arechis" # Arechis Gausi
 	dynasty = 1044031
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190135
 	mother = 190137
@@ -8671,7 +8738,7 @@ lombard0093 = {
 	name = "Romoald" # Romoald Gausi
 	dynasty = 1044031
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = lombard0092
 
@@ -8688,7 +8755,7 @@ lombard0094 = {
 	dynasty = 1044045
 	female = yes
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190168
 
@@ -8704,7 +8771,7 @@ lombard0095 = {
 	name = "Nordepert" # Nordepert, fictional husband of Aurona of Italy
 	dynasty = 1044037
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	660.1.1 = {
 		birth = yes
@@ -8722,7 +8789,7 @@ lombard0096 = {
 	female = yes
 	dynasty = 1044051
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190193
 	mother = 190192
@@ -8739,7 +8806,7 @@ lombard0097 = {
 	name = "Agiprand" # Agiprand Ansprandidi, Duke of Spoleto (742-744)
 	dynasty = 1044051
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190194
 
@@ -8755,7 +8822,7 @@ lombard0098 = {
 	name = "Gregorius" # Gregorius Ansprandidi, Duke of Benevento (732-739)
 	dynasty = 1044051
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190194
 
@@ -9700,7 +9767,7 @@ lombard0146 = {
 	name = "Gundoald" # Gundoald Baiuvari, son of Garibald of Bavaria and father of Aripert of Italy
 	dynasty_house = house_baiuvari
 	religion = "catholic"
-	culture = "lombard"
+	culture = "langobard"
 
 	father = 190178
 

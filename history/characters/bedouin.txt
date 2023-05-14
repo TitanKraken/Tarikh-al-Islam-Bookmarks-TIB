@@ -6064,7 +6064,7 @@
 			set_realm_capital = title:c_jerusalem
 		}
 	}
-	715.2.24 = {
+	715.2.20 = {
 		set_relation_friend = character:210002 # Sulayman's "al-Hajjaj"
 		trait = infirm # Gets ill pretty quick
 	}

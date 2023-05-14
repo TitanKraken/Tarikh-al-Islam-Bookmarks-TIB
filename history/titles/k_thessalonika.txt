@@ -1838,7 +1838,7 @@ d_thessaly = {
 	1216.6.11 = {
 		liege = 0
 	}
-	1224.1.1 = {
+	1224.1.1 = { # Placeholder
 		holder = 2325000 # Alexios Melissenos
 		liege = k_nikaea
 	}
@@ -1918,7 +1918,7 @@ c_thessalia = {
 		liege = "d_epirus"
 		holder = 215514
 	}
-	1224.1.1 = {
+	1224.1.1 = { # Placeholder
 		holder = 2325000 # Alexios Melissenos
 		liege = k_nikaea
 	}
@@ -1934,6 +1934,10 @@ c_thessalia = {
 	1241.1.1 = {
 		liege = "d_epirus"
 		holder = 125715
+	}
+	1259.1.1 = { # Placeholder
+		holder = 2325000 # Alexios Melissenos
+		liege = k_nikaea
 	}
 	1268.1.1 = {
 		holder = 125734
@@ -2149,6 +2153,10 @@ c_thessaliotis = {
 	1241.1.1 = {
 		liege = "d_epirus"
 		holder = 125715
+	}
+	1259.1.1 = { # Placeholder
+		holder = 2325000 # Alexios Melissenos
+		liege = k_nikaea
 	}
 	1268.1.1 = {
 		holder = 125734
