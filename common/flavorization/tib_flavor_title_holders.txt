@@ -1,11 +1,368 @@
 ﻿
 # Default Islamic Clan tiers
+### Arabic ###
+# Feudal / Clan
+baron_feudal_male_arabic_group_tib = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 9
+	governments = { feudal_government clan_government }
+	heritages = { heritage_arabic }
+}
+baron_feudal_female_arabic_group_tib = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 9
+	governments = { feudal_government clan_government }
+	heritages = { heritage_arabic }
+}
+barony_feudal_arabic_group_tib = {
+	type = title
+	tier = barony
+	priority = 9
+	governments = { feudal_government clan_government }
+	heritages = { heritage_arabic }
+}
+count_feudal_male_arabic_group_tib = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 20
+	governments = { feudal_government clan_government }
+	heritages = { heritage_arabic }
+}
+count_feudal_female_arabic_group_tib = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 20
+	governments = { feudal_government clan_government }
+	heritages = { heritage_arabic }
+}
+county_feudal_arabic_group_tib = {
+	type = title
+	tier = county
+	priority = 20
+	governments = { feudal_government clan_government }
+	heritages = { heritage_arabic }
+}
+duke_feudal_male_arabic_group_tib = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 30
+	governments = { feudal_government clan_government }
+	heritages = { heritage_arabic }
+}
+duke_feudal_female_arabic_group_tib = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 30
+	governments = { feudal_government clan_government }
+	heritages = { heritage_arabic }
+}
+duchy_feudal_arabic_group_tib = {
+	type = title
+	tier = duchy
+	priority = 30
+	governments = { feudal_government clan_government }
+	heritages = { heritage_arabic }
+}
+king_feudal_male_arabic_group_tib = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 50
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_arabic }
+}
+king_feudal_female_arabic_group_tib = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 50
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_arabic }
+}
+kingdom_feudal_arabic_group_tib = {
+	type = title
+	tier = kingdom
+	priority = 50
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_arabic }
+}
+king_feudal_muslim_male_arabic_group_tib = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 51
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_arabic }
+	religions = { islam_religion }
+}
+king_feudal_muslim_female_arabic_group_tib = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 51
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_arabic }
+	religions = { islam_religion }
+}
+kingdom_feudal_muslim_arabic_group_tib = {
+	type = title
+	tier = kingdom
+	priority = 51
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_arabic }
+	religions = { islam_religion }
+}
+emperor_feudal_male_arabic_group_tib = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 103
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_arabic }
+}
+emperor_feudal_female_arabic_group_tib = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 103
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_arabic }
+}
+empire_feudal_arabic_group_tib = {
+	type = title
+	tier = empire
+	priority = 103
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_arabic }
+}
+
+### Berber ###
+# Feudal / Clan / sometimes Tribal
+baron_tribal_male_berber_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 9
+	governments = { tribal_government }
+	heritages = { heritage_berber }
+}
+baron_tribal_female_berber_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 9
+	governments = { tribal_government }
+	heritages = { heritage_berber }
+}
+baron_feudal_male_berber_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 9
+	governments = { feudal_government clan_government }
+	heritages = { heritage_berber }
+}
+baron_feudal_female_berber_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 9
+	governments = { feudal_government clan_government }
+	heritages = { heritage_berber }
+}
+barony_feudal_berber_group = {
+	type = title
+	tier = barony
+	priority = 9
+	governments = { feudal_government clan_government }
+	heritages = { heritage_berber }
+}
+count_feudal_male_berber_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 20
+	governments = { feudal_government clan_government }
+	heritages = { heritage_berber }
+}
+count_feudal_female_berber_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 20
+	governments = { feudal_government clan_government }
+	heritages = { heritage_berber }
+}
+county_feudal_berber_group = {
+	type = title
+	tier = county
+	priority = 20
+	governments = { feudal_government clan_government }
+	heritages = { heritage_berber }
+}
+count_feudal_male_berber_group_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 20
+	only_independent = yes
+	governments = { feudal_government clan_government }
+	heritages = { heritage_berber }
+}
+count_feudal_female_berber_group_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 20
+	only_independent = yes
+	governments = { feudal_government clan_government }
+	heritages = { heritage_berber }
+}
+county_feudal_berber_group_independent = {
+	type = title
+	tier = county
+	priority = 20
+	governments = { feudal_government clan_government }
+	only_independent = yes
+	heritages = { heritage_berber }
+}
+count_tribal_male_berber_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 20
+	governments = { tribal_government }
+	heritages = { heritage_berber }
+}
+count_tribal_female_berber_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 20
+	governments = { tribal_government }
+	heritages = { heritage_berber }
+}
+county_tribal_berber_group = {
+	type = title
+	tier = county
+	priority = 20
+	governments = { tribal_government }
+	only_independent = yes
+	heritages = { heritage_berber }
+}
+duke_feudal_male_berber_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 30
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_berber }
+}
+duke_feudal_female_berber_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 30
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_berber }
+}
+duchy_feudal_berber_group = {
+	type = title
+	tier = duchy
+	priority = 30
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_berber }
+}
+king_feudal_male_berber_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 50
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_berber }
+}
+king_feudal_female_berber_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 50
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_berber }
+}
+kingdom_feudal_berber_group = {
+	type = title
+	tier = kingdom
+	priority = 50
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_berber }
+}
+emperor_feudal_male_berber_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 103
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_berber }
+}
+emperor_feudal_female_berber_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 103
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_berber }
+}
+empire_feudal_berber_group = {
+	type = title
+	tier = empire
+	priority = 103
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_berber }
+}
+
+# Default Islamic Government titles
 baron_islamic_male = {
 	type = character
 	gender = male
 	special = holder
 	tier = barony
-	priority = 7
+	priority = 9
 	governments = { islamic_government }
 	religions = { islam_religion }
 }
@@ -14,14 +371,14 @@ baron_islamic_female = {
 	gender = female
 	special = holder
 	tier = barony
-	priority = 7
+	priority = 9
 	governments = { islamic_government }
 	religions = { islam_religion }
 }
 barony_islamic = {
 	type = title
 	tier = barony
-	priority = 7
+	priority = 9
 	governments = { islamic_government }
 	religions = { islam_religion }
 }
@@ -30,7 +387,7 @@ count_islamic_male = {
 	gender = male
 	special = holder
 	tier = county
-	priority = 17
+	priority = 20
 	governments = { islamic_government }
 	religions = { islam_religion }
 }
@@ -39,14 +396,14 @@ count_islamic_female = {
 	gender = female
 	special = holder
 	tier = county
-	priority = 17
+	priority = 20
 	governments = { islamic_government }
 	religions = { islam_religion }
 }
 county_islamic = {
 	type = title
 	tier = county
-	priority = 17
+	priority = 20
 	governments = { islamic_government }
 	religions = { islam_religion }
 }
@@ -55,7 +412,7 @@ duke_islamic_male = {
 	gender = male
 	special = holder
 	tier = duchy
-	priority = 27
+	priority = 30
 	governments = { islamic_government }
 	religions = { islam_religion }
 }
@@ -64,14 +421,14 @@ duke_islamic_female = {
 	gender = female
 	special = holder
 	tier = duchy
-	priority = 27
+	priority = 30
 	governments = { islamic_government }
 	religions = { islam_religion }
 }
 duchy_islamic = {
 	type = title
 	tier = duchy
-	priority = 27
+	priority = 30
 	governments = { islamic_government }
 	religions = { islam_religion }
 }
@@ -80,7 +437,7 @@ king_islamic_male = {
 	gender = male
 	special = holder
 	tier = kingdom
-	priority = 47
+	priority = 50
 	governments = { islamic_government }
 	religions = { islam_religion }
 }
@@ -89,14 +446,14 @@ king_islamic_female = {
 	gender = female
 	special = holder
 	tier = kingdom
-	priority = 47
+	priority = 50
 	governments = { islamic_government }
 	religions = { islam_religion }
 }
 kingdom_islamic = {
 	type = title
 	tier = kingdom
-	priority = 47
+	priority = 50
 	governments = { islamic_government }
 	religions = { islam_religion }
 }
@@ -105,7 +462,7 @@ emperor_islamic_male = {
 	gender = male
 	special = holder
 	tier = empire
-	priority = 102
+	priority = 103
 	governments = { islamic_government }
 	religions = { islam_religion }
 }
@@ -114,14 +471,14 @@ emperor_islamic_female = {
 	gender = female
 	special = holder
 	tier = empire
-	priority = 102
+	priority = 103
 	governments = { islamic_government }
 	religions = { islam_religion }
 }
 empire_islamic = {
 	type = title
 	tier = empire
-	priority = 102
+	priority = 103
 	governments = { islamic_government }
 	religions = { islam_religion }
 }
@@ -132,7 +489,7 @@ baron_republic_arabic_male = {
 	gender = male
 	special = holder
 	tier = barony
-	priority = 7
+	priority = 9
 	governments = { republic_government }
 	heritage = { heritage_arabic }
 }
@@ -141,7 +498,7 @@ baron_republic_arabic_female = {
 	gender = female
 	special = holder
 	tier = barony
-	priority = 7
+	priority = 9
 	governments = { republic_government }
 	heritage = { heritage_arabic }
 }
@@ -174,13 +531,13 @@ duke_theme_male = {
 	gender = male
 	special = holder
 	tier = duchy
-	priority = 27
+	priority = 30
 	governments = { theme_government }
 }
 duchy_theme = {
 	type = title
 	tier = duchy
-	priority = 27
+	priority = 30
 	governments = { theme_government }
 }
 
@@ -190,7 +547,7 @@ king_clan_male_scots = {
 	gender = male
 	special = holder
 	tier = kingdom
-	priority = 7
+	priority = 9
 	governments = { clan_government }
 	heritages = { 
 		heritage_goidelic
@@ -202,7 +559,7 @@ king_clan_female_scots = {
 	gender = female
 	special = holder
 	tier = kingdom
-	priority = 7
+	priority = 9
 	governments = { clan_government }
 	heritages = { 
 		heritage_goidelic
@@ -212,7 +569,7 @@ king_clan_female_scots = {
 kingdom_clan_scots = {
 	type = title
 	tier = kingdom
-	priority = 7
+	priority = 9
 	governments = { clan_government }
 	heritages = { 
 		heritage_goidelic

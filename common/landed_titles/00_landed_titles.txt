@@ -54640,6 +54640,9 @@ e_maghreb = {
 				OR = {
 					culture = culture:butr
 					culture = culture:baranis
+					culture = culture:tagelmust
+					culture = culture:masmuda
+					culture = culture:maghrebi
 				}
 			}
 			add = @correct_culture_primary_score
@@ -54658,6 +54661,9 @@ e_maghreb = {
 					OR = {
 						culture = culture:butr
 						culture = culture:baranis
+						culture = culture:tagelmust
+						culture = culture:masmuda
+						culture = culture:maghrebi
 					}
 				}
 				add = @correct_culture_primary_score
@@ -55422,6 +55428,9 @@ e_maghreb = {
 					OR = {
 						culture = culture:butr
 						culture = culture:baranis
+						culture = culture:tagelmust
+						culture = culture:masmuda
+						culture = culture:maghrebi
 					}
 				}
 				add = @correct_culture_primary_score
@@ -55958,7 +55967,20 @@ e_maghreb = {
 	
 	k_africa = {
 		color = { 67 96 179 }
-		
+		ai_primary_priority = {
+			if = {
+				limit = {
+					OR = {
+						culture = culture:butr
+						culture = culture:baranis
+						culture = culture:tagelmust
+						culture = culture:masmuda
+						culture = culture:maghrebi
+					}
+				}
+				add = @correct_culture_primary_score
+			}
+		}
 		
 		capital = c_kairwan # Kairouan
 		

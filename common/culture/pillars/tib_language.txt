@@ -101,7 +101,7 @@ language_albanian = {
 		}
 	}
 	
-	color = { 1.0 1.0 1.0 }
+	color = hsv { 1.0 1.0 1.0 }
 }
 
 # Caucasus

@@ -661,7 +661,7 @@ c_khabur = {
 	}
 	1260.1.1 = {
 		holder = 93482
-		liege = d_homs
+		liege = d_aleppo
 	}
 	1300.1.1 = {
 		holder = 93483
@@ -1256,7 +1256,7 @@ c_raqqa = {
 	}
 	1260.1.1 = {
 		holder = 93474
-		liege = d_homs
+		liege = d_aleppo
 	}
 	1300.1.1 = {
 		holder = 93475

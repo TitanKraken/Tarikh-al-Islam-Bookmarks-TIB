@@ -16,8 +16,8 @@
 	name_list = name_list_butr
 	
 	coa_gfx = { berber_group_coa_gfx }
-	building_gfx = { berber_group_building_gfx mena_building_gfx }
-	clothing_gfx = { iberian_muslim_clothing_gfx }
+	building_gfx = { iberian_building_gfx mena_building_gfx }
+	clothing_gfx = { iberian_muslim_clothing_gfx mena_clothing_gfx }
 	unit_gfx = { mena_unit_gfx }
 	
 	ethnicities = {
@@ -43,8 +43,8 @@ baranis = { # Baranis - settled Berber
 	name_list = name_list_baranis
 	
 	coa_gfx = { berber_group_coa_gfx }
-	building_gfx = { berber_group_building_gfx mena_building_gfx }
-	clothing_gfx = { iberian_muslim_clothing_gfx }
+	building_gfx = { iberian_building_gfx mena_building_gfx }
+	clothing_gfx = { iberian_muslim_clothing_gfx mena_clothing_gfx }
 	unit_gfx = { iberian_muslim_unit_gfx }
 	
 	ethnicities = {
@@ -69,7 +69,7 @@ guanches = { # Guanches - Canary Islanders
 	name_list = name_list_guanches
 	
 	coa_gfx = { west_african_group_coa_gfx }
-	building_gfx = { berber_group_building_gfx mena_building_gfx }
+	building_gfx = { mena_building_gfx }
 	clothing_gfx = { african_clothing_gfx }
 	unit_gfx = { mena_unit_gfx }
 	
@@ -95,8 +95,8 @@ zaghawa = {
 	name_list = name_list_zaghawa
 	
 	coa_gfx = { berber_group_coa_gfx }
-	building_gfx = { berber_group_building_gfx mena_building_gfx }
-	clothing_gfx = { iberian_muslim_clothing_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { iberian_muslim_clothing_gfx mena_clothing_gfx }
 	unit_gfx = { mena_unit_gfx }
 	
 	ethnicities = {
@@ -123,8 +123,8 @@ tuareg = {
 	name_list = name_list_zaghawa
 	
 	coa_gfx = { berber_group_coa_gfx }
-	building_gfx = { berber_group_building_gfx mena_building_gfx }
-	clothing_gfx = { iberian_muslim_clothing_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { iberian_muslim_clothing_gfx mena_clothing_gfx }
 	unit_gfx = { sub_sahran_unit_gfx }
 	
 	ethnicities = {
@@ -151,8 +151,8 @@ tagelmust = { # Based on Baranis, Sanhaja
 	name_list = name_list_baranis
 	
 	coa_gfx = { berber_group_coa_gfx }
-	building_gfx = { berber_group_building_gfx mena_building_gfx }
-	clothing_gfx = { iberian_muslim_clothing_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { iberian_muslim_clothing_gfx mena_clothing_gfx }
 	unit_gfx = { mena_unit_gfx }
 	
 	ethnicities = {
@@ -179,9 +179,9 @@ masmuda = { #Based on Baranis but urban
 	name_list = name_list_baranis
 	
 	coa_gfx = { berber_group_coa_gfx }
-	building_gfx = { berber_group_building_gfx mena_building_gfx }
-	clothing_gfx = { iberian_muslim_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
+	building_gfx = { iberian_building_gfx mena_building_gfx }
+	clothing_gfx = { iberian_muslim_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iberian_muslim_unit_gfx }
 	
 	ethnicities = {
 		10 = arab

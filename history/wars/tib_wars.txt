@@ -262,7 +262,7 @@ war = {
 		d_aleppo
         c_aleppo
         c_syrrusafa
-        c_qinnasarin
+        c_qinnasrin
         c_suriya
 	}
 	casus_belli = mongol_invasion_war

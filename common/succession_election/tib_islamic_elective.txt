@@ -30,7 +30,7 @@ tib_islamic_dynastic_elective = { # Islamic Dynastic Monarchial Elective.
 			NOT = { this = scope:holder }
 			OR = {
 				has_government = islamic_government
-				has_government = theocratic_government
+				has_government = theocracy_government
 				has_council_position = councillor_court_chaplain
 			}
 			faith = scope:holder.faith
@@ -91,7 +91,7 @@ tib_islamic_dynastic_elective = { # Islamic Dynastic Monarchial Elective.
 			modifier = { # House (Realm) Leaders. (specific titles, held by rulers of the same faith as the current holder)
 				add = 75
 				faith = scope:holder.faith
-				any_held_title = {
+				scope:title = {
 					is_vassal_of = scope:holder
 				}
 				OR = {
@@ -126,7 +126,7 @@ tib_islamic_dynastic_elective = { # Islamic Dynastic Monarchial Elective.
 								has_government = tribal_government
 								has_government = clan_government
 								has_government = theocracy_government
-								has_government = holy_order_county_government
+								#has_government = holy_order_county_government
 							}
 							faith = scope:holder.faith
 						}
@@ -241,7 +241,7 @@ tib_general_islamic_elective = { # Islamic / Arabic Elective.
 			NOT = { this = scope:holder }
 			OR = {
 				has_government = islamic_government
-				has_government = theocratic_government
+				has_government = theocracy_government
 				has_council_position = councillor_court_chaplain
 			}
 			faith = scope:holder.faith
@@ -302,7 +302,7 @@ tib_general_islamic_elective = { # Islamic / Arabic Elective.
 			modifier = { # House (Realm) Leaders. (specific titles, held by rulers of the same faith as the current holder)
 				add = 75
 				faith = scope:holder.faith
-				any_held_title = {
+				scope:title = {
 					is_vassal_of = scope:holder
 				}
 				OR = {
@@ -337,7 +337,6 @@ tib_general_islamic_elective = { # Islamic / Arabic Elective.
 								has_government = tribal_government
 								has_government = clan_government
 								has_government = theocracy_government
-								has_government = holy_order_county_government
 							}
 							faith = scope:holder.faith
 						}
@@ -483,7 +482,7 @@ tib_rashidun_elective = { # Rashidun Elective.
 			add = 2
 			NOT = { this = scope:holder }
 			OR = {
-				has_government = theocratic_government
+				has_government = theocracy_government
 				has_council_position = councillor_court_chaplain
 			}
 			faith = scope:holder.faith
@@ -509,15 +508,11 @@ tib_rashidun_elective = { # Rashidun Elective.
 		}
 		modifier = { # If the Holder votes his close family
 			desc = tooltip_islamic_vote_strength_close_family
-			if = {
-				limit = {
-					scope:holder_candidate = {
-						is_close_family_of = scope:holder
-					}
-				}
-			}
 			add = 7 # Gives the electors strong reasons why not to side the choice of the Holder.
 			NOT = { this = scope:holder }
+			scope:holder_candidate = {
+				is_close_family_of = scope:holder
+			}
 			#scope:holder_candidate = is_holder_close_or_extended_family
 		}
 	}
@@ -607,31 +602,33 @@ tib_rashidun_elective = { # Rashidun Elective.
 				this = scope:holder
 			}
 			modifier = { # Pious Leaders. (specific titles, held by rulers of the same faith as the current holder)
-				add = 75
+				add = {
+					value = 75
+					if = { # Additional points if the individual has more virtuous traits and high piety level
+						limit = {
+							num_virtuous_traits = 2
+						}
+						value = 10
+						limit = {
+							num_virtuous_traits = 3
+						}
+						value = 15
+							limit = {
+							piety_level = 3
+						}
+						value = 10
+						limit = {
+							piety_level = 4
+						}
+						value = 15
+						limit = {
+							piety_level = 5
+						}
+						value = 20
+					}
+				}
 				faith = scope:holder.faith
 				num_virtuous_traits = 1
-				if = { # Additional points if the individual has more virtuous traits and high piety level
-					limit = {
-						num_virtuous_traits = 2
-					}
-					add = 10
-					limit = {
-						num_virtuous_traits = 3
-					}
-					add = 15
-					limit = {
-						piety_level = 3
-					}
-					add = 10
-					limit = {
-						piety_level = 4
-					}
-					add = 15
-					limit = {
-						piety_level = 5
-					}
-					add = 20
-				}
 			}
 
 			modifier = { # Fallback Electors
@@ -660,7 +657,6 @@ tib_rashidun_elective = { # Rashidun Elective.
 								has_government = tribal_government
 								has_government = clan_government
 								has_government = theocracy_government
-								has_government = holy_order_county_government
 							}
 							faith = scope:holder.faith
 						}

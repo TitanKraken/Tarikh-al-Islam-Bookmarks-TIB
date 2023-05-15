@@ -1528,6 +1528,9 @@ d_homs = {
 	1245.1.1 = {
 		holder = 144089
 	}
+	1260.1.1 = { # Pledged allegiance
+		liege = k_egypt
+	}
 	1284.1.1 = {
 		holder = 93486
 	}
@@ -3316,7 +3319,11 @@ d_damascus = {
 		liege = 0
 	}
 
-	1258.1.1 = {
+	1257.1.1 = {
+		liege = k_egypt
+		holder = 8000482 # Taybars al-Waziri
+	}
+	1263.1.1 = {
 		liege = k_egypt
 		holder = 8000477 # Jamal-al-Din Aqush
 	}
@@ -3586,9 +3593,16 @@ c_damascus = {
 	1245.1.1 = {
 		holder = 144082
 	}
-	1260.9.3 = {
-		holder = 34990
+
+	1257.1.1 = {
+		liege = k_egypt
+		holder = 8000482 # Taybars al-Waziri
 	}
+	1263.1.1 = {
+		liege = k_egypt
+		holder = 8000477 # Jamal-al-Din Aqush
+	}
+
 	1280.1.1 = {
 		holder = 32939
 	}
@@ -3772,9 +3786,16 @@ c_juwair = {
 	1245.1.1 = {
 		holder = 144082
 	}
-	1260.9.3 = {
-		holder = 34990
+
+	1257.1.1 = {
+		liege = k_egypt
+		holder = 8000482 # Taybars al-Waziri
 	}
+	1263.1.1 = {
+		liege = k_egypt
+		holder = 8000477 # Jamal-al-Din Aqush
+	}
+	
 	1280.1.1 = {
 		holder = 32939
 	}
@@ -4004,9 +4025,16 @@ c_hauran = {
 	1245.1.1 = {
 		holder = 144082
 	}
-	1260.9.3 = {
-		holder = 34990
+
+	1257.1.1 = {
+		liege = k_egypt
+		holder = 8000482 # Taybars al-Waziri
 	}
+	1263.1.1 = {
+		liege = k_egypt
+		holder = 8000477 # Jamal-al-Din Aqush
+	}
+
 	1280.1.1 = {
 		holder = 32939
 	}
@@ -4228,7 +4256,7 @@ c_sukhna = {
 	}
 	1260.1.1 = {
 		holder = 93474
-		liege = d_homs
+		liege = d_aleppo
 	}
 	1300.1.1 = {
 		holder = 93475

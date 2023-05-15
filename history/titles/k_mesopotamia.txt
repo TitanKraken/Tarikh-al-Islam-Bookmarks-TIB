@@ -1871,8 +1871,8 @@ d_baghdad = {
 	1258.2.20 = {
 		holder = 93328
 	}
-	1262.1.1 = {
-		holder = 93329
+	1259.1.1 = {
+		holder = 1230398 # Ata-Malik Juwayni
 	}
 	1283.1.1 = {
 		holder = 125522
@@ -2021,8 +2021,8 @@ c_baghdad = {
 	1258.2.20 = {
 		holder = 93328
 	}
-	1262.1.1 = {
-		holder = 93329
+	1259.1.1 = {
+		holder = 1230398 # Ata-Malik Juwayni
 	}
 	1283.1.1 = {
 		holder = 125522
@@ -2155,8 +2155,8 @@ c_iskaf = {
 	1258.2.20 = {
 		holder = 93328
 	}
-	1262.1.1 = {
-		holder = 93329
+	1259.1.1 = {
+		holder = 1230398 # Ata-Malik Juwayni
 	}
 	1283.1.1 = {
 		holder = 125522
@@ -2284,8 +2284,8 @@ c_anbar = {
 	1258.2.20 = {
 		holder = 93328
 	}
-	1262.1.1 = {
-		holder = 93329
+	1259.1.1 = {
+		holder = 1230398 # Ata-Malik Juwayni
 	}
 	1283.1.1 = {
 		holder = 125522
@@ -2423,8 +2423,8 @@ c_karbala = {
 	1258.2.20 = {
 		holder = 93328
 	}
-	1262.1.1 = {
-		holder = 93329
+	1259.1.1 = {
+		holder = 1230398 # Ata-Malik Juwayni
 	}
 	1283.1.1 = {
 		holder = 125522
@@ -2556,8 +2556,8 @@ c_badaraya = {
 	1258.2.20 = {
 		holder = 93328
 	}
-	1262.1.1 = {
-		holder = 93329
+	1259.1.1 = {
+		holder = 1230398 # Ata-Malik Juwayni
 	}
 	1283.1.1 = {
 		holder = 125522
