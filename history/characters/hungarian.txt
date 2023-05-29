@@ -1005,11 +1005,11 @@
 		add_pressed_claim = title:k_hungary
 		add_pressed_claim = title:k_croatia
 	}	
-	1166.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
-	}
+	#1166.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
+	#}
+	#}
 	1169.1.2 = {
 		remove_spouse = 213528
 	}
@@ -5606,7 +5606,7 @@ szent4 = {
 	trait = gluttonous			   
 	trait = honest
 	trait = education_martial_4
-	trait = mystic_3 #Táltos king
+	trait = lifestyle_mystic #Táltos king
 	father = 470
 	mother = 763
 	1047.1.1 = {
@@ -6248,7 +6248,7 @@ szent4 = {
 	religion = "catholic"
 	culture = "hungarian"
 	trait = lustful
-	trait = reveler_1
+	trait = lifestyle_reveler
 	trait = education_stewardship_2
 	father = 98004
 	1262.8.5 = {
@@ -6273,7 +6273,7 @@ szent4 = {
 	stewardship = 5
 	religion = "catholic"
 	culture = "hungarian"
-	trait = blademaster_1
+	trait = lifestyle_blademaster
 	trait = gregarious
 	trait = education_intrigue_3
 	father = 219502
@@ -8933,33 +8933,6 @@ BathFather1 = {
 	1205.1.1 = {
 		birth = "1205.1.1"
 	}
-	1241.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:93752
-		SUZERAIN = character:125503
-			}
-		}
-	}	
-	1258.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:93752
-		SUZERAIN = character:125504
-			}
-		}
-	}
-	1267.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:93752
-		SUZERAIN = character:125508
-			}
-		}
-	}	
 	1276.1.1 = {
 		death = "1276.1.1"
 	}
@@ -9828,7 +9801,7 @@ BathFather1 = {
 	trait = gregarious
 	trait = lustful
 	trait = brave
-	trait = blademaster_2
+	trait = lifestyle_blademaster
 	trait = beauty_good_1
 	trait = education_martial_3
 	840.1.1 = {
@@ -10443,13 +10416,6 @@ BathFather1 = {
 	culture = "mogyer"
 	908.1.1 = {
 		birth = yes
-		effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1233325
-		SUZERAIN = character:159135
-		}
-	}
 	}
 	952.1.1 = {
 		death = yes

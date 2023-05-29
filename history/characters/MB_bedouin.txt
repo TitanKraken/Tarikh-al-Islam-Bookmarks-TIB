@@ -257,13 +257,6 @@
 	father = 261324
 	895.1.1 = {
 		birth = yes
-		effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:261325
-		SUZERAIN = character:260819
-		}
-	}
 	}
 	950.1.1 = {
 		death = yes
@@ -603,15 +596,6 @@ Sadad1 = {
 	1226.1.1={
 		birth=yes
 	}
-	1267.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1229668
-		SUZERAIN = character:478010
-			}
-		}
-	}	
 	1278.1.1={
 		death=yes
 	}
@@ -639,15 +623,6 @@ Sadad1 = {
 		birth=yes
 		culture="bedouin"
 	}
-	1310.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1229669
-		SUZERAIN = character:478007
-			}
-		}
-	}	
 	1316.1.1={
 		death=yes
 	}
@@ -677,15 +652,6 @@ Sadad1 = {
 	father=1229668
 	1250.1.1={
 		birth=yes
-	}
-	1285.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1229671
-		SUZERAIN = character:478008
-			}
-		}
 	}
 	1299.1.1={
 		death=yes
@@ -2358,24 +2324,6 @@ rashid1246 = {
 	1022.1.1={ #was more than 70 years old when he died
 		birth=yes
 	}
-	1066.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_non_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236097
-		SUZERAIN = character:45035
-			}
-		}
-	}
-	1081.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_non_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236097
-		SUZERAIN = character:3096
-			}
-		}
-	}
 	1094.1.1={
 		death=yes
 	}
@@ -2833,15 +2781,6 @@ rashid1246 = {
 	trait="sayyid"
 	1040.1.1={
 		birth=yes
-	}
-	1081.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_non_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236128
-		SUZERAIN = character:3096
-			}
-		}
 	}
 	1103.1.1={
 		death=yes
@@ -3503,13 +3442,6 @@ rashid1246 = {
 
 	822.1.1={
 		birth=yes
-		effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236173
-		SUZERAIN = character:34014
-		}
-	}
 	}
 	884.1.1={
 		death=yes
@@ -4760,15 +4692,6 @@ rashid1246 = {
 	980.1.1={
 		birth=yes
 	}
-	1017.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236275
-		SUZERAIN = character:3092
-			}
-		}
-	}
 	1040.1.1={
 		death=yes
 	}
@@ -5087,15 +5010,6 @@ rashid1246 = {
 	father=1500004
 	1028.1.1={
 		birth=yes
-	}	
-	1066.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1500006
-		SUZERAIN = character:3096
-			}
-		}
 	}
 	1079.1.1={
 		death=yes
@@ -5125,24 +5039,6 @@ rashid1246 = {
 	}
 	1079.1.1={
 		religion="ashari"
-	}	
-	1081.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1500008
-		SUZERAIN = character:3096
-			}
-		}
-	}
-	1099.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1500008
-		SUZERAIN = character:3100
-			}
-		}
 	}
 	1104.1.1={
 		death=yes
@@ -5175,15 +5071,6 @@ rashid1246 = {
 	}
 	1079.1.1={
 		religion="ashari"
-	}	
-	1124.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1500010
-		SUZERAIN = character:32905
-			}
-		}
 	}
 	1127.1.1={
 		death=yes
@@ -5262,15 +5149,6 @@ rashid1246 = {
 	1113.1.1={
 		birth=yes
 	}	
-	1144.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1500015
-		SUZERAIN = character:32907
-			}
-		}
-	}	
 	1166.1.1={
 		death=yes
 	}
@@ -5309,24 +5187,6 @@ rashid1246 = {
 	father=1500015
 	1159.1.1={
 		birth=yes
-	}	
-	1166.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1500018
-		SUZERAIN = character:32910
-			}
-		}
-	}
-	1186.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1500018
-		SUZERAIN = character:226000
-			}
-		}
 	}
 	1224.1.1={
 		death=yes
@@ -7208,7 +7068,7 @@ rashid1246 = {
 }
 1500153 = {
 	name="al-Qasim"
-	dynasty=1000103470
+	dynasty_house = house_Rassid
 	religion="ismaili"
 	culture="hijazi"
 	trait="sayyid"
@@ -7222,7 +7082,7 @@ rashid1246 = {
 }
 1500154 = {
 	name="Abd al-Rahman"
-	dynasty=1000103470
+	dynasty_house = house_Rassid
 	religion="ismaili"
 	culture="hijazi"
 	trait="sayyid"
@@ -7236,7 +7096,7 @@ rashid1246 = {
 }
 1500155 = {
 	name="'Ali"
-	dynasty=1000103470
+	dynasty_house = house_Rassid
 	religion="ismaili"
 	culture="hijazi"
 	trait="sayyid"
@@ -7250,7 +7110,7 @@ rashid1246 = {
 }
 1500156 = {
 	name="al-Hasan"
-	dynasty=1000103470
+	dynasty_house = house_Rassid
 	religion="zayidi"
 	culture="hijazi"
 	trait="sayyid"
@@ -7264,7 +7124,7 @@ rashid1246 = {
 }
 1500157 = {
 	name="al-Qasim"
-	dynasty=1000103470
+	dynasty_house = house_Rassid
 	religion="zayidi"
 	culture="hijazi"
 	trait="sayyid"
@@ -7278,7 +7138,7 @@ rashid1246 = {
 }
 1500158 = {
 	name="al-Hasan"
-	dynasty=1000103470
+	dynasty_house = house_Rassid
 	religion="zayidi"
 	culture="hijazi"
 	trait="sayyid"
@@ -7409,7 +7269,7 @@ death=yes
 }
 1500166 = {
 	name="Muhammad" #Abu Abdallah Muhammad al-Mahdi; maternal uncle of Abu Muhammad Hasan b. Abu Ja'far Muhammad
-	dynasty=1000103470
+	dynasty_house = house_Rassid
 	religion="zayidi"
 	culture="hijazi"
 	trait="sayyid"
@@ -7485,7 +7345,7 @@ death=yes
 }
 1500171 = {
 	name="Muhammad"
-	dynasty=1000103470
+	dynasty_house = house_Rassid
 	religion="ismaili"
 	culture="hijazi"
 	trait="sayyid"
@@ -7499,7 +7359,7 @@ death=yes
 }
 1500172 = {
 	name="Harun"
-	dynasty=1000103470
+	dynasty_house = house_Rassid
 	religion="ismaili"
 	culture="hijazi"
 	trait="sayyid"
@@ -7513,7 +7373,7 @@ death=yes
 }
 1500173 = {
 	name="Muhammad"
-	dynasty=1000103470
+	dynasty_house = house_Rassid
 	religion="zayidi"
 	culture="hijazi"
 	trait="sayyid"
@@ -7527,7 +7387,7 @@ death=yes
 }
 1500174 = {
 	name="al-Husayn"
-	dynasty=1000103470
+	dynasty_house = house_Rassid
 	religion="zayidi"
 	culture="hijazi"
 	trait="sayyid"
@@ -7541,7 +7401,7 @@ death=yes
 }
 1500175 = {
 	name="Harun"
-	dynasty=1000103470
+	dynasty_house = house_Rassid
 	religion="zayidi"
 	culture="hijazi"
 	trait="sayyid"
@@ -7555,7 +7415,7 @@ death=yes
 }
 1500176 = {
 	name="al-Husayn"
-	dynasty=1000103470
+	dynasty_house = house_Rassid
 	religion="zayidi"
 	culture="hijazi"
 	trait="sayyid"
@@ -7570,7 +7430,7 @@ death=yes
 }
 1500177 = {
 	name="al-Mu'ayyad Ahmad" #claimed imamate ca. 990
-	dynasty=1000103470
+	dynasty_house = house_Rassid
 	religion="zayidi"
 	culture="hijazi"
 	trait="sayyid"
@@ -7586,7 +7446,7 @@ death=yes
 }
 1500178 = {
 	name="Abu-Talib Yahya"
-	dynasty=1000103470
+	dynasty_house = house_Rassid
 	religion="zayidi"
 	culture="hijazi"
 	trait="sayyid"

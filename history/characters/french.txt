@@ -8286,15 +8286,6 @@ Cornouaille2 = {
 	1124.1.1 = {
 		add_spouse = 223532 #Alice de Rethel
 	}
-	1124.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:223700
-		SUZERAIN = character:232007
-			}
-		}
-	}	
 	1130.1.5 = {
 		death = "1130.1.5"
 	}
@@ -27785,13 +27776,6 @@ louis_son_of_roberto = {
 	862.3.1 = {
 		add_spouse = 91385 # Ansgarde de Bourgogne
 		give_nickname = nick_the_stammerer
-		effect = {
-		make_tributary = {
-		TYPE = tributary_karling #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:90123
-		SUZERAIN = character:90104
-		}
-	}
 	}
 	866.7.1 = {
 		remove_spouse = 91385 # Ansgarde de Bourgogne
@@ -31803,12 +31787,12 @@ Vermandois2 = {
 	}
 	1306.4.26 = {
 		add_pressed_claim = title:k_cyprus
-		add_pressed_claim = title:c_limisol
+		#add_pressed_claim = title:c_limisol
 		add_pressed_claim = title:c_famagusta
 	}
 	1310.6.5 = {
 		remove_claim = title:k_cyprus
-		remove_claim = title:c_limisol
+		#remove_claim = title:c_limisol
 		remove_claim = title:c_famagusta
 	}
 	#1317.10.16 = {

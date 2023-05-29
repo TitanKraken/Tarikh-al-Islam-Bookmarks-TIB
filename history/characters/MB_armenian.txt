@@ -17,11 +17,6 @@
 	830.1.1 = {
 		birth=yes
 	}
-	867.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
 	898.1.1 = {
 		death=yes
 	}
@@ -163,16 +158,6 @@
 	father=1232511
 	1036.1.1 = {
 		birth=yes
-	}
-	1066.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
-	1081.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
 	}
 	1091.1.1 = {
 		death=yes
@@ -915,11 +900,6 @@
 	1029.1.1 = {
 		birth=yes
 	}
-	1066.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
 	1067.1.1 = {
 		death=yes
 	}
@@ -1202,11 +1182,6 @@
 	mother=232582
 	1160.1.1 = {
 		birth=yes
-	}
-	1186.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
 	}
 	1205.1.1 = {
 		death=yes
@@ -2276,11 +2251,6 @@
 	892.1.1 = {
 		birth=yes
 	}
-	936.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
 	947.1.1 = {
 		death=yes
 	}
@@ -2397,11 +2367,6 @@
 	902.1.1 = {
 		birth = yes
 	}
-	936.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
 	960.1.1 = {
 		death = yes
 	}
@@ -2477,7 +2442,7 @@
 	religion=nestorian
 	culture="assyrian"
 	trait="scholar"
-	trait="physician_1"	
+	trait="lifestyle_physician"	
 	760.1.1={
 		birth = yes
 	}
@@ -2491,7 +2456,7 @@
 	religion=nestorian
 	culture="assyrian"
 	trait="scholar"
-	trait="physician_1"	
+	trait="lifestyle_physician"	
 	father=1238500	
 	804.1.1={
 		birth = yes
@@ -2507,7 +2472,7 @@
 	culture="assyrian"
 	trait="legitimized_bastard"
 	trait="scholar"
-	trait="physician_1"	
+	trait="lifestyle_physician"	
 	father=1238501	
 	828.1.1={
 		birth = yes
@@ -2522,7 +2487,7 @@
 	religion=nestorian
 	culture="assyrian"
 	trait="scholar"
-	trait="physician_1"	
+	trait="lifestyle_physician"	
 	father=1238502	
 	866.1.1={
 		birth = yes
@@ -2537,7 +2502,7 @@
 	religion=nestorian
 	culture="assyrian"
 	trait="scholar"
-	trait="physician_1"	
+	trait="lifestyle_physician"	
 	father=1238503	
 	911.1.1={
 		birth = yes
@@ -2584,7 +2549,7 @@
 		birth = yes
 	}
 	1208.1.1 = {
-		add_trait = "physician_1"
+		add_trait = "lifestyle_physician"
 	}
 	1259.1.1 = {
 		death = yes
@@ -2605,7 +2570,7 @@
 	1242.1.1 = {
 		religion = "catholic"
 		culture = "assyrian"
-		add_trait = "physician_1"	
+		add_trait = "lifestyle_physician"	
 
 	}	
 	1286.7.30 = {

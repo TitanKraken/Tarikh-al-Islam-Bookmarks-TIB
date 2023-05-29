@@ -370,7 +370,7 @@
 	intrigue = 8
 	stewardship = 5
 	religion = "ashari"
-	culture = baranis
+	culture = danhagha
 	trait = greedy
 	trait = education_martial_3
 	father = 20935
@@ -390,7 +390,7 @@
 	intrigue = 7
 	stewardship = 7
 	religion = "ashari"
-	culture = baranis
+	culture = danhagha
 	trait = diligent
 	trait = deceitful
 	trait = education_learning_3
@@ -404,7 +404,7 @@
 }
 
 20834 = {
-	name = "an-Nasir" #Alger 1062-1088
+	name = "al-Nasir" # Alger 1062-1088
 	# AKA: al
 	dynasty_house = house_hammadid
 	martial = 5
@@ -412,7 +412,7 @@
 	intrigue = 5
 	stewardship = 6
 	religion = "ashari"
-	culture = baranis
+	culture = danhagha # Danhāǧa
 	trait = diligent
 	trait = wrathful
 	trait = education_learning_3
@@ -468,7 +468,7 @@
 	intrigue = 5
 	stewardship = 6
 	religion = "ismaili"
-	culture = baranis
+	culture = danhagha
 	870.1.1 = {
 		birth = "870.1.1"
 	}
@@ -485,7 +485,7 @@
 	intrigue = 4
 	stewardship = 6
 	religion = "ismaili"
-	culture = baranis
+	culture = danhagha
 	trait = education_martial_3
 	father = 20930
 	910.1.1 = {
@@ -504,7 +504,7 @@
 	intrigue = 4
 	stewardship = 6
 	religion = "ismaili"
-	culture = baranis
+	culture = danhagha
 	trait = education_stewardship_3
 	father = 20931
 	931.1.1 = {
@@ -524,7 +524,7 @@
 	intrigue = 4
 	stewardship = 6
 	religion = "ismaili"
-	culture = baranis
+	culture = danhagha
 	trait = education_martial_2
 	father = 20932
 	948.1.1 = {
@@ -543,7 +543,7 @@
 	intrigue = 9
 	stewardship = 6
 	religion = "ismaili"
-	culture = baranis
+	culture = danhagha
 	father = 20933
 	965.1.1 = {
 		birth = "965.1.1"
@@ -562,7 +562,7 @@
 	intrigue = 4
 	stewardship = 6
 	religion = "ashari"
-	culture = baranis
+	culture = danhagha
 	trait = education_martial_2
 	father = 20934
 	1000.1.1 = {
@@ -581,21 +581,12 @@
 	intrigue = 4
 	stewardship = 6
 	religion = "ashari"
-	culture = baranis
+	culture = danhagha # Danhāǧa
 	trait = education_martial_3
 	trait = ambitious
 	father = 20932
 	965.1.1 = {
 		birth = "965.1.1"
-	}
-	1017.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:20936
-		SUZERAIN = character:20935
-			}
-		}
 	}
 	1028.1.1 = {
 		death = "1028.1.1"
@@ -611,7 +602,7 @@
 	intrigue = 4
 	stewardship = 6
 	religion = "ashari"
-	culture = baranis
+	culture = danhagha # Danhāǧa
 	father = 20936
 	1000.1.1 = {
 		birth = "1000.1.1"
@@ -1308,7 +1299,7 @@
 	intrigue = 5
 	stewardship = 4
 	religion = "ashari"
-	culture = baranis
+	culture = danhagha
 	trait = honest
 	trait = cynical
 	trait = education_martial_2
@@ -1329,7 +1320,7 @@
 	intrigue = 5
 	stewardship = 4
 	religion = "ashari"
-	culture = baranis
+	culture = danhagha
 	trait = education_intrigue_2
 	father = 3210
 	1100.1.1 = {
@@ -1348,7 +1339,7 @@
 	intrigue = 8
 	stewardship = 5
 	religion = "ashari"
-	culture = baranis
+	culture = danhagha
 	trait = education_martial_3
 	father = 20825
 	1062.1.1 = {
@@ -1385,7 +1376,7 @@
 	intrigue = 4
 	stewardship = 6
 	religion = "ashari"
-	culture = baranis
+	culture = danhagha
 	trait = education_martial_3
 	trait = just
 	trait = wrathful
@@ -1406,7 +1397,7 @@
 	intrigue = 4
 	stewardship = 6
 	religion = "ashari"
-	culture = baranis
+	culture = danhagha
 	trait = education_diplomacy_3
 	father = 45017
 	978.1.1 = {
@@ -1425,7 +1416,7 @@
 	intrigue = 9
 	stewardship = 6
 	religion = "ashari"
-	culture = baranis
+	culture = danhagha
 	trait = education_diplomacy_3
 	trait = greedy
 	trait = arbitrary
@@ -1446,7 +1437,7 @@
 	intrigue = 4
 	stewardship = 6
 	religion = "ashari"
-	culture = baranis
+	culture = danhagha
 	father = 20931
 	952.1.1 = {
 		birth = "952.1.1"
@@ -1464,7 +1455,7 @@
 	intrigue = 4
 	stewardship = 6
 	religion = "ashari"
-	culture = baranis
+	culture = danhagha # Danhāǧa
 	trait = education_diplomacy_2
 	father = 20936
 	985.1.1 = {
@@ -1483,7 +1474,7 @@
 	intrigue = 4
 	stewardship = 6
 	religion = "ashari"
-	culture = baranis
+	culture = danhagha # Danhāǧa
 	trait = education_diplomacy_2
 	father = 20936
 	990.1.1 = {
@@ -1502,7 +1493,7 @@
 	intrigue = 4
 	stewardship = 6
 	religion = "ashari"
-	culture = baranis
+	culture = danhagha # Danhāǧa
 	trait = education_diplomacy_2
 	father = 20936
 	995.1.1 = {
@@ -1521,7 +1512,7 @@
 	intrigue = 2
 	stewardship = 6
 	religion = "ashari"
-	culture = baranis
+	culture = danhagha # Danhāǧa
 	trait = education_intrigue_1
 	father = 45018
 	1005.1.1 = {
@@ -1540,7 +1531,7 @@
 	intrigue = 4
 	stewardship = 6
 	religion = "ashari"
-	culture = baranis
+	culture = danhagha # Danhāǧa
 	father = 20936
 	991.1.1 = {
 		birth = "991.1.1"
@@ -1558,7 +1549,7 @@
 	intrigue = 6
 	stewardship = 4
 	religion = "ashari"
-	culture = baranis
+	culture = danhagha # Danhāǧa
 	trait = education_intrigue_4
 	trait = paranoid
 	trait = ambitious
@@ -1579,7 +1570,7 @@
 	intrigue = 5
 	stewardship = 6
 	religion = "ashari"
-	culture = baranis
+	culture = danhagha # Danhāǧa
 	trait = diligent
 	trait = education_stewardship_2
 	father = 20834
@@ -2238,7 +2229,7 @@
 	intrigue = 5
 	stewardship = 5
 	religion = "ashari"
-	culture = baranis
+	culture = danhagha
 	trait = education_stewardship_2
 	father = 20934
 	1002.1.1 = {
@@ -2256,7 +2247,7 @@
 	father = 45016
 
 	religion = ashari
-	culture = baranis
+	culture = danhagha
 
 	1038.1.1 = {
 		birth = yes
@@ -2277,7 +2268,7 @@
 	mother = 200235
 
 	religion = ashari
-	culture = baranis
+	culture = danhagha
 
 	1055.1.1 = {
 		birth = yes
@@ -2295,19 +2286,10 @@
 	mother = 200235
 
 	religion = ashari
-	culture = baranis
+	culture = danhagha
 
 	1057.1.1 = {
 		birth = yes
-	}
-	1081.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_non_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:32952
-		SUZERAIN = character:108500
-			}
-		}
 	}
 	1090.1.1 = {
 		add_pressed_claim = title:d_granada
@@ -2321,7 +2303,7 @@
 	name = "Abu-Yakni" #Constantine
 	dynasty_house = house_hammadid
 	religion = "ashari"
-	culture = baranis
+	culture = danhagha
 	father = 45021
 	1045.1.1 = {
 		birth = "1045.1.1"
@@ -2335,7 +2317,7 @@
 	name = "Badis" #Alger 1105-1106
 	dynasty_house = house_hammadid
 	religion = "ashari"
-	culture = baranis
+	culture = danhagha
 	father = 45024
 	1085.1.1 = {
 		birth = "1085.1.1"
@@ -2349,7 +2331,7 @@
 	name = "Abd-al-Aziz" #Alger 1106-1121
 	dynasty_house = house_hammadid
 	religion = "ashari"
-	culture = baranis
+	culture = danhagha
 	father = 45024
 	1090.1.1 = {
 		birth = "1090.1.1"
@@ -2363,7 +2345,7 @@
 	name = "Yahya" #Alger 1121-1152
 	dynasty_house = house_hammadid
 	religion = "ashari"
-	culture = baranis
+	culture = danhagha
 	father = 45024
 	1110.1.1 = {
 		birth = "1110.1.1"
@@ -3294,15 +3276,6 @@
 		add_pressed_claim = title:d_sevilla
 		add_pressed_claim = title:d_granada
 	}
-	1246.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:73234
-		SUZERAIN = character:460600
-			}
-		}
-	}
 	1248.1.1 = {
 		remove_claim = title:d_sevilla
 	}
@@ -3337,15 +3310,6 @@
 		remove_claim = title:d_valencia
 		remove_claim = title:d_cordoba
 	}
-	1241.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:33056
-		SUZERAIN = character:460600
-			}
-		}
-	}
 	1242.1.1 = {
 		death = "1242.1.1"
 	}
@@ -3362,15 +3326,6 @@
 	}
 	1263.1.1 = {
 		add_pressed_claim = title:d_granada
-	}
-	1285.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_non_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:33057
-		SUZERAIN = character:71739
-			}
-		}
 	}
 	1287.1.1 = {
 		death = "1287.1.1"
@@ -3558,7 +3513,7 @@
 	name = "Abdul-Qadir"
 	dynasty_house = house_hammadid
 	religion = "ashari"
-	culture = baranis
+	culture = danhagha # Danhāǧa
 	father = 45018
 	1010.1.1 = {
 		birth = "1010.1.1"
@@ -4985,13 +4940,6 @@
 	father = 155120
 	952.1.1 = {
 		birth = "952.1.1"
-		effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:155121
-		SUZERAIN = character:3204
-		}
-	}
 	}
 	1002.1.1 = {
 		death = "1002.1.1"
@@ -5202,24 +5150,6 @@
 	1220.1.1 = {
 		birth = "1220.1.1"
 	}
-	1246.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:155165
-		SUZERAIN = character:33021
-			}
-		}
-	}
-	1258.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:155165
-		SUZERAIN = character:33024
-			}
-		}
-	}
 	1267.1.1 = {
 		death = "1267.1.1"
 	}
@@ -5259,15 +5189,6 @@
 	father = 155167
 	1265.1.1 = {
 		birth = "1265.1.1"
-	}
-	1285.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_non_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:155168
-		SUZERAIN = character:32997
-			}
-		}
 	}
 	1316.1.1 = {
 		death = "1316.1.1"
@@ -5898,13 +5819,6 @@
 	father = 159515
 	920.1.2 = {
 		birth = "920.1.2"
-		effect = {
-		make_tributary = {
-		TYPE = tributary_non_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:159516
-		SUZERAIN = character:3200
-		}
-	}
 	}
 	948.12.16 = {
 		death = "948.12.16"
@@ -6478,13 +6392,6 @@
 	}
 	860.1.1 = {
 		add_spouse = 73837
-		effect = {
-		make_tributary = {
-		TYPE = tributary_non_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:73838
-		SUZERAIN = character:73683
-		}
-		}
 	}
 	888.1.1 = {
 		death = yes
@@ -7895,7 +7802,7 @@ baranis0061 = {
 	dynasty = 570 # Banu Dhu-l-Nun Dynasty
 	religion = mozarabic_church
 	culture = mozarab
-	trait = mystic_3
+	trait = lifestyle_mystic
 	trait = education_learning_3
 
 	father = 3922 # Emir al-Zafir of Toledo

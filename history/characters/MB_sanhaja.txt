@@ -1,6 +1,6 @@
 ﻿# -*- ck2.history.characters -*-
 
-# SWMH sanhaja and tagelmust characters
+# SWMH danhagha and tagelmust characters
 
 # Dynasties: 1000053590 - 1000053619
 # Characters: 1144550 - 1144619 2nd: 1228200 - 1228219 3rd: 1228860 - 1228884 4rd: 1236324 - 1236329 5th: 1236335 - 1236339 6th: 1236341 - 1236354 7th: 1600500 - 1600699
@@ -1691,15 +1691,6 @@
 	1028.1.1 = { #?
 		birth="1028.1.1"
 	}
-	1066.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_non_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1600523
-		SUZERAIN = character:155029
-			}
-		}
-	}
 	1100.1.1 = {
 		death={
 			death_reason=death_execution
@@ -1892,13 +1883,6 @@
 	culture = baranis #?
 	845.1.1 = {
 		birth=yes
-		effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1600540
-		SUZERAIN = character:159508
-		}
-		}
 	}
 	890.1.1 = {
 		death=yes
@@ -2071,13 +2055,6 @@
 	}
 	935.1.1 = {
 		add_pressed_claim = title:c_fes
-		effect = {
-		make_tributary = {
-		TYPE = tributary_non_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1600553
-		SUZERAIN = character:3200
-		}
-	}
 	}
 	939.1.1 = {
 		death="939.1.1"
@@ -2764,7 +2741,7 @@ Almoravid3 = {
 	name="Karama" #b. al-Mansur, governor of Tunis under the Hamdanid Yahya, appointed in 1128
 	dynasty_house = house_hammadid
 	religion="ashari"
-	culture = baranis
+	culture = danhagha # Danhāǧa
 	father=45024
 	1087.1.1 = { #?
 		birth=yes
@@ -2777,7 +2754,7 @@ Almoravid3 = {
 	name="Abu-al-Futuh" #b. al-Mansur, governor of Tunis
 	dynasty_house = house_hammadid
 	religion="ashari"
-	culture = baranis
+	culture = danhagha # Danhāǧa
 	father=45024
 	1093.1.1 = { #?
 		birth=yes
@@ -2790,7 +2767,7 @@ Almoravid3 = {
 	name="Ma'add" #b. al-Mansur, governor of Tunis
 	dynasty_house = house_hammadid
 	religion="ashari"
-	culture = baranis
+	culture = danhagha # Danhāǧa
 	father=45024
 	1098.1.1 = { #?
 		birth=yes
@@ -2803,7 +2780,7 @@ Almoravid3 = {
 	name="Muhammad" #b. Abu al-Futuh, governor of Tunis
 	dynasty_house = house_hammadid
 	religion="ashari"
-	culture = baranis
+	culture = danhagha # Danhāǧa
 	father=1600600
 	1123.1.1 = { #?
 		birth=yes

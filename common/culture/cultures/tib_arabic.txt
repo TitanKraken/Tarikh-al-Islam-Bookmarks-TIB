@@ -119,7 +119,7 @@ yemeni = {
 	
 	ethos = ethos_communal
 	heritage = heritage_arabic
-	language = language_arabic
+	language = language_south_arabian
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_mountaineers
@@ -141,10 +141,36 @@ yemeni = {
 		6 = east_african
 	}
 }
+hadhrami = {
+	color = { 0.25 0.4 0.35 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_arabic
+	language = language_south_arabian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_dryland_dwellers
+		tradition_quarrelsome
+		tradition_storytellers
+		tradition_corsairs
+	}
+	
+	name_list = name_list_yemeni
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 	
+
+	ethnicities = {
+		10 = arab
+		8 = east_african
+	}
+}
 
 # Copied from More Bookmarks+ (edited a bit by me), credits to the developer :D
 
-sicilian_arabic = { #Arabic melting pot in Southern Italy
+sicilian_arabian = { #Arabic melting pot in Southern Italy
 	color = { 0.3 0.6 0.3 }
 	created = 850.1.1
 	parents = { greek maghrebi } #Chose Greek mainly since the provinces it shows up in were all originally Greek
@@ -173,6 +199,67 @@ sicilian_arabic = { #Arabic melting pot in Southern Italy
 		5 = mediterranean
 		2 = mediterranean_byzantine
 		1 = african
+	}
+}
+# RICE Arab cultures
+south_arabian = {
+	color = { 0.59 0.97 0.69 }
+	
+	ethos = ethos_communal
+	heritage = heritage_arabic
+	language = language_south_arabian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_seafaring
+		tradition_quarrelsome
+		tradition_fishermen
+		tradition_maritime_mercantilism
+		#tradition_RICE_ubiquity_of_poetry
+	}
+	
+	name_list = name_list_south_arabian
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { mena_clothing_gfx } 
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { mena_unit_gfx } 
+
+	ethnicities = {
+		4 = arab
+		4 = indian
+		4 = south_indian
+		13 = east_african
+	}
+}
+
+soqotri = {
+	color = { 0.50 0.70 0.55 }
+	
+	ethos = ethos_communal
+	heritage = heritage_arabic
+	language = language_south_arabian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_seafaring
+		tradition_isolationist
+		tradition_fishermen
+		tradition_maritime_mercantilism
+	}
+	
+	name_list = name_list_south_arabian
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { mena_clothing_gfx } 
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { mena_unit_gfx } 
+
+	ethnicities = {
+		4 = arab
+		4 = indian
+		4 = south_indian
+		13 = east_african
 	}
 }
 

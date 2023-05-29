@@ -291,7 +291,7 @@
 		add_pressed_claim = title:k_england
 	}
 	1066.1.6 = {
-		trait = hunter_1
+		trait = lifestyle_hunter
 	}
 	1066.10.14 = {
 		employer = 5644
@@ -841,7 +841,7 @@
 		birth = "1032.1.1"
 	}
 	1050.1.1 = {
-		trait = hunter_1
+		trait = lifestyle_hunter
 	}
 	1066.10.14 = {
 		death = "1066.10.14"
@@ -1303,7 +1303,7 @@
 		birth = "1044.1.1"
 	}
 	1066.1.1 = {
-		trait = hunter_1
+		trait = lifestyle_hunter
 	}
 	1071.1.1 = {
 		death = "1071.1.1"
@@ -1369,7 +1369,7 @@
 		}
 	}
 	1066.1.1 = {
-		trait = hunter_1
+		trait = lifestyle_hunter
 	}
 	1078.1.1 = {
 		death = "1078.1.1"
@@ -1671,7 +1671,7 @@
 	trait = ambitious
 	trait = vengeful #killed a bunch of Normans who killed his brother
 	trait = wrathful #see above
-	trait = blademaster_2 # noted duelist
+	trait = lifestyle_blademaster # noted duelist
 	trait = forder #defended the fenlands
 	trait = adventurer
 
@@ -3336,15 +3336,6 @@
 	735.1.1 = {
 		birth = "735.1.1"
 	}
-	769.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:205049
-		SUZERAIN = character:205072
-			}
-		}
-	}
 	779.1.1 = {
 		death = "779.1.1"
 	}
@@ -3566,15 +3557,6 @@
 	725.1.1 = {
 		birth = "725.1.1"
 	}
-	769.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:205015
-		SUZERAIN = character:205072
-			}
-		}
-	}	
 	779.1.1 = {
 		death = "779.1.1"
 	}
@@ -5442,15 +5424,6 @@
 	716.1.1 = {
 		birth = "716.1.1"
 	}
-	769.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:205128
-		SUZERAIN = character:205072
-			}
-		}
-	}	
 	777.1.1 = {
 		death = "777.1.1"
 	}
@@ -5834,15 +5807,6 @@
 	745.1.1 = {
 		birth = "745.1.1"
 	}
-	769.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:205265
-		SUZERAIN = character:205072
-			}
-		}
-	}	
 	830.1.1 = {
 		death = "830.1.1"
 	}

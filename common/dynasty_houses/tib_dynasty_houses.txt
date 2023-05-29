@@ -91,6 +91,12 @@ house_hargha_idrisid = {
 	name = "Hargha"
 	dynasty = 1029055 # Idrisid
 }
+# al-Ziri
+house_hammadid = {
+    name = "dynn_Hammadid"
+    dynasty = 595 # Zirid
+
+}
 
 # Qahtanites / Azd
 house_Azd_Umani = {

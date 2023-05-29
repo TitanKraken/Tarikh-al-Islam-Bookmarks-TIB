@@ -875,7 +875,7 @@
 		birth = yes
 	}
 	880.1.1={
-		add_trait="reveler_2"
+		add_trait="lifestyle_reveler"
 	}
 	930.1.1={
 		death=yes # died of old age
@@ -987,7 +987,7 @@
 	religion="norse_pagan"
 	culture=norse
         father=1228038
-        trait=reveler_2
+        trait=lifestyle_reveler
         trait=viking
 	838.1.1={
 		birth = yes
@@ -2025,7 +2025,7 @@
 		birth = yes
 	}
 	1189.1.1 = {
-		trait = reveler_2
+		trait = lifestyle_reveler
 	}
 	1238.1.1 = {
 	death = yes
@@ -2187,7 +2187,7 @@
 		birth=yes
 	}
 	1187.1.1={
-		trait=reveler_2
+		trait=lifestyle_reveler
 	}
 	1208.1.1={
 	death = yes
@@ -2415,7 +2415,7 @@
 	}
 	1226.1.1 = {
 		trait=education_diplomacy_3
-		trait=reveler_2
+		trait=lifestyle_reveler
 		trait=scholar
 	}
 	1259.1.1 = {
@@ -4448,15 +4448,6 @@ death = yes
 	father=1290102	
 	936.1.1={
 		birth=yes
-	}	
-	992.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_non_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1290099
-		SUZERAIN = character:101505
-			}
-		}
 	}
 	998.1.1={
 		death=yes

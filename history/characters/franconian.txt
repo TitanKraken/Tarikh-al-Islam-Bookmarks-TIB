@@ -2615,12 +2615,12 @@
 	1052.1.2 = {
 		add_spouse = 7201
 	}
-	1055.5.26= {
-		vassal_contract_set_obligation_level = {
-			type = special_contract
-			level = special_contract_march
-		}
-	}
+	#1055.5.26= {
+	#	vassal_contract_set_obligation_level = {
+	#		type = special_contract
+	#		level = special_contract_march
+	#	}
+	#}
 	1081.6.10 = {
 		death = "1081.6.10"
 	}
@@ -7638,7 +7638,7 @@ set_realm_capital = title:c_malbork
 	religion = "catholic"
 	culture = ripuarian
 	trait = arrogant
-	trait = blademaster_1
+	trait = lifestyle_blademaster
 	trait = temperate
 	trait = just
 	trait = education_diplomacy_4
@@ -8596,12 +8596,12 @@ set_realm_capital = title:c_malbork
 	1027.1.1 = {
 		birth = "1027.1.1"
 	}
-	1062.1.1= {
-		vassal_contract_set_obligation_level = {
-			type = special_contract
-			level = special_contract_march
-		}
-	}
+	#1062.1.1= {
+	#	vassal_contract_set_obligation_level = {
+	#		type = special_contract
+	#		level = special_contract_march
+	#	}
+	#}
 	1063.1.2 = {
 		add_spouse = 106605
 	}
@@ -8664,7 +8664,7 @@ set_realm_capital = title:c_malbork
 	religion = "catholic"
 	culture = thuringian
 	trait = drunkard
-	trait = reveler_1
+	trait = lifestyle_reveler
 	trait = education_stewardship_2
 	father = 1616
 	mother = 471

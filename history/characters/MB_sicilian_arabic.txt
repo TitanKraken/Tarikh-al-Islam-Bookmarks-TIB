@@ -4,7 +4,7 @@
 	name="Muhammad" #b. Ibrahim b. al-Thumna
 	dynasty = 1000054612
 	religion="ismaili"
-	culture="sicilian_arabic"
+	culture="sicilian_arabian"
 	father=159194
 	trait="wrathful"
 	1011.1.1 = {
@@ -19,7 +19,7 @@
 	name="Hasan"
 	dynasty = 12238
 	religion="ashari"
-	culture="sicilian_arabic"
+	culture="sicilian_arabian"
 	1030.1.1 = {
 		birth="1030.1.1"
 	}
@@ -32,7 +32,7 @@
 	name="Ali" #AKA Ibn al-Hawwas
 	dynasty = 12239
 	religion="ashari"
-	culture="sicilian_arabic"
+	culture="sicilian_arabian"
 	father=1900502
 	1013.1.1 = {
 		birth="1013.1.1"
@@ -46,19 +46,10 @@
 	name="Muhammad"
 	dynasty = 12241
 	religion="ashari"
-	culture="sicilian_arabic"
+	culture="sicilian_arabian"
 	father=20828
 	1065.1.1 = {
 		birth="1065.1.1"
-	}
-	1099.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_non_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:73314
-		SUZERAIN = character:1132
-			}
-		}
 	}
 	1120.1.1 = {
 		death="1120.1.1"
@@ -69,7 +60,7 @@
 	name="Abdallah"
 	dynasty = 12241
 	religion="ashari"
-	culture="sicilian_arabic"
+	culture="sicilian_arabian"
 	father=73314
 	1090.1.1 = {
 		birth="1090.1.1"
@@ -87,7 +78,7 @@
 	intrigue=4
 	stewardship=7
 	religion="ashari"
-	culture="sicilian_arabic"
+	culture="sicilian_arabian"
 	father=1226717
 	1039.1.1 = {
 		birth="1039.1.1"
@@ -105,7 +96,7 @@
 	intrigue=4
 	stewardship=6
 	religion="ashari"
-	culture="sicilian_arabic"
+	culture="sicilian_arabian"
 	trait="education_intrigue_1"
 	1025.1.1 = {
 		birth="1025.1.1"
@@ -125,7 +116,7 @@
 		birth="899.1.1"
 	}
 	960.1.1={
-		culture="sicilian_arabic"
+		culture="sicilian_arabian"
 	}
 	964.1.1={
 		death="964.1.1"
@@ -141,7 +132,7 @@
 		birth="917.1.1"
 	}
 	960.1.1={
-		culture="sicilian_arabic"
+		culture="sicilian_arabian"
 	}
 	970.1.1={
 		death="970.1.1"
@@ -157,7 +148,7 @@
 		birth="918.1.1"
 	}
 	960.1.1={
-		culture="sicilian_arabic"
+		culture="sicilian_arabian"
 	}
 	982.1.1={
 		death="982.1.1"
@@ -173,7 +164,7 @@
 		birth="939.1.1"
 	}
 	960.1.1={
-		culture = "sicilian_arabic"
+		culture = "sicilian_arabian"
 	}
 	985.1.1={ #deposed in 983
 		death = "985.1.1"
@@ -189,7 +180,7 @@
 		birth="921.1.1"
 	}
 	960.1.1={
-		culture="sicilian_arabic"
+		culture="sicilian_arabian"
 	}
 	980.1.1={
 		death="980.1.1"
@@ -205,7 +196,7 @@
 		birth="940.1.1"
 	}
 	960.1.1={
-		culture="sicilian_arabic"
+		culture="sicilian_arabian"
 	}
 	986.1.1={
 		death="986.1.1"
@@ -221,7 +212,7 @@
 		birth="941.1.1"
 	}
 	960.1.1={
-		culture="sicilian_arabic"
+		culture="sicilian_arabian"
 	}
 	990.1.1={
 		death="990.1.1"
@@ -235,7 +226,7 @@
 	father=159189
 	960.1.1 = {
 		birth = yes
-		culture = "sicilian_arabic"
+		culture = "sicilian_arabian"
 	}
 	998.1.1 = {
 		death = yes
@@ -245,7 +236,7 @@
 	name="Jafar"
 	dynasty=12240
 	religion="ismaili"
-	culture="sicilian_arabic"
+	culture="sicilian_arabian"
 	father=159190
 	979.1.1={
 		birth="969.1.1"
@@ -258,7 +249,7 @@
 	name="Ahmad"
 	dynasty=12240
 	religion="ismaili"
-	culture="sicilian_arabic"
+	culture="sicilian_arabian"
 	father=159190
 	980.1.1={
 		birth = yes
@@ -271,7 +262,7 @@
 	name="Hassan"
 	dynasty=12240
 	religion="ismaili"
-	culture="sicilian_arabic"
+	culture="sicilian_arabian"
 	father=159190
 	985.1.1={
 		birth="985.1.1"
@@ -284,7 +275,7 @@
 	name="Ibrahim"
 	dynasty=1000054612
 	religion="ismaili"
-	culture="sicilian_arabic"
+	culture="sicilian_arabian"
 	991.1.1={
 		birth="991.1.1"
 	}
@@ -302,7 +293,7 @@
 		birth=yes
 	}
 	958.1.1={
-		culture="sicilian_arabic"
+		culture="sicilian_arabian"
 	}
 	958.9.24={
 		death=yes
@@ -318,7 +309,7 @@
 		birth=yes
 	}
 	958.1.1={
-		culture="sicilian_arabic"
+		culture="sicilian_arabian"
 	}
 	1000.6.1={
 		death=yes
@@ -328,7 +319,7 @@
 	name="Ni'ma"
 	dynasty = 12239
 	religion="ashari"
-	culture="sicilian_arabic"
+	culture="sicilian_arabian"
 	990.1.1 = { #?
 		birth=yes
 	}
@@ -341,7 +332,7 @@
 	female=yes
 	dynasty = 12239
 	religion="ashari"
-	culture="sicilian_arabic"
+	culture="sicilian_arabian"
 	father=1900502
 	1025.1.1 = { #?
 		birth=yes
@@ -359,7 +350,7 @@
 1900504 = {
 	name="Ahmad" #placeholder ruler of Paterno, 1062-1069
 	religion="ashari"
-	culture="sicilian_arabic"
+	culture="sicilian_arabian"
 	1030.1.1 = {
 		birth=yes
 	}
@@ -370,7 +361,7 @@
 1900505 = {
 	name="Abdallah" #placeholder ruler of Noto, 1065-1069
 	religion="ashari"
-	culture="sicilian_arabic"
+	culture="sicilian_arabian"
 	1031.1.1 = {
 		birth=yes
 	}
@@ -381,7 +372,7 @@
 1900506 = {
 	name="Ja'far" #placeholder ruler of Aderno, 1065-1080
 	religion="ashari"
-	culture="sicilian_arabic"
+	culture="sicilian_arabian"
 	1028.1.1 = {
 		birth=yes
 	}
@@ -392,7 +383,7 @@
 1900507 = {
 	name="Hammud" #ruler of Castrogiovanni and Agrigento, 1080s-1087
 	religion="ashari"
-	culture="sicilian_arabic"
+	culture="sicilian_arabian"
 	1048.1.1 = {
 		birth=yes
 	}
@@ -425,7 +416,7 @@
 		birth=yes
 	}
 	970.1.1 = {
-		culture="sicilian_arabic"
+		culture="sicilian_arabian"
 	}
 	998.1.1 = {
 		death=yes
@@ -441,7 +432,7 @@
 		birth=yes
 	}
 	970.1.1 = {
-		culture="sicilian_arabic"
+		culture="sicilian_arabian"
 	}
 	1021.1.1 = {
 		death=yes

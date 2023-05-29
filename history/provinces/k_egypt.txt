@@ -124,7 +124,7 @@
 
 ###c_sullum
 6097 = {	#SULLUM
-	culture = butr
+	culture = siwi
 	religion = coptic
 	holding = castle_holding
 
@@ -141,7 +141,7 @@
 
 ###c_siwa
 6093 = {	#SIWA	
-	culture = butr
+	culture = siwi # Their namesake
 	religion = coptic
 	holding = castle_holding
 
@@ -303,7 +303,7 @@
 ##d_al-wahat ###################################
 ###c_bahriya
 6089 = {	#AL-BAHRIYA
-	culture = butr
+	culture = siwi
 	religion = coptic
 	holding = castle_holding
 
@@ -320,7 +320,7 @@
 
 ###c_farafra
 6088 = {	#FARAFRA
-	culture = butr
+	culture = siwi
 	religion = coptic
 	holding = castle_holding
 
@@ -331,7 +331,7 @@
 
 ###c_dakhla
 6085 = {	#MUT
-	culture = butr
+	culture = siwi
 	religion = coptic
 	holding = castle_holding
 
@@ -348,7 +348,7 @@
 
 ###c_kharga
 6083 = {	#KHARGA
-	culture = butr
+	culture = siwi
 	religion = coptic
 	holding = castle_holding
 

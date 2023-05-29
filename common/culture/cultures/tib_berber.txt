@@ -1,4 +1,4 @@
-﻿butr = { # Butr - nomadic Berber
+﻿butr = { # Butr - Medieval South Berber classification
 	color = { 161 90 40 }
 	
 	ethos = ethos_stoic
@@ -26,7 +26,7 @@
 	}
 }
 
-baranis = { # Baranis - settled Berber
+baranis = { # Baranis - Medieval North Berber classification
 	color = baranis
 	
 	ethos = ethos_spiritual
@@ -81,6 +81,7 @@ guanches = { # Guanches - Canary Islanders
 
 zaghawa = {
 	color = zaghawa
+	parents = { butr }
 	
 	ethos = ethos_egalitarian
 	heritage = heritage_berber
@@ -107,6 +108,7 @@ zaghawa = {
 
 tuareg = {
 	color = hsv{ 0.8 1 0.2 }
+	parents = { butr }
 	
 	ethos = ethos_bellicose
 	heritage = heritage_berber
@@ -133,8 +135,9 @@ tuareg = {
 	}
 }
 
-tagelmust = { # Based on Baranis, Sanhaja
+tagelmust = { # Based on Baranis, Tagelmust Sanhaja
 	color = { 0.55 0.35 0.25 }
+	parents = { baranis }
 	
 	ethos = ethos_spiritual
 	heritage = heritage_berber
@@ -160,9 +163,37 @@ tagelmust = { # Based on Baranis, Sanhaja
 		1 = african
 	}
 }
-
-masmuda = { #Based on Baranis but urban
+danhagha = { # Based on Baranis, Kabyle Sanhaja
+	color = { 0.57 0.40 0.20 }
+	parents = { baranis }
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_berber
+	language = language_berber
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_african_tolerance
+		tradition_maritime_mercantilism # Just beside the Mediterrenean Sea
+		tradition_dryland_dwellers
+		tradition_mountain_herding # Resides at the Kabylie range
+		tradition_corsairs
+	}
+	
+	name_list = name_list_baranis
+	
+	coa_gfx = { berber_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { iberian_muslim_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = {
+		10 = arab
+		1 = african
+	}
+}
+masmuda = { # Based on Baranis, Moroccan Atlas Sanhaja
 	color = { 0.4 0.4 0.2 }
+	parents = { baranis }
 	
 	ethos = ethos_stoic
 	heritage = heritage_berber
@@ -188,3 +219,60 @@ masmuda = { #Based on Baranis but urban
 		#1 = african
 	}
 }
+zenata = { # Based on Baranis, historically one of the largest Berber confederations along with the Sanhaja and Masmuda
+	color = { 0.60 0.40 0.30 }
+	parents = { baranis }
+	
+	ethos = ethos_stoic
+	heritage = heritage_berber
+	language = language_berber
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_african_tolerance
+		tradition_maritime_mercantilism # Just beside the Mediterrenean Sea
+		tradition_dryland_dwellers
+		tradition_mountain_herding # Resides at the Kabylie range
+		tradition_corsairs
+	}
+	
+	name_list = name_list_baranis
+	
+	coa_gfx = { berber_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { iberian_muslim_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = {
+		10 = arab
+		1 = african
+	}
+}
+siwi = { # Based on Baranis, Egyptian Berbers residing at Siwa valley
+	color = { 0.60 0.40 0.30 }
+	parents = { baranis }
+	
+	ethos = ethos_stoic # Able to withold their culture alive until present day
+	heritage = heritage_berber
+	language = language_berber
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_african_tolerance
+		tradition_isolationist # Pretty far isolated from their other Berber brethren
+		tradition_saharan_nomads
+		tradition_agrarian
+		tradition_corsairs
+	}
+	
+	name_list = name_list_baranis
+	
+	coa_gfx = { berber_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { iberian_muslim_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = {
+		10 = arab
+		3 = african
+	}
+}
+

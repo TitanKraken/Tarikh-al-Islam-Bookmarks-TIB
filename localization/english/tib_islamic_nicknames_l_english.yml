@@ -8,6 +8,7 @@
  nick_saffah:0 "al-Saffah"
  nick_mansur:0 "al-Mansur"
  nick_mahdi_billah:0 "al-Mahdi billah"
+ nick_mahdi:0 "al-Mahdi"
  nick_hadi:0 "al-Hadi"
  nick_rashid:0 "al-Rashid"
  nick_amin:0 "al-Amin"
@@ -15,6 +16,7 @@
  nick_mutasim:0 "al-Mu'tasim"
  nick_wathiq:0 "al-Wathiq"
  nick_mutawakkil_ala_llah:0 "al-Mutawakkil 'ala-llah"
+ nick_mutawakkil:0 "al-Mutawakkil"
  nick_mustansir_billah:0 "al-Mustansir billah"
  nick_mustain_billah:0 "al-Musta'in billah"
  nick_mutazz:0 "al-Mu'tazz"
@@ -31,7 +33,7 @@
  nick_muti_lillah:0 "al-Muti' lillah"
  nick_tai_li_amrillah:0 "al-Ta'i li-amrillah"
  nick_qadir_billah:0 "al-Qadir billah"
- nick_qaim_bi_amrillah:0 "al-Qaim bi-amrillah"
+ nick_qaim_bi_amrillah:0 "al-Qa'im bi-amrillah"
  nick_muqtadi_bi_amrillah:0 "al-Muqtadi bi-amrillah"
  nick_mustazhir:0 "al-Mustazhir"
  nick_mustarshid:0 "al-Mustarshid"
@@ -47,7 +49,7 @@
  
  # Fatimids
  nick_mahdi:0 "al-Mahdi"
- nick_qaim:0 "al-Qaim"
+ nick_qaim:0 "al-Qa'im"
  nick_mansur_billah:0 "al-Mansur billah"
  nick_muizz:0 "al-Mu'izz"
  nick_aziz_billah:0 "al-'Aziz billah"
@@ -61,6 +63,9 @@
  nick_faiz:0 "al-Faiz"
  nick_adid:0 "al-'Adid"
  
+ # Andalusians
+ nick_muzaffar:0 "al-Muzaffar"
+
  # Almohad
  nick_makhlu:0 "al-Makhlu'"
  nick_adil:0 "al-'Adil"

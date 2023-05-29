@@ -2,6 +2,7 @@
 nick_saffah = {}
 nick_mansur = {}
 nick_mahdi_billah = {}
+nick_mahdi = {}
 nick_hadi = {}
 nick_rashid = {}
 nick_amin = {}
@@ -9,6 +10,7 @@ nick_mamun = {}
 nick_mutasim = {}
 nick_wathiq = {}
 nick_mutawakkil_ala_llah = {}
+nick_mutawakkil = {}
 nick_mustansir_billah = {}
 nick_mustain_billah = {}
 nick_mutazz = {}
@@ -54,6 +56,9 @@ nick_hafiz = {}
 nick_zafir = {}
 nick_faiz = {}
 nick_adid = {}
+
+# Andalusians
+nick_muzaffar = {}
 
 # Almohad
 nick_makhlu = { is_bad = yes }

@@ -1,6 +1,6 @@
 ﻿# -*- ck2.history.characters -*-
 
-# SWMH butr characters
+# SWMH zenata characters
 
 # Characters: 1228220 - 1228239 2nd: 1228830 - 1228859 3rd: 1236300 - 1236323 4rd: 1236330 - 1236334 5th: 1236340 6th: 1236355 - 1236382
 
@@ -8,7 +8,7 @@
 	name = "Makhlad Abu Yazid" #b. Kaydad al-Nukkari, who led a large-scale rebellion against the Fatimids in 944-947; first arrested in Tozuer in 937
 	dynasty = 1062442
 	religion = ibadi #al-Nukkar branch
-	culture = butr #Born to a slave mother purchaed in Gao/Kawkaw
+	culture = zenata #Born to a slave mother purchaed in Gao/Kawkaw
 	trait="education_learning_2"
 	trait="zealous"
 	trait="ambitious"
@@ -26,7 +26,7 @@
 	name = "Ayyub"
 	dynasty = 1062442
 	religion = ibadi
-	culture = butr
+	culture = zenata
 	father = 260861
 	911.1.1 = {
 		birth = yes
@@ -41,7 +41,7 @@
 	#placeholder
 	dynasty=1000101148 #Zanara
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	828.1.1={
 		birth="828.1.1"
 	}
@@ -55,7 +55,7 @@
 	#placeholder
 	dynasty=1000101148
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1228220
 	845.1.1={
 		birth="845.1.1"
@@ -71,7 +71,7 @@
   female = yes
 	dynasty=1000101148
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1228220
 	848.1.1={
 		birth="848.1.1"
@@ -89,7 +89,7 @@
   female = yes
 	dynasty=1000101148
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1228220
 	849.1.1={
 		birth="849.1.1"
@@ -99,12 +99,12 @@
 	}
 }
 
-#al-Abdún (named afer Abd al-Malik) dynasty rulers of Dakhla and al-Wahát in Egypt
+#al-Abdūn (named afer Abd al-Malik) dynasty rulers of Dakhla and al-Wahāt in Egypt
 1228224 = {
-	name="Marwan"  #semi fictional father of Abd al-Malik ibn Marwán who lived in 941
+	name="Marwan"  #semi fictional father of Abd al-Malik ibn Marwān who lived in 941
 	dynasty=1000101143
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	850.1.1={
 		birth="850.1.1"
 	}
@@ -116,10 +116,10 @@
 	}
 }
 1228225 = {
-	name="Abd al-Malik"  #historical Abd al-Malik ibn Marwán who lived in 941
+	name="Abd al-Malik"  #historical Abd al-Malik ibn Marwān who lived in 941
 	dynasty=1000101143
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1228224
 	895.1.1={
 		birth="895.1.1"
@@ -135,7 +135,7 @@
 	name="Khalaf"  #historical ibadite revolter against Rustamids from early 9th century
 	dynasty=1000101145
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1228842
 	810.1.1={
 		birth="810.1.1"
@@ -146,12 +146,12 @@
 	}
 }
 
-#Banú Khattáb in Fezzan
+#Banū Khattāb in Fezzan
 1144666 = {
 	name="Kadidu"        #placeholder
 	dynasty=1000053594
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236334
 	1048.1.1={
 		birth="1048.1.1"
@@ -161,10 +161,10 @@
 	}
 }
 1228227 = {
-	name="al-Khattáb"  #semi-historical, possibly had spouse of Hawwara tribe, related to Mazáta tribe 
+	name="al-Khattāb"  #semi-historical, possibly had spouse of Hawwara tribe, related to Mazāta tribe 
 	dynasty=1000053594
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	850.1.1={
 		birth="850.1.1"
 	}
@@ -179,10 +179,10 @@
 	}
 }
 1228228 = {
-	name="Abd Alláh al-Hawwarí"  #historical founder of the Banu Khattáb tribe/dynasty lived in 918
+	name="Abd Allāh al-Hawwarī"  #historical founder of the Banu Khattāb tribe/dynasty lived in 918
 	dynasty=1000053594
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1228227
   mother=1228234
 	880.1.1={
@@ -192,12 +192,12 @@
 		death="940.1.1"
 	}
 }
-#Mazáta in Waddán and Syrte
+#Mazāta in Waddān and Syrte
 1228229 = {
 	name="Lant"  #placeholder
 	dynasty=1000054010
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	830.1.1={
 		birth="830.1.1"
 	}
@@ -206,10 +206,10 @@
 	}
 }
 1228230 = {
-	name="Hiyán"  #placeholder
+	name="Hiyān"  #placeholder
 	dynasty=1000054010
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1228229
 	848.1.1={
 		birth="848.1.1"
@@ -223,7 +223,7 @@
   female=yes
 	dynasty=1000054010
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1228229
 	849.1.1={
 		birth="849.1.1"
@@ -235,12 +235,12 @@
 		death="903.1.1"
 	}
 }
-#Hawwára in Tripolitania
+#Hawwāra in Tripolitania
 1228232 = {
 	name="Qurhub"
 	dynasty=1000101140
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	832.1.1={
 		birth="832.1.1"
 	}
@@ -252,7 +252,7 @@
 	name="Muhammad"  #b. Qurhub, Aghlabid governor of Tripoli in 880; tribal association fictional
 	dynasty=1000101140
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1228232
 	849.1.1={
 		birth="849.1.1"
@@ -265,11 +265,11 @@
 	}
 }
 1228234 = {
-	name="Kenwa"  #placeholder mother of Abd Alláh ibn al-Khattáb al-Hawwarí
+	name="Kenwa"  #placeholder mother of Abd Allāh ibn al-Khattāb al-Hawwarī
   female=yes
 	dynasty=1000101140
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1228232
 	850.1.1={
 		birth = yes
@@ -283,10 +283,10 @@
 }
 #al-Nafusa/Infusen in Nafusa
 1228235 = {
-	name="Kaldín"  #placeholder
+	name="Kaldīn"  #placeholder
 	dynasty=1000101193
 	religion = "sufri"
-	culture="butr"
+	culture="zenata"
 	819.1.1={
 		birth="819.1.1"
 	}
@@ -295,10 +295,10 @@
 	}
 }
 1228236 = {
-	name="Ma'áfira"  #placeholder
+	name="Ma'āfira"  #placeholder
 	dynasty=1000101193
 	religion = "sufri"
-	culture="butr"
+	culture="zenata"
 	father=1236432
 	863.1.1={
 		birth="863.1.1"
@@ -312,7 +312,7 @@
   female=yes
 	dynasty=1000101193
 	religion = "sufri"
-	culture="butr"
+	culture="zenata"
 	father=1228235
 	848.1.1={
 		birth="848.1.1"
@@ -324,12 +324,12 @@
 		death="906.1.1"
 	}
 }
-#Rígha rulers in Wádí Rígh (Mzáb)
+#Rīgha rulers in Wādī Rīgh (Mzāb)
 1228238 = {
-	name="Yabíd ibn Zaghlín"  #historical character in times of Aflah ibn Abd al-Wahháb Rustamid (823-871)
+	name="Yabīd ibn Zaghlīn"  #historical character in times of Aflah ibn Abd al-Wahhāb Rustamid (823-871)
 	dynasty=1000101149
 	religion = "sufri"
-	culture="butr"
+	culture="zenata"
 	823.1.1={
 		birth="823.1.1"
 	}
@@ -342,7 +342,7 @@
   	female=yes
 	dynasty=1000101149
 	religion = "sufri"
-	culture="butr"
+	culture="zenata"
 	father=1228238
 	846.1.1={
 		birth="846.1.1"
@@ -352,12 +352,12 @@
 	}
 }
 
-#Mus'ab rulers in (western)Mzáb
+#Mus'ab rulers in (western)Mzāb
 1228830 = {
 	name="Ash'ath"  #placeholder
 	dynasty=1000101144
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	823.1.1={
 		birth="823.1.1"
 	}
@@ -366,12 +366,12 @@
 	}
 }
 
-#Warjílání rulers in Wargla
+#Warjīlānī rulers in Wargla
 1228831 = {
-	name="Kásin"  #semi historical father of historical Ismá'íl ibn Kásin
+	name="Kāsin"  #semi historical father of historical Ismā'īl ibn Kāsin
 	dynasty=1000101260
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	846.1.1={
 		birth="846.1.1"
 	}
@@ -380,10 +380,10 @@
 	}
 }
 1228832 = {
-	name="Ismá'íl"  #historical ibádí ra'ís of Wargla
+	name="Ismā'īl"  #historical ibādī ra'īs of Wargla
 	dynasty=1000101260
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1228831
 	862.1.1={
 		birth="862.1.1"
@@ -393,12 +393,12 @@
 	}
 }
 
-#Tanáta rulers in Ghadámes
+#Tanāta rulers in Ghadāmes
 1228833 = {
 	name="Masnsen"  #placeholder
 	dynasty=1000101142
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	840.1.1={
 		birth="840.1.1"
 	}
@@ -406,12 +406,12 @@
 		death="890.1.1"
 	}
 }
-#Banú Midrar rulers in Sijilmasa
+#Banū Midrar rulers in Sijilmasa
 1228834 = {
 	name="Abu-Muntasir al-Yasa'"
 	dynasty=1000101265
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236322
 	765.1.1={
 		birth="765.1.1"
@@ -424,7 +424,7 @@
 	name="Midrar"
 	dynasty=1000101265
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1228834
 	800.1.1={
 		birth="800.1.1"
@@ -434,7 +434,7 @@
 	}
 }
 1228836 = {
-	name="Arwa" #AKA al-Rustamíya, daughter of Abd al-Rahman b. Rustam
+	name="Arwa" #AKA al-Rustamīya, daughter of Abd al-Rahman b. Rustam
 	female=yes
 	dynasty=808
 	religion="ibadi"
@@ -451,11 +451,11 @@
 	}
 }
 1228837 = {
-	name="Thakíya" #AKA Baqia
+	name="Thakīya" #AKA Baqia
 	female=yes
 	#dynasty=1000101265 #?
 	religion="ibadi" #?
-	culture="butr" #?
+	culture="zenata" #?
 	805.1.1={
 		birth="805.1.1"
 	}
@@ -467,10 +467,10 @@
 	}
 }
 1228838 = {
-	name="Maymún"  #ibn al-Rustamíya
+	name="Maymūn"  #ibn al-Rustamīya
 	dynasty=1000101265
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1228835
 	mother=1228836
 	826.1.1={
@@ -481,10 +481,10 @@
 	}
 }
 1228839 = {
-	name="Maymún"  #ibn Thakíya al-Amír
+	name="Maymūn"  #ibn Thakīya al-Amīr
 	dynasty=1000101265
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1228835
 	mother=1228837
 	833.1.1={
@@ -495,10 +495,10 @@
 	}
 }
 1228840 = {
-	name="Muhammad"  #ibn Maymún
+	name="Muhammad"  #ibn Maymūn
 	dynasty=1000101265
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1228839
 	853.1.1={
 		birth="853.1.1"
@@ -511,7 +511,7 @@
 	name="al-Yasa'"
 	dynasty=1000101265
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1228839
 	857.1.1={
 		birth="847.1.1"
@@ -527,7 +527,7 @@
 	name="As-Samh"
 	dynasty=1000101145
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	790.1.1={
 		birth = yes
 	}
@@ -536,10 +536,10 @@
 	}
 }
 1228843 = {
-	name="Thakîya"
+	name="Thakīya"
 	dynasty=1000101267
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236340
 	1028.1.1={
 		birth = yes
@@ -552,7 +552,7 @@
 	name="Yasa"
 	dynasty=1000101267
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1228843
 	1053.1.1={
 		birth = yes
@@ -565,27 +565,20 @@
 	name="Magsen"  #placeholder
 	dynasty=1000054010
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1228230
 	881.1.1={
 		birth=yes
-		effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1228845
-		SUZERAIN = character:32901
-		}
-	}
 	}
 	949.1.1={
 		death=yes
 	}
 }
 1228846 = {
-	name="Abd Alláh"  #placeholder
+	name="Abd Allāh"  #placeholder
 	dynasty=1000054010
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1228845
 	916.1.1={
 		birth=yes
@@ -595,10 +588,10 @@
 	}
 }
 1228847 = {
-	name="Abd Alláh"  #placeholder
+	name="Abd Allāh"  #placeholder
 	dynasty=1000054010
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1228846
 	948.1.1={
 		birth=yes
@@ -608,22 +601,13 @@
 	}
 }
 1228848 = {
-	name="Kásin"  #placeholder
+	name="Kāsin"  #placeholder
 	dynasty=1000054010
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1228847
 	985.1.1={
 		birth=yes
-	}
-	1017.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1228848
-		SUZERAIN = character:3092
-			}
-		}
 	}
 	1053.1.1={
 		death=yes
@@ -633,7 +617,7 @@
 	name="Abazza"  #placeholder
 	dynasty=1000054010
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1228848
 	1009.1.1={
 		birth=yes
@@ -646,7 +630,7 @@
 	name="Abu-Yahya"  #al-Irjani, elected imam after the fall of the Rustamids
 	dynasty=1000101193
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1228236
 	882.1.1={ #?
 		birth=yes
@@ -659,7 +643,7 @@
 	name="Abu-Zakariyya"
 	dynasty=1000101193
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1228850
 	908.1.1={
 		birth=yes
@@ -672,7 +656,7 @@
 	name="Gulusa"  #placeholder
 	dynasty=1000101193
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1228851
 	950.1.1={
 		birth=yes
@@ -685,7 +669,7 @@
 	name="H'emmu"  #placeholder
 	dynasty=1000101193
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1228852
 	989.1.1={
 		birth=yes
@@ -698,7 +682,7 @@
 	name="Ambay"  #placeholder
 	dynasty=1000101140
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1228233
 	880.1.1={
 		birth=yes
@@ -708,10 +692,10 @@
 	}
 }
 1228855 = {
-	name="Abd Alláh"  #placeholder
+	name="Abd Allāh"  #placeholder
 	dynasty=1000101140
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1228854
 	913.1.1={
 		birth=yes
@@ -724,7 +708,7 @@
 	name="Muhammad"  #placeholder
 	dynasty=1000101140
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1228855
 	949.1.1={
 		birth=yes
@@ -734,10 +718,10 @@
 	}
 }
 1228857 = {
-	name="Zalghín"  #placeholder
+	name="Zalghīn"  #placeholder
 	dynasty=1000101140
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1228856
 	975.1.1={
 		birth=yes
@@ -751,17 +735,10 @@
 	#placeholder
 	dynasty=1000101148
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1228221
 	875.1.1={
 		birth=yes
-		effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1228858
-		SUZERAIN = character:32901
-		}
-	}
 	}
 	
 	948.1.1={
@@ -773,7 +750,7 @@
 	#placeholder
 	dynasty=1000101148
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1228858
 	911.1.1={
 		birth=yes
@@ -784,23 +761,14 @@
 	}
 }
 1236300 = {
-	name="Abd Alláh"
+	name="Abd Allāh"
 	#placeholder
 	dynasty=1000101148
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1228859
 	944.1.1={
 		birth=yes
-	}
-	992.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236300
-		SUZERAIN = character:3090
-			}
-		}
 	}
 	1003.1.1={
 		death=yes
@@ -811,19 +779,10 @@
 	#placeholder
 	dynasty=1000101148
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236300
 	977.1.1={
 		birth=yes
-	}
-	1017.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236301
-		SUZERAIN = character:3092
-			}
-		}
 	}
 	1035.1.1={
 		death=yes
@@ -834,19 +793,10 @@
 	#placeholder
 	dynasty=1000101148
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236300
 	1012.1.1={
 		birth=yes
-	}
-	1066.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236302
-		SUZERAIN = character:3096
-			}
-		}
 	}
 	1077.1.1={
 		death=yes
@@ -856,7 +806,7 @@
 	name="Muhammad" 
 	dynasty=1000101143
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1228225
 	927.1.1={
 		birth=yes
@@ -867,10 +817,10 @@
 	}
 }
 1236304 = {
-	name="Abd Alláh"  
+	name="Abd Allāh"  
 	dynasty=1000101143
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236303
 	960.1.1={
 		birth=yes
@@ -884,7 +834,7 @@
 	name="Umar"  
 	dynasty=1000101143
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236304
 	996.1.1={
 		birth=yes
@@ -898,7 +848,7 @@
 	name="Muhammad"  
 	dynasty=1000101143
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236305
 	1031.1.1={
 		birth=yes
@@ -912,7 +862,7 @@
 	name="Khazar" 
 	dynasty=1027001
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236438
 	856.1.1={
 		birth=yes
@@ -926,7 +876,7 @@
 	name="Khazrun" 
 	dynasty=1027001
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236307
 	904.1.1={
 		birth=yes
@@ -940,17 +890,10 @@
 	name="Wanudin" 
 	dynasty=1027001
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236308
 	940.1.1={
 		birth=yes
-		effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236309
-		SUZERAIN = character:3204
-		}
-	}
 	}
 	
 	1020.1.1={
@@ -961,7 +904,7 @@
 	name="Yasal" 
 	dynasty=1027001
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236307
 	906.1.1={
 		birth=yes
@@ -975,7 +918,7 @@
 	name="Hamid" 
 	dynasty=1027001
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236310
 	946.1.1={
 		birth=yes
@@ -989,7 +932,7 @@
 	name="Masud" 
 	dynasty=1027001
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236309
 	982.1.1={
 		birth=yes
@@ -1006,7 +949,7 @@
 	name="Ali" 
 	dynasty=1027001
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=155120
 	960.1.1={
 		birth=yes
@@ -1020,7 +963,7 @@
 	name="Yusuf" 
 	dynasty=1027001
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236313
 	986.1.1={
 		birth=yes
@@ -1034,7 +977,7 @@
 	name="Lakut" 
 	dynasty=1027001
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236314
 	1010.1.1={
 		birth=yes
@@ -1048,7 +991,7 @@
 	name="Ya'la" #b. Muhammad
 	dynasty=1000101266 #Banu Ifran
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236474
 	900.1.1={
 		birth=yes
@@ -1065,7 +1008,7 @@
 	name="Yaddu" 
 	dynasty=1000101266
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236316
 	930.1.1={
 		birth=yes
@@ -1079,7 +1022,7 @@
 	name="Ziri" 
 	dynasty=1000101266
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236316
 	934.1.1={
 		birth=yes
@@ -1093,7 +1036,7 @@
 	name="Habus" 
 	dynasty=1000101266
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236318
 	960.1.1={
 		birth=yes
@@ -1110,7 +1053,7 @@
 	name="Hammad" 
 	dynasty=1000101266
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236318
 	964.1.1={
 		birth=yes
@@ -1124,7 +1067,7 @@
 	name="Tamim" 
 	dynasty=1000101266
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236318
 	974.1.1={
 		birth=yes
@@ -1138,7 +1081,7 @@
 	name="Samghu Abu al-Qasim" #b. Wasul
 	dynasty=1000101265
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	710.1.1={
 		birth=yes
 	}
@@ -1150,7 +1093,7 @@
 	name="Hammad"  #?
 	dynasty=1000101266
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236321
 	1003.1.1={
 		birth=yes
@@ -1164,7 +1107,7 @@
 	name="Kassa" #placeholder
 	dynasty=1000053594
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1228228
 	908.1.1={
 		birth=yes
@@ -1178,7 +1121,7 @@
 	name="Hammad" #placeholder
 	dynasty=1000053594
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236330
 	938.1.1={
 		birth=yes
@@ -1192,7 +1135,7 @@
 	name="Itri" #placeholder
 	dynasty=1000053594
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236331
 	963.1.1={
 		birth=yes
@@ -1206,7 +1149,7 @@
 	name="Awzal" #placeholder
 	dynasty=1000053594
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236332
 	999.1.1={
 		birth=yes
@@ -1220,7 +1163,7 @@
 	name="Muhammad" #placeholder
 	dynasty=1000053594
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236333
 	1022.1.1={
 		birth=yes
@@ -1234,7 +1177,7 @@
 	name="I_s_a"
 	dynasty=1000101267
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236431
 	1000.1.1={
 		birth = yes
@@ -1244,10 +1187,10 @@
 	}
 }
 1236355 = {
-	name="Abd Alláh"  #placeholder
+	name="Abd Allāh"  #placeholder
 	dynasty=1000101140
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1228857
 	1001.1.1={
 		birth=yes
@@ -1260,7 +1203,7 @@
 	name="I_s_a"  #placeholder
 	dynasty=1000101140
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236355
 	1033.1.1={
 		birth=yes
@@ -1273,7 +1216,7 @@
 	name="Muhammad"  #placeholder
 	dynasty=1000101140
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236356
 	1067.1.1={
 		birth=yes
@@ -1286,7 +1229,7 @@
 	name="Umar"  #placeholder
 	dynasty=1000101140
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236357
 	1102.1.1={
 		birth=yes
@@ -1299,7 +1242,7 @@
 	name="I_s_a"  #placeholder
 	dynasty=1000101140
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236358
 	1136.1.1={
 		birth=yes
@@ -1313,7 +1256,7 @@
 	name="Umar"  #placeholder
 	dynasty=1000101140
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236359
 	1180.1.1={
 		birth=yes
@@ -1327,7 +1270,7 @@
 	name="I_s_a"  #placeholder
 	dynasty=1000101140
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=12363599
 	1240.1.1={
 		birth=yes
@@ -1341,7 +1284,7 @@
 	name="Muhammad"  #placeholder
 	dynasty=1000101140
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=12363600
 	1270.1.1={
 		birth=yes
@@ -1352,12 +1295,12 @@
 }
 
 
-#Mus'ab rulers in (western)Mzáb
+#Mus'ab rulers in (western)Mzāb
 1236360 = {
 	name="Sa'id"  #placeholder
 	dynasty=1000101144
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1228830
 	854.1.1={
 		birth=yes
@@ -1366,12 +1309,12 @@
 		death=yes
 	}
 }
-#Mus'ab rulers in (western)Mzáb
+#Mus'ab rulers in (western)Mzāb
 1236361 = {
 	name="Ash'ath"  #placeholder
 	dynasty=1000101144
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236360
 	889.1.1={
 		birth=yes
@@ -1380,12 +1323,12 @@
 		death=yes
 	}
 }
-#Mus'ab rulers in (western)Mzáb
+#Mus'ab rulers in (western)Mzāb
 1236362 = {
 	name="I_s_a"  #placeholder
 	dynasty=1000101144
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236361
 	931.1.1={
 		birth=yes
@@ -1394,12 +1337,12 @@
 		death=yes
 	}
 }
-#Mus'ab rulers in (western)Mzáb
+#Mus'ab rulers in (western)Mzāb
 1236363 = {
-	name="Kásin"  #placeholder
+	name="Kāsin"  #placeholder
 	dynasty=1000101144
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236362
 	968.1.1={
 		birth=yes
@@ -1408,12 +1351,12 @@
 		death=yes
 	}
 }
-#Mus'ab rulers in (western)Mzáb
+#Mus'ab rulers in (western)Mzāb
 1236364 = {
 	name="Ash'ath"  #placeholder
 	dynasty=1000101144
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236363
 	1002.1.1={
 		birth=yes
@@ -1422,12 +1365,12 @@
 		death=yes
 	}
 }
-#Mus'ab rulers in (western)Mzáb
+#Mus'ab rulers in (western)Mzāb
 1236365 = {
-	name="Kásin"  #placeholder
+	name="Kāsin"  #placeholder
 	dynasty=1000101144
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236364
 	1035.1.1={
 		birth=yes
@@ -1436,12 +1379,12 @@
 		death=yes
 	}
 }
-#Mus'ab rulers in (western)Mzáb
+#Mus'ab rulers in (western)Mzāb
 1236366 = {
 	name="Sa'id"  #placeholder
 	dynasty=1000101144
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236365
 	1066.1.1={
 		birth=yes
@@ -1450,12 +1393,12 @@
 		death=yes
 	}
 }
-#Mus'ab rulers in (western)Mzáb
+#Mus'ab rulers in (western)Mzāb
 1236367 = {
 	name="I_s_a"  #placeholder
 	dynasty=1000101144
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236366
 	1099.1.1={
 		birth=yes
@@ -1464,12 +1407,12 @@
 		death=yes
 	}
 }
-#Rígha rulers in Wádí Rígh (Mzáb)
+#Rīgha rulers in Wādī Rīgh (Mzāb)
 1236368 = {
-	name="Zaghlín"
+	name="Zaghlīn"
 	dynasty=1000101149
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1228238
 	859.1.1={
 		birth=yes
@@ -1478,12 +1421,12 @@
 		death=yes
 	}
 }
-#Rígha rulers in Wádí Rígh (Mzáb)
+#Rīgha rulers in Wādī Rīgh (Mzāb)
 1236369 = {
-	name="Ismá'íl"
+	name="Ismā'īl"
 	dynasty=1000101149
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236368
 	891.1.1={
 		birth=yes
@@ -1492,12 +1435,12 @@
 		death=yes
 	}
 }
-#Rígha rulers in Wádí Rígh (Mzáb)
+#Rīgha rulers in Wādī Rīgh (Mzāb)
 1236370 = {
-	name="Yabíd"
+	name="Yabīd"
 	dynasty=1000101149
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236369
 	925.1.1={
 		birth=yes
@@ -1506,12 +1449,12 @@
 		death=yes
 	}
 }
-#Rígha rulers in Wádí Rígh (Mzáb)
+#Rīgha rulers in Wādī Rīgh (Mzāb)
 1236371 = {
-	name="Abd Alláh"
+	name="Abd Allāh"
 	dynasty=1000101149
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236370
 	957.1.1={
 		birth=yes
@@ -1520,12 +1463,12 @@
 		death=yes
 	}
 }
-#Rígha rulers in Wádí Rígh (Mzáb)
+#Rīgha rulers in Wādī Rīgh (Mzāb)
 1236372 = {
-	name="Zaghlín"
+	name="Zaghlīn"
 	dynasty=1000101149
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236371
 	990.1.1={
 		birth=yes
@@ -1534,12 +1477,12 @@
 		death=yes
 	}
 }
-#Rígha rulers in Wádí Rígh (Mzáb)
+#Rīgha rulers in Wādī Rīgh (Mzāb)
 1236373 = {
-	name="Ismá'íl"
+	name="Ismā'īl"
 	dynasty=1000101149
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236372
 	1023.1.1={
 		birth=yes
@@ -1548,12 +1491,12 @@
 		death=yes
 	}
 }
-#Rígha rulers in Wádí Rígh (Mzáb)
+#Rīgha rulers in Wādī Rīgh (Mzāb)
 1236374 = {
-	name="Kásin"
+	name="Kāsin"
 	dynasty=1000101149
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236373
 	1056.1.1={
 		birth=yes
@@ -1562,12 +1505,12 @@
 		death=yes
 	}
 }
-#Rígha rulers in Wádí Rígh (Mzáb)
+#Rīgha rulers in Wādī Rīgh (Mzāb)
 1236375 = {
-	name="Yabíd"
+	name="Yabīd"
 	dynasty=1000101149
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236374
 	1091.1.1={
 		birth=yes
@@ -1576,12 +1519,12 @@
 		death=yes
 	}
 }
-#Mus'ab rulers in (western)Mzáb
+#Mus'ab rulers in (western)Mzāb
 1236376 = {
-	name="Ismá'íl"  #placeholder
+	name="Ismā'īl"  #placeholder
 	dynasty=1000101144
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236367
 	1125.1.1={
 		birth=yes
@@ -1592,10 +1535,10 @@
 }
 
 12363766 = {
-	name="Kásin"  #placeholder
+	name="Kāsin"  #placeholder
 	dynasty=1000101144
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236376
 	1180.1.1={
 		birth=yes
@@ -1609,7 +1552,7 @@
 	name="Muhammad"  #placeholder
 	dynasty=1000101144
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=12363766
 	1240.1.1={
 		birth=yes
@@ -1620,10 +1563,10 @@
 }
 
 12363768 = {
-	name="Yabíd"  #placeholder
+	name="Yabīd"  #placeholder
 	dynasty=1000101144
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=12363767
 	1290.1.1={
 		birth=yes
@@ -1633,12 +1576,12 @@
 	}
 }
 
-#Rígha rulers in Wádí Rígh (Mzáb)
+#Rīgha rulers in Wādī Rīgh (Mzāb)
 1236377 = {
-	name="Yabíd"
+	name="Yabīd"
 	dynasty=1000101149
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236375
 	1124.1.1={
 		birth=yes
@@ -1652,7 +1595,7 @@
 	name="al-Khayr"
 	dynasty=1000101149
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236377
 	1180.1.1={
 		birth=yes
@@ -1666,7 +1609,7 @@
 	name="Yusuf"
 	dynasty=1000101149
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=12363777
 	1230.1.1={
 		birth=yes
@@ -1677,10 +1620,10 @@
 }
 
 12363779 = {
-	name="Abd Alláh"
+	name="Abd Allāh"
 	dynasty=1000101149
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=12363778
 	1290.1.1={
 		birth=yes
@@ -1690,12 +1633,12 @@
 	}
 }
 
-#Rígha rulers in Wádí Rígh (Mzáb)
+#Rīgha rulers in Wādī Rīgh (Mzāb)
 1236378 = {
-	name="Abd Alláh"
+	name="Abd Allāh"
 	dynasty=1000101149
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236372
 	1026.1.1={
 		birth=yes
@@ -1708,18 +1651,11 @@
 	name="Muhammad" #b. Khazar, Maghrawa emir by 922-ca. 955 
 	dynasty=1027001
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236307
 	trait="strong" #lived a long life + active military career
 	881.1.1={
 		birth=yes
-		effect = {
-		make_tributary = {
-		TYPE = tributary_non_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236379
-		SUZERAIN = character:3200
-		}
-	}
 	}
 	955.1.1={
 		religion="ismaili"
@@ -1732,7 +1668,7 @@
 	name="al-Khayr" 
 	dynasty=1027001
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236379
 	904.1.1={
 		birth=yes
@@ -1746,7 +1682,7 @@
 	name="Muhammad" 
 	dynasty=1027001
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236380
 	924.1.1={
 		birth=yes
@@ -1762,7 +1698,7 @@
 	name="Ya'la" 
 	dynasty=1027001
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236381
 	971.1.1={
 		birth=yes
@@ -1775,7 +1711,7 @@
 	name="Yusuf"  
 	dynasty=1000101143
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236306
 	1060.1.1={
 		birth=yes
@@ -1789,7 +1725,7 @@
 	name="Ibrahim"  
 	dynasty=1000101143
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236405
 	1087.1.1={
 		birth=yes
@@ -1800,10 +1736,10 @@
 	}
 }
 1236407 = {
-	name="Abd Alláh"        #placeholder
+	name="Abd Allāh"        #placeholder
 	dynasty=1000053594
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1144666
 	1075.1.1={
 		birth="1075.1.1"
@@ -1816,7 +1752,7 @@
 	name="Masud"        #placeholder
 	dynasty=1000053594
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236407
 	1101.1.1={
 		birth="1101.1.1"
@@ -1829,7 +1765,7 @@
 	name="Ziri"        #placeholder
 	dynasty=1000053594
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236408
 	1127.1.1={
 		birth="1127.1.1"
@@ -1839,10 +1775,10 @@
 	}
 }
 1236410 = {
-	name="Abd Alláh"        #placeholder
+	name="Abd Allāh"        #placeholder
 	dynasty=1000101269
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	825.1.1={
 		birth="825.1.1"
 	}
@@ -1854,7 +1790,7 @@
 	name="Isli"        #placeholder
 	dynasty=1000101269
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236410
 	851.1.1={
 		birth="851.1.1"
@@ -1867,7 +1803,7 @@
 	name="Awzal"        #placeholder
 	dynasty=1000101269
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236411
 	873.1.1={
 		birth="873.1.1"
@@ -1880,17 +1816,10 @@
 	name="Yasal"        #placeholder
 	dynasty=1000101269
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236412
 	899.1.1={
 		birth="899.1.1"
-		effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236413
-		SUZERAIN = character:32901
-		}
-	}
 	}
 	956.1.1={
 		death="956.1.1"
@@ -1900,7 +1829,7 @@
 	name="Masud"        #placeholder
 	dynasty=1000101269
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236413
 	921.1.1={
 		birth="921.1.1"
@@ -1913,19 +1842,10 @@
 	name="Ja'far"        #placeholder
 	dynasty=1000101269
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236414
 	945.1.1={
 		birth="945.1.1"
-	}
-	992.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:3090
-		SUZERAIN = character:1236415
-			}
-		}
 	}
 	1005.1.1={
 		death="1005.1.1"
@@ -1935,19 +1855,10 @@
 	name="Umar"        #placeholder
 	dynasty=1000101269
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236415
 	978.1.1={
 		birth="978.1.1"
-	}
-	1017.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236416
-		SUZERAIN = character:3092
-			}
-		}
 	}
 	1026.1.1={
 		death="1026.1.1"
@@ -1957,7 +1868,7 @@
 	name="Habus"        #placeholder
 	dynasty=1000101269
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236416
 	1003.1.1={
 		birth="1003.1.1"
@@ -1970,28 +1881,10 @@
 	name="I_s_a"        #placeholder
 	dynasty=1000101269
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236417
 	1031.1.1={
 		birth="1031.1.1"
-	}
-	1066.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236418
-		SUZERAIN = character:3096
-			}
-		}
-	}
-	1081.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236418
-		SUZERAIN = character:3096
-			}
-		}
 	}
 	1087.1.1={
 		death="1087.1.1"
@@ -2001,19 +1894,10 @@
 	name="Keraja"        #placeholder
 	dynasty=1000101269
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236418
 	1061.1.1={
 		birth="1061.1.1"
-	}
-	1099.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236419
-		SUZERAIN = character:3100
-			}
-		}
 	}
 	1124.1.1={
 		death="1124.1.1"
@@ -2023,19 +1907,10 @@
 	name="Yaddu"        #placeholder
 	dynasty=1000101269
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236419
 	1085.1.1={
 		birth="1085.1.1"
-	}
-	1124.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236420
-		SUZERAIN = character:32905
-			}
-		}
 	}
 	1137.1.1={
 		death="1137.1.1"
@@ -2045,20 +1920,11 @@
 	name="Muhammad"        #placeholder
 	dynasty=1000101269
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236420
 	1104.1.1={
 		birth="1104.1.1"
 	}
-	1144.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236421
-		SUZERAIN = character:32907
-			}
-		}
-	}	
 	1158.1.1={
 		death="1158.1.1"
 	}
@@ -2067,37 +1933,10 @@
 	name="Masud"        #placeholder
 	dynasty=1000101269
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236421
 	1132.1.1={
 		birth="1132.1.1"
-	}
-	1166.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236422
-		SUZERAIN = character:32910
-			}
-		}
-	}
-	1187.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236422
-		SUZERAIN = character:226000
-			}
-		}
-	}
-	1194.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236422
-		SUZERAIN = character:226050
-			}
-		}
 	}
 	1201.1.1={
 		death="1201.1.1"
@@ -2107,19 +1946,10 @@
 	name="Hammad"        #placeholder
 	dynasty=1000101269
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236422
 	1158.1.1={
 		birth="1158.1.1"
-	}
-	1204.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236423
-		SUZERAIN = character:226052
-			}
-		}
 	}
 	1220.1.1={
 		death="1220.1.1"
@@ -2129,19 +1959,10 @@
 	name="Yasa"        #placeholder
 	dynasty=1000101269
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236423
 	1181.1.1={
 		birth="1181.1.1"
-	}
-	1220.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236424
-		SUZERAIN = character:32924
-			}
-		}
 	}
 	1237.1.1={
 		death="1237.1.1"
@@ -2151,7 +1972,7 @@ Masila1 = {
 	name="Yasa"        #placeholder
 	dynasty=1000101269
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236424
 	1226.1.1={
 		birth="1226.1.1"
@@ -2164,7 +1985,7 @@ Masila1 = {
 	name="Itri"  
 	dynasty=1000101143
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236406
 	1111.1.1={
 		birth=yes
@@ -2175,10 +1996,10 @@ Masila1 = {
 	}
 }
 1236426 = {
-	name="Zalghín"  
+	name="Zalghīn"  
 	dynasty=1000101143
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236425
 	1132.1.1={
 		birth=yes
@@ -2192,7 +2013,7 @@ Masila1 = {
 	name="Umar"  
 	dynasty=1000101143
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236426
 	1157.1.1={
 		birth=yes
@@ -2206,7 +2027,7 @@ Masila1 = {
 	name="Ibrahim"  
 	dynasty=1000101143
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236427
 	1183.1.1={
 		birth=yes
@@ -2217,10 +2038,10 @@ Masila1 = {
 	}
 }
 12364288 = {
-	name="Zalghín"  
+	name="Zalghīn"  
 	dynasty=1000101143
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236428
 	1205.1.1={
 		birth=yes
@@ -2231,10 +2052,10 @@ Masila1 = {
 	}
 }
 1236429 = {
-	name="Abd Alláh"
+	name="Abd Allāh"
 	dynasty=1000101267
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	900.1.1={
 		birth = yes
 	}
@@ -2246,7 +2067,7 @@ Masila1 = {
 	name="Ibrahim"
 	dynasty=1000101267
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236429
 	955.1.1={
 		birth = yes
@@ -2259,7 +2080,7 @@ Masila1 = {
 	name="Ya'la"
 	dynasty=1000101267
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236430
 	979.1.1={
 		birth = yes
@@ -2269,10 +2090,10 @@ Masila1 = {
 	}
 }
 1236432 = {
-	name="Abú-Mansúr Ilyás" #al-Nafusi, Ibadi governor of Jabal Nafusa and Tripolitania ca. 880-895?
+	name="Abū-Mansūr Ilyās" #al-Nafusi, Ibadi governor of Jabal Nafusa and Tripolitania ca. 880-895?
 	dynasty=1000101193
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1228235
 	845.1.1={
 		birth = yes
@@ -2285,7 +2106,7 @@ Masila1 = {
 	name="Ya'la" #b. Futuh al-Azdaji, Orania and later Nakur (ca. 1020-)
 	dynasty=1000101196
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	984.1.1 = { #?
 		birth="984.1.1"
 	}
@@ -2297,7 +2118,7 @@ Masila1 = {
 	name="al-Qadir" #fictional
 	dynasty=1000101196
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236433
 	1006.1.1 = {
 		birth="1006.1.1"
@@ -2310,7 +2131,7 @@ Masila1 = {
 	name="Tamim" #fictional
 	dynasty=1000101196
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236434
 	1031.1.1 = {
 		birth="1031.1.1"
@@ -2323,7 +2144,7 @@ Masila1 = {
 	name="Abu-Mansur" #fictional
 	dynasty=1000101196
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236435
 	1060.1.1 = {
 		birth="1060.1.1"
@@ -2336,7 +2157,7 @@ Masila1 = {
 	name="'Abd Allah" #fictional
 	dynasty_house = house_hammudid # House Hammudid
 	religion="zayidi"
-	culture="butr"
+	culture="zenata"
 	
 	father=159493
 	915.1.1 = {
@@ -2350,7 +2171,7 @@ Masila1 = {
 	name="Hafs" #name fictional
 	dynasty=1027001
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	830.1.1={
 		birth=yes
 	}
@@ -2362,7 +2183,7 @@ Masila1 = {
 	name="Thabit"
 	dynasty=7277
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=155108 #fictional relation
 	1163.1.1={
 		birth=yes
@@ -2376,7 +2197,7 @@ Masila1 = {
 	female=yes
 	dynasty=1000101268
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=155099
 	1275.1.1 = {
 		birth="1275.1.1"
@@ -2389,12 +2210,12 @@ Masila1 = {
 	}
 }
 
-#butr Maqqarí merchant family in the mid-13th century
+#zenata Maqqarī merchant family in the mid-13th century
 1236441 = {
 	name="Muhammad" #Lived in Tahert
 	dynasty=1000054007
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	1216.8.5={
 		birth="1216.8.5"
 	}
@@ -2403,10 +2224,10 @@ Masila1 = {
 	}
 }
 1236442 = {
-	name="'Abd al-Rahmán" #Sijilmasa
+	name="'Abd al-Rahmān" #Sijilmasa
 	dynasty=1000054007
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236441
 	1236.8.5={
 		birth="1236.8.5"
@@ -2417,10 +2238,10 @@ Masila1 = {
 	}
 }
 1236443 = {
-	name="Abú-Bakr" #Tlemcen
+	name="Abū-Bakr" #Tlemcen
 	dynasty=1000054007
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236441
 	1238.8.5={
 		birth="1238.8.5"
@@ -2434,7 +2255,7 @@ Masila1 = {
 	name="Muhammad" #Tahert
 	dynasty=1000054007
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236441
 	1240.8.5={
 		birth="1240.8.5"
@@ -2444,10 +2265,10 @@ Masila1 = {
 	}
 }
 1236445 = {
-	name="'Abd al-Wahíd" #Walata
+	name="'Abd al-Wahīd" #Walata
 	dynasty=1000054007
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236441
 	1242.8.5={
 		birth="1242.8.5"
@@ -2458,10 +2279,10 @@ Masila1 = {
 	}
 }
 1236446 = {
-	name="'Alí" #Tirakka
+	name="'Alī" #Tirakka
 	dynasty=1000054007
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236441
 	1244.8.5={
 		birth="1244.8.5"
@@ -2471,10 +2292,10 @@ Masila1 = {
 	}
 }
 1236447 = {
-	name="Taninna" #wife of Abú Bakr Muqqarí
+	name="Taninna" #wife of Abū Bakr Muqqarī
 	female=yes
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	1243.8.5={
 		birth = yes
 	}
@@ -2484,10 +2305,10 @@ Masila1 = {
 	}
 }
 1236448 = {
-	name="Kahina" #wife of Abd al-Wahíd Muqqarí
+	name="Kahina" #wife of Abd al-Wahīd Muqqarī
 	female=yes
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	1246.8.5={
 		birth="1246.8.5"
 	}
@@ -2499,10 +2320,10 @@ Masila1 = {
 	}
 }
 1236449 = {
-	name="Taljat" #wife of Abd ar-Rahmán Muqqarí
+	name="Taljat" #wife of Abd ar-Rahmān Muqqarī
 	female=yes
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	1240.8.5={
 		birth="1240.8.5"
 	}
@@ -2517,7 +2338,7 @@ Masila1 = {
 	name="Amir" #Consulting Brills first Encyclopedia of Islam, the later Dhundevotedids are actually given a Nasab (ancestry)
 	dynasty = 570
 	religion="muwalladi"
-	culture="butr"
+	culture="zenata"
 	father=1236476
 	925.1.1={
 		birth=yes
@@ -2531,7 +2352,7 @@ Masila1 = {
 	name="Muhammad" # b. Idris b. Ali b. Hammud
 	dynasty_house = house_hammudid # House Hammudid
 	religion="zayidi"
-	culture="butr"
+	culture="zenata"
 	
 	father=159497
 	1011.1.1={ #?
@@ -2546,7 +2367,7 @@ Masila1 = {
 	name="Qurra" #b. Salih
 	dynasty=1000101266 #Banu Ifran
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236477
 	884.1.1={ #?
 		birth=yes
@@ -2560,7 +2381,7 @@ Masila1 = {
 	name="Dunas" 
 	dynasty=1000101266
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236316
 	935.1.1={ #?
 		birth=yes
@@ -2574,7 +2395,7 @@ Masila1 = {
 	name="Abu-Yaddas" 
 	dynasty=1000101266
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236453
 	965.1.1={ #?
 		birth=yes
@@ -2590,7 +2411,7 @@ Masila1 = {
 	name="Abu-Qurra" 
 	dynasty=1000101266
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236453
 	970.1.1={ #?
 		birth=yes
@@ -2604,7 +2425,7 @@ Masila1 = {
 	name="Isma'il" #Placeholder leader of the Lawata army in the Fatimid caliphate
 	dynasty = 1000054009
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	1030.1.1={
 		birth=yes
 	}
@@ -2617,19 +2438,10 @@ Masila1 = {
 	#placeholder
 	dynasty=1000101148
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236302
 	1038.1.1={
 		birth=yes
-	}
-	1081.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236457
-		SUZERAIN = character:3096
-			}
-		}
 	}
 	1094.1.1={
 		death=yes
@@ -2640,19 +2452,10 @@ Masila1 = {
 	#placeholder
 	dynasty=1000101148
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236457
 	1057.1.1={
 		birth=yes
-	}
-	1099.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236458
-		SUZERAIN = character:3100
-			}
-		}
 	}
 	1115.1.1={
 		death=yes
@@ -2663,19 +2466,10 @@ Masila1 = {
 	#placeholder
 	dynasty=1000101148
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236458
 	1082.1.1={
 		birth=yes
-	}
-	1124.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236459
-		SUZERAIN = character:32905
-			}
-		}
 	}
 	1143.1.1={
 		death=yes
@@ -2686,19 +2480,10 @@ Masila1 = {
 	#placeholder
 	dynasty=1000101148
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236459
 	1106.1.1={
 		birth=yes
-	}
-	1144.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236460
-		SUZERAIN = character:32907
-			}
-		}
 	}	
 	1158.1.1={
 		death=yes
@@ -2709,37 +2494,10 @@ Masila1 = {
 	#placeholder
 	dynasty=1000101148
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236460
 	1138.1.1={
 		birth=yes
-	}
-	1166.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236461
-		SUZERAIN = character:32910
-			}
-		}
-	}
-	1187.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236461
-		SUZERAIN = character:226000
-			}
-		}
-	}
-	1194.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236461
-		SUZERAIN = character:226050
-			}
-		}
 	}
 	1204.1.1={
 		death=yes
@@ -2750,28 +2508,10 @@ Masila1 = {
 	#placeholder
 	dynasty=1000101148
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236461
 	1168.1.1={
 		birth=yes
-	}
-	1204.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236462
-		SUZERAIN = character:226052
-			}
-		}
-	}
-	1220.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236462
-		SUZERAIN = character:32924
-			}
-		}
 	}
 	1234.1.1={
 		death=yes
@@ -2782,28 +2522,10 @@ Masila1 = {
 	#placeholder
 	dynasty=1000101148
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236462
 	1200.1.1={
 		birth=yes
-	}
-	1220.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236424
-		SUZERAIN = character:32924
-			}
-		}
-	}
-	1241.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236463
-		SUZERAIN = character:32925
-			}
-		}
 	}
 	1250.1.1={
 		death=yes
@@ -2813,7 +2535,7 @@ Masila1 = {
 	name = "Fadl"
 	dynasty = 1062442
 	religion = ibadi
-	culture = butr
+	culture = zenata
 	father = 260861
 	905.1.1 = {
 		birth = yes
@@ -2826,7 +2548,7 @@ Masila1 = {
 	name="al-Yasa'"
 	dynasty=1000101265
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236322
 	755.1.1={
 		birth=yes
@@ -2836,10 +2558,10 @@ Masila1 = {
 	}
 }
 1236466 = {
-	name="al-Fath"  #ibn Maymún
+	name="al-Fath"  #ibn Maymūn
 	dynasty=1000101265
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1228839
 	863.1.1={
 		birth=yes
@@ -2852,7 +2574,7 @@ Masila1 = {
 	name="Muhammad" #proclaimed himself caliph, 942-
 	dynasty=1000101265
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236466
 	898.1.1={
 		birth=yes
@@ -2862,10 +2584,10 @@ Masila1 = {
 	}
 }
 1236468 = {
-	name="Saru"  #ibn Maymún
+	name="Saru"  #ibn Maymūn
 	dynasty=1000101265
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1228839
 	855.1.1={
 		birth=yes
@@ -2878,7 +2600,7 @@ Masila1 = {
 	name="Muhammad"
 	dynasty=1000101265
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236468
 	872.1.1={
 		birth=yes
@@ -2891,7 +2613,7 @@ Masila1 = {
 	name="al-Mu'tizz"
 	dynasty=1000101265
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236469
 	890.1.1={
 		birth=yes
@@ -2904,7 +2626,7 @@ Masila1 = {
 	name="Muhammad"
 	dynasty=1000101265
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236470
 	909.1.1={
 		birth=yes
@@ -2917,7 +2639,7 @@ Masila1 = {
 	name="Muhammad" #b. Muhammad
 	dynasty=1000101265
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236471
 	929.1.1={ #13 years old in 942
 		birth=yes
@@ -2930,7 +2652,7 @@ Masila1 = {
 	name="Abu-Muhammad 'Abd Allah"
 	dynasty=1000101265
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236471
 	934.1.1={
 		birth=yes
@@ -2946,17 +2668,10 @@ Masila1 = {
 	name="Muhammad" #b. Salih
 	dynasty=1000101266 #Banu Ifran
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236477
 	880.1.1={
 		birth=yes
-		effect = {
-		make_tributary = {
-		TYPE = tributary_non_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236474
-		SUZERAIN = character:32901
-		}
-	}
 	}
 	945.1.1={
 		death={
@@ -2968,7 +2683,7 @@ Masila1 = {
 	name="Ma'bad" 
 	dynasty=1027001
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236307
 	894.1.1={
 		birth=yes
@@ -2984,7 +2699,7 @@ Masila1 = {
 	name="Mutarrif" #Again consulting Brills Encyclopedia of Islam, for the Nasab of the Dhundevotedids
 	dynasty=570
 	religion="muwalladi"
-	culture="butr" #Hawwara
+	culture="zenata" #Hawwara
 	
 	897.1.1={
 		birth=yes
@@ -2998,7 +2713,7 @@ Masila1 = {
 	name="Salih"
 	dynasty=1000101266 #Banu Ifran
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	850.1.1={ #?
 		birth=yes
 	}
@@ -3011,7 +2726,7 @@ Masila1 = {
 	name="Ahmad"
 	dynasty=1000101265
 	religion="ibadi"
-	culture="butr"
+	culture="zenata"
 	father=1236466
 	884.1.1={
 		birth=yes
@@ -3025,7 +2740,7 @@ Masila1 = {
 	#placeholder
 	dynasty=1000101148
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236463
 	1227.1.1={
 		birth=yes
@@ -3038,7 +2753,7 @@ Masila1 = {
 	name="Yahya" #b. Yaghmurasen
 	dynasty=7277
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=33045
 	1240.1.1={ #?
 		birth=yes
@@ -3051,7 +2766,7 @@ Masila1 = {
 	name="Abd-al-Rahman" #b. Yahya b. Yaghmurasen
 	dynasty=7277
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236480
 	1270.1.1={ #?
 		birth=yes
@@ -3064,7 +2779,7 @@ Masila1 = {
 	name="Yusuf Abi Ya'qub" #b. Abd al-Rahman Yahya b. Yaghmurasen
 	dynasty=7277
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236481
 	1300.1.1={ #?
 		birth=yes
@@ -3078,7 +2793,7 @@ Masila1 = {
 	name="Abu-Nur" 
 	dynasty=1000101266
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236455
 	990.1.1={ #militarily active by 1015
 		birth=yes
@@ -3091,7 +2806,7 @@ Masila1 = {
 	name="Abu-Nasr" 
 	dynasty=1000101266
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236483
 	1020.1.1={ #?
 		birth=yes
@@ -3107,7 +2822,7 @@ Masila1 = {
 	name="al-'Attaf" #served the Hammudids as a general
 	dynasty=1000101266
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236453
 	972.1.1={ #?
 		birth=yes
@@ -3120,7 +2835,7 @@ Masila1 = {
 	name="Badis" 
 	dynasty=1000101266
 	religion="ashari"
-	culture="butr"
+	culture="zenata"
 	father=1236483
 	1018.1.1={ #?
 		birth=yes

@@ -9,7 +9,7 @@
 		culture = italian
 	}
 	1250.1.1 = {
-		culture = romangol
+		culture = romagnol
 	}
 }
 2549 = {	#IMOLA
@@ -35,7 +35,7 @@
 		}
 	}
 	1250.1.1 = {
-		culture = romangol
+		culture = romagnol
 	}
 }
 2529 = {	#CONA
@@ -52,7 +52,7 @@
 	holding = castle_holding
 
 	1250.1.1 = {
-		culture = romangol
+		culture = romagnol
 	}
 }
 2526 = {	#POMPOSA
@@ -71,7 +71,7 @@
 		culture = italian
 	}
 	1250.1.1 = {
-		culture = romangol
+		culture = romagnol
 	}
 }
 2552 = {	#MONTEFELTRO

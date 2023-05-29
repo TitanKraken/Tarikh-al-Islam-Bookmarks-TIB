@@ -19,9 +19,9 @@
 		culture = turkish
 		religion = ashari
 	}
-	1235.1.1 = {
-		culture = anatolian_turkish
-	}
+	#1235.1.1 = {
+	#	culture = anatolian_turkish
+	#}
 	1204.5.16 = {
 	    culture = greek
 	    religion = orthodox
@@ -43,9 +43,9 @@
 		culture = turkish
 		religion = ashari
 	}
-	1235.1.1 = {
-		culture = anatolian_turkish
-	}
+	#1235.1.1 = {
+	#	culture = anatolian_turkish
+	#}
 	1204.5.16 = {
 	    culture = greek
 	    religion = orthodox

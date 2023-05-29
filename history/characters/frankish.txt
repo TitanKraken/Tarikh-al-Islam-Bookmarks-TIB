@@ -1,5 +1,5 @@
 ﻿6392 = {
-	name = "Karl"  	# Charlemagne
+	name = "Karl" # Charlemagne
 	dynasty = 25061
 	martial = 11
 	diplomacy = 9
@@ -10,7 +10,7 @@
 	trait = diligent
 	trait = zealous
 	trait = lustful
-	trait = hunter_2
+	trait = lifestyle_hunter
 	trait = education_martial_4
 	disallow_random_traits = yes
 	father = 131722
@@ -35,6 +35,7 @@
 		give_nickname = nick_the_great
 	}
 	814.1.2 = {
+		#name = "Charlemagne"
 		death = "814.1.2"
 	}
 }

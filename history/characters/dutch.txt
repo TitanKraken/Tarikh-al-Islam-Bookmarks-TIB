@@ -941,7 +941,7 @@
 	1204.5.16 = {
 		name = "Baudouin"
 		add_pressed_claim = title:c_mesembria
-		add_pressed_claim = title:c_thracemess
+		#add_pressed_claim = title:c_thracemess
 		add_pressed_claim = title:c_turnovo
 		add_pressed_claim = title:c_beroe
 		add_pressed_claim = title:d_thessalonika
@@ -7115,13 +7115,6 @@ set_realm_capital = title:c_nedersticht
 	}
 	929.1.1 = {
 		add_spouse = 1289
-		effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:7813
-		SUZERAIN = character:90120
-		}
-	}
 	}
 	939.10.2 = {
 		death = "939.10.2"

@@ -17,9 +17,9 @@
  vandalic_collective_noun:1 "Vandals"
  
  # Arabic heritage
- hijazi:0 "Hejazi"
- hijazi_prefix:0 "Hejazo"
- hijazi_collective_noun:0 "Hejazis"
+ hijazi:0 "Hijazi"
+ hijazi_prefix:0 "Hijazo"
+ hijazi_collective_noun:0 "Hijazis"
  iraqi:0 "Iraqi"
  iraqi_prefix:0 "Iraqo"
  iraqi_collective_noun:0 "Iraqis"
@@ -29,20 +29,32 @@
  bahraini:0 "Bahraini"
  bahraini_prefix:0 "Bahraino"
  bahraini_collective_noun:0 "Bahrainis"
- sicilian_arabic:0 "Siqilli"
- sicilian_arabic_prefix:0 "Siqillo"
- sicilian_arabic_collective_noun:1 "Siqillis"
+ sicilian_arabian:0 "Siqilli"
+ sicilian_arabian_prefix:0 "Siqillo"
+ sicilian_arabian_collective_noun:1 "Siqillis"
+ south_arabian:0 "South Arabian"
+ south_arabian_prefix:0 "South Arabo"
+ south_arabian_collective_noun:1 "South Arabians"
+ soqotri:0 "Soqotri"
+ soqotri_prefix:0 "Soqotro"
+ soqotri_collective_noun:1 "Soqotris"
 
  # Berber heritage
- tagelmust:0 "Sanhaja"
+ tagelmust:0 "Sanhaja" # The Tagelmust wearing kind of Sanhaja
  tagelmust_prefix:0 "Sanhaja"
- tagelmust_collective_noun:1 "Sanhaja"
- sanhaja:0 "Sanhaja"
- sanhaja_prefix:0 "Sanhaja"
- sanhaja_collective_noun:1 "Sanhaja"
+ tagelmust_collective_noun:1 "Isenhajen"
+ danhagha:0 "Danhagha" # Danhāǧa the Kabyle Sanhaja
+ danhagha_prefix:0 "Danhagha" # Danhāǧa
+ danhagha_collective_noun:1 "Idenhaghen" # Danhāǧa
  masmuda:0 "Masmuda"
  masmuda_prefix:0 "Masmuda"
- masmuda_collective_noun:1 "Masmuda"
+ masmuda_collective_noun:1 "Imasmuden"
+ siwi:0 "Siwi"
+ siwi_prefix:0 "Siwi"
+ siwi_collective_noun:1 "Isiwan"
+ zenata:0 "Zenata"
+ zenata_prefix:0 "Aznat"
+ zenata_collective_noun:1 "Iznaten"
 
  # Brythonic heritage
  briton:0 "Pretani"

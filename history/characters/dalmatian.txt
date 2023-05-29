@@ -5,7 +5,7 @@
 #Ragusa was an important trading port almost from the very moment of it's construction, so it should be playable from 867. Although the actual republic isn't formed before the late 13th Century
 #Many of the families lived on and became a part of the aristocracy of the Kingdom of Croatia
 # COMPLETE ID RANGE for file:
-# 4 dalmatian_ce and 1 Croatian dynasties, should more or less match the dominance of the Dalmatians over the republic. The families should slowly start to turn croatian around the last 50 years of the possible startdates
+# 4 dalmatian and 1 Croatian dynasties, should more or less match the dominance of the Dalmatians over the republic. The families should slowly start to turn croatian around the last 50 years of the possible startdates
 ##################################
 # b_cerva
 # De Cerva
@@ -17,7 +17,7 @@
 	name="Paladen" 
 	dynasty=1000103023
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	830.1.1={
 		birth="830.1.1"
 	}
@@ -26,9 +26,6 @@
 	}
 	865.1.1 = {
 		employer = 1233508
-		effect = {
-			add_family_to_republic_families = yes
-		}
 	}
 	888.1.1={
 		death="888.1.1"
@@ -40,7 +37,7 @@
 	female = yes
 	
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	838.1.1={
 		birth="838.1.1"
 	}
@@ -53,7 +50,7 @@
 	name="Basile" 
 	dynasty=1000103023
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1232951
     mother=1232952
 	870.1.1={
@@ -85,7 +82,7 @@
 	name="Tuone" 
 	dynasty=1000103023
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1232953
         mother=1232954
 	909.1.1={
@@ -100,7 +97,7 @@
 	name="Ambroso" 
 	dynasty=1000103023
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1232955
 	950.1.1={
 		birth="950.1.1"
@@ -110,13 +107,9 @@
 	}
 	992.1.2 = {
 		employer = 1232986
-		effect = {
-		}
 	}
 	1017.1.1 = {
 		employer = 1232988
-		effect = {
-		}
 	}
 	1031.1.1={
 		death="1031.1.1"
@@ -128,7 +121,7 @@
 	female = yes
 	
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	960.1.1={
 		birth="960.1.1"
 	}
@@ -142,7 +135,7 @@
 	female = yes
 	dynasty=1000103023
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1232955
 	951.1.1={
 		birth="951.1.1"
@@ -156,7 +149,7 @@
 	name="Alepsandro" 
 	dynasty=1000103023
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1232956
         mother=1232957
 	991.1.1={
@@ -167,9 +160,6 @@
 	}
 	1065.1.1 = {
 		employer = 1233540
-		effect = {
-			effect_create_personal_army = yes
-		}
 	}
 	1072.1.1={
 		death="1072.1.1"
@@ -181,7 +171,7 @@
 	female = yes
 	
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	1000.1.1={
 		birth="1000.1.1"
 	}
@@ -194,7 +184,7 @@
 	name="Joan" 
 	dynasty=1000103023
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1232959
         mother=1232960
 	1030.1.1={
@@ -202,11 +192,6 @@
 	}
 	1060.1.1={
 		add_spouse=1232962
-	}
-	1080.1.3 = {
-		effect = {
-			change_family_influence_positive = { AMOUNT = 3000 }
-		}
 	}
 	1081.1.3 = {
 		employer = 1233542
@@ -237,7 +222,7 @@
 	name="Domienc" 
 	dynasty=1000103023
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1232959
         mother=1232960
 	1031.1.1={
@@ -252,7 +237,7 @@
 	name="Bunedec" 
 	dynasty=1000103023
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1232963
         mother=1232962
 	1071.1.1={
@@ -287,7 +272,7 @@
 	name="Stanislau" 
 	dynasty=1000103023
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1232964
         mother=1232965
 	1103.1.1={
@@ -298,11 +283,6 @@
 	}
 	1144.1.1 = {
 		employer = 1232964
-	}
-	1166.2.2 = {
-		effect = {
-			effect_create_personal_army = yes
-		}
 	}
 	1171.1.1={
 		death="1171.1.1"
@@ -327,7 +307,7 @@
 	name="Demetre" 
 	dynasty=1000103023
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1232966
         mother=1232967
 	1135.1.1={
@@ -365,7 +345,7 @@
 	name="Aliau" 
 	dynasty=1000103023
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1232968
         mother=1232969
 	1165.1.1={
@@ -403,7 +383,7 @@
 	name="Táibáro" 
 	dynasty=1000103023
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1232970
         mother=1232971
 	1191.1.1={
@@ -411,11 +391,6 @@
 	}
 	1221.1.1={
 		add_spouse=1232973
-	}
-	1234.1.1 = {
-		effect = {
-			effect_create_personal_army = yes
-		}
 	}
 	1263.1.1={
 		death="1263.1.1"
@@ -440,7 +415,7 @@
 	name="Buartol" 
 	dynasty=1000103023
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1232972
         mother=1232973
 	1228.1.1={
@@ -448,11 +423,6 @@
 	}
 	1255.1.1={
 		add_spouse=1232975
-	}
-	1267.1.1 = {
-		effect = {
-			effect_create_personal_army = yes
-		}
 	}
 	1294.1.1={
 		death="1294.1.1"
@@ -477,7 +447,7 @@
 	name="Savino" 
 	dynasty=1000103023
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1232974
         mother=1232975
 	1256.1.1={
@@ -516,7 +486,7 @@
 	name="Jacop" 
 	dynasty=1000103023
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1232976
 	mother=1232977
 	1289.1.1={
@@ -534,7 +504,7 @@
 	name="Andro" 
 	dynasty=1000103023
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1232978
 	1311.1.1={
 		birth="1311.1.1"
@@ -554,7 +524,7 @@
 	name="Buartol" 
 	dynasty=1000103025
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	840.1.1={
 		birth="840.1.1"
 	}
@@ -563,9 +533,6 @@
 	}
 	865.1.1 = {
 		employer = 1233508
-		effect = {
-			add_family_to_republic_families = yes
-		}
 	}
 	918.1.1={
 		death="918.1.1"
@@ -577,7 +544,7 @@
 	female = yes
 	
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	844.1.1={
 		birth="844.1.1"
 	}
@@ -590,7 +557,7 @@
 	name="Taumas" 
 	dynasty=1000103025
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1232982
 	mother=1232983
 	880.1.1={
@@ -612,7 +579,7 @@
 	female = yes
 	
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	890.1.1={
 		birth="890.1.1"
 	}
@@ -625,7 +592,7 @@
 	name="Vittaur" 
 	dynasty=1000103025
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1232984
 	mother=1232985
 	920.1.1={
@@ -657,7 +624,7 @@
 	name="Silvano" 
 	dynasty=1000103025
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1232986
 	mother=1232987
 	958.1.1={
@@ -665,11 +632,6 @@
 	}
 	988.1.1={
 		add_spouse=1232989
-	}
-	934.1.1 = {
-		effect = {
-			effect_create_personal_army = yes
-		}
 	}
 	1038.1.1={
 		death="1038.1.1"
@@ -694,7 +656,7 @@
 	name="Paladen" 
 	dynasty=1000103025
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1232988
 	mother=1232989
 	988.1.1={
@@ -726,7 +688,7 @@
 	name="Domienc" 
 	dynasty=1000103025
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1232990
 	mother=1232991
 	1025.1.1={
@@ -734,17 +696,6 @@
 	}
 	1058.1.1={
 		add_spouse=1232993
-	}
-	1065.1.1 = {
-		employer = 1233540
-		effect = {
-			effect_create_personal_army = yes
-		}
-	}
-	1080.1.3 = {
-		effect = {
-			change_family_influence_positive = { AMOUNT = 2000 }
-		}
 	}
 	1081.1.3 = {
 		employer = 1233542
@@ -775,7 +726,7 @@
 	name="Jiolian" 
 	dynasty=1000103025
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1232992
 	mother=1232993
 	1066.1.1={
@@ -794,7 +745,7 @@
 	female = yes
 	
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	1081.1.1={
 		birth="1081.1.1"
 	}
@@ -807,7 +758,7 @@
 	name="Marin" 
 	dynasty=1000103025
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1232994
 	mother=1232995
 	1108.1.1={
@@ -851,7 +802,7 @@
 	name="Luca" 
 	dynasty=1000103025
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1232996
 	mother=1232997
 	1151.1.1={
@@ -879,7 +830,7 @@
 	female = yes
 	
 	religion="orthodox"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	1161.1.1={
 		birth="1161.1.1"
 	}
@@ -892,7 +843,7 @@
 	name="Caunstantin" 
 	dynasty=1000103025
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1232998
 	mother=1232999
 	1192.1.1={
@@ -920,7 +871,7 @@
 	female = yes
 	
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	1203.1.1={
 		birth="1203.1.1"
 	}
@@ -933,7 +884,7 @@
 	name="Domienc" 
 	dynasty=1000103025
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233000
 	mother=1233502
 	1233.1.1={
@@ -971,7 +922,7 @@
 	name="Blais" 
 	dynasty=1000103025
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233503
 	mother=1233504
 	1270.1.1={
@@ -1006,7 +957,7 @@
 	name="Frane" 
 	dynasty=1000103025
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233505
 	mother=1233506
 	1303.1.1={
@@ -1031,18 +982,12 @@
 	name="Aliau"
 	dynasty=1000103024
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	846.1.1={
 		birth="846.1.1"
 	}
     865.1.1={
 		add_spouse=1233509
-	}
-	866.1.1 = {
-		effect = {
-			set_up_elected_ruler_republic = yes
-			effect_create_personal_army = yes
-		}
 	}
 	927.1.1={
 		death="927.1.1"
@@ -1067,7 +1012,7 @@
 	name="Puol"
 	dynasty=1000103024
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233508
 	mother=1233509
 	880.1.1={
@@ -1088,7 +1033,7 @@ NewRagusa = {
 	name="Jacop"
 	dynasty=1000103024
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233508
 	mother=1233509
 	866.1.1={
@@ -1118,7 +1063,7 @@ NewRagusa = {
 	name="Jacop"
 	dynasty=1000103024
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233510
 	mother=1233511
 	921.1.1={
@@ -1129,8 +1074,6 @@ NewRagusa = {
 	}
 	992.1.2 = {
 		employer = 1232986
-		effect = {
-		}
 	}
 	1002.1.1={
 		death="1002.1.1"
@@ -1142,7 +1085,7 @@ NewRagusa = {
 	female = yes
 	
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	935.1.1={
 		birth="935.1.1"
 	}
@@ -1155,7 +1098,7 @@ NewRagusa = {
 	name="Caunstantin"
 	dynasty=1000103024
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233512
 	mother=1233513
 	964.1.1={
@@ -1166,8 +1109,6 @@ NewRagusa = {
 	}
 	1017.1.1 = {
 		employer = 1232988
-		effect = {
-		}
 	}
 	1031.1.1={
 		death="1031.1.1"
@@ -1192,7 +1133,7 @@ NewRagusa = {
 	name="Teodoro"
 	dynasty=1000103024
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233514
 	mother=1233515
 	1001.1.1={
@@ -1203,9 +1144,6 @@ NewRagusa = {
 	}
 	1065.1.1 = {
 		employer = 1233540
-		effect = {
-			effect_create_personal_army = yes
-		}
 	}
 	1081.1.3 = {
 		employer = 1233542
@@ -1233,7 +1171,7 @@ NewRagusa = {
 	name="Ludovico"
 	dynasty=1000103024
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233516
 	mother=1233517
 	1040.1.1={
@@ -1255,7 +1193,7 @@ NewRagusa = {
 	female = yes
 	
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	1053.1.1={
 		birth="1053.1.1"
 	}
@@ -1268,7 +1206,7 @@ NewRagusa = {
 	name="Grigori"
 	dynasty=1000103024
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233518
 	mother=1233519
 	1081.1.1={
@@ -1306,7 +1244,7 @@ NewRagusa = {
 	name="Guaspar"
 	dynasty=1000103024
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233520
 	mother=1233521
 	1122.1.1={
@@ -1344,7 +1282,7 @@ NewRagusa = {
 	name="Táibáro"
 	dynasty=1000103024
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233522
 	mother=1233523
 	1159.1.1={
@@ -1352,11 +1290,6 @@ NewRagusa = {
 	}
 	1190.1.1={
 		add_spouse=1233525
-	}
-	1220.1.1 = {
-		effect = {
-			effect_create_personal_army = yes
-		}
 	}
 	1232.1.1={
 		death="1232.1.1"
@@ -1381,7 +1314,7 @@ NewRagusa = {
 	name="Ugo"
 	dynasty=1000103024
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233524
 	mother=1233525
 	1200.1.1={
@@ -1422,7 +1355,7 @@ NewRagusa = {
 	name="Nicolao"
 	dynasty=1000103024
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233526
 	mother=1233527
 	1240.1.1={
@@ -1463,16 +1396,11 @@ NewRagusa = {
 	name="Vittaur"
 	dynasty=1000103024
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233528
 	mother=1233529
 	1282.1.1={
 		birth="1282.1.1"
-	}
-	1337.1.1 = {
-		effect = {
-			effect_create_personal_army = yes
-		}
 	}
 	1345.1.1={
 		death="1345.1.1"
@@ -1490,7 +1418,7 @@ NewRagusa = {
 	name="Bunedec"
 	dynasty=1000103022
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	842.1.1={
 		birth="842.1.1"
 	}
@@ -1499,9 +1427,6 @@ NewRagusa = {
 	}
 	865.1.1 = {
 		employer = 1233508
-		effect = {
-			add_family_to_republic_families = yes
-		}
 	}
 	925.1.1={
 		death="925.1.1"
@@ -1526,7 +1451,7 @@ NewRagusa = {
 	name="Clemiant"
 	dynasty=1000103022
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233532
 	mother=1233533
 	881.1.1={
@@ -1572,9 +1497,6 @@ NewRagusa = {
 	}
 	992.1.2 = {
 		employer = 1232986
-		effect = {
-			add_family_to_republic_families = yes
-		}
 	}
 	1001.1.1={
 		death="1001.1.1"
@@ -1599,7 +1521,7 @@ NewRagusa = {
 	name="Cúsmas"
 	dynasty=1000103022
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233536
 	mother=1233537
 	959.1.1={
@@ -1610,8 +1532,6 @@ NewRagusa = {
 	}
 	1017.1.1 = {
 		employer = 1232988
-		effect = {
-		}
 	}
 	1030.1.1={
 		death="1030.1.1"
@@ -1636,7 +1556,7 @@ NewRagusa = {
 	name="Pitro"
 	dynasty=1000103022
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233538
 	mother=1233539
 	999.1.1={
@@ -1668,7 +1588,7 @@ NewRagusa = {
 	name="Sergio"
 	dynasty=1000103022
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233540
 	mother=1233541
 	1031.1.1={
@@ -1676,11 +1596,6 @@ NewRagusa = {
 	}
 	1069.1.1={
 		add_spouse=1233543
-	}
-	1080.1.3 = {
-		effect = {
-			change_family_influence_positive = { AMOUNT = 1500 }
-		}
 	}
 	1104.1.1={
 		death="1104.1.1"
@@ -1692,7 +1607,7 @@ NewRagusa = {
 	female = yes
 	
 	religion="orthodox"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -1705,7 +1620,7 @@ NewRagusa = {
 	name="Alepsandro"
 	dynasty=1000103022
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233542
 	mother=1233543
 	1073.1.1={
@@ -1749,7 +1664,7 @@ NewRagusa = {
 	name="Domienc"
 	dynasty=1000103022
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233544
 	mother=1233597
 	1104.1.1={
@@ -1761,11 +1676,6 @@ NewRagusa = {
 	1166.2.3 = {
 		employer = 1232966
 	}
-	1187.1.1 = {
-		effect = {
-			effect_create_personal_army = yes
-		}
-	}
 	1190.1.1={
 		death="1190.1.1"
 	}
@@ -1776,7 +1686,7 @@ NewRagusa = {
 	female = yes
 	
 	religion="orthodox"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	1112.1.1={
 		birth="1112.1.1"
 	}
@@ -1789,7 +1699,7 @@ NewRagusa = {
 	name="Bonifaco"
 	dynasty=1000103022
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233545
 	mother=1233546
 	1142.1.1={
@@ -1830,7 +1740,7 @@ NewRagusa = {
 	name="Niceto"
 	dynasty=1000103022
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233547
 	mother=1233548
 	1186.1.1={
@@ -1871,7 +1781,7 @@ NewRagusa = {
 	name="Buartol"
 	dynasty=1000103022
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233549
 	mother=1233550
 	1229.1.1={
@@ -1892,7 +1802,7 @@ NewRagusa = {
 	name="Vidual"
 	dynasty=1000103022
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233551
 	1260.1.1={
 		birth="1260.1.1"
@@ -1909,7 +1819,7 @@ NewRagusa = {
 	name="Giorgi"
 	dynasty=1000103022
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233552
 	1302.1.1={
 		birth="1302.1.1"
@@ -1942,9 +1852,6 @@ NewRagusa = {
 	}
 	865.1.1 = {
 		employer = 1233508
-		effect = {
-			add_family_to_republic_families = yes
-		}
 	}
 	926.1.1={
 		death="926.1.1"
@@ -1956,7 +1863,7 @@ NewRagusa = {
 	female = yes
 	
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	842.1.1={
 		birth="842.1.1"
 	}
@@ -2015,9 +1922,6 @@ NewRagusa = {
 	}
 	992.1.2 = {
 		employer = 1232986
-		effect = {
-			add_family_to_republic_families = yes
-		}
 	}
 	1004.1.1={
 		death="1004.1.1"
@@ -2053,8 +1957,6 @@ NewRagusa = {
 	}
 	1017.1.1 = {
 		employer = 1232988
-		effect = {
-		}
 	}
 	1045.1.1={
 		death="1045.1.1"
@@ -2090,10 +1992,6 @@ NewRagusa = {
 	}
 	1065.1.1 = {
 		employer = 1233540
-		effect = {
-			effect_create_personal_army = yes
-			change_family_influence_positive = { AMOUNT = 1000 }
-		}
 	}
 	1070.1.1={
 		death="1070.1.1"
@@ -2105,7 +2003,7 @@ NewRagusa = {
 	female = yes
 	
 	religion="orthodox"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	1010.1.1={
 		birth="1010.1.1"
 	}
@@ -2126,11 +2024,6 @@ NewRagusa = {
 	}
        1064.1.1={
 		add_spouse=1233566
-	}
-	1080.1.3 = {
-		effect = {
-			change_family_influence_positive = { AMOUNT = 2000 }
-		}
 	}
 	1081.1.3 = {
 		employer = 1233542
@@ -2309,11 +2202,6 @@ NewRagusa = {
 	1285.1.1 = {
 		employer = 1232974
 	}
-	1297.1.1 = {
-		effect = {
-			effect_create_personal_army = yes
-		}
-	}
 	1316.1.1={
 		death="1316.1.1"
 	}
@@ -2337,7 +2225,7 @@ NewRagusa = {
 }
 
 ##################################
-#Non-Ragusan dalmatian_ce Characters (Placeholders)
+#Non-Ragusan dalmatian Characters (Placeholders)
 ##################################
 
 #Placeholder leader of Cres in 867
@@ -2345,7 +2233,7 @@ NewRagusa = {
 	name="Caunstantin"
 	dynasty=1000103032
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	839.1.1={
 		birth="839.1.1"
 	}
@@ -2358,7 +2246,7 @@ NewRagusa = {
 	name="Taumas"
 	dynasty=1000103030
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	839.1.1={
 		birth="839.1.1"
 	}
@@ -2367,9 +2255,9 @@ NewRagusa = {
 	}
 }
 1233578 = {
-	name="Domienc"  #dalmatian_ce Mayor of Split
+	name="Domienc"  #dalmatian Mayor of Split
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
   	stewardship=8
 	837.1.1={
 		birth="837.1.1"
@@ -2381,7 +2269,7 @@ NewRagusa = {
 1233579 = {
 	name="Ambroso"
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
   	stewardship=8
   	father=1233578
 	856.1.1={
@@ -2392,9 +2280,9 @@ NewRagusa = {
 	}
 }
 1233580 = {
-	name="Eugáino"  #dalmatian_ce Bishop of Trogir
+	name="Eugáino"  #dalmatian Bishop of Trogir
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
   	learning=8
 	837.1.1={
 		birth="837.1.1"
@@ -2406,7 +2294,7 @@ NewRagusa = {
 1233581 = {
 	name="Bunedec"
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
   	learning=8
   	father=1233580
 	856.1.1={
@@ -2417,9 +2305,9 @@ NewRagusa = {
 	}
 }
 1233582 = {
-	name="Vidual"  #dalmatian_ce Mayor of Cattaro
+	name="Vidual"  #dalmatian Mayor of Cattaro
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
   	stewardship=8
 	837.1.1={
 		birth="837.1.1"
@@ -2431,7 +2319,7 @@ NewRagusa = {
 1233583 = {
 	name="Frane"
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
   	stewardship=8
   	father=1233582
 	856.1.1={
@@ -2442,9 +2330,9 @@ NewRagusa = {
 	}
 }
 1233584 = {
-	name="Arelo"  #dalmatian_ce Mayor of Rijeka
+	name="Arelo"  #dalmatian Mayor of Rijeka
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
   	stewardship=8
 	837.1.1={
 		birth="837.1.1"
@@ -2456,7 +2344,7 @@ NewRagusa = {
 1233585 = {
 	name="Damáno"
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
   	stewardship=8
   	father=1233584
 	856.1.1={
@@ -2467,9 +2355,9 @@ NewRagusa = {
 	}
 }
 1233586 = {
-	name="Basile"  #dalmatian_ce Bishop of Sibenik
+	name="Basile"  #dalmatian Bishop of Sibenik
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
   	learning=8
 	837.1.1={
 		birth="837.1.1"
@@ -2481,7 +2369,7 @@ NewRagusa = {
 1233587 = {
 	name="Andro"
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
   	learning=8
 	856.1.1={
 		birth="856.1.1"
@@ -2495,7 +2383,7 @@ NewRagusa = {
 	name="Salvatore"
 	dynasty=1000103047
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	1040.1.1={
 		birth="1040.1.1"
 	}
@@ -2508,7 +2396,7 @@ NewRagusa = {
 	name="Sismaun"
 	dynasty=1000103048
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	1041.1.1={
 		birth="1041.1.1"
 	}
@@ -2521,7 +2409,7 @@ NewRagusa = {
 	name="Bunedec"
 	dynasty=1000103047
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233589
 	1075.1.1={
 		birth="1075.1.1"
@@ -2535,7 +2423,7 @@ NewRagusa = {
 	name="Aliau"
 	dynasty=1000103048
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233589
 	1076.1.1={
 		birth="1076.1.1"
@@ -2549,7 +2437,7 @@ NewRagusa = {
 	name="Savjan"
 	dynasty=1000103047
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233590
 	1112.1.1={
 		birth="1112.1.1"
@@ -2563,7 +2451,7 @@ NewRagusa = {
 	name="Adam"
 	dynasty=1000103048
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233591
 	1114.1.1={
 		birth="1114.1.1"
@@ -2577,7 +2465,7 @@ NewRagusa = {
 	name="Caunstantin"
 	dynasty=1000103047
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233592
 	1149.1.1={
 		birth="1149.1.1"
@@ -2591,7 +2479,7 @@ NewRagusa = {
 	name="Simaun"
 	dynasty=1000103048
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233593
 	1151.1.1={
 		birth="1114.1.1"
@@ -2613,7 +2501,7 @@ NewRagusa = {
 	name="Cúsmas"
 	dynasty=1000103027
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233536
 	mother=1233537
 	959.1.1={
@@ -2621,9 +2509,6 @@ NewRagusa = {
 	}
 	1017.1.1 = {
 		employer = 1061502
-		effect = {
-			add_family_to_republic_families = yes
-		}
 	}
 	1030.1.1={
 		death="1030.1.1"
@@ -2634,17 +2519,13 @@ NewRagusa = {
 	name="Pitro"
 	dynasty=1000103027
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233598
 	999.1.1={
 		birth="999.1.1"
 	}
 	1065.1.1 = {
 		employer = 1061517
-		effect = {
-			effect_create_personal_army = yes
-			change_family_influence_positive = { AMOUNT = 2000 }
-		}
 	}
 	1077.1.1={
 		death="1077.1.1"
@@ -2655,7 +2536,7 @@ NewRagusa = {
 	name="Sergio"
 	dynasty=1000103027
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233599
 	1031.1.1={
 		birth="1031.1.1"
@@ -2672,7 +2553,7 @@ NewRagusa = {
 	name="Alepsandro"
 	dynasty=1000103027
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233600
 	1073.1.1={
 		birth="1073.1.1"
@@ -2695,7 +2576,7 @@ NewRagusa = {
 	name="Domienc"
 	dynasty=1000103027
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233601
 	1104.1.1={
 		birth=yes
@@ -2712,7 +2593,7 @@ NewRagusa = {
 	name="Bonifaco"
 	dynasty=1000103027
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233602
 	1142.1.1={
 		birth=yes
@@ -2735,7 +2616,7 @@ NewRagusa = {
 	name="Liaun"
 	dynasty=1000103027
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233603
 	1165.1.1={
 		birth=yes
@@ -2752,7 +2633,7 @@ NewRagusa = {
 	name="Niceto"
 	dynasty=1000103027
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233604
 	1186.1.1={
 		birth=yes
@@ -2772,15 +2653,10 @@ NewRagusa = {
 	name="Buartol"
 	dynasty=1000103027
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233605
 	1229.1.1={
 		birth = yes
-	}
-	1267.1.1 = {
-		effect = {
-			effect_create_personal_army = yes
-		}
 	}
 	1297.1.1={
 		death = yes
@@ -2791,7 +2667,7 @@ NewRagusa = {
 	name="Vidual"
 	dynasty=1000103027
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233606
 	1260.1.1={
 		birth=yes
@@ -2811,7 +2687,7 @@ NewRagusa = {
 	name="Caunstantin"
 	dynasty=1000103027
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233607
 	1288.1.1={
 		birth=yes
@@ -2825,7 +2701,7 @@ NewRagusa = {
 	name="Eugáino"
 	dynasty=1000103027
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1233608
 	1312.1.1={
 		birth=yes
@@ -2841,7 +2717,7 @@ NewRagusa = {
 	name="Grigori"
 	dynasty=1000103060
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1600256
 	974.1.1={
 		birth=yes
@@ -2854,7 +2730,7 @@ NewRagusa = {
 	name="Andro" #placeholder son
 	dynasty=1000103060
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1600250
 	1003.1.1={
 		birth=yes
@@ -2867,7 +2743,7 @@ NewRagusa = {
 	name="Dragos" #placeholder son
 	dynasty=1000103060
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1600251
 	1040.1.1={
 		birth=yes
@@ -2880,7 +2756,7 @@ NewRagusa = {
 1600253 = {
 	name="Domienc"
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	900.1.1={
 		birth=yes
 	}
@@ -2892,7 +2768,7 @@ NewRagusa = {
 1600254 = {
 	name="Caunstantin"
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	933.1.1={
 		birth=yes
 	}
@@ -2904,7 +2780,7 @@ NewRagusa = {
 1600255 = {
 	name="Bunedec"
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	960.1.1={
 		birth=yes
 	}
@@ -2916,7 +2792,7 @@ NewRagusa = {
 	name="Andro" #placeholder father of Grgur
 	dynasty=1000103060
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 	father=1600257
 	941.1.1={
 		birth=yes
@@ -2929,7 +2805,7 @@ NewRagusa = {
 	name="Grigori" #placeholder
 	dynasty=1000103060
 	religion="catholic"
-	culture="dalmatian_ce"
+	culture="dalmatian"
 
 	899.1.1={
 		birth=yes
@@ -2942,7 +2818,7 @@ NewRagusa = {
 260394 = {
 	name = "Calenda"
 	religion = catholic
-	culture = dalmatian_ce
+	culture = dalmatian
 	dynasty = 1022229
 	732.1.1 = {
 		birth = yes
@@ -2954,7 +2830,7 @@ NewRagusa = {
 260395 = {
 	name = "Giuco"
 	religion = catholic
-	culture = dalmatian_ce
+	culture = dalmatian
 	dynasty = 1022223
 	835.1.1 = {
 		birth = yes
@@ -2967,7 +2843,7 @@ NewRagusa = {
 	name = "Maroe"
 	dynasty = 1062128
 	religion = catholic
-	culture = dalmatian_ce
+	culture = dalmatian
 	1041.1.1 = {
 		birth = yes
 	}
@@ -2978,7 +2854,7 @@ NewRagusa = {
 260397 = {
 	name = "Gervasius"
 	religion = catholic
-	culture = dalmatian_ce
+	culture = dalmatian
 	dynasty = 1062085
 	1082.1.1 = {
 		birth = yes
@@ -2990,7 +2866,7 @@ NewRagusa = {
 260398 = {
 	name = "Jugno"
 	religion = catholic
-	culture = dalmatian_ce
+	culture = dalmatian
 	dynasty = 1062086
 	1138.1.1 = {
 		birth = yes
@@ -3003,7 +2879,7 @@ NewRagusa = {
 	name = "Jugno"
 	dynasty = 1062088
 	religion = catholic
-	culture = dalmatian_ce
+	culture = dalmatian
 	905.1.1 = {
 		birth = yes
 	}
@@ -3014,7 +2890,7 @@ NewRagusa = {
 211995 = {
 	name = "Septimius"
 	religion = catholic
-	culture = dalmatian_ce
+	culture = dalmatian
 	720.1.1 = {
 		birth = yes
 	}
@@ -3025,7 +2901,7 @@ NewRagusa = {
 253975 = {
 	name = "Hadrianus"
 	religion = catholic
-	culture = dalmatian_ce
+	culture = dalmatian
 	834.1.1 = {
 		birth = yes
 	}
@@ -3036,7 +2912,7 @@ NewRagusa = {
 297792 = {
 	name = "Albinus"
 	religion = catholic
-	culture = dalmatian_ce
+	culture = dalmatian
 	913.1.1 = {
 		birth = yes
 	}
@@ -3047,7 +2923,7 @@ NewRagusa = {
 261332 = {
 	name = "Loncho"
 	religion = catholic
-	culture = dalmatian_ce
+	culture = dalmatian
 	908.1.1 = {
 		birth = yes
 	}

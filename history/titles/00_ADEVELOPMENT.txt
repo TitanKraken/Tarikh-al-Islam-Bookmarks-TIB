@@ -51,15 +51,15 @@
 		1310.1.1 = {change_development_level = 28 }
 	}
 
-	e_west_slavia = {
-		20.1.1 = { change_development_level = 2 }
-		1000.1.1 = { change_development_level = 5 }
-		1124.1.1 = { change_development_level = 7}
-		1166.1.1 = {change_development_level = 11 }
-		1204.1.1 = {change_development_level = 16 }
-		1241.1.1 = {change_development_level = 20 }
-		1310.1.1 = {change_development_level = 26 }
-	}
+	#e_west_slavia = {
+	#	20.1.1 = { change_development_level = 2 }
+	#	1000.1.1 = { change_development_level = 5 }
+	#	1124.1.1 = { change_development_level = 7}
+	#	1166.1.1 = {change_development_level = 11 }
+	#	1204.1.1 = {change_development_level = 16 }
+	#	1241.1.1 = {change_development_level = 20 }
+	#	1310.1.1 = {change_development_level = 26 }
+	#}
 
 	e_russia = {
 		20.1.1 = { change_development_level = 0 }
@@ -243,15 +243,15 @@
 	1310.1.1 = { change_development_level = 28 }
 	}
 
-	k_ellan_vanin = {
-	867.1.1 = { change_development_level = 2 }
-	1066.1.1 = { change_development_level = 8 }
-	1124.1.1 = { change_development_level = 11 }
-	1166.1.1 = { change_development_level = 15 }
-	1204.1.1 = { change_development_level = 20 }
-	1241.1.1 = { change_development_level = 24 }
-	1310.1.1 = { change_development_level = 30 }
-	}
+	#k_ellan_vanin = {
+	#867.1.1 = { change_development_level = 2 }
+	#1066.1.1 = { change_development_level = 8 }
+	#1124.1.1 = { change_development_level = 11 }
+	#1166.1.1 = { change_development_level = 15 }
+	#1204.1.1 = { change_development_level = 20 }
+	#1241.1.1 = { change_development_level = 24 }
+	#1310.1.1 = { change_development_level = 30 }
+	#}
 
 	k_scotland = {
 	867.1.1 = { change_development_level = 2 }
@@ -383,7 +383,7 @@
 	1310.1.1 = { change_development_level = 29 }
 	} 
 
-	k_lotharingia = { #Stops existing. Broken into Upper/Lower Lorraine
+	k_lotharingia = { # Stops existing. Broken into Upper/Lower Lorraine
 	867.1.1 = { change_development_level = 5 }
 	1066.1.1 = { change_development_level = 8 }
 	1124.1.1 = { change_development_level = 10 }
@@ -483,15 +483,15 @@
 	1310.1.1 = { change_development_level = 29 }
 	}
 
-	k_trinacria = { #Split from Sicily
-	867.1.1 = { change_development_level = 5 }
-	1066.1.1 = { change_development_level = 8 }
-	1124.1.1 = { change_development_level = 10 }
-	1166.1.1 = { change_development_level = 14 }
-	1204.1.1 = { change_development_level = 19 }
-	1241.1.1 = { change_development_level = 23 }
-	1310.1.1 = { change_development_level = 29 }
-	}
+	#k_trinacria = { # Split from Sicily
+	#867.1.1 = { change_development_level = 5 }
+	#1066.1.1 = { change_development_level = 8 }
+	#1124.1.1 = { change_development_level = 10 }
+	#1166.1.1 = { change_development_level = 14 }
+	#1204.1.1 = { change_development_level = 19 }
+	#1241.1.1 = { change_development_level = 23 }
+	#1310.1.1 = { change_development_level = 29 }
+	#}
 
 	k_sardinia = {
 	867.1.1 = { change_development_level = 4 }
@@ -603,7 +603,7 @@
 	1310.1.1 = { change_development_level = 29 }
 	}
 
-	k_white_rus = { #Polotsk
+	k_white_rus = { # Polotsk
 	867.1.1 = { change_development_level = 2 }
 	1066.1.1 = { change_development_level = 5 }
 	1124.1.1 = { change_development_level = 7 }
@@ -613,7 +613,7 @@
 	1310.1.1 = { change_development_level = 26 }
 	} 
 
-	k_opolye = { #Vladimir
+	k_opolye = { # Vladimir
 	867.1.1 = { change_development_level = 1 }
 	1066.1.1 = { change_development_level = 3 }
 	1124.1.1 = { change_development_level = 4 }
@@ -783,15 +783,15 @@
 	1310.1.1 = { change_development_level = 33 }
 	}
 
-	k_antioch = {
-	867.1.1 = {	change_development_level = 7 }
-	1066.1.1 = { change_development_level = 10 }
-	1124.1.1 = { change_development_level = 12 }
-	1166.1.1 = { change_development_level = 16 }
-	1204.1.1 = { change_development_level = 21 }
-	1241.1.1 = { change_development_level = 25 }
-	1310.1.1 = { change_development_level = 31 }
-	}
+	#k_antioch = {
+	#867.1.1 = {	change_development_level = 7 }
+	#1066.1.1 = { change_development_level = 10 }
+	#1124.1.1 = { change_development_level = 12 }
+	#1166.1.1 = { change_development_level = 16 }
+	#1204.1.1 = { change_development_level = 21 }
+	#1241.1.1 = { change_development_level = 25 }
+	#1310.1.1 = { change_development_level = 31 }
+	#}
 
 	k_syria = {
 	867.1.1 = {	change_development_level = 7 }
@@ -833,15 +833,15 @@
 	1310.1.1 = { change_development_level = 29 }
 	}
 
-	k_kakheti = {
-	867.1.1 = {	change_development_level = 5 }
-	1066.1.1 = { change_development_level = 8 }
-	1124.1.1 = { change_development_level = 10 }
-	1166.1.1 = { change_development_level = 14 }
-	1204.1.1 = { change_development_level = 19 }
-	1241.1.1 = { change_development_level = 23 }
-	1310.1.1 = { change_development_level = 29 }
-	}
+	#k_kakheti = {
+	#867.1.1 = {	change_development_level = 5 }
+	#1066.1.1 = { change_development_level = 8 }
+	#1124.1.1 = { change_development_level = 10 }
+	#1166.1.1 = { change_development_level = 14 }
+	#1204.1.1 = { change_development_level = 19 }
+	#1241.1.1 = { change_development_level = 23 }
+	#1310.1.1 = { change_development_level = 29 }
+	#}
 
 	k_georgia = {
 	867.1.1 = {	change_development_level = 5 }
@@ -863,15 +863,15 @@
 	1310.1.1 = { change_development_level = 29 }
 	}
 
-	k_shirvan = {
-	867.1.1 = {	change_development_level = 5 }
-	1066.1.1 = { change_development_level = 8 }
-	1124.1.1 = { change_development_level = 10 }
-	1166.1.1 = { change_development_level = 14 }
-	1204.1.1 = { change_development_level = 19 }
-	1241.1.1 = { change_development_level = 23 }
-	1310.1.1 = { change_development_level = 29 }
-	}
+	#k_shirvan = {
+	#867.1.1 = {	change_development_level = 5 }
+	#1066.1.1 = { change_development_level = 8 }
+	#1124.1.1 = { change_development_level = 10 }
+	#1166.1.1 = { change_development_level = 14 }
+	#1204.1.1 = { change_development_level = 19 }
+	#1241.1.1 = { change_development_level = 23 }
+	#1310.1.1 = { change_development_level = 29 }
+	#}
 
 	k_caucasus = { #Alan
 	867.1.1 = { change_development_level = 0 }
@@ -883,15 +883,15 @@
 	1310.1.1 = { change_development_level = 15 }
 	}
 
-	k_khazaria = {
-	867.1.1 = { change_development_level = 0 }
-	1066.1.1 = { change_development_level = 0 }
-	1124.1.1 = { change_development_level = 0 }
-	1166.1.1 = { change_development_level = 3 }
-	1204.1.1 = { change_development_level = 6 }
-	1241.1.1 = { change_development_level = 9 }
-	1310.1.1 = { change_development_level = 12 }
-	}
+	#k_khazaria = {
+	#867.1.1 = { change_development_level = 0 }
+	#1066.1.1 = { change_development_level = 0 }
+	#1124.1.1 = { change_development_level = 0 }
+	#1166.1.1 = { change_development_level = 3 }
+	#1204.1.1 = { change_development_level = 6 }
+	#1241.1.1 = { change_development_level = 9 }
+	#1310.1.1 = { change_development_level = 12 }
+	#}
 
 	k_kabulistan = {
 	867.1.1 = {	change_development_level = 5 }
@@ -933,15 +933,15 @@
 	1310.1.1 = { change_development_level = 31 }
 	}
 
-	k_khwarezmia = {
-	867.1.1 = { change_development_level = 5 }
-	1066.1.1 = { change_development_level = 8 }
-	1124.1.1 = { change_development_level = 10 }
-	1166.1.1 = { change_development_level = 14 }
-	1204.1.1 = { change_development_level = 19 }
-	1241.1.1 = { change_development_level = 23 }
-	1310.1.1 = { change_development_level = 29 }
-	}
+	#k_khwarezmia = {
+	#867.1.1 = { change_development_level = 5 }
+	#1066.1.1 = { change_development_level = 8 }
+	#1124.1.1 = { change_development_level = 10 }
+	#1166.1.1 = { change_development_level = 14 }
+	#1204.1.1 = { change_development_level = 19 }
+	#1241.1.1 = { change_development_level = 23 }
+	#1310.1.1 = { change_development_level = 29 }
+	#}
 
 	k_transoxiana = {
 	867.1.1 = { change_development_level = 5 }
@@ -1521,15 +1521,15 @@
 	1310.1.1 = { change_development_level = 34 }
 	}
 
-	c_vexin = {
-	867.1.1 = { change_development_level = 8 }
-	1066.1.1 = { change_development_level = 12 }
-	1124.1.1 = { change_development_level = 15 }
-	1166.1.1 = { change_development_level = 19 }
-	1204.1.1 = { change_development_level = 24 }
-	1241.1.1 = { change_development_level = 28 }
-	1310.1.1 = { change_development_level = 34 }
-	}
+	#c_vexin = {
+	#867.1.1 = { change_development_level = 8 }
+	#1066.1.1 = { change_development_level = 12 }
+	#1124.1.1 = { change_development_level = 15 }
+	#1166.1.1 = { change_development_level = 19 }
+	#1204.1.1 = { change_development_level = 24 }
+	#1241.1.1 = { change_development_level = 28 }
+	#1310.1.1 = { change_development_level = 34 }
+	#}
 
 	c_rouen = {
 	867.1.1 = { change_development_level = 8 }

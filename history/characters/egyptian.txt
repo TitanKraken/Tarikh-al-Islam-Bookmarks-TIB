@@ -354,7 +354,7 @@
 }
 
 3092 = {
-	name = "al-Hakim"
+	name = "Abu 'Ali Mansur" # al-Hakim
 	dynasty_house = house_Fatimid
 	martial = 4
 	diplomacy = 8
@@ -368,12 +368,13 @@
 	trait = zealous
 	trait = wrathful # lunatic_1, very strict in combating "corruption" according to him
 	trait = education_martial_3
-	trait = aggresive_attacker
+	#trait = aggresive_attacker
 	trait = sayyid
 	father = 3090
 	mother = sayyida_al_aziziyya_001
 	985.1.1 = {
 		birth = "985.1.1"
+		add_nickname = nick_hakim
 	}
 	1003.1.1 = {
 		add_spouse = 1234964
@@ -653,7 +654,7 @@
 	father = 226052
 	1180.1.1 = {
 		birth = "1180.1.1"
-		give_nickname = nick_meledin					  
+		#give_nickname = nick_meledin					  
 	}
 	1238.1.1 = {
 		death = "1238.1.1"
@@ -705,8 +706,8 @@
 	1225.1.1 = {
 		birth = "1225.1.1"
 	}
-	1250.1.1 = {
-		death = "1250.1.1"
+	1250.5.2 = {
+		death = yes
 	}
 }
 
@@ -1705,13 +1706,6 @@
 	}
 	867.1.1 = {
 		birth = yes
-		effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:163115
-		SUZERAIN = character:34014
-		}
-	}
 	}
 	884.3.1 = {
 		death = "884.3.1"

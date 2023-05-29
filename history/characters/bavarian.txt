@@ -740,12 +740,12 @@
 	1316.7.1 = {
 		birth = "1316.7.1"
 	}
-	1320.8.20= {
-		vassal_contract_set_obligation_level = {
-			type = special_contract
-			level = special_contract_march
-		}
-	}
+	#1320.8.20= {
+	#	vassal_contract_set_obligation_level = {
+	#		type = special_contract
+	#		level = special_contract_march
+	#	}
+	#}
 	1324.1.2 = {
 		add_spouse = 451522
 	}
@@ -1071,12 +1071,12 @@
 	1328.1.2 = {
 		add_spouse = 462716
 	}
-	1323.8.1 = {
-		vassal_contract_set_obligation_level = {
-			type = special_contract
-			level = special_contract_palatinate
-		}
-	}
+	#1323.8.1 = {
+	#	vassal_contract_set_obligation_level = {
+	#		type = special_contract
+	#		level = special_contract_palatinate
+	#	}
+	#}
 	1353.10.4 = {
 		death = "1353.10.4"
 	}
@@ -1896,12 +1896,12 @@
 	1193.1.1 = {
 		add_spouse = 212492
 	}
-	1195.11.8 = {
-		vassal_contract_set_obligation_level = {
-			type = special_contract
-			level = special_contract_palatinate
-		}
-	}
+	#1195.11.8 = {
+	#	vassal_contract_set_obligation_level = {
+	#		type = special_contract
+	#		level = special_contract_palatinate
+	#	}
+	#}
 	1211.1.1 = {
 		add_spouse = 33753
 	}
@@ -6403,7 +6403,7 @@ Otakeren1 = {
 	religion = "catholic"
 	culture = bavarian
 	trait = lustful
-	trait = reveler_1
+	trait = lifestyle_reveler
 	trait = education_learning_1
 	father = 212932
 	mother = 212937
@@ -9063,7 +9063,7 @@ Otakeren1 = {
 	#	employer = 20257
 	#}
 	1081.1.1 = {
-		add_trait = blademaster_1	#Add adult trait
+		add_trait = lifestyle_hunter	#Add adult trait
 	}
 	1096.1.1 = {
 		death = "1096.1.1"

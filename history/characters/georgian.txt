@@ -765,15 +765,6 @@
     1280.1.2={
 	add_spouse=466502
     }
-	1285.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:466501
-		SUZERAIN = character:478008
-			}
-		}
-	}
     1289.3.12={
 	 death="1289.3.12"
     }
@@ -868,15 +859,6 @@
 	  remove_spouse = 477515
 	  add_spouse = 1234346	  
 	  }
-	  1310.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:466511
-		SUZERAIN = character:478007
-			}
-		}
-	}
 	  1311.1.1={
 		    death="1311.1.1"
 	  }
@@ -945,27 +927,9 @@
 	1210.1.2={
 		birth="1210.1.2"
 	}
-	1246.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:466514
-		SUZERAIN = character:478011
-			}
-		}
-	}
 	1244.1.1={
 		add_spouse=1234331
-	}	
-	1267.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:466514
-		SUZERAIN = character:478010
-			}
-		}
-	}	
+	}
 	1270.1.1={
 		death="1270.1.1"
 	}
@@ -1093,24 +1057,6 @@
 		birth="1225.1.1"
 		give_nickname = nick_the_clever
 	}
-	1267.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:466519
-		SUZERAIN = character:478010
-			}
-		}
-	}	
-	1285.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:466519
-		SUZERAIN = character:478008
-			}
-		}
-	}	
 	1293.1.15={
 		death="1293.1.15"
 	}
@@ -1441,7 +1387,7 @@
 	stewardship=5
 	religion="orthodox"
 	culture="georgian"
-	trait="mystic_1"
+	trait="lifestyle_mystic"
 	trait="zealous"
 	trait="education_intrigue_2"
 	father=41540
@@ -1627,15 +1573,6 @@
 	mother=145999
 	750.1.1={
 		birth="750.1.1"
-	}
-	769.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:70472
-		SUZERAIN = character:70501
-			}
-		}
 	}
 	786.1.1={
 		religion="orthodox"
@@ -3253,15 +3190,6 @@
 	}
 	986.1.1 = {
 		give_nickname=nick_the_great
-	}	
-	992.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:161203
-		SUZERAIN = character:1716
-			}
-		}
 	}
 	1000.1.1={
 		death="1000.1.1"

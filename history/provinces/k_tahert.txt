@@ -2,7 +2,7 @@
 ##d_tlemcen ###################################
 ###c_tlemcen
 4672 = {	#TLEMCEN
-	culture = butr
+	culture = danhagha
 	religion = ibadi
 	holding = castle_holding
 	867.1.1 = {
@@ -39,7 +39,7 @@
 
 ###c_wajda
 4674 = {	#WAJDA
-	culture = butr
+	culture = danhagha
 	religion = ashari
 	holding = castle_holding
 }
@@ -52,7 +52,7 @@
 
 ###c_orania
 4666 = {	#ORAN
-	culture = butr
+	culture = danhagha
 	religion = ashari
 	holding = castle_holding
 }
@@ -65,7 +65,7 @@
 
 ###c_hunyan
 4669 = {	#HUNYAN
-	culture = butr
+	culture = zenata
 	#culture = zanata
 	religion = ashari
 	holding = castle_holding
@@ -80,7 +80,7 @@
 ##d_tahert ###################################
 ###c_tahert
 4659 = {	#TAHART
-	culture = butr
+	culture = danhagha
 	religion = ibadi
 	holding = castle_holding
 	955.1.1 = {
@@ -102,7 +102,7 @@
 
 ###c_yalala
 4655 = {	#YALALA
-	culture = butr
+	culture = danhagha
 	religion = ibadi
 	holding = castle_holding
 	955.1.1 = {
@@ -118,7 +118,7 @@
 
 ###c_ashir
 4647 = {	#ASHIR_YASHIR
-	culture = butr
+	culture = danhagha
 	religion = ibadi
 	holding = castle_holding
 	955.1.1 = {
@@ -137,7 +137,7 @@
 
 ###c_figuig
 4749 = {	#FIGUIG
-	culture = butr
+	culture = danhagha
 	religion = ibadi
 	holding = tribal_holding
 	
@@ -157,7 +157,7 @@
 ##d_alger ###################################
 ###c_algier
 4650 = {	#ALGIERS
-	culture = butr
+	culture = danhagha
 	religion = ashari
 	holding = castle_holding
 }
@@ -173,7 +173,7 @@
 
 ###c_tanas
 4653 = {	#TANAS
-	culture = butr
+	culture = danhagha
 	religion = ashari
 	holding = castle_holding
 }
@@ -187,7 +187,7 @@
 ##d_bejaia###################################
 ###c_bejaia
 4637 = {	#BEJAIA
-	culture = baranis
+	culture = danhagha
 	religion = ashari
 	holding = castle_holding
 	1066.1.1 = {
@@ -204,7 +204,7 @@
 
 ###c_satif
 4639 = {	#SATIF
-	culture = baranis
+	culture = danhagha
 	religion = ashari
 	holding = castle_holding
 }
@@ -224,7 +224,7 @@
 ##d_zab###################################
 ###c_hodna
 4644 = {	#TUBNA
-	culture = butr
+	culture = zenata
 	religion = ibadi
 	holding = castle_holding
 	
@@ -258,7 +258,7 @@
 
 ###c_biskra
 4621 = {	#BISKRA
-	culture = butr
+	culture = zenata
 	#culture = zanata
 	religion = ibadi
 	holding = castle_holding
@@ -293,7 +293,7 @@
 
 ###c_bilizma
 4634 = {	#BILIZMA
-	culture = butr
+	culture = zenata
 	religion = ibadi
 	holding = castle_holding
 	
@@ -309,7 +309,7 @@
 ##d_mzab###################################
 ###c_wargla
 4615 = {	#WARGLA
-	culture = butr
+	culture = zenata
 	religion = ibadi
 	holding = tribal_holding
 }
@@ -325,7 +325,7 @@
 
 ###c_laghwat
 4619 = {	#AL-AGHWAT
-	culture = butr
+	culture = zenata
 	religion = ibadi
 	holding = tribal_holding
 	
@@ -340,7 +340,7 @@
 
 ###c_ghardaia
 4616 = {	#GHARDAIA
-	culture = butr
+	culture = zenata
 	religion = ibadi
 	holding = tribal_holding
 }
@@ -353,7 +353,7 @@
 
 ###c_arigh
 4609 = {	#ARIGH
-	culture = butr
+	culture = zenata
 	religion = ibadi
 	holding = tribal_holding
 }

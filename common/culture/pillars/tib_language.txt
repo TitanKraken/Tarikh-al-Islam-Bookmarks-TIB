@@ -479,6 +479,26 @@ language_venetian = {
 	color = { 0.26 0.52 0.52 }
 }
 
+# Semitic (Arabic, Israelite)
+language_south_arabian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_south_arabian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_south_arabian }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.59 0.97 0.69 }
+}
+
+
 # South Slavic
 language_bulgarian = {
 	type = language

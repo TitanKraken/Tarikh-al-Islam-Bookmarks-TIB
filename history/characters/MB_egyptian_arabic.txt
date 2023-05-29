@@ -12,7 +12,7 @@
 	culture="turkish"
 	1022.1.1={
 		birth=yes
-		culture="egyptian"
+		culture="mamluk"
 	}
 	1075.1.1={
 		death=yes
@@ -29,7 +29,7 @@
 		birth=yes
 	}
 	1048.1.1={
-		culture="egyptian"
+		culture="mamluk"
 	}
 	1065.1.1={
 		add_spouse=1144661
@@ -44,11 +44,11 @@
 	martial=7
 	stewardship=9
 	religion="ismaili"
-	culture="hausa"
+	culture="nubian" # "hausa"
 	father=1144660
   	1044.1.1={
 		birth=yes
-		culture="egyptian"
+		culture="mamluk"
 	}
 	1095.1.1={
 		death=yes
@@ -58,7 +58,7 @@
 	name="Dembele"
 	dynasty=1000054652
 	religion="ismaili"
-	culture="hausa"
+	culture="nubian" # "hausa"
 	1021.1.1={
 		birth=yes
 	}
@@ -74,7 +74,7 @@
 	female=yes
 	dynasty=1000054652
 	religion="ismaili"
-	culture="hausa"
+	culture="nubian" # "hausa"
 	father=1144660
   	1049.1.1={
 		birth="1049.1.1"
@@ -125,7 +125,7 @@
 	culture="turkish"
 	1041.1.1 = {
 		birth=yes
-		culture="egyptian"
+		culture="mamluk"
 	}
 	1095.1.1 = {
 		death={
@@ -201,7 +201,7 @@
 	father=1144658	
 	1050.1.1={
 		birth=yes
-		culture="egyptian"
+		culture="mamluk"
 	}
 	1088.1.1={
 		death=yes
@@ -252,7 +252,7 @@
 
 1234995 = {
 	name = "Yaakov" #Yaqub ibn Killis
-	dynasty=1000111002 #id taken from our file#		
+	#dynasty=1000111002 #id taken from our file#		
 	religion = "karaism"
 	culture = "sephardi"
 	father=1234994	
@@ -274,7 +274,7 @@
 
 1234997 = {
 	name = "Yosef" #al-Fallahi, successor to al-Jarjarai
-	dynasty=1000111003 #id taken from our file#		
+	#dynasty=1000111003 #id taken from our file#		
 	religion = "karaism"
 	culture = "sephardi"
 	1006.1.1 = {
@@ -300,15 +300,6 @@
 		birth=yes
 		culture="nubian"
 	}
-	1267.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236243
-		SUZERAIN = character:32933
-			}
-		}
-	}
 	1297.1.1={
 		death=yes
 	}
@@ -322,24 +313,6 @@
 	1208.1.1={
 		birth=yes
 		culture="nubian"
-	}
-	1241.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236244
-		SUZERAIN = character:32925
-			}
-		}
-	}
-	1258.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236244
-		SUZERAIN = character:32931
-			}
-		}
 	}	
 	1266.1.1={
 		death=yes
@@ -354,42 +327,6 @@
 	1172.1.1={
 		birth=yes
 		culture="nubian"
-	}
-	1187.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236245
-		SUZERAIN = character:226000
-			}
-		}
-	}
-	1194.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236245
-		SUZERAIN = character:226050
-			}
-		}
-	}
-	1204.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236245
-		SUZERAIN = character:226052
-			}
-		}
-	}
-	1220.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236245
-		SUZERAIN = character:32924
-			}
-		}
 	}
 	1233.1.1={
 		death=yes
@@ -419,24 +356,6 @@
 	father=1236248
 	1093.1.1={
 		birth=yes
-	}
-	1124.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236247
-		SUZERAIN = character:32905
-			}
-		}
-	}
-	1144.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236247
-		SUZERAIN = character:32907
-			}
-		}
 	}	
 	1158.1.1={
 		death=yes
@@ -451,24 +370,6 @@
 	1059.1.1={
 		birth=yes
 	}
-	1081.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_non_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236248
-		SUZERAIN = character:3096
-			}
-		}
-	}
-	1099.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236248
-		SUZERAIN = character:3100
-			}
-		}
-	}
 	1110.1.1={
 		death=yes
 	}
@@ -482,15 +383,6 @@
 	#mother=1231674
 	1026.1.1={
 		birth=yes
-	}
-	1066.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236249
-		SUZERAIN = character:3096
-			}
-		}
 	}
 	1077.1.1={
 		death=yes
@@ -508,15 +400,6 @@
 	}
 	1007.1.1={
 		dynasty_house = house_banukanz
-	}
-	1017.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236250
-		SUZERAIN = character:3092
-			}
-		}
 	}
 	#1011.1.1={
 	#	add_spouse=1231674
@@ -568,15 +451,6 @@
 		birth=yes
 		culture="nubian"
 	}
-	1337.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1236253
-		SUZERAIN = character:485000
-			}
-		}
-	}	
 	1362.1.1={
 		death=yes
 	}
@@ -584,7 +458,7 @@
 
 1900801 = {
 	name="Dirgham"
-	dynasty=1000111004
+	#dynasty=1000111004
 	religion="ismaili"
 	culture="egyptian"
 
@@ -618,7 +492,7 @@
 	culture="greek"
 	965.1.1={ #?
 		birth=yes
-		culture="egyptian"
+		culture="sicilian_arabian"
 	}
 	975.1.1={
 		add_trait="eunuch"
@@ -670,7 +544,7 @@
 		birth=yes
 	}
 	933.1.1 = {
-		culture="egyptian"
+		#culture="egyptian"
 		religion="ashari"
 		add_trait="eunuch"
 	}	

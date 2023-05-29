@@ -629,11 +629,11 @@
 	1240.1.1 = {
 		birth = "1240.1.1"
 	}
-	1285.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1285.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1289.1.1 = {
 		death = "1289.1.1"
 	}
@@ -665,11 +665,11 @@
 	1315.1.1 = {
 		add_spouse = 125750
 	}
-	1310.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1310.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1318.1.1 = {
 		death = "1318.1.1"
 	}
@@ -939,11 +939,11 @@
 	1090.1.1 = {
 		birth = "1090.1.1"
 	}
-	1124.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1124.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1140.1.1 = {
 		death = "1140.1.1"
 	}
@@ -976,11 +976,11 @@
 	1120.1.1 = {
 		birth = "1120.1.1"
 	}
-	1166.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
-	}
+	#1166.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
+	#}
+	#}
 	1177.1.1 = {
 		death = "1177.1.1"
 	}
@@ -997,11 +997,11 @@
 	1065.1.1 = {
 		birth = "1065.1.1"
 	}
-	1124.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
-	}
+	#1124.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
+	#}
+	#}
 	1140.1.1 = {
 		death = "1140.1.1"
 	}
@@ -1180,7 +1180,7 @@
 	trait = born_in_the_purple
 	trait = "trusting"
 	trait = "gluttonous"	
-	trait = "reveler_1"
+	trait = "lifestyle_reveler"
 	trait = "compassionate"	
 	trait = "education_diplomacy_1"								 
 	father = 1708
@@ -1374,11 +1374,11 @@
 	968.1.1 = {
 		birth = "968.1.1"
 	}
-	1018.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
-	}
+	#1018.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
+	#}
+	#}
 	1028.11.12 = {
 		add_spouse = 1717
 	}
@@ -1438,7 +1438,7 @@
 	culture = "greek"
 	trait = "education_diplomacy_1"
 	trait = "generous"	
-	trait = "reveler_1"				 
+	trait = "lifestyle_reveler"				 
 	father = 20560
 	mother = 1232359
 	1000.1.1 = {
@@ -1710,11 +1710,11 @@
 			add_character_flag = has_scripted_appearance
 		}	
 	}
-	1066.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1066.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1071.1.1 = {
 		trait = education_stewardship_4					  
 	}
@@ -1807,11 +1807,11 @@
 			set_relation_rival = { reason = rival_historical target = character:1734 }	#A bit early, as the events that would cause this wouldn't start till 1067, but better to have the rivalry ready to go straight off the bat.
 		}
 	}
-	1066.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1066.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1088.5.12 = {
 		death = "1088.5.12"
 	}
@@ -1830,11 +1830,11 @@
 	1060.1.1 = {
 		add_spouse = 727
 	}
-	1066.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1066.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1077.10.14 = {
 		death = "1077.10.14"
 	}
@@ -1867,11 +1867,11 @@
 	950.1.1 = {
 		birth = "950.1.1"
 	}
-	1018.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1018.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1020.1.1 = {
 		death = "1020.1.1"
 	}
@@ -1911,11 +1911,11 @@
 	1043.1.1 = {
 		birth = "1043.1.1"
 	}
-	1066.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1066.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1071.4.17 = {
 		death = "1071.4.17"
 	}
@@ -1928,7 +1928,7 @@
 	culture = "greek"
 	trait = "education_martial_2"	
 	trait = "brave"	
-	trait = "hunter_1"
+	trait = "lifestyle_hunter"
 	trait = "content"			   
 	father = 1752
 	mother = 4511
@@ -1938,11 +1938,11 @@
 	1060.1.1 = {
 		add_spouse = 9958
 	}
-	1066.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1066.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1104.11.1 = {
 		death = "1104.11.1"
 	}
@@ -1998,11 +1998,11 @@
 	1049.1.2 = {
 		add_spouse = 1765
 	}
-	1066.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1066.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1081.10.18 = {
 		death = "1081.10.18"
 	}
@@ -2231,11 +2231,11 @@
 	994.1.1 = {
 		add_spouse = 42002
 	}
-	1018.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1018.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1033.1.1 = {
 		death = "1033.1.1"
 	}
@@ -2384,11 +2384,11 @@
 	1030.1.1 = {
 		birth = "1030.1.1"
 	}
-	1066.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1066.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1085.1.1 = {
 		death = "1085.1.1"
 	}
@@ -2610,11 +2610,11 @@
 	1030.1.1 = {
 		birth = "1030.1.1"
 	}
-	1066.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1066.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1078.1.1 = {
 		trait = blind
 	}
@@ -2990,11 +2990,11 @@
 	1018.1.1 = {
 		add_spouse = 1500447
 	}
-	1018.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
-	}
+	#1018.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
+	#}
+	#}
 	1032.1.1 = {
 		death = "1032.1.1"
 	}
@@ -3269,26 +3269,26 @@ Phokas3 = {
 	1025.1.1 = {
 		birth = "1025.1.1"
 	}
-	1081.1.1 = {
-		effect = {
-			vassal_contract_set_obligation_level = {
-				type = religious_rights
-				level = 1
-			}
-			vassal_contract_set_obligation_level = {
-				type = title_revocation_rights
-				level = 1
-			}
-			vassal_contract_set_obligation_level = {
-				type = feudal_government_taxes
-				level = feudal_tax_high
-			}
-			vassal_contract_set_obligation_level = {
-				type = feudal_government_levies
-				level = feudal_levies_low
-			}
-		}
-	}
+	#1081.1.1 = {
+	#	effect = {
+	#		vassal_contract_set_obligation_level = {
+	#			type = religious_rights
+	#			level = 1
+	#		}
+	#		vassal_contract_set_obligation_level = {
+	#			type = title_revocation_rights
+	#			level = 1
+	#		}
+	#		vassal_contract_set_obligation_level = {
+	#			type = feudal_government_taxes
+	#			level = feudal_tax_high
+	#		}
+	#		vassal_contract_set_obligation_level = {
+	#			type = feudal_government_levies
+	#			level = feudal_levies_low
+	#		}
+	#	}
+	#}
 	1100.1.1 = {
 		death = "1100.1.1"
 	}
@@ -3332,16 +3332,16 @@ Phokas3 = {
 	1062.1.1 = {
 		add_spouse = 41593
 	}
-	1066.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
-	1081.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
-	}
+	#1066.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
+	#1081.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
+	#}
+	#}
 	1098.10.2 = {
 		death = "1098.10.2"
 	}
@@ -3470,11 +3470,11 @@ Phokas3 = {
 	1013.1.1 = {
 		birth = "1013.1.1"
 	}
-	1066.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
-	}
+	#1066.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
+	#}
+	#}
 	1074.1.1 = {
 		death = "1074.1.1"
 	}
@@ -3561,11 +3561,11 @@ Phokas3 = {
 	888.1.1 = {
 		birth = "888.1.1"
 	}
-	936.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
-	}
+	#936.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
+	#}
+	#}
 	950.1.1 = {
 		death = "950.1.1"
 	}
@@ -3630,11 +3630,11 @@ Phokas3 = {
 	1182.1.2 = {
 		add_spouse = 215527
 	}
-	1186.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
-	}
+	#1186.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
+	#}
+	#}
 	1193.1.1 = {
 		death = "1193.1.1"
 	}
@@ -3704,11 +3704,11 @@ Phokas3 = {
 	1148.1.1 = {
 		birth = "1148.1.1"
 	}
-	1166.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
-	}
+	#1166.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
+	#}
+	#}
 	1198.1.1 = {
 		death = "1198.1.1"
 	}
@@ -3983,11 +3983,11 @@ Phokas3 = {
 	1144.1.1 = {
 		birth = "1144.1.1"
 	}
-	1166.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1166.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1194.1.1 = {
 		death = "1194.1.1"
 	}
@@ -4027,11 +4027,11 @@ Phokas3 = {
 	1190.1.1 = {
 		trait = blind
 	}
-	1186.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1186.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1220.1.1 = {
 		death = "1220.1.1"
 	}
@@ -4245,11 +4245,11 @@ Phokas3 = {
 	1150.1.1 = {
 		birth = "1150.1.1"
 	}
-	1186.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
-	}
+	#1186.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
+	#}
+	#}
 	1200.1.1 = {
 		death = "1200.1.1"
 	}
@@ -4274,11 +4274,11 @@ Phokas3 = {
 	1154.1.1 = {
 		add_spouse = 232505
 	}
-	1166.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1166.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1189.1.1 = {
 		death = "1189.1.1"
 	}
@@ -4320,11 +4320,11 @@ Phokas3 = {
 	1154.1.1 = {
 		birth = "1154.1.1"
 	}
-	1166.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1166.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1204.4.1 = {
 		death = "1204.4.1"
 	}
@@ -4367,11 +4367,11 @@ Phokas3 = {
 	1186.1.1 = {
 		culture = gothic
 	}
-	1186.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1186.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1205.1.1 = {
 		death = "1205.1.1"
 	}
@@ -4438,11 +4438,11 @@ Phokas3 = {
 	1185.11.7 = {
 		add_pressed_claim = title:e_byzantium
 	}
-	1186.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
-	}
+	#1186.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
+	#}
+	#}
 	1187.1.1 = {
 		death = "1187.1.1"
 	}
@@ -4615,11 +4615,11 @@ Branas1 = { #
 	1150.1.2 = {
 		add_spouse = 215525
 	}
-	1166.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1166.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1185.1.5 = {
 		death = "1185.1.5"
 	}
@@ -4688,11 +4688,11 @@ Branas1 = { #
 	1126.1.2 = {
 		birth = "1126.1.2"
 	}
-	1166.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1166.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1178.1.1 = {
 		add_spouse = 180999
 	}
@@ -4713,11 +4713,11 @@ Branas1 = { #
 	1112.1.2 = {
 		add_spouse = 215555
 	}
-	1124.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1124.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1166.1.16 = {
 		death = "1166.1.16"
 	}
@@ -4866,11 +4866,11 @@ Branas1 = { #
 			add_character_flag = has_scripted_appearance
 		}			
 	}
-	1186.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1186.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1204.5.16 = {
 		add_pressed_claim = title:e_byzantium
 		add_pressed_claim = title:d_thrace
@@ -4920,11 +4920,11 @@ Branas1 = { #
 			add_character_flag = has_scripted_appearance
 		}		
 	}
-	1186.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
-	}
+	#1186.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
+	#}
+	#}
 	1204.1.2 = {
 		add_spouse = 232509		
 	}
@@ -5052,11 +5052,11 @@ Branas1 = { #
 	1115.1.1 = {
 		add_spouse = 1234333
 	}
-	1124.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
-	}
+	#1124.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
+	#}
+	#}
 	1153.1.2 = {
 		death = "1153.1.2"
 	}
@@ -5071,7 +5071,7 @@ Branas1 = { #
 	stewardship = 3
 	religion = "orthodox"
 	culture = "greek"
-	trait = reveler_1
+	trait = lifestyle_reveler
 	trait = greedy
 	trait = ambitious
 	trait = lustful
@@ -5081,11 +5081,11 @@ Branas1 = { #
 	1118.1.1 = {
 		birth = "1118.1.1"
 	}
-	1166.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
-	}
+	#1166.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
+	#}
+	#}
 	1183.9.24 = {
 		add_spouse = 205519
 	}
@@ -5119,11 +5119,11 @@ Branas1 = { #
 			add_character_flag = has_scripted_appearance
 		}		
 	}
-	1124.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1124.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1146.1.1 = {
 		add_spouse = 125800
 	}
@@ -5281,11 +5281,11 @@ Branas1 = { #
 	1152.1.2 = {
 		add_spouse = 215571
 	}
-	1166.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1166.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1176.1.2 = {
 		death = "1176.1.2"
 	}
@@ -5344,11 +5344,11 @@ Branas1 = { #
 	1165.1.2 = {
 		add_spouse = 215671
 	}
-	1166.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1166.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1190.1.2 = {
 		death = "1190.1.2"
 	}
@@ -5659,11 +5659,11 @@ Branas1 = { #
 	1108.1.1 = {
 		birth = "1108.1.1"
 	}
-	1124.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1124.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1142.10.2 = {
 		death = "1142.10.2"
 	}
@@ -5728,11 +5728,11 @@ Branas1 = { #
 	1100.1.1 = {
 		birth = "1100.1.1"
 	}
-	1124.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1124.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1122.1.2 = {
 		add_spouse = 215533
 	}
@@ -5956,11 +5956,11 @@ Branas1 = { #
 	1132.1.2 = {
 		add_spouse = 232511
 	}
-	1166.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1166.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1170.1.1 = {
 		death = "1170.1.1"
 	}
@@ -5998,11 +5998,11 @@ Branas1 = { #
 	1122.2.1 = {
 		add_spouse = 125109
 	}
-	1124.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1124.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1142.8.2 = {
 		death = "1142.8.2"
 	}
@@ -6037,11 +6037,11 @@ Branas1 = { #
 	1085.1.1 = {
 		birth = "1085.1.1"
 	}
-	1124.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1124.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1126.1.1 = {
 		add_spouse = 232513
 	}
@@ -6102,11 +6102,11 @@ Branas1 = { #
 	1134.1.1 = {
 		birth = "1134.1.1"
 	}
-	1166.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1166.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1182.1.1 = {
 		trait = blind
 	}
@@ -6273,11 +6273,11 @@ Branas1 = { #
 	1098.1.1 = {
 		add_spouse = 215532
 	}
-	1124.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
-	}
+	#1124.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
+	#}
+	#}
 	1136.1.1 = {
 		death = "1136.1.1"
 	}
@@ -6391,11 +6391,11 @@ Branas1 = { #
 	1154.5.5 = {
 		add_spouse = 232545
 	}
-	1166.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
-	}
+	#1166.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
+	#}
+	#}
 	1170.1.1 = {
 		death = "1170.1.1"
 	}
@@ -6481,11 +6481,11 @@ Branas1 = { #
 	1120.1.1 = {
 		birth = "1120.1.1"
 	}
-	1166.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
-	}
+	#1166.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
+	#}
+	#}
 	1167.1.1 = {
 		death = "1167.1.1"
 	}
@@ -6562,11 +6562,11 @@ Branas1 = { #
 	1123.1.1 = {
 		birth = "1123.1.1"
 	}
-	1166.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1166.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1185.1.1 = {
 		death = "1185.1.1"
 	}
@@ -6605,11 +6605,11 @@ Branas1 = { #
 	1137.1.2 = {
 		birth = "1137.1.2"
 	}
-	1166.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
-	}
+	#1166.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
+	#}
+	#}
 	1173.1.2 = {
 		death = "1173.1.2"
 	}
@@ -6890,11 +6890,11 @@ Branas1 = { #
 	1040.1.1 = {
 		birth = "1040.1.1"
 	}
-	1066.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1066.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1066.7.1 = {
 		add_spouse = 4538
 	}
@@ -7123,11 +7123,11 @@ Branas1 = { #
 	907.1.1 = {
 		add_spouse = 1232451
 	}
-	936.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#936.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	969.1.1 = {
 		death = "969.1.1"
 	}
@@ -7187,11 +7187,11 @@ Branas1 = { #
 	1010.1.1 = {
 		add_spouse = 159535
 	}
-	1018.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1018.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1018.1.1 = {
 		add_pressed_claim = title:e_byzantium
 	}	
@@ -7258,11 +7258,11 @@ Branas1 = { #
 	1062.1.1 = {
 		add_spouse = 4533
 	}
-	1066.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1066.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1094.3.12 = {
 		death = "1094.3.12"
 	}
@@ -7341,11 +7341,11 @@ Branas1 = { #
 	1017.1.1 = {
 		birth = "1017.1.1"
 	}
-	1066.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1066.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1070.1.1 = {
 		death = "1070.1.1"
 	}
@@ -9133,7 +9133,7 @@ Branas1 = { #
 	stewardship = 4
 	religion = "orthodox"
 	culture = "greek"
-	trait = hunter_1
+	trait = lifestyle_hunter
 	trait = education_intrigue_2
 	father = 70400
 	
@@ -9263,11 +9263,11 @@ Branas1 = { #
 	1053.1.1 = {
 		birth = "1053.1.1"
 	}
-	1081.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1081.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1105.1.1 = {
 		death = "1105.1.1"
 	}
@@ -9290,11 +9290,11 @@ Branas1 = { #
 	1055.1.1 = {
 		birth = "1055.1.1"
 	}
-	1081.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1081.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1110.1.1 = {
 		death = "1110.1.1"
 	}
@@ -9358,11 +9358,11 @@ Branas1 = { #
 	1130.1.1 = {
 		birth = "1130.1.1"
 	}
-	1160.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1160.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1200.1.1 = {
 		death = "1200.1.1"
 	}
@@ -9457,11 +9457,11 @@ Dalassenos1 = {
 	1025.1.1 = {
 		birth = "1025.1.1"
 	}
-	1066.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1066.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1100.1.1 = {
 		death = "1100.1.1"
 	}
@@ -9491,7 +9491,7 @@ Dalassenos1 = {
 	religion = "orthodox"
 	culture = "greek"
 	trait = temperate
-	trait = hunter_1
+	trait = lifestyle_hunter
 	trait = education_martial_2
 	father = 70431
 	
@@ -9790,7 +9790,7 @@ Dalassenos1 = {
 	stewardship = 5
 	religion = "orthodox"
 	culture = "greek"
-	trait = reveler_1
+	trait = lifestyle_reveler
 	trait = education_martial_2
 	father = 70497
 	
@@ -12501,11 +12501,11 @@ Dalassenos1 = {
 	1039.1.1 = {
 		birth = "1039.1.1"
 	}
-	1066.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1066.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1093.1.1 = {
 		death = "1093.1.1"
 	}
@@ -13752,11 +13752,11 @@ Dalassenos1 = {
 	1156.1.1 = {
 		add_spouse = 34272
 	}	
-	1186.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
-	}
+	#1186.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
+	#}
+	#}
 	1202.1.1 = {
 		death = "1202.1.1"
 	}
@@ -13790,11 +13790,11 @@ Dalassenos1 = {
 	1155.1.1 = {
 		add_spouse = 34274
 	}	
-	1166.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1166.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1177.1.1 = {
 		death = "1177.1.1"
 	}
@@ -13881,11 +13881,11 @@ Dalassenos1 = {
 	1140.1.1 = {
 		birth = "1140.1.1"
 	}
-	1166.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1166.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1167.1.1 = {
 		add_spouse = 34408
 	}
@@ -13918,11 +13918,11 @@ Dalassenos1 = {
 	1205.1.1 = {
 		birth = "1205.1.1"
 	}
-	1267.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1267.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1279.1.1 = {
 		death = "1279.1.1"
 	}
@@ -13969,11 +13969,11 @@ Dalassenos1 = {
 	1261.1.1 = {
 		birth = "1261.1.1"
 	}
-	1285.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1285.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1321.6.6 = {
 		death = "1321.6.6"
 	}
@@ -14020,11 +14020,11 @@ Dalassenos1 = {
 	1120.1.1 = {
 		add_spouse = 34291
 	}
-	1124.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1124.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1150.1.1 = {
 		death = "1150.1.1"
 	}
@@ -14130,11 +14130,11 @@ Dalassenos1 = {
 	1166.1.1 = {
 		add_spouse = 34293
 	}
-	1186.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1186.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1205.1.1 = {
 		death = "1205.1.1"
 	}
@@ -14736,11 +14736,11 @@ Dalassenos1 = {
 	1150.1.1 = {
 		add_spouse = 34406
 	}
-	1166.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1166.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1176.9.17 = {
 		death = "1176.9.17"
 	}
@@ -14833,11 +14833,11 @@ Dalassenos1 = {
 	1132.1.1 = {
 		birth = "1132.1.1"
 	}
-	1166.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1166.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1182.1.1 = {
 		death = "1182.1.1"
 	}
@@ -15025,11 +15025,11 @@ Dalassenos1 = {
 	1260.1.1 = {
 		birth = "1260.1.1"
 	}	
-	1267.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1267.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1294.1.1 = {
 		death = "1294.1.1"
 	}
@@ -15044,11 +15044,11 @@ Dalassenos1 = {
 	1261.1.1 = {
 		birth = "1261.1.1"
 	}	
-	1310.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1310.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1311.1.1 = {
 		death = "1311.1.1"
 	}
@@ -15223,11 +15223,11 @@ Dalassenos1 = {
 	1084.1.1 = {
 		birth = "1084.1.1"
 	}	
-	1124.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1124.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1132.1.1 = {
 		death = "1132.1.1"
 	}
@@ -15261,11 +15261,11 @@ Dalassenos1 = {
 	1119.1.1 = {
 		add_spouse=1232393
 	}
-	1124.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
-	}
+	#1124.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
+	#}
+	#}
 	1143.1.1 = {
 		death = "1143.1.1"
 	}
@@ -15340,11 +15340,11 @@ Dalassenos1 = {
 	1220.1.1 = {
 		birth = "1220.1.1"
 	}	
-	1267.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1267.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1275.1.1 = {
 		death = "1275.1.1"
 	}
@@ -15511,11 +15511,11 @@ Dalassenos1 = {
 	1026.1.1 = {
 		birth = "1026.1.1"
 	}	
-	1066.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1066.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1073.1.1 = {
 		death = "1073.1.1"
 	}
@@ -15561,11 +15561,11 @@ Dalassenos1 = {
 	1090.1.1 = {
 		birth = "1090.1.1"
 	}	
-	1124.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
-	}
+	#1124.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
+	#}
+	#}
 	1140.1.1 = {
 		death = "1140.1.1"
 	}
@@ -15624,11 +15624,11 @@ Dalassenos1 = {
 	1130.1.1 = {
 		birth = "1130.1.1"
 	}	
-	1166.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1166.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1200.1.1 = {
 		death = "1200.1.1"
 	}
@@ -15688,11 +15688,11 @@ Dalassenos1 = {
 	1029.1.1 = {
 		birth = "1029.1.1"
 	}
-	1066.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1066.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1073.1.1 = {
 		death = "1073.1.1"
 	}
@@ -15800,11 +15800,11 @@ Dalassenos1 = {
 	1125.1.1 = {
 		birth = "1125.1.1"
 	}
-	1166.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1166.1.1 = {
+#	effect = {
+#		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+#	}
+#	}
 	1176.1.1 = {
 		death = "1176.1.1"
 	}
@@ -15832,11 +15832,11 @@ Dalassenos1 = {
 	1047.1.1 = {
 		birth = "1047.1.1"
 	}
-	1081.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1081.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1115.1.1 = {
 		death = "1115.1.1"
 	}
@@ -15910,11 +15910,11 @@ Dalassenos1 = {
 	1100.1.1 = {
 		birth = "1100.1.1"
 	}	
-	1124.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1124.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1168.1.1 = {
 		death = "1168.1.1"
 	}
@@ -16194,11 +16194,11 @@ Dalassenos1 = {
 	1288.1.1 = {
 		birth = "1288.1.1"
 	}
-	1310.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1310.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1345.1.1 = {
 		death = "1345.1.1"
 	}
@@ -16925,15 +16925,6 @@ Dalassenos1 = {
 	970.1.1 = {
 		birth = "970.1.1"
 	}
-	1017.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_non_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:163080
-		SUZERAIN = character:1716
-			}
-		}
-	}
 	1036.1.1 = {
 		death = "1036.1.1"
 	}
@@ -16962,15 +16953,6 @@ Dalassenos1 = {
 	949.1.1 = {
 		birth = "949.1.1"
 	}
-	992.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:163082
-		SUZERAIN = character:1716
-			}
-		}
-	}
 	997.1.1 = {
 		death = "997.1.1"
 	}
@@ -16996,21 +16978,11 @@ Dalassenos1 = {
 	religion = "orthodox"
 	culture = "greek"
 	father = 163085
-	910.1.1 = {
-		birth = "910.1.1"
-		effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:163084
-		SUZERAIN = character:1706
-		}
-	}
-	}
-	936.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#936.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	992.1.1 = {
 		death = "992.1.1"
 	}
@@ -17196,11 +17168,11 @@ Dalassenos1 = {
 	1080.1.1 = {
 		birth = "1080.1.1" #Unknown
 	}
-	1124.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
-	}
+	#1124.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
+	#}
+	#}
 	1150.1.1 = {
 		death = "1150.1.1"
 	}
@@ -17843,11 +17815,11 @@ Dalassenos1 = {
 	820.1.1 = {
 		birth = "820.1.1"
 	}
-	867.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#867.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	880.1.1 = {
 		death = "880.1.1"
 	}
@@ -17892,11 +17864,11 @@ Dalassenos1 = {
 	830.1.1 = {
 		birth = "830.1.1"
 	}
-	867.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#867.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	885.1.1 = {
 		death = "885.1.1"
 	}
@@ -18011,11 +17983,11 @@ Dalassenos1 = {
 	924.1.1 = {
 		add_spouse = 145155
 	}
-	936.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#936.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	945.1.1 = {
 		death = "945.1.1"
 	}
@@ -18045,11 +18017,11 @@ Dalassenos1 = {
 	835.1.1 = {
 		birth = "835.1.1"
 	}
-	867.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#867.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	890.1.1 = {
 		death = "890.1.1"
 	}
@@ -18080,11 +18052,11 @@ Dalassenos1 = {
 	880.1.1 = {
 		birth = "880.1.1"
 	}
-	936.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#936.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	945.1.1 = {
 		death = "945.1.1"
 	}
@@ -18178,11 +18150,11 @@ Dalassenos1 = {
 	810.1.1 = {
 		birth = "810.1.1"
 	}
-	867.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#867.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	870.1.1 = {
 		death = "870.1.1"
 	}
@@ -18290,11 +18262,11 @@ Dalassenos1 = {
 	840.1.1 = {
 		birth = "840.1.1"
 	}
-	867.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#867.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	900.1.1 = {
 		death = "900.1.1"
 	}
@@ -18328,11 +18300,11 @@ Dalassenos1 = {
 	890.1.1 = {
 		birth = "890.1.1"
 	}
-	936.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#936.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	950.1.1 = {
 		death = "950.1.1"
 	}
@@ -18812,11 +18784,11 @@ Dalassenos1 = {
 	896.1.1 = {
 		birth = "896.1.1"
 	}
-	936.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#936.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	963.4.18 = {
 		death = "963.4.18"
 	}
@@ -18834,11 +18806,11 @@ Dalassenos1 = {
 	899.1.1 = {
 		birth = "899.1.1"
 	}
-	936.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#936.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	945.1.1 = {
 		trait=devoted #sent into exile
 																									  
@@ -18921,9 +18893,6 @@ Dalassenos1 = {
 	}
 	866.1.1 = {
 		employer = 6881
-		effect = {
-			add_family_to_republic_families = yes
-		}
 	}
 	885.1.1 = {
 		
@@ -19814,17 +19783,9 @@ Dalassenos1 = {
 	835.1.1 = {
 		add_spouse = 168397
 	}
-	866.1.1 = {
-		effect = {
-			add_family_to_republic_families = yes
-		}
-	}
 	867.1.1 = {
 		effect = {
 			add_gold = 400
-			set_up_elected_ruler_republic = yes
-			effect_create_personal_army = yes
-			change_family_influence_positive = { AMOUNT = 2000 }
 		}
 	}
 	870.1.1 = {
@@ -22502,11 +22463,11 @@ Dalassenos1 = {
 	901.1.1 = {
 		birth = yes
 	}
-	936.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
-	}
+	#936.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
+	#}
+	#}
 	938.1.1 = {
 		death = yes
 	}
@@ -22520,11 +22481,11 @@ Dalassenos1 = {
 	901.1.1 = {
 		birth = yes
 	}
-	936.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#936.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	950.1.1 = {
 		death = yes
 	}
@@ -23011,10 +22972,10 @@ Dalassenos1 = {
 		culture="greek"
 	}
 	867.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	889.1.1 = {
 		death = yes
 	}
@@ -23068,14 +23029,14 @@ Dalassenos1 = {
 	831.1.1 = {
 		birth = yes
 	}
-	852.1.1 = {
-		culture="greek"
-	}
-	867.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#852.1.1 = {
+	#	culture="greek"
+	#}
+	#867.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	890.1.1 = {
 		death = yes
 	}
@@ -23095,11 +23056,11 @@ Dalassenos1 = {
 	837.1.1 = {
 		birth = yes
 	}
-	867.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#867.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	873.1.1 = {
 		add_spouse = "145132"
 	}	
@@ -23116,11 +23077,11 @@ Dalassenos1 = {
 	848.1.1 = {
 		birth = yes
 	}
-	867.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#867.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	893.1.1 = {
 		death = yes
 	}
@@ -23300,11 +23261,11 @@ Dalassenos1 = {
 	829.1.1 = {
 		birth = yes
 	}
-	867.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#867.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	892.1.1 = {
 		death = yes
 	}
@@ -23425,11 +23386,11 @@ Dalassenos1 = {
 	1032.1.1={
 		birth = yes
 	}
-	1066.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1066.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1088.1.1={
 		death = yes
 	}
@@ -23527,11 +23488,11 @@ Dalassenos1 = {
 	1050.1.1={
 		birth = yes
 	}
-	1081.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
-	}
+	#1081.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
+	#}
+	#}
 	1113.1.1={
 		death = yes
 	}
@@ -23558,11 +23519,11 @@ Dalassenos1 = {
 	1033.1.1={
 		birth = yes
 	}
-	1066.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1066.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1094.1.1={
 		death = yes
 	}
@@ -23589,11 +23550,11 @@ Dalassenos1 = {
 	1012.1.1={
 		birth = yes
 	}
-	1066.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1066.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1071.1.1={
 		death = yes
 	}
@@ -23620,11 +23581,11 @@ Dalassenos1 = {
 	1038.1.1={
 		birth = yes
 	}
-	1066.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1066.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1103.1.1={
 		death = yes
 	}
@@ -23638,11 +23599,11 @@ Dalassenos1 = {
 	1039.1.1={
 		birth = yes
 	}
-	1066.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1066.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1090.1.1={
 		death = yes
 	}
@@ -23669,11 +23630,11 @@ Dalassenos1 = {
 	970.1.1={
 		birth = yes
 	}
-	1018.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1018.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1030.1.1={
 		death = yes
 	}
@@ -23700,11 +23661,11 @@ Dalassenos1 = {
 	1027.1.1={
 		birth = yes
 	}
-	1066.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1066.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1085.1.1={
 		death = yes
 	}
@@ -23770,11 +23731,11 @@ Dalassenos1 = {
 	1014.1.1={
 		birth = yes
 	}
-	1066.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1066.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1072.1.1={
 		death = yes
 	}
@@ -23853,11 +23814,11 @@ Dalassenos1 = {
 	1019.1.1={
 		birth="1019.1.1"
 	}
-	1066.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1066.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1070.1.1={
 		death="1070.1.1"
 	}
@@ -23965,11 +23926,11 @@ Dalassenos1 = {
 	1034.1.1={
 		birth = yes
 	}
-	1081.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1081.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1096.1.1={
 		death = yes
 	}
@@ -23983,11 +23944,11 @@ Dalassenos1 = {
 	1040.1.1={
 		birth = yes
 	}
-	1066.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1066.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1115.1.1={
 		death = yes
 	}
@@ -24014,11 +23975,11 @@ Dalassenos1 = {
 	1014.1.1={
 		birth = yes
 	}
-	1066.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1066.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1076.1.1={
 		death = yes
 	}
@@ -24079,11 +24040,11 @@ Dalassenos1 = {
 	1042.1.1={
 		birth = yes
 	}
-	1066.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1066.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1101.1.1={
 		death = yes
 	}
@@ -24123,11 +24084,11 @@ Dalassenos1 = {
 	1044.1.1={
 		birth = yes
 	}
-	1081.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1081.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1109.1.1={
 		death = yes
 	}
@@ -24141,11 +24102,11 @@ Dalassenos1 = {
 	1118.1.1={
 		birth = yes
 	}
-	1166.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
-	}
+	#1166.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
+	#}
+	#}
 	1179.1.1={
 		death = yes
 	}
@@ -24657,11 +24618,11 @@ Dalassenos1 = {
 	1124.1.1={
 		birth = yes
 	}
-	1166.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
-	}
+	#1166.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
+	#}
+	#}
 	1177.1.1={
 		death = yes
 	}
@@ -24876,11 +24837,11 @@ Kontostephanos2 = { #Continued to exist till 15th century
 	1132.1.1={
 		birth = yes
 	}
-	1186.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
-	}
+	#1186.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
+	#}
+	#}
 	1202.1.1={
 		death = yes
 	}
@@ -24907,11 +24868,12 @@ Kontostephanos2 = { #Continued to exist till 15th century
 	mother=232545
 	1155.1.1={
 		birth = yes
-	}1186.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
 	}
-	}
+	1186.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
+	#}
+	#}
 	1210.1.1={
 		death = yes
 	}
@@ -24925,11 +24887,11 @@ Kontostephanos2 = { #Continued to exist till 15th century
 	1149.1.1={
 		birth = yes
 	}
-	1186.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1186.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1204.1.1={
 		death = yes
 	}
@@ -25140,11 +25102,11 @@ Kontostephanos2 = { #Continued to exist till 15th century
 	978.1.1={
 		birth=yes
 	}
-	1018.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
-	}
+	#1018.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
+	#}
+	#}
 	1042.1.1={
 		death=yes
 	}
@@ -25158,11 +25120,11 @@ Kontostephanos2 = { #Continued to exist till 15th century
 	979.1.1={
 		birth=yes
 	}
-	1018.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
-	}
+	#1018.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
+	#}
+	#}
 	1039.1.1={
 		death=yes
 	}
@@ -25256,7 +25218,7 @@ Kontostephanos2 = { #Continued to exist till 15th century
 		birth=yes
 	}
 	1042.1.1={
-		culture="greek"	
+		#culture="greek"	
 		dynasty=1000102839
 	}
 	1055.1.1={
@@ -25356,11 +25318,11 @@ Kontostephanos2 = { #Continued to exist till 15th century
 	1240.1.1={
 		birth = yes
 	}
-	1267.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1267.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1283.1.1={
 		death = yes
 	}
@@ -25374,11 +25336,11 @@ Kontostephanos2 = { #Continued to exist till 15th century
 	1236.1.1={
 		birth = yes
 	}
-	1285.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1285.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1302.1.1={
 		death = yes
 	}
@@ -25407,11 +25369,11 @@ Kontostephanos2 = { #Continued to exist till 15th century
 	890.1.1 = {
 		birth = yes
 	}
-	936.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#936.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	955.1.1 = {
 		death = yes
 	}
@@ -25572,11 +25534,11 @@ Kontostephanos2 = { #Continued to exist till 15th century
 	979.1.1={
 		birth = yes
 	}
-	1018.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1018.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1041.1.1={
 		death = yes
 	}
@@ -25759,11 +25721,11 @@ Kontostephanos2 = { #Continued to exist till 15th century
 	966.1.1={
 		birth=yes
 	}
-	1018.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1018.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1028.1.1={
 		death=yes
 	}
@@ -26058,11 +26020,11 @@ Kontostephanos2 = { #Continued to exist till 15th century
 	981.1.1={
 		birth = yes
 	}
-	1018.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
-	}
+	#1018.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
+	#}
+	#}
 	1030.1.1={
 		death = yes
 	}
@@ -26157,9 +26119,6 @@ Kontostephanos2 = { #Continued to exist till 15th century
 	}
 	1017.1.1 = {
 		employer = 1061502
-		effect = {
-			add_family_to_republic_families = yes
-		}
 	}
 	1028.1.1 = {
 		death=yes
@@ -26386,11 +26345,11 @@ Kontostephanos2 = { #Continued to exist till 15th century
 	963.1.1={
 		birth=yes
 	}
-	1018.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1018.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1020.1.1={
 		death=yes
 	}
@@ -27489,11 +27448,11 @@ Kontostephanos2 = { #Continued to exist till 15th century
 	970.1.1={
 		birth=yes
 	}
-	1018.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1018.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1027.1.1={
 		add_trait = blind
 	}	
@@ -27758,11 +27717,11 @@ Kontostephanos2 = { #Continued to exist till 15th century
 	983.1.1={
 		birth=yes
 	}
-	1018.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1018.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1032.1.1={
 		death=yes
 	}
@@ -27776,11 +27735,11 @@ Kontostephanos2 = { #Continued to exist till 15th century
 	893.1.1={
 		birth=yes
 	}
-	936.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#936.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	963.1.1={
 		death=yes
 	}
@@ -28012,11 +27971,11 @@ Kontostephanos2 = { #Continued to exist till 15th century
 	1115.1.1={
 		birth=yes
 	}
-	1166.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1166.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1190.1.1={
 		death=yes
 	}
@@ -28089,14 +28048,14 @@ Skleros2 = { #
 	}
 	855.1.1={
 		name="Niketas"	
-		culture="greek"
+		#culture="greek"
 		religion="orthodox"
 	}	
-	867.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#867.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	918.1.1={
 		death=yes
 	}
@@ -28111,7 +28070,7 @@ Skleros2 = { #
 		birth=yes
 	}
 	855.1.1={
-		culture="greek"
+		#culture="greek"
 	}
 	866.1.1 = {
 		employer=1232466
@@ -28130,11 +28089,11 @@ Skleros2 = { #
 		culture="greek"	
 		birth=yes
 	}	
-	936.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#936.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	939.1.1={
 		death=yes
 	}
@@ -28317,11 +28276,11 @@ Skleros2 = { #
 	1009.1.1={
 		add_spouse = "1500428"
 	}	
-	1018.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
-	}
+	#1018.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
+	#}
+	#}
 		
 	1038.1.1={
 		death=yes
@@ -28643,11 +28602,11 @@ Skleros2 = { #
 	987.1.1={
 		birth = yes
 	}
-	1018.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1018.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1036.1.1={
 		death = yes
 	}
@@ -28832,11 +28791,11 @@ Skleros2 = { #
 	966.1.1={
 		birth = yes
 	}
-	1018.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1018.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1021.1.1={
 		death = yes
 	}
@@ -29023,11 +28982,11 @@ Skleros2 = { #
 	970.1.1={
 		birth = yes
 	}
-	1018.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1018.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1027.1.1={
 		death = yes
 	}
@@ -29087,11 +29046,11 @@ Skleros2 = { #
 	970.1.1={
 		birth=yes
 	}
-	1018.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1018.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1035.1.1={
 		death=yes
 	}
@@ -29394,11 +29353,11 @@ Skleros2 = { #
 	997.1.1={
 		birth = yes
 	}
-	1018.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1018.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1051.1.1={
 		death = yes
 	}
@@ -29625,11 +29584,11 @@ Skleros2 = { #
 	987.1.1={
 		birth=yes
 	}	
-	1018.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
-	}
+	#1018.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
+	#}
+	#}
 	1041.1.1={
 		death=yes
 	}
@@ -29654,11 +29613,11 @@ Skleros2 = { #
 	975.1.1={
 		birth=yes
 	}	
-	1018.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1018.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1030.1.1={
 		death=yes
 	}
@@ -29803,11 +29762,11 @@ Skleros2 = { #
 	978.1.1={
 		birth = yes
 	}
-	1018.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1018.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1042.1.1={
 		death = yes
 	}
@@ -29949,11 +29908,11 @@ Skleros2 = { #
 	984.1.1={
 		birth = yes
 	}
-	1018.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
-	}
+	#1018.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
+	#}
+	#}
 	1039.1.1={
 		death = yes
 	}
@@ -29983,11 +29942,11 @@ Skleros2 = { #
 	971.1.1={
 		birth = yes
 	}
-	1018.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
-	}
+	#1018.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
+	#}
+	#}
 	1025.1.1={
 		death = yes
 	}
@@ -30055,11 +30014,11 @@ Skleros2 = { #
 	1000.1.1={
 		birth=yes
 	}
-	1018.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1018.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1065.1.1={
 		death=yes
 	}
@@ -30073,11 +30032,11 @@ Skleros2 = { #
 	991.1.1={
 		birth=yes
 	}
-	1018.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1018.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1053.1.1={
 		death=yes
 	}
@@ -30106,11 +30065,11 @@ Skleros2 = { #
 	978.1.1={
 		birth=yes
 	}
-	1018.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1018.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1032.1.1={
 		death=yes
 	}
@@ -30137,11 +30096,11 @@ Skleros2 = { #
 	986.1.1={
 		birth = yes
 	}
-	1018.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1018.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1045.1.1={
 		death = yes
 	}
@@ -30832,11 +30791,11 @@ Skleros2 = { #
 	1290.1.1={
 		birth=yes
 	}
-	1310.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#1310.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	1334.5.1={
 		death={ death_reason=death_murder }
 	}
@@ -31462,11 +31421,11 @@ Skleros2 = { #
 	882.1.1 = {
 		birth = yes
 	}
-	936.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#936.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	943.1.1 = {
 		death = yes
 	}
@@ -31563,11 +31522,11 @@ Skleros2 = { #
 	894.1.1 = {
 		birth = yes
 	}
-	936.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#936.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	955.1.1 = {
 		death = yes
 	}
@@ -31638,11 +31597,11 @@ Skleros2 = { #
 	909.1.1 = {
 		birth = yes
 	}
-	936.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#936.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	962.1.1 = {
 		death = yes
 	}
@@ -31657,11 +31616,11 @@ Skleros2 = { #
 	910.1.1 = {
 		birth = yes
 	}
-	936.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
-	}
-	}
+	#936.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_low }
+	#}
+	#}
 	964.1.1 = {
 		death = yes
 	}
@@ -31966,11 +31925,11 @@ Skleros2 = { #
 	1149.1.1 = {
 		birth="1149.1.1"
 	}
-	1186.1.1 = {
-	effect = {
-		vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
-	}
-	}
+	#1186.1.1 = {
+	#effect = {
+	#	vassal_contract_set_obligation_level = { type = feudal_government_levies level = feudal_levies_exempt }
+	#}
+	#}
 	1208.1.1 = {
 		death="1208.1.1"
 	}

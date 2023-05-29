@@ -244,104 +244,6 @@
 	}
 }
 
-70093 = {
-	name = "Elvira" # Elvira Peláez, wife of Baron Fernando Flaínez of Sarria (70092)
-	female = yes
-	dynasty = rodriguez # Rodríguez Dynasty
-	martial = 3
-	diplomacy = 7
-	intrigue = 4
-	stewardship = 3
-	religion = catholic
-	culture = asturleonese
-	trait = intellect_good_1
-	trait = education_stewardship_2
-
-	father = 70111 # Pelayo Rodríguez
-	mother = 70112 # Gotina Fernández de Cea
-
-	995.1.1 = {
-		birth = yes
-	}
-	1060.1.1 = {
-		death = yes
-	}
-}
-
-70111 = {
-	name = "Pelayu" # Pelayo Rodríguez
-	dynasty = rodriguez # Rodríguez Dynasty, Founder
-	martial = 6
-	diplomacy = 5
-	intrigue = 4
-	stewardship = 3
-	religion = catholic
-	culture = asturleonese
-	trait = hunter_1
-	trait = brave
-	trait = education_martial_2
-
-	960.1.1 = {
-		birth = yes
-	}
-	990.1.1 = {
-		add_spouse = 70112 # Gotina Fernández de Cea
-	}
-	1019.5.8 = {
-		death = yes
-	}
-}
-
-70112 = {
-	name = "Gotina" # Gotina Fernández de Cea, wife of Pelayo Rodríguez (70111)
-	female = yes
-	dynasty_house = house_cea # House of Cea
-	martial = 4
-	diplomacy = 5
-	intrigue = 6
-	stewardship = 7
-	religion = catholic
-	culture = asturleonese
-	trait = chaste
-	trait = zealous
-	trait = education_diplomacy_1
-
-	father = asturleonese0009 # Baron Fernando Bermúdez of Cea
-	mother = castilian0012 # Baroness Elvira Díaz (castilian.txt)
-
-	962.1.1 = {
-		birth = yes
-	}
-	1010.1.1 = {
-		death = yes
-	}
-}
-
-70113 = {
-	name = "Fronilde" # Fronilde Peláez, wife of Odoño Bermúdez (70031)
-	female = yes
-	dynasty = rodriguez # Rodríguez Dynasty
-	martial = 4
-	diplomacy = 6
-	intrigue = 5
-	stewardship = 6
-	religion = catholic
-	culture = asturleonese
-	trait = scholar
-	trait = ambitious
-	trait = education_diplomacy_1
-
-	father = 70111 # Pelayo Rodríguez
-	mother = 70112 # Gotina Fernández de Cea
-
-	991.1.1 = {
-		birth = yes
-	}
-	1058.1.1 = {
-		death = yes
-	}
-}
-
 70240 = {
 	name = "Munio" # Monio Nunes
 	dynasty_house = house_vimaranes # House Vimaranes
@@ -4316,7 +4218,7 @@
 	dynasty_house = house_coimbra # House of Coimbra
 	religion = catholic
 	culture = galician
-	trait = mystic_3
+	trait = lifestyle_mystic
 	trait = devoted
 	trait = education_learning_3
 
@@ -4526,7 +4428,7 @@
 	dynasty = ufes # Ufes Dynasty
 	religion = catholic
 	culture = galician
-	trait = mystic_3
+	trait = lifestyle_mystic
 	trait = devoted
 	trait = education_learning_3
 
@@ -5731,7 +5633,7 @@
 	}
 	1071.1.1 = {
 		trait = devoted
-		trait = mystic_2
+		trait = lifestyle_mystic
 		trait = education_learning_3
 	}
 	1137.1.1 = {
@@ -7173,7 +7075,7 @@ galician0005 = {
 	}
 	950.1.1 = {
 		trait = devoted
-		trait = mystic_3
+		trait = lifestyle_mystic
 	}
 	969.1.1 = {
 		death = yes
@@ -8361,7 +8263,7 @@ galician0066 = {
 	religion = catholic
 	culture = galician
 	trait = devoted
-	trait = mystic_1
+	trait = lifestyle_mystic
 	trait = education_learning_2
 
 	father = galician0062 # Count Rodrigo Vázquez of Astorga
@@ -8505,7 +8407,7 @@ galician0074 = {
 	religion = catholic
 	culture = galician
 	trait = devoted
-	trait = mystic_2
+	trait = lifestyle_mystic
 	trait = education_learning_2
 
 	father = 73891 # Count Monio Guterres of Coimbra
