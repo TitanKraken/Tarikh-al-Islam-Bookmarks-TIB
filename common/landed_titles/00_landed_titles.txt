@@ -56830,431 +56830,6 @@ e_maghreb = {
 			}
 		}
 	}
-	
-	k_sahara = {
-		color = { 199 144 56 }
-		
-		
-		capital = c_murzuk # in Fezzan
-		# Touat
-		
-		d_tadmekka = {
-			color = { 212 181 87 }
-			
-			
-			capital = c_tadmekka
-			
-			c_tadmekka = {
-				color = { 173 148 69 }
-				
-				
-				b_tadmekka = {
-					province = 6566
-					
-					color = { 173 148 69 }
-					
-				}
-				b_kidal = {
-					province = 6567
-					
-					color = { 173 148 69 }
-					
-				}
-			}
-			c_tessalit = {
-				color = { 168 138 40 }
-				
-				
-				b_tessalit = {
-					province = 6564
-					
-					color = { 168 138 40 }
-					
-				}
-				b_adrar_iforas = {
-					province = 6565
-					
-					color = { 168 138 40 }
-					
-				}
-				b_tadmekka_route = { #empty_corridor
-					province = 6664
-					
-					color = { 168 138 40 }
-					
-				}
-			}
-		}
-		
-		d_ghat = {
-			color = { 215 145 13 }
-			
-			
-			capital = c_ghat
-			
-			c_ghat = {
-				color = { 184 124 13 }
-				
-				
-				b_ghat = {
-					province = 6460
-					
-					color = { 184 124 13 }
-					
-				}
-				b_al-fewet = {
-					province = 6461
-					
-					color = { 184 124 13 }
-					
-				}
-				b_al-barkat = {
-					province = 6462
-					
-					color = { 184 124 13 }
-					
-				}
-				b_ghat_route = { #empty_corridor
-					province = 6661
-					
-					color = { 184 124 13 }
-					
-				}
-				b_wadi_irawan = { #traversable wasteland
-					province = 6601
-					
-					color = { 184 124 13 }
-					
-				}
-				b_erg_ghati = { #traversable wasteland
-					province = 6602
-					
-					color = { 184 124 13 }
-					
-				}
-			}
-			c_djanet = {
-				color = { 166 120 35 }
-				
-				
-				b_djanet = {
-					province = 6463
-					
-					color = { 166 120 35 }
-					
-				}
-				b_eferi = {
-					province = 6464
-					
-					color = { 166 120 35 }
-					
-				}
-				b_ahaggar = { #empty_corridor
-					province = 6663
-					
-					color = { 166 120 35 }
-					
-				}
-				b_east_ahaggar = { # empty_corridor
-					province = 6662
-					
-					color = { 166 120 35 }
-					
-				}
-			}
-		}
-		
-		d_air = {
-			color = { 191 143 0 }
-			
-			
-			capital = c_takkeda
-			
-			c_takkeda = {
-				color = { 173 130 0 }
-				
-				
-				b_takkeda = {
-					province = 6562
-					
-					color = { 173 130 0 }
-					
-				}
-				b_marandet = {
-					province = 6560
-					
-					color = { 173 130 0 }
-					
-				}
-				b_air_route = { # empty_corridor
-					province = 6658
-					
-					color = { 173 130 0 }
-					
-				}
-			}
-			c_air = {
-				color = { 135 102 4 }
-				
-				
-				b_agadez = {
-					province = 6561
-					
-					color = { 135 102 4 }
-					
-				}
-				b_air = {
-					province = 6563
-					
-					color = { 135 102 4 }
-					
-				}
-				b_fachi_route = { # empty_corridor
-					province = 6660
-					
-					color = { 135 102 4 }
-					
-				}
-			}
-		}
-		
-		d_kawar = {
-			color = { 200 129 74 }
-			
-			
-			capital = c_bilma
-			
-			c_bilma = {
-				color = { 198 127 72 }
-				
-				
-				b_bilma = {
-					province = 6457
-					
-					color = { 198 127 72 }
-					
-				}
-				b_dibela = {
-					province = 6458
-					
-					color = { 198 127 72 }
-					
-				}
-				b_kawar_road = { # empty_corridor
-					province = 6657
-					
-					color = { 198 127 72 }
-					
-				}
-				b_fachi = {
-					province = 6659
-					
-					color = { 198 127 72 }
-					
-				}
-			}
-			c_dirku = {
-				color = { 184 104 42 }
-				
-				
-				b_dirku = {
-					province = 6456
-					
-					color = { 184 104 42 }
-					
-				}
-				b_gissebi = {
-					province = 6455
-					
-					color = { 184 104 42 }
-					
-				}
-			}
-			c_djado = {
-				color = { 227 127 50 }
-				
-				
-				b_djado = {
-					province = 6452
-					
-					color = { 227 127 50 }
-					
-				}
-				b_tummo = {
-					province = 6453
-					
-					color = { 227 127 50 }
-					
-				}
-				b_sakadame = {
-					province = 6454
-					
-					color = { 227 127 50 }
-					
-				}
-				b_djado_route = {
-					province = 6668
-					
-					color = { 227 127 50 }
-					
-				}
-			}
-		}
-		
-		d_tibesti = {
-			color = { 190 120 90 }
-			
-			
-			capital = c_ain_galakka
-			
-			c_ain_galakka = {
-				color = { 163 103 77 }
-				
-				
-				b_ain_galakka = {
-					province = 6496
-					
-					color = { 163 103 77 }
-					
-				}
-				b_faya = {
-					province = 6495
-					
-					color = { 163 103 77 }
-					
-				}
-			}
-			c_bodele = {
-				color = { 181 94 56 }
-				
-				
-				b_borkou = {
-					province = 6494
-					
-					color = { 181 94 56 }
-					
-				}
-				b_koro_toro = {
-					province = 6493
-					
-					color = { 181 94 56 }
-					
-				}
-				b_bahr_el-ghazzal_route = { # empty_corridor
-					province = 6665
-					
-					color = { 181 94 56 }
-					
-				}
-			}
-			c_tibesti = {
-				color = { 201 134 105 }
-				
-				
-				b_tibesti-south = {
-					province = 6497
-					
-					color = { 201 134 105 }
-					
-				}
-				b_tibesti-central = {
-					province = 6498
-					
-					color = { 201 134 105 }
-					
-				}
-				b_bardai = {
-					province = 6499
-					
-					color = { 201 134 105 }
-					
-				}
-				b_tibesti_route = { # empty_corridor
-					province = 6666
-					
-					color = { 201 134 105 }
-					
-				}
-			}
-		}
-		
-		d_fezzan = {
-			color = { 173 125 49 }
-			
-			
-			capital = c_murzuk
-			
-			c_murzuk = {
-				color = { 145 105 41 }
-				
-				
-				b_murzuk = {
-					province = 6451
-					
-					color = { 145 105 41 }
-					
-				}
-				b_tassawa = {
-					province = 6450
-					
-					color = { 145 105 41 }
-					
-				}
-				b_traghan = {
-					province = 6669
-					
-					color = { 145 105 41 }
-					
-				}
-				b_fezzan_route = { # empty_corridor
-					province = 6667
-					
-					color = { 145 105 41 }
-					
-				}
-			}
-			c_zawila = {
-				color = { 125 97 52 }
-				
-				
-				b_zawila = {
-					province = 6447
-					
-					color = { 125 97 52 }
-					
-				}
-				b_zalha = {
-					province = 6446
-					
-					color = { 125 97 52 }
-					
-				}
-			}
-			c_germa = {
-				color = { 176 143 90 }
-				
-				
-				b_germa = {
-					province = 6449
-					
-					color = { 176 143 90 }
-					
-				}
-				b_sabha = {
-					province = 6448
-					
-					color = { 176 143 90 }
-					
-				}
-				b_tamzawa = {
-					province = 6459
-					
-					color = { 176 143 90 }
-					
-				}
-			}
-		}
-	}
 }
 
 e_arabia = {
@@ -64742,6 +64317,430 @@ e_kanem_bornu = {
 					province = 6900
 
 					color = { 167 48 60 }
+					
+				}
+			}
+		}
+	}
+	k_sahara = {
+		color = { 199 144 56 }
+		
+		
+		capital = c_murzuk # in Fezzan
+		# Touat
+		
+		d_tadmekka = {
+			color = { 212 181 87 }
+			
+			
+			capital = c_tadmekka
+			
+			c_tadmekka = {
+				color = { 173 148 69 }
+				
+				
+				b_tadmekka = {
+					province = 6566
+					
+					color = { 173 148 69 }
+					
+				}
+				b_kidal = {
+					province = 6567
+					
+					color = { 173 148 69 }
+					
+				}
+			}
+			c_tessalit = {
+				color = { 168 138 40 }
+				
+				
+				b_tessalit = {
+					province = 6564
+					
+					color = { 168 138 40 }
+					
+				}
+				b_adrar_iforas = {
+					province = 6565
+					
+					color = { 168 138 40 }
+					
+				}
+				b_tadmekka_route = { #empty_corridor
+					province = 6664
+					
+					color = { 168 138 40 }
+					
+				}
+			}
+		}
+		
+		d_ghat = {
+			color = { 215 145 13 }
+			
+			
+			capital = c_ghat
+			
+			c_ghat = {
+				color = { 184 124 13 }
+				
+				
+				b_ghat = {
+					province = 6460
+					
+					color = { 184 124 13 }
+					
+				}
+				b_al-fewet = {
+					province = 6461
+					
+					color = { 184 124 13 }
+					
+				}
+				b_al-barkat = {
+					province = 6462
+					
+					color = { 184 124 13 }
+					
+				}
+				b_ghat_route = { #empty_corridor
+					province = 6661
+					
+					color = { 184 124 13 }
+					
+				}
+				b_wadi_irawan = { #traversable wasteland
+					province = 6601
+					
+					color = { 184 124 13 }
+					
+				}
+				b_erg_ghati = { #traversable wasteland
+					province = 6602
+					
+					color = { 184 124 13 }
+					
+				}
+			}
+			c_djanet = {
+				color = { 166 120 35 }
+				
+				
+				b_djanet = {
+					province = 6463
+					
+					color = { 166 120 35 }
+					
+				}
+				b_eferi = {
+					province = 6464
+					
+					color = { 166 120 35 }
+					
+				}
+				b_ahaggar = { #empty_corridor
+					province = 6663
+					
+					color = { 166 120 35 }
+					
+				}
+				b_east_ahaggar = { # empty_corridor
+					province = 6662
+					
+					color = { 166 120 35 }
+					
+				}
+			}
+		}
+		
+		d_air = {
+			color = { 191 143 0 }
+			
+			
+			capital = c_takkeda
+			
+			c_takkeda = {
+				color = { 173 130 0 }
+				
+				
+				b_takkeda = {
+					province = 6562
+					
+					color = { 173 130 0 }
+					
+				}
+				b_marandet = {
+					province = 6560
+					
+					color = { 173 130 0 }
+					
+				}
+				b_air_route = { # empty_corridor
+					province = 6658
+					
+					color = { 173 130 0 }
+					
+				}
+			}
+			c_air = {
+				color = { 135 102 4 }
+				
+				
+				b_agadez = {
+					province = 6561
+					
+					color = { 135 102 4 }
+					
+				}
+				b_air = {
+					province = 6563
+					
+					color = { 135 102 4 }
+					
+				}
+				b_fachi_route = { # empty_corridor
+					province = 6660
+					
+					color = { 135 102 4 }
+					
+				}
+			}
+		}
+		
+		d_kawar = {
+			color = { 200 129 74 }
+			
+			
+			capital = c_bilma
+			
+			c_bilma = {
+				color = { 198 127 72 }
+				
+				
+				b_bilma = {
+					province = 6457
+					
+					color = { 198 127 72 }
+					
+				}
+				b_dibela = {
+					province = 6458
+					
+					color = { 198 127 72 }
+					
+				}
+				b_kawar_road = { # empty_corridor
+					province = 6657
+					
+					color = { 198 127 72 }
+					
+				}
+				b_fachi = {
+					province = 6659
+					
+					color = { 198 127 72 }
+					
+				}
+			}
+			c_dirku = {
+				color = { 184 104 42 }
+				
+				
+				b_dirku = {
+					province = 6456
+					
+					color = { 184 104 42 }
+					
+				}
+				b_gissebi = {
+					province = 6455
+					
+					color = { 184 104 42 }
+					
+				}
+			}
+			c_djado = {
+				color = { 227 127 50 }
+				
+				
+				b_djado = {
+					province = 6452
+					
+					color = { 227 127 50 }
+					
+				}
+				b_tummo = {
+					province = 6453
+					
+					color = { 227 127 50 }
+					
+				}
+				b_sakadame = {
+					province = 6454
+					
+					color = { 227 127 50 }
+					
+				}
+				b_djado_route = {
+					province = 6668
+					
+					color = { 227 127 50 }
+					
+				}
+			}
+		}
+		
+		d_tibesti = {
+			color = { 190 120 90 }
+			
+			
+			capital = c_ain_galakka
+			
+			c_ain_galakka = {
+				color = { 163 103 77 }
+				
+				
+				b_ain_galakka = {
+					province = 6496
+					
+					color = { 163 103 77 }
+					
+				}
+				b_faya = {
+					province = 6495
+					
+					color = { 163 103 77 }
+					
+				}
+			}
+			c_bodele = {
+				color = { 181 94 56 }
+				
+				
+				b_borkou = {
+					province = 6494
+					
+					color = { 181 94 56 }
+					
+				}
+				b_koro_toro = {
+					province = 6493
+					
+					color = { 181 94 56 }
+					
+				}
+				b_bahr_el-ghazzal_route = { # empty_corridor
+					province = 6665
+					
+					color = { 181 94 56 }
+					
+				}
+			}
+			c_tibesti = {
+				color = { 201 134 105 }
+				
+				
+				b_tibesti-south = {
+					province = 6497
+					
+					color = { 201 134 105 }
+					
+				}
+				b_tibesti-central = {
+					province = 6498
+					
+					color = { 201 134 105 }
+					
+				}
+				b_bardai = {
+					province = 6499
+					
+					color = { 201 134 105 }
+					
+				}
+				b_tibesti_route = { # empty_corridor
+					province = 6666
+					
+					color = { 201 134 105 }
+					
+				}
+			}
+		}
+		
+		d_fezzan = {
+			color = { 173 125 49 }
+			
+			
+			capital = c_murzuk
+			
+			c_murzuk = {
+				color = { 145 105 41 }
+				
+				
+				b_murzuk = {
+					province = 6451
+					
+					color = { 145 105 41 }
+					
+				}
+				b_tassawa = {
+					province = 6450
+					
+					color = { 145 105 41 }
+					
+				}
+				b_traghan = {
+					province = 6669
+					
+					color = { 145 105 41 }
+					
+				}
+				b_fezzan_route = { # empty_corridor
+					province = 6667
+					
+					color = { 145 105 41 }
+					
+				}
+			}
+			c_zawila = {
+				color = { 125 97 52 }
+				
+				
+				b_zawila = {
+					province = 6447
+					
+					color = { 125 97 52 }
+					
+				}
+				b_zalha = {
+					province = 6446
+					
+					color = { 125 97 52 }
+					
+				}
+			}
+			c_germa = {
+				color = { 176 143 90 }
+				
+				
+				b_germa = {
+					province = 6449
+					
+					color = { 176 143 90 }
+					
+				}
+				b_sabha = {
+					province = 6448
+					
+					color = { 176 143 90 }
+					
+				}
+				b_tamzawa = {
+					province = 6459
+					
+					color = { 176 143 90 }
 					
 				}
 			}

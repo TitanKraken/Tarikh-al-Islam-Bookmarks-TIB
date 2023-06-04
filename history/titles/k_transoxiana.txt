@@ -287,26 +287,6 @@ d_soghd = {
 1221.1.1 = {
 	holder = 0
 }
-1228.12.2 = {
-	liege = e_chagatai
-	holder = ichil
-}
-1250.1.1 = {
-	holder = 248182
-}
-1289.11.1 = {
-	holder = 1231200
-}
-1298.1.1 = {
-	holder = 1231201
-}
-1303.1.1 = {
-	holder = 1231202
-}
-1308.1.1 = {
-	liege = 0
-	holder = 0
-}
 }
 
 
@@ -1821,6 +1801,28 @@ d_ferghana = {
 	1218.1.1 = {
 		holder = 0
 	}
+	
+	# Barlas
+	1228.12.2 = {
+		liege = e_chagatai
+		holder = ichil
+	}
+	1250.1.1 = {
+		holder = 248182
+	}
+	1289.11.1 = {
+		holder = 1231200
+	}
+	1298.1.1 = {
+		holder = 1231201
+	}
+	1303.1.1 = {
+		holder = 1231202
+	}
+	1308.1.1 = {
+		liege = 0
+		holder = 0
+	}
 }
 
 
@@ -1935,17 +1937,30 @@ c_ferghana = {
 	1228.1.1={
 		liege=e_chagatai
 	}
-	1240.1.1={
-		holder = 248166
+	#1240.1.1={
+	#	holder = 248166
+	#}
+
+	# Barlas
+	1228.12.2 = {
+		liege = e_chagatai
+		holder = ichil
 	}
-	1290.1.1={
-		holder = 248167
+	1250.1.1 = {
+		holder = 248182
 	}
-	1298.1.1={
-		holder = 248168
+	1289.11.1 = {
+		holder = 1231200
 	}
-	1303.1.1={
-		holder = 248169
+	1298.1.1 = {
+		holder = 1231201
+	}
+	1303.1.1 = {
+		holder = 1231202
+	}
+	1308.1.1 = {
+		liege = 0
+		holder = 0
 	}
 }
 
@@ -2057,17 +2072,30 @@ c_khojand = {
 	1228.1.1={
 		liege=e_chagatai
 	}
-	1240.1.1={
-		holder = 248166
+	#1240.1.1={
+	#	holder = 248166
+	#}
+	
+	# Barlas
+	1228.12.2 = {
+		liege = e_chagatai
+		holder = ichil
 	}
-	1290.1.1={
-		holder = 248167
+	1250.1.1 = {
+		holder = 248182
 	}
-	1298.1.1={
-		holder = 248168
+	1289.11.1 = {
+		holder = 1231200
 	}
-	1303.1.1={
-		holder = 248169
+	1298.1.1 = {
+		holder = 1231201
+	}
+	1303.1.1 = {
+		holder = 1231202
+	}
+	1308.1.1 = {
+		liege = 0
+		holder = 0
 	}
 }
 
@@ -2180,17 +2208,30 @@ c_isfara = {
 	1228.1.1={
 		liege=e_chagatai
 	}
-	1240.1.1={
-		holder = 248166
+	#1240.1.1={
+	#	holder = 248166
+	#}
+	
+	# Barlas
+	1228.12.2 = {
+		liege = e_chagatai
+		holder = ichil
 	}
-	1290.1.1={
-		holder = 248167
+	1250.1.1 = {
+		holder = 248182
 	}
-	1298.1.1={
-		holder = 248168
+	1289.11.1 = {
+		holder = 1231200
 	}
-	1303.1.1={
-		holder = 248169
+	1298.1.1 = {
+		holder = 1231201
+	}
+	1303.1.1 = {
+		holder = 1231202
+	}
+	1308.1.1 = {
+		liege = 0
+		holder = 0
 	}
 }
 
@@ -2305,17 +2346,30 @@ c_nasaiya = {
 	1228.1.1 = {
 		liege = e_chagatai
 	}
-	1240.1.1 = {
-		holder = 248166
+	#1240.1.1={
+	#	holder = 248166
+	#}
+	
+	# Barlas
+	1228.12.2 = {
+		liege = e_chagatai
+		holder = ichil
 	}
-	1290.1.1 = {
-		holder = 248167
+	1250.1.1 = {
+		holder = 248182
+	}
+	1289.11.1 = {
+		holder = 1231200
 	}
 	1298.1.1 = {
-		holder = 248168
+		holder = 1231201
 	}
 	1303.1.1 = {
-		holder = 248169
+		holder = 1231202
+	}
+	1308.1.1 = {
+		liege = 0
+		holder = 0
 	}
 }
 
@@ -2433,14 +2487,27 @@ c_nasrabad = {
 	1240.1.1={
 		holder = 248166
 	}
-	1290.1.1={
-		holder = 248167
+	
+	# Barlas
+	1228.12.2 = {
+		liege = e_chagatai
+		holder = ichil
 	}
-	1298.1.1={
-		holder = 248168
+	#1250.1.1 = {
+	#	holder = 248182
+	#}
+	1289.11.1 = {
+		holder = 1231200
 	}
-	1303.1.1={
-		holder = 248169
+	1298.1.1 = {
+		holder = 1231201
+	}
+	1303.1.1 = {
+		holder = 1231202
+	}
+	1308.1.1 = {
+		liege = 0
+		holder = 0
 	}
 }
 

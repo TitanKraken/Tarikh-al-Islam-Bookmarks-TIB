@@ -2050,6 +2050,12 @@ c_al-haditha = {
 	1258.2.20 = {
 		holder = 93328
 	}
+
+	1259.1.1 = {
+		holder = 1230398 # Ata-Malik Juwayni
+		liege = e_ilkhanate
+	}
+	
 	1262.1.1 = {
 		holder = 93329
 	}

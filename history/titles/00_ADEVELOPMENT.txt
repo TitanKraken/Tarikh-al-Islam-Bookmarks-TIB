@@ -1551,16 +1551,6 @@
 	1310.1.1 = { change_development_level = 34 }
 	}
 
-	c_dreux = {
-	867.1.1 = { change_development_level = 8 }
-	1066.1.1 = { change_development_level = 12 }
-	1124.1.1 = { change_development_level = 15 }
-	1166.1.1 = { change_development_level = 19 }
-	1204.1.1 = { change_development_level = 24 }
-	1241.1.1 = { change_development_level = 28 }
-	1310.1.1 = { change_development_level = 34 }
-	}
-
 	c_chartres = {
 	867.1.1 = { change_development_level = 8 }
 	1066.1.1 = { change_development_level = 12 }
@@ -1639,16 +1629,6 @@
 	1204.1.1 = { change_development_level = 23 }
 	1241.1.1 = { change_development_level = 27 }
 	1310.1.1 = { change_development_level = 33 }
-	}
-
-	c_narbonne = {
-	867.1.1 = { change_development_level = 6 }
-	1066.1.1 = { change_development_level = 10 }
-	1124.1.1 = { change_development_level = 13 }
-	1166.1.1 = { change_development_level = 17 }
-	1204.1.1 = { change_development_level = 22 }
-	1241.1.1 = { change_development_level = 26 }
-	1310.1.1 = { change_development_level = 32 }
 	}
 
 	c_carcassonne = {
@@ -2102,16 +2082,6 @@
 	#	-End-
 
 	#HRE
-
-	c_katzenelnbogen = {
-	867.1.1 = { change_development_level = 10 }
-	1066.1.1 = { change_development_level = 16 }
-	1124.1.1 = { change_development_level = 19 }
-	1166.1.1 = { change_development_level = 23 }
-	1204.1.1 = { change_development_level = 28 }
-	1241.1.1 = { change_development_level = 32 }
-	1310.1.1 = { change_development_level = 38 }
-	}
 
 	c_mainz = {
 	867.1.1 = { change_development_level = 10 }

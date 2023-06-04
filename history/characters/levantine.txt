@@ -8557,7 +8557,23 @@ gharib_ghilman = {
 	1176.1.1 = {
 		birth = yes
 	}
+	1224.1.1 = {
+		add_spouse = spouse_of_34027
+	}
 	1226.1.1 = {
+		death = yes
+	}
+}
+spouse_of_34027 = {
+	name = "Hayat"
+	female = yes
+	religion = "ashari"
+	culture = turkish
+	trait = beauty_good_1
+	1200.1.1 = {
+		birth = yes
+	}
+	1241.8.16 = {
 		death = yes
 	}
 }
@@ -8622,15 +8638,21 @@ gharib_ghilman = {
 	}
 }
 
-34032 = {
-	name = "Al-Mustansir"
+34032 = { # First Abbasid Caliph of Cairo
+	name = "Ahmad" # Abu'l-Qasim Ahmad al-Mustansir
 	dynasty_house = house_Abbasid
 	religion = "ashari"
 	culture = iraqi
-	father = 34031
+	father = 34027 # al-Zahir
+	mother = spouse_of_34027 # Hayat
 	trait = sayyid_quraysh
-	1205.1.1 = {
+	trait = ambitious # Attempts to liberate Baghdad
+	trait = brave # Led the liberation army
+	trait = diligent # Diligent to escape from Baghdad to Cairo from the Mongol invasion in 1258
+	trait = education_martial_2 # Probably, due to capable enough to lead an army, although lost including with his own life at the end
+	1210.6.1 = { # 1210s in Baghdad
 		birth = yes
+		give_nickname = nick_mustansir
 	}
 	1261.11.28 = {
 		death = {

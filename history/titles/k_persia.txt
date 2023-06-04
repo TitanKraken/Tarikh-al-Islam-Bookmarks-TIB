@@ -305,6 +305,7 @@ c_isfahan = {
 	}
 	1259.1.1 = {
 		holder = 93203
+		liege = d_isfahan
 	}
 	1274.1.1 = {
 		holder = 93204
@@ -360,6 +361,7 @@ c_ardestan = {
 	}
 	1259.1.1 = {
 		holder = 93203
+		liege = d_isfahan
 	}
 	1274.1.1 = {
 		holder = 93204
@@ -417,6 +419,7 @@ c_qumisha = {
 	}
 	1259.1.1 = {
 		holder = 93203
+		liege = d_isfahan
 	}
 	1274.1.1 = {
 		holder = 93204
@@ -474,6 +477,7 @@ c_luristan = {
 	}
 	1259.1.1 = {
 		holder = 93203
+		liege = d_isfahan
 	}
 	1274.1.1 = {
 		holder = 93204
@@ -1129,6 +1133,11 @@ c_jiruft = {
 	
 		holder = 93287
 	}
+
+	1257.1.1 = {
+		holder = 93261 # Muzaffar al-Din Qutlugh Khan
+	}
+
 	1290.1.1 = {
 		holder = 93289
 	}
@@ -2264,22 +2273,31 @@ d_fars = {
 		liege = "e_ilkhanate"
 	}
 	1260.1.1 = {
-		holder = 93235
+		holder = 93248 # Saad II Salghurlar
 	}
 	1261.1.1 = {
-		holder = 93236
+		holder = 93249
+	}
+	1262.1.1 = {
+		holder = 93250
+	}
+	1263.1.1 = {
+		holder = 93251
 	}
 	1264.1.1 = {
-		holder = 93237
+		holder = 93252
 	}
-	1266.1.1 = {
-		holder = 93238
+	1287.1.1 = {
+		holder = 125522
 	}
-	1289.1.1 = {
-		holder = 93239
+	1295.1.1 = {
+		holder = 125529
 	}
-	1314.1.1 = {
-		holder = 93240
+	1315.1.1 = {
+		holder = 478012
+	}
+	1335.1.1 = {
+		holder = 478015
 	}
 }
 
@@ -3073,6 +3091,26 @@ d_khuzestan = {
 		liege = k_persia
 		holder = 93160
 	}
+
+	1259.1.1 = {
+		holder = 93235 # Mubaraz Qutb al-Din Shabankara
+		liege = k_mesopotamia
+	}
+	1261.1.1 = {
+		holder = 93236
+	}
+	1264.1.1 = {
+		holder = 93237
+	}
+	1266.1.1 = {
+		holder = 93238
+	}
+	1289.1.1 = {
+		holder = 93239
+	}
+	1314.1.1 = {
+		holder = 93240
+	}
 }
 
 
@@ -3157,29 +3195,24 @@ c_sardan = {
 	1257.1.1 = {
 		holder = 93261
 	}
-	1279.1.1 = {
-		holder = 93262
+	1259.1.1 = {
+		holder = 93235 # Mubaraz Qutb al-Din Shabankara
+		liege = k_mesopotamia
 	}
-	1282.1.1 = {
-		holder = 93263
+	1261.1.1 = {
+		holder = 93236
 	}
-	1292.1.1 = {
-		holder = 93264
+	1264.1.1 = {
+		holder = 93237
 	}
-	1295.1.1 = {
-		holder = 93265
+	1266.1.1 = {
+		holder = 93238
 	}
-	1296.1.1 = {
-		holder = 93266
-	}
-	1301.1.1 = {
-		holder = 93267
-	}
-	1308.1.1 = {
-		holder = 93268
+	1289.1.1 = {
+		holder = 93239
 	}
 	1314.1.1 = {
-		holder = 478022
+		holder = 93240
 	}
 	1335.1.1 = {
 		holder = 478023
@@ -3265,29 +3298,24 @@ c_ramhurmuz = {
 	1257.1.1 = {
 		holder = 93261
 	}
-	1279.1.1 = {
-		holder = 93262
+	1259.1.1 = {
+		holder = 93235 # Mubaraz Qutb al-Din Shabankara
+		liege = k_mesopotamia
 	}
-	1282.1.1 = {
-		holder = 93263
+	1261.1.1 = {
+		holder = 93236
 	}
-	1292.1.1 = {
-		holder = 93264
+	1264.1.1 = {
+		holder = 93237
 	}
-	1295.1.1 = {
-		holder = 93265
+	1266.1.1 = {
+		holder = 93238
 	}
-	1296.1.1 = {
-		holder = 93266
-	}
-	1301.1.1 = {
-		holder = 93267
-	}
-	1308.1.1 = {
-		holder = 93268
+	1289.1.1 = {
+		holder = 93239
 	}
 	1314.1.1 = {
-		holder = 478022
+		holder = 93240
 	}
 	1335.1.1 = {
 		holder = 478023
@@ -3376,29 +3404,24 @@ c_tustar = {
 	1257.1.1 = {
 		holder = 93261
 	}
-	1279.1.1 = {
-		holder = 93262
+	1259.1.1 = {
+		holder = 93235 # Mubaraz Qutb al-Din Shabankara
+		liege = k_mesopotamia
 	}
-	1282.1.1 = {
-		holder = 93263
+	1261.1.1 = {
+		holder = 93236
 	}
-	1292.1.1 = {
-		holder = 93264
+	1264.1.1 = {
+		holder = 93237
 	}
-	1295.1.1 = {
-		holder = 93265
+	1266.1.1 = {
+		holder = 93238
 	}
-	1296.1.1 = {
-		holder = 93266
-	}
-	1301.1.1 = {
-		holder = 93267
-	}
-	1308.1.1 = {
-		holder = 93268
+	1289.1.1 = {
+		holder = 93239
 	}
 	1314.1.1 = {
-		holder = 478022
+		holder = 93240
 	}
 	1335.1.1 = {
 		holder = 478023
@@ -3459,29 +3482,24 @@ c_ahvaz = {
 	1226.1.1 = {
 		holder = 93247
 	}
-	1260.1.1 = {
-		holder = 93248
+	1259.1.1 = {
+		holder = 93235 # Mubaraz Qutb al-Din Shabankara
+		liege = k_mesopotamia
 	}
 	1261.1.1 = {
-		holder = 93249
-	}
-	1262.1.1 = {
-		holder = 93250
-	}
-	1263.1.1 = {
-		holder = 93251
+		holder = 93236
 	}
 	1264.1.1 = {
-		holder = 93252
+		holder = 93237
 	}
-	1287.1.1 = {
-		holder = 125522
+	1266.1.1 = {
+		holder = 93238
 	}
-	1295.1.1 = {
-		holder = 125529
+	1289.1.1 = {
+		holder = 93239
 	}
-	1315.1.1 = {
-		holder = 478012
+	1314.1.1 = {
+		holder = 93240
 	}
 	1335.1.1 = {
 		holder = 478015
@@ -3528,8 +3546,9 @@ c_abbadan = {
 	1227.1.1 = {
 		holder = 93234
 	}
-	1260.1.1 = {
-		holder = 93235
+	1259.1.1 = {
+		holder = 93235 # Mubaraz Qutb al-Din Shabankara
+		liege = k_mesopotamia
 	}
 	1261.1.1 = {
 		holder = 93236
@@ -3545,11 +3564,6 @@ c_abbadan = {
 	}
 	1314.1.1 = {
 		holder = 93240
-	}
-	
-	1317.1.1 = {
-		liege = "d_basra"
-		holder = 93307
 	}
 	1330.1.1 = {
 		holder = 478040
@@ -3598,8 +3612,9 @@ c_dawraq = {
 	1227.1.1 = {
 		holder = 93234
 	}
-	1260.1.1 = {
-		holder = 93235
+	1259.1.1 = {
+		holder = 93235 # Mubaraz Qutb al-Din Shabankara
+		liege = k_mesopotamia
 	}
 	1261.1.1 = {
 		holder = 93236

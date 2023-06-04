@@ -46,6 +46,11 @@ k_mesopotamia = {
 	744.11.3 = {
 		holder = 163041
 	}
+
+	1259.1.1 = {
+		holder = 1230398 # Ata-Malik Juwayni
+		liege = e_ilkhanate
+	}
 }
 
 d_samarra = {
@@ -183,6 +188,12 @@ c_samarra = {
 	1258.2.20 = {
 		holder = 93328
 	}
+
+	1259.1.1 = {
+		holder = 1230398 # Ata-Malik Juwayni
+		liege = e_ilkhanate
+	}
+
 	1262.1.1 = {
 		holder = 93329
 	}
@@ -812,6 +823,10 @@ d_kufa = {
 		holder = 1235964 # 'Abd-al-Wahid Ahmadzade Mankuli, some random available Ismaili character
 		liege = k_persia
 	}
+	1259.1.1 = {
+		holder = 1230397 # Muhammad Shamsuddin Juwayni, probably, maybe
+		liege = k_mesopotamia
+	}
 }
 c_kufa = {
 	867.1.1 = {	change_development_level = 12 }
@@ -889,6 +904,12 @@ c_kufa = {
 	1258.2.20 = {
 		holder = 93328
 	}
+
+	1259.1.1 = {
+		holder = 1230397 # Muhammad Shamsuddin Juwayni, probably, maybe
+		liege = k_mesopotamia
+	}
+
 	1262.1.1 = {
 		holder = 93329
 	}
@@ -980,6 +1001,12 @@ c_safata = {
 	1258.2.20 = {
 		holder = 93328
 	}
+
+	1259.1.1 = {
+		holder = 1230397 # Muhammad Shamsuddin Juwayni, probably, maybe
+		liege = k_mesopotamia
+	}
+
 	1262.1.1 = {
 		holder = 93329
 	}
@@ -1071,6 +1098,12 @@ c_qadisiya = {
 	1258.2.20 = {
 		holder = 93328
 	}
+
+	1259.1.1 = {
+		holder = 1230397 # Muhammad Shamsuddin Juwayni, probably, maybe
+		liege = k_mesopotamia
+	}
+
 	1262.1.1 = {
 		holder = 93329
 	}
@@ -1169,6 +1202,12 @@ c_batiha = {
 	1258.2.20 = {
 		holder = 93328
 	}
+
+	1259.1.1 = {
+		holder = 1230397 # Muhammad Shamsuddin Juwayni, probably, maybe
+		liege = k_mesopotamia
+	}
+
 	1262.1.1 = {
 		holder = 93329
 	}
@@ -1260,6 +1299,12 @@ c_akhadid = {
 	1258.2.20 = {
 		holder = 93328
 	}
+
+	1259.1.1 = {
+		holder = 1230397 # Muhammad Shamsuddin Juwayni, probably, maybe
+		liege = k_mesopotamia
+	}
+
 	1262.1.1 = {
 		holder = 93329
 	}
@@ -1351,6 +1396,12 @@ c_waqisa = {
 	1258.2.20 = {
 		holder = 93328
 	}
+
+	1259.1.1 = {
+		holder = 1230397 # Muhammad Shamsuddin Juwayni, probably, maybe
+		liege = k_mesopotamia
+	}
+
 	1262.1.1 = {
 		holder = 93329
 	}
@@ -1443,7 +1494,8 @@ d_basra = {
 		liege = "e_ilkhanate"
 	}
 	1258.2.20 = {
-		holder = 93328
+		holder = 93328 # Ali Bahadur
+		liege = k_mesopotamia
 	}
 	1262.1.1 = {
 		holder = 93329
