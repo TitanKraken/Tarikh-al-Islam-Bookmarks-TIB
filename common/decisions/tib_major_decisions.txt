@@ -1,0 +1,452 @@
+﻿### Muslim rulers personally adopt Sharia for their crown lands.
+tribal_convert_to_islamic_decision = { # For recently converted tribal Muslim rulers that wants to return to the Sharia
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+	desc = tribal_convert_to_islamic_decision_desc
+		
+	ai_check_interval = 36
+		
+	is_shown = {
+        has_government = tribal_government
+		OR = {
+			has_realm_law = tribal_authority_0
+			has_realm_law = tribal_authority_1
+		}
+		#is_independent_ruler = yes
+	}
+		
+	is_valid = {
+		OR = {
+			has_realm_law = tribal_authority_0
+			has_realm_law = tribal_authority_1
+		}
+		custom_description = {
+			text = faith_is_islam
+			subject = root
+			faith = { religion_tag = islam_religion }
+		}
+		prestige_level >= 3
+	}
+		
+	cost = {
+		prestige = 150
+	}
+		
+	effect = {
+		change_government = islamic_government
+		trigger_event = major_decisions.0001
+		add_realm_law_skip_effects = crown_authority_0
+        add_piety = 250
+	}
+		
+	ai_potential = {
+		always = yes
+	}
+		
+	ai_will_do = {
+		base = 100
+		modifier = { #Go for the more lenient decision if this is the case
+			add = -100
+			liege = { government_has_flag = government_is_feudal }
+		}
+	}
+}
+convert_to_islamic_decision = { # For recently converted Muslim rulers that wants to return to the Sharia
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+	desc = convert_to_islamic_decision_desc
+		
+	ai_check_interval = 36
+		
+	is_shown = {
+        OR = {
+            #government_has_flag = government_is_tribal
+            has_government = clan_government
+            has_government = feudal_government
+        }
+		OR = {
+			has_realm_law = crown_authority_0
+			has_realm_law = crown_authority_1
+		}
+		#is_independent_ruler = yes
+	}
+		
+	is_valid = {
+		OR = {
+			has_realm_law = crown_authority_0
+			has_realm_law = crown_authority_1
+		}
+		custom_description = {
+			text = faith_is_islam
+			subject = root
+			faith = { religion_tag = islam_religion }
+		}
+		#prestige_level = 4
+	}
+		
+	cost = {
+		prestige = 150
+	}
+		
+	effect = {
+		change_government = islamic_government
+		trigger_event = major_decisions.0001
+		add_realm_law_skip_effects = crown_authority_0
+        add_piety = 250
+	}
+		
+	ai_potential = {
+		always = yes
+	}
+		
+	ai_will_do = {
+		base = 100
+		modifier = { #Go for the more lenient decision if this is the case
+			add = -100
+			liege = { government_has_flag = government_is_feudal }
+		}
+	}
+}
+
+
+##################################################
+# Convert Realm to Islamic Government through Liege
+##################################################
+# A more lenient decision to convert if your liege is Islamic
+tribal_convert_to_islamic_liege_converted_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+	desc = tribal_convert_to_islamic_liege_converted_decision_desc
+
+	ai_check_interval = 36
+
+	is_shown = {
+		has_government = tribal_government
+		AND = {
+			is_independent_ruler = no
+			liege = {
+				AND = {
+					OR = {
+        	           	has_government = clan_government
+                    	has_government = feudal_government
+					}
+					faith = { religion_tag = islam_religion }
+				}
+                has_government = islamic_government
+			}
+		}
+	}
+
+	is_valid = {
+		OR = {
+			has_realm_law = tribal_authority_0
+			has_realm_law = tribal_authority_1
+		}
+		custom_description = {
+			text = faith_is_islam
+			subject = root
+			faith = { religion_tag = islam_religion }
+		}
+		custom_description = {
+			text = recent_conversion_to_tribalism
+			NOT = { has_character_flag = just_converted_to_tribalism }
+		}
+		prestige_level >= 2
+	}
+
+	cost = {
+		prestige = 150
+	}
+
+	effect = {
+		trigger_event = major_decisions.0001
+		save_scope_as = actor
+		#convert_whole_realm_to_feudalism_effect = yes
+		change_government = islamic_government
+		hidden_effect = {
+			every_vassal = {
+				trigger_event = {
+					id = major_decisions.0002
+					days = 3
+				}
+			}
+		}
+        add_piety = 200 # Coming back to the Sharia!
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+convert_to_islamic_liege_converted_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+	desc = convert_to_islamic_liege_converted_decision_desc
+
+	ai_check_interval = 36
+
+	is_shown = {
+		OR = {
+			has_government = clan_government
+            has_government = feudal_government
+		}
+		AND = {
+			is_independent_ruler = no
+			liege = {
+				AND = {
+					OR = {
+                    	has_government = clan_government
+                    	has_government = feudal_government
+					}
+					faith = { religion_tag = islam_religion }
+				}
+                has_government = islamic_government
+			}
+		}
+	}
+
+	is_valid = {
+		OR = {
+			has_realm_law = crown_authority_0
+			has_realm_law = crown_authority_1
+		}
+		custom_description = {
+			text = faith_is_islam
+			subject = root
+			faith = { religion_tag = islam_religion }
+		}
+		custom_description = {
+			text = recent_conversion_to_tribalism
+			NOT = { has_character_flag = just_converted_to_tribalism }
+		}
+		prestige_level >= 2
+	}
+
+	cost = {
+		prestige = 150
+	}
+
+	effect = {
+		trigger_event = major_decisions.0001
+		save_scope_as = actor
+		#convert_whole_realm_to_feudalism_effect = yes
+		change_government = islamic_government
+		hidden_effect = {
+			every_vassal = {
+				trigger_event = {
+					id = major_decisions.0002
+					days = 3
+				}
+			}
+		}
+        add_piety = 200 # Coming back to the Sharia!
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+##################################################
+# Convert Entire Realm to Islamic Government
+# by Linnéa Thimrén
+##################################################
+
+# A decision to apply Sharia for the entire realm (wow!)
+tribal_convert_whole_realm_to_islamic_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+	desc = convert_whole_realm_to_islamic_decision_desc
+
+	ai_check_interval = 36
+
+	is_shown = {
+		faith = { religion_tag = islam_religion }
+        has_government = tribal_government
+		OR = {
+			is_independent_ruler = yes
+			AND = {
+				is_independent_ruler = no
+				liege = {
+					AND = {
+						OR = {
+        	           		has_government = clan_government
+                    		has_government = feudal_government
+						}
+						faith = { religion_tag = islam_religion }
+					}
+                	has_government = islamic_government
+				}
+			}
+		}
+	}
+
+	is_valid = {
+		OR = {
+			has_realm_law = tribal_authority_2
+			has_realm_law = tribal_authority_3
+		}
+		custom_description = {
+			text = faith_is_islam
+			subject = root
+			faith = { religion_tag = islam_religion }
+		}
+		prestige_level >= 4
+		capital_province.county = {
+			development_level >= convert_to_feudalism_development_requirement
+		}
+
+		custom_description = { #You need to have 70% of all (non-regional/unique) tribal innovations!
+			text = has_all_tribal_innovations
+			subject = root.culture
+			culture = {
+				calc_true_if = {
+					amount >= 9
+					has_innovation = innovation_motte
+					has_innovation = innovation_catapult
+					has_innovation = innovation_barracks
+					has_innovation = innovation_mustering_grounds
+					has_innovation = innovation_bannus
+					has_innovation = innovation_quilted_armor
+					has_innovation = innovation_gavelkind
+					has_innovation = innovation_crop_rotation
+					has_innovation = innovation_city_planning
+					has_innovation = innovation_casus_belli
+					has_innovation = innovation_plenary_assemblies
+					has_innovation = innovation_ledger
+					has_innovation = innovation_development_01
+					has_innovation = innovation_currency_01
+				}
+			}
+		}
+	}
+
+	cost = {
+		prestige = 200
+	}
+
+	effect = {
+		trigger_event = major_decisions.0001
+		save_scope_as = actor
+		convert_whole_realm_to_feudalism_effect = yes
+		hidden_effect = {
+			every_vassal = {
+				trigger_event = {
+					id = major_decisions.0002
+					days = 3
+				}
+			}
+		}
+		add_piety = 200
+	}
+
+	ai_potential = {
+		NOT = { has_title = title:e_mongol_empire } # Stop the Mongols from slowing their conquest.
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+convert_whole_realm_to_islamic_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+	desc = convert_whole_realm_to_islamic_decision_desc
+
+	ai_check_interval = 36
+
+	is_shown = {
+		faith = { religion_tag = islam_religion }
+        OR = {
+			has_government = clan_government
+            has_government = feudal_government
+		}
+		OR = {
+			is_independent_ruler = yes
+			AND = {
+				is_independent_ruler = no
+				liege = {
+					OR = {
+                        has_government = islamic_government
+						faith = { religion_tag = islam_religion }
+					}
+				}
+			}
+		}
+	}
+
+	is_valid = {
+		OR = {
+			has_realm_law = crown_authority_2
+			has_realm_law = crown_authority_3
+		}
+		custom_description = {
+			text = faith_is_islam
+			subject = root
+			faith = { religion_tag = islam_religion }
+		}
+		prestige_level >= 4
+		capital_province.county = {
+			development_level >= convert_to_feudalism_development_requirement
+		}
+
+		custom_description = { #You need to have 70% of all (non-regional/unique) tribal innovations!
+			text = has_all_tribal_innovations
+			subject = root.culture
+			culture = {
+				calc_true_if = {
+					amount >= 9
+					has_innovation = innovation_motte
+					has_innovation = innovation_catapult
+					has_innovation = innovation_barracks
+					has_innovation = innovation_mustering_grounds
+					has_innovation = innovation_bannus
+					has_innovation = innovation_quilted_armor
+					has_innovation = innovation_gavelkind
+					has_innovation = innovation_crop_rotation
+					has_innovation = innovation_city_planning
+					has_innovation = innovation_casus_belli
+					has_innovation = innovation_plenary_assemblies
+					has_innovation = innovation_ledger
+					has_innovation = innovation_development_01
+					has_innovation = innovation_currency_01
+				}
+			}
+		}
+	}
+
+	cost = {
+		prestige = 200
+	}
+
+	effect = {
+		trigger_event = major_decisions.0001
+		save_scope_as = actor
+		convert_whole_realm_to_feudalism_effect = yes
+		hidden_effect = {
+			every_vassal = {
+				trigger_event = {
+					id = major_decisions.0002
+					days = 3
+				}
+			}
+		}
+		add_piety = 200
+	}
+
+	ai_potential = {
+		NOT = { has_title = title:e_mongol_empire } # Stop the Mongols from slowing their conquest.
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

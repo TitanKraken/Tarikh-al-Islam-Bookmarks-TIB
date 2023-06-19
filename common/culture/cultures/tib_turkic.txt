@@ -523,6 +523,43 @@ kabars = {
 }
 
 # TIB
+
+chagatai = { # Based on Karluk
+	color = { 195 200 200 }
+	
+	parents = { karluk mongol }
+	created = 1230.1.1
+	
+	ethos = ethos_bellicose
+	heritage = heritage_turkic
+	language = language_karluk # language_chagatai
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_steppe_tolerance
+		tradition_horse_lords
+		tradition_poetry
+		tradition_gardening
+	}
+	
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_chagatai
+
+	coa_gfx = { turkic_group_coa_gfx iranian_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+	ethnicities = {
+		10 = asian
+		4 = arab
+		3 = mediterranean
+	}
+}
+
 mamluk = {
 	color = { 0.90 0.75 0.10 }
 	created = 1200.1.1
@@ -573,15 +610,44 @@ anatolian_turkish = {
 
 	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx arabic_coa_gfx }
 	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
-	clothing_gfx = { dde_abbasid_clothing_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mongol_clothing_gfx } 
 	unit_gfx = { mena_unit_gfx }
 
 	ethnicities = {
-		10 = asian
+		7 = asian
 		9 = mediterranean_byzantine
 		1 = slavic_northern_blond
 		2 = slavic_northern_ginger
 		4 = slavic_northern_brown_hair
 		6 = slavic_northern_dark_hair
+	}
+}
+tatars = {	# Umbrella term for turks with mongol influence. Better than a mongol super culture spreading from Mongolia to Romania. Based on turkish
+	color = { 195 140 75 }
+	
+	created = 1200.1.1
+	parents = { mongol kipchak }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_turkic
+	language = language_turkic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_warrior_culture
+		tradition_horse_lords
+		tradition_swords_for_hire
+		tradition_ruling_caste
+	}
+
+	name_list = name_list_tatar
+
+	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		10 = asian
+		3 = mediterranean
 	}
 }

@@ -1,0 +1,32 @@
+﻿l_english:
+ faith_is_islam:0 "You are a Muslim"
+
+ convert_to_islamic_decision:0 "Adopt the Sharia"
+ convert_to_islamic_decision_desc:0 "I believe it is time for our realm to restore uphold the Sharia of Allah. We must leave the old ways behind and embrace the Sharia as a true Islamic government."
+ convert_to_islamic_decision_confirm:0 "Restore the Sharia"
+ convert_to_islamic_decision_tooltip:0 "Change [government|E] type by adopting the Sharia and becoming an Islamic government"
+
+ convert_to_islamic_liege_converted_decision:0 "Adopt the Sharia through [liege|E]"
+ convert_to_islamic_liege_converted_decision_desc:0 "There seems to be benefit in following the [government_form|E] of our Muslim [liege|E]. Let us leave the old ways behind and adopt the Sharia as a true Islamic government."
+ convert_to_islamic_liege_converted_decision_confirm:0 "Adopt the Sharia"
+ convert_to_islamic_liege_converted_decision_tooltip:0 "Change [government|E] type by adopting the Sharia and becoming an Islamic government"
+
+ convert_whole_realm_to_islamic_decision:0 "Enforce the Sharia for the Entire [realm|E]"
+ convert_whole_realm_to_islamic_decision_desc:0 "I believe it is time for our realm to restore uphold the Sharia of Allah. We must leave the old ways behind and embrace the Sharia as a true Islamic government. Every Muslim lords and ladies under us shall be subjected to this reform."
+ convert_whole_realm_to_islamic_decision_confirm:0 "Restore the Sharia"
+ convert_whole_realm_to_islamic_decision_tooltip:0 "Change [government|E] type by adopting the Sharia and becoming an Islamic government"
+
+ tribal_convert_to_islamic_decision:0 "Adopt the Sharia"
+ tribal_convert_to_islamic_decision_desc:0 "Our [realm|E] has expanded, and I have embrace the [faith|E] of Islam. It is only right to restore and uphold the Sharia of Allah. We must leave the old ways behind and embrace the Sharia as a true Islamic government."
+ tribal_convert_to_islamic_decision_confirm:0 "Adopt the Sharia"
+ tribal_convert_to_islamic_decision_tooltip:0 "Change [government|E] type by adopting the Sharia and becoming an Islamic government"
+
+ tribal_convert_to_islamic_liege_converted_decision:0 "Adopt the Sharia through [liege|E]"
+ tribal_convert_to_islamic_liege_converted_decision_desc:0 "There seems to be benefit in following the [government_form|E] of our Muslim [liege|E]. Let us leave the old ways behind and adopt the Sharia as a true Islamic government."
+ tribal_convert_to_islamic_liege_converted_decision_confirm:0 "Adopt the Sharia"
+ tribal_convert_to_islamic_liege_converted_decision_tooltip:0 "Change [government|E] type by adopting the Sharia and becoming an Islamic government"
+
+ tribal_convert_whole_realm_to_islamic_decision:0 "Enforce the Sharia for the Entire [realm|E]"
+ tribal_convert_whole_realm_to_islamic_decision_desc:0 "I believe it is time for our realm to restore uphold the Sharia of Allah. We must leave the old ways behind and embrace the Sharia as a true Islamic government. Every Muslim lords and ladies under us shall be subjected to this reform."
+ tribal_convert_whole_realm_to_islamic_decision_confirm:0 "Restore the Sharia"
+ tribal_convert_whole_realm_to_islamic_decision_tooltip:0 "Change [government|E] type by adopting the Sharia and becoming an Islamic government"

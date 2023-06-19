@@ -623,7 +623,7 @@ d_merv = {
 		holder = 93066
 	}
 	1260.1.1 = {
-		holder = 93068
+		holder = 93077 # Qadaqchi Chagatai
 	}
 	1266.1.1 = {
 		holder = 93066
@@ -730,6 +730,10 @@ c_merv = {
 	1220.1.1 = {
 		holder = 194303
 	}
+
+	1260.1.1 = {
+		holder = 93077 # Qadaqchi Chagatai
+	}
 }
 
 
@@ -785,6 +789,10 @@ c_sarakhs = {
 	}
 	1220.1.1 = {
 		holder = 194303
+	}
+
+	1260.1.1 = {
+		holder = 93077 # Qadaqchi Chagatai
 	}
 }
 
@@ -848,6 +856,10 @@ c_marvarrud = {
 	1220.1.1 = {
 		holder = 194303
 	}
+
+	1260.1.1 = {
+		holder = 93077 # Qadaqchi Chagatai
+	}
 }
 
 
@@ -905,6 +917,10 @@ c_rivsharan = {
 	}
 	1220.1.1 = {
 		holder = 194303
+	}
+
+	1260.1.1 = {
+		holder = 93077 # Qadaqchi Chagatai
 	}
 }
 
@@ -966,6 +982,10 @@ c_guzgan = {
 	1220.1.1 = {
 		holder = 194303
 	}
+
+	1260.1.1 = {
+		holder = 93070 # Baraq Chagatai
+	}
 }
 
 
@@ -1023,6 +1043,10 @@ c_amol = {
 	1220.1.1 = {
 		holder = 194303
 	}
+
+	1260.1.1 = {
+		holder = 93077 # Qadaqchi Chagatai
+	}
 }
 
 
@@ -1079,6 +1103,10 @@ c_zamm = {
 	}
 	1220.1.1 = {
 		holder = 194303
+	}
+
+	1260.1.1 = {
+		holder = 93077 # Qadaqchi Chagatai
 	}
 }
 
@@ -1860,6 +1888,11 @@ c_zirkuh = {
 d_balkh = {
 	867.1.1 = {	change_development_level = 3 }
 	1066.1.1 = { change_development_level = 6 }
+
+	1260.1.1 = {
+		holder = 93070 # Baraq Chagatai
+		liege = e_chagatai
+	}
 }
 
 c_balkh = {
@@ -1980,7 +2013,7 @@ c_balkh = {
 		holder = 93066
 	}
 	1260.1.1 = {
-		holder = 93068
+		holder = 93070 # Baraq Chagatai
 	}
 	1266.1.1 = {
 		holder = 93066
@@ -2154,7 +2187,7 @@ c_west-tokharestan = {
 		holder = 93066
 	}
 	1260.1.1 = {
-		holder = 93068
+		holder = 93070 # Baraq Chagatai
 	}
 	1266.1.1 = {
 		holder = 93066
@@ -2331,7 +2364,7 @@ c_east-tokharestan = {
 		holder = 93066
 	}
 	1260.1.1 = {
-		holder = 93068
+		holder = 93070 # Baraq Chagatai
 	}
 	1266.1.1 = {
 		holder = 93066

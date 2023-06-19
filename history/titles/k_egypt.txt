@@ -851,6 +851,11 @@ d_delta = {
 		holder = 0
 		liege = 0
 	}
+
+	1259.1.1 = {
+		holder = 8000479 # Aydakin al-'Ala'i al-Bunduqdar
+		liege = "k_egypt"
+	}
 }
 
 
@@ -935,7 +940,8 @@ c_damietta = {
 		holder = 32931
 	}
 	1259.1.1 = {
-		holder = 32932
+		holder = 8000479 # Aydakin al-'Ala'i al-Bunduqdar
+		liege = "k_egypt"
 	}
 	1260.10.24 = {
 		holder = 32933
@@ -1054,7 +1060,8 @@ c_al-buhaira = {
 		holder = 32931
 	}
 	1259.1.1 = {
-		holder = 32932
+		holder = 8000479 # Aydakin al-'Ala'i al-Bunduqdar
+		liege = "k_egypt"
 	}
 	1260.10.24 = {
 		holder = 32933
@@ -1170,7 +1177,8 @@ c_al-gharbiya = {
 		holder = 32931
 	}
 	1259.1.1 = {
-		holder = 32932
+		holder = 8000479 # Aydakin al-'Ala'i al-Bunduqdar
+		liege = "k_egypt"
 	}
 	1260.10.24 = {
 		holder = 32933
@@ -1283,7 +1291,8 @@ c_sharkiya = {
 		holder = 32931
 	}
 	1259.1.1 = {
-		holder = 32933
+		holder = 8000479 # Aydakin al-'Ala'i al-Bunduqdar
+		liege = "k_egypt"
 	}
 	1277.7.1 = {
 		holder = 32934
@@ -2033,7 +2042,7 @@ c_qus = {
 		holder = 32931
 	}
 	1259.1.1 = { # Fictional
-		holder = 34225
+		holder = 8000492 # Izz al-Din 
 		liege = "k_egypt"
 	}
 	1260.10.24 = {
@@ -2132,7 +2141,7 @@ c_bahnasa = {
 		holder = 32909
 	}
 	1259.1.1 = { # Fictional
-		holder = 34225
+		holder = 8000492 # Izz al-Din 
 		liege = "k_egypt"
 	}
 	1171.1.1 = {
@@ -2391,7 +2400,7 @@ c_asyut = {
 		holder = 32909
 	}
 	1259.1.1 = { # Fictional
-		holder = 34225
+		holder = 8000492 # Izz al-Din 
 		liege = "k_egypt"
 	}
 	1171.1.1 = {
@@ -2549,7 +2558,7 @@ c_aswan = {
 		holder = 32931
 	}
 	1259.1.1 = { # Fictional
-		holder = 34225
+		holder = 8000492 # Izz al-Din 
 		liege = "k_egypt"
 	}
 	1260.10.24 = {
@@ -2683,7 +2692,7 @@ c_qusayr = {
 		holder = 32931
 	}
 	1259.1.1 = { # Fictional
-		holder = 34225
+		holder = 8000492 # Izz al-Din 
 		liege = "k_egypt"
 	}
 	1260.10.24 = {
@@ -2788,7 +2797,7 @@ d_eastern_desert = {
 		holder = bedouin0033
 	}
 	1259.1.1 = { # Fictional
-		holder = 34225
+		holder = 8000492 # Izz al-Din 
 		liege = "k_egypt"
 	}
 }
@@ -2850,7 +2859,7 @@ c_jabal_quzlum = {
 		holder = bedouin0033
 	}
 	1259.1.1 = { # Fictional
-		holder = 34225
+		holder = 8000492 # Izz al-Din 
 		liege = "k_egypt"
 	}
 }
@@ -2872,7 +2881,10 @@ d_sinai = {
 		holder = 32925
 	}
 	
-
+	1259.1.1 = {
+		holder = 8000463 # Faris al-Din Aqtay Musta'rib
+		liege = "k_egypt"
+	}
 }
 
 
@@ -2955,7 +2967,8 @@ c_farama = {
 		holder = 32931
 	}
 	1259.1.1 = {
-		holder = 32932
+		holder = 8000463 # Faris al-Din Aqtay Musta'rib
+		liege = "k_egypt"
 	}
 	1260.10.24 = {
 		holder = 32933
@@ -3076,7 +3089,8 @@ c_sinai = {
 		holder = 32931
 	}
 	1259.1.1 = {
-		holder = 32932
+		holder = 8000463 # Faris al-Din Aqtay Musta'rib
+		liege = "k_egypt"
 	}
 	1260.10.24 = {
 		holder = 32933
@@ -3201,7 +3215,8 @@ c_firaun = {
 		holder = 32931
 	}
 	1259.1.1 = {
-		holder = 32932
+		holder = 8000463 # Faris al-Din Aqtay Musta'rib
+		liege = "k_egypt"
 	}
 	1260.10.24 = {
 		holder = 32933

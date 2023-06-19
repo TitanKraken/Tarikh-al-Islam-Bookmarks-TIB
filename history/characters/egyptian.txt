@@ -951,6 +951,7 @@
 	culture = "mamluk"
 	#trait="mamaluk"
 	father = 32933
+	mother = 8000516
 	1260.1.1 = {
 		birth = "1260.1.1"
 	}

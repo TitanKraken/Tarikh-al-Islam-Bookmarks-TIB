@@ -4921,8 +4921,8 @@ begdili1 = {
 	diplomacy = 5
 	stewardship = 4	  
 	religion = "ashari"
-	culture = "turkish"
-	trait="mamaluk"
+	culture = mamluk #"turkish"
+	#trait="mamaluk"
 	trait = "education_martial_2"
 	trait = "honest" #renowned for honesty and loyalty to his master al-Salih Ayyub					  
 	1205.1.1 = {
@@ -4949,8 +4949,8 @@ begdili1 = {
 	name = "al-Mansour_Ali"
 	dynasty = 7268
 	religion = "ashari"
-	culture = "turkish"
-	trait="mamaluk"
+	culture = mamluk #"turkish"
+	#trait="mamaluk"
 	father = 32930
 	1225.1.1 = {
 		birth = "1225.1.1"
@@ -5218,17 +5218,11 @@ begdili1 = {
 	religion = "alevi"
 	culture = "anatolian_turkish"
 	father = 34190
+	trait = content
+	trait = stubborn
+	trait = humble
 	1237.1.1 = {
 		birth = "1237.1.1"
-	}
-	1246.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:34191
-		SUZERAIN = character:478011
-			}
-		}
 	}
 	1280.1.1 = {
 		death = "1280.1.1"
@@ -8555,7 +8549,7 @@ FemaleIlutimishi2 = {
 	name = "Mahmud"
 	dynasty = 1040204
 	religion = "ashari"
-	culture = "turkish"
+	culture = turkish #"hindustani_proper"
 	father = 170207
 	1185.1.1 = {
 		birth = "1185.1.1"
@@ -8566,14 +8560,14 @@ FemaleIlutimishi2 = {
 }
 
 170204 = {
-	name = "Balban" #Ghiyasuddin Balban
+	name = "Balban" # Ghiyasuddin Balban
 	dynasty = 1040204
 	martial = 7
 	diplomacy = 6
 	stewardship = 6
 	intrigue = 7			   
 	religion = "ashari"
-	culture = "hindustani_proper"
+	culture = turkish # "hindustani_proper"
 	father = 170203
 	trait = "strong" #lived a long life		  
 	1206.1.1 = {
@@ -8627,7 +8621,7 @@ FemaleIlutimishi2 = {
 }
 
 170206 = {
-	name = "Kishlu"
+	name = "Kishlu" # Izz al-Din Balban Kashlu Khan
 	dynasty = 1040204
 	religion = "ashari"
 	culture = "hindustani_proper"
@@ -8635,8 +8629,8 @@ FemaleIlutimishi2 = {
 	1209.1.1 = {
 		birth = "1209.1.1"
 	}
-	1247.1.1 = {
-		death = "1247.1.1"
+	1270.1.1 = { # Managed to recapture Multan after launching an invasion with the Mongols in 1257, and the Mongols tried to recapture it again in 1279
+		death = yes
 	}
 }
 
@@ -8644,7 +8638,7 @@ FemaleIlutimishi2 = {
 	name = "Balban"
 	dynasty = 1040204
 	religion = "ashari"
-	culture = "hindustani_proper"
+	culture = turkish #"hindustani_proper"
 	1158.1.1 = {
 		birth = "1158.1.1"
 	}
@@ -8657,7 +8651,7 @@ FemaleIlutimishi2 = {
 	name = "Kishlu"
 	dynasty = 1040204
 	religion = "ashari"
-	culture = "hindustani_proper"
+	culture = turkish #"hindustani_proper"
 	father = 170207
 	1190.1.1 = {
 		birth = "1190.1.1"
@@ -9105,7 +9099,7 @@ FemaleIlutimishi2 = {
 	name = "Bakhtiyar" #Muhammad Bakhtiyar
 	dynasty = 1040205
 	religion = "ashari"
-	culture = "hindustani_proper"
+	culture = "turkish"
 	1150.1.1 = {
 		birth = yes
 	}
@@ -9121,7 +9115,7 @@ FemaleIlutimishi2 = {
 	name = "Shiran" #Muhammad Shiran
 	dynasty = 1040205
 	religion = "ashari"
-	culture = "hindustani_proper"
+	culture = "turkish"
 	father = 170252
 	1166.1.1 = {
 		birth = "1166.1.1"
@@ -9135,7 +9129,7 @@ FemaleIlutimishi2 = {
 	name = "Ali_Mardan"
 	dynasty = 1040205
 	religion = "ashari"
-	culture = "hindustani_proper"
+	culture = "turkish"
 	father = 170252
 	1167.1.1 = {
 		birth = "1167.1.1"
@@ -9149,7 +9143,7 @@ FemaleIlutimishi2 = {
 	name = "Ghiyasuddin" #Ghiyasuddin Iwaj
 	dynasty = 1040205
 	religion = "ashari"
-	culture = "hindustani_proper"
+	culture = "turkish"
 	father = 170252
 	1168.1.1 = {
 		birth = "1168.1.1"
@@ -9405,10 +9399,14 @@ FemaleIlutimishi2 = {
 }
 
 170272 = {
-	name = "Tatar" #Tatar Khan
-	dynasty = 1040215
+	name = "Tatar" # Tatar Khan
+	dynasty = 1040215 # Bengali Tatar dynasty
 	religion = "ashari"
-	culture = "turkish"
+	culture = tatars # "turkish"
+	trait = brave
+	trait = ambitious
+	trait = just
+	trait = education_martial_3
 	1200.1.1 = {
 		birth = "1200.1.1"
 	}

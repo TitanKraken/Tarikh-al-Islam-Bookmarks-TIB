@@ -2423,16 +2423,6 @@
 	1310.1.1 = { change_development_level = 31 }
 	}
 
-	c_marseille = {
-	867.1.1 = { change_development_level = 8 }
-	1066.1.1 = { change_development_level = 10 }
-	1124.1.1 = { change_development_level = 13 }
-	1166.1.1 = { change_development_level = 17 }
-	1204.1.1 = { change_development_level = 22 }
-	1241.1.1 = { change_development_level = 26 }
-	1310.1.1 = { change_development_level = 32 }
-	}
-
 	c_provence = { 
 	867.1.1 = { change_development_level = 8 }
 	1066.1.1 = { change_development_level = 10 }
@@ -3902,16 +3892,6 @@
 	1204.1.1 = { change_development_level = 30 }
 	1241.1.1 = { change_development_level = 34 }
 	1310.1.1 = { change_development_level = 40 }
-	}
-
-	c_manbij = {
-	867.1.1 = {	change_development_level = 10 }
-	1066.1.1 = { change_development_level = 16 }
-	1124.1.1 = { change_development_level = 19 }
-	1166.1.1 = { change_development_level = 23 }
-	1204.1.1 = { change_development_level = 28 }
-	1241.1.1 = { change_development_level = 32 }
-	1310.1.1 = { change_development_level = 38 }
 	}
 
 	c_aleppo = {

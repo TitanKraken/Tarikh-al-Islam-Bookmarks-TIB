@@ -187,10 +187,12 @@ d_multan = {
 		holder = 170199 #Masud
 	}
 	1246.6.11 = {
-		holder = 170201 #Mahmud
+		holder = 170206 # Izz al-Din Kishlu Khan Balban
+		liege = e_ilkhanate # Joint an invasion with the Mongols to recapture Multan
 	}
 	1266.2.19 = {
 		holder = 170204 #Ghiyasuddin Balban
+		liege = e_rajastan
 	}
 	1286.1.1 = {
 		holder = 170213 #Muizz ud-din Qaiqabad
@@ -297,10 +299,12 @@ c_multan = {
 		holder = 170199 #Masud
 	}
 	1246.6.11 = {
-		holder = 170201 #Mahmud
+		holder = 170206 # Izz al-Din Kishlu Khan Balban
+		liege = e_ilkhanate # Joint an invasion with the Mongols to recapture Multan
 	}
 	1266.2.19 = {
 		holder = 170204 #Ghiyasuddin Balban
+		liege = e_rajastan
 	}
 	1286.1.1 = {
 		holder = 170213 #Muizz ud-din Qaiqabad
@@ -419,10 +423,12 @@ c_kafirkot = {
 		holder = 170199 #Masud
 	}
 	1246.6.11 = {
-		holder = 170201 #Mahmud
+		holder = 170206 # Izz al-Din Kishlu Khan Balban
+		liege = e_ilkhanate # Joint an invasion with the Mongols to recapture Multan
 	}
 	1266.2.19 = {
 		holder = 170204 #Ghiyasuddin Balban
+		liege = e_rajastan
 	}
 	1286.1.1 = {
 		holder = 170213 #Muizz ud-din Qaiqabad
@@ -529,10 +535,12 @@ c_uch = {
 		holder = 170199 #Masud
 	}
 	1246.6.11 = {
-		holder = 170201 #Mahmud
+		holder = 170206 # Izz al-Din Kishlu Khan Balban
+		liege = e_ilkhanate # Joint an invasion with the Mongols to recapture Multan
 	}
 	1266.2.19 = {
 		holder = 170204 #Ghiyasuddin Balban
+		liege = e_rajastan
 	}
 	1286.1.1 = {
 		holder = 170213 #Muizz ud-din Qaiqabad
@@ -640,10 +648,12 @@ c_karur = {
 		holder = 170199 #Masud
 	}
 	1246.6.11 = {
-		holder = 170201 #Mahmud
+		holder = 170206 # Izz al-Din Kishlu Khan Balban
+		liege = e_ilkhanate # Joint an invasion with the Mongols to recapture Multan
 	}
 	1266.2.19 = {
 		holder = 170204 #Ghiyasuddin Balban
+		liege = e_rajastan
 	}
 	1286.1.1 = {
 		holder = 170213 #Muizz ud-din Qaiqabad
@@ -756,10 +766,12 @@ c_karor = {
 		holder = 170199 #Masud
 	}
 	1246.6.11 = {
-		holder = 170201 #Mahmud
+		holder = 170206 # Izz al-Din Kishlu Khan Balban
+		liege = e_ilkhanate # Joint an invasion with the Mongols to recapture Multan
 	}
 	1266.2.19 = {
 		holder = 170204 #Ghiyasuddin Balban
+		liege = e_rajastan
 	}
 	1286.1.1 = {
 		holder = 170213 #Muizz ud-din Qaiqabad
@@ -852,11 +864,13 @@ c_kalat = {
 	1227.12.2 = {
 		liege = "e_ilkhanate"
 	}
-	1245.1.1 = {
-		holder = 93154
+	1246.6.11 = {
+		holder = 170206 # Izz al-Din Kishlu Khan Balban
+		liege = e_ilkhanate # Joint an invasion with the Mongols to recapture Multan
 	}
-	1277.1.1 = {
-		holder = 93155
+	1266.2.19 = {
+		holder = 170204 #Ghiyasuddin Balban
+		liege = e_rajastan
 	}
 	1295.1.1 = {
 		holder = 93156
@@ -956,11 +970,11 @@ d_lahore = {
 		holder = 170199 #Masud
 	}
 	1246.6.11 = {
-		holder = 170201 #Mahmud
+		holder = 170209 # Sher Khan, installed by his cousin Ghiyasuddin Balban
 	}
-	1266.2.19 = {
-		holder = 170204 #Ghiyasuddin Balban
-	}
+	#1266.2.19 = {
+	#	holder = 170204 #Ghiyasuddin Balban
+	#}
 	1286.1.1 = {
 		holder = 170213 #Muizz ud-din Qaiqabad
 	}
@@ -1071,11 +1085,11 @@ c_lahur = {
 		holder = 170199 #Masud
 	}
 	1246.6.11 = {
-		holder = 170201 #Mahmud
+		holder = 170209 # Sher Khan, installed by his cousin Ghiyasuddin Balban
 	}
-	1266.2.19 = {
-		holder = 170204 #Ghiyasuddin Balban
-	}
+	#1266.2.19 = {
+	#	holder = 170204 #Ghiyasuddin Balban
+	#}
 	1286.1.1 = {
 		holder = 170213 #Muizz ud-din Qaiqabad
 	}
@@ -1182,11 +1196,11 @@ c_dipalpur = {
 		holder = 170199 #Masud
 	}
 	1246.6.11 = {
-		holder = 170201 #Mahmud
+		holder = 170209 # Sher Khan, installed by his cousin Ghiyasuddin Balban
 	}
-	1266.2.19 = {
-		holder = 170204 #Ghiyasuddin Balban
-	}
+	#1266.2.19 = {
+	#	holder = 170204 #Ghiyasuddin Balban
+	#}
 	1286.1.1 = {
 		holder = 170213 #Muizz ud-din Qaiqabad
 	}
@@ -1302,11 +1316,11 @@ c_bhera = {
 		holder = 170199 #Masud
 	}
 	1246.6.11 = {
-		holder = 170201 #Mahmud
+		holder = 170209 # Sher Khan, installed by his cousin Ghiyasuddin Balban
 	}
-	1266.2.19 = {
-		holder = 170204 #Ghiyasuddin Balban
-	}
+	#1266.2.19 = {
+	#	holder = 170204 #Ghiyasuddin Balban
+	#}
 	1286.1.1 = {
 		holder = 170213 #Muizz ud-din Qaiqabad
 	}
@@ -1422,11 +1436,11 @@ c_shorkot = {
 		holder = 170199 #Masud
 	}
 	1246.6.11 = {
-		holder = 170201 #Mahmud
+		holder = 170209 # Sher Khan, installed by his cousin Ghiyasuddin Balban
 	}
-	1266.2.19 = {
-		holder = 170204 #Ghiyasuddin Balban
-	}
+	#1266.2.19 = {
+	#	holder = 170204 #Ghiyasuddin Balban
+	#}
 	1286.1.1 = {
 		holder = 170213 #Muizz ud-din Qaiqabad
 	}
@@ -1504,6 +1518,7 @@ c_sakala = {
 	}
 	1258.1.1 = {
 		holder = dogra_ruler_8 #Arjan Dev
+		liege = d_lahore
 	}
 	1313.1.1 = {
 		holder = dogra_ruler_9 #Jodh Dev
@@ -1704,6 +1719,7 @@ c_trigarta = {
 	}
 	1253.1.1 = {
 		holder = 170238 #Jaganpal
+		liege = d_lahore
 	}
 	1270.1.1 = {
 		holder = 170239 #Kiratpal
@@ -2047,6 +2063,23 @@ d_gandhara = {
 		holder = 0
 		liege = 0
 	}
+
+	# Placeholder
+	1206.3.15 = {
+		liege = e_rajastan
+	}
+	1220.1.1 = {
+		holder = 191981 #Mang Han
+	}
+	1267.1.1 = {
+		holder = 191982 #Lahar Han
+	}
+	1330.1.1 = {
+		holder = 191983 #Lakhan Han
+	}
+	1341.1.1 = {
+		holder = 191984 #Haydar Han
+	}
 }
 
 c_udabhanda = {
@@ -2190,59 +2223,21 @@ c_purushapura = {
 	1211.6.1 = {
 		holder = 170193 #Iltutmish
 	}
+	# Placeholder
+	1206.3.15 = {
+		liege = e_rajastan
+	}
 	1220.1.1 = {
-		holder = 194284
+		holder = 191981 #Mang Han
 	}
-	1236.5.1 = {
-		holder = 170194 #Firuz I
+	1267.1.1 = {
+		holder = 191982 #Lahar Han
 	}
-	1236.11.20 = {
-		holder = 170195 #Raziyya
+	1330.1.1 = {
+		holder = 191983 #Lakhan Han
 	}
-	1239.10.1 = {
-		holder = 170198 #Bahram
-	}
-	1242.5.15 = {
-		holder = 170199 #Masud
-	}
-	1246.6.11 = {
-		holder = 170201 #Mahmud
-	}
-	1266.2.19 = {
-		holder = 170204 #Ghiyasuddin Balban
-	}
-	1286.1.1 = {
-		holder = 170213 #Muizz ud-din Qaiqabad
-	}
-	1290.10.1 = {
-		holder = 170243 #Jalal ud din Firuz Khilji
-	}
-	1296.7.21 = {
-		holder = 170245 #Ibrahim
-	}
-	1296.11.1 = {
-		holder = 170246 #Ala-ud-din Muhammad
-	}
-	1316.1.3 = {
-		holder = 170247 #Umar
-	}
-	1316.4.1 = {
-		holder = 170248 #Mubarak
-	}
-	1318.1.1 = {
-		holder = 170250 #Mahmud
-	}
-	1318.6.1 = {
-		holder = 170248 #Mubarak
-	}
-	1320.6.1 = {
-		holder = 170251 #Husraw Kushru
-	}
-	1320.10.1 = {
-		holder = 170257 #Ghiyath al-Din Tughluq
-	}
-	1325.2.1 = {
-		holder = 170258 #Muhammad
+	1341.1.1 = {
+		holder = 191984 #Haydar Han
 	}
 }
 
@@ -2491,6 +2486,22 @@ c_urgun = {
 	}
 	1220.1.1 = {
 		holder = 194302
+	}
+	# Placeholder
+	1206.3.15 = {
+		liege = e_rajastan
+	}
+	1220.1.1 = {
+		holder = 191981 #Mang Han
+	}
+	1267.1.1 = {
+		holder = 191982 #Lahar Han
+	}
+	1330.1.1 = {
+		holder = 191983 #Lakhan Han
+	}
+	1341.1.1 = {
+		holder = 191984 #Haydar Han
 	}
 }
 

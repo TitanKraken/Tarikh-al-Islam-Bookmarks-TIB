@@ -557,7 +557,7 @@
 			}
 		}
 
-		imami = { #Twelver
+		imami = { # Twelver
 			color = { 0.1 0.5 0.1 }
 			icon = imami
 			religious_head = d_imami
@@ -645,18 +645,18 @@
 			doctrine = tenet_communion
 
 			#Shia
-			#No head of faith: or, technically should be no head, but one is required for their communion tenet to work, so we give them a chief imam.
+			# Leadership
+			doctrine = doctrine_temporal_head #No head of faith: or, technically should be no head, but one is required for their communion tenet to work, so we give them a chief imam.
 			#Monogamy
 			#Free divorce
 			#Adultery is a crime
 			#Clergy - equal
 			doctrine = muhammad_succession_zandaqa_doctrine	#Technically Shia
-			doctrine = doctrine_monogamy
+			#doctrine = doctrine_monogamy
 			doctrine = doctrine_divorce_allowed
 			doctrine = doctrine_adultery_men_crime
-			doctrine = doctrine_spiritual_head
 			doctrine = doctrine_adultery_women_crime
-			doctrine = doctrine_clerical_gender_either
+			#doctrine = doctrine_clerical_gender_either
 
 			localization = {		
 				PriestMale = islam_shia_priest
@@ -673,6 +673,7 @@
 		alevi = {
 			color = { 0.4 0.6 0.1 }
 			icon = alevi
+			religious_head = d_imami
 
 			holy_site = mecca
 			holy_site = medina
@@ -691,7 +692,7 @@
 			#Adultery is a crime
 			#Witchcraft is a sin
 			#Clerical gender - Either
-			doctrine = muhammad_succession_zandaqa_doctrine	#Technically Shia
+			doctrine = muhammad_succession_zandaqa_doctrine	# Technically Shia
 			doctrine = doctrine_divorce_disallowed
 			doctrine = doctrine_adultery_women_crime
 			doctrine = doctrine_adultery_men_crime
@@ -918,7 +919,7 @@
 
 			doctrine = tenet_struggle_submission
 			doctrine = tenet_unrelenting_faith
-			doctrine = tenet_tax_nonbelievers
+			doctrine = tenet_communion # Primacy of Caliph
 			
 			# Leadership
 			doctrine = doctrine_temporal_head

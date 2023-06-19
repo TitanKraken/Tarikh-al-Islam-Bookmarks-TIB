@@ -428,7 +428,7 @@
 # Long serving Salihi mamluk Emir. Governor of Aleppo and major-domo under Baibars among other things. Baibars got his official nisbah from this chap.
 8000479 = {
 	name="Aydakin al-'Ala'i" # Aydakin al-'Ala'i al-Bunduqdar
-	dynasty=8000579
+	dynasty=8000579 # al-Bunduqdar
 	religion="ashari"
 	culture="turkish"
 	trait="diligent"  # Trained Baibars

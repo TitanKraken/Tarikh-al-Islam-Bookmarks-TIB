@@ -24,10 +24,14 @@
 8000516 = {
 	name="Terkhen" # Name unknown
 	female=yes
+	dna = dna_8000516
 	dynasty=8000616
 	religion="ashari"
 	culture="turkish"
 	father=8000517
+	trait = education_learning_3
+	trait = humble
+	trait = content
 	1240.1.1={
 		birth="1240.1.1"
 	}
