@@ -10,6 +10,8 @@
  islamic_government_unclamped_contribution_label:0 "Based on [opinion|E] of me"
  islamic_government_min_contribution_label:0 "[crown_authority|E] minimum"
 
+ government_is_islamic:0 "[government|E] type is [GetGovernment( 'islamic_government' ).GetName]"
+
  game_concept_islamic:0 "Islamic"
  game_concept_islamic_government:0 "Islamic Government"
  game_concept_islamic_desc:0 "Islamic governments are a [government_form|E] in which the amount of [levies|E] are reduced and heavily rely on bountiful [taxes|E] given to the ruler. This form of government also launches [raids|E] usually annually in order to fund the state further."

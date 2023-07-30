@@ -148,6 +148,11 @@ c_epeiros = {
 	330.1.1 = {
 		liege = "d_epirus"
 	}
+	700.1.1 = {
+		holder = southslavchief001
+		government = republic_government
+		liege = 0
+	}
 	766.1.1 = {
 		holder = 145799
 	}
@@ -210,6 +215,11 @@ c_aetolia = {
 	330.1.1 = {
 		liege = "d_athens"
 	}
+	700.1.1 = {
+		holder = southslavchief001
+		government = republic_government
+		liege = 0
+	}
 	#Skleros
 	752.1.1 = {
 		holder = 145806
@@ -264,6 +274,11 @@ c_aetolia = {
 c_metzovo = {
 	330.1.1 = {
 		liege = "d_epirus"
+	}
+	700.1.1 = {
+		holder = southslavchief001
+		government = republic_government
+		liege = 0
 	}
 	766.1.1 = {
 		holder = 145799
@@ -417,6 +432,11 @@ c_dyrrachion = {
 	330.1.1 = {
 		liege = "d_dyrrachion"
 	}
+	700.1.1 = { # Fictional
+		holder = southslavchief011
+		liege = 0
+		government = republic_government
+	}
 	759.1.1 = {
 		holder = 145817
 	}
@@ -533,6 +553,11 @@ c_dyrrachion = {
 c_arbanon = {
 	330.1.1 = {
 		liege = "d_dyrrachion"
+	}
+	700.1.1 = { # Fictional
+		holder = southslavchief011
+		liege = 0
+		government = republic_government
 	}
 	759.1.1 = {
 		holder = 145817
@@ -654,6 +679,11 @@ c_debar = {
 	640.1.1 = {
 		liege = "d_rashka"
 	}
+	700.1.1 = { # Fictional
+		holder = southslavchief011
+		liege = 0
+		government = republic_government
+	}
 	748.1.1 = {
 		holder = 146011
 	}
@@ -742,6 +772,11 @@ c_antipatreia = {
 	330.1.1 = {
 		liege = "d_epirus"
 	}
+	700.1.1 = { # Fictional
+		holder = southslavchief011
+		liege = 0
+		government = republic_government
+	}
 	766.1.1 = {
 		holder = 145799
 	}
@@ -807,6 +842,11 @@ c_antipatreia = {
 c_avlonas = {
 	330.1.1 = {
 		liege = "d_epirus"
+	}
+	700.1.1 = { # Fictional
+		holder = southslavchief011
+		liege = 0
+		government = republic_government
 	}
 	766.1.1 = {
 		holder = 145799

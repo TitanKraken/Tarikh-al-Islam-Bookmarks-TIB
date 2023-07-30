@@ -130,6 +130,8 @@ komes_opsikiou = { # Fictional Count of Opsikion?
 	trait = ambitious
 	trait = brave
 	trait = education_martial_4
+	prestige = 2000
+	gold = 500
 	
 	685.1.1 = {
 		birth = "685.1.1"

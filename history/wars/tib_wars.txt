@@ -27,11 +27,11 @@ war = {
 	defenders = { 70504 }
 	claimant = 70532
 
-	70532 = { # Theodosius Apsimaros
-		715.1.1 = {
-			location = 5529 # Adramyttion, he was a tax-collector there
-		}
-	}
+	#70532 = { # Theodosius Apsimaros
+	#	715.1.1 = {
+	#		location = 5529 # Adramyttion, he was a tax-collector there
+	#	}
+	#}
 }
 
 war = {

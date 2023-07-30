@@ -1072,6 +1072,10 @@ c_naxos = {
 	330.1.1 = {
 		liege = "d_aegean_islands"
 	}
+	713.6.3 = { # fictional
+		holder = strategos001
+		liege = e_byzantium
+	}
 	761.1.1 = {
 		holder = 145822
 	}
@@ -1195,6 +1199,9 @@ c_lesbos = {
 	330.1.1 = {
 		liege = "d_aegean_islands"
 	}
+	711.1.1 = { # fictional
+		holder = strategos004
+	}
 	755.1.1 = {
 		holder = 145820
 	}
@@ -1281,6 +1288,9 @@ c_chios = {
 	330.1.1 = {
 		liege = "d_ephese"
 	}
+	711.1.1 = { # fictional
+		holder = strategos004
+	}
 	764.1.1 = {
 		holder = 145833
 	}
@@ -1365,6 +1375,10 @@ c_rhodos = {
 	
 	330.1.1 = {
 		liege = "d_cibyrrhaeot"
+	}
+	714.6.3 = { # fictional
+		holder = strategos005
+		liege = 0
 	}
 	751.1.1 = {
 		holder = 145834

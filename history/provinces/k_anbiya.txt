@@ -166,7 +166,7 @@
 ##d_taghaza ###################################
 ###c_taghaza
 4760 = {	#TAGHAZA
-	culture = butr
+	culture = tagelmust
 	religion = north_african_acham_pagan
 	holding = tribal_holding
 	750.1.1 = {

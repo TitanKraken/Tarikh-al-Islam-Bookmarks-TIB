@@ -9951,7 +9951,7 @@ Dalassenos1 = {
 70502 = {
 	name = "Leon"
 	# AKA: Leon 'the Isaurian'
-	dynasty = 8646
+	dynasty_house = house_Isaurian # 8646
 	martial = 6
 	diplomacy = 7
 	intrigue = 6
@@ -9964,12 +9964,17 @@ Dalassenos1 = {
 	
 	685.1.1 = {
 		birth = "685.1.1"
-		give_nickname = nick_the_syrian
+		learn_court_language = language_arabic
+	}
+	714.1.1 = {
+		add_pressed_claim = title:e_byzantium
+		add_pressed_claim = title:c_byzantion
 	}
 	741.6.18 = {
 		death = "741.6.18"
 	}
 }
+
 
 70503 = {
 	name = "Euphrosyne"
@@ -10304,7 +10309,7 @@ Dalassenos1 = {
 
 70532 = {
 	name = "Theodosios"
-	dynasty = 1022179
+	dynasty = 1022179 # Apsimaros
 	martial = 5
 	diplomacy = 8
 	intrigue = 4
@@ -10312,10 +10317,17 @@ Dalassenos1 = {
 	religion = "orthodox"
 	culture = "greek"
 	trait = humble
+	trait = content
+	trait = honest
 	trait = education_stewardship_2
 	father = 145069
 	685.1.1 = {
 		birth = "685.1.1"
+	}
+	714.1.1 = {
+		add_pressed_claim = title:e_byzantium
+		add_pressed_claim = title:c_byzantion
+		employer = komes_opsikiou
 	}
 	755.1.1 = {
 		death = "755.1.1"
