@@ -4,51 +4,10 @@
 	recommended = yes
 	group = bm_group_tib_default
 }
-bm_the_imamate = { # FUTURE FLAVOUR PACK
-	start_date = 910.1.15
-	is_playable = yes
-	group = bm_group_tib_flavour_1
-}
 bm_the_hammudid_caliphate = {
 	start_date = 1016.7.1
 	is_playable = yes
 	group = bm_group_tib_default
-}
-
-# Almohad Pack
-bm_cycle_of_fate = {
-	start_date = 1144.1.1
-	is_playable = yes
-	recommended = yes
-	group = bm_group_tib_almohad
-}
-bm_the_successors = {
-	start_date = 1163.1.1
-	is_playable = yes
-	group = bm_group_tib_almohad
-}
-bm_the_banu_ghaniya_revolution = {
-	start_date = 1200.1.1
-	is_playable = yes
-	#recommended = yes
-	group = bm_group_tib_almohad
-}
-bm_las_navas_de_tolosa = {
-	start_date = 1212.7.5
-	is_playable = yes
-	recommended = yes
-	#default = yes
-	group = bm_group_tib_almohad
-}
-bm_the_almohad_fitna = {
-	start_date = 1224.1.1
-	is_playable = yes
-	group = bm_group_tib_almohad
-}
-bm_the_gloom_over_the_light = {
-	start_date = 1235.12.23
-	is_playable = yes
-	group = bm_group_tib_almohad
 }
 
 # Mamluk 
@@ -57,11 +16,4 @@ bm_the_ilkhanate = {
 	is_playable = yes
 	recommended = yes
 	group = bm_group_tib_default
-}
-
-# Cairene Abbasid Expansion
-bm_the_shadow_caliphate = {
-	start_date = 1412.7.1
-	is_playable = yes
-	group = bm_group_tib_flavour_1
 }
