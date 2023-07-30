@@ -1990,29 +1990,12 @@ c_gurjaratra = {
 	1206.3.15 = {
 		liege = e_rajastan
 	}
-	1210.11.4 = {
-		holder = 170191 #Aram
+	1216.1.1 = {
+		holder = dogra_ruler_7 #Narsing Dev
 	}
-	1211.6.1 = {
-		holder = 170193 #Iltutmish
-	}
-	1220.1.1 = {
-		holder = 170237
-	}
-	1236.5.1 = {
-		holder = 170194 #Firuz I
-	}
-	1236.11.20 = {
-		holder = 170195 #Raziyya
-	}
-	1239.10.1 = {
-		holder = 170198 #Bahram
-	}
-	1242.5.15 = {
-		holder = 170199 #Masud
-	}
-	1246.6.11 = {
-		holder = 170201 #Mahmud
+	1258.1.1 = {
+		holder = dogra_ruler_8 #Arjan Dev
+		liege = d_lahore
 	}
 	1266.2.19 = {
 		holder = 170204 #Ghiyasuddin Balban

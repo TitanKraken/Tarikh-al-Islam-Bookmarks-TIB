@@ -5515,6 +5515,7 @@ k_magyar = {
 	#fictional magyar ancestors
 	700.1.1 = {
 		holder = megyer
+		liege = e_caspian-pontic_steppe
 	}
 	740.1.1 = {
 		holder = keszi

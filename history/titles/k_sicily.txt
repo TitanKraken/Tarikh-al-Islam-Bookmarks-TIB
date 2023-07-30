@@ -744,9 +744,9 @@ c_malta = {
 }
 
 d_benevento = {
-	571.1.1 = {
-		liege = k_italy
-	}
+	#571.1.1 = {
+		#liege = k_italy
+	#}
 	571.1.1 = {
 		holder = 190127 # Zotto Gausian
 	}

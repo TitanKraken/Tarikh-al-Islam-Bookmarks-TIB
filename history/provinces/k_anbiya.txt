@@ -3,8 +3,11 @@
 ###c_zammour
 6472 = {	#ZAMMOUR
 	culture = tagelmust # Sanhaja
-	religion = ibadi
+	religion = north_african_acham_pagan
 	holding = tribal_holding
+	750.1.1 = {
+		religion = ibadi
+	}
 	#935.1.1 = {
 	#	holding = castle_holding
 	#}
@@ -19,8 +22,11 @@
 ###c_tindouf
 6470 = {	#TINDOUF
 	culture = tagelmust # Sanhaja
-	religion = ibadi
+	religion = north_african_acham_pagan
 	holding = tribal_holding
+	750.1.1 = {
+		religion = ibadi
+	}
 	#935.1.1 = {
 	#	holding = castle_holding
 	#}
@@ -38,8 +44,11 @@
 ###c_tiris
 6473 = {	#BIR_UM-GHREIN
 	culture = tagelmust # Sanhaja
-	religion = ibadi
+	religion = north_african_acham_pagan
 	holding = tribal_holding
+	750.1.1 = {
+		religion = ibadi
+	}
 	935.1.1 = {
 		holding = castle_holding
 	}
@@ -113,8 +122,11 @@
 ###c_touat
 6467 = {	#ADRAR_TIMMI
 	culture = tuareg
-	religion = ibadi
+	religion = north_african_acham_pagan
 	holding = tribal_holding
+	750.1.1 = {
+		religion = ibadi
+	}
 	
 	#History
 	1050.1.1 = {
@@ -131,9 +143,11 @@
 ###c_tamentit
 6466 = {	#TAMENTIT
 	culture = tuareg
-	religion = ibadi
+	religion = north_african_acham_pagan
 	holding = tribal_holding
-	
+	750.1.1 = {
+		religion = ibadi
+	}
 	#History
 	1050.1.1 = {
 		religion = ashari
@@ -153,8 +167,11 @@
 ###c_taghaza
 4760 = {	#TAGHAZA
 	culture = butr
-	religion = ibadi
+	religion = north_african_acham_pagan
 	holding = tribal_holding
+	750.1.1 = {
+		religion = ibadi
+	}
 	1050.1.1 = {
 		religion = ashari
 	}
@@ -166,8 +183,11 @@
 ###c_saoura
 6469 = {	#WADI_DAOURA
 	culture = tagelmust # Sanhaja
-	religion = ibadi
+	religion = north_african_acham_pagan
 	holding = tribal_holding
+	750.1.1 = {
+		religion = ibadi
+	}
 	1050.1.1 = {
 		religion = ashari
 	} #Almoravid

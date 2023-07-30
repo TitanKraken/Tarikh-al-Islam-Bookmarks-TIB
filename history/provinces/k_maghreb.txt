@@ -3,8 +3,12 @@
 ###c_marrakesh
 4718 = {	#MARRAKESH
 	culture = masmuda
-	religion = ashari
-	holding = castle_holding
+	religion = north_african_acham_pagan
+	holding = tribal_holding
+	700.1.1 = {
+		religion = ashari
+		holding = castle_holding
+	}
 	1147.1.1 = {
 		religion = masmudi
 	}
@@ -25,8 +29,12 @@
 ###c_tadla
 4709 = {	#TADLA
 	culture = masmuda
-	religion = ashari
-	holding = castle_holding
+	religion = north_african_acham_pagan
+	holding = tribal_holding
+	700.1.1 = {
+		religion = ashari
+		holding = castle_holding
+	}
 	1147.1.1 = {
 		religion = masmudi
 	}
@@ -50,8 +58,12 @@
 ###c_fazaz
 4706 = {	#MRIRA
 	culture = masmuda
-	religion = ashari
-	holding = castle_holding
+	religion = north_african_acham_pagan
+	holding = tribal_holding
+	700.1.1 = {
+		religion = ashari
+		holding = castle_holding
+	}
 	1147.1.1 = {
 		religion = masmudi
 	}
@@ -66,8 +78,12 @@
 ###c_tamasna
 4703 = {	#ANFA
 	culture = masmuda
-	religion = najdat
-	holding = castle_holding
+	religion = north_african_acham_pagan
+	holding = tribal_holding
+	700.1.1 = {
+		religion = najdat
+		holding = castle_holding
+	}
 	1070.1.1 = {
 		religion = ashari
 	}
@@ -88,8 +104,12 @@
 ###c_asfi
 4720 = {	# 4720 - ASFI
 	culture = masmuda
-	religion = najdat
-	holding = castle_holding
+	religion = north_african_acham_pagan
+	holding = tribal_holding
+	700.1.1 = {
+		religion = najdat
+		holding = castle_holding
+	}
 	1066.1.1 = {
 		buildings = {
 			plantations_01
@@ -114,8 +134,12 @@
 ###tinmallal
 4716 = {	#TINMALLAL
 	culture = masmuda
-	religion = ashari
-	holding = castle_holding
+	religion = north_african_acham_pagan
+	holding = tribal_holding
+	700.1.1 = {
+		religion = ashari
+		holding = castle_holding
+	}
 	buildings = {
 		castle_02
 	}
@@ -140,8 +164,11 @@
 ###c_sous
 4724 = {	#TARUDANT
 	culture = tagelmust # Sanhaja
-	religion = ashari
+	religion = north_african_acham_pagan
 	holding = tribal_holding
+	700.1.1 = {
+		religion = ashari
+	}
 	1000.1.1 = {
 		holding = castle_holding
 	}
@@ -160,8 +187,11 @@
 4723 = {	#AGADIR
 	culture = tagelmust # Sanhaja
 	#culture = masmuda
-	religion = ashari
+	religion = north_african_acham_pagan
 	holding = tribal_holding
+	700.1.1 = {
+		religion = ashari
+	}
 	1000.1.1 = {
 		holding = castle_holding
 	}
@@ -177,8 +207,11 @@
 4727 = {	#IFNI
 	culture = tagelmust # Sanhaja
 	#culture = tagelmust
-	religion = ashari
+	religion = north_african_acham_pagan
 	holding = tribal_holding
+	720.1.1 = {
+		religion = ashari
+	}
 }
 4728 = {	#NUL_LAMTA
 	holding = none
@@ -199,8 +232,11 @@
 4735 = {	#TAZAGOURT
 	culture = tagelmust # Sanhaja
 	#culture = tagelmust
-	religion = ashari
+	religion = north_african_acham_pagan
 	holding = tribal_holding
+	720.1.1 = {
+		religion = ashari
+	}
 }
 4740 = {	#AL-TALHA
 	#holding = none
@@ -219,8 +255,11 @@
 ###c_sijilmasa
 4737 = {	#SIJILMASA
 	culture = tagelmust
-	religion = sufri
-	holding = castle_holding
+	religion = north_african_acham_pagan
+	holding = tribal_holding
+	700.1.1 = {
+		religion = sufri
+	}
 	1055.1.1 = {
 		religion = ashari
 	}
@@ -241,8 +280,11 @@
 ###c_tudgha
 4736 = {	#TUDGHA
 	culture = tagelmust
-	religion = ashari
+	religion = north_african_acham_pagan
 	holding = tribal_holding
+	700.1.1 = {
+		religion = sufri
+	}
 	1000.1.1 = {
 		holding = castle_holding
 	}
@@ -256,8 +298,11 @@
 ###c_ziz
 4739 = {	# 4739 - ZIZ
 	culture = tagelmust
-	religion = sufri
-	holding = castle_holding
+	religion = north_african_acham_pagan
+	holding = tribal_holding
+	700.1.1 = {
+		religion = sufri
+	}
 	1055.1.1 = {
 		religion = ashari
 	}
@@ -270,8 +315,12 @@
 ###c_fes
 4694 = {	#FES
 	culture = masmuda
-	religion = ashari
-	holding = castle_holding
+	religion = north_african_acham_pagan
+	holding = tribal_holding
+	700.1.1 = {
+		religion = ashari
+		holding = castle_holding
+	}
 	867.1.1 = {
 		buildings = {
 			pastures_01
@@ -303,8 +352,12 @@
 ###c_muluya
 4745 = {	#MISSOUR
 	culture = masmuda
-	religion = ashari
-	holding = castle_holding
+	religion = north_african_acham_pagan
+	holding = tribal_holding
+	700.1.1 = {
+		religion = ashari
+		holding = castle_holding
+	}
 }
 4743 = {	#TIKOUTAMINE
 	#holding = none
@@ -316,8 +369,12 @@
 ###c_taza
 4677 = {	#TAZA
 	culture = masmuda
-	religion = ashari
-	holding = castle_holding
+	religion = north_african_acham_pagan
+	holding = tribal_holding
+	700.1.1 = {
+		religion = ashari
+		holding = castle_holding
+	}
 }
 4748 = {	#NADOR
 	holding = none
@@ -326,8 +383,12 @@
 ###c_meknes
 4699 = {	#MEKNES
 	culture = masmuda
-	religion = ashari
-	holding = castle_holding
+	religion = north_african_acham_pagan
+	holding = tribal_holding
+	700.1.1 = {
+		religion = ashari
+		holding = castle_holding
+	}
 }
 4693 = {	#BAHT
 	#holding = none
@@ -342,8 +403,11 @@
 ###c_gharb
 4700 = {	#SALA
 	culture = masmuda
-	religion = muwalladi
+	religion = north_african_acham_pagan
 	holding = castle_holding
+	700.1.1 = {
+		religion = muwalladi
+	}
 }
 4687 = {	#AL-BASRA
 	holding = city_holding
@@ -365,8 +429,11 @@
 ###c_tangiers
 4683 = {	#TANGIERS
 	culture = masmuda
-	religion = muwalladi
+	religion = north_african_acham_pagan
 	holding = castle_holding
+	700.1.1 = {
+		religion = muwalladi
+	}
 	867.1.1 = {
 		buildings = {
 			common_tradeport_01
@@ -393,8 +460,11 @@
 ###c_ceuta
 4682 = {	#SABTA
 	culture = masmuda
-	religion = muwalladi
+	religion = north_african_acham_pagan
 	holding = castle_holding
+	700.1.1 = {
+		religion = muwalladi
+	}
 	1066.1.1 = {
 		buildings = {
 			watchtowers_01

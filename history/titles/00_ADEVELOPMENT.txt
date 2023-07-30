@@ -4230,16 +4230,6 @@
 	1310.1.1 = { change_development_level = 31 }
 	}
 
-	d_kakheti = {
-	867.1.1 = {	change_development_level = 7 }
-	1066.1.1 = { change_development_level = 10 }
-	1124.1.1 = { change_development_level = 13 }
-	1166.1.1 = { change_development_level = 17 }
-	1204.1.1 = { change_development_level = 22 }
-	1241.1.1 = { change_development_level = 26 }
-	1310.1.1 = { change_development_level = 32 }
-	}
-
 	c_tbilisi = {
 	867.1.1 = {	change_development_level = 7 }
 	1066.1.1 = { change_development_level = 10 }
@@ -4978,26 +4968,6 @@
 	##-End-
 	#Stopped here
 	#Arabia
-
-	d_sharif_mecca = {
-	867.1.1 = {	change_development_level = 10 }
-	1066.1.1 = { change_development_level = 16 }
-	1124.1.1 = { change_development_level = 19 }
-	1166.1.1 = { change_development_level = 23 }
-	1204.1.1 = { change_development_level = 28 }
-	1241.1.1 = { change_development_level = 32 }
-	1310.1.1 = { change_development_level = 38 }
-	}
-
-	d_sharif_medina = {
-	867.1.1 = {	change_development_level = 10 }
-	1066.1.1 = { change_development_level = 16 }
-	1124.1.1 = { change_development_level = 19 }
-	1166.1.1 = { change_development_level = 23 }
-	1204.1.1 = { change_development_level = 28 }
-	1241.1.1 = { change_development_level = 32 }
-	1310.1.1 = { change_development_level = 38 }
-	}
 
 	c_thalabiya = {
 	867.1.1 = {	change_development_level = 7 }

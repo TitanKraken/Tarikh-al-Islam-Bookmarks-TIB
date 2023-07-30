@@ -1707,7 +1707,6 @@ c_spoleto = {
 
 c_orvieto = {
 	# Traversari dynasty, the Herulian later Italian
-	# Traversari dynasty, the Herulian later Italian
 	490.1.1 = {
 		holder = 1063415 # Teodoro Traversari, the Herulian
 		liege = k_italy
@@ -2102,7 +2101,7 @@ c_lanciano = {
 
 c_abruzzi = {
 	700.1.1 = {
-		liege = k_italy
+		liege = d_benevento
 	}
 	708.2.4 = {
 		holder = 7896 # Pope Constantinus

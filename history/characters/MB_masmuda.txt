@@ -9,7 +9,7 @@
 168275 = {
 	name="Tarif"
 	dynasty=9576
-	religion="ashari"
+	religion="najdat"
 	culture="masmuda"
 	690.1.1 = {
 		birth="690.1.1"
@@ -22,7 +22,7 @@
 168276 = {
 	name="Salih"
 	dynasty=9576
-	religion="ashari"
+	religion="najdat"
 	culture="masmuda"
 	father=168275
 	720.1.1 = {
@@ -36,7 +36,7 @@
 168277 = {
 	name="Ilyas"
 	dynasty=9576
-	religion="ashari"
+	religion="najdat"
 	culture="masmuda"
 	father=168276
 	775.1.1 = {
@@ -50,7 +50,7 @@
 168278 = {
 	name="Yunus"
 	dynasty=9576
-	religion="ashari"
+	religion="najdat"
 	culture="masmuda"
 	father=168277
 	820.1.1 = {
@@ -64,7 +64,7 @@
 168279 = {
 	name="Muhammad"
 	dynasty=9576
-	religion="ashari"
+	religion="najdat"
 	culture="masmuda"
 	father=168278
 	855.1.1 = {
@@ -78,7 +78,7 @@
 168280 = {
 	name="Abdullah"
 	dynasty=9576
-	religion="ashari"
+	religion="najdat"
 	culture="masmuda"
 	father=168279
 	895.1.1 = {
@@ -92,7 +92,7 @@
 168281 = {
 	name="Mansur"
 	dynasty=9576
-	religion="ashari"
+	religion="najdat"
 	culture="masmuda"
 	father=168280
 	939.1.1 = {
@@ -107,7 +107,7 @@
 168282 = {
 	name="Ahmad"
 	dynasty=9575
-	religion="ashari"
+	religion="najdat"
 	culture="baranis"
 	father=168273
 	900.1.1 = {

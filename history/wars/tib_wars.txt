@@ -26,6 +26,12 @@ war = {
 	attackers = { komes_opsikiou gothograeci001 strategos005 }
 	defenders = { 70504 }
 	claimant = 70532
+
+	70532 = { # Theodosius Apsimaros
+		715.1.1 = {
+			location = 5529 # Adramyttion, he was a tax-collector there
+		}
+	}
 }
 
 war = {

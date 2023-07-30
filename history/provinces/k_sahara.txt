@@ -2,9 +2,10 @@
 ##d_tadmekka ###################################
 ###c_tadmekka
 6566 = {	#TADMEKKA
-	culture = tuareg
-	#culture = tagelmust
-	religion = ibadi
+	#culture = tuareg
+	culture = tagelmust
+	religion = north_african_acham_pagan
+	720.1.1 = { religion = ibadi }
 	holding = tribal_holding
 	1083.1.1 = {
 		religion = ashari
@@ -16,9 +17,10 @@
 
 ###c_tessalit
 6564 = {	#TESSALIT
-	culture = tuareg
-	#culture = tagelmust
-	religion = ibadi
+	#culture = tuareg
+	culture = tagelmust
+	religion = north_african_acham_pagan
+	720.1.1 = { religion = ibadi }
 	holding = tribal_holding
 	1083.1.1 = {
 		religion = ashari
@@ -34,9 +36,9 @@
 ##d_ghat ###################################
 ###c_ghat
 6460 = {	#GHAT
-	culture = tuareg
-	#culture = zanata
-	religion = ibadi
+	culture = zenata
+	religion = north_african_acham_pagan
+	720.1.1 = { religion = ibadi }
 	holding = tribal_holding
 }
 6461 = {	#AL-FEWET
@@ -206,9 +208,10 @@
 ##d_fezzan ###################################
 ###c_murzuk
 6451 = {	#MURZUK
-	culture = tuareg
-	#culture = zanata
-	religion = ibadi
+	#culture = tuareg
+	culture = zenata
+	religion = north_african_acham_pagan
+	720.1.1 = { religion = ibadi }
 	holding = tribal_holding
 	1176.1.1 = {
 		religion = ashari
@@ -226,9 +229,10 @@
 
 ###c_zawila
 6447 = {	#ZAWILA
-	culture = tuareg
-	#culture = zanata
-	religion = ibadi
+	#culture = tuareg
+	culture = zenata
+	religion = north_african_acham_pagan
+	720.1.1 = { religion = ibadi }
 	holding = tribal_holding
 	1176.1.1 = {
 		religion = ashari
@@ -240,8 +244,8 @@
 
 ###c_germa
 6449 = {	#GERMA
-	culture = tuareg
-	#culture = zanata
+	#culture = tuareg
+	culture = zenata
 	religion = ibadi
 	holding = tribal_holding
 	1176.1.1 = {
