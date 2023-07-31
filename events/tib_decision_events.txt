@@ -1,0 +1,194 @@
+﻿namespace = caliphal_decisions
+
+# A temporal Sunni reformer decides their HoF.
+caliphal_transfer_of_power = {
+	type = character_event
+	title = caliphal_transfer_of_power.t
+	desc = caliphal_transfer_of_power.desc
+	theme = faith
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+	#lower_left_portrait = scope:sunni_caliph
+	lower_center_portrait = {
+		character = scope:old_caliph
+		trigger = {
+			valid_prior_caliph_available_trigger = { MS_TYPE = sunni }
+		}
+	}
+
+	#cooldown = { years = 10 }
+
+	immediate = {
+		play_music_cue = "mx_cue_sacredrite"
+		# And sort defaults.
+		set_default_caliph_effect = yes
+	}
+
+	# Let me think of suitable replacements...
+	option = {
+		name = caliphal_transfer_of_power.a
+		trigger = { exists = scope:ROOT }
+
+		#trigger_event = caliphal_candidates
+		set_religious_head_title_to_and_gain_hook_effect = { NEW_RELIGIOUS_HEAD_TITLE = scope:old_caliph.player_heir }
+
+		stress_impact = {
+            humble = medium_stress_impact_loss
+            arrogant = major_stress_impact_gain
+        }
+
+		ai_chance = {
+			base = 0
+			opinion_modifier = {
+				opinion_target = scope:sunni_caliph
+				multiplier = 5
+			}
+		}
+	}
+
+	# Let me take up the mantle for myself!
+	option = {
+		name = caliphal_transfer_of_power.b
+		trigger = { exists = scope:ROOT }
+
+		# Set up the new HoF.
+		set_religious_head_title_to_and_gain_hook_effect = { NEW_RELIGIOUS_HEAD_TITLE = scope:ROOT }
+		# Had to make up your own Sayyid line if not Sayyid
+		scope:ROOT = {
+			limit = {
+				OR = {
+					has_trait = sayyid
+					has_trait = sayyid_quraysh
+				}
+			}
+			add_trait = fake_sayyid
+		}
+
+		stress_impact = {
+            base = minor_stress_impact_gain
+            humble = major_stress_impact_gain
+            arrogant = medium_stress_impact_loss
+			zealous = minor_stress_impact_loss
+        }
+
+		ai_chance = {
+			base = 0
+			opinion_modifier = {
+				opinion_target = scope:sunni_caliph
+				multiplier = 5
+			}
+		}
+	}
+	
+	# No option for striking out on your own immediately; you have a decision for that, or could've taken a different succession doctrine.
+}
+
+caliphal_candidates = {
+	type = character_event
+	title = caliphal_candidates.t
+	desc = caliphal_candidates.desc
+	theme = faith
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+	#lower_left_portrait = scope:sunni_caliph
+	lower_center_portrait = {
+		character = scope:old_caliph
+		trigger = {
+			valid_prior_caliph_available_trigger = { MS_TYPE = sunni }
+		}
+	}
+
+	#cooldown = { years = 10 }
+
+	# Let me think of suitable replacements...
+	option = {
+		name = caliphal_candidates.a
+		trigger = { exists = scope:ROOT }
+
+		# Set up the new HoF.
+		get_ = {
+			limit = {
+				OR = {
+					has_trait = sayyid
+					has_trait = sayyid_quraysh
+				}
+			}
+		}
+		set_religious_head_title_to_and_gain_hook_effect = { NEW_RELIGIOUS_HEAD_TITLE = scope:ROOT }
+
+		stress_impact = {
+            humble = medium_stress_impact_loss
+            arrogant = major_stress_impact_gain
+        }
+
+		ai_chance = {
+			base = 0
+			opinion_modifier = {
+				opinion_target = scope:sunni_caliph
+				multiplier = 5
+			}
+		}
+	}
+	option = {
+		name = caliphal_candidates.b
+		trigger = { exists = scope:ROOT }
+
+		stress_impact = {
+            humble = medium_stress_impact_loss
+            arrogant = major_stress_impact_gain
+        }
+
+		ai_chance = {
+			base = 0
+			opinion_modifier = {
+				opinion_target = scope:sunni_caliph
+				multiplier = 5
+			}
+		}
+	}
+	option = {
+		name = caliphal_candidates.c
+		trigger = { exists = scope:ROOT }
+
+		stress_impact = {
+            humble = medium_stress_impact_loss
+            arrogant = major_stress_impact_gain
+        }
+
+		ai_chance = {
+			base = 0
+			opinion_modifier = {
+				opinion_target = scope:sunni_caliph
+				multiplier = 5
+			}
+		}
+	}
+	option = {
+		name = caliphal_candidates.d
+		trigger = { exists = scope:ROOT }
+
+		stress_impact = {
+            humble = medium_stress_impact_loss
+            arrogant = major_stress_impact_gain
+        }
+
+		ai_chance = {
+			base = 0
+			opinion_modifier = {
+				opinion_target = scope:sunni_caliph
+				multiplier = 5
+			}
+		}
+	}
+	option = { # On second thought...
+		name = caliphal_candidates.e
+		trigger = { exists = scope:ROOT }
+
+		trigger_event = caliphal_transfer_of_power
+
+	}
+}

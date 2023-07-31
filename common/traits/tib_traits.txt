@@ -35,6 +35,58 @@ sayyid_quraysh = {
 	inherit_from_real_father = no
 }
 
+# Fake Sayyids with shady genealogies
+fake_sayyid = {
+	fame = yes
+	
+	if = {
+		limit = {
+			character = {
+				within_diplomatic_range = yes
+				faith = { religion_tag = islam_religion }
+				learning >= 9
+			}
+			add_opinion = {
+				target = root
+				value = -30
+			}
+		}
+	}
+	else = {
+		islam_religion_opinion = 10
+	}
+	
+	ruler_designer_cost = 20
+	
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_sayyid
+			}
+			triggered_desc = {
+				trigger = { is_female = yes }
+				desc = trait_sayyida
+			}
+			desc = trait_sayyid
+		}
+	}
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_fake_sayyid_desc
+			}
+			desc = trait_fake_sayyid_character_desc
+		}
+	}
+
+	inherit_chance = 100
+	parent_inheritance_sex = male
+	inherit_from_real_father = no
+}
+
 salaf_al_salih = { # Muslim pious predeccessors
 	fame = yes
 	monthly_piety = 2
