@@ -1,0 +1,10 @@
+﻿l_english:
+ caliphal_revolution_war:0 "Caliphal Revolution War"
+ CALIPHAL_REVOLUTION_WAR_NAME:0 "[ROOT.Char.GetHouse.GetName] Caliphal Revolution War"
+
+ caliphal_revolution_decision:0 "Spark a Caliphal Revolution"
+ caliphal_revolution_decision_confirm:0 "In the name of Allah!"
+ caliphal_revolution_decision_desc:0 "The people had yearn for a leader who will uphold the true principles of Islam and restore its glory to the Islamic world. The Ummah is faltering under a decadence, ill-prepared rule of [ROOT.Char.GetFaith.GetReligiousHead.GetTitledFirstName]. No doubt, [ROOT.Char.GetFaith.GetReligiousHead.GetSheHe] is just simply unfit to guide the Ummah! \n\nIt is time overthrow this unjust, sinful regime... under #EMP my#! rule..."
+
+ caliphal_revolution_decision_tooltip:0 "Spark a Caliphal Revolution against your current caliph"
+ caliphal_revolution_decision.tt.revolution_war:0 "Starts a war against your current [head_of_faith|E]"

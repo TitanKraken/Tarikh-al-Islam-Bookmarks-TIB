@@ -211,6 +211,7 @@ islamic_government = {
 	}
 	flag = government_can_raid_rule
 	flag = government_is_islamic
+	flag = government_is_clan
 	color = hsv{ 0.39 0.93 0.54 }
 }
 

@@ -1,0 +1,161 @@
+﻿@crown_authority_cooldown_years = 20
+
+tib_caliphal_authority = {
+	default = tib_caliphal_authority_0
+	cumulative = yes
+	flag = realm_law
+	
+	tib_caliphal_authority_0 = {
+		modifier = {
+			barons_and_minor_landholders_opinion = 20
+			glory_hound_opinion = 10
+			parochial_opinion = 10
+			courtly_opinion = 5
+		}
+		flag = uses_crown_authority
+
+		can_keep = { # Only Caliphs can access this
+            AND = {
+                realm_law_use_crown_authority = yes
+                has_flag = government_is_islamic
+                has_title = faith.religious_head_title
+            }
+        }
+
+		on_pass = {
+			# Remove modifiers.
+			remove_law_related_modifiers_effect = yes
+		}
+	}
+	
+	tib_caliphal_authority_1 = {
+		modifier = {
+			barons_and_minor_landholders_opinion = -30
+			glory_hound_opinion = 15
+			parochial_opinion = 15
+			courtly_opinion = 5
+			minority_opinion = -10
+            vassal_tax_mult = 0.07
+			vassal_levy_contribution_mult = 0.07
+		}
+		flag = uses_crown_authority
+		flag = title_revocation_allowed
+		flag = vassal_retraction_allowed
+		flag = can_change_partition_succession_laws
+		flag = diarchs_want_to_subsidise_without_this_flag
+
+		can_keep = { # Only Caliphs can access this
+            AND = {
+                realm_law_use_crown_authority = yes
+                has_flag = government_is_islamic
+               has_title = faith.religious_head_title
+            }
+        }
+
+		can_pass = {
+			trigger_if = {
+				limit = { has_realm_law = tib_caliphal_authority_0 }
+				custom_description = {
+					subject = root
+					text = "has_crown_authority_cooldown"
+					has_variable = crown_authority_cooldown
+				}
+			}
+			can_pass_law_ca1_trigger = yes
+		}
+		
+		pass_cost = {
+			prestige = 300
+            piety = 700
+		}
+		
+		on_pass = {
+			# Increment cooldown breaker tally, if appropriate.
+			calculate_authority_cooldown_break_effect = yes
+			# Set regular cooldown.
+			set_variable = {
+				name = crown_authority_cooldown
+				years = @crown_authority_cooldown_years
+			}
+			# Remove modifiers.
+			remove_law_related_modifiers_effect = yes
+		}
+
+		ai_will_do = {
+			if = {
+				limit = { has_realm_law = tib_caliphal_authority_0 }
+				value = 1
+			}
+		}
+	}
+	
+	tib_caliphal_authority_2 = {
+		modifier = {
+			barons_and_minor_landholders_opinion = -40
+			glory_hound_opinion = 15
+			parochial_opinion = 25
+			courtly_opinion = 10
+			zealot_opinion = 40
+			minority_opinion = -30
+			vassal_tax_mult = 0.18
+			vassal_levy_contribution_mult = 0.18
+		}
+		flag = uses_crown_authority
+		flag = vassal_internal_wars_banned
+		flag = vassal_refusal_is_treason
+		flag = can_change_succession_laws
+        flag = max_authority_level
+		flag = titles_cannot_leave_realm_on_succession # Hardcoded flag
+		
+		can_keep = { # Only Caliphs can access this
+            AND = {
+                realm_law_use_crown_authority = yes
+                has_flag = government_is_islamic
+               has_title = faith.religious_head_title
+            }
+        }
+
+		can_pass = {
+			trigger_if = {
+				limit = {
+					NOT = { 
+                        has_realm_law = tib_caliphal_authority_0
+                    }
+				}
+				has_realm_law = tib_caliphal_authority_1
+				custom_description = {
+					subject = root
+					text = "has_crown_authority_cooldown"
+					has_variable = crown_authority_cooldown
+				}
+			}
+            piety_level >= high_piety_level
+			can_pass_law_ca2_trigger = yes
+		}
+
+		pass_cost = {
+			prestige = 2000
+            piety = 3000
+		}
+		
+		on_pass = {
+			# Increment cooldown breaker tally, if appropriate.
+			calculate_authority_cooldown_break_effect = yes
+			# Set regular cooldown.
+			set_variable = {
+				name = crown_authority_cooldown
+				years = @crown_authority_cooldown_years
+			}
+			# Remove modifiers.
+			remove_law_related_modifiers_effect = yes
+		}
+
+		ai_will_do = {
+			if = {
+				limit = { has_realm_law = tib_caliphal_authority_1 }
+				value = 1
+			}
+		}
+	}
+	
+}

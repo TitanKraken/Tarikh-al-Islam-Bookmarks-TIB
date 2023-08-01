@@ -10,7 +10,6 @@
 		tradition_desert_nomads
 		tradition_mubarizuns
 		tradition_caravaneers
-		tradition_corsairs
 	}
 	
 	name_list = name_list_bedouin
@@ -66,7 +65,6 @@ egyptian = {
 		tradition_agrarian
 		tradition_zealous_people
 		tradition_mubarizuns
-		tradition_corsairs
 	}
 	
 	name_list = name_list_egyptian

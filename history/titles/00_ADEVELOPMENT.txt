@@ -6309,16 +6309,6 @@
 	1310.1.1 = { change_development_level = 47 }
 	}
 
-	c_manupura = {
-	867.1.1 = {	change_development_level = 15 }
-	1066.1.1 = { change_development_level = 25 }
-	1124.1.1 = { change_development_level = 28 }
-	1166.1.1 = { change_development_level = 32 }
-	1204.1.1 = { change_development_level = 37 }
-	1241.1.1 = { change_development_level = 41 }
-	1310.1.1 = { change_development_level = 47 }
-	}
-
 	c_asyut = {
 	867.1.1 = {	change_development_level = 10 }
 	1066.1.1 = { change_development_level = 16 }
@@ -8054,16 +8044,6 @@
 	1310.1.1 = { change_development_level = 26 }
 	}
 
-	k_tsongkha = { #Not using Amdo to limit de_jure conquering
-	867.1.1 = { change_development_level = 2 }
-	1066.1.1 = { change_development_level = 4 }
-	1124.1.1 = { change_development_level = 7 }
-	1166.1.1 = { change_development_level = 11 }
-	1204.1.1 = { change_development_level = 16 }
-	1241.1.1 = { change_development_level = 20 }
-	1310.1.1 = { change_development_level = 26 }
-	}
-
 	k_gyalrong = {
 	867.1.1 = { change_development_level = 5 }
 	1066.1.1 = { change_development_level = 8 }
@@ -8136,16 +8116,6 @@
 	1204.1.1 = { change_development_level = 6 }
 	1241.1.1 = { change_development_level = 8 }
 	1310.1.1 = { change_development_level = 10 }
-	}
-
-	d_khirgiz = {
-	867.1.1 = { change_development_level = 0 }
-	1066.1.1 = { change_development_level = 0 }
-	1124.1.1 = { change_development_level = 2 }
-	1166.1.1 = { change_development_level = 5 }
-	1204.1.1 = { change_development_level = 7 }
-	1241.1.1 = { change_development_level = 9 }
-	1310.1.1 = { change_development_level = 11 }
 	}
 
 	##-End
@@ -8260,16 +8230,6 @@
 	1204.1.1 = { change_development_level = 21 }
 	1241.1.1 = { change_development_level = 16 }
 	1310.1.1 = { change_development_level = 18 }
-	}
-
-	c_korchev = {
-	867.1.1 = { change_development_level = 7 }
-	1066.1.1 = { change_development_level = 11 }
-	1124.1.1 = { change_development_level = 14 }
-	1166.1.1 = { change_development_level = 18 }
-	1204.1.1 = { change_development_level = 23 }
-	1241.1.1 = { change_development_level = 27 }
-	1310.1.1 = { change_development_level = 33 }
 	}
 
 	c_theodosia = {

@@ -1,12 +1,12 @@
 ﻿# Expanded decisions for the Caliph!
 caliphal_revolution_decision = {
-	picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+	picture = "gfx/interface/illustrations/decisions/huan_kecheng1_narrow.dds"
 	major = yes
 
 	ai_check_interval = 24
 
-	desc = appoint_a_righteous_caliph_decision_desc
-	selection_tooltip = appoint_a_righteous_caliph_decision_tooltip
+	desc = caliphal_revolution_decision_desc
+	selection_tooltip = caliphal_revolution_decision_tooltip
 
 	is_shown = {
 		# Standard filter checks.
@@ -15,7 +15,14 @@ caliphal_revolution_decision = {
 		# Check some religious stuff; namely that you're the correct religion and your existing-HoF doesn't share your faith.
 		religion = religion:islam_religion
 		exists = faith.religious_head
-		NOT = { faith = faith.religious_head.faith }
+		NOT = {
+            faith.religious_head = {
+                this = root
+            }
+        }
+		#faith.religious_head = {
+		#	is_within_diplo_range = { CHARACTER = root }
+		#}
 		# And filter out anyone who'd make this unreliable.
 		OR = {
 			government_has_flag = government_is_tribal
@@ -103,7 +110,7 @@ caliphal_revolution_decision = {
         save_scope_as = founder
 		faith.religious_head = { save_scope_as = old_caliph }
         # PREREQUISITES ASPECT
-        custom_tooltip = appoint_a_righteous_caliph_decision.tt.you_become_caliph
+        custom_tooltip = caliphal_revolution_decision.tt.revolution_war
         # Give scope:founder an extra piety level, if possible.
         if = {
             limit = { piety_level < max_piety_level }
@@ -135,18 +142,19 @@ caliphal_revolution_decision = {
         }
         # And sort a bit of stress impact for the gravity of things.
         stress_impact = {
-            base = major_stress_impact_gain
+            base = medium_stress_impact_gain
             humble = major_stress_impact_gain
-            arrogant = medium_stress_impact_loss
+            arrogant = major_stress_impact_loss
+            ambitious = major_stress_impact_loss
         }
         # END
 
         ## REVOLUTION ASPECT
 		# Gives army to the contender
         spawn_army = {
-            uses_supply = no
+            uses_supply = yes
             inheritable = yes
-            name = "Caliphal Jihadists"
+            name = "Caliphal Contender Jihadists"
             men_at_arms = {
                 type = abudrar
                 stacks = 5
@@ -178,49 +186,19 @@ caliphal_revolution_decision = {
             location = capital_province
         }
 
-        # Declares and launches war against the targeted Caliphate
-        scope:ROOT = {
-            limit = { # If the Caliph is a vassal
-                scope:old_caliph = {
-                    is_independent_ruler = no
-                }
-                start_war = { # Attacks the top vassal and the Caliph
-                    cb = invasion_war
-                    target = {
-                        scope:old_caliph
-                        scope:old_caliph.top_liege
-                    }
-                    target_title = {
-                        highest_held_title_tier >= tier_duchy
-                        this = scope:old_caliph
-                    }
-                    target_title = scope:old_caliph.religious_head_title
-                    save_scope_as = caliphal_revolution_war
-                }
-            }
-
-			start_war = { # For independent Caliphate
-				cb = invasion_war
-				target = scope:old_caliph
-				target_title = {
-                    highest_held_title_tier >= tier_duchy
-                    this = scope:old_caliph
-                }
-                target_title = scope:old_caliph.religious_head_title
-                save_scope_as = caliphal_revolution_war
-			}
-		}
+        # Trigger war declaration event
+		trigger_event = caliphal_contender_declare_war.10
 
 		# Notify co-faithists; we do this first so we can sort the feed message for how many did/didn't convert.
-		faith = {
-			every_faith_ruler = {
-				limit = {
-					highest_held_title_tier >= tier_county
-					NOT = { this = root }
-				}
-				trigger_event = religious_decision.0602
-			}
-		}
+		#faith = {
+		#	every_faith_ruler = {
+		#		limit = {
+		#			highest_held_title_tier >= tier_county
+		#			NOT = { this = root }
+		#		}
+		#		trigger_event = religious_decision.0602
+		#	}
+		#}
 		# Now notify other players.
 		every_player = {
 			limit = {
@@ -235,15 +213,7 @@ caliphal_revolution_decision = {
 			# Players who share the faith get 
 			trigger_event = religious_decision.0603
 		}
-		# Finally, we trigger the main transfer of power. (or lack thereof)
-		scope:caliphal_revolution_war = {
-            on_victory = {
-                scope:ROOT = {
-                    trigger_event = caliphal_transfer_of_power # Non-Sayyids will get a Sayyid? trait to legitimise their claim to the caliphate
-                }
-            }
-        }
-
+		
 	}
 
 	cost = {
@@ -278,6 +248,33 @@ caliphal_revolution_decision = {
 	}
 
 	ai_will_do = {
-		base = 100
+		base = 40
+
+		# If ai_zeal is 20 points higher than ai_greed, becomes 100% chance.
+		ai_value_modifier = {
+			ai_zeal = 5
+			ai_content = -5
+		}
+		modifier = { # More likely to get his claim
+			add = 40
+			is_extended_family_of = faith.religious_head
+		}
+		modifier = {	# Having a tolerant faith helps
+			add = -25
+			faith = { has_doctrine = doctrine_pluralism_pluralistic }
+		}
+		modifier = {	# Fundamentalists more likely to revolt
+			add = 35
+			faith = { has_doctrine = doctrine_pluralism_fundamentalist }
+			faith = {
+				fervor <= medium_fervor_value
+			}
+		}
+		modifier = {	# Prone to schism
+			add = 30
+			faith = {
+				fervor <= minor_fervor_value
+			}
+		}
 	}
 }

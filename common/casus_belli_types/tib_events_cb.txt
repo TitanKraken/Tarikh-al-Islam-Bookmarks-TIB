@@ -568,3 +568,319 @@
 
 	max_ai_diplo_distance_to_title = 1000
 }
+
+caliphal_revolution_war = {
+	icon = dissolution_war
+	group = conquest
+
+	defender_faith_can_join = yesh
+	
+	combine_into_one = yes
+	mutually_exclusive_titles = { always = yes }
+	
+	allowed_for_character = {
+		debug_only = yes
+	}
+	allowed_against_character = {
+	
+	}
+	target_titles = all
+	target_title_tier = all
+	
+	on_declaration = {
+		on_declared_war = yes
+	}
+	
+	cost = {
+		#gold = scope:attacker.diplomacy
+		#piety = 1
+		#prestige = 1
+	}
+
+	on_victory_desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					scope:attacker.faith = {
+						has_doctrine = doctrine_pluralism_pluralistic
+					}
+				}
+				desc = religious_war_victory_desc_doctrine_pluralism
+			}
+			desc = religious_war_victory_desc
+		}
+		#triggered_desc = {
+		#	trigger = { scope:attacker = { is_local_player = yes } }
+		#	desc = major_religious_war_warning_desc
+		#}
+	}
+	
+	on_victory = {
+		scope:attacker = { show_pow_release_message_effect = yes }
+
+		#EP2 accolade glory gain for winning against higher ranked enemy
+		scope:attacker = { accolade_attacker_war_end_glory_gain_high_effect = yes }
+
+		create_title_and_vassal_change = {
+			type = conquest
+			save_scope_as = change
+			add_claim_on_loss = yes
+		}
+		every_in_list = {
+			list = target_titles
+			change_title_holder_include_vassals = {
+				holder = scope:attacker
+				change = scope:change
+			}
+		}
+		every_in_list = {
+			list = vassals_taken
+			change_liege = {
+				liege = scope:attacker
+				change = scope:change
+			}
+		}
+		setup_invasion_cb = {
+			titles = target_titles
+			attacker = scope:attacker
+			defender = scope:defender
+			change = scope:change
+			take_occupied = yes
+		}
+		resolve_title_and_vassal_change = scope:change
+
+		# Allies on both sides get full prestige value for helping in the war, based on their war participation.
+		modify_allies_of_participants_fame_values = {
+			WINNER = scope:attacker
+			FAME_BASE = religious_cb_ally_prestige_kingdom
+			IS_RELIGIOUS_WAR = no
+			WINNER_ALLY_FAME_SCALE = 1
+			LOSER_ALLY_FAME_SCALE = 1
+		}
+
+		# Piety Progress for the Attacker
+			scope:attacker = {
+				add_piety_experience = {
+					add = religious_cb_piety_gain_kingdom
+					if = {
+						limit = {
+							scope:attacker.faith = {
+								has_doctrine_parameter = bonus_holy_war_piety_active
+							}
+						}
+						multiply = 2
+					}
+				}
+				add_piety = 5000
+				add_prestige = 2000
+				scope:attacker.dynasty = {
+					add_dynasty_prestige = 1000
+				}
+			}
+
+		ordered_in_list = {
+			list = target_titles
+			order_by = tier
+			max = 1
+
+			save_scope_as = war_goal_title
+		}
+
+		scope:attacker.faith = {
+			change_fervor = {
+				value = -50
+				desc = fervor_loss_religious_war
+			}
+		}
+				
+		# Truce
+		add_truce_attacker_victory_effect = yes
+
+		# FP1: note the victory for future memorialisation via stele (if applicable).
+		scope:attacker = { fp1_remember_recent_conquest_victory_effect = yes }
+
+		every_player = { # Fluff for players
+			limit = {
+				OR = {
+					this = scope:attacker
+					this = scope:defender
+					any_war_enemy = { this = scope:attacker }
+					any_war_enemy = { this = scope:defender }
+					is_within_diplo_range = { CHARACTER = scope:defender }
+				}
+			}
+			trigger_event = caliphal_contender_declare_war.13 #Differentiate depending on faith (compared to scope:attacker)
+		}
+	}
+
+	on_white_peace_desc = {
+		desc = religious_war_white_peace_desc
+	}
+	
+	on_white_peace = {
+		scope:attacker = { show_pow_release_message_effect = yes }
+
+		#EP2 accolade glory gain for doing ok against higher ranked enemy
+		scope:attacker = { accolade_attacker_war_end_glory_gain_low_effect = yes }
+		scope:defender = { accolade_defender_war_end_glory_gain_med_effect = yes }
+
+		# Allies on both sides get full prestige value for helping in the war, based on their war participation.
+		modify_allies_of_participants_fame_values = {
+			WINNER = scope:attacker # Not important as the scales are identical
+			FAME_BASE = religious_cb_ally_prestige_kingdom
+			IS_RELIGIOUS_WAR = no
+			WINNER_ALLY_FAME_SCALE = 1
+			LOSER_ALLY_FAME_SCALE = 1
+		}
+
+		scope:attacker = {
+			add_piety = religious_cb_piety_white_peace
+			stress_impact = {
+				ambitious = medium_stress_impact_gain
+				arrogant = medium_stress_impact_gain
+			}
+		}
+
+		scope:defender = {
+			stress_impact = {
+				arrogant = medium_stress_impact_gain
+			}
+		}
+
+		# Truce
+		add_truce_white_peace_effect = yes
+	}
+
+	on_defeat_desc = {
+		desc = religious_war_defeat_desc
+	}
+	
+	on_defeat = {
+		scope:attacker = { show_pow_release_message_effect = yes }
+
+		#EP2 accolade glory gain for winning against higher ranked enemy
+		scope:defender = { accolade_defender_war_end_glory_gain_high_effect = yes }
+
+		# Allies on both sides get full prestige value for helping in the war, based on their war participation.
+		modify_allies_of_participants_fame_values = {
+			WINNER = scope:defender
+			FAME_BASE = religious_cb_ally_prestige_kingdom
+			IS_RELIGIOUS_WAR = no
+			WINNER_ALLY_FAME_SCALE = 1
+			LOSER_ALLY_FAME_SCALE = 1
+		}
+
+		# piety change
+			scope:defender = {
+				add_piety = {
+					add = religious_cb_piety_gain_kingdom
+					if = {
+						limit = {
+							scope:defender.faith = {
+								has_doctrine_parameter = bonus_holy_war_piety_active
+							}
+						}
+						multiply = 40
+					}
+				}
+			}
+
+			scope:attacker = {
+				if = {
+					limit = {
+						monthly_character_income > 0
+					}
+					pay_short_term_income = {
+						years = 4
+						target = scope:defender
+					}
+				}
+				else = {
+					pay_short_term_gold = {
+						target = scope:defender
+						gold = medium_gold_value
+					}
+				}
+			}
+
+		scope:attacker = {
+			every_vassal = {
+				limit = { faith = scope:attacker.faith }
+				custom = all_attackers_vassals_same_faith
+				add_opinion = {
+					modifier = liege_lost_declared_religious_war
+					target = scope:attacker
+				}
+			}
+		}
+
+		# Truce
+		add_truce_attacker_defeat_effect = yes
+
+		scope:attacker = {
+			save_temporary_scope_as = loser
+		}
+		on_lost_aggression_war_discontent_loss = yes
+	}
+	
+	on_invalidated = {
+	}
+	
+	on_invalidated_desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = {
+						any_in_list = {
+							list = target_titles
+							any_in_de_jure_hierarchy = {
+								tier = tier_county
+								holder = {
+									OR = {
+										this = scope:defender
+										target_is_liege_or_above = scope:defender
+									}
+								}
+							}
+						}
+					}
+				}
+				desc = msg_religious_war_invalidation_region_message
+			}
+			triggered_desc = {
+				trigger = {
+					scope:war = {
+						OR = {
+							exists = var:invalidate_defender_faith_change
+							exists = var:invalidate_attacker_faith_change
+						}
+					}
+				}
+				desc = msg_religious_war_invalidated_hostility_level_message
+			}
+		}
+	}
+	on_primary_attacker_death = inherit
+	on_primary_defender_death = inherit
+	
+	transfer_behavior = transfer
+	
+	attacker_allies_inherit = yes
+	defender_allies_inherit = yes
+	
+	war_name = "CALIPHAL_REVOLUTION_WAR_NAME"
+	cb_name = "HOLY_WAR_KINGDOM_NAME"
+
+	#is_holy_war = yes
+	
+	interface_priority = 0
+	
+	#attacker_ticking_warscore = NWar::ATTACKER_TICKING_WAR_SCORE
+	#attacker_ticking_warscore_delay = NWar::ATTACKER_TICKING_WAR_SCORE_DELAY_DAYS # e.g. { months = 12 }
+	#defender_ticking_warscore = NWar::DEFENDER_TICKING_WAR_SCORE
+	#defender_ticking_warscore_delay = NWar::DEFENDER_TICKING_WAR_SCORE_DELAY_DAYS # e.g. { months = 12 }
+	#ticking_war_score_targets_entire_realm = yes
+	attacker_wargoal_percentage = 0.8
+	
+	should_show_war_goal_subview = yes
+}
