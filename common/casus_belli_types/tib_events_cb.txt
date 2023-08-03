@@ -573,16 +573,16 @@ caliphal_revolution_war = {
 	icon = dissolution_war
 	group = conquest
 
-	defender_faith_can_join = yesh
+	defender_faith_can_join = yes
 	
 	combine_into_one = yes
 	mutually_exclusive_titles = { always = yes }
 	
 	allowed_for_character = {
 		debug_only = yes
+		is_alive = no
 	}
 	allowed_against_character = {
-	
 	}
 	target_titles = all
 	target_title_tier = all

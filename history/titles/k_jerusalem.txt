@@ -139,6 +139,11 @@ d_oultrejourdain = {
 		change_development_level = 15
 	}
 	
+	1044.1.1 = {
+		holder = 1500006
+		liege = k_egypt
+	}
+
 	1118.4.2 = {
 		liege = "k_jerusalem"
 	}

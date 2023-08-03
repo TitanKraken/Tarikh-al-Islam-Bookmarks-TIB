@@ -1,0 +1,8 @@
+﻿l_english:
+ tib_caliphal_authority:0 "Caliphal Authority"
+ tib_caliphal_authority_0:0 "Limited Caliphal Influence"
+ tib_caliphal_authority_0_effects_not_in_prev:0 "#weak Vassals provide [levies|E] and [taxes|E], but are otherwise free to do as they wish#!"
+ tib_caliphal_authority_1:0 "Significant Caliphal Authority"
+ tib_caliphal_authority_1_effects:1 "$EFFECT_LIST_BULLET$Rulers can change between available Partition [succession_laws|E]\n$EFFECT_LIST_BULLET$[titles|E] can be revoked\n$EFFECT_LIST_BULLET$[vassals|E] can be retracted"
+ tib_caliphal_authority_2:0 "Absolute Authority on the Ummah"
+ tib_caliphal_authority_2_effects:3 "$EFFECT_LIST_BULLET$Rulers can change between all available [succession_laws|E]\n$EFFECT_LIST_BULLET$[vassals|E] cannot wage [war|E] against other Vassals unless they use a [hook|E] on their [liege|E]\n$EFFECT_LIST_BULLET$Vassals' [titles|E] cannot be inherited by Characters outside the [realm|E]\n$EFFECT_LIST_BULLET$All Vassals who refuse Title revocation or Vassal retraction are considered [criminals|E]"

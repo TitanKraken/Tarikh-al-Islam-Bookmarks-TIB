@@ -16,13 +16,13 @@
 				historical_succession_access_single_heir_succession_law_trigger = yes
 				historical_succession_access_single_heir_succession_law_youngest_trigger = yes
 				historical_succession_access_single_heir_dynasty_house_trigger = yes
+				government_has_flag = government_is_islamic
 			}
 			OR = {
 				AND = {
 					OR = {
 						government_has_flag = government_is_feudal
 						government_has_flag = government_is_clan
-						government_has_flag = government_is_islamic
 					}
 					culture = {
 						NOR = {
@@ -68,11 +68,11 @@
 				historical_succession_access_single_heir_succession_law_trigger = yes
 				historical_succession_access_single_heir_succession_law_youngest_trigger = yes
 				historical_succession_access_single_heir_dynasty_house_trigger = yes
+				government_has_flag = government_is_islamic
 			}
 			OR = {
 				government_has_flag = government_is_feudal
 				government_has_flag = government_is_clan
-				government_has_flag = government_is_islamic
 			}
 			culture = {
 				has_innovation = innovation_hereditary_rule
@@ -121,11 +121,11 @@
 				historical_succession_access_single_heir_succession_law_trigger = yes
 				historical_succession_access_single_heir_succession_law_youngest_trigger = yes
 				historical_succession_access_single_heir_dynasty_house_trigger = yes
+				government_has_flag = government_is_islamic
 			}
 			OR = {
 				government_has_flag = government_is_feudal
 				government_has_flag = government_is_clan
-				government_has_flag = government_is_islamic
 			}
 			culture = {
 				has_innovation = innovation_heraldry
@@ -165,7 +165,10 @@
 	
 	single_heir_succession_law = {
 		can_keep = {
-			can_keep_single_heir_succession_law_trigger = yes
+			OR = {
+				can_keep_single_heir_succession_law_trigger = yes
+				government_has_flag = government_is_islamic
+			}
 			# Vassal Contract allows it
 			custom_description = {
 				text = succession_laws_must_not_be_forced_partition
@@ -182,7 +185,10 @@
 			can_change_succession_law_trigger = yes
 		}
 		should_start_with = {
-			historical_succession_access_single_heir_succession_law_trigger = yes
+			OR = {
+				historical_succession_access_single_heir_succession_law_trigger = yes
+				government_has_flag = government_is_islamic
+			}
 		}
 		succession = {
 			order_of_succession = inheritance

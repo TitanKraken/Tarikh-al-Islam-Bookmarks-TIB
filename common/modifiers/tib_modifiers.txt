@@ -1,0 +1,18 @@
+﻿
+demote_culture_leader_modifier = {
+	icon = social_negative
+    monthly_prestige_gain_mult = -0.1
+	monthly_piety_gain_mult = -0.2
+	different_culture_opinion = -50
+    same_culture_opinion = 30
+}
+demote_culture_modifier = {
+	icon = county_modifier_development_negative
+	build_gold_cost = 0.15
+	development_growth = -0.3
+	monthly_county_control_change_add = -0.4
+    tax_mult = 0.07
+    levy_reinforcement_rate = 0.03
+    county_opinion_add = -40
+	#defender_holding_advantage = 5
+}

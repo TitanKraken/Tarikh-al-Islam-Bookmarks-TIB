@@ -41,13 +41,13 @@
 
  # Berber heritage
  tagelmust:0 "Sanhaja" # The Tagelmust wearing kind of Sanhaja
- tagelmust_prefix:0 "Sanhaja"
+ tagelmust_prefix:0 "Sanhaji"
  tagelmust_collective_noun:1 "Isenhajen"
  danhagha:0 "Danhagha" # Danhāǧa the Kabyle Sanhaja
- danhagha_prefix:0 "Danhagha" # Danhāǧa
+ danhagha_prefix:0 "Danhaghi" # Danhāǧa
  danhagha_collective_noun:1 "Idenhaghen" # Danhāǧa
  masmuda:0 "Masmuda"
- masmuda_prefix:0 "Masmuda"
+ masmuda_prefix:0 "Masmudi"
  masmuda_collective_noun:1 "Imasmuden"
  siwi:0 "Siwi"
  siwi_prefix:0 "Siwi"
@@ -55,6 +55,9 @@
  zenata:0 "Zenata"
  zenata_prefix:0 "Aznat"
  zenata_collective_noun:1 "Iznaten"
+ hawwara:0 "Hawwara"
+ hawwara_prefix:0 "Hawwari"
+ hawwara_collective_noun:1 "Ihuwwaren"
 
  # Brythonic heritage
  briton:0 "Pretani"

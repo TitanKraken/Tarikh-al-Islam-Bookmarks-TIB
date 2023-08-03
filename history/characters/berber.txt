@@ -5301,7 +5301,7 @@
 }
 
 73687 = {
-	name = "Ali" # Ali (I) ibn Yahya, Muwalladi Caliph (1016-1018), Sultan of Andalusia (1016-1018), Walih of Rif (1011-1016),  &Sheik of Ceuta & Tangiers (1011-1016), Cabra, Cordoba, Moura & Niebla (1016-1018)
+	name = "Ali" # Ali (I) ibn Yahya, Muwalladi Caliph (1016-1018), Sultan of Andalusia (1016-1018), Walih of Rif (1011-1016),  & Sheik of Ceuta & Tangiers (1011-1016), Cabra, Cordoba, Moura & Niebla (1016-1018)
 	dynasty_house = house_Hammudid # House Hammudid
 	religion = zayidi
 	culture = maghrebi
@@ -5315,6 +5315,10 @@
 
 	958.1.1 = {
 		birth = yes
+	}
+	1011.1.1 = {
+		faith = muwalladi
+		culture = andalusian
 	}
 	1018.3.22 = {
 		death = {
@@ -5377,6 +5381,10 @@
 
 	990.1.1 = {
 		birth = yes
+	}
+	1011.1.1 = {
+		faith = muwalladi
+		culture = andalusian
 	}
 	1018.9.1 = {
 		add_spouse = 159491 # Fatima bint al-Qasim
@@ -5550,6 +5558,10 @@
 
 	995.1.1 = {
 		birth = yes
+	}
+	1011.1.1 = {
+		faith = muwalladi
+		culture = andalusian
 	}
 	1039.10.8 = {
 		death = {
@@ -7661,7 +7673,7 @@ baranis0053 = {
 	name = "Musa" # Musa ibn Suleyman, Sheik of Uclés (893-908)
 	dynasty = 570 # Banu Dhu-l-Nun Dynasty
 	religion = ashari
-	culture = baranis
+	culture = hawwara
 	trait = education_martial_1
 
 	father = baranis0063 # Sheik Suleyman Banu Dhu-l-Nun of Uclés
@@ -7681,7 +7693,7 @@ baranis0054 = {
 	name = "Mutarrif" # Mutarrif ibn Musa, Sheik of Uclés (920-924)
 	dynasty = 570 # Banu Dhu-l-Nun Dynasty
 	religion = ashari
-	culture = baranis
+	culture = hawwara
 	trait = education_intrigue_2
 
 	father = baranis0053 # Sheik Musa ibn Suleyman of Uclés
@@ -7698,7 +7710,7 @@ baranis0055 = {
 	name = "al-Fath" # al-Fath ibn Musa, Sheik of Uclés (908-920)
 	dynasty = 570 # Banu Dhu-l-Nun Dynasty
 	religion = ashari
-	culture = baranis
+	culture = hawwara
 	trait = education_stewardship_1
 
 	father = baranis0053 # Sheik Musa ibn Suleyman of Uclés
@@ -7715,7 +7727,7 @@ baranis0056 = {
 	name = "Yahya" # Yahya ibn al-Fath, Sheik of Uclés (924-942) & Cuenca (925-942)
 	dynasty = 570 # Banu Dhu-l-Nun Dynasty
 	religion = muwalladi
-	culture = baranis
+	culture = hawwara
 	trait = education_martial_2
 
 	father = baranis0055 # Sheik al-Fath ibn Musa of Uclés
@@ -7732,7 +7744,7 @@ baranis0057 = {
 	name = "Amir" # Amir ibn Mutarrif
 	dynasty = 570 # Banu Dhu-l-Nun Dynasty
 	religion = muwalladi
-	culture = baranis
+	culture = hawwara
 	trait = education_martial_1
 
 	father = baranis0054 # Sheik Mutarrif ibn Musa of Uclés
@@ -7749,7 +7761,7 @@ baranis0058 = {
 	name = "al-Fath" # al-Fath ibn Yahya, Sheik of Uclés & Cuenca (942-966)
 	dynasty = 570 # Banu Dhu-l-Nun Dynasty
 	religion = muwalladi
-	culture = baranis
+	culture = hawwara
 	trait = education_stewardship_2
 
 	father = baranis0056 # Sheik Yahya ibn al-Fath of Uclés
@@ -7766,7 +7778,7 @@ baranis0059 = {
 	name = "Isma_il" # Isma'il ibn Amir, Sheik of Cuenca (966-980)
 	dynasty = 570 # Banu Dhu-l-Nun Dynasty
 	religion = muwalladi
-	culture = baranis
+	culture = hawwara
 	trait = education_stewardship_2
 
 	father = baranis0057 # Amir ibn Mutarrif
@@ -7783,7 +7795,7 @@ baranis0060 = {
 	name = "Abd-al-Rahman" # Abd al-Rahman, real name unknown, ibn Isma'il, Sheik of Madrid (1043-1075)
 	dynasty = 570 # Banu Dhu-l-Nun Dynasty
 	religion = muwalladi
-	culture = baranis
+	culture = hawwara
 	trait = education_intrigue_1
 
 	father = 3922 # Emir al-Zafir of Toledo
@@ -7800,8 +7812,8 @@ baranis0061 = {
 	name = "Kassilda" # Saint Kassilda
 	female = yes
 	dynasty = 570 # Banu Dhu-l-Nun Dynasty
-	religion = mozarabic_church
-	culture = mozarab
+	religion = muwalladi
+	culture = hawwara
 	trait = lifestyle_mystic
 	trait = education_learning_3
 
@@ -7841,7 +7853,7 @@ baranis0063 = {
 	name = "Suleyman" # Suleyman Banu Dhu-l-Nun, Sheik of Uclés (867-893)
 	dynasty = 570 # Banu Dhu-l-Nun Dynasty, Founder
 	religion = ashari
-	culture = baranis
+	culture = hawwara
 	trait = education_diplomacy_3
 
 	823.1.1 = {
@@ -8075,6 +8087,10 @@ baranis0075 = {
 	1005.1.1 = {
 		birth = yes
 	}
+	1011.1.1 = {
+		faith = muwalladi
+		culture = andalusian
+	}
 	1055.1.1 = {
 		death = yes
 	}
@@ -8145,7 +8161,7 @@ baranis0079 = {
 	name = "Lubb" # Lubb Banu Razin, Sheik of Albarracin (968-1000)
 	dynasty = 586 # Banu Razin Dynasty
 	religion = muwalladi
-	culture = baranis
+	culture = hawwara
 	trait = education_stewardship_1
 
 	950.1.1 = {
@@ -8160,7 +8176,7 @@ baranis0080 = {
 	name = "Jalaf" # Jalaf ibn Lubb, Sheik of Albarracin (1000-1012)
 	dynasty = 586 # Banu Razin Dynasty
 	religion = muwalladi
-	culture = baranis
+	culture = hawwara
 	trait = education_martial_1
 
 	father = baranis0079 # Sheik Lubb Banu Razin of Albarracin
@@ -8177,7 +8193,7 @@ baranis0081 = {
 	name = "Hudhayl" # Hudhayl ibn Jalaf, Sheik of Albarracin (1012-1045)
 	dynasty = 586 # Banu Razin Dynasty
 	religion = muwalladi
-	culture = baranis
+	culture = hawwara
 	trait = education_diplomacy_3
 
 	father = baranis0080 # Sheik Jalaf ibn Lubb of Albarracin
@@ -8237,7 +8253,7 @@ baranis0084 = {
 	female = yes
 	dynasty = 586 # Banu Razin Dynasty
 	religion = muwalladi
-	culture = baranis
+	culture = hawwara
 
 	father = 20883 # Sheik Abd al-Malik ibn Hudhayl of Albarracin
 

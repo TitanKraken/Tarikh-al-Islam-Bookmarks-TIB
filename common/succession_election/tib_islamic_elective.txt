@@ -7,60 +7,11 @@
 # The voter will vote for the top score candidate calculated from this script.
 
 tib_islamic_dynastic_elective = { # Islamic Dynastic Monarchial Elective.
-	elector_vote_strength = { # More emphasis is put into restricting the successors within the dynastic house of the ruling family.
-		base = 1
-		modifier = { # Imperial Dignity
-			desc = tooltip_feudal_vote_strength_emperor_tier
-			add = 2
-			highest_held_title_tier = 5 # empire_tier
-		}
-		modifier = { # Same House Privilege
-			desc = tooltip_feudal_vote_strength_emperor_tier
-			add = 2
-			highest_held_title_tier = 5 # kingdom_tier
-		}
-		modifier = { # Royal Dignity
-			desc = tooltip_feudal_vote_strength_king_tier
-			add = 1
-			highest_held_title_tier = 4 # kingdom_tier
-		}
-		modifier = { # Clerical Influence
-			desc = tooltip_feudal_vote_strength_theocrat
-			add = 2
-			NOT = { this = scope:holder }
-			OR = {
-				has_government = islamic_government
-				has_government = theocracy_government
-				has_council_position = councillor_court_chaplain
-			}
-			faith = scope:holder.faith
-			faith = { has_doctrine = doctrine_theocracy_lay_clergy }
-			NOT = { root = scope:holder.faith.religious_head }
-			#TODO_CD:Possible trigger checking for investiture succession?
-		}
-		modifier = { # Qurayshi Influence
-			desc = tooltip_feudal_vote_strength_pope
-			add = 2
-			NOT = { this = scope:holder }
-			OR = {
-				has_trait = sayyid
-				has_trait = sayyid_quraysh
-			}
-		}
-		modifier = { # Caliph Influence
-			desc = tooltip_feudal_vote_strength_pope
-			add = 2
-			NOT = { this = scope:holder }
-			root = scope:holder.faith.religious_head
-			#TODO_CD:Possible trigger checking for investiture succession?
-		}
-	}
-	
 	electors = {
-		max = 10  # Nine Distinguished House (Realm) Leaders + 1 Emperor.
 		add = holder # The Malik al-Muluk
+		add = holder_close_or_extended_family
 		add = {
-			type = holder_direct_vassals # title_dejure_vassals
+			type = title_dejure_vassals
 			limit = {
 				scope:title = { # Either title is higher than Duke-tier, or must be primary.
 					OR = {
@@ -82,81 +33,102 @@ tib_islamic_dynastic_elective = { # Islamic Dynastic Monarchial Elective.
 				}
 			}
 		}
-		priority = {
-			base = 1
-			modifier = { # The Emperor is always picked.
-				add = 200
-				this = scope:holder
-			}
-			modifier = { # House (Realm) Leaders. (specific titles, held by rulers of the same faith as the current holder)
-				add = 75
-				faith = scope:holder.faith
-				scope:title = {
-					is_vassal_of = scope:holder
-				}
-				OR = {
-					is_powerful_vassal = yes
-					is_allied_to = scope:holder # Allies' Privilege
+		add = {
+			type = holder_direct_vassals
+				liege = scope:holder
+				trigger_if = { # Must be true priests
+					limit = { has_government = theocracy_government }
+					trigger_if = {
+						limit = { is_female = yes }
+						faith_dominant_gender_female_or_equal = yes
+					}
+					trigger_else = { faith_dominant_gender_male_or_equal = yes }
 				}
 			}
-
-			modifier = { # Fallback Electors
-				add = {
-					value = 10
-					if = { # Favors same faith first.
-						limit = {
-							faith = scope:holder.faith
-						}
-						add = 30
+		}
+	}
+	elector_vote_strength = { # More emphasis is put into restricting the successors within the dynastic house of the ruling family.
+		base = 1
+		modifier = { # Title Holder Bias
+			desc = tooltip_dynastic_vote_strength_title_holder
+			add = 2
+			root = scope:holder
+		}
+		modifier = { # House Head for title holder Bias
+			desc = tooltip_dynastic_vote_strength_house_head
+			add = 1
+			root = scope:holder.house_head
+		}
+		modifier = { # Dynasty Head for title holder Bias
+			desc = tooltip_dynastic_vote_strength_house_head
+			add = 1
+			root = scope:holder.dynasty.dynast
+		}
+		modifier = { # Imperial Dignity
+			desc = tooltip_feudal_vote_strength_emperor_tier
+			add = 2
+			highest_held_title_tier = 5 # empire_tier
+		}
+		modifier = { # Royal Dignity
+			desc = tooltip_feudal_vote_strength_king_tier
+			add = 1
+			highest_held_title_tier = 4 # kingdom_tier
+		}
+		modifier = { # Powerful Vassal
+			desc = tooltip_feudal_vote_strength_powerful_vassal
+			add = {
+				value = 1
+				if = { # Additional point if the vassal is more powerful than the current ruler (Vassal King who meets this condition will have more voting power than the Emperor himself (1+1+1+2 = 5))
+					limit = {
+						max_military_strength > scope:holder.max_military_strength
 					}
-					if = { # Or compatible faith at least.
-						limit = {
-							faith = {
-								faith_hostility_level = {
-									target = scope:holder.faith
-									value = faith_fully_accepted_level
-								}
-							}
-						}
-						add = 15
-					}
-					if = { # Slightly favor Muslim tribals, clans, theocracies or holy orders of same faith.
-						limit = {
-							OR = {
-								has_government = tribal_government
-								has_government = clan_government
-								has_government = theocracy_government
-								#has_government = holy_order_county_government
-							}
-							faith = scope:holder.faith
-						}
-						add = 4
-					}
-					#if = { # Malus for other governments.
-					#	limit = {
-					#		has_government = republic_government
-					#	}
-					#	subtract = 5
-					#}
-					if = { # Malus for other governments.
-						limit = {
-							OR = {
-								#has_government = tribal_government
-								#has_government = clan_government
-								has_government = mercenary_government
-								has_government = holy_order_government
-							}
-						}
-						subtract = 4
-					}
-					if = { # Slight prioritization for same culture.
-						limit = {
-							culture = scope:holder.culture
-						}
-						add = 4
-					}
+					add = 2
 				}
 			}
+			NOT = { this = scope:holder }
+			is_powerful_vassal = yes
+			liege = scope:holder
+		}
+		modifier = { # Clerical Influence
+			desc = tooltip_pious_vote_strength
+			add = 2
+			OR = {
+				has_flag = government_is_islamic_flag
+				has_flag = government_is_theocracy_flag
+				has_council_position = councillor_court_chaplain
+			}
+			faith = scope:holder.faith
+			faith = { has_doctrine = doctrine_theocracy_lay_clergy }
+			NOT = { root = scope:holder.faith.religious_head }
+		}
+		modifier = { # Pious Influence
+			desc = tooltip_pious_vote_strength
+			add = 2
+			root = {
+					learning >= 10
+					has_trait = zealous
+				}
+			}
+		}
+		modifier = { # Qurayshi Influence
+			desc = tooltip_feudal_vote_strength_pope
+			add = 2
+			OR = {
+				has_trait = sayyid
+				has_trait = sayyid_quraysh
+				has_trait = fake_sayyid
+			}
+		}
+		modifier = { # Caliph Influence
+			desc = tooltip_feudal_vote_strength_pope
+			add = 2
+			root = scope:holder.faith.religious_head
+		}
+		modifier = { # Caliph Influence
+			desc = tooltip_feudal_vote_strength_pope
+			add = 2
+			root = faith.religious_head
+			faith = scope:holder.faith
 		}
 	}
 
@@ -202,226 +174,6 @@ tib_islamic_dynastic_elective = { # Islamic Dynastic Monarchial Elective.
 					feudal_elective_potential_landless_claimant_candidate_trigger = yes
 					feudal_elective_potential_landed_candidate_trigger = yes
 				}
-			}
-		}
-	}
-}
-
-tib_general_islamic_elective = { # Islamic / Arabic Elective.
-	elector_vote_strength = {
-		base = 1
-		modifier = { # Imperial Dignity
-			desc = tooltip_feudal_vote_strength_emperor_tier
-			add = 2
-			highest_held_title_tier = 5
-		}
-		modifier = { # Royal Dignity
-			desc = tooltip_feudal_vote_strength_king_tier
-			add = 1
-			highest_held_title_tier = 4
-		}
-		modifier = { # Powerful Vassal
-			desc = tooltip_feudal_vote_strength_powerful_vassal
-			add = {
-				value = 1
-				if = { # Additional point if the vassal is more powerful than the current ruler (Vassal King who meets this condition will have more voting power than the Emperor himself (1+1+1+2 = 5))
-					limit = {
-						max_military_strength > scope:holder.max_military_strength
-					}
-					add = 2
-				}
-			}
-			NOT = { this = scope:holder }
-			is_powerful_vassal = yes
-			liege = scope:holder
-		}
-		modifier = { # Clerical Influence
-			desc = tooltip_feudal_vote_strength_theocrat
-			add = 2
-			NOT = { this = scope:holder }
-			OR = {
-				has_government = islamic_government
-				has_government = theocracy_government
-				has_council_position = councillor_court_chaplain
-			}
-			faith = scope:holder.faith
-			faith = { has_doctrine = doctrine_theocracy_lay_clergy }
-			NOT = { root = scope:holder.faith.religious_head }
-			#TODO_CD:Possible trigger checking for investiture succession?
-		}
-		modifier = { # Qurayshi Influence
-			desc = tooltip_feudal_vote_strength_pope
-			add = 4 # If a member of the Quraysh (or just Sayyid) or the Caliph is an elector, his vote is the most important of all.
-			NOT = { this = scope:holder }
-			OR = {
-				has_trait = sayyid
-				has_trait = sayyid_quraysh
-			}
-		}
-		modifier = { # Caliph Influence
-			desc = tooltip_feudal_vote_strength_pope
-			add = 4 # If a member of the Quraysh (or just Sayyid) or the Caliph is an elector, his vote is the most important of all.
-			NOT = { this = scope:holder }
-			root = scope:holder.faith.religious_head
-			#TODO_CD:Possible trigger checking for investiture succession?
-		}
-	}
-	
-	electors = {
-		max = 8  # Seven Distinguished House (Realm) Leaders + 1 Emperor.
-		add = holder # The Malik al-Muluk
-		add = {
-			type = title_dejure_vassals
-			limit = {
-				scope:title = { # Either title is higher than Duke-tier, or must be primary.
-					OR = {
-						tier >= tier_kingdom
-						holder = { has_primary_title = prev }
-					}
-				}
-				OR = { # Either de facto direct vassal, or independent ruler who is de jure vassal. (no sub-vassals)
-					liege = scope:holder
-					is_independent_ruler = yes
-				}
-				trigger_if = { # Must be true priests
-					limit = { has_government = theocracy_government }
-					trigger_if = {
-						limit = { is_female = yes }
-						faith_dominant_gender_female_or_equal = yes
-					}
-					trigger_else = { faith_dominant_gender_male_or_equal = yes }
-				}
-			}
-		}
-		priority = {
-			base = 1
-			modifier = { # The Emperor is always picked.
-				add = 200
-				this = scope:holder
-			}
-			modifier = { # House (Realm) Leaders. (specific titles, held by rulers of the same faith as the current holder)
-				add = 75
-				faith = scope:holder.faith
-				scope:title = {
-					is_vassal_of = scope:holder
-				}
-				OR = {
-					is_powerful_vassal = yes
-					is_allied_to = scope:holder
-				}
-			}
-
-			modifier = { # Fallback Electors
-				add = {
-					value = 10
-					if = { # Favors same faith first.
-						limit = {
-							faith = scope:holder.faith
-						}
-						add = 30
-					}
-					if = { # Or compatible faith at least.
-						limit = {
-							faith = {
-								faith_hostility_level = {
-									target = scope:holder.faith
-									value = faith_fully_accepted_level
-								}
-							}
-						}
-						add = 15
-					}
-					if = { # Slightly favor Muslim tribals, clans, theocracies or holy orders of same faith.
-						limit = {
-							OR = {
-								has_government = tribal_government
-								has_government = clan_government
-								has_government = theocracy_government
-							}
-							faith = scope:holder.faith
-						}
-						add = 4
-					}
-					#if = { # Malus for other governments.
-					#	limit = {
-					#		has_government = republic_government
-					#	}
-					#	subtract = 5
-					#}
-					if = { #Malus for other governments.
-						limit = {
-							OR = {
-								#has_government = tribal_government
-								#has_government = clan_government
-								has_government = mercenary_government
-								has_government = holy_order_government
-							}
-						}
-						subtract = 4
-					}
-					if = { #Slight prioritization for same culture.
-						limit = {
-							culture = scope:holder.culture
-						}
-						add = 4
-					}
-				}
-			}
-		}
-	}
-
-	candidate_score = {
-		base = 0
-		#Princely Elective uses very similar behavior to Feudal Elective. The few changes to the modifiers are already accounted for in the scripted_modifiers themselves.
-		######################	Elector self-voting pattern	##########################
-		elector_self_voting_pattern_feudal_elective_modifier = yes
-
-		##########################	Holder voting pattern	##########################
-		holder_voting_pattern_feudal_elective_modifier = yes
-
-		##########################	Elector voting patterns (circumstances)	##########################
-		elector_voting_pattern_circumstances_feudal_elective_modifier = yes
-
-		##########################	Elector voting patterns (prestige/piety)	##########################
-		elector_voting_pattern_prestige_piety_feudal_elective_modifier = yes
-
-		##########################	Elector voting patterns (traits)	##########################
-		elector_voting_pattern_traits_feudal_elective_modifier = yes
-
-		##########################	Elector voting patterns (opinion)	##########################
-		elector_voting_pattern_opinion_feudal_elective_modifier = yes
-	}
-	
-	#scope:candidate = Candidate, scope:title = Title, scope:holder_candidate = Candidate currently selected by ruler.
-	candidates = {
-		add = {
-			type = holder_direct_vassals
-			limit = {
-				faith = scope:holder.faith
-				feudal_elective_potential_landed_candidate_trigger = yes
-			}
-		}
-		add = {
-			type = title_dejure_vassals
-			limit = {
-				faith = scope:holder.faith
-				is_independent_ruler = yes #De jure vassals of the title who are not de facto vassals of the current ruler.
-				feudal_elective_potential_landed_candidate_trigger = yes
-			}
-		}
-		add = {
-			type = title_claimants
-			limit = {
-				faith = scope:holder.faith
-				feudal_elective_potential_landless_claimant_candidate_trigger = yes
-			}
-		}
-		add = {
-			type = holder_close_or_extended_family
-			limit = {
-				faith = scope:holder.faith
-				is_close_family_of = scope:holder
-				feudal_elective_potential_landless_dynastic_candidate_trigger = yes
 			}
 		}
 	}

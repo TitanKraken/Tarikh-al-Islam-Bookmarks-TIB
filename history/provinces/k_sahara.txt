@@ -2,8 +2,8 @@
 ##d_tadmekka ###################################
 ###c_tadmekka
 6566 = {	#TADMEKKA
-	#culture = tuareg
-	culture = tagelmust
+	culture = tuareg
+	#culture = tagelmust
 	religion = north_african_acham_pagan
 	720.1.1 = { religion = ibadi }
 	holding = tribal_holding
@@ -17,8 +17,8 @@
 
 ###c_tessalit
 6564 = {	#TESSALIT
-	#culture = tuareg
-	culture = tagelmust
+	culture = tuareg
+	#culture = tagelmust
 	religion = north_african_acham_pagan
 	720.1.1 = { religion = ibadi }
 	holding = tribal_holding

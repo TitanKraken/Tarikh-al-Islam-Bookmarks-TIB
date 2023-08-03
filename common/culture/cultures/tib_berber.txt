@@ -74,13 +74,14 @@ guanches = { # Guanches - Canary Islanders
 	unit_gfx = { mena_unit_gfx }
 	
 	ethnicities = {
-		5 = arab
-		5 = african
+		10 = arab
+		1 = african
 	}
 }
 
 zaghawa = {
 	color = zaghawa
+	created = 500.1.1
 	parents = { butr }
 	
 	ethos = ethos_egalitarian
@@ -108,6 +109,7 @@ zaghawa = {
 
 tuareg = {
 	color = hsv{ 0.8 1 0.2 }
+	created = 500.1.1
 	parents = { butr }
 	
 	ethos = ethos_bellicose
@@ -135,8 +137,9 @@ tuareg = {
 	}
 }
 
-tagelmust = { # Based on Baranis, Tagelmust Sanhaja
-	color = { 0.55 0.35 0.25 }
+tagelmust = { # Tagelmust Sanhaja - Based on Baranis
+	color = { 0.35 0.15 0.05 }
+	created = 500.1.1
 	parents = { baranis }
 	
 	ethos = ethos_spiritual
@@ -155,7 +158,11 @@ tagelmust = { # Based on Baranis, Tagelmust Sanhaja
 	
 	coa_gfx = { berber_group_coa_gfx }
 	building_gfx = { mena_building_gfx }
-	clothing_gfx = { iberian_muslim_clothing_gfx mena_clothing_gfx }
+	clothing_gfx = { 
+		trait = iberian_muslim_clothing_gfx
+		requires_dlc_flag = fate_of_iberia
+		fallback = mena_clothing_gfx 
+	}
 	unit_gfx = { mena_unit_gfx }
 	
 	ethnicities = {
@@ -163,8 +170,9 @@ tagelmust = { # Based on Baranis, Tagelmust Sanhaja
 		1 = african
 	}
 }
-danhagha = { # Based on Baranis, Kabyle Sanhaja
+danhagha = { # Kabyle Sanhaja - Based on Baranis
 	color = { 0.57 0.40 0.20 }
+	created = 500.1.1
 	parents = { baranis }
 	
 	ethos = ethos_egalitarian
@@ -174,9 +182,12 @@ danhagha = { # Based on Baranis, Kabyle Sanhaja
 	traditions = {
 		tradition_african_tolerance
 		tradition_maritime_mercantilism # Just beside the Mediterrenean Sea
-		tradition_dryland_dwellers
 		tradition_mountain_herding # Resides at the Kabylie range
 		tradition_corsairs
+	}
+	dlc_tradition = {
+		trait = tradition_artisans
+		requires_dlc_flag = royal_court
 	}
 	
 	name_list = name_list_baranis
@@ -191,8 +202,9 @@ danhagha = { # Based on Baranis, Kabyle Sanhaja
 		1 = african
 	}
 }
-masmuda = { # Based on Baranis, Moroccan Atlas Sanhaja
+masmuda = { # Moroccan Atlas Sanhaja - Based on Baranis
 	color = { 0.4 0.4 0.2 }
+	created = 500.1.1
 	parents = { baranis }
 	
 	ethos = ethos_stoic
@@ -221,6 +233,7 @@ masmuda = { # Based on Baranis, Moroccan Atlas Sanhaja
 }
 zenata = { # Based on Baranis, historically one of the largest Berber confederations along with the Sanhaja and Masmuda
 	color = { 0.60 0.40 0.30 }
+	created = 500.1.1
 	parents = { baranis }
 	
 	ethos = ethos_stoic
@@ -247,8 +260,41 @@ zenata = { # Based on Baranis, historically one of the largest Berber confederat
 		1 = african
 	}
 }
-siwi = { # Based on Baranis, Egyptian Berbers residing at Siwa valley
+hawwara = { # The Aures - Based on Zenata and Baranis, the direct heirs of the ancient western Bavares Berber tribe
+	color = { 0.45 0.25 0.15 }	
+	created = 500.1.1
+	parents = { baranis }
+	
+	ethos = ethos_stoic
+	heritage = heritage_berber
+	language = language_berber
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_african_tolerance
+		tradition_maritime_mercantilism # Just beside the Mediterrenean Sea
+		tradition_dryland_dwellers
+		tradition_stalwart_defenders # Resides at the Kabylie range
+		tradition_corsairs
+	}
+	
+	name_list = name_list_butr
+	
+	coa_gfx = { berber_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { 
+		iberian_muslim_clothing_gfx 
+		fallback = mena_clothing_gfx 
+	}
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = {
+		10 = arab
+		1 = african
+	}
+}
+siwi = { # Egyptian Berbers residing at Siwa valley - Based on Baranis
 	color = { 0.60 0.40 0.30 }
+	created = 500.1.1
 	parents = { baranis }
 	
 	ethos = ethos_stoic # Able to withold their culture alive until present day

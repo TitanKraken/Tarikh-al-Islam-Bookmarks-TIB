@@ -26,7 +26,7 @@
 }
 ###c_west_qamuda
 4598 = {	#AL-QASRAYN
-	culture = baranis
+	culture = zenata
 	religion = mutazila
 	holding = castle_holding
 	
@@ -57,7 +57,7 @@
 
 ###c_tabassa
 4623 = {	#TABASSA
-	culture = butr
+	culture = zenata
 	religion = mutazila
 	holding = castle_holding
 	
@@ -83,7 +83,7 @@
 ##d_tunis ###################################
 ###c_tunis
 4582 = {	#TUNIS
-	culture = baranis
+	culture = zenata
 	religion = catholic
 	
 	holding = castle_holding
@@ -119,7 +119,7 @@
 
 ###c_satfura
 4585 = {	#BANZART
-	culture = baranis
+	culture = zenata
 	religion = ashari
 	holding = castle_holding
 }
@@ -132,7 +132,7 @@
 
 ###c_medjerda
 4589 = {	#BAJA_MEDJERDA
-	culture = baranis
+	culture = zenata
 	religion = ashari
 	holding = castle_holding
 }
@@ -166,7 +166,7 @@
 ##d_kroumerie ###################################
 ###c_constantine
 4631 = {	#CONSTANTINE
-	culture = baranis
+	culture = zenata
 	religion = ibadi
 	holding = castle_holding
 }
@@ -185,7 +185,7 @@
 
 ###c_annaba
 4588 = {	#ANNABA
-	culture = baranis
+	culture = zenata
 	religion = ibadi
 	holding = castle_holding
 }
@@ -199,7 +199,7 @@
 ##d_gabes ###################################
 ###c_gabes
 4573 = {	#GABES
-	culture = butr
+	culture = zenata
 	religion = ibadi
 	holding = castle_holding
 }
@@ -209,7 +209,7 @@
 
 ###c_sfax
 4575 = {	#SFAX
-	culture = baranis
+	culture = zenata
 	religion = ashari
 	holding = castle_holding
 }
@@ -223,7 +223,7 @@
 ##d_jerid ###################################
 ###c_qashtiliya
 4601 = {	#TOZEUR
-	culture = butr
+	culture = zenata
 	religion = ibadi
 	holding = castle_holding
 	
@@ -257,7 +257,7 @@
 
 ###c_souf
 4604 = {	#SOUF
-	culture = butr
+	culture = zenata
 	religion = ibadi
 	holding = castle_holding
 	
@@ -272,7 +272,7 @@
 
 ###c_bir_amir
 4572 = {	#BIR AMIR
-	culture = butr
+	culture = zenata
 	religion = ibadi
 	holding = castle_holding
 	
@@ -287,7 +287,7 @@
 
 ###c_ghadames
 4570 = {	#GHADAMES
-	culture = butr
+	culture = zenata
 	religion = ibadi
 	holding = tribal_holding
 }
@@ -298,7 +298,7 @@
 ##d_tripolitania ###################################
 ###c_tripolitana
 4557 = {	#LIBTRIPOLI
-	culture = butr
+	culture = hawwara
 	religion = ibadi
 	holding = castle_holding
 }
@@ -311,7 +311,7 @@
 
 ###c_djerba
 4562 = {	#JERBA
-	culture = butr
+	culture = zenata
 	religion = ibadi
 	holding = castle_holding
 	
@@ -339,7 +339,7 @@
 
 ###c_jafara
 4561 = {	#ZUWARA
-	culture = butr
+	culture = hawwara
 	religion = ibadi
 	holding = castle_holding
 	
@@ -369,7 +369,7 @@
 ##d_syrte ###################################
 ###c_syrte
 4552 = {	# 4552 - SYRTE
-	culture = butr
+	culture = hawwara
 	#culture = zanata
 	religion = ibadi
 	holding = castle_holding
@@ -397,7 +397,7 @@
 
 ###c_labda
 4556 = {	#LABDA
-	culture = butr
+	culture = hawwara
 	religion = ibadi
 	holding = castle_holding
 	
@@ -425,7 +425,7 @@
 
 ###c_waddan
 4563 = {	#WADDAN
-	culture = butr
+	culture = hawwara
 	religion = ibadi
 	holding = castle_holding
 	

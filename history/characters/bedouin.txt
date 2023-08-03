@@ -8806,32 +8806,6 @@ abu_hashim_hanafiyyah = {
 	}
 }
 
-73180 = {
-	name = "Abd-al-Malik"
-	dynasty = 599
-	
-	father = 45005
-
-	religion = ashari
-	culture = bedouin
-
-	1073.1.1 = {
-		birth = yes
-	}
-	1110.1.1 = {
-		add_pressed_claim = title:c_castellon
-	}
-	1110.5.1 = {
-		add_pressed_claim = title:c_zaragoza
-	}
-	1118.12.18 = {
-		remove_claim = title:c_zaragoza
-	}
-	1130.1.1 = {
-		death = yes
-	}
-}
-
 73210 = {
 	name = "Abd-al-Malik"
 	dynasty = 569

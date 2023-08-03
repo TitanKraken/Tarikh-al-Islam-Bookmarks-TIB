@@ -1976,7 +1976,7 @@
 	name = "Abdallah" #placeholder
 	dynasty = 1069092
 	religion = ibadi
-	culture = zenata #zanata butr
+	culture = hawwara #zanata butr
 	832.1.1 = {
 		birth = yes
 	}
@@ -1988,7 +1988,7 @@
 	name = "Zalghin" #placeholder
 	dynasty = 1069092
 	religion = ibadi
-	culture = zenata #zanata butr
+	culture = hawwara #zanata butr
 	father = 273136
 	850.1.1 = {
 		birth = yes
@@ -2002,7 +2002,7 @@
 	female = yes
 	dynasty = 1069092
 	religion = ibadi
-	culture = zenata #zanata butr
+	culture = hawwara #zanata butr
 	father = 273136
 	849.1.1 = {
 		birth = yes
@@ -2015,7 +2015,7 @@
 	name = "Azim" #placeholder
 	dynasty = 1069092
 	religion = ibadi
-	culture = zenata #zanata butr
+	culture = hawwara #zanata butr
 	father = 273137
 	888.1.1 = {
 		birth = yes
@@ -2028,7 +2028,7 @@
 	name = "Zalghin" #placeholder
 	dynasty = 1069092
 	religion = ibadi
-	culture = zenata #zanata butr
+	culture = hawwara #zanata butr
 	father = 273139
 	920.1.1 = {
 		birth = yes

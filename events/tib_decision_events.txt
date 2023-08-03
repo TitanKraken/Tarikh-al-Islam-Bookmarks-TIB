@@ -15,7 +15,6 @@ caliphal_contender_declare_war.10 = { # Declare ROOT as a caliph contender!
 		character = root
 		animation = personality_zealous
 	}
-	override_background = { event_background = temple_mosque }
 
 	option = {
 		name = caliphal_contender_declare_war.10.a
@@ -33,7 +32,16 @@ caliphal_contender_declare_war.10 = { # Declare ROOT as a caliph contender!
 				add_trait = fake_sayyid
 			}
 		}
-
+		# Try to scope:founder rivals with scope:old_caliph.
+        if = {
+            limit = {
+                can_set_relation_rival_trigger = { CHARACTER = scope:old_caliph }
+            }
+            set_relation_rival = {
+                target = scope:old_caliph
+                reason = rival_old_caliph_new_caliph
+            }
+        }
 		if = {
             limit = {
                 scope:old_caliph = {
@@ -67,7 +75,7 @@ caliphal_contender_declare_war.1 = { # If the HoF is independent
 	type = character_event
 	title = caliphal_contender_declare_war.1.t
 	desc = caliphal_contender_declare_war.1.desc
-	theme = faith
+	theme = martial
 	left_portrait = {
 		character = root
 		animation = personality_honorable
@@ -82,7 +90,6 @@ caliphal_contender_declare_war.1 = { # If the HoF is independent
 	#		valid_prior_caliph_available_trigger = { MS_TYPE = sunni }
 	#	}
 	#}
-	override_background = { event_background = temple_mosque }
 
 	option = {
 		name = caliphal_contender_declare_war.1.a
@@ -108,7 +115,7 @@ caliphal_contender_declare_war.12 = { # If the HoF is a vassal
 	type = character_event
 	title = caliphal_contender_declare_war.12.t
 	desc = caliphal_contender_declare_war.12.desc
-	theme = faith
+	theme = martial
 	left_portrait = {
 		character = root
 		animation = personality_honorable
@@ -120,7 +127,6 @@ caliphal_contender_declare_war.12 = { # If the HoF is a vassal
 	lower_right_portrait = {
 		character = scope:old_caliph.top_liege
 	}
-	override_background = { event_background = temple_mosque }
 
 	option = {
 		name = caliphal_contender_declare_war.12.a

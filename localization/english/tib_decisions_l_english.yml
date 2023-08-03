@@ -1,5 +1,5 @@
 ﻿l_english:
- faith_is_islam:0 "You are a Muslim"
+ faith_is_islam:0 "You are a [Faith.GetReligion.GetAdjective]"
 
  islamic_vassals_will_convert:1 "As I am Islamic, my [tribal|E] vassals will change to [GetGovernment( 'islamic_government' ).GetName] government"
 

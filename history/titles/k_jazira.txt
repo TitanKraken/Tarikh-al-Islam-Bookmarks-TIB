@@ -2083,6 +2083,9 @@ d_kurdistan = {
 	942.1.1 = {
 		holder = 159172
 	}
+	950.1.1 = {
+		liege = k_persia
+	}
 	999.1.1 = {
 		holder = 159174
 	}
@@ -2103,6 +2106,7 @@ d_kurdistan = {
 	}
 	1063.1.1 = {
 		holder = 159182
+		liege = 0
 	}
 	
 	1254.1.1 = {

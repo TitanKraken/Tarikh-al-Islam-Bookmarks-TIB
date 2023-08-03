@@ -1,0 +1,26 @@
+﻿l_english:
+ caliphal_revolution_war:0 "Caliphal Revolution War"
+ CALIPHAL_REVOLUTION_WAR_NAME:0 "[ROOT.Char.GetHouse.GetName] Caliphal Revolution War"
+
+ caliphal_revolution_decision:0 "Spark a Caliphal Revolution"
+ caliphal_revolution_decision_confirm:0 "In the name of Allah!"
+ caliphal_revolution_decision_desc:0 "The people had yearn for a leader who will uphold the true principles of Islam and restore its glory to the Islamic world. The Ummah is faltering under a decadence, ill-prepared rule of [ROOT.Char.GetFaith.GetReligiousHead.GetTitledFirstName]. No doubt, [ROOT.Char.GetFaith.GetReligiousHead.GetSheHe] is just simply unfit to guide the Ummah! \n\nIt is time overthrow this unjust, sinful regime... under #EMP my#! rule..."
+
+ caliphal_revolution_decision_tooltip:0 "Spark a Caliphal Revolution against your current caliph"
+ caliphal_revolution_decision.tt.revolution_war:0 "Starts a war against your current [head_of_faith|E]"
+
+ demote_other_culture_development_decision_name:0 "Proclaim the Mawali Policy"
+ demote_other_culture_development_decision_desc:0 "Our realm has always relied on the Jizya tax income of the non-Muslims. If they keep converting to our religion, it will only hurt the realm's precious economy. With my authority as the leader of this realm, you new foreign converts shall be subjected as Mawali and keep paying the Jizya tax to us [GetPlayer.GetCulture.GetCollectiveNoun]!"
+ demote_other_culture_development_decision_tooltip:0 "Enact the Mawali policy for Muslim [counties|E] from different [cultures|E] with low [cultural_acceptance|E]"
+ demote_other_culture_development_decision_not_acceptance_tt:0 "There is no Muslim [culture|E] with a [cultural_acceptance|E] lower than #V 30%#! in your [realm|E]"
+ demote_other_culture_development_decision_confirm:0 "Send our Proclamation!"
+ demote_other_culture_development_decision_effect_summary:0 "Every Muslim [current_culture.GetName] [county|E] in the [realm|E] gets [GetModifier('demote_culture_modifier' ).GetNameWithTooltip|L] for 10 years"
+ demote_other_culture_development_decision_no_effect:0 "Every Muslim [county|E] in the [realm|E] from a [culture|E] with a [cultural_acceptance|E] lower than #V 30%#! gets [GetModifier('demote_culture_modifier' ).GetNameWithTooltip|L] for 10 years"
+ demote_culture_leader_modifier:0 "Issued a Discriminating Policy"
+ demote_culture_modifier:0 "Mawali Policy County"
+
+ pay_homage_to_caliph_decision:0 "Pledge Bay'ah to the Commander of the Faithful"
+ pay_homage_to_caliph_decision_confirm:0 "Pledge Bay'ah"
+ pay_homage_to_caliph_decision_desc:0 "I can formally and publicly pledge my Bay'ah (Oath of Allegiance) to our Commander of the Faithful, [ROOT.Char.GetFaith.GetReligiousHead.GetTitledFirstName], strengthening trust and the legitimacy for both of our positions."
+ pay_homage_to_caliph_decision_effects:0 "You travel to [THIS.Char.GetFaith.GetReligiousHead.GetTitledFirstName]'s court to pay [pay_homage|E]"
+ has_pay_homage_to_caliph_cooldown:0 "Has not paid [pay_homage|E] to [THIS.Char.GetFaith.GetReligiousHead.GetTitledFirstName] within 10 years"

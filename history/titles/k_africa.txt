@@ -2250,7 +2250,7 @@ d_tripolitania = {
 	}
 	
 	1066.1.1 = {
-		liege = 0
+		#liege = 0
 		government = tribal_government
 		holder = 155185
 	}

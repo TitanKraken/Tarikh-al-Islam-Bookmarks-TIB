@@ -2,7 +2,7 @@
 ##d_cyrenaica ###################################
 ###c_barqa
 6104 = {	#BARQA-AL-MARJ
-	culture = butr
+	culture = hawwara
 	religion = ashari
 	holding = castle_holding
 	
@@ -32,7 +32,7 @@
 
 ###c_awjila
 6106 = {	#AWJILA
-	culture = butr
+	culture = hawwara
 	religion = ashari
 	holding = castle_holding
 	
@@ -59,7 +59,7 @@
 
 ###c_derna
 6099 = {	#DERNA
-	culture = butr
+	culture = hawwara
 	#culture = zanata
 	religion = ashari
 	holding = castle_holding
@@ -82,7 +82,7 @@
 
 ###c_tobruk
 6098 = {	#TOBRUK
-	culture = butr
+	culture = hawwara
 	religion = ashari
 	holding = castle_holding
 	

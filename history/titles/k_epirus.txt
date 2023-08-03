@@ -223,6 +223,7 @@ c_aetolia = {
 	#Skleros
 	752.1.1 = {
 		holder = 145806
+		liege = "d_athens"
 	}
 	794.1.1 = {
 		holder = 145148

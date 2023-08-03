@@ -65,7 +65,7 @@
 
 ###c_hunyan
 4669 = {	#HUNYAN
-	culture = zenata
+	culture = danhagha
 	#culture = zanata
 	religion = ashari
 	holding = castle_holding

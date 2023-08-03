@@ -8,6 +8,6 @@ tags={
 	"Culture"
 	"Decisions"
 }
-name="Almohad History: Detailed (GitHub)"
-supported_version="1.9.0.2"
+name="Tarikh al-Islam Bookmarks (GitHub Developer Version)"
+supported_version="1.9.2.1"
 remote_file_id="2860237527"

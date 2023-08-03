@@ -116,7 +116,7 @@
 	}
 }
 
-###c_beja/evora/Évora
+###c_beja/evora/ï¿½vora
 1777 = {	# EVORA
 	# Misc
 	culture = visigothic
@@ -168,7 +168,7 @@
 	holding = castle_holding
 	
 	# History
-	800.1.1 = { culture = andalusian }
+	800.1.1 = { culture = mozarab }
 	939.1.1 = { religion = muwalladi }
 	1235.1.1 = {
 		culture = castilian
@@ -214,7 +214,7 @@
 	holding = castle_holding
 	
 	# History
-	800.1.1 = { culture = andalusian }
+	800.1.1 = { culture = mozarab }
 	939.1.1 = { religion = muwalladi }
 	1235.1.1 = {
 		culture = castilian
