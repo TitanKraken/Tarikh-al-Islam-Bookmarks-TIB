@@ -1,0 +1,22 @@
+﻿doctrine_zakat = {
+    group = "main_group"
+    doctrine_mandatory_zakat = {
+        piety_cost = {
+            value = faith_doctrine_cost_mid
+            if = {
+                limit = { has_doctrine = doctrine_mandatory_zakat }
+                multiply = faith_unchanged_doctrine_cost_mult
+            }
+        }
+        is_shown = {
+            religion_tag = islam_religion
+        }
+        character_modifier = {
+            monthly_piety_gain_mult = -0.05
+            same_faith_opinion = -5
+        }
+        parameters = {
+            mandatory_zakat = yes
+        }
+    }
+}

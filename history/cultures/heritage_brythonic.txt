@@ -2,9 +2,10 @@
 # Welsh
 # Cumbrian
 
+# Breton in separate file
 # Pictish in separate file
 
-867.1.1 = {
+500.1.1 = {
 	discover_innovation = innovation_bannus
 	discover_innovation = innovation_mustering_grounds
 	discover_innovation = innovation_quilted_armor

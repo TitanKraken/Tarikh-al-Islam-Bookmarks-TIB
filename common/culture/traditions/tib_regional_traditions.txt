@@ -27,7 +27,7 @@ tradition_corsairs = {
                     this = culture:maghrebi
                     this = culture:yemeni
                     this = culture:andalusian
-                    this = culture:sicilian_arabic
+                    this = culture:sicilian_arabian
 				}
 			}
 		}
@@ -39,7 +39,7 @@ tradition_corsairs = {
 	parameters = {
 		culture_can_raid_at_sea_even_if_feudal = yes
 		not_tribal_raiding_malus = yes
-        unlocks_tib_border_raid_casus_belli = yes
+        #unlocks_tib_border_raid_casus_belli = yes
 	}
     war_effects = {
         uninvolved_parameters = {

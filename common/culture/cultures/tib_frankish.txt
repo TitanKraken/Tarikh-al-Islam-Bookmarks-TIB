@@ -121,10 +121,10 @@ occitan = {
 
 # TIB
 
-bourguignon = {
+bourguignon = { # French Burgundians
 	color = { 135 0 40 }
 	created = 700.1.1
-	parents = { burgundian frankish }
+	parents = { burgundian french }
 	
 	ethos = ethos_bellicose
 	heritage = heritage_frankish

@@ -74,6 +74,12 @@
  islam_water_god_name:0 "$islam_high_god_name$"
  islam_water_god_name_possessive:0 "$islam_high_god_name_possessive$"
 
+ # Doctrines
+ doctrine_zakat_name:0 "Zakat Obligation"
+ doctrine_mandatory_zakat_name:0 "Mandatory Zakat"
+ doctrine_mandatory_zakat_desc:0 "It is expected that every financially-able Muslims to pay Zakat, as a means to purify themselves as is commanded by Allah in His Holy Quran. While special exemptions are made, any [ROOT.Faith.GetAdherentNameNoTooltip] who fails to pay the Zakat will be looked upon with skepticism."
+ doctrine_parameter_mandatory_zakat:0 "Has access to a decision to pay the Zakat"
+
  #Shia
  islam_shia_priest:0 "mullah"
  islam_shia_priest_plural:0 "mullahs"

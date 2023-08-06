@@ -122,13 +122,14 @@
 		}
 		duchy_capital_building = blacksmiths_01
 	}
-	955.1.1 = { culture = castilian }
+	#955.1.1 = { culture = castilian }
 	1066.1.1 = {
 		buildings = {
 			regimental_grounds_01
 			curtain_walls_01
 			farm_estates_01
 		}
+		culture = castilian
 	}
 }
 1920 = {	# 1920 - MAQUEDA
@@ -148,7 +149,8 @@
 	
 	# History
 	800.1.1 = { culture = mozarab }
-	955.1.1 = { culture = castilian }
+	#955.1.1 = { culture = castilian }
+	1066.1.1 = { culture = castilian }
 }
 1927 = {	# GUDALAJARA
 	holding = city_holding
@@ -170,7 +172,8 @@
 	
 	# History
 	800.1.1 = { culture = mozarab }
-	950.1.1 = { culture = castilian }
+	#950.1.1 = { culture = castilian }
+	1066.1.1 = { culture = castilian }
 }
 1930 = {	# SIGUENZA
 	holding = city_holding
@@ -201,14 +204,14 @@
 1944 = {	# ZURITA/Zorita
 	holding = none
 }
-1945 = {	# ALTO TAJO/Huélamo
+1945 = {	# ALTO TAJO/Huï¿½lamo
 	holding = city_holding
 }
 1951 = {	# HUETE
 	holding = none
 }
 
-###c_mora/Ucles/Uclés
+###c_mora/Ucles/Uclï¿½s
 1952 = {	# UCLES
 	# Misc
 	culture = visigothic
@@ -408,7 +411,7 @@
 1841 = {	# ALMONTE
 	holding = city_holding
 }
-1993 = {	# TRIANA/Aznalcóllar
+1993 = {	# TRIANA/Aznalcï¿½llar
 	holding = church_holding
 }
 
@@ -454,7 +457,7 @@
 		religion = catholic
 	}
 }
-1989 = {	# ALMADER/Almadén
+1989 = {	# ALMADER/Almadï¿½n
 	holding = city_holding
 }
 

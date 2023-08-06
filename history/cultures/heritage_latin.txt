@@ -1,8 +1,27 @@
-# Lombard & Cisalpine
+# Roman
+# Lombard
+# Cisalpine (North Italian)
+# Corsican
+# Tuscan
+# Ligurian
+# Venetian
+# Maltese
+# Neapolitan
+# Dalmatian
+# Romagnol
+# Emilian
+# Romansh
+# Friulian
 
-# Italian, Sicilian & Sardinian in separate files
+# Illyrian
+# African Romance
+# Piedmontese
 
-867.1.1 = {
+# Italian in separate files
+# Sardinian in separate files
+# Sicilian in separate files
+
+500.1.1 = {
 	discover_innovation = innovation_bannus
 	discover_innovation = innovation_catapult
 	discover_innovation = innovation_quilted_armor
@@ -35,4 +54,44 @@
 	discover_innovation = innovation_manorialism
 	discover_innovation = innovation_currency_02
 	discover_innovation = innovation_baliffs
+}
+
+1100.1.1 = { # Add early medieval innovations here
+	join_era = culture_era_high_medieval
+	#
+	discover_innovation = innovation_battlements
+	discover_innovation = innovation_horseshoes
+	discover_innovation = innovation_armilary_sphere
+}
+1124.1.1 = {
+	discover_innovation = innovation_trebuchet # 1124
+}
+1180.1.1 = {
+	discover_innovation = innovation_windmills
+	discover_innovation = innovation_castle_baileys
+	discover_innovation = innovation_hoardings
+	discover_innovation = innovation_knighthood
+	discover_innovation = innovation_men_at_arms
+	discover_innovation = innovation_french_peerage
+	discover_innovation = innovation_currency_03
+}
+
+1200.1.1 = {
+	discover_innovation = innovation_heraldry
+	discover_innovation = innovation_development_03
+}
+1240.1.1 = {
+	discover_innovation = innovation_advanced_bowmaking
+	discover_innovation = innovation_divine_right
+	discover_innovation = innovation_land_grants
+	discover_innovation = innovation_scutage
+	discover_innovation = innovation_guilds
+
+	join_era = culture_era_late_medieval
+}
+
+1285.1.1 = { # Add late medieval innovations here
+	discover_innovation = innovation_primogeniture
+	discover_innovation = innovation_ermine_cloaks
+	discover_innovation = innovation_rightful_ownership
 }

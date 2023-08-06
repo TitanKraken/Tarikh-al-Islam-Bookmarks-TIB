@@ -1,0 +1,25 @@
+﻿on_game_start = {
+	on_actions = {
+		on_islamic_start
+	}
+}
+
+on_islamic_start = {
+	effect = {
+		every_ruler = {
+			limit = { 
+				#NOT = {exists = var:cal_authority}
+				has_government_flag = government_is_islamic
+			}
+			#save_scope_as = caliph
+			#set_variable = {
+			#	name = cal_authority
+			#	value = 10
+			#}
+			set_variable = {
+				name = zakat_resource
+				value = 0
+			}
+        }
+    }
+}

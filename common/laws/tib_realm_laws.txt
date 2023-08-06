@@ -1,4 +1,4 @@
-﻿@crown_authority_cooldown_years = 20
+﻿@caliphal_authority_cooldown_years = 20
 
 tib_caliphal_authority = {
 	default = tib_caliphal_authority_0
@@ -13,7 +13,7 @@ tib_caliphal_authority = {
 			courtly_opinion = 5
 			same_faith_opinion = 5
 		}
-		flag = uses_crown_authority
+		#flag = uses_crown_authority
 
 		can_keep = { # Only Caliphs can access this
             AND = {
@@ -23,9 +23,16 @@ tib_caliphal_authority = {
             }
         }
 
+		can_pass = {
+		}
+
 		on_pass = {
 			# Remove modifiers.
 			remove_law_related_modifiers_effect = yes
+			#set_variable = {
+			#	name = caliphal_authority_cooldown
+			#	years = @caliphal_authority_cooldown_years
+			#}
 		}
 	}
 	
@@ -41,10 +48,10 @@ tib_caliphal_authority = {
 			vassal_levy_contribution_mult = 0.07
 		}
 		#flag = uses_crown_authority
-		flag = title_revocation_allowed
-		flag = vassal_retraction_allowed
-		flag = can_change_partition_succession_laws
-		flag = diarchs_want_to_subsidise_without_this_flag
+		#flag = title_revocation_allowed
+		#flag = vassal_retraction_allowed
+		#flag = can_change_partition_succession_laws
+		#flag = diarchs_want_to_subsidise_without_this_flag
 
 		can_keep = { # Only Caliphs can access this
             AND = {
@@ -57,11 +64,11 @@ tib_caliphal_authority = {
 		can_pass = {
 			trigger_if = {
 				limit = { has_realm_law = tib_caliphal_authority_0 }
-				#custom_description = {
-				#	subject = root
-				#	text = "has_crown_authority_cooldown"
-				#	has_variable = crown_authority_cooldown
-				#}
+				custom_description = {
+					subject = root
+					text = "has_caliphal_authority_cooldown"
+					NOT = { has_variable = caliphal_authority_cooldown }
+				}
 			}
 			piety_level >= medium_piety_level
 		}
@@ -76,8 +83,8 @@ tib_caliphal_authority = {
 			calculate_authority_cooldown_break_effect = yes
 			# Set regular cooldown.
 			set_variable = {
-				name = crown_authority_cooldown
-				years = @crown_authority_cooldown_years
+				name = caliphal_authority_cooldown
+				years = @caliphal_authority_cooldown_years
 			}
 			# Remove modifiers.
 			remove_law_related_modifiers_effect = yes
@@ -104,11 +111,16 @@ tib_caliphal_authority = {
 			vassal_levy_contribution_mult = 0.18
 		}
 		#flag = uses_crown_authority
-		flag = vassal_internal_wars_banned
+		#flag = vassal_internal_wars_banned
 		flag = vassal_refusal_is_treason
-		flag = can_change_succession_laws
+		flag = can_designate_heirs
+		#flag = can_change_succession_laws
         flag = max_authority_level
 		flag = titles_cannot_leave_realm_on_succession # Hardcoded flag
+		custom_description = {
+			subject = root
+			text = "can_declare_grand_jihad"
+		}
 		
 		can_keep = { # Only Caliphs can access this
             AND = {
@@ -128,8 +140,8 @@ tib_caliphal_authority = {
 				has_realm_law = tib_caliphal_authority_1
 				custom_description = {
 					subject = root
-					text = "has_crown_authority_cooldown"
-					has_variable = crown_authority_cooldown
+					text = "has_caliphal_authority_cooldown"
+					NOT = { has_variable = caliphal_authority_cooldown }
 				}
 			}
             piety_level >= high_piety_level
@@ -146,8 +158,8 @@ tib_caliphal_authority = {
 			calculate_authority_cooldown_break_effect = yes
 			# Set regular cooldown.
 			set_variable = {
-				name = crown_authority_cooldown
-				years = @crown_authority_cooldown_years
+				name = caliphal_authority_cooldown
+				years = @caliphal_authority_cooldown_years
 			}
 			# Remove modifiers.
 			remove_law_related_modifiers_effect = yes

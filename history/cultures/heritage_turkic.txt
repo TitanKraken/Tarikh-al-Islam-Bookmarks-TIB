@@ -7,11 +7,17 @@
 # Laktan
 # Karluk
 # Kirghiz
-#Uriankhai
+# Uriankhai
 
-# Bolghar, Khazar, Oghuz & Uyghur in separate files
+# Bolghar, Kazani in separate files
+# Khazar, Kabars in seperate files
+# Oghuz, Turkmeni, Anatolian Turkish, Crimean in seperate files
+# Uyghur, Yughur in seperate files
+# Shatuo in seperate file
+# Chagatai, Tatars in seperate file
+# Mamluk in seperate file
 
-867.1.1 = {
+500.1.1 = {
 	discover_innovation = innovation_bannus
 	discover_innovation = innovation_mustering_grounds
 	discover_innovation = innovation_quilted_armor

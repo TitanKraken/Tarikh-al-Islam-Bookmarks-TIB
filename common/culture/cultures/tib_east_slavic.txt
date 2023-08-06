@@ -35,7 +35,7 @@ varangian_rus = {
 	
 	created = 930.1.1
 	parents = { norse russian } 
-	#history_loc_override = russian_history_loc
+	history_loc_override = russian_history_loc
 	
 	ethos = ethos_bellicose
 	heritage = heritage_north_germanic

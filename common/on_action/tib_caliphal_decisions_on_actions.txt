@@ -1,0 +1,42 @@
+pay_homage_to_caliph_travel_planner_exit = {
+	effect = {
+		send_interface_toast = {
+			title = pay_homage_costs_refunded
+			left_icon = root 
+			# Remove variable preventing you from paying homage again
+			remove_decision_cooldown = pay_homage_to_caliph_decision
+			# refund any costs
+			add_prestige_no_experience = standard_activity_cost
+			if = {
+				limit = {
+					has_variable = pay_homage_gold_value
+				}
+				add_gold = var:pay_homage_gold_value
+			}
+			switch = {
+				trigger = has_trait
+				shy = { add_stress = medium_stress_impact_loss }
+				arrogant = { add_stress = medium_stress_impact_loss }
+			}
+		}
+		# Variable cleanup
+		if = {
+			limit = { has_variable = homage_type }
+			remove_variable = homage_type
+		}
+		# Contract
+		if = {
+			limit = { has_variable = pay_homage_contract_type }
+			remove_variable = pay_homage_contract_type
+		}
+		# Liege
+		if = {
+			limit = { has_variable = homage_liege_scope }
+			remove_variable = homage_liege_scope
+		}
+		if = {
+			limit = { has_variable = pay_homage_gold_value }
+			remove_variable = pay_homage_gold_value
+		}
+	}
+}

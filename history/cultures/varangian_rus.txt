@@ -1,6 +1,6 @@
-# Varangian Rus'
+# Varangian Rus', part of heritage_north_germanic
 
-867.1.1 = {
+500.1.1 = {
 	discover_innovation = innovation_motte
 	#
 	discover_innovation = innovation_barracks

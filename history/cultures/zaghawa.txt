@@ -1,4 +1,6 @@
-867.1.1 = {
+# Zaghawa, part of heritage_berber
+
+500.1.1 = {
 	discover_innovation = innovation_casus_belli
 	discover_innovation = innovation_plenary_assemblies
 	discover_innovation = innovation_crop_rotation

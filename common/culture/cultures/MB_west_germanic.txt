@@ -1,6 +1,6 @@
 ﻿############MORE BOOKMARKS########################
 
-anglo_norse = { #Saxons under the Norse
+anglo_norse = { # Saxons under the Norse
 	color = { 242 141 123 }
 	created = 900.1.1
 	parents = { norse anglo_saxon }
@@ -35,7 +35,7 @@ anglo_norse = { #Saxons under the Norse
 	}
 }
 
-northerner = { #Evolution of Anglo-Norse/the northern English dialects like Northumbrian
+northerner = { # Evolution of Anglo-Norse/the northern English dialects like Northumbrian
 	color = { 218 163 71 }
 	created = 1100.1.1
 	parents = { anglo_norse northumbrian }

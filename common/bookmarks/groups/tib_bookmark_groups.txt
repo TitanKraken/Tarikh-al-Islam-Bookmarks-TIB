@@ -1,4 +1,4 @@
-bm_group_tib_default = {
+﻿bm_group_tib_default = {
 	#default_start_date = 867.1.1
 }
 bm_group_tib_almohad = {

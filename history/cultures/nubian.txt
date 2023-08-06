@@ -1,4 +1,6 @@
-867.1.1 = {
+# Nubian, from heritage_east_african
+
+500.1.1 = {
 	discover_innovation = innovation_quilted_armor
 	discover_innovation = innovation_plenary_assemblies
 	discover_innovation = innovation_ledger

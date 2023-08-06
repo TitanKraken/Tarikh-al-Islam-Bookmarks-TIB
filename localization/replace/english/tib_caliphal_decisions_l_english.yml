@@ -22,5 +22,34 @@
  pay_homage_to_caliph_decision:0 "Pledge Bay'ah to the Commander of the Faithful"
  pay_homage_to_caliph_decision_confirm:0 "Pledge Bay'ah"
  pay_homage_to_caliph_decision_desc:0 "I can formally and publicly pledge my Bay'ah (Oath of Allegiance) to our Commander of the Faithful, [ROOT.Char.GetFaith.GetReligiousHead.GetTitledFirstName], strengthening trust and the legitimacy for both of our positions."
+ pay_homage_to_caliph_decision_tooltip:0 "Formally pledge [pay_homage|E] to your [head_of_faith|E]"
  pay_homage_to_caliph_decision_effects:0 "You travel to [THIS.Char.GetFaith.GetReligiousHead.GetTitledFirstName]'s court to pay [pay_homage|E]"
  has_pay_homage_to_caliph_cooldown:0 "Has not paid [pay_homage|E] to [THIS.Char.GetFaith.GetReligiousHead.GetTitledFirstName] within 10 years"
+ # Submission
+ pay_homage_to_caliph_decision_option_submission:0 "Demonstrate Submission\n#low Give nothing#!"
+ pay_homage_to_caliph_submission_desc:0 "[ROOT.Char.GetLiege.GetTitledFirstName] will receive only your oath of [pay_homage|E]"
+ pay_homage_to_caliph_submission_tooltip:0 "$pay_homage_decision_second_tooltip$"
+ # Gold
+ pay_homage_to_caliph_decision_option_gold:0 "...and Bestow Gifts\n#low Give [gold|E]#!"
+ pay_homage_to_caliph_gold_desc:0 "[ROOT.Char.GetLiege.GetTitledFirstName] will receive a gift of [gold|E] from you"
+ pay_homage_to_caliph_gold_tooltip:0 "$pay_homage_decision_second_tooltip$"
+ pay_homage_decision_effects_gold:0 "Your [liege|E] will receive your gift of [gold|E]"
+ pay_homage_to_caliph_gold_tt:0 "#X You do not have enough [gold|E]#!"
+  # Hook
+ pay_homage_to_caliph_decision_option_hook:0 "...and Promise Favor\n#low Give a [hook|E]#!"
+ pay_homage_to_caliph_hook_desc:0 "[ROOT.Char.GetLiege.GetTitledFirstName] will receive a weak [hook|E] on you"
+ pay_homage_to_caliph_hook_tooltip:0 "$pay_homage_decision_second_tooltip$"
+ pay_homage_decision_effects_hook:0 "Your [liege|E] will receive a strong [hook|E] on you"
+ pay_homage_to_caliph_hook_tt:0 "#X Your [liege|E] already has a [hook|E] on you#!"
+
+ pay_homage_to_caliph_no_court_decision:0 "Pledge Bay'ah to the Commander of the Faithful"
+ pay_homage_to_caliph_no_court_decision_confirm:0 "Pledge Bay'ah"
+ pay_homage_to_caliph_no_court_decision_desc:0 "I can formally and publicly pledge my Bay'ah (Oath of Allegiance) to our Commander of the Faithful, [ROOT.Char.GetFaith.GetReligiousHead.GetTitledFirstName], strengthening trust and the legitimacy for both of our positions."
+ pay_homage_to_caliph_no_court_decision_tooltip:0 "Formally pledge [pay_homage|E] to your [head_of_faith|E]"
+ pay_homage_to_caliph_no_court_decision_effects:0 "You travel to [THIS.Char.GetFaith.GetReligiousHead.GetTitledFirstName]'s court to pay [pay_homage|E]"
+
+ DEBUG_I_HAVE_MORE_GOLD_TRIGGER:0 "I am not in debt"
+ distribute_zakat_decision:0 "Distribute the Zakat Funds"
+ distribute_zakat_decision_confirm:0 "Open the Treasury!"
+ distribute_zakat_decision_desc:0 "It is our solemn duty as the [liege|e] of the [realm|e] to collect and finally distribute the Zakat properly. \n\nCurrently we have as much as [GetPlayer.MakeScope.Var('zakat_resource').GetValue|1] [gold|e] in the Bayt al-Mal."
+ 

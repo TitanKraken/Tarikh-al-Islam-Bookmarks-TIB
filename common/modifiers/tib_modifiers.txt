@@ -16,3 +16,7 @@ demote_culture_modifier = {
     county_opinion_add = -40
 	#defender_holding_advantage = 5
 }
+
+zakat_promised_modifier = {
+	icon = compass_positive
+}

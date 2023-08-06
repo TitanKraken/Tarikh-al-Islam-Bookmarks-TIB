@@ -241,7 +241,7 @@
 
 ###c_socotra
 1369 = {	# Socotra/Tamrida aka b_suq-socotra
-	culture = yemeni
+	culture = soqotri
 	religion = nestorian
 	holding = castle_holding
 }

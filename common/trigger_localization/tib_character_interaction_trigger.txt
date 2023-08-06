@@ -1,0 +1,6 @@
+﻿has_caliphal_authority_cooldown = {
+	first_not = CALIPHAL_AUTHORITY_IS_ON_COOLDOWN
+}
+can_declare_grand_jihad = {
+	first_not = CAN_DECLARE_GRAND_JIHAD_CB
+}

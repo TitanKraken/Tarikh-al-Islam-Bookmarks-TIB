@@ -1,0 +1,76 @@
+namespace = tib_pay_zakat_decisions
+
+tib_pay_zakat_decisions.0101 = {
+	hidden = yes
+	immediate = {
+		scope:root = {
+			faith_modifier = {
+                parameter = mandatory_zakat
+                monthly_piety_gain_mult = -0.05
+                same_faith_opinion = -5
+            }
+		}
+	}
+}
+tib_pay_zakat_decisions.0001 = {
+	type = character_event
+    title = tib_pay_zakat_decisions.0001.t
+	desc = tib_pay_zakat_decisions.0001.desc
+	theme = faith
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+    lower_center_portrait = {
+        character = top_liege
+    }
+    lower_right_portrait = {
+        character = faith.religious_head
+    }
+
+    immediate = {
+		save_scope_as = paid_zakat_value
+		set_variable = {
+			name = zakat_value
+			value = gold
+		}
+		change_variable = {
+			name = zakat_value
+            multiply = 0.025 # 2.5% of total wealth
+		}
+	}
+
+    option = {
+		name = tib_pay_zakat_decisions.0001.a
+        add_piety = 150
+        top_liege = {
+            change_variable = {
+                name = zakat_resource
+                add = { 
+                    value = root.gold
+                    multiply = 0.025 # 2.5% of total wealth
+                }
+            }
+        }
+
+		ai_chance = {
+			base = 100
+		}
+	}
+    option = {
+		name = tib_pay_zakat_decisions.0001.b
+        add_piety = 150
+        faith.religious_head = {
+            change_variable = {
+                name = zakat_resource
+                add = { 
+                    value = root.gold
+                    multiply = 0.025 # 2.5% of total wealth
+                }
+            }
+        }
+        ai_chance = {
+			base = 100
+		}
+    }
+}

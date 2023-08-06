@@ -1,5 +1,4 @@
-﻿@pay_homage_to_caliph_cooldown_years = 10
-
+﻿
 # Expanded decisions for the Caliph!
 caliphal_revolution_decision = {
 	picture = "gfx/interface/illustrations/decisions/huan_kecheng1_narrow.dds"
@@ -75,11 +74,12 @@ caliphal_revolution_decision = {
 
 			# Sayyids get a free pass.
 			has_trait = sayyid
+			has_trait = sayyid_quraysh
 			# Being outside of your caliph's diplo range helps.
-			custom_description = {
-				text = appoint_a_righteous_caliph_decision.caliph_not_in_diplo_range
-				NOT = { in_diplomatic_range = faith.religious_head }
-			}
+			#custom_description = {
+			#	text = appoint_a_righteous_caliph_decision.caliph_not_in_diplo_range
+			#	NOT = { in_diplomatic_range = faith.religious_head }
+			#}
 			# Having a higher-than-minimum piety level.
 			piety_level >= very_high_piety_level
 			# And just having a caliph who doesn't live up to the root's faith's ideals.
@@ -211,7 +211,7 @@ caliphal_revolution_decision = {
 
 	cost = {
 		prestige = 1000
-		piety = 4000
+		piety = 2000
 	}
 
 	ai_potential = {
@@ -245,25 +245,25 @@ caliphal_revolution_decision = {
 
 		# If ai_zeal is 20 points higher than ai_greed, becomes 100% chance.
 		ai_value_modifier = {
-			ai_zeal = 5
-			ai_content = -5
+			ai_zeal = 10
+			#ai_content = -5
 		}
 		modifier = { # More likely to get his claim
 			add = 40
 			is_extended_family_of = faith.religious_head
 		}
-		modifier = {	# Having a tolerant faith helps
+		modifier = { # Having a tolerant faith helps
 			add = -25
 			faith = { has_doctrine = doctrine_pluralism_pluralistic }
 		}
-		modifier = {	# Fundamentalists more likely to revolt
+		modifier = { # Fundamentalists more likely to revolt
 			add = 35
 			faith = { has_doctrine = doctrine_pluralism_fundamentalist }
 			faith = {
 				fervor <= medium_fervor_value
 			}
 		}
-		modifier = {	# Prone to schism
+		modifier = { # Prone to schism
 			add = 30
 			faith = {
 				fervor <= minor_fervor_value
@@ -282,7 +282,7 @@ demote_other_culture_development_decision = { # Mawali simulation
 	sort_order = 90
 
 	is_shown = {
-		has_flag = government_is_islamic
+		government_has_flag = government_is_islamic
 		root = faith.religious_head
 	}
 	is_valid = {
@@ -473,7 +473,7 @@ pay_homage_to_caliph_decision = {
 	ai_check_interval = 45
 	picture = "gfx/interface/illustrations/decisions/islamic_court_council_bowing_narrow.dds"
 	major = yes
-	#sort_order = 1
+	sort_order = 70
 
 	cost = {
 		prestige = standard_activity_cost
@@ -497,6 +497,7 @@ pay_homage_to_caliph_decision = {
 		OR = {
 			government_has_flag = government_is_feudal
 			government_has_flag = government_is_clan
+			government_has_flag = government_is_tribal
 			government_has_flag = government_is_islamic
 		}
 		faith = { religion_tag = islam_religion }
@@ -507,17 +508,11 @@ pay_homage_to_caliph_decision = {
 		}
 	}
 
+	cooldown = {
+		years = 10
+	}
+
 	is_valid = {
-		custom_tooltip = {
-			text = "has_pay_homage_to_caliph_cooldown"
-			trigger_if = { # Has not paid homage to this faith.religious_head before
-				limit = {
-					has_variable = pay_homage_to_caliph_cooldown
-					exists = faith.religious_head
-				}
-				NOT = { var:pay_homage_to_caliph_cooldown = faith.religious_head }
-			}
-		}
 	}
 
 	is_valid_showing_failures_only = {
@@ -531,21 +526,19 @@ pay_homage_to_caliph_decision = {
 			}
 			has_spawned_court_events = no # should only be used for human players
 		}
-		trigger_if = { # Has not paid homage to this faith.religious_head before
+		trigger_if = { # Has not paid homage to this faith.religious_head in 10 years prior
 			limit = { 
 				has_variable = pay_homage_to_caliph_cooldown
 				exists = faith.religious_head
 			}
 			custom_tooltip = {
-				text = pay_homage_to_caliph_cooldown_tt
+				text = "has_pay_homage_to_caliph_cooldown"
 				NOT = { var:pay_homage_grace = faith.religious_head }
 			}
 		}
 		trigger_if = {
 			limit = { is_ai = yes }
-			NOT = {
-				faith.religious_head = { has_variable = pay_homage_to_caliph_cooldown }
-			}
+			NOT = { var:pay_homage_to_caliph_cooldown = faith.religious_head }
 		}
 	}
 
@@ -589,10 +582,10 @@ pay_homage_to_caliph_decision = {
 			icon = "gfx/interface/icons/message_feed/hook.dds"
 			ai_chance = { # More likely if family
 				value = 25
-				if = {
-					limit = { is_close_or_extended_family_of = faith.religious_head }
-					add = 25
-				}
+				#if = {
+				#	limit = { is_close_or_extended_family_of = faith.religious_head }
+				#	add = 25
+				#}
 				if = { # Certain AI's really do not want to be indebted
 					limit = {
 						OR = {
@@ -639,6 +632,9 @@ pay_homage_to_caliph_decision = {
 			name = homage_caliph_scope
 			value = faith.religious_head
 		}
+		faith.religious_head = {
+			save_scope_as = the_caliph
+		}
 		custom_tooltip = pay_homage_to_caliph_decision_effects
 		custom_description_no_bullet = { text = pay_homage_gift_warning_effect }
 		if = { # Gift
@@ -662,35 +658,6 @@ pay_homage_to_caliph_decision = {
 			}
 			custom_tooltip = pay_homage_decision_effects_hook
 		}
-		else_if = { # Contract
-			limit = { scope:pay_homage_contract = yes }
-			set_variable = {
-				name = homage_type
-				value = flag:homage_contract
-			}
-			if = {
-				limit = {
-					vassal_contract_obligation_level:feudal_government_levies < vassal_contract_obligation_level:feudal_government_taxes
-					vassal_contract_obligation_level_can_be_increased = feudal_government_levies
-				}
-				custom_tooltip = pay_homage_decision_effects_contract_levies
-			}
-			else_if = {
-				limit = {
-					vassal_contract_obligation_level:feudal_government_taxes < vassal_contract_obligation_level:feudal_government_levies
-					vassal_contract_obligation_level_can_be_increased = feudal_government_taxes
-				}
-				custom_tooltip = pay_homage_decision_effects_contract_gold
-			}
-			else = {
-				if = {
-					limit = { vassal_contract_obligation_level_can_be_increased = feudal_government_taxes }
-					custom_tooltip = pay_homage_decision_effects_contract_gold
-				}
-				else = { custom_tooltip = pay_homage_decision_effects_contract_gold }
-			}
-			hidden_effect = { set_vassal_contract_modification_blocked = yes }
-		}
 		else = { # Submission
 			set_variable = {
 				name = homage_type
@@ -706,15 +673,31 @@ pay_homage_to_caliph_decision = {
 		}
 		save_scope_as = homage_vassal
 		if = {
-			limit = { exists = faith.religious_head } # To stop errors
-			faith.religious_head = { save_scope_as = homage_caliph }
+			limit = { exists = scope:the_caliph } # To stop errors
+			scope:the_caliph = { save_scope_as = homage_liege }
 		}
-		start_travel_plan = {
-			destination = faith.religious_head.capital_province
-			on_start_on_action = pay_homage_start
-			on_travel_planner_cancel_on_action = pay_homage_travel_planner_exit
-			on_arrival_event = pay_homage.9999
-			on_arrival_destinations = all_but_last
+		if = {
+			limit = {
+				scope:homage_liege = {
+					has_royal_court = yes
+				}
+			}
+			start_travel_plan = {
+				destination = faith.religious_head.capital_province
+				on_start_on_action = pay_homage_start
+				on_travel_planner_cancel_on_action = pay_homage_to_caliph_travel_planner_exit
+				on_arrival_event = pay_homage_to_caliph.9999
+				on_arrival_destinations = all_but_last
+			}
+		}
+		else = {
+			start_travel_plan = {
+				destination = faith.religious_head.capital_province
+				on_start_on_action = pay_homage_start
+				on_travel_planner_cancel_on_action = pay_homage_to_caliph_travel_planner_exit
+				on_arrival_event = pay_homage_to_caliph.9996
+				on_arrival_destinations = all_but_last
+			}
 		}
 	}
 	
@@ -723,7 +706,7 @@ pay_homage_to_caliph_decision = {
 	}
 
 	ai_will_do = {
-		base = 0
+		base = 50
 		modifier = {
 			add = 50
 			prestige > standard_activity_cost
@@ -736,12 +719,12 @@ pay_homage_to_caliph_decision = {
 		}
 		modifier = {
 			add = -50
-			has_relation_rival = faith.religious_head
+			has_relation_rival = scope:the_caliph
 		}
 		modifier = {
 			add = -25
 			opinion = {
-				target = faith.religious_head
+				target = scope:the_caliph
 				value < 0
 			}
 		}
@@ -752,6 +735,60 @@ pay_homage_to_caliph_decision = {
 		modifier = { # Barons should be less weighted
 			add = -25
 			primary_title.tier < tier_county
+		}
+	}
+}
+
+# Distribute the Zakat funds
+distribute_zakat_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+	desc = distribute_zakat_decision_desc
+
+	ai_check_interval = 36
+
+	is_shown = {
+		faith = { religion_tag = islam_religion }
+		AND = {
+			highest_held_title_tier >= tier_duchy
+			OR = {
+				is_independent_ruler = yes
+				has_title = faith.religious_head_title
+			}
+		}
+	}
+
+	is_valid = {
+		#var:zakat_resource > 0
+	}
+
+	cooldown = { months = 3 }
+
+	effect = {
+		root.faith.religious_head = { save_scope_as = the_caliph }
+		trigger_event = tib_pay_zakat_decisions.0201
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 50
+		modifier = { # AI's who can give gold are more likely
+			add = 50
+			var:zakat_resource >= minor_gold_value
+			#ai_greed < 50
+			#primary_title.tier > tier_county
+		}
+		modifier = {
+			add = 30
+			ai_greed >= 50
+		}
+		modifier = {
+			add = 50
+			has_trait = just
+			has_trait = zealous
 		}
 	}
 }

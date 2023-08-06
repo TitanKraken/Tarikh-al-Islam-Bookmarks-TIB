@@ -1,4 +1,6 @@
-867.1.1 = {
+# Baranis, part of heritage_berber
+
+500.1.1 = {
 	discover_innovation = innovation_casus_belli
 	discover_innovation = innovation_city_planning
 	discover_innovation = innovation_ledger

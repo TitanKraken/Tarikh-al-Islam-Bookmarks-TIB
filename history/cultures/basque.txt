@@ -1,6 +1,6 @@
-# Basque, of the iberian group
+# Basque, of the heritage_iberian
 
-867.1.1 = {	
+500.1.1 = {	
 	discover_innovation = innovation_catapult
 	discover_innovation = innovation_mustering_grounds
 	discover_innovation = innovation_quilted_armor
@@ -33,4 +33,40 @@
 	discover_innovation = innovation_manorialism
 	discover_innovation = innovation_currency_02
 	discover_innovation = innovation_chronicle_writing	
+}
+
+1100.1.1 = {
+	join_era = culture_era_high_medieval
+	#
+	discover_innovation = innovation_armilary_sphere
+	discover_innovation = innovation_baliffs
+	discover_innovation = innovation_battlements
+	discover_innovation = innovation_burhs
+	discover_innovation = innovation_house_soldiers
+	discover_innovation = innovation_development_02
+	discover_innovation = innovation_chronicle_writing
+}
+1124.1.1 = {
+	discover_innovation = innovation_trebuchet #1124
+}
+1180.1.1 = {
+	#discover_innovation = innovation_divine_right
+	#discover_innovation = innovation_guilds
+	discover_innovation = innovation_heraldry
+	#discover_innovation = innovation_land_grants
+	#discover_innovation = innovation_scutage
+	#discover_innovation = innovation_development_03
+	discover_innovation = innovation_windmills
+	discover_innovation = innovation_advanced_bowmaking #???
+	discover_innovation = innovation_castle_baileys
+	discover_innovation = innovation_hoardings
+	discover_innovation = innovation_knighthood
+	#discover_innovation = innovation_men_at_arms Augustus will unlock it himself
+	discover_innovation = innovation_french_peerage
+	#discover_innovation = innovation_currency_03
+}
+
+1200.1.1 = {
+	join_era = culture_era_late_medieval
+	#
 }

@@ -24,33 +24,30 @@
     }
 	
     is_valid = {
-	#
 		is_landed = yes
-			OR = {
-				culture = culture:west_saxon
-				culture = culture:kentish
-				culture = culture:mercian
-				culture = culture:east_anglian
-				culture = culture:northumbrian
-				#MB
-				culture = culture:east_saxon
-				culture = culture:hwiccians
-			}
+		OR = {
+			culture = culture:west_saxon
+			culture = culture:kentish
+			culture = culture:mercian
+			culture = culture:east_anglian
+			culture = culture:northumbrian
+			culture = culture:east_saxon
+			#culture = culture:hwiccians
+		}
 
-			custom_description = {
-				text = unite_angles_decision_date
-				current_date >= 920.1.1
+		custom_description = {
+			text = unite_angles_decision_date
+			current_date >= 920.1.1
+		}
+		OR = {
+			AND = {
+				highest_held_title_tier >= tier_kingdom
+				completely_controls_region = ce_custom_england
+				OR = {
+					completely_controls = title:d_cornwall
+					completely_controls = title:d_northumberland
 			}
-		#
-			OR = {
-				AND = {
-					highest_held_title_tier >= tier_kingdom
-					completely_controls_region = ce_custom_england
-					OR = {
-						completely_controls = title:d_cornwall
-						completely_controls = title:d_northumberland
-				}
-			}
+		}
 		prestige_level >= high_prestige_level
 	}
 	

@@ -1,0 +1,8 @@
+﻿l_english:
+ caliphal_contender_declare_war.10.t:0 "Caliph Pretender, Declared"
+ caliphal_contender_declare_war.10.desc:0 "Finally, the time has come. The tyranny of the current Caliph has gone too far, and I can no longer stand idly by. The Ummah deserves a ruler who will lead with wisdom and compassion. [THIS.Char.GetFaith.GetReligiousHead.GetTitledFirstName]'s actions have caused unrest and discontent among our people. He claims divine authority, but his deeds betray his true intentions. It is time for a change, a new dawn for the Ummah. With the support of the court imam, he has declared me the rightful Caliph at the grand mosque, and the people are rallying behind me. I must seize this opportunity to liberate our Ummah from the shackles of tyranny. The people yearn for a leader who upholds justice and piety, who brings unity and prosperity to our lands."
+ caliphal_contender_declare_war.10.a:0 "The Ummah shall know their true caliph"
+
+ caliphal_contender_declare_war.1.t:0 "Assembling the Mujahideen"
+ caliphal_contender_declare_war.1.desc:0 "My fellow Mujahideens! The time has come to reclaim what is rightfully ours - a true Caliphate! Our cause is just, and the people have rallied behind us. The Ummah needs a ruler who will safeguard their faith and protect their rights. We shall march to liberate them from the yoke of tyranny!"
+ caliphal_contender_declare_war.1.a:0 "To [THIS.Char.GetFaith.GetReligiousHead.GetCapital.GetName] we march!"
