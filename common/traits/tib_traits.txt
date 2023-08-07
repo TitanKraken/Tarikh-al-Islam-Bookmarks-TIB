@@ -1,6 +1,6 @@
 ﻿# Muslim version of the Blood of the Prophet-trait. Muslim agnatically descended from Muhammed. Female version is localized 'Sayyida'
 sayyid_quraysh = {
-	fame = yes
+	category = fame
 	
 	islam_religion_opinion = 5
 	
@@ -37,7 +37,7 @@ sayyid_quraysh = {
 
 # Fake Sayyids with shady genealogies
 fake_sayyid = {
-	fame = yes
+	category = fame
 	
 	if = {
 		limit = {
@@ -88,7 +88,7 @@ fake_sayyid = {
 }
 
 salaf_al_salih = { # Muslim pious predeccessors
-	fame = yes
+	category = fame
 	monthly_piety = 2
 	
 	islam_religion_opinion = 50

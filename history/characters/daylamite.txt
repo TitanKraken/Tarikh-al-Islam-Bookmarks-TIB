@@ -1346,7 +1346,7 @@
 	trait="ambitious"
 	#trait=sympathy_mazdayasnaism
 	trait=brave
-	#trait="hunter_2"
+	#trait="lifestyle_hunter"
 	trait="gregarious"
 	##trait="siege_leader"
 	898.3.13={

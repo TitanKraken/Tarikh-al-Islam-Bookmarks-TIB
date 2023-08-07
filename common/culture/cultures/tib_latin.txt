@@ -211,7 +211,7 @@ langobard = { # Germanic Ancestor culture
 maltese = { # Based on Sicilian (and Maghrebi)
 	color = { 0.3 0.6 0.3 }
 
-	parents = { sicilian_arabic sicilian }
+	parents = { sicilian_arabian sicilian }
 	created = 1125.1.1
 	
 	ethos = ethos_courtly
@@ -392,7 +392,7 @@ ligurian = { #Based on Italian
 
 # CE
 illyrian = { # Ancestor culture
-	color = asdac_illyrian
+	color = { 200 5 5 } # asdac_illyrian
 
 	ethos = ethos_communal
 	heritage = heritage_byzantine
@@ -429,7 +429,7 @@ african_roman = {
 	traditions = {
 		tradition_zealous_people
 		tradition_isolationist
-		tradition_african_agriculture
+		#tradition_african_agriculture
 	}
 	
 	name_list = name_list_sardinian

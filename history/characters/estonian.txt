@@ -108,7 +108,7 @@
 167734 = {
 	name = "Viryas"
 	dynasty = 9535
-	religion = "osilian_pagan"
+	religion = pagan # "osilian_pagan"
 	culture = "estonian"
 	840.1.1 = {
 		birth = "840.1.1"

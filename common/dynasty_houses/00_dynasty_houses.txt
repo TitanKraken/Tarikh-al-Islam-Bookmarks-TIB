@@ -57,8 +57,10 @@ house_olkhunut = {
 # French
 house_capet = {
 	name = "dynn_Capet"
+	prefix = "dynnp_de" #You rarely see the prefix used but I like the idea of having it there for consistency
 	dynasty = 743 #(Robertine)
-}	
+	motto = dynn_Capet_motto #Needed to avoid a script error with motto's that's in the base game that Capet auto gets in my mod
+}
 
 house_rochechouart = { # Limoges/Toulouse cadets
 	prefix = "dynnp_de"
@@ -99,6 +101,7 @@ house_orleans = { # Geroldonen cadets
 # Scandinavian
 house_knytling = {
 	name = "dynn_Knytling"
+	prefix = "dynnp_af"
 	dynasty = 490 #(af Sigurdr)
 }
 house_af_gorm = {
@@ -150,11 +153,11 @@ house_bas-serra = {
 	dynasty = 8758 #Cervera
 }
 
-house_cappai_de_bas = {
-	prefix = "dynnp_de"
-	name = "dynn_Cappai_de_Bas"
-	dynasty = 0 #Cappai
-}
+#house_cappai_de_bas = {
+#	prefix = "dynnp_de"
+#	name = "dynn_Cappai_de_Bas"
+#	dynasty = 0 #Cappai
+#}
 
 #Somali
 #house_majerteen = {
@@ -190,6 +193,7 @@ house_militello = {
 
 house_sicily-fadrique = {
 	name = "dynn_Fidiricu"
+	prefix = "dynnp_de"
 	dynasty = 100204 #Barcelona
 }
 
@@ -205,10 +209,10 @@ house_squillache = {
 	dynasty = 393 #Empuries
 }
 
-house_ruffo_di_licinardo = {
-	name = "dynn_Ruffo_di_Licinardo"
-	dynasty = 1307 #Ruffo
-}
+#house_ruffo_di_licinardo = {
+#	name = "dynn_Ruffo_di_Licinardo"
+#	dynasty = 1307 #Ruffo
+#}
 
 house_montescaglioso = {
 	prefix = "dynnp_di"
@@ -266,26 +270,25 @@ house_guaimaridi = {
 
 house_lampertidi = {
 	name = "dynn_Lampertingi"
-	dynasty = 7389 # Guideschi
-}
-
-house_lantpertidi = {
-	name = "dynn_Lampertingi"
+	prefix = "dynnp_di"
 	dynasty = 7389 # Guideschi
 }
 
 house_landenolfidi = {
 	name = "dynn_Landenolfidi"
+	prefix = "dynnp_di"
 	dynasty = 7184 # Landolfidi
 }
 
 house_paldolfidi = {
 	name = "dynn_Paldolfidi"
+	prefix = "dynnp_di"
 	dynasty = 7389 # Guideschi
 }
 
 house_widi = {
 	name = "dynn_Widi"
+	prefix = "dynnp_di"
 	dynasty = 7389 # Guideschi
 }
 
@@ -312,16 +315,19 @@ house_adid = {
 
 house_zegbid = {
 	name = "dynn_Zegbid"
+	prefix = "dynnp_banu"
 	dynasty = 101671 #Suleimid
 }
 
 house_debbabid = {
 	name = "dynn_Debbabid"
+	prefix = "dynnp_banu"
 	dynasty = 101671 #Suleimid
 }
 
 house_awfid = {
 	name = "dynn_Awfid"
+	prefix = "dynnp_banu"
 	dynasty = 101671 #Suleimid
 }
 
@@ -369,10 +375,12 @@ house_british_isles_ivaring = {
 
 house_british_isles_crovan = {
 	name = "dynn_Crovan" # (556)
+	prefix = "dynnp_af"
 	dynasty = 490
 }
 
 house_british_isles_llywel = {
+	prefix = "dynnp_af"
 	name = "dynn_Llywel" # (1029097)
 	dynasty = 490
 }

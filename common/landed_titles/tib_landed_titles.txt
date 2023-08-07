@@ -7,7 +7,6 @@
 # Titular Empires
 e_bulgaria = {
 	color = { 113 88 101 }
-	color2 = { 255 255 255 }
 	capital = c_dorostorum # Preslav
 	definite_form = yes
 		
@@ -30,7 +29,6 @@ e_bulgaria = {
 }
 e_egypt = { # Misr
 	color = { 200 255 200 }
-	color2 = { 255 255 255 }
 	capital = c_cairo # Cairo
 	ruler_uses_title_name = no
 	#can_create_on_partition = { always = no }
@@ -38,13 +36,11 @@ e_egypt = { # Misr
 
 e_kangar = {
 	color = { 145 105 55 }
-	color2 = { 255 255 255 }
 	capital = c_ulytau
 	definite_form = yes
 }
 e_avar = {
 	color = { 250 120 90 }
-	color2 = { 255 255 255 }
 	capital = c_visegrad
 	definite_form = yes
 	can_create_on_partition = { always = no }

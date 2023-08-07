@@ -451,11 +451,7 @@ tagelmust = { # Tagelmust Sanhaja - Based on Baranis
 	
 	coa_gfx = { berber_group_coa_gfx }
 	building_gfx = { mena_building_gfx }
-	clothing_gfx = { 
-		trait = iberian_muslim_clothing_gfx
-		requires_dlc_flag = fate_of_iberia
-		fallback = mena_clothing_gfx 
-	}
+	clothing_gfx = { iberian_muslim_clothing_gfx mena_clothing_gfx }
 	unit_gfx = { mena_unit_gfx }
 	
 	ethnicities = {

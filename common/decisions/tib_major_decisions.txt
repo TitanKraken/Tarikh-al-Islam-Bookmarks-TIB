@@ -635,24 +635,7 @@ pay_zakat_decision = {
 	}
 
 	effect = {
-		immediate = {
-			save_scope_as = paid_zakat_value
-			set_variable = {
-				name = zakat_value
-				value = gold
-			}
-			change_variable = {
-				name = zakat_value
-				multiply = 0.025 # 2.5% of total wealth
-			}
-		}
 		trigger_event = tib_pay_zakat_decisions.0001
-		faith_modifier = {
-			parameter = mandatory_zakat
-			monthly_piety_gain_mult = 0.15 # offset the -0.05 and add 0.1
-			same_faith_opinion = 5 # offset the -5
-			zealot_opinion = 10
-		}
 		stress_impact = {
             cynical = minor_stress_impact_gain
 			zealous = minor_stress_impact_loss
@@ -665,6 +648,14 @@ pay_zakat_decision = {
 			years = 1
 		}
 		root.faith.religious_head = { save_scope_as = the_caliph }
+	}
+	modifier = {
+		faith_modifier = {
+			parameter = mandatory_zakat
+			monthly_piety_gain_mult = 0.15 # offset the -0.05 and add 0.1
+			same_faith_opinion = 5 # offset the -5
+			zealot_opinion = 10
+		}
 	}
 
 	ai_potential = {

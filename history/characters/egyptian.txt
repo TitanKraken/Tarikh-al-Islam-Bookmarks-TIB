@@ -374,7 +374,7 @@
 	mother = sayyida_al_aziziyya_001
 	985.1.1 = {
 		birth = "985.1.1"
-		add_nickname = nick_hakim
+		give_nickname = nick_hakim
 	}
 	1003.1.1 = {
 		add_spouse = 1234964

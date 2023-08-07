@@ -13,43 +13,43 @@
 
 
 1000101550 = {
-	name="As-Sadád"
+	name="As-Sadād"
 	culture = yemeni
 
 }
 #originaly in Persian
 1000101909 = {
-	name="Qalhatí"
+	name="Qalhatī"
 	culture = bedouin
 
 }
 1000101552 = {
-	name="al-Mukramí"
+	name="al-Mukramī"
 	culture = bedouin
 
 }
 1000101553 = {
-	name="al-Khafájí"  #Omani imams
+	name="al-Khafājī"  #Omani imams
 	culture = bedouin
 
 }
 1000101556 = {
-	name="'Adí"  #One of branches of Banú Hilál
+	name="'Adī"  #One of branches of Banu Hilāl
 	culture = bedouin
 
 }
 1000101557 = {
-	name="al-Ruháylí"  #descended from al-Ruhayl/Rahil, father of the fifth and last secret Basran imam
+	name="al-Ruhaylī"  #descended from al-Ruhayl/Rahil, father of the fifth and last secret Basran imam
 	culture = bedouin
 
 }
 1000101558 = {
-	name="al-Najáhí"  #Abyssinian Slave-Dynasty
+	name="al-Najāhī"  #Abyssinian Slave-Dynasty
 	culture = yemeni
 
 }
 1000101559 = {
-	name="al-Mahdí"  #Local Tihaman Dynasty
+	name="al-Mahdī"  #Local Tihaman Dynasty
 	culture = yemeni
 
 }
@@ -59,7 +59,7 @@
 
 }
 1000101561 = {
-	name="Dabbáb"  #Another one of the missing dynasties
+	name="Dabbāb"  #Another one of the missing dynasties
 	culture = bedouin
 
 }
@@ -69,42 +69,42 @@
 
 }
 1000101563 = {
-	name="al-Husayní"  #Husaynids of Medina
-	culture = hejazi
+	name="al-Husaynī"  #Husaynids of Medina
+	culture = hijazi
 
 }
 1000101564 = {
-	name="al-Qatádí"  #Last Hasanid branch of Mecca
-	culture = hejazi
+	name="al-Qatādī"  #Last Hasanid branch of Mecca
+	culture = hijazi
 
 }
 1000101565 = {
-	name="al-Háshimí"  #Hawashim, Second Hasanid branch of Mecca
-	culture = hejazi
+	name="al-Hāshimī"  #Hawashim, Second Hasanid branch of Mecca
+	culture = hijazi
 
 }
 1000101566 = {
-	name="al-Músáwí"  #First Hasanid branch of Mecca
-	culture = hejazi
+	name="al-Musawī"  #First Hasanid branch of Mecca
+	culture = hijazi
 
 }
 1000101567 = {
-	name="al-Sulaymání"  #Break-away Hasanid branch that settled in Northern Tihama and Asir, and swore loyalty to Zabid
-	culture = hejazi
+	name="al-Sulaymānī"  #Break-away Hasanid branch that settled in Northern Tihama and Asir, and swore loyalty to Zabid
+	culture = hijazi
 
 }
 1000101568 = {
-	name="al-Ayyashí"  #Placeholder Dynasty of Yahya ibn Ayyash
+	name="al-Ayyashī"  #Placeholder Dynasty of Yahya ibn Ayyash
 	culture = bedouin
 
 }
 1000103490 = {
-	name="Qays"  #Placeholder Dynasty for the Banú Qays
+	name="Qays"  #Placeholder Dynasty for the Banū Qays
 	culture = bedouin
 
 }
 1000103491 = {
-	name="al-Zajjájí"  #Placeholder Dynasty for the Bahraynis who took the Island from the Qarmatians
+	name="al-Zajjājī"  #Placeholder Dynasty for the Bahraynis who took the Island from the Qarmatians
 	culture = bedouin
 
 }
@@ -114,12 +114,12 @@
 
 }
 1000103493 = {
-	name="al-'Umarí"
-	culture = hejazi
+	name="al-'Umarī"
+	culture = hijazi
 
 }
 1000103494 = {
-	name="Jámi'"
+	name="Jāmi'"
 	culture = bedouin
 
 }
@@ -149,7 +149,7 @@
 
 }
 1000103860 = {
-	name="al-Maklatí"
+	name="al-Maklatī"
 	culture = baranis
 
 }
@@ -174,17 +174,17 @@
 
 }
 1000103865 = {
-    name="al-Uqaylí"
+    name="al-Uqaylī"
 	culture = levantine
 
 }
 1000103866 = {
-    name="al-Tamímí"
+    name="al-Tamīmī"
 	culture = bedouin
 
 }
 1000103867 = {
-    name="al-Midlijí"
+    name="al-Midlijī"
 	culture = bedouin
 
 }
@@ -194,47 +194,47 @@
 
 }
 1000103869 = {
-    name="Rabí'a"
+    name="Rabī'a"
 	culture = bedouin
 
 }
 1000103870 = {
-    name="al-Khuzá'í"
+    name="al-Khuzā'ī"
 	culture = bedouin
 
 }
 1000103871 = {
-    name="al-Nizárí" #a Sunni Omani Azd tribe
+    name="al-Nizārī" #a Sunni Omani Azd tribe
 	culture = bedouin
 
 }
 1000103872 = {
-    name="al-Taghridí"
+    name="al-Taghridī"
 	culture = bedouin
 
 }
 1000103873 = {
-    name="al-Hasaní"
+    name="al-Hasanī"
 	culture = egyptian
 
 }
 1000103874 = {
-    name="al-Khatirí"
+    name="al-Khatirī"
 	culture = egyptian
 
 }
 1000103875 = {
-    name="al-Siqillí"
+    name="al-Siqillī"
 	culture = baranis
 
 }
 1000103876 = {
-    name="al-Ustadhí"
+    name="al-Ustadhī"
 	culture = baranis
 
 }
 1000103877 = {
-    name="al-Julandání"
+    name="al-Julandānī"
 	culture = bedouin
 
 }

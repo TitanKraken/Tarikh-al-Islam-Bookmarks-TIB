@@ -6,7 +6,7 @@
 	intrigue = 4
 	stewardship = 5
 	religion = muwalladi
-	culture = andalusian
+	culture = levantine
 	trait = calm
 	trait = sayyid_quraysh
 	trait = education_stewardship_4
@@ -40,7 +40,7 @@
 	intrigue = 5
 	stewardship = 5
 	religion = "muwalladi"
-	culture = "andalusian"
+	culture = "levantine"
 	trait = sayyid_quraysh
 	trait = education_learning_3
 	father = 3200
@@ -2201,7 +2201,7 @@ mardanish_the_founder = {
 		birth = "1026.1.1"
 	}
 	1030.1.1 = {
-		add_nickname = nick_muqtadir_billah
+		give_nickname = nick_muqtadir_billah
 	}
 	1082.1.1 = {
 		death = "1082.1.1"
@@ -2258,16 +2258,21 @@ mardanish_the_founder = {
 }
 
 45002 = {
-	name = "Abd-al-Rahman"
-	dynasty = 101607
-	
-	father = 45001
-
+	name = "Abd-al-Rahman" # Abd al-Rahman ibn Muhammad
+	dynasty = 101607 # Banu Jahwar Dynasty
 	religion = muwalladi
-	culture = andalusian
+	culture = levantine
+	trait = education_stewardship_2
+ 
+	father = 45001 # Emir al-Rasid of Cordoba
 
-	1034.1.1 = {
+	1036.1.1 = {
 		birth = yes
+	}
+	1063.1.1 = {
+		add_pressed_claim = title:d_cordoba
+		add_pressed_claim = title:c_cabra
+		add_pressed_claim = title:c_cordoba
 	}
 	1085.1.1 = {
 		death = yes
@@ -2402,7 +2407,7 @@ mardanish_the_founder = {
 }
 
 224006 = {
-	name="Abu-Ali" #b. Khalas al-Balansi, qadi of Ceuta 
+	name="Abu_Ali" #b. Khalas al-Balansi, qadi of Ceuta 
 	dynasty=12214
 	#martial=7
 	#diplomacy=4
@@ -2646,7 +2651,7 @@ mardanish_the_founder = {
 		}
 	}
 	1065.1.1 = {
-		add_nickname = nick_mamun
+		give_nickname = nick_mamun
 		effect = {
 			set_relation_rival = { reason = rival_historical target = character:3214 } # Muhammad ibn Abbad, 26 year old in 1066, and heir to the Abbadid Emirate
 		}
@@ -2853,7 +2858,7 @@ mardanish_the_founder = {
 		birth = yes
 	}
 	1045.1.1 = {
-		add_nickname = nick_muzaffar
+		give_nickname = nick_muzaffar
 	}
 	1067.1.1 = {
 		death = yes
@@ -2881,7 +2886,7 @@ mardanish_the_founder = {
 		employer = 3900
 	}
 	1067.1.1 = {
-		add_nickname = nick_mansur
+		give_nickname = nick_mansur
 		employer = 0
 	}
 	1079.1.1 = {
@@ -2916,7 +2921,7 @@ mardanish_the_founder = {
  
 	}
 	1079.1.1 = {
-		add_nickname = nick_mutawakkil
+		give_nickname = nick_mutawakkil
 		remove_claim = title:d_badajoz
 		remove_claim = title:c_badajoz
 		remove_claim = title:c_caceres
@@ -2997,7 +3002,7 @@ mardanish_the_founder = {
 		birth = yes
 	}
 	1022.4.8 = {
-		add_nickname = nick_mansur
+		give_nickname = nick_mansur
 	}
 	1045.1.1 = {
 		death = yes
@@ -3043,7 +3048,7 @@ mardanish_the_founder = {
 		birth = yes
 	}
 	1063.1.1 = {
-		add_nickname = nick_mansur
+		give_nickname = nick_mansur
 	}
 	1070.7.27 = {
 		death = yes

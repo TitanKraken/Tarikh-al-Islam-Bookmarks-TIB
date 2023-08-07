@@ -608,7 +608,7 @@ german = {	# Obsolete, perhaps representing the Germanic folk of old
 	
 	ethos = ethos_stoic
 	heritage = heritage_central_germanic
-	language = language_central_german # Extinct language with extinct culture
+	language = language_high_german # language_central_german # Extinct language with extinct culture
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_hereditary_hierarchy

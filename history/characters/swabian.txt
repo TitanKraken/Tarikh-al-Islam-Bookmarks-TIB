@@ -10391,7 +10391,7 @@
 	stewardship = 7
 	religion = "catholic"
 	culture = swabian
-	trait = hunter_1
+	trait = lifestyle_hunter
 	trait = greedy
 	trait = education_martial_1
 	father = 20240

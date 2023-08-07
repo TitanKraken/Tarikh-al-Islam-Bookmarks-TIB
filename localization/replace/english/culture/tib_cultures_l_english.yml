@@ -78,6 +78,9 @@
  circassian_collective_noun:1 "Circassions"
 
  # Central Germanic heritage
+ alsatian:0 "Alsatian"
+ alsatian_prefix:0 "Alsatiano"
+ alsatian_collective_noun:0 "Alsatians"
  brabantian:0 "Brabantian"
  brabantian_prefix:0 "Brabanto"
  brabantian_collective_noun:1 "Brabantians"

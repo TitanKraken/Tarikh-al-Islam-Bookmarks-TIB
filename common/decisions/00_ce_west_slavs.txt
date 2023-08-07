@@ -70,7 +70,7 @@
 						culture = culture:golensizi
 					}
 					title_province = {	
-						geographical_region = ce_custom_poland
+						geographical_region = ghw_region_poland
 					}
 				}
 				add_to_list = polish_counties
@@ -90,7 +90,7 @@
 							culture = culture:golensizi
 						}
 						title_province = {	
-							geographical_region = ce_custom_poland
+							geographical_region = ghw_region_poland
 						}
 					}
 					add_county_modifier = {
@@ -116,7 +116,7 @@
 						culture = culture:golensizi
 					}
 					capital_province = {
-						geographical_region = ce_custom_poland
+						geographical_region = ghw_region_poland
 					}
 				}
 				set_culture = culture:polish

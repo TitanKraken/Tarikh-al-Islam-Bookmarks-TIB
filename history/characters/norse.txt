@@ -1774,7 +1774,7 @@
 	religion = "catholic"
 	culture = norse
 	trait = education_intrigue_2
-	trait = hunter_1
+	trait = lifestyle_hunter
 	father = 101510 #Knud The Great
 	mother = 135 #Ældgyth
 	1015.1.1 = {
@@ -2723,7 +2723,7 @@
 	trait = chaste
 	trait = arrogant
 	trait = cynical
-	trait = hunter_1
+	trait = lifestyle_hunter
 	trait = education_martial_2
 	father = 183900 #Eindride av Gimse
 	980.1.1 = {
@@ -2968,7 +2968,7 @@
 	trait = calm
 	trait = brave
 	trait = ambitious
-	trait = hunter_1
+	trait = lifestyle_hunter
 	trait = education_martial_3
 	sexuality = heterosexual
 	father = 168323
@@ -3582,7 +3582,7 @@
 	trait = brave
 	trait = impatient
 	trait = honest
-	trait = hunter_1
+	trait = lifestyle_hunter
 	trait = education_diplomacy_3
 	trait = viking
 	father = 163109 #Ragnarr Lodbrok
@@ -3654,7 +3654,7 @@
 	}
 	800.1.1 = {
 		trait = wrathful
-		trait = hunter_1
+		trait = lifestyle_hunter
 		trait = strong
 		trait = brave
 		trait = viking
@@ -3734,7 +3734,7 @@
 	intrigue = 5
 	learning = 3
 	trait = patient
-	trait = hunter_1
+	trait = lifestyle_hunter
 	trait = gregarious
 	trait = viking
 	trait = zealous
@@ -4001,7 +4001,7 @@
 	intrigue = 5
 	learning = 3
 	trait = ambitious
-	trait = hunter_1
+	trait = lifestyle_hunter
 	trait = wrathful
 	trait = callous
 	trait = viking
@@ -4135,7 +4135,7 @@
 	diplomacy = 5
 	intrigue = 4
 	learning = 2
-	trait = hunter_1
+	trait = lifestyle_hunter
 	trait = brave
 	trait = viking
 	trait = education_martial_2
@@ -4304,7 +4304,7 @@
 	intrigue = 4
 	learning = 3
 	trait = wrathful
-	trait = hunter_1
+	trait = lifestyle_hunter
 	trait = arrogant
 	trait = honest
 	trait = education_martial_3

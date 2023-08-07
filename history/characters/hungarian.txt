@@ -10629,7 +10629,7 @@ Kezi1 = {
 	religion = "magyar_pagan"
 	culture = "mogyer"
 	trait = "content" # Did not take Koppany's side against István despite being both a pagan (allegedly, could've also been Jewish) and a powerful lord
-    father = 1233292
+    #father = 1233292
 	956.1.1 = {
 		birth = yes
 	}

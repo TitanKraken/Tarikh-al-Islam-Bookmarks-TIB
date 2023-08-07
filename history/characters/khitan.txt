@@ -229,7 +229,7 @@
 	father=194326
 	trait=drunkard
 	trait=lustful
-	trait=reveler_2
+	trait= lifestyle_reveler
 	931.9.19 = {
 		birth = yes
 	}
@@ -580,15 +580,6 @@
 	culture="khitan"
 	father=93258
 	1201.1.1 = { birth="1201.1.1" }
-	1241.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:93260
-		SUZERAIN = character:478011
-			}
-		}
-	}	
 	1252.1.1 = { death="1252.1.1" }
 }
 93261 = {
@@ -598,15 +589,6 @@
 	culture="khitan"
 	father=93898
 	1220.1.1 = { birth="1220.1.1" }
-	1258.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:93261
-		SUZERAIN = character:478011
-			}
-		}
-	}	
 	1279.1.1 = { death="1279.1.1" }
 }
 93262 = {

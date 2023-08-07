@@ -639,26 +639,6 @@
 	}
 }
 
-20769 = {
-	name = "Mes_ud"
-	#placeholder
-	dynasty = 577
-	martial = 7
-	diplomacy = 6
-	intrigue = 7
-	stewardship = 8
-	religion = "ismaili"
-	culture = levantine
-	trait = cynical
-	trait = education_learning_2
-	1039.1.1 = {
-		birth = "1039.1.1"
-	}
-	1089.1.1 = {
-		death = "1089.1.1"
-	}
-}
-
 20770 = {
 	name = "Ishaq"
 	#placeholder
@@ -5544,8 +5524,10 @@
 		birth = "1150.1.1"
 	}
 	1212.1.1 = {
-		death_type = death_execution # Failed his Banu Ghaniya ally, so the emir Yahya executed him
-		killer = 32977
+		death = {
+			death_reason = death_execution # Failed his Banu Ghaniya ally, so the emir Yahya executed him
+			killer = 32977
+		}
 	}
 }
 

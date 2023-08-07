@@ -1104,9 +1104,9 @@
 	1320.1.2 = {
 		birth = "1320.1.2"
 	}
-	1336.1.1 = {
-		add_spouse = 454521
-	}
+	#1336.1.1 = {
+	#	add_spouse = 454521
+	#}
 	1346.8.26 = {
 		death = "1346.8.26"
 	}
@@ -1710,9 +1710,9 @@ JohnMontfort = { #Missing character
 	1243.1.1 = {
 		birth = "1243.1.1"
 	}
-	1270.2.1 = {
-	    add_spouse=1061393
-	}
+	#1270.2.1 = {
+	#    add_spouse=1061393
+	#}
 	1292.1.1 = {
 		death = { death_reason=death_dungeon } # died in captivity
 	}
@@ -8662,7 +8662,7 @@ Cornouaille2 = {
 	culture = french
 	trait = chaste
 	trait = education_martial_2
-	father = 1167098
+	#father = 1167098
 	1148.1.1 = {
 		birth = "1148.1.1"
 	}
@@ -15978,9 +15978,9 @@ lothaire_the_lame = {
 			add_character_flag = has_scripted_appearance
 		}
 	}
-	1229.1.31 = {
-		add_spouse = 455407
-	}
+	#1229.1.31 = {
+	#	add_spouse = 455407
+	#}
 	1285.1.7 = {
 		death = "1285.1.7"
 	}
@@ -17644,7 +17644,6 @@ lothaire_the_lame = {
 		birth = "1290.1.2"
 	}
 	1315.8.14 = {
-		death = "1315.8.14"
 		death = {
 			death_reason = death_dungeon
 			killer = 455836
@@ -18458,7 +18457,6 @@ lothaire_the_lame = {
 		birth = "1285.1.2"
 	}
 	1330.1.21 = {
-		death = "1330.1.21"
 		death = {
 			death_reason = death_poison
 			killer = 455515
@@ -19565,7 +19563,6 @@ lothaire_the_lame = {
 		add_spouse = 183500 # Clementia of Hungary
 	}
 	1316.6.5 = {
-		death = "1316.6.5"
 		death = {
 			death_reason = death_poison
 			killer = 91147
@@ -22169,7 +22166,7 @@ louis_son_of_roberto = {
 	1085.1.1 = {
 		birth = "1085.1.1"
 	}
-	1090.1.1 = {
+	1100.1.1 = {
 		add_spouse = 91127 #Éléonore de Blois
 	}
 	1142.1.1 = {
@@ -22944,7 +22941,6 @@ louis_son_of_roberto = {
 		give_nickname = nick_the_posthumous
 	}
 	1316.11.19 = {
-		death = "1316.11.19"
 		death = {
 			death_reason = death_murder
 			killer = 91147
@@ -26076,7 +26072,7 @@ louis_son_of_roberto = {
 	1249.1.1 = {
 		birth = "1249.1.1"
 	}
-	1269.1.1 = {
+	1275.1.1 = {
 		add_spouse = 462098
 	}
 	1322.8.9 = {

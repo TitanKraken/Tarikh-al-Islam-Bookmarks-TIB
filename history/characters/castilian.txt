@@ -13067,8 +13067,8 @@
 	}
 	1126.3.8 = {
 		effect = {
-set_realm_capital = title:c_toledo
-}
+			set_realm_capital = title:c_toledo
+		}
 	}
 	1133.1.1 = {
 		add_spouse = 210511
@@ -13628,9 +13628,9 @@ set_realm_capital = title:c_toledo
 		birth = "1080.10.1"
 	}
 	1109.6.30 = {
-	effect = {
-set_realm_capital = title:c_toledo
-}
+		effect = {
+			set_realm_capital = title:c_toledo
+		}
 	}
 	1126.3.8 = {
 	give_nickname = nick_the_reckless
@@ -15265,9 +15265,9 @@ set_realm_capital = title:c_toledo
 	1263.1.1 = {
 		birth = "1263.1.1"
 	}
-	1296.1.1 = {
-		add_spouse = 72755
-	}
+	#1296.1.1 = {
+	#	add_spouse = 72755
+	#}
 	1314.1.1 = {
 		death = "1314.1.1"
 	}

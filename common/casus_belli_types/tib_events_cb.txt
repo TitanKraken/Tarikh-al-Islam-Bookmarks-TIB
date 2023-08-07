@@ -25,8 +25,8 @@
 	}
 
 	allowed_for_character = {
-		exists = title_holder:d_masmudi
-		this = title_holder:d_masmudi
+		exists = title:d_masmudi.holder
+		this = title:d_masmudi.holder
 	}
 
 	allowed_against_character = {
@@ -916,13 +916,6 @@ grand_jihad_cb = {
 		first_valid = {
 			triggered_desc = {
 				trigger = {
-					NOT = { scope:claimant = scope:attacker } 
-					scope:claimant = { is_alive = no }
-				}
-				desc = msg_claim_war_invalidated_claimant_unavailable_dead_message
-			}
-			triggered_desc = {
-				trigger = {
 					scope:claimant = {
 						NOR = { 
 							this = scope:attacker 
@@ -1241,7 +1234,6 @@ grand_jihad_cb = {
 			titles = target_titles
 			attacker = scope:attacker
 			defender = scope:defender
-			claimant = scope:claimant
 			victory = no
 		}
 

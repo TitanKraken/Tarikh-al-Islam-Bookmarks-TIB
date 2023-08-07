@@ -320,7 +320,7 @@
 	culture = gothic
 	religion = orthodox
 	holding = castle_holding
-	de_jure_liege = k_pontus
+	#de_jure_liege = k_pontus
 	867.1.1 = {
 		buildings = {
 			common_tradeport_01

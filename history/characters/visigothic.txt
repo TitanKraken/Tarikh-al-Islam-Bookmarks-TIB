@@ -479,7 +479,7 @@
 	intrigue = 5
 	stewardship = 7
 	trait = arrogant
-	trait = hunter_1
+	trait = lifestyle_hunter
 	trait = education_stewardship_2
 
 	father = 70019 # King Alfonso III of Asturias
@@ -653,7 +653,7 @@
 	intrigue = 3
 	stewardship = 5
 	trait = greedy
-	trait = hunter_1
+	trait = lifestyle_hunter
 	trait = education_martial_1
 
 	father = 70000 # King Pelayo I of Asturias
@@ -1585,61 +1585,6 @@
 	}
 }
 
-73851 = {
-	name = "Aid" # A'id ibn Kaysan, Sheik of Tarragona (860-892)
-	dynasty = 12289 # Banu A'id Dynasty
-	religion = ashari
-	culture = levantine
-	trait = education_martial_1
-
-	839.1.1 = {
-		birth = yes
-	}
-	862.1.1 = {
-		add_spouse = 73886 # Sholah
-	}
-	892.1.1 = {
-		death = yes
-	}
-}
-
-73852 = {
-	name = "Yahya" # Yahya ibn A'id, Sheik of Tarragona (892-898)
-	dynasty = 12289 # Banu A'id Dynasty
-	religion = ashari
-	culture = levantine
-
-	father = 73851 # Sheik A'id ibn Kaysan of Tarragona
-	mother = 73886 # Sheikah Sholah
-
-	865.1.1 = {
-		birth = yes
-	}
-	881.1.1 = {
-		trait = education_stewardship_1
-	}
-	898.1.1 = {
-		death = yes
-	}
-}
-
-73853 = {
-	name = "Malik" # Malik ibn Yahya, Sheik of Tarragona (898-930)
-	dynasty = 12289 # Banu A'id Dynasty
-	religion = ashari
-	culture = levantine
-	trait = education_martial_1
-
-	father = 73852 # Sheik Yahya ibn A'id of Tarragona
-
-	880.1.1 = {
-		birth = yes
-	}
-	930.1.1 = {
-		death = yes
-	}
-}
-
 73854 = { #previously in visigothic
 	name = "Mendo"
 	dynasty = 75 # Menéndez Dynasty
@@ -2137,46 +2082,6 @@
 	}
 }
 
-73899 = {
-	name = "Walid" # Walid ibn Marwan, Sheik of Alicante (887-927)
-	dynasty_house = house_abu_yamra # House Banu Abu Yamra
-	religion = ashari
-	culture = levantine
-
-	father = 73900 # Sheik Marwan ibn Abd al-Malik of Alicante
-	mother = 73907 # Sheika Reshawna bint Abd al-Yabbar
-
-	860.1.1 = {
-		birth = yes
-	}
-	876.1.1 = {
-		trait = education_learning_2
-	}
-	927.1.1 = {
-		death = yes
-	}
-}
-
-73900 = {
-	name = "Marwan" # Marwan ibn Abd al-Malik, Sheik of Alicante (858-887)
-	dynasty_house = house_abu_yamra # House Banu Abu Yamra
-	religion = ashari
-	culture = levantine
-	trait = education_learning_2
-
-	father = levantine0105 # Abd al-Malik bin Muhammad Abu Yamra
-
-	840.1.1 = {
-		birth = yes
-	}
-	858.1.1 = {
-		add_spouse = 73907 # Reshawna bint Abd al-Yabbar
-	}
-	887.1.1 = {
-		death = yes
-	}
-}
-
 73901 = {
 	name = "Theodemiro" # Conde Teodomiro, Duke of Murcia (695-743) & Count of Alcaraz, Almeria, Alicante & Murcia (695-743)
 	dynasty_house = house_tudmir # House of Teodomiro
@@ -2208,78 +2113,6 @@
 		birth = yes
 	}
 	782.1.1 = {
-		death = yes
-	}
-}
-
-73908 = {
-	name = "al-Gazi" # al-Gazi ibn Qays
-	dynasty = 12296 # Banu Qays Dynasty
-	religion = ashari
-	culture = levantine
-	trait = education_stewardship_2
-
-	748.1.1 = {
-		birth = yes
-	}
-	814.1.1 = {
-		death = yes
-	}
-}
-
-73909 = {
-	name = "Abdallah" # Abdallah ibn al-Gazi
-	dynasty = 12296 # Banu Qays Dynasty
-	religion = ashari
-	culture = levantine
-	trait = education_stewardship_1
-
-	father = 73908 # al-Gazi ibn Qays
-
-	782.1.1 = {
-		birth = yes
-	}
-	845.1.1 = {
-		death = yes
-	}
-}
-
-73910 = {
-	name = "Muhammad" # Muhammad ibn Abdallah
-	dynasty = 12296 # Banu Qays Dynasty
-	religion = ashari
-	culture = levantine
-	trait = education_diplomacy_2
-
-	father = 73909 # Abdallah ibn al-Gazi
-
-	817.1.1 = {
-		birth = yes
-	}
-	852.9.22 = {
-		employer = 73683 # Sultan Muhammad I of Andalusia
-	}
-	909.1.1 = {
-		death = yes
-	}
-}
-
-73911 = {
-	name = "Abdallah" # Abdallah ibn Muhammad
-	dynasty = 12296 # Banu Qays Dynasty
-	religion = ashari
-	culture = levantine
-	trait = education_diplomacy_1
-
-	father = 73910 # Muhammad ibn Abdallah
-
-	849.1.1 = {
-		birth = yes
-	}
-	852.9.22 = {
-		employer = 73683 # Sultan Muhammad I of Andalusia
-	}
-	920.1.1 = {
 		death = yes
 	}
 }
@@ -2356,57 +2189,6 @@
 		birth = yes
 	}
 	910.1.1 = {
-		death = yes
-	}
-}
-
-73916 = {
-	name = "Muhammad" # Muhammad ibn Walid, Sheik of Alicante (927-943)
-	dynasty_house = house_abu_yamra # House Banu Abu Yamra
-	religion = ashari
-	culture = levantine
-	trait = education_learning_2
-
-	father = 73899 # Sheik Walid ibn Marwan of Alicante
-
-	889.1.1 = {
-		birth = yes
-	}
-	943.1.1 = {
-		death = yes
-	}
-}
-
-73917 = {
-	name = "Walid" # Walid ibn Muhammad, Sheik of Alicante (943-980)
-	dynasty_house = house_abu_yamra # House Banu Abu Yamra
-	religion = muwalladi
-	culture = levantine
-	trait = education_learning_2
-
-	father = 73916 # Sheik Muhammad ibn Walid of Alicante
-
-	915.1.1 = {
-		birth = yes
-	}
-	980.1.1 = {
-		death = yes
-	}
-}
-
-73918 = {
-	name = "Abd-al-Malik" # Abd al-Malik ibn Walid, Sheik of Alicante (980-1006)
-	dynasty_house = house_abu_yamra # House Banu Abu Yamra
-	religion = muwalladi
-	culture = levantine
-	trait = education_learning_2
-
-	father = 73917 # Sheik Walid ibn Muhammad of Alicante
-
-	941.1.1 = {
-		birth = yes
-	}
-	1006.1.1 = {
 		death = yes
 	}
 }
@@ -3044,82 +2826,6 @@
 		trait = education_stewardship_3
 	}
 	934.1.1 = {
-		death = yes
-	}
-}
-
-73976 = {
-	name = "Abdallah" # Abdallah ibn Ubba
-	dynasty = 12311 # Banu Ubba Dynasty
-	religion = ashari
-	culture = levantine
-	trait = education_stewardship_2
-
-	831.1.1 = {
-		birth = yes
-	}
-	852.9.22 = {
-		employer = 73683 # Sultan Muhammad I of Andalusia
-	}
-	855.1.1 = {
-		add_spouse = 73977 # Aiza
-	}
-	894.1.1 = {
-		death = yes
-	}
-}
-
-73977 = {
-	name = "Aiza" # Aiza, fictional wife of Abdallah ibn Ubba (73976)
-	female = yes
-	religion = ashari
-	culture = levantine
-	trait = education_diplomacy_1
-
-	835.1.1 = {
-		birth = yes
-	}
-	902.1.1 = {
-		death = yes
-	}
-}
-
-73978 = {
-	name = "Muhammad" # Muhammad ibn Abdallah
-	dynasty = 12311 # Banu Ubba Dynasty
-	religion = ashari
-	culture = levantine
-
-	father = 73976 # Abdallah ibn Ubba
-	mother = 73977 # Aiza
-
-	856.1.1 = {
-		birth = yes
-	}
-	871.1.1 = {
-		trait = education_martial_1
-	}
-	920.1.1 = {
-		death = yes
-	}
-}
-
-73979 = {
-	name = "Selim" # Selim ibn Abdallah
-	dynasty = 12311 # Banu Ubba Dynasty
-	religion = ashari
-	culture = levantine
-
-	father = 73976 # Abdallh ibn Ubba
-	mother = 73977 # Aiza
-
-	858.1.1 = {
-		birth = yes
-	}
-	873.1.1 = {
-		trait = education_stewardship_1
-	}
-	922.1.1 = {
 		death = yes
 	}
 }

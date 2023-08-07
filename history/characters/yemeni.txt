@@ -640,7 +640,7 @@
 	}
 	1018.1.1 = {
 		death = {
-			death_reason = death_execution_immurement
+			death_reason = death_execution
 			killer = 1500189 # Marjan
 		}
 	}

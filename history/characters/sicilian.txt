@@ -3539,7 +3539,7 @@ set_realm_capital = title:c_palermo
 	stewardship = 5
 	religion = "catholic"
 	culture = "sicilian"
-	trait = reveler_1
+	trait = lifestyle_reveler
 	trait = education_intrigue_1
 
 	father = 70991

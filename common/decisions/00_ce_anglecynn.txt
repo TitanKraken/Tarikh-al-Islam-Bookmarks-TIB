@@ -42,10 +42,11 @@
 		OR = {
 			AND = {
 				highest_held_title_tier >= tier_kingdom
-				completely_controls_region = ce_custom_england
+				completely_controls_region = custom_england
 				OR = {
 					completely_controls = title:d_cornwall
 					completely_controls = title:d_northumberland
+				}
 			}
 		}
 		prestige_level >= high_prestige_level

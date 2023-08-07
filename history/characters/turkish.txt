@@ -918,7 +918,7 @@
 		birth = "1091.1.1"
 	}
 	1114.1.1 = {
-		add_trait = "reveler_2"
+		add_trait = "lifestyle_reveler"
 	}
 	1144.1.1={
 	effect = {

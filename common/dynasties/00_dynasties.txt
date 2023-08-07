@@ -114,11 +114,11 @@
 	name = "dynn_EntenC_a"
 	culture = "catalan"
 }
-75 = {
-	prefix = "dynnp_de"
-	name = "dynn_Coimbra"
-	culture = "portuguese"
-}
+#75 = {
+#	prefix = "dynnp_de"
+#	name = "dynn_Coimbra"
+#	culture = "portuguese"
+#}
 77 = {
 	prefix = "dynnp_de"
 	name = "dynn_la_Cerda"
@@ -459,11 +459,11 @@
 	name = "dynn_Deza"
 	culture = "castilian"
 }
-279 = {
-	prefix = "dynnp_de"
-	name = "dynn_Castro"
-	culture = "castilian"
-}
+#279 = {
+#	prefix = "dynnp_de"
+#	name = "dynn_Castro"
+#	culture = "castilian"
+#
 280 = {
 	prefix = "dynnp_de"
 	name = "dynn_Narbonne"
@@ -1693,10 +1693,10 @@ danebeaumont = {
 	name = "dynn_Hafsid"
 	culture = "maghrebi"
 }
-7277 = {
-	name = "dynn_Zayanid"
-	culture = "maghrebi"
-}
+#7277 = {
+#	name = "dynn_Zayanid"
+#	culture = "maghrebi"
+#}
 7279 = {
 	name = "dynn_Hakamid"
 	culture = "andalusian"
@@ -1982,11 +1982,11 @@ danebeaumont = {
 	name = "dynn_Cisneros"
 	culture = "castilian"
 }
-8615 = {
-	prefix = "dynnp_de"
-	name = "dynn_Viguera"
-	culture = "basque"
-}
+#8615 = {
+#	prefix = "dynnp_de"
+#	name = "dynn_Viguera"
+#	culture = "basque"
+#}
 8630 = {
 	prefix = "dynnp_de"
 	name = "dynn_Manzanedo"
@@ -2265,11 +2265,11 @@ danebeaumont = {
 	name = "dynn_Toro"
 	culture = "castilian"
 }
-8747 = {
-	prefix = "dynnp_de"
-	name = "dynn_Segovia"
-	culture = "castilian"
-}
+#8747 = {
+#	prefix = "dynnp_de"
+#	name = "dynn_Segovia"
+#	culture = "castilian"
+#}
 8748 = {
 	prefix = "dynnp_de"
 	name = "dynn_Biedma"
@@ -2290,11 +2290,11 @@ danebeaumont = {
 	name = "dynn_CastellbO_"
 	culture = "catalan"
 }
-8758 = {
-	prefix = "dynnp_de"
-	name = "dynn_Cervera"
-	culture = "catalan"
-}
+#8758 = {
+#	prefix = "dynnp_de"
+#	name = "dynn_Cervera"
+#	culture = "catalan"
+#}
 8759 = {
 	prefix = "dynnp_de"
 	name = "dynn_Torroja"
@@ -23234,23 +23234,23 @@ blacksheep = {
 }
 1062128 = {
 	name = "Prodanelli"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1062085 = {
 	name = "Babalio"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1062086 = {
 	name = "Benessa"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1062087 = {
 	name = "Bucignolo"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1062088 = {
 	name = "Bonda"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 
 LiangHan = {
@@ -23277,7 +23277,7 @@ LiangHan = {
 
 1000035251 = {
 name="dynn_Collalto"
-culture = venetian_ce
+culture = venetian
 prefix = "dynnp_di"
 }
 

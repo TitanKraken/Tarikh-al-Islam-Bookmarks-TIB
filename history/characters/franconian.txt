@@ -3464,9 +3464,9 @@
 		birth = "1229.1.1"
 	}
 	1267.6.4 = {
-	effect = {
-set_realm_capital = title:c_nedersticht
-}
+		effect = {
+			set_realm_capital = title:c_nedersticht
+		}
 	}
 	1309.7.13 = {
 		death = "1309.7.13"
@@ -4695,8 +4695,8 @@ set_realm_capital = title:c_nedersticht
 	}
 	1225.1.1 = {
 		effect = {
-set_realm_capital = title:c_malbork
-}
+			set_realm_capital = title:c_malbork
+		}
 	}
 	1249.7.15 = {
 		death = "1249.7.15"
@@ -4715,8 +4715,8 @@ set_realm_capital = title:c_malbork
 	}
 	1265.1.1 = {
 		effect = {
-set_realm_capital = title:c_malbork
-}
+			set_realm_capital = title:c_malbork
+		}
 	}
 	1309.11.5 = {
 		death = "1309.11.5"
@@ -4995,8 +4995,8 @@ set_realm_capital = title:c_malbork
 	}
 	1225.1.1 = {
 		effect = {
-set_realm_capital = title:c_malbork
-}
+			set_realm_capital = title:c_malbork
+		}
 	}
 	1252.5.4 = {
 		death = "1252.5.4"
@@ -5014,8 +5014,8 @@ set_realm_capital = title:c_malbork
 	}
 	1225.1.1 = {
 		effect = {
-set_realm_capital = title:c_malbork
-}
+			set_realm_capital = title:c_malbork
+		}
 	}
 	1267.11.6 = {
 		death = "1267.11.6"
@@ -5053,8 +5053,8 @@ set_realm_capital = title:c_malbork
 	}
 	1229.1.1 = {
 		effect = {
-set_realm_capital = title:c_malbork
-}
+			set_realm_capital = title:c_malbork
+		}
 	}
 	1273.7.8 = {
 		death = "1273.7.8"
@@ -5072,8 +5072,8 @@ set_realm_capital = title:c_malbork
 	}	
 	1225.1.1 = {
 		effect = {
-set_realm_capital = title:c_malbork
-}
+			set_realm_capital = title:c_malbork
+		}
 	}
 	1282.8.19 = {
 		death = "1282.8.19"
@@ -5091,8 +5091,8 @@ set_realm_capital = title:c_malbork
 	}
 	1245.1.1 = {
 		effect = {
-set_realm_capital = title:c_malbork
-}
+			set_realm_capital = title:c_malbork
+		}
 	}
 	1310.1.1 = {
 		death = "1310.1.1"
@@ -5110,8 +5110,8 @@ set_realm_capital = title:c_malbork
 	}
 	1229.1.1 = {
 		effect = {
-set_realm_capital = title:c_malbork
-}
+			set_realm_capital = title:c_malbork
+		}
 	}
 	1296.7.4 = {
 		death = "1296.7.4"
@@ -5128,9 +5128,9 @@ set_realm_capital = title:c_malbork
 		birth = "1266.1.1"
 	}
 	1266.1.1 = {
-	effect = {
-set_realm_capital = title:c_malbork
-}
+		effect = {
+			set_realm_capital = title:c_malbork
+		}
 	}
 	1311.5.3 = {
 		death = "1311.5.3"
@@ -5148,8 +5148,8 @@ set_realm_capital = title:c_malbork
 	}
 	1265.1.1 = {
 		effect = {
-set_realm_capital = title:c_malbork
-}
+			set_realm_capital = title:c_malbork
+		}
 	}
 	1324.2.11 = {
 		death = "1324.2.11"
@@ -5167,8 +5167,8 @@ set_realm_capital = title:c_malbork
 	}
 	1280.1.1 = {
 		effect = {
-set_realm_capital = title:c_malbork
-}
+			set_realm_capital = title:c_malbork
+		}
 	}
 	1330.11.18 = {
 		death = "1330.11.18"
@@ -6071,8 +6071,8 @@ set_realm_capital = title:c_malbork
 	}
 	1239.3.20 = {
 		effect = {
-set_realm_capital = title:c_malbork
-}
+			set_realm_capital = title:c_malbork
+		}
 	}
 	1260.7.13 = {
 		death = "1260.7.13"
@@ -15893,8 +15893,8 @@ set_realm_capital = title:c_malbork
 	1250.1.1 = {
 		
 		effect = {
-set_realm_capital = title:c_nedersticht
-}
+			set_realm_capital = title:c_nedersticht
+		}
 	}
 	1267.6.4 = {
 		death = "1267.6.4"
@@ -15954,8 +15954,8 @@ set_realm_capital = title:c_nedersticht
 	}
 	1150.11.12 = {
 		effect = {
-set_realm_capital = title:c_nedersticht
-}
+			set_realm_capital = title:c_nedersticht
+		}
 	}
 	1156.1.31 = {
 		death = "1156.1.31"
@@ -16119,14 +16119,14 @@ set_realm_capital = title:c_nedersticht
 	1211.1.1 = {
 	
 		effect = {
-set_realm_capital = title:c_szekelyfold
-}
+			set_realm_capital = title:c_nedersticht
+		}
 	}
 	1225.1.1 = {
 		
 		effect = {
-set_realm_capital = title:c_malbork
-}
+			set_realm_capital = title:c_nedersticht
+		}
 	}
 	1239.3.20 = {
 		death = "1239.3.20"
@@ -16401,8 +16401,8 @@ set_realm_capital = title:c_malbork
 	1209.1.1 = {
 		
 		effect = {
-set_realm_capital = title:c_livs
-}
+			set_realm_capital = title:c_livs
+		}
 	}
 	1236.9.22 = {
 		death = "1236.9.22"
@@ -16456,8 +16456,8 @@ set_realm_capital = title:c_livs
 	}
 	1297.1.1 = {
 		effect = {
-set_realm_capital = title:c_malbork
-}
+			set_realm_capital = title:c_malbork
+		}
 	}
 	1341.10.1 = {
 		death = "1341.10.1"
@@ -25880,7 +25880,7 @@ set_realm_capital = title:c_malbork
 	}
 	
 	1208.1.1 = {
-	    add_pressed_claim = title:c_schwerin
+	    #add_pressed_claim = title:c_schwerin
 		employer=31795  
 	}	
 	1227.7.22 = {

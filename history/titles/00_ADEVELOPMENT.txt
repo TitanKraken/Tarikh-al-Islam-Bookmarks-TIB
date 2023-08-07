@@ -8232,16 +8232,6 @@
 	1310.1.1 = { change_development_level = 18 }
 	}
 
-	c_theodosia = {
-	867.1.1 = { change_development_level = 7 }
-	1066.1.1 = { change_development_level = 11 }
-	1124.1.1 = { change_development_level = 14 }
-	1166.1.1 = { change_development_level = 18 }
-	1204.1.1 = { change_development_level = 23 }
-	1241.1.1 = { change_development_level = 27 }
-	1310.1.1 = { change_development_level = 33 }
-	}
-
 	c_kerch = {
 	867.1.1 = { change_development_level = 7 }
 	1066.1.1 = { change_development_level = 11 }
@@ -8275,12 +8265,6 @@
 	##-End
 
 	##Steppe - Mongolia
-
-	k_liao = { #Moved Liao here.
-	867.1.1 = { change_development_level = 0 }
-	1066.1.1 = { change_development_level = 2 }
-	1124.1.1 = { change_development_level = 4 } #Title ceases
-	}
 
 	k_mongolia = {
 	867.1.1 = { change_development_level = 0 }

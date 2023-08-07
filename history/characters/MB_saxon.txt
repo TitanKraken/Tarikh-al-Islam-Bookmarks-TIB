@@ -987,7 +987,7 @@
 #		birth="1044.1.1"
 #	}
 #	1066.1.1={
-#		trait="hunter_1"
+#		trait="lifestyle_hunter"
 #	}
 #	1071.1.1={
 #		death="1071.1.1"

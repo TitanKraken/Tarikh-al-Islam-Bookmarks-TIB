@@ -35,15 +35,16 @@ tib_islamic_dynastic_elective = { # Islamic Dynastic Monarchial Elective.
 		}
 		add = {
 			type = holder_direct_vassals
-				liege = scope:holder
-				trigger_if = { # Must be true priests
-					limit = { has_government = theocracy_government }
-					trigger_if = {
-						limit = { is_female = yes }
-						faith_dominant_gender_female_or_equal = yes
-					}
-					trigger_else = { faith_dominant_gender_male_or_equal = yes }
+			trigger_if = { # Must be true priests
+				limit = { 
+					has_government = theocracy_government 
+					liege = scope:holder
 				}
+				trigger_if = {
+					limit = { is_female = yes }
+					faith_dominant_gender_female_or_equal = yes
+				}
+				trigger_else = { faith_dominant_gender_male_or_equal = yes }
 			}
 		}
 	}
@@ -107,7 +108,6 @@ tib_islamic_dynastic_elective = { # Islamic Dynastic Monarchial Elective.
 			root = {
 					learning >= 10
 					has_trait = zealous
-				}
 			}
 		}
 		modifier = { # Qurayshi Influence

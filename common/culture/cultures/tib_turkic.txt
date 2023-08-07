@@ -388,7 +388,7 @@ uyghur = {
 	
 	ethos = ethos_spiritual
 	heritage = heritage_turkic
-	language = language_siberian
+	language = language_karluk # language_siberian
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_religious_patronage
@@ -442,7 +442,7 @@ uriankhai = {	# these are western "Uriankhai", in this case specifically the Kha
 	
 	ethos = ethos_communal
 	heritage = heritage_turkic
-	language = language_siberian
+	language = language_karluk # language_siberian
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_forest_folk
@@ -634,7 +634,7 @@ mamluk = {
 
 	name_list = name_list_turkish
 
-	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx arabic_coa_gfx }
+	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx arabic_group_coa_gfx }
 	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
 	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
 	unit_gfx = { mena_unit_gfx }
@@ -658,12 +658,12 @@ anatolian_turkish = {
 		tradition_horse_lords
 		tradition_swords_for_hire
 		tradition_martial_admiration
-		tradition_garden_architects
+		tradition_gardening
 	}
 
 	name_list = name_list_turkish
 
-	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx arabic_coa_gfx }
+	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx arabic_group_coa_gfx }
 	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
 	clothing_gfx = { dde_abbasid_clothing_gfx mongol_clothing_gfx } 
 	unit_gfx = { mena_unit_gfx }
