@@ -16289,7 +16289,7 @@
 }
 1235039 = {
 	name="Abd-al-Rahman"
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion="muwalladi"
 	culture="basque"
 	father=3202
@@ -16318,7 +16318,7 @@
 1235041={
 	name="Fatima"
 	female=yes
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion="muwalladi"
 	culture="galician"
 	father=73685
@@ -16335,7 +16335,7 @@
 1235042={
 	name="al-Baha"
 	female=yes
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion="muwalladi"
 	culture="basque"
 	father=73685
@@ -16351,7 +16351,7 @@
 }
 1235043={
 	name="al-Mutarrif"
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion="muwalladi"
 	culture="andalusian"
 	father=73685
@@ -16367,7 +16367,7 @@
 }
 1235044={
 	name="Suleyman"
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion="muwalladi"
 	culture="andalusian"
 	father=73685
@@ -16384,7 +16384,7 @@
 1235045={
 	name="Aisha"
 	female=yes
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion="muwalladi"
 	culture="andalusian"
 	father=73685
@@ -16401,7 +16401,7 @@
 1235046={
 	name="as-Sida"
 	female=yes
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion="muwalladi"
 	culture="andalusian"
 	father=73685
@@ -16417,7 +16417,7 @@
 }
 1235047={
 	name="al-Asi"
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion="muwalladi"
 	culture="andalusian"
 	father=73685
@@ -16435,7 +16435,7 @@
 }
 1235048={
 	name="Aban"
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion="muwalladi"
 	culture="andalusian"
 	father=73685
@@ -16450,7 +16450,7 @@
 }
 1235049={
 	name="Muhammad al-Asgar"
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion="muwalladi"
 	culture="andalusian"
 	father=73685
@@ -16465,7 +16465,7 @@
 }
 1235050={
 	name="Ahmad al-Asgar"
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion="muwalladi"
 	culture="andalusian"
 	father=73685
@@ -16481,7 +16481,7 @@
 1235051={
 	name="Raqiya"
 	female=yes
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion="muwalladi"
 	culture="andalusian"
 	father=73685
@@ -16497,7 +16497,7 @@
 1235052={
 	name="Zainab"
 	female=yes
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion="muwalladi"
 	culture="andalusian"
 	father=73685
@@ -16659,7 +16659,7 @@
 1235073 = {
 	name="Wallada"
 	female=yes
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion="muwalladi"
 	culture="andalusian"
 	father=73668
@@ -16951,7 +16951,7 @@
 }
 1235090={
 	name="al-Mughira"
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion="muwalladi"
 	culture="andalusian"
 	father=3200
@@ -16968,7 +16968,7 @@
 }
 1235091={
 	name="al-Mutarrif"
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion="muwalladi"
 	culture="andalusian"
 	father=73685
@@ -17461,7 +17461,7 @@
 }
 1235124={
 	name="Abd-al-Malik" # Abd-al-Malik b. al-Asi, cousin of the Emir and appointed governor of Merida upon the deposition of the butr Masud b. Tajit. Merida usually entailed a bigger governorship, so i´m making him placeholder of all Badajoz. Again found in Hugh Kennedy´s Muslim Spain and Portugal
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion="muwalladi"
 	culture="andalusian"
 	father=1235047
@@ -17515,7 +17515,7 @@
 }
 1235128={
 	name="Sa'id" # Said b. al-Mundhir, Vizier until 938 and the exception to the increasing dependence on Saqalibas. Said were from the Umayyad family
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion="muwalladi"
 	culture="andalusian"
 	father=73684 #unknown ancestry. Making him a placeholder son of al-Mundhir
@@ -18322,7 +18322,7 @@
 }
 1235537={
 	name="Muhammad" #al-Mahdi, Wadih's initial caliphal candidate
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion="muwalladi"
 	culture="andalusian"
 	father=73669
@@ -18342,7 +18342,7 @@
 }
 1235538={
 	name="Ubayd-Allah" #b. al-Mahdi
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion="muwalladi"
 	culture="andalusian"
 	father=1235537

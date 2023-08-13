@@ -50,6 +50,7 @@
 
  DEBUG_I_HAVE_MORE_GOLD_TRIGGER:0 "I am not in debt"
  distribute_zakat_decision:0 "Distribute the Zakat Funds"
+ distribute_zakat_decision_tooltip:0 "Fulfill my duty as the Zakat funds holder"
  distribute_zakat_decision_confirm:0 "Open the Treasury!"
- distribute_zakat_decision_desc:0 "It is our solemn duty as the [liege|e] of the [realm|e] to collect and finally distribute the Zakat properly. \n\nCurrently we have as much as [GetPlayer.MakeScope.Var('zakat_resource').GetValue|1] [gold|e] in the Bayt al-Mal."
+ distribute_zakat_decision_desc:0 "It is our solemn duty as the [liege|e] of the [realm|e] to collect and finally distribute the #E Zakat#! properly. \n\nCurrently we have as much as @gold_icon! [GetPlayer.MakeScope.Var('zakat_resource').GetValue|0] [gold|e] in the #E Bayt al-Mal. #!"
  

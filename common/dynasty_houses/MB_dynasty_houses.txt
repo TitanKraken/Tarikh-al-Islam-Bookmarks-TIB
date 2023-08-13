@@ -421,125 +421,113 @@ house_Luxembourg = {
 
 house_marwanid = {
 	name = "dynn_Marwanid"
-	prefix = "dynnp_al-"
+	
 	dynasty = 1029006 # Dustakid
 }
 
 #Hashim Cadets 
 
 #Hashimid #7296
-house_Hashimid = {
-	prefix = "dynnp_banu"
-    name = "dynn_Hashimid"
-    dynasty = tribe_quraysh #Hashim
-}
 
 
 #Musawui #7296
 house_MusawiHashim = {
-	prefix = "dynnp_al-"
     name = "dynn_MusawiHashim"
     dynasty = tribe_quraysh #Hashim
 }
 
 #Hawashim, Second Hasanid branch of Mecca #7296
 house_Hashimi = {
-	prefix = "dynnp_banu"
-    name = "dynn_Hashimi"
+    name = "house_Hashimid"
     dynasty = tribe_quraysh #Hashim
 }
 
-house_alavid = { #7512
-	name = "dynn_Alavid"
-	prefix = "dynnp_al-"
-	dynasty = tribe_quraysh
-}
 
 #Ukhaydhiri #7296
 house_Ukhaydhiri = {
-	prefix = "dynnp_al-"
+	
     name = "dynn_Ukhaidhirid"
     dynasty = tribe_quraysh #Hashim
 }
 
 #alSulaymani #7296
 house_alSulaymani = {
-	prefix = "dynnp_al-"
+	
     name = "dynn_alSulaymani"
     dynasty = tribe_quraysh #Hashim
 }
 
 #alHusayni #7296
 house_alHusayni = {
-	prefix = "dynnp_al-"
+	
     name = "dynn_alHusayni"
     dynasty = tribe_quraysh #Hashim
 }
 
 #Fatimids #7296
 house_Fatimid = {
-	prefix = "dynnp_al-"
+	
     name = "dynn_Fatimid"
     dynasty = tribe_quraysh #Hashim
 }
 
 #Husayni #7296
 house_Husayni = {
-	prefix = "dynnp_al-"
+	
     name = "dynn_Husayni"
     dynasty = tribe_quraysh #Hashim
 }
 
 #Abbasi #7296
 house_Abbasi = {
-	prefix = "dynnp_al-"
+	
     name = "dynn_Abbasi"
     dynasty = tribe_quraysh #Hashim
 }
 
 #Rassi #7296
 house_Rassi = {
-	prefix = "dynnp_al-"
+	
     name = "dynn_Rassi"
     dynasty = tribe_quraysh #Hashim
 }
 
 #Umawi #7296
 house_Umawi = {
-	prefix = "dynnp_al-"
+	
     name = "dynn_Umawi"
     dynasty = tribe_quraysh #Hashim
 }
 
 #Idrisi #7296
 house_Idrisi = {
-	prefix = "dynnp_al-"
+	
     name = "dynn_Idrisi"
     dynasty = tribe_quraysh #Hashim
 }
 
 #Sulayman #7296
 house_Sulayman = {
-	prefix = "dynnp_al-"
+	
     name = "dynn_Sulayman"
     dynasty = tribe_quraysh #Hashim
 }
 
 house_addardid = {
-	prefix = "dynnp_al-"
+	
     name = "dynn_Abd_ad-Dardid"
     dynasty = tribe_quraysh #Hashim
 }
 
 house_uzzayad = {
-	prefix = "dynnp_banu"
+	
     name = "dynn_Uzzayad"
     dynasty = tribe_quraysh #Hashim
 }
 
 #Ayyubid #101868
 house_Ayyubid = {
-	prefix = "dynnp_al-"
+	
     name = "dynn_Ayyubid"
     dynasty = 1029007 #Rawwadi
 }
@@ -547,14 +535,14 @@ house_Ayyubid = {
 # Shaddadid, Hadhabanid cadets
 house_shaddadid = {
 	name = "dynn_Shaddadid"
-	prefix = "dynnp_al-"
+	
 	dynasty = 1029007 # Hadhabanid
 }
 
 # Rawwadid, Hadhabanid cadets
 house_rawwadid = {
 	name = "dynn_Rawwadid"
-	prefix = "dynnp_al-"
+	
 	dynasty = 1029007 # Hadhabanid
 }
 
@@ -1077,7 +1065,7 @@ house_orbeliani = {
 
 house_shadaddi = {
 	name = "dynn_Shaddadid"
-	prefix = "dynnp_al-"
+	
 	dynasty = 1029007
 }
 
@@ -1819,13 +1807,13 @@ house_oghuzQarqin = {
 
 house_banukilabid = {
 	name = "dynn_Kilabid"
-	prefix = "dynnp_banu"
+	
 	dynasty = 1029034
 }
 
 house_banumirdasi = {
 	name = "dynn_Mirdasid"
-	prefix = "dynnp_al-"
+	
 	dynasty = 1029034
 }
 
@@ -2009,13 +1997,13 @@ house_teke = {
 }
 
 house_banu_adi = {
-	prefix = "dynnp_banu"
+	
 	name = "Adi"
 	dynasty = tribe_quraysh #Hashim
 }
 
 house_banu_taym = {
-	prefix = "dynnp_banu"
+	
 	name = "Taym"
 	dynasty = tribe_quraysh #Hashim
 }
@@ -2440,7 +2428,7 @@ house_Kartid = {
 
 house_nasirids = {
 	name="dynn_Nasrid"
-	prefix = "dynnp_al-"
+	
 	dynasty = 812
 }
 
@@ -2457,62 +2445,62 @@ house_nelipic = {
 # Hammadid, Zirid cadets
 house_hammadid = {
 	name = "dynn_Hammadid"
-	prefix = "dynnp_al-"
+	
 	dynasty = 595 # Zirid
 }
 
 #The connections of these cadets to the parent houses are in most cases not historical. I feel that's fine since it's more interesting to see how many of the Bedouin dynasties were interconnected instead somewhat like how in vanilla and HIP all the Ohguz tribes are connected with made up connections. I also see no reason to make up 100 new characters to make the split offs occur when they allegedly did
 house_aluyuni = {
 	name="dynn_Uyunid"
-	prefix = "dynnp_al-"
+	
 	dynasty = bedouindyn003
 }
 
 house_banuqays = {
-	prefix = "dynnp_banu"
+	
 	name="dynn_Qays"
 	dynasty = bedouindyn003
 }
 
 house_banukanz = {
 	name="dynn_Banu_Kanz"
-	prefix = "dynnp_banu"
+	
 	dynasty = bedouindyn003
 }
 
 house_muntafiq = {
 	name="dynn_Muntafiq"
-	prefix = "dynnp_al-"
+	
 	dynasty = 1000103865
 }
 
 house_alusfuri = {
 	name="dynn_Usfurid"
-	prefix = "dynnp_al-"
+	
 	dynasty = 1000103865
 }
 
 house_banushammar = {
 	name="dynn_Shammar"
-	prefix = "dynnp_banu"
+	
 	dynasty = bedouindyn010
 }
 
 house_jarrahi = {
 	name="dynn_Jarraid"
-	prefix = "dynnp_al-"
+	
 	dynasty = bedouindyn010
 }
 
 house_nahbani = {
 	name="dynn_Nabhanid"
-	prefix = "dynnp_al-"
+	
 	dynasty = bedouindyn010
 }
 
 house_aghlabi = {
 	name="dynn_Aghlabid"
-	prefix = "dynnp_al-"
+	
 	dynasty = 1042122
 }
 

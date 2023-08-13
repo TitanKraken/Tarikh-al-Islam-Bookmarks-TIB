@@ -18,7 +18,7 @@ tib_caliphal_authority = {
 		can_keep = { # Only Caliphs can access this
             AND = {
                 realm_law_use_crown_authority = yes
-                has_government_flag = government_is_islamic
+                has_government = islamic_government
                 has_title = faith.religious_head_title
             }
         }
@@ -56,7 +56,7 @@ tib_caliphal_authority = {
 		can_keep = { # Only Caliphs can access this
             AND = {
                 realm_law_use_crown_authority = yes
-                has_government_flag = government_is_islamic
+                has_government = islamic_government
                 has_title = faith.religious_head_title
             }
         }
@@ -114,18 +114,16 @@ tib_caliphal_authority = {
 		#flag = vassal_internal_wars_banned
 		flag = vassal_refusal_is_treason
 		flag = can_designate_heirs
+		flag = allows_grand_jihad_cb
+		flag = full_zakat_authority
 		#flag = can_change_succession_laws
         flag = max_authority_level
 		flag = titles_cannot_leave_realm_on_succession # Hardcoded flag
-		custom_description = {
-			subject = root
-			text = "can_declare_grand_jihad"
-		}
 		
 		can_keep = { # Only Caliphs can access this
             AND = {
                 realm_law_use_crown_authority = yes
-                has_government_flag = government_is_islamic
+                has_government = islamic_government
                 has_title = faith.religious_head_title
             }
         }

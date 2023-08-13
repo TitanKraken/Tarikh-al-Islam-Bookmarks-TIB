@@ -919,7 +919,7 @@ d_sistan = {
 		holder = 1000229901 # Musa Yabghu
 	}
 	1058.1.1 = {
-		holder = turkish0001 #Qara-Arslan Bori
+		holder = 1230199 # Qara-Arslan Bori
 	}
 	1089.1.2 = {
 		holder = 1000229901 # Musa Yabghu again

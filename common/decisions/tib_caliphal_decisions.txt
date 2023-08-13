@@ -526,20 +526,6 @@ pay_homage_to_caliph_decision = {
 			}
 			has_spawned_court_events = no # should only be used for human players
 		}
-		trigger_if = { # Has not paid homage to this faith.religious_head in 10 years prior
-			limit = { 
-				has_variable = pay_homage_to_caliph_cooldown
-				exists = faith.religious_head
-			}
-			custom_tooltip = {
-				text = "has_pay_homage_to_caliph_cooldown"
-				NOT = { var:pay_homage_grace = faith.religious_head }
-			}
-		}
-		trigger_if = {
-			limit = { is_ai = yes }
-			NOT = { var:pay_homage_to_caliph_cooldown = faith.religious_head }
-		}
 	}
 
 	widget = {
@@ -706,7 +692,7 @@ pay_homage_to_caliph_decision = {
 	}
 
 	ai_will_do = {
-		base = 50
+		base = 0
 		modifier = {
 			add = 50
 			prestige > standard_activity_cost
@@ -716,6 +702,10 @@ pay_homage_to_caliph_decision = {
 			gold >= medium_gold_value
 			ai_greed < 50
 			primary_title.tier > tier_county
+		}
+		modifier = { # More likely to give homage to the great Caliph recognised by almost everybody
+			add = 50
+			scope:homage_liege = { has_realm_law = tib_caliphal_authority_2 }
 		}
 		modifier = {
 			add = -50
@@ -729,12 +719,20 @@ pay_homage_to_caliph_decision = {
 			}
 		}
 		modifier = { # Dukes/kings should be more weighted
-			add = 25
+			add = 10
 			primary_title.tier >= tier_duchy
 		}
-		modifier = { # Barons should be less weighted
-			add = -25
-			primary_title.tier < tier_county
+		modifier = { # Counts should be less weighted
+			add = -45
+			primary_title.tier <= tier_county
+		}
+		modifier = { # Too far away to risk travel and leaving the realm just like that
+			add = -50
+			NOT = {
+				scope:root = {
+					in_diplomatic_range = scope:the_caliph
+				}
+			}
 		}
 	}
 }
@@ -759,13 +757,12 @@ distribute_zakat_decision = {
 	}
 
 	is_valid = {
-		#var:zakat_resource > 0
+		has_zakat_funds_trigger = yes
 	}
 
-	cooldown = { months = 3 }
+	#cooldown = { months = 3 }
 
 	effect = {
-		root.faith.religious_head = { save_scope_as = the_caliph }
 		trigger_event = tib_pay_zakat_decisions.0201
 	}
 
@@ -775,17 +772,17 @@ distribute_zakat_decision = {
 
 	ai_will_do = {
 		base = 50
-		modifier = { # AI's who can give gold are more likely
+		modifier = { # AI will distribute once the gold treasury is large enough
 			add = 50
-			var:zakat_resource >= minor_gold_value
+			var:zakat_resource >= major_gold_value
 			#ai_greed < 50
 			#primary_title.tier > tier_county
 		}
-		modifier = {
+		modifier = { # More likely to embezzle funds
 			add = 30
 			ai_greed >= 50
 		}
-		modifier = {
+		modifier = { # Justice be served!
 			add = 50
 			has_trait = just
 			has_trait = zealous

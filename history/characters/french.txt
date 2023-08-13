@@ -29975,7 +29975,6 @@ Vermandois2 = {
 	}
 	
 	1329.10.28 = {
-		death = "1329.10.28"
 		death = {
 			death_reason = death_poison
 			killer = 455515

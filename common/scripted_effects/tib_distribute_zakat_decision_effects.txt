@@ -1,0 +1,469 @@
+﻿# List building
+# Character living in the Bayt al-Mal holder realm
+
+# The effects
+asnaf_poor_minor_effect = {
+    every_sub_realm_county = {
+        add_county_modifier = {
+            modifier = asnaf_poor_minor_modifier
+            years = 1
+        }
+    }
+}
+asnaf_poor_medium_effect = {
+    every_sub_realm_county = {
+        add_county_modifier = {
+            modifier = asnaf_poor_minor_modifier
+            years = 3
+        }
+    }
+}
+asnaf_poor_major_effect = {
+    every_sub_realm_county = {
+        add_county_modifier = {
+            modifier = asnaf_poor_major_modifier
+            years = 3
+        }
+    }
+}
+asnaf_poor_massive_effect = {
+    every_sub_realm_county = {
+        add_county_modifier = {
+            modifier = asnaf_poor_major_modifier
+            years = 5
+        }
+    }
+}
+
+asnaf_weak_buildings_minor_effect = {
+    every_in_list = {
+        list = poor_muslims_county_in_root_realm_list
+        add_county_modifier = {
+            modifier = asnaf_weak_buildings_minor_modifier
+            years = 1
+        }
+    }
+}
+asnaf_weak_buildings_medium_effect = {
+    every_in_list = {
+        list = poor_muslims_county_in_root_realm_list
+        add_county_modifier = {
+            modifier = asnaf_weak_buildings_medium_modifier
+            years = 1
+        }
+    }
+}
+asnaf_weak_buildings_major_effect = {
+    every_in_list = {
+        list = poor_muslims_county_in_root_realm_list
+        add_county_modifier = {
+            modifier = asnaf_weak_buildings_major_modifier
+            years = 2
+        }
+    }
+}
+asnaf_weak_buildings_massive_effect = {
+    every_in_list = {
+        list = poor_muslims_county_in_root_realm_list
+        add_county_modifier = {
+            modifier = asnaf_weak_buildings_massive_modifier
+            years = 3
+        }
+    }
+}
+
+asnaf_county_dev_minor_effect = {
+    every_in_list = {
+        list = poor_muslims_county_in_root_realm_list
+        county_modifier = {
+            #tax_mult = 0.3
+            development_growth_factor = 0.1
+            development_growth = 0.1
+            #county_opinion_add = 5
+        }
+    }
+}
+asnaf_county_dev_medium_effect = {
+    every_in_list = {
+        list = poor_muslims_county_in_root_realm_list
+        county_modifier = {
+            #tax_mult = 0.3
+            development_growth_factor = 0.20
+            development_growth = 0.2
+            #county_opinion_add = 10
+        }
+    }
+}
+asnaf_county_dev_major_effect = {
+    every_in_list = {
+        list = poor_muslims_county_in_root_realm_list
+        county_modifier = {
+            #tax_mult = 0.3
+            development_growth_factor = 0.30
+            development_growth = 0.3
+            #county_opinion_add = 20
+        }
+    }
+}
+asnaf_county_dev_massive_effect = {
+    every_in_list = {
+        list = poor_muslims_county_in_root_realm_list
+        county_modifier = {
+            #tax_mult = 0.3
+            development_growth_factor = 0.50
+            development_growth = 0.5
+            #county_opinion_add = 40
+        }
+    }
+}
+
+asnaf_homeless_minor_effect = {
+    every_realm_county = {
+        add_county_modifier = {
+            modifier = asnaf_homeless_minor_modifier
+            years = 1
+        }
+    }
+}
+asnaf_homeless_medium_effect = {
+    every_realm_county = {
+        add_county_modifier = {
+            modifier = asnaf_homeless_minor_modifier
+            years = 3
+        }
+    }
+}
+asnaf_homeless_major_effect = {
+    every_realm_county = {
+        add_county_modifier = {
+            modifier = asnaf_homeless_major_modifier
+            years = 3
+        }
+    }
+}
+asnaf_homeless_massive_effect = {
+    every_realm_county = {
+        add_county_modifier = {
+            modifier = asnaf_homeless_major_modifier
+            years = 5
+        }
+    }
+}
+
+
+asnaf_traveler_minor_effect = {
+    every_realm_province = {
+        add_province_modifier = {
+			modifier = asnaf_traveler_minor_modifier
+			years = 1
+		}
+    }
+}
+asnaf_traveler_medium_effect = {
+    every_realm_province = {
+        list = all_muslims_provinces_in_root_realm_list
+        add_province_modifier = {
+			modifier = asnaf_traveler_medium_modifier
+			years = 3
+		}
+    }
+}
+asnaf_traveler_major_effect = {
+    every_realm_province = {
+        add_province_modifier = {
+			modifier = asnaf_traveler_major_modifier
+			years = 5
+		}
+    }
+    every_realm_county = {
+        add_county_modifier = {
+            add_county_modifier = {
+                modifier = travel_safe_roads_modifier
+                years = 5
+            }
+        }
+    }
+}
+asnaf_traveler_massive_effect = {
+    every_realm_province = {
+        add_province_modifier = {
+			modifier = asnaf_traveler_massive_modifier
+            modifier = 
+			years = 10
+		}
+    }
+    every_realm_county = {
+        add_county_modifier = {
+            add_county_modifier = {
+                modifier = travel_safe_roads_modifier
+                years = 10
+            }
+        }
+    }
+}
+
+
+asnaf_converts_minor_effect = {
+    every_in_list = {
+        list = non_muslims_county_in_root_realm_list
+        #add_county_modifier = {
+        #    modifier = 
+        #}
+    }
+}
+
+asnaf_fisabilillah_minor_effect = {
+    every_ruler = {
+        if = {
+            limit = {
+                root = top_liege
+            }
+            add_character_modifier = {
+                modifier = asnaf_fisabilillah_minor_modifier
+                years = 1
+            }
+        }
+    }
+    root.faith = {
+        change_fervor = {
+            value = 10
+            desc = fervor_increase_zakat
+        }
+    }
+}
+asnaf_fisabilillah_medium_effect = {
+    every_ruler = {
+        if = {
+            limit = {
+                root = top_liege
+            }
+            add_character_modifier = {
+                modifier = asnaf_fisabilillah_minor_modifier
+                years = 3
+            }
+        }
+    }
+    root.faith = {
+        change_fervor = {
+            value = 15
+            desc = fervor_increase_zakat
+        }
+    }
+}
+asnaf_fisabilillah_major_effect = {
+    every_ruler = {
+        if = {
+            limit = {
+                root = top_liege
+            }
+            add_character_modifier = {
+                modifier = asnaf_fisabilillah_major_modifier
+                years = 3
+            }
+        }
+    }
+    root.faith = {
+        change_fervor = {
+            value = 20
+            desc = fervor_increase_zakat
+        }
+    }
+}
+asnaf_fisabilillah_massive_effect = {
+    every_ruler = {
+        if = {
+            limit = {
+                root = top_liege
+            }
+            add_character_modifier = {
+                modifier = asnaf_fisabilillah_massive_modifier
+                years = 5
+            }
+        }
+    }
+    root.faith = {
+        change_fervor = {
+            value = 30
+            desc = fervor_increase_zakat
+        }
+    }
+}
+
+asnaf_mercs_fisabilillah_minor_effect = {
+    every_in_list = {
+        list = all_muslims_in_root_realm_list
+        if = {
+            limit = {
+                is_landed = yes
+                is_ruler = yes
+            }
+            add_character_modifier = {
+                mercenary_hire_cost_mult = -0.1
+            }
+        }
+    }
+}
+asnaf_mercs_fisabilillah_medium_effect = {
+    every_in_list = {
+        list = all_muslims_in_root_realm_list
+        if = {
+            limit = {
+                is_landed = yes
+                is_ruler = yes
+            }
+            add_character_modifier = {
+                mercenary_hire_cost_mult = -0.2
+            }
+        }
+    }
+}
+asnaf_mercs_fisabilillah_major_effect = {
+    every_in_list = {
+        list = all_muslims_in_root_realm_list
+        if = {
+            limit = {
+                is_landed = yes
+                is_ruler = yes
+            }
+            add_character_modifier = {
+                mercenary_hire_cost_mult = -0.3
+            }
+        }
+    }
+}
+asnaf_mercs_fisabilillah_massive_effect = {
+    every_in_list = {
+        list = all_muslims_in_root_realm_list
+        if = {
+            limit = {
+                is_landed = yes
+                is_ruler = yes
+            }
+            add_character_modifier = {
+                mercenary_hire_cost_mult = -0.5
+            }
+        }
+    }
+}
+
+asnaf_orphan_medium_effect = {
+    random_in_list = {
+		list = orphaned_muslims_in_root_realm_list
+		weight = {
+			base = 50
+
+			# We don't want character dropping dead from old age, injuries, or disease!
+			compare_modifier = {
+				value = health
+				multiplier = 10
+			}
+            # More good and inheritable traits!
+            modifier = {
+                add = -5
+                has_trait = intellect_good_1
+            }
+            modifier = {
+                add = -5
+                has_trait = physique_good_1
+            }
+            modifier = {
+                add = -5
+                has_trait = fecund
+            }
+			# 'Ambitious' characters are more likely to seek patronage
+			ai_value_modifier = {
+				ai_greed = 0.25
+				ai_boldness = 0.25
+				ai_sociability = 0.10
+				ai_rationality = 0.10
+			}
+		}
+        save_scope_as = talented_orphaned_muslim_in_root_realm
+	}
+    scope:talented_orphaned_muslim_in_root_realm = {
+        add_gold = 50
+    }
+    add_courtier = scope:talented_orphaned_muslim_in_root_realm
+}
+asnaf_orphan_medium_effect = {
+    random_in_list = {
+		list = orphaned_muslims_in_root_realm_list
+		weight = {
+			base = 1
+
+			modifier = { #Poets are more likely to become inspired
+				add = 10
+				has_trait = poet
+			}
+
+			# Good traits are always welcome!
+			compare_modifier = {
+				value = learning
+				multiplier = 5
+			}
+            compare_modifier = {
+				value = diplomacy
+				multiplier = 5
+			}
+            compare_modifier = {
+				value = martial
+				multiplier = 5
+			}
+            compare_modifier = {
+				value = stewardship
+				multiplier = 5
+			}
+            compare_modifier = {
+				value = intrigue
+				multiplier = 5
+			}
+
+			# We don't want character dropping dead from old age, injuries, or disease!
+			compare_modifier = {
+				value = health
+				multiplier = 20
+			}
+            # More good and inheritable traits!
+            modifier = {
+                add = 20
+                has_trait = intellect_good_1
+            }
+            modifier = {
+                add = 10
+                has_trait = intellect_good_2
+            }
+            modifier = {
+                add = 5
+                has_trait = intellect_good_3
+            }
+            modifier = {
+                add = 15
+                has_trait = physique_good_1
+            }
+            modifier = {
+                add = 5
+                has_trait = physique_good_2
+            }
+            modifier = {
+                add = 1
+                has_trait = physique_good_3
+            }
+            modifier = {
+                add = 5
+                has_trait = fecund
+            }
+			# 'Ambitious' characters are more likely to seek patronage
+			ai_value_modifier = {
+				ai_greed = 0.25
+				ai_boldness = 0.25
+				ai_sociability = 0.10
+				ai_rationality = 0.10
+			}
+		}
+        save_scope_as = talented_orphaned_muslim_in_root_realm
+	}
+    scope:talented_orphaned_muslim_in_root_realm = {
+        add_gold = 50
+    }
+    add_courtier = scope:talented_orphaned_muslim_in_root_realm
+}

@@ -32,3 +32,8 @@
  tribal_convert_whole_realm_to_islamic_decision_desc:0 "I believe it is time for our realm to restore uphold the Sharia of Allah. We must leave the old ways behind and embrace the Sharia as an [GetGovernment( 'islamic_government' ).GetName] government, as well as restructuring our entire realm with stones and bricks. Every Muslim lords and ladies under us shall be subjected to this reform."
  tribal_convert_whole_realm_to_islamic_decision_confirm:0 "Restore the Sharia"
  tribal_convert_whole_realm_to_islamic_decision_tooltip:0 "Change [government|E] type by adopting the Sharia and becoming an [GetGovernment( 'islamic_government' ).GetName] government"
+
+ pay_zakat_decision:0 "Pay the Zakat"
+ pay_zakat_decision_tooltip:0 "Fulfill the Muslim obligation of paying the Zakat"
+ pay_zakat_decision_confirm:0 "Let's find the Amil!"
+ pay_zakat_decision_desc:0 "It is our obligation as Muslims to pay the #E Zakat#!. Let's find a local Amil (Zakat collector) that sends the Zakat either to the state or to the directly to the [Concept('head_of_faith','Commander of the Faithful')|E], [ROOT.Char.GetFaith.GetReligiousHead.GetTitledFirstName]."

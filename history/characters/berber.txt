@@ -2963,7 +2963,7 @@
 	name = "Zyan"
 	dynasty = 7277
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 1236439
 	1180.1.1 = {
 		birth = "1180.1.1"
@@ -2977,7 +2977,7 @@
 	name = "Yaghmurasen" # Tlemcen 1229-1283
 	dynasty = 7277 # Zayyanid
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 33044
 	trait = brave
 	trait = zealous
@@ -2996,7 +2996,7 @@
 	name = "Abu_Sa_id__Uthman" # Tlemcen 1283-1304
 	dynasty = 7277
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 33045
 	1250.1.1 = {
 		birth = yes
@@ -3010,7 +3010,7 @@
 	name = "Abu_Zayyan_Muhammad" # Tlemcen 1304-1308
 	dynasty = 7277
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 33046
 	1280.1.1 = {
 		birth = yes
@@ -3024,7 +3024,7 @@
 	name = "Abu_Hammu_Musa" # Tlemcen 1308-1318
 	dynasty = 7277
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 33046
 	1285.1.1 = {
 		birth = yes
@@ -3041,7 +3041,7 @@
 	name = "Abu_Tashfin_Abd-al-Rahman" # Tlemcen 1318-1337
 	dynasty = 7277
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 33048
 	1305.1.1 = {
 		birth = yes
@@ -3055,7 +3055,7 @@
 	name = "Abu_Sa_id__Uthman" # Tlemcen co-ruler 1348-1352
 	dynasty = 7277
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 33049
 	1332.1.1 = {
 		birth = yes
@@ -3069,7 +3069,7 @@
 	name = "Abu_Thabit" # Tlemcen co-ruler 1348-1352
 	dynasty = 7277
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 33049
 	1333.1.1 = {
 		birth = yes
@@ -3083,7 +3083,7 @@
 	name = "Abu_Hammu_Musa" # Tlemcen 1359-1360
 	dynasty = 7277
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 33049
 	1335.1.1 = {
 		birth = yes
@@ -4784,7 +4784,7 @@
 	name = "Muhammad"
 	dynasty = 7277
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	1140.1.1 = {
 		birth = "1140.1.1"
 	}
@@ -4797,7 +4797,7 @@
 	name = "Yusuf" #ibn Muhammad
 	dynasty = 7277
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155108
 	1160.1.1 = {
 		birth = "1160.1.1"
@@ -4811,7 +4811,7 @@
 	name = "Djabar" #ibn Yusuf
 	dynasty = 7277
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155109
 	1180.1.1 = {
 		birth = "1180.1.1"
@@ -4825,7 +4825,7 @@
 	name = "Uthman" #ibn Yusuf
 	dynasty = 7277
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155109
 	1185.1.1 = {
 		birth = "1185.1.1"
@@ -4839,7 +4839,7 @@
 	name = "Zaydan" #ibn Zayyan
 	dynasty = 7277
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 33044
 	1200.1.1 = {
 		birth = "1200.1.1"
@@ -4853,7 +4853,7 @@
 	name = "Muhammad" #ibn Abd-al-Karim
 	dynasty = 1027015
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155235
 	1160.1.1 = {
 		birth = "1160.1.1"

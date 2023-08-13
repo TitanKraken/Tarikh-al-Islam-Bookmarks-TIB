@@ -107,9 +107,8 @@
  			beards={ "thin_beards_straight" 27 "no_beard" 0 }
  			hairstyles={ "mena_hairstyles_straight" 203 "all_hairstyles" 0 }
         }
-
-		enabled = yes
 	}
+	enabled=yes
 }
 
 sultan_baibars_dna = {
@@ -337,6 +336,5 @@ dna_8000516 = { # Terkhen Umm al-Said
 			clothes={ "western_bedchamber" 79 "most_clothes" 0 }
 		}
 	}
-
-	entity = yes
+	enabled=yes
 }

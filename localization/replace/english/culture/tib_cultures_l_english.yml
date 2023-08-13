@@ -17,6 +17,12 @@
  vandalic_collective_noun:1 "Vandals"
  
  # Arabic heritage
+ levantine:1 "Mashriqi"
+ levantine_prefix:0 "Mashriqo"
+ levantine_collective_noun:2 "Mashriqis"
+ egyptian:0 "Masri"
+ egyptian_prefix:0 "Masro"
+ egyptian_collective_noun:1 "Masris"
  hijazi:0 "Hijazi"
  hijazi_prefix:0 "Hijazo"
  hijazi_collective_noun:0 "Hijazis"
@@ -114,6 +120,10 @@
  coptic_prefix:0 "Copto"
  coptic_collective_noun:0 "Copts"
 
+ # East Slavic heritage
+ varangian_rus:0 "Varangian Rus'"
+ varangian_rus_prefix:0 "Varango"
+ varangian_rus_collective_noun:1 "Varangians"
  # Frankish / Gallo-Roman heritage
  #alsatian:0 "Alsatian"
  #alsatian_prefix:0 "Alsatio"

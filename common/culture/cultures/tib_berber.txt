@@ -341,14 +341,16 @@ zaghawa = {
 	
 	coa_gfx = { berber_group_coa_gfx }
 	building_gfx = { mena_building_gfx }
-	clothing_gfx = { iberian_muslim_clothing_gfx mena_clothing_gfx }
+	clothing_gfx = { mena_clothing_gfx }
 	unit_gfx = { mena_unit_gfx }
 	
 	ethnicities = {
-		5 = north_african_berber_6
-		5 = north_african_berber_7
 		5 = west_african_1
-		5 = west_african_2 
+		5 = west_african_2
+		5 = west_african_3
+		5 = west_african_4
+		5 = west_african_5
+		5 = west_african_6 
 	}
 }
 
@@ -894,10 +896,7 @@ hawwara = { # The Aures - Based on Zenata and Baranis, the direct heirs of the a
 	
 	coa_gfx = { berber_group_coa_gfx }
 	building_gfx = { mena_building_gfx }
-	clothing_gfx = { 
-		iberian_muslim_clothing_gfx 
-		fallback = mena_clothing_gfx 
-	}
+	clothing_gfx = { iberian_muslim_clothing_gfx mena_clothing_gfx }
 	unit_gfx = { mena_unit_gfx }
 	
 	ethnicities = {

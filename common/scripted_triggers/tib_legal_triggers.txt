@@ -1,0 +1,42 @@
+﻿can_declare_grand_jihad_cb_trigger = {	
+	custom_description = {
+		text = "can_declare_grand_jihad"
+		has_realm_law_flag = allows_grand_jihad_cb
+	}
+}
+has_full_zakat_authority_trigger = {	
+	custom_description = {
+		text = "has_full_zakat_authority"
+		has_realm_law_flag = full_zakat_authority
+	}
+}
+has_zakat_funds_trigger = {
+	custom_description = {
+		text = "has_zakat_funds"
+		var:zakat_resource > 0
+	}
+}
+has_enough_zakat_funds_minor_trigger = {
+	custom_description = {
+		text = "insufficient_zakat_funds"
+		var:zakat_resource >= minor_gold_value
+	}
+}
+has_enough_zakat_funds_medium_trigger = {
+	custom_description = {
+		text = "insufficient_zakat_funds"
+		var:zakat_resource >= medium_gold_value
+	}
+}
+has_enough_zakat_funds_major_trigger = {
+	custom_description = {
+		text = "insufficient_zakat_funds"
+		var:zakat_resource >= major_gold_value
+	}
+}
+has_enough_zakat_funds_massive_trigger = {
+	custom_description = {
+		text = "insufficient_zakat_funds"
+		var:zakat_resource >= massive_gold_value
+	}
+}

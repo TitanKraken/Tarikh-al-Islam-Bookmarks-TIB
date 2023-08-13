@@ -1,0 +1,4 @@
+﻿l_english:
+ character_var_greater_or_equal:0 "We don't have enough funds for that!"
+ has_zakat_funds:0 "You have Zakat funds in the #e Bayt al-Mal#!"
+ insufficient_zakat_funds:0 "Requires #negative_value [gold_i][SCOPE.ScriptValue('minor_gold_value')|0]#! in the #e Bayt al-Mal#!!"

@@ -15,7 +15,7 @@
 216017 = {
     name="Rayta"
 	female=yes
-	dynasty_house = house_Abbasi
+	dynasty_house = house_Abbasid
 	father=34001
     religion=ashari
     culture=bedouin
@@ -45,7 +45,7 @@
 216028 = {
     name="Abbasa"
 	female=yes
-	dynasty_house = house_Abbasi
+	dynasty_house = house_Abbasid
 	father=34003
 	mother=216027
     religion=ashari
@@ -1907,7 +1907,7 @@ Sadad1 = {
 }
 1236069 = {
 	name="Ibrahim" # Extended Rassid Sub-branch
-	dynasty_house = house_Rassi
+	dynasty_house = house_Rassid
 	religion="zayidi"
 	culture="yemeni"
 	trait="sayyid"
@@ -1921,7 +1921,7 @@ Sadad1 = {
 }
 1236070 = {
 	name="Hamza" # Extended Rassid Sub-branch
-	dynasty_house = house_Rassi
+	dynasty_house = house_Rassid
 	religion="zayidi"
 	culture="yemeni"
 	trait="sayyid"
@@ -1935,7 +1935,7 @@ Sadad1 = {
 }
 1236071 = {
 	name="Sulayman" # Extended Rassid Sub-branch
-	dynasty_house = house_Rassi
+	dynasty_house = house_Rassid
 	religion="zayidi"
 	culture="yemeni"
 	trait="sayyid"
@@ -1949,7 +1949,7 @@ Sadad1 = {
 }
 1236072 = {
 	name="Hamza" # Extended Rassid Sub-branch
-	dynasty_house = house_Rassi
+	dynasty_house = house_Rassid
 	religion="zayidi"
 	culture="yemeni"
 	trait="sayyid"
@@ -1963,7 +1963,7 @@ Sadad1 = {
 }
 1236073 = {
 	name="al-Mansur Abdallah" # Extended Rassid Sub-branch
-	dynasty_house = house_Rassi
+	dynasty_house = house_Rassid
 	religion="zayidi"
 	culture="yemeni"
 	trait="sayyid"
@@ -1977,7 +1977,7 @@ Sadad1 = {
 }
 1236074 = {
 	name="Abdallah" # Extended Rassid Sub-branch
-	dynasty_house = house_Rassi
+	dynasty_house = house_Rassid
 	religion="zayidi"
 	culture="yemeni"
 	trait="sayyid"
@@ -1991,7 +1991,7 @@ Sadad1 = {
 }
 1236075 = {
 	name="Al-Nasir" # Extended Rassid Sub-branch
-	dynasty_house = house_Rassi
+	dynasty_house = house_Rassid
 	religion="zayidi"
 	culture="yemeni"
 	trait="sayyid"
@@ -2005,7 +2005,7 @@ Sadad1 = {
 }
 1236076 = {
 	name="Yahya" # Extended Rassid Sub-branch
-	dynasty_house = house_Rassi
+	dynasty_house = house_Rassid
 	religion="zayidi"
 	culture="yemeni"
 	trait="sayyid"
@@ -2019,7 +2019,7 @@ Sadad1 = {
 }
 1236077 = {
 	name="Yahya" # Extended Rassid Sub-branch
-	dynasty_house = house_Rassi
+	dynasty_house = house_Rassid
 	religion="zayidi"
 	culture="yemeni"
 	trait="sayyid"
@@ -2033,7 +2033,7 @@ Sadad1 = {
 }
 1236078 = {
 	name="Muhsin" # Extended Rassid Sub-branch
-	dynasty_house = house_Rassi
+	dynasty_house = house_Rassid
 	religion="zayidi"
 	culture="yemeni"
 	trait="sayyid"
@@ -2047,7 +2047,7 @@ Sadad1 = {
 }
 1236079 = {
 	name="al-Hadi Yahya" # Extended Rassid Sub-branch
-	dynasty_house = house_Rassi
+	dynasty_house = house_Rassid
 	religion="zayidi"
 	culture="yemeni"
 	trait="sayyid"
@@ -2061,7 +2061,7 @@ Sadad1 = {
 }
 rashid1246 = {
 	name="Al-Nasir" # Extended Rassid Sub-branch
-	dynasty_house = house_Rassi
+	dynasty_house = house_Rassid
 	religion="zayidi"
 	culture="yemeni"
 	trait="sayyid"
@@ -4217,7 +4217,7 @@ rashid1246 = {
 1236233 = {
 	name="Sayyida al-Nisa" #daughter of Caliph al-Qa'im
 	female = yes
-	dynasty_house = house_Abbasi
+	dynasty_house = house_Abbasid
 	culture="iraqi"
 	religion="ashari"
 	trait="sayyid"
@@ -5519,7 +5519,7 @@ rashid1246 = {
 }
 1500044 = {
 	name="Ja'far" #al-Muqtadi's son by Malik Shah's daughter
-	dynasty_house = house_Abbasi
+	dynasty_house = house_Abbasid
 	religion="ashari"
 	culture="iraqi"
 	trait="sayyid"
@@ -6733,7 +6733,7 @@ rashid1246 = {
 }
 1500130 = {
 	name="Muhammad" #b. Salih
-	dynasty_house = house_Ukhaydhiri
+	dynasty_house = house_Ukhaidhirid
 
 	culture="bedouin"
 	religion="zayidi"
@@ -6748,7 +6748,7 @@ rashid1246 = {
 }
 1500131 = {
 	name="Abdullah" #b. Muhammad b. Salih
-	dynasty_house = house_Ukhaydhiri
+	dynasty_house = house_Ukhaidhirid
 
 	culture="bedouin"
 	religion="zayidi"
@@ -6763,7 +6763,7 @@ rashid1246 = {
 }
 1500132 = {
 	name="Muhammad" #b. Ahmad
-	dynasty_house = house_Ukhaydhiri
+	dynasty_house = house_Ukhaidhirid
 
 	culture="bedouin"
 	religion="zayidi"
@@ -6778,7 +6778,7 @@ rashid1246 = {
 }
 1500133 = {
 	name="Ja'far" #b. Ahmad
-	dynasty_house = house_Ukhaydhiri
+	dynasty_house = house_Ukhaidhirid
 
 	culture="bedouin"
 	religion="zayidi"
@@ -6793,7 +6793,7 @@ rashid1246 = {
 }
 1500134 = {
 	name="Muhammad" #b. Ja'far
-	dynasty_house = house_Ukhaydhiri
+	dynasty_house = house_Ukhaidhirid
 
 	culture="bedouin"
 	religion="zayidi"
@@ -6808,7 +6808,7 @@ rashid1246 = {
 }
 1500135 = {
 	name="Hasan" #b. Ja'far
-	dynasty_house = house_Ukhaydhiri
+	dynasty_house = house_Ukhaidhirid
 
 	culture="bedouin"
 	religion="zayidi"
@@ -6823,7 +6823,7 @@ rashid1246 = {
 }
 1500136 = {
 	name="Ali" #b. Ahmad
-	dynasty_house = house_Ukhaydhiri
+	dynasty_house = house_Ukhaidhirid
 
 	culture="bedouin"
 	religion="zayidi"
@@ -6838,7 +6838,7 @@ rashid1246 = {
 }
 1500137 = {
 	name="Kirzab" #b. Ali
-	dynasty_house = house_Ukhaydhiri
+	dynasty_house = house_Ukhaidhirid
 
 	culture="bedouin"
 	religion="zayidi"

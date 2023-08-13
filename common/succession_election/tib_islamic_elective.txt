@@ -94,8 +94,8 @@ tib_islamic_dynastic_elective = { # Islamic Dynastic Monarchial Elective.
 			desc = tooltip_pious_vote_strength
 			add = 2
 			OR = {
-				has_flag = government_is_islamic_flag
-				has_flag = government_is_theocracy_flag
+				has_government_flag = government_is_islamic_flag
+				has_government_flag = government_is_theocracy_flag
 				has_council_position = councillor_court_chaplain
 			}
 			faith = scope:holder.faith

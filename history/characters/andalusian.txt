@@ -1,6 +1,6 @@
 ﻿3200 = {
 	name = "Abd-al-Rahman" # Abd al-Rahman (III) ibn Muhammad, Muwalladi Caliph (929-961), Sultan of Andalusia (912-961) & Sheik of Alarcon, Alarcos, Algeciras, Almeria, Cabra, Calatrava, Castelo Branco, Cordoba, Ibiza, Mallorca, Menorca & Niebla (912-961), Jaén (913-961), Faro & Silves (920-961), Malagon & Moura (930-961), Malaga (931-961) & Sevilla (937-961)
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	martial = 6
 	diplomacy = 7
 	intrigue = 4
@@ -34,7 +34,7 @@
 
 3202 = {
 	name = "al-Hakam"
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	martial = 5
 	diplomacy = 4
 	intrigue = 5
@@ -54,7 +54,7 @@
 
 3204 = {
 	name = "Hisham"
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	martial = 4
 	diplomacy = 8
 	intrigue = 8
@@ -76,7 +76,7 @@
 
 3208 = {
 	name = "Hisham"
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	martial = 7
 	diplomacy = 7
 	intrigue = 6
@@ -3700,7 +3700,7 @@ mardanish_the_founder = {
 
 73666 = {
 	name = "Ubayd-Allah" # Ubayd Allah ibn Abd al-Rahman
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -3718,7 +3718,7 @@ mardanish_the_founder = {
 
 73667 = {
 	name = "Abd-al-Rahman" # Abd al-Rahman ibn Ubayd Allah
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -3736,7 +3736,7 @@ mardanish_the_founder = {
 
 73668 = {
 	name = "Muhammad" # Muhammad (III) ibn Abd al-Rahman, Muwalladi Caliph (1024-1025), Sultan of Andalusia (1024-1025) & Sheik of Cabra, Cordoba & Moura (1024-1025)
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -3756,7 +3756,7 @@ mardanish_the_founder = {
 
 73669 = {
 	name = "Abd-al-Yabbar" # Abd al-Yabbar ibn Abd al-Rahman
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -3773,7 +3773,7 @@ mardanish_the_founder = {
 }
 73670 = {
 	name = "Hisham" # Hisham ibn Abd al-Yabbar
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -3799,7 +3799,7 @@ mardanish_the_founder = {
 
 73671 = {
 	name = "Muhammad" # Muhammad (II) ibn Hisham, Muwalladi Caliph (1009 & 1010), Sultan of Andalusia (1009 & 1010) & Sheik of Algeciras, Almeria, Cabra, Cordoba, Faro, Granada, Malaga, Moura, Niebla, Sevilla & Silves (1009 & 1010)
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -3820,7 +3820,7 @@ mardanish_the_founder = {
 
 73672 = {
 	name = "Abd-al-Rahman" # Abd al-Rahman (V) ibn Hisham, Muwalladi Caliph (1023-1024), Sultan of Andalusia (1023-1024) & Sheik of Cabra, Cordoba & Moura (1023-1024)
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -3841,7 +3841,7 @@ mardanish_the_founder = {
 
 73673 = {
 	name = "Suleyman" # Suleyman ibn Abd al-Rahman
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -3859,7 +3859,7 @@ mardanish_the_founder = {
 
 73674 = {
 	name = "al-Hakam" # al-Hakam ibn Suleyman
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -3881,7 +3881,7 @@ mardanish_the_founder = {
 
 73675 = {
 	name = "Suleyman" # Suleyman ibn al-Hakam, Muwalladi Caliph (1009-1010 & 1013-1016), Sultan of Andalusia (1009-1010 & 1013-1016) & Sheik of Algeciras, Cabra, Cordoba, Malaga, Moura & Niebla (1009-1010 & 1013-1016), Almería, Faro, Granada, Sevilla & Silves (1009-1010)
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -3902,7 +3902,7 @@ mardanish_the_founder = {
 
 73676 = {
 	name = "Abd-al-Malik" # Abd al-Malik ibn Abd al-Rahman
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -3920,7 +3920,7 @@ mardanish_the_founder = {
 
 73677 = {
 	name = "Muhammad" # Muhammad ibn Abd al-Malik
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -3941,7 +3941,7 @@ mardanish_the_founder = {
 
 73678 = {
 	name = "Abd-al-Rahman" # Abd al-Rahman (IV) ibn Muhammad, Muwalladi Caliph (1018), Sultan of Andalusia (1018) & Sheik of Cabra, Cordoba, Moura & Niebla (1018)
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -4974,7 +4974,7 @@ andalusian0025 = {
 
 andalusian0026 = {
 	name = "Hisham" # Hisham ibn Abd al-Rahman
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -4992,7 +4992,7 @@ andalusian0026 = {
 
 andalusian0027 = {
 	name = "al-Mundir" # al-Mundir ibn Abd al-Rahman
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -5011,7 +5011,7 @@ andalusian0027 = {
 
 andalusian0028 = {
 	name = "Abdallah" # Abdallah ibn Abd al-Rahman
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -5033,7 +5033,7 @@ andalusian0028 = {
 
 andalusian0029 = {
 	name = "Marwan" # Marwan ibn Abd al-Rahman
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -5051,7 +5051,7 @@ andalusian0029 = {
 
 andalusian0030 = {
 	name = "al-Asbag" # al-Asbag ibn Abd al-Rahman
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -5070,7 +5070,7 @@ andalusian0030 = {
 
 andalusian0031 = {
 	name = "al-Zuhayr" # al-Zuhayr ibn Abd al-Rahman
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -5089,7 +5089,7 @@ andalusian0031 = {
 
 andalusian0032 = {
 	name = "al-Mughira" # al-Mughira ibn Abd al-Rahman
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -5127,7 +5127,7 @@ andalusian0033 = {
 andalusian0034 = {
 	name = "Hind" # Hind bint Abd al-Rahman
 	female = yes
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -5147,7 +5147,7 @@ andalusian0034 = {
 andalusian0035 = {
 	name = "Wallada" # Wallada bint Abd al-Rahman
 	female = yes
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -5167,7 +5167,7 @@ andalusian0035 = {
 andalusian0036 = {
 	name = "Saniyya" # Saniyya bint Abd al-Rahman
 	female = yes
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -5186,7 +5186,7 @@ andalusian0036 = {
 
 andalusian0037 = {
 	name = "Salama" # Salama ibn Abd al-Rahman
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -5205,7 +5205,7 @@ andalusian0037 = {
 
 andalusian0038 = {
 	name = "al-Mutarrif" # al-Mutarrif ibn al-Mughira
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -5223,7 +5223,7 @@ andalusian0038 = {
 
 andalusian0039 = {
 	name = "Abd-al-Rahman" # Abd al-Rahman ibn al-Hakam
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -5242,7 +5242,7 @@ andalusian0039 = {
 
 andalusian0040 = {
 	name = "Abd-al-Aziz" # Abd al-Aziz ibn Abd al-Rahman
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -5261,7 +5261,7 @@ andalusian0040 = {
 
 andalusian0041 = {
 	name = "al-Asbag" # al-Asbag ibn Abd al-Aziz
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -5279,7 +5279,7 @@ andalusian0041 = {
 
 andalusian0042 = {
 	name = "al-Qasim" # al-Qasim ibn al-Asbag
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -5297,7 +5297,7 @@ andalusian0042 = {
 
 andalusian0043 = {
 	name = "Muhammad" # Muhammad ibn Suleyman
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -5315,7 +5315,7 @@ andalusian0043 = {
 
 andalusian0044 = {
 	name = "Walid" # Walid ibn Suleyman
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -5333,7 +5333,7 @@ andalusian0044 = {
 
 andalusian0045 = {
 	name = "Maslama" # Maslama ibn Suleyman
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -5352,7 +5352,7 @@ andalusian0045 = {
 andalusian0046 = {
 	name = "Umm" # Umm bint Suleyman
 	female = yes
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -5370,7 +5370,7 @@ andalusian0046 = {
 
 andalusian0047 = {
 	name = "Ubayd-Allah" # Ubayd Allah ibn Muhammad
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -5388,7 +5388,7 @@ andalusian0047 = {
 
 andalusian0048 = {
 	name = "Hisham" # Hisham ibn Suleyman
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -5406,7 +5406,7 @@ andalusian0048 = {
 
 andalusian0049 = {
 	name = "Abd-al-Rahman" # Abd al-Rahman ibn Hisham
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -5424,7 +5424,7 @@ andalusian0049 = {
 
 andalusian0050 = {
 	name = "Muhammad" # Muhammad ibn Abd al-Rahman
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -5442,7 +5442,7 @@ andalusian0050 = {
 
 andalusian0051 = {
 	name = "Suleyman" # Suleyman ibn Abd al-Rahman
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -5460,7 +5460,7 @@ andalusian0051 = {
 
 andalusian0052 = {
 	name = "Hisham" # Hisham ibn Ubayd Allah
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -5479,7 +5479,7 @@ andalusian0052 = {
 
 andalusian0053 = {
 	name = "Abd-al-Yabbar" # Abd al-Yabbar ibn al-Mughira
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -5497,7 +5497,7 @@ andalusian0053 = {
 
 andalusian0054 = {
 	name = "Abd-al-Malik" # Abd al-Malik ibn al-Mundir
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -5515,7 +5515,7 @@ andalusian0054 = {
 
 andalusian0055 = {
 	name = "Hisham" # Hisham ibn Abd al-Malik
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -5645,7 +5645,7 @@ andalusian0061 = {
 
 andalusian0062 = {
 	name = "al-Asbag" # al-Asbag ibn al-Hakam
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -5663,7 +5663,7 @@ andalusian0062 = {
 
 andalusian0063 = {
 	name = "Muhammad" # Muhammad ibn al-Asbag
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -5681,7 +5681,7 @@ andalusian0063 = {
 
 andalusian0064 = {
 	name = "Muhammad" # Muhammad ibn Muhammad
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -5699,7 +5699,7 @@ andalusian0064 = {
 
 andalusian0065 = {
 	name = "Ahmad" # Ahmad ibn Muhammad
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh
@@ -5720,7 +5720,7 @@ andalusian0065 = {
 
 andalusian0066 = {
 	name = "Abd-al-Aziz" # Abd al-Aziz ibn Ahmad, Sheik of Melilla (1058-1063)
-	dynasty_house = house_Umawi
+	dynasty_house = house_Umayyad
 	religion = muwalladi
 	culture = andalusian
 	trait = sayyid_quraysh

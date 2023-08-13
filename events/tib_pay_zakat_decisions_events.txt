@@ -3,14 +3,12 @@ namespace = tib_pay_zakat_decisions
 tib_pay_zakat_decisions.0101 = {
 	hidden = yes
 	immediate = {
-		scope:root = {
-			faith_modifier = {
-                parameter = mandatory_zakat
-                monthly_piety_gain_mult = -0.05
-                same_faith_opinion = -5
-            }
-		}
-	}
+        faith_modifier = {
+            parameter = mandatory_zakat
+            monthly_piety_gain_mult = -0.05
+            same_faith_opinion = -5
+        }
+    }
 }
 tib_pay_zakat_decisions.0001 = {
 	type = character_event
@@ -19,29 +17,65 @@ tib_pay_zakat_decisions.0001 = {
 	theme = faith
 	left_portrait = {
 		character = root
-		animation = happiness
+        triggered_animation = {
+            trigger = {
+                has_trait = greedy
+                has_trait = cynical
+            }
+            animation = boredom
+        }
+        animation = personality_compassionate
 	}
+    right_portrait = {
+        character = scope:amil
+        animation = throne_room_writer
+    }
     lower_center_portrait = {
+        trigger = {
+			NOT = { top_liege = root.faith.religious_head }
+            NOT = { root = top_liege }
+		}
         character = top_liege
     }
     lower_right_portrait = {
+        trigger = {
+			NOT = { root = root.faith.religious_head }
+		}
         character = faith.religious_head
     }
 
     immediate = {
-		save_scope_as = paid_zakat_value
-		set_variable = {
-			name = zakat_value
-			value = gold
-		}
-		change_variable = {
-			name = zakat_value
-            multiply = 0.025 # 2.5% of total wealth
-		}
+		root.faith.religious_head = {
+            save_scope_as = caliph
+        }
+        random_living_character = {
+            limit = {
+                is_female = no
+                is_adult = yes
+                faith = root.faith
+                culture = root.capital_province.culture
+                is_landed = no
+                is_ruler = no
+            }
+            save_scope_as = amil
+        }
+        scope:amil = { # They are eligible to get Zakat
+            add_gold = { 
+                value = root.gold
+                multiply = 0.025 # 2.5% of total wealth
+            }
+        }
 	}
 
-    option = {
+    option = { # To the liege
 		name = tib_pay_zakat_decisions.0001.a
+        trigger = {
+			NOR = { 
+                top_liege = scope:caliph
+                scope:caliph = { has_full_zakat_authority_trigger = yes } # Will be forced to pay to the caliph
+            }
+		}
+        highlight_portrait = top_liege
         add_piety = 150
         top_liege = {
             change_variable = {
@@ -54,13 +88,23 @@ tib_pay_zakat_decisions.0001 = {
         }
 
 		ai_chance = {
-			base = 100
-		}
-	}
-    option = {
+			base = 15
+            modifier = {
+                add = 15
+                has_trait = cynical
+		    }
+            modifier = {
+                add = 10
+                has_trait = loyal
+                #opinion_of_liege >= 40
+            }
+	    }
+    }
+    option = { # To the Caliph
 		name = tib_pay_zakat_decisions.0001.b
-        add_piety = 150
-        faith.religious_head = {
+        highlight_portrait = faith.religious_head
+        add_piety = 200
+        scope:caliph = {
             change_variable = {
                 name = zakat_resource
                 add = { 
@@ -70,7 +114,850 @@ tib_pay_zakat_decisions.0001 = {
             }
         }
         ai_chance = {
-			base = 100
+			base = 15
+            modifier = {
+                add = 15
+                has_trait = zealous
+		    }
+            modifier = {
+                add = -10
+                scope:caliph = { has_realm_law = tib_caliphal_authority_0 } # Less likely to pay the caliph
+            }
+            modifier = {
+                add = 5
+                scope:caliph = { has_realm_law = tib_caliphal_authority_1 } # More likely to pay the caliph
+            }
 		}
     }
+}
+
+# Distribute the Zakat events
+## Don't forget to fully use custom_tooltip
+# 0201 (Think about it...) - a. Distribute properly -> 0202 | b. Embezzle funds -> 0203 | c. Cancel
+# 0203 (Choose amount to embezzle) a. minor | b. medium | c. major | d. massive | e. take all | f. Cancel -> 0201
+# 0202 (Sector types) - a. To the poor and needy (Every county +opinion) -> 0210 | b. Patronise manumission (Adds 2,4,6,9 good stats courtiers to court) -> 0211 | c. To travelers (everything that helps them) -> 0212 | d. Build homes for the homeless (+tax, +levy, -build_time) -> 0213 | For the cause of Allah (jihads, increase faith fervour) -> 0214 | f. Cancel -> 0201
+## Each sector type will have toast event
+
+
+tib_pay_zakat_decisions.0201 = { # Think about it...
+	type = character_event
+    title = tib_pay_zakat_decisions.0201.t
+	desc = tib_pay_zakat_decisions.0201.desc
+	theme = stewardship_domain_focus
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+    right_portrait = {
+		character = cp:councillor_steward
+		animation = personality_compassionate
+	}
+
+    option = { # Distribute properly
+		name = tib_pay_zakat_decisions.0201.a
+        trigger_event = tib_pay_zakat_decisions.0202
+
+		ai_chance = {
+			base = 50
+            modifier = {
+                add = 50
+                has_trait = just
+                has_trait = zealous
+                has_trait = generous
+            }
+		}
+	}
+    option = { # Embezzle the funds!
+		name = tib_pay_zakat_decisions.0201.b
+        trigger_event = tib_pay_zakat_decisions.0203
+
+		ai_chance = {
+			base = 30
+            modifier = {
+                add = 70
+                has_trait = arbitrary
+                #has_trait = cynical
+                has_trait = greedy
+            }
+		}
+	}
+    option = { # On second thought, maybe I will not do this now...
+		name = tib_pay_zakat_decisions.0201.c
+        #remove_decision_cooldown = distribute_zakat_decision
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+tib_pay_zakat_decisions.0203 = { # Choose amount to embezzle
+	type = character_event
+    title = tib_pay_zakat_decisions.0203.t
+	desc = tib_pay_zakat_decisions.0203.desc
+	theme = stewardship_domain_focus
+	left_portrait = {
+		character = root
+		animation = ecstasy
+	}
+    right_portrait = {
+		character = cp:councillor_steward
+		animation = fear
+	}
+
+    option = { # Minor
+		name = tib_pay_zakat_decisions.0203.a
+        custom_tooltip = removed_minor_zakat_value.tt
+        trigger = {
+            var:zakat_resource >= minor_gold_value
+        }
+        show_as_unavailable = {
+            var:zakat_resource < minor_gold_value
+        }
+        change_variable = {
+            name = zakat_resource
+            add = {
+                value = minor_gold_value
+                multiply = -1
+            }
+        }
+        add_gold = {
+            value = minor_gold_value
+        }
+        add_dread = 5
+		add_tyranny = 10
+
+		ai_chance = {
+			base = 50
+            modifier = {
+                add = 30
+                short_term_gold <= minor_gold_value
+            }
+		}
+	}
+    option = { # Medium
+		name = tib_pay_zakat_decisions.0203.b
+        custom_tooltip = removed_medium_zakat_value.tt
+        trigger = {
+            var:zakat_resource >= medium_gold_value
+        }
+        show_as_unavailable = {
+            var:zakat_resource < medium_gold_value
+        }
+        change_variable = {
+            name = zakat_resource
+            add = {
+                value = medium_gold_value
+                multiply = -1
+            }
+        }
+        add_gold = {
+            value = medium_gold_value
+        }
+        add_dread = 10
+		add_tyranny = 20
+
+		ai_chance = {
+			base = 50
+            modifier = {
+                add = 40
+                var:zakat_resource <= medium_gold_value 
+            }
+		}
+	}
+    option = { # Major
+		name = tib_pay_zakat_decisions.0203.c
+        custom_tooltip = removed_major_zakat_value.tt
+        trigger = {
+            var:zakat_resource >= major_gold_value
+        }
+        show_as_unavailable = {
+            var:zakat_resource < major_gold_value
+        }
+        change_variable = {
+            name = zakat_resource
+            add = {
+                value = major_gold_value
+                multiply = -1
+            }
+        }
+        add_gold = {
+            value = major_gold_value
+        }
+        add_dread = 15
+		add_tyranny = 35
+
+		ai_chance = {
+			base = 50
+            modifier = {
+                add = 50
+                var:zakat_resource >=major_gold_value
+            }
+		}
+	}
+    option = { # Massive
+		name = tib_pay_zakat_decisions.0203.d
+        custom_tooltip = removed_massive_zakat_value.tt
+        trigger = {
+            var:zakat_resource >= massive_gold_value
+        }
+        show_as_unavailable = {
+            var:zakat_resource < massive_gold_value
+        }
+        change_variable = {
+            name = zakat_resource
+            add = {
+                value = massive_gold_value
+                multiply = -1
+            }
+        }
+        add_gold = {
+            value = massive_gold_value
+        }
+        add_dread = 20
+		add_tyranny = 45
+
+		ai_chance = {
+			base = 50
+            modifier = {
+                add = 60
+                var:zakat_resource >= massive_gold_value
+            }
+		}
+	}
+    option = { # All of it
+		name = tib_pay_zakat_decisions.0203.e
+        custom_tooltip = removed_all_zakat_value.tt
+        #trigger = {
+        #    var:zakat_resource < massive_gold_value
+        #}
+        add_gold = var:zakat_resource.value
+        add_dread = {
+            value = var:zakat_resource
+            multiply = 0.1
+        }
+		add_tyranny = {
+            value = var:zakat_resource
+            multiply = 0.2
+        }
+        change_variable = {
+            name = zakat_resource
+            add = {
+                value = var:zakat_resource
+                multiply = -1
+            }
+        }
+
+		ai_chance = {
+			base = 50
+            modifier = {
+                add = 60
+                var:zakat_resource = { value < massive_gold_value }
+            }
+		}
+	}
+    option = { # On second thought, maybe this is not the right thing to do...
+		name = tib_pay_zakat_decisions.0203.f
+        trigger_event = tib_pay_zakat_decisions.0201
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+tib_pay_zakat_decisions.0202 = { # Choose sector to focus
+	type = character_event
+    title = tib_pay_zakat_decisions.0201.t
+	desc = tib_pay_zakat_decisions.0202.desc
+	theme = stewardship_domain_focus
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+    right_portrait = {
+		character = cp:councillor_steward
+		animation = throne_room_conversation_2
+	}
+
+    # Public welfare
+	option = { # To the poor and needy
+		name = tib_pay_zakat_decisions.0202.a
+        trigger_event = {
+            id = tib_pay_zakat_decisions.0210
+        }
+
+		ai_chance = {
+			base = 50
+            modifier = {
+                add = 5
+                has_trait = just
+                has_trait = zealous
+                has_trait = generous
+            }
+		}
+	}
+    option = { # To the travelers
+		name = tib_pay_zakat_decisions.0202.b
+        trigger_event = {
+            id = tib_pay_zakat_decisions.0212
+        }
+
+		ai_chance = {
+			base = 50
+		}
+	}
+    ### END ###
+
+    # Realm development
+	option = { # Build homes for the homeless
+		name = tib_pay_zakat_decisions.0202.c
+        trigger_event = {
+            id = tib_pay_zakat_decisions.0213
+        }
+
+		ai_chance = {
+			base = 50
+            modifier = {
+                add = 5
+                has_trait = compassionate
+            }
+		}
+	}
+
+    # For the cause of Allah
+    option = { # Develop poor provinces
+		name = tib_pay_zakat_decisions.0202.d
+        trigger_event = {
+            id = tib_pay_zakat_decisions.0214
+        }
+
+		ai_chance = {
+			base = 50
+            modifier = {
+                add = 5
+                has_trait = diligent
+            }
+            modifier = {
+                add = 10
+                has_trait = zealous
+                has_trait = brave
+            }
+		}
+	}
+    ### END ###
+
+    option = { # On second thought, maybe I will not do this now...
+		name = tib_pay_zakat_decisions.0201.c
+        trigger_event = tib_pay_zakat_decisions.0201
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+tib_pay_zakat_decisions.0210 = { # To the poor and needy
+	type = character_event
+    title = tib_pay_zakat_decisions.0202.t
+	desc = tib_pay_zakat_decisions.0204.desc
+	theme = stewardship_wealth_focus
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+    right_portrait = {
+		character = cp:councillor_steward
+		animation = throne_room_writer
+	}
+
+    option = { # Minor
+		name = tib_pay_zakat_decisions.0204.a
+        trigger = {
+            var:zakat_resource >= minor_gold_value
+        }
+        show_as_unavailable = {
+            var:zakat_resource < minor_gold_value
+        }
+        custom_tooltip = { 
+            text = removed_minor_zakat_value.tt
+            change_variable = {
+                name = zakat_resource
+                add = {
+                    value = minor_gold_value
+                    multiply = -1
+                }
+            }
+        }
+        custom_tooltip =  {
+            text = will_asnaf_poor_minor_effect
+            hidden_effect = {
+                asnaf_poor_minor_effect = yes
+            }
+        }
+
+    }
+    option = { # Medium
+		name = tib_pay_zakat_decisions.0204.b
+        trigger = {
+            has_enough_zakat_funds_medium_trigger = yes
+        }
+        show_as_unavailable = {
+            has_enough_zakat_funds_medium_trigger = no
+        }
+        custom_tooltip = { 
+            text = removed_medium_zakat_value.tt
+            change_variable = {
+                name = zakat_resource
+                add = {
+                    value = medium_gold_value
+                    multiply = -1
+                }
+            }
+        }
+        custom_tooltip =  {
+            text = will_asnaf_poor_medium_effect
+            hidden_effect = {
+                asnaf_poor_medium_effect = yes
+            }
+        }
+
+    }
+    option = { # Major
+		name = tib_pay_zakat_decisions.0204.c
+        trigger = {
+            var:zakat_resource >= major_gold_value
+        }
+        show_as_unavailable = {
+            var:zakat_resource < major_gold_value
+        }
+        custom_tooltip = { 
+            text = removed_major_zakat_value.tt
+            change_variable = {
+                name = zakat_resource
+                add = {
+                    value = major_gold_value
+                    multiply = -1
+                }
+            }
+        }
+        custom_tooltip =  {
+            text = will_asnaf_poor_major_effect
+            hidden_effect = {
+                asnaf_poor_major_effect = yes
+            }
+        }
+
+    }
+    option = { # Massive
+		name = tib_pay_zakat_decisions.0204.d
+        trigger = {
+            var:zakat_resource >= massive_gold_value
+        }
+        show_as_unavailable = {
+            var:zakat_resource < massive_gold_value
+        }
+        custom_tooltip = { 
+            text = removed_massive_zakat_value.tt
+            change_variable = {
+                name = zakat_resource
+                add = {
+                    value = massive_gold_value
+                    multiply = -1
+                }
+            }
+        }
+        custom_tooltip =  {
+            text = will_asnaf_poor_massive_effect
+            hidden_effect = {
+                asnaf_poor_massive_effect = yes
+            }
+        }
+
+    }
+    option = { # On second thought, maybe I will not do this now...
+		name = tib_pay_zakat_decisions.0201.c
+        trigger_event = tib_pay_zakat_decisions.0202
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+tib_pay_zakat_decisions.0212 = { # To the travelers
+	type = character_event
+    title = tib_pay_zakat_decisions.0202.t
+	desc = tib_pay_zakat_decisions.0204.desc
+	theme = stewardship_wealth_focus
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+    right_portrait = {
+		character = cp:councillor_steward
+		animation = throne_room_writer
+	}
+
+    option = { # Minor
+		name = tib_pay_zakat_decisions.0204.a
+        trigger = {
+            var:zakat_resource >= minor_gold_value
+        }
+        show_as_unavailable = {
+            var:zakat_resource < minor_gold_value
+        }
+        custom_tooltip = { 
+            text = removed_minor_zakat_value.tt
+            change_variable = {
+                name = zakat_resource
+                add = {
+                    value = minor_gold_value
+                    multiply = -1
+                }
+            }
+        }
+        custom_tooltip =  {
+            text = will_asnaf_traveler_minor_effect
+            hidden_effect = {
+                asnaf_traveler_minor_effect = yes
+            }
+        }
+
+    }
+    option = { # Medium
+		name = tib_pay_zakat_decisions.0204.b
+        trigger = {
+            var:zakat_resource >= medium_gold_value
+        }
+        show_as_unavailable = {
+            var:zakat_resource < medium_gold_value
+        }
+        custom_tooltip = { 
+            text = removed_medium_zakat_value.tt
+            change_variable = {
+                name = zakat_resource
+                add = {
+                    value = medium_gold_value
+                    multiply = -1
+                }
+            }
+        }
+        custom_tooltip =  {
+            text = will_asnaf_traveler_medium_effect
+            hidden_effect = {
+                asnaf_traveler_medium_effect = yes
+            }
+        }
+
+    }
+    option = { # Major
+		name = tib_pay_zakat_decisions.0204.c
+        trigger = {
+            var:zakat_resource >= major_gold_value
+        }
+        show_as_unavailable = {
+            var:zakat_resource < major_gold_value
+        }
+        custom_tooltip = { 
+            text = removed_major_zakat_value.tt
+            change_variable = {
+                name = zakat_resource
+                add = {
+                    value = major_gold_value
+                    multiply = -1
+                }
+            }
+        }
+        custom_tooltip =  {
+            text = will_asnaf_traveler_major_effect
+            hidden_effect = {
+                asnaf_traveler_major_effect = yes
+            }
+        }
+
+    }
+    option = { # Massive
+		name = tib_pay_zakat_decisions.0204.d
+        trigger = {
+            var:zakat_resource >= massive_gold_value
+        }
+        show_as_unavailable = {
+            var:zakat_resource < massive_gold_value
+        }
+        custom_tooltip = { 
+            text = removed_massive_zakat_value.tt
+            change_variable = {
+                name = zakat_resource
+                add = {
+                    value = massive_gold_value
+                    multiply = -1
+                }
+            }
+        }
+        custom_tooltip =  {
+            text = will_asnaf_traveler_massive_effect
+            hidden_effect = {
+                asnaf_traveler_massive_effect = yes
+            }
+        }
+
+    }
+    option = { # On second thought, maybe I will not do this now...
+		name = tib_pay_zakat_decisions.0201.c
+        trigger_event = tib_pay_zakat_decisions.0202
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+tib_pay_zakat_decisions.0213 = { # Built homes for the homeless
+	type = character_event
+    title = tib_pay_zakat_decisions.0220.t
+	desc = tib_pay_zakat_decisions.0204.desc
+	theme = stewardship_wealth_focus
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+    right_portrait = {
+		character = cp:councillor_steward
+		animation = throne_room_writer
+	}
+
+    option = { # Minor
+		name = tib_pay_zakat_decisions.0204.a
+        trigger = {
+            var:zakat_resource >= minor_gold_value
+        }
+        show_as_unavailable = {
+            var:zakat_resource < minor_gold_value
+        }
+        custom_tooltip = { 
+            text = removed_minor_zakat_value.tt
+            change_variable = {
+                name = zakat_resource
+                add = {
+                    value = minor_gold_value
+                    multiply = -1
+                }
+            }
+        }
+        custom_tooltip =  {
+            text = will_asnaf_homeless_minor_effect
+            hidden_effect = {
+                asnaf_homeless_minor_effect = yes
+            }
+        }
+
+    }
+    option = { # Medium
+		name = tib_pay_zakat_decisions.0204.b
+        trigger = {
+            var:zakat_resource >= medium_gold_value
+        }
+        show_as_unavailable = {
+            var:zakat_resource < medium_gold_value
+        }
+        custom_tooltip = { 
+            text = removed_medium_zakat_value.tt
+            change_variable = {
+                name = zakat_resource
+                add = {
+                    value = medium_gold_value
+                    multiply = -1
+                }
+            }
+        }
+        custom_tooltip =  {
+            text = will_asnaf_homeless_medium_effect
+            hidden_effect = {
+                asnaf_homeless_medium_effect = yes
+            }
+        }
+
+    }
+    option = { # Major
+		name = tib_pay_zakat_decisions.0204.c
+        trigger = {
+            var:zakat_resource >= major_gold_value
+        }
+        show_as_unavailable = {
+            var:zakat_resource < major_gold_value
+        }
+        custom_tooltip = { 
+            text = removed_major_zakat_value.tt
+            change_variable = {
+                name = zakat_resource
+                add = {
+                    value = major_gold_value
+                    multiply = -1
+                }
+            }
+        }
+        custom_tooltip =  {
+            text = will_asnaf_homeless_major_effect
+            hidden_effect = {
+                asnaf_homeless_major_modifier = yes
+            }
+        }
+
+    }
+    option = { # Massive
+		name = tib_pay_zakat_decisions.0204.d
+        trigger = {
+            var:zakat_resource >= massive_gold_value
+        }
+        show_as_unavailable = {
+            var:zakat_resource < massive_gold_value
+        }
+        custom_tooltip = { 
+            text = removed_massive_zakat_value.tt
+            change_variable = {
+                name = zakat_resource
+                add = {
+                    value = massive_gold_value
+                    multiply = -1
+                }
+            }
+        }
+        custom_tooltip =  {
+            text = will_asnaf_homeless_massive_effect
+            hidden_effect = {
+                asnaf_homeless_massive_effect = yes
+            }
+        }
+
+    }
+    option = { # On second thought, maybe I will not do this now...
+		name = tib_pay_zakat_decisions.0201.c
+        trigger_event = tib_pay_zakat_decisions.0202
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+tib_pay_zakat_decisions.0214 = { # Those in the Cause of Allah
+	type = character_event
+    title = tib_pay_zakat_decisions.0240.t
+	desc = tib_pay_zakat_decisions.0204.desc
+	theme = stewardship_wealth_focus
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+    right_portrait = {
+		character = cp:councillor_steward
+		animation = throne_room_writer
+	}
+
+    option = { # Minor
+		name = tib_pay_zakat_decisions.0204.a
+        trigger = {
+            var:zakat_resource >= minor_gold_value
+        }
+        show_as_unavailable = {
+            var:zakat_resource < minor_gold_value
+        }
+        custom_tooltip = { 
+            text = removed_minor_zakat_value.tt
+            change_variable = {
+                name = zakat_resource
+                add = {
+                    value = minor_gold_value
+                    multiply = -1
+                }
+            }
+        }
+        custom_tooltip =  {
+            text = will_asnaf_fisabilillah_minor_effect
+            hidden_effect = {
+                asnaf_fisabilillah_minor_effect = yes
+            }
+        }
+
+    }
+    option = { # Medium
+		name = tib_pay_zakat_decisions.0204.b
+        trigger = {
+            var:zakat_resource >= medium_gold_value
+        }
+        show_as_unavailable = {
+            var:zakat_resource < medium_gold_value
+        }
+        custom_tooltip = { 
+            text = removed_medium_zakat_value.tt
+            change_variable = {
+                name = zakat_resource
+                add = {
+                    value = medium_gold_value
+                    multiply = -1
+                }
+            }
+        }
+        custom_tooltip =  {
+            text = will_asnaf_fisabilillah_medium_effect
+            hidden_effect = {
+                asnaf_fisabilillah_medium_effect = yes
+            }
+        }
+
+    }
+    option = { # Major
+		name = tib_pay_zakat_decisions.0204.c
+        trigger = {
+            var:zakat_resource >= major_gold_value
+        }
+        show_as_unavailable = {
+            var:zakat_resource < major_gold_value
+        }
+        custom_tooltip = { 
+            text = removed_major_zakat_value.tt
+            change_variable = {
+                name = zakat_resource
+                add = {
+                    value = major_gold_value
+                    multiply = -1
+                }
+            }
+        }
+        custom_tooltip =  {
+            text = will_asnaf_fisabilillah_major_effect
+            hidden_effect = {
+                asnaf_fisabilillah_major_effect = yes
+            }
+        }
+
+    }
+    option = { # Massive
+		name = tib_pay_zakat_decisions.0204.d
+        trigger = {
+            var:zakat_resource >= massive_gold_value
+        }
+        show_as_unavailable = {
+            var:zakat_resource < massive_gold_value
+        }
+        custom_tooltip = { 
+            text = removed_massive_zakat_value.tt
+            change_variable = {
+                name = zakat_resource
+                add = {
+                    value = massive_gold_value
+                    multiply = -1
+                }
+                add = {
+                    value = -500
+                }
+            }
+        }
+        custom_tooltip =  {
+            text = will_asnaf_fisabilillah_massive_effect
+            hidden_effect = {
+                asnaf_fisabilillah_massive_effect = yes
+            }
+        }
+
+    }
+    option = { # On second thought, maybe I will not do this now...
+		name = tib_pay_zakat_decisions.0201.c
+        trigger_event = tib_pay_zakat_decisions.0202
+		ai_chance = {
+			base = 0
+		}
+	}
 }

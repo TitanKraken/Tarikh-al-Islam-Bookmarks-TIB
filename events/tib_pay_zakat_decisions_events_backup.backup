@@ -1,0 +1,1259 @@
+namespace = tib_pay_zakat_decisions
+
+tib_pay_zakat_decisions.0101 = {
+	hidden = yes
+	immediate = {
+        faith_modifier = {
+            parameter = mandatory_zakat
+            monthly_piety_gain_mult = -0.05
+            same_faith_opinion = -5
+        }
+    }
+}
+tib_pay_zakat_decisions.0001 = {
+	type = character_event
+    title = tib_pay_zakat_decisions.0001.t
+	desc = tib_pay_zakat_decisions.0001.desc
+	theme = faith
+	left_portrait = {
+		character = root
+        triggered_animation = {
+            trigger = {
+                has_trait = greedy
+                has_trait = cynical
+            }
+            animation = boredom
+        }
+        animation = personality_compassionate
+	}
+    right_portrait = {
+        character = scope:amil
+        animation = throne_room_writer
+    }
+    lower_center_portrait = {
+        trigger = {
+			NOT = { top_liege = root.faith.religious_head }
+            NOT = { root = top_liege }
+		}
+        character = top_liege
+    }
+    lower_right_portrait = {
+        trigger = {
+			NOT = { root = root.faith.religious_head }
+		}
+        character = faith.religious_head
+    }
+
+    immediate = {
+		root.faith.religious_head = {
+            save_scope_as = caliph
+        }
+        random_living_character = {
+            limit = {
+                is_female = no
+                is_adult = yes
+                faith = root.faith
+                culture = root.capital_province.culture
+                is_landed = no
+                is_ruler = no
+            }
+            save_scope_as = amil
+        }
+        scope:amil = { # They are eligible to get Zakat
+            add_gold = { 
+                value = root.gold
+                multiply = 0.025 # 2.5% of total wealth
+            }
+        }
+	}
+
+    option = { # To the liege
+		name = tib_pay_zakat_decisions.0001.a
+        trigger = {
+			NOR = { 
+                top_liege = scope:caliph
+                scope:caliph = { has_full_zakat_authority_trigger = yes } # Will be forced to pay to the caliph
+            }
+		}
+        highlight_portrait = top_liege
+        add_piety = 150
+        top_liege = {
+            change_variable = {
+                name = zakat_resource
+                add = { 
+                    value = root.gold
+                    multiply = 0.025 # 2.5% of total wealth
+                }
+            }
+        }
+
+		ai_chance = {
+			base = 15
+            modifier = {
+                add = 15
+                has_trait = cynical
+		    }
+            modifier = {
+                add = 10
+                has_trait = loyal
+                #opinion_of_liege >= 40
+            }
+	    }
+    }
+    option = { # To the Caliph
+		name = tib_pay_zakat_decisions.0001.b
+        highlight_portrait = faith.religious_head
+        add_piety = 200
+        scope:caliph = {
+            change_variable = {
+                name = zakat_resource
+                add = { 
+                    value = root.gold
+                    multiply = 0.025 # 2.5% of total wealth
+                }
+            }
+        }
+        ai_chance = {
+			base = 15
+            modifier = {
+                add = 15
+                has_trait = zealous
+		    }
+            modifier = {
+                add = -10
+                scope:caliph = { has_realm_law = tib_caliphal_authority_0 } # Less likely to pay the caliph
+            }
+            modifier = {
+                add = 5
+                scope:caliph = { has_realm_law = tib_caliphal_authority_1 } # More likely to pay the caliph
+            }
+		}
+    }
+}
+
+# Distribute the Zakat events
+## Don't forget to fully use custom_tooltip
+# 0201 (Think about it...) - a. Distribute properly -> 0202 | b. Embezzle funds -> 0203 | c. Cancel
+# 0203 (Choose amount to embezzle) a. minor | b. medium | c. significant | d. Use all of it | e. Cancel -> 0201
+# 0204 (Choose amount) - a. minor | b. medium | c. significant | d. Use all of it | e. Cancel (dynamic)
+# 0202 (Sector types) - a. Public welfare -> 0210 | b. Realm development -> 0220 | c. Pushing Dawah -> 0230 | d. For the cause of Allah (jihads) -> 0240 | e. Cancel -> 0201
+## Each sector type will have toast event
+# 0210 (Public welfare) - a. To the poor and needy (County opinion) | b. To the travelers (Cheaper travel, adventurers add as courtiers) 
+# | c. Hajj patronage (reduce cost for Hajj/pilgrimages) | d. To the elderly, widows, and orphans (Summon good courtiers) | e. Cancel -> 0201
+# 0220 (Realm development) - a. Repair weak buildings (Build time decrease) | b. Develop poor provinces (Dev+ for low dev counties) | c. Build homes for the homeless (Tax+ levy+) 
+# | d. Traveling facilities (+supply limit, +travel speed&safety) | e. Cancel -> 0202
+# 0230 (Pushing Dawah) - a. To new converts (Increase convert province power) | b. To the mosques (Increase piety, temple holdings buffs) | c. Cancel -> 0202
+# 0240 (For the cause of Allah) - a. Military compensation (reduced MaA maintenance) | b. Establish more Holy Orders (cheaper holy orders) | c. Mercs for Allah (Cheaper mercs for Holy Wars) | d. Cancel -> 0202
+
+tib_pay_zakat_decisions.0201 = { # Think about it...
+	type = character_event
+    title = tib_pay_zakat_decisions.0201.t
+	desc = tib_pay_zakat_decisions.0201.desc
+	theme = stewardship_domain_focus
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+    right_portrait = {
+		character = cp:councillor_steward
+		animation = personality_compassionate
+	}
+
+    option = { # Distribute properly
+		name = tib_pay_zakat_decisions.0201.a
+        trigger_event = tib_pay_zakat_decisions.0202
+
+		ai_chance = {
+			base = 50
+            modifier = {
+                add = 50
+                has_trait = just
+                has_trait = zealous
+                has_trait = generous
+            }
+		}
+	}
+    option = { # Embezzle the funds!
+		name = tib_pay_zakat_decisions.0201.b
+        trigger_event = tib_pay_zakat_decisions.0203
+
+		ai_chance = {
+			base = 30
+            modifier = {
+                add = 70
+                has_trait = arbitrary
+                #has_trait = cynical
+                has_trait = greedy
+            }
+		}
+	}
+    option = { # On second thought, maybe I will not do this now...
+		name = tib_pay_zakat_decisions.0201.c
+        #remove_decision_cooldown = distribute_zakat_decision
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+tib_pay_zakat_decisions.0203 = { # Choose amount to embezzle
+	type = character_event
+    title = tib_pay_zakat_decisions.0203.t
+	desc = tib_pay_zakat_decisions.0203.desc
+	theme = stewardship_domain_focus
+	left_portrait = {
+		character = root
+		animation = ecstasy
+	}
+    right_portrait = {
+		character = cp:councillor_steward
+		animation = fear
+	}
+
+    option = { # Minor
+		name = tib_pay_zakat_decisions.0203.a
+        custom_tooltip = removed_minor_zakat_value.tt
+        trigger = {
+            var:zakat_resource >= minor_gold_value
+        }
+        show_as_unavailable = {
+            var:zakat_resource < minor_gold_value
+        }
+        change_variable = {
+            name = zakat_resource
+            add = {
+                value = minor_gold_value
+                multiply = -1
+            }
+        }
+        add_gold = {
+            value = minor_gold_value
+        }
+        add_dread = 5
+		add_tyranny = 10
+
+		ai_chance = {
+			base = 50
+            modifier = {
+                add = 30
+                short_term_gold <= minor_gold_value
+            }
+		}
+	}
+    option = { # Medium
+		name = tib_pay_zakat_decisions.0203.b
+        custom_tooltip = removed_medium_zakat_value.tt
+        trigger = {
+            var:zakat_resource >= medium_gold_value
+        }
+        show_as_unavailable = {
+            var:zakat_resource < medium_gold_value
+        }
+        change_variable = {
+            name = zakat_resource
+            add = {
+                value = medium_gold_value
+                multiply = -1
+            }
+        }
+        add_gold = {
+            value = medium_gold_value
+        }
+        add_dread = 10
+		add_tyranny = 20
+
+		ai_chance = {
+			base = 50
+            modifier = {
+                add = 40
+                var:zakat_resource <= medium_gold_value 
+            }
+		}
+	}
+    option = { # Major
+		name = tib_pay_zakat_decisions.0203.c
+        custom_tooltip = removed_major_zakat_value.tt
+        trigger = {
+            var:zakat_resource >= major_gold_value
+        }
+        show_as_unavailable = {
+            var:zakat_resource < major_gold_value
+        }
+        change_variable = {
+            name = zakat_resource
+            add = {
+                value = major_gold_value
+                multiply = -1
+            }
+        }
+        add_gold = {
+            value = major_gold_value
+        }
+        add_dread = 15
+		add_tyranny = 35
+
+		ai_chance = {
+			base = 50
+            modifier = {
+                add = 50
+                var:zakat_resource >=major_gold_value
+            }
+		}
+	}
+    option = { # Massive
+		name = tib_pay_zakat_decisions.0203.d
+        custom_tooltip = removed_massive_zakat_value.tt
+        trigger = {
+            var:zakat_resource >= massive_gold_value
+        }
+        show_as_unavailable = {
+            var:zakat_resource < massive_gold_value
+        }
+        change_variable = {
+            name = zakat_resource
+            add = {
+                value = massive_gold_value
+                multiply = -1
+            }
+        }
+        add_gold = {
+            value = massive_gold_value
+        }
+        add_dread = 20
+		add_tyranny = 45
+
+		ai_chance = {
+			base = 50
+            modifier = {
+                add = 60
+                var:zakat_resource >= massive_gold_value
+            }
+		}
+	}
+    option = { # All of it
+		name = tib_pay_zakat_decisions.0203.e
+        custom_tooltip = removed_all_zakat_value.tt
+        #trigger = {
+        #    var:zakat_resource < massive_gold_value
+        #}
+        change_variable = {
+            name = zakat_resource
+            add = {
+                value = var:zakat_resource
+                multiply = -1
+            }
+        }
+        add_gold = {
+            value = var:zakat_resource
+        }
+        add_dread = {
+            value = var:zakat_resource
+            multiply = 0.1
+        }
+		add_tyranny = {
+            value = var:zakat_resource
+            multiply = 0.2
+        }
+
+		ai_chance = {
+			base = 50
+            modifier = {
+                add = 60
+                var:zakat_resource = { value < massive_gold_value }
+            }
+		}
+	}
+    option = { # On second thought, maybe this is not the right thing to do...
+		name = tib_pay_zakat_decisions.0203.f
+        trigger_event = tib_pay_zakat_decisions.0201
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+tib_pay_zakat_decisions.0204 = { # Choose amount
+	type = character_event
+    title = tib_pay_zakat_decisions.0201.t
+	desc = tib_pay_zakat_decisions.0204.desc
+	theme = stewardship_wealth_focus
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+    right_portrait = {
+		character = cp:councillor_steward
+		animation = throne_room_writer
+	}
+
+    option = { # Minor
+		name = tib_pay_zakat_decisions.0204.a
+        trigger = {
+            var:zakat_resource >= minor_gold_value
+        }
+        show_as_unavailable = {
+            var:zakat_resource < minor_gold_value
+        }
+        custom_tooltip = { 
+            text = removed_minor_zakat_value.tt
+            change_variable = {
+                name = zakat_resource
+                add = {
+                    value = minor_gold_value
+                    multiply = -1
+                }
+            }
+        }
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0210.a # To the poor and needy
+            }
+            custom_tooltip =  {
+                text = will_asnaf_poor_minor_effect
+                hidden_effect = {
+                    asnaf_poor_minor_effect = yes
+                }
+            }
+        }
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0210.b # To the travelers
+            }
+            asnaf_traveler_minor_effect = yes
+        }
+        #if = {
+        #    limit = {
+        #        has_character_flag = had_event_tib_pay_zakat_decisions.0210.c # Hajj patronage
+        #    }
+        #    character_travel_speed = -10
+	    #    character_travel_safety = 10
+        #}
+        #if = {
+        #    limit = {
+        #        has_character_flag = had_event_tib_pay_zakat_decisions.0210.d # To the elderly, widows, and orphans
+        #    }
+        #}
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0220.a # Repair weak buildings
+            }
+            asnaf_weak_buildings_minor_effect = yes
+        }
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0220.b # Develop poor provinces
+            }
+            asnaf_county_dev_minor_effect = yes
+        }
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0220.c # Build homes for the homeless
+            }
+            asnaf_homeless_minor_effect = yes
+        }
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0220.d # Traveling facilities
+            }
+            traveler_facilities_minor_effect = yes
+        }
+        #if = {
+        #    limit = {
+        #        has_character_flag = had_event_tib_pay_zakat_decisions.0230.a # To new converts
+        #    }
+
+        #}
+        #if = {
+        #    limit = {
+        #        has_character_flag = had_event_tib_pay_zakat_decisions.0230.b # To the mosques
+        #    }
+        #}
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0240.a # Military compensation
+            }
+            asnaf_fisabilillah_minor_effect = yes
+        }
+        #if = {
+        #    limit = {
+        #        has_character_flag = had_event_tib_pay_zakat_decisions.0240.b # Establish more Holy Orders
+        #    }
+        #}
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0240.c # Mercs for Allah
+            }
+            asnaf_mercs_fisabilillah_minor_effect = yes
+        }
+
+		ai_chance = {
+			base = 50
+            modifier = {
+                add = 30
+                var:zakat_resource <= minor_gold_value
+            }
+		}
+	}
+    option = { # Medium
+		name = tib_pay_zakat_decisions.0204.b
+        custom_tooltip = removed_medium_zakat_value.tt
+        trigger = {
+            var:zakat_resource >= medium_gold_value
+        }
+        show_as_unavailable = {
+            var:zakat_resource < medium_gold_value
+        }
+        change_variable = {
+            name = zakat_resource
+            add = {
+                value = medium_gold_value
+                multiply = -1
+            }
+        }
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0210.a # To the poor and needy
+            }
+            asnaf_poor_medium_effect = yes
+        }
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0210.b # To the travelers
+            }
+            asnaf_traveler_medium_effect = yes
+        }
+        #if = {
+        #    limit = {
+        #        has_character_flag = had_event_tib_pay_zakat_decisions.0210.c # Hajj patronage
+        #    }
+        #    character_travel_speed = -10
+	    #    character_travel_safety = 10
+        #}
+        #if = {
+        #    limit = {
+        #        has_character_flag = had_event_tib_pay_zakat_decisions.0210.d # To the elderly, widows, and orphans
+        #    }
+        #}
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0220.a # Repair weak buildings
+            }
+            asnaf_weak_buildings_medium_effect = yes
+        }
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0220.b # Develop poor provinces
+            }
+            asnaf_county_dev_medium_effect = yes
+        }
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0220.c # Build homes for the homeless
+            }
+            asnaf_homeless_medium_effect = yes
+        }
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0220.d # Traveling facilities
+            }
+            traveler_facilities_medium_effect = yes
+        }
+        #if = {
+        #    limit = {
+        #        has_character_flag = had_event_tib_pay_zakat_decisions.0230.a # To new converts
+        #    }
+
+        #}
+        #if = {
+        #    limit = {
+        #        has_character_flag = had_event_tib_pay_zakat_decisions.0230.b # To the mosques
+        #    }
+        #}
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0240.a # Military compensation
+            }
+            asnaf_fisabilillah_medium_effect = yes
+        }
+        #if = {
+        #    limit = {
+        #        has_character_flag = had_event_tib_pay_zakat_decisions.0240.b # Establish more Holy Orders
+        #    }
+        #}
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0240.c # Mercs for Allah
+            }
+            asnaf_mercs_fisabilillah_medium_effect = yes
+        }
+
+		ai_chance = {
+			base = 50
+            modifier = {
+                add = 40
+                var:zakat_resource <= medium_gold_value
+            }
+		}
+	}
+    option = { # Major
+		name = tib_pay_zakat_decisions.0204.c
+        custom_tooltip = removed_major_zakat_value.tt
+        trigger = {
+            var:zakat_resource >= major_gold_value
+        }
+        show_as_unavailable = {
+            var:zakat_resource < major_gold_value
+        }
+        change_variable = {
+            name = zakat_resource
+            add = {
+                value = major_gold_value
+                multiply = -1
+            }
+        }
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0210.a # To the poor and needy
+            }
+            asnaf_poor_major_effect = yes
+        }
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0210.b # To the travelers
+            }
+            asnaf_traveler_major_effect = yes
+        }
+        #if = {
+        #    limit = {
+        #        has_character_flag = had_event_tib_pay_zakat_decisions.0210.c # Hajj patronage
+        #    }
+        #    character_travel_speed = -10
+	    #    character_travel_safety = 10
+        #}
+        #if = {
+        #    limit = {
+        #        has_character_flag = had_event_tib_pay_zakat_decisions.0210.d # To the elderly, widows, and orphans
+        #    }
+        #}
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0220.a # Repair weak buildings
+            }
+            asnaf_weak_buildings_major_effect = yes
+        }
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0220.b # Develop poor provinces
+            }
+            asnaf_county_dev_major_effect = yes
+        }
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0220.c # Build homes for the homeless
+            }
+            asnaf_homeless_major_effect = yes
+        }
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0220.d # Traveling facilities
+            }
+            traveler_facilities_major_effect = yes
+        }
+        #if = {
+        #    limit = {
+        #        has_character_flag = had_event_tib_pay_zakat_decisions.0230.a # To new converts
+        #    }
+
+        #}
+        #if = {
+        #    limit = {
+        #        has_character_flag = had_event_tib_pay_zakat_decisions.0230.b # To the mosques
+        #    }
+        #}
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0240.a # Military compensation
+            }
+            asnaf_fisabilillah_major_effect = yes
+        }
+        #if = {
+        #    limit = {
+        #        has_character_flag = had_event_tib_pay_zakat_decisions.0240.b # Establish more Holy Orders
+        #    }
+        #}
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0240.c # Mercs for Allah
+            }
+            asnaf_mercs_fisabilillah_major_effect = yes
+        }
+
+		ai_chance = {
+			base = 50
+            modifier = {
+                add = 50
+                var:zakat_resource <= massive_gold_value 
+            }
+		}
+	}
+    option = { # Massive
+		name = tib_pay_zakat_decisions.0204.d
+        custom_tooltip = removed_massive_zakat_value.tt
+        trigger = {
+            var:zakat_resource > massive_gold_value
+        }
+        show_as_unavailable = {
+            var:zakat_resource < massive_gold_value
+        }
+        change_variable = {
+            name = zakat_resource
+            add = {
+                value = massive_gold_value
+                multiply = -1
+            }
+        }
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0210.a # To the poor and needy
+            }
+            asnaf_poor_massive_effect = yes
+        }
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0210.b # To the travelers
+            }
+            asnaf_traveler_massive_effect = yes
+        }
+        #if = {
+        #    limit = {
+        #        has_character_flag = had_event_tib_pay_zakat_decisions.0210.c # Hajj patronage
+        #    }
+        #    character_travel_speed = -10
+	    #    character_travel_safety = 10
+        #}
+        #if = {
+        #    limit = {
+        #        has_character_flag = had_event_tib_pay_zakat_decisions.0210.d # To the elderly, widows, and orphans
+        #    }
+        #}
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0220.a # Repair weak buildings
+            }
+            asnaf_weak_buildings_massive_effect = yes
+        }
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0220.b # Develop poor provinces
+            }
+            asnaf_county_dev_massive_effect = yes
+        }
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0220.c # Build homes for the homeless
+            }
+            asnaf_homeless_massive_effect = yes
+        }
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0220.d # Traveling facilities
+            }
+            traveler_facilities_massive_effect = yes
+        }
+        #if = {
+        #    limit = {
+        #        has_character_flag = had_event_tib_pay_zakat_decisions.0230.a # To new converts
+        #    }
+
+        #}
+        #if = {
+        #    limit = {
+        #        has_character_flag = had_event_tib_pay_zakat_decisions.0230.b # To the mosques
+        #    }
+        #}
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0240.a # Military compensation
+            }
+            asnaf_fisabilillah_massive_effect = yes
+        }
+        #if = {
+        #    limit = {
+        #        has_character_flag = had_event_tib_pay_zakat_decisions.0240.b # Establish more Holy Orders
+        #    }
+        #}
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0240.c # Mercs for Allah
+            }
+            asnaf_mercs_fisabilillah_massive_effect = yes
+        }
+
+		ai_chance = {
+			base = 50
+            modifier = {
+                add = 60
+                var:zakat_resource >= massive_gold_value
+            }
+		}
+    }
+    option = { # On second thought, maybe I will not do this now...
+		name = tib_pay_zakat_decisions.0204.f
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0210.a
+                NOR = {
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0210.b
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0220.a
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0220.b
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0220.c
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0240.a
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0240.c
+                }
+            }
+            trigger_event = tib_pay_zakat_decisions.0210
+        }
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0210.b
+                NOR = {
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0210.a
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0220.a
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0220.b
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0220.c
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0240.a
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0240.c
+                }
+            }
+            trigger_event = tib_pay_zakat_decisions.0210
+        }
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0220.a
+                NOR = {
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0210.a
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0210.b
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0220.b
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0220.c
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0240.a
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0240.c
+                }
+            }
+            trigger_event = tib_pay_zakat_decisions.0220
+        }
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0220.b
+                NOR = {
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0210.a
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0210.b
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0220.a
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0220.c
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0240.a
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0240.c
+                }
+            }
+            trigger_event = tib_pay_zakat_decisions.0220
+        }
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0220.c
+                NOR = {
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0210.a
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0210.b
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0220.a
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0220.b
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0240.a
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0240.c
+                }
+            }
+            trigger_event = tib_pay_zakat_decisions.0220
+        }
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0240.a
+                NOR = {
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0210.a
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0210.b
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0220.a
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0220.b
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0220.c
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0240.c
+                }
+            }
+            trigger_event = tib_pay_zakat_decisions.0240
+        }
+        if = {
+            limit = {
+                has_character_flag = had_event_tib_pay_zakat_decisions.0240.c
+                NOR = {
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0210.a
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0210.b
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0220.a
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0220.b
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0220.c
+                    has_character_flag = had_event_tib_pay_zakat_decisions.0240.a
+                }
+            }
+            trigger_event = tib_pay_zakat_decisions.0240
+        }
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+tib_pay_zakat_decisions.0202 = { # Choose sector to focus
+	type = character_event
+    title = tib_pay_zakat_decisions.0201.t
+	desc = tib_pay_zakat_decisions.0202.desc
+	theme = stewardship_domain_focus
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+    right_portrait = {
+		character = cp:councillor_steward
+		animation = throne_room_conversation_2
+	}
+
+    option = { # Public welfare
+		name = tib_pay_zakat_decisions.0202.a
+        trigger_event = {
+            id = tib_pay_zakat_decisions.0210
+        }
+
+		ai_chance = {
+			base = 50
+            modifier = {
+                add = 5
+                has_trait = just
+                has_trait = zealous
+                has_trait = generous
+            }
+		}
+	}
+    option = { # Realm development
+		name = tib_pay_zakat_decisions.0202.b
+        trigger_event = {
+            id = tib_pay_zakat_decisions.0220
+        }
+
+		ai_chance = {
+			base = 50
+            modifier = {
+                add = 5
+                has_trait = diligent
+            }
+		}
+	}
+    option = { # For the cause of Allah
+		name = tib_pay_zakat_decisions.0202.d
+        trigger_event = {
+            id = tib_pay_zakat_decisions.0240
+        }
+
+		ai_chance = {
+			base = 50
+            modifier = {
+                add = 5
+                has_trait = brave
+            }
+		}
+	}
+    option = { # On second thought, maybe I will not do this now...
+		name = tib_pay_zakat_decisions.0201.c
+        trigger_event = tib_pay_zakat_decisions.0201
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+tib_pay_zakat_decisions.0210 = { # Public welfare
+	type = character_event
+    title = tib_pay_zakat_decisions.0210.t
+	desc = tib_pay_zakat_decisions.0210.desc
+	theme = default
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+    right_portrait = {
+		character = cp:councillor_steward
+		animation = personality_compassionate
+	}
+
+    option = { # To the poor and needy
+		name = tib_pay_zakat_decisions.0210.a
+        trigger_event = {
+            id = tib_pay_zakat_decisions.0211
+        }
+        add_character_flag = had_event_tib_pay_zakat_decisions.0210.a
+
+		ai_chance = {
+			base = 50
+            modifier = {
+                add = 5
+                has_trait = just
+                has_trait = zealous
+                has_trait = generous
+            }
+		}
+	}
+    option = { # To the travelers
+		name = tib_pay_zakat_decisions.0210.b
+        trigger_event = {
+            id = tib_pay_zakat_decisions.0211
+        }
+        add_character_flag = had_event_tib_pay_zakat_decisions.0210.b
+
+		ai_chance = {
+			base = 50
+		}
+	}
+    option = { # On second thought, maybe I will not do this now...
+		name = tib_pay_zakat_decisions.0201.c
+        trigger_event = tib_pay_zakat_decisions.0202
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+tib_pay_zakat_decisions.0220 = { # Realm development
+	type = character_event
+    title = tib_pay_zakat_decisions.0220.t
+	desc = tib_pay_zakat_decisions.0210.desc
+	theme = stewardship_wealth_focus
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+    right_portrait = {
+		character = cp:councillor_steward
+		animation = personality_compassionate
+	}
+
+    option = { # Repair weak buildings
+		name = tib_pay_zakat_decisions.0220.a
+        trigger_event = {
+            id = tib_pay_zakat_decisions.0204
+        }
+        add_character_flag = had_event_tib_pay_zakat_decisions.0220.a
+
+		ai_chance = {
+			base = 50
+            modifier = {
+                add = 5
+                has_trait = compassionate
+            }
+		}
+	}
+    option = { # Develop poor provinces
+		name = tib_pay_zakat_decisions.0220.b
+        trigger_event = {
+            id = tib_pay_zakat_decisions.0204
+        }
+        add_character_flag = had_event_tib_pay_zakat_decisions.0220.b
+
+		ai_chance = {
+			base = 50
+            modifier = {
+                add = 5
+                has_trait = diligent
+            }
+		}
+	}
+    option = { # Traveling facilities
+		name = tib_pay_zakat_decisions.0220.d
+        trigger_event = {
+            id = tib_pay_zakat_decisions.0204
+        }
+        add_character_flag = had_event_tib_pay_zakat_decisions.0220.d
+
+		ai_chance = {
+			base = 50
+            modifier = {
+                add = 5
+                has_trait = diligent
+            }
+		}
+	}
+    option = { # On second thought, maybe I will not do this now...
+		name = tib_pay_zakat_decisions.0201.c
+        trigger_event = tib_pay_zakat_decisions.0202
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+tib_pay_zakat_decisions.0240 = { # For the cause of Allah/Fisabilillah
+	type = character_event
+    title = tib_pay_zakat_decisions.0240.t
+	desc = tib_pay_zakat_decisions.0210.desc
+	theme = martial_strategy_focus
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+    right_portrait = {
+		character = cp:councillor_steward
+		animation = personality_compassionate
+	}
+
+    option = { # Military compensation
+		name = tib_pay_zakat_decisions.0240.a
+        trigger_event = {
+            id = tib_pay_zakat_decisions.0204
+        }
+        add_character_flag = had_event_tib_pay_zakat_decisions.0240.a
+
+		ai_chance = {
+			base = 50
+		}
+	}
+    option = { # Cheaper mercs
+		name = tib_pay_zakat_decisions.0240.c
+        trigger_event = {
+            id = tib_pay_zakat_decisions.0204
+        }
+        add_character_flag = had_event_tib_pay_zakat_decisions.0240.c
+
+		ai_chance = {
+			base = 50
+		}
+	}
+    option = { # On second thought, maybe I will not do this now...
+		name = tib_pay_zakat_decisions.0201.c
+        trigger_event = tib_pay_zakat_decisions.0202
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+tib_pay_zakat_decisions.0211 = { # Choose amount
+	type = character_event
+    title = tib_pay_zakat_decisions.0201.t
+	desc = tib_pay_zakat_decisions.0204.desc
+	theme = stewardship_wealth_focus
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+    right_portrait = {
+		character = cp:councillor_steward
+		animation = throne_room_writer
+	}
+
+    option = { # Minor
+		name = tib_pay_zakat_decisions.0204.a
+        trigger = {
+            var:zakat_resource >= minor_gold_value
+        }
+        show_as_unavailable = {
+            var:zakat_resource < minor_gold_value
+        }
+        custom_tooltip = { 
+            text = removed_minor_zakat_value.tt
+            change_variable = {
+                name = zakat_resource
+                add = {
+                    value = minor_gold_value
+                    multiply = -1
+                }
+            }
+        }
+        custom_tooltip =  {
+            text = will_asnaf_poor_minor_effect
+            hidden_effect = {
+                asnaf_poor_minor_effect = yes
+            }
+        }
+
+    }
+    option = { # Medium
+		name = tib_pay_zakat_decisions.0204.b
+        trigger = {
+            var:zakat_resource >= medium_gold_value
+        }
+        show_as_unavailable = {
+            var:zakat_resource < medium_gold_value
+        }
+        custom_tooltip = { 
+            text = removed_medium_zakat_value.tt
+            change_variable = {
+                name = zakat_resource
+                add = {
+                    value = medium_gold_value
+                    multiply = -1
+                }
+            }
+        }
+        custom_tooltip =  {
+            text = will_asnaf_poor_medium_effect
+            hidden_effect = {
+                asnaf_poor_medium_effect = yes
+            }
+        }
+
+    }
+    option = { # Major
+		name = tib_pay_zakat_decisions.0204.c
+        trigger = {
+            var:zakat_resource >= major_gold_value
+        }
+        show_as_unavailable = {
+            var:zakat_resource < major_gold_value
+        }
+        custom_tooltip = { 
+            text = removed_major_zakat_value.tt
+            change_variable = {
+                name = zakat_resource
+                add = {
+                    value = major_gold_value
+                    multiply = -1
+                }
+            }
+        }
+        custom_tooltip =  {
+            text = will_asnaf_poor_major_effect
+            hidden_effect = {
+                asnaf_poor_major_effect = yes
+            }
+        }
+
+    }
+    option = { # Massive
+		name = tib_pay_zakat_decisions.0204.d
+        trigger = {
+            var:zakat_resource >= massive_gold_value
+        }
+        show_as_unavailable = {
+            var:zakat_resource < massive_gold_value
+        }
+        custom_tooltip = { 
+            text = removed_massive_zakat_value.tt
+            change_variable = {
+                name = zakat_resource
+                add = {
+                    value = massive_gold_value
+                    multiply = -1
+                }
+            }
+        }
+        custom_tooltip =  {
+            text = will_asnaf_poor_massive_effect
+            hidden_effect = {
+                asnaf_poor_massive_effect = yes
+            }
+        }
+
+    }
+    option = { # On second thought, maybe I will not do this now...
+		name = tib_pay_zakat_decisions.0201.c
+        trigger_event = tib_pay_zakat_decisions.0210
+		ai_chance = {
+			base = 0
+		}
+	}
+}

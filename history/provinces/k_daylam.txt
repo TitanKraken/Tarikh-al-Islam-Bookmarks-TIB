@@ -118,7 +118,7 @@
 	holding = castle_holding
 	1060.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = maturidi
 	}
 }
 4033 = {	#Dihistan

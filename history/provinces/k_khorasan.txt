@@ -106,7 +106,7 @@
 	religion = mazdayasna	
 	holding = castle_holding
 	1060.1.1 = {
-		religion = ashari
+		religion = maturidi
 	}
 }
 4024 = {	#Biyar	#Biar-e Kord
@@ -397,7 +397,7 @@
 		religion = azariqa
 	}
 	880.1.1 = {
-		religion = ashari
+		religion = maturidi
 	}
 }
 4205 = {	#Adraskan
@@ -504,7 +504,7 @@
 	holding = castle_holding
 	1060.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = maturidi
 	}
 }
 4041 = {	#Shahrastan
@@ -524,7 +524,7 @@
 	holding = castle_holding
 	1060.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = maturidi
 	}
 }
 4037 = {	#Hesare-Taq
