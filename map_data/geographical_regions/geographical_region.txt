@@ -1651,6 +1651,26 @@ custom_polabia = {
 	}
 }
 
+# Custom Rum. This was where the Sultanate of Rum was established
+custom_rum = {
+	duchies = {
+		# Syria
+		d_antioch
+		# Lebanon, just in case Byzantines conquered it
+		d_lebanon
+		# Anatolia
+		d_cilicia d_anatolia d_cappadocia d_charsianon d_armeniac d_bucellaria d_thracesia d_cibyrrhaeot d_ephese d_sebasteia d_paphlagonia
+	}
+	
+	counties = {
+		# Trebizond remained in Byzantine hands, so I'm not adding all of d_chaldia
+		c_satala c_colonea c_cerasus
+		# Same with d_opsikion
+		c_phrygia c_prusa c_mysia 
+		# And a bit of Syria since Byzantines often conquer this
+		c_shayzar
+	}
+}
 
 ###########################################################################
 # Graphical Regions

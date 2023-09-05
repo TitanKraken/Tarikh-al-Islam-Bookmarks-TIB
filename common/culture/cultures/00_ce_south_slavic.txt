@@ -20,7 +20,16 @@
 	unit_gfx = { eastern_unit_gfx }
 	
 	ethnicities = {
-		10 = mediterranean_byzantine
+		5 = european_south_slavic_blond_1
+		5 = european_south_slavic_blond_2
+		10 = european_south_slavic_blond_3
+		10 = european_south_slavic_brown_1
+		10 = european_south_slavic_brown_2
+		10 = european_south_slavic_brown_3
+		10 = european_south_slavic_brown_4
+		10 = european_south_slavic_dark_1
+		10 = european_south_slavic_dark_2
+		10 = european_south_slavic_dark_3
 	}
 }
 
@@ -49,7 +58,16 @@ dudlebian = {
 	unit_gfx = { eastern_unit_gfx }
 	
 	ethnicities = {
-		10 = mediterranean_byzantine
+		5 = european_south_slavic_blond_1
+		5 = european_south_slavic_blond_2
+		10 = european_south_slavic_blond_3
+		10 = european_south_slavic_brown_1
+		10 = european_south_slavic_brown_2
+		10 = european_south_slavic_brown_3
+		10 = european_south_slavic_brown_4
+		10 = european_south_slavic_dark_1
+		10 = european_south_slavic_dark_2
+		10 = european_south_slavic_dark_3
 	}
 }
 
@@ -74,7 +92,16 @@ slavonian = {
 	unit_gfx = { eastern_unit_gfx }
 	
 	ethnicities = {
-		10 = mediterranean_byzantine
+		5 = european_south_slavic_blond_1
+		5 = european_south_slavic_blond_2
+		10 = european_south_slavic_blond_3
+		10 = european_south_slavic_brown_1
+		10 = european_south_slavic_brown_2
+		10 = european_south_slavic_brown_3
+		10 = european_south_slavic_brown_4
+		10 = european_south_slavic_dark_1
+		10 = european_south_slavic_dark_2
+		10 = european_south_slavic_dark_3
 	}
 }
 
@@ -99,7 +126,16 @@ neretljanian = {
 	unit_gfx = { eastern_unit_gfx }
 	
 	ethnicities = {
-		10 = mediterranean_byzantine
+		5 = european_south_slavic_blond_1
+		5 = european_south_slavic_blond_2
+		10 = european_south_slavic_blond_3
+		10 = european_south_slavic_brown_1
+		10 = european_south_slavic_brown_2
+		10 = european_south_slavic_brown_3
+		10 = european_south_slavic_brown_4
+		10 = european_south_slavic_dark_1
+		10 = european_south_slavic_dark_2
+		10 = european_south_slavic_dark_3
 	}
 }
 
@@ -131,7 +167,16 @@ abotrite = {
 	unit_gfx = { eastern_unit_gfx }
 	
 	ethnicities = {
-		10 = mediterranean_byzantine
+		5 = european_south_slavic_blond_1
+		5 = european_south_slavic_blond_2
+		10 = european_south_slavic_blond_3
+		10 = european_south_slavic_brown_1
+		10 = european_south_slavic_brown_2
+		10 = european_south_slavic_brown_3
+		10 = european_south_slavic_brown_4
+		10 = european_south_slavic_dark_1
+		10 = european_south_slavic_dark_2
+		10 = european_south_slavic_dark_3
 	}
 }
 
@@ -157,7 +202,16 @@ branichian = {
 	unit_gfx = { eastern_unit_gfx }
 	
 	ethnicities = {
-		10 = mediterranean_byzantine
+		5 = european_south_slavic_blond_1
+		5 = european_south_slavic_blond_2
+		10 = european_south_slavic_blond_3
+		10 = european_south_slavic_brown_1
+		10 = european_south_slavic_brown_2
+		10 = european_south_slavic_brown_3
+		10 = european_south_slavic_brown_4
+		10 = european_south_slavic_dark_1
+		10 = european_south_slavic_dark_2
+		10 = european_south_slavic_dark_3
 	}
 }
 
@@ -182,7 +236,16 @@ doclean = {
 	unit_gfx = { eastern_unit_gfx }
 	
 	ethnicities = {
-		10 = mediterranean_byzantine
+		5 = european_south_slavic_blond_1
+		5 = european_south_slavic_blond_2
+		10 = european_south_slavic_blond_3
+		10 = european_south_slavic_brown_1
+		10 = european_south_slavic_brown_2
+		10 = european_south_slavic_brown_3
+		10 = european_south_slavic_brown_4
+		10 = european_south_slavic_dark_1
+		10 = european_south_slavic_dark_2
+		10 = european_south_slavic_dark_3
 	}
 }
 
@@ -207,7 +270,16 @@ travunian = {
 	unit_gfx = { eastern_unit_gfx }
 	
 	ethnicities = {
-		10 = mediterranean_byzantine
+		5 = european_south_slavic_blond_1
+		5 = european_south_slavic_blond_2
+		10 = european_south_slavic_blond_3
+		10 = european_south_slavic_brown_1
+		10 = european_south_slavic_brown_2
+		10 = european_south_slavic_brown_3
+		10 = european_south_slavic_brown_4
+		10 = european_south_slavic_dark_1
+		10 = european_south_slavic_dark_2
+		10 = european_south_slavic_dark_3
 	}
 }
 
@@ -232,7 +304,16 @@ zachlumian = {
 	unit_gfx = { eastern_unit_gfx }
 	
 	ethnicities = {
-		10 = mediterranean_byzantine
+		5 = european_south_slavic_blond_1
+		5 = european_south_slavic_blond_2
+		10 = european_south_slavic_blond_3
+		10 = european_south_slavic_brown_1
+		10 = european_south_slavic_brown_2
+		10 = european_south_slavic_brown_3
+		10 = european_south_slavic_brown_4
+		10 = european_south_slavic_dark_1
+		10 = european_south_slavic_dark_2
+		10 = european_south_slavic_dark_3
 	}
 }
 
@@ -261,7 +342,16 @@ pannonian = {
 	unit_gfx = { eastern_unit_gfx }
 	
 	ethnicities = {
-		10 = mediterranean_byzantine
+		5 = european_south_slavic_blond_1
+		5 = european_south_slavic_blond_2
+		10 = european_south_slavic_blond_3
+		10 = european_south_slavic_brown_1
+		10 = european_south_slavic_brown_2
+		10 = european_south_slavic_brown_3
+		10 = european_south_slavic_brown_4
+		10 = european_south_slavic_dark_1
+		10 = european_south_slavic_dark_2
+		10 = european_south_slavic_dark_3
 	}
 }
 
@@ -289,7 +379,16 @@ illyrian_slavic = {
 	unit_gfx = { eastern_unit_gfx }
 	
 	ethnicities = {
-		10 = mediterranean_byzantine
+		5 = european_south_slavic_blond_1
+		5 = european_south_slavic_blond_2
+		10 = european_south_slavic_blond_3
+		10 = european_south_slavic_brown_1
+		10 = european_south_slavic_brown_2
+		10 = european_south_slavic_brown_3
+		10 = european_south_slavic_brown_4
+		10 = european_south_slavic_dark_1
+		10 = european_south_slavic_dark_2
+		10 = european_south_slavic_dark_3
 	}
 }
 
@@ -314,6 +413,15 @@ berzite = {
 	unit_gfx = { eastern_unit_gfx }
 	
 	ethnicities = {
-		10 = mediterranean_byzantine
+		5 = european_south_slavic_blond_1
+		5 = european_south_slavic_blond_2
+		10 = european_south_slavic_blond_3
+		10 = european_south_slavic_brown_1
+		10 = european_south_slavic_brown_2
+		10 = european_south_slavic_brown_3
+		10 = european_south_slavic_brown_4
+		10 = european_south_slavic_dark_1
+		10 = european_south_slavic_dark_2
+		10 = european_south_slavic_dark_3
 	}
 }

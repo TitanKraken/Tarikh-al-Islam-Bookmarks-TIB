@@ -10,7 +10,7 @@ k_romagna = {
 		holder = 18th_ravenna_exarch
 	}
 	751.1.1 = {
-		NAME = "k_romagna"
+		name = "k_romagna"
 	}
 	756.1.1 = {
 		holder = 7895
@@ -877,7 +877,6 @@ c_casentino = {
 	}
 	846.1.1 = {
 		liege = d_toscana
-	}1.1 = {
 		holder = 167902
 	}
 	915.9.10 = {
@@ -1709,7 +1708,6 @@ c_orvieto = {
 	# Traversari dynasty, the Herulian later Italian
 	490.1.1 = {
 		holder = 1063415 # Teodoro Traversari, the Herulian
-		liege = k_italy
 	}
 	505.1.1 = {
 		holder = 1063419 # Stefano Traversari

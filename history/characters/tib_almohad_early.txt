@@ -8,7 +8,7 @@
 	stewardship = 10
     learning = 30
 	religion = "ashari"
-	culture = baranis
+	culture = tagelmust
 	father = tumart
     trait = sayyid
     trait = zealous
@@ -51,7 +51,7 @@ tumart = {
     name = "Tumart"
     dynasty_house = house_Idrisid #1029055, Idrisid of Morocco
     religion = "ashari"
-    culture = baranis
+    culture = tagelmust
     father = fictional_al_husayn
     trait = sayyid
     trait = zealous
@@ -230,8 +230,8 @@ hasan_ibn_tumart = { # fictional
 }
 
 abu_imran_musa_gadmiwi = {
-    name = "Abu 'Imran Musa"
-    dynasty_house = house_gadmiwi
+    name = "Abu_Imran_Musa"
+    #dynasty_house = house_gadmiwi
     religion = "ashari"
     culture = baranis
     trait = zealous
@@ -247,7 +247,7 @@ abu_imran_musa_gadmiwi = {
 }
 
 abu_ibrahim_ismail_hazraji = {
-    name = "Abu Ibrahim Ismail"
+    name = "Abu_Ibrahim_Ismail"
     dynasty_house = house_hazraja_almohad
     religion = "ashari"
     culture = baranis

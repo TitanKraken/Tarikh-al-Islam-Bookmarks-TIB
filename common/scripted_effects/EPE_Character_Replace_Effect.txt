@@ -1,0 +1,837 @@
+﻿epe_replace_character_effect_867 = {
+	#############################
+	###Only add 867 characters###
+	#############################
+	
+	##########################
+	### 	Iranians       ###
+	##########################
+	character:45107 = {
+		copy_inheritable_appearance_from = character:EPE_marzoban_vandad
+		add_character_flag = has_scripted_appearance
+	}
+	character:45109 = {
+		copy_inheritable_appearance_from = character:EPE_farah_karen
+	}
+	character:163157 = {
+		copy_inheritable_appearance_from = character:EPE_ismail_samanid
+		add_character_flag = has_scripted_appearance
+	}
+	character:163099 = {
+		copy_inheritable_appearance_from = character:EPE_nasr_samanid
+		add_character_flag = has_scripted_appearance
+	}
+	character:163101 = {
+		copy_inheritable_appearance_from = character:EPE_yaqub_saffarid
+		add_character_flag = has_scripted_appearance
+	}
+	character:163164 = {
+		copy_inheritable_appearance_from = character:EPE_amr_saffarid
+		add_character_flag = has_scripted_appearance
+	}
+	character:163165 = {
+		copy_inheritable_appearance_from = character:EPE_ali_saffarid
+		add_character_flag = has_scripted_appearance
+	}
+	character:163100 = {
+		copy_inheritable_appearance_from = character:EPE_muhammad_tahirid
+		add_character_flag = has_scripted_appearance
+	}
+	character:188598 = {
+		copy_inheritable_appearance_from = character:EPE_eraq_afrighid
+		add_character_flag = has_scripted_appearance
+	}
+	character:166681 = {
+		copy_inheritable_appearance_from = character:EPE_vikarma_vijaya
+		add_character_flag = has_scripted_appearance
+	}	
+	character:166682 = {
+		copy_inheritable_appearance_from = character:EPE_Sutoka_vijaya
+		add_character_flag = has_scripted_appearance
+	}			
+	##########################
+	###      Abbasids      ###
+	##########################
+	character:34014 = {
+		copy_inheritable_appearance_from = character:EPE_al_mutazz_abbasid
+		add_character_flag = has_scripted_appearance
+	}
+	character:34015 = {
+		copy_inheritable_appearance_from = character:EPE_al_muhtadi_abbasid
+		add_character_flag = has_scripted_appearance
+	}
+	character:34016 = {
+		copy_inheritable_appearance_from = character:EPE_al_mutamid_abbasid
+		add_character_flag = has_scripted_appearance
+	}
+	character:34017 = {
+		copy_inheritable_appearance_from = character:EPE_al_muwaffak_abbasid
+		add_character_flag = has_scripted_appearance
+	}
+	character:34018 = {
+		copy_inheritable_appearance_from = character:EPE_al_mutadid_abbasid
+		add_character_flag = has_scripted_appearance
+	}
+	##########################
+	###    Other Arabs     ###
+	##########################
+	character:163098 = {
+		copy_inheritable_appearance_from = character:EPE_aziz_dulafid
+		add_character_flag = has_scripted_appearance
+	}
+	character:45108 = {
+		copy_inheritable_appearance_from = character:EPE_hasan_the_missionary
+		add_character_flag = has_scripted_appearance
+	}
+	##########################
+	###     Byzantine      ###
+	##########################
+	character:1700 = {
+		copy_inheritable_appearance_from = character:EPE_basileios_makedon
+		add_character_flag = has_scripted_appearance
+	}
+	character:145129 = {
+		copy_inheritable_appearance_from = character:EPE_bardas_makedon
+	}
+	character:145130 = {
+		copy_inheritable_appearance_from = character:EPE_marinos_makedon
+	}
+	character:1761 = {
+		copy_inheritable_appearance_from = character:EPE_eudokia_inger
+		add_character_flag = has_scripted_appearance
+	}
+	character:70490 = {
+		copy_inheritable_appearance_from = character:EPE_michael_III
+	}
+	character:1702 = {
+		copy_inheritable_appearance_from = character:EPE_leo_VI
+		add_character_flag = has_scripted_appearance
+	}
+	character:1706 = {
+		copy_inheritable_appearance_from = character:EPE_romanos_lekapenos
+		add_character_flag = has_scripted_appearance
+	}
+	character:145931 = {
+		copy_inheritable_appearance_from = character:EPE_niketas_ooryphas
+		add_character_flag = has_scripted_appearance
+	}
+
+	##########################
+	###      Karling       ###
+	##########################
+	character:167830 = {
+		copy_inheritable_appearance_from = character:EPE_ermentrude_karling
+		add_character_flag = has_scripted_appearance
+	}
+	character:167894 = {
+		copy_inheritable_appearance_from = character:EPE_engelberga_karling
+		add_character_flag = has_scripted_appearance
+	}
+	character:7987 = {
+		copy_inheritable_appearance_from = character:EPE_hemma_karling
+		add_character_flag = has_scripted_appearance
+	}
+	character:6877 = {
+		copy_inheritable_appearance_from = character:EPE_teutberga_karling
+		add_character_flag = has_scripted_appearance
+	}
+	character:91385 = {
+		copy_inheritable_appearance_from = character:EPE_ansgarde_karling 
+		add_character_flag = has_scripted_appearance
+	}
+	character:90123 = {
+		copy_inheritable_appearance_from = character:EPE_louis_the_stammerer_karling 
+		add_character_flag = has_scripted_appearance
+	}
+	character:90110 = {
+		copy_inheritable_appearance_from = character:EPE_judith_wf_karling 
+		add_character_flag = has_scripted_appearance
+	}
+	character:42020 = {
+		copy_inheritable_appearance_from = character:EPE_charles_III_wf_karling 
+	}
+	character:42021 = {
+		copy_inheritable_appearance_from = character:EPE_carloman_wf_karling 
+		add_character_flag = has_scripted_appearance
+	}
+	character:163175 = {
+		copy_inheritable_appearance_from = character:EPE_ermentrude_wf_karling 
+		add_character_flag = has_scripted_appearance
+	}
+	character:163176 = {
+		copy_inheritable_appearance_from = character:EPE_hildegard_wf_karling 
+		add_character_flag = has_scripted_appearance
+	}
+	character:163177 = {
+		copy_inheritable_appearance_from = character:EPE_gisele_karling 
+		add_character_flag = has_scripted_appearance
+	}
+	character:163178 = {
+		copy_inheritable_appearance_from = character:EPE_rotryde_karling 
+		add_character_flag = has_scripted_appearance
+	}
+	character:90154 = {
+		copy_inheritable_appearance_from = character:EPE_louis_III_karling 
+		add_character_flag = has_scripted_appearance
+	}
+	character:90155 = {
+		copy_inheritable_appearance_from = character:EPE_carloman_II_karling 
+		add_character_flag = has_scripted_appearance
+	}
+	character:42019 = {
+		copy_inheritable_appearance_from = character:EPE_ludwig_the_younger
+		add_character_flag = has_scripted_appearance
+	}
+	character:42018 = {
+		copy_inheritable_appearance_from = character:EPE_karlmann_karling
+		add_character_flag = has_scripted_appearance
+	}
+	character:90105 = {
+		copy_inheritable_appearance_from = character:EPE_charles_the_fat
+		add_character_flag = has_scripted_appearance
+	}
+	character:167813 = {
+		copy_inheritable_appearance_from = character:EPE_liutswind_of_bavaria
+		add_character_flag = has_scripted_appearance
+	}
+	character:167847 = {
+		copy_inheritable_appearance_from = character:EPE_richardis_of_swabia
+		add_character_flag = has_scripted_appearance
+	}
+	character:7945 = {
+		copy_inheritable_appearance_from = character:EPE_arnulf_of_bavaria
+		add_character_flag = has_scripted_appearance
+	}
+	character:6392 = {
+		copy_inheritable_appearance_from = character:EPE_charlemagne
+	}
+	character:90095 = {
+		copy_inheritable_appearance_from = character:EPE_louis_the_pious
+	}
+	character:6398 = {
+		copy_inheritable_appearance_from = character:EPE_pepin_II_vermandois
+	}
+	character:6394 = {
+		copy_inheritable_appearance_from = character:EPE_pepin_I_of_italy
+	}
+	character:6396 = {
+		copy_inheritable_appearance_from = character:EPE_bernard_of_italy
+	}
+	##########################
+	###     Bulgarians     ###
+	##########################
+	character:70382 = {
+		copy_inheritable_appearance_from = character:EPE_boris_I_krum
+		add_character_flag = has_scripted_appearance
+	}
+	character:168075 = {
+		copy_inheritable_appearance_from = character:EPE_marija_krum
+		add_character_flag = has_scripted_appearance
+	}
+	character:712 = {
+		copy_inheritable_appearance_from = character:EPE_simeon_the_great
+		add_character_flag = has_scripted_appearance
+	}
+
+	##########################
+	### 	Sawdanid       ###
+	##########################	
+	character:163094 = {
+		copy_inheritable_appearance_from = character:EPE_sawdan_sawdanid 
+	}	
+		
+	
+	##########################
+	### 	Qocho       ###
+	##########################	
+	character:302972 = {
+		copy_inheritable_appearance_from = character:EPE_qocho_ruler_867 
+		add_character_flag = has_scripted_appearance		
+	}	
+	character:bodpa0246 = {
+		copy_inheritable_appearance_from = character:EPE_qocho_ruler_spouse_867 
+		add_character_flag = has_scripted_appearance		
+	}
+	character:302974 = {
+		copy_inheritable_appearance_from = character:302974_irge_bilga_867		
+	}			
+
+	##########################
+	### 	Lombards      ###
+	##########################	
+	character:163071 = {
+		copy_inheritable_appearance_from = character:EPE_adelchis_benevento 
+		add_character_flag = has_scripted_appearance		
+	}
+	
+	##########################
+	##   Arpad and Family   ##
+	##########################
+
+	character:159136 = {
+		copy_inheritable_appearance_from = character:EPE_arpad_arpad
+	}
+	character:306003 = {
+		copy_inheritable_appearance_from = character:EPE_mutlu_arpad
+	}
+
+	#House Normandie
+
+	character:242 = {
+		copy_inheritable_appearance_from = character:EPE_rollo_normandie
+	}
+
+}
+###########################################################################################################################################
+##############################
+## Only add 1066 characters ##
+##############################
+###########################################################################################################################################
+
+epe_replace_character_effect_1066 = {
+	##############################
+	###Only add 1066 characters###
+	##############################
+
+	##########################
+	### 	  Seljuk       ###
+	##########################
+	character:3030 = {
+		copy_inheritable_appearance_from = character:EPE_seljuk 
+	}
+	character:3034 = {
+		copy_inheritable_appearance_from = character:EPE_mikail
+	}
+	character:3038 = {
+		copy_inheritable_appearance_from = character:EPE_tughril_beg
+	}
+	character:3036 = {
+		copy_inheritable_appearance_from = character:EPE_chagri_beg
+	}
+	character:3040 = {
+		copy_inheritable_appearance_from = character:EPE_alp_arslan
+	}
+	character:3046 = {
+		copy_inheritable_appearance_from = character:EPE_suleyman
+	}
+	character:3042 = {
+		copy_inheritable_appearance_from = character:EPE_malik_shah
+	}
+	character:3045 = {
+		copy_inheritable_appearance_from = character:EPE_terkhen
+	}
+	
+	##########################
+	### 	  Fatimids       ###
+	##########################
+	character:1144667 = {
+		copy_inheritable_appearance_from = character:EPE_rasad_fatimid
+		add_character_flag = has_scripted_appearance
+	}
+	
+	##########################
+	##  Canossa and Family  ##
+	##########################
+
+	character:7755 = {
+		copy_inheritable_appearance_from = character:EPE_beatrix_canossa
+	}
+	character:7756 = {
+		copy_inheritable_appearance_from = character:EPE_boniface_canossa
+	}
+	character:11002 = {
+		copy_inheritable_appearance_from = character:EPE_friedrich_II_wigeriche
+	}
+	character:11003 = {
+		copy_inheritable_appearance_from = character:EPE_mathilda_konradiner
+	}
+	character:1314 = {
+		copy_inheritable_appearance_from = character:EPE_heinrich_III_salian
+	}
+	character:237 = {
+		copy_inheritable_appearance_from = character:EPE_empress_mother_agnes
+	}
+
+	##########################
+	##   Arpad and Family   ##
+	##########################
+
+	character:466 = {
+		copy_inheritable_appearance_from = character:EPE_vaszoly_arpad
+	}
+	character:468 = {
+		copy_inheritable_appearance_from = character:EPE_andrew_arpad
+	}
+	character:470 = {
+		copy_inheritable_appearance_from = character:EPE_bela_I_arpad
+	}
+	character:472 = {
+		copy_inheritable_appearance_from = character:EPE_geza_I_arpad
+	}
+	character:474 = {
+		copy_inheritable_appearance_from = character:EPE_lazslo_I_arpad
+	}
+	character:476 = {
+		copy_inheritable_appearance_from = character:EPE_salamon_I_arpad
+	}
+	character:637 = {
+		copy_inheritable_appearance_from = character:EPE_anastasia_I_rurikid 
+	}
+	character:159136 = {
+		copy_inheritable_appearance_from = character:EPE_arpad_arpad
+	}
+	character:159135 = {
+		copy_inheritable_appearance_from = character:EPE_zoltan_arpad
+	}
+	character:460 = {
+		copy_inheritable_appearance_from = character:EPE_taksony_arpad
+	}
+	character:462 = {
+		copy_inheritable_appearance_from = character:EPE_mihaly_arpad
+	}
+	character:306003 = {
+		copy_inheritable_appearance_from = character:EPE_mutlu_arpad
+	}
+
+	##########################
+	##   	 Rurikids   	##
+	##########################
+	character:600 = {
+		copy_inheritable_appearance_from = character:EPE_yngvar_rurikid
+	}
+	character:601 = {
+		copy_inheritable_appearance_from = character:EPE_olga_of_kiev
+	}
+	character:602 = {
+		copy_inheritable_appearance_from = character:EPE_sviatoslav_rurikid
+	}
+	character:603 = {
+		copy_inheritable_appearance_from = character:EPE_malusha_rurikid
+	}
+	character:608 = {
+		copy_inheritable_appearance_from = character:EPE_vladimir_the_great
+	}
+	character:609 = {
+		copy_inheritable_appearance_from = character:EPE_rogneda_vyatich
+	}
+	character:612 = {
+		copy_inheritable_appearance_from = character:EPE_yaroslav_the_wise
+	}
+	character:100511 = {
+		copy_inheritable_appearance_from = character:EPE_ingerder_munso
+	}
+	character:628 = {
+		copy_inheritable_appearance_from = character:EPE_sviatoslav_of_chernigov
+	}
+	character:626 = {
+		copy_inheritable_appearance_from = character:EPE_iziaslav_of_ruthenia
+	}
+
+	##########################
+	##   	 Komnenos   	##
+	##########################
+	character:1742 = {
+		copy_inheritable_appearance_from = character:EPE_alexios_komnenos
+	}
+	character:1752 = {
+		copy_inheritable_appearance_from = character:EPE_john_f_komnenos
+	}
+	character:1730 = {
+		copy_inheritable_appearance_from = character:EPE_isaac_u_komnenos
+	}
+	character:4511 = {
+		copy_inheritable_appearance_from = character:EPE_anna_dalassene
+	}
+
+	#Doukas and Family
+	character:727 = {
+		copy_inheritable_appearance_from = character:EPE_maria_of_bulgaria
+	}
+	character:1732 = {
+		copy_inheritable_appearance_from = character:EPE_konstantinos_x_doukas 
+	}
+	character:1733 = {
+		copy_inheritable_appearance_from = character:EPE_eudokia_makrembolitissa
+	}
+	character:1736 = {
+		copy_inheritable_appearance_from = character:EPE_michael_vii_doukas 
+	}
+	character:41552 = {
+		copy_inheritable_appearance_from = character:EPE_maria_of_alania
+	}
+	character:9953 = {
+		copy_inheritable_appearance_from = character:EPE_borena_of_alania
+	}
+	character:1743 = {
+		copy_inheritable_appearance_from = character:EPE_eirene_doukaina
+	}
+	character:1748 = {
+		copy_inheritable_appearance_from = character:EPE_andronikos_doukas
+	}
+
+	#House Normandie
+
+	character:242 = {
+		copy_inheritable_appearance_from = character:EPE_rollo_normandie
+	}
+	character:252 = {
+		copy_inheritable_appearance_from = character:EPE_robert_the_magnificant
+	}
+	character:248 = {
+		copy_inheritable_appearance_from = character:EPE_richard_the_good
+	}
+
+	#House Capet
+
+	character:208 = {
+		copy_inheritable_appearance_from = character:EPE_henri_capet
+	}
+	character:216 = {
+		copy_inheritable_appearance_from = character:EPE_hugh_capet
+	}
+	character:91012 = {
+		copy_inheritable_appearance_from = character:EPE_emma_capet
+	}
+
+	######################################################################################################### - 867 Characters implemented for historical DNA generation in 1066 Experiment
+
+	##########################
+	### 	Iranians       ###
+	##########################
+	character:45107 = {
+		copy_inheritable_appearance_from = character:EPE_marzoban_vandad
+	}
+	character:45109 = {
+		copy_inheritable_appearance_from = character:EPE_farah_karen
+	}
+	character:163157 = {
+		copy_inheritable_appearance_from = character:EPE_ismail_samanid
+	}
+	character:163099 = {
+		copy_inheritable_appearance_from = character:EPE_nasr_samanid
+	}
+	character:163101 = {
+		copy_inheritable_appearance_from = character:EPE_yaqub_saffarid
+
+	}
+	character:163164 = {
+		copy_inheritable_appearance_from = character:EPE_amr_saffarid
+
+	}
+	character:163165 = {
+		copy_inheritable_appearance_from = character:EPE_ali_saffarid
+
+	}
+	character:163100 = {
+		copy_inheritable_appearance_from = character:EPE_muhammad_tahirid
+
+	}
+	character:188598 = {
+		copy_inheritable_appearance_from = character:EPE_eraq_afrighid
+
+	}
+	character:166681 = {
+		copy_inheritable_appearance_from = character:EPE_vikarma_vijaya
+
+	}	
+	character:166682 = {
+		copy_inheritable_appearance_from = character:EPE_Sutoka_vijaya
+
+	}			
+	##########################
+	###      Abbasids      ###
+	##########################
+	character:34014 = {
+		
+		copy_inheritable_appearance_from = character:EPE_al_mutazz_abbasid
+
+	}
+	character:34015 = {
+		
+		copy_inheritable_appearance_from = character:EPE_al_muhtadi_abbasid
+
+	}
+	character:34016 = {
+		
+		copy_inheritable_appearance_from = character:EPE_al_mutamid_abbasid
+
+	}
+	character:34017 = {
+		
+		copy_inheritable_appearance_from = character:EPE_al_muwaffak_abbasid
+
+	}
+	character:34018 = {
+		
+		copy_inheritable_appearance_from = character:EPE_al_mutadid_abbasid
+
+	}
+	##########################
+	###    Other Arabs     ###
+	##########################
+	character:163098 = {
+		
+		copy_inheritable_appearance_from = character:EPE_aziz_dulafid
+
+	}
+	character:45108 = {
+		
+		copy_inheritable_appearance_from = character:EPE_hasan_the_missionary
+
+	}
+	##########################
+	###     Byzantine      ###
+	##########################
+	character:1700 = {
+		
+		copy_inheritable_appearance_from = character:EPE_basileios_makedon
+
+	}
+	character:145129 = {
+		
+		copy_inheritable_appearance_from = character:EPE_bardas_makedon
+	}
+	character:145130 = {
+		
+		copy_inheritable_appearance_from = character:EPE_marinos_makedon
+	}
+	character:1761 = {
+		
+		copy_inheritable_appearance_from = character:EPE_eudokia_inger
+
+	}
+	character:70490 = {
+		
+		copy_inheritable_appearance_from = character:EPE_michael_III
+
+	}
+	character:1702 = {
+		
+		copy_inheritable_appearance_from = character:EPE_leo_VI
+
+	}
+	character:1706 = {
+		
+		copy_inheritable_appearance_from = character:EPE_romanos_lekapenos
+
+	}
+	character:145931 = {
+		
+		copy_inheritable_appearance_from = character:EPE_niketas_ooryphas
+
+	}
+
+	##########################
+	###      Karling       ###
+	##########################
+	character:167830 = {
+		
+		copy_inheritable_appearance_from = character:EPE_ermentrude_karling
+
+	}
+	character:167894 = {
+		
+		copy_inheritable_appearance_from = character:EPE_engelberga_karling
+
+	}
+	character:7987 = {
+		
+		copy_inheritable_appearance_from = character:EPE_hemma_karling
+
+	}
+	character:6877 = {
+		
+		copy_inheritable_appearance_from = character:EPE_teutberga_karling
+
+	}
+	character:91385 = {
+		
+		copy_inheritable_appearance_from = character:EPE_ansgarde_karling 
+
+	}
+	character:90123 = {
+		
+		copy_inheritable_appearance_from = character:EPE_louis_the_stammerer_karling 
+
+	}
+	character:90110 = {
+		
+		copy_inheritable_appearance_from = character:EPE_judith_wf_karling 
+
+	}
+	character:42020 = {
+		
+		copy_inheritable_appearance_from = character:EPE_charles_III_wf_karling 
+
+	}
+	character:42021 = {
+		
+		copy_inheritable_appearance_from = character:EPE_carloman_wf_karling 
+
+	}
+	character:163175 = {
+		
+		copy_inheritable_appearance_from = character:EPE_ermentrude_wf_karling 
+
+	}
+	character:163176 = {
+		
+		copy_inheritable_appearance_from = character:EPE_hildegard_wf_karling 
+
+	}
+	character:163177 = {
+		
+		copy_inheritable_appearance_from = character:EPE_gisele_karling 
+
+	}
+	character:163178 = {
+		
+		copy_inheritable_appearance_from = character:EPE_rotryde_karling 
+
+	}
+	character:90154 = {
+		
+		copy_inheritable_appearance_from = character:EPE_louis_III_karling 
+
+	}
+	character:90155 = {
+		
+		copy_inheritable_appearance_from = character:EPE_carloman_II_karling 
+
+	}
+	character:42019 = {
+		
+		copy_inheritable_appearance_from = character:EPE_ludwig_the_younger
+
+	}
+	character:42018 = {
+		
+		copy_inheritable_appearance_from = character:EPE_karlmann_karling
+
+	}
+	character:90105 = {
+		
+		copy_inheritable_appearance_from = character:EPE_charles_the_fat
+
+	}
+	character:167813 = {
+		
+		copy_inheritable_appearance_from = character:EPE_liutswind_of_bavaria
+
+	}
+	character:167847 = {
+		
+		copy_inheritable_appearance_from = character:EPE_richardis_of_swabia
+
+	}
+	character:7945 = {
+		
+		copy_inheritable_appearance_from = character:EPE_arnulf_of_bavaria
+
+	}
+
+	#Other Karlings
+
+	character:6392 = {
+		copy_inheritable_appearance_from = character:EPE_charlemagne
+	}
+	character:90095 = {
+		copy_inheritable_appearance_from = character:EPE_louis_the_pious
+	}
+	character:414 = {
+		copy_inheritable_appearance_from = character:EPE_herbert_III_vermandois
+	}
+	character:416 = {
+		copy_inheritable_appearance_from = character:EPE_eudes_karling
+	}
+	character:6398 = {
+		copy_inheritable_appearance_from = character:EPE_pepin_II_vermandois
+	}
+	character:6394 = {
+		copy_inheritable_appearance_from = character:EPE_pepin_I_of_italy
+	}
+	character:6402 = {
+		copy_inheritable_appearance_from = character:EPE_herbert_karling
+	}
+	character:6396 = {
+		copy_inheritable_appearance_from = character:EPE_bernard_of_italy
+	}
+	character:40409 = {
+		copy_inheritable_appearance_from = character:EPE_alix_vexin_amiens
+	}
+	character:418 = {
+		copy_inheritable_appearance_from = character:EPE_herbert_IV_vermandois
+	}
+	character:40432 = {
+		copy_inheritable_appearance_from = character:EPE_eudes_karling_2
+	}
+	character:419 = {
+		copy_inheritable_appearance_from = character:EPE_adele_karling
+	}
+
+	##########################
+	###     Bulgarians     ###
+	##########################
+	character:70382 = {
+		
+		copy_inheritable_appearance_from = character:EPE_boris_I_krum
+
+	}
+	character:168075 = {
+		
+		copy_inheritable_appearance_from = character:EPE_marija_krum
+
+	}
+	character:712 = {
+		
+		copy_inheritable_appearance_from = character:EPE_simeon_the_great
+
+	}
+
+	##########################
+	### 	Sawdanid       ###
+	##########################	
+	character:163094 = {
+		
+		copy_inheritable_appearance_from = character:EPE_sawdan_sawdanid 
+	}	
+		
+	
+	##########################
+	### 	Qocho       ###
+	##########################	
+	character:302972 = {
+		
+		copy_inheritable_appearance_from = character:EPE_qocho_ruler_867 
+		
+	}	
+	character:bodpa0246 = {
+		
+		copy_inheritable_appearance_from = character:EPE_qocho_ruler_spouse_867 
+		
+	}
+	
+	character:302974 = {
+		copy_inheritable_appearance_from = character:302974_irge_bilga_867		
+	}	
+
+	##########################
+	### 	Lombards      ###
+	##########################	
+	character:163071 = {
+		
+		copy_inheritable_appearance_from = character:EPE_adelchis_benevento 
+	
+	}	
+	
+}
+
+fix_variable_error = {
+    save_scope_as = $ERROR$ 
+    add_to_list = $ERROR$ 
+    clear_variable_list = $ERROR$ 
+    clear_saved_scope = $ERROR$ 
+    set_variable = {name = $ERROR$ value = flag:$ERROR$} 
+    set_global_variable = {name = $ERROR$ value = flag:$ERROR$}  
+    if = {limit = {OR = {has_character_flag = $ERROR$ var:$ERROR$ = flag:$ERROR$}} remove_variable = $ERROR$ remove_global_variable = $ERROR$}
+}

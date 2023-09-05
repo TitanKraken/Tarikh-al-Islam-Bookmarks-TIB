@@ -508,7 +508,7 @@ c_vidin = {
 	1066.1.1 = { change_development_level = 9 }
 	
 	330.1.1 = {
-		liege = "d_vidin"
+		#liege = "d_vidin"
 		government = tribal_government
 	}
 	681.1.1 = {
@@ -606,7 +606,7 @@ c_vidin = {
 
 c_branicevo = {
 	330.1.1 = {
-		liege = "d_vidin"
+		#liege = "d_vidin"
 		government = tribal_government
 	}
 	681.1.1 = {
@@ -630,6 +630,7 @@ c_branicevo = {
 	860.1.1 = {
 		#holder = 70383
 		holder = vlach_000001
+		liege = "d_vidin"
 	}
 	935.1.1 = {
 		government = feudal_government	#Ahistorical, just for ease of bookmarks.
@@ -862,9 +863,6 @@ c_turnovo = {
 	867.1.1 = { change_development_level = 6 }
 	1066.1.1 = { change_development_level = 9 }
 	
-	330.1.1 = {
-		liege = "d_turnovo"
-	}
 	681.1.1 = {
 		holder = 159118
 	}
@@ -921,6 +919,7 @@ c_turnovo = {
 	}
 	852.1.1 = {
 		holder = 70382 #Boris
+		liege = "d_turnovo"
 	}
 	
 	1066.1.1 = {
@@ -1019,9 +1018,6 @@ c_sredets = {
 	867.1.1 = { change_development_level = 6 }
 	1066.1.1 = { change_development_level = 9 }
 	
-	330.1.1 = {
-		liege = "d_turnovo"
-	}
 	681.1.1 = {
 		liege = "e_byzantium"
 	}
@@ -1036,6 +1032,7 @@ c_sredets = {
 	}
 	860.1.1 = {
 		holder = 168288
+		liege = "d_turnovo"
 	}
 	
 	1066.1.1 = {
@@ -1114,9 +1111,6 @@ c_nikopolis = {
 	867.1.1 = { change_development_level = 8 }
 	1066.1.1 = { change_development_level = 11 }
 	
-	330.1.1 = {
-		liege = "d_turnovo"
-	}
 	681.1.1 = {
 		holder = 159118
 	}
@@ -1271,9 +1265,6 @@ c_dorostorum = {
 	867.1.1 = { change_development_level = 7 }
 	1066.1.1 = { change_development_level = 10 }
 	
-	330.1.1 = {
-		liege = "d_turnovo"
-	}
 	681.1.1 = {
 		holder = 159118
 	}
@@ -1333,6 +1324,7 @@ c_dorostorum = {
 	}
 	1066.1.1 = {
 		holder = 20479
+		liege = d_turnovo
 	}
 	1093.1.1 = {
 		holder = 1782
@@ -1423,9 +1415,6 @@ b_dorostorum = {
 }
 
 c_vratsa = {
-	330.1.1 = {
-		liege = "d_turnovo"
-	}
 	681.1.1 = {
 		holder = 159118
 	}
@@ -1580,9 +1569,6 @@ c_vratsa = {
 
 
 c_aytos = {
-	330.1.1 = {
-		liege = "d_turnovo"
-	}
 	681.1.1 = {
 		holder = 159118
 	}
@@ -1876,9 +1862,6 @@ c_constanta = {
 	867.1.1 = { change_development_level = 7 }
 	1066.1.1 = { change_development_level = 10 }
 	
-	330.1.1 = {
-		liege = "d_dobrudja"
-	}
 	681.1.1 = {
 		holder = 159120
 	}
@@ -1909,6 +1892,8 @@ c_constanta = {
 	
 	1063.1.1 = {
 		holder = 1740
+	}
+	1066.1.1 = {
 		liege = d_turnovo	#as theme of Moesia
 	}
 	1101.1.1 = {
@@ -1973,9 +1958,6 @@ c_constanta = {
 
 
 c_mesembria = {
-	330.1.1 = {
-		liege = "d_dobrudja"
-	}
 	681.1.1 = {
 		liege = "e_byzantium"
 	}
@@ -2010,6 +1992,8 @@ c_mesembria = {
 	
 	1060.1.1 = {
 		holder = 20511
+	}
+	1066.1.1 = {
 		liege = d_turnovo	#as theme of Moesia
 	}
 	1107.10.1 = {
@@ -2176,7 +2160,6 @@ c_naissus = {
 	1066.1.1 = { change_development_level = 9 }
 	
 	330.1.1 = {
-		liege = "d_vidin"
 		government = tribal_government
 	}
 	681.1.1 = {
@@ -2288,12 +2271,6 @@ c_naissus = {
 
 
 c_pomoravlje = {
-	330.1.1 = {
-		liege = "d_dyrrachion"
-	}
-	640.1.1 = {
-		liege = "d_rashka"
-	}
 	748.1.1 = {
 		holder = 146011
 	}
@@ -2304,9 +2281,9 @@ c_pomoravlje = {
 		holder = 146013
 	}
 	# since 843.1.1 d_dyrrachion is under k_bulgaria
-	843.1.1 = {
-		liege = "d_dyrrachion"
-	}
+	#843.1.1 = {
+	#	liege = "d_dyrrachion"
+	#}
 	852.1.1 = {
 		holder = 70382 #Boris
 	}
@@ -2379,12 +2356,6 @@ c_pomoravlje = {
 
 
 c_velbazhd = {
-	330.1.1 = {
-		liege = "d_dyrrachion"
-	}
-	640.1.1 = {
-		liege = "d_rashka"
-	}
 	748.1.1 = {
 		holder = 146011
 	}
@@ -2395,9 +2366,9 @@ c_velbazhd = {
 		holder = 146013
 	}
 	# since 843.1.1 d_dyrrachion is under k_bulgaria
-	843.1.1 = {
-		liege = "d_dyrrachion"
-	}
+	#843.1.1 = {
+	#	liege = "d_dyrrachion"
+	#}
 	852.1.1 = {
 		holder = 70382 #Boris
 	}
@@ -2429,7 +2400,7 @@ c_velbazhd = {
 	}
 	1204.5.16 = {
 		liege = "d_epirus"
-	holder = 215517
+		holder = 215517
 	}
 	1215.1.1 = {
 		holder = 215514
@@ -2469,9 +2440,6 @@ c_velbazhd = {
 
 
 c_pirin = {
-	330.1.1 = {
-		liege = "d_dyrrachion"
-	}
 	753.1.1 = {
 		holder = 145818
 	}
@@ -2552,9 +2520,6 @@ c_pirin = {
 
 
 c_strumica = {
-	330.1.1 = {
-		liege = "d_dyrrachion"
-	}
 	753.1.1 = {
 		holder = 145818
 	}
@@ -2635,12 +2600,6 @@ c_strumica = {
 
 
 c_skopje = {
-	330.1.1 = {
-		liege = "d_dyrrachion"
-	}
-	640.1.1 = {
-		liege = "d_rashka"
-	}
 	748.1.1 = {
 		holder = 146011
 	}
@@ -2651,9 +2610,9 @@ c_skopje = {
 		holder = 146013
 	}
 	# since 843.1.1 d_dyrrachion is under k_bulgaria
-	843.1.1 = {
-		liege = "d_dyrrachion"
-	}
+	#843.1.1 = {
+	#	liege = "d_dyrrachion"
+	#}
 	852.1.1 = {
 		holder = 70382 #Boris
 	}
@@ -2726,13 +2685,6 @@ c_skopje = {
 
 
 c_ohrid = {
-	330.1.1 = {
-		liege = "d_dyrrachion"
-	}
-	
-	640.1.1 = {
-		liege = "d_rashka"
-	}
 	748.1.1 = {
 		holder = 146011
 	}
@@ -2743,9 +2695,9 @@ c_ohrid = {
 		holder = 146013
 	}
 	# since 843.1.1 d_dyrrachion is under k_bulgaria
-	843.1.1 = {
-		liege = "d_dyrrachion"
-	}
+	#843.1.1 = {
+	#	liege = "d_dyrrachion"
+	#}
 	852.1.1 = {
 		holder = 70382 #Boris
 		liege = "k_bulgaria"
@@ -2968,9 +2920,6 @@ d_philippopolis = {
 
 
 c_philippopolis = {
-	330.1.1 = {
-		liege = "d_strymon"
-	}
 	765.1.1 = {
 		holder = 145798
 	}
@@ -3056,9 +3005,6 @@ c_philippopolis = {
 
 
 c_kran = {
-	330.1.1 = {
-		liege = "d_turnovo"
-	}
 	681.1.1 = {
 		holder = 159118
 	}
@@ -3209,9 +3155,6 @@ c_kran = {
 
 
 c_beroe = {
-	330.1.1 = {
-		liege = "d_strymon"
-	}
 	765.1.1 = {
 		holder = 145798
 	}
@@ -3376,9 +3319,6 @@ c_adrianopolis = {
 	867.1.1 = { change_development_level = 6 }
 	1066.1.1 = { change_development_level = 9 }
 	
-	330.1.1 = {
-		liege = "d_strymon"
-	}
 	745.1.1 = {
 		holder = 145795
 	}
@@ -3451,9 +3391,6 @@ c_adrianopolis = {
 
 
 c_zherkovo = {
-	330.1.1 = {
-		liege = "d_strymon"
-	}
 	765.1.1 = {
 		holder = 145798
 	}
@@ -3536,9 +3473,6 @@ c_zherkovo = {
 
 
 c_rhodopes = {
-	330.1.1 = {
-		liege = "d_strymon"
-	}
 	765.1.1 = {
 		holder = 145798
 	}

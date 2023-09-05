@@ -729,7 +729,7 @@ pay_homage_to_caliph_decision = {
 		modifier = { # Too far away to risk travel and leaving the realm just like that
 			add = -50
 			NOT = {
-				scope:root = {
+				scope:homage_vassal = {
 					in_diplomatic_range = scope:the_caliph
 				}
 			}

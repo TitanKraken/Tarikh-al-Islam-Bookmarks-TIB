@@ -33,6 +33,9 @@
 
 # Double underscore intentional to make it the first option in the list
 
+# Patterns
+tib_eu4_fez.dds = { colors = 2 category = tib_emblems }
+
 # Animals
 tib_saladin_standard_eagle.dds = { colors = 2 category = tib_emblems }
 tib_seljuk_eagle.dds = { colors = 1 category = tib_emblems }
@@ -48,6 +51,9 @@ hashshashin.dds = { colors = 1 category = tib_emblems }
 tib_arabic_shahada_maghrebi.dds = { colors = 1 category = tib_emblems }
 tib_arabic_shahada_maghrebi_shrinked.dds = { colors = 1 category = tib_emblems }
 tib_shahada_kufic.dds = { colors = 1 category = tib_emblems }
+tib_shahada_kufic_linear.dds = { colors = 1 category = tib_emblems }
+tib_eu4_arabia.dds = { colors = 3 category = tib_emblems }
+tib_eu4_mikhlaf.dds = { colors = 1 category = tib_emblems }
 
 # Man-made
 tib_national_emblem_of_oman.dds = { colors = 2 category = tib_emblems }

@@ -1285,9 +1285,6 @@ c_lesbos = {
 
 
 c_chios = {
-	330.1.1 = {
-		liege = "d_ephese"
-	}
 	711.1.1 = { # fictional
 		holder = strategos004
 	}
@@ -1299,6 +1296,7 @@ c_chios = {
 	}
 	1060.1.1 = {
 		holder = 20518
+		liege = d_cibyrrhaeot
 	}
 	1081.1.1 = {
 		liege = "e_byzantium"

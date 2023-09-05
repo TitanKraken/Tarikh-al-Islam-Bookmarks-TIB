@@ -155,15 +155,6 @@
 	737.1.1 = {
 		religion = "maturidi"
 	}
-	769.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:188637
-		SUZERAIN = character:34002
-			}
-		}
-	}	
 	785.1.1 = {
 		death = yes
 	}
@@ -523,7 +514,7 @@
 }
 
 93114 = {
-	name = "Mas'ud"
+	name = "Mas_ud"
 	dynasty = 7329
 	religion = "maturidi"
 	culture = "tajik"
@@ -605,15 +596,6 @@
 	980.1.1 = {
 		birth = yes
 	}
-	1017.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_non_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:93134
-		SUZERAIN = character:144125
-			}
-		}
-	}
 	1030.1.1 = {
 		death = yes
 	}
@@ -656,15 +638,6 @@
 	1020.1.1 = {
 		birth = yes
 	}
-	1066.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:93137
-		SUZERAIN = character:144133
-			}
-		}
-	}
 	1070.1.1 = {
 		death = yes
 	}
@@ -678,24 +651,6 @@
 	father = 93137
 	1050.1.1 = {
 		birth = yes
-	}
-	1081.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:93138
-		SUZERAIN = character:144133
-			}
-		}
-	}
-	1099.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:93138
-		SUZERAIN = character:144134
-			}
-		}
 	}
 	1100.1.1 = {
 		death = yes
@@ -869,7 +824,6 @@
 		birth = yes
 	}
 	trait = education_martial_4
-	father = 144140
 	1130.1.1 = {
 		birth = yes
 	}
@@ -936,7 +890,7 @@
 			
 			spawn_army = {
 				name = event_troop_default_name
-				levies = 1410‬
+				levies = 1410
 				location = province:4073
 				origin = province:4215
 			}
@@ -1019,7 +973,7 @@
 			
 			spawn_army = {
 				name = event_troop_default_name
-				levies = 1410‬
+				levies = 1410
 				location = province:4073
 				origin = province:4215
 			}
@@ -1107,7 +1061,7 @@
 }
 
 1228198 = {
-	name="'Ali" #Ali b. Karmakh, Ghurid governor of Multan and Uch ca. 1178-1190s, commander of Lahore 1186-?
+	name="_Ali" #Ali b. Karmakh, Ghurid governor of Multan and Uch ca. 1178-1190s, commander of Lahore 1186-?
 	dynasty=1000101827
 	religion="maturidi"
 	culture="persian" #?

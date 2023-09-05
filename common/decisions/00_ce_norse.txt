@@ -232,8 +232,8 @@ unite_danes = {
     effect = {
 		custom_tooltip = unite_danes_effect
         custom_description = {
-           # text = unite_danes_effect
-           # save_scope_as = effect_root
+           text = unite_danes_effect
+           #save_scope_as = effect_root
             culture = {
                 save_scope_as = based_dan
             }
@@ -364,8 +364,8 @@ unite_norweg = {
     effect = {
 		custom_tooltip = unite_norweg_effect_txt
         custom_description = {
-            #text = unite_norweg_effect
-            #save_scope_as = effect_root
+            text = unite_norweg_effect
+            save_scope_as = effect_root
             culture = {
                 save_scope_as = based_norweg
             }

@@ -51,9 +51,6 @@ k_africa = {
 	#	liege = "e_arabia"
 	#}
 	771.1.1 = {
-		holder = 210015
-	}
-	771.1.6 = {
 		holder = 210014
 	}
 	772.1.1 = {
@@ -105,7 +102,6 @@ k_africa = {
 	#Fatimids
 	909.1.1 = {
 		holder = 32900
-		liege = k_africa
 	}
 	934.1.1 = {
 		holder = 32901
@@ -522,6 +518,8 @@ c_tabassa = {
 	}
 	903.1.1 = {	
 		holder = baranis0024
+	}
+	911.1.1 = {
 		liege = k_africa
 	}
 	920.1.1 = {
@@ -574,7 +572,6 @@ c_tabassa = {
 	}
 	1220.1.1 = {
 		holder = 155042
-		liege = "k_africa"
 	}
 
 # Old History
@@ -583,6 +580,7 @@ c_tabassa = {
 	}
 	1229.1.1 = {
 		holder = 33021
+		liege = "k_africa"
 	}
 	1251.1.1 = {
 		holder = 33024
@@ -633,7 +631,7 @@ d_tunis = {
 	}
 	1066.1.1 = {
 		liege = 0
-	holder = 155029
+		holder = 155029
 	}
 	1090.1.1 = {
 		liege = "k_africa"
@@ -762,9 +760,6 @@ c_tunis = {
 	}
 	1117.1.1 = {
 		liege = "k_africa"
-	}
-	1128.1.1 = {
-		liege = "d_alger"
 	}
 	1128.1.1 = {
 		holder = 32956
@@ -993,8 +988,10 @@ c_medjerda = {
 	}
 
 	1062.1.1 = {
-		liege = "d_tunis"
 		holder = 155142
+	}
+	1066.1.1 = {
+		liege = "d_tunis"
 	}
 	1090.1.1 = {
 		holder = 155030
@@ -1230,13 +1227,10 @@ c_constantine = {
 		government = islamic_government # clan_government
 		liege = e_arabia
 	}
-	767.1.1 = {	
-		liege = k_africa
-		holder = 210035
-	}
 	864.1.1 = {	
 		government = islamic_government # clan_government
 		holder = baranis0026
+		liege = k_africa
 	}
 	897.1.1 = {	
 		holder = baranis0025
@@ -1286,14 +1280,10 @@ c_constantine = {
 		holder = 32977
 	}
 	1207.1.1 = {
-		liege = "d_alger"
-	}
-	1207.1.1 = {
 		holder = 155041
 	}
 	1220.1.1 = {
 		holder = 155042
-		liege = "k_africa"
 	}
 	1223.1.1 = {
 		liege = "k_maghreb"
@@ -1325,13 +1315,9 @@ c_annaba = {
 		government = islamic_government # clan_government
 		liege = e_arabia
 	}
-	767.1.1 = {	
-		government = islamic_government # clan_government
-		liege = k_africa
-		holder = 210035
-	}
 	864.1.1 = {	
 		holder = 6883
+		liege = k_africa
 	}
 	897.1.1 = {	
 		holder = baranis0025
@@ -1382,7 +1368,6 @@ c_annaba = {
 		holder = 32977
 	}
 	1207.1.1 = {
-		liege = "d_alger"
 		holder = 155041
 	}
 	1220.1.1 = {
@@ -1568,9 +1553,6 @@ c_gabes = {
 		government = islamic_government # clan_government
 		holder = zanata0003 #Abdallah ibn Muhammad of Banu al-Rand
 	}
-	1055.1.1 = {
-		liege = d_tunis #tributary to Hilalian Arabs - Riyahdids
-	}
 	1073.1.1 = {
 		holder = zanata0004
 	}
@@ -1706,7 +1688,6 @@ c_qashtiliya = {
 	
 	1062.1.1 = {
 		government = tribal_government
-		liege = "d_tunis"
 		holder = 155029
 	}
 	1073.1.1 = {

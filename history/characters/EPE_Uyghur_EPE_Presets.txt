@@ -1,0 +1,40 @@
+﻿EPE_qocho_ruler_867 = {
+	name = "Bokut"	#successor of Pangtele
+	dna = EPE_qocho_ruler_867	
+	dynasty = 1040065 #Bilgä
+	religion = manichean
+	culture = uyghur
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_qocho_ruler_spouse_867 = {
+	name="ChO_ying" #fictional relationship between Baönhrom Barhé and Qocho rulers
+	dna = EPE_qocho_ruler_spouse_867	
+	dynasty=105800 #Purgyal
+	religion="lamaism"
+	culture="bodpa"
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+302974_irge_bilga_867 = {
+	name = "Irge"
+	dna = EPE_irge_bilga_867
+	religion = manichean
+	culture = uyghur
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}

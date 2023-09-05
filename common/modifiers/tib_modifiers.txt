@@ -32,25 +32,25 @@ done_zakat_modifier = {
 
 asnaf_traveler_minor_modifier = {
 	icon = travel_positive
-    travel_speed_mult = 0.10
+    travel_speed = 5
 	travel_danger = -5
 	supply_limit_mult = 0.1
 }
 asnaf_traveler_medium_modifier = {
 	icon = travel_positive
-	travel_speed_mult = 0.15
+	travel_speed = 19
 	travel_danger = -10
 	supply_limit_mult = 0.2
 }
 asnaf_traveler_major_modifier = {
 	icon = travel_positive
-	travel_speed_mult = 0.20
+	travel_speed = 15
 	travel_danger = -15
 	supply_limit_mult = 0.3
 }
 asnaf_traveler_massive_modifier = {
 	icon = travel_positive
-	travel_speed_mult = 0.30
+	travel_speed = 30
 	travel_danger = -20
 	supply_limit_mult = 0.5
 }

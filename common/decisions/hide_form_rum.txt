@@ -1,0 +1,56 @@
+﻿# Decision from base game to form Rum. Just hiding it
+form_rum_sultanate_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+
+	desc = form_rum_sultanate_decision_desc
+	selection_tooltip = form_rum_sultanate_decision_tooltip
+	major = yes
+
+	ai_check_interval = 120
+
+	is_shown = {
+		always = no
+	}
+
+	is_valid = {
+		prestige_level >= high_prestige_level
+		piety_level >= high_piety_level
+		completely_controls = title:d_cibyrrhaeot
+		completely_controls = title:d_anatolia
+		completely_controls = title:d_cappadocia
+		completely_controls = title:d_charsianon
+		completely_controls = title:d_paphlagonia
+		completely_controls = title:d_armeniac
+		completely_controls = title:d_chaldia
+	}
+	
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+
+	effect = {
+		custom_tooltip = form_rum_sultanate_decision_effect_tooltip
+		show_as_tooltip = {
+			create_rum_scripted_effect = yes
+		}
+		trigger_event = {
+			id = middle_east_decisions.0014
+		}
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_formed_rum_sultanate
+			}
+		}
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

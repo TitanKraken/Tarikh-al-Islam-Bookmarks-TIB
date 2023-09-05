@@ -521,18 +521,8 @@
 		birth = "1292.1.1"
 	}
 	1325.1.2 = {
-	
-				effect = {
-set_realm_capital = title:c_kiev
-}
-	}
-	1337.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:472100
-		SUZERAIN = character:480000
-			}
+		effect = {
+			set_realm_capital = title:c_kiev
 		}
 	}
 	1337.1.1 = {

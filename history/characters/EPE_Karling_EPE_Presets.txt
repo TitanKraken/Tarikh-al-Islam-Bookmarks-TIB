@@ -1,0 +1,444 @@
+﻿EPE_ermentrude_karling = {	
+	name = "Irmintrud" 	#AKA Ermentrude, wife of Charles the Bald
+	dna = 167830_ermentrude_karling
+	female = yes	
+	religion = catholic	
+	culture = french
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_engelberga_karling = {	
+	name = "Engelberga" #AKA Engelberga, wife of Louis the Younger
+	dna = 167894_engelberga_karling
+	female = yes	
+	religion = catholic	
+	culture = french
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_hemma_karling = {	
+	name = "Hemma" #AKA Hemma, wife of Louis the German
+	dna = 7987_hemma_karling
+	female = yes	
+	religion = catholic	
+	culture = bavarian
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_teutberga_karling = {	
+	name = "Teutberga" #AKA Hemma, wife of Louis the German
+	dna = 6877_teutberga_karling
+	female = yes	
+	religion = catholic	
+	culture = bavarian
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_ansgarde_karling = {	
+	name = "Ansgarde" #Not really a Karling, Louis the Stammerer's first wife.
+	dna = 91385_ansgarde_karling
+	female = yes	
+	religion = catholic	
+	culture = bavarian
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_louis_the_stammerer_karling  = {	
+	name = "LouistheStammerer" #Louis the Stammerer
+	dna = 90123_louis_the_stammerer_karling
+	religion = catholic	
+	culture = bavarian
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_judith_wf_karling = {	
+	name = "Judith" #Judith
+	dna = 90110_judith_wf_karling
+	female = yes	
+	religion = catholic	
+	culture = bavarian
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_charles_III_wf_karling  = {	
+	name = "CharlesIII" #Charles III of Aquitaine, died prior to game start.
+	dna = 42020_charles_III_wf_karling 	
+	religion = catholic	
+	culture = bavarian
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_carloman_wf_karling  = {	
+	name = "Carloman" #Carloman, son of Charles the Bald, should probably be a monk in 867.
+	dna = 42021_carloman_wf_karling	
+	religion = catholic	
+	culture = bavarian
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_ermentrude_wf_karling  = {	
+	name = "Ermentrude" #Ermentrude, daughter of Charles the Bald
+	dna = 163175_ermentrude_wf_karling
+	female = yes	
+	religion = catholic	
+	culture = bavarian
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_hildegard_wf_karling  = {	
+	name = "Hildegard" #Hildegard, daughter of Charles the Bald
+	dna = 163176_hildegard_wf_karling 
+	female = yes	
+	religion = catholic	
+	culture = bavarian
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_gisele_karling  = {	
+	name = "Gisele" #Gisele, daughter of Charles the Bald
+	dna = 163177_gisele_karling
+	female = yes	
+	religion = catholic	
+	culture = bavarian
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_rotryde_karling = {	
+	name = "Rotryde" #Rotryde, daughter of Charles the Bald
+	dna = 163178_rotryde_karling 
+	female = yes	
+	religion = catholic	
+	culture = bavarian
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_louis_III_karling   = {	
+	name = "Louis_III" #Louis III, King of West Francia (North)
+	dna = 90154_louis_III_karling 	
+	religion = catholic	
+	culture = bavarian
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_carloman_II_karling = {	
+	name = "Carloman_II" #Carloman II, King of West Francia (South)
+	dna = 90155_carloman_II_karling  	
+	religion = catholic	
+	culture = bavarian
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_ludwig_the_younger = {	
+	name = "Ludwig" #Ludwig the Younger
+	dna = 42019_ludwig_the_younger	
+	religion = catholic	
+	culture = bavarian
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_karlmann_karling = {	
+	name = "Karlmann" #karlmann
+	dna = 42018_karlmann_of_bavaria	
+	religion = catholic	
+	culture = bavarian
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_charles_the_fat = {	
+	name = "Charles" #Charles the Fat
+	dna = 90105_charles_the_fat  	
+	religion = catholic	
+	culture = bavarian
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_liutswind_of_bavaria = {	
+	name = "Liuitswind" #Liutswind, wife of Karlmann
+	dna = 167813_liutswind_of_bavaria
+	female = yes	
+	religion = catholic	
+	culture = bavarian
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_richardis_of_swabia = {	
+	name = "Richardis" #Richardis, Wife of Charles the Fat
+	dna = 167847_richardis_of_swabia
+	female = yes	
+	religion = catholic	
+	culture = bavarian
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_arnulf_of_bavaria = {	
+	name = "Arnulf" #Arnulf of Bavaria, future King of East Francia.
+	dna = 7945_arnulf_of_bavaria	
+	religion = catholic	
+	culture = bavarian
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+
+# The Ancestors
+
+EPE_charlemagne = {	
+	name = "Charles" #Charles the Great, Karl der Grosse, Charlemagne
+	dna = 6392_charlemagne
+	religion = catholic	
+	culture = frankish
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_louis_the_pious = {	
+	name = "Louis" #Arnulf of Bavaria, future King of East Francia.
+	dna = 90095_louis_the_pious
+	religion = catholic	
+	culture = frankish
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_herbert_III_vermandois = {	
+	name = "Herbert" #Herbert III
+	dna = 414_herbert_III_vermandois
+	religion = catholic	
+	culture = frankish
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_eudes_karling = {	
+	name = "Eudes" #Eudes
+	dna = 416_eudes_karling
+	religion = catholic	
+	culture = frankish
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_pepin_II_vermandois = {	
+	name = "Pepin" #Herbert III
+	dna = 6398_pepin_II_vermandois
+	religion = catholic	
+	culture = frankish
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_pepin_I_of_italy = {	
+	name = "Pepin" #Eudes
+	dna = 6394_pepin_I_of_italy
+	religion = catholic	
+	culture = frankish
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_bernard_of_italy = {	
+	name = "Bernard" #Bernard
+	dna = 6396_bernard_of_italy
+	religion = catholic	
+	culture = frankish
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_herbert_karling = {	
+	name = "Herbert" #Herbert
+	dna = 6402_herbert_karling
+	religion = catholic	
+	culture = frankish
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_alix_vexin_amiens = {	
+	name = "Alix" #Alix
+	dna = 40409_alix_vexin_amiens
+	religion = catholic	
+	culture = frankish
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_herbert_IV_vermandois = {	
+	name = "Herbert" #Herbert
+	dna = 418_herbert_IV_vermandois
+	religion = catholic	
+	culture = frankish
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_adele_karling = {	
+	name = "Adele" #Adele
+	dna = 419_adele_karling
+	female = yes	
+	religion = catholic	
+	culture = frankish
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_eudes_karling_2 = {	
+	name = "Eudes" #Eudes
+	dna = 40432_eudes_karling
+	religion = catholic	
+	culture = frankish
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}

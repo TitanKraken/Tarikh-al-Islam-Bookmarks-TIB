@@ -1212,7 +1212,6 @@ house_salmvianden = {
 	prefix = "dynnp_von"
 	name = "dynn_Salmvian"
 	dynasty = 25061
-}y = 25061
 }
 
 house_Wigeriche = {

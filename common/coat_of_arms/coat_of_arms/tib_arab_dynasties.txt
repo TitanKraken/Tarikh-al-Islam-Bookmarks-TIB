@@ -401,6 +401,43 @@ house_Hanafiyyah={
 	}
 
 }
+house_Husayni = {
+	pattern="pattern_solid.dds"
+	color1=green
+	color2=white
+	colored_emblem={
+		color1=white
+		color2=white
+		texture="ce_star_07.dds"
+		instance={
+			position={ 0.500000 0.480000 }
+			scale={ 0.900000 0.900000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=green
+		color2=red
+		texture="ce_circle_mask.dds"
+		instance={
+			scale={ 0.350000 0.350000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=white
+		texture="ce_arabic_allah_kufic.dds"
+		instance={
+			scale={ 0.470000 0.470000 }
+		}
+
+	}
+}
 
 
 1042181 = {
@@ -427,7 +464,7 @@ house_Hanafiyyah={
 	colored_emblem={
 		color1=rgb { 231 231 231 }
 		color2=red
-		texture="national_emblem_of_oman.dds"
+		texture="tib_national_emblem_of_Oman.dds"
 		instance={
 			position={ 0.500000 0.475000 }
 			scale={ 0.620000 0.620000 }
@@ -445,7 +482,7 @@ house_Muhallabid={
 	colored_emblem={
 		color1=white
 		color2=red
-		texture="national_emblem_of_oman.dds"
+		texture="tib_national_emblem_of_Oman.dds"
 		instance={
 			position={ 0.500000 0.610000 }
 			scale={ 0.470000 0.470000 }
@@ -629,7 +666,7 @@ house_Numayr={
 	colored_emblem={
 		color1=red
 		color2=white
-		texture="national_emblem_of_oman.dds"
+		texture="tib_national_emblem_of_Oman.dds"
 		instance={
 			position={ 0.500000 0.450000 }
 			scale={ 0.650000 0.650000 }

@@ -1,5 +1,6 @@
 ﻿almohad_jihad_cb = {
 	group = claim
+	icon = undirected_great_holy_war
 	mutually_exclusive_titles = {
 		NOT = {
 			# If pushing personal claims, you can press multiple claims with the Divine Right innovation (High Medieval Era).

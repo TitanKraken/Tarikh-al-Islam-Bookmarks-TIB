@@ -4,11 +4,9 @@
  tib_pay_zakat_decisions.0001.a:0 "To our liege!"
  tib_pay_zakat_decisions.0001.b:0 "To the Commander of the Faithful!"
 
- pay_the_zakat:0 "You will pay the Zakat with the cost based on 0.25% of your total [Concept('gold','wealth')|E]"
+ will_pay_the_zakat:0 "You will pay the Zakat with the cost based on 0.25% of your total [Concept('gold','wealth')|E]"
 
- character_var_greater_or_equal:0 "We don't have enough funds for that!"
  has_zakat_funds:0 "You have Zakat funds in the #e Bayt al-Mal#!"
- insufficient_zakat_funds:0 "Requires #negative_value [gold_i][SCOPE.ScriptValue('minor_gold_value')|0]#! in the #e Bayt al-Mal#!!"
  done_zakat_modifier:0 "Has Paid Zakat"
  
  removed_minor_zakat_value.tt:0 "The #e Bayt al-Mal#! loses #negative_value [gold_i][SCOPE.ScriptValue('minor_gold_value')|0]#!"
@@ -84,7 +82,7 @@
  will_asnaf_homeless_medium_effect:0 "Every county in my [realm|e] will receive financial support to build homes for the homeless for #V 3 years#!. #P This will reduce build cost by #bold 10%#!, increase build speed by #bold 10%#!, increase tax by #bold 10%#!, and increase levy reinforcement by #bold 10%#!.#!"
  will_asnaf_homeless_major_effect:0 "Every county in my [realm|e] will receive financial support to build homes for the homeless for #V 3 years#!. #P This will reduce build cost by #bold 30%#!, increase build speed by #bold 30%#!, increase tax by #bold 30%#!, and increase levy reinforcement by #bold 30%#!.#!"
  will_asnaf_homeless_massive_effect:0 "Every county in my [realm|e] will receive financial support to build homes for the homeless for #V 5 years#!. #P This will reduce build cost by #bold 30%#!, increase build speed by #bold 30%#!, increase tax by #bold 30%#!, and increase levy reinforcement by #bold 30%#!.#!"
- will_asnaf_fisabilillah_minor_effect:0 "Every [vassal|e] [ruler|e] under my [realm|e] will receive military compensation for #V 1 year#!. #P This will decrease army maintenance by #bold -10%#!.#!"
- will_asnaf_fisabilillah_medium_effect:0 "Every [vassal|e] [ruler|e] under my [realm|e] will receive military compensation for #V 3 years#!. #P This will decrease army maintenance by #bold -10%#!.#!"
- will_asnaf_fisabilillah_major_effect:0 "Every [vassal|e] [ruler|e] under my [realm|e] will receive military compensation for #V 3 years#!. #P This will decrease army maintenance by #bold -10%#!, decrease [men_at_arms|e] recruitment cost by #bold 10%#!, and increase [knight_effectiveness|e] by #bold 10%#!.#!"
- will_asnaf_fisabilillah_massive_effect:0 "Every [vassal|e] [ruler|e] under my [realm|e] will receive military compensation for #V 5 years#!. #P This will decrease army maintenance by #bold -20%#!, decrease [men_at_arms|e] recruitment cost by #bold 20%#!, and increase [knight_effectiveness|e] by #bold 30%#!.#!"
+ will_asnaf_fisabilillah_minor_effect:0 "Every [vassal|e] [ruler|e] under my [realm|e] and myself will receive military compensation for #V 1 year#!. #P This will decrease army maintenance by #bold -10%#!.#!"
+ will_asnaf_fisabilillah_medium_effect:0 "Every [vassal|e] [ruler|e] under my [realm|e] and myself will receive military compensation for #V 3 years#!. #P This will decrease army maintenance by #bold -10%#!.#!"
+ will_asnaf_fisabilillah_major_effect:0 "Every [vassal|e] [ruler|e] under my [realm|e] and myself will receive military compensation for #V 3 years#!. #P This will decrease army maintenance by #bold -10%#!, decrease [men_at_arms|e] recruitment cost by #bold 10%#!, and increase [knight_effectiveness|e] by #bold 10%#!.#!"
+ will_asnaf_fisabilillah_massive_effect:0 "Every [vassal|e] [ruler|e] and myself under my [realm|e] will receive military compensation for #V 5 years#!. #P This will decrease army maintenance by #bold -20%#!, decrease [men_at_arms|e] recruitment cost by #bold 20%#!, and increase [knight_effectiveness|e] by #bold 30%#!.#!"

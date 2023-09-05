@@ -270,8 +270,6 @@ found_kingdom_of_livonia_decision = {
 		has_title = title:d_latgalians
 		has_title = title:d_courland
 		has_title = title:d_livonia
-		has_title = title:d_zemigalia
-		has_title = title:d_lettigale
 		completely_controls_region = custom_latvia
 	}
 
@@ -479,11 +477,6 @@ accept_the_pomory_decision = {
 			has_primary_title = title:d_voronezh
 			has_primary_title = title:d_martyuba
 			has_primary_title = title:d_yedisan
-			
-			has_primary_title = title:d_mordvins_erza
-			has_primary_title = title:d_mordvins
-			has_primary_title = title:d_maris
-			has_primary_title = title:d_maris_vetluga
 			
 			primary_title = {
 				OR = {
@@ -896,7 +889,7 @@ rus_gathering_decision = {
 			has_title = title:k_ruthenia
 			has_title = title:k_novgorod
 			has_title = title:k_opolye
-			has_title = title:k_muscovy
+			#has_title = title:k_muscovy
 			has_title = title:k_galicia-volhynia
 			has_title = title:k_white_rus
 		}

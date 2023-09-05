@@ -15,27 +15,6 @@ berberuprising002 = {
 	name = "dynn_Al_Mawati"
 	culture = baranis
 }
-#Ethiopian
-harladyn001 = {
-	name = "dynn_Harar"
-	culture = harla
-}
-harladyn002 = {
-	name = "dynn_Fafan"
-	culture = harla
-}
-argobbadyn001 = {
-	name = "dynn_Doba"
-	culture = argobba
-}
-argobbadyn002 = {
-	name = "dynn_Shagura"
-	culture = argobba
-}
-sidamadyn003 = {
-	name = "dynn_Gama"
-	culture = sidama
-}
 #Nubian
 101777 = {
     prefix = "dynnp_of"
@@ -343,45 +322,6 @@ yorubadyn030 = {
 	name = "dynn_Magbo" 
 	culture = yoruba
 }
-#jukun
-jukundyn001 = {
-	name = "dynn_Pindiga"
-	culture = jukun
-}
-jukundyn002 = {
-	name = "dynn_Biu"
-	culture = jukun
-}
-jukundyn003 = {
-	name = "dynn_Tangale"
-	culture = jukun
-}
-jukundyn004 = {
-	name = "dynn_Biyri"
-	culture = jukun
-}
-jukundyn005 = {
-	name = "dynn_Keffi"
-	culture = jukun
-}
-#nupe
-nupedyn010 = {
-	name = "dynn_Beni"
-	culture = nupe
-}
-#akpoto
-akpotodyn001 = {
-	name = "dynn_Ogoja"
-	culture = akpoto
-}
-akpotodyn002 = {
-	name = "dynn_Umaisha"
-	culture = akpoto
-}
-akpotodyn003 = {
-	name = "dynn_Keana"
-	culture = akpoto
-}
 #hausa
 hausadyn002 = {
 	name = "dynn_Zamfarawa"
@@ -428,71 +368,6 @@ igbodyn014 = {
 	name = "dynn_Efik"
 	culture = igbo
 }
-#Baatonu
-baatonudyn001 = {
-	name = "dynn_Ibaaba"
-	culture = baatonu
-}
-baatonudyn002 = {
-	name = "dynn_Babagidai"
-	culture = baatonu
-} 
-baatonudyn003 = {
-	name = "dynn_Bariba"
-	culture = baatonu
-}
-baatonudyn004 = {
-	name = "dynn_Wasangari"
-	culture = baatonu
-}
-baatonudyn005 = {
-	name = "dynn_Doro"
-	culture = baatonu
-} 
-baatonudyn006 = {
-	name = "dynn_Dobidia"
-	culture = baatonu
-}
-baatonudyn007 = {
-	name = "dynn_Sero"
-	culture = baatonu
-}
-baatonudyn008 = {
-	name = "dynn_Karawe"
-	culture = baatonu
-} 
-baatonudyn009 = {
-	name = "dynn_Makararou"
-	culture = baatonu
-}
-baatonudyn010 = {
-	name = "dynn_Korakou"
-	culture = baatonu
-} 
-baatonudyn011 = {
-	name = "dynn_Lafiarou"
-	culture = baatonu
-}
-baatonudyn012 = {
-	name = "dynn_Gbassi"
-	culture = baatonu
-}
-baatonudyn013 = {
-	name = "dynn_Gamabrou"
-	culture = baatonu
-} 
-baatonudyn014 = {
-	name = "dynn_Bakarou"
-	culture = baatonu
-}
-baatonudyn015 = {
-	name = "dynn_Baguiri"
-	culture = baatonu
-}
-baatonudyn016 = {
-	name = "dynn_Wouko"
-	culture = baatonu
-} 
 #Edo
 edodyn001 = {
 	name = "dynn_Ogiso"
@@ -887,10 +762,6 @@ butrdyn004 = {
 	culture = butr
 }
 #Jukun
-c_kasar_chikidyn001 = {
-	name = "dynn_Zenjo"
-	culture = jukun
-}
 #Kyenga
 
 kyengadyn001 = {

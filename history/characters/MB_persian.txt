@@ -1497,9 +1497,9 @@
 	827.1.1={
 		birth=yes
 	}
-	864.1.1={
-		employer=1234931
-	}
+	#864.1.1={
+	#	employer=1234931
+	#}
 	893.1.1={
 		death=yes
 	}
@@ -1527,9 +1527,9 @@
 	1055.1.1={
 		birth=yes
 	}
-	1070.1.1={
-		add_spouse=1234944
-	}
+	#1070.1.1={
+	#	add_spouse=1234944
+	#}
 	1078.5.1={ #died while giving birth
 		death={ death_reason=death_childbirth }
 	}
@@ -1544,9 +1544,9 @@
 	1061.1.1={
 		birth=yes
 	}
-	1080.1.1={
-		add_spouse=1234944
-	}
+	#1080.1.1={
+	#	add_spouse=1234944
+	#}
 	1110.1.1={ #?
 		death=yes
 	}
@@ -2017,7 +2017,7 @@
 	}
 }
 1235964 = {
-	name="Abd al-Wahid" #Abu Sa'd Abd al-Wahid ibn Ahmad ibn Ja'far ibn Makula, Vizier for Jalal al Dawla -1026
+	name="Abd-al-Wahid" #Abu Sa'd Abd al-Wahid ibn Ahmad ibn Ja'far ibn Makula, Vizier for Jalal al Dawla -1026
 	dynasty=1000101916
 	religion="ismaili"
 	culture="persian"
@@ -2355,7 +2355,7 @@
 	845.1.1={ #?
 		birth="845.1.1"
 	}
-	898.1.1={ #?
+	909.1.1={ #?
 		death="898.1.1"
 	}
 }

@@ -661,7 +661,7 @@ c_almader = {
 		holder = 73616 # Yahya Tariqid
 	}
 	1212.1.1 = {
-		holder = almohad0007 # Abu Ali Almohad
+		holder = almohad0006 # Abu Abdullah Muhammad Almohad
 		liege = k_maghreb
 	}
 	1216.1.1 = {
@@ -805,7 +805,7 @@ c_andujar = { # Jaen
 		holder = 73616 # Yahya Tariqid
 	}
 	1212.1.1 = {
-		holder = almohad0007 # Abu Ali Almohad
+		holder = almohad0006 # Abu Abdullah Muhammad Almohad
 		liege = k_maghreb
 	}
 	1216.1.1 = {
@@ -818,7 +818,7 @@ c_andujar = { # Jaen
 	1223.1.1 = {
 		holder = almohad0008 # Abdallah al-Bayyasi Almohad
 	}
-	1224.1. = {
+	1224.1.1 = {
 		holder = almohad0005 # Abu al-Rabi' Sulayman ibn Abu Hafs 'Umar Almohad
 		liege = k_maghreb
 	}
@@ -2164,11 +2164,11 @@ d_toledo = {
 		holder = 0
 	}
 	903.1.1 = {
-		holder = 73824 # Mutarrif Qasid
+		holder = 200028 # Mutarrif Qasid
 		liege = k_andalusia
 	}
 	906.1.1 = {
-		holder = 73823 # Muhammad Qasid
+		holder = 200030 # Muhammad Qasid
 	}
 	907.1.1 = {
 		holder = 0
@@ -2200,9 +2200,6 @@ d_toledo = {
 	#	holder = 3922 # Isma'il Dhunnunid
 	#	liege = 0
 	#}
-	1045.1.1 = { # Maybe?
-		holder = 3924 # Yahya I Dhunnunid
-	}
 	1075.1.1 = {
 		holder = 3926 # Yahya II Dhunnunid
 	}
@@ -2244,11 +2241,10 @@ c_toledo = {
 		liege = d_toledo
 	}
 	903.1.1 = {
-		holder = 73824 # Mutarrif Qasid
-		liege = d_toledo
+		holder = 200028 # Mutarrif Qasid
 	}
 	906.1.1 = {
-		holder = 73823 # Muhammad Qasid
+		holder = 200030 # Muhammad Qasid
 	}
 	907.1.1 = {
 		holder = 73685 # Abdallah Umayyad
@@ -2361,11 +2357,10 @@ c_madrid = {
 		liege = d_toledo
 	}
 	903.1.1 = {
-		holder = 73824 # Mutarrif Qasid
-		liege = d_toledo
+		holder = 200028 # Mutarrif Qasid
 	}
 	906.1.1 = {
-		holder = 73823 # Muhammad Qasid
+		holder = 200030 # Muhammad Qasid
 	}
 	907.1.1 = {
 		holder = 73685 # Abdallah Umayyad
@@ -2474,6 +2469,8 @@ c_molina = {
 	}
 	850.1.1 = {
 		holder = 73938 # Ibrahum Burrunid
+	}
+	866.1.1 = {
 		liege = d_toledo
 	}
 	870.1.1 = {
@@ -2484,8 +2481,7 @@ c_molina = {
 		holder = 73933 # Yahya Qutamid
 	}
 	906.1.1 = {
-		holder = 73823 # Muhammad Qasid
-		liege = d_toledo
+		holder = 200030 # Muhammad Qasid
 	}
 	907.1.1 = {
 		holder = 73685 # Abdallah Umayyad
@@ -2528,6 +2524,7 @@ c_molina = {
 	}
 	1066.1.1 = {
 		holder = 73195
+		liege = d_toledo
 	}
 	1075.1.1 = {
 		holder = 3926 # Yahya II Dhunnunid
@@ -2658,6 +2655,7 @@ c_cuenca = {
 	}
 	1066.1.1 = {
 		holder = 73195
+		liege = d_toledo
 	}
 	1075.1.1 = {
 		holder = 3926 # Yahya II Dhunnunid
@@ -2737,11 +2735,10 @@ c_malagon = {
 		liege = d_toledo
 	}
 	903.1.1 = {
-		holder = 73824 # Mutarrif Qasid
-		liege = d_toledo
+		holder = 200028 # Mutarrif Qasid
 	}
 	906.1.1 = {
-		holder = 73823 # Muhammad Qasid
+		holder = 200030 # Muhammad Qasid
 	}
 	907.1.1 = {
 		holder = 73685 # Abdallah Umayyad
@@ -2868,11 +2865,10 @@ c_mora = {
 		liege = d_toledo
 	}
 	903.1.1 = {
-		holder = 73824 # Mutarrif Qasid
-		liege = d_toledo
+		holder = 200028 # Mutarrif Qasid
 	}
 	906.1.1 = {
-		holder = 73823 # Muhammad Qasid
+		holder = 200030 # Muhammad Qasid
 	}
 	907.1.1 = {
 		holder = 73685 # Abdallah Umayyad
@@ -2915,6 +2911,7 @@ c_mora = {
 	}
 	1066.1.1 = {
 		holder = 73195
+		liege = d_toledo
 	}
 	1075.1.1 = {
 		holder = 3926 # Yahya II Dhunnunid

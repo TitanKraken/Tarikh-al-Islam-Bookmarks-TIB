@@ -6162,7 +6162,7 @@ c_pula = {
 		holder = 1st_venice_doge # Paulucius Anafestus, according to tradition
 		liege = e_byzantium
 	}
-	697.1.2 = {
+	715.1.1 = {
 		liege = k_romagna
 	}
 	739.1.1 = {

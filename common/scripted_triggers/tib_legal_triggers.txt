@@ -4,6 +4,24 @@
 		has_realm_law_flag = allows_grand_jihad_cb
 	}
 }
+can_designate_heir_trigger = {
+	OR = {
+		government_has_flag = government_is_islamic
+		custom_description = {
+			text = "has_law_allowing_designate_heir"
+			has_realm_law_flag = can_designate_heirs
+		}
+	}
+	custom_description = {
+		text = "dynasty_member_leads_election"
+		NAND = {
+			primary_title = {
+				has_title_law_flag = elective_succession_law
+			}
+			dynasty = primary_heir.dynasty
+		}
+	}	
+}
 has_full_zakat_authority_trigger = {	
 	custom_description = {
 		text = "has_full_zakat_authority"
@@ -13,30 +31,30 @@ has_full_zakat_authority_trigger = {
 has_zakat_funds_trigger = {
 	custom_description = {
 		text = "has_zakat_funds"
-		var:zakat_resource > 0
+		var:zakat_resource > 1
 	}
 }
 has_enough_zakat_funds_minor_trigger = {
-	custom_description = {
-		text = "insufficient_zakat_funds"
+	custom_tooltip = {
+		text = "insufficient_zakat_funds_minor"
 		var:zakat_resource >= minor_gold_value
 	}
 }
 has_enough_zakat_funds_medium_trigger = {
-	custom_description = {
-		text = "insufficient_zakat_funds"
+	custom_tooltip = {
+		text = "insufficient_zakat_funds_medium"
 		var:zakat_resource >= medium_gold_value
 	}
 }
 has_enough_zakat_funds_major_trigger = {
-	custom_description = {
-		text = "insufficient_zakat_funds"
+	custom_tooltip = {
+		text = "insufficient_zakat_funds_major"
 		var:zakat_resource >= major_gold_value
 	}
 }
 has_enough_zakat_funds_massive_trigger = {
-	custom_description = {
-		text = "insufficient_zakat_funds"
+	custom_tooltip = {
+		text = "insufficient_zakat_funds_massive"
 		var:zakat_resource >= massive_gold_value
 	}
 }

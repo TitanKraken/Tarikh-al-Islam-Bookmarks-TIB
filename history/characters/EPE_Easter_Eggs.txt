@@ -1,0 +1,278 @@
+﻿EPE_easter_egg_1 = {
+	name = "HerzogeJohannes"
+	dna = 1066_OneProudBavarian
+	martial = 4
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 6
+	religion = "catholic"
+	culture = bavarian
+	trait = arrogant
+	trait = ambitious
+	trait = gregarious
+	trait = physique_bad_1
+	trait = shrewd
+	trait = education_diplomacy_2
+	sexuality = heterosexual
+	
+	1041.1.1 = {
+		birth = yes
+		give_nickname = nick_the_proud
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
+	}
+	1066.1.1 = {
+		employer = 33410 #Dude ruling Munchen, Bavaria
+	}
+	1120.1.1 = {
+		death = yes
+	}
+}
+
+EPE_easter_egg_2 = {
+	name = "CeolulfrSmid"
+	dna = 867_Voltaire
+	martial = 4
+	diplomacy = 5
+	intrigue = 1
+	stewardship = 6
+	religion = "norse_pagan"
+	culture = anglo_saxon
+	trait = lazy
+	trait = stubborn
+	trait = zealous
+	trait = intellect_good_3
+	trait = poet
+	trait = education_learning_3
+	sexuality = heterosexual
+	
+	847.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
+	}
+	867.1.1 = {
+		employer = 186004 #Dude ruling Niadros, Norway
+	}
+	920.1.14 = {
+		death = yes
+	}
+}
+
+EPE_easter_egg_3 = {
+	name = "Emrys"
+	dna = 867_Emrys
+	martial = 5
+	diplomacy = 5
+	intrigue = 3
+	stewardship = 5
+	religion = "catholic"
+	culture = welsh
+	trait = cynical
+	trait = stubborn
+	trait = calm
+	trait = education_learning_1
+	sexuality = heterosexual
+	
+	844.1.1 = {
+		birth = yes
+	}
+	867.1.1 = {
+		employer = 159353 #Dude ruling Dyfed, Wales
+	}
+	923.1.14 = {
+		death = yes
+	}
+}
+
+EPE_easter_egg_4 = {
+	name = "Emmaline"
+	dna = 1066_Emmaline
+	female = yes
+	dynasty = 1001_epe_westphalia
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 5
+	religion = "catholic"
+	culture = franconian
+	trait = diligent
+	trait = generous
+	trait = humble
+	trait = calm
+	trait = journaller
+	trait = education_diplomacy_2
+	sexuality = heterosexual
+	
+	1045.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
+	}
+	1066.1.1 = {
+		employer = 20218 #Dude ruling Munster, Franconia
+	}
+	1120.2.27 = {
+		death = yes
+	}
+}
+
+EPE_easter_egg_5 = {
+	name = "SpadaUomo"
+	martial = 7
+	diplomacy = 4
+	intrigue = 3
+	stewardship = 4
+	prowess = 8
+	religion = "catholic"
+	culture = italian
+	trait = stubborn
+	trait = diligent
+	trait = lustful
+	trait = ambitious
+	trait = education_martial_3
+	trait = lifestyle_blademaster
+	sexuality = heterosexual
+	
+	1041.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		employer = 2022 #Dude ruling Lucca, Italy
+	}
+	1120.2.27 = {
+		death = yes
+	}
+}
+
+EPE_easter_egg_6 = {
+	name = "PierreleTyran"
+	dna = 1066_El_Tyranos
+	martial = 4
+	diplomacy = 4
+	intrigue = 4
+	stewardship = 7
+	prowess = 6
+	religion = "catholic"
+	culture = french
+	trait = cynical
+	trait = diligent
+	trait = ambitious
+	trait = patient
+	trait = education_learning_2
+	sexuality = heterosexual
+	
+	1039.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
+	}
+	1066.1.1 = {
+		employer = 150 #Dude ruling Bayeux, Normandy
+	}
+	1120.2.27 = {
+		death = yes
+	}
+}
+
+EPE_easter_egg_7 = {
+	name = "JorundrBjornson"
+	dynasty = 1002_epe_bjornson
+	dna = 867_Bear_AGOT
+	martial = 4
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 4
+	prowess = 6
+	religion = "norse_pagan"
+	culture = norse
+	trait = wrathful
+	trait = gregarious
+	trait = compassionate
+	trait = overseer
+	trait = education_martial_2
+	sexuality = bisexual
+	
+	846.1.1 = {
+		birth = yes
+	}
+	867.1.1 = {
+		employer = 41259 #Dude ruling Varmland, Sweden
+	}
+	923.1.14 = {
+		death = yes
+	}
+}
+
+EPE_easter_egg_8 = {
+	name = "Edward"
+	dynasty = 1003_epe_johnstone
+	dna = 1066_Uber
+	martial = 4
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 4
+	prowess = 6
+	religion = "catholic"
+	culture = scottish
+	trait = humble
+	trait = diligent
+	trait = gregarious
+	trait = education_diplomacy_2
+	sexuality = heterosexual
+	
+	1044.1.1 = {
+		birth = yes
+	}
+	1066.9.15 = {
+		employer = 82001 #Dude ruling Teviotdale, Scotland
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
+	}
+	1124.1.19 = {
+		death = yes
+	}
+}
+
+EPE_easter_egg_9 = {
+	name = "Grant"
+	dynasty = 60606060
+	dna = 1066_Gib
+	martial = 7
+	diplomacy = 9
+	intrigue = 4
+	stewardship = 10
+	prowess = 8
+	religion = "catholic"
+	culture = scottish
+	trait = lazy
+	trait = generous
+	trait = honest
+	trait = education_martial_2
+	trait = intellect_good_2
+	trait = infertile
+	trait = desert_warrior
+	trait = irritable
+	sexuality = heterosexual
+	
+	1041.1.1 = {
+		birth = yes
+	}
+	1066.9.15 = {
+		employer = 85018 #Dude ruling Edinburgh, Scotland
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
+	}
+	1119.1.19 = {
+		death = yes
+	}
+}
+
+
+

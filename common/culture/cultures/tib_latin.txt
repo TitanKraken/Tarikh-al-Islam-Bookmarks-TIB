@@ -1084,7 +1084,7 @@ dalmatian = {
 	
 	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { italian_clothing_gfx }
+	clothing_gfx = { italian_clothing_gfx western_clothing_gfx }
 	unit_gfx = { italian_unit_gfx western_unit_gfx }
 	
 	ethnicities = {
@@ -1398,13 +1398,13 @@ illyrian = { # Ancestor culture
 african_roman = {
 	color = { 1.0 0.811 0.580 }
 
-	parents = { afro_roman vandalic }
+	parents = { afro_roman }
 
 	created = 500.1.1
 
 	ethos = ethos_communal
 	heritage = heritage_latin
-	language = language_african_romance
+	language = language_latin # language_african_romance
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_zealous_people

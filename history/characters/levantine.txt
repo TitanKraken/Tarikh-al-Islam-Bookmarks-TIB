@@ -5638,7 +5638,7 @@
 	dynasty = 587
 	religion = "ismaili"
 	culture = "levantine"
-	father = 159485
+	#father = 159485
 	1080.1.1 = {
 		birth = "1080.1.1" #Unknown
 	}
@@ -11557,7 +11557,7 @@ levantine0129 = {
 	}
 }
 
-200031 = {
+2000310 = {
 	name = "Zakariya" # Zakariyya ibn Yahya
 	dynasty = 12289 # Banu A'id Dynasty
 	religion = ashari
@@ -11574,7 +11574,7 @@ levantine0129 = {
 	}
 }
 
-200041 = {
+2000410 = {
 	name = "Abd-al-Rahman" # Abd al-Rahman ibn Ali, Sheik of Tarragona (950-978)
 	dynasty = 12289 # Banu A'id Dynasty
 	religion = ashari

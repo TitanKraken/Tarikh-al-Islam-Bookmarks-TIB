@@ -1005,7 +1005,7 @@ Suldus10 = {
 	father = 3030200
 	1211.1.1={
 		birth=yes
-		add_trait = disinherited #So they don't inherit in Mongolia
+		add_trait = disinherited # So they don't inherit in Mongolia
 	}
 	1275.1.1={
 		death=yes
@@ -1458,7 +1458,10 @@ set_realm_capital = title:c_itil
 		}
 		spawn_army = {
 			levies = 3000
-			horse_archers = 500
+			men_at_arms = {
+				type = horse_archers
+				stacks = 50
+			}
 			location = province:620 # Itil
 			origin = province:620 # optional, location used if not set. This is used for where to base bonuses and the like on
 			name = Mongol_Army
@@ -1782,15 +1785,6 @@ set_realm_capital = title:c_itil
 	
 	1227.12.2={
 		dynasty_house = house_Toluid
-	}
-	1229.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:125520
-		SUZERAIN = character:172005
-			}
-		}
 	}
 	1232.1.1={
 		death = yes
@@ -2527,7 +2521,10 @@ set_realm_capital = title:c_maragha
 		}
 		spawn_army = {
 			levies = 3000
-			horse_archers = 500
+			men_at_arms = {
+				type = horse_archers
+				stacks = 50
+			}
 			location = province:4545 # Maragha
 			origin = province:4545 # optional, location used if not set. This is used for where to base bonuses and the like on
 			name = Mongol_Army
@@ -3887,24 +3884,6 @@ Injuid1 = {
 	1241.12.11={
 		dynasty_house = house_Orda
 	}
-	1285.11.15={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:34913
-		SUZERAIN = character:125509
-			}
-		}
-	}
-	1297.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:34913
-		SUZERAIN = character:125512
-			}
-		}
-	}	
 	1300.1.1={
 		culture=tatars
 	}
@@ -3939,15 +3918,6 @@ Injuid1 = {
 	}
 	1300.1.1={
 		culture=tatars
-	}
-	1310.6.1 ={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:34915
-		SUZERAIN = character:125512
-			}
-		}
 	}
 	1315.1.1={
 		death="1315.1.1"
@@ -3986,15 +3956,6 @@ Injuid1 = {
 	}
 	1313.1.1={
 		religion="ashari"
-	}
-	1337.5.24 ={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:34917
-		SUZERAIN = character:480000
-			}
-		}
 	}
 	1344.1.1={
 		death="1344.1.1"
@@ -4646,15 +4607,6 @@ sons_of_orda_003 = {
 	1227.12.2={
 		dynasty_house = house_Chagatayid
 	}
-	1229.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:93062
-		SUZERAIN = character:172005
-			}
-		}
-	}
 	1232.1.1 = {
 		effect = {
 			add_gold = 5000
@@ -4694,7 +4646,7 @@ sons_of_orda_003 = {
 }
 sons_of_mutukan_001 = {
 	name = "Baiju" 
-	dynasty_dynasty = house_Chagatayid
+	dynasty_house = house_Chagatayid
 	religion = "tengri_pagan"
 	culture = "mongol"
 	father = 93063
@@ -4723,25 +4675,7 @@ sons_of_mutukan_001 = {
 	}
 	1234.1.1={
      add_spouse=166904
-   }
-   1241.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:93064
-		SUZERAIN = character:172005
-			}
-		}
-	}	
-	1246.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:93064
-		SUZERAIN = character:172007
-			}
-		}
-	}
+    }
 	1253.1.1={
 		death="1253.1.1"
 	}
@@ -4927,15 +4861,6 @@ ChagataiFemale4 = {
 
 		}	
 	}
-	1267.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:93070
-		SUZERAIN = character:217266
-			}
-		}
-	}
 	1270.1.1={
 		religion="ashari"
 	}
@@ -5118,15 +5043,6 @@ sons_of_sarban_001 = {
 	}
 	1300.1.1 = {
 		culture = chagatai
-	}
-	1310.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:93080
-		SUZERAIN = character:217271
-			}
-		}
 	}
 	1318.1.1={
 		death="1318.1.1"
@@ -5399,6 +5315,18 @@ sons_of_sarban_001 = {
 93101 = {
 	name = "Bogen"
 	#placeholder
+	religion = "tengri_pagan"
+	culture = "mongol"
+	1240.1.1 = {
+		birth = "1240.1.1"
+	}
+	1300.1.1 = {
+		death = "1300.1.1"
+	}
+}
+
+mongol_placeholder_001 = {
+	name = "Taliqu"
 	religion = "tengri_pagan"
 	culture = "mongol"
 	1240.1.1 = {
@@ -6248,7 +6176,7 @@ sons_of_sarban_001 = {
 		}
 		spawn_army = {
 			name = event_troop_default_name
-			levies = 200‬
+			levies = 200
 			location = province:1457
 			origin = province:1457
 			inheritable = no
@@ -9692,7 +9620,10 @@ sons_of_mochi_yebe_001 = {
 		trait = adventurer
 		spawn_army = {
 			levies = 1500
-			horse_archers = 700
+			men_at_arms = {
+				type = horse_archers
+				stacks = 70
+			}
 			location = province:5268 # Odessa
 			origin = province:5268 # optional, location used if not set. This is used for where to base bonuses and the like on
 			name = Teguder_Adventurers
@@ -9736,7 +9667,7 @@ sons_of_mochi_yebe_003 = {
 	1216.1.1 = {
 		birth = yes
 	}
-	1270.1.1 =
+	1270.1.1 = {
 		death = yes
 	}
 }
@@ -9750,7 +9681,7 @@ sons_of_mochi_yebe_004 = {
 	1217.1.1 = {
 		birth = yes
 	}
-	1270.1.1 =
+	1270.1.1 = {
 		death = yes
 	}
 }
@@ -9764,7 +9695,7 @@ sons_of_mochi_yebe_005 = {
 	1218.1.1 = {
 		birth = yes
 	}
-	1270.1.1 =
+	1270.1.1 = {
 		death = yes
 	}
 }
@@ -9781,7 +9712,7 @@ sons_of_mochi_yebe_006 = {
 	1219.1.1 = {
 		birth = yes
 	}
-	1270.1.1 =
+	1270.1.1 = {
 		death = yes
 	}
 }
@@ -9795,7 +9726,7 @@ sons_of_mochi_yebe_007 = {
 	1220.1.1 = {
 		birth = yes
 	}
-	1270.1.1 =
+	1270.1.1 = {
 		death = yes
 	}
 }
@@ -9809,7 +9740,7 @@ sons_of_mochi_yebe_008 = {
 	1221.1.1 = {
 		birth = yes
 	}
-	1270.1.1 =
+	1270.1.1 = {
 		death = yes
 	}
 }
@@ -9823,7 +9754,7 @@ sons_of_mochi_yebe_009 = {
 	1222.1.1 = {
 		birth = yes
 	}
-	1270.1.1 =
+	1270.1.1 = {
 		death = yes
 	}
 }
@@ -9837,7 +9768,7 @@ sons_of_mochi_yebe_010 = {
 	1223.1.1 = {
 		birth = yes
 	}
-	1270.1.1 =
+	1270.1.1 = {
 		death = yes
 	}
 }
@@ -9851,7 +9782,7 @@ sons_of_mochi_yebe_011 = {
 	1224.1.1 = {
 		birth = yes
 	}
-	1270.1.1 =
+	1270.1.1 = {
 		death = yes
 	}
 }

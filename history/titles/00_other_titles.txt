@@ -1216,11 +1216,7 @@ d_patriarchate_in_the_east = {
 	628.1.1={
 		holder=166275
 	}
-	638.1.1 = {
-		liege = k_mesopotamia	#Islamic invasion of Iraq.
-	}
 	646.1.1={
-		liege=e_arabia
 		holder=166276
 	}
 	649.1.1={
@@ -1356,9 +1352,6 @@ d_coptic_papacy = {
 	622.1.1 = {
 		holder = 161524 #Benjamin I I
 	}
-	639.1.1 = {
-		liege = k_egypt	#Islamic invasion of Egypt.
-	}
 	677.1.1 = {
 		holder = 161516 #Yohannes III
 	}
@@ -1379,6 +1372,9 @@ d_coptic_papacy = {
 	}
 	859.1.1 = {
 		holder = 168592 #Shenouda
+	}
+	867.1.1 = {
+		liege = k_egypt
 	}
 	880.1.1 = {
 		holder = 161511 #Khail III
@@ -1485,7 +1481,6 @@ d_apostolic_church = {
 	}
 	288.1.1 = {
 		holder = armenian.000011 #St. Gregory I the Illuminator (288–325)
-		liege = k_armenia
 	}
 	325.1.1 = {
 		holder = armenian.000013 #St. Aristaces I (325–333)
@@ -1597,6 +1592,7 @@ d_apostolic_church = {
 	}
 	703.1.1 = {
 		holder = armenian.000049 #Elias I (703–717)
+		liege = e_arabia
 	}
 	717.1.1 = {
 		holder = armenian.000050 #St. John III the Philosopher (717–728)
@@ -1822,7 +1818,6 @@ d_sunni = {
 	974.1.1 = {
 		holder = 3080
 		liege = k_persia
-		set_realm_capital = title:c_baghdad
 	}
 	991.1.1 = {
 		holder = 3082
@@ -2252,12 +2247,8 @@ e_ilkhanate = {
 	1232.1.1 = {
 		holder = 478011
 	}
-	1256.1.1 = {
-		set_realm_capital = title:c_maragha
-	}
 	1265.2.8 = {
 		holder = 478010
-		set_realm_capital = title:c_tabriz
 	}
 	1282.1.1 = {
 		holder = 125523
@@ -2644,7 +2635,7 @@ d_teutonic_order = {
 	}
 	1198.1.1 = {
 		holder = 30400 #Heinrich von Bassenheim
-		government = holy_order_county_government # feudal_government
+		government = holy_order_government # feudal_government
 	}
 	
 	1200.1.1 = {
@@ -2713,7 +2704,7 @@ d_knights_hospitaler = {
 	20.1.1 = {
 	}
 	1099.7.15 = {
-		government = holy_order_county_government # feudal_government
+		government = holy_order_government # feudal_government
 	}
 	1099.7.15 = {
 		liege = "k_jerusalem"
@@ -2812,7 +2803,7 @@ d_hashshashin = {
 	}
 	1090.1.1 = {
 		holder = 144225
-		government = holy_order_county_government # feudal_government
+		government = holy_order_government # feudal_government
 	}
 	#1100.1.1 = {
 	#	holder = 144225
@@ -2862,7 +2853,7 @@ d_jomsvikings = {
 	20.1.1 = {
 	}
 	700.1.1 = {
-		government = holy_order_county_government
+		government = holy_order_government
 	}
 }
 
@@ -2871,7 +2862,7 @@ d_immortals = {
 	20.1.1 = {
 	}
 	700.1.1 = {
-		government = holy_order_county_government
+		government = holy_order_government
 	}
 }
 
@@ -2886,7 +2877,7 @@ d_holy_sepulchre = {
 	20.1.1 = {
 	}
 	700.1.1 = {
-		government = holy_order_county_government
+		government = holy_order_government
 	}
 }
 
@@ -2944,7 +2935,7 @@ d_knights_santiago = {
 	}
 	1171.1.1 = {
 		holder = 72363 # Pedro de Castro
-		government = holy_order_county_government # feudal_government
+		government = holy_order_government # feudal_government
 		liege = k_castille
 	}
 
@@ -2957,7 +2948,7 @@ d_knights_calatrava = {
 	1164.1.1 = {
 		holder = 73150
 		liege = k_castille
-		government = holy_order_county_government
+		government = holy_order_government
 	}
 	1169.1.1 = {
 		holder = 73151
@@ -3156,7 +3147,7 @@ d_erzerum = {
 		holder = 34401
 	}
 	1335.1.1 = {
-		liege = "k_eretnid"
+		#liege = "k_eretnid"
 		holder = 71864
 	}
 }
@@ -4104,9 +4095,9 @@ k_ottoman = {
 	1336.12.01 = {
 		holder = 476502 # Murad I
 	}
-	1389.6.16 = {
-		holder = ottoman_001 # Bayezid I
-	}
+	#1389.6.16 = {
+	#	holder = ottoman_001 # Bayezid I
+	#}
 }
 k_trebizond = {
 	#Empire of Trebizond
@@ -4215,70 +4206,73 @@ e_russia = {
 }
 
 
-e_caspian-pontic_steppe = {
+e_caspian-pontic_steppe = { # Khazaria
 	691.1.1 = {
 		holder = 74007 # Busir
 		government = tribal_government
 	}
-	715.1.1 = {
+	728.1.1 = {
 		holder = 74008 # Barjik
 	}
-	731.1.1 = {
+	732.1.1 = {
 		holder = 74009 # Bihar
 	}
-	749.1.1 = {
-		holder = 74012 # Baghatur
-	}
-	763.1.1 = {
-		holder = 146203 # Sartac Karadakh
-	}
-	796.1.1 = {
+	#760.1.1 = {
+	#	holder = 74012 # Baghatur
+	#}
+	#763.1.1 = {
+	#	holder = 146203 # Sartac Karadakh
+	#}
+	740.1.1 = {
 		holder = 74018 # Bulan Sabriel
 	}
-	802.1.1 = {
+	815.1.1 = {
+		holder = 146186 # Ezra, placeholder
+	}
+	852.1.1 = {
 		holder = 74019 # Obadiah
 	}
-	818.1.1 = {
+	874.1.1 = {
 		holder = 74020 # Hezekiah
 	}
-	829.1.1 = {
+	878.1.1 = {
 		holder = 74022 # Hanukkah
 	}
-	831.1.1 = {
+	885.1.1 = {
 		holder = 74021 # Manasseh
 	}
-	864.1.1 = {
+	886.1.1 = {
 		holder = 74023 # Isaac
 	}
-	885.1.1 = {
+	897.1.1 = {
 		holder = 74024 # Zebulun
 	}
-	894.1.1 = {
+	902.1.1 = {
 		holder = 74025 # Manasseh II
 	}
-	896.1.1 = {
-		holder = 74026
+	904.1.1 = {
+		holder = 74026 # Nisi
 	}
-	899.1.1 = {
-		holder = 146187
+	911.1.1 = {
+		holder = 146187 # Aaron
 	}
 	916.1.1 = {
-		holder = 146188
+		holder = 146188 # Menahem
 	}
 	920.1.1 = {
-		holder = 146189
+		holder = 146189 # Benjamin
 	}
 	928.1.1 = {
-		holder = 146190
+		holder = 146190 # Aaron II
 	}
 	945.1.1 = {
-		holder = 146191
+		holder = 146191 # Joseph
 	}
 	969.1.1 = {
-		holder = 146193
+		holder = 146193 # David
 	}
 	993.1.1 = {
-		holder = 146194
+		holder = 146194 # Georgios
 	}
 	1016.1.1 = {
 		holder = 0
@@ -5284,7 +5278,7 @@ e_tartaria = {
 }
 
 e_mongolia = {
-	682.1.1. = {
+	682.1.1 = {
 		name = GOKTURK
 		holder = ilterish_qaghan
 	}
@@ -5372,7 +5366,7 @@ k_genoa = {
 	1208.4.1 = {
 		holder = cisalpine0245 # Montanaro Doria
 	}
-	1290.6.1 = {
+	1209.6.1 = {
 		holder = cisalpine0246 # Daniele Doria
 	}
 	1212.4.1 = {

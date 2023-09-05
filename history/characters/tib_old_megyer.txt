@@ -1,4 +1,4 @@
-megyer = {
+﻿megyer = {
 	name = "Megyer"
     dynasty = megyer_tribe
 	religion = magyar_pagan

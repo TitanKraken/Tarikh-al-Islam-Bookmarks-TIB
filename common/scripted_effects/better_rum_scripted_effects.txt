@@ -1,0 +1,98 @@
+﻿# Sets de jure liege of duchies of k_pontus, k_anatolia, and k_nikaea to k_rum, and sets de jure liege of k_rum to e_persia
+# Additionally gives all related duchies to character:3046 for ease of vassal management
+de_jure_changes_asia_minor = {
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = rum_duchies
+		add_claim_on_loss = no
+	}
+	
+	title:k_pontus = {
+		every_in_de_jure_hierarchy = {
+			limit = {
+				tier = tier_duchy
+			}
+			set_de_jure_liege_title = title:k_rum
+			change_title_holder = {
+				holder = character:3046
+				change = scope:rum_duchies
+			}
+		}
+	}
+	
+	title:k_anatolia = {
+		every_in_de_jure_hierarchy = {
+			limit = {
+				tier = tier_duchy
+			}
+			set_de_jure_liege_title = title:k_rum
+			change_title_holder = {
+				holder = character:3046
+				change = scope:rum_duchies
+			}
+		}
+	}
+	
+	# Not doing this for k_nikaea
+	
+	resolve_title_and_vassal_change = scope:rum_duchies
+	
+	# Not changing this de jure either. De Jure is such a weird mechanic, I hate it
+	#title:k_rum = {
+	#	set_de_jure_liege_title = title:e_persia
+	#}
+}
+
+# Reverses previous changes (for Byzantines' decision)
+reverse_de_jure_asia_minor = {
+	# Set each duchy's de jure liege to their previous kingdom
+	# k_nikaea, doesn't do anything. Kept this from a previous version
+	title:d_optimatoi = {
+		set_de_jure_liege_title = title:k_nikaea
+	}
+	title:d_opsikion = {
+		set_de_jure_liege_title = title:k_nikaea
+	}
+	title:d_ephese = {
+		set_de_jure_liege_title = title:k_nikaea
+	}
+	title:d_thracesia = {
+		set_de_jure_liege_title = title:k_nikaea
+	}
+	title:d_bucellaria = {
+		set_de_jure_liege_title = title:k_nikaea
+	}
+	
+	# k_anatolia
+	title:d_cibyrrhaeot = {
+		set_de_jure_liege_title = title:k_anatolia
+	}
+	title:d_anatolia = {
+		set_de_jure_liege_title = title:k_anatolia
+	}
+	title:d_cappadocia = {
+		set_de_jure_liege_title = title:k_anatolia
+	}
+	title:d_charsianon = {
+		set_de_jure_liege_title = title:k_anatolia
+	}
+	title:d_cilicia = {
+		set_de_jure_liege_title = title:k_anatolia
+	}
+	
+	# k_pontus
+	title:d_sebasteia = {
+		set_de_jure_liege_title = title:k_pontus
+	}
+	title:d_armeniac = {
+		set_de_jure_liege_title = title:k_pontus
+	}
+	title:d_paphlagonia = {
+		set_de_jure_liege_title = title:k_pontus
+	}
+	title:d_chaldia = {
+		set_de_jure_liege_title = title:k_pontus
+	}
+	
+	destroy_title = title:k_rum
+}

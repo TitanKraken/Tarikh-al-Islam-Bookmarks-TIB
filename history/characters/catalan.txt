@@ -303,94 +303,6 @@ barcelona_00004 = {
 	}
 }
 
-110536 = {
-	name = "Sunyer" # Sunyer (I) de Barcelona, Duke of Barcelona (911-947) & Count of Barcelona & Girona (911-947)
-	dynasty = 100204 # Barcelona Dynasty
-	martial = 6
-	diplomacy = 5
-	intrigue = 7
-	stewardship = 8
-	religion = catholic
-	culture = occitan
-	trait = education_martial_2
-
-	father = 70150 # Duke Guifred I of Barcelona
-	mother = 70151 # # Duchess Guinidilda
-
-	896.1.1 = {
-		birth = yes
-	}
-	947.1.1 = {
-		remove_spouse = 110537
-		trait = devoted
-		culture = catalan
-	}
-	954.10.15 = {
-		death = yes
-	}
-}
-
-110538 = {
-	name = "Borrell" # Borrell (II) de Barcelona, Duke of Barcelona (966-992) & Count of Urgell (948-992), Barcelona & Girona (966-992)
-	dynasty = 100204 # Barcelona Dynasty
-	martial = 5
-	diplomacy = 4
-	intrigue = 8
-	stewardship = 8
-	religion = catholic
-	culture = catalan
-	trait = education_diplomacy_3
-
-	father = 110536 # Duke Sunyer I of Barcelona
-	mother = 110537 # Duches Richilda de Toulouse
-
-	927.1.1 = {
-		birth = yes
-	}
-	947.1.1 = {
-		culture = catalan
-	}
-	968.1.1 = {
-		add_spouse = 110539 # Letgarde de Toulouse
-	}
-	992.9.30 = {
-		death = yes
-	}
-}
-
-110600 = {
-	name = "Gausfred" # Gausfred (I) d'Empuries, Count of Empuries & Rousillon (931-991)
-	dynasty = 393 # Empuries Dynasty
-	martial = 4
-	diplomacy = 4
-	intrigue = 6
-	stewardship = 6
-	religion = catholic
-	culture = occitan
-	trait = just
-	trait = craven
-	trait = education_stewardship_3
-
-	father = 74103 # Gausbert d'Empuries
-	mother = occitan0126 # Trudegarda
-
-	913.1.1 = {
-		birth = yes
-	}
-	947.1.1 = {
-		culture = catalan
-	}
-	959.6.20 = {
-		add_spouse = 331 # Ava
-	}
-	984.1.1 = {
-		add_spouse = catalan0068 # Sibil·la
-	}
-	991.2.28 = {
-		death = yes
-	}
-}
-
 110540 = {
 	name = "Ramon-Borrell" # Ramon Borrell de Barcelona, Duke of Barcelona (992-1017) & Count of Barcelona & Girona (992-1017)
 	dynasty = 100204 # Barcelona Dynasty
@@ -1269,26 +1181,6 @@ barcelona_00004 = {
 		death = yes
 	}
 }
-
-110651 = {
-	name = "AdelaI_da" # Adelaide Bosonid, wife of Guillem I de Besalú (110650 - catalan.txt)
-	female = yes
-	dynasty = 7052 # Bosonid
-	religion = catholic
-	culture = occitan
-	trait = education_diplomacy_1
-
-	father = 404 # Duke Geoffroi I of Provence
-	mother = 273 # Duchess Étienette de Marseille
-
-	1003.1.1 = {
-		birth = yes
-	}
-	1053.1.1 = {
-		death = yes
-	}
-}
-
 
 110652 = {
 	name = "Bernat" # Bernat (II) de Besalú
@@ -3466,76 +3358,6 @@ barcelona_00004 = {
 	}
 }
 
-70154 = {
-	name = "Miron" # Miró (II) de Cerdanya, Count of Cerdanya (897-927)
-	dynasty = 100204 # Barcelona Dynasty
-	religion = catholic
-	culture = occitan
-	trait = education_diplomacy_2
-
-	father = 70150 # Duke Guifré I of Barcelona
-	mother = 70151 # Duchess Guinidilda
-
-	878.1.1 = {
-		birth = yes
-	}
-	897.8.11 = {
-		dynasty_house = house_cerdanya # House of Cerdanya
-	}
-	916.1.1 = {
-		add_spouse = 70155 # Ava
-	}
-	927.1.1 = {
-		death = yes
-	}
-}
-
-70155 = {
-	name = "Ava" # Ava, wife of Miró II of Cerdanya (70154)
-	female = yes
-	religion = catholic
-	culture = occitan
-	trait = education_stewardship_1
-
-	900.1.1 = {
-		birth = yes
-	}
-	947.1.1 = {
-		culture = catalan
-	}
-	962.1.1 = {
-		death = yes
-	}
-}
-
-70156 = {
-	name = "Oliba" # Oliba de Cerdanya, Count of Cerdanya (984-988)
-	dynasty_house = house_cerdanya # House of Cerdanya
-	religion = catholic
-	culture = occitan
-	trait = education_learning_1
-
-	father = 70154
-	mother = 70155
-
-	921.1.1 = {
-		birth = yes
-	}
-	947.1.1 = {
-		culture = catalan
-	}
-	967.8.16 = {
-		add_spouse = 70157 # Ermengarda de Vallespir (catalan.txt)
-	}
-	988.1.1 = {
-		trait = devoted
-		remove_spouse = 70157
-	}
-	990.1.1 = {
-		death = yes
-	}
-}
-
 70157 = {
 	name = "Ermengarda" # Ermengarda de Vallespir, wife of Count Oliba of Cerdanya (70156)
 	female = yes
@@ -4417,41 +4239,6 @@ barcelona_00004 = {
 	}
 	1321.1.1 = {
 		death = "1321.1.1"
-	}
-}
-
-70278 = {
-	name = "Llop"
-	dynasty_house = house_pallars
-
-	father = 70272
-
-	religion = catholic
-	culture = catalan
-
-	910.1.1 = {
-		birth = yes
-	}
-	936.1.1 = {
-		add_spouse = 70279
-	}
-	960.1.1 = {
-		death = yes
-	}
-}
-
-70279 = {
-	name = "Gotruda"
-	female = yes
-
-	religion = catholic
-	culture = catalan
-
-	920.1.1 = {
-		birth = yes
-	}
-	1010.1.1 = {
-		death = yes
 	}
 }
 
@@ -11336,28 +11123,6 @@ Urgell1 = {
 	}
 }
 
-110636 = {
-	name = "Clemencia"
-	female = yes
-	dynasty_house = house_bigorre
-	martial = 4
-	diplomacy = 6
-	intrigue = 6
-	stewardship = 5
-	religion = "catholic"
-	culture = "catalan"
-	trait = honest
-	trait = just
-	trait = education_intrigue_2
-	father = 40188
-	1037.1.2 = {
-		birth = "1037.1.2"
-	}
-	1065.1.2 = {
-		death = "1065.1.2"
-	}
-}
-
 210573 = {
 	name = "Arsenda"
 	female = yes
@@ -11376,19 +11141,6 @@ Urgell1 = {
 	}
 	1135.1.1 = {
 		death = "1135.1.1"
-	}
-}
-
-72430 = {
-	name = "Guillelma"
-	female = yes
-	religion = "catholic"
-	culture = "catalan"
-	1180.1.1 = {
-		birth = "1180.1.1"
-	}
-	1230.1.1 = {
-		death = "1230.1.1"
 	}
 }
 
@@ -11812,24 +11564,6 @@ Urgell1 = {
 		birth = yes
 	}
 	1327.10.23 = {
-		death = yes
-	}
-}
-
-200155 = {
-	name = "Sunifred"
-	dynasty = 100204
-
-	father = 70150
-	mother = 70151
-
-	religion = catholic
-	culture = catalan
-
-	898.1.1 = {
-		birth = yes
-	}
-	948.1.1 = {
 		death = yes
 	}
 }
@@ -14592,9 +14326,9 @@ catalan0151 = {
 	1101.1.1 = {
 		birth = yes
 	}
-	1123.1.1 = {
-		add_spouse = catalan0152 # Beatriu
-	}
+	#1123.1.1 = {
+	#	add_spouse = catalan0152 # Beatriu
+	#}
 	1151.1.1 = {
 		death = yes
 	}

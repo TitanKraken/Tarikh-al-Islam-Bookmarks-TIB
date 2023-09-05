@@ -8,6 +8,10 @@
 #Characters: 1232100 - 1232500
 
 ######################################
+ablabian = {
+	name = "Ablabian"
+	culture = greek
+}
 1000102800 = {
 	name="Maxentianos"
 	culture = greek

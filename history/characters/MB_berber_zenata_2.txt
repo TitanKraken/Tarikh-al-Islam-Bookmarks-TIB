@@ -2155,7 +2155,7 @@ Masila1 = {
 }
 1236437 = {
 	name="'Abd Allah" # fictional
-	dynasty_house = house_hammudid # House Hammudid
+	dynasty_house = house_Hammudid # House Hammudid
 	religion="zayidi"
 	culture="maghrebi"
 	
@@ -2350,7 +2350,7 @@ Masila1 = {
 }
 1236451 ={
 	name="Muhammad" # b. Idris b. Ali b. Hammud
-	dynasty_house = house_hammudid # House Hammudid
+	dynasty_house = house_Hammudid # House Hammudid
 	religion="zayidi"
 	culture="zenata"
 	

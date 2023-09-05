@@ -1,0 +1,104 @@
+﻿EPE_basileios_makedon = { #Founder of the Macedonian Dynasty
+	name = "Basileios"
+	dna = 1700_basileios_makedon
+	religion = "pagan"
+	culture = greek
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_eudokia_inger = { #Wife of of Basil I, former mistress of Michael III.
+	name = "Eudokia"
+	female = yes
+	dna = 1761_eudokia_inger
+	religion = "pagan"
+	culture = greek
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_bardas_makedon = { #Father of Basil I, technically founder but not the ruler.
+	name = "Bardas"
+	dna = 145129_bardas_makedon
+	religion = "pagan"
+	culture = greek
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_marinos_makedon = { #Brother of Basil I.
+	name = "Marinos"
+	dna = 145130_marinos_makedon
+	religion = "pagan"
+	culture = greek
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_michael_III = { #Predecessor of Basil I
+	name = "Michael"
+	dna = 70490_michael_III
+	religion = "pagan"
+	culture = greek
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_leo_VI = { #Son of Basil I, Roman Emperor.
+	name = "Leo"
+	dna = 1702_leo_VI
+	religion = "pagan"
+	culture = greek
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_romanos_lekapenos = { #Roman Emperor
+	name = "Niketas"
+	dna = 1706_romanos_lekapenos
+	religion = "pagan"
+	culture = greek
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_niketas_ooryphas = { #Byzantine Admiral
+	name = "Niketas"
+	dna = 145931_niketas_ooryphas
+	religion = "pagan"
+	culture = greek
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}

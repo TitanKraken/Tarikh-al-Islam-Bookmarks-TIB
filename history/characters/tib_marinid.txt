@@ -731,7 +731,7 @@ marinid_021 = {
 
 ######END######
 
-marinid_019 = {
+marinid_0190 = {
 	name = "Uthman"
 	dynasty = 101732
 	religion = "ashari"
@@ -745,7 +745,7 @@ marinid_019 = {
 	}
 }
 
-marinid_020 = {
+marinid_0200 = {
 	name = "'Abd-al-Wahid"
 	dynasty = 101732
 	religion = "ashari"
@@ -956,7 +956,7 @@ marinid_031 = {
 	}
 }
 
-marinid_032 = {
+marinid_0320 = {
 	name = "Da_ud"
 	dynasty = 101732
 	religion = "ashari"

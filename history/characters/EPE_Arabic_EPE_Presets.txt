@@ -1,0 +1,104 @@
+﻿EPE_al_mutazz_abbasid = {
+	name = "Al_Mutazz" # Starting Abbasid Caliph in 867. An Unpopular ruler who would begin the strady decline of Abbasid power.
+	dna = 34014_al_mutazz_abbasid
+	religion = "pagan"
+	culture = levantine
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_al_muhtadi_abbasid = {
+	name = "Al_Muhtadi" # Brother of Al-Mutazz and future Caliph.
+	dna = 34015_al_muhtadi_abbasid
+	religion = "pagan"
+	culture = levantine
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_al_mutamid_abbasid = {
+	name = "Al_Muhtadi" # Brother of Al-Mutazz, Muwaffak, and Muhtadi and future Caliph.
+	dna = 34016_al_mutamid_abbasid
+	religion = "pagan"
+	culture = levantine
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_al_muwaffak_abbasid = {
+	name = "Al_Muwaffak" # Brother of Al-Mutazz and Muhtadi. Held power behind the throne during Muhtadi's reign as Caliph.
+	dna = 34017_al_muwaffak_abbasid
+	religion = "pagan"
+	culture = levantine
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_al_mutadid_abbasid = {
+	name = "Al_Muhtadi" # Son of Al-Muwaffak and future Caliph. 
+	dna = 34018_al_mutadid_abbasid
+	religion = "pagan"
+	culture = levantine
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+
+EPE_rasad_fatimid = {
+	name = "Rasad" #De facto regent of the Fatimids in 1066.
+	dna = additional_fatimids_1_rasad_fatimid	
+	religion = "ismaili"
+	culture = "ethiopian"
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_aziz_dulafid = {
+	name = "Aziz" 
+	dna = 163098_aziz_dulafid
+	religion = "pagan"
+	culture = "bedouin"
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_hasan_the_missionary = {
+	name = "Hasan" 
+	dna = 45108_hasan_the_missionary
+	religion = "pagan"
+	culture = "bedouin"
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}

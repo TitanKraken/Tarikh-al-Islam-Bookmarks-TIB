@@ -32,29 +32,26 @@ k_makran = {
 	}
 	# Saffarid dynasty
 	856.1.1 = {
-		holder = 163100 # Ya'qub-i-Layth Saffarid
+		holder = 163100 # Muhammad Tahirid
 	}
 	861.1.1 = {
-		holder = 163101
+		holder = 163101 # Ya'qub bin Layth Saffarid
 		liege = 0
 	}
 	908.1.1 = {
-		holder = tahir_saffarid
+		holder = 1235987 # Tahir bin Layth Saffarid
 	}
 	909.1.1 = {
-		holder = sons_of_ali_saffarid_001 # al-Layth ibn Ali Saffarid
+		holder = 1235976 # al-Layth bin Ali Saffarid
 	}
 	910.1.1 = {
-		holder = sons_of_ali_saffarid_002 # Muhammad ibn Ali Saffarid
+		holder = 1235977 # Muhammad bin Ali Saffarid
 	}
 	911.1.1 = {
-		holder = sons_of_ali_saffarid_003 # al-Mu'addal ibn Ali Saffarid
-	}
-	911.6.1 = {
-		holder = 0
+		holder = 1235978 # al-Mu'addal bin Ali Saffarid
 	}
 	912.1.1 = {
-		holder = 0
+		holder = 1235982 # 'Amr bin Ya'qub bin Muhammad bin 'Amr bin Layth Saffarid 
 	}
 	913.1.1 = {
 		holder = 0
@@ -66,9 +63,42 @@ d_makran = {
 	867.1.1 = {	change_development_level = 3 }
 	1066.1.1 = { change_development_level = 6 }
 	
-	1066.1.1 = {
+	# Saffarid dynasty
+	856.1.1 = {
+		holder = 163100 # Muhammad Tahirid
+	}
+	861.1.1 = {
+		holder = 163101 # Ya'qub bin Layth Saffarid
+		liege = 0
+	}
+	908.1.1 = {
+		holder = 1235987 # Tahir bin Layth Saffarid
+	}
+	909.1.1 = {
+		holder = 1235976 # al-Layth bin Ali Saffarid
+	}
+	910.1.1 = {
+		holder = 1235977 # Muhammad bin Ali Saffarid
+	}
+	911.1.1 = {
+		holder = 1235978 # al-Mu'addal bin Ali Saffarid
+	}
+	912.1.1 = {
+		holder = 1235982 # 'Amr bin Ya'qub bin Muhammad bin 'Amr bin Layth Saffarid 
+	}
+	913.1.1 = {
+		holder = 0
+	}
+
+	1031.1.1 = {
 		liege = k_kabulistan
-		holder = 188546
+		holder = 188546 # Abu'l-'Askar Husayn
+	}
+	1059.1.1 = {
+		holder = 188547 # ? Ma'danid
+	}
+	1090.1.1 = {
+		holder = 188548 # ? Ma'danid
 	}
 }
 
@@ -84,9 +114,31 @@ c_panjgur = {
 	765.1.1 = {
 		holder = 188605
 	}
+	# Saffarid dynasty
+	856.1.1 = {
+		holder = 163100 # Muhammad Tahirid
+	}
 	861.1.1 = {
-		liege = k_makran
-		holder = 163164 # Amr of Makran
+		holder = 163101 # Ya'qub bin Layth Saffarid
+		liege = 0
+	}
+	908.1.1 = {
+		holder = 1235987 # Tahir bin Layth Saffarid
+	}
+	909.1.1 = {
+		holder = 1235976 # al-Layth bin Ali Saffarid
+	}
+	910.1.1 = {
+		holder = 1235977 # Muhammad bin Ali Saffarid
+	}
+	911.1.1 = {
+		holder = 1235978 # al-Mu'addal bin Ali Saffarid
+	}
+	912.1.1 = {
+		holder = 1235982 # 'Amr bin Ya'qub bin Muhammad bin 'Amr bin Layth Saffarid 
+	}
+	913.1.1 = {
+		holder = 0
 	}
 	
 	# Independence for most of the 900s under b Ahmad family and Kharijites
@@ -104,7 +156,7 @@ c_panjgur = {
 		liege = k_kabulistan
 		holder = 188546 # Abu'l-'Askar Husayn
 	}
-	1068.1.1 = {
+	1059.1.1 = {
 		holder = 188547 # ? Ma'danid
 	}
 	1090.1.1 = {
@@ -187,28 +239,14 @@ c_kiz = {
 		holder = 144126 # Muhammad
 	}
 	1031.1.1 = {
-		holder = 144127 # Musud
-	}
-	1041.1.1 = {
-		holder = 144128 # Mawdud
-	}
-	1050.1.1 = {
-		holder = 144129 # Masud
-	}
-	1050.6.1 = {
-		holder = 144130 # Ali
-	}
-	1050.9.1 = {
-		holder = 144131 # Abd al-Rashid
-	}
-	1053.1.1 = {
-		holder = 144132 # Farrukhzad
+		liege = k_kabulistan
+		holder = 188546 # Abu'l-'Askar Husayn
 	}
 	1059.1.1 = {
-		holder = 144133 # Ibrahim
+		holder = 188547 # ? Ma'danid
 	}
-	1066.1.1 = {
-		holder = 188546
+	1090.1.1 = {
+		holder = 188548 # ? Ma'danid
 	}
 	1099.1.1 = {
 		holder = 144134 # Masud II
@@ -260,14 +298,35 @@ c_sanij = {
 	765.1.1 = {
 		liege = 0
 	}
-	867.1.1 = {
-		government = tribal_government
-		holder = 163164	#Amr Saffarid
-		liege = k_makran
+	# Saffarid dynasty
+	856.1.1 = {
+		holder = 163100 # Muhammad Tahirid
+	}
+	861.1.1 = {
+		holder = 163101 # Ya'qub bin Layth Saffarid
+		liege = 0
+	}
+	908.1.1 = {
+		holder = 1235987 # Tahir bin Layth Saffarid
+	}
+	909.1.1 = {
+		holder = 1235976 # al-Layth bin Ali Saffarid
+	}
+	910.1.1 = {
+		holder = 1235977 # Muhammad bin Ali Saffarid
+	}
+	911.1.1 = {
+		holder = 1235978 # al-Mu'addal bin Ali Saffarid
+	}
+	912.1.1 = {
+		holder = 1235982 # 'Amr bin Ya'qub bin Muhammad bin 'Amr bin Layth Saffarid 
+	}
+	913.1.1 = {
+		holder = 0
 	}
 	
 	977.1.1 = {
-		government = clan_government
+		government = islamic_government
 		holder = 144123 # Sabuktigin
 	}
 	997.1.1 = {
@@ -280,37 +339,14 @@ c_sanij = {
 		holder = 144126 # Muhammad
 	}
 	1031.1.1 = {
-		holder = 144127 # Musud
-	}
-	1041.1.1 = {
-		holder = 144128 # Mawdud
-	}
-	1050.1.1 = {
-		holder = 144129 # Masud
-	}
-	1050.6.1 = {
-		holder = 144130 # Ali
-	}
-	1050.9.1 = {
-		holder = 144131 # Abd al-Rashid
-	}
-	1053.1.1 = {
-		holder = 144132 # Farrukhzad
+		liege = k_kabulistan
+		holder = 188546 # Abu'l-'Askar Husayn
 	}
 	1059.1.1 = {
-		holder = 144133 # Ibrahim
+		holder = 188547 # ? Ma'danid
 	}
-	1050.9.1 = {
-		holder = 144131 # Abd al-Rashid
-	}
-	1053.1.1 = {
-		holder = 144132 # Farrukhzad
-	}
-	1059.1.1 = {
-		holder = 144133 # Ibrahim
-	}
-	1066.1.1 = {
-		holder = 93269
+	1090.1.1 = {
+		holder = 188548 # ? Ma'danid
 	}
 	1099.1.1 = {
 		holder = 144134 # Masud II
@@ -388,7 +424,7 @@ c_khawr = {
 		liege = k_kabulistan
 		holder = 188546 # Abu'l-'Askar Husayn
 	}
-	1068.1.1 = {
+	1059.1.1 = {
 		holder = 188547 # ? Ma'danid
 	}
 	1090.1.1 = {
@@ -447,15 +483,9 @@ c_turan = {
 	867.1.1 = {	change_development_level = 7 }
 	1066.1.1 = { change_development_level = 10 }
 	
-	644.1.1 = {
-		liege = d_makran
-	}
 	700.1.1 = {
 		holder = mudrik_muhallabi
 		liege = k_mesopotamia
-	}
-	765.1.1 = {
-		liege = d_makran
 	}
 	765.1.1 = {
 		holder = 188605
@@ -480,7 +510,7 @@ c_turan = {
 		liege = k_kabulistan
 		holder = 188546 # Abu'l-'Askar Husayn
 	}
-	1068.1.1 = {
+	1059.1.1 = {
 		holder = 188547 # ? Ma'danid
 	}
 	1090.1.1 = {

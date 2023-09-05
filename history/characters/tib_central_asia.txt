@@ -1,4 +1,4 @@
-# Sogdian and Afghan
+﻿# Sogdian and Afghan
 tukhara0001 = { #
     name = "Turxan"
     dynasty = house_tukhara
@@ -37,7 +37,7 @@ gurak_ikhshid = {
 		birth = yes
 	}
 	710.1.1 = {
-		set_realm_capital = c_samarkand
+		set_realm_capital = title:c_samarkand
 	}
 	738.1.1 = {
 		death = yes
@@ -160,7 +160,7 @@ bilge_qaghan = {
 	trait = brave
 	trait = education_martial_3
 	trait = organizer
-	trait = mystic_2
+	trait = lifestyle_mystic
 	father = ilterish_qaghan
 	culture = "khazar"
 	religion = "tengri_pagan"
@@ -215,7 +215,7 @@ inel_qaghan = {
 		death = {
 			death_reason = death_execution
 			killer = kul_tigin
-}
+		}
 	}
 }
 
@@ -231,8 +231,8 @@ tonyukuk = {
 	trait = intellect_good_2
 	trait = shrewd
 	trait = diplomat
-	trait = physician_2
-	trait = mystic_3
+	trait = lifestyle_physician
+	trait = lifestyle_mystic
 	fertility = -1
 
 	culture = "khazar"

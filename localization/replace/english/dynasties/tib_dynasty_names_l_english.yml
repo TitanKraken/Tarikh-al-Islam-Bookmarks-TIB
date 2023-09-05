@@ -1,4 +1,5 @@
 ﻿l_english:
+  dynnp_von_der:0 "von der "
   # Special Characters #
   # ā ī ū
   # Islamic dynasties
@@ -26,6 +27,7 @@
   dynn_Banu_Sulaym:0 "Banu Sulaym"
   dynn_Banu_Mirdas:0 "Banu Mirdas"
   dynn_Banu_Atiyah:0 "Banu 'Atiyah"
+  dynn_al-Ashari:0 "al-Ash'arī"
 
   dynn_Lihyan:0 "al-Lihyani"
 

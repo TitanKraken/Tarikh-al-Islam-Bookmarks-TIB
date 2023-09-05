@@ -29,5 +29,5 @@ kingdom_of_the_lombards = {
 	titles = { k_italy }
 	#governments = { feudal_government }
 	#top_liege = no
-	definite_form = yes
+	#definite_form = yes
 }

@@ -86,12 +86,19 @@
  islam_shia_religious_head_title:0 "Imam"
  islam_shia_religious_head_title_name:0 "Imamate"
 
+ # Ahl al-Sunnah wal-Jama'ah
+ ashari:0 "Ahl-al-Sunnah wal-Jama'ah"
+ ashari_adj:0 "Sunni"
+ ashari_adherent:0 "Sunni"
+ ashari_adherent_plural:0 "Sunnis"
+ ashari_desc:0 "Adherents of the Sunni tradition holds that the Prophet Muhammad left no successor and the participants of the Saqifah event appointed Abu Bakr as the next-in-line successor (#italic khalifah#! or caliph) to him, and it is by the Sunnah (traditions which a majority of people followed) of the Prophet they hold firm unto always."
+
  #Ash'ari
- ashari:0 "Ash'arism"
- ashari_adj:0 "Ash'ari"
- ashari_adherent:0 "Ash'ari"
- ashari_adherent_plural:0 "Ash'aris"
- ashari_desc:0 "An orthodox school of theology that holds that Allah has created every moment in time, but that humans have free will to choose between good — what God has commanded — and evil — what God forbids."
+ asharite:0 "Ash'arism"
+ asharite_adj:0 "Ash'ari"
+ asharite_adherent:0 "Ash'ari"
+ asharite_adherent_plural:0 "Ash'aris"
+ asharite_desc:0 "An orthodox school of theology that holds that Allah has created every moment in time, but that humans have free will to choose between good — what God has commanded — and evil — what God forbids."
 
  #Muwalladism
  muwalladi:0 "Muwalladism"
@@ -129,13 +136,20 @@
  quranist_adherent:0 "Quranist"
  quranist_adherent_plural:0 "Quranists"
  quranist_desc:0 "A literalist interpretation of Islam that emphasizes that the Quran as the only source of divine wisdom, and should be followed to the letter, ignoring hadith and fatwas."
+ 
+# Shi'a
+ ismaili:0 "Shi'at 'Ali"
+ ismaili_adj:0 "Shi'i"
+ ismaili_adherent:0 "Shi'i"
+ ismaili_adherent_plural:0 "Shi'is"
+ ismaili_desc:0 "The Shi'at 'Ali (Partisans of 'Ali) considers the true next-in-line successor (#italic khalifah#! or caliph) for being the Imam of the Ummah after the passing of the Prophet Muhammad to be his nephew, son-in-law and #italic sahabi#! (companion), 'Ali bin Abi Talib, and thus subsequently through the line of Fatima, the Prophet's daughter. Adherents of the Shia party must also revolt against any oppressive ruler, and establish an orderly regime through the Imamate of the blessed line of the Ahlul Bayt (Family of the Prophet)."
 
  #Ismaili
- ismaili:0 "Isma'ilism"
- ismaili_adj:0 "Isma'ili"
- ismaili_adherent:0 "Isma'ili"
- ismaili_adherent_plural:0 "Isma'ilis"
- ismaili_desc:0 "A Shia faith that considers the line of true Imams — those imbued with divine knowledge and infallibility — to run through Isma'il bin Jafar. They are also known as Seveners, as Isma'il was the seventh Imam after Muhammad."
+ ismailite:0 "Isma'ilism"
+ ismailite_adj:0 "Isma'ili"
+ ismailite_adherent:0 "Isma'ili"
+ ismailite_adherent_plural:0 "Isma'ilis"
+ ismailite_desc:0 "A Shia faith that considers the line of true Imams — those imbued with divine knowledge and infallibility — to run through Isma'il bin Jafar. They are also known as Seveners, as Isma'il was the seventh Imam after Muhammad."
 
  #Qarmatians
  qarmatian:0 "Qarmatianism"
@@ -193,6 +207,13 @@
  alevi_religious_text:0 "Buyruks"
  alevi_religious_text_2:0 "$alevi_religious_text$" # Optional translation alt
  alevi_religious_text_3:0 "$alevi_religious_text$" # Optional translation alt
+
+ #Ishaqiya
+ ishaqiya:0 "Ishaqiya"
+ ishaqiya_adj:0 "Ishaqi"
+ ishaqiya_adherent:0 "Ishaqi"
+ ishaqiya_adherent_plural:0 "Ishaqis"
+ ishaqiya_desc:0 "The Ishaqiya are a school of thought which maintains that the title of door to the Imam Hasan al-Askarī belongs to Abu Ya'qub Ishāq. This belief is in direct opposition to the Alawis."
 
  #Druze
  druze:0 "Druze"

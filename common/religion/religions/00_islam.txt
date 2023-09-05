@@ -265,8 +265,8 @@
 	piety_icon_group = "islam"
 
 	faiths = {
-		ashari = { #Arabian Sunni Islam
-			color = { 0 0.6 0 }
+		ashari = { # Sunni Islam proper
+			color = { 0 0.5 0 }
 			icon = sunni
 			religious_head = d_sunni
 
@@ -313,7 +313,29 @@
 			#Pluralistic
 			doctrine = doctrine_pluralism_pluralistic
 		}
+		asharite = { # The theological school of Imam Abu al-Hasan al-Ash'ari
+			color = { 0 0.6 0 }
+			icon = ashari
+			religious_head = d_sunni
 
+			holy_site = mecca
+			holy_site = medina
+			holy_site = jerusalem
+			holy_site = baghdad
+			holy_site = sinai
+
+			#Tenet:
+			doctrine = tenet_struggle_submission
+			doctrine = tenet_religious_legal_pronouncements
+			doctrine = tenet_literalism
+
+			#DOCTRINES:
+			#Sunni
+			doctrine = muhammad_succession_sunni_doctrine
+
+			#Leadership
+			doctrine = doctrine_temporal_head
+		}
 		maturidi = { # Persian Sunni Islam
 			color = { 0.1 0.5 0.3 }
 			icon = maturidi
@@ -419,10 +441,45 @@
 			doctrine = doctrine_deviancy_crime
 			doctrine = doctrine_pluralism_fundamentalist
 		}
-
-		ismaili = { #Seveners (default Shia)
-			color = { 0.2 0.8 0 }
+		
+		ismaili = { # Shia Islam proper
+			color = { 0.2 0.9 0 }
 			icon = shia
+			religious_head = d_shiite
+
+
+			holy_site = mecca
+			holy_site = medina
+			holy_site = jerusalem
+			holy_site = nadjaf
+			holy_site = damascus
+
+			doctrine = tenet_struggle_submission
+			doctrine = tenet_tax_nonbelievers
+			doctrine = tenet_religious_legal_pronouncements
+			
+			#Leadership
+			doctrine = doctrine_temporal_head
+
+			#Shia
+			#Witchcraft is frowned upon
+			doctrine = muhammad_succession_shia_doctrine
+			doctrine = doctrine_witchcraft_shunned
+
+			localization = {		
+				PriestMale = islam_shia_priest
+				PriestMalePlural = islam_shia_priest_plural
+				PriestFemale = islam_shia_priest
+				PriestFemalePlural = islam_shia_priest_plural
+				PriestNeuter = islam_shia_priest
+				PriestNeuterPlural = islam_shia_priest_plural
+				ReligiousHeadName = islam_shia_religious_head_title
+				ReligiousHeadTitleName = islam_shia_religious_head_title_name
+			}
+		}
+		ismailite = { # Seveners
+			color = { 0.2 0.8 0 }
+			icon = ismaili
 			religious_head = d_shiite
 
 
@@ -540,7 +597,7 @@
 			holy_site = damascus
 
 			doctrine = tenet_struggle_submission
-			doctrine = tenet_false_conversion_sanction
+			doctrine = tenet_religious_legal_pronouncements
 			doctrine = tenet_legalism
 
 			#Shia
@@ -722,6 +779,46 @@
 
 			holy_order_names = {
 				{ name = "holy_order_bektashi_order" }
+			}
+		}
+
+		ishaqiya = {
+			color = { 0.1 0.2 0.32 }
+			icon = ishaqiya
+
+			holy_site = mecca
+			holy_site = medina
+			holy_site = jerusalem
+			holy_site = nadjaf
+			holy_site = baghdad
+
+			doctrine = tenet_esotericism
+			doctrine = tenet_reincarnation
+			doctrine = tenet_communion
+
+			#Shia
+			#No head of faith: or, technically should be no head, but one is required for their communion tenet to work, so we give them a chief imam.
+			#Monogamy
+			#Free divorce
+			#Adultery is a crime
+			#Clergy - equal
+			doctrine = muhammad_succession_zandaqa_doctrine	#Technically Shia
+			doctrine = doctrine_spiritual_head
+			doctrine = doctrine_monogamy
+			doctrine = doctrine_divorce_allowed
+			doctrine = doctrine_adultery_men_crime
+			doctrine = doctrine_adultery_women_crime
+			doctrine = doctrine_clerical_gender_either
+
+			localization = {		
+				PriestMale = islam_shia_priest
+				PriestMalePlural = islam_shia_priest_plural
+				PriestFemale = islam_shia_priest
+				PriestFemalePlural = islam_shia_priest_plural
+				PriestNeuter = islam_shia_priest
+				PriestNeuterPlural = islam_shia_priest_plural
+				ReligiousHeadName = islam_shia_religious_head_title
+				ReligiousHeadTitleName = islam_shia_religious_head_title_name
 			}
 		}
 

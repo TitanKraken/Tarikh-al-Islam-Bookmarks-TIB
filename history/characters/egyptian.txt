@@ -338,7 +338,7 @@
 	diplomacy = 8
 	intrigue = 7
 	stewardship = 6
-	religion = "ismaili"
+	religion = "ismailite"
 	culture = "egyptian"
 	trait = wrathful
 	trait = humble
@@ -361,7 +361,7 @@
 	intrigue = 8
 	stewardship = 6
 	learning = 10 # Scholarly figure
-	religion = "ismaili"
+	religion = "ismailite"
 	culture = "egyptian"
 	trait = chaste # Ascetic lifestyle
 	trait = humble # Willing to receive petitions in person, as well as for riding out in person among the people in the streets of Fustat
@@ -392,7 +392,7 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 6
-	religion = "ismaili"
+	religion = "ismailite"
 	culture = "egyptian"
 	trait = education_martial_3
 	trait = sayyid
@@ -413,7 +413,7 @@
 	diplomacy = 1
 	intrigue = 6
 	stewardship = 6
-	religion = "ismaili"
+	religion = "ismailite"
 	culture = "egyptian"
 	trait = arrogant
 	trait = education_intrigue_2
@@ -435,7 +435,7 @@
 	diplomacy = 2
 	intrigue = 4
 	stewardship = 6
-	religion = "ismaili"
+	religion = "ismailite"
 	culture = "egyptian"
 	trait = craven
 	trait = lisping
@@ -458,7 +458,7 @@
 	diplomacy = 5
 	intrigue = 3
 	stewardship = 4
-	religion = "ismaili"
+	religion = "ismailite"
 	culture = "egyptian"
 	trait = zealous
 	trait = wrathful
@@ -730,7 +730,7 @@
 	name = "Sitt_al-Mulk"
 	female = yes
 	dynasty_house = house_Fatimid
-	religion = "ismaili"
+	religion = "ismailite"
 	culture = "egyptian"
 	father = 3090
 	mother = sayyida_al_aziziyya_001
@@ -757,7 +757,7 @@
 32905 = {
 	name = "al-Amir"
 	dynasty_house = house_Fatimid
-	religion = "ismaili"
+	religion = "ismailite"
 	culture = "egyptian"
 	father = 3100
 	trait = sayyid
@@ -772,7 +772,7 @@
 32906 = {
 	name = "al-Qasim"
 	dynasty_house = house_Fatimid
-	religion = "ismaili"
+	religion = "ismailite"
 	culture = "egyptian"
 	father = 32905
 	trait = sayyid
@@ -787,7 +787,7 @@
 32907 = {
 	name = "al-Hafiz"
 	dynasty_house = house_Fatimid
-	religion = "ismaili"
+	religion = "hafizi"
 	culture = "egyptian"
 	father = 3098
 	trait = sayyid
@@ -802,7 +802,7 @@
 32908 = {
 	name = "al-Zafir"
 	dynasty_house = house_Fatimid
-	religion = "ismaili"
+	religion = "hafizi"
 	culture = "egyptian"
 	father = 32907
 	trait = sayyid
@@ -817,7 +817,7 @@
 32909 = {
 	name = "al-Faiz"
 	dynasty_house = house_Fatimid
-	religion = "ismaili"
+	religion = "hafizi"
 	culture = "egyptian"
 	father = 32908
 	trait = sayyid
@@ -832,7 +832,7 @@
 32910 = {
 	name = "al-Adid"
 	dynasty_house = house_Fatimid
-	religion = "ismaili"
+	religion = "hafizi"
 	culture = "egyptian"
 	father = 32908
 	trait = sayyid
@@ -895,7 +895,7 @@
 	diplomacy = 8
 	intrigue = 6
 	stewardship = 1
-	religion = "ismaili"
+	religion = "ismailite"
 	culture = "egyptian"
 	trait = education_diplomacy_1
 	trait = sayyid

@@ -3624,7 +3624,7 @@
 	trait = content
 	trait = brave
 	trait = intellect_good_2
-	trait = mystic_2
+	trait = lifestyle_mystic
 	822.1.1 = {
 		birth = yes
 		effect = {
@@ -3712,7 +3712,7 @@
 	trait = zealous
 	trait = temperate
 	trait = education_stewardship_4
-	trait = mystic_1
+	trait = lifestyle_mystic
 	802.1.1 = {
 		birth = yes
 	}
@@ -3846,7 +3846,7 @@
 	learning = 3
 	prowess = 6
 	trait = ambitious
-	trait = blademaster_2
+	trait = lifestyle_blademaster
 	trait = callous
 	trait = vengeful
 	trait = one_legged
@@ -6468,8 +6468,8 @@
 		add_spouse = 194057
 		
 		effect = {
-set_realm_capital = title:c_vingulmork
-}
+			set_realm_capital = title:c_vingulmork
+		}
 	}
 	790.1.1 = {
 		death = yes

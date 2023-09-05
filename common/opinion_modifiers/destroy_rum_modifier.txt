@@ -1,0 +1,5 @@
+﻿destroyed_rum_opinion = {
+	opinion = 30
+	years = 30
+	decaying = yes
+}

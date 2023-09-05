@@ -3116,21 +3116,6 @@
 	}
 }
 
-71532 = {
-	name = "Pedro"
-	dynasty = 442
-	religion = "catholic"
-	culture = "castilian"
-	father = 70231
-	mother = 127036
-	1090.1.1 = {
-		birth = "1090.1.1"
-	}
-	1104.1.1 = {
-		death = "1104.1.1"
-	}
-}
-
 71541 = {
 	name = "Diego"
 	dynasty_house = house_vivar # House of Vivar
@@ -3275,9 +3260,6 @@
 	1045.1.2 = {
 		birth = "1045.1.2"
 	}
-	1065.1.1 = {
-		add_spouse = 85028
-	}
 	1066.1.1 = {
 		employer = 109500
 	}
@@ -3296,7 +3278,6 @@
 	religion = "catholic"
 	culture = "castilian"
 	father = 85026
-	mother = 85028
 	1066.1.2 = {
 		birth = "1066.1.2"
 	}
@@ -8590,20 +8571,6 @@
 	}
 	1155.1.1 = {
 		death = "1155.1.1"
-	}
-}
-
-72949 = {
-	name = "Bernat"
-	dynasty = 12178
-	religion = "catholic"
-	culture = "occitan"
-	trait = education_learning_3
-	1060.1.1 = {
-		birth = "1060.1.1"
-	}
-	1149.1.1 = {
-		death = "1149.1.1"
 	}
 }
 

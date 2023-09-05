@@ -3,6 +3,40 @@
 		on_islamic_start
 	}
 }
+yearly_global_pulse = {
+	on_actions = {
+		tib_islamic_schism
+	}
+}
+tib_islamic_schism = {
+	effect = {
+		if = {
+			limit = {
+				# Game started in 1066 or earlier
+				game_start_date >= 950.1.1
+				current_date >= 950.1.1
+			}
+			religion = {
+				every_faith = {
+					limit = {
+						faith = faith:ashari # Sunni
+					}
+					every_faith_character = {
+						trigger_event = tib_islamic_schism.0001
+					}
+				}
+				every_faith = {
+					limit = {
+						faith = faith:ismaili # Shia
+					}
+					every_faith_character = {
+						trigger_event = tib_islamic_schism.0010
+					}
+				}
+			}
+		}
+	}
+}
 
 on_islamic_start = {
 	effect = {

@@ -1,0 +1,3821 @@
+﻿###################################
+#Adelardi/Marcheselli
+###################################
+#Comital family from Ferrara, patricians of Ferrara. Guelph tendencies.
+1062170 = { #Adelardo. Unnamed link between Guglilmo I and Guarino I.
+	name="Adelardo"
+	dynasty=1000035711 
+	religion="catholic"
+	culture="cisalpine"
+	875.1.1 = {
+		birth=yes
+	}
+	935.1.1 = {
+		death=yes 
+	}
+}
+1062171 = { #Guglielmo I.
+	name="Guglielmo"
+	dynasty=1000035711 
+	religion="catholic"
+	culture="cisalpine"
+	father=1062170
+	905.1.1 = {
+		birth=yes
+	}
+	955.1.1 = {
+		death=yes 
+	}
+}
+1062172 = { #Adelardo I, son of Guglielmo I attested 969 and 973.
+	name="Adelardo"
+	dynasty=1000035711 
+	religion="catholic"
+	culture="cisalpine"
+	father=1062171
+	925.1.1 = {
+		birth=yes
+	}
+	975.1.1 = {
+		death=yes 
+	}
+}
+1062173 = { #Guarino I, brother of Guglielmo I, conte di ferrera . attested 960. died before 984.
+	name="Guarino"
+	dynasty=1000035711 
+	religion="catholic"
+	culture="cisalpine"
+	father=1062170
+	925.1.1 = {
+		birth=yes
+	}
+	984.1.1 = {
+		death=yes 
+	}
+}
+1062174 = { #Guarino II, son of Guarino I, attested 970
+	name="Guarino"
+	dynasty=1000035711 
+	religion="catholic"
+	culture="cisalpine"
+	father=1062173
+	950.1.1 = {
+		birth=yes
+	}
+	1020.1.1 = {
+		death=yes 
+	}
+}
+1062175 = { #Bulgaro, son of Guarino II. atttested 1000. 
+	name="Bulgaro"
+	dynasty=1000035711 
+	religion="catholic"
+	culture="cisalpine"
+	father=1062174
+	975.1.1 = {
+		birth=yes
+	}
+	1040.1.1 = {
+		death=yes 
+	}
+}
+1062176 = { #Bulgaro, son of ?. atttested 1089 as signore di Ferrara. married Marchesella, possibly a daughter of the count of Ancona, but its just guessing(seems to be a few theories leaning in that direction but nothing firmer than her name to support it )
+	name="Bulgaro"
+	dynasty=1000035711 
+	religion="catholic"
+	culture="cisalpine"
+	father=1062175
+	1015.1.1 = {
+		birth=yes
+	}
+	1090.1.1 = {
+		death=yes 
+	}
+}
+1062177 = { #Adelardo III(or II depending on source), son of Burclusson/Bulgaro and Marchesella. signore di ferrera in 1095.
+	name="Adelardo"
+	dynasty=1000035711 
+	religion="catholic"
+	culture="cisalpine"
+	father=1062176
+	1034.1.1 = {
+		birth=yes
+	}
+	1104.1.1 = {
+		death=yes 
+	}
+}
+1062178 = { #Marchesello I, son of Bulgaro. attested 1113(Capitano di Ferrara)
+	name="Marchesello"
+	dynasty=1000035711 
+	religion="catholic"
+	culture="cisalpine"
+	father=1062176
+	1050.1.1 = {
+		birth=yes
+	}
+	1120.1.1 = {
+		death=yes 
+	}
+}
+1062179 = { #Guglielmo II son of Bulgaro, married Adelasia (di este?),she died 1154. attested 1083, 1106, 1120, died 11th of september 1146. signore di ferrara.
+	name="Guglielmo"
+	dynasty=1000035711 
+	religion="catholic"
+	culture="cisalpine"
+	father=1062176
+	1070.1.1 = {
+		birth=yes
+	}
+	1146.9.11 = {
+		death=yes 
+	}
+}
+1062180 = { #Guglielmo III, son of Guglielmo II, attested 1147(participated in the crusade for Edessa), 1155, 1160 1162, 1167 and 1183(his will). Capitano del popoli of Ferrara.
+	name="Guglielmo"
+	dynasty=1000035711 
+	religion="catholic"
+	culture="cisalpine"
+	father=1062179
+	1105.1.1 = {
+		birth=yes
+	}
+	1184.1.1 = {
+		death=yes 
+	}
+}
+1062181 = { #Marchesella, daughter of Guglielmo III. the only child. attested 1183. Was bethroed first to Arriverio Torelli at the age of 7, and after the este takeover to Azzo IV di Este but died before the marriage.
+	name="Marchesella"
+	dynasty=1000035711 
+	religion="catholic"
+	culture="cisalpine"
+	father=1062180
+	female=yes
+	1175.1.1 = {
+		birth=yes
+	}
+	1199.1.1 = {
+		death=yes 
+	}
+}
+1062182 = { #Adelardo, younger son of Guglielmo II. attested 1140, 1155 and 1183?
+	name="Guglielmo"
+	dynasty=1000035711 
+	religion="catholic"
+	culture="cisalpine"
+	father=1062179
+	1120.1.1 = {
+		birth=yes
+	}
+	1187.1.1 = {
+		death=yes 
+	}
+}
+
+#Torelli
+###################################
+#Patricians of Ferrara, ghibeline tendencies. 85-99
+1062185 = { #Pietro Torreli, attested 1083 and 1119. first member of dynasty
+	name="Pietro"
+	dynasty=101848 
+	religion="catholic"
+	culture="cisalpine"
+	1070.1.1 = {
+		birth=yes
+	}
+	1119.1.1 = {
+		death=yes 
+	}
+}	
+1062186 = { #Salinguerra I attested 1120. died 1163. capitano di ferrara 1120.
+	name="Salinguerra"
+	dynasty=101848 
+	religion="catholic"
+	culture="cisalpine"
+	trait=education_intrigue_3
+	father=1062185
+	1090.1.1 = {
+		birth=yes
+	}
+	1163.1.1 = {
+		death=yes 
+	}
+}	
+1062187 = { #Torello attested 1164, died 1195. senatore e console di ferrara.
+	name="Torello"
+	dynasty=101848 
+	religion="catholic"
+	culture="cisalpine"
+	trait=education_stewardship_3
+	father=1062186
+	1120.1.1 = {
+		birth=yes
+	}
+	1195.1.1 = {
+		death=yes 
+	}
+}	
+1062188 = { #Sanlinguerra II. attested 1160. died 1245. Signore di Ferrara.
+	name="Sanlinguerra"
+	dynasty=101848 
+	religion="catholic"
+	culture="cisalpine"
+	father=1062186
+	1149.1.1 = {
+		birth=yes
+	}
+	1209.1.1 = {
+		add_pressed_claim = title:c_ferrara
+	}
+	1222.1.1 = {
+		remove_claim = title:c_ferrara
+	}
+	1239.1.1 = {
+		add_spouse=cisalpine0185
+	}	
+	1240.1.1 = {
+		add_pressed_claim = title:c_ferrara
+	}
+	1245.1.1 = {
+		death=yes 
+	}
+}
+1062189 = { #Bartolommea, daughter of Salinguerra II. married Guglielmo Rangoni of Modena.
+	name="Bartolommea"
+	dynasty=101848 
+	religion="catholic"
+	culture="cisalpine"
+	father=1062188
+	female=yes
+	1176.1.1 = {
+		birth=yes
+	}
+	1229.1.1 = {
+		death=yes 
+	}
+}
+1062190 = { #Ariverio, son of Salinguerra II. attested 1212
+	name="Ariverio"
+	dynasty=101848 
+	religion="catholic"
+	culture="cisalpine"
+	father=1062188
+	1180.1.1 = {
+		birth=yes
+	}
+	1230.1.1 = {
+		death=yes 
+	}
+}
+1062191 = { #Tommaso, son of Salinguerra II. attested 1227
+	name="Tommaso"
+	dynasty=101848 
+	religion="catholic"
+	culture="cisalpine"
+	trait=education_martial_3
+	father=1062188
+	1185.1.1 = {
+		birth=yes
+	}
+	1233.1.1 = {
+		death=yes 
+	}
+}
+1065044 = { #Giacomo, son of Salinguerra II. attested 1245
+	name="Giacomo"
+	dynasty=101848 
+	religion="catholic"
+	culture="cisalpine"
+	father=1062188
+	1199.1.1 = {
+		birth=yes
+	}
+	1270.1.1 = {
+		death=yes 
+	}
+}
+1062192 = { #Sanlinguerra III, son of Salinguerra II. attested 1240, died before 1339. married giovanna Palavicini. signore di ferrara 1309.
+	name="Sanlinguerra"
+	dynasty=101848 
+	religion="catholic"
+	culture="cisalpine"
+	trait=education_stewardship_3
+	father=1062188
+	1225.1.1 = {
+		birth=yes
+	}
+	1266.1.1 = {
+		add_spouse=cisalpine0191
+	}
+	1313.1.1 = {
+		death=yes 
+	}
+}
+1062193 = { #Tommaso, natual son of Salinguerra III. attested 1339
+	name="Tommaso"
+	dynasty=101848 
+	religion="catholic"
+	culture="cisalpine"
+	father=1062192
+	mother=cisalpine0191
+	1273.1.1 = {
+		birth=yes
+	}
+	1340.1.1 = {
+		death=yes 
+	}
+}
+1062194 = { #Pisano,son of Salinguerra III. died before 1339
+	name="Pisano"
+	dynasty=101848 
+	religion="catholic"
+	culture="cisalpine"
+	father=1062192
+	1250.1.1 = {
+		birth=yes
+	}
+	1325.1.1 = {
+		death=yes 
+	}
+}
+1062195 = { #Anna, only fully legitamte child of Salinguerra III. attested 1339
+	name="Anna"
+	dynasty=101848 
+	religion="catholic"
+	culture="cisalpine"
+	father=1062192
+	mother=cisalpine0191
+	female=yes
+	1279.1.1 = {
+		birth=yes
+	}
+	1350.1.1 = {
+		death=yes 
+	}
+}
+
+###################################
+#Sanvitale
+###################################
+# signori di Montechiarugolo, patricians of Parma. guelph tendencies. Also a Piemonte branch, in Ceva, Mondovi, Torricella
+1064450 = {
+	name="Giovanni" #Giovanni Sanvitale, features in one source with donations made in 1005 and 1066, but everywhere else Ugo seems to be the first featured by name. Another source does say that lords of Sanvitale existed already in 920, but names no early members and in that source later members is all jumpled togther in it so does not seem very trustworthy.
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="cisalpine"
+	1040.1.1 = {
+		birth=yes
+	}
+	1110.1.1 = {
+		death=yes
+	}
+}
+1064451 = {
+	name="Ugo" #Ugo Vitalesi, attested 1122. first recorded memeber which is widely confirmed.
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="cisalpine"
+	father=1064450 # speculative
+	1080.1.1 = {
+		birth=yes
+	}
+	1155.1.1 = {
+		death=yes
+	}
+}
+1064452 = {
+	name="Pietro" # Pietro, became a priest in 1134
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="cisalpine"
+	father=1064450 # specualtive
+	1100.1.1 = {
+		birth=yes
+	}
+	1150.1.1 = {
+		death=yes
+	}
+}
+1064453 = {
+	name="Gherardo" #Gherardo sanvitale attested 1196
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="cisalpine"
+	father=1064451 # speculative
+	1120.1.1 = {
+		birth=yes
+	}
+	1197.1.1 = {
+		death=yes
+	}
+}
+1064454 = {
+	name="Anselmo" #Anselmo attested 1201, 1211, 1215 and 1216, married Imelda. consul of Parma.
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="cisalpine"
+	father=1064453 # speculative
+	1150.1.1 = {
+		birth=yes
+	}
+	1217.1.1 = {
+		death=yes
+	}
+}
+1064455 = {
+	name="Giacopino" #Giacopino, son of Anselmo
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="cisalpine"
+	father=1064454
+	1189.1.1 = {
+		birth=yes
+	}
+	1215.1.1 = {
+		death=yes
+	}
+}
+1064456 = {
+	name="Guarino" #Guarino, son of Anselmo. signore di Carpi. attested 1219(podesta of Bologna) and 1229. married margherita fieschi. renowned warrior.
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="cisalpine"
+	father=1064454
+	1175.1.1 = {
+		birth=yes
+	}
+	1230.1.1 = {
+		death=yes
+	}
+}
+1064457 = {
+	name="Cecilia" #Cecilia, daughter of Guarino. attested 1235.
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="cisalpine"
+	father=1064456
+	female=yes
+	1210.1.1 = {
+		birth=yes
+	}
+	1245.1.1 = {
+		death=yes
+	}
+}
+1064458 = {
+	name="Alberto" #Alberto/Anselmo, son of Guarino. bishops of Parma 1243-1257
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="cisalpine"
+	father=1064456
+	1215.1.1 = {
+		birth=yes
+	}
+	1257.1.1 = {
+		death=yes
+	}
+}
+1064459 = {
+	name="Obizzio" #Obizzio, son of Guarino. died 12th of september 1303. avocato and later bishop of parma
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="cisalpine"
+	father=1064456
+	1220.1.1 = {
+		birth=yes
+	}
+	1303.9.12 = {
+		death=yes
+	}
+}
+1065030 = {
+	name="Guglielmo" #Guglielmo, son of Guarino. died at the age of 25.
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="cisalpine"
+	father=1064456
+	1200.1.1 = {
+		birth=yes
+	}
+	1225.1.1 = {
+		death=yes
+	}
+}
+1064460 = {
+	name="Tedisio" #Teseo/Tedisio, son of Guarino attested 1258, podesta of Milan 1276, Ferrara 1277 and 1278(vicar of Firenze for Charles of Anjou) married Adelmota da Cornazzano in 1258.
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="cisalpine"
+	father=1064456
+	1220.1.1 = {
+		birth=yes
+	}
+	1246.1.1 = {
+		add_spouse=1064445
+	}	
+	1289.1.1 = {
+		death=yes
+	}
+}
+1064461 = {
+	name="Gian Quirico" 
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="cisalpine"
+	trait=education_stewardship_2
+	father=1064460
+	mother=1064445
+	1260.1.1 = {
+		birth=yes
+	}
+	1310.1.1 = {
+		add_spouse=cisalpine0756
+	}
+	1330.1.1 = {
+		death=yes
+	}
+}
+1064462 = {
+	name="Giberto" #Giberto, son of Gian Quirico
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="cisalpine"
+	trait=education_martial_1
+	father=1064461
+	mother=cisalpine0756
+	1312.1.1 = {
+		birth=yes
+	}
+	1350.1.1 = {
+		death=yes
+	}
+}
+#
+1065034 = {
+	name="Ugo" #Ugo II, son of Guarino. signore di Carpi e Montebaranzone. also consul of Modena(in 1255 so after the arbitration, this is also last account of him). attested 1243, capitano di Popolo of Parma and Podesta of Parma, no date is given(it does say he only held either office briefly though). He commanded the defence of Parma against Enzio of Sardinia on the 27th of June( either 1247 or 1248). Had a long conflict with the republic of Modean(they siezed Carpi and he had to go through the church's arbitration to sort matters out)
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="cisalpine"
+	father=1064456
+	1195.1.1 = {
+		birth=yes
+	}
+	1259.1.1 = {
+		death=yes
+	}
+}
+1065031 = {
+	name="Antonio" #Antonio, son of Ugo II. cavalry officer of Azzo III di Este. died 1294.
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="cisalpine"
+	father=1065034
+	1220.1.1 = {
+		birth=yes
+	}
+	1294.1.1 = {
+		death=yes
+	}
+}
+1065032 = {
+	name="Alberto" #Alberto, son of Antonio
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="cisalpine"
+	father=1065031
+	1245.1.1 = {
+		birth=yes
+	}
+	1300.1.1 = {
+		death=yes
+	}
+}
+1065033 = {
+	name="Giovanni" #Giovanni, son of Alberto. attested 1303 and 1306. signore di Montechiarugolo. died without issue.
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="cisalpine"
+	father=1065032
+	1270.1.1 = {
+		birth=yes
+	}
+	1330.1.1 = {
+		death=yes
+	}
+}
+#
+1064466 = {
+	name="Pietro" #Pietro, son of Ugo II, cavalary officer for Azzo III di Este.
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="cisalpine"
+	father=1065034
+	1225.1.1 = {
+		birth=yes
+	}
+	1280.1.1 = {
+		death=yes
+	}
+}
+1064467 = {
+	name="Giovanni" #Giovanni, son of Pietro. Fought against the Rossi of Parma in 1313, but was defeated.
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="cisalpine"
+	father=1064466
+	1250.1.1 = {
+		birth=yes
+	}
+	1314.1.1 = {
+		death=yes
+	}
+}
+#### Piemonte branch, signori di Mondovi, conti di Toricella.
+1064468 = {
+	name="Zangro" #Zangro, son of Anselmo. attested 1202.
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="cisalpine"
+	father=1064454
+	1180.1.1 = {
+		birth=yes
+	}
+	1230.1.1 = {
+		death=yes
+	}
+}
+1064469 = {
+	name="Azzone" #Azzone/Azzo, son of Zangaro. married Viride della Scala the daughter of Mastino della scala. died while defending Parma against Enzio of Sardinia.
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="cisalpine"
+	father=1064468
+	1205.1.1 = {
+		birth=yes
+	}
+	1248.1.1 = {
+		death=yes
+	}
+}
+1065035 = {
+	name="Mastino" #Mastino/Mastinello, son of Azzone, slain by Guglielmo Rossi in 1308 near Parma..
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="cisalpine"
+	father=1064469
+	1237.1.1 = {
+		birth=yes
+	}
+	1308.1.1 = {
+		death={
+			death_reason=death_battle
+			killer=1062144
+		}
+	}
+}
+#First ones bound for Piemonte
+1064470 = {
+	name="Giacomo Antonio" #Giacopo/Giacomo Antonio son of Azzone, attested 1261, 1263 and 1288. Moved to Mondovi where he founded the Piemonte branch(active in mainly in Ceva and Mondovi).
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="cisalpine"
+	father=1064468
+	1230.1.1 = {
+		birth=yes
+	}
+	1289.1.1 = {
+		death=yes
+	}
+}
+1064471 = {
+	name="Rosso" #Rosso, son of Giacomo attesed 1298
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="cisalpine"
+	father=1064470
+	1260.1.1 = {
+		birth=yes
+	}
+	1320.1.1 = {
+		death=yes
+	}
+}
+1064472 = {
+	name="Bartolommeo" #Bartolommeo, son of Rosso attested 1345
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="cisalpine"
+	father=1064471
+	1285.1.1 = {
+		birth=yes
+	}
+	1346.1.1 = {
+		death=yes
+	}
+}
+1064473 = {
+	name="Lorenzo" #Lorenzo, son of Bartolommeo. attested 1347
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="cisalpine"
+	father=1064472
+	1300.1.1 = {
+		birth=yes
+	}
+	1365.1.1 = {
+		death=yes
+	}
+}
+1064474 = {
+	name="Simonino" #Simonino, son of Bartolommeo. attested 1347
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="cisalpine"
+	father=1064472
+	1305.1.1 = {
+		birth=yes
+	}
+	1360.1.1 = {
+		death=yes
+	}
+}
+
+##############################################################################################
+#Guidi
+
+# Teudegrimo 1
+1091000 = {
+	name="Teudegrimo" # foudner of the dynasty, German(Saxon) noble. conte palatine of Toscana 924 with his seat in Pistoia.
+	dynasty=1042027
+	martial=9
+	diplomacy=8
+	intrigue=4
+	stewardship=8
+	religion="catholic"
+	culture="saxon"
+	trait="education_martial_3"
+	trait="arrogant"
+	890.1.1 = {
+		birth=yes
+	}
+	909.1.1 = {
+		add_spouse=1063007 # Englarata Gausi/Onesti
+	}
+	942.1.1 = {
+		death=yes
+	}
+}
+#(son of Teudegrimo I, attested 2nd october 942 and 967, seemingly died without issue. Diacono of the Ravenna. sentence in abstensia 7th of April 967 for beating up the archbishop of Ravenna. Likely the first to get hold of Modigliana.
+1091001 = {
+	name="Ranieri" 
+	dynasty=1042027
+	martial=5
+	diplomacy=3
+	intrigue=11
+	stewardship=6
+	religion="catholic"
+	culture="tuscan"
+	trait="greedy"
+	trait="education_diplomacy_2"
+        father=1091000
+        mother=1063007
+	924.1.1 = {
+		birth="924.1.1"
+	}
+	967.1.1 = {
+		death="967.1.1" 
+	}
+}
+# Guido I, younger son of Teudegrimo I, attested 2nd of october 942. married Gervisa
+1091002 = {
+	name="Guido"
+	dynasty=1042027
+	martial=4
+	diplomacy=10
+	intrigue=7
+	stewardship=8
+	religion="catholic"
+	culture="tuscan"
+	trait="education_intrigue_2"
+	trait="arrogant"
+        father=1091000
+        mother=1063007
+	927.1.1 = {
+		birth="927.1.1"
+	}
+	980.1.1 = {
+		death="980.1.1"
+	}
+}
+# Teudegrimo II (Son of Guido I, the name of his wife was Guilla or Willa, marquise Teubaldo's daughter, while Teubaldo was son of marquise Bonifazio I Ripuario), conte di Modigalian, died before the 8th of July 992.
+1091003 = {
+	name="Teudegrimo" 
+	dynasty=1042027
+	martial=3
+	diplomacy=9
+	intrigue=6
+	stewardship=6
+	religion="catholic"
+	culture="tuscan"
+        father=1091002
+	945.1.1 = {
+		birth="945.1.1"
+	}
+	992.1.1 = {
+		death="992.1.1"
+	}
+}
+# Guido II, son of Teudegrimo II, atteseted in 1017, his wife was countess Emilia, she died in 1029, he live after her death I presume.
+1091004 = {
+	name="Guido" 
+	dynasty=1042027
+	martial=3
+	diplomacy=9
+	intrigue=5
+	stewardship=7
+	religion="catholic"
+	culture="tuscan"
+        father=1091003
+	960.1.1 = {
+		birth="960.1.1"
+	}
+	1029.1.1 = {
+		death="1029.1.1"
+	}
+}
+# Teudegrimo III(son of Guido II)
+1091005 = {
+	name="Teudegrimo" 
+	dynasty=1042027
+	martial=7
+	diplomacy=8
+	intrigue=6
+	stewardship=9
+	religion="catholic"
+	culture="tuscan"
+        father=1091004
+	975.1.1 = {
+		birth="975.1.1"
+	}
+	1055.1.1 = {
+		death="1055.1.1"
+	}
+}
+# Guido 3(son of Guido II, his wife was Adeletta, daughter of Ildebrando, probably an Aldobrandi family member)
+1091006 = {
+	name="Guido" 
+	dynasty=1042027
+	martial=5
+	diplomacy=7
+	intrigue=4
+	stewardship=6
+	religion="catholic"
+	culture="tuscan"
+        trait="calm"
+        trait="education_stewardship_2"
+        father=1091004
+	988.1.1 = {
+		birth="988.1.1"
+	}
+	1043.1.1 = {
+		death="1043.1.1"
+	}
+}
+1091023 = { # Alberto son of Teudegrimo III.
+	name="Alberto"
+	dynasty=1042027
+	martial=6
+	diplomacy=5
+	intrigue=7
+	stewardship=6
+	religion="catholic"
+	culture="tuscan"
+        father=1091004
+	990.1.1 = {
+		birth="990.1.1"
+	}
+	1040.1.1 = {
+		death="1040.1.1"
+	}
+}
+# Guido 4(grandson of Teudegrimo III, his father was count Alberto (this character should be added), son of Teudegrimo I
+1091007 = {
+	name="Guido"
+	dynasty=1042027
+	martial=7
+	diplomacy=8
+	intrigue=6
+	stewardship=9
+	religion="catholic"
+	culture="tuscan"
+        trait="calm"
+        trait="honest"
+        father=1091023
+	1012.1.1 = {
+		birth="1012.1.1"
+	}
+	1065.1.1 = {
+		death="1065.1.1"
+	}
+}
+# Guido V(son of Guido IV, his first wife was Ermellina di Mangona(alberti), they had 3 sons, one of them, Ruggieri, died young in 1097).Ermelina died the 21th of januar 1096 and he remarried to Sofia widow of Arrigo del M. S. Maria.
+1091008 = {
+	name="Guido" 
+	dynasty=1042027
+	martial=5
+	diplomacy=10
+	intrigue=6
+	stewardship=12
+	religion="catholic"
+	culture="tuscan"
+	trait="education_martial_3"
+	trait="diligent"
+        trait="ambitious"
+        father=1091007
+	1035.1.1 = {
+		birth="1035.1.1"
+	}
+	1103.1.1 = {
+		death="1103.1.1"
+	}
+}
+#Teudegrimo IV (son of Guido V)
+1091010 = {
+	name="Teudegrimo"
+	dynasty=1042027
+	martial=9
+	diplomacy=4
+	intrigue=7
+	stewardship=3
+	religion="catholic"
+	culture="tuscan"
+	trait="shy"
+        father=1091008
+	1068.1.1 = {
+		birth="1068.1.1"
+	}
+	1099.1.1 = {
+		death="1099.1.1"
+	}
+}
+#Guido Guerra I, oldest son of Guido V, his wife was countess Imilia, Raniero Sinibaldo's daughter. attested 1100, 1103, 1122 and 1131
+1091009 = {
+	name="Guido Guerra" 
+	dynasty=1042027
+	martial=12
+	diplomacy=7
+	intrigue=10
+	stewardship=8
+	religion="catholic"
+	culture="tuscan"
+	trait="education_martial_4"
+	trait="arrogant"
+        trait="ambitious"
+        father=1091008
+	1067.1.1 = {
+		birth="1067.1.1"
+	}
+	1131.1.1 = {
+		death="1131.1.1"
+	}
+}
+1065060 = {#Sofia daughter of Guido Guerra
+	name="Sofia"
+	dynasty=1042027
+	religion="catholic"
+	culture="tuscan"
+    female=yes
+    father=1091009
+	1088.1.1 = {
+		birth=yes
+	}
+	1125.1.1 = {
+		death=yes
+	}
+}
+#Guido Guerra II, son of Guido Guerra I
+1091011 = {
+	name="Guido Guerra"
+	dynasty=1042027
+	martial=12
+	diplomacy=12
+	intrigue=6
+	stewardship=11
+	religion="catholic"
+	culture="tuscan"
+	trait="education_martial_4"
+	trait="arrogant"
+        trait="gregarious"
+        father=1091009
+	1104.1.1 = {
+		birth="1104.1.1"
+	}
+	1186.1.1 = {
+		death="1186.1.1"
+	}
+}
+#Guido Guerra III (son of Guido Guerra II, the most powerful lord of Tuscany during his times, his wife was the beautiful Gualdrada, Bellincione Berti de' Ravignani's daughter, they had 5 sons)
+1091012 = {
+	name="Guido Guerra" 
+	dynasty=1042027
+	martial=5
+	diplomacy=6
+	intrigue=6
+	stewardship=5
+	religion="catholic"
+	culture="tuscan"
+	trait="gregarious"
+	trait="arrogant"
+        trait="ambitious"
+        trait="greedy"
+        trait="education_stewardship_4"
+        father=1091011
+	1150.1.1 = {
+		birth="1150.1.1"
+	}
+	1220.1.1 = {
+		death="1220.1.1"
+	}
+}
+######Modigliana
+#Guido Guerra IV, father of Ghibeline branch di Modigliana (son of Guido Guerra III, his wife was countess Giovanna de' Pallavicini, sister of marquise Oberto de' Pallavicini, they had 2 sons)
+1091013 = {
+	name="Guido Guerra"
+	dynasty=1042027
+	martial=9
+	diplomacy=9
+	intrigue=5
+	stewardship=7
+	religion="catholic"
+	culture="tuscan"
+        trait="education_martial_3"
+	trait="gregarious"
+	trait="arrogant"
+        trait="honest"
+        father=1091012
+	1178.1.1 = {
+		birth="1178.1.1"
+	}
+	1246.1.1 = {
+		death="1246.1.1"
+	}
+}
+#Guido-Novello, oldest son of Guido Guerra IV, ghibline leader. married Giouanna, attested 1252(leading an army for the ghibelines of firenze), 1253, 1261, 1263, 1266, 1269, 1275, 1286 and 1289(lead troops for ghibelines again as podesta of arezzo?). conte di Modigliana e Casentino, Vicario di Firenze 1261 podesta of Arezzo 1289.
+1091018 = {
+	name="Guido-Novello"
+	dynasty=1042027
+	martial=9
+	diplomacy=7
+	intrigue=7
+	stewardship=8
+	religion="catholic"
+	culture="tuscan"
+	trait="education_martial_3"
+	trait="arrogant"
+        trait="ambitious"
+        father=1091013
+	1206.1.1 = {
+		birth=yes
+	}
+	1289.6.11 = {
+		death=yes
+	}
+}
+1065061 = {#Manfredi d'Ampinana, oldest son of Guido Novello I, attested 1291 and 1299. Like his brother he held a string of castles in the Apiennes and Mugello.
+	name="Manfredi"
+	dynasty=1042027
+	religion="catholic"
+	culture="tuscan"
+    father=1091018
+	1226.1.1 = {
+		birth=yes
+	}
+	1300.1.1 = {
+		death=yes
+	}
+}
+1065062 = {#Federigo, 2nd son of Guido Novello I, attested 1292 and 1311(debt, owed money to the Medici)
+	name="Federigo"
+	dynasty=1042027
+	religion="catholic"
+	culture="tuscan"
+    father=1065061
+	1240.1.1 = {
+		birth=yes
+	}
+	1312.1.1 = {
+		death=yes
+	}
+}
+1065063 = {#Guido Novello II, son of Federigo, attested 1322 and 1342
+	name="Guido Novello"
+	dynasty=1042027
+	religion="catholic"
+	culture="tuscan"
+    father=1065062
+	1265.1.1 = {
+		birth=yes
+	}
+	1342.1.1 = {
+		death=yes
+	}
+}
+1065064 = {#Agnolo, son of Guido Novello II, attestd 1357
+	name="Agnolo"
+	dynasty=1042027
+	religion="catholic"
+	culture="tuscan"
+    father=1065063
+	1285.1.1 = {
+		birth=yes
+	}
+	1360.1.1 = {
+		death=yes
+	}
+}
+1065065 = {#Altomilla, daughter of Federigo
+	name="Altomilla"
+	dynasty=1042027
+	religion="catholic"
+	culture="tuscan"
+    father=1065062
+	female=yes
+	1270.1.1 = {
+		birth=yes
+	}
+	1315.1.1 = {
+		death=yes
+	}
+}
+1065066 = {#Giovanna, daughter of Federigo, married conte Tegrino di Modigliana(porciano?).
+	name="Giovanna"
+	dynasty=1042027
+	religion="catholic"
+	culture="tuscan"
+    father=1065062
+	female=yes
+	1256.1.1 = {
+		birth=yes
+	}
+	1305.1.1 = {
+		death=yes
+	}
+}
+1065067 = {#Guglielmo Spadalunga, 3rd son of Guido Novello I, attested 1298, 1299 and 16th of february 1328. ghibeline, led german cavalry against the Romena branch in 1328.
+	name="Guglielmo"
+	dynasty=1042027
+	religion="catholic"
+	culture="tuscan"
+    father=1065061
+	1255.1.1 = {
+		birth=yes
+	}
+	1329.1.1 = {
+		death=yes
+	}
+}
+1065068 = {#Galeotto, son of Guglielmo. attested 1331, 1349 and 1353 ghibeline
+	name="Galeotto"
+	dynasty=1042027
+	religion="catholic"
+	culture="tuscan"
+    father=1065067
+	1285.1.1 = {
+		birth=yes
+	}
+	1354.1.1 = {
+		death=yes
+	}
+}
+1065069 = {#Ricciardo, son of Guglielmo attsested 1333, ghibeline, podesta of Lucca 1326.
+	name="Ricciardo"
+	dynasty=1042027
+	religion="catholic"
+	culture="tuscan"
+    father=1065067
+	1280.1.1 = {
+		birth=yes
+	}
+	1335.1.1 = {
+		death=yes
+	}
+}
+###Battifolle, subbranch of the Modigliana.
+# Simon I# second son of Guido Guerra IV, attested 1265 and 1274
+1091019 = {
+	name="Simone"
+	dynasty=1042027
+	martial=10
+	diplomacy=6
+	intrigue=6
+	stewardship=7
+	religion="catholic"
+	culture="tuscan"
+	trait="education_martial_3"
+	trait="arrogant"
+        trait="ambitious"
+        father=1091013
+	1209.1.1 = {
+		birth=yes
+	}
+	1275.1.1 = {
+		death=yes
+	}
+}
+1065070 = {#Guido di Battifolle, son of Simone I. conte di Battifolle 1283, vicario di firenze 1316.
+	name="Guido"
+	dynasty=1042027
+	religion="catholic"
+	culture="tuscan"
+    father=1091019
+	1235.1.1 = {
+		birth=yes
+	}
+	1317.1.1 = {
+		death=yes
+	}
+}
+1065071 = {#Ugo, son of Guido, conte di battifolle by 1325, podesta of Siena 1319. last attested 1330.
+	name="Ugo"
+	dynasty=1042027
+	religion="catholic"
+	culture="tuscan"
+    father=1065070
+	1260.1.1 = {
+		birth=yes
+	}
+	1331.1.1 = {
+		death=yes
+	}
+}
+1065072 = {#Guido di Battifolle II, son of Ugo. conte di Battifolle 1336, last attested 1375.
+	name="Guido"
+	dynasty=1042027
+	religion="catholic"
+	culture="tuscan"
+    father=1065071
+	1290.1.1 = {
+		birth=yes
+	}
+	1375.1.1 = {
+		death=yes
+	}
+}
+##Poppi, subsubbranch of the Modigliana.
+1065073 = {#Simone II, son of Guido di Battifolle I, conte di Poppi 1318, capitano generale di firenze 1319. conte palatino di toscana 1355.
+	name="Simone"
+	dynasty=1042027
+	religion="catholic"
+	culture="tuscan"
+    father=1065070
+	1279.1.1 = {
+		birth=yes
+	}
+	1356.1.1 = {
+		death=yes
+	}
+}
+1065074 = {#Roberto di Battifolle, son of Simone II, attested 1374.
+	name="Roberto"
+	dynasty=1042027
+	religion="catholic"
+	culture="tuscan"
+    father=1065073
+	1300.1.1 = {
+		birth=yes
+	}
+	1375.1.1 = {
+		death=yes
+	}
+}
+###### Dovadola
+#Marcovaldo, founder of the original Guelph branch, di Dovadola (son of Guido Guerra III, his wife was Beatrice di Capraia(alberti), they had 2 sons)
+1091014 = {
+	name="Marcovaldo"
+	dynasty=1042027
+	martial=7
+	diplomacy=8
+	intrigue=10
+	stewardship=8
+	religion="catholic"
+	culture="tuscan"
+	trait="education_intrigue_2"
+	trait="ambitious"
+        trait="greedy"
+        father=1091012
+	1187.1.1 = {
+		birth="1187.1.1"
+	}
+	1205.1.1 = {
+		add_spouse=	1065090 # Beatrice di Carparia
+	}	
+	1229.1.12 = {
+		death="1229.1.12"
+	}
+}
+#Guido Guerra 5, oldest son of Marcovaldo, conte di Dovadola, attested 1254, 1255 and 1263.
+1091020 = {
+	name="Guido Guerra"
+	dynasty=1042027
+	martial=9
+	diplomacy=8
+	intrigue=5
+	stewardship=7
+	religion="catholic"
+	culture="tuscan"
+	trait="education_martial_2"
+	trait="arrogant"
+        trait="ambitious"
+        father=1091014
+		mother=1065090
+	1219.1.1 = {
+		birth="1219.1.1" 
+	}
+	1263.1.1 = {
+		death="1263.1.1"
+	}
+}
+# Ruggieri II# second son of Marcovaldo, conte di Dovadola. attested 1255, 1263. dead by 1271
+1091021 = {
+	name="Ruggieri"
+	dynasty=1042027
+	martial=5
+	diplomacy=7
+	intrigue=10
+	stewardship=8
+	religion="catholic"
+	culture="tuscan"
+	trait="education_intrigue_2"
+	trait="greedy"
+        trait="ambitious"
+        father=1091014
+		mother=1065090
+	1221.1.1 = {
+		birth="1221.1.1" 
+	}
+	1271.1.1 = {
+		death="1271.1.1"
+	}
+}
+#Guido Salvatico #son of Ruggieri II, podesta of Siena 1282 and 1288, florentine commander against Pisa in 1287, attested as conte di Dovadola in 1271, 1273 and 1278. last attested 1301(transfeered most of his propperty to his son Ruggieri )
+1091022 = {
+	name="Guido Salvatico"
+	dynasty=1042027
+	martial=5
+	diplomacy=9
+	intrigue=6
+	stewardship=10
+	religion="catholic"
+	culture="tuscan"
+	trait="education_stewardship_2"
+	trait="arrogant"
+        trait="ambitious"
+        father=1091021
+	1239.1.1 = {
+		birth=yes
+	}
+	1305.1.1 = {
+		death=yes
+	}
+}
+1091036 = {
+	name="Ruggieri"#Rugieri, son of guido Salvatico, conte di Dovadola, conte di Dovdola 1301, podesta of Firenze 1304, capitano del popolo of siena 1322, 
+	dynasty=1042027
+	martial=6
+	diplomacy=5
+	intrigue=6
+	stewardship=4
+	religion="catholic"
+	culture="tuscan"
+        father=1091022
+	1260.1.1 = {
+		birth=yes 
+	}
+	1323.1.1 = {
+		death=yes
+	}
+}
+#Marcovaldo II, son of Ruggieri III, attested 1340.
+1091037 = {
+	name="Marcovaldo"
+	dynasty=1042027
+	martial=6
+	diplomacy=5
+	intrigue=4
+	stewardship=8
+	religion="catholic"
+	culture="tuscan"
+        father=1091036
+	1282.1.1 = {
+		birth = yes
+	}
+	1341.1.1 = {
+		death = yes
+	}
+}
+#Francesco# son of Ruggieri III, brother of Marcovaldo, he get the family castle after the death of his brother, unknown dates
+1091038 = {
+	name="Francesco"
+	dynasty=1042027
+	martial=5
+	diplomacy=7
+	intrigue=5
+	stewardship=4
+	religion="catholic"
+	culture="tuscan"
+        father=1091036
+	1288.1.1 = {
+		birth=yes 
+	}
+	1347.1.1 = {
+		death=yes
+	}
+}
+#Malatesta# son of Francesco, unknown date of birth
+1091039 = {
+	name="Malatesta"
+	dynasty=1042027
+	martial=6
+	diplomacy=7
+	intrigue=8
+	stewardship=6
+	religion="catholic"
+	culture="tuscan"
+        father=1091038
+	1324.1.1 = {
+		birth=yes
+	}
+	1407.1.1 = {
+		death=yes
+	}
+}
+#Giovanni# son of malatesta, unknown dates of birth and death
+1091040 = {
+	name="Giovanni"
+	dynasty=1042027
+	martial=5
+	diplomacy=7
+	intrigue=6
+	stewardship=4
+	religion="catholic"
+	culture="tuscan"
+        father=1091039
+	1336.1.1 = {
+		birth=yes
+	}
+	1413.1.1 = {
+		death=yes
+	}
+}
+#Carlo# son of Malatesta, unknown dates of birth and death
+1091041 = {
+	name="Carlo"
+	dynasty=1042027
+	martial=3
+	diplomacy=6
+	intrigue=7
+	stewardship=4
+	religion="catholic"
+	culture="tuscan"
+        father=1091039
+	1343.1.1 = {
+		birth="1343.1.1"
+	}
+	1420.1.1 = {
+		death="1420.1.1"
+	}
+}
+#Francesco# son of Malatesta, unknown dates of birth and death
+1091042 = {
+	name="Francesco"
+	dynasty=1042027
+	martial=4
+	diplomacy=8
+	intrigue=6
+	stewardship=4
+	religion="catholic"
+	culture="tuscan"
+        father=1091039
+	1345.1.1 = {
+		birth="1345.1.1"
+	}
+	1418.1.1 = {
+		death="1418.1.1"
+	}
+}
+#Guelfo# son of Malatesta, unknown dates of birth and death
+1091043 = {
+	name="Guido d'Aghinolfo"
+	dynasty=1042027
+	martial=3
+	diplomacy=6
+	intrigue=4
+	stewardship=8
+	religion="catholic"
+	culture="tuscan"
+        father=1091039
+	1346.1.1 = {
+		birth="1346.1.1"
+	}
+	1429.1.1 = {
+		death="1429.1.1"
+	}
+}
+######Romena branch
+#(son of Guido Guerra III, father of Di Romena branch), ghibelines
+1091015 = {
+	name="Aghinolfo" 
+	dynasty=1042027
+	martial=5
+	diplomacy=6
+	intrigue=6
+	stewardship=5
+	religion="catholic"
+	culture="tuscan"
+        trait="education_learning_2"
+	trait="content"
+        father=1091012
+	1185.1.1 = {
+		birth="1185.1.1"
+	}
+	1248.1.1 = {
+		death="1248.1.1"
+	}
+}
+#Guido d'Aghinolfo# son of Aghinolfo, nephew of Guido Guerra III. Conte di Romena.
+1091027 = {
+	name="Guido"
+	dynasty=1042027
+	martial=4
+	diplomacy=5
+	intrigue=7
+	stewardship=9
+	religion="catholic"
+	culture="tuscan"
+    father=1091015
+	1229.1.1 = {
+		birth=yes
+	}
+	1281.1.1 = {
+		death=yes
+	}
+}
+#Alessandro# son of Aghinolfo, nephew of Guido Guerra III, unknown date of birth and death 
+1091028 = {
+	name="Alessandro"
+	dynasty=1042027
+	martial=5
+	diplomacy=7
+	intrigue=5
+	stewardship=6
+	religion="catholic"
+	culture="tuscan"
+        father=1091015
+	1232.1.1 = {
+		birth="1232.1.1"
+	}
+	1295.1.1 = {
+		death="1295.1.1"
+	}
+}
+#Aghinolfo 2# son of Guido d'Aghinolfo and countess gualrada, conte di Romena in 1338. minted coins he wasn't supposed to mint.
+1091029 = {
+	name="Aghinolfo"
+	dynasty=1042027
+	martial=6
+	diplomacy=3
+	intrigue=5
+	stewardship=9
+	religion="catholic"
+	culture="tuscan"
+        father=1091027
+	1255.1.1 = {
+		birth=yes
+	}
+	1338.1.1 = {
+		death=yes
+	}
+}
+1065038 = {
+	name="Ildebrandino" # Ildebrandino/Bandino, son of Guido, bishop of Arezzo 1289-1313
+	dynasty=1042027
+	martial=3
+	diplomacy=6
+	intrigue=4
+	stewardship=8
+	religion="catholic"
+	culture="tuscan"
+    father=1091027
+	1260.1.1 = {
+		birth=yes
+	}
+	1313.1.1 = {
+		death=yes
+	}
+}
+#Alberto# son of Aghinolfo 2, unknown date of birth and death
+1091030 = {
+	name="Alberto"
+	dynasty=1042027
+	martial=9
+	diplomacy=8
+	intrigue=7
+	stewardship=4
+	religion="catholic"
+	culture="tuscan"
+        father=1091029
+	1289.1.1 = {
+		birth=yes
+	}
+	1315.1.1 = {
+		death=yes
+	}
+}
+#Uberto, son of Aghinolfo II.
+1091031 = {
+	name="Uberto"
+	dynasty=1042027
+	martial=9
+	diplomacy=7
+	intrigue=8
+	stewardship=7
+	religion="catholic"
+	culture="tuscan"
+        father=1091029
+	1272.1.1 = {
+		birth= yes
+	}
+	1311.1.1 = {
+		death= yes
+	}
+}
+#Piero, oldest son of Uberto, conte di Romena. attested 1339 and 1341.
+1091034 = {
+	name="Piero"
+	dynasty=1042027
+	martial=6
+	diplomacy=5
+	intrigue=7
+	stewardship=6
+	religion="catholic"
+	culture="tuscan"
+        father=1091031
+	1285.1.1 = {
+		birth=yes
+	}
+	1342.1.1 = {
+		death=yes
+	}
+}
+#Bandino I, son of Uberto, conte di Montegranelli, attested as conte di Romena 1339, 1341 and 1357.
+1091033 = {
+	name="Bandino"
+	dynasty=1042027
+	martial=8
+	diplomacy=7
+	intrigue=6
+	stewardship=5
+	religion="catholic"
+	culture="tuscan"
+        father=1091031
+	1290.1.1 = {
+		birth=yes
+	}
+	1359.1.1 = {
+		death=yes
+	}
+}
+1091035 = {
+	name="NiccolO_"#NiccolO_, son of Bandino, nephew of Alberto, unknown dates
+	dynasty=1042027
+	martial=5
+	diplomacy=7
+	intrigue=6
+	stewardship=6
+	religion="catholic"
+	culture="tuscan"
+        father=1091033
+	1310.1.1 = {
+		birth=yes
+	}
+	1380.1.1 = {
+		death=yes
+	}
+}
+######Porciano branch.
+1091016 = {
+	name="Teudegrimo" #(son of Guido Guerra III, father of di Porciano branch), married Albiera, conte di Porciano
+	dynasty=1042027
+	martial=5
+	diplomacy=6
+	intrigue=6
+	stewardship=5
+	religion="catholic"
+	culture="tuscan"
+	trait="education_martial_2"
+	trait="humble"
+        father=1091012
+	1183.1.1 = {
+		birth="1183.1.1"
+	}
+	1239.1.1 = {
+		death="1239.1.1"
+	}
+}
+1091032 = {
+	name="Tegrino"#Tegrino il Vecchio, son of Teudegrimo?, conte di Porciano. married Gualdrada, ghibeline, attested 1220, 1253 and 1260
+	dynasty=1042027
+	religion="catholic"
+	culture="tuscan"
+    father=1091016
+	1205.1.1 = {
+		birth=yes
+	}
+	1265.1.1 = {
+		death=yes
+	}
+}
+1065075 = {
+	name="Guido"#Guido son of Tegrino, conte di Porciano, attested 1267, 1281 and 1286, guelph?
+	dynasty=1042027
+	religion="catholic"
+	culture="tuscan"
+    father=1091032
+	1225.1.1 = {
+		birth=yes
+	}
+	1287.1.1 = {
+		death=yes
+	}
+}
+1065076 = {
+	name="Fazio"#Fazio, second son of Guido, attested 1299 and 1309
+	dynasty=1042027
+	religion="catholic"
+	culture="tuscan"
+    father=1065075
+	1255.1.1 = {
+		birth=yes
+	}
+	1309.1.1 = {
+		death=yes
+	}
+}
+1065077 = {
+	name="Corrado"#Corrado, son of Guido
+	dynasty=1042027
+	religion="catholic"
+	culture="tuscan"
+    father=1065075
+	1247.1.1 = {
+		birth=yes
+	}
+	1289.1.1 = {
+		death=yes
+	}
+}
+1065078 = {
+	name="Amerigo"#Amerigo, son of Corrado, podesta of Firenze 1291?
+	dynasty=1042027
+	religion="catholic"
+	culture="tuscan"
+    father=1065077
+	1265.1.1 = {
+		birth=yes
+	}
+	1310.1.1 = {
+		death=yes
+	}
+}
+1065079 = {
+	name="Guido Zaffiro"#Guido Zaffiro, son of Amerigo, conte of?, attested 1326 and 1353, married Margharita di Modigliana
+	dynasty=1042027
+	religion="catholic"
+	culture="tuscan"
+    father=1065078
+	1295.1.1 = {
+		birth=yes
+	}
+	1354.1.1 = {
+		death=yes
+	}
+}
+1065080 = {
+	name="Guido"#Guido, son of Guido I di Porciano
+	dynasty=1042027
+	religion="catholic"
+	culture="tuscan"
+    father=1065075
+	1250.1.1 = {
+		birth=yes
+	}
+	1310.1.1 = {
+		death=yes
+	}
+}
+###### Second Porciano branch, this branch was affirmed to Porciano by the emperor in 1311.
+1065081 = {
+	name="Tancredi"#Tancredi, brother of a Bandino, son of Guido?, conte di Porciano 1311 and 1333.
+	dynasty=1042027
+	religion="catholic"
+	culture="tuscan"
+    father=1065080
+	1270.1.1 = {
+		birth=yes
+	}
+	1333.1.1 = {
+		death=yes
+	}
+}
+1065082 = {
+	name="Guido Uberto"#Guido Uberto/Guidoalberto, son of Tancredi. conte di Porciano 1341. dead by 1349
+	dynasty=1042027
+	religion="catholic"
+	culture="tuscan"
+    father=1065081
+	1290.1.1 = {
+		birth=yes
+	}
+	1349.1.1 = {
+		death=yes
+	}
+}
+1065083 = {
+	name="Bandino"#Bandino, younger brother of Tancredi
+	dynasty=1042027
+	religion="catholic"
+	culture="tuscan"
+    father=1065080
+	1270.1.1 = {
+		birth=yes
+	}
+	1333.1.1 = {
+		death=yes
+	}
+}
+#####
+#Ruggieri 1# died before his older brother Guido Guerra IV (son of Guido Guerra III)
+1091017 = {
+	name="Ruggieri"
+	dynasty=1042027
+	martial=5
+	diplomacy=6
+	intrigue=3
+	stewardship=5
+	religion="catholic"
+	culture="tuscan"
+	trait="education_learning_1"
+	trait="ill"
+        father=1091012
+	1180.1.1 = {
+		birth="1180.1.1"
+	}
+	1225.5.9 = {
+		death="1225.5.9"
+	}
+}
+#Guido# son of Teudegrimo, nephew of Guido Guerra III unknown date of birth and death 
+1091024 = {
+	name="Guido"
+	dynasty=1042027
+	martial=5
+	diplomacy=6
+	intrigue=7
+	stewardship=5
+	religion="catholic"
+	culture="tuscan"
+        father=1091016
+	1235.1.1 = {
+		birth="1235.1.1"
+	}
+	1300.1.1 = {
+		death="1300.1.1"
+	}
+}
+#Guido Francesco# son of Guido?, if so it would be nephew of Teudegrimo di Porciano, unknown date of birth, conte di Porciano 1357
+1091025 = {
+	name="Guido"
+	dynasty=1042027
+	martial=4
+	diplomacy=5
+	intrigue=6
+	stewardship=7
+	religion="catholic"
+	culture="tuscan"
+        father=1091024
+	1275.1.1 = {
+		birth="1275.1.1"
+	}
+	1369.1.1 = {
+		death="1369.1.1"
+	}
+}
+#Antonio# son of Guido Francesco, nephew of Guido, unknown date of birth and death, by 1392 he was surely adult maybe 25 or nearly 30 years old, in 1400 he rebelled against Firenze siding himself for Milano, by 1402 he lost and was exiled, his lands were confiscated by the florentines 
+1091026 = {
+	name="Antonio"
+	dynasty=1042027
+	martial=5
+	diplomacy=5
+	intrigue=6
+	stewardship=6
+	religion="catholic"
+	culture="tuscan"
+        father=1091025
+	1362.1.1 = {
+		birth="1362.1.1"
+	}
+	1410.1.1 = {
+		death="1410.1.1"
+	}
+}
+180502 = {
+	name = "Candida"	# fictional placeholder
+	# wife of Guido II della Gherardesca
+	female = yes
+	dynasty = 1042027
+	religion = "catholic"
+	culture = "italian"
+	father = 1091007
+	1047.1.1 = {
+		birth = "1047.1.1"
+	}
+	1108.1.1 = {
+		death = "1108.1.1"
+	}
+}
+235016 = {
+    name = "Guisiana"   # fictional placeholder
+    # daughter of Count Guido Guerra III Guidi, second wife of William I of Cagliari
+    female = yes
+    dynasty = 1042027
+    religion = "catholic"
+    culture = "italian"
+    father = 1091012
+    1176.1.1 = {
+        birth = yes
+    }
+    1229.1.1 = {
+        death = yes
+    }
+}
+
+################################
+#Ravenna
+################################ # I've mostly leaned on the family tree by Camillo Spreti, albeit with some tweaks and additions in the 11th, early 12th century and early 13th century.
+#Traversi(ghibeline mostly). Duci e conti Traversara( Castello traversara was a castle between Ravenna and Forlí, but doesn't exsist anymore. was situated on the Lamone river) signori di Ravenna.
+1063415 = {
+	name="Teodoro" # Theodore
+	dynasty=101851
+	religion="catholic"
+	culture="svear"
+	460.1.1={
+		birth=yes
+	}
+	505.1.1={
+		death=yes
+	}
+}
+1063416 = {
+	name="Importunio" # Importunio, son of Teodoro
+	dynasty=101851
+	religion="catholic"
+	culture="svear"
+	father=1063415
+	480.1.1={
+		birth=yes
+	}
+	531.1.1={
+		death=yes
+	}
+}
+1063417 = {
+	name="Traiano" # Traiano, son of Teodoro.
+	dynasty=101851
+	religion="catholic"
+	culture="svear"
+	father=1063415
+	482.1.1={
+		birth=yes
+	}
+	538.1.1={
+		death=yes
+	}
+}
+1063418 = {
+	name="Massimo" # Massimo, son of Teodoro.
+	dynasty=101851
+	religion="catholic"
+	culture="svear"
+	father=1063415
+	487.1.1={
+		birth=yes
+	}
+	528.1.1={
+		death=yes
+	}
+}
+1063419 = {
+	name="Stefano" # Stefano, son of Teodoro. Duca traversara.
+	dynasty=101851
+	religion="catholic"
+	culture="svear"
+	father=1063415
+	476.1.1={
+		birth=yes
+	}
+	515.1.1={
+		death=yes
+	}
+}
+1063420 = {
+	name="Sergio" # Sergio, son of Stefano.
+	dynasty=101851
+	religion="catholic"
+	culture="svear"
+	father=1063419
+	501.1.1={
+		birth=yes
+	}
+	549.1.1={
+		death=yes
+	}
+}
+1063421 = {
+	name="Pirro" # Pirro, son of Stefano. Duca traversara.
+	dynasty=101851
+	religion="catholic"
+	culture="svear"
+	father=1063419
+	493.1.1={
+		birth=yes
+	}
+	531.1.1={
+		death=yes
+	}
+}
+1063422 = {
+	name="Amingo" # Amingo, son of Pirro
+	dynasty=101851
+	religion="catholic"
+	culture="svear"
+	father=1063421
+	519.1.1={
+		birth=yes
+	}
+	580.1.1={
+		death=yes
+	}
+}
+1063423 = {
+	name="Bucello" # Bucello, son of Pirro. Duca traversara.
+	dynasty=101851
+	religion="catholic"
+	culture="svear"
+	father=1063421
+	508.1.1={
+		birth=yes
+	}
+	542.1.1={
+		death=yes
+	}
+}
+1063424 = {
+	name="Isnardo" # Isnardo, son of Bucello. Duca traversara. attested 543
+	dynasty=101851
+	religion="catholic"
+	culture="svear"
+	father=1063423
+	520.1.1={
+		birth=yes
+	}
+	610.1.1={
+		death=yes
+	}
+}
+1063425 = {
+	name="Gotifredo" # Gotifredo, son of Bucello.
+	dynasty=101851
+	religion="catholic"
+	culture="svear"
+	father=1063423
+	528.1.1={
+		birth=yes
+	}
+	578.1.1={
+		death=yes
+	}
+}
+1063426 = {
+	name="Lotario" # Lotario, son of Bucello.
+	dynasty=101851
+	religion="catholic"
+	culture="svear"
+	father=1063423
+	525.1.1={
+		birth=yes
+	}
+	571.1.1={
+		death=yes
+	}
+}
+1063427 = {
+	name="Carlo" # Carlo, son of Bucello.
+	dynasty=101851
+	religion="catholic"
+	culture="svear"
+	father=1063423
+	529.1.1={
+		birth=yes
+	}
+	588.1.1={
+		death=yes
+	}
+}
+1063428 = {
+	name="Teodoro" # Theodoro II, son of Isnardo. Duca traversara.
+	dynasty=101851
+	religion="catholic"
+	culture="svear"
+	father=1063424
+	590.1.1={
+		birth=yes
+	}
+	675.1.1={
+		death=yes
+	}
+}
+1063429 = {
+	name="Stefano" # Stefano, son of Isnardo.
+	dynasty=101851
+	religion="catholic"
+	culture="svear"
+	father=1063424
+	550.1.1={
+		birth=yes
+	}
+	590.1.1={
+		death=yes
+	}
+}
+1063430 = {
+	name="NiccolO_" # NiccolO_, son of Isnardo.
+	dynasty=101851
+	religion="catholic"
+	culture="svear"
+	father=1063424
+	558.1.1={
+		birth=yes
+	}
+	593.1.1={
+		death=yes
+	}
+}
+1063431 = {
+	name="Paolo" # Paolo I, son of Teodoro II. name of first wife unknown, his second wife was Blanda Perleona. Duca traversara.
+	dynasty=101851
+	religion="catholic"
+	culture="svear"
+	father=1063428
+	654.1.1={
+		birth=yes
+	}
+	750.1.1={
+		death=yes
+	}
+}
+1063432 = {
+	name="Barnaba" # Barnaba, son of Teodoro II.
+	dynasty=101851
+	religion="catholic"
+	culture="svear"
+	father=1063428
+	614.1.1={
+		birth=yes
+	}
+	653.1.1={
+		death=yes
+	}
+}
+1063433 = {
+	name="Andrea" # Andrea, son of Paolo and his first wife. Duca traversara.
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063431
+	695.1.1={
+		birth=yes
+	}
+	755.1.1={
+		death=yes
+	}
+}
+1063434 = {
+	name="Giorgio" # Giorgio, son of Paolo and his first wife. Duca traversara.
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063431
+	731.1.1={
+		birth=yes
+	}
+	820.1.1={
+		death=yes
+	}
+}
+1063435 = {
+	name="Teodoro" # Teodoro, son of Paolo and Blanda. attested 801.
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063431
+	732.1.1={
+		birth=yes
+	}
+	802.1.1={
+		death=yes
+	}
+}
+1063436 = {
+	name="Filippo" # Filippo, son of Paolo and Blanda.
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063431
+	735.1.1={
+		birth=yes
+	}
+	783.1.1={
+		death=yes
+	}
+}
+1063437 = {
+	name="Giacomo" # Giacomo, son of Paolo and Blanda.
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063431
+	735.1.1={
+		birth=yes
+	}
+	783.1.1={
+		death=yes
+	}
+}
+1065041 = {
+	name="Giovanni" # Giovanna(?wut?)/Giovanni, son of Giorgio, archbishop of ravenna april 850 to 878.
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063434
+	805.1.1={
+		birth=yes
+	}
+	878.1.1={
+		death=yes
+	}
+}
+1063438 = {
+	name="Agipato" # Agipato, son of Giorgio. attested 898.
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063434
+	804.1.1={
+		birth=yes
+	}
+	898.1.1={
+		death=yes
+	}
+}
+1063439 = {
+	name="Giorgio" # Placeholdish link, can't see how Paolo could possible be son of the Giorgio I above so lets try greatgrandson instead.
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063438
+	850.1.1={
+		birth=yes
+	}
+	897.1.1={
+		death=yes
+	}
+}
+1063440 = {
+	name="Paolo" # Paolo II, son of Giorgio(srsly??????), duca di Traversara, died 947.
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063439
+	880.1.1={
+		birth=yes
+	}
+	947.1.1={
+		death=yes
+	}
+}
+#Paolo, son of Paolo?. a bishop?, was in dispute with Andrea Dativo of bertinoro in 1050. 
+1063441 = {
+	name="Pietro" # Pietro I duca di traversara, son of Paolo, attested 27th of may 965 and 20th june 976
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063440
+	932.1.1={
+		birth=yes
+	}
+	1000.1.1={
+		death=yes
+	}
+}
+1063442 = {
+	name="Guiseppe" # Desudedit, son of Paolo , attested 11 of march 983 and feburary 1027. same as "Guiseppe" capitano generale di Ravenna?
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063440
+	940.1.1={
+		birth=yes
+	}
+	1028.1.1={
+		death=yes
+	}
+}
+#
+1063443 = {
+	name="Teodoro" # Enfiteusi, son of Paolo, atttested 11 of march 983. Same as Teodoro/Theodosio?, son of Paolo. attested 971. died 1017. duca di traverara after Pietro.
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063440
+	923.1.1={
+		birth=yes
+	}
+	1017.1.1={
+		death=yes
+	}
+}
+1063444 = {
+	name="Filippo" # Filippo, son of Teodoro.
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063443
+	945.1.1={
+		birth=yes
+	}
+	1001.1.1={
+		death=yes
+	}
+}
+1063445 = {
+	name="Opizio" # Opizio, son of Teodoro.
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063443
+	950.1.1={
+		birth=yes
+	}
+	1002.1.1={
+		death=yes
+	}
+}
+1063446 = {
+	name="Traversara" # Traversara, daughter of Teodoro. married Sergio degli onesti.
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063443
+	female=yes
+	935.1.1={
+		birth=yes
+	}
+	1008.1.1={
+		death=yes
+	}
+}
+#
+1063447 = {
+	name="Guido" # Guido Traversari, son of Pietro I attested 1070.
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063441
+	985.1.1={
+		birth=yes
+	}
+	1080.1.1={
+		death=yes
+	}
+}
+1063448 = {
+	name="Pietro" # Pietro, son of Guido, 1132(his will) married Matilde degli onesti.
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063447
+	1040.1.1={
+		birth=yes
+	}
+	1059.1.1={
+		add_spouse = 1063032
+	}		
+	1133.1.1={
+		death=yes
+	}
+}
+1063449 = {
+	name="Guido" # Guido Traversari, son of Pietro attested 6th of september 1122.
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063448
+	mother=1063032
+	1060.1.1={
+		birth=yes
+	}
+	1140.1.1={
+		death=yes
+	}
+}
+##
+1063450 = {
+	name="Rustico" # Rustico, oldest son of Pietro I. attested 1024 and 10th of june 1042.
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063441
+	975.1.1={
+		birth=yes
+	}
+	1050.1.1={
+		death=yes
+	}
+}
+1063451 = {
+	name="Pietro" # Pietro, son of Rustico. attested 1090 and july th 6th 1103. married "Gisla".
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063450
+	1020.1.1={
+		birth=yes
+	}
+	1104.1.1={
+		death=yes
+	}
+}
+1063452 = {
+	name="Ravenna" # Ravenna, daughter of Pietro. attested 21st of august 1094.
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063451
+	female=yes
+	1050.1.1={
+		birth=yes
+	}
+	1120.1.1={
+		death=yes
+	}
+}
+1063453 = {
+	name="Guglielmo" # Guglielmo I, son of Pietro, duca Traversara, attested 1112(listed as son of Pietro that year), 1117, 1146, 1155 and 1157. married Marsiglia/Marsilia di canossa
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063451
+	1080.1.1={
+		birth=yes
+	}
+	1158.1.1={
+		death=yes
+	}
+}
+1063454 = {
+	name="Teabaldo" # Tebaldo, son of Pietro, attested 6th of november 1159
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063451
+	1090.1.1={
+		birth=yes
+	}
+	1160.1.1={
+		death=yes
+	}
+}
+1063455 = {
+	name="Alberico" # Alberto/Alberico, son of Pietro, died 1137.
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063451
+	1081.1.1={
+		birth=yes
+	}
+	1137.1.1={
+		death=yes
+	}
+}
+1063456 = {
+	name="Sofia" # Sofia, daughter of Pietro, married Pietro duca degli onesti.
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063451
+	female=yes
+	1099.1.1={
+		birth=yes
+	}
+	1160.1.1={
+		death=yes
+	}
+}
+1063457 = {
+	name="Giovanni" # Giovanni, son of Pietro, died 1158 during the siege of Milano.
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063451
+	1095.1.1={
+		birth=yes
+	}
+	1158.1.1={
+		death=yes
+	}
+}
+#
+1063458 = {
+	name="Pietro" # Pietro II, son of Guglielmo I. consul of Ravenna. attested 1. july 1181 as podesta of Ravenna, and as Conte di Rimino the 9th of december 1182. married Imilia/Emilia Guidi(the one that remaried to the count of Prato?).
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063453
+	1125.1.1={
+		birth=yes
+	}
+	1183.1.1={
+		death=yes
+	}
+}
+1063459 = {
+	name="Guglielmo" # Guglielmo II, son of Pietro II attested 1182 and 1188(reinforced the castle of travserara that year). Seeem to have been a relatively succesfull comander. conte(unspecified of what, Rimini?), duca di traversara
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063458
+	1149.1.1={
+		birth=yes
+	}
+	1201.1.1={
+		death=yes
+	}
+}
+1063460 = {
+	name="Guido" # Guido, son of Pietro II.
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063458
+	1150.1.1={
+		birth=yes
+	}
+	1188.1.1={
+		death=yes
+	}
+}
+1063461 = {
+	name="Stefano" # Stefano, son of Pietro II.
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063458
+	1154.1.1={
+		birth=yes
+	}
+	1206.1.1={
+		death=yes
+	}
+}
+1063462 = {
+	name="Alberico" # Alberico, son of Pietro II.
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063458
+	1159.1.1={
+		birth=yes
+	}
+	1212.1.1={
+		death=yes
+	}
+}
+1063463 = {
+	name="Pietro" # Pietro III, son of Guglielmo II. attested november 1202 with his wife Aicha. podesta of ravenna 1218-1225 and again 1229-1233. also conte di Rimini. 
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063459
+	1180.1.1={
+		birth=yes
+	}
+	1234.1.1={
+		death=yes
+	}
+}
+1063464 = {
+	name="Traversara" #  Traversara, daughter of Guglielmo. she married Tommaso da Fogliani (the fogliano family of Reggio), her second husband was Andrea prince of Hungary. attested 1259
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063459
+	female=yes
+	1194.1.1={
+		birth=yes
+	}
+	1270.1.1={
+		death=yes
+	}
+}
+#
+1063465 = {
+	name="Paolo" # Paolo, son of Pietro III married Beatrice di Nontivoglia. died 8th of august 1240. seems he was married to his second wife adalasia before 9th of februar 1233.
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063463
+	1198.1.1={
+		birth=yes
+	}
+	1240.8.8={
+		death=yes
+	}
+}
+1063466 = {
+	name="Aicha" # Ayca/Aicha, daughter of Paolo. attested 1253. married Guglielmo Francisio, she is last attested in 13th of july 1285(her will), signora della case Traversara.
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063458
+	female=yes
+	1229.1.1={
+		birth=yes
+	}
+	1246.1.1={
+		add_spouse = 1063609 # Guglielmo Francisio, signore di Forino.
+	}		
+	1286.1.1={
+		death=yes
+	}
+}
+# Guglielmo Francisio not a traversari himself(Spreti makes him son of Paolo but that clashes with every other source i've come across). 
+1063467 = {
+	name="Pietro" # Pietro, IV son of Guglielmo, attested 25. of june 1296 and 1301
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063609
+	mother=1063466
+	1260.1.1={
+		birth=yes
+	}
+	1302.1.1={
+		death=yes
+	}
+}
+1063468 = {
+	name="Iacopo" # Jacopo, son of Pietro. 
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063467
+	1280.1.1={
+		birth=yes
+	}
+	1340.1.1={
+		death=yes
+	}
+}
+1063469 = {
+	name="Guglielmotta" # Guglielmotta, daughter of Guglielmo. attested 20. march 1301. 
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063609
+	mother=1063466
+	female=yes
+	1275.1.1={
+		birth=yes
+	}
+	1340.1.1={
+		death=yes
+	}
+}
+1063470 = {
+	name="Anastasio" #Anastasio son of Paolo
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063465
+	1210.1.1={
+		birth=yes
+	}
+	1239.1.1={
+		death=yes
+	}
+}
+1063471 = {
+	name="Teodoro" # Teodoro, son of Anastatio. podesta of ravenna 1274. went into exile in constantinople.
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063470
+	1238.1.1={
+		birth=yes
+	}
+	1310.1.1={
+		death=yes
+	}
+}
+1063472 = {
+	name="Giovanni" #Giovani, son of Teodoro. went into exile together with his father.
+	dynasty=101851
+	religion="catholic"
+	culture="italian"
+	father=1063471
+	1265.1.1={
+		birth=yes
+	}
+	1350.1.1={
+		death=yes
+	}
+}
+
+######################################################################################################
+#Onesti/Duechi, Geremei e da Polenta
+######################################################################################################
+#Patricians of Ravenna, Cesena e Forli. Decended from the Friuli/Benevento branch of the Gausi. Related to the Sassi(the Sessi/Sesso of Reggio?), Alidosi(slightly hazy, but possily through an unnamed brother of St. Romualdo or the husband of his sister) and Cavalconti(the counts of Bertinoro, not the italian ones) families(possibly also the da Polenta and Geremei but its a bit hazy how with both of them). signori di Castel Leone(near Cervia). Duca degli onestsi( Re the duca title it was more specifically their family castle between forli an cesena from where they claimed the title at first(so basically duke of the family). Like with the Traversari "duca" was maninly origanlly used by the head of the family/faction leader, around the late 10th century it became a label for the current leader of the Scola de' Pescatori/Casa Matha(the guild of Ravenna's nobles, this didn't per se makes them actual dukes of ravenna in HRE terms though, power was shared with the archbishop(who was nominally in charge) and from the late 12th century both nobles and archbishop became feudal subjects of the counts of romagna). their arms was a red lion on silver who held a golden pinenut. sometimes depicted with just the lionhead and the pinenut dangling from its mouth.
+#1063001- 1063099
+1063001 = {
+	name="Romualdo" # Romoaldo (III) duca(of Ravenna or Romagna?), son of Luitprando(attested 759) duca di Benevento.
+	dynasty=1000020115 # Gausi
+	religion="catholic"
+	culture="italian"
+	755.1.1={
+		birth=yes
+	}
+	833.1.1={
+		death=yes
+	}
+}
+1063002 = {
+	name="Gisolfo" # Gisolfo III, attested 855. son of Romoaldo
+	dynasty=1000020115 # Gausi
+	religion="catholic"
+	culture="italian"
+	father=1063001
+	820.1.1={
+		birth=yes
+	}
+	865.1.1={
+		death=yes
+	}
+}
+1063003 = {
+	name="Sergio" # Sergio duca, son of Romoaldo. attested 834(in ravenna).
+	dynasty=1000020115 # Gausi
+	religion="catholic"
+	culture="italian"
+	father=1063001
+	800.1.1={
+		birth=yes
+	}
+	845.1.1={
+		death=yes
+	}
+}
+1063004 = {
+	name="Gregorio" # Gregorio duca, son of Romoaldo. attested 834(in ravenna).
+	dynasty=1000020115 # Gausi
+	religion="catholic"
+	culture="italian"
+	father=1063001
+	815.1.1={
+		birth=yes
+	}
+	866.1.1={
+		death=yes
+	}
+}
+1063005 = {
+	name="Martino" # Martino duca, son of Gregorio. attested 889. Marrited Englarata daughter of conte Apaldo.
+	dynasty=1000020115 # Gausi
+	religion="catholic"
+	culture="italian"
+	father=1063004
+	840.1.1={
+		birth=yes
+	}
+	910.1.1={
+		death=yes
+	}
+}
+1063006 = {
+	name="Pietro" # Pietro, son of Martino. attested 897 and 903. Duca di Romagna.
+	dynasty=1000020115 # Gausi
+	religion="catholic"
+	culture="italian"
+	father=1063005
+	860.1.1={
+		birth=yes
+	}
+	904.1.1={
+		death=yes
+	}
+}
+1063007 = {
+	name="Englarata" # Englarata, daughter of Martino attested 909, 925 and 927. married Teudegrimo/Tigrino di Guidi conte di Modigliana.
+	dynasty=1000020115 # Gausi
+	religion="catholic"
+	culture="italian"
+	father=1063005
+	female=yes
+	891.1.1={
+		birth=yes
+	}
+	945.1.1={
+		death=yes
+	}
+}
+1063008 = {
+	name="Sergio" # Sergio duca, son of Gregorio.
+	dynasty=1000020115 # Gausi
+	religion="catholic"
+	culture="italian"
+	father=1063004
+	850.1.1={
+		birth=yes
+	}
+	901.1.1={
+		death=yes
+	}
+}
+
+# House of Onesti
+1063009 = {
+	name="Onesto" # Giovanni Onesto I duca. son of Gregorio. married Rodalinda(a duchess but Im not sure of what). attested 860. founder of the dynasty.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063004
+	858.1.1={
+		birth=yes
+	}
+	936.1.1={
+		death=yes
+	}
+}
+1063010 = {
+	name="Eleuterio" # Eleuterio duca, son of Giovanni Onesto. attested 955.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063009
+	900.1.1={
+		birth=yes
+	}
+	957.1.1={
+		death=yes
+	}
+}
+1063011 = {
+	name="Sergio" # Sergio duca, son of Giovanni Onesto, consul of Ravenna. married Traversara Traversari attested 964(consul) and 971.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063009
+	925.1.1={
+		birth=yes
+	}
+	951.1.1={
+		add_spouse = 1063446
+	}		
+	972.1.1={
+		death=yes
+	}
+}
+1063012 = {
+	name="Hala" # Hala/Ala, daughter of Sergio.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063011
+	mother=1063446
+	female=yes
+	952.1.1={
+		birth=yes
+	}
+	999.1.1={
+		death=yes
+	}
+}
+1063013 = {
+	name="Romualdo" # Romualdo di Camaldoli, son of Sergio and Traversara. Became a benedictine abbot and was made a saint. attested 975 and 1001, died the 19 of january 1027
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063011
+	mother=1063446
+	958.1.1={
+		birth=yes
+	}
+	980.1.1={
+		add_trait="celibate"
+		add_trait=devoted		
+	}	
+	1027.1.19={
+		add_trait = "saint"
+		give_nickname = nick_the_saint
+		death=yes
+	}
+}
+1063014 = {
+	name="Onesto" # Onesto II, son of Giovanni. attested 937
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063009
+	890.1.1={
+		birth=yes
+	}
+	954.1.1={
+		death=yes
+	}
+}
+1063015 = {
+	name="Giovanni" # Giovanni III, son of Onesto II. attested 953. married Anna.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063014
+	920.1.1={
+		birth=yes
+	}
+	968.1.1={
+		death=yes
+	}
+}
+1063016 = {
+	name="Martino" # Martino duca, son of Onesto II. attested 971 
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063014
+	933.1.1={
+		birth=yes
+	}
+	972.1.1={
+		death=yes
+	}
+}
+1063017 = {
+	name="Sergio" # Sergio, son of Onesto II, attested 977 and 979.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063014
+	945.1.1={
+		birth=yes
+	}
+	986.1.1={
+		death=yes
+	}
+}
+1063018 = {
+	name="Pietro" # Pietro duca, son of Onesto II, attested 972.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063014
+	928.1.1={
+		birth=yes
+	}
+	973.1.1={
+		death=yes
+	}
+}
+1063019 = {
+	name="Agapito" # Agapito, son of Pietro. Supposedly the father or grandfather of Ugo di Bertinoro(Lamberto di Bertinoro could be his son maybe?).
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063018
+	943.1.1={
+		birth=yes
+	}
+	974.1.1={
+		death=yes
+	}
+}
+#
+1063020 = {
+	name="Giovanni" # Giovanni duca, son of Giovanni III. attested 963. married Marocia.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063015
+	936.1.1={
+		birth=yes
+	}
+	965.1.1={
+		death=yes
+	}
+}
+1063021 = {
+	name="Almerico" # Almerico, son of Giovanni. attested 963 married Guillia.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063015
+	937.1.1={
+		birth=yes
+	}
+	964.1.1={
+		death=yes
+	}
+}
+1063022 = {
+	name="Onesto" # Onesto III, son of Giovanni III consul of Ravenna. attested 973. married Maria.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063015
+	952.1.1={
+		birth=yes
+	}
+	1033.1.1={
+		death=yes
+	}
+}
+#
+1063023 = {
+	name="Almerico" # Alberico, son of Onesto III. attested 1037
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063022
+	1005.1.1={
+		birth=yes
+	}
+	1069.1.1={
+		death=yes
+	}
+}
+1063024 = {
+	name="Pietro" # Pietro duca, son of Alberico married Leucadida. attested 1096.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063023
+	1045.1.1={
+		birth=yes
+	}
+	1110.1.1={
+		death=yes
+	}
+}
+1063025 = {
+	name="Alberico" # Almerico/Alberico, son of Pietro. attested 23. august 1133 together with his brother Pietro
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063024
+	1097.1.1={
+		birth=yes
+	}
+	1143.1.1={
+		death=yes
+	}
+}
+1063026 = {
+	name="Pietro" # Pietro duca, son of Pietro, attested 23 og august 1133 and attested 23 of January 1159. married Ligarda.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063024
+	1095.1.1={
+		birth=yes
+	}
+	1160.1.1={
+		death=yes
+	}
+}
+1063027 = {
+	name="Saraceno" # Saraceno, son of Alberico. attested 1153 and 1182. married Guillia.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063026
+	1127.1.1={
+		birth=yes
+	}
+	1183.1.1={
+		death=yes
+	}
+}
+1063028 = {
+	name="Agnes" # Agnes, daughter of Saraceno.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063027
+	female=yes
+	1150.1.1={
+		birth=yes
+	}
+	1199.1.1={
+		death=yes
+	}
+}
+#
+1063029 = {
+	name="Onesto" # Onesto IV, son of Onesto III, attested 1056. 
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063022
+	990.1.1={
+		birth=yes
+	}
+	1066.1.1={
+		death=yes
+	}
+}
+1063030 = {
+	name="Onesto" # Onesto, visconte, son of Onesto IV attested 1103. founded the Portunese branch.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063029
+	1035.1.1={
+		birth=yes
+	}
+	1116.1.1={
+		death=yes
+	}
+}
+1063031 = {
+	name="Pietro" # Pietro I, son of Onesto IV. duca delig onesti attested 1067, died the 29th of march 1119.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063029
+	1023.1.1={
+		birth=yes
+	}
+	1119.3.19={
+		death=yes
+	}
+}
+1063032 = {
+	name="Mathilde" # Mathilde degli onesti, daughter of Pietro?. married pietro Traversari. attested 1109
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063031# specualtive
+	female=yes
+	1040.1.1={
+		birth=yes
+	}
+	1115.1.1={
+		death=yes
+	}
+}
+1063033 = {
+	name="Onesto" # Onesto V, son of Pietro attested 1108, 1116, 1124 and 1136. captiano di Ravenna. married Sibillia.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063031
+	1080.1.1={
+		birth=yes
+	}
+	1137.1.1={
+		death=yes
+	}
+}
+## Bertinoro 2.0
+1063034 = {
+	name="Giovanni" # Giovanni duca, son of Onesto V duca. died 1158.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063033
+	1105.1.1={
+		birth=yes
+	}
+	1158.1.1={
+		death=yes
+	}
+}
+1063035 = {
+	name="Giovanni" # Giovanni, son of Giovanni. attested 1178. gained most of the fief of bertinoro after the cavalconti II.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063034
+	1135.1.1={
+		birth=yes
+	}
+	1190.1.1={
+		death=yes
+	}
+}
+1063036 = {
+	name="Guido" #Guido "duca", son of Johannis "duca", attested 1195 and 1218. died 1249, conte (di bertinoro?), featured in dante. podesta di Faenza e Rimini.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063034
+	1170.1.1={
+		birth=yes
+	}
+	1249.1.1={
+		death=yes
+	}
+}
+1063037 = {
+	name="Salomone" # Salomone, son of Guido. attested 1218. Possibly inherited Bertinoro.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063036
+	1195.1.1={
+		birth=yes
+	}
+	1257.1.1={
+		death=yes
+	}
+}
+#
+1063038 = {
+	name="Pietro" # Pietro II duca, son of Onesto V, capitano generale di Ravenna. attested 1135, 1136 and 1145.  Led a ravennaese army togther with Guglielmo(his brother in law) Traversari against the count of Cunio. married Sofia Traversari, the sister of Gugliemo Traversari. Tutor/Guardian of the infant Bertinoro counts.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063033
+	1103.1.1={
+		birth=yes
+	}
+	1119.1.1={
+		add_spouse = 1063456
+	}		
+	1179.1.1={
+		death=yes
+	}
+}
+1063039 = {
+	name="Berta" # Berta, daughter of Pietro II duca, married malatesta minore. attested 1184 and 1195.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063038
+	mother=1063456
+	female=yes
+	1160.1.1={
+		birth=yes
+	}
+	1257.1.1={
+		death=yes
+	}
+}
+1063040 = {
+	name="Alberico" # Alberico, son of Pietro II. attested 1180 married Imilia(a daughter of conte lamberto(castrocaro or Polenta?))
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063038
+	mother=1063456	
+	1155.1.1={
+		birth=yes
+	}
+	1171.1.1={
+		add_spouse = 1063125
+	}		
+	1215.1.1={
+		death=yes
+	}
+}
+1063041 = {
+	name="Saraceno" # Saraceno, son of Alberico. attested 1223
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063040
+	mother=1063125
+	1180.1.1={
+		birth=yes
+	}
+	1223.1.1={
+		death=yes
+	}
+}
+1063042 = {
+	name="Alberico" # Alberico, son of Saraceno. attested 1224 and 1258.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063041
+	1201.1.1={
+		birth=yes
+	}
+	1259.1.1={
+		death=yes
+	}
+}
+#
+1063043 = {
+	name="Rivaldino" # Ravaldino I, son of Pietro II. attested 1180 and 1223.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063038
+	mother=1063456	
+	1151.1.1={
+		birth=yes
+	}
+	1223.1.1={
+		death=yes
+	}
+}
+1063044 = {
+	name="Raineri" # Ranieri, son of Ravaldino I. attested 1223 and 1258.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063043
+	1187.1.1={
+		birth=yes
+	}
+	1258.1.1={
+		death=yes
+	}
+}
+1063045 = {
+	name="Rivaldino" # Rivaldino II, son of Ranieri. attested 1297
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063044
+	1224.1.1={
+		birth=yes
+	}
+	1298.1.1={
+		death=yes
+	}
+}
+1063046 = {
+	name="Rivaldino" # Rivaldino III, son of Rivaldino II. attested 1297 and 1338.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063045
+	1258.1.1={
+		birth=yes
+	}
+	1338.1.1={
+		death=yes
+	}
+}
+1063047 = {
+	name="Raineri" # Ranieri, son of Rivaldino II.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063045
+	1285.1.1={
+		birth=yes
+	}
+	1325.1.1={
+		death=yes
+	}
+}
+1063048 = {
+	name="Emma" # Emma, daughter of Ranieri. married Filippo Ordelaffi.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063046
+	female=yes
+	1285.1.1={
+		birth=yes
+	}
+	1355.1.1={
+		death=yes
+	}
+}
+1063049 = {
+	name="Michele" # Michele, son of Rivaldino III. attested 1365
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063046
+	1315.1.1={
+		birth=yes
+	}
+	1379.1.1={
+		death=yes
+	}
+}
+1063050 = {
+	name="Nanne" # Nanne, son of Michele. attested 1400.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063049
+	1350.1.1={
+		birth=yes
+	}
+	1410.1.1={
+		death=yes
+	}
+}
+1063051 = {
+	name="Ondedeo" # Ondedeo, son of Rivaldino III. 
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063046
+	1320.1.1={
+		birth=yes
+	}
+	1350.1.1={
+		death=yes
+	}
+}
+1063052 = {
+	name="Mainardo" # Mainardo, son of Rivaldino III. attested 1365
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063046
+	1314.1.1={
+		birth=yes
+	}
+	1376.1.1={
+		death=yes
+	}
+}
+1063053 = {
+	name="Ridolfo" # Ridolfo I son of Rivaldino III. married Lucia. Its from him the later Onesti counts decent.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063046
+	1300.1.1={
+		birth=yes
+	}
+	1364.1.1={
+		death=yes
+	}
+}
+#
+1063054 = {
+	name="Onesto" # Onesto VI, son of Pietro II. attested 1162. married Chiara.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063038
+	mother=1063456	
+	1145.1.1={
+		birth=yes
+	}
+	1199.1.1={
+		death=yes
+	}
+}
+1063055 = {
+	name="Saladino" # Saladino I, aka "il Grande con tosca". oldest son of Onesto VI.attested 1220, 1230, 1236, 1250 and 1263.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063054
+	1180.1.1={
+		birth=yes
+	}
+	1263.1.1={
+		death=yes
+	}
+}
+#
+1063056 = {
+	name="Giovanni" # Giovanni, son of Saladino I, married Orabile Sasso(Sessi?)/casa Argoliosi
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063055
+	1210.1.1={
+		birth=yes
+	}
+	1249.1.1={
+		death=yes
+	}
+}
+1063057 = {
+	name="Giovanni" # Giovanni duca, son of Giovanni. married Leonarda. attested 1250, 1256, 1257
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063056
+	1232.1.1={
+		birth=yes
+	}
+	1305.1.1={
+		death=yes
+	}
+}
+1063058 = {
+	name="Orabile" # Orabile, daughter of Giovanni and Leonarda. attested 1341. married Carato Argolosio.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063057
+	female=yes
+	1285.1.1={
+		birth=yes
+	}
+	1342.1.1={
+		death=yes
+	}
+}
+#
+1063059 = {
+	name="Saraceno" #Saraceno II, son of Saladino. attested 1263, 1265 and the 15th of january 1289(won a ruling) 
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063055
+	1233.1.1={
+		birth=yes
+	}
+	1290.1.1={
+		death=yes
+	}
+}
+1063060 = {
+	name="Chiara" #Chiara, daughter of Saladino I. Married Giacomo Bernardi the Podesta of Ravenna 1251.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063055
+	female=yes
+	1231.1.1={
+		birth=yes
+	}
+	1280.1.1={
+		death=yes
+	}
+}
+1063061 = {
+	name="Onesto" #Onesto VII, son of Saladino I. attested 1248 and 1277. Ruler of Cesena and podesta of Faenza.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063055
+	1200.1.1={
+		birth=yes
+	}
+	1278.1.1={
+		death=yes
+	}
+}
+#Onestina, daughter of Onesto VII. attested 3rd of april 1287.  see further down
+1063063 = {
+	name="Giovanni Fantino" #Gioanni/Giovanni Fantino duca, son of Onesto VII. duca degli onesti. attested 1295, 25th of june 1296 and 9th of december 1296, 1327. Married Madalena.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063061
+	1252.1.1={
+		birth=yes
+	}
+	1327.1.1={
+		death=yes
+	}
+}
+#
+1063064 = {
+	name="Vicenzo" #Vicenzo, son of Onesto VII, attested 1228?, 1268, 1275, 1279. married Alogna(seemingly a daughter of Marchese Obizzo II Malaspina).
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063061
+	1213.1.1={
+		birth=yes
+	}
+	1285.1.1={
+		death=yes
+	}
+}
+1063065 = {
+	name="Onestino" #Onestino, son of Vicenzo. attested 1291 and 1295. married Catalinna Agutelli
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063064
+	1250.1.1={
+		birth=yes
+	}
+	1320.1.1={
+		death=yes
+	}
+}
+1063066 = {
+	name="Bartolino" #Bartolino/Bartolomeo, son of Vicenzo. attested 1286, 1291,1295 and 1296.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063064
+	1245.1.1={
+		birth=yes
+	}
+	1297.1.1={
+		death=yes
+	}
+}
+1063067 = {
+	name="Valarano" #Valarano, son of Vicenzo. attested 1286, 1291 and 1295.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063064
+	1247.1.1={
+		birth=yes
+	}
+	1296.1.1={
+		death=yes
+	}
+}
+1063068 = {
+	name="Saladino" #Saladino II son of Vicenzo. attested 1286,1291, 1295, 1296, 22. september 1298 and 1306. married Gioanna, daughter of Ranieri della Fagiola.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063064
+	1239.1.1={
+		birth=yes
+	}
+	1307.1.1={
+		death=yes
+	}
+}
+1063069 = {
+	name="Chiara" #Altaclara/ Alta Chiara, daughter of Saladino II. attested 1307. married Rinaldo conte di Carpenga.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063068
+	female=yes
+	1283.1.1={
+		birth=yes
+	}
+	1345.1.1={
+		death=yes
+	}
+}
+1063070 = {
+	name="Agnese" #Agense daughter of Saladino, attested 1298 and 4th of october 1332
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063068
+	female=yes
+	1275.1.1={
+		birth=yes
+	}
+	1335.1.1={
+		death=yes
+	}
+}
+1063071 = {
+	name="Catalina" #Catalina, daughter of Saladino II. attested 1323.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063068
+	female=yes
+	1264.1.1={
+		birth=yes
+	}
+	1330.1.1={
+		death=yes
+	}
+}
+###Bolonga branch, bit uncertain relation to the rest.
+#Onesta, mother of Pietro. Same as Onestina daughter of Onesto? No husband recorded by name, but I would put my money on him being of the Geremei dynasty given how closly allied the two families became during the next generations.
+1063062 = {
+	name="Onestina" #Onestina, daughter of Onesto VII. attested 3rd of april 1287. 
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063061
+	female=yes
+	1219.1.1={
+		birth=yes
+	}
+	1288.1.1={
+		death=yes
+	}
+}
+1063072 = {
+	name="Pietro" #Pietro. son of Onesta.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	mother=1063062 # specualtive.
+	1234.1.1={
+		birth=yes
+	}
+	1269.1.1={
+		death=yes
+	}
+}
+1063073 = {
+	name="Pellegrino" #Pellegrino, son of Pietro. died 1286.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063072
+	1255.1.1={
+		birth=yes
+	}
+	1286.1.1={
+		death=yes
+	}
+}
+1063074 = {
+	name="Guglielmo" #Guglielmo, son of Pietro
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063072
+	1253.1.1={
+		birth=yes
+	}
+	1296.1.1={
+		death=yes
+	}
+}
+1063075 = {
+	name="Bonacosa" #Bonacosa, son of Pietro. married Albachara.
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063072
+	1250.1.1={
+		birth=yes
+	}
+	1286.1.1={
+		death=yes
+	}
+}
+1063076 = {
+	name="Giuliana" #Giuliana, daughter of Bonacosa
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063075
+	1268.1.1={
+		birth=yes
+	}
+	1312.1.1={
+		death=yes
+	}
+}
+1063077 = {
+	name="Pietro" #Pietro, son of Bonacaosa
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063075
+	1270.1.1={
+		birth=yes
+	}
+	1339.1.1={
+		death=yes
+	}
+}
+1063078 = {
+	name="Onesto" #Onesto, son of Bonacosa. attested 1271. author and poet. died between 1301 and 1303. feautred in Dante
+	dynasty_house = house_Onesti
+	religion="catholic"
+	culture="italian"
+	father=1063075
+	1266.1.1={
+		birth=yes
+	}
+	1302.1.1={
+		death=yes
+	}
+}

@@ -1,4 +1,4 @@
-pay_homage_to_caliph_travel_planner_exit = {
+﻿pay_homage_to_caliph_travel_planner_exit = {
 	effect = {
 		send_interface_toast = {
 			title = pay_homage_costs_refunded

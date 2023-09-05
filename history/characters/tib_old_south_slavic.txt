@@ -1,4 +1,4 @@
-southslavchief001 = {
+﻿southslavchief001 = {
     name = "Boril"
 	dynasty = house_sclaveni
 	martial = 3

@@ -202,15 +202,6 @@
 	958.1.2 = {
 		birth = "958.1.2"
 	}
-	992.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:20496
-		SUZERAIN = character:1716
-			}
-		}
-	}
 	998.1.1 = {
 		death = "998.1.1"
 	}
@@ -1411,9 +1402,9 @@
 	1275.1.1 = {
 		birth = "1275.1.1"
 	}
-	1300.1.1 = {
-		add_spouse = 182019 #Constanza Morosini
-	}
+	#1300.1.1 = {
+	#	add_spouse = 182019 #Constanza Morosini
+	#}
 	1326.1.1 = {
 		death = "1326.1.1"
 	}
@@ -2072,7 +2063,7 @@
 		}
 		spawn_army = {
 			name = event_troop_default_name
-			levies = 400‬
+			levies = 400
 			location = province:3643
 			origin = province:2325
 			inheritable = no
@@ -2753,13 +2744,6 @@ hrelja = {
 	trait = zealous
 	885.1.1 = {
 		birth = yes
-		effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:262700
-		SUZERAIN = character:167875
-		}
-	}
 	}
 	946.1.1 = {
 		death = yes

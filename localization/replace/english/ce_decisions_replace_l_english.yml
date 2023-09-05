@@ -1,0 +1,17 @@
+﻿l_english:
+
+  #FORM PORTUGAL
+  form_portugal_decision:0 "Form Portugal"
+  form_portugal_decision_desc:0 "It is time for the people of Portucale to have a realm of their own on the Iberian Peninsula. I can form the Kingdom of Portugal and establish our own unique culture. In doing so, we shall lay claim to the rich Iberian coast and begin our journey to glory."
+  portguese_convert_list:3 "Every [THIS.Char.GetCulture.GetHeritage.GetNameNoTooltip] [heritage|E] subject in [THIS.Char.GetUINamePossessive] Portuguese realm"
+  portguese_convert_list_court:1 "Every [THIS.Char.GetCulture.GetName] [courtier|E]"
+  portugese_convert_iberian_counties:2 "Every [THIS.Char.GetCulture.GetHeritage.GetNameNoTooltip] [heritage|E] county in the Kingdom of Portugal"
+  portugese_convert_non_iberian_counties:0 "Every other county in the Kingdom of Portugal"
+  form_portugal_decision_confirm:0 "Form Portugal"
+  form_portugal_decision_tooltip:0 "Form the [kingdom|E] of Portugal and establish the Portuguese [culture|E]"
+  form_portugal_decision_effects_de_jure_tt:1 "[title_d_porto.GetNameNoTier], [title_d_coimbra.GetNameNoTier], [title_d_beja.GetNameNoTier], and [title_d_algarve.GetNameNoTier] become [de_jure|E] part of the #V [title_k_portugal.GetName]#! "
+
+  #Unify Italy
+  unify_italian_empire_decision:0 "Unify Italia"
+  unify_italian_empire_decision_confirm:0 "Italy will be the seat of Imperial power once more!"
+  unify_italian_empire_decision_desc:0 "Italia was once the the great seat of power in the Mediterranean. If the squabbling city-states and barbarous realms of Italia are brought once again under Imperial rule, the entire peninsula will regain its dignity and power not seen since the fall of the empire in the west."

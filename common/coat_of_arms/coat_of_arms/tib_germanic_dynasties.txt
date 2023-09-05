@@ -309,6 +309,25 @@ house_ardonusing = {
 	}
 }
 
+# Franconian
+# Salian
+house_salian ={
+	pattern="pattern__solid_designer.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=white
+		color2=white
+		color3=red
+		texture="ce_eagle_small.dds"
+		instance={
+			position={ 0.500000 0.450000 }
+		}
+	}
+
+}
+
 # Saxon
 #226={ # Askanien / Ascania
 	#pattern="pattern_solid.dds"

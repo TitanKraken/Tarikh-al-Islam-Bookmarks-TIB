@@ -35,17 +35,6 @@ tib_islamic_dynastic_elective = { # Islamic Dynastic Monarchial Elective.
 		}
 		add = {
 			type = holder_direct_vassals
-			trigger_if = { # Must be true priests
-				limit = { 
-					has_government = theocracy_government 
-					liege = scope:holder
-				}
-				trigger_if = {
-					limit = { is_female = yes }
-					faith_dominant_gender_female_or_equal = yes
-				}
-				trigger_else = { faith_dominant_gender_male_or_equal = yes }
-			}
 		}
 	}
 	elector_vote_strength = { # More emphasis is put into restricting the successors within the dynastic house of the ruling family.
@@ -94,8 +83,8 @@ tib_islamic_dynastic_elective = { # Islamic Dynastic Monarchial Elective.
 			desc = tooltip_pious_vote_strength
 			add = 2
 			OR = {
-				has_government_flag = government_is_islamic_flag
-				has_government_flag = government_is_theocracy_flag
+				government_has_flag = government_is_islamic_flag
+				government_has_flag = government_is_theocracy_flag
 				has_council_position = councillor_court_chaplain
 			}
 			faith = scope:holder.faith
@@ -106,8 +95,8 @@ tib_islamic_dynastic_elective = { # Islamic Dynastic Monarchial Elective.
 			desc = tooltip_pious_vote_strength
 			add = 2
 			root = {
-					learning >= 10
-					has_trait = zealous
+				learning >= 10
+				has_trait = zealous
 			}
 		}
 		modifier = { # Qurayshi Influence
@@ -262,7 +251,7 @@ tib_rashidun_elective = { # Rashidun Elective.
 			desc = tooltip_islamic_vote_strength_close_family
 			add = 7 # Gives the electors strong reasons why not to side the choice of the Holder.
 			NOT = { this = scope:holder }
-			scope:holder_candidate = {
+			scope:potential_candidate = {
 				is_close_family_of = scope:holder
 			}
 			#scope:holder_candidate = is_holder_close_or_extended_family
@@ -354,33 +343,18 @@ tib_rashidun_elective = { # Rashidun Elective.
 				this = scope:holder
 			}
 			modifier = { # Pious Leaders. (specific titles, held by rulers of the same faith as the current holder)
-				add = {
-					value = 75
-					if = { # Additional points if the individual has more virtuous traits and high piety level
-						limit = {
-							num_virtuous_traits = 2
-						}
-						value = 10
-						limit = {
-							num_virtuous_traits = 3
-						}
-						value = 15
-							limit = {
-							piety_level = 3
-						}
-						value = 10
-						limit = {
-							piety_level = 4
-						}
-						value = 15
-						limit = {
-							piety_level = 5
-						}
-						value = 20
-					}
-				}
-				faith = scope:holder.faith
-				num_virtuous_traits = 1
+				add = 10
+				num_virtuous_traits = 2
+			}
+			modifier = { # Pious Leaders. (specific titles, held by rulers of the same faith as the current holder)
+				add = 10
+				num_virtuous_traits = 3
+			}
+			modifier = { # Pious Leaders. (specific titles, held by rulers of the same faith as the current holder)
+				add = 15
+				piety_level = 3
+				piety_level = 4
+				piety_level = 5
 			}
 
 			modifier = { # Fallback Electors

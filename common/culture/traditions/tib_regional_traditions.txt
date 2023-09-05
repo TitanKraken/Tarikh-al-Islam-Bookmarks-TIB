@@ -40,12 +40,8 @@ tradition_corsairs = {
 		culture_can_raid_at_sea_even_if_feudal = yes
 		not_tribal_raiding_malus = yes
         #unlocks_tib_border_raid_casus_belli = yes
+		unlocks_border_raid_casus_belli = yes
 	}
-    effect = {
-        uninvolved_parameters = {
-            unlocks_border_raid_casus_belli = yes
-        }
-    }
 	character_modifier = {
 		knight_limit = 1
 		prowess = 2
@@ -63,8 +59,8 @@ tradition_corsairs = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_bellicose }
-						any_in_list = { list = traits this = flag:ethos_spiritual }
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+						culture_pillar:ethos_spiritual = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -111,10 +107,7 @@ tradition_corsairs = {
 		if = {
 			limit = {
 				NOT = {
-					any_in_list = { 
-						list = traits 
-						this = flag:ethos_bellicose 
-					}
+					culture_pillar:ethos_bellicose = { is_in_list = traits }
 				}
 			}
 			multiply = 0
@@ -141,7 +134,7 @@ tradition_mubarizuns = { # Better Mubarizuns
 			limit = {
 				OR = {
 					NOT = { exists = scope:replacing }
-					NOT = { scope:replacing = flag:tradition_warriors_of_the_dry }
+					NOT = { scope:replacing = culture_tradition:tradition_warriors_of_the_dry }
 				}
 			}
 			NOT = { has_cultural_tradition = tradition_warriors_of_the_dry } #To prevent stacking after hybridization
@@ -172,9 +165,9 @@ tradition_mubarizuns = { # Better Mubarizuns
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_bellicose }
-						any_in_list = { list = traits this = flag:ethos_stoic }
-						any_in_list = { list = traits this = flag:ethos_communal }
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+						culture_pillar:ethos_stoic = { is_in_list = traits }
+						culture_pillar:ethos_communal = { is_in_list = traits }
 					}
 				}
 				add = {

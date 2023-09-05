@@ -60,7 +60,7 @@ war = {
 	targeted_titles = {
 		d_greater_armenia d_vaspurakan d_mesopotamia c_bakriya c_mayyafariqin c_tall_basma c_apahunik c_vaspurakan
 	}
-	casus_belli = claim_cb
+	casus_belli = seljuk_armenia_cb
 	attackers = { 3040 }
 	defenders = { 1732 }
 	claimant = 3040

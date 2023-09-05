@@ -34,7 +34,7 @@
 }
 1228702 = {
 	name="Rifq" #Black Eunuch Commander who lived to around 80 years of age. Noted for leading policing campaigns in the 1020'ies in the Delta
-	dynasty=1000111000
+	#dynasty=1000111000
 	religion="ismaili"
 	culture="nubian"
 

@@ -1,0 +1,80 @@
+﻿saint_judicael = {
+	name = "Iudicael" # Saint Judicael
+	religion = "catholic"
+	culture = "breton"
+	dynasty_house = house_domnonea #Domnonea
+	father = 159641
+	trait = humble
+	trait = just
+	trait = diligent
+	trait = education_martial_3
+	trait = education_learning_4
+	587.1.1 = {
+		birth = yes
+	}
+	652.12.16 = {
+		death = yes
+	}
+}
+saint_winnoc = {
+	name = "Winnoc" #
+	religion = "catholic"
+	culture = "breton"
+	dynasty_house = house_domnonea #Domnonea
+	father = saint_judicael
+	trait = humble
+	trait = patient
+	trait = honest
+	trait = education_learning_4
+	640.1.1 = {
+		birth = yes
+	}
+	717.11.6 = {
+		death = yes
+	}
+}
+saint_judoc = {
+	name = "Iudoc"
+	religion = "catholic"
+	culture = "breton"
+	dynasty_house = house_domnonea #Domnonea
+	father = 159641
+	trait = humble
+	trait = education_learning_4
+	589.1.1 = {
+		birth = yes
+	}
+	654.1.1 = {
+		death = yes
+	}
+}
+haeloc_the_usurper = {
+	name = "Haeloc"
+	religion = "catholic"
+	culture = "breton"
+	dynasty_house = house_domnonea #Domnonea
+	father = 159641
+	trait = humble
+	trait = education_learning_4
+	590.1.1 = {
+		birth = yes
+	}
+	615.1.1 = {
+		death = yes
+	}
+}
+saint_guinien = {
+	name = "Guinien"
+	religion = "catholic"
+	culture = "breton"
+	dynasty_house = house_domnonea #Domnonea
+	father = 159641
+	trait = humble
+	trait = education_learning_3
+	593.1.1 = {
+		birth = yes
+	}
+	652.1.1 = {
+		death = yes
+	}
+}

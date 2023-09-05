@@ -113,7 +113,6 @@ tib_caliphal_authority = {
 		#flag = uses_crown_authority
 		#flag = vassal_internal_wars_banned
 		flag = vassal_refusal_is_treason
-		flag = can_designate_heirs
 		flag = allows_grand_jihad_cb
 		flag = full_zakat_authority
 		#flag = can_change_succession_laws

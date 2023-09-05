@@ -200,14 +200,14 @@
 	1231.1.1 = {
 		birth = yes
 	}
-	1246.1.1 = {
-		effect = {
-			create_betrothal = character:1227509
-		}
-	}
-	1264.1.1 = {
-		add_spouse = 1227509
-	}
+	#1246.1.1 = {
+	#	effect = {
+	#		create_betrothal = character:1227509
+	#	}
+	#}
+	#1264.1.1 = {
+	#	add_spouse = 1227509
+	#}
 	1302.1.1 = {
 		death = yes
 	}
@@ -284,7 +284,7 @@
 	culture = "sicilian"
 
 	father = 32547
-	mother = 1227509
+	#mother = 1227509
 
 	1265.1.1 = {
 		birth = yes
@@ -9000,13 +9000,6 @@ death=yes
 	father = 145201
 	840.1.1 = {
 		birth="840.1.1" 
-		effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:1167301
-		SUZERAIN = character:1700
-		}
-	}
 	}
 	878.1.1 = {
 		death="878.1.1"

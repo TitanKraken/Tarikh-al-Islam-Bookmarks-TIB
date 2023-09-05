@@ -1815,7 +1815,6 @@ c_sabzevar = {
 c_zirkuh = {
 	760.1.1 = {
 		holder = 188688 # Ruzaiq Tahirid
-		liege = d_herat
 	}
 	782.1.1 = {
 		holder = 188687 # Husayn
@@ -1834,8 +1833,8 @@ c_zirkuh = {
 	1058.1.1 = {
 		holder = tajik0001
 	}
-	1080.1.1 = {
-		liege = "d_sistan"
+	1066.1.1 = {
+		liege = k_khorasan
 	}
 	1080.1.1 = {
 		holder = 93138

@@ -175,24 +175,6 @@
 	1128.1.1 = {
 		birth = yes
 	}
-	1166.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:144568
-		SUZERAIN = character:216515
-			}
-		}
-	}
-	1186.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:144568
-		SUZERAIN = character:466517
-			}
-		}
-	}
 	1197.1.1 = {
 		death = "1197.1.1"
 	}
@@ -208,15 +190,6 @@
 	1138.1.1 = {
 		birth = yes
 	}
-	1204.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:144569
-		SUZERAIN = character:466517
-			}
-		}
-	}
 	1204.8.1 = {
 		death = "1204.8.1"
 	}
@@ -230,15 +203,6 @@
 	father = 144569
 	1171.1.1 = {
 		birth = yes
-	}
-	1220.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:144570
-		SUZERAIN = character:466515
-			}
-		}
 	}
 	1230.1.1 = {
 		death = "1230.1.1"
@@ -267,24 +231,6 @@
 	father = 144571
 	1210.1.1 = {
 		birth = yes
-	}
-	1220.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:144572
-		SUZERAIN = character:466519
-			}
-		}
-	}
-	1246.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:144572
-		SUZERAIN = character:478011
-			}
-		}
 	}
 	1266.1.1 = {
 		death = "1266.1.1"
@@ -410,15 +356,6 @@
 	1031.1.1 = {
 		birth = yes
 	}
-	1081.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_non_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:20734
-		SUZERAIN = character:3042
-			}
-		}
-	}
 	1096.1.1 = {
 		death = "1096.1.1"
 	}
@@ -471,7 +408,7 @@
 	}
 	1092.10.14 = {
 		death = {
-			death_reason = death_murder_unknown
+			death_reason = death_murder
 			killer = 1229906
 		}
 	}
@@ -984,15 +921,6 @@
 	1070.1.1 = {
 		birth = "1070.1.1"
 	}
-	1081.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_non_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:93024
-		SUZERAIN = character:3042
-			}
-		}
-	}	
 	1120.1.1 = {
 		death = "1120.1.1"
 	}
@@ -1175,15 +1103,6 @@ Kartid1 = {
 	1190.1.1 = {
 		birth = "1190.1.1"
 	}
-	1241.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:93153
-		SUZERAIN = character:478011
-			}
-		}
-	}
 	1245.1.1 = {
 		death = "1245.1.1"
 	}
@@ -1327,214 +1246,200 @@ Kartid1 = {
 	}
 }
 
-#93269 = {
-#	name = "Tagh_ad-Din"
-#	dynasty_house = house_nasirids
-#	religion = "ashari"
-#	culture = "persian"
-#	1010.1.1 = {
-#		birth = "1010.1.1"
-#	}
-#	1073.1.1 = {
-#		death = "1073.1.1"
-#	}
-#}
-#
-#
-#93270 = {
-#	name = "Baha_ud-Dawla_Tahir"
-#	dynasty_house = house_nasirids
-#	religion = "ashari"
-#	culture = "persian"
-#	father = 93269
-#	1030.1.1 = {
-#		birth = "1030.1.1"
-#	}
-#	1088.1.1 = {
-#		death = "1088.1.1"
-#	}
-#}
-#
-#
-#
-#93271 = {
-#	name = "Badr_ud-Dawla_Abul_Abbas"
-#	dynasty_house = house_nasirids
-#	religion = "ashari"
-#	culture = "persian"
-#	father = 93270
-#	1050.1.1 = {
-#		birth = "1050.1.1"
-#	}
-#	1090.1.1 = {
-#		death = "1090.1.1"
-#	}
-#}
-#
-#
-#
-#93272 = {
-#	name = "Baha_ud-Dawla_Khalaf"
-#	dynasty_house = house_nasirids
-#	religion = "ashari"
-#	culture = "persian"
-#	father = 93270
-#	1053.1.1 = {
-#		birth = "1053.1.1"
-#	}
-#	1103.1.1 = {
-#		death = "1103.1.1"
-#	}
-#}
-#
-#
-#93273 = {
-#	name = "Tagh_ad-Din"
-#	dynasty_house = house_nasirids
-#	religion = "ashari"
-#	culture = "persian"
-#	father = 93272
-#	1095.1.1 = {
-#		birth = "1095.1.1"
-#	}
-#	1164.1.1 = {
-#		death = "1164.1.1"
-#	}
-#}
-#
-#
-#93274 = {
-#	name = "Shams_ad-Din_Ahmad"
-#	dynasty_house = house_nasirids
-#	religion = "ashari"
-#	culture = "persian"
-#	father = 93273
-#	1120.1.1 = {
-#		birth = "1120.1.1"
-#	}
-#	1167.1.1 = {
-#		death = "1167.1.1"
-#	}
-#}
-#
-#
-#
-#93275 = {
-#	name = "Izz_ad-Din_Muhammad"
-#	dynasty_house = house_nasirids
-#	religion = "ashari"
-#	culture = "persian"
-#	father = 93274
-#	1140.1.1 = {
-#		birth = "1140.1.1"
-#	}
-#	1168.1.1 = {
-#		death = "1168.1.1"
-#	}
-#}
-#
-#
-#
-#93276 = {
-#	name = "Tagh_ad-Din"
-#	dynasty_house = house_nasirids
-#	religion = "ashari"
-#	culture = "persian"
-#	father = 93275
-#	1160.1.1 = {
-#		birth = "1160.1.1"
-#	}
-#	1215.1.1 = {
-#		death = "1215.1.1"
-#	}
-#}
-#
-#
-#
-#
-#93277 = {
-#	name = "Yamin_ad-Din_Bahram"
-#	dynasty_house = house_nasirids
-#	religion = "ashari"
-#	culture = "persian"
-#	father = 93276
-#	1180.1.1 = {
-#		birth = "1180.1.1"
-#	}
-#	1221.1.1 = {
-#		death = "1221.1.1"
-#	}
-#}
-#
-#93278 = {
-#	name = "Tagh_ad-Din"
-#	dynasty_house = house_nasirids
-#	religion = "ashari"
-#	culture = "persian"
-#	father = 93277
-#	1200.1.1 = {
-#		birth = "1200.1.1"
-#	}
-#	1226.1.1 = {
-#		death = "1226.1.1"
-#	}
-#}
-#
-#93279 = {
-#	name = "Shihab_ad-Din"
-#	dynasty_house = house_nasirids
-#	religion = "ashari"
-#	culture = "persian"
-#	father = 93277
-#	1201.1.1 = {
-#		birth = "1201.1.1"
-#	}
-#	1226.1.1 = {
-#		death = "1226.1.1"
-#	}
-#}
-#
-#93280 = {
-#	name = "Rukh_ad-Din"
-#	dynasty_house = house_nasirids
-#	religion = "ashari"
-#	culture = "persian"
-#	father = 93277
-#	1202.1.1 = {
-#		birth = "1202.1.1"
-#	}
-#	1226.1.1 = {
-#		death = "1226.1.1"
-#	}
-#}
-#
-#93281 = {
-#	name = "Ala_ad-Din"
-#	dynasty_house = house_nasirids
-#	religion = "ashari"
-#	culture = "persian"
-#	father = 93277
-#	1203.1.1 = {
-#		birth = "1203.1.1"
-#	}
-#	1226.1.1 = {
-#		death = "1226.1.1"
-#	}
-#}
-#
-#93282 = {
-#	name = "Nasir_ad-Din"
-#	dynasty_house = house_nasirids
-#	religion = "ashari"
-#	culture = "persian"
-#	father = 93277
-#	1204.1.1 = {
-#		birth = "1204.1.1"
-#	}
-#	1226.1.1 = {
-#		death = "1226.1.1"
-#	}
-#}
+93269 = {
+	name = "Tagh_ad-Din"
+	dynasty_house = house_nasirids
+	religion = "ashari"
+	culture = "persian"
+	1010.1.1 = {
+		birth = "1010.1.1"
+	}
+	1073.1.1 = {
+		death = "1073.1.1"
+	}
+}
+
+93270 = {
+	name = "Baha_ud-Dawla_Tahir"
+	dynasty_house = house_nasirids
+	religion = "ashari"
+	culture = "persian"
+	father = 93269
+	1030.1.1 = {
+		birth = "1030.1.1"
+	}
+	1088.1.1 = {
+		death = "1088.1.1"
+	}
+}
+
+93271 = {
+	name = "Badr_ud-Dawla_Abul_Abbas"
+	dynasty_house = house_nasirids
+	religion = "ashari"
+	culture = "persian"
+	father = 93270
+	1050.1.1 = {
+		birth = "1050.1.1"
+	}
+	1090.1.1 = {
+		death = "1090.1.1"
+	}
+}
+
+93272 = {
+	name = "Baha_ud-Dawla_Khalaf"
+	dynasty_house = house_nasirids
+	religion = "ashari"
+	culture = "persian"
+	father = 93270
+	1053.1.1 = {
+		birth = "1053.1.1"
+	}
+	1103.1.1 = {
+		death = "1103.1.1"
+	}
+}
+
+93273 = {
+	name = "Tagh_ad-Din"
+	dynasty_house = house_nasirids
+	religion = "ashari"
+	culture = "persian"
+	father = 93272
+	1095.1.1 = {
+		birth = "1095.1.1"
+	}
+	1164.1.1 = {
+		death = "1164.1.1"
+	}
+}
+
+93274 = {
+	name = "Shams_ad-Din_Ahmad"
+	dynasty_house = house_nasirids
+	religion = "ashari"
+	culture = "persian"
+	father = 93273
+	1120.1.1 = {
+		birth = "1120.1.1"
+	}
+	1167.1.1 = {
+		death = "1167.1.1"
+	}
+}
+
+93275 = {
+	name = "Izz_ad-Din_Muhammad"
+	dynasty_house = house_nasirids
+	religion = "ashari"
+	culture = "persian"
+	father = 93274
+	1140.1.1 = {
+		birth = "1140.1.1"
+	}
+	1168.1.1 = {
+		death = "1168.1.1"
+	}
+}
+
+93276 = {
+	name = "Tagh_ad-Din"
+	dynasty_house = house_nasirids
+	religion = "ashari"
+	culture = "persian"
+	father = 93275
+	1160.1.1 = {
+		birth = "1160.1.1"
+	}
+	1215.1.1 = {
+		death = "1215.1.1"
+	}
+}
+
+93277 = {
+	name = "Yamin_ad-Din_Bahram"
+	dynasty_house = house_nasirids
+	religion = "ashari"
+	culture = "persian"
+	father = 93276
+	1180.1.1 = {
+		birth = "1180.1.1"
+	}
+	1221.1.1 = {
+		death = "1221.1.1"
+	}
+}
+
+93278 = {
+	name = "Tagh_ad-Din"
+	dynasty_house = house_nasirids
+	religion = "ashari"
+	culture = "persian"
+	father = 93277
+	1200.1.1 = {
+		birth = "1200.1.1"
+	}
+	1226.1.1 = {
+		death = "1226.1.1"
+	}
+}
+
+93279 = {
+	name = "Shihab_ad-Din"
+	dynasty_house = house_nasirids
+	religion = "ashari"
+	culture = "persian"
+	father = 93277
+	1201.1.1 = {
+		birth = "1201.1.1"
+	}
+	1226.1.1 = {
+		death = "1226.1.1"
+	}
+}
+
+93280 = {
+	name = "Rukh_ad-Din"
+	dynasty_house = house_nasirids
+	religion = "ashari"
+	culture = "persian"
+	father = 93277
+	1202.1.1 = {
+		birth = "1202.1.1"
+	}
+	1226.1.1 = {
+		death = "1226.1.1"
+	}
+}
+
+93281 = {
+	name = "Ala_ad-Din"
+	dynasty_house = house_nasirids
+	religion = "ashari"
+	culture = "persian"
+	father = 93277
+	1203.1.1 = {
+		birth = "1203.1.1"
+	}
+	1226.1.1 = {
+		death = "1226.1.1"
+	}
+}
+
+93282 = {
+	name = "Nasir_ad-Din"
+	dynasty_house = house_nasirids
+	religion = "ashari"
+	culture = "persian"
+	father = 93277
+	1204.1.1 = {
+		birth = "1204.1.1"
+	}
+	1226.1.1 = {
+		death = "1226.1.1"
+	}
+}
 
 93284 = {
 	name = "Mas_ud"
@@ -1768,7 +1673,7 @@ Kartid1 = {
 	dynasty = 7340
 	religion = "ismaili"
 	culture = "persian"
-	trait = mystic_2
+	trait = lifestyle_mystic
 	trait = education_learning_3						 
 	1252.1.1 = {
 		birth = "1252.1.1"
@@ -1787,7 +1692,7 @@ Kartid1 = {
 	dynasty = 7341
 	religion = "ismaili"
 	culture = "persian"
-	trait = mystic_2
+	trait = lifestyle_mystic
 	trait = education_learning_4						 
 	1216.1.1 = {
 		birth = "1216.1.1"
@@ -1819,7 +1724,7 @@ Kartid1 = {
 	culture = "persian"
 	father = 93300
 	mother = 93302
-	trait = mystic_2
+	trait = lifestyle_mystic
 	trait = education_learning_3						 
 	1305.1.1 = {
 		birth = "1305.1.1"
@@ -2824,24 +2729,6 @@ Kartid1 = {
 	1116.1.1 = {
 		add_spouse = 232750
 	}
-	1124.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:232753
-		SUZERAIN = character:216517
-			}
-		}
-	}
-	1144.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:232753
-		SUZERAIN = character:216516
-			}
-		}
-	}	
 	1160.1.1 = {
 		death = "1160.1.1"
 	}
@@ -5102,14 +4989,14 @@ Kartid1 = {
 	trait=education_stewardship_3
 	885.1.1 = {
 		birth = yes
-		culture = "levantine" #Born in Baghdad
+		culture = "iraqi" # Born in Baghdad
 	}
-	936.4.1 = {
-		employer = 261006
-		
-	}
+	#936.4.1 = {
+	#	employer = 261006
+	#	
+	#}
 	940.7.20 = {
-	death = yes
+		death = yes
 	}
 }
 
@@ -5136,13 +5023,6 @@ Kartid1 = {
 	trait = "ambitious"
 	894.1.1 = {
 		birth = yes
-		effect = {
-		make_tributary = {
-		TYPE = tributary_non_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:261026
-		SUZERAIN = character:1230611
-		}
-	}
 	}
 	940.12.1 = {
 		death = {

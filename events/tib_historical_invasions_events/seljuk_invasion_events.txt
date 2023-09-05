@@ -1,0 +1,490 @@
+﻿# Upon winning initial war over Armenia, Seljuk Emperor gets event 0001
+# Upon losing initial war over Armenia, Byzantine Emperor gets event 0002
+# Upon declaring war for Asia Minor, Seljuk Emperor gets event 0003
+# Upon Seljuk Emperor's declaration for Asia Minor, Suleyman ibn Qutalmish gets event 0004
+# Upon Seljuk Emperor's declaration for Asia Minor, Byzantine Emperor gets event 0005
+# Upon Suleiman taking all of Rum, Seljuk Emperor gets event 0006
+# Upon Suleiman taking all of Rum, Suleiman gets event 0007
+
+namespace = seljuk_invasion_events
+
+# Winning first initial war with Seljuks
+seljuk_invasion_events.0001 = {
+	
+	title = seljuk_invasion_events.0001.title
+	desc = seljuk_invasion_events.0001.desc
+	theme = war
+	
+	# Left portrait is Byzantine Emperor, right portrait is Seljuk Emperor
+	left_portrait = {
+		character = title:e_byzantium.holder
+		animation = shame
+	}
+	
+	right_portrait = {
+		character = title:e_persia.holder
+		animation = war_over_win
+	}
+	
+	immediate = {
+		# Grant Seljuk Emperor CB to invade most of Asia Minor
+		custom_tooltip = seljuk_invasion_cb_gain_tooltip
+		hidden_effect = {
+			house = {
+				add_house_modifier = {
+					modifier = seljuk_invasion_modifier
+					years = 100
+				}
+			}
+		}
+	}
+	
+	# Soon, all Asia Minor will be ours!
+	option = {
+		name = seljuk_invasion_events.0001.a
+		
+		ai_chance = {
+			base = 100
+		}
+	}
+	
+}
+
+# Byzantine Emperor gets this event when Seljuks win first war
+seljuk_invasion_events.0002 = {
+	title = seljuk_invasion_events.0002.title
+	desc = seljuk_invasion_events.0002.desc
+	theme = war
+	
+	# Left portrait is Byzantine Emperor, right portrait is Seljuk Emperor
+	left_portrait = {
+		character = title:e_byzantium.holder
+		animation = shame
+	}
+	
+	right_portrait = {
+		character = title:e_persia.holder
+		animation = war_over_win
+	}
+	
+	immediate = {
+		# Grant Seljuk Emperor CB to invade most of Asia Minor
+		custom_tooltip = seljuk_invasion_cb_gain_tooltip
+	}
+	
+	# This is bad!
+	option = {
+		name = seljuk_invasion_events.0002.a
+		
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+
+# Seljuk Emperor declares war for Asia Minor, Suleiman ibn Qutulmish 'helps' if he's alive and landed (he should be)
+seljuk_invasion_events.0003 = {
+	# Suleiman must be alive
+	trigger = {
+		character:3046 = {
+			is_alive = yes
+			is_landed = yes
+		}
+	}
+
+	title = seljuk_invasion_events.0003.title
+	desc = seljuk_invasion_events.0003.desc
+	theme = war
+	
+	# Left portrait is Seljuk Emperor, right portrait is Suleiman
+	left_portrait = {
+		character = title:e_persia.holder
+		animation = dismissal
+	}
+	
+	right_portrait = {
+		character = character:3046 # Suleiman
+		animation = personality_bold
+	}
+	
+	immediate = {
+		# Suleiman joins war as attacker
+		custom_tooltip = seljuk_invasion_suleyman_join_tooltip
+		hidden_effect = {
+			# Go through Seljuk Emperor's wars
+			title:e_persia.holder = {
+				every_character_war = {
+					# If the war is against Byzantium, have Suleiman join that war
+					if = {
+						limit = {
+						primary_defender = title:e_byzantium.holder
+						}
+						add_attacker = character:3046
+						# spawn more troops for Suleyman too (10,000! Not historically accurate, just for balance between Seljuk and Rum)
+						character:3046 = {
+							spawn_army = {
+								name = event_troop_default_name
+								levies = 2000
+								men_at_arms = {
+									type = horse_archers
+									men = 500
+								}
+								location = scope:attacker.capital_province
+								origin = scope:attacker.capital_province
+								uses_supply = no
+							}
+							spawn_army = {
+								name = event_troop_default_name
+								levies = 2000
+								men_at_arms = {
+									type = horse_archers
+									men = 500
+								}
+								location = scope:attacker.capital_province
+								origin = scope:attacker.capital_province
+								uses_supply = no
+							}
+							spawn_army = {
+								name = event_troop_default_name
+								levies = 2000
+								men_at_arms = {
+									type = horse_archers
+									men = 500
+								}
+								location = scope:attacker.capital_province
+								origin = scope:attacker.capital_province
+								uses_supply = no
+							}
+							spawn_army = {
+								name = event_troop_default_name
+								levies = 2000
+								men_at_arms = {
+									type = horse_archers
+									men = 500
+								}
+								location = scope:attacker.capital_province
+								origin = scope:attacker.capital_province
+								uses_supply = no
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = seljuk_invasion_events.0003.a
+		
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+# Seljuk Emperor declares war for Asia Minor, Suleiman ibn Qutulmish 'helps' if he's alive (Suleiman's event)
+seljuk_invasion_events.0004 = {
+	trigger = {
+		character:3046 = {
+			is_alive = yes
+			is_landed = yes
+		}
+	}
+	
+	title = seljuk_invasion_events.0004.title
+	desc = seljuk_invasion_events.0004.desc
+	theme = war
+	
+	# Left portrait is Seljuk Emperor, right portrait is Suleiman
+	left_portrait = {
+		character = title:e_persia.holder
+		animation = dismissal
+	}
+	
+	right_portrait = {
+		character = character:3046
+		animation = personality_dishonorable
+	}
+	
+	immediate = {
+		# Suleiman joins war as attacker
+		custom_tooltip = seljuk_invasion_suleyman_join_tooltip
+	}
+	
+	option = {
+		name = seljuk_invasion_events.0004.a
+		
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+# Byzantine Emperor is notified of new Seljuk invasion of all of Asia Minor
+seljuk_invasion_events.0005 = {	
+	title = seljuk_invasion_events.0005.title
+	desc = seljuk_invasion_events.0005.desc
+	theme = war
+	
+	# Left portrait is Byzantine Emperor, right portrait is Seljuk Emperor
+	left_portrait = {
+		character = title:e_byzantium.holder
+		animation = fear
+	}
+	
+	right_portrait = {
+		character = title:e_persia.holder
+		animation = personality_bold
+	}
+	
+	option = {
+		name = seljuk_invasion_events.0005.a
+		
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+# Seljuk Emperor is notified of Suleiman's takeover of Rum
+seljuk_invasion_events.0006 = {
+	title = seljuk_invasion_events.0006.title
+	desc = seljuk_invasion_events.0006.desc
+	theme = war
+	
+	# Left portrait is Suleiman, right portrait is Seljuk Emperor
+	left_portrait = {
+		character = title:k_rum.holder
+		animation = personality_dishonorable
+	}
+	
+	right_portrait = {
+		character = title:e_persia.holder
+		animation = rage
+	}
+	
+	immediate = {
+		custom_tooltip = seljuk_invasion_suleyman_steal_tooltip
+	}
+	
+	option = {
+		name = seljuk_invasion_events.0006.a
+		
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+# Suleiman gets this event when he takes over Rum
+seljuk_invasion_events.0007 = {
+	title = seljuk_invasion_events.0007.title
+	desc = seljuk_invasion_events.0007.desc
+	theme = war
+	
+	# Left portrait is Suleiman, right portrait is Seljuk Emperor
+	left_portrait = {
+		character = title:k_rum.holder
+		animation = personality_dishonorable
+	}
+	
+	right_portrait = {
+		character = title:e_persia.holder
+		animation = rage
+	}
+	
+	immediate = {
+		custom_tooltip = seljuk_invasion_suleyman_steal_tooltip
+		show_as_tooltip = {
+			title:e_persia.holder = {
+				add_pressed_claim = title:k_rum
+			}
+		}
+	}
+	
+	option = {
+		name = seljuk_invasion_events.0007.a
+		
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+# Destroy Rum!
+seljuk_invasion_events.0008 = {
+	title = seljuk_invasion_events.0008.title
+	desc = seljuk_invasion_events.0008.desc
+	theme = realm
+	
+	# Left portrait is Suleiman, right portrait is Seljuk Emperor
+	left_portrait = {
+		character = title:e_byzantium.holder
+		animation = personality_zealous
+	}
+	
+	immediate = {
+		custom_tooltip = destroyed_rum_tooltip
+		# Just going to reuse the "Restore the HRE" effects for this too
+		play_music_cue = "mx_cue_epic_sacral_moment"
+		give_nickname = nick_the_great
+		add_prestige_experience = monumental_fame_gain
+		every_vassal = {
+			add_opinion = {
+				modifier = destroyed_rum_opinion
+				target = root
+			}
+			custom = restore_holy_roman_empire_decision_effects_vassal_opinion.tt
+		}
+	}
+	
+	option = {
+		name = seljuk_invasion_events.0008.a
+		
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+# An event that forces the AI to go to war with the Byzantines because it won't on its own
+# AI also needs a lot of buffs to do well...
+seljuk_invasion_events.1000 = {
+	title = seljuk_invasion_events.1000.title
+	desc = seljuk_invasion_events.1000.desc
+	theme = war
+	
+	left_portrait = {
+		character = title:e_byzantium.holder
+		animation = fear
+	}
+	
+	right_portrait = {
+		character = title:e_persia.holder
+		animation = personality_bold
+	}
+	
+	# + AI gets 7500 troops
+	immediate = {
+		title:e_persia.holder = {
+			cancel_truce_both_ways = title:e_byzantium.holder
+			# AI will also go HEAVILY into debt. Give some gold so that they can start the war
+			add_gold = 1500
+			start_war = {
+				casus_belli = seljuk_invasion_cb
+				target = title:e_byzantium.holder
+				
+				# Really crappy programming, don't know if there's a better way to do this...
+				# Counties from k_anatolia
+				target_title = title:c_cilicia
+				target_title = title:c_seleucia
+				target_title = title:c_lycandus
+				target_title = title:c_tall_hamid
+				target_title = title:c_lycia
+				target_title = title:c_caria
+				target_title = title:c_pamphylia
+				target_title = title:c_lycaonia
+				target_title = title:c_pacatiana
+				target_title = title:c_pisidia
+				target_title = title:c_selge
+				target_title = title:c_galatia_salutaris
+				target_title = title:c_philomelium
+				target_title = title:c_isauria
+				target_title = title:c_cappadocia
+				target_title = title:c_lower_galatia
+				# Counties from k_nikaea
+				target_title = title:c_mysia
+				target_title = title:c_prusa
+				target_title = title:c_phrygia
+				target_title = title:c_ionia
+				target_title = title:c_aeolis
+				target_title = title:c_lydia
+				target_title = title:c_thyatira
+				target_title = title:c_hadrianeia
+				target_title = title:c_chonae
+				# target_title = c_bithynia # Bithynia intentionally not included
+				# target_title = c_tarsos # Tarsos also intentionally excluded
+				target_title = title:c_honorias
+				target_title = title:c_galatia
+				target_title = title:c_hadrianopolis
+				# Counties from k_pontus
+				target_title = title:c_paphlagonia
+				target_title = title:c_pompeiopolis
+				target_title = title:c_helenopontus
+				target_title = title:c_sinope
+				target_title = title:c_euchaita
+				target_title = title:c_zela
+				target_title = title:c_sebasteia
+				target_title = title:c_azysia
+				target_title = title:c_ablastha
+				target_title = title:c_charsianon
+				target_title = title:c_kaisereia
+				target_title = title:c_kyzistra
+				target_title = title:c_cerasus
+				# target_title = c_trebizond # Trebizond intentionally not included
+				target_title = title:c_colonea
+				target_title = title:c_satala
+				
+				# Don't forget Antioch
+				target_title = title:c_antiocheia
+				target_title = title:c_alexandretta
+				
+				# And another bit of Syria because Byzantines often conquer this one
+				target_title = title:c_shayzar
+			}
+			spawn_army = {
+				name = event_troop_default_name
+				levies = 2000
+				men_at_arms = {
+					type = horse_archers
+					men = 500
+				}
+				location = province:4893
+				origin = scope:attacker.capital_province
+				uses_supply = no
+			}
+			spawn_army = {
+				name = event_troop_default_name
+				levies = 2000
+				men_at_arms = {
+					type = horse_archers
+					men = 500
+				}
+				location = province:4893
+				origin = scope:attacker.capital_province
+				uses_supply = no
+			}
+			spawn_army = {
+				name = event_troop_default_name
+				levies = 2000
+				men_at_arms = {
+					type = mangonel
+					men = 50
+				}
+				location = province:4893
+				origin = scope:attacker.capital_province
+				uses_supply = no
+			}
+			spawn_army = {
+				name = event_troop_default_name
+				levies = 2000
+				men_at_arms = {
+					type = mangonel
+					men = 50
+				}
+				location = province:4893
+				origin = scope:attacker.capital_province
+				uses_supply = no
+			}
+			
+		}
+	}
+	option = {
+		name = seljuk_invasion_events.1000.a
+		
+		ai_chance = {
+			base = 100
+		}
+	}
+}

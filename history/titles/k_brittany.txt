@@ -2,12 +2,11 @@ k_brittany = {
 
 	400.1.1 = {
 		holder = 159634 # Guitol Domnonea, fictional
-		liege = k_brittany
 	}
 	450.1.1 = {
 		holder = 159635 # Deroch, fictional
 	}
-	470.1.1 = {
+	460.1.1 = {
 		holder = 159636 # Riotham, fictional
 	}
 	495.1.1 = {
@@ -167,7 +166,7 @@ d_brittany = {
 		holder = 204511	#Geoffrey II
 	}
 	1186.8.19 = {
-		holder = 1166.1.1	#Constance again, Geoffrey II died and Arthur Ie too young
+		holder = 205740	#Constance again, Geoffrey II died and Arthur Ie too young
 	}
 	1196.1.1 = {
 		holder = 204505 #Arthur I
@@ -204,7 +203,6 @@ c_vannes = {
 
 	831.1.1 = {
 		holder = 159694	#Nomino�
-		liege = d_brittany
 	}
 	851.1.1 = {
 		holder = 159965	#Erispo�
@@ -212,6 +210,7 @@ c_vannes = {
 	#Unsure
 	865.1.1 = {
 		holder = 159695 # Pascweten of Vannes
+		liege = d_brittany
 	}
 	877.1.1 = {
 		holder = 50008 #Alain I, the Great
@@ -268,7 +267,7 @@ c_vannes = {
 		holder = 204511	#Geoffrey II
 	}
 	1186.8.19 = {
-		holder = 1166.1.1	#Constance again, Geoffrey II died and Arthur Ie too young
+		holder = 205740	#Constance again, Geoffrey II died and Arthur Ie too young
 	}
 	1196.1.1 = {
 		holder = 204505 #Arthur I
@@ -376,7 +375,7 @@ c_nantes = {
 		holder = 204511 #Geoffroy II Plantagen�t
 	}
 	1186.8.19 = {
-		liege = "d_brittany"
+		#liege = "d_brittany"
 		holder = 205740 #Constance de Penthierve
 	}
 	1194.1.1 = {
@@ -568,7 +567,7 @@ c_penthievre = {
 	450.1.1 = {
 		holder = 159635 # Deroch, fictional
 	}
-	470.1.1 = {
+	460.1.1 = {
 		holder = 159636 # Riotham, fictional
 	}
 	495.1.1 = {
@@ -676,7 +675,7 @@ c_rennes = {
 	450.1.1 = {
 		holder = 159635 # Deroch, fictional
 	}
-	470.1.1 = {
+	460.1.1 = {
 		holder = 159636 # Riotham, fictional
 	}
 	495.1.1 = {
@@ -718,7 +717,7 @@ c_rennes = {
 	876.1.1 = {
 		holder = 91246	# Judica�l
 	}
-	888.1.1 = {
+	890.1.1 = {
 		holder = 91247	#Berengar II of Neustria
 	}
 	#896.1.1 = {

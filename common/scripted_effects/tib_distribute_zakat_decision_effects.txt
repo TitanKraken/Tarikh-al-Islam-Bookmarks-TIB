@@ -118,7 +118,7 @@ asnaf_county_dev_massive_effect = {
 }
 
 asnaf_homeless_minor_effect = {
-    every_realm_county = {
+    every_sub_realm_county = {
         add_county_modifier = {
             modifier = asnaf_homeless_minor_modifier
             years = 1
@@ -126,7 +126,7 @@ asnaf_homeless_minor_effect = {
     }
 }
 asnaf_homeless_medium_effect = {
-    every_realm_county = {
+    every_sub_realm_county = {
         add_county_modifier = {
             modifier = asnaf_homeless_minor_modifier
             years = 3
@@ -134,7 +134,7 @@ asnaf_homeless_medium_effect = {
     }
 }
 asnaf_homeless_major_effect = {
-    every_realm_county = {
+    every_sub_realm_county = {
         add_county_modifier = {
             modifier = asnaf_homeless_major_modifier
             years = 3
@@ -142,7 +142,7 @@ asnaf_homeless_major_effect = {
     }
 }
 asnaf_homeless_massive_effect = {
-    every_realm_county = {
+    every_sub_realm_county = {
         add_county_modifier = {
             modifier = asnaf_homeless_major_modifier
             years = 5
@@ -161,7 +161,6 @@ asnaf_traveler_minor_effect = {
 }
 asnaf_traveler_medium_effect = {
     every_realm_province = {
-        list = all_muslims_provinces_in_root_realm_list
         add_province_modifier = {
 			modifier = asnaf_traveler_medium_modifier
 			years = 3
@@ -177,10 +176,8 @@ asnaf_traveler_major_effect = {
     }
     every_realm_county = {
         add_county_modifier = {
-            add_county_modifier = {
-                modifier = travel_safe_roads_modifier
-                years = 5
-            }
+            modifier = travel_safe_roads_modifier
+            years = 5
         }
     }
 }
@@ -188,27 +185,14 @@ asnaf_traveler_massive_effect = {
     every_realm_province = {
         add_province_modifier = {
 			modifier = asnaf_traveler_massive_modifier
-            modifier = 
 			years = 10
 		}
     }
     every_realm_county = {
         add_county_modifier = {
-            add_county_modifier = {
-                modifier = travel_safe_roads_modifier
-                years = 10
-            }
+            modifier = travel_safe_roads_modifier
+            years = 10
         }
-    }
-}
-
-
-asnaf_converts_minor_effect = {
-    every_in_list = {
-        list = non_muslims_county_in_root_realm_list
-        #add_county_modifier = {
-        #    modifier = 
-        #}
     }
 }
 
@@ -222,6 +206,12 @@ asnaf_fisabilillah_minor_effect = {
                 modifier = asnaf_fisabilillah_minor_modifier
                 years = 1
             }
+        }
+    }
+    root = {
+        add_character_modifier = {
+            modifier = asnaf_fisabilillah_minor_modifier
+            years = 1
         }
     }
     root.faith = {
@@ -243,6 +233,12 @@ asnaf_fisabilillah_medium_effect = {
             }
         }
     }
+    root = {
+        add_character_modifier = {
+            modifier = asnaf_fisabilillah_minor_modifier
+            years = 3
+        }
+    }
     root.faith = {
         change_fervor = {
             value = 15
@@ -262,6 +258,12 @@ asnaf_fisabilillah_major_effect = {
             }
         }
     }
+    root = {
+        add_character_modifier = {
+            modifier = asnaf_fisabilillah_major_modifier
+            years = 3
+        }
+    }
     root.faith = {
         change_fervor = {
             value = 20
@@ -279,6 +281,12 @@ asnaf_fisabilillah_massive_effect = {
                 modifier = asnaf_fisabilillah_massive_modifier
                 years = 5
             }
+        }
+    }
+    root = {
+        add_character_modifier = {
+            modifier = asnaf_fisabilillah_massive_modifier
+            years = 5
         }
     }
     root.faith = {

@@ -928,7 +928,7 @@ c_merida = {
 		government = clan_government
 	}
 	#788.9.29-817: Unknown Walihs of Badajoz
-	817.1.1 = {
+	788.9.29 = {
 		holder = 73955 # Yunus al-Yiliqi
 	}
 	820.1.1 = {
@@ -1216,7 +1216,7 @@ c_faro = {
 	}
 	1228.1.1 = {
 		holder = 73625 # Muhammad Hudid
-		liege = d_murcia
+		#liege = d_murcia
 	}
 	1238.1.1 = {
 		holder = 73632 # Su'ayb Mahfuzid
@@ -1318,7 +1318,7 @@ c_silves = {
 	}
 	1228.1.1 = {
 		holder = 73625 # Muhammad Hudid
-		liege = d_murcia
+		#liege = d_murcia
 	}
 	1238.1.1 = {
 		holder = 73632 # Su'ayb Mahfuzid

@@ -211,7 +211,7 @@ c_azukki = {
 
 
 c_amatlus = {
-	835.1.1 = {
+	860.1.1 = {
 		liege = d_adrar
 		holder = 273101 #Guddala
 		government = tribal_government
@@ -299,7 +299,7 @@ c_zammour = {
 	1132.1.1 = {
 		holder = tagelmust0009
 	}
-	1144.1.1 = {
+	1145.1.1 = {
 		liege = d_masmudi
 	}
 	1169.1.1 = {
@@ -307,7 +307,7 @@ c_zammour = {
 	}
 	1208.1.1 = {
 		holder = tagelmust0011
-		liege = k_anbiya
+		#liege = k_anbiya
 	}
 	#1233.1.1 = {
 		#holder = tagelmust0013
@@ -347,11 +347,11 @@ c_tindouf = {
 		holder = butr0008
 	}
 	1046.1.1 =  {
-		liege = k_maghreb
 		holder = butr0001
 	}
 	1064.1.1 = {
 		holder = butr0002
+		liege = k_maghreb
 	}
 	1097.1.1 = {
 		holder = butr0003
@@ -362,7 +362,7 @@ c_tindouf = {
 	1143.1.1 = {
 		holder = butr0005
 	}
-	1144.1.1 = {
+	1145.1.1 = {
 		liege = d_masmudi
 	}
 	1173.1.1 = {
@@ -464,7 +464,7 @@ d_touat = {
 c_touat = {
 	866.1.1 = {
 		government = tribal_government
-		holder = tagelmust0012
+		holder = tagelmust00012
 	}
 
 	1065.1.1 = {
@@ -501,7 +501,7 @@ c_tamentit = {
 	
 	866.1.1 = {
 		government = tribal_government
-		holder = tagelmust0012
+		holder = tagelmust00012
 	}
 
 	980.1.1 = {
@@ -596,7 +596,7 @@ c_taghaza = {
 	}
 	1051.6.6 = {
 		holder = 273119
-		liege = "k_maghreb"
+		#liege = "k_maghreb"
 	}
 	1066.1.1 = {
 		liege = d_taghaza
@@ -646,7 +646,7 @@ c_saoura = {
 	}
 	1051.6.6 = {
 		holder = 273119
-		liege = "k_maghreb"
+		#liege = "k_maghreb"
 	}
 	1066.1.1 = {
 		liege = "d_taghaza"

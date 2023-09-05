@@ -1,15 +1,5 @@
-namespace = tib_pay_zakat_decisions
+﻿namespace = tib_pay_zakat_decisions
 
-tib_pay_zakat_decisions.0101 = {
-	hidden = yes
-	immediate = {
-        faith_modifier = {
-            parameter = mandatory_zakat
-            monthly_piety_gain_mult = -0.05
-            same_faith_opinion = -5
-        }
-    }
-}
 tib_pay_zakat_decisions.0001 = {
 	type = character_event
     title = tib_pay_zakat_decisions.0001.t
@@ -207,10 +197,10 @@ tib_pay_zakat_decisions.0203 = { # Choose amount to embezzle
 		name = tib_pay_zakat_decisions.0203.a
         custom_tooltip = removed_minor_zakat_value.tt
         trigger = {
-            var:zakat_resource >= minor_gold_value
+            has_enough_zakat_funds_minor_trigger = yes
         }
         show_as_unavailable = {
-            var:zakat_resource < minor_gold_value
+            has_enough_zakat_funds_minor_trigger = no
         }
         change_variable = {
             name = zakat_resource
@@ -237,10 +227,10 @@ tib_pay_zakat_decisions.0203 = { # Choose amount to embezzle
 		name = tib_pay_zakat_decisions.0203.b
         custom_tooltip = removed_medium_zakat_value.tt
         trigger = {
-            var:zakat_resource >= medium_gold_value
+            has_enough_zakat_funds_medium_trigger = yes
         }
         show_as_unavailable = {
-            var:zakat_resource < medium_gold_value
+            has_enough_zakat_funds_medium_trigger = no
         }
         change_variable = {
             name = zakat_resource
@@ -267,10 +257,10 @@ tib_pay_zakat_decisions.0203 = { # Choose amount to embezzle
 		name = tib_pay_zakat_decisions.0203.c
         custom_tooltip = removed_major_zakat_value.tt
         trigger = {
-            var:zakat_resource >= major_gold_value
+            has_enough_zakat_funds_major_trigger = yes
         }
         show_as_unavailable = {
-            var:zakat_resource < major_gold_value
+            has_enough_zakat_funds_major_trigger = no
         }
         change_variable = {
             name = zakat_resource
@@ -297,10 +287,10 @@ tib_pay_zakat_decisions.0203 = { # Choose amount to embezzle
 		name = tib_pay_zakat_decisions.0203.d
         custom_tooltip = removed_massive_zakat_value.tt
         trigger = {
-            var:zakat_resource >= massive_gold_value
+            has_enough_zakat_funds_massive_trigger = yes
         }
         show_as_unavailable = {
-            var:zakat_resource < massive_gold_value
+            has_enough_zakat_funds_massive_trigger = no
         }
         change_variable = {
             name = zakat_resource
@@ -329,7 +319,7 @@ tib_pay_zakat_decisions.0203 = { # Choose amount to embezzle
         #trigger = {
         #    var:zakat_resource < massive_gold_value
         #}
-        add_gold = var:zakat_resource.value
+        add_gold = var:zakat_resource
         add_dread = {
             value = var:zakat_resource
             multiply = 0.1
@@ -350,7 +340,7 @@ tib_pay_zakat_decisions.0203 = { # Choose amount to embezzle
 			base = 50
             modifier = {
                 add = 60
-                var:zakat_resource = { value < massive_gold_value }
+                var:zakat_resource < massive_gold_value
             }
 		}
 	}
@@ -470,10 +460,10 @@ tib_pay_zakat_decisions.0210 = { # To the poor and needy
     option = { # Minor
 		name = tib_pay_zakat_decisions.0204.a
         trigger = {
-            var:zakat_resource >= minor_gold_value
+            has_enough_zakat_funds_minor_trigger = yes
         }
         show_as_unavailable = {
-            var:zakat_resource < minor_gold_value
+            has_enough_zakat_funds_minor_trigger = no
         }
         custom_tooltip = { 
             text = removed_minor_zakat_value.tt
@@ -522,10 +512,10 @@ tib_pay_zakat_decisions.0210 = { # To the poor and needy
     option = { # Major
 		name = tib_pay_zakat_decisions.0204.c
         trigger = {
-            var:zakat_resource >= major_gold_value
+            has_enough_zakat_funds_major_trigger = yes
         }
         show_as_unavailable = {
-            var:zakat_resource < major_gold_value
+            has_enough_zakat_funds_major_trigger = no
         }
         custom_tooltip = { 
             text = removed_major_zakat_value.tt
@@ -548,10 +538,10 @@ tib_pay_zakat_decisions.0210 = { # To the poor and needy
     option = { # Massive
 		name = tib_pay_zakat_decisions.0204.d
         trigger = {
-            var:zakat_resource >= massive_gold_value
+            has_enough_zakat_funds_massive_trigger = yes
         }
         show_as_unavailable = {
-            var:zakat_resource < massive_gold_value
+            has_enough_zakat_funds_massive_trigger = no
         }
         custom_tooltip = { 
             text = removed_massive_zakat_value.tt
@@ -596,10 +586,10 @@ tib_pay_zakat_decisions.0212 = { # To the travelers
     option = { # Minor
 		name = tib_pay_zakat_decisions.0204.a
         trigger = {
-            var:zakat_resource >= minor_gold_value
+            has_enough_zakat_funds_minor_trigger = yes
         }
         show_as_unavailable = {
-            var:zakat_resource < minor_gold_value
+            has_enough_zakat_funds_minor_trigger = no
         }
         custom_tooltip = { 
             text = removed_minor_zakat_value.tt
@@ -622,10 +612,10 @@ tib_pay_zakat_decisions.0212 = { # To the travelers
     option = { # Medium
 		name = tib_pay_zakat_decisions.0204.b
         trigger = {
-            var:zakat_resource >= medium_gold_value
+            has_enough_zakat_funds_medium_trigger = yes
         }
         show_as_unavailable = {
-            var:zakat_resource < medium_gold_value
+            has_enough_zakat_funds_medium_trigger = no
         }
         custom_tooltip = { 
             text = removed_medium_zakat_value.tt
@@ -648,10 +638,10 @@ tib_pay_zakat_decisions.0212 = { # To the travelers
     option = { # Major
 		name = tib_pay_zakat_decisions.0204.c
         trigger = {
-            var:zakat_resource >= major_gold_value
+            has_enough_zakat_funds_major_trigger = yes
         }
         show_as_unavailable = {
-            var:zakat_resource < major_gold_value
+            has_enough_zakat_funds_major_trigger = no
         }
         custom_tooltip = { 
             text = removed_major_zakat_value.tt
@@ -674,10 +664,10 @@ tib_pay_zakat_decisions.0212 = { # To the travelers
     option = { # Massive
 		name = tib_pay_zakat_decisions.0204.d
         trigger = {
-            var:zakat_resource >= massive_gold_value
+            has_enough_zakat_funds_massive_trigger = yes
         }
         show_as_unavailable = {
-            var:zakat_resource < massive_gold_value
+            has_enough_zakat_funds_massive_trigger = no
         }
         custom_tooltip = { 
             text = removed_massive_zakat_value.tt
@@ -722,10 +712,10 @@ tib_pay_zakat_decisions.0213 = { # Built homes for the homeless
     option = { # Minor
 		name = tib_pay_zakat_decisions.0204.a
         trigger = {
-            var:zakat_resource >= minor_gold_value
+            has_enough_zakat_funds_minor_trigger = yes
         }
         show_as_unavailable = {
-            var:zakat_resource < minor_gold_value
+            has_enough_zakat_funds_minor_trigger = no
         }
         custom_tooltip = { 
             text = removed_minor_zakat_value.tt
@@ -748,10 +738,10 @@ tib_pay_zakat_decisions.0213 = { # Built homes for the homeless
     option = { # Medium
 		name = tib_pay_zakat_decisions.0204.b
         trigger = {
-            var:zakat_resource >= medium_gold_value
+            has_enough_zakat_funds_medium_trigger = yes
         }
         show_as_unavailable = {
-            var:zakat_resource < medium_gold_value
+            has_enough_zakat_funds_medium_trigger = no
         }
         custom_tooltip = { 
             text = removed_medium_zakat_value.tt
@@ -774,10 +764,10 @@ tib_pay_zakat_decisions.0213 = { # Built homes for the homeless
     option = { # Major
 		name = tib_pay_zakat_decisions.0204.c
         trigger = {
-            var:zakat_resource >= major_gold_value
+            has_enough_zakat_funds_major_trigger = yes
         }
         show_as_unavailable = {
-            var:zakat_resource < major_gold_value
+            has_enough_zakat_funds_major_trigger = no
         }
         custom_tooltip = { 
             text = removed_major_zakat_value.tt
@@ -792,7 +782,7 @@ tib_pay_zakat_decisions.0213 = { # Built homes for the homeless
         custom_tooltip =  {
             text = will_asnaf_homeless_major_effect
             hidden_effect = {
-                asnaf_homeless_major_modifier = yes
+                asnaf_homeless_major_effect = yes
             }
         }
 
@@ -800,10 +790,10 @@ tib_pay_zakat_decisions.0213 = { # Built homes for the homeless
     option = { # Massive
 		name = tib_pay_zakat_decisions.0204.d
         trigger = {
-            var:zakat_resource >= massive_gold_value
+            has_enough_zakat_funds_massive_trigger = yes
         }
         show_as_unavailable = {
-            var:zakat_resource < massive_gold_value
+            has_enough_zakat_funds_massive_trigger = no
         }
         custom_tooltip = { 
             text = removed_massive_zakat_value.tt
@@ -849,10 +839,10 @@ tib_pay_zakat_decisions.0214 = { # Those in the Cause of Allah
     option = { # Minor
 		name = tib_pay_zakat_decisions.0204.a
         trigger = {
-            var:zakat_resource >= minor_gold_value
+            has_enough_zakat_funds_minor_trigger = yes
         }
         show_as_unavailable = {
-            var:zakat_resource < minor_gold_value
+            has_enough_zakat_funds_minor_trigger = no
         }
         custom_tooltip = { 
             text = removed_minor_zakat_value.tt
@@ -875,10 +865,10 @@ tib_pay_zakat_decisions.0214 = { # Those in the Cause of Allah
     option = { # Medium
 		name = tib_pay_zakat_decisions.0204.b
         trigger = {
-            var:zakat_resource >= medium_gold_value
+            has_enough_zakat_funds_medium_trigger = yes
         }
         show_as_unavailable = {
-            var:zakat_resource < medium_gold_value
+            has_enough_zakat_funds_medium_trigger = no
         }
         custom_tooltip = { 
             text = removed_medium_zakat_value.tt
@@ -901,10 +891,10 @@ tib_pay_zakat_decisions.0214 = { # Those in the Cause of Allah
     option = { # Major
 		name = tib_pay_zakat_decisions.0204.c
         trigger = {
-            var:zakat_resource >= major_gold_value
+            has_enough_zakat_funds_major_trigger = yes
         }
         show_as_unavailable = {
-            var:zakat_resource < major_gold_value
+            has_enough_zakat_funds_major_trigger = no
         }
         custom_tooltip = { 
             text = removed_major_zakat_value.tt
@@ -927,10 +917,10 @@ tib_pay_zakat_decisions.0214 = { # Those in the Cause of Allah
     option = { # Massive
 		name = tib_pay_zakat_decisions.0204.d
         trigger = {
-            var:zakat_resource >= massive_gold_value
+            has_enough_zakat_funds_massive_trigger = yes
         }
         show_as_unavailable = {
-            var:zakat_resource < massive_gold_value
+            has_enough_zakat_funds_massive_trigger = no
         }
         custom_tooltip = { 
             text = removed_massive_zakat_value.tt
@@ -940,8 +930,8 @@ tib_pay_zakat_decisions.0214 = { # Those in the Cause of Allah
                     value = massive_gold_value
                     multiply = -1
                 }
-                add = {
-                    value = -500
+                subtract = {
+                    value = 500
                 }
             }
         }

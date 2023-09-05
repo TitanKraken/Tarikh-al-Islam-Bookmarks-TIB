@@ -745,27 +745,6 @@
 	}
 }
 
-70140 = {
-	name = "Bera_" # Bera, Duke of Barcelona (801-820) & Count of Barcelona & Girona (801-820), Ibiza, Mallorca & Menorca (801-817)
-	dynasty = conflent # Conflent Dynasty
-	religion = catholic
-	culture = occitan
-	trait = education_martial_2
- 
-	father = visigothic0007 # Guillem de Conflent (visigothic.txt)
-	mother = visigothic0008 # Kunegunda (visigothic.txt)
-
-	770.1.1 = {
-		birth = yes
-	}
-	790.1.1 = {
-		add_spouse = frankish0006 # Romella Gellones
-	}
-	844.1.1 = {
-		death = yes
-	}
-}
-
 70150 = {
 	name = "GuifrE_" # Guifré I de Barcelona 'el Pilós', Duke of Barcelona (878-897) & Count of Cerndaya & Urgell (873-897), Barcelona & Girona (878-897)
 	dna = 70150_wilfred_the_hairy
@@ -844,71 +823,6 @@
 		employer = 70150 # Suke Guifré I of Barcelona
 	}
 	900.2.18 = {
-		death = yes
-	}
-}
-
-70152 = {
-	name = "Wifredo" # Guifré II Borrell I de Barcelona
-	dynasty = 100204
-
-	father = 70150
-	mother = 70151
-
-	religion = catholic
-	culture = visigothic
-
-	martial = 4
-	diplomacy = 7
-	intrigue = 5
-	stewardship = 6
-
-	trait = humble
-	
-	trait = education_diplomacy_2
-
-	880.1.1 = {
-		birth = yes
-	}
-	885.1.1 = {
-		culture = catalan
-		name = GuifrE_
-	}
-	898.1.1 = {
-		add_spouse = 127039
-	}
-	911.1.1 = {
-		death = yes
-	}
-}
-
-70153 = {
-	name = "Winidilda" # Guinidilda de Barcelona
-	female = yes
-	dynasty = 100204
-
-	father = 70150
-	mother = 70151
-
-	religion = catholic
-	culture = visigothic
-
-	martial = 5
-	diplomacy = 7
-	intrigue = 6
-	stewardship = 8
-
-	trait = generous
-	trait = education_stewardship_1
-
-	884.1.1 = {
-		birth = yes
-	}
-	885.1.1 = {
-		culture = catalan
-		name = Guinidilda
-	}
-	949.1.1 = {
 		death = yes
 	}
 }
@@ -1336,30 +1250,6 @@
 	}
 	885.1.1 = {
 		death = yes
-	}
-}
-
-
-73785 = {
-	name = "Sunifred" # Sunifred de Barcelona, Duke of Barcelona (844-848) & Count Cerdanya (834-848), Urgell (838-848), Barcelona, Girona, Ibiza, Mallorca & Menorca (844-848)
-	dynasty = 100204 # Barcelona Dynasty
-	religion = catholic
-	culture = occitan
-	trait = education_martial_2
-
-	father = visigothic0006 # Borrell de Osona (visigothic.txt)
-
-	806.1.1 = {
-		birth = yes
-	}
-	839.1.1 = {
-		add_spouse = occitan0090 # Ermessinde de Carcassone
-	}
-	848.1.1 = {
-		death = {
-			death_reason = death_battle
-			killer = 73784 # Duke Guillaume of Barcelona
-		}
 	}
 }
 
@@ -3094,45 +2984,6 @@
 	}
 }
 
-73994 = {
-	name = "Ralinda" # Ralinda de Roselló, wife of Radulf de Barcelona (73993)
-	female = yes
-	dynasty = 393 # Empuries Dynasty
-	religion = catholic
-	culture = occitan
-	trait = education_diplomacy_1
-
-	father = occitan0076 # Alaric d'Empuries
-	mother = occitan0106 # Rotroda de Conflent
-
-	844.1.1 = {
-		birth = yes
-	}
-	916.1.1 = {
-		death = yes
-	}
-}
-
-73995 = {
-	name = "Oliba" # Oliba de Barcelona
-	dynasty = 100204 # Barcelona Dynasty
-	religion = catholic
-	culture = occitan
-
-	father = 73993 # Radulf de Barcelona
-	mother = 73994 # Ralinda de Roselló
-
-	867.1.1 = {
-		birth = yes
-	}
-	883.1.1 = {
-		trait = education_stewardship_1
-	}
-	915.6.24 = {
-		death = yes
-	}
-}
-
 73996 = {
 	name = "Miron" # Miró de Barcelona, Count of Rousillon (878-896)
 	dynasty = 100204 # Barcelona Dynasty
@@ -3244,63 +3095,6 @@
 		employer = 70150 # Suke Guifré I of Barcelona
 	}
 	916.1.1 = {
-		death = yes
-	}
-}
-
-74101 = {
-	name = "Sunyer" # Sunyer (II) d'Empuries, Count of Empuries (894-915) & Rousillon (896-916)
-	dynasty = 393 # Empuries Dynasty
-	religion = catholic
-	culture = occitan
-	trait = education_diplomacy_2
-
-	father = 200153 # Sunyer I d'Empuries
-
-	840.1.1 = {
-		birth = yes
-	}
-	864.1.1 = {
-		add_spouse = 74102 # Ermengarda
-	}
-	915.1.1 = {
-		death = yes
-	}
-}
-
-74102 = {
-	name = "Ermengarda" # Ermengarda, wife of Sunyer II d'Empuries
-	female = yes
-	religion = catholic
-	culture = occitan
-
-	848.1.1 = {
-		birth = yes
-	}
-	898.1.1 = {
-		death = yes
-	}
-}
-
-74103 = {
-	name = "Gausbert" # Gausbert d'Empuries, Count of Empuries & Rousillon (916-931)
-	dynasty = 393 # Empuries Dynasty
-	religion = catholic
-	culture = occitan
-
-	father = 74101
-	mother = 74102
-
-	867.1.1 = {
-		birth = yes
-	}
-	883.1.1 = {
-		trait = education_stewardship_2
-	}
-	910.1.1 = {
-		add_spouse = occitan0126 # Trudegarda
-	}
-	931.4.10 = {
 		death = yes
 	}
 }
@@ -4146,24 +3940,6 @@ Teodomiro6 = {
 		death = yes
 	}
 }
-
-200153 = {
-	name = "Sunyer" # Sunyer (I) d'Empuries, Count of Empuries & Rousillon (834-843 & 844-848)
-	dynasty = 393 # Empuries Dynasty, Founder
-	religion = catholic
-	culture = occitan
-	trait = education_martial_1
-
-	father = visigothic0022 # Sunyer d'Empuries (visigothic.txt)
-
-	810.1.1 = {
-		birth = yes
-	}
-	848.1.1 = {
-		death = yes
-	}
-}
-
 
 200154 = {
 	name = "Yunus" # Yunus ibn Yahya

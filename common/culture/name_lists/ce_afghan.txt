@@ -157,7 +157,7 @@
 
 
 	
-}
+	}
 	female_names = {
 			Adan Adar Ara Ardil Arezu Ariyan ArE_z ArI_n Asan Asteng AsE_ Avan AzadI_ AzrI_n AS_tI_ 
 			Badil Bahar Bakhtawara Balbala BalnexS_I_n BanE_ Barsala BarI_n Bawan Bazira Baziyan BazE_ Befraw BefrI_n BegI_xan BelalU_k BelI_can Benav Benaz Benazira BerbijI_n Berdar Berdil BersI_n BerI_can BexS_I_n Beyan BeybI_n BeybU_n BezI_n Bihar BijI_n BilE_se Binar Binav BinefS_ BinevS_ Biyan BiS_koj BiS_kurI_n Bohar Burandoxt BE_naz BE_rI_can BE_rI_van 

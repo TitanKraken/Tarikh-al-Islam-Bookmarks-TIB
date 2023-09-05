@@ -496,15 +496,6 @@
 		add_spouse = 190148
 		culture = "lombard"
 	}
-	769.1.1={
-	effect = {
-		make_tributary = {
-		TYPE = tributary_permanent #(see 00_T4N_tributary_types)
-		TRIBUTARY = character:190147
-		SUZERAIN = character:190347
-			}
-		}
-	}	
 	774.1.1 = {
 		capital = c_salerno
 	}
@@ -877,7 +868,7 @@
 	}
 	751.1.1 = {
 		trait = devoted
-		trait = mystic_3
+		trait = lifestyle_mystic
 		culture = "lombard"
 	}
 	803.1.1 = {
@@ -3394,7 +3385,7 @@
 	religion = catholic
 	culture = lombard
 
-	father = 1167110
+	#father = 1167110
 
 	1018.1.1 = {
 		birth = yes
@@ -3731,7 +3722,7 @@
 	culture = lombard
 	trait = theologian
 	trait = architect
-	trait = mystic_3
+	trait = lifestyle_mystic
 	trait = education_learning_3
 
 	father = 163075
@@ -4156,9 +4147,6 @@
 	}
 	866.1.1 = {	
 		employer = 6881
-		effect = {
-			add_family_to_republic_families = yes
-		}
 	}
 	880.1.1 = {
 		death = yes
@@ -4484,9 +4472,6 @@
 	}
 	866.1.1 = {
 		employer = 6881
-		effect = {
-			add_family_to_republic_families = yes
-		}
 	}
 	890.1.1 = {
 		death = yes
@@ -5465,9 +5450,6 @@
 	}
 	866.1.1 = {
 		employer = 6881
-		effect = {
-			add_family_to_republic_families = yes
-		}
 	}
 	875.1.1 = {
 		death = yes
@@ -7806,7 +7788,7 @@ lombard0038 = {
 	name = "Maio" # Maio Dauferidi
 	dynasty = 1022178
 
-	father = 145214
+	#father = 145214
 
 	religion = catholic
 	culture = lombard

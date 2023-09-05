@@ -2837,8 +2837,8 @@
 	1227.8.1 = {
 		
 		effect = {
-set_realm_capital = title:c_nedersticht
-}
+			set_realm_capital = title:c_nedersticht
+		}
 	}
 	1233.7.26 = {
 		death = "1233.7.26"
@@ -8692,16 +8692,6 @@ set_realm_capital = title:c_nedersticht
 	1170.1.1 = {
 		birth = yes
 	}
-	1230.1.2 = {
-		effect = {
-			add_family_to_republic_families = yes
-		}
-	}
-	1234.1.1 = {
-		effect = {
-			effect_create_personal_army = yes
-		}
-	}
 	1244.1.1 = {
 		death = "1244.1.1"
 	}
@@ -8721,11 +8711,6 @@ set_realm_capital = title:c_nedersticht
 	}
 	1267.1.1 = {
 		employer = 167254
-	}
-	1285.1.1 = {
-		effect = {
-			effect_create_personal_army = yes
-		}
 	}
 	1287.1.1 = {
 		death = "1287.1.1"
@@ -9658,11 +9643,6 @@ set_realm_capital = title:c_nedersticht
 	mother = 167163
 	1180.1.1 = {
 		birth = "1180.1.1"
-	}	
-	1228.1.2 = {
-		effect = {
-			add_family_to_republic_families = yes
-		}
 	}
 	1234.1.1 = {
 		employer = 167102
@@ -9728,11 +9708,6 @@ set_realm_capital = title:c_nedersticht
 	}	
 	1297.1.1 = {
 		employer = 167237
-	}
-	1310.1.1 = {
-		effect = {
-			effect_create_personal_army = yes
-		}
 	}
 	1341.5.29 = {
 		death = "1341.5.29"
@@ -10506,11 +10481,6 @@ set_realm_capital = title:c_nedersticht
 	1210.1.1 = {
 		add_spouse = 167110
 	}
-	1228.1.2 = {
-		effect = {
-			add_family_to_republic_families = yes
-		}
-	}
 	1234.1.1 = {
 		employer = 167102
 	}
@@ -10546,11 +10516,6 @@ set_realm_capital = title:c_nedersticht
 	}
 	1234.1.1 = {
 		add_spouse = 167202
-	}
-	1246.1.1 = {
-		effect = {
-			effect_create_personal_army = yes
-		}
 	}
 	1263.1.1 = {
 		death = "1263.1.1"
@@ -10818,11 +10783,6 @@ set_realm_capital = title:c_nedersticht
 	culture = saxon
 	1190.1.1 = {
 		birth = "1190.1.1"
-	}	
-	1228.1.2 = {
-		effect = {
-			add_family_to_republic_families = yes
-		}
 	}
 	1233.1.1 = {
 		death = "1233.1.1"
@@ -10867,11 +10827,6 @@ set_realm_capital = title:c_nedersticht
 	}
 	1285.1.1 = {
 		employer = 167103
-	}
-	1297.1.1 = {
-		effect = {
-			effect_create_personal_army = yes
-		}
 	}
 	1303.1.1 = {
 		death = "1303.1.1"
@@ -11126,11 +11081,6 @@ set_realm_capital = title:c_nedersticht
 	1220.1.1 = {
 		add_spouse = 167186
 	}
-	1228.1.2 = {
-		effect = {
-			add_family_to_republic_families = yes
-		}
-	}
 	1234.1.1 = {
 		employer = 167102
 	}
@@ -11192,11 +11142,6 @@ set_realm_capital = title:c_nedersticht
 	mother = 167233
 	1242.1.1 = {
 		birth = "1242.1.1"
-	}
-	1246.1.1 = {
-		effect = {
-			create_betrothal = character:167221
-		}
 	}
 	1260.1.1 = {
 		add_spouse = 167221
@@ -15140,9 +15085,9 @@ set_realm_capital = title:c_nedersticht
 		birth = "1045.1.1"
 	}
 	1090.7.1 = {
-	effect = {
-set_realm_capital = title:c_nedersticht
-}
+		effect = {
+			set_realm_capital = title:c_nedersticht
+		}
 	}
 	1099.4.13 = {
 		death = "1099.4.13"

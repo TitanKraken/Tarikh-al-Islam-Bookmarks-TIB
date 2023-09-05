@@ -255,7 +255,7 @@ caliphal_contender_declare_war.3 = {
 	immediate = {
 		play_music_cue = "mx_cue_sacredrite"
 		# And sort defaults.
-		set_default_caliph_effect = yes
+		#set_default_caliph_effect = yes
 	}
 
 	# Let me think of suitable replacements...
@@ -264,7 +264,7 @@ caliphal_contender_declare_war.3 = {
 		trigger = { exists = scope:ROOT }
 
 		#trigger_event = caliphal_candidates
-		set_religious_head_title_to_and_gain_hook_effect = { NEW_RELIGIOUS_HEAD_TITLE = scope:old_caliph.player_heir }
+		#set_religious_head_title_to_and_gain_hook_effect = { NEW_RELIGIOUS_HEAD_TITLE = scope:old_caliph.player_heir }
 
 		stress_impact = {
             humble = medium_stress_impact_loss
@@ -282,7 +282,7 @@ caliphal_contender_declare_war.3 = {
 		trigger = { exists = scope:ROOT }
 
 		# Set up the new HoF.
-		set_religious_head_title_to_and_gain_hook_effect = { NEW_RELIGIOUS_HEAD_TITLE = scope:ROOT }
+		#set_religious_head_title_to_and_gain_hook_effect = { NEW_RELIGIOUS_HEAD_TITLE = scope:ROOT }
 		# Had to make up your own Sayyid line if not Sayyid
 		scope:ROOT = {
 			if = {

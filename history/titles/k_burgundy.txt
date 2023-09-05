@@ -83,9 +83,6 @@ d_provence = {
 		liege = 0 # They were practically independant
 	}
 	763.1.1 = {
-		liege = k_lotharingia
-	}
-	763.1.1 = {
 		holder = 194040 #Thomas
 	}
 	855.1.1 = {
@@ -202,9 +199,9 @@ d_provence = {
 	1285.1.7 = {
 		holder = 461710
 	}
-	1302.8.31 = {
-		liege = k_naples
-	}
+	#1302.8.31 = {
+	#	liege = k_naples
+	#}
 	1309.5.5 = {
 		holder = 461700
 	}
@@ -220,9 +217,6 @@ c_provence = {
 		holder = patrician_provence_010
 	}
 	#Karling
-	763.1.1 = {
-		liege = k_lotharingia
-	}
 	763.1.1 = {
 		holder = 194040 #Thomas
 	}
@@ -576,7 +570,7 @@ c_viviers = {
 	864.1.1 = {
 		holder = 168148
 	}
-	884.12.12 = {
+	886.1.1 = {
 		liege = "k_france"
 	}
 
@@ -739,9 +733,6 @@ c_savoie = {
 		holder = 144988 # idk but to balance domain size
 	}
 	760.1.1 = {
-		liege = k_lotharingia
-	}
-	760.1.1 = {
 		holder = 190562 #Hugh I
 	}
 	798.1.1 = {
@@ -819,9 +810,6 @@ c_aosta = {
 		holder = 144988 # idk but to balance domain size
 	}
 	760.1.1 = {
-		liege = k_lotharingia
-	}
-	760.1.1 = {
 		holder = 190562 #Hugh I
 	}
 	798.1.1 = {
@@ -897,9 +885,6 @@ c_canavese = {
 	714.1.17 = {
 		liege = k_france
 		holder = 144988 # idk but to balance domain size
-	}
-	760.1.1 = {
-		liege = k_lotharingia
 	}
 	760.1.1 = {
 		holder = 190562 #Hugh I
@@ -1001,7 +986,7 @@ d_dauphine = {
 		holder = 0
 		#The two burgundies are reunited under Rudolf II
 	}
-	996.10.18 = {
+	995.1.1 = {
 		holder = 138403 #Guigues II d'Albon
 		#liege = e_hre
 	}
@@ -1040,7 +1025,7 @@ c_lyon = {
 		holder = 144988 # idk but to balance domain size
 	}
 	765.1.1 = {
-		liege = "k_lotharingia"
+		#liege = "k_lotharingia"
 		holder = 91491 #VUODO, historical count as placeholder
 	}
 	855.8.23 = {
@@ -1176,7 +1161,7 @@ c_viennois = {
 		holder = 31708 # Matfried Chatenois
 	}
 	
-	996.10.18 = {
+	995.1.1 = {
 		holder = 138403 #Guigues II d'Albon
 		liege = e_hre
 	}
@@ -1198,9 +1183,9 @@ c_viennois = {
 	1162.7.29 = {
 		holder = 212800 # Beatrix d'Albon
 	}
-	1187.1.1 = {
-		liege = k_burgundy
-	}
+	#1187.1.1 = {
+	#	liege = k_burgundy
+	#}
 	1220.1.1 = {
 		liege = d_savoie
 	}
@@ -1257,7 +1242,7 @@ c_valentinois = {
 		holder = 31708 # Matfried Chatenois
 	}
 	
-	996.10.18 = {
+	995.1.1 = {
 		holder = 138403 #Guigues II d'Albon
 		liege = e_hre
 	}
@@ -1279,9 +1264,9 @@ c_valentinois = {
 	1162.7.29 = {
 		holder = 212800 # Beatrix d'Albon
 	}
-	1187.1.1 = {
-		liege = k_burgundy
-	}
+	#1187.1.1 = {
+	#	liege = k_burgundy
+	#}
 	1220.1.1 = {
 		liege = d_savoie
 	}
@@ -1319,7 +1304,7 @@ c_forez = {
 		holder = 144988 # idk but to balance domain size
 	}
 	765.1.1 = {
-		liege = "k_lotharingia"
+		#liege = "k_lotharingia"
 		holder = 91491 #VUODO, historical count as placeholder
 	}
 	855.8.23 = {
@@ -1402,7 +1387,7 @@ d_upper_burgundy = {
 		name = "Burgundy"
 	}
 	760.1.1 = {
-		liege = k_lotharingia
+		#liege = k_lotharingia
 	}
 	760.1.1 = {
 		holder = 190562 #Hugh I
@@ -1577,7 +1562,7 @@ c_geneva = {
 		holder = 144988 # idk but to balance domain size
 	}
 	760.1.1 = {
-		liege = "k_lotharingia"
+		#liege = "k_lotharingia"
 		holder = 91482 #FREDERIC, count of Transjuranie
 	}
 	855.1.1 = {
@@ -2028,7 +2013,7 @@ c_neuchatel = {
 		holder = 144988 # idk but to balance domain size
 	}
 	760.1.1 = {
-		liege = "k_lotharingia"
+		#liege = "k_lotharingia"
 		holder = 91482 #FREDERIC, count of Transjuranie
 	}
 	855.1.1 = {

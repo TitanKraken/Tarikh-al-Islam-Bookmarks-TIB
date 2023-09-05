@@ -1,0 +1,84 @@
+﻿l_english:
+  # Tooltip of Seljuks being given special CB
+  seljuk_invasion_cb_gain_tooltip:0 "The Seljuks can now invade all of Asia Minor"
+
+  # Localization for Seljuks after successfully invading Armenia
+  seljuk_invasion_events.0001.title:0 "Victory in Armenia!"
+  seljuk_invasion_events.0001.desc:0 "Having defeated the Byzantines in battle, we have established our control over Armenia. We must soon decide what to do with the native Apostolic population. Shall we usher in the guiding light of Allah in Armenia, or should we respect their religious freedoms?\n\nThe Byzantines, meanwhile, are more exposed than ever. Their Anatolian heartland is ripe for the taking. Once we recoup our forces, we shall take over the rest of Asia Minor!"
+  seljuk_invasion_events.0001.a:0 "Onwards!"
+
+  # Localization for Byzantines after failing to defend Armenia
+  seljuk_invasion_events.0002.title:0 "Defeat"
+  seljuk_invasion_events.0002.desc:0 "With the Seljuks now in control of Armenia, the rest of Asia Minor lies open to them. The Turks now eye the heartland of the Byzantine Empire itself. With our own Turkish mercenaries defecting and our morale having plummeted, how are we supposed to defend against them?"
+  seljuk_invasion_events.0002.a:0 "This is a disaster!"
+
+  # Localization for event in which Seljuk Emperor gets help from Suleyman ibn Qutulmish
+  seljuk_invasion_events.0003.title:0 "A New Ally"
+  .desc:0 "Even though I did not ask, Suleyman ibn Qutulmish, a distant relation of mine, insists on aiding me in my conquest of Asia Minor. Doubtless, facing such an overwhelming force, the Greeks have no chance. Though Suleyman's motives are questionable."
+  seljuk_invasion_events.0003.a:0 "I'll be keeping an eye on him."
+  seljuk_invasion_suleyman_join_tooltip:0 "Suleyman ibn Qutulmish joins the Seljuk Invasion of Asia Minor, having raised 10,000 additional soldiers"
+
+  # Localization for event in which Seljuk Emperor gets help from Suleyman ibn Qutulmish (Suleyman's event)
+  seljuk_invasion_events.0004.title:0 "An Opportunity"
+  seljuk_invasion_events.0004.desc:0 "With the Sultan invading Asia Minor, I decided that I must join him. This is an excellent opportunity for me to expand my power base, especially with my ever growing host at my back."
+  seljuk_invasion_events.0004.a:0 "For glory!"
+
+  # Localization for event in which Byzantines are notified of new war
+  seljuk_invasion_events.0005.title:0 "Renewed Seljuk Invasion"
+  seljuk_invasion_events.0005.desc:0 "If their conquest of Armenia hadn't already weakened us enough, the Turks now seek to control all of Asia Minor! They have raised tens of thousands of soldiers to conquer the entire region from us. We shall not surrender so easily this time, given the stakes, but I fear for the worst. What is one to do in the face of such an overwhelming force?"
+  seljuk_invasion_events.0005.a:0 "Call our allies, now!"
+
+  # Localization for event in which Seljuk Emperor is notified of Suleiman's takeover of Rum
+  seljuk_invasion_events.0006.title:0 "Betrayal!"
+  seljuk_invasion_events.0006.desc:0 "My former ally in the war against the Byzantines, Suleyman ibn Qutulmish, has betrayed our agreements and established himself as Sultan of Rum! I cannot even begin to describe how enraged I am at his treachery.\n\nStill, my vassals recognize how unjust Suleyman has been, and they have assured me that I have every right to depose him at once. This betrayal will not be forgotten!"
+  seljuk_invasion_events.0006.a:0 "His time will come."
+  seljuk_invasion_suleyman_steal_tooltip:0 "Suleyman ibn Qutulmish takes control of all of Rum"
+
+  # Localization for event in which Suleiman is notified of his own takeover of Rum
+  seljuk_invasion_events.0007.title:0 "A Stunning Success!"
+  seljuk_invasion_events.0007.desc:0 "Before the Seljuk Sultan could move his forces into Asia Minor to take over control from the Byzantines, I have established myself in the area so that it is under my own direct control. He must be furious, and I should expect a reprisal soon. I must prepare for the coming conflict."
+  seljuk_invasion_events.0007.a:0 "Victory!"
+
+  # Localization for event in which Byzantine Emperor destroys Rum
+  seljuk_invasion_events.0008.title:0 "Victory At Last"
+  seljuk_invasion_events.0008.desc:0 "With our last conquests in Armenia and Antioch, we have retaken all of our territories stolen from us by the Turks at the end of the 11th century. Today will go down in history as the day on which the Byzantine Empire was reborn!"
+  seljuk_invasion_events.0008.a:0 "The Empire has been restored!"
+  destroyed_rum_tooltip:0 "The Kingdom of Rum is destroyed"
+  destroyed_rum_opinion:0 "Reclaimed Asia Minor"
+
+  # "Localization" for event in which AI is forced to declare war on Byzantines (hidden from player)
+  seljuk_invasion_events.1000.title:0 "War!"
+  seljuk_invasion_events.1000.desc:0 "Byzantium bad!"
+  seljuk_invasion_events.1000.a:0 "Yes!"
+
+  # Localization for Seljuk Invasion CBs (copied and pasted from Laudibiliter and modified)
+  seljuk_invasion_conquest_cb:0 "Seljuk Invasion"
+  SELJUK_INVASION_CONQUEST_CB_NAME:1 "Invade Asia Minor"
+  SELJUK_INVASION_CONQUEST_CB_SPECIFIC_NAME:1 "Invade Asia Minor"
+  SELJUK_INVASION_CONQUEST_WAR_NAME:1 "Seljuk Invasion of Asia Minor"
+  SELJUK_INVASION_CONQUEST_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+  seljuk_invasion_conquest_cb_victory_desc_attacker:0 "You take all titles [defender.GetShortUIName] holds in Asia Minor."
+  seljuk_invasion_conquest_cb_victory_desc_defender:0 "[attacker.GetShortUIName|U] takes all titles you hold in Asia Minor."
+  seljuk_invasion_conquest_cb_victory_desc:0 "[attacker.GetShortUIName|U] takes all titles [defender.GetShortUIName] holds in Asia Minor."
+  seljuk_invasion_conquest_cb_white_peace_desc_defender:0 "You keep all contested titles."
+  seljuk_invasion_conquest_cb_white_peace_desc:0 "[defender.GetShortUIName|U] keeps all contested titles."
+  seljuk_invasion_conquest_cb_defeat_desc_defender:0 "You keep all contested titles."
+  seljuk_invasion_conquest_cb_defeat_desc_attacker:0 "[defender.GetShortUIName|U] keeps all contested titles. All [factions|E] against you increase their [discontent|E]."
+  seljuk_invasion_conquest_cb_defeat_desc:0 "[defender.GetShortUIName|U] keeps all contested titles."
+
+  # Localization for modifier that gives Seljuk Invasion CB
+  seljuk_invasion_modifier:0 "Preparing for Invasion"
+  seljuk_invasion_modifier_desc:0 "This dynasty is preparing to invade all of Asia Minor!"
+
+  # Turkish immigrants to Rum
+  turkish_immigrants:0 "Turkish Immigrants"
+  turkish_immigrants_desc:0 "As a result of the recent conquest, Turkish immigrants are moving into Asia Minor."
+  STEWARD_PROMOTE_CULTURE_TURKISH_IMMIGRANTS:0 "Turkish Immigrants"
+  COURT_CHAPLAIN_CONVERT_FAITH_TURKISH_IMMIGRANTS:0 "Turkish Immigrants"
+
+  # Destroy Rum decision (for Byzantines)
+  custom_rum:0 "Rum"
+  destroy_rum_title:0 "Destroy Rum"
+  destroy_rum_desc:0 "For too long have the Seljuks occupied our Anatolian heartlands. With our recent victories against the Turks, it is finally time to restore rightful Greek rule over Asia Minor!"
+  destroy_rum_tooltip:0 "The time has come for the world to acknowledge our rightful rule to Asia Minor."
+  destroy_rum_confirm:0 "Let the Triumph commence!"

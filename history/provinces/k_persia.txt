@@ -71,7 +71,7 @@
 
 ###c_luristan
 4112 = {	#Asbid-Dasht
-	culture = persian
+	culture = luri
 	religion = ashari
 	holding = castle_holding
 }
@@ -594,7 +594,7 @@
 
 ###c_sardan
 4122 = {	#Lurijan
-	culture = persian
+	culture = luri
 	religion = ashari
 	holding = castle_holding
 }
@@ -624,7 +624,7 @@
 
 ###c_tustar
 4256 = {	#Tustar
-	culture = persian
+	culture = luri
 	religion = ashari
 	holding = castle_holding
 }

@@ -644,7 +644,17 @@ pay_homage_to_caliph.9995 = { # Liege POV if the caliph has no royal court
 		}
 	}
 	after = {
-		pay_homage_liege_reward_effect = yes
+		if = {
+			limit = {
+				scope:homage_liege = {
+					has_royal_court = yes
+				}
+			}
+			pay_homage_liege_reward_effect = yes
+		}
+		else = {
+			pay_homage_liege_reward_no_court_effect = yes
+		}
 		scope:homage_vassal = { trigger_event = pay_homage_to_caliph.9998 }
 		#set_variable = {
 		#	name = pay_homage_to_caliph_cooldown
@@ -908,14 +918,28 @@ scripted_effect pay_homage_liege_reward_effect = {
 					target = scope:homage_vassal
 				}
 			}
-			else_if = { # Increase lowest contract
-				limit = { scope:homage_vassal.var:homage_type = flag:homage_contract }
-				scope:homage_vassal = {
-					if = {
-						limit = { var:pay_homage_contract_type = 0 }
-						vassal_contract_increase_obligation_level = feudal_government_levies
-					}
-					else = { vassal_contract_increase_obligation_level = feudal_government_taxes }
+		}
+	}
+}
+scripted_effect pay_homage_liege_reward_no_court_effect = {
+	scope:homage_liege = {
+		if = {
+			limit = { scope:homage_vassal.var:homage_type = flag:homage_submission }
+			add_prestige = minor_prestige_gain
+			dynasty ?= { add_dynasty_prestige = miniscule_dynasty_prestige_gain }
+		}
+		else = {
+			add_prestige = medium_prestige_gain
+			dynasty = { add_dynasty_prestige = minor_dynasty_prestige_gain }
+			if = {
+				limit = { scope:homage_vassal.var:homage_type = flag:homage_gold }
+				add_gold = scope:homage_vassal.medium_gold_value
+			}
+			else_if = { # Give hook
+				limit = { scope:homage_vassal.var:homage_type = flag:homage_hook }
+				add_hook = {
+					type = favor_hook
+					target = scope:homage_vassal
 				}
 			}
 		}
@@ -1941,7 +1965,7 @@ pay_homage_to_caliph.0601 = {
 		character = scope:homage_liege
 		triggered_animation = {
 			trigger = { is_imprisoned = yes }
-			animation = prison_dungeon
+			animation = prisonhouse
 		}
 		triggered_animation = {
 			trigger = { is_alive = no }

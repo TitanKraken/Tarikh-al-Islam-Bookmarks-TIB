@@ -1,0 +1,116 @@
+﻿namespace = tib_islamic_schism
+
+tib_islamic_schism.0001 = { # For later Sunnis
+    type = character_event
+    title = tib_islamic_schism.0001.t # New Understandings
+    desc = tib_islamic_schism.0001.desc
+    theme = faith
+    
+    left_portrait = {
+        character = root
+        animation = personality_rational
+    }
+    #immediate = { # Creates the respective imams
+    #    create_character = {
+    #        name = "Abu al-Hasan 'Ali al-Ashʿarī" # Imam Ash'arī
+	#		gender = male
+	#		location = province:4828 # Baghdad
+    #        template = imam_ashari_character_template
+    #        save_scope_as = imam_ashari
+    #    }
+    #    scope:imam_ashari = {
+    #        death = natural
+    #    }
+    #    create_character = {
+    #        name = "Abu Mansūr Muhammad al-Māturīdī" # Imam Maturidi
+	#		gender = male
+	#		location = province:4394 # Samarqand
+    #        template = imam_maturidi_character_template
+    #        save_scope_as = imam_maturidi
+    #    }
+    #    scope:imam_maturidi = {
+    #        death = death_old_age
+    #    }
+    #}
+    option = {
+        name = tib_islamic_schism.0001.a # The words of Imam al-Ash'ari indeed have defended our Deen
+
+        set_character_faith_with_conversion = faith:asharite
+        every_realm_county = {
+            set_county_faith = faith:asharite
+        }
+    }
+    option = {
+        name = tib_islamic_schism.0001.b # Allah has truly guided Imam al-Maturidi with such astonishing writings
+
+        set_character_faith_with_conversion = faith:maturidi
+        every_realm_county = {
+            set_county_faith = faith:maturidi
+        }
+    }
+}
+tib_islamic_schism.0002 = { # For early Sunnis
+    type = character_event
+    title = tib_islamic_schism.0001.t # New Understandings
+    desc = tib_islamic_schism.0002.desc # Athari vs Mu'tazili Kalam
+    theme = faith
+    
+    left_portrait = {
+        character = root
+        animation = personality_rational
+    }
+
+    option = {
+        name = tib_islamic_schism.0002.a # Only through literal interpretation of the Qur'an and Sunnah we prevail!
+
+        set_character_faith = {
+            faith = faith:athari
+        }
+        set_county_faith = {
+            faith = faith:athari
+        }
+    }
+    option = {
+        name = tib_islamic_schism.0002.b # Let us embrace the wisdom of the Greek philosophers to advance our theological grasp
+
+        set_character_faith = {
+            faith = faith:mutazila
+        }
+        set_county_faith = {
+            faith = faith:mutazila
+        }
+    }
+}
+
+tib_islamic_schism.0010 = { # For early Shias
+    type = character_event
+    title = tib_islamic_schism.0001.t # New Understandings
+    desc = tib_islamic_schism.0010.desc # Advent of the Ismailis
+    theme = faith
+    
+    left_portrait = {
+        character = root
+        animation = personality_rational
+    }
+
+    option = {
+        name = tib_islamic_schism.0010.a # Only through literal interpretation of the Qur'an and Sunnah we prevail!
+
+        set_character_faith = {
+            faith = faith:ismaili
+        }
+        set_county_faith = {
+            faith = faith:ismaili
+        }
+    }
+    option = {
+        name = tib_islamic_schism.0010.b # Let us embrace the wisdom of the Greek philosophers to advance our theological grasp
+
+        set_character_faith = {
+            faith = faith:zayidi
+        }
+        set_county_faith = {
+            faith = faith:zayidi
+        }
+    }
+}

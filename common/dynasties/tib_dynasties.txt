@@ -11,6 +11,10 @@ tribe_Banu_Atiyah = {
     name = "dynn_Banu_Atiyah"
     culture = "bedouin"
 }
+tribe_Ashari = {
+    name = "dynn_al-Ashari"
+    culture = "hijazi"
+}
 
 # Umayyad Governors
 al_thaqafi = {

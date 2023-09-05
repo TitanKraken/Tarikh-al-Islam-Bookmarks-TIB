@@ -5,7 +5,7 @@ k_armenia = {
 	
 	#Previous Kings of Armenia removed to a separate title: Arsacid Armenia *was* a kingdom, but the regnal numbering is reset for Bagratid Armenia. Keeping them in the same title was therefore messing up medieval Armenia quite drastically (Ashot I became Ashot IV, etc).
 	654.1.1 = {
-		liege = e_arabia
+		#liege = e_arabia
 		#holder = 145996
 	}
 	#862.1.1 = {
@@ -102,8 +102,8 @@ k_armenian_principality = {
 }
 
 k_old_armenia = {
-		654.1.1 = {
-		liege = e_arabia
+	654.1.1 = {
+		#liege = e_arabia
 		holder = 145996
 	}
 	655.1.1 = {
@@ -120,6 +120,7 @@ k_old_armenia = {
 	}
 	693.8.29 = {
 		holder = 70447
+		liege = e_arabia
 	}
 	726.1.1 = {
 		holder = 41500
@@ -159,10 +160,10 @@ k_old_armenia = {
 
 d_mesopotamia = {
     #Arabic
-	820.1.1 = {
+	780.1.1 = {
 		holder = 159723
 	}
-	855.1.1 = {
+	820.1.1 = {
 		holder = 159724
 	}
 	863.1.1 = {
@@ -264,7 +265,7 @@ c_melitene = {
 	820.1.1 = {
 		liege = "d_mesopotamia"
 	}
-	820.1.1 = {
+	780.1.1 = {
 		holder = 159723
 	}
 	855.1.1 = {
@@ -335,9 +336,6 @@ c_melitene = {
 
 
 c_theodosiopolis = {
-	330.1.1 = {
-		liege = "d_chaldia"
-	}
 	714.1.1 = {
 		holder = 70451
 		liege = k_old_armenia
@@ -346,7 +344,7 @@ c_theodosiopolis = {
 		holder = 145845
 		liege = d_chaldia
 	}
-	820.1.1 = {
+	780.1.1 = {
 		holder = 159723
 	}
 	855.1.1 = {
@@ -407,12 +405,9 @@ c_theodosiopolis = {
 	1300.1.1 = {
 		holder = 34401
 	}
-	
-	1335.1.1 = {
-		liege = "k_eretnid"
-	}
 	1335.1.1 = {
 		holder = 476460
+		#liege = "k_eretnid"
 	}
 
 }
@@ -431,7 +426,7 @@ c_mesopotamia = {
 	820.1.1 = {
 		liege = "d_mesopotamia"
 	}
-	820.1.1 = {
+	780.1.1 = {
 	    holder = 159723
 	}
 	855.1.1 = {
@@ -504,7 +499,7 @@ c_mesopotamia = {
 d_vaspurakan = {
 	646.1.1 = {
 		holder = 159898
-		liege = k_old_armenia
+		#liege = k_old_armenia
 	}
 	647.1.1 = {
 		holder = 159899
@@ -517,6 +512,7 @@ d_vaspurakan = {
 	}
 	708.1.1 = {
 		holder = 159903
+		liege = k_old_armenia
 	}
 	748.1.1 = {
 		holder = 159904
@@ -573,13 +569,11 @@ d_vaspurakan = {
 	
 	#Battle of Manzikert
 	1071.8.26 = {
-		liege = "k_rum"
-	}
-	1071.8.26 = {
 		holder = 144044
 	}
 	1100.1.1 = {
 		holder = 93410
+		liege = "k_rum"
 	}
 	1112.1.1 = {
 		holder = 93411
@@ -697,11 +691,9 @@ c_turuberan = {
 	1021.1.1 = {
 		liege = "e_byzantium"
 	}
-	1045.1.1 = {
-		liege = "d_vaspurakan"
-	}
 	1060.1.1 = {
 		holder = 41585
+		liege = "d_vaspurakan"
 	}
 	1071.8.26 = {
 		liege = "d_erzerum"
@@ -827,11 +819,9 @@ c_apahunik = {
 	1021.1.1 = {
 		liege = "e_byzantium"
 	}
-	1045.1.1 = {
-		liege = d_vaspurakan
-	}
 	1060.1.1 = {
 		holder = 159238
+		liege = d_vaspurakan
 	}
 	1071.8.26 = {
 		liege = "d_erzerum"
@@ -953,11 +943,9 @@ c_vaspurakan = {
 	1021.1.1 = {
 		liege = "e_byzantium"
 	}
-	1045.1.1 = {
-		liege = d_vaspurakan
-	}
 	1060.1.1 = {
 		holder = 159238
+		liege = d_vaspurakan
 	}
 	1071.8.26 = {
 		liege = "d_erzerum"
@@ -1037,7 +1025,7 @@ d_greater_armenia = {
 	}
 	654.1.1 = {
 		holder = 145996
-		liege = k_armenia
+		liege = k_old_armenia
 	}
 	655.1.1 = {
 		holder = 159871
@@ -1086,6 +1074,7 @@ d_greater_armenia = {
 	}
 	862.1.1 = {
 		holder = 41505
+		liege = k_armenian_principality
 	}
 	#884 Armenia independant from Abbasid
 	
@@ -1392,9 +1381,9 @@ c_vanand = {
 
 c_khachen = {
 	#VIIth century onwards : Arab rule
-	654.1.1 = {
-		liege = e_arabia
-	}
+	#654.1.1 = {
+	#	liege = e_arabia
+	#}
 	#821 : Principality of Khachen
 	821.1.1 = {
 		liege = 0
@@ -1429,9 +1418,9 @@ c_khachen = {
 	}
 	
 	#1045 : Bagratid Armenia dissolution
-	1045.1.1 = {
-		liege = d_greater_armenia
-	}
+	#1045.1.1 = {
+	#	liege = d_greater_armenia
+	#}
 	
 	#1064 : Seljuk take Ani/Armenia
 	1064.1.1 = {

@@ -187,7 +187,7 @@ tribal_convert_to_islamic_decision = { # For recently converted tribal Muslim ru
 			has_realm_law = tribal_authority_0
 			has_realm_law = tribal_authority_1
 		}
-		custom_description = {
+		custom_tooltip = {
 			text = faith_is_islam
 			subject = root
 			faith = { religion_tag = islam_religion }
@@ -243,7 +243,7 @@ convert_to_islamic_decision = { # For recently converted Muslim rulers that want
 			has_realm_law = crown_authority_0
 			has_realm_law = crown_authority_1
 		}
-		custom_description = {
+		custom_tooltip = {
 			text = faith_is_islam
 			subject = root
 			faith = { religion_tag = islam_religion }
@@ -307,7 +307,7 @@ tribal_convert_to_islamic_liege_converted_decision = {
 			has_realm_law = tribal_authority_2
 			has_realm_law = tribal_authority_3
 		}
-		custom_description = {
+		custom_tooltip = {
 			text = faith_is_islam
 			subject = root
 			faith = { religion_tag = islam_religion }
@@ -375,7 +375,7 @@ convert_to_islamic_liege_converted_decision = { # For non-tribal Muslim rulers t
 			has_realm_law = crown_authority_0
 			has_realm_law = crown_authority_1
 		}
-		custom_description = {
+		custom_tooltip = {
 			text = faith_is_islam
 			subject = root
 			faith = { religion_tag = islam_religion }
@@ -451,7 +451,7 @@ tribal_convert_whole_realm_to_islamic_decision = {
 			has_realm_law = tribal_authority_2
 			has_realm_law = tribal_authority_3
 		}
-		custom_description = {
+		custom_tooltip = {
 			text = faith_is_islam
 			subject = root
 			faith = { religion_tag = islam_religion }
@@ -546,7 +546,7 @@ convert_whole_realm_to_islamic_decision = {
 			has_realm_law = crown_authority_2
 			has_realm_law = crown_authority_3
 		}
-		custom_description = {
+		custom_tooltip = {
 			text = faith_is_islam
 			subject = root
 			faith = { religion_tag = islam_religion }
@@ -636,8 +636,8 @@ pay_zakat_decision = {
 	}
 
 	effect = {
-		custom_description = {
-			text = "pay_the_zakat"
+		custom_tooltip = {
+			text = will_pay_the_zakat
 			trigger_event = tib_pay_zakat_decisions.0001
 		}
 		add_character_modifier = {

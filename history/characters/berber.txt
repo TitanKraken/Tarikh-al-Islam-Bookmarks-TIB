@@ -3031,7 +3031,7 @@
 	}
 	1318.7.22 = {
 		death = {
-			death_reason = death_assasination
+			death_reason = death_assassination
 			killer = 33049 # His son Abu Tashfin
 		}
 	}

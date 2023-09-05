@@ -1,0 +1,42 @@
+﻿destroy_rum_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+	major = yes
+	ai_check_interval = 60 	# every 5 years, not that AI will be able to pull this off lol
+	title = destroy_rum_title
+	desc = destroy_rum_desc
+	selection_tooltip = destroy_rum_tooltip
+	confirm_text = destroy_rum_confirm
+
+	is_shown = {
+		# Must be Byzantium
+		has_primary_title = title:e_byzantium
+		# Can't be Muslim (that'd be awkward)
+		NOT = {
+			religion = religion:islam_religion
+		}
+		# Rum must exist
+		exists = title:k_rum
+		exists = title:k_rum.holder
+	}
+
+	# Must own a significant part of Asia Minor
+	is_valid = {
+		completely_controls_region = custom_rum
+	}
+
+	# Effect restores de jure Kingdoms of Pontus, Anatolia, and Nikaea
+	effect = {
+		reverse_de_jure_asia_minor = yes
+		trigger_event = {
+			id = seljuk_invasion_events.0008
+		}
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

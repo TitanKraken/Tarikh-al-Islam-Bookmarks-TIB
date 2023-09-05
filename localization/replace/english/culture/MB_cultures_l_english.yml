@@ -25,20 +25,10 @@
  egyptian_coptic:0 "Coptic"
  egyptian_coptic_prefix:0 "Copto"
  egyptian_coptic_collective_noun:1 "Copts"
- 
- udi:0 "Arranian"
- udi_prefix:0 "Arrano"
- udi_collective_noun:1 "Arranians"
- 
- 
-                                       
+
  caucasian_avar:0 "Avar"
  caucasian_avar_prefix:0 "Avaro"
  caucasian_avar_collective_noun:1 "Avars"
-
- 
- 
- 
  
  karelian:0 "Karelian"
  karelian_prefix:0 "Karelo"

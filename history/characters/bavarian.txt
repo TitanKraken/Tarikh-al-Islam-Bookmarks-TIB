@@ -9087,7 +9087,7 @@ Otakeren1 = {
 		employer = 70622
 	}
 	1082.1.1 = {
-		add_trait = hunter	#Add adult trait
+		add_trait = lifestyle_hunter # Add adult trait
 	}
 	1115.11.20 = {
 		death = "1115.11.20"

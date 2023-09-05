@@ -28,7 +28,9 @@ sayyida_al_aziziyya_001 = {
 	}
 	968.1.1 = {
 		add_spouse = 3090 # al-'Aziz al-Fatimi
-		set_relation_lover = 3090
+		effect = {
+			set_relation_lover = { reason = lover_history target = character:3090 } # Emir al-Mu'tamid of Seville
+		}
 		religion = coptic # Probably switch to the local Egyptian Orthodox church
 	}
 	995.11.1 = {

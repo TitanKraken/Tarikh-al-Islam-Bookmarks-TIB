@@ -722,7 +722,7 @@
 	}
 }
 248805 = {
-	name = "Abu Bakr" # fictional
+	name = "Abu_Bakr" # fictional
 	dynasty = 1059962
 	religion = ashari
 	culture = butr
@@ -2118,7 +2118,7 @@ tagelmust0006 = {
 	}
 }
 tagelmust0015 = {
-	name = "Ya'qub"
+	name = "Ya_qub"
 	dynasty = 1069088
 	religion = ashari
 	culture = tagelmust # butr
@@ -2267,7 +2267,7 @@ tagelmust00012 = {
 	religion = ashari
 	culture = tagelmust # butr
 	father = 273097
-	851.1.1 = {
+	841.1.1 = {
 		birth = yes
 	}
 	901.1.1 = {

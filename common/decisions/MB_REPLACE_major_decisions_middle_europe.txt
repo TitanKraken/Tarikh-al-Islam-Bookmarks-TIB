@@ -31,12 +31,12 @@ unify_burgundy_kingdom_decision = {
 				has_title = title:e_hre
 			}
 		}
-		capital_province = { geographical_region = k_burgundy }
+		capital_province = { geographical_region = custom_burgundy }
 	}
 	
 	is_valid = {
 		prestige_level >= high_prestige_level
-		completely_controls_region = k_burgundy
+		completely_controls_region = custom_burgundy
 	}
 
 	is_valid_showing_failures_only = {
@@ -288,7 +288,7 @@ settle_southern_bavaria = {
 	
 	effect = {
 		every_county_in_region = {
-			region = germanized_bavaria_areas
+			region = custom_bavaria # germanized_bavaria_areas
 			limit = {
 				NOT = { culture = { has_cultural_pillar = heritage_central_germanic } }
 			}

@@ -1,7 +1,7 @@
 ﻿
 clan_government = {
 	primary_holding = castle_holding
-	primary_heritages = { heritage_arabic heritage_iranian heritage_turkic heritage_mongolic heritage_berber heritage_goidelic heritage_horn_african }
+	primary_heritages = { heritage_arabic heritage_iranian heritage_turkic heritage_mongolic heritage_berber heritage_goidelic }
 	
 	fallback = 2
 	
@@ -99,29 +99,6 @@ mercenary_government = {
 	color = hsv{ 0.00 0.00 0.66 }
 }
 
-# Holy order will always get this
-holy_order_government = {
-	court_generate_spouses = yes
-	court_generate_commanders = 10
-	council = yes
-	primary_holding = castle_holding
-
-	required_county_holdings = { castle_holding city_holding church_holding }
-
-	ai = {
-		arrange_marriage = yes
-		use_goals = yes
-		use_scripted_guis = yes
-		perform_religious_reformation = yes
-	}
-
-	vassal_contract = { theocracy_government_obligations }
-
-	valid_holdings = { castle_holding city_holding church_holding }
-	flag = government_is_holy_order
-	color = hsv{ 0.00 0.00 0.66 }
-}
-
 # TIB Governments
 
 islamic_government = {
@@ -155,9 +132,10 @@ islamic_government = {
 
 	character_modifier = {
 		title_creation_cost_mult = -0.07
-		levy_size = -0.50
+		levy_size = -0.30
+		short_reign_duration_mult = 0.25
 
-		vassal_tax_mult = 0.07
+		#vassal_tax_mult = 0.07
 		ai_war_chance = 0.20
 		monthly_income_mult = 0.50
 		army_maintenance_mult = -0.05
@@ -213,64 +191,4 @@ islamic_government = {
 	flag = government_is_islamic
 	flag = government_is_clan
 	color = hsv{ 0.39 0.93 0.54 }
-}
-
-theme_government = {
-	primary_heritages = heritage_byzantine
-	create_cadet_branches = yes
-	rulers_should_have_dynasty = yes
-	dynasty_named_realms = yes
-	royal_court = yes
-
-	fallback = 4
-
-	primary_holding = castle_holding
-	required_county_holdings = { castle_holding city_holding church_holding }
-
-	can_get_government = {
-		NOT = {
-			scope:character = {
-				target_title_tier = tier_kingdom
-				target_title_tier = tier_empire
-			}
-		}
-	}
-
-	effect = {
-		scope:character = {
-			if = {
-				limit = {
-					target_title_tier = tier_kingdom
-					target_title_tier = tier_empire
-				}
-				change_government = theme_government
-			}
-		}
-	}
-
-	vassal_contract = {
-		feudal_government_taxes
-		feudal_government_levies
-		special_contract
-		religious_rights
-		fortification_rights
-		coinage_rights
-		succession_rights
-		war_declaration_rights
-		council_rights
-		title_revocation_rights
-		#jizya_special_rights
-	}
-
-	character_modifier = {
-		levy_size = 2.00
-
-		#vassal_tax_mult = 0.2
-		#monthly_income_mult = 0.15
-		army_maintenance_mult = -0.40 # Subsidised by the state
-	}
-	
-	flag = wage_war_disallowed
-	flag = government_is_feudal
-	color = hsv{ 0.67 1.00 0.78 }
 }

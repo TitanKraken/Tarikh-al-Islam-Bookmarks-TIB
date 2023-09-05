@@ -7,7 +7,7 @@
 #oghuz/oghuz characters
 #Dynasties: 1000101720 - 1000101799
 #Characters: 1230100 - 1230249, 1600000 - 1600249
-                          
+
 ######################################
 #Semi-imaginary ancient chronology of the oghuz (based on names of their clans, dates totaly imaginary but the 24 tribes are present by 769)
 
@@ -518,9 +518,9 @@
 	1008.1.1={
 		add_spouse=1231224
 	}
-	1016.1.1={
-		add_spouse=1231228
-	}
+	#1016.1.1={
+	#	add_spouse=1231228
+	#}
 	1034.1.1={ #?
 		death = yes
 	}
@@ -3356,7 +3356,7 @@ death=yes
 }
 1230248 = {
 	name="Bugha" #al-Saghir, al-Sharabi
-	dynasty=1000103585
+	#dynasty=1000103585
 
 	culture="turkish"
 	religion="ashari"
@@ -3479,7 +3479,7 @@ death=yes
 }
 1600006 = {
 	name="Anushtegin" #Anushtegin ad-Dizbari. oghuz Ghulam originally from Khuttal. Despite initial defeats in his military career, while governing Palestinian cities like Caesarea and Baalbek against the Jarrahids, he was sent at the head of a fresh army in 1029 to counter their rebellion. He developed a great amount of popularity amongst the Syrian populace for ending Bedouin brigandage and for generally ruling justly and beauty_good_1ly
-	dynasty=1000103591
+	#dynasty=1000103591
 	religion="ashari"
 	culture="karluk"
 	trait="education_martial_2"
@@ -3689,7 +3689,7 @@ death=yes
 		culture="turkish"
 		
 	}
-	1066.1.1={ #?
+	1067.1.1={ #?
 		death=yes
 	}
 }

@@ -13,7 +13,7 @@
         tradition_fervent_temple_builders
 	}
 	
-	name_list = name_list_nubian
+	name_list = name_list_coptic
 	
 	coa_gfx = { east_african_coa_gfx }
 	building_gfx = { african_building_gfx mena_building_gfx }

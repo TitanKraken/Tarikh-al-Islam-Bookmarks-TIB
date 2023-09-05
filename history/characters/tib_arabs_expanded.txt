@@ -29,7 +29,7 @@ muhammad_al_thaqafi = {
 	dynasty_house = house_Thaqafi
 	religion = "ashari"
 	culture = "bedouin"
-	father = yusuf_al_Thaqafi_old
+	father = yusuf_al_thaqafi_old
 	trait = diligent
 	651.1.1 = {
 		birth = yes
@@ -45,7 +45,7 @@ umm_al_hajjaj = {
 	dynasty_house = house_Thaqafi
 	religion = "ashari"
 	culture = "bedouin"
-	father = muhammad_al_Thaqafi
+	father = muhammad_al_thaqafi
 	671.1.1 = {
 		birth = yes
 	}
@@ -59,7 +59,7 @@ yusuf_al_thaqafi = { #Governor of Medina probably after coronation of Caliph Uma
 	dynasty_house = house_Thaqafi
 	religion = "ashari"
 	culture = "bedouin"
-	father = muhammad_al_Thaqafi
+	father = muhammad_al_thaqafi
 	677.1.1 = {
 		birth = yes
 	}
@@ -86,7 +86,7 @@ yusuf_ibn_umar_al_thaqafi = {
 	dynasty_house = house_Thaqafi
 	religion = "ashari"
 	culture = "bedouin"
-	father = umar_al_Thaqafi
+	father = umar_al_thaqafi
 	698.1.1 = {
 		birth = yes
 	}

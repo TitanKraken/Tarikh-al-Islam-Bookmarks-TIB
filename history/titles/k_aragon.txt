@@ -113,7 +113,7 @@ d_barcelona = {
 	878.9.11 = {
 		holder = 70150 # Guifr� I de Barcelona
 	}
-	884.12.12 = {
+	886.1.1 = {
 		liege = k_france
 	}
 	888.1.13 = {
@@ -860,7 +860,7 @@ c_lleida = {
 	}
 	898.10.8 = {
 		holder = 200026 # Walih Lubb ibn Muhammad of Toledo
-		liege = d_toledo
+		#liege = d_toledo
 	}
 	907.9.30 = {
 		holder = andalusian0082 # Sheik Muhammad al-Tawil of Huesca
@@ -927,7 +927,7 @@ c_lleida = {
 	}
 	1135.1.1 = {
 		holder = 206510 # Gartzia VI Jimena
-		liege = d_navarra #Ceded by Alfonso VII of Castille who had conquered it
+		#liege = d_navarra #Ceded by Alfonso VII of Castille who had conquered it
 	}
 	1136.1.1 = {
 		holder = 70233 # Ramiro II Jimena
@@ -1068,7 +1068,7 @@ c_tarragona = {
 	}
 	1135.1.1 = {
 		holder = 206510 # Gartzia VI Jimena
-		liege = d_navarra #Ceded by Alfonso VII of Castille who had conquered it
+		#liege = d_navarra #Ceded by Alfonso VII of Castille who had conquered it
 	}
 	1136.1.1 = {
 		holder = 70233 # Ramiro II Jimena
@@ -1267,8 +1267,8 @@ c_zaragoza = {
  
 	767.1.1 = {
 		holder = 200046 # Walih Husayn ibn Yahya of Zaragoza
-		liege = d_aragon
-		government = clan_government
+		#liege = d_aragon
+		government = islamic_government
 	}
 	788.6.10 = {
 		holder = 73810 # Walih Musa ibn Furtun of Zaragoza
@@ -1368,7 +1368,7 @@ c_zaragoza = {
 	}
 	1135.1.1 = {
 		holder = 206510 # Gartzia VI Jimena
-		liege = d_navarra #Ceded by Alfonso VII of Castille who had conquered it
+		#liege = d_navarra #Ceded by Alfonso VII of Castille who had conquered it
 	}
 	1136.1.1 = {
 		holder = 70233 # Ramiro II Jimena
@@ -1412,8 +1412,8 @@ c_albarracin = {
 
 	767.1.1 = {
 		holder = 200046 # Walih Husayn ibn Yahya of Zaragoza
-		liege = d_aragon
-		government = clan_government
+		#liege = d_aragon
+		government = islamic_government
 	}
 	788.6.10 = {
 		holder = 73810 # Walih Musa ibn Furtun of Zaragoza
@@ -1488,7 +1488,7 @@ c_albarracin = {
 	}
 	1143.1.1 = {
 		holder = 224014 # Hakam Laridid
-		liege = k_valencia
+		#liege = k_valencia
 	}
 	1170.1.1 = {
 		liege = k_navarra
@@ -1526,7 +1526,7 @@ c_alto_aragon = {
  
 	799.1.1 = {
 		holder = frankish0005 # Duke Aureolo of Aragon
-		liege = k_navarra
+		#liege = k_navarra
 	}
 	806.1.1 = {
 		holder = 70300 # Duke Aznar I of Aragon
@@ -1607,7 +1607,7 @@ c_sobrarbe = {
  
 	799.1.1 = {
 		holder = frankish0005 # Duke Aureolo of Aragon
-		liege = k_navarra
+		#liege = k_navarra
 	}
 	806.1.1 = {
 		holder = 70300 # Duke Aznar I of Aragon
@@ -1688,7 +1688,7 @@ c_huesca = {
  
 	799.1.1 = {
 		holder = frankish0005 # Duke Aureolo of Aragon
-		liege = k_navarra
+		#liege = k_navarra
 	}
 	806.1.1 = {
 		holder = 70300 # Duke Aznar I of Aragon
@@ -1771,8 +1771,8 @@ c_calatayud = {
 
 	767.1.1 = {
 		holder = 200046 # Walih Husayn ibn Yahya of Zaragoza
-		liege = d_aragon
-		government = clan_government
+		#liege = d_aragon
+		government = islamic_government
 	}
 	788.6.10 = {
 		holder = 73810 # Walih Musa ibn Furtun of Zaragoza
@@ -1908,8 +1908,8 @@ c_calatayud = {
 c_fraga = {
 	767.1.1 = {
 		holder = 200046 # Walih Husayn ibn Yahya of Zaragoza
-		liege = d_aragon
-		government = clan_government
+		#liege = d_aragon
+		government = islamic_government
 	}
 	788.6.10 = {
 		holder = 73810 # Walih Musa ibn Furtun of Zaragoza
@@ -1944,7 +1944,7 @@ c_fraga = {
 	}
 	896.1.1 = {
 		holder = 200026 # Walih Lubb ibn Muhammad of Toledo
-		liege = d_toledo
+		#liege = d_toledo
 	}
 	907.9.30 = {
 		holder = andalusian0082 # Sheik Muhammad al-Tawil of Huesca
@@ -2015,7 +2015,7 @@ c_fraga = {
 	}
 	1135.1.1 = {
 		holder = 206510 # Gartzia VI Jimena
-		liege = d_navarra #Ceded by Alfonso VII of Castille who had conquered it
+		#liege = d_navarra #Ceded by Alfonso VII of Castille who had conquered it
 	}
 	1136.1.1 = {
 		holder = 70233 # Ramiro II Jimena
@@ -2247,9 +2247,9 @@ c_alcaniz = {
 		holder = 73622 # Zayyan Mardanishid
 		liege = d_valencia
 	}
-	1228.1.1 = {
-		liege = d_murcia
-	}
+	#1228.1.1 = {
+	#	liege = d_murcia
+	#}
 	1234.1.1 = {
 		holder = 210516 # Nuno San� de Barcelona
 		liege = k_aragon

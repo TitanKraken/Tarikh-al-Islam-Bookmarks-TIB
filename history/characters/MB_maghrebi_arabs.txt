@@ -9,7 +9,7 @@
 	name="Sitt Misr" #Sitt Misr, noted daughter of al-Hakim (oddly missing from our files) died in 1063
 	female=yes
 	dynasty_house = house_Fatimid
-	religion="ismaili"
+	religion="ismailite"
 	culture="maghrebi"
 	trait="sayyid"
 	father=3092
@@ -28,7 +28,7 @@
 1234962 = {
 	name="Abd-Allah" #Elder Brother of al-Aziz, pre-deceased their father so al-Aziz inherited instead
 	dynasty_house = house_Fatimid
-	religion="ismaili"
+	religion="ismailite"
 	culture="maghrebi"
 	trait="sayyid"
 	father=32903
@@ -42,7 +42,7 @@
 1234963 = {
 	name="Tamim" #Eldest brother of al-Aziz, was deliberately bypassed by his father when choosing his successor
 	dynasty_house = house_Fatimid
-	religion="ismaili"
+	religion="ismailite"
 	culture="maghrebi"
 	trait="sayyid"
 	father=32903
@@ -57,7 +57,7 @@
 	name="Amina" #Wife of al-Hakim, his cousin, daughter of his uncle Abd-Allah
 	female=yes
 	dynasty_house = house_Fatimid
-	religion="ismaili"
+	religion="ismailite"
 	culture="maghrebi"
 	trait="sayyid"
 	father=1234962
@@ -72,7 +72,7 @@
 	name="Sitt al-Malik" #Known sister of al-Aziz
 	female=yes
 	dynasty_house = house_Fatimid
-	religion="ismaili"
+	religion="ismailite"
 	culture="maghrebi"
 	trait="sayyid"
 	father=32903
@@ -88,7 +88,7 @@
 	name="Rashida" #Known sister of al-Aziz, died in 1050 in her 90'ies
 	female=yes
 	dynasty_house = house_Fatimid
-	religion="ismaili"
+	religion="ismailite"
 	culture="maghrebi"
 	trait="sayyid"
 	father=32903
@@ -103,7 +103,7 @@
 	name="'Abda" #Known sister of al-Aziz, died in 1050 in her 90'ies
 	female=yes
 	dynasty_house = house_Fatimid
-	religion="ismaili"
+	religion="ismailite"
 	culture="maghrebi"
 	trait="sayyid"
 	father=32903
@@ -118,7 +118,7 @@
 	name="Durzan" #Mother of al-Aziz and likely also of Sitt al-Malik. Was also know by her nickname "Taghrid" literally Twittering, due to her beautiful voice. Could be a dynasty name
 	female=yes
 	dynasty=1000103872
-	religion="ismaili"
+	religion="ismailite"
 	culture="maghrebi"
 
 
@@ -133,7 +133,7 @@
 1234970 = {
 	name="Muhammad" #Elder brother of al-Hakim and originally the Fatimid heir until he died in 993
 	dynasty_house = house_Fatimid
-	religion="ismaili"
+	religion="ismailite"
 	culture="maghrebi"
 	trait="sayyid"
 	father=3090
@@ -148,7 +148,7 @@
 	name="Habah" #Known sister of al-Muizz
 	female=yes
 	dynasty_house = house_Fatimid
-	religion="ismaili"
+	religion="ismailite"
 	culture="maghrebi"
 	trait="sayyid"
 	father=32902
@@ -163,7 +163,7 @@
 	name="Arwa" #Known sister of al-Muizz
 	female=yes
 	dynasty_house = house_Fatimid
-	religion="ismaili"
+	religion="ismailite"
 	culture="maghrebi"
 	trait="sayyid"
 	father=32902
@@ -178,7 +178,7 @@
 	name="Asma" #Known sister of al-Muizz
 	female=yes
 	dynasty_house = house_Fatimid
-	religion="ismaili"
+	religion="ismailite"
 	culture="maghrebi"
 	trait="sayyid"
 	father=32902
@@ -193,7 +193,7 @@
 	name="Umm Salama" #Known sister of al-Muizz
 	female=yes
 	dynasty_house = house_Fatimid
-	religion="ismaili"
+	religion="ismailite"
 	culture="maghrebi"
 	trait="sayyid"
 	father=32902
@@ -207,7 +207,7 @@
 1234975 = {
 	name="Ibrahim" #Unnamed cousin of Sitt al-Mulk, whom ibn-Qalanisi and other sources record Sitt al-Mulk attempted to place on the throne after the death of her father in a coup d'etat. Whether she was in love with said cousin or not, is a matter of debate as Cortese talks a bit about
 	dynasty_house = house_Fatimid
-	religion="ismaili"
+	religion="ismailite"
 	culture="maghrebi"
 	trait="sayyid"
 	father=1234962

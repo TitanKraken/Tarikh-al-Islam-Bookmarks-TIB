@@ -37,7 +37,7 @@
 	1144.1.1 = {
 		add_pressed_claim = title:e_maghreb
 		add_pressed_claim = title:k_maghreb
-		add_pressed_claim = title:d_tangiers
+		add_pressed_claim = title:d_rif
 		add_pressed_claim = title:d_fes
 		add_pressed_claim = title:d_alger
 		add_pressed_claim = title:k_africa
@@ -55,7 +55,7 @@
 		am_buff_effect = yes
 	}
 	1146.1.1 = {
-		remove_claim = title:d_tangiers
+		remove_claim = title:d_rif
 		remove_claim = title:d_fes
 	}
 	1147.1.1 = {
@@ -313,9 +313,9 @@ almohad1014 = {
 	1169.1.1 = {
 		birth = yes
 	}
-	1184.1.1 = {
-		disallow_random_traits = yes
-	}
+	#1184.1.1 = {
+	#	disallow_random_traits = yes
+	#}
 	1224.9.6 = {
 		give_nickname = nick_makhlu
 	}
@@ -456,7 +456,7 @@ almohad0006_ibn_almanzor = {
 	}
 	1242.12.2 = {
 		trait = pneumonic # Poor guy got drowned in a pool and died 3 days later :(
-		health = 0.1
+		#health = 0.1
 	}
 	1242.12.5 = {
 		death = {
@@ -499,9 +499,9 @@ almohad0006_ibn_almanzor = {
 		birth = "1171.1.1"
 		give_nickname = nick_tahir
 	}
-	1184.1.1 = {
-		disallow_random_traits = yes
-	}
+	#1184.1.1 = {
+	#	disallow_random_traits = yes
+	#}
 	1236.1.1 = {
 		death = "1236.1.1"
 	}
@@ -622,7 +622,7 @@ almohad_descendants_006 = { # Previously governor of Malaga in 1202, Silves and 
 
 155086 = {
 	name = "Abu_Sa_id__Uthman"
-	dna = 155086_uthman_almohad_dna
+	#dna = 155086_uthman_almohad_dna
 	dynasty = 101875
 	religion = "masmudi"
 	culture = masmuda
@@ -863,9 +863,9 @@ almohad0013 = {
 		birth = "1168.5.4"
 		give_nickname = nick_rashid
 	}
-	1184.1.1 = {
-		disallow_random_traits = yes
-	}
+	#1184.1.1 = {
+	#	disallow_random_traits = yes
+	#}
 	1190.1.1 = {
 		death = {
 			death_reason = death_execution # Executed at Sale
@@ -884,9 +884,9 @@ almohad0014 = {
 	1165.10.4 = {
 		birth = yes
 	}
-	1184.1.1 = {
-		disallow_random_traits = yes
-	}
+	#1184.1.1 = {
+	#	disallow_random_traits = yes
+	#}
 	1225.12.1 = {
 		death = yes
 	}
@@ -930,7 +930,7 @@ almohad0022 = {
 	religion = "masmudi"
 	culture = "masmuda"
 	sexuality = heterosexual
-	father = 1230059
+	father = almohad0021
 	1196.1.1 = { #?
 		birth = yes
 	}
@@ -1135,7 +1135,6 @@ almohad_descendants_005 = {
 	trait = beauty_good_2
 	trait = intellect_good_1
 	disallow_random_traits = yes
-	sexuality = heterosexual
 	1322.1.1 = {
 		birth = yes
 	}

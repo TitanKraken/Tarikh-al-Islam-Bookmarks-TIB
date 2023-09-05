@@ -46,14 +46,14 @@
 	}
 }
 
-house_Kvirikian = { # kvirikian
-
-	textured_emblem = {
-		texture = "kviri.dds"
-
-
-	}
-}
+#house_Kvirikian = { # kvirikian
+#
+#	textured_emblem = {
+#		texture = "kviri.dds"
+#
+#
+#	}
+#}
 
 house_Tornikes = { # tornikes
 	pattern = "pattern_solid.dds"

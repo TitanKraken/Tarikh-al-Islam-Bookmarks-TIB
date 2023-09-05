@@ -1,0 +1,39 @@
+﻿EPE_boris_I_krum = { #Boris I of Bulgaria
+	name = "Boris"
+	dna = 70382_boris_I_krum
+	religion = "pagan"
+	culture = greek
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_marija_krum = { #Wife of of Boris I.
+	name = "Marija"
+	female = yes
+	dna = 168075_marija_krum
+	religion = "pagan"
+	culture = greek
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+EPE_simeon_the_great = { #Simeon the Great of Bulgaria.
+	name = "Simeon"
+	dna = 712_simeon_the_great
+	religion = "pagan"
+	culture = greek
+	2.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}

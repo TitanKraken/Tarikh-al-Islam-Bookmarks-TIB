@@ -1,4 +1,4 @@
-ardo = {
+﻿ardo = {
 	name = "Ardo"
 	dynasty = house_ardonusing
 	martial = 5

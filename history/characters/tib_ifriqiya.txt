@@ -244,7 +244,7 @@ andalusia_governor_008 = {
 	}
 }
 andalusia_governor_009 = {
-	name = "Fridiric"
+	name = "Hildemir"
 	religion = adoptionist
 	culture = suebi
 	sexuality = heterosexual

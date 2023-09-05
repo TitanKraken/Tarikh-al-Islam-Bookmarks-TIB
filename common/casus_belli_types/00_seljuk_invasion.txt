@@ -1,0 +1,1607 @@
+﻿# First, this casus belli is very similar to the regular 'conquest' casus belli, except 
+# for the event that Alp Arslan/whoever the Seljuk ruler is will get after that.
+# Additionally, makes the war easier for the Seljuks to win more quickly.
+# Go to line ~900 for the special CB
+seljuk_armenia_cb = {
+	group = claim
+	mutually_exclusive_titles = {
+		NOT = {
+			# If pushing personal claims, you can press multiple claims with the Divine Right innovation (High Medieval Era).
+			trigger_if = {
+				limit = {
+					scope:attacker = scope:claimant
+				}
+				scope:attacker = {
+					culture = {
+						has_innovation = innovation_divine_right
+					}
+				}
+			}
+			# If pushing claims for someone else, you need the Rightful Ownership innovation to press multiple claims (Late Medieval Era).
+			trigger_else = {
+				scope:attacker = {
+					culture = {
+						has_innovation = innovation_rightful_ownership
+					}
+				}
+			}
+		}
+	}
+
+	allowed_for_character = {
+		has_title = title:e_persia
+	}
+
+	allowed_against_character = {
+		completely_controls = title:c_vaspurakan
+	}
+
+	# Root is the title
+	# scope:claimant is the claimant
+	# scope:attacker is the attacker
+	# scope:defender is the defender
+	is_allowed_claim_title = {
+		custom_description = {
+			text = "claimant_titles_held_by_you_or_vassal"
+			NOR = {
+				holder = scope:attacker
+				holder = {
+					target_is_liege_or_above = scope:attacker
+				}
+			}
+		}
+		scope:claimant = {
+			NOT = { has_trait = incapable }
+			trigger_if = {
+				limit = { NOT = { scope:claimant = scope:attacker } } # You can always press your own claims
+				is_imprisoned = no
+			}
+			#religion = scope:attacker.religion
+			# claimant must not be at war against defender for this claim already
+			custom_description = {
+				text = "claimant_already_pressing_their_claim"
+				object = root
+				NAND = {
+					liege = scope:attacker
+					any_character_war = {
+						casus_belli = {
+							any_target_title = {
+								this = root
+							}
+						}
+					}
+				}
+			}
+		}
+		scope:attacker = {
+			#Cannot press claims against your own vassals, as these must be revoked.
+			custom_description = {
+				text = "claimant_titles_held_by_attacker_vassals"
+				NOT = {
+					any_vassal_or_below = {
+						has_title = root
+					}
+				}
+			}
+		}
+		trigger_if = {
+			limit = {
+				NOT = { scope:claimant = scope:attacker } # You can always press your own claims (though the prestige cost might be high)
+			}
+			trigger_if = {
+				limit = {
+					is_weak_claimant_due_to_gender_trigger = { FAITH = scope:attacker.faith CHARACTER = scope:claimant }
+				}
+				trigger_if = {
+					limit = {
+						scope:claimant = { is_adult = yes }
+					}
+					save_temporary_scope_as = treat_claim_as_weak
+				}
+				trigger_else = {
+					always = no
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					scope:claimant = { is_adult = no }
+				}
+				save_temporary_scope_as = treat_claim_as_weak
+			}
+			# making the default behavior explicit if no other trigger_(else_)ifs are valid
+			trigger_else = {
+				always = yes
+			}
+		}
+		trigger_if = {
+			limit = { exists = scope:treat_claim_as_weak }
+			holder = {
+				custom_description = {
+					text = "claim_target_position_is_weak"
+					object = scope:attacker
+					OR = {
+						has_trait = incapable
+						is_adult = no
+						is_weak_claimant_due_to_gender_trigger = { FAITH = scope:attacker.faith CHARACTER = root.holder }
+					}
+				}
+			}
+		}
+	}
+
+	cost = {
+		piety = {
+			value = 0
+			if = { # Attacking your HoF is impious
+				limit = {
+					exists = scope:attacker.faith.religious_head
+					scope:attacker.faith.religious_head = scope:defender
+				}
+				if = {
+					limit = {
+						scope:attacker.faith = {
+							has_doctrine = doctrine_spiritual_head
+						}
+					}
+					add = {
+						value = massive_piety_value
+						desc = CB_ATTACKER_HOF
+					}
+				}
+				else = {
+					add = {
+						value = medium_piety_value
+						desc = CB_ATTACKER_HOF
+					}
+				}
+			}
+			if = {
+				limit = {
+					scope:attacker.faith = scope:defender.faith
+					scope:defender = {
+						has_government = theocracy_government
+					}
+				}
+				add = {
+					value = medium_piety_value
+					desc = CB_ATTACKER_THEOCRACY
+				}
+			}
+		}
+		prestige = {
+			value = 0
+			if = {
+				# Prestige cost can vary significantly for personal claims, based on the situation(s) the claimant/defender are in.
+				limit = { scope:claimant = scope:attacker }
+
+				add = {
+					every_in_list = {
+						list = target_titles
+						limit = { tier = tier_county }
+						add = {
+							value = 100
+							if = {
+								# 25% cheaper to take Pressed claims.
+								limit = { scope:attacker = { has_strong_claim_on = prev } }
+								add = -25
+							}
+						}
+					}
+					every_in_list = {
+						list = target_titles
+						limit = { tier = tier_duchy }
+						add = {
+							value = 200
+							if = {
+								# 25% cheaper to take Pressed claims.
+								limit = { scope:attacker = { has_strong_claim_on = prev } }
+								add = -50
+							}
+						}
+					}
+					every_in_list = {
+						list = target_titles
+						limit = { tier = tier_kingdom }
+						add = {
+							value = 400
+							if = {
+								# 25% cheaper to take Pressed claims.
+								limit = { scope:attacker = { has_strong_claim_on = prev } }
+								add = -100
+							}
+						}
+					}
+					every_in_list = {
+						list = target_titles
+						limit = { tier = tier_empire }
+						add = {
+							value = 800
+							if = {
+								# 25% cheaper to take Pressed claims.
+								limit = { scope:attacker = { has_strong_claim_on = prev } }
+								add = -200
+							}
+						}
+					}
+
+					desc = "CB_CLAIM_COST_TARGET_TITLES"
+				}
+				if = { # 50% cheaper for adults to take titles from child rulers.
+					limit = {
+						scope:attacker = { is_adult = yes }
+						scope:defender = { is_adult = no }
+					}
+					multiply = {
+						value = 0.5
+						desc = "CB_COST_DEFENDER_IS_CHILD"
+					}
+				}
+				else_if = { # 50% more expensive for children to take titles from adult rulers.
+					limit = {
+						scope:attacker = { is_adult = no }
+						scope:defender = { is_adult = yes }
+					}
+					multiply = {
+						value = 1.5
+						desc = "CB_COST_ATTACKER_IS_CHILD"
+					}
+				}
+				if = { # 50% cheaper to take titles from a dynasty member.
+					limit = {
+						scope:attacker.dynasty = scope:defender.dynasty
+					}
+					multiply = {
+						value = 0.5
+						desc = "CB_COST_SAME_DYNASTY"
+					}
+				}
+
+				if = {
+					limit = { # If claimant & target share a faith, cost is modified by gender preferences.
+						scope:attacker.faith = scope:defender.faith
+						scope:attacker = {
+							sex_opposite_of = scope:defender
+						}
+						OR = {
+							scope:attacker.faith = { has_doctrine = doctrine_gender_male_dominated }
+							scope:attacker.faith = { has_doctrine = doctrine_gender_female_dominated }
+						}
+					}
+					multiply = {
+						if = {
+							limit = {
+								scope:attacker.faith = { has_doctrine = doctrine_gender_male_dominated }
+							}
+							if = {
+								limit = { # 25% cheaper for men to press claims on female rulers in male-dominated societies.
+									scope:attacker = { is_male = yes }
+									scope:defender = { is_male = no }
+								}
+								value = 0.75
+							}
+							else_if = {
+								limit = { # 25% more expensive for women to press claims on male rulers in male-dominated societies.
+									scope:attacker = { is_male = no }
+									scope:defender = { is_male = yes }
+								}
+								value = 1.25
+							}
+							else = {
+								value = 1
+							}
+						}
+						else_if = {
+							limit = {
+								scope:attacker.faith = { has_doctrine = doctrine_gender_female_dominated }
+							}
+							if = {
+								limit = { # 25% cheaper for women to press claims on male rulers in female-dominated societies.
+									scope:attacker = { is_male = no }
+									scope:defender = { is_male = yes }
+								}
+								value = 0.75
+							}
+							else_if = {
+								limit = { # 25% more expensive for men to press claims on female rulers in female-dominated societies.
+									scope:attacker = { is_male = yes }
+									scope:defender = { is_male = no }
+								}
+								value = 1.25
+							}
+							else = {
+								value = 1
+							}
+						}
+						else = {
+							value = 1
+						}
+						desc = "CB_CLAIM_COST_GENDER_PREFERENCES"
+					}
+				}
+				else_if = {
+					# Taking titles from someone of another faith costs 25% more, regardless of gender preferences.
+					limit = {
+						NOT = {
+							scope:attacker.faith = scope:defender.faith
+						}
+					}
+					multiply = {
+						value = 1.25
+						desc = "CB_COST_DIFFERENT_FAITH"
+					}
+				}
+
+				if = { # 25% more expensive to take titles from lower-tier rulers (pick on someone your own size!)
+					limit = {
+						scope:attacker.primary_title.tier > scope:defender.primary_title.tier
+					}
+					multiply = {
+						value = 1.25
+						desc = "CB_DEFNDER_LOWER_TIER"
+					}
+				}
+			}
+			else = {
+				# When pressing a 3rd party's claims, the cost is mostly static.
+				add = {
+					every_in_list = {
+						list = target_titles
+						limit = { tier = tier_county }
+						add = 250
+					}
+					every_in_list = {
+						list = target_titles
+						limit = { tier = tier_duchy }
+						add = 500
+					}
+					every_in_list = {
+						list = target_titles
+						limit = { tier = tier_kingdom }
+						add = 1000
+					}
+					every_in_list = {
+						list = target_titles
+						limit = { tier = tier_empire }
+						add = 3000
+					}
+					desc = "CB_CLAIM_COST_TARGET_TITLES"
+				}
+				if = {
+					limit = { # 100% more expensive to press claims for someone not of your Religion
+						NOT = { scope:attacker.faith.religion = scope:claimant.faith.religion }
+					}
+					multiply = {
+						value = 2
+						desc = "CB_CLAIM_COST_CLAIMANT_DIFFERENT_RELIGION"
+					}
+				}
+				if = {
+					limit = { # 50% more expensive to press claims for someone not in your Dynasty
+						NOT = { scope:attacker.dynasty = scope:claimant.dynasty }
+					}
+					multiply = {
+						value = 1.5
+						desc = "CB_CLAIM_COST_CLAIMANT_DIFFERENT_DYNASTY"
+					}
+				}
+				else_if = {
+					limit = { # 25% more expensive to press claims for someone not in your House
+						NOT = { scope:attacker.house = scope:claimant.house }
+					}
+					multiply = {
+						value = 1.25
+						desc = "CB_CLAIM_COST_CLAIMANT_DIFFERENT_HOUSE"
+					}
+				}
+			}
+
+			#Innovation Prestige Discounts
+			if = {
+				limit = {
+					scope:attacker = {
+						culture = {
+							has_innovation = innovation_chronicle_writing
+							has_innovation = innovation_land_grants
+							has_innovation = innovation_rightful_ownership
+						}
+					}
+				}
+				multiply = {
+					value = 0.7
+					desc = "CB_ATTACKER_INNOVATIONS"
+				}
+			}
+			else_if = {
+				limit = {
+					scope:attacker = {
+						culture = {
+							OR = {
+								has_innovation = innovation_chronicle_writing
+								has_innovation = innovation_land_grants
+							}
+							OR = {
+								has_innovation = innovation_land_grants
+								has_innovation = innovation_rightful_ownership
+							}
+							OR = {
+								has_innovation = innovation_chronicle_writing
+								has_innovation = innovation_rightful_ownership
+							}
+						}
+					}
+				}
+				multiply = {
+					value = 0.8
+					desc = "CB_ATTACKER_INNOVATIONS"
+				}
+			}
+			else_if = {
+				limit = {
+					scope:attacker = {
+						culture = {
+							OR = {
+								has_innovation = innovation_chronicle_writing
+								has_innovation = innovation_land_grants
+								has_innovation = innovation_rightful_ownership
+							}
+						}
+					}
+				}
+				multiply = {
+					value = 0.9
+					desc = "CB_ATTACKER_INNOVATIONS"
+				}
+			}
+			
+			# Bellum Justum Perk
+			if = {
+				limit = {
+					scope:attacker = {
+						has_perk = bellum_justum_perk
+					}
+				}
+				multiply = {
+					add = bellum_justum_discount_percentage
+					divide = 100
+					desc = "CB_ATTACKER_BELLUM_JUSTUM"
+				}
+			}
+
+			# Dynasty Warfare Perk
+			if = {
+				limit = {
+					scope:attacker = {
+						has_dynasty = yes
+						dynasty = {
+							has_dynasty_perk = warfare_legacy_2
+						}
+					}
+				}
+				multiply = {
+					value = warfare_legacy_2_discount
+					desc = "CB_ATTACKER_DYNASTY_WARFARE"
+				}
+			}
+
+			# Vassal contract in-realm cost reduction
+			if = {
+				limit = {
+					scope:attacker = {
+						is_independent_ruler = no
+						vassal_contract_has_flag = vassal_contract_war_override
+						liege = scope:defender.liege
+					}
+				}
+				multiply = {
+					value = war_declaration_rights_allowed_cost_reduction
+					desc = "CB_ATTACKER_VASSAL_CONTRACT"
+				}
+			}
+
+			if = {
+				limit = {
+					has_game_rule = no_cost_casus_belli_costs
+				}
+				multiply = {
+					value = 0
+					desc = "CB_GAME_RULE_NO_COST"
+				}
+			}
+		}
+	}
+
+	target_titles = claim
+	#target_title_tier = all
+
+	on_declaration = {
+		on_declared_war = yes
+	}
+
+	# removed "should invalidate"
+
+	on_invalidated_desc = msg_claim_war_invalidated_message
+	
+	on_invalidated = {
+	}
+
+	on_victory_desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					scope:claimant = { is_local_player = yes }
+				}
+				desc = claim_cb_victory_desc_attacker_claimant
+			}
+			triggered_desc = {
+				trigger = { scope:attacker = { is_local_player = yes } }
+				desc = claim_cb_victory_desc_attacker
+			}
+			desc = claim_cb_victory_desc
+		}
+	}
+
+	on_victory = {
+		scope:attacker = { show_pow_release_message_effect = yes }
+		create_title_and_vassal_change = {
+			type = conquest_claim
+			save_scope_as = change
+			add_claim_on_loss = yes
+		}
+		# Create a claim CB which is executed to handle title/vassal changes, in addition to being used to calculate Prestige awards for war participants.
+		setup_claim_cb = {
+			titles = target_titles
+			attacker = scope:attacker
+			defender = scope:defender
+			claimant = scope:claimant
+			change = scope:change
+		}
+
+		resolve_title_and_vassal_change = scope:change
+
+		if = {
+			limit = {
+				NOT = { scope:claimant = scope:attacker }
+				scope:claimant.primary_title.tier < scope:attacker.primary_title.tier
+				trigger_if = {
+					limit = {
+						exists = scope:claimant.liege
+					}
+					NOT = { scope:claimant.liege = scope:attacker }
+				}
+				trigger_else = {
+					always = yes
+				}
+			}
+
+			create_title_and_vassal_change = {
+				type = conquest_claim
+				save_scope_as = change_two
+				add_claim_on_loss = yes
+			}
+			scope:claimant = {
+				change_liege = {
+					liege = scope:attacker
+					change = scope:change_two
+				}
+			}
+			resolve_title_and_vassal_change = scope:change_two
+		}
+
+		if = {
+			limit = {
+				NOT = { scope:claimant = scope:attacker }
+				scope:attacker = {
+					can_add_hook = {
+					  	type = favor_hook
+					  	target = scope:claimant
+					}
+				}
+			}
+			scope:attacker = {
+				add_hook = {
+		  			target = scope:claimant
+		  			type = favor_hook
+		 		}
+			}
+		}
+
+		# Attacker gets Prestige Experience, Defender loses Prestige, all other participants gain Prestige based on their war contribution.
+		modify_all_participants_fame_values = {
+			WINNER = scope:attacker
+			LOSER = scope:defender
+			FAME_BASE = scope:cb_prestige_factor # Set by 'setup_claim_cb'
+			IS_RELIGIOUS_WAR = no
+			WINNER_FAME_SCALE = 10
+			LOSER_FAME_SCALE = -10
+			WINNER_ALLY_FAME_SCALE = 10
+			LOSER_ALLY_FAME_SCALE = 10
+		}
+		
+		scope:attacker = {
+			# Add 15 year truce with Byzantine Emperor if AI (will be circumvented via event), 10 year truce if not AI
+			if = {
+				limit = { is_ai = yes }
+				add_truce_one_way = {
+					character = scope:defender
+					years = 15
+					result = victory
+					war = root.war
+				}
+			}
+			else = {
+				add_truce_one_way = {
+					character = scope:defender
+					years = 10
+					result = victory
+					war = root.war
+				}
+			}
+			
+		}
+		
+		scope:attacker = {
+			# And a 10 year truce with his heir, since Konstantinos X will usually die quickly
+			if = {
+				limit = {
+					exists = scope:defender.primary_heir
+					scope:defender.primary_heir = {
+						is_landed = yes
+					}
+				}
+				if = {
+					limit = { is_ai = yes }
+					add_truce_one_way = {
+						character = scope:defender.primary_heir
+						years = 15
+						result = victory
+						war = root.war
+					}
+				}
+				else = {
+					add_truce_one_way = {
+						character = scope:defender.primary_heir
+						years = 10
+						result = victory
+						war = root.war
+					}
+				}
+			}
+		}
+		
+		# indicate that war for Armenia was won
+		add_to_global_variable_list = {
+			name = seljuk_invasion_progress
+			target = flag:flag_won_armenia
+		}
+		
+		# trigger first of Seljuk Invasion of Asia Minor event chain
+		if = {
+			limit = {
+				scope:attacker = {
+					has_title = title:e_persia
+				}
+			}
+			title:e_persia.holder = {
+				trigger_event = {
+					id = seljuk_invasion_events.0001
+				}
+				# Old way to trigger AI war, different way was implemented
+				#if = {
+				#	limit = {
+				#		is_ai = yes
+				#	}
+				#	trigger_event = {
+				#		id = seljuk_invasion_events.1000
+				#		years = 10
+				#	}
+				#}
+			}
+			title:e_byzantium.holder = {
+				trigger_event = {
+					id = seljuk_invasion_events.0002
+				}
+			}
+		}
+		
+	}
+
+	on_white_peace_desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { scope:defender = { is_local_player = yes } }
+				desc = claim_cb_white_peace_desc_defender
+			}
+			desc = claim_cb_white_peace_desc
+		}
+		
+	}
+
+	on_white_peace = {
+		scope:attacker = { show_pow_release_message_effect = yes }
+
+		# press claims
+		every_in_list = {
+			list = target_titles
+			if = {
+				limit = { scope:claimant = { has_weak_claim_on = prev } }
+				scope:claimant = {
+					make_claim_strong = prev
+				}
+			}
+		}
+
+		# Create an 'helper' claim CB which we won't execute, but can use to determine how much Prestige should be given to war participants.
+		setup_claim_cb = {
+			titles = target_titles
+			attacker = scope:attacker
+			defender = scope:defender
+			claimant = scope:claimant
+			victory = no
+		}
+		# Prestige loss for the attacker
+		scope:attacker = {
+			add_prestige = {
+				value = scope:cb_prestige_factor # Set by 'setup_claim_cb'
+				multiply = -5.0
+			}
+		}
+		# Allies on both sides get full prestige value for helping in the war, based on their war participation.
+		modify_allies_of_participants_fame_values = {
+			WINNER = scope:attacker
+			FAME_BASE = scope:cb_prestige_factor # Set by 'setup_claim_cb'
+			IS_RELIGIOUS_WAR = no
+			WINNER_ALLY_FAME_SCALE = 10
+			LOSER_ALLY_FAME_SCALE = 10
+		}
+		# Defender neither gains nor loses any prestige.
+
+		if = {
+			limit = {
+				NOT = { scope:claimant = scope:attacker }
+				scope:attacker = {
+					can_add_hook = {
+					  	type = favor_hook
+					  	target = scope:claimant
+					}
+				}
+			}
+			scope:attacker = {
+				add_hook = {
+		  			target = scope:claimant
+		  			type = favor_hook
+		 		}
+			}
+		}
+
+		# Truce
+		add_truce_white_peace_effect = yes
+	}
+
+	on_defeat_desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { scope:defender = { is_local_player = yes } }
+				desc = claim_cb_defeat_desc_defender
+			}
+			triggered_desc = {
+				trigger = { scope:claimant = { is_local_player = yes } }
+				desc = claim_cb_defeat_desc_attacker_claimant
+			}
+			triggered_desc = {
+				trigger = { scope:attacker = { is_local_player = yes } }
+				desc = claim_cb_defeat_desc_attacker
+			}
+			desc = claim_cb_defeat_desc
+		}
+		
+	}
+
+	on_defeat = {
+		scope:attacker = { show_pow_release_message_effect = yes }
+
+		# lose claims
+		every_in_list = {
+			list = target_titles
+			scope:claimant = {
+				remove_claim = prev
+			}
+		}
+
+		if = {
+			limit = {
+				NOT = { scope:claimant = scope:attacker }
+				scope:attacker = {
+					can_add_hook = {
+					  	type = favor_hook
+					  	target = scope:claimant
+					}
+				}
+			}
+			scope:attacker = {
+				add_hook = {
+		  			target = scope:claimant
+		  			type = favor_hook
+		 		}
+			}
+		}
+
+		# Attacker pays gold to the defender as reparations.
+		scope:attacker = {
+			pay_short_term_gold = {
+				gold = 3
+				target = scope:defender
+				yearly_income = yes
+			}
+		}
+		# Create an 'helper' claim CB which we won't execute, but can use to determine how much Prestige should be given to war participants.
+		setup_claim_cb = {
+			titles = target_titles
+			attacker = scope:attacker
+			defender = scope:defender
+			claimant = scope:claimant
+			victory = no
+		}
+		# Attacker loses Prestige, all other war participants gain Prestige (Defender gains full prestige, all allies on both sides gain based on war contribution).
+		modify_all_participants_fame_values = {
+			WINNER = scope:defender
+			LOSER = scope:attacker
+			FAME_BASE = scope:cb_prestige_factor # Set by 'setup_claim_cb'
+			IS_RELIGIOUS_WAR = no
+			WINNER_FAME_SCALE = 10
+			LOSER_FAME_SCALE = -10
+			WINNER_ALLY_FAME_SCALE = 10
+			LOSER_ALLY_FAME_SCALE = 10
+		}
+
+		# Truce
+		add_truce_attacker_defeat_effect = yes
+
+		scope:attacker = {
+			save_temporary_scope_as = loser
+		}
+		on_lost_aggression_war_discontent_loss = yes
+	}
+
+	on_primary_attacker_death = inherit
+	on_primary_defender_death = inherit
+
+	transfer_behavior = transfer
+
+	attacker_allies_inherit = yes
+	defender_allies_inherit = yes
+
+	war_name = "CLAIM_WAR_NAME"
+	my_war_name = "CLAIM_WAR_NAME_MY"
+	war_name_base = "CLAIM_WAR_NAME_BASE"
+	cb_name = "CLAIM_CB_NAME"
+	interface_priority = 60
+
+	should_show_war_goal_subview = yes
+
+	attacker_wargoal_percentage = 0.3
+	max_attacker_score_from_battles = 80 # AI focuses a lot more on battles, so this will help finish the war more quickly
+
+	max_ai_diplo_distance_to_title = 1000
+}
+
+# A special casus belli that lets the Seljuks invade all of Asia minor.
+# Given to them once they win the initial invasion of Armenia
+# Modelled after Laudibiliter (England conquest of Ireland CB)
+seljuk_invasion_cb = {
+	group = conquest
+
+	combine_into_one = yes
+	should_show_war_goal_subview = yes
+	mutually_exclusive_titles = { always = no } # want to be able to invade all of Asia Minor at once
+
+	allowed_for_character = {
+		# AI can't declare with this, only the player can (AI declares through event)
+		is_ai = no
+		exists = scope:attacker.house
+		scope:attacker.house = { 
+			has_house_modifier = seljuk_invasion_modifier
+		}
+		scope:attacker = {
+			has_title = title:e_persia # only Emperor of Persia should be able to declare this war
+		}
+	}
+
+	allowed_against_character = { 
+		scope:defender = {
+			is_landed = yes
+			has_title = title:e_byzantium # only use this CB against the Byzantines
+		}
+	}
+	target_titles = all
+	target_title_tier = county
+	target_de_jure_regions_above = yes
+	ignore_effect = change_title_holder
+	ai_only_against_neighbors = yes
+
+	# Only duchies and counties that are listed in my custom_rum, which corresponds to where the Seljuks invaded historically.
+	valid_to_start = {
+		scope:target = {
+			tier = tier_county
+			any_in_de_jure_hierarchy = {
+				tier = tier_county
+				title_capital_county.title_province = { geographical_region = custom_rum }
+			}
+		}
+	}
+
+	should_invalidate = {
+		NOT = {
+			any_in_list = {
+				list = target_titles
+				any_in_de_jure_hierarchy = {
+					tier = tier_county
+					holder = {
+						OR = {
+							this = scope:defender
+							target_is_liege_or_above = scope:defender
+						}
+					}
+				}
+			}
+		}
+	}
+
+	on_invalidated = {	
+	}
+
+	cost = {
+		piety = {
+			if = { # Attacking your HoF is impious
+				limit = {
+					exists = scope:attacker.faith.religious_head
+					scope:attacker.faith.religious_head = scope:defender
+				}
+				if = {
+					limit = {
+						scope:attacker.faith = {
+							has_doctrine = doctrine_spiritual_head
+						}
+					}
+					add = {
+						value = massive_piety_value
+						desc = CB_ATTACKER_HOF
+					}
+				}
+				else = {
+					add = {
+						value = medium_piety_value
+						desc = CB_ATTACKER_HOF
+					}
+				}
+			}
+			if = {
+				limit = { # Attack theocracy (irrelevant)
+					scope:attacker.faith = scope:defender.faith
+					scope:defender = {
+						has_government = theocracy_government
+					}
+				}
+				add = {
+					value = medium_piety_value
+					desc = CB_ATTACKER_THEOCRACY
+				}
+			}
+			value = 0
+			if = {
+				limit = {
+					scope:defender.faith = scope:attacker.faith # same faith cost
+				}
+				add = {
+					value = medium_piety_value
+					desc = CB_SAME_FAITH_COST
+				}
+			}
+			if = {
+				limit = {
+					scope:attacker = { has_government = tribal_government } # tribal lowers cost
+				}
+				multiply = {
+					value = 0.5
+					desc = CB_TRIBAL_COST
+				}
+			}
+
+			#Innovation Piety Discounts (reconquista)
+			if = {
+				limit = {
+					scope:attacker = {
+						culture = {
+							has_innovation = innovation_reconquista
+						}
+					}
+				}
+				multiply = {
+					value = 0.9
+					desc = CB_RECONQUISTA_COST
+				}
+			}
+
+			# Bellum Justum Perk
+			if = {
+				limit = {
+					scope:attacker = {
+						has_perk = bellum_justum_perk
+					}
+				}
+				multiply = {
+					add = bellum_justum_discount_percentage
+					divide = 100
+					desc = CB_ATTACKER_BELLUM_JUSTUM
+				}
+			}
+
+			# Dynasty Warfare Perk
+			if = {
+				limit = {
+					scope:attacker = {
+						has_dynasty = yes
+						dynasty = {
+							has_dynasty_perk = warfare_legacy_2
+						}
+					}
+				}
+				multiply = {
+					value = warfare_legacy_2_discount
+					desc = CB_ATTACKER_DYNASTY_WARFARE
+				}
+			}
+
+			# Vassal contract in-realm cost reduction
+			if = {
+				limit = {
+					scope:attacker = {
+						is_independent_ruler = no
+						vassal_contract_has_flag = vassal_contract_war_override
+						liege = scope:defender.liege
+					}
+				}
+				multiply = {
+					value = war_declaration_rights_allowed_cost_reduction
+					desc = "CB_ATTACKER_VASSAL_CONTRACT"
+				}
+			}
+
+			if = {
+				limit = {
+					has_game_rule = no_cost_casus_belli_costs
+				}
+				multiply = {
+					value = 0
+					desc = CB_GAME_RULE_NO_COST
+				}
+			}
+		}
+		prestige = { # Determine prestige gained/lost from winning/losing
+			value = 0
+			if = {
+				limit = {
+					NOT = { scope:defender.faith = scope:attacker.faith }
+				}
+				add = {
+					value = medium_prestige_value
+					desc = CB_COST_DIFFERENT_FAITH
+				}
+			}
+			if = {
+				limit = {
+					scope:attacker = { has_government = tribal_government }
+				}
+				multiply = {
+					value = 0.5
+					desc = CB_TRIBAL_COST
+				}
+			}
+
+			#Innovation Prestige Discounts
+			if = {
+				limit = {
+					scope:attacker = {
+						culture = {
+							has_innovation = innovation_chronicle_writing
+							has_innovation = innovation_land_grants
+							has_innovation = innovation_rightful_ownership
+						}
+					}
+				}
+				multiply = {
+					value = 0.7
+					desc = CB_ATTACKER_INNOVATIONS
+				}
+			}
+			else_if = {
+				limit = {
+					scope:attacker = {
+						culture = {
+							OR = {
+								has_innovation = innovation_chronicle_writing
+								has_innovation = innovation_land_grants
+							}
+							OR = {
+								has_innovation = innovation_land_grants
+								has_innovation = innovation_rightful_ownership
+							}
+							OR = {
+								has_innovation = innovation_chronicle_writing
+								has_innovation = innovation_rightful_ownership
+							}
+						}
+					}
+				}
+				multiply = {
+					value = 0.8
+					desc = CB_ATTACKER_INNOVATIONS
+				}
+			}
+			else_if = {
+				limit = {
+					scope:attacker = {
+						culture = {
+							OR = {
+								has_innovation = innovation_chronicle_writing
+								has_innovation = innovation_land_grants
+								has_innovation = innovation_rightful_ownership
+							}
+						}
+					}
+				}
+				multiply = 0.9
+			}
+
+			# Bellum Justum Perk
+			if = {
+				limit = {
+					scope:attacker = {
+						has_perk = bellum_justum_perk
+					}
+				}
+				multiply = {
+					add = bellum_justum_discount_percentage
+					divide = 100
+					desc = CB_ATTACKER_BELLUM_JUSTUM
+				}
+			}
+
+			# Dynasty Warfare Perk
+			if = {
+				limit = {
+					scope:attacker = {
+						has_dynasty = yes
+						dynasty = {
+							has_dynasty_perk = warfare_legacy_2
+						}
+					}
+				}
+				multiply = {
+					value = warfare_legacy_2_discount
+					desc = CB_ATTACKER_DYNASTY_WARFARE
+				}
+			}
+
+			# Vassal contract in-realm cost reduction
+			if = {
+				limit = {
+					scope:attacker = {
+						is_independent_ruler = no
+						vassal_contract_has_flag = vassal_contract_war_override
+						liege = scope:defender.liege
+					}
+				}
+				multiply = {
+					value = war_declaration_rights_allowed_cost_reduction
+					desc = "CB_ATTACKER_VASSAL_CONTRACT"
+				}
+			}
+
+			if = {
+				limit = {
+					has_game_rule = no_cost_casus_belli_costs
+				}
+				multiply = {
+					value = 0
+					desc = CB_GAME_RULE_NO_COST
+				}
+			}
+		}
+	}
+
+	on_declaration = {
+		on_declared_war = yes
+		add_to_global_variable_list = {
+			name = seljuk_invasion_progress
+			target = flag:flag_invaded_asia_minor
+		}
+		if = {
+			limit = {
+				character:3046 = {
+					is_alive = yes
+					is_landed = yes
+				}
+			}
+			character:3046 = {
+				trigger_event = seljuk_invasion_events.0004
+			}
+			title:e_persia.holder = {
+				trigger_event = seljuk_invasion_events.0003
+			}
+		}
+		title:e_byzantium.holder = {
+			trigger_event = seljuk_invasion_events.0005
+		}
+	}
+
+	on_victory_desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { scope:attacker = { is_local_player = yes } }
+				desc = seljuk_invasion_conquest_cb_victory_desc_attacker
+			}
+			triggered_desc = {
+				trigger = { scope:defender = { is_local_player = yes } }
+				desc = seljuk_invasion_conquest_cb_victory_desc_defender
+			}
+			desc = seljuk_invasion_conquest_cb_victory_desc
+		}
+	}
+	
+	on_victory = {
+		scope:attacker = { show_pow_release_message_effect = yes }
+		create_title_and_vassal_change = {
+			type = conquest
+			save_scope_as = change
+			add_claim_on_loss = yes
+		}
+		# go through the dejure hierarchy under target titles, transfer titles with same or worse tolerance holders (their religion equaly or less tolerated than the defender's),
+		# take the holder as vassal otherwise and don't go deeper
+		every_in_list = {
+			list = target_titles
+			custom_tooltip = CONQUEST_CB_TITLE
+			every_in_de_jure_hierarchy = {
+				continue = {
+					OR = {
+						NOT = {
+							exists = holder
+						}
+						NOT = {
+							holder = {
+								target_is_liege_or_above = scope:defender
+							}
+						}
+						AND = {
+							scope:attacker.faith = {
+								faith_hostility_level_comparison = {
+									prev.holder.faith <= scope:defender.faith
+								}
+							}
+							holder = {
+								OR = {
+									this = scope:defender
+									target_is_liege_or_above = scope:defender
+								}
+							}
+						}
+					}
+					tier > tier_county
+				}
+				limit = {
+					tier = tier_county
+					exists = holder
+					holder = {
+						OR = {
+							this = scope:defender
+							target_is_liege_or_above = scope:defender
+						}
+					}
+				}
+
+				if = {
+					limit = {
+						OR = {
+							scope:attacker.faith = {
+								faith_hostility_level_comparison = {
+									prev.holder.faith >= scope:defender.faith
+								}
+							}
+							holder.primary_title.tier >= scope:attacker.primary_title.tier
+						}
+					}
+					add_to_temporary_list = titles_taken
+				}
+				else = {
+					holder = {
+						add_to_temporary_list = vassals_taken
+					}
+				}
+			}
+		}
+
+		every_in_list = {
+			list = titles_taken
+			change_title_holder = {
+				holder = scope:attacker
+				change = scope:change
+				take_baronies = yes
+			}
+		}
+
+		every_in_list = {
+			list = vassals_taken
+			change_liege = {
+				liege = scope:attacker
+				change = scope:change
+			}
+		}
+
+		resolve_title_and_vassal_change = scope:change
+
+		create_title_and_vassal_change = {
+			type = conquest
+			save_scope_as = steal
+			add_claim_on_loss = no
+		}
+
+		# Suleiman steals the titles won from the Seljuk Emperor
+		hidden_effect = {
+			if = {
+				limit = {
+					character:3046 = {
+						is_alive = yes
+					}
+				}
+			
+				every_in_list = {
+					list = titles_taken
+					change_title_holder = {
+						holder = character:3046
+						change = scope:steal
+						take_baronies = yes
+					}
+					# Also add a 30 year strong modifier to represent Turkish immigration to Asia Minor
+					if = {
+						limit = {
+							tier = tier_county
+						}
+						add_county_modifier = {
+							modifier = turkish_immigrants
+							years = 30
+						}
+						# Just to prevent any stupid uprisings for AI
+						if = {
+							limit = {
+								character:3046 = {
+									is_ai = yes
+								}
+							}
+							add_county_modifier = {
+								modifier = county_increased_opinion_modifier
+								years = 20
+							}
+						}
+					}
+				}
+				
+				title:k_rum = {
+					change_title_holder = {
+						holder = character:3046
+						change = scope:steal
+					}
+					set_can_be_named_after_dynasty = no
+				}
+				character:3046 = {
+					add_prestige = massive_prestige_gain
+				}
+				title:e_persia.holder = {
+					set_relation_nemesis = character:3046
+					primary_heir = {
+						set_relation_rival = character:3046
+					}
+					add_pressed_claim = title:k_rum
+				}
+				# additionally, set Suleiman's heirs as rivals
+				character:3046 = {
+					primary_heir = {
+						set_relation_rival = title:e_persia.holder
+						set_relation_rival = title:e_persia.holder.primary_heir
+					}
+				}
+			}
+		}
+		
+		resolve_title_and_vassal_change = scope:steal
+		
+		hidden_effect = {
+			# Set Suleiman's capital to somewhere more reasonable
+			if = {
+				limit = {
+					exists = title:k_rum
+				}
+				title:k_rum.holder = {
+					set_realm_capital = title:d_anatolia.title_capital_county
+					add_gold = 1000
+				}
+				# Eat kingdoms into Rum
+				de_jure_changes_asia_minor = yes
+				
+				# Finally, trigger events
+				title:e_persia.holder = {
+					trigger_event = seljuk_invasion_events.0006
+				}
+				title:k_rum.holder = {
+					trigger_event = seljuk_invasion_events.0007
+				}
+			}
+			
+			# Get rid of Conquest modifier too
+			scope:attacker.house = {
+				remove_house_modifier = seljuk_invasion_modifier
+			}
+			
+			# Give Suleiman some money too, he's going to need it
+			title:k_rum.holder = {
+				add_gold = 1000
+			}
+		}
+
+		# Prestige Progress for the Attacker
+		scope:attacker = {
+			add_prestige_experience = massive_prestige_value
+		}
+
+		# Prestige for the attacker's war allies
+		add_from_contribution_attackers = {
+			prestige = massive_prestige_value
+			opinion = {
+				modifier = contributed_in_war
+			}
+		}
+
+		# Prestige for the defender's war allies
+		add_from_contribution_defenders = {
+			prestige = massive_prestige_value
+			opinion = {
+				modifier = contributed_in_war
+			}
+		}
+
+		# Truce
+		add_truce_attacker_victory_effect = yes
+	}
+
+	on_white_peace_desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { scope:defender = { is_local_player = yes } }
+				desc = seljuk_invasion_conquest_cb_white_peace_desc_defender
+			}
+			desc = seljuk_invasion_conquest_cb_white_peace_desc
+		}
+	}
+
+	on_white_peace = {
+		scope:attacker = { show_pow_release_message_effect = yes }
+		# Prestige loss for the attacker
+		scope:attacker = {
+			add_prestige = {
+				value = minor_prestige_value
+				multiply = -1.0
+			}
+		}
+
+		# Prestige for the attacker's war allies
+		add_from_contribution_attackers = {
+			prestige = minor_prestige_value
+			opinion = {
+				modifier = contributed_in_war
+			}
+		}
+
+		# Prestige for the defender's war allies
+		add_from_contribution_defenders = {
+			prestige = minor_prestige_value
+			opinion = {
+				modifier = contributed_in_war
+			}
+		}
+
+		add_truce_white_peace_effect = yes
+	}
+
+	on_defeat_desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { scope:defender = { is_local_player = yes } }
+				desc = seljuk_invasion_conquest_cb_defeat_desc_defender
+			}
+			triggered_desc = {
+				trigger = {
+					scope:attacker = {
+						is_local_player = yes
+						has_targeting_faction = yes
+					}
+				}
+				desc = seljuk_invasion_conquest_cb_defeat_desc_attacker
+			}
+			desc = seljuk_invasion_conquest_cb_defeat_desc
+		}
+	}
+
+	on_defeat = {
+		scope:attacker = { show_pow_release_message_effect = yes }
+		# Prestige loss for the attacker
+		scope:attacker = {
+			pay_short_term_gold = {
+				gold = 2
+				target = scope:defender
+				yearly_income = yes
+			}
+			add_prestige = {
+				value = medium_prestige_value
+				multiply = -1.0
+			}
+		}
+
+		# Prestige for Defender
+		scope:defender = {
+			add_prestige = medium_prestige_value
+		}
+
+		# Prestige for the attacker's war allies
+		add_from_contribution_attackers = {
+			prestige = minor_prestige_value
+			opinion = {
+				modifier = contributed_in_war
+			}
+		}
+
+		# Prestige for the defender's war allies
+		add_from_contribution_defenders = {
+			prestige = minor_prestige_value
+			opinion = {
+				modifier = contributed_in_war
+			}
+		}
+
+		add_truce_attacker_defeat_effect = yes
+
+		scope:attacker = {
+			save_temporary_scope_as = loser
+		}
+		on_lost_aggression_war_discontent_loss = yes
+		
+		# Get rid of Conquest modifier too, since the Seljuks were crushed in the war
+		scope:attacker.house = {
+			remove_house_modifier = seljuk_invasion_modifier
+		}
+	}
+
+	on_invalidated_desc = msg_county_conquest_war_invalidated_message
+
+	transfer_behavior = transfer
+
+	on_primary_attacker_death = inherit
+	on_primary_defender_death = inherit
+
+	attacker_allies_inherit = yes
+	defender_allies_inherit = yes
+
+	war_name = "SELJUK_INVASION_CONQUEST_WAR_NAME"
+	war_name_base = "SELJUK_INVASION_CONQUEST_WAR_NAME_BASE"
+	cb_name = "SELJUK_INVASION_CONQUEST_CB_NAME"
+
+	interface_priority = 80
+
+	use_de_jure_wargoal_only = yes
+
+	# Modifications to make the war take more effort. Goal of these changes is to make Seljuks focus on occupying much of Asia Minor to get ticking war score
+	attacker_wargoal_percentage = 0.25 # once Seljuks occupy 25% of Asia Minor (and that's a lot, trust me), they get significant ticking war score
+	attacker_ticking_warscore = 0.4 # default is 0.1
+	attacker_score_from_battles_scale = 20 # default is 40
+	attacker_score_from_occupation_scale = 50 # default is 100
+	
+
+	max_ai_diplo_distance_to_title = 500
+}

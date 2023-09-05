@@ -676,9 +676,9 @@ c_soria = {
 	970.6.1 = {
 		holder = 107670 # Duke Garcнa I of Castille
 	}
-	979.1.1 = {
-		liege = d_toledo
-	}
+	#979.1.1 = {
+	#	liege = d_toledo
+	#}
 	997.1.1 = {
 		holder = andalusian0097 # Walih Wadih of Toledo
 	}

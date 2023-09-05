@@ -273,34 +273,40 @@ c_labourd = {
 	836.1.1 = {
 		holder = 190501 #Guillaume
 	}
+	846.1.1 = {
+		#historically ruled by normans from 846 to 982
+		liege = 0
+	}
 	864.1.1 = {
-		liege = "d_gascogne"
-		holder = 168114
+		holder = 163060 # as placeholder
+	}		
+	982.1.1 = {
+		holder = 127049 # Duke Guillaume II of Gascogne
+		liege = d_gascogne
 	}
-	893.1.1 = {
-		holder = 7563
+	996.12.23 ={
+		holder = 127050 # Duke Bernard-Guillaume of Gascogne
 	}
-	955.1.1 = {
-		holder = 163061
+	1009.12.25 = {
+		holder = 127051 # Duke Sanche VI of Gascogne
 	}
-	961.1.1 = {
-		holder = 127049 #Guillaume-Sanche de Gascogne
+	#1023.1.1 = {
+		#holder = basque0100 # Loup Sanche
+		#liege = d_navarra
+	#}
+	1035.10.18 = {
+		liege = d_gascogne
 	}
-	985.1.1 = {
-		holder = 138344 #Arnaud Loup I de Dax
+	1058.1.1 = {
+		#holder = basque0101 # Fortun I Sanche
 	}
-	1028.11.1 = {
-		holder = 138346 #Arnaud II Loup Fortis de Dax
+	1063.1.1 = {
+		#holder = basque0122 # Fortun II Sanche
+		holder = 40003 #TODO_CD_ERCC; return this to Fortun once we have him.
 	}
-	1050.1.1 = {
-		holder = 138352 #Garcia Arnaud I de Dax
-	}
-	1065.1.1 = {
-		holder = 138348 #Raymond Arnaud I de Dax
-	}
-	1088.12.3 = {
-		holder = 138350 #Navarre I de Dax
-	}
+	#1095.1.1 = {
+	#	holder = basque0151 # Reina Tota
+	#}
 	1089.1.1 = {
 		holder = 138354 #Arnaud III Raymond de Dax
 	}
@@ -748,12 +754,12 @@ c_angouleme = {
 	}
 	806.1.1 = {
 		holder = 190505 #Wulgrin (II)
-		liege = "d_aquitaine"
 	}
 	
 	#House Taillefer
 	866.1.1 = {
 		holder = 40080 #Wulgrim I Taillefer
+		liege = "d_aquitaine"
 	}
 	886.1.1 = {
 		holder = 40084 #Audouin I Taillefer
@@ -1250,11 +1256,12 @@ d_toulouse = {
 	874.8.1 = {
 		holder = 40232 #Eudes de Toulouse
 	}
-	884.12.12 = {
+	886.1.1 = {
 		liege = "k_france"
 	}
 	918.6.17 = {
 		holder = 40234 #Raymond II de Toulouse
+		liege = "k_france"
 	}
 	924.1.1 = {
 		holder = 330 #Raymond-Pons de Toulouse
@@ -1367,7 +1374,7 @@ c_toulouse = {
 	874.8.1 = {
 		holder = 40232 #Eudes de Toulouse
 	}
-	884.12.12 = {
+	886.1.1 = {
 		liege = "k_france"
 	}
 	918.6.17 = {
@@ -1947,7 +1954,7 @@ c_carcassonne = {
 	1066.1.1 = { change_development_level = 10 }
 	
 	740.1.1 = {
-		liege = "k_lotharingia"
+		#liege = "k_lotharingia"
 		holder = 91475 #ADELARD, count of Cavalonensis (Languedoc)
 	}
 	815.1.1 = {
@@ -2135,7 +2142,7 @@ c_foix = {
 	}
 	759.1.1 = {
 		holder = 190495 #Icterius
-		liege = d_gascogne
+		#liege = d_gascogne
 	}
 	865.4.16 = {
 		holder = 127007 #Bernard de Toulouse
@@ -2210,7 +2217,7 @@ c_armagnac = {
 		holder = 190494 #Artgarius
 	}
 	759.1.1 = {
-		liege = d_gascogne
+		#liege = d_gascogne
 	}
 	768.1.1 = {
 		holder = 168104 #Lope II de Vasconia
@@ -2542,7 +2549,7 @@ c_comminges = {
 		holder = 190494 #Artgarius
 	}
 	759.1.1 = {
-		liege = d_gascogne
+		#liege = d_gascogne
 	}
 	768.1.1 = {
 		holder = 168104 #Lope II de Vasconia
@@ -3175,7 +3182,7 @@ c_bellac = {
 	}
 	767.1.1 = {
 		holder = 190561 #Geofrey
-		liege = k_lotharingia
+		#liege = k_lotharingia
 	}
 	778.1.1 = {
 		liege = "k_aquitaine"
@@ -3278,9 +3285,6 @@ c_bellac = {
 	}
 	1314.9.1 = {
 		holder = 455414 #Charles le Bel
-	}
-	1322.1.1 = {
-		liege = "d_bourbon"
 	}
 	1322.1.1 = {
 		holder = 455650 #Louis de Bourbon
@@ -3383,7 +3387,7 @@ c_la_marche = {
 	}
 	767.1.1 = {
 		holder = 190561 #Geofrey
-		liege = k_lotharingia
+		#liege = k_lotharingia
 	}
 	778.1.1 = {
 		liege = "k_aquitaine"
@@ -3486,9 +3490,6 @@ c_la_marche = {
 	}
 	1314.9.1 = {
 		holder = 455414 #Charles le Bel
-	}
-	1322.1.1 = {
-		liege = "d_bourbon"
 	}
 	1322.1.1 = {
 		holder = 455650 #Louis de Bourbon
@@ -3611,10 +3612,10 @@ c_poitiers = {
 	}
 	852.1.1 = {
 		holder = 90129	#Ramnulf I
-		liege = d_aquitaine
 	}
 	866.10.1 = {
 		holder = 90128	#Ramnulf II
+		liege = d_aquitaine
 	}
 	890.1.1 = {
 		holder = 90127	#Ebles / Ebalus Manzer
@@ -3680,10 +3681,10 @@ c_lusignan = {
 	}
 	852.1.1 = {
 		holder = 90129	#Ramnulf I
-		liege = d_aquitaine
 	}
 	866.10.1 = {
 		holder = 90128 #Ramnulf II
+		liege = d_aquitaine
 	}
 	890.10.1 = {
 		holder = 90127 #Ebles Manzer
@@ -3745,7 +3746,6 @@ c_lusignan = {
 	}
 	1322.1.1 = {
 		holder = 455650 #Louis de Bourbon
-		liege = "d_bourbon"
 	}
 }
 
@@ -3811,9 +3811,6 @@ c_montaigu = {
 	}
 	1151.1.1 = {
 		holder = 205931 #Geoffroy IV de Thouars
-	}
-	1156.1.1 = {
-		liege = "d_anjou"
 	}
 	1160.1.1 = {
 		liege = "k_england"
@@ -3929,9 +3926,6 @@ c_thouars = {
 	}
 	1151.1.1 = {
 		holder = 205931 #Geoffroy IV de Thouars
-	}
-	1156.1.1 = {
-		liege = "d_anjou"
 	}
 	1160.1.1 = {
 		liege = "k_england"

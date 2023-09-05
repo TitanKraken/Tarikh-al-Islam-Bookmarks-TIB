@@ -3857,7 +3857,7 @@
 				type = armored_horsemen
 				stacks = 10
 				}			
-				location = province:9734
+				location = capital_province
 				inheritable = yes
 			}		
 		}		
@@ -10754,7 +10754,7 @@
 	religion = "catholic"
 	culture = swabian
 	trait = intellect_good_1
-	trait = blademaster_1
+	trait = lifestyle_blademaster
 	trait = education_martial_4
 	1040.1.1 = {
 		birth = "1040.1.1"

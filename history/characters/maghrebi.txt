@@ -125,12 +125,15 @@
 32900 = {
 	name = "Abdullah" # Rabi Abdullah - the Eleventh Ismaili Imam and first Fatimid Caliph
 	dynasty_house = house_Fatimid
-	religion = "ismaili"
+	religion = "ismailite"
 	culture = "maghrebi"
 	father = 33920
 	trait = sayyid
 	870.1.1 = {
 		birth = "870.1.1"
+	}
+	909.1.1 = {
+		give_nickname = nick_mahdi
 	}
 	934.1.1 = {
 		death = "934.1.1"
@@ -144,7 +147,7 @@
 	stewardship = 7
 	intrigue = 5
 	learning = 7
-	religion = "ismaili"
+	religion = "ismailite"
 	culture = "maghrebi"
 	trait = education_martial_3
 	trait = sayyid
@@ -163,7 +166,7 @@
 32902 = {
 	name = "al-Mansur"
 	dynasty_house = house_Fatimid
-	religion = "ismaili"
+	religion = "ismailite"
 	culture = "maghrebi"
 	father = 32901
 	trait = sayyid
@@ -178,7 +181,7 @@
 32903 = {
 	name = "al-Muizz"
 	dynasty_house = house_Fatimid
-	religion = "ismaili"
+	religion = "ismailite"
 	culture = "maghrebi"
 	father = 32902
 	trait = sayyid
