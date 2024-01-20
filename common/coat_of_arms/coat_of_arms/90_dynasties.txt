@@ -6997,33 +6997,83 @@ house_british_isles_atholl = 100044
 	}
 }
 
-791 = { # Ghurid
+791 = { # Shansabanid (formerly Ghurid)
+	pattern="pattern_solid.dds"
+	color1=red
+	color2=white
+	colored_emblem={
+		color1=green
+		color2=yellow
+		texture="ce_border_circle_doted.dds"
+		instance={
+			position={ 0.500000 0.480000 }
+			scale={ 0.750000 0.750000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=green
+		color2=green
+		texture="ce_block_02.dds"
+		instance={
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=red
+		color2=red
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.500000 0.480000 }
+			scale={ 0.700000 0.700000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=white
+		texture="ce_dharmachakra.dds"
+		instance={
+			position={ 0.500000 0.480000 }
+			scale={ 0.620000 0.620000 }
+		}
+
+	}
+
+}
+house_ghurid = {
 	pattern = "pattern_solid.dds"
 	color1 = "red"
-	color2 = "white"	
+	color2 = "green"
 	colored_emblem = {
 		texture = "ce_block_02.dds"
 		color1 = "green"
 		color2 = "green"
 		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
-	}	
+	}
 	colored_emblem = {
 		texture = "ce_block_02.dds"
 		color1 = "red"
 		color2 = "red"
-		instance = { position = { 0.5 0.48 } scale = { 0.70 0.70 }  }		
-	}		
+		instance = { position = { 0.5 0.48 } scale = { 0.70 0.70 }  }
+	}
 	colored_emblem = {
 		texture = "ce_border_circle_doted.dds"
 		color1 = "green"
 		color2 = "yellow"
-		instance = { position = { 0.5 0.48 } scale = { 0.75 0.75 }  }		
-	}		
+		instance = { position = { 0.5 0.48 } scale = { 0.75 0.75 }  }
+	}
 	colored_emblem = {
 		texture = "ce_elephant_02.dds"
 		color1 = "white"
 		color2 = "white"
-		instance = { position = { 0.51 0.42 } scale = { 0.70 0.70 }  }			
+		instance = { position = { 0.51 0.42 } scale = { 0.70 0.70 }  }
 	}
 }
 
@@ -10276,21 +10326,21 @@ house_british_isles_mathrafal = 548
 	colored_emblem = {
 		texture = "ce_block_02.dds"
 		color1 = "yellow"
-		color2 = "yellow"		
+		color2 = "yellow"
 		instance = { position = { 0.5 0.48 } scale = { 1.0 0.6 }  }
-	}	
+	}
 	colored_emblem = {
 		texture = "ce_block_02.dds"
 		color1 = "green"
-		color2 = "green"		
+		color2 = "green"
 		instance = { position = { 0.5 0.48 } scale = { 1.0 0.54 }  }
 	}
 	colored_emblem = {
 		texture = "ce_rosetta_06.dds"
 		color1 = "yellow"
 		color2 = "yellow"
-		instance = { position = { 0.50 0.48 } scale = { 0.5 0.5 }  }			
-	}		
+		instance = { position = { 0.50 0.48 } scale = { 0.5 0.5 }  }
+	}
 }
 
 # Proper sun
@@ -11477,12 +11527,13 @@ house_ghiberti = {
 
 542 = { # Merovingians
 	pattern = "pattern_solid.dds"	
-	color1 = "green"		
+	color1 = "red"		
 	color2 = "yellow"	
 	colored_emblem = {
 		texture = "ce_bee.dds"
 		color1 = "yellow"
 		color2 = "yellow"
+		color3 = "yellow"
 		instance = { position = { 0.065 0.02 } scale = { 0.36 0.36 }  }			
 		instance = { position = { 0.355 0.02 } scale = { 0.36 0.36 }  }	
 		instance = { position = { 0.645 0.02 } scale = { 0.36 0.36 }  }
@@ -12128,4 +12179,350 @@ house_musa = { #Banu Musa, ahistorical shield, uses elements from Zaragosa and T
 			depth=1.010000
 		}
 	}
+}
+
+# FP3 - Legacy of Persia new CoAs
+812 = { #Saffarid dynasty
+	pattern="pattern_solid.dds"
+	color1=black
+	color2=white
+	color3=black
+	colored_emblem={
+		color1=white
+		color2=yellow
+		texture="ce_tamgha_roundel_frame.dds"
+		instance={
+			position={ 0.500000 0.480000 }
+			scale={ 0.760000 0.760000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+
+		color1=black
+		texture="ce_arabic_allah_kufic.dds"
+		instance={
+			position={ 0.500000 0.480000 }
+			scale={ 0.820000 0.820000 }
+
+		}
+
+	}
+}
+
+house_samanid = {
+		pattern="pattern_solid.dds"
+		color1=black
+		color2=yellow
+		color3=black
+		colored_emblem={
+			color1=yellow
+			texture="ce_square_kaaba.dds"
+			instance={
+				position={ 0.5 0.45 }
+				scale={ 0.710000 0.710000 }
+				depth=4.010000
+				rotation=46
+			}
+	
+		}
+	
+		colored_emblem={
+			color1=yellow
+			color2=black
+			color3=black
+			texture="ce_lotus.dds"
+			instance={
+				position={ 0.5 0.45 }
+				scale={ 0.320000 0.320000 }
+				depth=2.010000
+			}
+	
+		}
+	
+		colored_emblem={
+			color1=yellow
+			texture="ce_samanid_leaf.dds"
+			instance={
+				position={ 0.300000 0.650000 }
+				scale={ 0.560000 0.560000 }
+				rotation=270
+			}
+	
+			instance={
+				position={ 0.690000 0.650000 }
+				scale={ 0.560000 0.560000 }
+				depth=1.010000
+				rotation=180
+			}
+	
+			instance={
+				position={ 0.690000 0.250000 }
+				scale={ 0.560000 0.560000 }
+				depth=5.010000
+				rotation=90
+			}
+	
+			instance={
+				position={ 0.300000 0.250000 }
+				scale={ 0.560000 0.560000 }
+				depth=6.010000
+			}
+	
+		}
+		colored_emblem={
+			color1=black
+			texture="ce_square_kaaba.dds"
+			instance={
+				position={ 0.5 0.45 }
+				scale={ 0.550000 0.550000 }
+				depth=3.010000
+				rotation=45
+			}
+		}
+	}	
+
+iranian_bukhara_khuda={
+	pattern="pattern_solid.dds"
+	color1=green
+	color2=white
+	color3=green
+	colored_emblem={
+		color1=yellow
+		color2=orange
+		texture="ce_octogon_plain_frame.dds"
+		instance={
+			position={ 0.490000 0.460000 }
+			scale={ 0.730000 0.730000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		color2=orange
+		color3=yellow
+		texture="ce_simurgh.dds"
+		instance={
+			position={ 0.480000 0.470000 }
+			scale={ 0.50000 0.50000 }
+		}
+
+	}
+
+}
+
+1042112 = { #House Afrighid
+	pattern="pattern_solid.dds"
+	color1=brown
+	color2=yellow
+	color3=red
+	colored_emblem={
+		color1=yellow
+		texture="ce_square_kaaba.dds"
+		instance={
+			position={ 0.500000 0.810000 }
+			scale={ 0.650000 0.060000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		color2=orange
+		color3=white
+		texture="ce_persian_duck.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 0.700000 0.700000 }
+			depth=1.010000
+		}
+
+	}
+}
+
+house_zaydid = { #House Zaydid
+	pattern="pattern_horizontal_split_01.dds"
+	color1=white
+	color2=green
+	color3=green
+	colored_emblem={
+		color1=green
+		texture="ce_arabic_zayd.dds"
+		instance={
+			position={ 0.490000 0.280000 }
+			scale={ 0.780000 0.780000 }
+		}
+	}
+}
+
+809 = { #House Dulafid
+	pattern="pattern_vertical_split_01.dds"
+	color1=red
+	color2=white
+	color3=green
+	colored_emblem={
+		color1=red
+		texture="ce_sabre.dds"
+		instance={
+			position={ 0.700000 0.470000 }
+			scale={ 0.750000 0.750000 }
+			rotation=89
+		}
+	}
+
+	colored_emblem={
+		color1=grey
+		color2=white
+		texture="ce_sabre.dds"
+		instance={
+			position={ 0.300000 0.440000 }
+			scale={ 0.750000 0.750000 }
+			depth=1.010000
+			rotation=268
+		}
+	}
+}
+
+
+house_bavandid = { #House Bavandid
+	pattern="pattern_solid.dds"
+	color1=red
+	color2=purple
+	color3=yellow
+	colored_emblem={
+		color1=rgb { 218 148 44 }
+		texture="ce_khvarenah.dds"
+		instance={
+			scale={ 0.580000 0.580000 }
+		}
+	}
+
+	colored_emblem={
+		color1=purple
+		color2=yellow
+		texture="ce_polylobe_plain_frame.dds"
+		instance={
+			position={ 0.500000 0.480000 }
+			scale={ 0.750000 0.750000 }
+			depth=1.010000
+		}
+	}
+}
+
+house_baduspanid = { #House Baduspanid
+	pattern="pattern__solid_designer.dds"
+	color1=yellow
+	color2=red
+	color3=purple
+	colored_emblem={
+		color1=red
+		texture="ce_african_frame_bg_10.dds"
+		instance={
+			scale={ 0.970000 0.970000 }
+			depth=1.010000
+		}
+	}
+
+	colored_emblem={
+		color1=red
+		texture="ce_khvarenah.dds"
+		instance={
+			scale={ 0.640000 0.640000 }
+		}
+	}
+}
+
+
+persian_avicenna = { #Avicenna's super-minor dynasty, for FP3
+	pattern="pattern__solid_designer.dds"
+	color1=black
+	color2=white
+	color3=green
+	colored_emblem={
+		color1=brown
+		color2=black
+		texture="ce_rubh_el_hizb_iranian.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+		}
+	}
+}
+
+house_harmaytan={
+	pattern="pattern__solid_designer.dds"
+	color1=black
+	color2=white
+	color3=green
+	colored_emblem={
+		color1=brown
+		texture="ce_rubh_el_hizb_knot.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+		}
+	}
+}
+
+persian_ferdowsi = { #Ferdowsi's super-minor dynasty, for FP3
+	pattern="pattern__solid_designer.dds"
+	color1=blue
+	color2=yellow
+	color3=black
+	colored_emblem={
+		color1=yellow
+		color2=blue_light
+		texture="ce_octogon_plain_frame.dds"
+		instance={
+			position={ 0.500000 0.480000 }
+			scale={ 0.510000 0.510000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=blue
+		color2=yellow
+		texture="ce_octogon_plain_frame.dds"
+		instance={
+			position={ 0.500000 0.480000 }
+			scale={ 0.750000 0.750000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+
+
+house_tusi={
+	pattern="pattern__solid_designer.dds"
+	color1=blue
+	color2=yellow
+	color3=black
+	colored_emblem={
+		color1=blue
+		color2=yellow
+		texture="ce_octogon_plain_frame.dds"
+		instance={
+			position={ 0.500000 0.480000 }
+			scale={ 0.750000 0.750000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		color2=rgb { 189 129 39 }
+		texture="ce_religion_zoroastrianism_generic_faravahar.dds"
+		instance={
+			position={ 0.490000 0.480000 }
+			scale={ 0.510000 0.510000 }
+		}
+
+	}
+
 }

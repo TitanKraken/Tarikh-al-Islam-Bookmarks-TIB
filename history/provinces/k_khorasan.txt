@@ -1,12 +1,14 @@
 #k_khorasan
 ##d_nishapur ###################################
 ###c_nishapur
-4014 = {	#Farhajird
+4017 = {	#Nishapur
 	culture = tajik
-	religion = mazdayasna
+	religion = gayomarthianism #change from Gayomarthianism, as it was a big garrison town. 
 	holding = castle_holding
-	1060.1.1 = {
-		religion = maturidi
+	special_building = nishapur_mines_01
+	
+	800.1.1 = {
+		religion = ashari # change from Gayomarthianism, as it was a big garrison town. 
 	}
 	1066.1.1 = {
 		buildings = {
@@ -23,10 +25,12 @@
 4016 = {	#Shamat
 	holding = none
 }
-4017 = {	#Nishapur
+4014 = {	#Farhajird
 	holding = castle_holding
-	867.1.1 = {
-		special_building = nishapur_mines_01
+	culture = tajik
+	religion = gayomarthianism #change from Gayomarthianism, as it was a big garrison town.
+	800.1.1 = {
+		religion = ashari # change from Gayomarthianism, as it was a big garrison town. 
 	}
 }
 4018 = {	#Rivand
@@ -38,6 +42,7 @@
 	culture = tajik
 	religion = mazdayasna
 	holding = castle_holding
+	special_building = imam_reza_shrine_01
 	1060.1.1 = {
 		religion = maturidi
 	}
@@ -283,6 +288,7 @@
 	culture = afghan
 	religion = mahayana
 	holding = castle_holding
+	special_building_slot = minarets_and_remains_of_jam_01
 }
 4224 = {	#Khasht
 	holding = city_holding	#placeholder

@@ -1,4 +1,4 @@
-﻿# Muslim version of the Blood of the Prophet-trait. Muslim agnatically descended from Muhammed. Female version is localized 'Sayyida'
+﻿# Muslim version of the Blood of the Prophet-trait. Muslims agnatically descended from Muhammad. Female version is localized 'Sayyida'
 sayyid_quraysh = {
 	category = fame
 	
@@ -39,22 +39,7 @@ sayyid_quraysh = {
 fake_sayyid = {
 	category = fame
 	
-	if = {
-		limit = {
-			character = {
-				within_diplomatic_range = yes
-				faith = { religion_tag = islam_religion }
-				learning >= 9
-			}
-			add_opinion = {
-				target = root
-				value = -30
-			}
-		}
-	}
-	else = {
-		islam_religion_opinion = 10
-	}
+	islam_religion_opinion = 10
 	
 	ruler_designer_cost = 20
 	
@@ -83,6 +68,47 @@ fake_sayyid = {
 	}
 
 	inherit_chance = 100
+	parent_inheritance_sex = male
+	inherit_from_real_father = no
+}
+fake_sayyid_exposed = {
+	category = fame
+	opposites = {
+		sayyid
+	}
+	islam_religion_opinion = -10
+	
+	ruler_designer_cost = -15
+	
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_fake_sayyid
+			}
+			triggered_desc = {
+				trigger = { is_female = yes }
+				desc = trait_fake_sayyida
+			}
+			desc = trait_fake_sayyid
+		}
+	}
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_fake_sayyid_exposed_desc
+			}
+			desc = trait_fake_sayyid_exposed_character_desc
+		}
+	}
+
+	ai_zeal = -10
+	ai_honor = -15
+	ai_greed = 15
+
+	inherit_chance = 0 # THE LINE ENDS HERE BOIII
 	parent_inheritance_sex = male
 	inherit_from_real_father = no
 }
@@ -119,7 +145,10 @@ salaf_al_salih = { # Muslim pious predeccessors
 		}
 	}
 
-	inherit_chance = 100
+	ai_zeal = 100
+	ai_honor = 15
+
+	inherit_chance = 0
 	parent_inheritance_sex = male
 	inherit_from_real_father = no
 }

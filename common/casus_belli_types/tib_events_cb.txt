@@ -1,29 +1,7 @@
 ﻿almohad_jihad_cb = {
 	group = claim
 	icon = undirected_great_holy_war
-	mutually_exclusive_titles = {
-		NOT = {
-			# If pushing personal claims, you can press multiple claims with the Divine Right innovation (High Medieval Era).
-			trigger_if = {
-				limit = {
-					scope:attacker = scope:claimant
-				}
-				scope:attacker = {
-					culture = {
-						has_innovation = innovation_divine_right
-					}
-				}
-			}
-			# If pushing claims for someone else, you need the Rightful Ownership innovation to press multiple claims (Late Medieval Era).
-			trigger_else = {
-				scope:attacker = {
-					culture = {
-						has_innovation = innovation_rightful_ownership
-					}
-				}
-			}
-		}
-	}
+	
 
 	allowed_for_character = {
 		exists = title:d_masmudi.holder

@@ -15,7 +15,7 @@
 601 = {	# 601 - Kutaisi
 	
 	# Misc
-	culture = georgian
+	culture = abkhazians
 	religion = orthodox
 	
 	holding = castle_holding
@@ -54,7 +54,7 @@
 677 = {	# 677 - Batumi
 	
 	# Misc
-	culture = georgian
+	culture = abkhazians
 	religion = orthodox
 	
 	holding = castle_holding
@@ -277,7 +277,7 @@
 5746 = {	# 5746 - Tskhumi
 	
 	# Misc
-	culture = georgian
+	culture = abkhazians
 	religion = orthodox
 	
 	holding = castle_holding
@@ -361,7 +361,7 @@
 5752 = {	# 5752 - Kasriskari
 	
 	# Misc
-	culture = georgian
+	culture = abkhazians
 	religion = orthodox
 	
 	holding = castle_holding

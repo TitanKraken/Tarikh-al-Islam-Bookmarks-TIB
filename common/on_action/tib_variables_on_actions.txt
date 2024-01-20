@@ -1,36 +1,207 @@
 ﻿on_game_start = {
 	on_actions = {
 		on_islamic_start
+		tib_islamic_schism
+		tib_islamic_schism_post_mihna
 	}
 }
 yearly_global_pulse = {
 	on_actions = {
-		tib_islamic_schism
+		tib_islamic_schism_early_bookmark
 	}
 }
 tib_islamic_schism = {
 	effect = {
-		if = {
+		if = { # Late Sunni schism
 			limit = {
-				# Game started in 1066 or earlier
+				# Game started in 950 or later
 				game_start_date >= 950.1.1
 				current_date >= 950.1.1
 			}
-			religion = {
-				every_faith = {
-					limit = {
-						faith = faith:ashari # Sunni
-					}
+			religion:islam_religion = {
+				faith:ashari = {
 					every_faith_character = {
-						trigger_event = tib_islamic_schism.0001
+						#limit = {
+						#	NOR = {
+						#		employer.capital_county.title_province = { geographical_region = world_africa_north_west }
+						#		capital_province = { geographical_region = world_africa_north_west }
+						#	}
+						#}
+						trigger_event = {
+							id = tib_islamic_schism.0001
+							days = 0
+						}
 					}
 				}
-				every_faith = {
-					limit = {
-						faith = faith:ismaili # Shia
+			}
+			religion:islam_religion = {
+				faith:ismaili = {
+					every_faith_character = {
+						trigger_event = {
+							id = tib_islamic_schism.0010
+							days = 0
+						}
+					}
+					every_realm_county = {
+						limit = {
+							faith = faith:ismaili
+							NOT = { geographical_region = custom_zayidi }
+						}
+						set_county_faith = faith:ismailite
+					}
+				}
+			}
+		}
+		if = { # Early Sunni schism
+			limit = {
+				# Game started in 851 or earlier
+				game_start_date < 851.1.1
+				current_date >= 750.1.1
+			}
+			religion:islam_religion = {
+				faith:ashari = {
+					every_faith_character = {
+						trigger_event = {
+							id = tib_islamic_schism.0002
+							days = 0
+						}
+					}
+				}
+			}
+			religion:islam_religion = {
+				faith:ismaili = {
+					every_faith_character = {
+						trigger_event = {
+							id = tib_islamic_schism.0010
+							days = 0
+						}
+						every_realm_county = {
+							limit = {
+								faith = faith:ismaili
+								NOT = { geographical_region = custom_zayidi }
+							}
+							set_county_faith = faith:ismailite
+						}
+					}
+				}
+			}
+		}
+	}
+}
+tib_islamic_schism_early_bookmark = {
+	effect = {
+		if = {
+			limit = {
+				# Game started in 950 or earlier
+				game_start_date < 950.1.1
+				current_date >= 950.1.1
+			}
+			religion:islam_religion = {
+				faith:ashari = {
+					every_faith_character = {
+						limit = {
+							NOR = {
+								employer.capital_county.title_province = { geographical_region = world_africa_north_west }
+								capital_province = { geographical_region = world_africa_north_west }
+							}
+							trigger_event = {
+								id = tib_islamic_schism.0001
+								days = 0
+							}
+						}
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				# Game started in 851 or earlier
+				game_start_date < 851.1.1
+				current_date >= 750.1.1
+			}
+			religion:islam_religion = {
+				faith:ashari = {
+					every_faith_character = {
+						trigger_event = {
+							id = tib_islamic_schism.0002
+							days = 0
+						}
+					}
+				}
+			}
+			religion:islam_religion = {
+				faith:ismaili = {
+					every_faith_character = {
+						trigger_event = {
+							id = tib_islamic_schism.0010
+							days = 0
+						}
+					}
+				}
+			}
+		}
+	}
+}
+tib_islamic_schism_post_mihna = {
+	effect = {
+		if = {
+			limit = {
+				# Game started in 851 or earlier
+				game_start_date < 950.1.1
+				current_date >= 851.1.1
+				current_date < 949.1.1
+			}
+			religion:islam_religion = {
+				faith:ashari = {
+					every_faith_character = {
+						limit = {
+							NOR = {
+								employer.capital_county.title_province = {
+									OR = {
+										geographical_region = world_europe_west_iberia
+										geographical_region = custom_roman_africa
+									}
+								}
+								capital_county.title_province = { 
+									OR = {
+										geographical_region = world_europe_west_iberia
+										geographical_region = custom_roman_africa
+									}
+								}
+							}
+						}
+						set_character_faith_with_conversion = faith:athari
+						every_realm_county = {
+							limit = {
+								faith = faith:ashari
+							}
+							set_county_faith = faith:athari
+						}
 					}
 					every_faith_character = {
-						trigger_event = tib_islamic_schism.0010
+						limit = {
+							OR = {
+								employer.capital_county.title_province = { 
+									OR = {
+										geographical_region = world_europe_west_iberia
+										geographical_region = custom_roman_africa
+									}
+								}
+								capital_county.title_province = { 
+									OR = {
+										geographical_region = world_europe_west_iberia
+										geographical_region = custom_roman_africa
+									}
+								}
+							}
+						}
+						set_character_faith_with_conversion = faith:mutazila
+						every_realm_county = {
+							limit = {
+								faith = faith:ashari
+							}
+							set_county_faith = faith:mutazila
+						}
 					}
 				}
 			}

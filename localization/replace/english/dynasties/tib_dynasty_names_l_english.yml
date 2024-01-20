@@ -52,6 +52,8 @@
   Tukhara:0 "Tukhara"
   Wusun:0 "Wusun"
   Kangar:0 "Kangar"
+  dynn_Bukhara_Khuda_sogdian:0 "Bukhārak Khwaday"
+  dynn_Shansabani:0 "Āl-e Shansab"
 
   # Rus'
   dynn_Rurikid:0 "Rurikovichi"
@@ -63,7 +65,8 @@
   dynn_Rostialvichi:0 "Rostialvichi"
   dynn_IzyaslavichiTurov:0 "Izyaslavichi-Turov"
 
-  # MB+
+  ## MB+
+  # Turks
   dynn_oghuzSeljuks:0 "Seljuq"
   dynn_OghuzQarqin:0 "Qarqin"
   dynn_OghuzQiniq:0 "Qiniq"

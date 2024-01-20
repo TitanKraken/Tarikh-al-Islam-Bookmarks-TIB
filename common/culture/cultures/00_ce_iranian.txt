@@ -8,19 +8,29 @@ parthian = {
 	language = language_iranian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_poetry
 		tradition_culture_blending
-		tradition_dryland_dwellers
 		tradition_horse_breeder
 		tradition_hit_and_run
+	}
+
+	# FP3 traditions
+	dlc_tradition = {
+		trait = tradition_fp3_irrigation_experts
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_dryland_dwellers
+	}
+	dlc_tradition = {
+		trait = tradition_fp3_enlightened_magnates
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_poetry
 	}
 	
 	name_list = name_list_persian
 	
 	coa_gfx = { iranian_group_coa_gfx }
-	building_gfx = { mena_building_gfx }
-	clothing_gfx = { mena_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
 	
 	ethnicities = {
 		2 = iranian_persian_1
@@ -148,17 +158,23 @@ semnani = {
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_poetry
-		tradition_dryland_dwellers
 		tradition_hit_and_run
 		tradition_esteemed_hospitality 
+	}
+
+	# FP3 traditions
+	dlc_tradition = {
+		trait = tradition_fp3_irrigation_experts
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_dryland_dwellers
 	}
 	
 	name_list = name_list_daylamite
 	
 	coa_gfx = { iranian_group_coa_gfx }
-	building_gfx = { mena_building_gfx }
-	clothing_gfx = { mena_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
 
 	ethnicities = {
 		2 = iranian_daylamite_1
@@ -187,7 +203,7 @@ semnani = {
 	}
 }
 
-azeri = { #Based on Persian #Was adhari
+azeri = { # Based on Persian # Was adhari
 	color = { 0.6 0.6 0.5 }
 	
 	ethos = ethos_courtly
@@ -195,19 +211,33 @@ azeri = { #Based on Persian #Was adhari
 	language = language_iranian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_poetry
-		tradition_philosopher_culture
 		tradition_artisans
 		tradition_agrarian
-		tradition_futuwaa
+	}
+
+	# FP3 traditions
+	dlc_tradition = {
+		trait = tradition_fp3_beacon_of_learning
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_philosopher_culture
+	}
+	dlc_tradition = {
+		trait = tradition_fp3_enlightened_magnates
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_poetry
+	}
+	dlc_tradition = {
+		trait = tradition_fp3_pragmatic_creed
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_futuwaa
 	}
 	
 	name_list = name_list_persian
 	
 	coa_gfx = { iranian_group_coa_gfx }
-	building_gfx = { mena_building_gfx }
-	clothing_gfx = { mena_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
 	
 	ethnicities = {
 		2 = iranian_daylamite_1
@@ -244,19 +274,29 @@ mazandarani = {
 	language = language_iranian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_poetry
 		tradition_stalwart_defenders
 		tradition_isolationist
 		tradition_forest_folk
-		tradition_futuwaa
+	}
+
+	# FP3 traditions
+	dlc_tradition = {
+		trait = tradition_fp3_enlightened_magnates
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_poetry
+	}
+	dlc_tradition = {
+		trait = tradition_fp3_pragmatic_creed
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_futuwaa
 	}
 	
 	name_list = name_list_daylamite
 	
 	coa_gfx = { iranian_group_coa_gfx }
-	building_gfx = { mena_building_gfx }
-	clothing_gfx = { mena_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
 
 	ethnicities = {
 		2 = iranian_daylamite_1
@@ -320,16 +360,21 @@ gilani = {
 	traditions = {
 		tradition_stalwart_defenders
 		tradition_isolationist
-		tradition_esteemed_hospitality 
-		tradition_futuwaa
+		tradition_esteemed_hospitality
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp3_pragmatic_creed
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_futuwaa
 	}
 	
 	name_list = name_list_daylamite
 	
 	coa_gfx = { iranian_group_coa_gfx }
-	building_gfx = { mena_building_gfx }
-	clothing_gfx = { mena_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
 
 	ethnicities = {
 		2 = iranian_persian_1
@@ -403,13 +448,19 @@ huna = { #Indo-Huna Tribes representing remnant Alchon Huns, Kidarites, in India
 		tradition_xenophilic
 		tradition_religious_patronage
 	}
+
+	# FP3 traditions
+	dlc_tradition = {
+		trait = tradition_fp3_jirga
+		requires_dlc_flag = legacy_of_persia
+	}
 	
 	name_list = name_list_afghan
 	
 	coa_gfx = { iranian_group_coa_gfx }
-	building_gfx = { mena_building_gfx }
-	clothing_gfx = { mena_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
 	
 	ethnicities = {
 		2 = iranian_afghan_1
@@ -482,13 +533,19 @@ talysh = { #
 		tradition_agrarian
 		tradition_faith_bound
 	}
+
+	# FP3 traditions
+	dlc_tradition = {
+		trait = tradition_fp3_jirga
+		requires_dlc_flag = legacy_of_persia
+	}
 	
 	name_list = name_list_persian
 	
 	coa_gfx = { iranian_group_coa_gfx }
-	building_gfx = { mena_building_gfx }
-	clothing_gfx = { mena_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
 	
 	ethnicities = {
 		2 = iranian_afghan_1
@@ -534,9 +591,9 @@ luri = { # Origins not fully agreed on. Most historians believe they are of Elai
 	name_list = name_list_persian
 	
 	coa_gfx = { iranian_group_coa_gfx }
-	building_gfx = { mena_building_gfx }
-	clothing_gfx = { mena_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
 	
 	ethnicities = {
 		2 = iranian_persian_1
@@ -599,9 +656,9 @@ aschomi = { #
 	name_list = name_list_persian
 	
 	coa_gfx = { iranian_group_coa_gfx }
-	building_gfx = { mena_building_gfx }
-	clothing_gfx = { mena_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
 	
 	ethnicities = {
 		2 = iranian_persian_1

@@ -408,7 +408,8 @@ c_cetina = {
 	
 	
 	857.1.1 = {
-		holder = 145199
+		holder = 1233578 # Domienc, Dalmatian Mayor of Split
+		set_capital_barony = title:b_split
 	}
 	
 	

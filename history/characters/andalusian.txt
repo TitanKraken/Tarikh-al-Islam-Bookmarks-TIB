@@ -1433,23 +1433,7 @@
 	}
 }
 
-73216 = {
-	name = "Abd-al-Yabbar"
-	dynasty = 594
-	
-	father = 3214
-	mother = 73211
-	
-	religion = muwalladi
-	culture = andalusian
-	
-	1067.1.1 = {
-		birth = yes
-	}
-	1095.1.1 = {
-		death = yes
-	}
-}
+# 73216 - moved to bedouin.txt
 
 73217 = {
 	name = "Muhammad"
@@ -2147,22 +2131,7 @@ mardanish_the_founder = {
 	}
 }
 
-3910 = {
-	name = "Abd-al-Rahman"
-	dynasty = 572
-
-	father = 45027
-
-	religion = muwalladi
-	culture = andalusian
-
-	1028.1.1 = {
-		birth = yes
-	}
-	1081.1.1 = {
-		death = yes
-	}
-}
+# 3910 - moved to bedouin.txt
 
 3933 = {
 	name = "Suleyman"

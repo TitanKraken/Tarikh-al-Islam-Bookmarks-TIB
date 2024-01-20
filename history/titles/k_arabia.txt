@@ -4,6 +4,13 @@ k_arabia = {
 }
 
 c_al_jawf = {
+	627.1.1 = {
+		government = tribal_government
+	}
+	700.1.1 = {
+		holder = 1500082 # Ja'far Banu Tamim
+		liege = e_arabia
+	}
 	765.1.1 = {
 		holder = 188613
 		liege = e_arabia
@@ -56,7 +63,10 @@ c_thalabiya = {
 	627.1.1 = {
 		government = tribal_government
 	}
-
+	700.1.1 = {
+		holder = 1500082 # Ja'far Banu Tamim
+		liege = e_arabia
+	}
 	765.1.1 = {
 		holder = 188615
 		liege = e_arabia
@@ -3383,7 +3393,7 @@ d_oman = {
 		holder = azd_ancestor_001
 	}
 	715.1.1 = {
-		holder = oman_vassal_001
+		holder = ziyad_muhallabi
 		liege = k_mesopotamia
 	}
 	751.1.1 = {

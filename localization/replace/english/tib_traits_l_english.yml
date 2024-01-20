@@ -4,6 +4,13 @@
  trait_sayyida_quraysh:0 "Sayyida of the Quraysh"
  trait_sayyid_quraysh_desc:1 "Coursing through the veins of this character is the blood of the great Quraysh tribe."
  trait_sayyid_quraysh_character_desc:0 "Coursing through the veins of [ROOT.GetCharacter.GetFirstNameNoTooltip] is the blood of the great Quraysh tribe."
+ #DA FAKES, FRAUDSTERS
+ trait_fake_sayyid:0 "Fraud Sayyid"
+ trait_fake_sayyida:0 "Fraud Sayyida"
+ trait_fake_sayyid_desc:0 "Coursing through the veins of this character is the blood of the Prophet. Although, there seems to be speculation that there is no such genealogical line to prove it for this character. Is it true?"
+ trait_fake_sayyid_character_desc:0 "Coursing through the veins of [ROOT.GetCharacter.GetFirstNameNoTooltip] is the blood of the Prophet. Although, there seems to be speculation that there is no such genealogical line to prove it for this character. Is it true?"
+ trait_fake_sayyid_exposed_desc:0 "This character is exposed for using the name of the Prophet and his family for personal gains. What a shame to the Ummah!"
+ trait_fake_sayyid_exposed_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is exposed for using the name of the Prophet and his family for personal gains. What a shame to the Ummah!"
  #Muslim male & female versions of Salaf al-Salih, respectively
  trait_salaf_al_salih:0 "Salaf al-Salih"
  trait_salafa_al_saliha:0 "Salafat al-Saliha"

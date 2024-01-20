@@ -1,9 +1,9 @@
 ﻿bm_group_tib_default = {
-	#default_start_date = 867.1.1
+	default_start_date = 715.2.23
 }
 bm_group_tib_almohad = {
-	#default_start_date = 867.1.1
+	default_start_date = 1212.6.5
 }
 bm_group_tib_flavour_1 = {
-	#default_start_date = 867.1.1
+	default_start_date = 910.1.15
 }

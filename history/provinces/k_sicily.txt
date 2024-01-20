@@ -15,6 +15,9 @@
 			curtain_walls_01
 		}
 	}
+	1000.1.1 = {
+		religion = asharite
+	}
 	1066.1.1 = {
 		buildings = {
 			common_tradeport_02
@@ -71,6 +74,9 @@
 		culture = sicilian_arabian
 		religion = ashari
 	}
+	1000.1.1 = {
+		religion = asharite
+	}
 	1066.1.1 = {
 		buildings = {
 			common_tradeport_01
@@ -98,6 +104,9 @@
 	874.1.24 = {
 		culture = sicilian_arabian
 		religion = ashari
+	}
+	1000.1.1 = {
+		religion = asharite
 	}
 	1102.1.1 = {
 		culture = sicilian

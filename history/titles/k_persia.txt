@@ -504,7 +504,7 @@ d_kirman = {
 	}
 	
 	715.1.1 = {
-		holder = 210003
+		holder = oman_vassal_001
 		liege = k_mesopotamia
 	}
 
@@ -560,18 +560,23 @@ d_kirman = {
 	1183.1.1 = {
 		holder = 144040
 	}
+	# Ghuzz bands era
 	1187.1.1 = {
-		holder = 93256
+		holder = 93256 # Malik Dinar Ghuzz
 	}
 	1195.1.1 = {
-		holder = 93257
+		holder = 93257 # Farrukh Shah Ghuzz
 	}
-	1196.1.1 = {
-		liege = "k_persia"
-		holder = 93258
+	1196.1.1 = { # The Ghuzz disintegrated submitted to Tekish
+		holder = 1600029 # A son of Tekish, not much is known apart from his existing but he probably placed his sons as placeholder :p
+		liege = k_persia
 	}
 	1221.1.1 = {
 		liege = e_mongol_empire
+	}
+	# Qutlugh-Khanids
+	1222.1.1 = { # Baraq Hajib and his fam moved to Kerman
+		holder = 93258
 	}
 	1227.12.2 = {
 		liege = "e_ilkhanate"
@@ -692,18 +697,23 @@ c_kirman = {
 	1186.1.1 = {
 		holder = 93147
 	}
-	1192.1.1 = {
-		holder = 93148
+	# Ghuzz bands era
+	1187.1.1 = {
+		holder = 93256 # Malik Dinar Ghuzz
 	}
-	1206.1.1 = {
-		holder = 93149
+	1195.1.1 = {
+		holder = 93257 # Farrukh Shah Ghuzz
 	}
-	1215.1.1 = {
-		liege = "d_sistan"
-		holder = 93277
+	1196.1.1 = { # The Ghuzz disintegrated submitted to Tekish
+		holder = 1600029 # A son of Tekish, not much is known apart from his existing but he probably placed his sons as placeholder :p
+		liege = k_persia
 	}
 	1221.1.1 = {
-		holder = 93279
+		liege = e_mongol_empire
+	}
+	# Qutlugh-Khanids
+	1222.1.1 = { # Baraq Hajib and his fam moved to Kerman
+		holder = 93258
 	}
 	1226.1.1 = {
 		holder = 93285
@@ -800,18 +810,23 @@ c_behabad = {
 	1186.1.1 = {
 		holder = 93147
 	}
-	1192.1.1 = {
-		holder = 93148
+	# Ghuzz bands era
+	1187.1.1 = {
+		holder = 93256 # Malik Dinar Ghuzz
 	}
-	1206.1.1 = {
-		holder = 93149
+	1195.1.1 = {
+		holder = 93257 # Farrukh Shah Ghuzz
 	}
-	1215.1.1 = {
-		liege = "d_sistan"
-		holder = 93277
+	1196.1.1 = { # The Ghuzz disintegrated submitted to Tekish
+		holder = 1600029 # A son of Tekish, not much is known apart from his existing but he probably placed his sons as placeholder :p
+		liege = k_persia
 	}
 	1221.1.1 = {
-		holder = 93279
+		liege = e_mongol_empire
+	}
+	# Qutlugh-Khanids
+	1222.1.1 = { # Baraq Hajib and his fam moved to Kerman
+		holder = 93258
 	}
 	1226.1.1 = {
 		holder = 93285
@@ -905,18 +920,23 @@ c_bam = {
 	1186.1.1 = {
 		holder = 93147
 	}
-	1192.1.1 = {
-		holder = 93148
+	# Ghuzz bands era
+	1187.1.1 = {
+		holder = 93256 # Malik Dinar Ghuzz
 	}
-	1206.1.1 = {
-		holder = 93149
+	1195.1.1 = {
+		holder = 93257 # Farrukh Shah Ghuzz
 	}
-	1215.1.1 = {
-		liege = "d_sistan"
-		holder = 93277
+	1196.1.1 = { # The Ghuzz disintegrated submitted to Tekish
+		holder = 1600029 # A son of Tekish, not much is known apart from his existing but he probably placed his sons as placeholder :p
+		liege = k_persia
 	}
 	1221.1.1 = {
-		holder = 93279
+		liege = e_mongol_empire
+	}
+	# Qutlugh-Khanids
+	1222.1.1 = { # Baraq Hajib and his fam moved to Kerman
+		holder = 93258
 	}
 	1226.1.1 = {
 		holder = 93285
@@ -989,13 +1009,22 @@ c_sirjan = {
 	1183.1.1 = {
 		holder = 144040
 	}
+	# Ghuzz bands era
 	1187.1.1 = {
-		holder = 93256
+		holder = 93256 # Malik Dinar Ghuzz
 	}
 	1195.1.1 = {
-		holder = 93257
+		holder = 93257 # Farrukh Shah Ghuzz
 	}
-	1196.1.1 = {
+	1196.1.1 = { # The Ghuzz disintegrated submitted to Tekish
+		holder = 1600029 # A son of Tekish, not much is known apart from his existing but he probably placed his sons as placeholder :p
+		liege = k_persia
+	}
+	1221.1.1 = {
+		liege = e_mongol_empire
+	}
+	# Qutlugh-Khanids
+	1222.1.1 = { # Baraq Hajib and his fam moved to Kerman
 		holder = 93258
 	}
 	1235.1.1 = {
@@ -1110,21 +1139,23 @@ c_jiruft = {
 	1150.1.1 = {
 		holder = 144141
 	}
-	1186.1.1 = {
-		holder = 93147
+	# Ghuzz bands era
+	1187.1.1 = {
+		holder = 93256 # Malik Dinar Ghuzz
 	}
-	1192.1.1 = {
-		holder = 93148
+	1195.1.1 = {
+		holder = 93257 # Farrukh Shah Ghuzz
 	}
-	1206.1.1 = {
-		holder = 93149
-	}
-	1215.1.1 = {
-		liege = "d_sistan"
-		holder = 93277
+	1196.1.1 = { # The Ghuzz disintegrated submitted to Tekish
+		holder = 1600029 # A son of Tekish, not much is known apart from his existing but he probably placed his sons as placeholder :p
+		liege = k_persia
 	}
 	1221.1.1 = {
-		holder = 93279
+		liege = e_mongol_empire
+	}
+	# Qutlugh-Khanids
+	1222.1.1 = { # Baraq Hajib and his fam moved to Kerman
+		holder = 93258
 	}
 	1226.1.1 = {
 		holder = 93285
@@ -2243,37 +2274,42 @@ d_fars = {
 	1110.1.1 = {
 		holder = 93231
 	}
-	
+
+	# Salaghurids
+	1118.4.18 = {
+		holder = 93241
+		government = islamic_government
+	}
+	1148.1.1 = {
+		holder = 93242
+	}
 	1157.5.8 = {
 		liege = 0
 	}
-	1157.5.8 = {
-		government = clan_government
-		holder = 144054
+	1161.1.1 = {
+		holder = 93243
 	}
-	1159.1.1 = {
-		holder = 144055
+	1175.1.1 = {
+		holder = 93244
 	}
-	1175.12.31 = {
-		holder = 144056
-	}
-	1194.3.1 = {
-		holder = 93233
+	1193.1.1 = {
+		holder = 93245
 	}
 	1203.1.1 = {
-		liege = "k_persia"
+		holder = 93246
+		liege = k_persia
 	}
 	1221.1.1 = {
 		liege = e_mongol_empire
 	}
-	1227.1.1 = {
-		holder = 93234
+	1226.1.1 = {
+		holder = 93247
 	}
 	1227.12.2 = {
 		liege = "e_ilkhanate"
 	}
 	1260.1.1 = {
-		holder = 93248 # Saad II Salghurlar
+		holder = 93248
 	}
 	1261.1.1 = {
 		holder = 93249
@@ -2287,6 +2323,7 @@ d_fars = {
 	1264.1.1 = {
 		holder = 93252
 	}
+	
 	1287.1.1 = {
 		holder = 125522
 	}
@@ -2333,6 +2370,8 @@ c_shiraz = {
 	1100.1.1 = {
 		holder = 144015
 	}
+
+	# Salaghurids
 	1118.4.18 = {
 		holder = 93241
 	}
@@ -2369,6 +2408,7 @@ c_shiraz = {
 	1264.1.1 = {
 		holder = 93252
 	}
+
 	1287.1.1 = {
 		holder = 125522
 	}
@@ -2573,21 +2613,19 @@ c_arrajan = {
 	1118.4.18 = {
 		holder = 93241
 	}
-	1148.1.1 = {
-		holder = 93242
+
+	# Banu Tamim placeholder, read the Hanifa, Abd al-Qays and Banu Tamim (since pre-Islamic era) has settled here and around Fars during Umayyad period.
+	1140.1.1 = {
+		holder = 1236178 # Muhammad bin Ali
+		liege = d_sunni
 	}
-	1161.1.1 = {
-		holder = 93243
+	1173.1.1 = {
+		holder = 1236199 # Ishaq bin Muhammad
 	}
-	1175.1.1 = {
-		holder = 93244
+	1211.1.1 = {
+		holder = 1236204 # Abu-Ibrahim bin Ishaq
 	}
-	1193.1.1 = {
-		holder = 93245
-	}
-	1203.1.1 = {
-		holder = 93246
-	}
+	
 	1226.1.1 = {
 		holder = 93247
 	}
@@ -2866,8 +2904,30 @@ d_hormuz = {
 	1066.1.1 = { change_development_level = 12 }
 
 	715.1.1 = {
-		holder = 210003
+		holder = oman_vassal_001
 		liege = k_mesopotamia
+	}
+	
+	# Placeholder Hormuzi dynasty, source file says they are republic?
+	1191.1.1 = {
+		holder = 1230563 # Isa bin Kaiqubád
+	}
+	1192.1.1 = {
+		holder = 1230564 # Mahmud Shahab al-Din bin Isa bin Sulaiman
+	}
+	# Free from the Ghuzz
+	1195.1.1 = {
+		holder = 1230565 # Shahansháh bin Mahmud Shahab al-Din
+		liege = k_persia
+	}
+	1201.1.1 = {
+		holder = 1230566 # Mir Shahab Mahmud bin Mahmud Shahab al-Din
+	}
+	1210.1.1 = {
+		holder = 1230567 # Nusrat Saif al-Dín
+	}
+	1230.1.1 = {
+		holder = 0
 	}
 }
 
@@ -2894,48 +2954,42 @@ c_hormuz = {
 	1066.1.1 = {
 		holder = 3041
 	}
-	1073.1.1 = {
-		holder = 144025
+
+	# Placeholder Hormuzi dynasty, source file says they are republic?
+	1073.4.17 = {
+		holder = 1230558 # Muhammad Diramku
+		liege = k_persia
 	}
-	1074.1.1 = {
-		holder = 144026
+	1099.1.1 = {
+		holder = 1230559 # Sulaiman bin Muhammad Diramku
 	}
-	1075.1.1 = {
-		holder = 144027
+	1123.1.1 = {
+		holder = 1230560 # Isa bin Sulaiman
 	}
-	1097.1.1 = {
-		holder = 144028
+	1150.1.1 = {
+		holder = 1230561 # Lashkari bin Isa
 	}
-	1101.1.1 = {
-		holder = 144034
+	1190.1.1 = {
+		holder = 1230562 # Kaiqubád bin Lashkari
+		liege = d_kirman
 	}
-	1142.1.1 = {
-		holder = 144035
+
+	1191.1.1 = {
+		holder = 1230563 # Isa bin Kaiqubád
 	}
-	1156.1.1 = {
-		holder = 144036
+	1192.1.1 = {
+		holder = 1230564 # Mahmud Shahab al-Din bin Isa bin Sulaiman
 	}
-	1169.1.1 = {
-		holder = 144037
+	1193.1.1 = {
+		holder = 1230565 # Shahansháh bin Mahmud Shahab al-Din
 	}
-	1174.1.1 = {
-		holder = 144038
+	1201.1.1 = {
+		holder = 1230566 # Mir Shahab Mahmud bin Mahmud Shahab al-Din
 	}
-	1176.1.1 = {
-		holder = 144039
+	1210.1.1 = {
+		holder = 1230567 # Nusrat Saif al-Dín
 	}
-	1183.1.1 = {
-		holder = 144040
-	}
-	1187.1.1 = {
-		holder = 93256
-	}
-	1195.1.1 = {
-		holder = 93257
-	}
-	1196.1.1 = {
-		holder = 93258
-	}
+
 	1235.1.1 = {
 		holder = 93259
 	}
@@ -2998,48 +3052,41 @@ c_sif-i-umara = {
 	1066.1.1 = {
 		holder = 3041
 	}
-	1073.1.1 = {
-		holder = 144025
+	# Placeholder Hormuzi dynasty, source file says they are republic?
+	1073.4.17 = {
+		holder = 1230558 # Muhammad Diramku
+		liege = k_persia
 	}
-	1074.1.1 = {
-		holder = 144026
+	1099.1.1 = {
+		holder = 1230559 # Sulaiman bin Muhammad Diramku
 	}
-	1075.1.1 = {
-		holder = 144027
+	1123.1.1 = {
+		holder = 1230560 # Isa bin Sulaiman
 	}
-	1097.1.1 = {
-		holder = 144028
+	1150.1.1 = {
+		holder = 1230561 # Lashkari bin Isa
 	}
-	1101.1.1 = {
-		holder = 144034
+	1190.1.1 = {
+		holder = 1230562 # Kaiqubád bin Lashkari
+		liege = d_kirman
 	}
-	1142.1.1 = {
-		holder = 144035
+
+	1191.1.1 = {
+		holder = 1230563 # Isa bin Kaiqubád
 	}
-	1156.1.1 = {
-		holder = 144036
+	1192.1.1 = {
+		holder = 1230564 # Mahmud Shahab al-Din bin Isa bin Sulaiman
 	}
-	1169.1.1 = {
-		holder = 144037
+	1193.1.1 = {
+		holder = 1230565 # Shahansháh bin Mahmud Shahab al-Din
 	}
-	1174.1.1 = {
-		holder = 144038
+	1201.1.1 = {
+		holder = 1230566 # Mir Shahab Mahmud bin Mahmud Shahab al-Din
 	}
-	1176.1.1 = {
-		holder = 144039
+	1210.1.1 = {
+		holder = 1230567 # Nusrat Saif al-Dín
 	}
-	1183.1.1 = {
-		holder = 144040
-	}
-	1187.1.1 = {
-		holder = 93256
-	}
-	1195.1.1 = {
-		holder = 93257
-	}
-	1196.1.1 = {
-		holder = 93258
-	}
+
 	1235.1.1 = {
 		holder = 93259
 	}
@@ -3159,30 +3206,13 @@ c_sardan = {
 	1142.1.1 = {
 		holder = 144035
 	}
-	1156.1.1 = {
-		holder = 144036
+	
+	# Luri placeholder
+	1155.1.1 = {
+		holder = 1235934 # Khurshid Khurshidi
+		liege = k_persia
 	}
-	1169.1.1 = {
-		holder = 144037
-	}
-	1174.1.1 = {
-		holder = 144038
-	}
-	1176.1.1 = {
-		holder = 144039
-	}
-	1183.1.1 = {
-		holder = 144040
-	}
-	1187.1.1 = {
-		holder = 93256
-	}
-	1195.1.1 = {
-		holder = 93257
-	}
-	1196.1.1 = {
-		holder = 93258
-	}
+
 	1235.1.1 = {
 		holder = 93259
 	}
@@ -3259,33 +3289,19 @@ c_ramhurmuz = {
 	1101.1.1 = {
 		holder = 144034
 	}
-	1142.1.1 = {
-		holder = 144035
+
+	# Banu Tamim placeholder, read the Hanifa, Abd al-Qays and Banu Tamim (since pre-Islamic era) has settled here and around Fars during Umayyad period.
+	1140.1.1 = {
+		holder = 1236178 # Muhammad bin Ali
+		liege = d_sunni
 	}
-	1156.1.1 = {
-		holder = 144036
+	1173.1.1 = {
+		holder = 1236199 # Ishaq bin Muhammad
 	}
-	1169.1.1 = {
-		holder = 144037
+	1211.1.1 = {
+		holder = 1236204 # Abu-Ibrahim bin Ishaq
 	}
-	1174.1.1 = {
-		holder = 144038
-	}
-	1176.1.1 = {
-		holder = 144039
-	}
-	1183.1.1 = {
-		holder = 144040
-	}
-	1187.1.1 = {
-		holder = 93256
-	}
-	1195.1.1 = {
-		holder = 93257
-	}
-	1196.1.1 = {
-		holder = 93258
-	}
+	
 	1235.1.1 = {
 		holder = 93259
 	}
@@ -3368,30 +3384,13 @@ c_tustar = {
 	1142.1.1 = {
 		holder = 144035
 	}
-	1156.1.1 = {
-		holder = 144036
+
+	# Luri placeholder
+	1155.1.1 = {
+		holder = 1235934 # Khurshid Khurshidi
+		liege = k_persia
 	}
-	1169.1.1 = {
-		holder = 144037
-	}
-	1174.1.1 = {
-		holder = 144038
-	}
-	1176.1.1 = {
-		holder = 144039
-	}
-	1183.1.1 = {
-		holder = 144040
-	}
-	1187.1.1 = {
-		holder = 93256
-	}
-	1195.1.1 = {
-		holder = 93257
-	}
-	1196.1.1 = {
-		holder = 93258
-	}
+
 	1235.1.1 = {
 		holder = 93259
 	}
@@ -3464,21 +3463,18 @@ c_ahvaz = {
 	1118.4.18 = {
 		holder = 93241
 	}
-	1148.1.1 = {
-		holder = 93242
+	# Banu Tamim placeholder, read the Hanifa, Abd al-Qays and Banu Tamim (since pre-Islamic era) has settled here and around Fars during Umayyad period.
+	1140.1.1 = {
+		holder = 1236178 # Muhammad bin Ali
+		liege = d_sunni
 	}
-	1161.1.1 = {
-		holder = 93243
+	1173.1.1 = {
+		holder = 1236199 # Ishaq bin Muhammad
 	}
-	1175.1.1 = {
-		holder = 93244
+	1211.1.1 = {
+		holder = 1236204 # Abu-Ibrahim bin Ishaq
 	}
-	1193.1.1 = {
-		holder = 93245
-	}
-	1203.1.1 = {
-		holder = 93246
-	}
+	
 	1226.1.1 = {
 		holder = 93247
 	}
@@ -3537,12 +3533,19 @@ c_abbadan = {
 	1110.1.1 = {
 		holder = 93231
 	}
-	1160.1.1 = {
-		holder = 93232
+
+	# Banu Tamim placeholder, read the Hanifa, Abd al-Qays and Banu Tamim (since pre-Islamic era) has settled here and around Fars during Umayyad period.
+	1140.1.1 = {
+		holder = 1236178 # Muhammad bin Ali
+		liege = d_sunni
 	}
-	1190.1.1 = {
-		holder = 93233
+	1173.1.1 = {
+		holder = 1236199 # Ishaq bin Muhammad
 	}
+	1211.1.1 = {
+		holder = 1236204 # Abu-Ibrahim bin Ishaq
+	}
+	
 	1227.1.1 = {
 		holder = 93234
 	}
@@ -3603,12 +3606,19 @@ c_dawraq = {
 	1110.1.1 = {
 		holder = 93231
 	}
-	1160.1.1 = {
-		holder = 93232
+
+	# Banu Tamim placeholder, read the Hanifa, Abd al-Qays and Banu Tamim (since pre-Islamic era) has settled here and around Fars during Umayyad period.
+	1140.1.1 = {
+		holder = 1236178 # Muhammad bin Ali
+		liege = d_sunni
 	}
-	1190.1.1 = {
-		holder = 93233
+	1173.1.1 = {
+		holder = 1236199 # Ishaq bin Muhammad
 	}
+	1211.1.1 = {
+		holder = 1236204 # Abu-Ibrahim bin Ishaq
+	}
+	
 	1227.1.1 = {
 		holder = 93234
 	}

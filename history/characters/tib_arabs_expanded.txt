@@ -371,7 +371,7 @@ lihyani_001 = {
 
 mudrik_muhallabi = {
 	name = "Mudrik"
-	dynasty = 1048001 # Muhallabid
+	dynasty_house = house_Muhallabid # 1048001
 	religion = ashari
 	culture = bedouin
 	father = 210001
@@ -384,6 +384,34 @@ mudrik_muhallabi = {
 		birth = yes
 	}
 	730.1.1 = { # Fictional
+		death = yes
+	}
+}
+ziyad_muhallabi = {
+	name = "Ziyad"
+	dynasty_house = house_Muhallabid # 1048001
+	religion = ashari
+	culture = bedouin
+	father = 210001
+	
+	665.1.1 = { # Fictional
+		birth = yes
+	}
+	730.1.1 = { # Fictional
+		death = yes
+	}
+}
+son_of_210002_001  = {
+	name = "Khalid"
+	dynasty_house = house_Muhallabid # 1048001
+	religion = "ashari"
+	culture = "bedouin"
+	father = 210002 # Yazid bin al-Muhallab
+	stewardship = 10 # Reliable as regent during the absence of his father
+	690.1.1 = {
+		birth = yes
+	}
+	750.1.1 = {
 		death = yes
 	}
 }

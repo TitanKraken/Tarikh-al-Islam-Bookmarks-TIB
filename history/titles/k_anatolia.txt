@@ -617,7 +617,7 @@ d_cibyrrhaeot = {
 				}
 			}
 		}
-		government = theme_government
+		#government = theme_government
 	}
 	705.1.1 = {
 		holder = gothograeci004
@@ -710,6 +710,7 @@ c_lycia = {
 	}
 	860.1.1 = {
 		holder = 145122
+		liege = d_cibyrrhaeot
 	}
 	1060.1.1 = {
 		holder = 20518
@@ -804,6 +805,7 @@ c_caria = {
 	}
 	860.1.1 = {
 		holder = 145122
+		liege = d_cibyrrhaeot
 	}
 	1060.1.1 = {
 		holder = 20518
@@ -974,7 +976,7 @@ d_anatolia = {
 	}
 	714.1.1 = {
 		holder = 70502 # Leo III the Isaurian
-		government = theme_government
+		#government = theme_government
 	}
 	750.1.1 = {
 		holder = 145134
@@ -1014,6 +1016,7 @@ c_lycaonia = {
 	}
 	860.1.1 = {
 		holder = 145114
+		liege = d_anatolia
 	}
 	1060.1.1 = {
 		holder = 1734
@@ -1430,6 +1433,7 @@ c_philomelium = {
 	}
 	860.1.1 = {
 		holder = 145114
+		liege = d_anatolia
 	}
 	1060.1.1 = {
 		holder = 20546
@@ -1511,6 +1515,7 @@ c_isauria = {
 	}
 	860.1.1 = {
 		holder = 145114
+		liege = d_anatolia
 	}
 	1060.1.1 = {
 		holder = 1734

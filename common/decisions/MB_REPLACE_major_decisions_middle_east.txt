@@ -232,7 +232,7 @@ form_ottoman_sultanate_decision = {
 		add_pressed_claim = title:k_rum
 		
 		add_pressed_claim = title:c_brysis
-		add_pressed_claim = title:c_ainos
+		#add_pressed_claim = title:c_ainos
 		add_pressed_claim = title:c_kalliopolis
 		add_pressed_claim = title:d_strymon
 		

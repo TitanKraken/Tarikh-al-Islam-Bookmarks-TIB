@@ -1512,6 +1512,7 @@ d_homs = {
 	# Ayyubid
 	1175.1.1 = {
 		holder = 226000
+		liege = e_egypt
 	}
 	1179.1.1 = {
 		holder = 226011

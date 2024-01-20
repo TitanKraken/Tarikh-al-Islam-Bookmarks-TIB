@@ -8062,9 +8062,9 @@ levantine000010 = { #fictional ruler of Banu Kilab
 }
 
 34007 = {
-	name = "Al-Ma_mum"
+	name = "Al-Ma_mun"
 	dynasty_house = house_Abbasid
-	religion = "ashari"
+	religion = "mutazila"
 	culture = iraqi
 	father = 34005
 	trait = sayyid_quraysh
@@ -8079,7 +8079,7 @@ levantine000010 = { #fictional ruler of Banu Kilab
 34008 = {
 	name = "Al-Mu_tasim"
 	dynasty_house = house_Abbasid
-	religion = "ashari"
+	religion = "mutazila"
 	culture = iraqi
 	father = 34005
 	trait = sayyid_quraysh
@@ -8094,7 +8094,7 @@ levantine000010 = { #fictional ruler of Banu Kilab
 34009 = {
 	name = "Al-Wathiq"
 	dynasty_house = house_Abbasid
-	religion = "ashari"
+	religion = "mutazila"
 	culture = iraqi
 	father = 34008
 	trait = sayyid_quraysh
@@ -8109,12 +8109,15 @@ levantine000010 = { #fictional ruler of Banu Kilab
 34010 = {
 	name = "Al-Mutawakkil"
 	dynasty_house = house_Abbasid
-	religion = "ashari"
+	religion = "mutazila"
 	culture = iraqi
 	father = 34008
 	trait = sayyid_quraysh
 	821.3.1 = {
 		birth = "821.3.1"
+	}
+	851.1.1 = {
+		religion = "ashari"
 	}
 	861.12.1 = {
 		death = {
@@ -8177,20 +8180,24 @@ levantine000010 = { #fictional ruler of Banu Kilab
 
 34014 = {
 	name = "Al-Mu_tazz"
+	dna = 34014_caliph
 	dynasty_house = house_Abbasid
 	religion = "ashari"
-	culture = iraqi
+	culture = levantine
 	father = 34010
+	mother = abbasid_concubines_1
 	trait = sayyid_quraysh
-	trait = callous
-	trait = cynical
+	trait = poet
+	trait = generous
 	trait = arbitrary
-	trait = greedy
-	trait = lustful
-	trait = education_stewardship_1
-	
+	trait = calm
+	trait = education_diplomacy_1
+
 	847.1.1 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	866.1.1 = {
 		add_pressed_claim = title:k_egypt # Tulunids
@@ -8200,7 +8207,44 @@ levantine000010 = { #fictional ruler of Banu Kilab
 		add_pressed_claim = title:d_aleppo # Bursaqids
 		add_pressed_claim = title:d_edessa # Mustazhirids
 		add_pressed_claim = title:d_azerbaijan # Yazidids
-		set_realm_capital = title:c_samarra #Capital at the time
+		capital = c_samarra #Capital at the time
+
+		add_character_flag = {
+			flag = recent_nation_fracturing_faction_war
+			years = faction_nation_fracturing_war_defeat_cooldown
+		}
+
+		add_character_modifier = {
+			modifier = fp3_struggle_caliph_super_suspicious_modifier
+		}
+		
+		effect = {
+			add_gold = 700
+			spawn_army = {
+				name = event_troop_default_name
+				levies = 200
+				men_at_arms = {
+					type = mubarizun
+					stacks = 1
+				}
+				men_at_arms = {
+					type = ayyar
+					stacks = 1
+				}
+				men_at_arms = {
+					type = camel_rider
+					stacks = 1
+				}
+				location = province:4805 
+				origin = province:4805 
+				inheritable = yes
+			}
+			if = {
+				limit = { has_realm_law = crown_authority_0 }
+				add_realm_law = crown_authority_1
+			}
+		}
+		
 	}
 	869.1.1 = {
 		death = yes
@@ -8211,8 +8255,12 @@ levantine000010 = { #fictional ruler of Banu Kilab
 	name = "Al-Muhtadi"
 	dynasty_house = house_Abbasid
 	religion = "ashari"
-	culture = iraqi
+	culture = levantine
 	father = 34009
+	trait = education_learning_2
+	trait = just
+	trait = chaste
+	trait = temperate
 	trait = sayyid_quraysh
 	833.1.1 = {
 		birth = yes
@@ -8228,6 +8276,7 @@ levantine000010 = { #fictional ruler of Banu Kilab
 	religion = "ashari"
 	culture = iraqi
 	father = 34010
+	mother = abbasid_concubines_2
 	trait = sayyid_quraysh
 	trait = just
 	trait = diligent
@@ -8245,13 +8294,26 @@ levantine000010 = { #fictional ruler of Banu Kilab
 	name = "Al-Muwaffak"
 	dynasty_house = house_Abbasid
 	religion = "ashari"
-	culture = iraqi
+	culture = levantine
 	father = 34010
+	mother = abbasid_concubines_6
+	martial = 7
+	diplomacy = 6
+	stewardship = 6
+	trait = education_martial_3
+	trait = brave
+	trait = diligent
+	trait = gregarious 
 	trait = sayyid_quraysh
-	840.1.1 = {
+	843.11.20 = {
 		birth = yes
 	}
-	890.1.1 = {
+	860.1.1 = {
+		effect = {
+			set_relation_best_friend = character:163132
+		}
+	}
+	891.6.2 = {
 		death = yes
 	}
 }
@@ -8400,7 +8462,7 @@ gharib_ghilman = {
 34023 = {
 	name = "Al-Muttaqi"
 	dynasty_house = house_Abbasid
-	religion = "ashari"
+	religion = "asharite"
 	culture = iraqi
 	father = 34021
 	trait = sayyid_quraysh
@@ -8415,7 +8477,7 @@ gharib_ghilman = {
 34024 = {
 	name = "Al-Mustakfi"
 	dynasty_house = house_Abbasid
-	religion = "ashari"
+	religion = "asharite"
 	culture = iraqi
 	father = 34019
 	trait = sayyid_quraysh
@@ -8430,7 +8492,7 @@ gharib_ghilman = {
 34025 = {
 	name = "Al-Muti"
 	dynasty_house = house_Abbasid
-	religion = "ashari"
+	religion = "asharite"
 	culture = iraqi
 	father = 34021
 	trait = sayyid_quraysh
@@ -8446,7 +8508,7 @@ gharib_ghilman = {
 	name = "Al-Qadir"
 	# AKA: Abu'l 'Abbas Ahmad ibn Ishaq
 	dynasty_house = house_Abbasid
-	religion = "ashari"
+	religion = "asharite"
 	culture = iraqi
 	father = 34023
 	martial = 7
@@ -8475,7 +8537,7 @@ gharib_ghilman = {
 	name = "Al-Qa_im"
 	# AKA: Abu Ja'far Abdallah ibn Ahmad
 	dynasty_house = house_Abbasid
-	religion = "ashari"
+	religion = "asharite"
 	culture = iraqi
 	father = 3082
 	martial = 4
@@ -8496,7 +8558,7 @@ gharib_ghilman = {
 	name = "Muhammad"
 	#Muhammad Dhakirat
 	dynasty_house = house_Abbasid
-	religion = "ashari"
+	religion = "asharite"
 	culture = iraqi
 	father = 3084
 	trait = sayyid_quraysh
@@ -8512,7 +8574,7 @@ gharib_ghilman = {
 	name = "Al-Muqtadi"
 	# AKA: Abdallah al
 	dynasty_house = house_Abbasid
-	religion = "ashari"
+	religion = "asharite"
 	culture = iraqi
 	father = 34026
 	martial = 4
@@ -8532,7 +8594,7 @@ gharib_ghilman = {
 34027 = {
 	name = "Az-Zahir"
 	dynasty_house = house_Abbasid
-	religion = "ashari"
+	religion = "asharite"
 	culture = iraqi
 	father = 227000
 	trait = sayyid_quraysh
@@ -8549,7 +8611,7 @@ gharib_ghilman = {
 spouse_of_34027 = {
 	name = "Hayat"
 	female = yes
-	religion = "ashari"
+	religion = "asharite"
 	culture = turkish
 	trait = beauty_good_1
 	1200.1.1 = {
@@ -8563,7 +8625,7 @@ spouse_of_34027 = {
 34028 = {
 	name = "Al-Mustansir"
 	dynasty_house = house_Abbasid
-	religion = "ashari"
+	religion = "asharite"
 	culture = iraqi
 	father = 34027
 	trait = sayyid_quraysh
@@ -8578,7 +8640,7 @@ spouse_of_34027 = {
 34029 = {
 	name = "Al-Musta_sim"
 	dynasty_house = house_Abbasid
-	religion = "ashari"
+	religion = "asharite"
 	culture = iraqi
 	father = 34028
 	trait = sayyid_quraysh
@@ -8593,7 +8655,7 @@ spouse_of_34027 = {
 34030 = {
 	name = "Abu-Bakr"
 	dynasty_house = house_Abbasid
-	religion = "ashari"
+	religion = "asharite"
 	culture = iraqi
 	father = 144060
 	trait = sayyid_quraysh
@@ -8608,7 +8670,7 @@ spouse_of_34027 = {
 34031 = {
 	name = "Al-Hasan"
 	dynasty_house = house_Abbasid
-	religion = "ashari"
+	religion = "asharite"
 	culture = iraqi
 	father = 34030
 	trait = sayyid_quraysh
@@ -8623,7 +8685,7 @@ spouse_of_34027 = {
 34032 = { # First Abbasid Caliph of Cairo
 	name = "Ahmad" # Abu'l-Qasim Ahmad al-Mustansir
 	dynasty_house = house_Abbasid
-	religion = "ashari"
+	religion = "asharite"
 	culture = iraqi
 	father = 34027 # al-Zahir
 	mother = spouse_of_34027 # Hayat
@@ -11263,6 +11325,27 @@ levantine0129 = {
 	}
 }
 
+levantine0130 = {
+	name = "Rajiya" # Name fictionalised: we know she existed, just not what she was called.
+	dynasty_house = house_Abbasid
+	religion = ashari
+	culture = levantine
+	father = 3084 # Calipha al-Qa'im
+	female = yes
+	trait = sayyid_quraysh
+
+	# Dates are fictionalised: we only really know that she was of age to marry Alp Arslan's uncle/prior ruler of the Turks, Tughril-Beg.
+	1037.1.1 = {
+		birth = yes
+	}
+	1063.1.1 = {
+		add_spouse = 3038
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+
 73851 = {
 	name = "Aid" # A'id ibn Kaysan, Sheik of Tarragona (860-892)
 	dynasty = 12289 # Banu A'id Dynasty
@@ -11587,6 +11670,697 @@ levantine0129 = {
 		birth = yes
 	}
 	978.1.1 = {
+		death = yes
+	}
+}
+
+#FP3 additions
+
+###Azariqa Rebels
+
+azariqa_0005 = { #continuation from bedouin.txt
+	name = "Musa"
+	dynasty = azariqa_bamid
+	religion = azariqa
+	culture = levantine
+
+	793.1.4 = {
+		birth = yes
+	}
+	835.3.1 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+azariqa_0006 = { #historical Azariqa leader in Bam
+	name = "Esmail"
+	dynasty = azariqa_bamid
+	religion = azariqa
+	culture = levantine
+	father = azariqa_0005
+	diplomacy = 9
+	martial = 12
+	prowess = 15
+	trait = education_martial_3
+	trait = peasant_leader
+	trait = unyielding_defender
+	trait = temperate
+	trait = callous
+	trait = zealous
+	disallow_random_traits = yes
+
+	821.12.12 = {
+		birth = yes
+	}
+	866.1.1 = {
+		effect = {
+			spawn_army = {
+				name = azariqa_fanatics
+				levies = 400
+				men_at_arms = {
+					type = mubarizun
+					stacks = 1
+				}
+				location = province:4083
+				origin = province:4083 
+				inheritable = yes
+			}
+			spawn_army = {
+				name = azariqa_fanatics
+				levies = 400
+				men_at_arms = {
+					type = mubarizun
+					stacks = 1
+				}
+				location = province:4083
+				origin = province:4083 
+				inheritable = yes
+			}
+			spawn_army = {
+				name = azariqa_fanatics
+				levies = 400
+				men_at_arms = {
+					type = mubarizun
+					stacks = 1
+				}
+				location = province:4083
+				origin = province:4083 
+				inheritable = yes
+			}
+			spawn_army = {
+				name = azariqa_fanatics
+				levies = 400
+				men_at_arms = {
+					type = mubarizun
+					stacks = 1
+				}
+				location = province:4083
+				origin = province:4083 
+				inheritable = yes
+			}
+		}
+	}
+	868.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 163101 #Ya'qub Saffarid
+		}
+	}
+}
+
+azariqa_0009 = { #historical Azariqa "caliph" in Karukh/Herat
+	name = "Abd-al-Rahim"
+	dna = scripted_appearence_azariqa_caliph
+	dynasty = azariqa_karukhid
+	religion = azariqa
+	culture = levantine
+	diplomacy = 8
+	martial = 12
+	intrigue = 10
+	stewardship = 3
+	learning = 5
+
+	trait = education_martial_2
+	trait = stubborn
+	trait = arrogant
+	trait = zealous
+	trait = one_eyed
+	trait = lifestyle_blademaster
+	trait = organizer
+	disallow_random_traits = yes
+	815.6.4 = {
+		birth = yes
+	}
+	866.1.1 = {
+		effect = {
+			add_character_flag = has_scripted_appearance
+			set_relation_potential_rival = character:163101 #Ya'qub Saffarid
+			set_relation_friend = character:azariqa_0003
+			set_relation_rival = character:163156 #Ibrahim Saffarid
+			add_unpressed_claim = title:d_herat
+			add_gold = 200
+			spawn_army = {
+				name = azariqa_fanatics
+				levies = 500
+				men_at_arms = {
+					type = ayyar
+					stacks = 2
+				}
+				location = province:4215 #Herat
+				origin = province:4215 #Herat
+				inheritable = no
+			}
+		}
+	}
+	875.1.1 = {
+		death = {
+			death_reason = death_murdered_by_religious_rebels #according to some other accounts, Ya'qub Saffarid had him beheaded
+		}
+	}
+}
+
+#Wives and concubines
+
+####Abbasid wives and concubines of assorted cultures####
+
+abbasid_concubines_1 = { #mother of al-Mut'azz
+	name = "Qabiha"
+	religion = orthodox
+	culture = greek
+	female = yes
+	825.1.1 = { #speculative 
+		birth = yes
+	}
+	842.1.1 = {
+		faith = ashari 
+	}
+	875.1.1 = {
+		death = yes
+	}
+}
+
+abbasid_concubines_2 = { #mother of al-Mu'tamid 
+	name = "Fityan"
+	religion = mutazila 
+	culture = levantine
+	female = yes
+	825.1.1 = { #speculative 
+		birth = yes
+	}
+	842.1.1 = {
+		faith = ashari 
+	}
+	865.1.1 = {
+		death = yes
+	}
+}
+
+abbasid_concubines_3 = { #wife of Al-Mutawakkil
+	name = "Farida"
+	religion = mutazila
+	culture = levantine
+	female = yes
+	trait = poet
+	trait = infertile #she never got any children it seems, so this seems reasonable 
+	trait = beauty_good_1 
+	830.1.1 = { 
+		birth = yes
+	}
+	845.1.1 = {
+		effect = {
+			set_relation_friend = character:abbasid_concubines_4
+		}
+		add_spouse = 34009 #Caliph al-Wathiq
+	}
+	880.1.1 = {
+		death = yes #fictional 
+	}
+}
+
+abbasid_concubines_4 = { #famous poet and singer at the caliphal courts
+	name = "Shariyah"
+	religion = ashari
+	culture = bedouin 
+	female = yes
+	diplomacy = 7
+	trait = education_diplomacy_3
+	trait = gregarious
+	trait = poet
+	trait = wild_oat
+	trait = diplomatic_court_2
+	815.1.1 = { 
+		birth = yes
+	}
+	843.1.1 = {
+		employer = 34009 #caliph al-Wathic
+		effect = {
+			make_character_crypto_religionist_effect = { CRYPTO_RELIGION = faith:mutazila }
+		} 
+	}
+	866.1.1 = {
+		employer = 1000230509 #Muhammad ibn Abdallah of Fars (fictional employer, but seems resonable) 
+		effect = {
+			set_relation_friend = character:1000230509
+		}
+	}
+	870.1.1 = {
+		death = yes
+	}
+}
+
+abbasid_concubines_5 = { #wife of Al-Mutawakkil
+	name = "Hubshiya"
+	religion = orthodox
+	culture = greek
+	female = yes
+	825.1.1 = { 
+		birth = yes
+	}
+	839.1.1 = {
+		faith = ashari 
+	}
+	861.1.1 = {
+		death = {	
+			death_reason = death_court_intrigue
+		}
+	}
+}
+
+abbasid_concubines_6 = { #wife of Al-Mutawakkil
+	name = "Umm"
+	religion = muwalladi
+	culture = andalusian
+	female = yes
+	825.1.1 = { 
+		birth = yes
+	}
+	839.1.1 = {
+		faith = ashari 
+	}
+	845.1.1 = {
+		death = {	
+			death_reason = death_court_intrigue
+		}
+	}
+}
+
+####Extra Abbasid princes####
+
+extra_abbasids_1 = { 
+	name = "al-mu_ayyad"
+	religion = ashari
+	culture = levantine
+	father = 34010
+	mother = abbasid_concubines_6
+	842.1.1 = {
+		birth = yes 
+	}
+	865.12.12 = { #a few days early for dramatic effect 
+		death = {	
+			death_reason = death_smothered_by_downy_robe
+			killer = 34014
+		}
+	}
+}
+
+extra_abbasids_2 = { #the forgotten son of al-Mu'tazz
+	name = "Abdallah"
+	religion = ashari
+	culture = levantine
+	father = 34014
+	mother = extra_karluks_6
+	trait = sayyid_quraysh
+	trait = pensive
+	861.1.1 = {
+		birth = yes 
+	}
+	908.12.17 = { 
+		death = {	
+			death_reason = death_murder
+		}
+	}
+}
+
+extra_abbasids_3 = {
+	name = "Abdul-Wahab"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = "levantine"
+	trait = sayyid_quraysh
+	father = 34012
+	853.1.1 = {
+		birth = yes
+	}
+	908.1.1 = {
+		death = yes
+	}
+}
+
+extra_abbasids_4 = {
+	name = "Abdallah"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = "levantine"
+	trait = sayyid_quraysh
+	father = 34009
+	838.1.1 = {
+		birth = yes
+	}
+	846.1.1 = {
+		death = yes
+	}
+}
+
+extra_abbasids_5 = {
+	name = "Abdallah"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = "levantine"
+	trait = sayyid_quraysh
+	father = 34015
+	852.1.1 = {
+		birth = yes
+	}
+	896.1.1 = {
+		death = yes
+	}
+}
+
+extra_abbasids_6 = {
+	name = "Abdallah"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = "levantine"
+	trait = sayyid_quraysh
+	father = 34012
+	854.1.1 = {
+		birth = yes
+	}
+	897.1.1 = {
+		death = yes
+	}
+}
+
+extra_abbasids_7 = {
+	name = "Abu_Al-Abbas"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = "levantine"
+	trait = sayyid_quraysh
+	father = 34013
+	857.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+
+extra_abbasids_8 = {
+	name = "Abu_Abdallah"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = "levantine"
+	trait = sayyid_quraysh
+	father = 34010
+	845.1.1 = {
+		birth = yes
+	}
+	854.1.1 = {
+		death = yes
+	}
+}
+
+extra_abbasids_9 = {
+	name = "Abu_Al-Hasan"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = "levantine"
+	trait = sayyid_quraysh
+	father = 34010
+	853.1.1 = {
+		birth = yes
+	}
+	886.1.1 = {
+		death = yes
+	}
+}
+
+extra_abbasids_10 = {
+	name = "Abu_Al-Qasim"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = "levantine"
+	trait = sayyid_quraysh
+	father = 34013
+	858.1.1 = {
+		birth = yes
+	}
+	926.1.1 = {
+		death = yes
+	}
+}
+
+extra_abbasids_11 = {
+	name = "Abu_Isa"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = "levantine"
+	trait = sayyid_quraysh
+	father = 34010
+	852.1.1 = {
+		birth = yes
+	}
+	893.1.1 = {
+		death = yes
+	}
+}
+
+extra_abbasids_12 = {
+	name = "Abu_Shaybah"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = "levantine"
+	trait = sayyid_quraysh
+	father = 34010
+	849.1.1 = {
+		birth = yes
+	}
+	872.1.1 = {
+		death = yes
+	}
+}
+
+extra_abbasids_13 = {
+	name = "Ahmad"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = "levantine"
+	trait = sayyid_quraysh
+	father = 34008
+	825.1.1 = {
+		birth = yes
+	}
+	868.1.1 = {
+		death = yes
+	}
+}
+
+extra_abbasids_14 = {
+	name = "Ahmad"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = "levantine"
+	trait = sayyid_quraysh
+	father = 34009
+	840.1.1 = {
+		birth = yes
+	}
+	909.1.1 = {
+		death = yes
+	}
+}
+
+extra_abbasids_15 = {
+	name = "Ahmad"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = "levantine"
+	trait = sayyid_quraysh
+	father = 34012
+	852.1.1 = {
+		birth = yes
+	}
+	901.1.1 = {
+		death = yes
+	}
+}
+
+extra_abbasids_16 = {
+	name = "Aisha"
+	female = yes
+	dynasty_house = house_Abbasid 
+	religion = "ashari"
+	culture = "levantine"
+	trait = sayyid_quraysh
+	father = 34010
+	851.1.1 = {
+		birth = yes
+	}
+	918.1.1 = {
+		death = yes
+	}
+}
+
+extra_abbasids_17 = {
+	name = "al-Abbasah"
+	female = yes
+	dynasty_house = house_Abbasid 
+	religion = "ashari"
+	culture = "levantine"
+	trait = sayyid_quraysh
+	father = 34009
+	841.1.1 = {
+		birth = yes
+	}
+	888.1.1 = {
+		death = yes
+	}
+}
+
+extra_abbasids_18 = {
+	name = "Arwa"
+	female = yes
+	dynasty_house = house_Abbasid 
+	religion = "ashari"
+	culture = "levantine"
+	trait = sayyid_quraysh
+	father = 34010
+	849.1.1 = {
+		birth = yes
+	}
+	905.1.1 = {
+		death = yes
+	}
+}
+
+extra_abbasids_19 = {
+	name = "Hamza"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = "levantine"
+	trait = sayyid_quraysh
+	father = 34014
+	862.1.1 = {
+		birth = yes
+	}
+	914.1.1 = {
+		death = yes
+	}
+}
+
+extra_abbasids_20 = {
+	name = "Ibrahim"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = "levantine"
+	trait = sayyid_quraysh
+	father = 34009
+	835.1.1 = {
+		birth = yes
+	}
+	896.1.1 = {
+		death = yes
+	}
+}
+
+extra_abbasids_21 = {
+	name = "Ismail"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = "levantine"
+	trait = sayyid_quraysh
+	father = 34010
+	mother = abbasid_concubines_1
+	848.1.1 = {
+		birth = yes
+	}
+	887.1.1 = {
+		death = yes
+	}
+}
+
+extra_abbasids_22 = {
+	name = "Maymuna"
+	female = yes
+	dynasty_house = house_Abbasid
+	religion = "ashari"	
+	culture = "levantine"
+	trait = sayyid_quraysh
+	father = 34010
+	845.1.1 = {
+		birth = yes
+	}
+	921.1.1 = {
+		death = yes
+	}
+}
+
+extra_abbasids_23 = {
+	name = "Muhammad"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = "levantine"
+	trait = sayyid_quraysh
+	father = 34010
+	850.1.1 = {
+		birth = yes
+	}
+	888.1.1 = {
+		death = yes
+	}
+}
+
+extra_abbasids_24 = {
+	name = "Musa"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = "levantine"
+	trait = sayyid_quraysh
+	father = 34010
+	mother = abbasid_concubines_5
+	841.1.1 = {
+		birth = yes
+	}
+	862.1.1 = {
+		death = yes
+	}
+}
+
+extra_abbasids_25 = {
+	name = "Musa"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = "levantine"
+	trait = sayyid_quraysh
+	father = extra_abbasids_21
+	866.1.1 = {
+		birth = yes
+	}
+	909.1.1 = {
+		death = yes
+	}
+}
+
+extra_abbasids_26 = {
+	name = "Umm_Muhammad"
+	female = yes
+	dynasty_house = house_Abbasid 
+	religion = "ashari"
+	culture = "levantine"
+	trait = sayyid_quraysh
+	father = 34010
+	845.1.1 = {
+		birth = yes
+	}
+	896.1.1 = {
+		death = yes
+	}
+}
+
+extra_abbasids_27 = {
+	name = "Ya_qub"
+	dynasty_house = house_Abbasid
+	religion = "ashari"
+	culture = "levantine"
+	trait = sayyid_quraysh
+	father = 34010
+	854.1.1 = {
+		birth = yes
+	}
+	869.1.1 = {
 		death = yes
 	}
 }

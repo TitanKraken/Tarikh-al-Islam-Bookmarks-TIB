@@ -1847,24 +1847,52 @@ d_ferghana = {
 	867.1.1 = { change_development_level = 7 }
 	1066.1.1 = { change_development_level = 10 }
 	
-	1137.1.1 = {
-		liege = 0 # Kara Khitan expansion
-		holder = 188905 # Yelü-Dashi
+	# Western Karakhanids
+	1095.1.1 = {
+		holder = karluk0045
+		liege = k_zhetysu
 	}
-	1143.1.1 = {
-		holder = 188907 # Yelü-Yilie
+	1120.1.1 = {
+		holder = karluk0046
 	}
-	1163.1.1 = {
-		holder = 188908 # Pusuwan
+	1140.1.1 = {
+		holder = karluk0047
 	}
-	1177.1.1 = {
-		holder = 188912 # Yelü-Zhilugu
+	1160.1.1 = {
+		holder = karluk0048
 	}
-	1211.1.1 = {
-		holder = 188914 # Kuchlug (de facto)
+	1180.1.1 = {
+		holder = karluk0049
 	}
-	1218.1.1 = {
-		holder = 0
+	1200.1.1 = {
+		holder = karluk0050
+	}
+	1220.1.1 = {
+		holder = karluk0051
+	}
+	1227.12.2 = {
+		liege = e_chagatai
+	}
+	1240.1.1 = {
+		holder = karluk0052
+	}
+	1260.1.1 = {
+		holder = karluk0053
+	}
+	1280.1.1 = {
+		holder = karluk0054
+	}
+	1300.1.1 = {
+		holder = karluk0055
+	}
+	1320.1.1 = {
+		holder = karluk0056
+	}
+	1340.1.1 = {
+		holder = karluk0057
+	}
+	1360.1.1 = {
+		holder = karluk0058
 	}
 	
 	# Barlas

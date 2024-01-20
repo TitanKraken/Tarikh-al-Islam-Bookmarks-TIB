@@ -201,7 +201,7 @@
 	dynasty=1000101807
 	religion="maturidi"
 	culture = tajik
-  father=1230500
+    father=1230500
 	1075.4.10={
 		birth = yes
 	}
@@ -213,103 +213,7 @@
 		death = yes
 	}
 }
-#SWMH Ghurids  vol.2.
-1230331 = {
-	name="'Alî Shôjâ' al-Dîn" #Shôjâ' al-Dîn
-	dynasty=791
-	religion="maturidi"
-	culture = tajik
-	father=93139
-	1111.1.1={
-		birth = yes
-	}
-	1170.1.1={
-		death = yes
-	}
-}
-1230332 = {
-	name="'Alî 'Alâ al-Dîn" #or Muhammad
-	dynasty=791
-	religion="maturidi"
-	culture = tajik
-	trait="education_martial_2"
-	trait="zealous"
-	trait="generous"
-	father=1230331
-	1168.1.1={
-		birth = yes
-	}
-	1218.1.1={ #died in captivity
-		death = { death_reason=death_dungeon }
-	}
-}
-1230334 = {
-	name="Muhammad Sayf al-Dîn" #Sayf al-Dîn
-	dynasty=791
-	religion="maturidi"
-	culture = tajik
-	father=93143
-	1140.1.1={
-		birth = yes
-	}
-	1163.1.1={
-		death = { death_reason=death_murder } #murdered by his general
-	}
-}
-1230335 = {
-	name="Muhammad Nâser al-Dîn" #Nâser al-Dîn
-	dynasty=791
-	religion="maturidi"
-	culture = tajik
-	father=93139
-	1114.1.1={
-		birth = yes
-	}
-	1140.1.1={
-		death = yes
-	}
-}
-1230339 = {
-	name="Muhammad 'Alá al-Dîn" #'Alá al-Dîn
-	dynasty=791
-	religion="maturidi"
-	culture = tajik
-	father=93148
-	1183.1.1={
-		birth = yes
-	}
-	1235.1.1={
-		death = yes
-	}
-}
-12303400 = {
-	name="Alí"
-	dynasty=791
-	religion="maturidi"
-	culture = tajik
-	father=1230339
-	1203.1.1={
-		birth = yes
-	}
-	1262.1.1={
-		death = yes
-	}
-}
-
-Shansabanifemale = {
-	name="Parvin"
-	dynasty=791
-	religion="maturidi"
-	culture = tajik
-	father=12303400
-	female=yes
-	1236.1.1={
-		birth = yes
-	}
-	1300.1.1={
-		death = yes
-	}
-}
+#SWMH Ghurids  vol.2. - moved to tajik.txt
 
 1230340 = {
 	name="Husayn" #Ismaili da'i who took control of Qohistan under Hasan i-Sabbah's order

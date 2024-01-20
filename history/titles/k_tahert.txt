@@ -23,21 +23,31 @@ k_tahert = {
 		liege = 0 # Independant of the Almohads
 		holder = 33045 # Yaghmurasen
 	}
-	1283.1.1 = {
+	1283.3.1 = {
 		holder = 33046 # 'Uthman ibn Yaghmurasen
 	}
-	1304.1.1 = {
+	1304.6.6 = {
 		holder = 33047 # Abu Zayyan Muhammad ibn 'Uthman
 	}
-	1308.1.1 = {
-		holder = 33046 # Abu Hammu Musa ibn 'Uthman
+	1308.4.14 = {
+		holder = 33048 # Abu Hammu Musa ibn 'Uthman
 	}
-	1318.1.1 = {
-		holder = 33046 # Abu Tashfin 'Abd-al-Rahman ibn Abu Hammu Muhammad
+	1318.7.22 = {
+		holder = 33049 # Abu Tashfin 'Abd-al-Rahman ibn Abu Hammu Muhammad
 	}
 	1337.1.1 = {
-		holder = 0 # TBC
+		holder = 0 # Conquered by Marinids
 	}
+	1348.1.1 = {
+		holder = 33050 # Abu Sa'id 'Uthman 'Abd-al-Rahman bin Abu Tashfin
+	}
+	#1348.1.1 = {
+	#	holder = 33051 # Abu Thabit bin Abu Tashfin, co-ruler
+	#}
+	1352.1.1 = {
+		holder = 0 # 2nd Marinid conquest
+	}
+	
 }
 
 d_tlemcen = {

@@ -6,6 +6,9 @@
  restore_the_druids_decision_tooltip:0 "The [ROOT.Char.GetFaith.GetAdjective] priesthood is established."
  restore_the_druids_decision_effect_tooltip:0 "The [THIS.Char.GetFaith.GetAdjective] priesthood is established"
 
+1260_descendants_become_greatest_of_khans_decision:0 "Restore the Great Mongol Khaganate"
+1260_descendants_become_greatest_of_khans_decision_confirm:0 "Call the Great Kurultai Once Again!"
+
 #Abandon Britannia
  abandon_britannia_decision:0 "Abandon Britannia"
  abandon_britannia_decision_confirm:0 "There is No Alternative"

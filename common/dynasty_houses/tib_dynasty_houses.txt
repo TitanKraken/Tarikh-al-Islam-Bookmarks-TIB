@@ -171,14 +171,14 @@ house_Tevalid = {
     name = "dynn_Tevalid"
     dynasty = 11100
 }
-house_Shaybanid = {
+house_Shibanid = {
     name = "dynn_Shaybanid"
     dynasty = 11100
 }
 
 # Marinid, 101732
 house_Banu_Abul_Ula = {
-    name = "Banu Abu'l-'Ula"
+    name = "Banu Abu l-'Ula"
     dynasty = 101732
 }
 

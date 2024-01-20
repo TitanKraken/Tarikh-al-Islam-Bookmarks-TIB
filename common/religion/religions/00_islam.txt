@@ -279,12 +279,13 @@
 			#Tenet:
 			doctrine = tenet_struggle_submission
 			doctrine = tenet_religious_legal_pronouncements
-			doctrine = tenet_tax_nonbelievers
+			doctrine = tenet_legalism
 
 			#DOCTRINES:
 			#Sunni
 			doctrine = muhammad_succession_sunni_doctrine
-
+			# Jizya
+			doctrine = special_doctrine_jizya
 			#Leadership
 			doctrine = doctrine_temporal_head
 		}
@@ -302,14 +303,16 @@
 
 			#Tenet:
 			doctrine = tenet_struggle_submission
-			doctrine = tenet_tax_nonbelievers
+			doctrine = tenet_communal_identity
 			doctrine = tenet_adaptive
 
 			#DOCTRINES:
 			#Sunni
 			doctrine = muhammad_succession_sunni_doctrine
+			# Jizya
+			doctrine = special_doctrine_jizya
 			#Homosexuality is a sin, but a much more tolerated one.
-			doctrine = doctrine_homosexuality_accepted
+			#doctrine = doctrine_homosexuality_accepted
 			#Pluralistic
 			doctrine = doctrine_pluralism_pluralistic
 		}
@@ -327,12 +330,13 @@
 			#Tenet:
 			doctrine = tenet_struggle_submission
 			doctrine = tenet_religious_legal_pronouncements
-			doctrine = tenet_literalism
+			doctrine = tenet_legalism
 
 			#DOCTRINES:
 			#Sunni
 			doctrine = muhammad_succession_sunni_doctrine
-
+			# Jizya
+			doctrine = special_doctrine_jizya
 			#Leadership
 			doctrine = doctrine_temporal_head
 		}
@@ -350,11 +354,13 @@
 			#Tenet
 			doctrine = tenet_legalism
 			doctrine = tenet_religious_legal_pronouncements
-			doctrine = tenet_tax_nonbelievers
+			doctrine = tenet_adaptive
 
 			#DOCTRINES
 			#Sunni
 			doctrine = muhammad_succession_sunni_doctrine
+			# Jizya
+			doctrine = special_doctrine_jizya
 			#Pluralistic
 			doctrine = doctrine_pluralism_pluralistic
 		}
@@ -387,7 +393,32 @@
 			#}
 		}
 
-		mutazila = { # Rationalist school of Sunni Islam. Dominant between 8th and 10th centuries in the Abbassid Caliphate (Persia).
+		athari = { # Literalist, traditionalist school of Sunni Islam. Dominant between 8th and 10th centuries in the Abbasid Caliphate.
+			color = { 0.2 0.5 0.3 }
+			icon = athari
+			religious_head = d_sunni
+
+			holy_site = mecca
+			holy_site = medina
+			holy_site = jerusalem
+			holy_site = baghdad
+			holy_site = sinai
+
+			#Tenet:
+			doctrine = tenet_struggle_submission
+			doctrine = tenet_religious_legal_pronouncements
+			doctrine = tenet_literalism
+
+			#DOCTRINES:
+			# Jizya
+			doctrine = special_doctrine_jizya
+			#Sunni
+			doctrine = muhammad_succession_sunni_doctrine
+			doctrine = doctrine_divorce_allowed
+			doctrine = doctrine_witchcraft_shunned
+		}
+
+		mutazila = { # Rationalist school of Sunni Islam. Dominant between 8th and 10th centuries in the Abbasid Caliphate (Persia).
 			color = { 0 0.7 0.5 }
 			icon = mutazila
 			religious_head = d_sunni
@@ -400,10 +431,12 @@
 
 			#Tenet:
 			doctrine = tenet_struggle_submission
-			doctrine = tenet_religious_legal_pronouncements
+			doctrine = tenet_alexandrian_catechism # FP3 change 
 			doctrine = tenet_legalism
 
 			#DOCTRINES:
+			# Jizya
+			doctrine = special_doctrine_jizya
 			#Sunni
 			doctrine = muhammad_succession_sunni_doctrine
 			doctrine = doctrine_divorce_allowed
@@ -427,18 +460,19 @@
 
 			#DOCTRINES
 			#Sunni
+			doctrine = muhammad_succession_zandaqa_doctrine	# Zindiq (heretical) for rejecting the hadiths
+			# Jizya
+			doctrine = special_doctrine_jizya
 			#No Head
-			#Homosexuality is a crime
-			#Adultery is a crime
-			#Deviancy is a crime
-			#Fundamentalist
-			
-			doctrine = muhammad_succession_zandaqa_doctrine	#Technically Shia
 			doctrine = doctrine_no_head
+			#Homosexuality is a crime
 			doctrine = doctrine_homosexuality_crime
+			#Adultery is a crime
 			doctrine = doctrine_adultery_men_crime
 			doctrine = doctrine_adultery_women_crime
+			#Deviancy is a crime
 			doctrine = doctrine_deviancy_crime
+			#Fundamentalist
 			doctrine = doctrine_pluralism_fundamentalist
 		}
 		
@@ -455,7 +489,7 @@
 			holy_site = damascus
 
 			doctrine = tenet_struggle_submission
-			doctrine = tenet_tax_nonbelievers
+			doctrine = tenet_esotericism
 			doctrine = tenet_religious_legal_pronouncements
 			
 			#Leadership
@@ -465,6 +499,8 @@
 			#Witchcraft is frowned upon
 			doctrine = muhammad_succession_shia_doctrine
 			doctrine = doctrine_witchcraft_shunned
+			# Jizya
+			doctrine = special_doctrine_jizya
 
 			localization = {		
 				PriestMale = islam_shia_priest
@@ -490,7 +526,7 @@
 			holy_site = damascus
 
 			doctrine = tenet_struggle_submission
-			doctrine = tenet_tax_nonbelievers
+			doctrine = tenet_esotericism
 			doctrine = tenet_false_conversion_sanction
 			
 			#Leadership
@@ -500,6 +536,8 @@
 			#Witchcraft is frowned upon
 			doctrine = muhammad_succession_shia_doctrine
 			doctrine = doctrine_witchcraft_shunned
+			# Jizya
+			doctrine = special_doctrine_jizya
 
 			localization = {		
 				PriestMale = islam_shia_priest
@@ -525,7 +563,7 @@
 			holy_site = damascus
 
 			doctrine = tenet_unrelenting_faith
-			doctrine = tenet_mendicant_preachers
+			doctrine = tenet_aniconism
 			doctrine = tenet_gnosticism
 
 			#Shia
@@ -561,14 +599,22 @@
 			holy_site = nadjaf
 			holy_site = damascus
 
-			doctrine = tenet_struggle_submission
 			doctrine = tenet_religious_legal_pronouncements
 			doctrine = tenet_false_conversion_sanction
+
+			# Fedayeen, else Struggle & Submission
+			doctrine_selection_pair = {
+				requires_dlc_flag = legacy_of_persia
+				doctrine = tenet_fp3_fedayeen
+				fallback_doctrine = tenet_struggle_submission
+			}
 
 			#Shia
 			doctrine = muhammad_succession_shia_doctrine
 			#Hereditary clerical succession
 			doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
+			# Jizya
+			doctrine = special_doctrine_jizya
 
 			localization = {		
 				PriestMale = islam_shia_priest
@@ -604,6 +650,8 @@
 			#Witchcraft is a sin
 			doctrine = muhammad_succession_shia_doctrine
 			doctrine = doctrine_witchcraft_shunned
+			# Jizya
+			doctrine = special_doctrine_jizya
 
 			localization = {		
 				PriestMale = islam_shia_priest
@@ -638,6 +686,8 @@
 			#Witchcraft is a sin
 			doctrine = muhammad_succession_shia_doctrine
 			doctrine = doctrine_witchcraft_shunned
+			# Jizya
+			doctrine = special_doctrine_jizya
 
 			localization = {		
 				PriestMale = islam_shia_priest
@@ -670,13 +720,15 @@
 
 			doctrine = tenet_struggle_submission
 			doctrine = tenet_false_conversion_sanction
-			doctrine = tenet_esotericism
+			doctrine = tenet_communion
 
 			#Shia
 			#No religious head
 			#Witchcraft is a sin
 			doctrine = muhammad_succession_zandaqa_doctrine	#Technically Shia
 			doctrine = doctrine_witchcraft_shunned
+			# Jizya
+			doctrine = special_doctrine_jizya
 
 			localization = {		
 				PriestMale = islam_shia_priest
@@ -704,19 +756,21 @@
 			doctrine = tenet_reincarnation
 			doctrine = tenet_communion
 
-			#Shia
+			# Shia
+			doctrine = muhammad_succession_zandaqa_doctrine	# Technically Shia, but considered too heretical
 			# Leadership
-			doctrine = doctrine_temporal_head #No head of faith: or, technically should be no head, but one is required for their communion tenet to work, so we give them a chief imam.
+			doctrine = doctrine_temporal_head # No head of faith: or, technically should be no head, but one is required for their communion tenet to work, so we give them a chief dynastic imam TO BE MORE BROKEN.
 			#Monogamy
-			#Free divorce
-			#Adultery is a crime
-			#Clergy - equal
-			doctrine = muhammad_succession_zandaqa_doctrine	#Technically Shia
 			#doctrine = doctrine_monogamy
+			#Free divorce
 			doctrine = doctrine_divorce_allowed
+			#Adultery is a crime
 			doctrine = doctrine_adultery_men_crime
 			doctrine = doctrine_adultery_women_crime
+			#Clergy - equal
 			#doctrine = doctrine_clerical_gender_either
+			# Jizya
+			doctrine = special_doctrine_jizya
 
 			localization = {		
 				PriestMale = islam_shia_priest
@@ -793,7 +847,7 @@
 			holy_site = baghdad
 
 			doctrine = tenet_esotericism
-			doctrine = tenet_reincarnation
+			doctrine = tenet_inner_journey
 			doctrine = tenet_communion
 
 			#Shia
@@ -802,13 +856,16 @@
 			#Free divorce
 			#Adultery is a crime
 			#Clergy - equal
-			doctrine = muhammad_succession_zandaqa_doctrine	#Technically Shia
+			doctrine = muhammad_succession_shia_doctrine	# Technically Sunni-Sufi
 			doctrine = doctrine_spiritual_head
-			doctrine = doctrine_monogamy
+			#doctrine = doctrine_monogamy
 			doctrine = doctrine_divorce_allowed
 			doctrine = doctrine_adultery_men_crime
 			doctrine = doctrine_adultery_women_crime
 			doctrine = doctrine_clerical_gender_either
+
+			# Jizya
+			doctrine = special_doctrine_jizya
 
 			localization = {		
 				PriestMale = islam_shia_priest
@@ -886,6 +943,8 @@
 			doctrine = muhammad_succession_muhakkima_doctrine
 			doctrine = doctrine_spiritual_head
 			doctrine = doctrine_witchcraft_shunned
+			# Jizya
+			doctrine = special_doctrine_jizya
 
 			localization = {		
 				PriestMale = islam_shia_priest
@@ -914,9 +973,15 @@
 			holy_site = kufa
 
 			#Tenet
-			doctrine = tenet_struggle_submission
 			doctrine = tenet_legalism
 			doctrine = tenet_warmonger
+
+			# Fedayeen, else Struggle & Submission
+			doctrine_selection_pair = {
+				requires_dlc_flag = legacy_of_persia
+				doctrine = tenet_fp3_fedayeen
+				fallback_doctrine = tenet_struggle_submission
+			}
 
 			doctrine = muhammad_succession_muhakkima_doctrine
 			doctrine = doctrine_no_head
@@ -957,6 +1022,8 @@
 			doctrine = muhammad_succession_muhakkima_doctrine
 			doctrine = doctrine_spiritual_head
 			doctrine = doctrine_witchcraft_shunned
+			# Jizya
+			doctrine = special_doctrine_jizya
 
 			localization = {		
 				PriestMale = islam_shia_priest
@@ -993,6 +1060,8 @@
 			doctrine = doctrine_witchcraft_shunned
 			doctrine = doctrine_gender_equal
 			doctrine = doctrine_clerical_gender_either
+			# Jizya
+			doctrine = special_doctrine_jizya
 
 			localization = {		
 				PriestMale = islam_shia_priest
@@ -1032,6 +1101,8 @@
 			doctrine = doctrine_witchcraft_shunned
 			# Clergy Doctrines
 			doctrine = doctrine_clerical_function_recruitment
+			# Jizya
+			doctrine = special_doctrine_jizya
 
 			localization = {		
 				PriestMale = islam_shia_priest
@@ -1071,6 +1142,8 @@
 			doctrine = doctrine_witchcraft_shunned
 			# Clergy Doctrines
 			doctrine = doctrine_clerical_function_recruitment
+			# Jizya
+			doctrine = special_doctrine_jizya
 
 			localization = {		
 				PriestMale = islam_shia_priest

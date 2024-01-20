@@ -93,6 +93,9 @@ tib_pay_zakat_decisions.0001 = {
     option = { # To the Caliph
 		name = tib_pay_zakat_decisions.0001.b
         highlight_portrait = faith.religious_head
+        trigger = {
+			exists = root.faith.religious_head
+		}
         add_piety = 200
         scope:caliph = {
             change_variable = {

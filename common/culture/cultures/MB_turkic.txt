@@ -27,11 +27,53 @@ crimean = { # Based on Cuman
 
 	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
-		10 = asian
+		4 = asian_turkic_1_western
+		4 = asian_turkic_2_western
+		4 = asian_turkic_3_western
+		4 = asian_turkic_4_western
+		4 = asian_turkic_5_western
+		4 = asian_turkic_6_western
+		4 = asian_turkic_7_western
+		4 = asian_turkic_8_western 
+		4 = asian_turkic_9_western
+		4 = asian_turkic_15_western 
+		4 = asian_turkic_16_western
+		4 = asian_turkic_17_western
+		4 = asian_turkic_19_western
+		4 = asian_turkic_20_western
+		4 = asian_turkic_23_western
+		4 = asian_turkic_1_kipchak
+		4 = asian_turkic_2_kipchak
+		4 = asian_turkic_3_kipchak
+		4 = asian_turkic_4_kipchak
+		4 = asian_turkic_5_kipchak
+		4 = asian_turkic_6_kipchak
+		4 = asian_turkic_7_kipchak
+		4 = asian_turkic_10_kipchak
+		4 = asian_turkic_11_kipchak
+		4 = asian_turkic_12_kipchak
+		4 = asian_turkic_13_kipchak
+		4 = asian_turkic_14_kipchak
+		4 = asian_turkic_20_kipchak
+		4 = asian_turkic_36
+		4 = asian_turkic_37
+		4 = asian_turkic_38
+		4 = asian_turkic_39
+		4 = asian_turkic_40
+		4 = asian_turkic_26
+		4 = asian_turkic_27
+		4 = asian_turkic_28
+		4 = asian_turkic_29
+		4 = asian_turkic_30
+		3 = asian_turkic_46
+		3 = asian_turkic_47
+		3 = asian_turkic_48
+		3 = asian_turkic_49
+		3 = asian_turkic_50
 	}
 }
 
@@ -46,9 +88,11 @@ kazani = { #Based on Bolghar
 	language = language_turkic
 	martial_custom = martial_custom_male_only
 	traditions = {
+		tradition_warrior_culture
 		tradition_ruling_caste
 		tradition_astute_diplomats
 		tradition_horse_lords
+		tradition_hunters
 	}
 	
 	dlc_tradition = {
@@ -60,11 +104,53 @@ kazani = { #Based on Bolghar
 
 	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
-		10 = asian
+		4 = asian_turkic_1_western
+		4 = asian_turkic_2_western
+		4 = asian_turkic_3_western
+		4 = asian_turkic_4_western
+		4 = asian_turkic_5_western
+		4 = asian_turkic_6_western
+		4 = asian_turkic_7_western
+		4 = asian_turkic_8_western 
+		4 = asian_turkic_9_western
+		4 = asian_turkic_15_western 
+		4 = asian_turkic_16_western
+		4 = asian_turkic_17_western
+		4 = asian_turkic_19_western
+		4 = asian_turkic_20_western
+		4 = asian_turkic_23_western
+		4 = asian_turkic_1_kipchak
+		4 = asian_turkic_2_kipchak
+		4 = asian_turkic_3_kipchak
+		4 = asian_turkic_4_kipchak
+		4 = asian_turkic_5_kipchak
+		4 = asian_turkic_6_kipchak
+		4 = asian_turkic_7_kipchak
+		4 = asian_turkic_10_kipchak
+		4 = asian_turkic_11_kipchak
+		4 = asian_turkic_12_kipchak
+		4 = asian_turkic_13_kipchak
+		4 = asian_turkic_14_kipchak
+		4 = asian_turkic_20_kipchak
+		4 = asian_turkic_36
+		4 = asian_turkic_37
+		4 = asian_turkic_38
+		4 = asian_turkic_39
+		4 = asian_turkic_40
+		4 = asian_turkic_26
+		4 = asian_turkic_27
+		4 = asian_turkic_28
+		4 = asian_turkic_29
+		4 = asian_turkic_30
+		3 = asian_turkic_46
+		3 = asian_turkic_47
+		3 = asian_turkic_48
+		3 = asian_turkic_49
+		3 = asian_turkic_50
 	}
 }
 
@@ -89,11 +175,53 @@ mishar = { #Based on Kipchak
 
 	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
-		10 = asian
+		4 = asian_turkic_1_western
+		4 = asian_turkic_2_western
+		4 = asian_turkic_3_western
+		4 = asian_turkic_4_western
+		4 = asian_turkic_5_western
+		4 = asian_turkic_6_western
+		4 = asian_turkic_7_western
+		4 = asian_turkic_8_western 
+		4 = asian_turkic_9_western
+		4 = asian_turkic_15_western 
+		4 = asian_turkic_16_western
+		4 = asian_turkic_17_western
+		4 = asian_turkic_19_western
+		4 = asian_turkic_20_western
+		4 = asian_turkic_23_western
+		4 = asian_turkic_1_kipchak
+		4 = asian_turkic_2_kipchak
+		4 = asian_turkic_3_kipchak
+		4 = asian_turkic_4_kipchak
+		4 = asian_turkic_5_kipchak
+		4 = asian_turkic_6_kipchak
+		4 = asian_turkic_7_kipchak
+		4 = asian_turkic_10_kipchak
+		4 = asian_turkic_11_kipchak
+		4 = asian_turkic_12_kipchak
+		4 = asian_turkic_13_kipchak
+		4 = asian_turkic_14_kipchak
+		4 = asian_turkic_20_kipchak
+		4 = asian_turkic_36
+		4 = asian_turkic_37
+		4 = asian_turkic_38
+		4 = asian_turkic_39
+		4 = asian_turkic_40
+		4 = asian_turkic_26
+		4 = asian_turkic_27
+		4 = asian_turkic_28
+		4 = asian_turkic_29
+		4 = asian_turkic_30
+		3 = asian_turkic_46
+		3 = asian_turkic_47
+		3 = asian_turkic_48
+		3 = asian_turkic_49
+		3 = asian_turkic_50
 	}
 }
 
@@ -118,11 +246,65 @@ turkmeni = { # Based on Oghuz - Turks in what would become Turkmenistan
 
 	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
-		10 = asian
+		4 = asian_turkic_1_seljuk
+		4 = asian_turkic_2_seljuk
+		4 = asian_turkic_3_seljuk
+		4 = asian_turkic_4_seljuk
+		4 = asian_turkic_5_seljuk
+		1 = asian_turkic_6
+		3 = asian_turkic_6_seljuk
+		3 = asian_turkic_7_seljuk
+		1 = asian_turkic_7
+		4 = asian_turkic_8 
+		2 = asian_turkic_9_seljuk
+		2 = asian_turkic_9
+		4 = asian_turkic_10
+		4 = asian_turkic_11
+		2 = asian_turkic_12_seljuk
+		2 = asian_turkic_12
+		2 = asian_turkic_13_seljuk
+		2 = asian_turkic_13
+		2 = asian_turkic_14_seljuk
+		2 = asian_turkic_14
+		4 = asian_turkic_15 
+		4 = asian_turkic_16
+		4 = asian_turkic_17
+		4 = asian_turkic_18
+		3 = asian_turkic_19_seljuk
+		1 = asian_turkic_19
+		4 = asian_turkic_20_seljuk
+		4 = asian_turkic_21_seljuk
+		2 = asian_turkic_22_seljuk
+		3 = asian_turkic_23_seljuk
+		1 = asian_turkic_23
+		3 = asian_turkic_24_seljuk
+		1 = asian_turkic_24
+		3 = asian_turkic_25_seljuk
+		1 = asian_turkic_25
+		2 = asian_turkic_41
+		2 = asian_turkic_42
+		2 = asian_turkic_43
+		2 = asian_turkic_44
+		2 = asian_turkic_45
+		2 = asian_turkic_46
+		2 = asian_turkic_47
+		2 = asian_turkic_48
+		3 = asian_turkic_49
+		4 = asian_turkic_50
+		4 = asian_turkic_51_oghuz
+		4 = asian_turkic_52_oghuz
+		4 = asian_turkic_53_oghuz
+		4 = asian_turkic_54_oghuz
+		4 = asian_turkic_55_oghuz
+		4 = asian_turkic_56_oghuz
+		4 = asian_turkic_57_oghuz
+		4 = asian_turkic_58_oghuz
+		4 = asian_turkic_59_oghuz
+		4 = asian_turkic_60_oghuz
 	}
 }
 
@@ -153,11 +335,65 @@ torkil = {
 
 	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
-		10 = asian
+		4 = asian_turkic_1_seljuk
+		4 = asian_turkic_2_seljuk
+		4 = asian_turkic_3_seljuk
+		4 = asian_turkic_4_seljuk
+		4 = asian_turkic_5_seljuk
+		1 = asian_turkic_6
+		3 = asian_turkic_6_seljuk
+		3 = asian_turkic_7_seljuk
+		1 = asian_turkic_7
+		4 = asian_turkic_8 
+		2 = asian_turkic_9_seljuk
+		2 = asian_turkic_9
+		4 = asian_turkic_10
+		4 = asian_turkic_11
+		2 = asian_turkic_12_seljuk
+		2 = asian_turkic_12
+		2 = asian_turkic_13_seljuk
+		2 = asian_turkic_13
+		2 = asian_turkic_14_seljuk
+		2 = asian_turkic_14
+		4 = asian_turkic_15 
+		4 = asian_turkic_16
+		4 = asian_turkic_17
+		4 = asian_turkic_18
+		3 = asian_turkic_19_seljuk
+		1 = asian_turkic_19
+		4 = asian_turkic_20_seljuk
+		4 = asian_turkic_21_seljuk
+		2 = asian_turkic_22_seljuk
+		3 = asian_turkic_23_seljuk
+		1 = asian_turkic_23
+		3 = asian_turkic_24_seljuk
+		1 = asian_turkic_24
+		3 = asian_turkic_25_seljuk
+		1 = asian_turkic_25
+		2 = asian_turkic_41
+		2 = asian_turkic_42
+		2 = asian_turkic_43
+		2 = asian_turkic_44
+		2 = asian_turkic_45
+		2 = asian_turkic_46
+		2 = asian_turkic_47
+		2 = asian_turkic_48
+		3 = asian_turkic_49
+		4 = asian_turkic_50
+		4 = asian_turkic_51_oghuz
+		4 = asian_turkic_52_oghuz
+		4 = asian_turkic_53_oghuz
+		4 = asian_turkic_54_oghuz
+		4 = asian_turkic_55_oghuz
+		4 = asian_turkic_56_oghuz
+		4 = asian_turkic_57_oghuz
+		4 = asian_turkic_58_oghuz
+		4 = asian_turkic_59_oghuz
+		4 = asian_turkic_60_oghuz
 	}
 }
 
@@ -178,11 +414,48 @@ yakut = {	#AKA Kurykans
 	
 	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
-		10 = asian
+		4 = asian_turkic_1
+		4 = asian_turkic_2
+		4 = asian_turkic_3
+		4 = asian_turkic_4
+		4 = asian_turkic_5
+		4 = asian_turkic_6
+		4 = asian_turkic_7
+		4 = asian_turkic_8 
+		4 = asian_turkic_9
+		4 = asian_turkic_10
+		4 = asian_turkic_11
+		4 = asian_turkic_12
+		4 = asian_turkic_13
+		4 = asian_turkic_14
+		4 = asian_turkic_15 
+		2 = asian_turkic_16
+		2 = asian_turkic_16_eastern
+		4 = asian_turkic_17_eastern
+		4 = asian_turkic_18
+		4 = asian_turkic_19
+		4 = asian_turkic_20
+		4 = asian_turkic_21
+		4 = asian_turkic_22
+		4 = asian_turkic_26
+		4 = asian_turkic_27
+		4 = asian_turkic_28
+		4 = asian_turkic_29
+		4 = asian_turkic_30
+		4 = asian_turkic_41
+		4 = asian_turkic_42
+		4 = asian_turkic_43
+		4 = asian_turkic_44
+		4 = asian_turkic_45
+		3 = asian_turkic_46
+		3 = asian_turkic_47
+		3 = asian_turkic_48
+		3 = asian_turkic_49
+		3 = asian_turkic_50
 	}
 }
 

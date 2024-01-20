@@ -28,7 +28,7 @@ e_bulgaria = {
 	}
 }
 e_egypt = { # Misr
-	color = { 200 255 200 }
+	color = { 215 150 26 }
 	capital = c_cairo # Cairo
 	ruler_uses_title_name = no
 	#can_create_on_partition = { always = no }

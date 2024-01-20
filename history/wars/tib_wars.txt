@@ -1,6 +1,6 @@
 ﻿
 ###715###
-# Umayyad Conquest
+## Umayyad Conquest
 war = {
 	name = "muslim_siege_of_constaninople"
 	start_date = 711.1.1
@@ -13,7 +13,7 @@ war = {
 	defenders = { 70504 }
 }
 
-# Byzantine Revolt 715
+## Byzantine Revolt 715
 war = {
 	name = "opsikion_revolt"
 	start_date = 715.2.20
@@ -34,6 +34,7 @@ war = {
 	#}
 }
 
+## Francia
 war = {
 	name = "frankish_civil_war"
 	start_date = 715.2.20
@@ -47,6 +48,28 @@ war = {
 	attackers = { ragenfrid_neustria }
 	defenders = { 190424 }
 	claimant = ragenfrid_neustria
+}
+
+## Britain
+war = {
+	start_date = 715.1.1
+	end_date = 722.1.1
+	targeted_titles = {
+		c_oxfordshire
+	}
+	casus_belli = county_conquest_cb
+	attackers = { 205164 } # Ine of Wessex
+	defenders = { 205063 } # Coenred of Mercia
+}
+war = {
+	start_date = 715.1.1
+	end_date = 722.1.1
+	targeted_titles = {
+		c_devon
+	}
+	casus_belli = county_conquest_cb
+	attackers = { 205164 } # Ine of Wessex
+	defenders = { 159451 } # Donual of Cornwall
 }
 
 # Las Navas de Tolosa, 1212

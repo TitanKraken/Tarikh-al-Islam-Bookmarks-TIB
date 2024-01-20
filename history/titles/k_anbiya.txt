@@ -299,7 +299,7 @@ c_zammour = {
 	1132.1.1 = {
 		holder = tagelmust0009
 	}
-	1145.1.1 = {
+	1133.1.1 = {
 		liege = d_masmudi
 	}
 	1169.1.1 = {
@@ -362,7 +362,7 @@ c_tindouf = {
 	1143.1.1 = {
 		holder = butr0005
 	}
-	1145.1.1 = {
+	1143.1.1 = {
 		liege = d_masmudi
 	}
 	1173.1.1 = {

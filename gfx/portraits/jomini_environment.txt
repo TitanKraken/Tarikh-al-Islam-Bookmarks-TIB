@@ -1,0 +1,47 @@
+
+saturation_scale = 1	# To offset the increased saturation from tonemapping
+value_scale = 1.35	# Light multiplier
+colorbalance = { 1 1 1 }
+levels_min = hsv{ 0 0 0 }
+levels_max = hsv{ 0 0 1 }
+
+exposure_function = "FixedExposure"
+exposure = 0.5
+
+tonemap_function = "Uncharted"
+## U2 values // J. Hable
+tonemap_curve = {
+	shoulder_strength = 0.6
+	linear_strength = 0.2
+	linear_angle = 0.1
+	toe_strength = 0.1
+	toe_numerator = 0.01
+	toe_denominator = 0.3
+	linear_white = 11.2
+}
+
+shadowmap_kernelscale = 8
+shadowmap_fadefactor = 0.7
+
+# ## Flat Curve
+# tonemap_curve = {
+# 	shoulder_strength = 0.12
+# 	linear_strength = 0.9
+# 	linear_angle = 0.1
+# 	toe_strength = 0.2
+# 	toe_numerator = 0.01
+# 	toe_denominator = 0.3
+# 	linear_white = 11.2
+# }
+
+### Uncharted Tonemapping, applies only when "tonemap_function" is set to "Uncharted"
+### A = shoulder_strength
+### B = linear_strength
+### C = linear_angle
+### D = toe_strength
+### E = toe_numerator
+### F = toe_denominator
+### F(x) = ((x(A*x + C*B) + D*E) / (x(A*x + B) + D*F)) - E/F
+### FinalColor = F(LinearColor)/F(LinearWhite)
+
+### Console cmd to visualize curve: shader_debug PDX_DEBUG_TONEMAP_CURVE

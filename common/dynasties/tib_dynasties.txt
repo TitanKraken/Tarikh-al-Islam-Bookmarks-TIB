@@ -41,6 +41,13 @@ tribe_asir = {
     name = "Asir"
     culture = "bedouin"
 }
+
+# Extra Arab dynasties
+1000103583 = {
+	name="al-Liyuwi"
+	culture = levantine
+}
+
 # Byzantium Strategos
 house_anafesto = {
     name = "Anafesto"

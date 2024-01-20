@@ -53,6 +53,7 @@ tib_arabic_shahada_maghrebi_shrinked.dds = { colors = 1 category = tib_emblems }
 tib_shahada_kufic.dds = { colors = 1 category = tib_emblems }
 tib_shahada_kufic_linear.dds = { colors = 1 category = tib_emblems }
 tib_eu4_arabia.dds = { colors = 3 category = tib_emblems }
+tib_eu4_arabia_plain.dds = { colors = 2 category = tib_emblems }
 tib_eu4_mikhlaf.dds = { colors = 1 category = tib_emblems }
 
 # Man-made

@@ -220,7 +220,7 @@
 }
 
 1234980 = {
-	name="Abd-Allah" #Father of the famous Sicilian Greek slave, later turned Supreme Commander of the Fatimid forces and conqueror of Egypt on behalf of the Caliph, Jawhar al-Siqilli
+	name="Abdullah" #Father of the famous Sicilian Greek slave, later turned Supreme Commander of the Fatimid forces and conqueror of Egypt on behalf of the Caliph, Jawhar al-Siqilli
 	dynasty=1000103875
 	religion="orthodox"
 	culture="greek"
@@ -230,7 +230,7 @@
 	}
 	911.1.1 = {
 		religion="ismaili"
-		culture="maghrebi"
+		#culture="maghrebi"
 	}	
 	943.1.1 = {
 		death=yes

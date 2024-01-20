@@ -101,6 +101,7 @@
 	
 	# History
 	867.1.1 = { religion = ashari }
+	1200.1.1 = { religion = asharite }
 
 }
 

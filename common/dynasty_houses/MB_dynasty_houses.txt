@@ -700,18 +700,6 @@ house_balgarsko = {
 	dynasty = 591 #Dulo
 }
 
-house_gramont = {
-	prefix = "dynnp_de"
-	name = "dynn_Gramont"
-	dynasty = 388
-}
-
-house_dax = {
-	prefix = "dynnp_de"
-	name = "dynn_Dax"
-	dynasty = 388 
-}
-
 house_karesili = {
 	name = "dynn_Karesili"
 	dynasty = 101730
@@ -885,21 +873,9 @@ house_Plauen = {
 	dynasty = 1000103725
 }
 
-house_foix = {
-	prefix = "dynnp_de"
-	name = "dynn_Foix"
-	dynasty = 388
-}
-
 house_foixbearn = {
 	prefix = "dynnp_de"
 	name = "dynn_FoixBearn"
-	dynasty = 388
-}
-
-house_comminges = {
-	prefix = "dynnp_de"
-	name = "dynn_Comminges"
 	dynasty = 388
 }
 
@@ -909,27 +885,9 @@ house_comminges_cous = {
 	dynasty = 388
 }
 
-house_bigorre = {
-	prefix = "dynnp_de"
-	name = "dynn_Bigorre"
-	dynasty = 388
-}
-
-house_bearn = {
-	prefix = "dynnp_de"
-	name = "dynn_BE_arn"
-	dynasty = 388
-}
-
 house_vojis = {
 	name = "dynn_Vojislavljevic"
 	dynasty = 101682
-}
-
-house_comborn = {
-	prefix = "dynnp_de"
-	name = "dynn_Comborn"
-	dynasty = 727
 }
 
 house_ventadour = {
@@ -1104,27 +1062,10 @@ house_disangro = {
 	dynasty = 1000035385
 }
 
-house_limoges = {
-	prefix = "dynnp_de"
-	name = "dynn_Limoges"
-	dynasty = 727
-}
-
 house_rochechouart = {
 	prefix = "dynnp_de"
 	name = "dynn_Rochechouart"
 	dynasty = 727
-}
-
-house_otakeren = {
-	name = "dynn_Otakeren"
-	dynasty = 9554
-}
-
-house_bruonen = {
-	name = "dynn_Brunonen"
-	prefix = "dynnp_von"
-	dynasty = 669
 }
 
 house_almira = {
@@ -1248,12 +1189,6 @@ house_oviedo = {
 #	name = "dynn_Folcwalding"
 #	dynasty = 25061
 #}
-
-house_gerulfing = {
-	name = "dynn_Gerulfing"
-	prefix = "dynnp_van"
-	dynasty = 246
-}
 
 house_salian = { 
 	prefix = "dynnp_von_der"
@@ -1419,12 +1354,6 @@ house_pentheivre = {
 	dynasty = 1029001
 }
 
-house_andechs = {
-	prefix = "dynnp_von"
-	name = "dynn_Andechs"
-	dynasty = 247
-}
-
 house_bogen = {
 	prefix = "dynnp_von"
 	name = "dynn_Bogen"
@@ -1440,21 +1369,9 @@ house_habsurg = {
 	dynasty = 664
 }
 
-house_hupoldinger = {
-	name = "dynn_Hupoldinger"
-	prefix = "dynnp_von"
-	dynasty = 664
-}
-
 house_vexin = {
 	prefix = "dynnp_de" 
 	name = "dynn_Vexin-Amiens"
-	dynasty = 664
-}
-
-house_zahringen = {
-	prefix = "dynnp_von"
-	name = "dynn_ZA_hringen"
 	dynasty = 664
 }
 
@@ -1620,12 +1537,6 @@ house_champlitte = {
 	prefix = "dynnp_de"
 	name = "dynn_Champlitte"
 	dynasty = 721
-}
-
-house_thiern = {
-	prefix = "dynnp_de"
-	name = "dynn_Thiern"
-	dynasty = 733
 }
 
 house_chalon = {
@@ -1961,12 +1872,6 @@ house_stenkiling = { # Skogla cadets
 	name = "dynn_Stenkiling"
 	prefix = "dynnp_af"
 	dynasty = 500#Skogla
-}
-
-house_wittelsbach = { # Luitpolding candidates
-	prefix = "dynnp_von"
-	name = "dynn_Wittelsbach"
-	dynasty = 247#Luitpolding
 }
 
 house_bathory = {
@@ -2874,14 +2779,14 @@ house_pirkstejn = {
 	name = "dynn_PirkS_tejna"
 	dynasty = 10105
 }
-house_rind = {
-	name = "dynn_Rind"
-	dynasty = baloch_dynasty
-}
-house_lashari = {
-	name = "dynn_Lashari"
-	dynasty = baloch_dynasty
-}
+#house_rind = {
+#	name = "dynn_Rind"
+#	dynasty = baloch_dynasty
+#}
+#house_lashari = {
+#	name = "dynn_Lashari"
+#	dynasty = baloch_dynasty
+#}
 
 house_sutayid = {
 	name = "dynn_Sutayid"

@@ -5702,12 +5702,12 @@
 	religion = "zayidi"
 	culture = maghrebi
 	trait = sayyid
-	father = 159505
-	841.1.2 = {
-		birth = "841.1.2"
+	father = 159502 # Idris II
+	818.1.2 = {
+		birth = yes
 	}
 	863.12.16 = {
-		death = "863.12.16"
+		death = yes
 	}
 }
 159508 = {
@@ -5717,11 +5717,11 @@
 	culture = maghrebi
 	trait = sayyid
 	father = 159507
-	860.1.2 = {
-		birth = "860.1.2"
+	836.1.2 = {
+		birth = yes
 	}
 	883.12.16 = {
-		death = "883.12.16"
+		death = yes
 	}
 }
 159509 = {
@@ -5745,7 +5745,7 @@
 	culture = maghrebi
 	trait = sayyid
 	father = 159509
-	875.1.2 = {
+	846.1.2 = {
 		birth = "875.1.2"
 	}
 	904.12.16 = {
@@ -5759,11 +5759,11 @@
 	culture = maghrebi
 	trait = sayyid
 	father = 159507
-	862.1.1 = {
-		birth = "862.1.1"
+	840.1.1 = {
+		birth = yes
 	}
 	900.12.16 = {
-		death = "900.12.16"
+		death = yes
 	}
 }
 159512 = {
@@ -6486,7 +6486,7 @@
 		death = yes
 	}
 }
-200214 = {
+2002150 = {
 	name = "Abd-al-Karim"
 	dynasty = 1046020
 
@@ -6605,12 +6605,12 @@
 	religion="zayidi"
 	culture="maghrebi"
 	trait="sayyid"
-	father=159505
+	father=159508 # Ali bin Umar al-Idrisi
 	850.1.1={
 		birth = yes
 	}
 	865.1.1={
-		add_spouse=159506
+		add_spouse=159506 # Yahya bin Yahya
 	}
 	897.1.1={
 		death=yes

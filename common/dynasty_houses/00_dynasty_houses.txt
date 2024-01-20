@@ -1191,13 +1191,13 @@ house_hupoldinger = { # Etichonen cadets
 house_wittelsbach = { # Luitpolding candidates
 	prefix = "dynnp_von"
 	name = "dynn_Wittelsbach"
-	dynasty = 416#Luitpolding
+	dynasty = 247 #Luitpolding
 }
 
 house_andechs = { # Babenburg/Luitpolding candidates
 	prefix = "dynnp_von"
 	name = "dynn_Andechs"
-	dynasty = 416#Luitpolding
+	dynasty = 247#Luitpolding
 }
 
 house_katlenburg = { # Udonen candidates
@@ -1242,7 +1242,7 @@ house_konradiner = { # Geroldonen cadets
 house_babenberg = { # Luitpolding cadets
 	prefix = "dynnp_von"
 	name = "dynn_Babenberg"
-	dynasty = 416#Luitpolding
+	dynasty = 247#Luitpolding
 }
 
 house_babenberger = { # Robertine cadets
@@ -1405,6 +1405,12 @@ house_kilabid = {
 house_samanid = {
 	name = "dynn_Samanid"
 	dynasty = 1042070 # Mihran
+}
+
+# Shansabanids, house of Ghurid dynasty
+house_ghurid = {
+	name = "dynn_Shansabani"
+	dynasty = 791 # Ghurid
 }
 
 # Samanid, Guddala cadets

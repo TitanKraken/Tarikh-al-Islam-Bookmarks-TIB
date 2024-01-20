@@ -188,11 +188,21 @@
 4796 = {	# 4796 - An-Nahrawan
 	
 	# Misc
-	culture = levantine
+	culture = iraqi
 	religion = ashari
 	
 	# History
-	
+	260.1.1 = {
+		holding = castle_holding
+		special_building = palace_of_ctesiphon_01
+	}
+
+	1066.1.1 = {
+		buildings = {
+			castle_02
+			orchards_01
+		}
+	}		
 
 }
 

@@ -105,6 +105,17 @@ d_turgay = {
 		holder = 302848	#fictional Alpra Altunopa
 	}
 
+	# Kimek Placeholders
+	1180.1.1 = {
+		holder = 194215 # C_ilbu Kimak
+	}
+	1200.1.1 = {
+		holder = 194216 # Kubasar Kimak
+	}
+	1227.1.1 = {
+		holder = 0
+	}
+
 	# Mongol, switch this title to the White Horde
 	1227.2.2 = {
 		holder = 34912 # Orda Khan
@@ -152,6 +163,17 @@ c_turgay = {
 	}
 	1164.2.11 = {
 		holder = 302852	#fictional Kolo Altunopa
+	}
+
+	# Kimek Placeholders
+	1180.1.1 = {
+		holder = 194215 # C_ilbu Kimak
+	}
+	1200.1.1 = {
+		holder = 194216 # Kubasar Kimak
+	}
+	1227.1.1 = {
+		holder = 0
 	}
 
 	# Mongol, switch this title to the White Horde
@@ -208,6 +230,17 @@ c_tumar = {
 		holder = 302852	#fictional Kolo Altunopa
 	}
 
+	# Kimek Placeholders
+	1180.1.1 = {
+		holder = 194215 # C_ilbu Kimak
+	}
+	1200.1.1 = {
+		holder = 194216 # Kubasar Kimak
+	}
+	1227.1.1 = {
+		holder = 0
+	}
+
 	# Mongol, switch this title to the White Horde
 	1227.2.2 = {
 		holder = 34912 # Orda Khan
@@ -255,6 +288,17 @@ c_murun_tomis = {
 	}
 	1164.2.11 = {
 		holder = 302852	#fictional Kolo Altunopa
+	}
+
+	# Kimek Placeholders
+	1180.1.1 = {
+		holder = 194215 # C_ilbu Kimak
+	}
+	1200.1.1 = {
+		holder = 194216 # Kubasar Kimak
+	}
+	1227.1.1 = {
+		holder = 0
 	}
 
 	# Mongol, switch this title to the White Horde
@@ -309,6 +353,17 @@ c_jilali = {
 		holder = 302850	#fictional Bonyak Altunopa
 	}
 
+	# Kimek Placeholders
+	1180.1.1 = {
+		holder = 194215 # C_ilbu Kimak
+	}
+	1200.1.1 = {
+		holder = 194216 # Kubasar Kimak
+	}
+	1227.1.1 = {
+		holder = 0
+	}
+
 	# Mongol, switch this title to the White Horde
 	1227.2.2 = {
 		holder = 34912 # Orda Khan
@@ -359,6 +414,17 @@ c_ulu_jitanjik = {
 	}
 	1178.3.6 = {
 		holder = 302850	#fictional Bonyak Altunopa
+	}
+
+	# Kimek Placeholders
+	1180.1.1 = {
+		holder = 194215 # C_ilbu Kimak
+	}
+	1200.1.1 = {
+		holder = 194216 # Kubasar Kimak
+	}
+	1227.1.1 = {
+		holder = 0
 	}
 
 	# Mongol, switch this title to the White Horde
@@ -668,6 +734,17 @@ d_saryarka = {
 	1173.12.2 = {
 		holder = 302848	#fictional Alpra Altunopa
 	}
+
+	# Kimek Placeholders
+	1180.1.1 = {
+		holder = 194215 # C_ilbu Kimak
+	}
+	1200.1.1 = {
+		holder = 194216 # Kubasar Kimak
+	}
+	1227.1.1 = {
+		holder = 0
+	}
 }
 
 
@@ -698,6 +775,17 @@ c_teniz = {
 	}
 	1173.12.2 = {
 		holder = 302848	#fictional Alpra Altunopa
+	}
+
+	# Kimek Placeholders
+	1180.1.1 = {
+		holder = 194215 # C_ilbu Kimak
+	}
+	1200.1.1 = {
+		holder = 194216 # Kubasar Kimak
+	}
+	1227.1.1 = {
+		holder = 0
 	}
 
 	# Mongol, switch this title to the White Horde
@@ -743,6 +831,17 @@ c_eghiz_kara = {
 		holder = 302848	#fictional Alpra Altunopa
 	}
 
+	# Kimek Placeholders
+	1180.1.1 = {
+		holder = 194215 # C_ilbu Kimak
+	}
+	1200.1.1 = {
+		holder = 194216 # Kubasar Kimak
+	}
+	1227.1.1 = {
+		holder = 0
+	}
+
 	# Mongol, switch this title to the White Horde
 	1227.2.2 = {
 		holder = 34912 # Orda Khan
@@ -786,6 +885,17 @@ c_ulytau = {
 		holder = 302848	#fictional Alpra Altunopa
 	}
 
+	# Kimek Placeholders
+	1180.1.1 = {
+		holder = 194215 # C_ilbu Kimak
+	}
+	1200.1.1 = {
+		holder = 194216 # Kubasar Kimak
+	}
+	1227.1.1 = {
+		holder = 0
+	}
+
 	# Mongol, switch this title to the White Horde
 	1227.2.2 = {
 		holder = 34912 # Orda Khan
@@ -827,6 +937,17 @@ c_kaska = {
 	}
 	1173.12.2 = {
 		holder = 302848	#fictional Alpra Altunopa
+	}
+
+	# Kimek Placeholders
+	1180.1.1 = {
+		holder = 194215 # C_ilbu Kimak
+	}
+	1200.1.1 = {
+		holder = 194216 # Kubasar Kimak
+	}
+	1227.1.1 = {
+		holder = 0
 	}
 
 	# Mongol, switch this title to the White Horde

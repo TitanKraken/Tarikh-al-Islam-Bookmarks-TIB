@@ -48,5 +48,31 @@ trigger_invasion = {
 				days = { 2 240 }
 			}
 		}
+		# TIB Mongol Invasion
+		if = { 
+			limit = { 
+				has_game_rule = never_mongol_invasion
+			}
+		}
+		else = {
+			if = {
+				limit = {
+					game_start_date >= 1180.1.1
+					current_date < 1300.1.1
+					title:c_ulaanbaatar.holder = {
+						is_ai = yes
+					}
+					NOT = { has_global_variable = mongols_have_appeared}
+				}
+				debug_log = "Attempting to spawn mongol invasion immediately"
+				set_global_variable = {
+					name = mongols_have_appeared
+					value = yes
+				}
+				title:c_ulaanbaatar.holder = {
+					trigger_event = mongol_invasion.0001
+				}
+			}
+		}
 	}
 }

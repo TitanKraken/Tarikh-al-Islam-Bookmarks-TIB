@@ -484,23 +484,95 @@ empire_islamic = {
 }
 
 # Arabic City holders
-baron_republic_arabic_male = {
+baron_republic_male_muslim_tib = {
 	type = character
 	gender = male
 	special = holder
 	tier = barony
 	priority = 9
 	governments = { republic_government }
-	heritages = { heritage_arabic }
+	religions = { islam_religion }
 }
-baron_republic_arabic_female = {
+baron_republic_female_muslim_tib = {
 	type = character
 	gender = female
 	special = holder
 	tier = barony
 	priority = 9
 	governments = { republic_government }
-	heritages = { heritage_arabic }
+	religions = { islam_religion }
+}
+count_republic_male_muslim_tib = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 20
+	governments = { republic_government }
+	religions = { islam_religion }
+}
+count_republic_female_muslim_tib = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 20
+	governments = { republic_government }
+	religions = { islam_religion }
+}
+duke_republic_male_muslim_tib = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 30
+	governments = { republic_government }
+	religions = { islam_religion }
+}
+duke_republic_female_muslim_tib = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 30
+	governments = { republic_government }
+	religions = { islam_religion }
+}
+king_republic_male_muslim_tib = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 50
+	governments = { republic_government }
+	religions = { islam_religion }
+}
+king_republic_female_muslim_tib = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 50
+	governments = { republic_government }
+	religions = { islam_religion }
+}
+emperor_republic_male_muslim_tib = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 103
+	governments = { republic_government }
+	religions = { islam_religion }
+}
+emperor_republic_female_muslim_tib = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 103
+	governments = { republic_government }
+	religions = { islam_religion }
 }
 
 ### Turkish ###

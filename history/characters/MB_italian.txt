@@ -1,4 +1,288 @@
 ﻿###################################
+#Alberti. Conti di Prato, Vernio, Certaldo, Magno e Monterondo.
+###################################
+#1061130-60
+1061130 = {
+	name="Ildebrando" #Ildebrando I. Fl ca 987
+	dynasty=1000020001
+	religion="catholic"
+	culture="tuscan"
+	934.1.1 = {
+		birth=yes
+	}	
+	1002.1.1 = {
+		death=yes
+	}
+}
+1061131 = {
+	name="Ildebrando" #Ildebrando II Fl. son of Ildebrando II. FL ca 1002-1045. A note on the "sons" of Ildebrando owning wide estates in 1027 might suggest he died a bit sooner.
+	dynasty=1000020001
+	religion="catholic"
+	culture="tuscan"
+	father=1061130
+	980.1.1 = {
+		birth=yes
+	}	
+	1027.1.1 = {
+		death=yes
+	}
+}
+1061132 = {
+	name="Ildebrando" #Ildebrando III. Son of Ildebrando II. Died before 1068.
+	dynasty=1000020001
+	religion="catholic"
+	culture="tuscan"
+	father=1061131
+	1000.1.1 = {
+		birth=yes
+	}	
+	1065.1.1 = {
+		death=yes
+	}
+}
+1061133 = {
+	name="Alberto" #Alberto I. son of Ildebrando II. Died 1077. Married Lavinia di Gherardo died before 1101. 
+	dynasty=1000020001
+	religion="catholic"
+	culture="tuscan"
+	father=1061132
+	1025.1.1 = {
+		birth=yes
+	}	
+	1077.1.1 = {
+		death=yes
+	}
+}
+1061135 = {
+	name="Adaletia" #Adaletia. Daughter of Alberto I. fl. 1084-1098. Wife of Ugo di Enrico, count of Arezzo.
+	dynasty=1000020001
+	religion="catholic"
+	culture="tuscan"
+	father=1061133
+	female=yes
+	1050.1.1 = {
+		birth=yes
+	}	
+	1121.1.1 = {
+		death=yes
+	}
+}
+###### Capraia branch, became very involved with the communal rule of Firenze, Lucca and Pistoia, initally ghibeline(after 1238 mostly guelph). conti di Capraia, Giudici di Arboria e marchesi di Livorno.
+1061134 = {
+	name="Ildebrando" #Ildebrando IV. Son of Alberto I. Fl 1077-1133. married Bertha di Oberthenghi(died before 1130) 
+	dynasty_house = house_Capraia
+	religion="catholic"
+	culture="italian"
+	father=1061133
+	1050.1.1 = {
+		birth=yes
+	}	
+	1133.1.1 = {
+		death=yes
+	}
+}
+1065084 = {
+	name="Borgognone" #Borgognone, son of?
+	dynasty_house = house_Capraia
+	religion="catholic"
+	culture="italian"
+	father=1061134 # speculative but almost have to be.
+	1080.1.1 = {
+		birth=yes
+	}	
+	1150.1.1 = {
+		death=yes
+	}
+}
+1065085 = {
+	name="Rodolfo" #Rodolfo, son of Borgognone.
+	dynasty_house = house_Capraia
+	religion="catholic"
+	culture="italian"
+	father=1065084
+	1110.1.1 = {
+		birth=yes
+	}	
+	1170.1.1 = {
+		death=yes
+	}
+}
+1065086 = {
+	name="Arrigo" #Arrigo, son of Rodolfo?, conte di Capraia?, podesta of Firenze 1196, consul 1199.
+	dynasty_house = house_Capraia
+	religion="catholic"
+	culture="italian"
+	father=1065085 # speculative
+	1150.1.1 = {
+		birth=yes
+	}	
+	1210.1.1 = {
+		death=yes
+	}
+}
+1065087 = {
+	name="Guido Borgognone" #Guido Borgognone, son of Rodolfo. conte di Capria. consul of Pistoia, consul of Firenze 1174. attested 1179, 1182, 1203 and 1220. dead before 1235. awarded Montecatini by the republic of Lucca in 1182, married Tuttabuona. stiched back and forth between Lucca and Firenze repbulics(mostly with lucca)(served as Grande at some point after 1214)
+	dynasty_house = house_Capraia
+	religion="catholic"
+	culture="italian"
+	father=1065085
+	1140.1.1 = {
+		birth=yes
+	}	
+	1221.1.1 = {
+		death=yes
+	}
+}
+1065088 = {
+	name="Sanguigno" #Sanguigno, first son of Guido Borgognone, attested 1182.
+	dynasty_house = house_Capraia
+	religion="catholic"
+	culture="italian"
+	father=1065087
+	1160.1.1 = {
+		birth=yes
+	}	
+	1204.1.1 = {
+		death=yes
+	}
+}
+1065089 = {
+	name="Rodolfo" #Rodolfo/Ridolfo, second son of Guido, conte di Capraia, podesta of Firenze 1205, 1212 and 1249. Podesta of lucca 1219 and 1220, podesta of Bologna 1214, podesta of Treviso 1217-1218. firm ghibeline until 1238. was captured by the emperors troops in 1249. blind and drowned the 12th of martch 1250.
+	dynasty_house = house_Capraia
+	religion="catholic"
+	culture="italian"
+	father=1065087
+	1175.1.1 = {
+		birth=yes
+	}	
+	1250.3.12 = {
+		trait="blind"
+		death={
+			death_reason=death_execution
+			killer=212513
+		}
+	}
+}
+1065090 = {
+	name="Beatrice" #Beatrice, daughter of Ridolfo, married Marcovaldo di Guidi count of Dovadola.
+	dynasty_house = house_Capraia
+	religion="catholic"
+	culture="italian"
+	father=1065089
+	female=yes
+	1188.1.1 = {
+		birth=yes
+	}	
+	1265.1.1 = {
+		death=yes
+	}
+}
+1065091 = {
+	name="Anselmo" #Anselmo, third son of Guido, attested 1203, blind in 1249 by the imperial troops.
+	dynasty_house = house_Capraia
+	religion="catholic"
+	culture="italian"
+	father=1065087
+	1176.1.1 = {
+		birth=yes
+	}	
+	1249.1.1 = {
+		death=yes
+	}
+}
+1065092 = {
+	name="Arrigo" #Arrigo, son of Anselmo. consul of Lucca 1235
+	dynasty_house = house_Capraia
+	religion="catholic"
+	culture="italian"
+	father=1065091
+	1200.1.1 = {
+		birth=yes
+	}	
+	1249.1.1 = {
+		death=yes
+	}
+}
+1065093 = {
+	name="Ugo" #Ugo, fourth son Guido Borgognone.
+	dynasty_house = house_Capraia
+	religion="catholic"
+	culture="italian"
+	father=1065087
+	1177.1.1 = {
+		birth=yes
+	}	
+   1193.1.1 = {
+     add_spouse=235203 #Bina de Lacon Gunale of Torres
+   }
+   1227.1.1 = {
+     add_spouse=144530 #Benedetta of Cagliari
+   }	
+	1228.1.1 = {
+		death=yes
+	}
+}
+1065094 = {
+	name="Rodolfo" #Rodolfo, son of Anselmo or Ugo. conte di Capria 1258(must have been restored since the family were deprived of it in 1248)
+	dynasty_house = house_Capraia
+	religion="catholic"
+	culture="italian"
+	father=1065091
+	1215.1.1 = {
+		birth=yes
+	}	
+	1265.1.1 = {
+		death=yes
+	}
+}
+1065095 = {
+	name="Bertoldo" #Bertoldo, son of Ugo. Signore di Usellus(in Arborea) in 1221
+	dynasty_house = house_Capraia
+	religion="catholic"
+	culture="italian"
+	father=1065093
+    mother=235203 #Bina de Lacon Gunale of Torres	
+	1200.1.1 = {
+		birth=yes
+	}	
+    1237.1.1={
+     add_spouse= 180063
+   }	
+	1240.1.1 = {
+		death=yes
+	}
+}
+1065096 = {
+	name="Guglielmo" #Guglielmo, son of Ugo or Bertoldo. De facto Giudice of Arborea(under Pisa), 1241-1264(died that year), signore di Santa Igia.
+	dynasty_house = house_Capraia
+	religion="catholic"
+	culture="italian"
+	father=1065093
+	mother=235203
+	1219.1.1 = {
+		birth=yes
+	}	
+	1264.1.1 = {
+		death=yes
+	}
+}
+1065097 = {
+	name="Nicolo" #Nicolo, son of Guglielmo.
+	dynasty_house = house_Capraia
+	religion="catholic"
+	culture="italian"
+	father=1065096
+	1240.1.1 = {
+		birth=yes
+	}	
+	1265.1.1 = { # imprisoned and murdered by the Giudice of Arborea shortly after his father's death.
+		death={
+			death_reason=death_execution
+			killer=144533
+		}
+	}
+}
+###################################
 #Adelardi/Marcheselli
 ###################################
 #Comital family from Ferrara, patricians of Ferrara. Guelph tendencies.
@@ -353,7 +637,300 @@
 		death=yes 
 	}
 }
-
+#-1064489 reserved
+###################################
+#Da Cornazzano and Terzi families
+###################################
+# signori di Pizzo e san secondo, conti di Tizzano, patricians of Parma. both ghibeline tendendcies
+1064425 = {
+	name="Gherardo" #Gerardo I da Cornazzano first attested member. dead before 1051
+    dynasty=1000020078 	
+	religion="catholic"
+	culture="cisalpine"
+	1000.1.1 = {
+		birth=yes
+	}
+	1050.1.1 = {
+		death=yes
+	}
+}
+1064426 = {
+	name="Oddone" #Oddone I, son of Gerardo. attested 1051-55 and 1099. signore di castello di Pizzo. vassal of Bonifacio and Mathilda.
+    dynasty=1000020078 	
+	religion="catholic"
+	culture="cisalpine"
+    father=1064425
+	1030.1.1 = {
+		birth=yes
+	}
+	1100.1.1 = {
+		death=yes
+	}
+}
+1064427 = {
+	name="Gandolfo" #Gandolfo, son of ?
+    dynasty=1000020078 	
+	religion="catholic"
+	culture="cisalpine"
+    father=1064425 # specualtive
+	1035.1.1 = {
+		birth=yes
+	}
+	1085.1.1 = {
+		death=yes
+	}
+}
+1064428 = {
+	name="Lanfranco" #Lanfranco, son of Gandolfo. Canonico of the church of Parma late 11th century.
+    dynasty=1000020078 	
+	religion="catholic"
+	culture="cisalpine"
+    father=1064427
+	1060.1.1 = {
+		birth=yes
+	}
+	1127.1.1 = {
+		death=yes
+	}
+}
+1064429 = {
+	name="Gherardo" #Gherardo II, nephew of oddone. vassal of Mathilda attested 1081, 1099 and 1116(listed among the powerfull vassal present when Mathilda's will was read in 1116). co ruler with his uncle.
+    dynasty=1000020078 	
+	religion="catholic"
+	culture="cisalpine"
+    father=1064427
+	1057.1.1 = {
+		birth=yes
+	}
+	1120.1.1 = {
+		death=yes
+	}
+}
+1064430 = {
+	name="Oddone" #Oddone II, son of Gherardo. attested 1136.
+    dynasty=1000020078 	
+	religion="catholic"
+	culture="cisalpine"
+    father=1064429
+	1095.1.1 = {
+		birth=yes
+	}
+	1150.1.1 = {
+		death=yes
+	}
+}
+1064431 = {
+	name="Giacopo" #Giacopo, son of? attested ca. 1165-1170 judging by context. same as Giacomo recotor of the Parmese army in 1179?
+    dynasty=1000020078 	
+	religion="catholic"
+	culture="cisalpine"
+    father=1064430 # speculative
+	1130.1.1 = {
+		birth=yes
+	}
+	1185.1.1 = {
+		death=yes
+	}
+}
+1064432 = {
+	name="Gandolfo" #Gandolfo, son of, died before 1182.
+    dynasty=1000020078 	
+	religion="catholic"
+	culture="cisalpine"
+    father=1064430 # speculative
+	1113.1.1 = {
+		birth=yes
+	}
+	1175.1.1 = {
+		death=yes
+	}
+}
+1064433 = {
+	name="Armanno" #Armanno, son of Gandolfo. attested 1182.
+    dynasty=1000020078 	
+	religion="catholic"
+	culture="cisalpine"
+    father=1064432
+	1139.1.1 = {
+		birth=yes
+	}
+	1202.1.1 = {
+		death=yes
+	}
+}
+#
+1064434 = {
+	name="Gherardo" #Gherardo III, son of Gherardo II. attested 1136, 1140(consul of Parma) and 1162(led the Parmese army against Milano in the sevice of the emperor)
+    dynasty=1000020078 	
+	religion="catholic"
+	culture="cisalpine"
+    father=1064429
+	1093.1.1 = {
+		birth=yes
+	}
+	1172.8.26 = {
+		death=yes
+	}
+}
+1064435 = {
+	name="Aicardo" #Aicardo, brother or otherwise very close relative of Gherardo III. attested 1146, 1149, 1151 1152 and 1158. cardinal 1160, bishop of Parma 1162-1170. last attested 1178
+    dynasty=1000020078 	
+	religion="catholic"
+	culture="cisalpine"
+    father=1064429 # speculative
+	1115.1.1 = {
+		birth=yes
+	}
+	1178.1.1 = {
+		death=yes
+	}
+}
+1064436 = {
+	name="Gherardo" #Gherardo IV, son of Gherardo III, podesta of Parma 1192 and 1213, podesta of Reggio 1216, podesta of Cremona 1218, podesta of Pavia 1224, podesta of Reggio again in 1226. last attested 1229.
+    dynasty=1000020078 	
+	religion="catholic"
+	culture="cisalpine"
+    father=1064434
+	1145.1.1 = {
+		birth=yes
+	}
+	1230.1.1 = {
+		death=yes
+	}
+}
+1064437 = {
+	name="Manfredo" #Manfredo, son of Gherardo IV, attested 1192, podesta of parma 1224, 1237, podesta of Lucca 1239-1240(siezed arezzo for the ghibleine cause also), 1244 podesta of Cremona, exiled from Parma in 1247(togther with the other ghiblines) died in battle agaisnst the guelphs of Parma later that year.
+    dynasty=1000020078 	
+	religion="catholic"
+	culture="cisalpine"
+    father=1064436
+	1174.1.1 = {
+		birth=yes
+	}
+	1247.1.1 = {
+		death={ death_reason=death_battle }
+	}
+}
+1064438 = {
+	name="Oddone" #Oddone III, son of Gherardo IV
+    dynasty=1000020078 	
+	religion="catholic"
+	culture="cisalpine"
+    father=1064436
+	1158.1.1 = {
+		birth=yes
+	}
+	1205.1.1 = {
+		death=yes
+	}
+}
+1064439 = {
+	name="Auda" #Auda, daughter of Gherardo IV. married Bertolo Tabernario(podesta of Parma 1247)
+    dynasty=1000020078 	
+	religion="catholic"
+	culture="cisalpine"
+    father=1064436
+	female=yes
+	1205.1.1 = {
+		birth=yes
+	}
+	1260.1.1 = {
+		death=yes
+	}
+}
+1064440 = {
+	name="Gherardo" #Gherardo V, son of Gherardo IV.
+    dynasty=1000020078 	
+	religion="catholic"
+	culture="cisalpine"
+    father=1064436
+	1159.1.1 = {
+		birth=yes
+	}
+	1204.1.1 = {
+		death=yes
+	}
+}
+#Terzi
+1064441 = {
+	name="Pietro" #Pietro, son of Gherardo V.
+    dynasty_house = house_terzi 	
+	religion="catholic"
+	culture="italian"
+    father=1064440
+	1187.1.1 = {
+		birth=yes
+	}
+	1235.1.1 = {
+		death=yes
+	}
+}
+1064442 = {
+	name="Bernardo" #Bernardo/Gherardo Terzo son of Pietro, attested 1238 and 1246. married Mabilia Franceschi(daughter of Gherardo Francheschi)
+    dynasty_house = house_terzi 	
+	religion="catholic"
+	culture="italian"
+    father=1064441
+	1212.1.1 = {
+		birth=yes
+	}
+	1275.1.1 = {
+		death=yes
+	}
+}
+1064443 = {
+	name="Guido" #Guido, son of Bernardo. attested 1248, 1311 and 1328. podesta di Parma
+    dynasty_house = house_terzi 	
+	religion="catholic"
+	culture="italian"
+    father=1064442
+	1232.1.1 = {
+		birth=yes
+	}
+	1328.1.1 = {
+		death=yes
+	}
+}
+1064444 = {
+	name="Filippo" #Fillipo, son of Bernardo attested 1328
+    dynasty_house = house_terzi 	
+	religion="catholic"
+	culture="italian"
+    father=1064442
+	1250.1.1 = {
+		birth=yes
+	}
+	1328.1.1 = {
+		death=yes
+	}
+}
+1064445 = {
+	name="Adelmota" #Adelmota daughter of Bernardo, attested 1258(married Tedisio Sanvitale)
+    dynasty_house = house_terzi 	
+	religion="catholic"
+	culture="italian"
+    father=1064442
+	female=yes
+	1228.1.1 = {
+		birth=yes
+	}
+	1275.1.1 = {
+		death=yes
+	}
+}
+1064446 = {
+	name="Giacomo" #Giacomo, podesta of Lucca 1317
+    dynasty_house = house_terzi 	
+	religion="catholic"
+	culture="italian"
+    father=1064443 #specualtive
+	1265.1.1 = {
+		birth=yes
+	}
+	1330.1.1 = {
+		death=yes
+	}
+}
 ###################################
 #Sanvitale
 ###################################
@@ -1325,9 +1902,9 @@
 	culture="tuscan"
 	trait="education_martial_2"
 	trait="arrogant"
-        trait="ambitious"
-        father=1091014
-		mother=1065090
+	trait="ambitious"
+	father=1091014
+	mother=1065090
 	1219.1.1 = {
 		birth="1219.1.1" 
 	}
@@ -1927,36 +2504,6 @@
 	1410.1.1 = {
 		death="1410.1.1"
 	}
-}
-180502 = {
-	name = "Candida"	# fictional placeholder
-	# wife of Guido II della Gherardesca
-	female = yes
-	dynasty = 1042027
-	religion = "catholic"
-	culture = "italian"
-	father = 1091007
-	1047.1.1 = {
-		birth = "1047.1.1"
-	}
-	1108.1.1 = {
-		death = "1108.1.1"
-	}
-}
-235016 = {
-    name = "Guisiana"   # fictional placeholder
-    # daughter of Count Guido Guerra III Guidi, second wife of William I of Cagliari
-    female = yes
-    dynasty = 1042027
-    religion = "catholic"
-    culture = "italian"
-    father = 1091012
-    1176.1.1 = {
-        birth = yes
-    }
-    1229.1.1 = {
-        death = yes
-    }
 }
 
 ################################

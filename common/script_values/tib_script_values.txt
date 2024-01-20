@@ -1,5 +1,0 @@
-﻿
-zakat_amount_paid = {
-	value = root.gold
-	multiply = 0.025 # 2.5% of total wealth
-}

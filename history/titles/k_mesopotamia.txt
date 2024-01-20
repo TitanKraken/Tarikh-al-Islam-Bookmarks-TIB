@@ -1944,17 +1944,17 @@ d_baghdad = {
 
 c_baghdad = {
 	#Bagdad
-	867.1.1 = {	change_development_level = 20 }
-	1066.1.1 = { change_development_level = 25 }
+	867.1.1 = {	change_development_level = 30 }
+	1066.1.1 = { change_development_level = 35 }
 	
 	801.1.1 = {
 		change_development_level = 14
 	}
 	1001.1.1 = {
-		change_development_level = 22
+		change_development_level = 30
 	}
 	1101.1.1 = {
-		change_development_level = 26
+		change_development_level = 40
 	}
 	
 	750.1.1 = {

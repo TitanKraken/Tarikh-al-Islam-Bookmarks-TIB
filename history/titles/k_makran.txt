@@ -57,6 +57,12 @@ k_makran = {
 		holder = 0
 	}
 
+	# Shansabani/Ghurids
+	# Civil war period
+	1206.3.15 = { # Opposing side of Ghurid conflict
+		holder = 93149 # Jalal al-Din 'Ali Shansabani
+	}
+
 }
 
 d_makran = {
@@ -99,6 +105,12 @@ d_makran = {
 	}
 	1090.1.1 = {
 		holder = 188548 # ? Ma'danid
+	}
+
+	# Shansabani/Ghurids
+	# Civil war period
+	1206.3.15 = { # Opposing side of Ghurid conflict
+		holder = 93149 # Jalal al-Din 'Ali Shansabani
 	}
 }
 
@@ -180,8 +192,10 @@ c_panjgur = {
 	1192.1.1 = {
 		holder = 93148
 	}
-	1206.1.1 = {
-		holder = 93149
+	# Shansabani/Ghurids
+	# Civil war period
+	1206.3.15 = { # Opposing side of Ghurid conflict
+		holder = 93149 # Jalal al-Din 'Ali Shansabani
 	}
 	1215.1.1 = {
 		liege = "d_sistan"
@@ -276,9 +290,10 @@ c_kiz = {
 	1203.1.1 = {
 		holder = 144142 # Mu'izz
 	}
-	1206.3.15 = {
-		holder = 170302
-		liege = 0
+	# Shansabani/Ghurids
+	# Civil war period
+	1206.3.15 = { # Opposing side of Ghurid conflict
+		holder = 93149 # Jalal al-Din 'Ali Shansabani
 	}
 	#1216.2.15 = {
 	#	holder = 0
@@ -376,9 +391,10 @@ c_sanij = {
 	1203.1.1 = {
 		holder = 144142 # Mu'izz
 	}
-	1206.3.15 = {
-		holder = 170302
-		liege = 0
+	# Shansabani/Ghurids
+	# Civil war period
+	1206.3.15 = { # Opposing side of Ghurid conflict
+		holder = 93149 # Jalal al-Din 'Ali Shansabani
 	}
 	#1216.2.15 = {
 	#	holder = 0
@@ -448,8 +464,10 @@ c_khawr = {
 	1192.1.1 = {
 		holder = 93148
 	}
-	1206.1.1 = {
-		holder = 93149
+	# Shansabani/Ghurids
+	# Civil war period
+	1206.3.15 = { # Opposing side of Ghurid conflict
+		holder = 93149 # Jalal al-Din 'Ali Shansabani
 	}
 	1215.1.1 = {
 		liege = "d_sistan"
@@ -534,8 +552,10 @@ c_turan = {
 	1192.1.1 = {
 		holder = 93148
 	}
-	1206.1.1 = {
-		holder = 93149
+	# Shansabani/Ghurids
+	# Civil war period
+	1206.3.15 = { # Opposing side of Ghurid conflict
+		holder = 93149 # Jalal al-Din 'Ali Shansabani
 	}
 	1215.1.1 = {
 		liege = "d_sistan"
@@ -569,6 +589,12 @@ d_jabal_kufs = {
 	1066.1.1 = {
 		liege = k_persia
 		holder = 93269
+	}
+
+	# Placeholder
+	1205.1.1 = {
+		holder = 93284 # Mas'ud Mihrabanid, Saffarid branch?
+		liege = e_persia
 	}
 }
 
@@ -653,9 +679,10 @@ c_bampur = {
 	1203.1.1 = {
 		holder = 144142 # Mu'izz
 	}
-	1206.3.15 = {
-		holder = 170302
-		liege = 0
+	# Placeholder
+	1205.1.1 = {
+		holder = 93284 # Mas'ud Mihrabanid, Saffarid branch?
+		liege = e_persia
 	}
 	#1216.2.15 = {
 	#	holder = 0
@@ -750,9 +777,10 @@ c_jabal_kufs = {
 	1203.1.1 = {
 		holder = 144142 # Mu'izz
 	}
-	1206.3.15 = {
-		holder = 170302
-		liege = 0
+	# Placeholder
+	1205.1.1 = {
+		holder = 93284 # Mas'ud Mihrabanid, Saffarid branch?
+		liege = e_persia
 	}
 	#1216.2.15 = {
 	#	holder = 0
@@ -844,9 +872,10 @@ c_riqan = {
 	1203.1.1 = {
 		holder = 144142 # Mu'izz
 	}
-	1206.3.15 = {
-		holder = 170302
-		liege = 0
+	# Placeholder
+	1205.1.1 = {
+		holder = 93284 # Mas'ud Mihrabanid, Saffarid branch?
+		liege = e_persia
 	}
 	#1216.2.15 = {
 	#	holder = 0

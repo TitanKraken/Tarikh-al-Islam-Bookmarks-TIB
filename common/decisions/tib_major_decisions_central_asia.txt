@@ -1,0 +1,246 @@
+﻿
+
+##########
+# Descendants of Genghis Become Genghis Khan
+# by TitanKraken
+descendants_become_greatest_of_khans_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+	major = yes
+	desc = become_greatest_of_khans_decision_desc
+
+	ai_check_interval = 0
+
+	is_shown = {
+        game_start_date < 1200.1.1
+		highest_held_title_tier >= tier_duchy
+		is_landed = yes
+		#culture = { has_cultural_pillar = heritage_mongolic }
+        dynasty = {
+            dynast = {
+                culture = {
+                    OR = {
+                        has_cultural_pillar = heritage_mongolic
+                        any_parent_culture_or_above = {
+                            has_cultural_pillar = heritage_mongolic
+                        }
+                    }
+                }
+            }
+		}
+		NOR = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:descendants_become_greatest_of_khans_decision
+			}
+            character:125501 = {
+                is_alive = yes
+            }
+		}
+        OR = {
+            is_target_in_global_variable_list = { # Someone must become the Genghis Khan first
+				name = unavailable_unique_decisions
+				target = flag:become_greatest_of_khans_decision
+			}
+        }
+	}
+
+	is_valid = {
+		#religion = religion:tengrism_religion
+        dynasty = {
+            dynast = {
+                culture = {
+                    OR = {
+                        has_cultural_pillar = heritage_mongolic
+                        any_parent_culture_or_above = {
+                            has_cultural_pillar = heritage_mongolic
+                        }
+                    }
+                }
+            }
+		}
+		prestige_level >= 4
+		highest_held_title_tier = tier_empire
+		sub_realm_size >= greatest_of_khans_target_counties
+		#government_has_flag = government_is_tribal
+		capital_province = {
+            OR = {
+			    geographical_region = world_steppe
+                geographical_region = world_middle_east
+                geographical_region = world_india
+                geographical_region = world_tibet
+            }
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_adult = yes
+		is_available = yes
+		is_independent_ruler = yes
+	}
+
+	cost = {
+		gold = {
+			value = massive_gold_value
+		}
+		prestige = {
+			value = major_prestige_value
+		}
+	}
+
+	effect = {
+		#Can only happen once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:descendants_become_greatest_of_khans_decision
+		}
+
+		show_as_tooltip = {
+			add_trait = greatest_of_khans
+			give_nickname = nick_genghis_khan
+			if = {
+				limit = {
+					prestige_level < 5
+				}
+				add_prestige_level = 1
+			}
+			custom_tooltip = become_greatest_of_khans_decision_enable_mongol_invasion_cb
+			custom_tooltip = become_greatest_of_khans_decision_gain_mongol_empire
+			add_realm_law_skip_effects = high_partition_succession_law
+			spawn_mongol_troops_condensed_effect = yes
+		}
+
+		save_scope_as = genghis_khan
+
+		trigger_event = central_asia.0001 #I became the Genghis Khan
+		add_to_temporary_list = received_notification
+
+		every_vassal_or_below = {
+			trigger_event = central_asia.0002 #My ruler became the Genghis Khan
+			add_to_temporary_list = received_notification
+		}
+
+		every_ruler = {
+			limit = {
+				NOT = {
+					is_in_list = received_notification
+				}
+			}
+
+			trigger_event = central_asia.0003 #Someone has become Genghis Khan
+		}
+	}
+}
+
+##########
+# Descendants of Genghis Become Genghis Khan (Bookmark exclusive)
+# by TitanKraken
+1260_descendants_become_greatest_of_khans_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+	major = yes
+	desc = become_greatest_of_khans_decision_desc
+
+	ai_check_interval = 0
+
+	is_shown = {
+        game_start_date >= 1200.1.1
+		highest_held_title_tier >= tier_duchy
+		is_landed = yes
+		#culture = { has_cultural_pillar = heritage_mongolic }
+        #dynasty = dynasty.character:125501
+        dynasty = {
+            dynast = {
+                culture = {
+                    OR = {
+                        has_cultural_pillar = heritage_mongolic
+                        any_parent_culture_or_above = {
+                            has_cultural_pillar = heritage_mongolic
+                        }
+                    }
+                }
+            }
+		}
+		NOR = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:descendants_become_greatest_of_khans_decision
+			}
+            character:125501 = {
+                is_alive = yes
+            }
+		}
+	}
+
+	is_valid = {
+		#religion = religion:tengrism_religion
+		prestige_level >= 4
+		highest_held_title_tier = tier_empire
+		sub_realm_size >= greatest_of_khans_target_counties
+		#government_has_flag = government_is_tribal
+		capital_province = {
+            OR = {
+			    geographical_region = world_steppe
+                geographical_region = world_middle_east
+                geographical_region = world_india
+                geographical_region = world_tibet
+            }
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_adult = yes
+		is_available = yes
+		is_independent_ruler = yes
+	}
+
+	cost = {
+		gold = {
+			value = massive_gold_value
+		}
+		prestige = {
+			value = major_prestige_value
+		}
+	}
+
+	effect = {
+		#Can only happen once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:descendants_become_greatest_of_khans_decision
+		}
+
+		show_as_tooltip = {
+			add_trait = greatest_of_khans
+			give_nickname = nick_genghis_khan
+			if = {
+				limit = {
+					prestige_level < 5
+				}
+				add_prestige_level = 1
+			}
+			custom_tooltip = become_greatest_of_khans_decision_enable_mongol_invasion_cb
+			custom_tooltip = become_greatest_of_khans_decision_gain_mongol_empire
+			add_realm_law_skip_effects = high_partition_succession_law
+			spawn_mongol_troops_condensed_effect = yes
+		}
+
+		save_scope_as = genghis_khan
+
+		trigger_event = central_asia.0001 #I became the Genghis Khan
+		add_to_temporary_list = received_notification
+
+		every_vassal_or_below = {
+			trigger_event = central_asia.0002 #My ruler became the Genghis Khan
+			add_to_temporary_list = received_notification
+		}
+
+		every_ruler = {
+			limit = {
+				NOT = {
+					is_in_list = received_notification
+				}
+			}
+
+			trigger_event = central_asia.0003 #Someone has become Genghis Khan
+		}
+	}
+}

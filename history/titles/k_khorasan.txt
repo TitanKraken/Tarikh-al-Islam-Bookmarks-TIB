@@ -84,9 +84,70 @@
 		}
 	}
 	1073.1.1 = {
-		holder = 0
+		holder = 93137 # Muhammad bin Abbas Shansabani
+		liege = e_rajastan
 	}
+
+	# Ghurids as Maliks
+	# Shansabanids
+	934.9.13 = {
+		holder = 1230317 # Muhammad bin Suri
+	}
+	1011.5.12 = {
+		holder = 93134 # Abu Ali bin Muhammad Shansabani
+	}
+	1033.1.4 = {
+		holder = 93136 # Abbas bin Shith Shansabani
+	}
+	1059.10.9 = {
+		liege = e_rajastan # Agreed to pay tribute to the Ghaznavids
+		holder = 93137 # Muhammad bin Abbas
+	}
+	1080.1.1 = {
+		holder = 93138 # Qutb al-Din Hasan
+	}
+	1100.1.1 = {
+		liege = e_persia # Released from prison by the Seljuk sultan Ahmad Sanjar in exchange for sending tribute to him.
+		holder = 93139 # 'Izz al-Din Husayn
+	}
+	1146.1.1 = {
+		holder = 93140 # Sayf al-Din Sūrí
+	}
+	1149.1.1 = {
+		holder = 93141 # Baha al-Din Säm I
+	}
+	1155.1.1 = {
+		holder = 93143 # 'Ala al-Din Husayn
+	}
+	1161.1.1 = {
+		liege = 0
+		holder = 144140 # Sayf al-Din Muhammad
+	}
+	1163.1.1 = {
+		holder = 144141 # Ghiyath al-Din Muhammad
+	}
+	1203.1.1 = {
+		holder = 144142 # Mu'izz al-Din Muhammad
+	}
+	# Civil war period
+	1206.3.15 = { # Died after few days after securing Turkish ghulam support
+		holder = 93148 # Baha al-Din Säm II
+	}
+	1206.4.1 = { # Supported by the natives
+		holder = 144143 # Ghiyath al-Din Mahmud
+	}
+	1212.1.1 = {
+		holder = 93144 # Baha al-Din Säm III
+	}
+	1213.1.1 = {
+		holder = 93145 # 'Ala al-Din Atsiz
+	}
+	1214.1.1 = {
+		holder = 93149 # 'Ala al-Din 'Ali
+	}
+	# Khwarezmian conquest marks the end of the Ghurids
 }
+
 d_nishapur = {
 	867.1.1 = {	change_development_level = 8 }
 	1066.1.1 = { change_development_level = 12 }
@@ -100,6 +161,10 @@ d_nishapur = {
 	}
 	1073.1.1 = {
 		holder = 0
+	}
+	1200.1.1 = {
+		holder = 194308 # Kutlugh Tusid, placeholder?
+		liege = e_persia
 	}
 }
 
@@ -153,7 +218,8 @@ c_nishapur = {
 		holder = 230000
 	}
 	1200.1.1 = {
-		holder = 93052
+		holder = 194308 # Kutlugh Tusid, placeholder?
+		liege = e_persia
 	}
 	1220.1.1 = {
 		holder = 194308
@@ -224,7 +290,8 @@ c_tus = {
 		holder = 230000
 	}
 	1200.1.1 = {
-		holder = 93052
+		holder = 194308 # Kutlugh Tusid, placeholder?
+		liege = e_persia
 	}
 	1220.1.1 = {
 		holder = 194308
@@ -298,7 +365,8 @@ c_samaiqan = {
 		holder = 230000
 	}
 	1200.1.1 = {
-		holder = 93052
+		holder = 194308 # Kutlugh Tusid, placeholder?
+		liege = e_persia
 	}
 	1220.1.1 = {
 		holder = 194308
@@ -371,7 +439,8 @@ c_juwain = {
 		holder = 230000
 	}
 	1200.1.1 = {
-		holder = 93052
+		holder = 194308 # Kutlugh Tusid, placeholder?
+		liege = e_persia
 	}
 	1220.1.1 = {
 		holder = 194308
@@ -447,7 +516,8 @@ c_baihaq = {
 		holder = 230000
 	}
 	1200.1.1 = {
-		holder = 93052
+		holder = 194308 # Kutlugh Tusid, placeholder?
+		liege = e_persia
 	}
 	1220.1.1 = {
 		holder = 194308
@@ -519,7 +589,8 @@ c_damghan = {
 		holder = 230000
 	}
 	1200.1.1 = {
-		holder = 93052
+		holder = 194308 # Kutlugh Tusid, placeholder?
+		liege = e_persia
 	}
 	1220.1.1 = {
 		holder = 194308
@@ -1115,69 +1186,82 @@ d_ghur = {
 	867.1.1 = {	change_development_level = 3 }
 	1066.1.1 = { change_development_level = 6 }
 
-	864.1.1 = {
-		holder = 1230318 #Zahhak Ghurid
+	# Ghurids
+	800.1.1 = {
+		holder = extra_ghurids_2 # Amir Banji
 	}
-	880.1.1 = {
-		holder = 93132 #Shansab Ghurid
+	832.11.1 = {
+		holder = extra_ghurids_1 # Muhammad Abu Suri, to fill in the gap
 	}
-	910.1.1 = {
-		holder = 1230316 #Suri Ghurid
+	865.11.11 = {
+		holder = 1230316 # Amir Suri the real Shansabani
 	}
-	940.1.1 = {
-		holder = 1230317 #Mohammad Ghurid
+	870.1.1 = {
+		holder = 163101 # Ya'qub the Saffarid
 	}
-	980.1.1 = {
-		holder = 93133 #Mohammad Ghurid
+	879.6.5 = {
+		holder = 1230316 # Amir Suri the real Shansabani, returned 
 	}
-	1011.1.1 = {
-		holder = 93135 #Shith Ghurid
+	925.10.22 = {
+		holder = fictional_ghurids_1  # Suri the fictional placeholder Shansabani
 	}
-	1029.1.1 = {
-		holder = 93136 #Abbas Ghurid
+	932.12.2 = {
+		holder = fictional_ghurids_2 # Zahhak the fictional placeholder Shansabani 
 	}
-	1059.1.1 = {
-		liege = k_kabulistan
-		holder = 93137
+	934.9.13 = {
+		holder = 1230317 # Muhammad bin Suri
 	}
-	1070.1.1 = {
-		holder = 93138
+	1011.5.12 = {
+		holder = 93134 # Abu Ali bin Muhammad Shansabani
+	}
+	1033.1.4 = {
+		holder = 93136 # Abbas bin Shith Shansabani
+	}
+	1059.10.9 = {
+		liege = k_kabulistan # Vassalised by Ghaznavids
+		holder = 93137 # Muhammad bin Abbas
+	}
+	1080.1.1 = {
+		holder = 93138 # Qutb al-Din Hasan
 	}
 	1100.1.1 = {
-		holder = 93139
+		holder = 93139 # 'Izz al-Din Husayn
 	}
 	1146.1.1 = {
-		holder = 93140
+		holder = 93140 # Sayf al-Din Sūrí
 	}
 	1149.1.1 = {
-		holder = 93141
+		holder = 93141 # Baha al-Din Säm I
 	}
 	1155.1.1 = {
-		holder = 93143
+		holder = 93143 # 'Ala al-Din Husayn
 	}
 	1161.1.1 = {
-		holder = 144140
+		holder = 144140 # Sayf al-Din Muhammad
 	}
 	1163.1.1 = {
-		holder = 144141
+		holder = 144141 # Ghiyath al-Din Muhammad
 	}
-	
 	1203.1.1 = {
-		holder = 144142
+		holder = 144142 # Mu'izz al-Din Muhammad
 	}
-	
-	1206.3.15 = {
-		holder = 144143
+	# Civil war period
+	1206.3.15 = { # Died after few days after securing Turkish ghulam support
+		holder = 93148 # Baha al-Din Säm II
+	}
+	1206.4.1 = { # Supported by the natives
+		holder = 144143 # Ghiyath al-Din Mahmud
 	}
 	1212.1.1 = {
-		holder = 93144
+		holder = 93144 # Baha al-Din Säm III
 	}
 	1213.1.1 = {
-		holder = 93145
+		holder = 93145 # 'Ala al-Din Atsiz
 	}
 	1214.1.1 = {
-		holder = 93149
+		holder = 93149 # 'Ala al-Din 'Ali
 	}
+	# Khwarezmian conquest marks the end of the Ghurids
 	
 	1215.1.1 = {
 		holder = 125501
@@ -1209,70 +1293,82 @@ c_ghur = {
 		holder = 188602 # Homayd ibn Qahtaba
 	}
 	
-	864.1.1 = {
-		liege = 0
-		holder = 1230318 #Zahhak Ghurid
+	# Ghurids
+	800.1.1 = {
+		holder = extra_ghurids_2 # Amir Banji
 	}
-	880.1.1 = {
-		holder = 93132 #Shansab Ghurid
+	832.11.1 = {
+		holder = extra_ghurids_1 # Muhammad Abu Suri, to fill in the gap
 	}
-	910.1.1 = {
-		holder = 1230316 #Suri Ghurid
+	865.11.11 = {
+		holder = 1230316 # Amir Suri the real Shansabani
 	}
-	940.1.1 = {
-		holder = 1230317 #Mohammad Ghurid
+	870.1.1 = {
+		holder = 163101 # Ya'qub the Saffarid
 	}
-	980.1.1 = {
-		holder = 93133 #Mohammad Ghurid
+	879.6.5 = {
+		holder = 1230316 # Amir Suri the real Shansabani, returned 
 	}
-	1011.1.1 = {
-		holder = 93135 #Shith Ghurid
+	925.10.22 = {
+		holder = fictional_ghurids_1  # Suri the fictional placeholder Shansabani
 	}
-	1029.1.1 = {
-		holder = 93136 #Abbas Ghurid
+	932.12.2 = {
+		holder = fictional_ghurids_2 # Zahhak the fictional placeholder Shansabani 
 	}
-	1059.1.1 = {
-		liege = k_kabulistan
-		holder = 93137
+	934.9.13 = {
+		holder = 1230317 # Muhammad bin Suri
 	}
-	1070.1.1 = {
-		holder = 93138
+	1011.5.12 = {
+		holder = 93134 # Abu Ali bin Muhammad Shansabani
+	}
+	1033.1.4 = {
+		holder = 93136 # Abbas bin Shith Shansabani
+	}
+	1059.10.9 = {
+		liege = k_kabulistan # Vassalised by Ghaznavids
+		holder = 93137 # Muhammad bin Abbas
+	}
+	1080.1.1 = {
+		holder = 93138 # Qutb al-Din Hasan
 	}
 	1100.1.1 = {
-		holder = 93139
+		holder = 93139 # 'Izz al-Din Husayn
 	}
 	1146.1.1 = {
-		holder = 93140
+		holder = 93140 # Sayf al-Din Sūrí
 	}
 	1149.1.1 = {
-		holder = 93141
+		holder = 93141 # Baha al-Din Säm I
 	}
 	1155.1.1 = {
-		holder = 93143
+		holder = 93143 # 'Ala al-Din Husayn
 	}
 	1161.1.1 = {
-		holder = 144140
+		holder = 144140 # Sayf al-Din Muhammad
 	}
 	1163.1.1 = {
-		holder = 144141
+		holder = 144141 # Ghiyath al-Din Muhammad
 	}
-	
 	1203.1.1 = {
-		holder = 144142
+		holder = 144142 # Mu'izz al-Din Muhammad
 	}
-	
-	1206.3.15 = {
-		holder = 144143
+	# Civil war period
+	1206.3.15 = { # Died after few days after securing Turkish ghulam support
+		holder = 93148 # Baha al-Din Säm II
+	}
+	1206.4.1 = { # Supported by the natives
+		holder = 144143 # Ghiyath al-Din Mahmud
 	}
 	1212.1.1 = {
-		holder = 93144
+		holder = 93144 # Baha al-Din Säm III
 	}
 	1213.1.1 = {
-		holder = 93145
+		holder = 93145 # 'Ala al-Din Atsiz
 	}
 	1214.1.1 = {
-		holder = 93149
+		holder = 93149 # 'Ala al-Din 'Ali
 	}
+	# Khwarezmian conquest marks the end of the Ghurids
 	
 	1215.1.1 = {
 		holder = 125501
@@ -1302,70 +1398,82 @@ c_darmashan = {
 		holder = 188602 # Homayd ibn Qahtaba
 	}
 	
-	864.1.1 = {
-		liege = 0
-		holder = 1230318 #Zahhak Ghurid
+	# Ghurids
+	800.1.1 = {
+		holder = extra_ghurids_2 # Amir Banji
 	}
-	880.1.1 = {
-		holder = 93132 #Shansab Ghurid
+	832.11.1 = {
+		holder = extra_ghurids_1 # Muhammad Abu Suri, to fill in the gap
 	}
-	910.1.1 = {
-		holder = 1230316 #Suri Ghurid
+	865.11.11 = {
+		holder = 1230316 # Amir Suri the real Shansabani
 	}
-	940.1.1 = {
-		holder = 1230317 #Mohammad Ghurid
+	870.1.1 = {
+		holder = 163101 # Ya'qub the Saffarid
 	}
-	980.1.1 = {
-		holder = 93133 #Mohammad Ghurid
+	879.6.5 = {
+		holder = 1230316 # Amir Suri the real Shansabani, returned 
 	}
-	1011.1.1 = {
-		holder = 93135 #Shith Ghurid
+	925.10.22 = {
+		holder = fictional_ghurids_1  # Suri the fictional placeholder Shansabani
 	}
-	1029.1.1 = {
-		holder = 93136 #Abbas Ghurid
+	932.12.2 = {
+		holder = fictional_ghurids_2 # Zahhak the fictional placeholder Shansabani 
 	}
-	1059.1.1 = {
-		liege = k_kabulistan
-		holder = 93137
+	934.9.13 = {
+		holder = 1230317 # Muhammad bin Suri
 	}
-	1070.1.1 = {
-		holder = 93138
+	1011.5.12 = {
+		holder = 93134 # Abu Ali bin Muhammad Shansabani
+	}
+	1033.1.4 = {
+		holder = 93136 # Abbas bin Shith Shansabani
+	}
+	1059.10.9 = {
+		liege = k_kabulistan # Vassalised by Ghaznavids
+		holder = 93137 # Muhammad bin Abbas
+	}
+	1080.1.1 = {
+		holder = 93138 # Qutb al-Din Hasan
 	}
 	1100.1.1 = {
-		holder = 93139
+		holder = 93139 # 'Izz al-Din Husayn
 	}
 	1146.1.1 = {
-		holder = 93140
+		holder = 93140 # Sayf al-Din Sūrí
 	}
 	1149.1.1 = {
-		holder = 93141
+		holder = 93141 # Baha al-Din Säm I
 	}
 	1155.1.1 = {
-		holder = 93143
+		holder = 93143 # 'Ala al-Din Husayn
 	}
 	1161.1.1 = {
-		holder = 144140
+		holder = 144140 # Sayf al-Din Muhammad
 	}
 	1163.1.1 = {
-		holder = 144141
+		holder = 144141 # Ghiyath al-Din Muhammad
 	}
-	
 	1203.1.1 = {
-		holder = 144142
+		holder = 144142 # Mu'izz al-Din Muhammad
 	}
-	
-	1206.3.15 = {
-		holder = 144143
+	# Civil war period
+	1206.3.15 = { # Died after few days after securing Turkish ghulam support
+		holder = 93148 # Baha al-Din Säm II
+	}
+	1206.4.1 = { # Supported by the natives
+		holder = 144143 # Ghiyath al-Din Mahmud
 	}
 	1212.1.1 = {
-		holder = 93144
+		holder = 93144 # Baha al-Din Säm III
 	}
 	1213.1.1 = {
-		holder = 93145
+		holder = 93145 # 'Ala al-Din Atsiz
 	}
 	1214.1.1 = {
-		holder = 93149
+		holder = 93149 # 'Ala al-Din 'Ali
 	}
+	# Khwarezmian conquest marks the end of the Ghurids
 	
 	1215.1.1 = {
 		holder = 125501
@@ -1395,70 +1503,82 @@ c_upper_ghur = {
 		holder = 188602 # Homayd ibn Qahtaba
 	}
 	
-	864.1.1 = {
-		liege = 0
-		holder = 1230318 #Zahhak Ghurid
+	# Ghurids
+	800.1.1 = {
+		holder = extra_ghurids_2 # Amir Banji
 	}
-	880.1.1 = {
-		holder = 93132 #Shansab Ghurid
+	832.11.1 = {
+		holder = extra_ghurids_1 # Muhammad Abu Suri, to fill in the gap
 	}
-	910.1.1 = {
-		holder = 1230316 #Suri Ghurid
+	865.11.11 = {
+		holder = 1230316 # Amir Suri the real Shansabani
 	}
-	940.1.1 = {
-		holder = 1230317 #Mohammad Ghurid
+	870.1.1 = {
+		holder = 163101 # Ya'qub the Saffarid
 	}
-	980.1.1 = {
-		holder = 93133 #Mohammad Ghurid
+	879.6.5 = {
+		holder = 1230316 # Amir Suri the real Shansabani, returned 
 	}
-	1011.1.1 = {
-		holder = 93135 #Shith Ghurid
+	925.10.22 = {
+		holder = fictional_ghurids_1  # Suri the fictional placeholder Shansabani
 	}
-	1029.1.1 = {
-		holder = 93136 #Abbas Ghurid
+	932.12.2 = {
+		holder = fictional_ghurids_2 # Zahhak the fictional placeholder Shansabani 
 	}
-	1059.1.1 = {
-		liege = k_kabulistan
-		holder = 93137
+	934.9.13 = {
+		holder = 1230317 # Muhammad bin Suri
 	}
-	1070.1.1 = {
-		holder = 93138
+	1011.5.12 = {
+		holder = 93134 # Abu Ali bin Muhammad Shansabani
+	}
+	1033.1.4 = {
+		holder = 93136 # Abbas bin Shith Shansabani
+	}
+	1059.10.9 = {
+		liege = k_kabulistan # Vassalised by Ghaznavids
+		holder = 93137 # Muhammad bin Abbas
+	}
+	1080.1.1 = {
+		holder = 93138 # Qutb al-Din Hasan
 	}
 	1100.1.1 = {
-		holder = 93139
+		holder = 93139 # 'Izz al-Din Husayn
 	}
 	1146.1.1 = {
-		holder = 93140
+		holder = 93140 # Sayf al-Din Sūrí
 	}
 	1149.1.1 = {
-		holder = 93141
+		holder = 93141 # Baha al-Din Säm I
 	}
 	1155.1.1 = {
-		holder = 93143
+		holder = 93143 # 'Ala al-Din Husayn
 	}
 	1161.1.1 = {
-		holder = 144140
+		holder = 144140 # Sayf al-Din Muhammad
 	}
 	1163.1.1 = {
-		holder = 144141
+		holder = 144141 # Ghiyath al-Din Muhammad
 	}
-	
 	1203.1.1 = {
-		holder = 144142
+		holder = 144142 # Mu'izz al-Din Muhammad
 	}
-	
-	1206.3.15 = {
-		holder = 144143
+	# Civil war period
+	1206.3.15 = { # Died after few days after securing Turkish ghulam support
+		holder = 93148 # Baha al-Din Säm II
+	}
+	1206.4.1 = { # Supported by the natives
+		holder = 144143 # Ghiyath al-Din Mahmud
 	}
 	1212.1.1 = {
-		holder = 93144
+		holder = 93144 # Baha al-Din Säm III
 	}
 	1213.1.1 = {
-		holder = 93145
+		holder = 93145 # 'Ala al-Din Atsiz
 	}
 	1214.1.1 = {
-		holder = 93149
+		holder = 93149 # 'Ala al-Din 'Ali
 	}
+	# Khwarezmian conquest marks the end of the Ghurids
 	
 	1215.1.1 = {
 		holder = 125501

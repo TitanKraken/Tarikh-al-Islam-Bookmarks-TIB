@@ -469,7 +469,7 @@
 	religion="armenian_apostolic"
 	culture="armenian"
 	father=41505
-	mother=armenian.000082
+	mother=armenian000082
 	853.1.1 = {
 		birth=yes
 	}
@@ -483,7 +483,7 @@
 	religion="armenian_apostolic"
 	culture="armenian"
 	father=41505
-	mother=armenian.000082
+	mother=armenian000082
 	855.1.1 = {
 		birth=yes
 	}
@@ -497,7 +497,7 @@
 	religion="armenian_apostolic"
 	culture="armenian"
 	father=41505
-	mother=armenian.000082
+	mother=armenian000082
 	861.1.1 = {
 		birth=yes
 	}
@@ -512,7 +512,7 @@
 	religion="armenian_apostolic"
 	culture="armenian"
 	father=41505
-	mother=armenian.000082
+	mother=armenian000082
 	858.1.1 = {
 		birth=yes
 	}

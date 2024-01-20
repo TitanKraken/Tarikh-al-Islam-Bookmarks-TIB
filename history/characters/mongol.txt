@@ -1002,7 +1002,7 @@ Suldus10 = {
 	religion="tengri_pagan"
 	culture="oirat"
 	trait="education_stewardship_2"
-	father = 3030200
+	#father = 3030200
 	1211.1.1={
 		birth=yes
 		add_trait = disinherited # So they don't inherit in Mongolia
@@ -1331,14 +1331,12 @@ Suldus10 = {
 	prowess = 20	 
 	1181.1.1 = {
 		birth = "1181.1.1"
+		dynasty_house = house_Jochid
 	}
     1187.1.1 = {
 		effect = {
 			set_relation_rival = { reason = rival_historical target = character:93062 } #Becomes rivals with Chagatai
 		}
-	}
-	1226.12.2={
-		dynasty_house = house_Jochid
 	}
 	1227.1.2 = {
 		death = "1227.1.2"
@@ -1360,6 +1358,7 @@ Suldus10 = {
 	mother = 166896
 	1207.1.1 = {
 		birth = "1207.1.1"
+		dynasty_house = house_Jochid
 	}
 	1222.1.1 = {
      add_spouse=166897
@@ -1368,9 +1367,6 @@ Suldus10 = {
 		effect = {
 			add_gold = 5000
 		}
-	}
-	1227.12.2={
-		dynasty_house = house_Jochid
 	}
 	#1229.1.1={
 	#effect = {
@@ -1447,7 +1443,7 @@ set_realm_capital = title:c_itil
 	#	dynasty_house = house_Jochid
 	#}
 	1240.1.2 = {
-		religion = "ashari"
+		religion = "asharite"
 		trait = zealous
 	}
 	1257.1.2 = {
@@ -1483,8 +1479,6 @@ set_realm_capital = title:c_itil
     mother = 166897
 	1223.1.2 = {
 		birth = "1223.1.2"
-	}
-	1227.12.2={
 		dynasty_house = house_Jochid
 	}
 	1246.1.1 = {
@@ -1519,8 +1513,6 @@ set_realm_capital = title:c_itil
 	mother=166897
 	1224.1.2={
 		birth="1224.1.2"
-	}
-	1227.12.2={
 		dynasty_house = house_Jochid
 	}
 	1266.1.2={
@@ -1538,9 +1530,7 @@ set_realm_capital = title:c_itil
 		birth="1246.1.2"
 	}
 	1266.1.1 = {
-		effect = {
-set_realm_capital = title:c_itil
-}
+		capital = c_itil
 	}
 	1280.1.2={
 		death="1280.1.2"
@@ -1557,7 +1547,7 @@ set_realm_capital = title:c_itil
 		birth="1250.1.2"
 	}
 	1283.1.1={
-		religion="ashari"
+		religion="asharite"
 	}
 	1287.1.2={
 		death="1287.1.2"
@@ -1624,7 +1614,7 @@ set_realm_capital = title:c_itil
 125514 = {
 	name="Tinibeg"
 	dynasty_house = house_Jochid
-	religion="ashari"
+	religion="asharite"
 	culture="tatars"
 	father=480000
 	1320.1.2={
@@ -1637,7 +1627,7 @@ set_realm_capital = title:c_itil
 125515 = {
 	name="Janibeg"
 	dynasty_house = house_Jochid
-	religion="ashari"
+	religion="asharite"
 	culture="tatars"
 	father=480000
 	1322.1.2={
@@ -1656,13 +1646,14 @@ set_realm_capital = title:c_itil
 	#mother=166896
 	1211.1.2={
 		birth="1211.1.2"
-	}
-	1227.12.2={
-		dynasty_house = house_Jochid
-	}
-	1229.12.11={
 		dynasty_house = house_Tevalid
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Jochid
+	#}
+	#1229.12.11={
+	#	dynasty_house = house_Tevalid
+	#}
 	1260.1.2={
 		death={
 			death_reason=death_execution
@@ -1678,13 +1669,14 @@ set_realm_capital = title:c_itil
 	father=125516
 	1225.1.2={
 		birth="1225.1.2"
-	}
-	1227.12.2={
-		dynasty_house = house_Jochid
-	}
-	1229.12.11={
 		dynasty_house = house_Tevalid
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Jochid
+	#}
+	#1229.12.11={
+	#	dynasty_house = house_Tevalid
+	#}
 	1270.1.2={
 		death="1270.1.2"
 	}
@@ -1697,17 +1689,18 @@ set_realm_capital = title:c_itil
 	father=125517
 	1240.1.2={
 		birth="1240.1.2"
-	}
-	1241.12.11={
 		dynasty_house = house_Tevalid
 	}
+	#1241.12.11={
+	#	dynasty_house = house_Tevalid
+	#}
 	1246.1.1 = {
 		effect = {
 			create_betrothal = character:166945
 		}
 	}
 	1255.1.2={
-		religion="ashari"
+		religion="asharite"
 	}
 	1259.1.1={
      add_spouse=166945
@@ -1773,6 +1766,7 @@ set_realm_capital = title:c_itil
 	trait="compassionate"
 	1192.1.2={
 		birth = yes
+		dynasty_house = house_Toluid
 	}
 	1201.1.1 = {
 		effect = {
@@ -1783,9 +1777,9 @@ set_realm_capital = title:c_itil
 		add_spouse=172010
 	}
 	
-	1227.12.2={
-		dynasty_house = house_Toluid
-	}
+	#1227.12.2={
+	#	dynasty_house = house_Toluid
+	#}
 	1232.1.1={
 		death = yes
 	}
@@ -1941,7 +1935,7 @@ IlkhanateFemale4 = {
 		}
 	}
 	1295.1.1={
-		religion="ashari"
+		religion="asharite"
 		
 	}
 	1295.10.4={
@@ -1962,7 +1956,7 @@ IlkhanateFemale4 = {
 		birth="1238.1.2"
 	}
 	1282.1.1={
-		religion="ashari"
+		religion="asharite"
 		name="Ahmed Teguder"
 		add_trait="zealous"
 	}
@@ -1990,7 +1984,7 @@ IlkhanateFemale4 = {
      add_spouse=166948
    }
 	1295.6.16={
-		religion="ashari"
+		religion="asharite"
 		name="Mahmud Ghazan"
 	}
 	1304.5.11={
@@ -2036,10 +2030,11 @@ IlkhanateFemale4 = {
    trait="zealous"
 	1219.1.2={
 		birth="1219.1.2"
-	}
-	1227.12.2={
 		dynasty_house = house_Toluid
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Toluid
+	#}
 	1259.1.1 = {
     effect = {
 			set_relation_rival = { reason = rival_historical target = character:217266  }
@@ -2090,7 +2085,7 @@ IlkhanateFemale4 = {
 		birth="1285.1.2"
 	}
 	1300.1.1={ #?
-		religion="ashari"
+		religion="asharite"
 	}
 	1330.1.2={
 		death="1330.1.2"
@@ -2127,7 +2122,7 @@ IlkhanateFemale4 = {
 125532 = {
 	name="Temür"
 	dynasty_house = house_Toluid
-	religion="ashari"
+	religion="asharite"
 	culture="mongol"
 	father=125531
 	1290.1.1={
@@ -2141,7 +2136,7 @@ IlkhanateFemale4 = {
 	name="Yul Qutlugh"
 	# AKA: Yul Qutlugh
 	dynasty_house = house_Toluid
-	religion="ashari"
+	religion="asharite"
 	culture="mongol"
 	father=125532
 	1310.1.1={
@@ -2203,7 +2198,7 @@ IlkhanateFemale4 = {
 478000 = {
 	name="Musa"
 	dynasty_house = house_Toluid
-	religion="ashari"
+	religion="asharite"
 	culture="mongol"
 	father=125529
 	1315.1.1={
@@ -2340,10 +2335,10 @@ IlkhanateFemale4 = {
 	}
 }
 478006 = {
-	name="Abu-Sa'id"
+	name="Abu Sa'id"
 	# AKA: Abu Sa'id
 	dynasty_house = house_Toluid
-	religion="ashari"
+	religion="asharite"
 	culture="mongol"
 	father=478007
 	1305.6.2={
@@ -2376,7 +2371,7 @@ IlkhanateFemale4 = {
 		
 	}
 	1295.6.16={
-		religion="ashari"
+		religion="asharite"
 		name="Muhammad"
 	}
 	1304.1.1={
@@ -2498,10 +2493,11 @@ set_realm_capital = title:c_maragha
 	mother = 172010
 	1217.1.1 = {
 		birth = "1217.1.1"
-	}
-	1227.12.2={
 		dynasty_house = house_Toluid
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Toluid
+	#}
 	#The T4N tributary system can't handle tributaries of tributaries
 	#1229.1.1={
 	#effect = {
@@ -2705,7 +2701,7 @@ Injuid1 = {
 478030 = {
 	name="Mohammad"
 	dynasty_house = house_Toluid
-	religion="ashari"
+	religion="asharite"
 	culture="mongol"
 	father=125533
 	1327.1.2={
@@ -2750,7 +2746,7 @@ Injuid1 = {
 	# AKA: Sati Beg
 	female = yes
 	dynasty_house = house_Toluid
-	religion="ashari"
+	religion="asharite"
 	culture="mongol"
 	father=478007
 	1302.1.2={
@@ -2876,7 +2872,7 @@ Injuid1 = {
 	diplomacy=5
 	intrigue=7
 	stewardship=4
-	religion="ashari"
+	religion="asharite"
 	culture="mongol"
 	trait="education_stewardship_1"
 	trait="lustful"
@@ -2956,7 +2952,7 @@ Injuid1 = {
 	name="Onggur"
 	female=yes
 	dynasty_house = house_Toluid
-	religion="ashari"
+	religion="asharite"
 	culture="mongol"
 	father=478006
 	mother=34434
@@ -2983,7 +2979,7 @@ Injuid1 = {
 	
 	}
 	1313.1.1={
-		religion="ashari"
+		religion="asharite"
 	
 	}
 	1330.1.1 = {  	
@@ -2992,9 +2988,7 @@ Injuid1 = {
 		}
 	}
 	1337.1.1 = {
-		effect = {
-		set_realm_capital = title:c_itil
-		}
+		capital = c_itil
 	}
 	1341.1.1={
 		death="1341.1.1"
@@ -3123,7 +3117,7 @@ Injuid1 = {
 		culture = tatars
 	}
 	1313.1.1 = {
-		religion = "ashari"
+		religion = "asharite"
 	}
 	1325.1.1 = {
 		death = "1325.1.1"
@@ -3140,7 +3134,7 @@ Injuid1 = {
 		birth = "1300.1.1"
 	}
 	1313.1.1 = {
-		religion = "ashari"
+		religion = "asharite"
 	}
 	1350.1.1 = {
 		death = "1350.1.1"
@@ -3182,7 +3176,7 @@ Injuid1 = {
 		birth = "1280.1.1"
 	}
 	1313.1.1 = {
-		religion = "ashari"
+		religion = "asharite"
 	}
 	1330.1.1 = {
 		death = "1330.1.1"
@@ -3198,7 +3192,7 @@ Injuid1 = {
 		birth = "1310.1.1"
 	}
 	1313.1.1 = {
-		religion = "ashari"
+		religion = "asharite"
 	}
 	1360.1.1 = {
 		death = "1360.1.1"
@@ -3240,7 +3234,7 @@ Injuid1 = {
 		birth = "1280.1.1"
 	}
 	1313.1.1 = {
-		religion = "ashari"
+		religion = "asharite"
 	}
 	1330.1.1 = {
 		death = "1330.1.1"
@@ -3256,7 +3250,7 @@ Injuid1 = {
 		birth = "1310.1.1"
 	}
 	1313.1.1 = {
-		religion = "ashari"
+		religion = "asharite"
 	}
 	1360.1.1 = {
 		death = "1360.1.1"
@@ -3373,7 +3367,7 @@ Injuid1 = {
 		birth = "1290.1.1"
 	}
 	1313.1.1 = {
-		religion = "ashari"
+		religion = "asharite"
 	}
 	1337.1.1 = {
 		death = "1337.1.1"
@@ -3441,7 +3435,7 @@ Injuid1 = {
 		birth = "1295.1.1"
 	}
 	1313.1.1 = {
-		religion = "ashari"
+		religion = "asharite"
 	}
 	1340.1.1 = {
 		death = "1340.1.1"
@@ -3496,7 +3490,7 @@ Injuid1 = {
 		birth = "1295.1.1"
 	}
 	1313.1.1 = {
-		religion = "ashari"
+		religion = "asharite"
 	}
 	1340.1.1 = {
 		death = "1340.1.1"
@@ -3551,7 +3545,7 @@ Injuid1 = {
 		birth = "1295.1.1"
 	}
 	1313.1.1 = {
-		religion = "ashari"
+		religion = "asharite"
 	}
 	1340.1.1 = {
 		death = "1340.1.1"
@@ -3633,7 +3627,7 @@ Injuid1 = {
 		birth = "1295.1.1"
 	}
 	1313.1.1 = {
-		religion = "ashari"
+		religion = "asharite"
 	}
 	1340.1.1 = {
 		death = "1340.1.1"
@@ -3688,7 +3682,7 @@ Injuid1 = {
 		birth = "1295.1.1"
 	}
 	1313.1.1 = {
-		religion = "ashari"
+		religion = "asharite"
 	}
 	1340.1.1 = {
 		death = "1340.1.1"
@@ -3703,10 +3697,11 @@ Injuid1 = {
 	father=34911
 	1229.1.1={
 		birth="1229.1.1"
-	}
-	1229.12.1 ={
 		dynasty_house = house_Shibanid
 	}
+	#1229.12.1 ={
+	#	dynasty_house = house_Shibanid
+	#}
 	1280.1.1={
 		death="1280.1.1"
 	}
@@ -3719,10 +3714,11 @@ Injuid1 = {
 	father=34911
 	1235.1.1={
 		birth="1235.1.1"
-	}
-	1241.12.11={
 		dynasty_house = house_Shibanid
 	}
+	#1241.12.11={
+	#	dynasty_house = house_Shibanid
+	#}
 	1285.1.1={
 		death="1285.1.1"
 	}
@@ -3735,10 +3731,11 @@ Injuid1 = {
 	father=34911
 	1240.1.1={
 		birth="1240.1.1"
-	}
-	1241.12.11={
 		dynasty_house = house_Shibanid
 	}
+	#1241.12.11={
+	#	dynasty_house = house_Shibanid
+	#}
 	1300.1.1={
 		death="1300.1.1"
 	}
@@ -3767,7 +3764,7 @@ Injuid1 = {
 		birth = "1285.1.1"
 	}
 	1313.1.1 = {
-		religion = "ashari"
+		religion = "asharite"
 	}
 	1340.1.1 = {
 		death = "1340.1.1"
@@ -3783,7 +3780,7 @@ Injuid1 = {
 		birth = "1280.1.1"
 	}
 	1313.1.1 = {
-		religion = "ashari"
+		religion = "asharite"
 	}
 	1340.1.1 = {
 		death = "1340.1.1"
@@ -3799,7 +3796,7 @@ Injuid1 = {
 		birth = "1283.1.1"
 	}
 	1313.1.1 = {
-		religion = "ashari"
+		religion = "asharite"
 	}
 	1340.1.1 = {
 		death = "1340.1.1"
@@ -3815,7 +3812,7 @@ Injuid1 = {
 		birth = "1284.1.1"
 	}
 	1313.1.1 = {
-		religion = "ashari"
+		religion = "asharite"
 	}
 	1340.1.1 = {
 		death = "1340.1.1"
@@ -3831,13 +3828,14 @@ Injuid1 = {
 	#mother=166896
 	1210.1.1={
 		birth="1210.1.1"
-	}
-	1227.12.2={
-		dynasty_house = house_Jochid
-	}
-	1229.12.1={
 		dynasty_house = house_Shibanid
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Jochid
+	#}
+	#1229.12.1={
+	#	dynasty_house = house_Shibanid
+	#}
 	1260.1.1={
 		death="1260.1.1"
 	}
@@ -3851,13 +3849,14 @@ Injuid1 = {
 	#mother=166896
 	1205.1.1={
 		birth="1205.1.1"
-	}
-	1227.12.2={
-		dynasty_house = house_Jochid
-	}
-	1229.12.11={
 		dynasty_house = house_Orda
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Jochid
+	#}
+	#1229.12.11={
+	#	dynasty_house = house_Orda
+	#}
 	#1246.1.1={
 	#effect = {
 	#	make_tributary = {
@@ -3880,10 +3879,11 @@ Injuid1 = {
 	father=34921
 	1241.1.1={
 		birth="1241.1.1"
-	}
-	1241.12.11={
 		dynasty_house = house_Orda
 	}
+	#1241.12.11={
+	#	dynasty_house = house_Orda
+	#}
 	1300.1.1={
 		culture=tatars
 	}
@@ -3936,7 +3936,7 @@ Injuid1 = {
 		culture=tatars
 	}
 	1313.1.1={
-		religion="ashari"
+		religion="asharite"
 	}
 	1320.1.1={
 		death="1320.1.1"
@@ -3955,7 +3955,7 @@ Injuid1 = {
 		culture=tatars
 	}
 	1313.1.1={
-		religion="ashari"
+		religion="asharite"
 	}
 	1344.1.1={
 		death="1344.1.1"
@@ -3964,7 +3964,7 @@ Injuid1 = {
 34918 = {
 	name="Chimtai"
 	dynasty_house = house_Orda
-	religion="ashari"
+	religion="asharite"
 	culture="tatars"
 	father=34916
 	1315.1.1={
@@ -4008,13 +4008,14 @@ Injuid1 = {
 	father=34912
 	1225.1.1={
 		birth="1225.1.1"
-	}
-	1227.12.2={
-		dynasty_house = house_Jochid
-	}
-	1229.12.11={
 		dynasty_house = house_Orda
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Jochid
+	#}
+	#1229.12.11={
+	#	dynasty_house = house_Orda
+	#}
 	1270.1.1={
 		death="1270.1.1"
 	}
@@ -4027,10 +4028,11 @@ sons_of_orda_001 = {
 	father = 34912
 	1229.1.1 = {
 		birth = yes
-	}
-	1229.12.11={
 		dynasty_house = house_Orda
 	}
+	#1229.12.11={
+	#	dynasty_house = house_Orda
+	#}
 	1275.1.1 = {
 		death = yes
 	}
@@ -4044,10 +4046,11 @@ sons_of_orda_002 = {
 	father = 34912
 	1228.1.1 = {
 		birth = yes
-	}
-	1229.12.11={
 		dynasty_house = house_Orda
 	}
+	#1229.12.11={
+	#	dynasty_house = house_Orda
+	#}
 	1275.1.1 = {
 		death = yes
 	}
@@ -4061,13 +4064,14 @@ sons_of_orda_003 = {
 	father = 34912
 	1226.1.1 = {
 		birth = yes
-	}
-	1227.12.2={
-		dynasty_house = house_Jochid
-	}
-	1229.12.11={
 		dynasty_house = house_Orda
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Jochid
+	#}
+	#1229.12.11={
+	#	dynasty_house = house_Orda
+	#}
 	1275.1.1 = {
 		death = yes
 	}
@@ -4080,13 +4084,14 @@ sons_of_orda_003 = {
 	father=34912
 	1227.1.1={
 		birth="1227.1.1"
-	}
-	1227.12.2={
-		dynasty_house = house_Jochid
-	}
-	1229.12.11={
 		dynasty_house = house_Orda
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Jochid
+	#}
+	#1229.12.11={
+	#	dynasty_house = house_Orda
+	#}
 	1277.1.1={
 		death="1277.1.1"
 	}
@@ -4318,7 +4323,7 @@ sons_of_orda_003 = {
 		culture = tatars
 	}
 	1313.1.1 = {
-		religion = "ashari"
+		religion = "asharite"
 	}
 	1320.1.1 = {
 		death = "1320.1.1"
@@ -4334,7 +4339,7 @@ sons_of_orda_003 = {
 		birth = "1300.1.1"
 	}
 	1313.1.1 = {
-		religion = "ashari"
+		religion = "asharite"
 	}
 	1350.1.1 = {
 		death = "1350.1.1"
@@ -4391,7 +4396,7 @@ sons_of_orda_003 = {
 		culture = tatars
 	}
 	1313.1.1 = {
-		religion = "ashari"
+		religion = "asharite"
 	}
 	1320.1.1 = {
 		death = "1320.1.1"
@@ -4407,7 +4412,7 @@ sons_of_orda_003 = {
 		birth = "1300.1.1"
 	}
 	1313.1.1 = {
-		religion = "ashari"
+		religion = "asharite"
 	}
 	1350.1.1 = {
 		death = "1350.1.1"
@@ -4439,7 +4444,7 @@ sons_of_orda_003 = {
 		culture = tatars
 	}
 	1313.1.1 = {
-		religion = "ashari"
+		religion = "asharite"
 	}
 	1320.1.1 = {
 		death = "1320.1.1"
@@ -4455,7 +4460,7 @@ sons_of_orda_003 = {
 		birth = "1300.1.1"
 	}
 	1313.1.1 = {
-		religion = "ashari"
+		religion = "asharite"
 	}
 	1350.1.1 = {
 		death = "1350.1.1"
@@ -4587,6 +4592,7 @@ sons_of_orda_003 = {
 	prowess = 20 
 	1183.1.1={
 		birth="1183.1.1"
+		dynasty_house = house_Chagatayid
 	}
 	1198.1.1 = {
     effect = {
@@ -4604,9 +4610,9 @@ sons_of_orda_003 = {
   	1225.1.1={
 		add_spouse=1231515
    	}
-	1227.12.2={
-		dynasty_house = house_Chagatayid
-	}
+	#1227.12.2={
+	#	dynasty_house = house_Chagatayid
+	#}
 	1232.1.1 = {
 		effect = {
 			add_gold = 5000
@@ -4636,10 +4642,11 @@ sons_of_orda_003 = {
 	mother=166899
 	1200.1.1={
 		birth="1200.1.1"
-	}
-	1227.12.2={
 		dynasty_house = house_Chagatayid
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Chagatayid
+	#}
 	1240.1.1={
 		death="1240.1.1"
 	}
@@ -4669,10 +4676,11 @@ sons_of_mutukan_001 = {
 	father=93063
 	1223.1.1={
 		birth="1223.1.1"
-	}
-	1227.12.2={
 		dynasty_house = house_Chagatayid
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Chagatayid
+	#}
 	1234.1.1={
      add_spouse=166904
     }
@@ -4688,10 +4696,11 @@ sons_of_mutukan_001 = {
 	father=93062
 	1202.1.1={
 		birth="1202.1.1"
-	}
-	1227.12.2={
 		dynasty_house = house_Chagatayid
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Chagatayid
+	#}
 	1246.5.1={
 		death="1246.5.1"
 	}
@@ -4699,7 +4708,7 @@ sons_of_mutukan_001 = {
 93066 = {
 	name = "Mubarak Shah" 
 	dynasty_house = house_Chagatayid
-	religion = "ashari"
+	religion = "asharite"
 	culture = "mongol"
 	father = 93064
 	mother = 166904
@@ -4724,7 +4733,7 @@ sons_of_mutukan_001 = {
 ChagataiFemale1 = {
 	name="Khorichin" 
 	dynasty_house = house_Chagatayid
-	religion="ashari"
+	religion="asharite"
 	culture="mongol"
 	father=93064
 	female=yes
@@ -4739,7 +4748,7 @@ ChagataiFemale1 = {
 ChagataiFemale2 = {
 	name="Khadagan" 
 	dynasty_house = house_Chagatayid
-	religion="ashari"
+	religion="asharite"
 	culture="mongol"
 	father=93064
 	female=yes
@@ -4754,7 +4763,7 @@ ChagataiFemale2 = {
 ChagataiFemale3 = {
 	name="Öljetey" 
 	dynasty_house = house_Chagatayid
-	religion="ashari"
+	religion="asharite"
 	culture="mongol"
 	father=93063
 	female=yes
@@ -4769,7 +4778,7 @@ ChagataiFemale3 = {
 ChagataiFemale4 = {
 	name="TO_regene" 
 	dynasty_house = house_Chagatayid
-	religion="ashari"
+	religion="asharite"
 	culture="mongol"
 	father=93067
 	female=yes
@@ -4794,10 +4803,11 @@ ChagataiFemale4 = {
 	trait = child_of_concubine_female
 	1206.1.1={
 		birth="1206.1.1"
-	}
-	1227.12.2={
 		dynasty_house = house_Chagatayid
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Chagatayid
+	#}
 	1247.1.1={
 		death="1247.1.1"
 	}
@@ -4831,10 +4841,11 @@ ChagataiFemale4 = {
 	father=93063
 	1217.1.1={
 		birth="1217.1.1"
-	}
-	1227.12.2={
 		dynasty_house = house_Chagatayid
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Chagatayid
+	#}
 	1258.1.1={
 		death="1258.1.1"
 	}
@@ -4862,7 +4873,7 @@ ChagataiFemale4 = {
 		}	
 	}
 	1270.1.1={
-		religion="ashari"
+		religion="asharite"
 	}
 	1271.1.1={
 		death="1271.1.1"
@@ -4876,10 +4887,11 @@ ChagataiFemale4 = {
 	father=93062
 	1210.1.1={
 		birth="1210.1.1"
-	}
-	1227.12.2={
 		dynasty_house = house_Chagatayid
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Chagatayid
+	#}
 	1260.1.1={
 		death="1260.1.1"
 	}
@@ -4926,10 +4938,11 @@ sons_of_sarban_001 = {
 	trait="drunkard"
 	1216.1.1={
 		birth="1216.1.1"
-	}
-	1227.12.2={
 		dynasty_house = house_Chagatayid
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Chagatayid
+	#}
 	1252.1.1={
 		death={
 			death_reason=death_murder
@@ -5084,7 +5097,7 @@ sons_of_sarban_001 = {
 		birth="1296.1.1"
 	}
 	1325.1.1={ #?
-		religion="ashari"
+		religion="asharite"
 	}
 	1334.1.1={
 		death="1334.1.1"
@@ -5477,7 +5490,7 @@ mongol_placeholder_001 = {
 	name="Öljetey"
 	female=yes
 	dynasty_house = house_Toluid
-	religion="ashari"
+	religion="asharite"
 	culture="mongol"
 	father=478008
 	1284.1.1={
@@ -5491,7 +5504,7 @@ mongol_placeholder_001 = {
 	name="Ala Fireng"
 	female=yes
 	dynasty_house = house_Toluid
-	religion="ashari"
+	religion="asharite"
 	culture="mongol"
 	father=125525
 	1295.1.1={
@@ -5504,7 +5517,7 @@ mongol_placeholder_001 = {
 93310 = {
 	name="Jahan Temür"
 	dynasty_house = house_Toluid
-	religion="ashari"
+	religion="asharite"
 	culture="mongol"
 	mother=93309
 	1320.1.1={
@@ -5637,15 +5650,16 @@ mongol_placeholder_001 = {
 	prowess = 20	 
 	1186.1.1 = {
 		birth = "1186.1.1"
+		dynasty_house = house_Ogodeid
 	}
 	1204.1.1 = {
 		add_spouse = 172006
 		remove_trait = rowdy
 		add_trait = education_martial_3
 	}
-	1227.12.2={
-		dynasty_house = house_Ogodeid
-	}
+	#1227.12.2={
+	#	dynasty_house = house_Ogodeid
+	#}
 	1232.1.1 = {
 		effect = {
 			add_gold = 5000
@@ -5690,34 +5704,36 @@ mongol_placeholder_001 = {
 	mother=172006
 	1206.1.1={
 		birth="1206.1.1"
-	}
-	1220.1.1={
-     add_spouse=166908
-   }
-	1227.12.2={
 		dynasty_house = house_Ogodeid
 	}
+	1220.1.1={
+    	add_spouse=166908
+    }
+	#1227.12.2={
+	#	dynasty_house = house_Ogodeid
+	#}
 	1248.4.20={
 		death = yes
 	}
 }
 172008 = {
-   name="Kadan"
-   dynasty=11100
-   religion="tengri_pagan"
-   culture="mongol"
-   father=172005
-   mother=166909
-   trait="child_of_concubine_male"
-   1210.1.1={
-     birth=yes
-   }
-   1227.12.2={
-		dynasty_house = house_Ogodeid
-	}
-   1252.1.1={
-    death = yes
-   }
+    name="Kadan"
+    dynasty=11100
+    religion="tengri_pagan"
+    culture="mongol"
+    father=172005
+    mother=166909
+	trait="child_of_concubine_male"
+    1210.1.1={
+     	birth=yes
+	 	dynasty_house = house_Ogodeid
+    }
+    #1227.12.2={
+	#	dynasty_house = house_Ogodeid
+	#}
+    1252.1.1={
+    	death = yes
+    }
 }
 172009 = {
 	name="Godan"
@@ -5728,10 +5744,11 @@ mongol_placeholder_001 = {
 	mother=172006
 	1207.1.1={
 		birth="1207.1.1"
-	}
-	1227.12.2={
 		dynasty_house = house_Ogodeid
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Ogodeid
+	#}
 	1247.1.1={
 		religion="lamaism"
 	}#converted to Tibetan Buddhism by Sakya Pandita
@@ -5783,7 +5800,7 @@ mongol_placeholder_001 = {
 	name="Dowlandi Khatun"
 	female=yes
 	dynasty_house = house_Toluid
-	religion="ashari"
+	religion="asharite"
 	culture="mongol"
 	father=478007
 	1294.1.1={
@@ -5799,7 +5816,7 @@ mongol_placeholder_001 = {
 217225 = {
 	name="Korduchin"
 	female=yes
-	religion="ashari"
+	religion="asharite"
 	culture="mongol"
 	1285.1.1={
 		birth=yes
@@ -5814,7 +5831,7 @@ mongol_placeholder_001 = {
 217226 = {
 	name="Khorichin" #name fictional; mother of Chupan's first four sons and Baghdad Khatun
 	female=yes
-	religion="ashari"
+	religion="asharite"
 	culture="mongol"
 	1270.1.1={
 		birth=yes
@@ -5852,10 +5869,11 @@ mongol_placeholder_001 = {
 	mother = 172010
 	1209.1.10 = {
 		birth = yes
-	}
-	1227.12.2={
 		dynasty_house = house_Toluid
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Toluid
+	#}
 	
 	1259.8.11 = {
 		death = yes
@@ -5876,10 +5894,11 @@ mongol_placeholder_001 = {
 	mother = 172010
 	1215.9.23 = {
 		birth = yes
+		dynasty_house = house_Kublaid
 	}
-	1227.12.2={
-		dynasty_house = house_Toluid
-	}
+	#1227.12.2={
+	#	dynasty_house = house_Toluid
+	#}
 	1234.1.1 = {
 		add_spouse = 217267
 	}
@@ -5887,7 +5906,7 @@ mongol_placeholder_001 = {
 		religion = lamaism
 	} #Initiated by Drogön Chögyal Phagpa
 	1255.8.21 = {
-		dynasty_house = house_Kublaid
+		#dynasty_house = house_Kublaid
 		spawn_mongol_troops_effect = yes
 		spawn_mongol_troops_effect = yes
 		effect = {
@@ -5918,7 +5937,7 @@ mongol_placeholder_001 = {
 }
 217268 = {
 	name = Jingsim # Son of Kublai Khan
-	dynasty_house = house_Toluid
+	dynasty_house = house_Kublaid
 	religion = lamaism
 	culture = mongol
 	father = 217266
@@ -6450,10 +6469,11 @@ jalayir_general_01 = {
 	mother=172006
 	1209.4.16 = {
 		birth = yes
-	}
-	1227.12.2={
 		dynasty_house = house_Ogodeid
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Ogodeid
+	#}
 	1246.2.20 = {
 		death = yes
 	}
@@ -6558,10 +6578,11 @@ jalayir_general_01 = {
 	female = yes
 	1206.1.1 = {
 		birth = yes
-	}
-	1227.12.1 = {
 		dynasty_house = house_Jochid
 	}
+	#1227.12.1 = {
+	#	dynasty_house = house_Jochid
+	#}
 	1268.1.1 = {
 		death = yes
 	}
@@ -8680,7 +8701,7 @@ yedid0008 = {
 248197 = {
 	name="Qazaghan Noyan"
 	dynasty=1059028
-	religion="ashari"
+	religion="asharite"
 	culture="mongol"
 
 	trait=ambitious
@@ -8706,15 +8727,16 @@ yedid0008 = {
 	#mother=166896
 	1222.1.1={
 		birth="1222.1.1"
-	}
-	1227.12.2={
-		dynasty_house = house_Jochid
-	}
-	1229.12.11={
 		dynasty_house = house_TuqTemur
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Jochid
+	#}
+	#1229.12.11={
+	#	dynasty_house = house_TuqTemur
+	#}
 	1252.1.1 = {
-		religion = "ashari"
+		religion = "asharite"
 	}
 	1275.1.2={
 		death="1275.1.2"
@@ -8728,10 +8750,11 @@ yedid0008 = {
 	father=125534
 	1234.1.1={
 		birth="1234.1.1"
-	}
-	1241.1.1={
 		dynasty_house = house_UlunTemur
 	}
+	#1241.1.1={
+	#	dynasty_house = house_UlunTemur
+	#}
 	1289.1.2={
 		death="1289.1.2"
 	}
@@ -8762,7 +8785,7 @@ yedid0008 = {
 		culture = crimean
 	}
 	1313.1.1={
-		religion="ashari"
+		religion="asharite"
 	}
 	1321.1.2={
 		death="1321.1.2"
@@ -8778,7 +8801,7 @@ yedid0008 = {
 		birth="1304.1.1"
 	}
 	1313.1.1={
-		religion="ashari"
+		religion="asharite"
 	}
 	1358.1.2={
 		death="1358.1.2"
@@ -8787,7 +8810,7 @@ yedid0008 = {
 125539 = {
 	name="Toy Hoja"
 	dynasty_house = house_UlunTemur
-	religion="ashari"
+	religion="asharite"
 	culture="turkmeni"
 	father=125538
 	1323.1.1={
@@ -8937,10 +8960,11 @@ yedid0008 = {
 	trait="child_of_concubine_male"
 	1211.1.1 = {
 		birth = yes
-	}
-	1227.12.2={
 		dynasty_house = house_Toluid
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Toluid
+	#}
 	1252.1.1 = {
 		death = yes
 	}
@@ -8954,10 +8978,11 @@ yedid0008 = {
 	trait="child_of_concubine_male"
 	1214.1.1 = {
 		birth = yes
-	}
-	1227.12.2={
 		dynasty_house = house_Toluid
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Toluid
+	#}
 	1240.1.1 = {
 		death = yes
 	}
@@ -8971,10 +8996,11 @@ yedid0008 = {
 	mother=172010
 	1221.1.1 = {
 		birth = yes
-	}
-	1227.12.2={
 		dynasty_house = house_Toluid
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Toluid
+	#}
 	1255.1.1 = {
 		death = yes
 	}
@@ -8988,10 +9014,11 @@ yedid0008 = {
 	trait="child_of_concubine_male"
 	1222.1.1 = {
 		birth = yes
-	}
-	1227.12.2={
 		dynasty_house = house_Toluid
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Toluid
+	#}
 	1261.1.1 = {
 		death = yes
 	}
@@ -9006,10 +9033,11 @@ yedid0008 = {
 	trait="child_of_concubine_male"
 	1225.1.1 = {
 		birth = yes
-	}
-	1227.12.2={
 		dynasty_house = house_Toluid
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Toluid
+	#}
 	1268.1.1 = {
 		death = yes
 	}
@@ -9024,10 +9052,11 @@ yedid0008 = {
 	trait="child_of_concubine_male"
 	1225.1.1 = {
 		birth = yes
-	}
-	1227.12.2={
 		dynasty_house = house_Toluid
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Toluid
+	#}
 	1277.1.1 = {
 		death = yes
 	}
@@ -9100,10 +9129,11 @@ yedid0008 = {
 	mother=166930
 	1225.1.1 = {
 		birth = yes
-	}
-	1227.12.2 = {
 		dynasty_house = house_Toluid
 	}
+	#1227.12.2 = {
+	#	dynasty_house = house_Toluid
+	#}
 	1280.1.1 = {
 		death = yes
 	}
@@ -9355,7 +9385,7 @@ yedid0008 = {
 }
 166958 = {
 	name="Dorji" # First Son of Kublai Khan
-	dynasty_house = house_Toluid
+	dynasty_house = house_Kublaid
 	religion="tengri_pagan"
 	culture="mongol"
 	father=217266
@@ -9373,7 +9403,7 @@ yedid0008 = {
 }
 166959 = {
 	name="Manggala" # Son of Kublai Khan
-	dynasty_house = house_Toluid
+	dynasty_house = house_Kublaid
 	religion="lamaism"
 	culture="mongol"
 	father=217266
@@ -9390,7 +9420,7 @@ yedid0008 = {
 }
 166960 = {
 	name="Nomukhan" # Son of Kublai Khan
-	dynasty_house = house_Toluid
+	dynasty_house = house_Kublaid
 	religion="tengri_pagan"
 	culture="mongol"
 	father=217266
@@ -9649,7 +9679,7 @@ sons_of_mochi_yebe_002 = {
 		birth = yes
 	}
 	1233.1.1 = { # Fictional date but it is his true name maybe after conversion
-		religion = "ashari"
+		religion = "asharite"
 		name = "Ahmad"
 	}
 	1270.1.1 = {
@@ -10190,10 +10220,11 @@ sons_of_baiju_001 = {
 	#mother=166896
 	1210.1.1={
 		birth=yes
-	}
-	1227.12.2={
 		dynasty_house = house_Jochid
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Jochid
+	#}
 	1243.1.1={
 		death=yes
 	}
@@ -10207,10 +10238,11 @@ sons_of_baiju_001 = {
 	#mother=166896
 	1212.1.1={
 		birth=yes
-	}
-	1227.12.2={
 		dynasty_house = house_Jochid
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Jochid
+	#}
 	1259.1.1={
 		death=yes
 	}
@@ -10225,10 +10257,11 @@ sons_of_baiju_001 = {
 	#mother=166896
 	1214.1.1={
 		birth=yes
-	}
-	1227.12.2={
 		dynasty_house = house_Jochid
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Jochid
+	#}
 	1260.1.1={
 		death=yes
 	}
@@ -10242,10 +10275,11 @@ sons_of_baiju_001 = {
 	#mother=166896
 	1215.1.1={
 		birth=yes
-	}
-	1227.12.2={
 		dynasty_house = house_Jochid
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Jochid
+	#}
 	1258.1.1={
 		death=yes
 	}
@@ -10259,10 +10293,11 @@ sons_of_baiju_001 = {
 	#mother=166896
 	1217.1.1={
 		birth=yes
-	}
-	1227.12.2={
 		dynasty_house = house_Jochid
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Jochid
+	#}
 	1263.1.1={
 		death=yes
 	}
@@ -10276,10 +10311,11 @@ sons_of_baiju_001 = {
 	#mother=166896
 	1218.1.1={
 		birth=yes
-	}
-	1227.12.2={
 		dynasty_house = house_Jochid
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Jochid
+	#}
 	1266.1.1={
 		death=yes
 	}
@@ -10292,10 +10328,11 @@ sons_of_baiju_001 = {
 	father=125502
 	1220.1.1={
 		birth=yes
-	}
-	1227.12.2={
 		dynasty_house = house_Jochid
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Jochid
+	#}
 	1252.1.1={
 		death=yes
 	}
@@ -10309,10 +10346,11 @@ sons_of_baiju_001 = {
 	#mother=166896
 	1221.1.1={
 		birth=yes
-	}
-	1227.12.2={
 		dynasty_house = house_Jochid
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Jochid
+	#}
 	1267.1.1={
 		death=yes
 	}
@@ -10340,10 +10378,11 @@ sons_of_baiju_001 = {
 	#mother=166896
 	1226.1.1={
 		birth=yes
-	}
-	1227.12.2={
 		dynasty_house = house_Jochid
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Jochid
+	#}
 	1259.1.1={
 		death=yes
 	}
@@ -10356,12 +10395,13 @@ sons_of_baiju_001 = {
 	father = 125502
 	1227.1.1 = {
 		birth = yes
-	}
-	1227.12.2 = {
 		dynasty_house = house_Jochid
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Jochid
+	#}
 	1257.1.1 = {
-		religion = "ashari"
+		religion = "asharite"
 	}
 	1260.1.1 = {
 		death = yes
@@ -10377,7 +10417,7 @@ sons_of_tuqa_timur_001 = {
 		birth = yes
 	}
 	1257.1.1 = {
-		religion = "ashari"
+		religion = "asharite"
 	}
 	1270.1.1 = {
 		death = yes
@@ -10393,7 +10433,7 @@ sons_of_tuqa_timur_002 = {
 		birth = yes
 	}
 	1257.1.1 = {
-		religion = "ashari"
+		religion = "asharite"
 	}
 	1275.1.1 = {
 		death = yes
@@ -10409,7 +10449,7 @@ sons_of_tuqa_timur_003 = {
 		birth = yes
 	}
 	1257.1.1 = {
-		religion = "ashari"
+		religion = "asharite"
 	}
 	1280.1.1 = {
 		death = yes
@@ -10425,7 +10465,7 @@ sons_of_tuqa_timur_004 = {
 		birth = yes
 	}
 	1257.1.1 = {
-		religion = "ashari"
+		religion = "asharite"
 	}
 	1280.1.1 = {
 		death = yes
@@ -10454,10 +10494,11 @@ sons_of_tuqa_timur_004 = {
 	mother=166897
 	1226.1.1={
 		birth=yes
-	}
-	1227.12.2={
 		dynasty_house = house_Jochid
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Jochid
+	#}
 	1260.1.1={
 		death=yes
 	}
@@ -10547,10 +10588,11 @@ sons_of_tuqa_timur_004 = {
 	mother=166908
 	1222.1.1={
 		birth=yes
-	}
-	1227.12.2={
 		dynasty_house = house_Ogodeid
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Ogodeid
+	#}
 	1256.1.1={
 		death = yes
 	}
@@ -10564,10 +10606,11 @@ sons_of_tuqa_timur_004 = {
 	mother=166908
 	1226.1.1={
 		birth=yes
-	}
-	1227.12.2={
 		dynasty_house = house_Ogodeid
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Ogodeid
+	#}
 	1268.1.1={
 		death = yes
 	}
@@ -10581,10 +10624,11 @@ sons_of_tuqa_timur_004 = {
 	mother=172006
 	1210.1.1={
 		birth="1210.1.1"
-	}
-	1227.12.2={
 		dynasty_house = house_Ogodeid
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Ogodeid
+	#}
 	1236.1.1={
 		death = yes
 	}
@@ -10598,10 +10642,11 @@ sons_of_tuqa_timur_004 = {
 	mother=172006
 	1210.1.1={
 		birth=yes
-	}
-	1227.12.2={
 		dynasty_house = house_Ogodeid
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Ogodeid
+	#}
 	1255.1.1={
 		death = yes
 	}
@@ -10616,10 +10661,11 @@ sons_of_tuqa_timur_004 = {
 	trait="child_of_concubine_male"
 	1215.1.1={
 		birth=yes
-	}
-	1227.12.2={
 		dynasty_house = house_Ogodeid
 	}
+	#1227.12.2={
+	#	dynasty_house = house_Ogodeid
+	#}
 	1260.1.1={
 		death = yes
 	}
@@ -10660,7 +10706,7 @@ sons_of_tuqa_timur_004 = {
 		birth=yes
 	}
 	1260.1.1={
-		religion="ashari"
+		religion="asharite"
 	}
 	1296.1.1={
 		death=yes
@@ -10669,7 +10715,7 @@ sons_of_tuqa_timur_004 = {
 166918 = {
 	name="Ali Khalil"
 	dynasty_house = house_Ogodeid
-	religion="ashari"
+	religion="asharite"
 	culture="mongol"
 	father=166917
 	1275.1.1={
@@ -10682,7 +10728,7 @@ sons_of_tuqa_timur_004 = {
 166919 = {
 	name="Danishmendji"
 	dynasty_house = house_Ogodeid
-	religion="ashari"
+	religion="asharite"
 	culture="mongol"
 	father=166918
 	1293.1.1={
@@ -10695,7 +10741,7 @@ sons_of_tuqa_timur_004 = {
 166920 = {
 	name="Suurgatmish"
 	dynasty_house = house_Ogodeid
-	religion="ashari"
+	religion="asharite"
 	culture="mongol"
 	father=166919
 	1315.1.1={
@@ -11096,7 +11142,7 @@ sons_of_tuqa_timur_004 = {
 		culture=tatars
 	}
 	1313.1.1={
-		religion="ashari"
+		religion="asharite"
 	}
 	1327.1.2={
 		death="1327.1.2"
@@ -11115,7 +11161,7 @@ sons_of_tuqa_timur_004 = {
 		culture=turkmeni
 	}
 	1313.1.1={
-		religion="ashari"
+		religion="asharite"
 	}
 	1338.1.2={
 		death="1338.1.2"
@@ -11124,7 +11170,7 @@ sons_of_tuqa_timur_004 = {
 125543 = {
 	name="Kutluk Temür"
 	dynasty_house = house_TuqTemur
-	religion="ashari"
+	religion="asharite"
 	culture="turkmeni"
 	father=125542
 	1313.1.1={
@@ -11144,7 +11190,7 @@ sons_of_tuqa_timur_004 = {
 		birth="1308.1.1"
 	}
 	1313.1.1={
-		religion="ashari"
+		religion="asharite"
 	}
 	1355.1.2={
 		death="1355.1.2"
@@ -11153,7 +11199,7 @@ sons_of_tuqa_timur_004 = {
 125545 = {
 	name="China"
 	dynasty_house = house_UlunTemur
-	religion="ashari"
+	religion="asharite"
 	culture="crimean"
 	father=125544
 	1332.1.1={
@@ -11176,7 +11222,7 @@ sons_of_tuqa_timur_004 = {
 		culture=tatars
 	}
 	1313.1.1={
-		religion="ashari"
+		religion="asharite"
 	}
 	1354.1.2={
 		death="1354.1.2"
@@ -11185,7 +11231,7 @@ sons_of_tuqa_timur_004 = {
 125547 = {
 	name="Akmar"
 	dynasty_house = house_TuqTemur
-	religion="ashari"
+	religion="asharite"
 	culture="tatars"
 	father=125546
 	1314.1.1={

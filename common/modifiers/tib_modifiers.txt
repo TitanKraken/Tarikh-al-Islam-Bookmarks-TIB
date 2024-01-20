@@ -24,7 +24,7 @@ zakat_promised_modifier = {
 
 done_zakat_modifier = {
 	icon = economy_positive
-	parameter = mandatory_zakat
+	parameters = mandatory_zakat
 	monthly_piety_gain_mult = 0.15 # offset the -0.05 and add 0.1
 	same_faith_opinion = 10 # offset the -5
 	zealot_opinion = 10

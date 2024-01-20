@@ -17677,19 +17677,19 @@ Bryennios3 = {
 	}
 }
 
-#145108 = {
-#	name = "Sabbatios" # C.Chalkidike
-#	dynasty = 101436
-#	religion = "orthodox"
-#	culture = "greek"
-#
-#	835.1.1 = {
-#		birth = "835.1.1"
-#	}
-#	895.1.1 = {
-#		death = "895.1.1"
-#	}
-#}
+145108 = {
+	name = "Sabbatios" # C.Chalkidike
+	dynasty = 101436
+	religion = "orthodox"
+	culture = "greek"
+
+	835.1.1 = {
+		birth = "835.1.1"
+	}
+	895.1.1 = {
+		death = "895.1.1"
+	}
+}
 
 145109 = {
 	name = "Theoktistos" # C.Lesbos
@@ -17832,33 +17832,33 @@ Bryennios3 = {
 	}
 }
 
-#145119 = {
-#	name = "Tiberios" # D.Dioclea/C.Ragusa
-#	dynasty = 101177
-#	religion = "orthodox"
-#	culture = "greek"
-#
-#	844.1.1 = {
-#		birth = "844.1.1"
-#	}
-#	904.1.1 = {
-#		death = "904.1.1"
-#	}
-#}
-#
-#145120 = {
-#	name = "Amphilochios" # D.Dalmatia/C.Zadar
-#	dynasty = 101132
-#	religion = "orthodox"
-#	culture = "greek"
-#
-#	836.1.1 = {
-#		birth = "836.1.1"
-#	}
-#	896.1.1 = {
-#		death = "896.1.1"
-#	}
-#}
+145119 = {
+	name = "Tiberios" # D.Dioclea/C.Ragusa
+	dynasty = 101177
+	religion = "orthodox"
+	culture = "greek"
+
+	844.1.1 = {
+		birth = "844.1.1"
+	}
+	904.1.1 = {
+		death = "904.1.1"
+	}
+}
+
+145120 = {
+	name = "Amphilochios" # D.Dalmatia/C.Zadar
+	dynasty = 101132
+	religion = "orthodox"
+	culture = "greek" # probably Dalmatian?
+
+	836.1.1 = {
+		birth = "836.1.1"
+	}
+	896.1.1 = {
+		death = "896.1.1"
+	}
+}
 
 145121 = {
 	name = "Romanos" # C.Consenza
@@ -19032,7 +19032,7 @@ Bryennios3 = {
 	name = "Himerios" # C.Split
 	dynasty = 1022176
 	religion = "orthodox"
-	culture = "greek"
+	culture = "dalmatian" # "greek"
 	837.1.1 = {
 		birth = "837.1.1"
 	}
@@ -28473,6 +28473,18 @@ Skleros4 = { #
 		death=yes
 	}
 }
+1234920 = {
+	name="Ayyub"
+	dynasty=1000102852
+	religion="ashari"
+	culture="levantine"
+	820.1.1={
+		birth=yes
+	}
+	853.1.1={
+		death=yes
+	}
+}
 1232466 = {
 	name="Aziz" #One of 2 slave brothers owned by the Eunuch Damian, who is known for his sack of Damietta in 853. Unlike his brother, he converted to Christianity. He later rose to hold important positions within the Empire when he was freed, including being named Strategos of the Cibyrrhaeot Theme
 	dynasty=1000102852
@@ -28618,7 +28630,7 @@ Skleros4 = { #
 	}
 }
 1232475 = {
-	name="Lawi" #Leo of Tripoli
+	name="Liyu" #Leo of Tripoli
 	religion="ashari"
 	culture="greek"
 	dynasty=1000103583
@@ -32629,6 +32641,22 @@ ablabian_04 = {
 		birth = yes
 	}
 	408.1.1 = {
+		death = yes
+	}
+}
+ablabian_08 = {
+	name = "Alexia"
+	female = yes
+	#dynasty = ablabian
+	culture = greek
+	religion = catholic
+	327.1.1 = {
+		birth = yes
+	}
+	348.1.1 = {
+		add_spouse = ablabian_02
+	}
+	380.1.1 = {
 		death = yes
 	}
 }

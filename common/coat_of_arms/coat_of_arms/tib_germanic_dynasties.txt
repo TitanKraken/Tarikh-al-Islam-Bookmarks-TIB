@@ -5,7 +5,7 @@ house_cornouaille = c_cornwall
 
 1044051 = { # Ansprandidi
 	pattern="pattern_solid.dds"
-	color1=green
+	color1=white
 	colored_emblem={
 		color1=black
 		color2=black
@@ -13,28 +13,28 @@ house_cornouaille = c_cornwall
 		instance={
 			position={ 0.290000 0.500000 }
 			scale={ 0.500000 0.500000 }
-			depth=6.010000
+			depth=7.010000
 			rotation=-15
 		}
 
 		instance={
 			position={ 0.270000 0.500000 }
 			scale={ 0.500000 0.500000 }
-			depth=7.010000
+			depth=8.010000
 			rotation=-15
 		}
 
 		instance={
 			position={ 0.280000 0.510000 }
 			scale={ 0.500000 0.500000 }
-			depth=8.010000
+			depth=9.010000
 			rotation=-15
 		}
 
 		instance={
 			position={ 0.280000 0.490000 }
 			scale={ 0.500000 0.500000 }
-			depth=9.010000
+			depth=10.010000
 			rotation=-15
 		}
 
@@ -47,7 +47,7 @@ house_cornouaille = c_cornwall
 		instance={
 			position={ 0.280000 0.500000 }
 			scale={ 0.500000 0.500000 }
-			depth=5.010000
+			depth=6.010000
 			rotation=-15
 		}
 
@@ -61,7 +61,7 @@ house_cornouaille = c_cornwall
 		instance={
 			position={ 0.500000 0.435000 }
 			scale={ 0.210000 0.210000 }
-			depth=18.010000
+			depth=19.010000
 		}
 
 	}
@@ -74,6 +74,7 @@ house_cornouaille = c_cornwall
 		instance={
 			position={ 0.700000 0.550000 }
 			scale={ 0.250000 0.250000 }
+			depth=1.010000
 			rotation=15
 		}
 
@@ -86,7 +87,7 @@ house_cornouaille = c_cornwall
 		texture="ce_eagle_double.dds"
 		instance={
 			scale={ 0.900000 1.000000 }
-			depth=22.010000
+			depth=23.010000
 		}
 
 	}
@@ -99,28 +100,28 @@ house_cornouaille = c_cornwall
 		instance={
 			position={ 0.710000 0.550000 }
 			scale={ 0.250000 0.250000 }
-			depth=1.010000
+			depth=2.010000
 			rotation=15
 		}
 
 		instance={
 			position={ 0.690000 0.550000 }
 			scale={ 0.250000 0.250000 }
-			depth=2.010000
+			depth=3.010000
 			rotation=15
 		}
 
 		instance={
 			position={ 0.700000 0.560000 }
 			scale={ 0.250000 0.250000 }
-			depth=3.010000
+			depth=4.010000
 			rotation=15
 		}
 
 		instance={
 			position={ 0.700000 0.540000 }
 			scale={ 0.250000 0.250000 }
-			depth=4.010000
+			depth=5.010000
 			rotation=15
 		}
 
@@ -132,7 +133,7 @@ house_cornouaille = c_cornwall
 		instance={
 			position={ 0.500000 0.452000 }
 			scale={ 0.345000 0.345000 }
-			depth=20.010000
+			depth=21.010000
 		}
 
 	}
@@ -143,7 +144,7 @@ house_cornouaille = c_cornwall
 		instance={
 			position={ 0.500000 0.440000 }
 			scale={ 0.200000 0.220000 }
-			depth=19.010000
+			depth=20.010000
 		}
 
 	}
@@ -155,7 +156,18 @@ house_cornouaille = c_cornwall
 		instance={
 			position={ 0.500000 0.100000 }
 			scale={ 0.500000 0.500000 }
-			depth=23.010000
+			depth=24.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=blue
+		color2=red
+		texture="ce_panther.dds"
+		instance={
+			position={ 0.500000 0.430000 }
+			scale={ 0.180000 0.180000 }
 		}
 
 	}
@@ -166,49 +178,49 @@ house_cornouaille = c_cornwall
 		instance={
 			position={ 0.500000 0.590000 }
 			scale={ 0.050000 0.050000 }
-			depth=10.010000
+			depth=11.010000
 		}
 
 		instance={
 			position={ 0.590000 0.500000 }
 			scale={ 0.050000 0.050000 }
-			depth=11.010000
+			depth=12.010000
 		}
 
 		instance={
 			position={ 0.410000 0.500000 }
 			scale={ 0.050000 0.050000 }
-			depth=12.010000
+			depth=13.010000
 		}
 
 		instance={
 			position={ 0.610000 0.400000 }
 			scale={ 0.050000 0.050000 }
-			depth=13.010000
+			depth=14.010000
 		}
 
 		instance={
 			position={ 0.390000 0.400000 }
 			scale={ 0.050000 0.050000 }
-			depth=14.010000
+			depth=15.010000
 		}
 
 		instance={
 			position={ 0.620000 0.300000 }
 			scale={ 0.050000 0.050000 }
-			depth=15.010000
+			depth=16.010000
 		}
 
 		instance={
 			position={ 0.380000 0.300000 }
 			scale={ 0.050000 0.050000 }
-			depth=16.010000
+			depth=17.010000
 		}
 
 		instance={
 			position={ 0.500000 0.300000 }
 			scale={ 0.050000 0.050000 }
-			depth=17.010000
+			depth=18.010000
 		}
 
 	}
@@ -219,80 +231,81 @@ house_cornouaille = c_cornwall
 		instance={
 			position={ 0.500000 0.430000 }
 			scale={ 0.380000 0.390000 }
-			depth=21.010000
+			depth=22.010000
 		}
 
 	}
+
+}
+1044031={ # Gausi / Gausian Langobards or Lombards
+	pattern="pattern_checkers_02.dds"
+	color1=white
+	color2=red
+	color3=black
+	colored_emblem={
+		color1=black
+		texture="ce_cross_04.dds"
+		instance={
+			scale={ 0.810000 0.810000 }
+		}
+
+	}
+
 }
 
 house_gothograeci = {
 	pattern="pattern_solid.dds"
-	color1=red
+	color1=purple
 	color2=yellow
-	color3=black
+	color3=green
 	colored_emblem={
 		color1=yellow
-		color2=green
-		texture="ce_totalwar03_visgoth_eagle.dds"
+		color2=purple
+		color3=green
+		texture="ce_cross_asturias.dds"
 		instance={
-			position={ 0.510000 0.460000 }
-			scale={ 0.790000 0.790000 }
-		}
-	}
-
-	colored_emblem={
-		color1=green
-		texture="cat_greece_laurel_wreath.dds"
-		instance={
-			scale={ 1.000000 0.940000 }
-			depth=1.010000
+			scale={ 0.700000 0.700000 }
 		}
 	}
 }
 
+
 house_karabisianoi = {
 	pattern="pattern_solid.dds"
-	color1=purple
+	color1=black
 	color2=yellow
-	color3=red
-	colored_emblem={
-		color1=yellow
-		color2=yellow
-		color3=yellow
-		texture="cat_ship9_dragon_wappen.dds"
-		instance={
-			position={ 0.500000 0.450000 }
-			scale={ 0.840000 0.600000 }
-			depth=2.010000
-		}
-	}
-
+	color3=purple
 	colored_emblem={
 		color1=yellow
 		texture="ce_beta.dds"
 		instance={
-			position={ 0.220000 0.180000 }
-			scale={ 0.370000 0.370000 }
-			rotation=180
-		}
-
-		instance={
 			position={ 0.800000 0.180000 }
 			scale={ 0.370000 0.370000 }
-			depth=1.010000
+			depth=2.010000
 		}
 	}
-
 	colored_emblem={
-		color1=blue
-		color2=white
-		texture="cat_wave2.dds"
+		color1=yellow
+		color2=yellow
+		color3=purple
+		texture="ce_cross_asturias.dds"
 		instance={
-			position={ 0.500000 0.690000 }
-			depth=3.010000
+			scale={ 0.790000 0.790000 }
+		}
+	}
+	colored_emblem={
+		color1=yellow
+		color3=yellow
+		texture="ce_beta.dds"
+		instance={
+			position={ 0.220000 0.180000 }
+			scale={ 0.370000 0.370000 }
+			depth=1.010000
+			rotation=180
 		}
 	}
 }
+
 
 house_ardonusing = {
 	pattern="pattern_solid.dds"
@@ -308,6 +321,9 @@ house_ardonusing = {
 		}
 	}
 }
+
+# Bavarian
+1044033 = k_bavaria # Agilolfing (Bavaria)
 
 # Franconian
 # Salian

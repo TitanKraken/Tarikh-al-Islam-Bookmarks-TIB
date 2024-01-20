@@ -1433,50 +1433,155 @@ d_fes={
 	color2=white
 	color3=red
 	colored_emblem={
+		color1=white
+		color2=blue
+		texture="tib_eu4_fez.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 0.670000 0.670000 }
+		}
+
+	}
+
+}
+c_fes={
+	pattern="pattern__solid_designer.dds"
+	color1=white
+	color2=black
+	color3=red
+}
+
+
+c_tinmallal={
+	pattern="pattern_solid.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
 		color1=red
 		color2=red
-		texture="ce_african_frame_05.dds"
+		texture="ce_african_frame_bg_10.dds"
 		instance={
-			position={ 0.500000 0.510000 }
+			position={ 0.500000 0.480000 }
 		}
 
 	}
 
 	colored_emblem={
-		color1=blue
-		color2=white
-		texture="ce_checky_08.dds"
+		color1=white
+		color2=black
+		texture="ce_checky_04.dds"
 		instance={
-			scale={ 0.635000 0.635000 }
-			depth=4.010000
+			position={ 0.490000 0.470000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+b_naffis={
+	pattern="pattern_solid.dds"
+	color1=green
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=green
+		color2=red
+		texture="ce_african_frame_bg_10.dds"
+		instance={
+			position={ 0.500000 0.480000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=black
+		texture="ce_checky_04.dds"
+		instance={
+			position={ 0.490000 0.470000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+b_tasgimut={
+	pattern="pattern_solid.dds"
+	color1=red
+	color2=white
+	color3=yellow
+	colored_emblem={
+		color1=yellow
+		color2=yellow
+		texture="ce_tamgha_regular_circle_frame.dds"
+		instance={
+			position={ 0.500000 0.460000 }
+			scale={ 0.730000 0.730000 }
 		}
 
 	}
 
 	colored_emblem={
 		color1=red
-		texture="ce_tamgha_doted_circle_frame.dds"
+		color2=red
+		texture="ce_african_frame_bg_10.dds"
 		instance={
-			scale={ 0.855000 0.855000 }
+			position={ 0.500000 0.480000 }
 			depth=1.010000
 		}
 
 	}
 
 	colored_emblem={
-		color1=red
-		color2=red
-		texture="ce_tamgha_doted_circle_frame.dds"
+		color1=white
+		color2=black
+		texture="ce_checky_04.dds"
 		instance={
-			scale={ 0.930000 0.930000 }
+			position={ 0.490000 0.470000 }
 			depth=2.010000
-		}
-
-		instance={
-			depth=3.010000
 		}
 
 	}
 
 }
 
+d_rif={
+	pattern="pattern_solid.dds"
+	color1=red
+	color2=white
+	color3=green
+	colored_emblem={
+		color1=white
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.500000 0.460000 }
+			scale={ 0.450000 0.450000 }
+			depth=2.010000
+			rotation=45
+		}
+
+	}
+
+	colored_emblem={
+		color1=green
+		texture="ce_crescent_mask_02.dds"
+		instance={
+			position={ 0.450000 0.460000 }
+			scale={ -0.430000 0.430000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=green
+		texture="ce_star_06.dds"
+		instance={
+			position={ 0.590000 0.460000 }
+			scale={ 0.200000 0.200000 }
+		}
+
+	}
+
+}

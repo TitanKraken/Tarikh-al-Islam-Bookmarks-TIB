@@ -1,13 +1,20 @@
-﻿bm_the_great_siege = {
+﻿# TIB Default
+bm_the_great_siege = {
 	start_date = 715.2.23
 	is_playable = yes
 	recommended = yes
 	group = bm_group_tib_default
+	weight = {
+		value = 50
+	}
 }
 bm_the_imamate = { # FUTURE FLAVOUR PACK
 	start_date = 910.1.15
 	is_playable = yes
 	group = bm_group_tib_flavour_1
+	weight = {
+		value = 50
+	}
 }
 bm_the_hammudid_caliphate = {
 	start_date = 1016.7.1
@@ -39,6 +46,9 @@ bm_las_navas_de_tolosa = {
 	recommended = yes
 	#default = yes
 	group = bm_group_tib_almohad
+	weight = {
+		value = 50
+	}
 }
 bm_the_almohad_fitna = {
 	start_date = 1224.1.1
@@ -58,7 +68,18 @@ bm_the_ilkhanate = {
 	recommended = yes
 	group = bm_group_tib_default
 }
-
+# Timurid Expansion
+bm_the_gurk = {
+	start_date = 1337.1.1
+	is_playable = yes
+	group = bm_group_tib_flavour_1
+}
+# Timurid Expansion
+bm_the_gurkaniyan = {
+	start_date = 1370.1.1
+	is_playable = yes
+	group = bm_group_tib_flavour_1
+}
 # Cairene Abbasid Expansion
 bm_the_shadow_caliphate = {
 	start_date = 1412.7.1

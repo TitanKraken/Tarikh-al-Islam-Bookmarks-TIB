@@ -53,7 +53,7 @@ c_julfar = {
 	}
 
 	715.1.1 = {
-		holder = oman_vassal_001
+		holder = ziyad_muhallabi
 		liege = k_mesopotamia
 	}
 	
@@ -140,7 +140,7 @@ c_batina = {
 	1066.1.1 = { change_development_level = 12 }
 	
 	715.1.1 = {
-		holder = oman_vassal_001
+		holder = ziyad_muhallabi
 		liege = k_mesopotamia
 	}
 
@@ -209,7 +209,7 @@ c_az-dhahira = {
 	}
 	
 	715.1.1 = {
-		holder = oman_vassal_001
+		holder = ziyad_muhallabi
 		liege = k_mesopotamia
 	}
 	

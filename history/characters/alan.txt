@@ -1416,3 +1416,17 @@
 		death="908.1.1"
 	}
 }
+
+#Post David Soslan Alan kings (likely placeholders)
+302270 = {
+	name = "Rhosmices"
+	dynasty = 2001052	#Ovsia
+	religion = orthodox
+	culture = alan
+	1184.1.2 = {
+		birth = yes
+	}
+	1238.1.2 = {
+		death = yes
+	}
+}

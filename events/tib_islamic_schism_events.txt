@@ -12,7 +12,7 @@ tib_islamic_schism.0001 = { # For later Sunnis
     }
     #immediate = { # Creates the respective imams
     #    create_character = {
-    #        name = "Abu al-Hasan 'Ali al-Ashʿarī" # Imam Ash'arī
+    #        name = "Abu al-Hasan 'Ali al-Ash'arī" # Imam Ash'arī
 	#		gender = male
 	#		location = province:4828 # Baghdad
     #        template = imam_ashari_character_template
@@ -36,48 +36,67 @@ tib_islamic_schism.0001 = { # For later Sunnis
         name = tib_islamic_schism.0001.a # The words of Imam al-Ash'ari indeed have defended our Deen
 
         set_character_faith_with_conversion = faith:asharite
-        every_realm_county = {
-            set_county_faith = faith:asharite
+        if = {
+            limit = {
+                is_ruler = yes
+            }
+            every_realm_county = {
+                limit = {
+                    faith = faith:ashari
+                    faith = faith:mutazila
+                }
+                set_county_faith = faith:asharite
+            }
         }
+        ai_chance = {
+			base = 0
+            modifier = {
+                add = 20
+                NOT = {
+                    capital_province = { geographical_region = custom_maturidi }
+                }
+		    }
+	    }
     }
     option = {
         name = tib_islamic_schism.0001.b # Allah has truly guided Imam al-Maturidi with such astonishing writings
 
         set_character_faith_with_conversion = faith:maturidi
+        if = {
+            limit = {
+                is_ruler = yes
+            }
+            every_realm_county = {
+                limit = {
+                    faith = faith:ashari
+                    faith = faith:mutazila
+                }
+                set_county_faith = faith:maturidi
+            }
+        }
+        ai_chance = {
+			base = 0
+            modifier = {
+                add = 15
+                capital_province = { geographical_region = custom_maturidi }
+		    }
+	    }
+    }
+    immediate = {
         every_realm_county = {
-            set_county_faith = faith:maturidi
+            limit = {
+                faith = faith:ashari
+            }
+            set_county_faith = faith:asharite
         }
-    }
-}
-tib_islamic_schism.0002 = { # For early Sunnis
-    type = character_event
-    title = tib_islamic_schism.0001.t # New Understandings
-    desc = tib_islamic_schism.0002.desc # Athari vs Mu'tazili Kalam
-    theme = faith
-    
-    left_portrait = {
-        character = root
-        animation = personality_rational
-    }
-
-    option = {
-        name = tib_islamic_schism.0002.a # Only through literal interpretation of the Qur'an and Sunnah we prevail!
-
-        set_character_faith = {
-            faith = faith:athari
-        }
-        set_county_faith = {
-            faith = faith:athari
-        }
-    }
-    option = {
-        name = tib_islamic_schism.0002.b # Let us embrace the wisdom of the Greek philosophers to advance our theological grasp
-
-        set_character_faith = {
-            faith = faith:mutazila
-        }
-        set_county_faith = {
-            faith = faith:mutazila
+        every_county_in_region = {
+            region = custom_maturidi
+            if = {
+                limit = {
+                    faith = faith:ashari
+                }
+                set_county_faith = faith:maturidi
+            }
         }
     }
 }
@@ -96,21 +115,163 @@ tib_islamic_schism.0010 = { # For early Shias
     option = {
         name = tib_islamic_schism.0010.a # Only through literal interpretation of the Qur'an and Sunnah we prevail!
 
-        set_character_faith = {
-            faith = faith:ismaili
+        set_character_faith_with_conversion = faith:ismailite
+        if = {
+            limit = {
+                is_ruler = yes
+            }
+            every_realm_county = {
+                limit = {
+                    faith = faith:ismaili
+                }
+                set_county_faith = faith:ismailite
+            }
         }
-        set_county_faith = {
-            faith = faith:ismaili
-        }
+        ai_chance = {
+			base = 15
+            modifier = {
+                add = -15
+                capital_province = { geographical_region = custom_zayidi }
+		    }
+	    }
     }
     option = {
         name = tib_islamic_schism.0010.b # Let us embrace the wisdom of the Greek philosophers to advance our theological grasp
 
-        set_character_faith = {
-            faith = faith:zayidi
+        set_character_faith_with_conversion = faith:zayidi
+        if = {
+            limit = {
+                is_ruler = yes
+            }
+            every_realm_county = {
+                limit = {
+                    faith = faith:ismaili
+                }
+                set_county_faith = faith:zayidi
+            }
         }
-        set_county_faith = {
-            faith = faith:zayidi
+        ai_chance = {
+			base = 0
+            modifier = {
+                add = 70
+                capital_province = { geographical_region = custom_zayidi }
+		    }
+            modifier = {
+                add = -70
+                title_province = { geographical_region = custom_ismaili }
+		    }
+	    }
+    }
+    immediate = {
+        every_county_in_region = {
+            region = custom_ismaili
+            limit = {
+                faith = faith:ismaili
+            }
+            set_county_faith = faith:ismailite
+        }
+        every_county_in_region = {
+            region = custom_zayidi
+            if = {
+                limit = {
+                    faith = faith:ismaili
+                }
+                set_county_faith = faith:zayidi
+            }
         }
     }
 }
+
+tib_islamic_schism.0002 = { # For early Sunnis
+    type = character_event
+    title = tib_islamic_schism.0001.t # New Understandings
+    desc = tib_islamic_schism.0001.desc
+    theme = faith
+    
+    left_portrait = {
+        character = root
+        animation = personality_rational
+    }
+    option = {
+        name = tib_islamic_schism.0002.a # Our religion is strictly based on the Quran and Hadith!
+
+        set_character_faith_with_conversion = faith:athari
+        if = {
+            limit = {
+                is_ruler = yes
+            }
+            every_realm_county = {
+                limit = {
+                    faith = faith:ashari
+                }
+                set_county_faith = faith:athari
+            }
+        }
+        ai_chance = {
+			base = 0
+            modifier = {
+                add = 15
+                capital_province = { geographical_region = custom_ashari }
+		    }
+            modifier = {
+                add = 15
+                employer.capital_county.title_province = { geographical_region = custom_ashari }
+		    }
+	    }
+    }
+    option = {
+        name = tib_islamic_schism.0002.b # Let us embrace the wisdom of the Greek philosophers to advance our knowledge of the Divine
+
+        set_character_faith_with_conversion = faith:mutazila
+        if = {
+            limit = {
+                is_ruler = yes
+            }
+            every_realm_county = {
+                limit = {
+                    faith = faith:ashari
+                }
+                set_county_faith = faith:mutazila
+            }
+        }
+        ai_chance = {
+			base = 0
+            modifier = {
+                add = 15
+                capital_province = { geographical_region = custom_ashari }
+		    }
+            modifier = {
+                add = 15
+                employer.capital_county.title_province = { geographical_region = custom_ashari }
+		    }
+	    }
+    }
+    immediate = {
+        every_realm_county = {
+            limit = {
+                faith = faith:ashari
+            }
+            set_county_faith = faith:mutazila
+        }
+    }
+}
+#tib_islamic_schism.0003 = { # Post-Mihna Sunni
+#    type = character_event
+#    title = tib_islamic_schism.0001.t # New Understandings
+#    desc = tib_islamic_schism.0001.desc
+#    theme = faith
+#    
+#    left_portrait = {
+#        character = root
+#        animation = personality_rational
+#    }
+#    immediate = {
+#        every_realm_county = {
+#            limit = {
+#                faith = faith:ashari
+#            }
+#            set_county_faith = faith:mutazila
+#        }
+#    }
+#}
+

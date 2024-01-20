@@ -358,6 +358,7 @@
 	culture = persian
 	religion = azariqa
 	holding = castle_holding
+	special_building = maharloo_lake_01
 	800.1.1 = { religion = ashari }
 }
 4176 = {	#Sarwistan-Shirazi-Runiz
@@ -447,6 +448,7 @@
 	culture = kurdish
 	religion = ismaili
 	holding = castle_holding
+	special_building = tomb_of_cyrus_01
 	1160.1.1 = {
 		religion = ashari
 		culture = persian
@@ -703,6 +705,7 @@
 	culture = kurdish
 	religion = ashari
 	holding = castle_holding
+	special_building = falak_ol_aflak_citadel_01
 }
 4260 = {	#Andamish
 	holding = city_holding	#placeholder

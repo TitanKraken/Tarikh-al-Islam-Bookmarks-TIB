@@ -1186,11 +1186,11 @@ c_tabriz = {
 		holder = 478011
 	}
 	1256.1.1 = {
-		set_realm_capital = title:c_maragha
+		capital = title:c_maragha
 	}
 	1265.2.8 = {
 		holder = 478010
-		set_realm_capital = title:c_tabriz
+		capital = title:c_tabriz
 	}
 	1282.1.1 = {
 		holder = 125523
@@ -1428,11 +1428,11 @@ c_maragha = {
 		holder = 478011
 	}
 	1256.1.1 = {
-		set_realm_capital = title:c_maragha
+		capital = title:c_maragha
 	}
 	1265.2.8 = {
 		holder = 478010
-		set_realm_capital = title:c_tabriz
+		capital = title:c_tabriz
 	}
 	1282.1.1 = {
 		holder = 125523

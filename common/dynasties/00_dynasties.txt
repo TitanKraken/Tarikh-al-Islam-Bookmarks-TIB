@@ -21177,6 +21177,10 @@ maginfritidi = {
 	name = "dynn_Sokortal"
 	culture = "cuman"
 }
+2001327 = {	#Fictional
+	name = "dynn_Yitzhak"
+	culture = "radhanite"
+}
 
 # WELSH
 welsh_ap_bleddri = {
@@ -23286,6 +23290,44 @@ prefix = "dynnp_di"
 hamitid_turkish = {
 	name = "Hamid"
 	culture = "turkish"
+}
+
+# FRENCH
+
+french_de_creil = {
+	prefix = "dynnp_de"
+	name = "dynn_Creil"
+	culture = "french"
+}
+
+# ARTIFACT
+jamshid = {
+	name = "dynn_Jamshid"
+	culture = "persian"
+}
+
+# HRE
+saxon_von_dagsburg = {
+	prefix = "dynnp_von"
+	name = "dynn_Dagsburg"
+	culture = "saxon"
+}
+
+swabian_von_konstanz = {
+	prefix = "dynnp_von"
+	name = "dynn_Konstanz"
+	culture = "swabian"
+}
+
+# Sicily
+maghrebi_at-timnahid = {
+	name = "dynn_at-Timnahid"
+	culture = "maghrebi"
+}
+
+levantine_banu_shayban = {
+	name = "dynn_Shaybanid"
+	culture = "levantine"
 }
 
 #################################################################################################################################################################################################################END ADDED############################################################

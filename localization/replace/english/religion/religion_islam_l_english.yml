@@ -26,13 +26,13 @@
  islam_house_of_worship:0 "mosque"
  islam_house_of_worship_2:0 "masjid" # Optional translation alt
  islam_house_of_worship_3:0 "masajid" # Optional translation alt
- islam_house_of_worship_plural:0 "mosques"
+ islam_house_of_worship_plural:0 "masjids"
  islam_religious_symbol:0 "shahada"
  islam_religious_symbol_2:0 "$islam_religious_symbol$" # Optional translation alt
  islam_religious_symbol_3:0 "$islam_religious_symbol$" # Optional translation alt
  islam_religious_text:0 "Quran"
- islam_religious_text_2:0 "$islam_religious_text$" # Optional translation alt
- islam_religious_text_3:0 "$islam_religious_text$" # Optional translation alt
+ islam_religious_text_2:0 "Hadith" # Optional translation alt
+ islam_religious_text_3:0 "Sunna" # Optional translation alt
  islam_religious_head_title:0 "caliph"
  islam_religious_head_title_name:0 "caliphate"
  islam_devotee:0 "murshid"
@@ -112,16 +112,23 @@
  masmudi_adj:1 "Almohadi"
  masmudi_adherent:1 "Almohadi"
  masmudi_adherent_plural:1 "Almohadis"
- masmudi_desc:2 "A reformist branch of Sunni Islam that originated with the Berber tribes in northern Africa, the Almohadi movement saw themselves as unitarians and preached a doctrine of purified monotheism."
+ masmudi_desc:2 "A reformist branch of Sunni Islam that originated with the Berber tribes in northern Africa, the Almohadi movement saw themselves as unitarians and preached a doctrine of purified monotheism. The Almohadis also preached that the Mahdi - the Imam near the End of Time - has arrived in the form of a righteous scholar, Ibn Tumart."
  masmudi_religious_head_title:0 "Mahdi"
  masmudi_religious_head_title_name:0 "caliphate"
+
+ #Athari
+ athari:0 "Atharism"
+ athari_adj:0 "Athari"
+ athari_adherent:0 "Athari"
+ athari_adherent_plural:0 "Atharis"
+ athari_desc:0 "A traditionalist (hence the term Athari) school of theology that asserts that only with strict and literal adherence to the Quran and Hadith can we derive the formulation of the Islamic theological doctrine - the #italic Aqida#!. The major opponent to this school was the Mu'tazilism school during the early 9th century."
 
  #Mu'tazila
  mutazila:0 "Mu'tazilism"
  mutazila_adj:0 "Mu'tazili"
  mutazila_adherent:0 "Mu'tazilite"
  mutazila_adherent_plural:0 "Mu'tazilites"
- mutazila_desc:0 "A rationalist school of theology that asserts that the Quran is #EMP not#! eternally co-existing with God, as God must have preceded his own word."
+ mutazila_desc:0 "A rationalist (partly influenced by Ancient Greek philosophy, and adopting #italic Kalam#!) school of theology that asserts that the Quran is #EMP not#! eternally co-existing with God, as God must have preceded his own word, and that the intermediary position, i.e. Muslims who die without repentance after committing a grave sin are neither #italic mu'minin#! (believers), nor #italic kuffar#! (non-believers), but in an intermediate position known as #italic fasiq#!). The major opponent to this school was the Atharism school during the early 9th century."
 
  #Maturidi
  maturidi:0 "Maturidism"

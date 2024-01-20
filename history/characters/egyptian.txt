@@ -1701,7 +1701,7 @@
 	name = "Ahmad"
 	dynasty = 820
 	religion = "ashari"
-	culture = "egyptian"
+	culture = "turkish"
 	835.9.1 = {
 		birth = "835.9.1"
 	}

@@ -869,7 +869,7 @@
 	}
 }
 1230560 = {
-	name="'I_s_a"
+	name="I_s_a"
 	dynasty=1000101910
 	religion="ashari"
 	culture="persian"

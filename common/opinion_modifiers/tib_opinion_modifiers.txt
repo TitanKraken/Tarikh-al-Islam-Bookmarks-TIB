@@ -1,16 +1,14 @@
 ﻿
 fake_sayyid_sus_opinion = {
-    if = {
-		limit = {
-			character = {
-				within_diplomatic_range = yes
-				faith = { religion_tag = islam_religion }
-				learning >= 9
-			}
-			add_opinion = {
-				target = root
-				value = -30
-			}
+	limit = {
+		character = {
+			within_diplomatic_range = yes
+			faith = { religion_tag = islam_religion }
+			learning >= 9
+		}
+		add_opinion = {
+			target = root
+			value = -30
 		}
 	}
 	islam_religion_opinion = 10

@@ -45,7 +45,7 @@ d_uda_valley = {
 	1188.11.20 = {
 		holder = 303118		#fictional Ajai Mergid
 	}
-	1206.1.1 = {
+	1212.7.5 = {
 		liege = k_mongolia
 	}
 }

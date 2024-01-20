@@ -16,7 +16,7 @@
 
 	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
@@ -97,7 +97,7 @@ pecheneg = {
 
 	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
@@ -151,7 +151,7 @@ cuman = {
 
 	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
@@ -202,7 +202,7 @@ khazar = {
 
 	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
@@ -261,7 +261,7 @@ bolghar = {
 
 	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
@@ -315,7 +315,7 @@ bashkir = {
 
 	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
@@ -369,7 +369,7 @@ avar = {
 
 	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
@@ -423,7 +423,7 @@ karluk = {
 
 	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
@@ -496,7 +496,7 @@ kimek = {
 
 	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
@@ -564,7 +564,7 @@ kipchak = {
 
 	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
@@ -612,7 +612,7 @@ laktan = {
 
 	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
@@ -679,7 +679,7 @@ kirghiz = {
 
 	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
@@ -744,7 +744,7 @@ uyghur = {
 
 	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
@@ -818,7 +818,7 @@ yughur = {
 
 	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
@@ -881,7 +881,7 @@ uriankhai = {	# these are western "Uriankhai", in this case specifically the Kha
 
 	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
@@ -944,7 +944,7 @@ chuvash = {		# Burtas
 
 	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
@@ -1010,7 +1010,7 @@ shatuo = { # Sinicized turks of northern China
 
 	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
@@ -1068,7 +1068,7 @@ ongud = { # Mongolicized turks of the Ordos region
 
 	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
@@ -1137,7 +1137,7 @@ kabars = {
 
 	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
@@ -1202,7 +1202,7 @@ chagatai = { # Based on Karluk
 
 	coa_gfx = { turkic_group_coa_gfx iranian_group_coa_gfx }
 	building_gfx = { indian_building_gfx }
-	clothing_gfx = { mena_clothing_gfx }
+	clothing_gfx = { turkic_clothing_gfx mena_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
@@ -1450,7 +1450,7 @@ tatars = {	# Umbrella term for turks with mongol influence. Better than a mongol
 
 	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {

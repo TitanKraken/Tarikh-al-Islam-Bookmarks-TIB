@@ -83,8 +83,8 @@ tib_islamic_dynastic_elective = { # Islamic Dynastic Monarchial Elective.
 			desc = tooltip_pious_vote_strength
 			add = 2
 			OR = {
-				government_has_flag = government_is_islamic_flag
-				government_has_flag = government_is_theocracy_flag
+				#government_has_flag = government_is_islamic_flag
+				#government_has_flag = government_is_theocracy_flag
 				has_council_position = councillor_court_chaplain
 			}
 			faith = scope:holder.faith
@@ -147,23 +147,23 @@ tib_islamic_dynastic_elective = { # Islamic Dynastic Monarchial Elective.
 	candidates = {
 		add = {
 			type = holder_close_or_extended_family
-			limit = {
-				OR = {
-					feudal_elective_potential_landless_dynastic_candidate_trigger = yes
-					feudal_elective_potential_landless_claimant_candidate_trigger = yes
-					feudal_elective_potential_landed_candidate_trigger = yes
-				}
-			}
+			#limit = {
+			#	OR = {
+			#		feudal_elective_potential_landless_dynastic_candidate_trigger = yes
+			#		feudal_elective_potential_landless_claimant_candidate_trigger = yes
+			#		feudal_elective_potential_landed_candidate_trigger = yes
+			#	}
+			#}
 		}
 		add = {
 			type = holder_dynasty
-			limit = {
-				OR = {
-					feudal_elective_potential_landless_dynastic_candidate_trigger = yes
-					feudal_elective_potential_landless_claimant_candidate_trigger = yes
-					feudal_elective_potential_landed_candidate_trigger = yes
-				}
-			}
+			#limit = {
+			#	OR = {
+			#		feudal_elective_potential_landless_dynastic_candidate_trigger = yes
+			#		feudal_elective_potential_landless_claimant_candidate_trigger = yes
+			#		feudal_elective_potential_landed_candidate_trigger = yes
+			#	}
+			#}
 		}
 	}
 }

@@ -254,13 +254,23 @@
 
 188598 = {
 	name = "Eraq"
-				   
 	dynasty = 1042112 # Afrighid
 	religion = "ashari"
 	culture = khwarezmian
 	father = 188597
 	825.1.1 = {
 		birth = yes
+	}
+	866.1.1 = {
+		effect = {
+			#was always the capital of the Afrigids, this is merely a quick fix
+			set_realm_capital = title:b_kath
+			if = {
+				limit = { has_fp3_dlc_trigger = yes }
+				# Known enlightened centrist supports the status quo.
+				add_trait = fp3_struggle_detractor
+			}
+		}
 	}
 	890.1.1 = {
 		death = yes
@@ -399,6 +409,64 @@
 		birth = yes
 	}
 	1017.3.3 = {
+		death = yes
+	}
+}
+
+#Farighunids, for later generations, see the Tajik document
+1230300 = {
+	name = "Farighun"
+	dynasty = 1101801
+	religion = "ashari"
+	culture = "khwarezmian" #FP3: changed from Tajik to Khwarezmian
+	849.1.1 = {
+		birth = yes
+	}
+	866.1.1 = {
+		add_spouse = fictional_khazars_2 
+	}
+	895.1.1 = {
+		death = yes
+	}
+}
+1230301 = {
+	name = "Ahmad"
+	dynasty = 1101801
+	religion = "ashari"
+	culture = "khwarezmian" #FP3: changed from Tajik to Khwarezmian
+	father = 1230300
+	mother = fictional_khazars_2
+	867.1.1 = {
+		birth = yes
+	}
+	935.1.1 = {
+		death = yes
+	}
+}
+
+extra_farighunids_4 = { #vaguely attested
+	name = "Shansab"
+	dynasty = 791
+	religion = "khurmazta"
+	culture = "khwarezmian" 
+	father = extra_farighunids_5
+	680.1.1 = {
+		birth = yes
+	}
+	735.10.2 = {
+		death = yes
+	}
+}
+
+extra_farighunids_5 = { #vaguely attested
+	name = "Kharang"
+	dynasty = 791
+	religion = "khurmazta"
+	culture = "khwarezmian" 
+	653.1.1 = {
+		birth = yes
+	}
+	706.1.22 = {
 		death = yes
 	}
 }

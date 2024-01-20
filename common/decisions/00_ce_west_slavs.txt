@@ -49,7 +49,7 @@
     effect = {
 		#custom_tooltip = consolidate_polish_identity.preview.tta
 		custom_tooltip = consolidate_polish_identity.preview.ttb
-        custom_description = {
+        #custom_description = 
 			
            # culture:polans = {
            #     set_culture_name = {
@@ -154,7 +154,6 @@
 				target = flag:unite_the_polans_decision
 			}
         }
-    }
 
 	ai_potential = {
 		always = yes

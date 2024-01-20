@@ -785,7 +785,12 @@ d_strymon = {
 	330.1.1 = {
 		liege = "e_byzantium"
 	}
+	700.1.1 = {
+		liege = 0
+		holder = southslavchief004
+	}
 	745.1.1 = {
+		liege = "e_byzantium"
 		holder = 145795
 	}
 	790.1.1 = {
@@ -849,8 +854,13 @@ c_mosynopolis = {
 	330.1.1 = {
 		liege = "d_thessalonika"
 	}
+	700.1.1 = {
+		liege = 0
+		holder = southslavchief004
+	}
 	756.1.1 = {
 		holder = 145815
+		liege = "d_thessalonika"
 	}
 	855.1.1 = {
 		holder = 145108
@@ -929,7 +939,12 @@ c_serres = {
 	330.1.1 = {
 		liege = "d_thessalonika"
 	}
+	700.1.1 = {
+		liege = 0
+		holder = southslavchief004
+	}
 	756.1.1 = {
+		liege = "d_thessalonika"
 		holder = 145815
 	}
 	855.1.1 = {
@@ -1293,6 +1308,7 @@ c_chios = {
 	}
 	865.1.1 = {
 		holder = 145112
+		liege = d_ephese
 	}
 	1060.1.1 = {
 		holder = 20518
@@ -1460,7 +1476,12 @@ d_thessalonika = {
 	330.1.1 = {
 		liege = "e_byzantium"
 	}
+	700.1.1 = {
+		liege = 0
+		holder = southslavchief003
+	}
 	754.1.1 = {
+		liege = "e_byzantium"
 		holder = 145814
 	}
 	855.1.1 = {
@@ -1561,7 +1582,12 @@ c_thessalonika = {
 	330.1.1 = {
 		liege = "d_thessalonika"
 	}
+	700.1.1 = {
+		liege = 0
+		holder = southslavchief003
+	}
 	754.1.1 = {
+		liege = "e_byzantium"
 		holder = 145814
 	}
 	855.1.1 = {
@@ -1647,7 +1673,12 @@ c_chalkidike = {
 	330.1.1 = {
 		liege = "d_thessalonika"
 	}
+	700.1.1 = {
+		liege = 0
+		holder = southslavchief003
+	}
 	756.1.1 = {
+		liege = "d_thessalonika"
 		holder = 145815
 	}
 	855.1.1 = {
@@ -1723,7 +1754,12 @@ c_veria = {
 	330.1.1 = {
 		liege = "d_thessalonika"
 	}
+	700.1.1 = {
+		liege = 0
+		holder = southslavchief003
+	}
 	754.1.1 = {
+		liege = "e_byzantium"
 		holder = 145814
 	}
 	855.1.1 = {
@@ -1806,7 +1842,12 @@ d_thessaly = {
 	330.1.1 = {
 		liege = "e_byzantium"
 	}
+	700.1.1 = {
+		liege = 0
+		holder = southslavchief002
+	}
 	733.1.1 = {
+		liege = "e_byzantium"
 		holder = 145802
 	}
 	765.1.1 = {
@@ -1887,6 +1928,13 @@ d_thessaly = {
 c_thessalia = {
 	330.1.1 = {
 		liege = "d_thessalonika"
+	}
+	700.1.1 = {
+		liege = 0
+		holder = southslavchief002
+	}
+	733.1.1 = {
+		liege = "e_byzantium"
 	}
 	751.1.1 = {
 		holder = 145816
@@ -1975,7 +2023,12 @@ c_demetrias = {
 	330.1.1 = {
 		liege = "d_athens"
 	}
+	700.1.1 = {
+		liege = 0
+		holder = southslavchief002
+	}
 	767.1.1 = {
+		liege = "d_athens"
 		holder = 145805
 	}
 	865.1.1 = {
@@ -2041,7 +2094,12 @@ c_neopatras = {
 	330.1.1 = {
 		liege = "d_athens"
 	}
+	700.1.1 = {
+		liege = 0
+		holder = southslavchief002
+	}
 	767.1.1 = {
+		liege = "d_athens"
 		holder = 145805
 	}
 	865.1.1 = {
@@ -2107,7 +2165,12 @@ c_thessaliotis = {
 	330.1.1 = {
 		liege = "d_thessalonika"
 	}
+	700.1.1 = {
+		liege = 0
+		holder = southslavchief002
+	}
 	751.1.1 = {
+		liege = "d_thessalonika"
 		holder = 145816
 	}
 	865.1.1 = {

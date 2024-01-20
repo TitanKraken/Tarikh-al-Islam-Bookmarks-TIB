@@ -1,7 +1,7 @@
 ﻿EPE_sawdan_sawdanid = {
 	name = "Sawdan"
 	dna = 163094_sawdan_sawdanid	
-	dynasty = 806
+	#dynasty = 806
 	religion = "ashari"
 	culture = baranis
 	2.1.1 = {

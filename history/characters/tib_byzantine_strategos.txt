@@ -89,6 +89,23 @@ strategos005 = {
 	670.1.1 = {
 		birth = yes
 	}
+	715.1.1 = {
+		effect = {	
+			spawn_army = {
+				name = event_troop_default_name
+				men_at_arms = {
+				type = light_footmen
+				stacks = 5
+				}
+				men_at_arms = {
+				type = light_horsemen
+				stacks = 5
+				}				
+				location = province:483 # Rhodes
+				inheritable = yes
+			}		
+		}
+	}
 	729.1.1 = {
 		death = yes
 	}

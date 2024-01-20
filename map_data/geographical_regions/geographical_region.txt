@@ -1144,13 +1144,14 @@ custom_roman_cyrenaica = {
 		d_syrte
 	}
 }
-custom_roman_africa = {
+custom_roman_africa = { # AKA Tunisia
 	duchies = {
 		d_tunis
 		d_kairouan
 		d_kroumerie
 		d_jerid
 		d_tripolitania
+		d_gabes
 	}
 }
 custom_roman_illyricum = {
@@ -1669,6 +1670,83 @@ custom_rum = {
 		c_phrygia c_prusa c_mysia 
 		# And a bit of Syria since Byzantines often conquer this
 		c_shayzar
+	}
+}
+
+# Custom regions for the Islamic sects
+custom_ashari = {
+	regions = {
+		world_africa
+		world_middle_east_arabia
+		world_middle_east_jerusalem
+		world_india
+		world_asia_minor
+		world_europe_west_iberia
+		world_europe_south
+	}
+	duchies = {
+		#Persia
+		d_isfahan d_kirman d_yazd d_rayy d_hamadan d_fars d_hormuz d_khuzestan  
+		#k_khorasan
+		d_nishapur d_merv d_ghur d_herat d_balkh d_nasa d_kohestan
+		#k_daylam
+		d_daylam d_tabaristan d_gurgan d_azerbaijan
+		#k_makran
+		d_jabal_kufs d_makran d_sistan
+		#k_kabulistan
+		d_kabul d_zabulistan
+
+		#Pontic Steppe
+		d_yedisan d_levedia d_don_valley d_khazaria d_ciscaucasia d_itil d_crimea d_alania d_azov d_pecheneg
+		#Volga Bulgaria
+		d_volga_bulgaria d_kazan d_bashkiria d_voronezh d_mordvinia d_chuvashia d_khopyor d_ural d_udmurtia d_martyuba d_uraltau d_aqtobe d_jalmat d_vogulia d_perm
+	}
+}
+custom_maturidi = {
+	regions = {
+		world_steppe_east
+		world_steppe_east
+		world_transoxiana
+	}
+	duchies = {
+		#Siberia
+		d_ostyaki d_konda d_pelym d_kazym d_sibir d_ishim d_tara d_lanikaz
+		d_salair d_ala_tau d_vasyugan_mire d_baraba_steppe d_kulyndy_steppe
+		#Turkestan
+		d_transcaspiana d_barsuki d_zhetysu d_tarbagatai d_jemba d_aral_il d_chah d_syr_darya d_muyunkum d_alakol d_ili-alatau
+		#Cumania
+		d_kurgan d_mugodzhar_hills d_atyrau d_turgay d_kush-murun d_saryarka d_kazakh d_kentarlau d_karkaraly d_karabas d_betpa d_semey
+	}
+}
+custom_ismaili = {
+	regions = {
+		world_africa
+		world_middle_east_arabia
+		world_middle_east_jerusalem
+		world_india
+		world_asia_minor
+		world_europe_west_iberia
+		world_europe_south
+	}
+	duchies = {
+		#Persia
+		d_isfahan d_kirman d_yazd d_rayy d_hamadan d_fars d_hormuz d_khuzestan  
+		#k_khorasan
+		d_nishapur d_merv d_ghur d_herat d_balkh d_nasa d_kohestan
+		#k_daylam
+		d_daylam d_tabaristan d_gurgan d_azerbaijan
+		#k_makran
+		d_jabal_kufs d_makran d_sistan
+		#k_kabulistan
+		d_kabul d_zabulistan
+	}
+}
+custom_zayidi = {
+	duchies = {
+		#Arabia
+		d_jawf d_amman d_shammar d_medina d_mecca
+		#Yemen
+		d_sanaa d_jawf-al-yamani d_taizz d_hadramawt d_mahra
 	}
 }
 

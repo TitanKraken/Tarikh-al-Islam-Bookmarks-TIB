@@ -375,7 +375,7 @@ almohad0005_ibn_almanzor = {
 }
 
 almohad0006_ibn_almanzor = {
-	name = "Abu_Muhammad_Sa_id"
+	name = "Abu_Sa_id"
 	dynasty = 101875
 	religion = "masmudi"
 	culture = masmuda

@@ -145,6 +145,11 @@ k_sindh = {
 d_sauvira = {
 	867.1.1 = { change_development_level = 12 }
 	1066.1.1 = { change_development_level = 18 }
+
+	715.1.1 = {
+		holder = 210003 # Habib bin al-Muhallab
+		liege = k_mesopotamia
+	}
 }
 
 c_debul = {
@@ -516,6 +521,11 @@ c_siwistan = {
 
 
 d_bhakkar = {
+	715.1.1 = {
+		holder = 210003 # Habib bin al-Muhallab
+		liege = k_mesopotamia
+	}
+
 	860.1.1 = {
 		holder = 178012
 		liege = k_sindh
@@ -543,6 +553,10 @@ c_bhakkar = {
 	}
 	
 	# 711-747: Umayyad governors
+	715.1.1 = {
+		holder = 210003 # Habib bin al-Muhallab
+		liege = k_mesopotamia
+	}
 	
 	760.1.1 = {
 		holder = 188561

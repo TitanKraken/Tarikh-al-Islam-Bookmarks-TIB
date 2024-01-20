@@ -1,7 +1,7 @@
 ﻿andalusian = {
 	color = { 0.4 0.6 0.1 }
 	created = 800.1.1
-	parents = { visigothic bedouin }
+	parents = { visigothic levantine }
 
 	ethos = ethos_courtly
 	heritage = heritage_iberian
@@ -1349,10 +1349,10 @@ celtiberian = {
 	}
 }
 
-mozarab = { # Musta'rab (Those who Arabised) particularly on the native Iberian people.
+mozarab = { # Musta'rab (Those who were Arabised) particularly on the native Iberian people.
 	color = { 124 255 142 }
 
-	parents = { visigothic bedouin }
+	parents = { visigothic andalusian }
 
 	created = 800.1.1
 	
