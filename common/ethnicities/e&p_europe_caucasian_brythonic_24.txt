@@ -130,11 +130,11 @@ european_caucasian_brythonic_24 = {
 	}
 
 	gene_head_height = {
-		100 = { name = head_height_pos	 range = {0.5 0.62}	  }
+		100 = { name = head_height_pos	 range = {0.45 0.6}	  }
 	}
 
 	gene_head_width = {
-		100 = { name = head_width_pos	 range = {0.5 0.56}	  }
+		100 = { name = head_width_pos	 range = {0.4 0.56}	  }
 	}
 
 	gene_head_profile = {
@@ -154,7 +154,7 @@ european_caucasian_brythonic_24 = {
 	}
 
 	gene_jaw_forward = {
-		100 = { name = jaw_forward_neg	 range = {0.47 0.5}	  }
+		100 = { name = jaw_forward_neg	 range = {0.48 0.5}	  }
 	}
 
 	gene_jaw_height = {
@@ -174,7 +174,7 @@ european_caucasian_brythonic_24 = {
 	}
 
 	gene_mouth_forward = {
-		100 = { name = mouth_forward_neg	 range = {0.36 0.49}	  }
+		100 = { name = mouth_forward_neg	 range = {0.45 0.49}	  }
 	}
 
 	gene_mouth_height = {
@@ -194,11 +194,11 @@ european_caucasian_brythonic_24 = {
 	}
 
 	gene_mouth_open = {
-		100 = { name = mouth_open_neg	 range = {0.1 0.23}	  }
+		100 = { name = mouth_open_neg	 range = {0.1 0.1}	  }
 	}
 
 	gene_neck_length = {
-		100 = { name = neck_length_pos	 range = {0.5 0.62}	  }
+		100 = { name = neck_length_pos	 range = {0.5 0.55}	  }
 	}
 
 	gene_neck_width = {
@@ -246,7 +246,7 @@ european_caucasian_brythonic_24 = {
 	}
 
 	gene_bs_eye_size = {
-		100 = { name = eye_size_neg	 range = {0.51 0.65}	  }
+		100 = { name = eye_size_neg	 range = {0.4 0.65}	  }
 	}
 
 	gene_bs_eye_upper_lid_size = {
@@ -342,7 +342,9 @@ european_caucasian_brythonic_24 = {
 	}
 
 	gene_bs_nose_profile = {
-		100 = { name = nose_profile_pos	 range = {0 0.1}	  }
+		10 = { name = nose_profile_hawk	 range = {0.0 0.5}	  }
+		10 = { name = nose_profile_pos	 range = {0.0 0.5}	  }
+		10 = { name = nose_profile_neg	 range = {0.0 0.5}	  }
 	}
 
 	gene_bs_nose_ridge_angle = {
@@ -358,7 +360,7 @@ european_caucasian_brythonic_24 = {
 	}
 
 	gene_bs_nose_tip_angle = {
-		100 = { name = nose_tip_angle_neg	 range = {0.1 0.23}	  }
+		100 = { name = nose_tip_angle_neg	 range = {0.0 0.23}	  }
 	}
 
 	gene_bs_nose_tip_forward = {
@@ -480,9 +482,12 @@ european_caucasian_brythonic_24 = {
     }
 
     face_detail_nose_tip_def = {
-        15 = {  name = nose_tip_def             range = { 0.0 0.1 }     }
-        15 = {  name = nose_tip_def             range = { 0.1 0.8 }     }
-        15 = {  name = nose_tip_def             range = { 0.8 1.0 }     }
+        12 = {  name = nose_tip_def             range = { 0.0 0.15 }     }
+        10 = {  name = nose_tip_def             range = { 0.15 0.8 }     }
+        7 = {  name = nose_tip_def             range = { 0.8 1.0 }     }
+        12 = {  name = nose_tip_def_02             range = { 0.0 0.15 }     }
+        10 = {  name = nose_tip_def_02             range = { 0.15 0.8 }     }
+        7 = {  name = nose_tip_def_02             range = { 0.8 1.0 }     }
     }
 
     face_detail_temple_def = {
@@ -539,7 +544,44 @@ european_caucasian_brythonic_24 = {
         1 = {  name = complexion_5             range = { 0.0 0.5 }     }
         1 = {  name = complexion_6             range = { 0.0 0.5 }     }
         1 = {  name = complexion_7             range = { 0.0 0.5 }     }
-        
+        1 = {  name = complexion_8				range = { 0.0 0.5 }		}
+        1 = {  name = complexion_9             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_10             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_11				range = { 0.0 0.5 }		}
+        1 = {  name = complexion_12             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_13             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_14             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_15             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_16             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_17				range = { 0.0 0.5 }		}
+        1 = {  name = complexion_18             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_19             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_20             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_21             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_22             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_23             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_24             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_25             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_26             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_27             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_28             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_29             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_30             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_31             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_32             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_33             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_34             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_35             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_36             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_37             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_38             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_39             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_40             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_41             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_42             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_43             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_44             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_45             range = { 0.0 0.5 }     }
 	}
 
     gene_height = {

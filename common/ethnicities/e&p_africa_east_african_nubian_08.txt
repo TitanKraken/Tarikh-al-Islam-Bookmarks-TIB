@@ -39,7 +39,7 @@ east_african_nubian_08 = {
 	template = "ethnicity_template"
     using = "nubian"
     skin_color = {
-		10 = { 0.35 0.65 0.75 0.9 }
+		10 = { 0.35 0.75 0.75 0.9 }
 	}
 	eye_color = {
 		# Brown
@@ -59,11 +59,11 @@ east_african_nubian_08 = {
 	}
 
 	gene_chin_forward = {
-		100 = { name = chin_forward_neg	 range = {0.42 0.5}	  }
+		100 = { name = chin_forward_neg	 range = {0.42 0.56}	  }
 	}
 
 	gene_chin_height = {
-		100 = { name = chin_height_neg	 range = {0.34 0.47}	  }
+		100 = { name = chin_height_neg	 range = {0.4 0.55}	  }
 	}
 
 	gene_chin_width = {
@@ -75,11 +75,11 @@ east_african_nubian_08 = {
 	}
 
 	gene_eye_depth = {
-		100 = { name = eye_depth_pos	 range = {0.64 0.76}	  }
+		100 = { name = eye_depth_pos	 range = {0.5 0.65}	  }
 	}
 
 	gene_eye_height = {
-		100 = { name = eye_height_pos	 range = {0.58 0.72}	  }
+		100 = { name = eye_height_pos	 range = {0.58 0.6}	  }
 	}
 
 	gene_eye_distance = {
@@ -111,7 +111,7 @@ east_african_nubian_08 = {
 	}
 
 	gene_head_height = {
-		100 = { name = head_height_pos	 range = {0.5 0.64}	  }
+		100 = { name = head_height_pos	 range = {0.5 0.6}	  }
 	}
 
 	gene_head_width = {
@@ -119,7 +119,7 @@ east_african_nubian_08 = {
 	}
 
 	gene_head_profile = {
-		100 = { name = head_profile_pos	 range = {0.41 0.5}	  }
+		100 = { name = head_profile_pos	 range = {0.45 0.55}	  }
 	}
 
 	gene_head_top_height = {
@@ -135,11 +135,11 @@ east_african_nubian_08 = {
 	}
 
 	gene_jaw_forward = {
-		100 = { name = jaw_forward_pos	 range = {0.44 0.49}	  }
+		100 = { name = jaw_forward_pos	 range = {0.48 0.49}	  }
 	}
 
 	gene_jaw_height = {
-		100 = { name = jaw_height_neg	 range = {0.26 0.39}	  }
+		100 = { name = jaw_height_neg	 range = {0.35 0.5}	  }
 	}
 
 	gene_jaw_width = {
@@ -151,11 +151,11 @@ east_african_nubian_08 = {
 	}
 
 	gene_mouth_corner_height = {
-		100 = { name = mouth_corner_height_pos	 range = {0.58 0.72}	  }
+		100 = { name = mouth_corner_height_pos	 range = {0.5 0.5}	  }
 	}
 
 	gene_mouth_forward = {
-		100 = { name = mouth_forward_neg	 range = {0.5 0.62}	  }
+		100 = { name = mouth_forward_neg	 range = {0.5 0.7}	  }
 	}
 
 	gene_mouth_height = {
@@ -163,23 +163,23 @@ east_african_nubian_08 = {
 	}
 
 	gene_mouth_width = {
-		100 = { name = mouth_width_neg	 range = {0.5 0.6}	  }
+		100 = { name = mouth_width_neg	 range = {0.45 0.55}	  }
 	}
 
 	gene_mouth_upper_lip_size = {
-		100 = { name = mouth_upper_lip_size_neg	 range = {0.35 0.48}	  }
+		100 = { name = mouth_upper_lip_size_neg	 range = {0.5 0.5}	  }
 	}
 
 	gene_mouth_lower_lip_size = {
-		100 = { name = mouth_lower_lip_size_pos	 range = {0.4 0.5}	  }
+		100 = { name = mouth_lower_lip_size_pos	 range = {0.5 0.55}	  }
 	}
 
 	gene_mouth_open = {
-		100 = { name = mouth_open_pos	 range = {0 0.11}	  }
+		100 = { name = mouth_open_pos	 range = {0 0.1}	  }
 	}
 
 	gene_neck_length = {
-		100 = { name = neck_length_pos	 range = {0.35 0.48}	  }
+		100 = { name = neck_length_pos	 range = {0.45 0.48}	  }
 	}
 
 	gene_neck_width = {
@@ -255,15 +255,15 @@ east_african_nubian_08 = {
 	}
 
 	gene_bs_jaw_def = {
-		100 = { name = jaw_def_neg	 range = {0.39 0.5}	  }
+		100 = { name = jaw_def_neg	 range = {0.0 0.5}	  }
 	}
 
 	gene_bs_mouth_lower_lip_def = {
-		100 = { name = mouth_lower_lip_def_pos	 range = {0.5 0.61}	  }
+		100 = { name = mouth_lower_lip_def_pos	 range = {0.5 0.99}	  }
 	}
 
 	gene_bs_mouth_lower_lip_full = {
-		100 = { name = mouth_lower_lip_full_pos	 range = {0.29 0.42}	  }
+		100 = { name = mouth_lower_lip_full_pos	 range = {0.69 0.92}	  }
 	}
 
 	gene_bs_mouth_lower_lip_pad = {
@@ -271,7 +271,7 @@ east_african_nubian_08 = {
 	}
 
 	gene_bs_mouth_lower_lip_width = {
-		100 = { name = mouth_lower_lip_width_neg	 range = {0.27 0.4}	  }
+		100 = { name = mouth_lower_lip_width_neg	 range = {0.0 0.4}	  }
 	}
 
 	gene_bs_mouth_philtrum_def = {
@@ -287,11 +287,11 @@ east_african_nubian_08 = {
 	}
 
 	gene_bs_mouth_upper_lip_def = {
-		100 = { name = mouth_upper_lip_def_pos	 range = {0.04 0.17}	  }
+		100 = { name = mouth_upper_lip_def_pos	 range = {0.04 0.99}	  }
 	}
 
 	gene_bs_mouth_upper_lip_full = {
-		100 = { name = mouth_upper_lip_full_pos	 range = {0.17 0.3}	  }
+		100 = { name = mouth_upper_lip_full_pos	 range = {0.57 0.98}	  }
 	}
 
 	gene_bs_mouth_upper_lip_profile = {
@@ -299,11 +299,11 @@ east_african_nubian_08 = {
 	}
 
 	gene_bs_mouth_upper_lip_width = {
-		100 = { name = mouth_upper_lip_width_neg	 range = {0.04 0.17}	  }
+		100 = { name = mouth_upper_lip_width_neg	 range = {0.0 0.17}	  }
 	}
 
 	gene_bs_nose_forward = {
-		100 = { name = nose_forward_pos	 range = {0 0.07}	  }
+		100 = { name = nose_forward_pos	 range = {0 0.1}	  }
 	}
 
 	gene_bs_nose_height = {
@@ -311,11 +311,11 @@ east_african_nubian_08 = {
 	}
 
 	gene_bs_nose_length = {
-		100 = { name = nose_length_pos	 range = {0.1 0.23}	  }
+		100 = { name = nose_length_pos	 range = {0.0 0.23}	  }
 	}
 
 	gene_bs_nose_nostril_height = {
-		100 = { name = nose_nostril_height_pos	 range = {0.67 0.79}	  }
+		100 = { name = nose_nostril_height_pos	 range = {0.57 0.79}	  }
 	}
 
 	gene_bs_nose_nostril_width = {
@@ -323,7 +323,7 @@ east_african_nubian_08 = {
 	}
 
 	gene_bs_nose_profile = {
-		100 = { name = nose_profile_neg	 range = {0.24 0.38}	  }
+		100 = { name = nose_profile_neg	 range = {0.0 0.38}	  }
 	}
 
 	gene_bs_nose_ridge_angle = {
@@ -464,7 +464,65 @@ east_african_nubian_08 = {
         1 = {  name = complexion_5             range = { 0.0 0.4 }     }
         1 = {  name = complexion_6             range = { 0.0 0.4 }     }
         1 = {  name = complexion_7             range = { 0.0 0.4 }     }
-        
+        1 = {  name = complexion_8				range = { 0.0 0.4 }		}
+        1 = {  name = complexion_9             range = { 0.0 0.4 }     }
+        1 = {  name = complexion_10             range = { 0.0 0.4 }     }
+        1 = {  name = complexion_11				range = { 0.0 0.4 }		}
+        1 = {  name = complexion_12             range = { 0.0 0.4 }     }
+        1 = {  name = complexion_13             range = { 0.0 0.4 }     }
+        1 = {  name = complexion_14             range = { 0.0 0.4 }     }
+        1 = {  name = complexion_15             range = { 0.0 0.4 }     }
+        1 = {  name = complexion_16             range = { 0.0 0.4 }     }
+        1 = {  name = complexion_17				range = { 0.0 0.4 }		}
+        1 = {  name = complexion_18             range = { 0.0 0.4 }     }
+        1 = {  name = complexion_19             range = { 0.0 0.4 }     }
+        1 = {  name = complexion_20             range = { 0.0 0.4 }     }
+        1 = {  name = complexion_21             range = { 0.0 0.4 }     }
+        1 = {  name = complexion_22             range = { 0.0 0.4 }     }
+        1 = {  name = complexion_23             range = { 0.0 0.4 }     }
+        1 = {  name = complexion_24             range = { 0.0 0.4 }     }
+        1 = {  name = complexion_25             range = { 0.0 0.4 }     }
+        1 = {  name = complexion_26             range = { 0.0 0.4 }     }
+        1 = {  name = complexion_27             range = { 0.0 0.4 }     }
+        1 = {  name = complexion_28             range = { 0.0 0.4 }     }
+        1 = {  name = complexion_29             range = { 0.0 0.4 }     }
+        1 = {  name = complexion_30             range = { 0.0 0.4 }     }
+        1 = {  name = complexion_31             range = { 0.0 0.4 }     }
+        1 = {  name = complexion_32             range = { 0.0 0.4 }     }
+        1 = {  name = complexion_33             range = { 0.0 0.4 }     }
+        1 = {  name = complexion_34             range = { 0.0 0.4 }     }
+        1 = {  name = complexion_35             range = { 0.0 0.4 }     }
+        1 = {  name = complexion_36             range = { 0.0 0.4 }     }
+        1 = {  name = complexion_37             range = { 0.0 0.4 }     }
+		1 = {  name = complexion_38             range = { 0.0 0.4 }     }
+        1 = {  name = complexion_39             range = { 0.0 0.4 }     }
+        1 = {  name = complexion_40             range = { 0.0 0.4 }     }
+        1 = {  name = complexion_41             range = { 0.0 0.4 }     }
+        1 = {  name = complexion_42             range = { 0.0 0.4 }     }
+        1 = {  name = complexion_43             range = { 0.0 0.4 }     }
+        1 = {  name = complexion_44             range = { 0.0 0.4 }     }
+        1 = {  name = complexion_45             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_1af			 range = { 0.0 0.3 }		}
+        2 = {  name = complexion_2af             range = { 0.0 0.3 }     }
+        2 = {  name = complexion_3af             range = { 0.0 0.3 }     }
+        2 = {  name = complexion_4af             range = { 0.0 0.3 }     }
+        2 = {  name = complexion_5af             range = { 0.0 0.3 }     }
+        2 = {  name = complexion_6af             range = { 0.0 0.3 }     }
+        2 = {  name = complexion_7af             range = { 0.0 0.3 }     }
+        2 = {  name = complexion_1af			 range = { 0.0 0.3 }		}
+        2 = {  name = complexion_2af             range = { 0.0 0.3 }     }
+        2 = {  name = complexion_3af             range = { 0.0 0.3 }     }
+        2 = {  name = complexion_4af             range = { 0.0 0.3 }     }
+        2 = {  name = complexion_5af             range = { 0.0 0.3 }     }
+        2 = {  name = complexion_6af             range = { 0.0 0.3 }     }
+        2 = {  name = complexion_7af             range = { 0.0 0.3 }     }
+        2 = {  name = complexion_1af			 range = { 0.0 0.3 }		}
+        2 = {  name = complexion_2af             range = { 0.0 0.3 }     }
+        2 = {  name = complexion_3af             range = { 0.0 0.3 }     }
+        2 = {  name = complexion_4af             range = { 0.0 0.3 }     }
+        2 = {  name = complexion_5af             range = { 0.0 0.3 }     }
+        2 = {  name = complexion_6af             range = { 0.0 0.3 }     }
+        2 = {  name = complexion_7af             range = { 0.0 0.3 }     }
 	}
 
     gene_height = {
@@ -534,7 +592,10 @@ east_african_nubian_08 = {
         0 = {  name = hair_curly             range = { 0.35 0.75 }     }
         75 = {  name = hair_afro             range = { 0.35 0.75 }     }
         0 = {  name = hair_straight_thin_beard             range = { 0.35 0.75 }     }
-                    
+        0 = {  name = hair_straight_no_beard             range = { 0.35 0.75 }     }        
+        0 = {  name = hair_wavy_no_beard             range = { 0.35 0.75 }     }    
+        0 = {  name = hair_curly_no_beard             range = { 0.35 0.75 }     }    
+        25 = {  name = hair_afro_no_beard             range = { 0.35 0.75 }     }            
     }
 
 	eyelashes_accessory = {

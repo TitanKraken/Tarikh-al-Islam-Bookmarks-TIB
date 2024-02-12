@@ -118,7 +118,7 @@ jewish_ashkenazi_41 = {
 	}
 
 	gene_head_width = {
-		100 = { name = head_width_pos	 range = {0.23 0.33}	  }
+		100 = { name = head_width_pos	 range = {0.25 0.33}	  }
 	}
 
 	gene_head_profile = {
@@ -138,7 +138,7 @@ jewish_ashkenazi_41 = {
 	}
 
 	gene_jaw_forward = {
-		100 = { name = jaw_forward_neg	 range = {0.44 0.52}	  }
+		100 = { name = jaw_forward_neg	 range = {0.48 0.52}	  }
 	}
 
 	gene_jaw_height = {
@@ -449,7 +449,36 @@ jewish_ashkenazi_41 = {
         1 = {  name = complexion_5             range = { 0.1 1.0 }     }
         1 = {  name = complexion_6             range = { 0.1 1.0 }     }
         1 = {  name = complexion_7             range = { 0.1 1.0 }     }
-        
+        1 = {  name = complexion_8				range = { 0.1 1.0 }		}
+        1 = {  name = complexion_9             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_10             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_11				range = { 0.1 1.0 }		}
+        1 = {  name = complexion_12             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_13             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_14             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_15             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_16             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_17				range = { 0.1 1.0 }		}
+        1 = {  name = complexion_18             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_19             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_20             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_21             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_22             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_23             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_24             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_25             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_26             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_27             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_28             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_29             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_30             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_31             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_32             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_33             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_34             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_35             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_36             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_37             range = { 0.1 1.0 }     }
 	}
 
     gene_eyebrows_shape = {

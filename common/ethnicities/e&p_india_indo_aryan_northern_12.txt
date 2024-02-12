@@ -78,11 +78,11 @@ indian_northern_12 = {
 	}
 
 	gene_eye_depth = {
-		100 = { name = eye_depth_pos	 range = {0.53 0.63}	  }
+		100 = { name = eye_depth_pos	 range = {0.5 0.63}	  }
 	}
 
 	gene_eye_height = {
-		100 = { name = eye_height_pos	 range = {0.51 0.61}	  }
+		100 = { name = eye_height_pos	 range = {0.51 0.6}	  }
 	}
 
 	gene_eye_distance = {
@@ -114,7 +114,7 @@ indian_northern_12 = {
 	}
 
 	gene_head_height = {
-		100 = { name = head_height_pos	 range = {0.57 0.67}	  }
+		100 = { name = head_height_pos	 range = {0.57 0.6}	  }
 	}
 
 	gene_head_width = {
@@ -138,7 +138,7 @@ indian_northern_12 = {
 	}
 
     gene_jaw_forward = {
-        100 = { name = jaw_forward_neg    range = { 0.42 0.52 }    }
+        100 = { name = jaw_forward_neg    range = { 0.48 0.52 }    }
     }
 
 	gene_jaw_height = {
@@ -162,11 +162,11 @@ indian_northern_12 = {
 	}
 
 	gene_mouth_height = {
-		100 = { name = mouth_height_neg	 range = {0.71 0.81}	  }
+		100 = { name = mouth_height_neg	 range = {0.7 0.7}	  }
 	}
 
 	gene_mouth_width = {
-		100 = { name = mouth_width_neg	 range = {0.52 0.62}	  }
+		100 = { name = mouth_width_neg	 range = {0.52 0.55}	  }
 	}
 
 	gene_mouth_upper_lip_size = {
@@ -178,11 +178,11 @@ indian_northern_12 = {
 	}
 
 	gene_mouth_open = {
-		100 = { name = mouth_open_neg	 range = {0.09 0.19}	  }
+		100 = { name = mouth_open_neg	 range = {0.09 0.1}	  }
 	}
 
 	gene_neck_length = {
-		100 = { name = neck_length_pos	 range = {0.5 0.58}	  }
+		100 = { name = neck_length_pos	 range = {0.5 0.55}	  }
 	}
 
 	gene_neck_width = {
@@ -512,8 +512,58 @@ indian_northern_12 = {
         2 = {  name = complexion_5             range = { 0.0 0.4 }     }
         2 = {  name = complexion_6             range = { 0.0 0.4 }     }
         2 = {  name = complexion_7             range = { 0.0 0.4 }     }
-        
-		
+        2 = {  name = complexion_8				range = { 0.0 0.4 }		}
+        2 = {  name = complexion_9             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_10             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_11				range = { 0.0 0.4 }		}
+        2 = {  name = complexion_12             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_13             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_14             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_15             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_16             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_17				range = { 0.0 0.4 }		}
+        2 = {  name = complexion_18             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_19             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_20             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_21             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_22             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_23             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_24             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_25             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_26             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_27             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_28             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_29             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_30             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_31             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_32             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_33             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_34             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_35             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_36             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_37             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_38             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_39             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_40             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_41             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_42             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_43             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_44             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_45             range = { 0.0 0.4 }     }
+		2 = {  name = complexion_1in			range = { 0.1 0.5 }		}
+        2 = {  name = complexion_2in            range = { 0.1 0.5 }     }
+        2 = {  name = complexion_3in            range = { 0.1 0.5 }     }
+        2 = {  name = complexion_4in            range = { 0.1 0.5 }     }
+        2 = {  name = complexion_5in            range = { 0.1 0.5 }     }
+        2 = {  name = complexion_6in             range = { 0.1 0.5 }     }
+        2 = {  name = complexion_7in            range = { 0.1 0.5 }     }
+        2 = {  name = complexion_8in            range = { 0.0 0.65 }     }
+        2 = {  name = complexion_9in            range = { 0.0 0.65 }     }
+        2 = {  name = complexion_10in            range = { 0.0 0.65 }     }
+        2 = {  name = complexion_11in            range = { 0.0 0.65 }     }
+        2 = {  name = complexion_12in            range = { 0.0 0.65 }     }
+        2 = {  name = complexion_13in            range = { 0.0 0.65 }     }
+        2 = {  name = complexion_14in            range = { 0.0 0.65 }     }
 	}
 
     gene_height = {

@@ -498,6 +498,41 @@ language_south_arabian = {
 	color = { 0.59 0.97 0.69 }
 }
 
+# South Asian
+language_awadhi = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_awadhi
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_awadhi }
+			multiply = 10
+		}
+	}
+	
+	color = { 255 80 0 }
+}
+language_hindi = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_hindi
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_hindi }
+			multiply = 10
+		}
+	}
+	
+	color = { 255 100 0 }
+}
 
 # South Slavic
 language_bulgarian = {

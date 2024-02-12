@@ -42,7 +42,7 @@ iranian_daylamite_17 = {
     template = "ethnicity_template"
     using = "persian"
 	skin_color = {
-		10 = { 0.1 0.12 0.7 0.35 }
+		10 = { 0.15 0.2 0.75 0.4 }
 	}
 	eye_color = {
 		# Brown
@@ -146,7 +146,7 @@ iranian_daylamite_17 = {
     }
 
 	gene_jaw_forward = {
-        10 = { name = jaw_forward_pos    range = { 0.44 0.5 }    }
+        10 = { name = jaw_forward_pos    range = { 0.48 0.5 }    }
     }
 
     gene_jaw_height = {
@@ -162,7 +162,7 @@ iranian_daylamite_17 = {
     }
 
     gene_mouth_corner_height = {
-        100 = { name = mouth_corner_height_pos    range = { 0.51 0.51 }    }
+        100 = { name = mouth_corner_height_pos    range = { 0.5 0.5 }    }
     }
 
     gene_mouth_forward = {
@@ -170,7 +170,7 @@ iranian_daylamite_17 = {
     }
 
     gene_mouth_height = {
-        100 = { name = mouth_height_neg    range = { 0.49 0.5 }    }
+        100 = { name = mouth_height_neg    range = { 0.5 0.5 }    }
     }
 
     gene_mouth_width = {
@@ -186,7 +186,7 @@ iranian_daylamite_17 = {
     }
 
     gene_mouth_open = {
-        100 = { name = mouth_open_neg    range = { 0.14 0.14 }    }
+        100 = { name = mouth_open_neg    range = { 0.1 0.1 }    }
     }
 
     gene_neck_length = {
@@ -560,7 +560,44 @@ iranian_daylamite_17 = {
         1 = {  name = complexion_5             range = { 0.0 0.5 }     }
         1 = {  name = complexion_6             range = { 0.0 0.5 }     }
         1 = {  name = complexion_7             range = { 0.0 0.5 }     }
-        
+        1 = {  name = complexion_8				range = { 0.0 0.5 }		}
+        1 = {  name = complexion_9             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_10             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_11				range = { 0.0 0.5 }		}
+        1 = {  name = complexion_12             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_13             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_14             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_15             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_16             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_17				range = { 0.0 0.5 }		}
+        1 = {  name = complexion_18             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_19             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_20             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_21             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_22             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_23             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_24             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_25             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_26             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_27             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_28             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_29             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_30             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_31             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_32             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_33             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_34             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_35             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_36             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_37             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_38             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_39             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_40             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_41             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_42             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_43             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_44             range = { 0.0 0.5 }     }
+        1 = {  name = complexion_45             range = { 0.0 0.5 }     }
 	}
 
     gene_height = {
@@ -609,10 +646,10 @@ iranian_daylamite_17 = {
 
     gene_hair_type = {
         75 = {  name = hair_straight             range = { 0.35 0.75 }     }
-        0 = {  name = hair_wavy             range = { 0.35 0.75 }     }
-        15 = {  name = hair_curly             range = { 0.35 0.75 }     }
+        40 = {  name = hair_wavy             range = { 0.35 0.75 }     }
+        25 = {  name = hair_curly             range = { 0.35 0.75 }     }
         0 = {  name = hair_afro             range = { 0.35 0.75 }     }
-        10 = {  name = hair_straight_thin_beard             range = { 0.35 0.75 }     }
+        0 = {  name = hair_straight_thin_beard             range = { 0.35 0.75 }     }
     }	
 
 	eyelashes_accessory = {
@@ -647,47 +684,11 @@ iranian_daylamite_17 = {
     }
 
     gene_body_hair = {
-    	20 = {  name = body_hair_sparse_low_stubble             range = { 0.0 0.8 }     }
+        20 = {  name = body_hair_sparse_low_stubble             range = { 0.5 0.8 }     }
         20 = {  name = body_hair_sparse_low_stubble             range = { 0.8 1.0 }     }
-        # 20 = {  name = body_hair_avg             range = { 0.35 0.75 }     }
-        # 5 = {  name = body_hair_dense             range = { 0.35 0.75 }     }
+        20 = {  name = body_hair_avg             range = { 0.5 0.99 }     }
+        15 = {  name = body_hair_dense             range = { 0.5 0.99 }     }
     }
 
-    # gene_eye_size = {
-    #     5 = {  name = eye_size             range = { 0.48 0.53 }     }
-    # }
-
-    # gene_eye_shut_top = {
-    #     5 = {  name = eye_shut_top             range = { 0.45 0.56 }     }
-    # }
-
-    # gene_eye_shut_bottom = {
-    #     5 = {  name = eye_shut_bottom             range = { 0.44 0.6 }     }
-    # }
-
-    # gene_bs_eye_height_inside = {
-    #     5 = {  name = eye_height_inside_neg             range = { 0.0 0.4 }     }
-    #     5 = {  name = eye_height_inside_pos             range = { 0.0 0.25 }     }
-    # }
-
-    # gene_bs_eye_height_outisde = {
-    #     5 = {  name = eye_height_outisde_neg             range = { 0.0 0.4 }     }
-    #     5 = {  name = eye_height_outisde_pos             range = { 0.0 0.1 }     }
-    # }
-
-    # gene_bs_ear_lobe = {
-    #     5 = {  name = ear_lobe_fused             range = { 0.75 1.0 }     }
-    #     #5 = {  name = ear_lobe_detached             range = { 0.0 0.0 }     }
-    # }
-
-    # gene_bs_nose_central_width = {
-    #     5 = {  name = nose_central_width_neg             range = { 0.0 0.25 }     }
-    #     5 = {  name = nose_central_width_pos             range = { 0.0 0.9 }     }
-    # }
-
-    # gene_bs_nose_septum_width = {
-    #     #5 = {  name = nose_septum_width_neg             range = { 0.0 0.0 }     }
-    #     5 = {  name = nose_septum_width_pos             range = { 0.0 0.75 }     }
-    # }
 
 }

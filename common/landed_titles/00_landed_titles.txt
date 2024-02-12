@@ -17027,7 +17027,7 @@ e_italy = {
 			color = { 44 102 26 }
 			
 			
-			capital = c_bassano # Vicenza
+			capital = c_treviso # b_vicenza
 			
 			
 			
@@ -17067,7 +17067,7 @@ e_italy = {
 			color = { 74 174 83 }
 			
 			
-			capital = c_novellara # San Martino # Mantua
+			capital = c_mantua # San Martino # Mantua
 			
 
 			

@@ -537,7 +537,7 @@ c_salamanca = {
 	758.1.1 = {
 		holder = 200032 # Suleyman Suleymanid
 		liege = k_andalusia
-		government = clan_government
+		government = islamic_government
 	}
 	789.1.1 = {
 		holder = 73680 # Hisham I Umayyad
@@ -564,6 +564,7 @@ c_salamanca = {
 	939.1.1 = {
 		holder = asturleonese0037 # Bermudo Nъсez de Cea
 		liege = k_leon
+		government = feudal_government
 	}
 	955.1.1 = {
 		holder = 108600 # King Ordoсo III of Leуn

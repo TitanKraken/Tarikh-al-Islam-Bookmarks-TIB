@@ -8984,7 +8984,7 @@ FemaleIlutimishi2 = {
 	name = "Thugluq"
 	dynasty = 1040208
 	religion = "ashari"
-	culture = "hindustani_proper"
+	culture = "turkish"
 	1251.1.1 = {
 		birth = "1251.1.1"
 	}
@@ -11768,12 +11768,12 @@ Bhadrid1 = {
 	}
 }
 1000229908 = {
-	name = "Da_ud" #son of Malik Shah and Jalᬩyya Khatun
+	name = "Da_ud" # son of Malik Shah and Jalaliyya Khatun
 	dynasty_house = house_oghuzSeljuks
 	religion = "maturidi"
 	culture = turkish #turkmen
-	father = 3042
-	mother = 1000229906
+	father = 3042 # son of Malik Shah
+	mother = 1229906 # Jalaliyya Khatun
 	1075.1.1 = {
 		birth = yes
 	}
@@ -11795,7 +11795,7 @@ Bhadrid1 = {
 	}
 }
 1000229910 = {
-	name = "Arslan_Khatun" #daughter b. Chaghri Beg, wife of al-Qᩭ and then later of 'Alᠡl-Daula 'Al𒱡kúyid
+	name = "Arslan_Khatun" #daughter b. Chaghri Beg, wife of al-Qa'im and then later of 'Ala al-Daula 'Ali Kakúyid
 	female = yes
 	dynasty_house = house_oghuzSeljuks
 	religion = "maturidi"
@@ -11804,8 +11804,11 @@ Bhadrid1 = {
 	1045.1.2 = {
 		birth = yes
 	}
-	1075.1.1 = {
-		add_spouse = 1000231056
+	1056.4.1 = {
+		add_spouse=3084
+	}
+	1075.1.1={
+		add_spouse=1231056
 	}
 	1093.1.2 = {
 		death = yes
@@ -12335,3 +12338,518 @@ asporca_hatun = {
 	}
 }
 
+turkish0001 = {
+	name = "Qara-Arslan_Bori" #Son of Musa Yabghu, emir of Sistan
+	dynasty_house = house_seljuk
+	religion = "maturidi"
+	culture = turkish #turkmen
+	father = 1000229901
+	1023.1.2 = {
+		birth = yes
+	}
+	1089.1.2 = {
+		death = yes
+	}
+}
+turkish0002 = {
+	name = "Toghan-Shah" #son of Chaghri Beg, in Herat
+	dynasty_house = house_seljuk
+	religion = "maturidi"
+	culture = turkish #turkmen
+	father = 3036
+	1046.1.2 = {
+		birth = yes
+	}
+	1090.1.2 = {
+		death = yes
+	}
+}
+
+turkish000003 = {
+	name = "Bugha"
+	dynasty = 7517
+	culture = "turkish"
+	religion = "ashari"
+	
+	#Education
+	trait = education_martial_4
+
+	797.1.1 = {
+		birth = "800.1.1"
+	}
+	862.1.1 = {
+		death = "862.1.1"
+	}
+}
+
+turkish000004 = {
+	name = "Ahmad"
+	dynasty = 7517
+	father = 163132
+	culture = "turkish"
+	religion = "ashari"
+		
+	847.1.1 = {
+		birth = "817.1.1"
+	}
+	904.1.1 = {
+		death = "877.1.1"
+	}
+}
+
+turkish000005 = {
+	name = "Muhammad"
+	dynasty = 7517
+	father = 163132
+	culture = "turkish"
+	religion = "ashari"
+		
+	850.1.1 = {
+		birth = "817.1.1"
+	}
+	902.1.1 = {
+		death = "877.1.1"
+	}
+}
+
+turkish000006 = {
+	name = "Al-Fadl"
+	dynasty = 7517
+	father = 163132
+	culture = "turkish"
+	religion = "ashari"
+		
+	855.1.1 = {
+		birth = "817.1.1"
+	}
+	914.1.1 = {
+		death = "914.1.1"
+	}
+}
+
+turkish000007 = {
+	name = "Wasif"
+	dynasty = turkish_wasifid	
+	culture = "turkish"
+	religion = "ashari"
+	
+	#Education
+	trait = education_intrigue_3
+	
+	#Personality traits
+	trait = callous
+	trait = ambitious
+	trait = greedy
+	
+	819.1.1 = {
+		birth = "817.1.1"
+	}
+	867.10.29 = {
+		death = "877.1.1"
+	}
+}
+
+turkish000008 = {
+	name = "Salih"
+	dynasty = turkish_wasifid	
+	father = turkish000007
+	mother = turkish000011
+	culture = "turkish"
+	religion = "ashari"
+		
+	840.1.1 = {
+		birth = "817.1.1"
+	}
+	870.1.1 = {
+		death = "877.1.1"
+	}
+}
+
+turkish000009 = { # unknown son
+	name = "Hussayn"
+	dynasty = turkish_wasifid	
+	father = turkish000007
+	mother = turkish000011
+	culture = "turkish"
+	religion = "ashari"
+		
+	842.1.1 = {
+		birth = "817.1.1"
+	}
+	905.1.1 = {
+		death = "877.1.1"
+	}
+}
+
+turkish000010 = { # unknown son
+	name = "Murad"
+	dynasty = turkish_wasifid	
+	father = turkish000007
+	mother = turkish000011
+	culture = "turkish"
+	religion = "ashari"
+	
+	850.1.1 = {
+		birth = "817.1.1"
+	}
+	887.1.1 = {
+		death = "877.1.1"
+	}
+}
+
+turkish000011 = { # fictional wife
+	name = "Firuze"	
+	female = yes
+	culture = "turkish"
+	religion = "ashari"
+		
+	820.1.1 = {
+		birth = "820.1.1"
+	}
+	839.1.1 = {
+		add_spouse = turkish000007
+	}
+	892.1.1 = {
+		death = "892.1.1"
+	}
+}
+
+#FP3 Turkic Characters
+
+#Kumiji tribe of Transoxiana 
+
+kumiji0001 = { #Fictional member of historical clan/tribe
+	name = "Altan"	
+	female = yes
+	culture = "turkish"
+	religion = "tengri_pagan"
+	dynasty = turkic_kumiji
+		
+	730.1.1 = {
+		birth = yes
+	}
+	799.1.1 = {
+		death = yes
+	}
+}
+
+kumiji0002 = { #Fictional member of historical clan/tribe
+	name = "Runtiya"	
+	culture = "turkish"
+	religion = "tengri_pagan"
+	dynasty = turkic_kumiji
+	mother = kumiji0001
+		
+	760.5.7 = {
+		birth = yes
+	}
+	803.3.11 = {
+		death = yes
+	}
+}
+
+kumiji0003 = { #Fictional member of historical clan/tribe
+	name = "Togay"	
+	culture = "turkish"
+	religion = "ashari"
+	dynasty = turkic_kumiji
+	father = kumiji0002
+		
+	800.11.12 = {
+		birth = yes
+	}
+	840.11.3 = {
+		death = yes
+	}	
+}
+
+kumiji0004 = { #Fictional member of historical clan/tribe
+	name = "U_lgen"	
+	culture = "turkish"
+	religion = "maturidi"
+	dynasty = turkic_kumiji
+	father = kumiji0003
+	mother = kumiji0010
+	trait = education_martial_4
+	trait = strong
+	trait = paranoid 
+		
+	823.5.10 = {
+		birth = yes
+	}
+	850.1.1 = {
+		add_spouse = kumiji0005
+		give_nickname = nick_the_strong
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+
+kumiji0005 = { #Fictional member of historical clan/tribe
+	name = "Alara"	
+	culture = "turkish"
+	religion = "maturidi"
+	female = yes
+	trait = fecund 
+		
+	834.5.10 = {
+		birth = yes
+	}
+	920.1.1 = {
+		death = yes
+	}
+}
+
+kumiji0006 = { #Fictional member of historical clan/tribe
+	name = "Altan"	
+	culture = "turkish"
+	religion = "maturidi"
+	dynasty = turkic_kumiji
+	female = yes
+	father = kumiji0004
+	mother = kumiji0005
+		
+	851.12.10 = {
+		birth = yes
+	}
+	925.1.1 = {
+		death = yes
+	}
+}
+
+kumiji0007 = { #Fictional member of historical clan/tribe
+	name = "Esin"	
+	culture = "turkish"
+	religion = "maturidi"
+	dynasty = turkic_kumiji
+	female = yes
+	father = kumiji0004
+	mother = kumiji0005
+		
+	852.5.10 = {
+		birth = yes
+	}
+	930.1.1 = {
+		death = yes
+	}
+}
+
+kumiji0008 = { #Fictional member of historical clan/tribe
+	name = "UluC_"	
+	culture = "turkish"
+	religion = "maturidi"
+	dynasty = turkic_kumiji
+	father = kumiji0004
+	mother = kumiji0005
+		
+	859.1.3 = {
+		birth = yes
+	}
+	910.1.1 = {
+		death = yes
+	}
+}
+
+kumiji0009 = { #Fictional member of historical clan/tribe
+	name = "Fulin"	
+	culture = "turkish"
+	religion = "maturidi"
+	dynasty = turkic_kumiji
+	female = yes
+	father = kumiji0004
+	mother = kumiji0005
+		
+	862.5.10 = {
+		birth = yes
+	}
+	920.1.1 = {
+		death = yes
+	}
+}
+
+kumiji0010 = { #Fictional member of historical clan/tribe
+	name = "C_iC_ek"	
+	culture = "turkish"
+	religion = "maturidi"
+	female = yes		
+	802.3.10 = {
+		birth = yes
+	}
+	830.1.12 = {
+		death = yes
+	}
+}
+
+###Sebuk-eri, former slave of amir Ya'qub of Sistan
+
+extra_turks_0001 = {
+	name = "SebU_k-eri"	
+	dna = extra_turks_0001_sebuk_eri
+	dynasty = turkic_Sebukid
+	culture = "turkish"
+	religion = "ashari"	
+	trait = education_stewardship_3
+	trait = greedy
+	trait = diligent
+	trait = arrogant 
+	trait = drunkard
+	843.5.10 = {
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
+	}
+	865.1.1 = {
+		effect = {
+			learn_language_of_culture = culture:persian
+			reverse_add_opinion = {
+				target = character:163101
+				opinion = 20 
+				modifier = favored_vassal_opinion
+			}
+		}
+	}
+	912.1.1 = {
+		death = yes
+	}
+}
+
+####Asategin, turkic ruler of Rayy in the 880s, previously a failed governorship of Mosul in 860-61, but his whereabouts after that are very unclear in the sources, so I chose to make him the lord of Shahrazur in 867. 
+
+extra_turks_0002 = { #historical 
+	name = "Asategin"	
+	dynasty = turkic_asateginid 
+	culture = "turkish"
+	religion = "ashari"	
+	trait = education_martial_3
+	trait = brave
+	trait = deceitful
+	trait = stubborn
+	825.2.10 = {
+		birth = yes
+	}
+	865.1.1 = {
+		effect = {
+			learn_language_of_culture = culture:persian
+			learn_language_of_culture = culture:bedouin 
+			add_unpressed_claim = title:c_rayy 
+		}
+	}
+	899.1.1 = {
+		death = yes
+	}
+}
+
+extra_turks_0003 = { #historical, former vice governor of Mosul, but dismissed due to gross incompetence and cruelty 
+	name = "EdgU_tegin"	
+	dynasty = turkic_asateginid 
+	culture = "turkish"
+	religion = "ashari"	
+	father = extra_turks_0002
+	trait = education_stewardship_1
+	trait = arrogant
+	trait = lazy
+	trait = arbitrary
+	845.2.19 = {
+		birth = yes
+	}
+	865.1.1 = {
+		effect = {
+			learn_language_of_culture = culture:persian
+			learn_language_of_culture = culture:bedouin 
+		}
+	}
+	912.1.1 = {
+		death = yes
+	}
+}
+
+extra_seljuks_1 = {
+	name = "Sifri"	
+	dynasty_house = house_seljuk
+	culture = "turkish"
+	religion = "maturidi"	
+	father = 3040
+	mother = 3045
+	female = yes
+	1052.9.11 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		effect = {
+			learn_language_of_culture = culture:persian
+		}
+	}
+	1110.1.1 = {
+		death = yes
+	}
+}
+
+extra_seljuks_2 = {
+	name = "Zuleikha"	
+	dynasty_house = house_seljuk
+	culture = "turkish"
+	religion = "maturidi"	
+	father = 3040
+	mother = 3045 #according to unconfirmed sources 
+	female = yes
+	1062.2.10 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		effect = {
+			learn_language_of_culture = culture:persian
+		}
+	}
+	1111.1.1 = {
+		death = yes
+	}
+}
+
+extra_seljuks_3 = {
+	name = "Togrul"	
+	dynasty_house = house_seljuk
+	culture = "turkish"
+	religion = "maturidi"	
+	father = 3040
+	mother = extra_seljuks_4
+	1065.1.1 = {
+		birth = yes
+	}
+	1090.1.1 = {
+		death = yes
+	}
+}
+
+extra_seljuks_4 = {
+	name = "Akka_khatun"	
+	culture = "turkish"
+	religion = "maturidi"	
+	female = yes 
+	trait = brave
+	trait = humble
+	1040.1.1 = {
+		birth = yes
+	}
+	1061.1.1 = {
+		add_spouse = 3038
+	}
+	1090.1.1 = {
+		death = yes
+	}
+}
+
+extra_badakshanshah_1 = {
+	name = "Khumartegin"	
+	dynasty = turkish_badakhshanid
+	culture = "turkish"
+	religion = "maturidi"
+	trait = education_martial_2
+	831.1.1 = {
+		birth = yes
+	}
+	898.1.1 = {
+		death = yes
+	}
+}

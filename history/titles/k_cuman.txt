@@ -460,6 +460,9 @@ c_kurgan = {
 	1072.7.16 = {
 		holder = 302576	#fictional Tyueykezhut Kurgani
 	}
+	1100.1.1 = {
+		liege = k_kimek
+	}
 	1106.2.7 = {
 		holder = 302577	#fictional Chichayka Kurgani
 	}
@@ -498,6 +501,9 @@ c_sabakyul = {
 	}
 	1072.7.16 = {
 		holder = 302576	#fictional Tyueykezhut Kurgani
+	}
+	1100.1.1 = {
+		liege = k_kimek
 	}
 	1106.2.7 = {
 		holder = 302577	#fictional Chichayka Kurgani
@@ -553,6 +559,9 @@ c_karasu = {
 	1092.10.19 = {
 		holder = 302602	#fictional Hulyen (Jr3) Paikiv
 	}
+	1100.1.1 = {
+		liege = k_kimek
+	}
 	1123.9.29 = {
 		holder = 302604	#fictional Litava Paikiv
 	}
@@ -597,6 +606,9 @@ c_kush-murun = {
 	1092.10.19 = {
 		holder = 302602	#fictional Hulyen (Jr3) Paikiv
 	}
+	1100.1.1 = {
+		liege = k_kimek
+	}
 	1123.9.29 = {
 		holder = 302604	#fictional Litava Paikiv
 	}
@@ -634,6 +646,9 @@ c_petropavl = {
 	}
 	1088.2.13 = {
 		holder = 302585	#fictional Rayda Sabakyr
+	}
+	1100.1.1 = {
+		liege = k_kimek
 	}
 	1101.1.27 = {
 		holder = 302586	#fictional Sangasa Sabakyr
@@ -678,6 +693,9 @@ c_vargashi = {
 	}
 	1088.2.13 = {
 		holder = 302585	#fictional Rayda Sabakyr
+	}
+	1100.1.1 = {
+		liege = k_kimek
 	}
 	1101.1.27 = {
 		holder = 302586	#fictional Sangasa Sabakyr
@@ -992,6 +1010,9 @@ c_astana = {
 	1093.7.27 = {
 		holder = 302623	#fictional Uzluk Astan
 	}
+	1100.1.1 = {
+		liege = k_kimek
+	}
 	1121.10.21 = {
 		holder = 302625	#fictional Bachman Astan
 	}
@@ -1037,6 +1058,9 @@ c_atbasar = {
 	1092.10.19 = {
 		holder = 302602	#fictional Hulyen (Jr3) Paikiv
 	}
+	1100.1.1 = {
+		liege = k_kimek
+	}
 	1123.9.29 = {
 		holder = 302604	#fictional Litava Paikiv
 	}
@@ -1079,6 +1103,9 @@ c_shchuchinsk = {
 	1093.7.27 = {
 		holder = 302623	#fictional Uzluk Astan
 	}
+	1100.1.1 = {
+		liege = k_kimek
+	}
 	1121.10.21 = {
 		holder = 302625	#fictional Bachman Astan
 	}
@@ -1117,6 +1144,9 @@ c_teke = {
 	1097.1.14 = {
 		holder = 302611	#fictional Koza Taiket
 	}
+	1100.1.1 = {
+		liege = k_kimek
+	}
 	1118.6.16 = {
 		holder = 302612	#fictional Pulad Taiket
 	}
@@ -1128,6 +1158,15 @@ c_teke = {
 	}
 	1204.11.18 = {
 		holder = 302615	#fictional SevenC_ Taiket
+	}
+	1211.7.30 = {
+		holder = 302628 #fictional Bonyak Astan
+		liege = k_kimek
+	}
+
+	1251.1.1 = {
+		holder = 34921
+		liege = k_cuman
 	}
 
 	1251.1.1 = {

@@ -142,11 +142,11 @@ north_african_berber_50 = {
 	}
 
 	gene_jaw_forward = {
-		100 = { name = jaw_forward_neg	 range = {0.45 0.5}	  }
+		100 = { name = jaw_forward_neg	 range = {0.48 0.5}	  }
 	}
 
 	gene_jaw_height = {
-		100 = { name = jaw_height_pos	 range = {0.34 0.47}	  }
+		100 = { name = jaw_height_pos	 range = {0.35 0.47}	  }
 	}
 
 	gene_jaw_width = {
@@ -166,11 +166,11 @@ north_african_berber_50 = {
 	}
 
 	gene_mouth_height = {
-		100 = { name = mouth_height_neg	 range = {0.59 0.73}	  }
+		100 = { name = mouth_height_neg	 range = {0.59 0.7}	  }
 	}
 
 	gene_mouth_width = {
-		100 = { name = mouth_width_neg	 range = {0.35 0.56}	  }
+		100 = { name = mouth_width_neg	 range = {0.35 0.55}	  }
 	}
 
 	gene_mouth_upper_lip_size = {
@@ -182,11 +182,11 @@ north_african_berber_50 = {
 	}
 
 	gene_mouth_open = {
-		100 = { name = mouth_open_pos	 range = {0.26 0.39}	  }
+		100 = { name = mouth_open_pos	 range = {0.1 0.1}	  }
 	}
 
 	gene_neck_length = {
-		100 = { name = neck_length_pos	 range = {0.45 0.56}	  }
+		100 = { name = neck_length_pos	 range = {0.45 0.55}	  }
 	}
 
 	gene_neck_width = {
@@ -545,15 +545,6 @@ north_african_berber_50 = {
         1 = {  name = complexion_5             range = { 0.0 0.7 }     }
         1 = {  name = complexion_6             range = { 0.0 0.7 }     }
         1 = {  name = complexion_7             range = { 0.0 0.7 }     }
-        
-        1 = {  name = complexion_1				range = { 0.0 0.4 }		}
-        1 = {  name = complexion_2             range = { 0.0 0.4 }     }
-        1 = {  name = complexion_3             range = { 0.0 0.4 }     }
-        1 = {  name = complexion_4             range = { 0.0 0.4 }     }
-        1 = {  name = complexion_5             range = { 0.0 0.4 }     }
-        1 = {  name = complexion_6             range = { 0.0 0.4 }     }
-        1 = {  name = complexion_7             range = { 0.0 0.4 }     }
-        
 	}
 
     gene_height = {

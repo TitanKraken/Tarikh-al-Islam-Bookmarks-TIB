@@ -124,7 +124,7 @@ european_magyar_magyar_07 = {
 	}
 
 	gene_head_width = {
-		100 = { name = head_width_pos	 range = {0.3 0.62}	  }
+		100 = { name = head_width_pos	 range = {0.3 0.6}	  }
 	}
 
 	gene_head_profile = {
@@ -132,7 +132,7 @@ european_magyar_magyar_07 = {
 	}
 
 	gene_head_top_height = {
-		100 = { name = head_top_height_pos	 range = {0.02 0.15}	  }
+		100 = { name = head_top_height_pos	 range = {0.35 0.35}	  }
 	}
 
 	gene_head_top_width = {
@@ -144,11 +144,11 @@ european_magyar_magyar_07 = {
 	}
 
 	gene_jaw_forward = {
-		100 = { name = jaw_forward_pos	 range = {0.45 0.52}	  }
+		100 = { name = jaw_forward_pos	 range = {0.48 0.52}	  }
 	}
 
 	gene_jaw_height = {
-		100 = { name = jaw_height_pos	 range = {0.5 0.56}	  }
+		100 = { name = jaw_height_pos	 range = {0.5 0.55}	  }
 	}
 
 	gene_jaw_width = {
@@ -160,7 +160,7 @@ european_magyar_magyar_07 = {
 	}
 
 	gene_mouth_corner_height = {
-		100 = { name = mouth_corner_height_pos	 range = {0.34 0.47}	  }
+		100 = { name = mouth_corner_height_pos	 range = {0.35 0.47}	  }
 	}
 
 	gene_mouth_forward = {
@@ -168,7 +168,7 @@ european_magyar_magyar_07 = {
 	}
 
 	gene_mouth_height = {
-		100 = { name = mouth_height_neg	 range = {0.66 0.78}	  }
+		100 = { name = mouth_height_neg	 range = {0.66 0.7}	  }
 	}
 
 	gene_mouth_width = {
@@ -184,11 +184,11 @@ european_magyar_magyar_07 = {
 	}
 
 	gene_mouth_open = {
-		100 = { name = mouth_open_neg	 range = {0.08 0.21}	  }
+		100 = { name = mouth_open_neg	 range = {0.08 0.1}	  }
 	}
 
 	gene_neck_length = {
-		100 = { name = neck_length_pos	 range = {0.5 0.59}	  }
+		100 = { name = neck_length_pos	 range = {0.5 0.55}	  }
 	}
 
 	gene_neck_width = {
@@ -457,7 +457,36 @@ european_magyar_magyar_07 = {
         1 = {  name = complexion_5             range = { 0.1 1.0 }     }
         1 = {  name = complexion_6             range = { 0.1 1.0 }     }
         1 = {  name = complexion_7             range = { 0.1 1.0 }     }
-        
+        1 = {  name = complexion_8				range = { 0.1 1.0 }		}
+        1 = {  name = complexion_9             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_10             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_11				range = { 0.1 1.0 }		}
+        1 = {  name = complexion_12             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_13             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_14             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_15             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_16             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_17				range = { 0.1 1.0 }		}
+        1 = {  name = complexion_18             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_19             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_20             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_21             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_22             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_23             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_24             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_25             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_26             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_27             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_28             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_29             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_30             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_31             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_32             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_33             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_34             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_35             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_36             range = { 0.1 1.0 }     }
+        1 = {  name = complexion_37             range = { 0.1 1.0 }     }
 	}
 
     gene_height = {

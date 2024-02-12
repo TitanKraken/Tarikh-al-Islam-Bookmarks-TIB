@@ -1493,6 +1493,7 @@ c_albarracin = {
 	1170.1.1 = {
 		liege = k_navarra
 		holder = 72048 # Pedro Rodr�guez de Azagra
+		government = feudal_government
 	}
 	1177.3.16 = {
 		liege = 0

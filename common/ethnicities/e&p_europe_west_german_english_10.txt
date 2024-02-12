@@ -72,7 +72,7 @@ european_caucasian_english_10 = {
     }
 
     gene_chin_height = {
-        100 = { name = chin_height_pos    range = { 0.63 0.64 }    }
+        100 = { name = chin_height_pos    range = { 0.49 0.64 }    }
     }
 
     gene_chin_width = {
@@ -92,15 +92,15 @@ european_caucasian_english_10 = {
     }
 
     gene_eye_distance = {
-        100 = { name = eye_distance_pos    range = { 0.4 0.5 }    }
+        100 = { name = eye_distance_pos    range = { 0.35 0.5 }    }
     }
 
     gene_eye_shut = {
-        100 = { name = eye_shut_pos    range = { 0.54 0.57 }    }
+        100 = { name = eye_shut_pos    range = { 0.47 0.7 }    }
     }
 
     gene_forehead_angle = {
-        100 = { name = forehead_angle_neg    range = { 0.45 0.45 }    }
+        100 = { name = forehead_angle_neg    range = { 0.45 0.65 }    }
     }
 
     gene_forehead_brow_height = {
@@ -124,11 +124,11 @@ european_caucasian_english_10 = {
     }
 
     gene_head_width = {
-        100 = { name = head_width_pos    range = { 0.46 0.56 }    }
+        100 = { name = head_width_pos    range = { 0.35 0.56 }    }
     }
 
     gene_head_profile = {
-        100 = { name = head_profile_pos    range = { 0.3 0.45 }    }
+        100 = { name = head_profile_pos    range = { 0.3 0.5 }    }
     }
 
     gene_head_top_height = {
@@ -144,15 +144,15 @@ european_caucasian_english_10 = {
     }
 
     gene_jaw_forward = {
-        100 = { name = jaw_forward_neg    range = { 0.48 0.5 }    }
+        100 = { name = jaw_forward_neg    range = { 0.48 0.53 }    }
     }
 
     gene_jaw_height = {
-        100 = { name = jaw_height_neg    range = { 0.42 0.49 }    }
+        100 = { name = jaw_height_neg    range = { 0.36 0.49 }    }
     }
 
     gene_jaw_width = {
-        100 = { name = jaw_width_neg    range = { 0.25 0.55 }    }
+        100 = { name = jaw_width_neg    range = { 0.25 0.6 }    }
     }
 
     gene_mouth_corner_depth = {
@@ -180,11 +180,11 @@ european_caucasian_english_10 = {
     }
 
     gene_mouth_lower_lip_size = {
-        100 = { name = mouth_lower_lip_size_pos    range = { 0.31 0.4 }    }
+        100 = { name = mouth_lower_lip_size_pos    range = { 0.38 0.45 }    }
     }
 
     gene_mouth_open = {
-        100 = { name = mouth_open_neg    range = { 0.14 0.14 }    }
+        100 = { name = mouth_open_neg    range = { 0.1 0.1 }    }
     }
 
     gene_neck_length = {
@@ -243,8 +243,7 @@ european_caucasian_english_10 = {
     }
 
     gene_bs_eye_size = {
-        60 = { name = eye_size_neg    range = { 0.25 0.6 }    }
-        40 = { name = eye_size_neg    range = { 0.0 0.25 }    }
+        60 = { name = eye_size_neg    range = { 0.25 0.75 }    }
     }
 
     gene_bs_eye_upper_lid_size = {
@@ -285,10 +284,10 @@ european_caucasian_english_10 = {
     gene_bs_jaw_def = {
 	    20 = { name = jaw_def_pos    range = { 0.0 0.2 }    }
         20 = { name = jaw_def_pos    range = { 0.2 0.4 }    }
-        20 = { name = jaw_def_pos    range = { 0.4 0.6 }    }
+        20 = { name = jaw_def_pos    range = { 0.4 0.76 }    }
         20 = { name = jaw_def_neg    range = { 0.0 0.2 }    }
         10 = { name = jaw_def_neg    range = { 0.2 0.4 }    }
-        10 = { name = jaw_def_neg    range = { 0.4 0.6 }    }
+        10 = { name = jaw_def_neg    range = { 0.4 0.76 }    }
 	}
 
     gene_bs_mouth_lower_lip_def = {
@@ -336,7 +335,8 @@ european_caucasian_english_10 = {
     }
 
     gene_bs_nose_forward = {
-        100 = { name = nose_forward_neg    range = { 0.0 0.13 }    }
+        10 = { name = nose_forward_neg    range = { 0.0 0.25 }    }
+        10 = { name = nose_forward_pos    range = { 0.0 0.25 }    }
     }
 
     gene_bs_nose_height = {
@@ -344,15 +344,16 @@ european_caucasian_english_10 = {
     }
 
     gene_bs_nose_length = {
-        100 = { name = nose_length_pos    range = { 0.1 0.25 }    }
+        100 = { name = nose_length_pos    range = { 0.1 0.5 }    }
     }
 
     gene_bs_nose_nostril_height = {
-        100 = { name = nose_nostril_height_neg    range = { 0.45 0.46 }    }
+        100 = { name = nose_nostril_height_neg    range = { 0.0 0.46 }    }
     }
 
     gene_bs_nose_nostril_width = {
-        100 = { name = nose_nostril_width_neg    range = { 0.0 0.1 }    }
+        10 = { name = nose_nostril_width_neg    range = { 0.0 0.2 }    }
+        10 = { name = nose_nostril_width_pos    range = { 0.0 0.2 }    }
     }
 
     gene_bs_nose_profile = {
@@ -372,13 +373,13 @@ european_caucasian_english_10 = {
     }
 
     gene_bs_nose_size = {
-        100 = { name = nose_size_pos    range = { 0.4 0.5 }    }
+        100 = { name = nose_size_pos    range = { 0.0 0.5 }    }
     }
 
     gene_bs_nose_tip_angle = {
 		60 = { name = nose_tip_angle_neg    range = { 0.0 0.5 }    }
         35 = { name = nose_tip_angle_pos    range = { 0.0 0.15 }    }
-        5 = { name = nose_tip_angle_pos    range = { 0.15 0.3 }    }
+        25 = { name = nose_tip_angle_pos    range = { 0.15 0.45 }    }
     }
 
     gene_bs_nose_tip_forward = {
@@ -561,7 +562,44 @@ european_caucasian_english_10 = {
         2 = {  name = complexion_5             range = { 0.0 0.4 }     }
         2 = {  name = complexion_6             range = { 0.0 0.4 }     }
         2 = {  name = complexion_7             range = { 0.0 0.4 }     }
-        
+        2 = {  name = complexion_8				range = { 0.0 0.4 }		}
+        2 = {  name = complexion_9             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_10             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_11				range = { 0.0 0.4 }		}
+        2 = {  name = complexion_12             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_13             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_14             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_15             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_16             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_17				range = { 0.0 0.4 }		}
+        2 = {  name = complexion_18             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_19             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_20             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_21             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_22             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_23             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_24             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_25             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_26             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_27             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_28             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_29             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_30             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_31             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_32             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_33             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_34             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_35             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_36             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_37             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_38             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_39             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_40             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_41             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_42             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_43             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_44             range = { 0.0 0.4 }     }
+        2 = {  name = complexion_45             range = { 0.0 0.4 }     }
 	}
 
     gene_height = {

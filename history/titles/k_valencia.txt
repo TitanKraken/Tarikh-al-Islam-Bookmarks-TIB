@@ -28,7 +28,7 @@ k_valencia = {
 d_valencia = {
 	695.1.1 = {
 		holder = 73901 # Conde Teodomiro
-		government = clan_government
+		government = feudal_government
 	}
 	711.1.1 = {
 		liege = e_arabia
@@ -38,7 +38,7 @@ d_valencia = {
 	}
 	798.1.1 = {
 		holder = levantine0023 # Suleyman ibn Hisham
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = k_andalusia
 	}
 	801.1.1 = {
@@ -150,7 +150,7 @@ d_valencia = {
 c_valencia = {
 	798.1.1 = {
 		holder = levantine0023 # Walih Suleyman ibn Hisham of Valencia
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = d_valencia
 	}
 	#801-803: Unknown Walih of Valencia
@@ -291,7 +291,7 @@ c_valencia = {
 c_castellon = {
 	798.1.1 = {
 		holder = levantine0023 # Walih Suleyman ibn Hisham of Valencia
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = d_valencia
 	}
 	#801-803: Unknown Walih of Valencia
@@ -435,7 +435,7 @@ c_castellon = {
 c_teruel = {
 	798.1.1 = {
 		holder = levantine0023 # Walih Suleyman ibn Hisham of Valencia
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = d_valencia
 	}
 	#801-803: Unknown Walih of Valencia
@@ -547,7 +547,7 @@ c_teruel = {
 c_denia = {
 	798.1.1 = {
 		holder = levantine0023 # Walih Suleyman ibn Hisham of Valencia
-		government = clan_government
+		government = islamic_government # clan_government
 		liege = d_valencia
 	}
 	#801-803: Unknown Walih of Valencia
@@ -690,7 +690,7 @@ c_alicante = {
 	695.1.1 = {
 		holder = 73901 # Teodomiro de Orihuela
 		liege = d_murcia
-		government = clan_government
+		government = islamic_government # clan_government
 	}
 	743.1.1 = {
 		holder = levantine0093 # Jattab ibn Abd al-Yabbar
@@ -828,7 +828,7 @@ c_alicante = {
 d_murcia = {
 	695.1.1 = {
 		holder = 73901 # Conde Teodomiro
-		government = clan_government
+		government = feudal_government # clan_government
 	}
 	711.1.1 = {
 		liege = e_arabia
@@ -914,7 +914,7 @@ c_murcia = {
 	695.1.1 = {
 		holder = 73901 # Duke Conde Teodomiro of Murcia
 		liege = d_murcia
-		government = clan_government
+		government = feudal_government # clan_government
 	}
 	743.1.1 = {
 		holder = 200064 # Duke Atanagildo of Murcia
@@ -1044,7 +1044,7 @@ c_alcaraz = {
 	695.1.1 = {
 		holder = 73901 # Duke Conde Teodomiro of Murcia
 		liege = d_murcia
-		government = clan_government
+		government = feudal_government # clan_government
 	}
 	743.1.1 = {
 		holder = 200064 # Duke Atanagildo of Murcia
@@ -1173,7 +1173,7 @@ c_alarcon = {
 	851.1.1 = {
 		holder = levantine0035 # Walih al-Mutarrif of Toledo
 		liege = k_andalusia
-		government = clan_government
+		government = feudal_government # clan_government
 	}
 	876.1.1 = {
 		holder = 73683 # Sultan Muhammad I of Andalusia
