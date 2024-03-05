@@ -18,9 +18,10 @@
 ###c_zanjan
 4325 = {	#Zanjan
 	culture = daylamite
-	religion = zayidi
+	religion = ashari
 	holding = castle_holding
 	special_building_slot = soltaniyeh_01
+	740.1.1 = { religion = zayidi }
 	1130.1.1 = { religion = ismaili }
 }
 4326 = {	#Afshar
@@ -33,10 +34,11 @@
 ###c_qazwin
 4323 = {	#Qazwin / Qazvin
 	culture = daylamite
-	religion = zayidi
+	religion = ashari
 	holding = castle_holding
+	740.1.1 = { religion = zayidi }
 	1060.1.1 = { religion = nizari }
-	1130.1.1 = { religion = ashari }
+	1130.1.1 = { religion = asharite }
 }
 4006 = {	#Alamut
 	holding = church_holding
@@ -101,8 +103,9 @@
 ###c_gurgan
 4029 = {	#Gurgan
 	culture = daylamite
-	religion = khurramism
+	religion = afridunism
 	holding = castle_holding
+	755.1.1 = { religion = khurramism } # Established in 755 by al-Muqanna after the death of Abu Muslim
 	1060.1.1 = { religion = zayidi }
 }
 4028 = {	#Astarabad
@@ -145,8 +148,9 @@
 ###c_tabriz
 4537 = {	#Tabriz
 	culture = persian
-	religion = khurramism
+	religion = mazdayasna
 	holding = castle_holding
+	755.1.1 = { religion = khurramism } # Established in 755 by al-Muqanna after the death of Abu Muslim
 	867.1.1 = {
 		buildings = {
 			watchtowers_01
@@ -197,8 +201,9 @@
 ###c_ardabil
 4543 = {	#Ardabil
 	culture = daylamite
-	religion = khurramism
+	religion = afridunism
 	holding = castle_holding
+	755.1.1 = { religion = khurramism } # Established in 755 by al-Muqanna after the death of Abu Muslim
 	870.1.1 = {
 		culture = azeri
 		religion = ashari
@@ -217,8 +222,9 @@
 ###c_maragha
 4545 = {	#Maragha
 	culture = kurdish
-	religion = khurramism
+	religion = mazdayasna
 	holding = castle_holding
+	755.1.1 = { religion = khurramism } # Established in 755 by al-Muqanna after the death of Abu Muslim
 	870.1.1 = {
 		religion = ashari
 	}
@@ -349,8 +355,9 @@
 ###c_mugan
 5790 = {	#Paytakaran
 	culture = persian
-	religion = khurramism
+	religion = mazdayasna
 	holding = castle_holding
+	755.1.1 = { religion = khurramism } # Established in 755 by al-Muqanna after the death of Abu Muslim
 	900.1.1 = {
 		culture = azeri
 		religion = ashari

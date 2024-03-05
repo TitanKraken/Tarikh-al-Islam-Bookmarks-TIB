@@ -123,6 +123,12 @@ house_ardonusing = {
     name = "Ardonusing"
     culture = "visigothic"
 }
+# Armenian
+armenianalbaniosid = {
+	name = "dynn_albaniosid"
+	prefix = "dynnp_ve"
+    culture = "armenian"
+}
 
 # Andalusian dynasties
 banu_Tujib = {

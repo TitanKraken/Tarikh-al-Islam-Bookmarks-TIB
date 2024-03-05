@@ -339,7 +339,7 @@ c_middlesex = {
 	}
 }
 b_southwark = {	#Fictional, to allow character placement.
-	1055.1.1 = { holder = anglo_saxon.1001 }
+	1055.1.1 = { holder = anglo_saxon_1001 }
 }
 
 c_essex = {

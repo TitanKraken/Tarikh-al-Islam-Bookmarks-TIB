@@ -294,11 +294,11 @@
 4805 = {	#Misc
 	culture = assyrian
 	religion = nestorian
+	special_building_slot = holy_site_great_mosque_of_samarra_01
 	
 	# History
 	867.1.1 = {
 		holding = castle_holding
-		special_building_slot = holy_site_great_mosque_of_samarra_01
 		special_building = holy_site_great_mosque_of_samarra_01
 	}
 	1066.1.1 = {
@@ -464,6 +464,7 @@
 	# Misc
 	culture = iraqi
 	religion = ashari
+	holding = castle_holding
 	
 	# History
 	867.1.1 = {
@@ -835,10 +836,10 @@
 	
 	# Misc
 	culture = bedouin
-	religion = ashari
+	religion = ismaili
 	holding = city_holding
 	# History
-	850.1.1 = { religion = ismaili }
+	850.1.1 = { religion = ismailite }
 	867.1.1 = {
 		buildings = {
 			orchards_01

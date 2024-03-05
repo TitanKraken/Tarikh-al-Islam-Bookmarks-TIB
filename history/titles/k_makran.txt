@@ -234,8 +234,8 @@ c_kiz = {
 		liege = 0
 	}
 	867.1.1 = {
-		government = tribal_government
-		holder = 302700	#Placeholder Feraz (baloch character)
+		government = clan_government
+		holder = 302700	#Placeholder Feraz
 		liege = k_makran
 	}
 	
@@ -609,8 +609,8 @@ c_bampur = {
 	}
 	
 	867.1.1 = {
-		government = tribal_government
-		holder = 302700	#Placeholder Feraz (baloch character)
+		government = clan_government
+		holder = 302700	#Placeholder Feraz
 		liege = k_makran
 	}
 	
@@ -707,8 +707,8 @@ c_jabal_kufs = {
 	}
 
 	867.1.1 = {
-		government = tribal_government
-		holder = 302700	#Placeholder Feraz (baloch character)
+		government = clan_government
+		holder = 302700	#Placeholder Feraz
 		liege = k_makran
 	}
 	
@@ -802,8 +802,8 @@ c_riqan = {
 	}
 
 	867.1.1 = {
-		government = tribal_government
-		holder = 302700	#Placeholder Feraz (baloch character)
+		government = clan_government
+		holder = 302700	#Placeholder Feraz
 		liege = k_makran
 	}
 	

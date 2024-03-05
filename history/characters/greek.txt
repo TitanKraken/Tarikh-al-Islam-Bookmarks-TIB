@@ -10262,8 +10262,8 @@ Dalassenos2 = {
 }
 
 70502 = {
-	name = "Leon"
-	# AKA: Leon 'the Isaurian'
+	name = "Konon"
+	# AKA: Leo III 'the Isaurian'
 	dynasty = 8646
 	martial = 6
 	diplomacy = 7
@@ -10278,6 +10278,9 @@ Dalassenos2 = {
 	685.1.1 = {
 		birth = "685.1.1"
 		give_nickname = nick_the_syrian
+	}
+	717.1.1 = {
+		name = "Leon" # Probably only got this name after being Emperor
 	}
 	741.6.18 = {
 		death = "741.6.18"

@@ -17,16 +17,16 @@
 		holder = 163164 # Amr ibn Layth Saffarid
 	}
 	908.1.1 = {
-		holder = tahir_saffarid
+		holder = saffarid_02
 	}
 	909.1.1 = {
-		holder = sons_of_ali_saffarid_001 # al-Layth ibn Ali Saffarid
+		holder = 163163 # al-Layth ibn Ali Saffarid
 	}
 	910.1.1 = {
-		holder = sons_of_ali_saffarid_002 # Muhammad ibn Ali Saffarid
+		holder = saffarid_04 # Muhammad ibn Ali Saffarid
 	}
 	911.1.1 = {
-		holder = sons_of_ali_saffarid_003 # al-Mu'addal ibn Ali Saffarid
+		holder = extra_saffarids_25 # al-Mu'addal ibn Ali Saffarid
 	}
 	911.6.1 = {
 		holder = 0
@@ -2715,7 +2715,7 @@ c_qain = {
 		holder = 163100
 	}
 	867.1.1 = {
-		holder = 248307 # Perhaps a tad far from home for the Banijurids.
+		holder = extra_saffarids_5 #unhistorical, but very reasonable placeholder. The Simjurids ruled this area later, in 913. 
 		liege = k_makran
 	}
 	1066.1.1 = {
@@ -2789,7 +2789,7 @@ c_tun = {
 		holder = 163100
 	}
 	867.1.1 = {
-		holder = 248307 # Perhaps a tad far from home for the Banijurids.
+		holder = extra_saffarids_5 #unhistorical, but very reasonable placeholder. The Simjurids ruled this area later, in 913. 
 		liege = k_makran
 	}
 

@@ -5608,28 +5608,28 @@ d_syrmia = {
 }
 
 c_szerem = {
-	330.1.1 = {
-		liege = "d_vidin"
-	}
-	539.1.1 = {
-		liege = "d_rashka"
-	}
+	#330.1.1 = {
+	#	liege = "d_vidin"
+	#}
+	#539.1.1 = {
+	#	liege = "d_rashka"
+	#}
 	700.1.1 = {
 		holder = southslavchief014
 		liege = 0
 	}
-	750.1.1 = {
-		liege = "d_rashka"
-	}
+	#750.1.1 = {
+	#	liege = "d_rashka"
+	#}
 	768.1.1 = {
 		holder = 167858
 	}
 	850.1.1 = {
 		holder = 163116
 	}
-	1060.1.1 = {
-		liege = "d_vidin"
-	}
+	#1060.1.1 = {
+	#	liege = "d_vidin"
+	#}
 	1060.1.1 = {
 		holder = 20499
 	}

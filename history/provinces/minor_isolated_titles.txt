@@ -1,0 +1,19 @@
+##### k_xia
+#### d_shanzhou
+###c_kuozhou
+9419 = {	# Kuozhou
+	# Misc
+	culture = tuyuhun
+	religion = tengri_pagan
+	
+	holding = castle_holding
+	
+	# History
+	700.1.1 = {
+		religion = ashari
+		culture = salar
+	}
+}
+9420 = {	# Yadzi (Xunhu)
+	holding = church_holding
+}

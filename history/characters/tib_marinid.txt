@@ -577,7 +577,7 @@ marinid_female_004 = {
 }
 
 marinid_017 = {
-	name = "Abu 'Amir 'Abdallah"
+	name = "Abu Amir 'Abdallah"
 	dynasty = 101732
 	religion = "ashari"
 	culture = zenata
@@ -585,13 +585,13 @@ marinid_017 = {
 	1273.9.12 = {
 		birth = yes
 	}
-	1304.1.1 = { # Probably predeceased 'Amir
+	1304.1.1 = { # Probably predeceased Amir
 		death = yes
 	}
 }
 
 33000 = {
-	name = "'Amir" #1307-1308
+	name = "Amir" #1307-1308
 	dynasty = 101732
 	religion = "ashari"
 	culture = zenata
@@ -667,7 +667,7 @@ marinid_018 = {
 }
 
 33003 = {
-	name = "'Ali"
+	name = "_Ali"
 	dynasty = 101732
 	religion = "ashari"
 	culture = zenata

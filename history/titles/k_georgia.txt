@@ -1176,7 +1176,7 @@ c_tbilisi = {
 		holder = 159766
 	}
 	522.1.1 = {
-		liege = d_georgia
+		#liege = d_georgia
 		holder = 159767
 	}
 	534.1.1 = {
@@ -1213,7 +1213,7 @@ c_tbilisi = {
 		holder = 159785
 	}
 	
-	#Conquered by Marwan II ibn-Muhammad
+	#Conquered by Marwan II ibn Muhammad
 	737.1.1 = {
 		holder = 163041
 		liege = e_arabia

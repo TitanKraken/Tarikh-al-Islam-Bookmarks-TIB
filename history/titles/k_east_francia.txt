@@ -177,9 +177,9 @@ d_west_franconia = {
 	867.1.1 = { change_development_level = 8 }
 	1066.1.1 = { change_development_level = 11 }
 	
-	100.1.1 = {
-		liege = k_east_francia
-	}
+	#100.1.1 = {
+	#	liege = k_east_francia
+	#}
 	637.1.1 = {
 		liege = k_east_francia
 	}

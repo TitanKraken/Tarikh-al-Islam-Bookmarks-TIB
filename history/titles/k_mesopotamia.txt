@@ -359,7 +359,7 @@ c_kirkuk = {
 	
 	866.1.1 = {
 		liege = e_arabia
-		holder = 34014
+		holder = levantine000009 # Ahmad al-Attabi
 	}
 
 	# Dustak / Marwanid

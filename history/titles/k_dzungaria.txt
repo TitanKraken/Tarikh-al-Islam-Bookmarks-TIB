@@ -613,7 +613,7 @@ c_yangjibaliq = {
 
 c_barkul = {
 	#Kirghiz khanate
-	840.1.1 = {
+	840.1.2 = {
 		liege = e_kirghiz_khanate
 	}
 	850.1.1 = {

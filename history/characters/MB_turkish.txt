@@ -959,27 +959,6 @@
 		death = yes
 	}
 }
-1229911 = {
-	name="Aisha" #spouse of Nasr Shams al-Mulk Qarakhanid
-	female=yes
-	dynasty_house = house_oghuzSeljuks
-	religion="ashari"
-	culture="turkish"
-	trait="calm"
-	father=3040
-	1049.1.1={
-		birth = yes
-	}
-	1065.1.1={ #?
-		add_spouse=3016
-	}
-	1073.1.1={
-		death={
-			death_reason=death_execution
-			killer=3016
-		}
-	}
-}
 #al-Sharabi
 1229912 = {
 	name="Khumar-Tegin"

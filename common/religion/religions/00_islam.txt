@@ -486,7 +486,7 @@
 			holy_site = medina
 			holy_site = jerusalem
 			holy_site = nadjaf
-			holy_site = damascus
+			holy_site = basra
 
 			doctrine = tenet_struggle_submission
 			doctrine = tenet_esotericism
@@ -548,6 +548,9 @@
 				PriestNeuterPlural = islam_shia_priest_plural
 				ReligiousHeadName = islam_shia_religious_head_title
 				ReligiousHeadTitleName = islam_shia_religious_head_title_name
+			}
+			holy_order_names = {
+				{ name = "holy_order_hashshashin" }
 			}
 		}
 
@@ -644,7 +647,7 @@
 
 			doctrine = tenet_struggle_submission
 			doctrine = tenet_religious_legal_pronouncements
-			doctrine = tenet_legalism
+			doctrine = tenet_alexandrian_catechism
 
 			#Shia
 			#Witchcraft is a sin

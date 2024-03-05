@@ -35,47 +35,47 @@ asnaf_poor_massive_effect = {
     }
 }
 
-asnaf_weak_buildings_minor_effect = {
-    every_in_list = {
-        list = poor_muslims_county_in_root_realm_list
-        add_county_modifier = {
-            modifier = asnaf_weak_buildings_minor_modifier
-            years = 1
-        }
-    }
-}
-asnaf_weak_buildings_medium_effect = {
-    every_in_list = {
-        list = poor_muslims_county_in_root_realm_list
-        add_county_modifier = {
-            modifier = asnaf_weak_buildings_medium_modifier
-            years = 1
-        }
-    }
-}
-asnaf_weak_buildings_major_effect = {
-    every_in_list = {
-        list = poor_muslims_county_in_root_realm_list
-        add_county_modifier = {
-            modifier = asnaf_weak_buildings_major_modifier
-            years = 2
-        }
-    }
-}
-asnaf_weak_buildings_massive_effect = {
-    every_in_list = {
-        list = poor_muslims_county_in_root_realm_list
-        add_county_modifier = {
-            modifier = asnaf_weak_buildings_massive_modifier
-            years = 3
-        }
-    }
-}
+#asnaf_weak_buildings_minor_effect = {
+#    every_in_list = {
+#        list = poor_muslims_county_in_root_realm_list
+#        add_county_modifier = {
+#            modifier = asnaf_weak_buildings_minor_modifier
+#            years = 1
+#        }
+#    }
+#}
+#asnaf_weak_buildings_medium_effect = {
+#    every_in_list = {
+#        list = poor_muslims_county_in_root_realm_list
+#        add_county_modifier = {
+#            modifier = asnaf_weak_buildings_medium_modifier
+#            years = 1
+#        }
+#    }
+#}
+#asnaf_weak_buildings_major_effect = {
+#    every_in_list = {
+#        list = poor_muslims_county_in_root_realm_list
+#        add_county_modifier = {
+#            modifier = asnaf_weak_buildings_major_modifier
+#            years = 2
+#        }
+#    }
+#}
+#asnaf_weak_buildings_massive_effect = {
+#    every_in_list = {
+#        list = poor_muslims_county_in_root_realm_list
+#        add_county_modifier = {
+#            modifier = asnaf_weak_buildings_massive_modifier
+#            years = 3
+#        }
+#    }
+#}
 
 asnaf_county_dev_minor_effect = {
     every_in_list = {
         list = poor_muslims_county_in_root_realm_list
-        county_modifier = {
+        add_county_modifier = {
             #tax_mult = 0.3
             development_growth_factor = 0.1
             development_growth = 0.1
@@ -86,7 +86,7 @@ asnaf_county_dev_minor_effect = {
 asnaf_county_dev_medium_effect = {
     every_in_list = {
         list = poor_muslims_county_in_root_realm_list
-        county_modifier = {
+        add_county_modifier = {
             #tax_mult = 0.3
             development_growth_factor = 0.20
             development_growth = 0.2
@@ -97,7 +97,7 @@ asnaf_county_dev_medium_effect = {
 asnaf_county_dev_major_effect = {
     every_in_list = {
         list = poor_muslims_county_in_root_realm_list
-        county_modifier = {
+        add_county_modifier = {
             #tax_mult = 0.3
             development_growth_factor = 0.30
             development_growth = 0.3
@@ -108,7 +108,7 @@ asnaf_county_dev_major_effect = {
 asnaf_county_dev_massive_effect = {
     every_in_list = {
         list = poor_muslims_county_in_root_realm_list
-        county_modifier = {
+        add_county_modifier = {
             #tax_mult = 0.3
             development_growth_factor = 0.50
             development_growth = 0.5

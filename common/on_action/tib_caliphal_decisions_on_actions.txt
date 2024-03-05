@@ -1,4 +1,30 @@
-﻿pay_homage_to_caliph_travel_planner_exit = {
+﻿yearly_global_pulse = {
+	on_actions = {
+		trigger_zakat_reminder
+	}
+}
+trigger_zakat_reminder = {
+	effect = {
+		if = {
+			limit = {
+				every_ruler = {
+					NOT = {
+						has_character_modifier = done_zakat_modifier
+					}
+					religion = religion:islam_religion
+				}
+			}
+			every_ruler = {
+				trigger_event = {
+					id = tib_pay_zakat_decisions.1001
+					days = 0
+				}
+			}
+		}
+	}
+}
+
+pay_homage_to_caliph_travel_planner_exit = {
 	effect = {
 		send_interface_toast = {
 			title = pay_homage_costs_refunded

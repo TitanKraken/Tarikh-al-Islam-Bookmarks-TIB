@@ -1,5 +1,5 @@
 k_hellas = {
-	713.6.3 = { # fictional
+	711.6.3 = { # fictional
 		holder = strategos001
 		liege = e_byzantium
 	}
@@ -20,7 +20,7 @@ d_athens = {
 	330.1.1 = {
 		liege = "e_byzantium"
 	}
-	713.6.3 = { # fictional
+	711.6.3 = { # fictional
 		holder = strategos001
 		liege = e_byzantium
 	}
@@ -101,10 +101,10 @@ d_athens = {
 
 
 c_attica = {
-	330.1.1 = {
-		liege = "d_athens"
-	}
-	713.6.3 = { # fictional
+	#330.1.1 = {
+	#	liege = "d_athens"
+	#}
+	711.6.3 = { # fictional
 		holder = strategos001
 		liege = e_byzantium
 	}
@@ -507,7 +507,7 @@ c_korinthos = {
 	330.1.1 = {
 		liege = "d_achaia"
 	}
-	713.6.3 = { # fictional
+	711.6.3 = { # fictional
 		holder = strategos001
 		liege = e_byzantium
 	}
@@ -672,7 +672,7 @@ c_laconia = {
 	330.1.1 = {
 		liege = "d_achaia"
 	}
-	713.6.3 = { # fictional
+	711.6.3 = { # fictional
 		holder = strategos001
 		liege = e_byzantium
 	}

@@ -86,6 +86,7 @@
 	culture = persian
 	religion = azariqa
 	holding = castle_holding
+	748.1.1 = { religion = mutazila } # Probably firmly established after the death of Wasil ibn Ata
 
 	900.1.1 = {
 		religion = ashari
@@ -154,7 +155,8 @@
 	culture = persian
 	religion = azariqa
 	holding = castle_holding
-	790.1.1 = { religion = ashari }
+	748.1.1 = { religion = mutazila } # Probably firmly established after the death of Wasil ibn Ata
+	900.1.1 = { religion = ashari }
 }
 4087 = {	#Bimand
 	holding = city_holding	#placeholder
@@ -168,7 +170,8 @@
 	culture = persian
 	religion = azariqa
 	holding = castle_holding
-	790.1.1 = { religion = ashari }
+	748.1.1 = { religion = mutazila } # Probably firmly established after the death of Wasil ibn Ata
+	900.1.1 = { religion = ashari }
 }
 4090 = {	#Maghun
 	holding = city_holding	#placeholder
@@ -235,7 +238,8 @@
 	culture = persian
 	religion = azariqa
 	holding = castle_holding
-	800.1.1 = { religion = ashari }
+	748.1.1 = { religion = mutazila } # Probably firmly established after the death of Wasil ibn Ata
+	1000.1.1 = { religion = ashari }
 }
 4097 = {	#Muralziyan
 	holding = church_holding	#placeholder
@@ -253,7 +257,7 @@
 	culture = persian
 	religion = mazdayasna
 	holding = castle_holding
-	864.1.1 = { religion = zayidi }
+	864.1.1 = { religion = imami }
 	1066.1.1 = {
 		buildings = {
 			pastures_01
@@ -292,7 +296,7 @@
 ###c_qom
 4109 = {	#Qom
 	culture = persian
-	religion = ashari
+	religion = imami
 	holding = castle_holding
 }
 4110 = {	#Aba-Qomi
@@ -326,8 +330,9 @@
 ###c_nihawand
 4116 = {	#Nihawand	#AKA Nahavand
 	culture = persian
-	religion = ashari
+	religion = khurramism #based on Cambridge History of Iran, they had a series of fortresses in the mountains here
 	holding = castle_holding
+	935.1.1 = { religion = ashari } #khurramites exterminated by Imad al-Dawla, the Buyid founder 
 }
 4114 = {	#Abtaa
 	holding = none
@@ -423,7 +428,8 @@
 	culture = persian
 	religion = azariqa
 	holding = castle_holding
-	800.1.1 = { religion = ashari }
+	748.1.1 = { religion = mutazila } # Probably firmly established after the death of Wasil ibn Ata
+	1000.1.1 = { religion = ashari }
 }
 4301 = {	#Jannaba
 	holding = church_holding	#placeholder
@@ -576,6 +582,7 @@
 	culture = persian
 	religion = mazdakism
 	holding = castle_holding
+	748.1.1 = { religion = mutazila } # Probably firmly established after the death of Wasil ibn Ata
 	867.1.1 = {
 		religion = ashari
 		culture = iraqi
@@ -629,6 +636,7 @@
 	culture = luri
 	religion = ashari
 	holding = castle_holding
+	748.1.1 = { religion = mutazila } # Probably firmly established after the death of Wasil ibn Ata
 }
 4257 = {	#Gondishapur	#AKA Gundeshapur
 	holding = city_holding
@@ -650,6 +658,7 @@
 	culture = iraqi
 	religion = ashari
 	holding = castle_holding
+	748.1.1 = { religion = mutazila } # Probably firmly established after the death of Wasil ibn Ata
 	867.1.1 = { religion = ashari }
 }
 6016 = {	#Bayan

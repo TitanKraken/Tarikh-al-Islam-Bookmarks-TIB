@@ -21,25 +21,7 @@
 	unit_gfx = { mena_unit_gfx }
 	
 	ethnicities = {
-		3 = mid_east_egyptian_1
-		3 = mid_east_egyptian_2
-		3 = mid_east_egyptian_3
-		3 = mid_east_egyptian_4
-		3 = mid_east_egyptian_5
-		3 = mid_east_egyptian_6
-		3 = mid_east_egyptian_7
-		3 = mid_east_egyptian_8
-		3 = mid_east_egyptian_9
-		3 = mid_east_egyptian_10
-		2 = east_african_nubian_01
-		2 = east_african_nubian_02
-		2 = east_african_nubian_03
-		2 = east_african_nubian_04
-		2 = east_african_nubian_05
-		2 = east_african_nubian_06
-		2 = east_african_nubian_07
-		2 = east_african_nubian_08
-		2 = east_african_nubian_09
-		2 = east_african_nubian_10
+		5 = egyptian
+		1 = african
 	}
 }

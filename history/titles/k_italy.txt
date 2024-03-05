@@ -209,7 +209,7 @@ k_italy = {
 		liege = 0
 	}
 	1125.5.23 = {
-		liege=e_hre
+		Sliege=e_hre
 		holder = 30219 # Lothar III von Supplingburg
 	}
 	1128.1.1 = {

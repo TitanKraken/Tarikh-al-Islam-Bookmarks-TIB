@@ -6986,6 +6986,272 @@ ibn_mamdud = { # Just to complete Sultan Qutuz's lineage
 #		death = "1349.1.1"
 #	}
 #}
+93210 = {
+	name = "Ayayr"
+	dynasty = 7334
+	religion = "ashari"
+	culture = "turkish"
+	father = 93209
+	1122.1.1 = {
+		birth = "1122.1.1"
+	}
+	1170.1.1 = {
+		death = "1170.1.1"
+	}
+}
+
+93211 = {
+	name = "Surkhab"
+	dynasty = 7334
+	religion = "ashari"
+	culture = "turkish"
+	father = 93210
+	1150.1.1 = {
+		birth = "1150.1.1"
+	}
+	1184.1.1 = {
+		death = "1184.1.1"
+	}
+}
+
+93212 = {
+	name = "Shoja_ad-Din" #really was a 100 years old
+	dynasty = 7334
+	religion = "ashari"
+	culture = "turkish"
+	father = 93209
+	1124.1.1 = {
+		birth = "1124.1.1"
+	}
+	1224.1.1 = {
+		death = "1224.1.1"
+	}
+}
+
+93213 = {
+	name = "Saif_ad-Din_Rustam"
+	dynasty = 7334
+	religion = "ashari"
+	culture = "turkish"
+	father = 93212
+	1150.1.1 = {
+		birth = "1150.1.1"
+	}
+	1225.1.1 = {
+		death = "1225.1.1"
+	}
+}
+
+93214 = {
+	name = "Sharaf_ad-Din_Abu_Bakr"
+	dynasty = 7334
+	religion = "ashari"
+	culture = "turkish"
+	father = 93213
+	1170.1.1 = {
+		birth = "1170.1.1"
+	}
+	1227.1.1 = {
+		death = "1227.1.1"
+	}
+}
+
+93215 = {
+	name = "Izz_ad-Din_Garshasp"
+	dynasty = 7334
+	religion = "ashari"
+	culture = "turkish"
+	father = 93214
+	1190.1.1 = {
+		birth = "1190.1.1"
+	}
+	1242.1.1 = {
+		death = "1242.1.1"
+	}
+}
+
+93216 = {
+	name = "Badr_ad-Din"
+	dynasty = 7334
+	religion = "ashari"
+	culture = "turkish"
+	father = 93215
+	1208.1.1 = {
+		birth = "1208.1.1"
+	}
+	1240.1.1 = {
+		death = "1240.1.1"
+	}
+}
+
+93217 = {
+	name = "Husam_ad-Din_Khalil"
+	dynasty = 7334
+	religion = "ashari"
+	culture = "turkish"
+	father = 93216
+	1224.1.1 = {
+		birth = "1224.1.1"
+	}
+	1243.1.1 = {
+		death = "1243.1.1"
+	}
+}
+
+93218 = {
+	name = "Badr_ad-Din_Mas_ud"
+	dynasty = 7334
+	religion = "ashari"
+	culture = "turkish"
+	father = 93216
+	1225.1.1 = {
+		birth = "1225.1.1"
+	}
+	1259.1.1 = {
+		death = "1259.1.1"
+	}
+}
+
+93219 = {
+	name = "Hasi_ad-Din"
+	dynasty = 7334
+	religion = "ashari"
+	culture = "turkish"
+	father = 93218
+	1245.1.1 = {
+		birth = "1245.1.1"
+	}
+	1262.1.1 = {
+		death = "1262.1.1"
+	}
+}
+
+93220 = {
+	name = "Tadj_ad-Din"
+	dynasty = 7334
+	religion = "ashari"
+	culture = "turkish"
+	father = 93218
+	1246.1.1 = {
+		birth = "1246.1.1"
+	}
+	1278.1.1 = {
+		death = "1278.1.1"
+	}
+}
+
+93221 = {
+	name = "Izz_ad-Din_Husayn"
+	dynasty = 7334
+	religion = "ashari"
+	culture = "turkish"
+	father = 93220
+	1262.1.1 = {
+		birth = "1262.1.1"
+	}
+	1293.1.1 = {
+		death = "1293.1.1"
+	}
+}
+
+93222 = {
+	name = "Djamal_ad-Din_Khidr"
+	dynasty = 7334
+	religion = "ashari"
+	culture = "turkish"
+	father = 93220
+	1263.1.1 = {
+		birth = "1263.1.1"
+	}
+	1294.1.1 = {
+		death = "1294.1.1"
+	}
+}
+
+93223 = {
+	name = "Husam_ad-Din_Umar"
+	dynasty = 7334
+	religion = "ashari"
+	culture = "turkish"
+	father = 93220
+	1264.1.1 = {
+		birth = "1264.1.1"
+	}
+	1295.1.1 = {
+		death = "1295.1.1"
+	}
+}
+
+93224 = {
+	name = "Samsam_ad-Din_Mahmud"
+	dynasty = 7334
+	religion = "ashari"
+	culture = "turkish"
+	father = 93221
+	1278.1.1 = {
+		birth = "1278.1.1"
+	}
+	1296.1.1 = {
+		death = "1296.1.1"
+	}
+}
+
+93225 = {
+	name = "Izz_ad-Din_Ahmad"
+	dynasty = 7334
+	religion = "ashari"
+	culture = "turkish"
+	father = 93221
+	1279.1.1 = {
+		birth = "1279.1.1"
+	}
+	1316.1.1 = {
+		death = "1316.1.1"
+	}
+}
+
+93226 = {
+	name = "Badr_ad-Din_Mas_ud"
+	dynasty = 7334
+	religion = "ashari"
+	culture = "turkish"
+	father = 93221
+	1280.1.1 = {
+		birth = "1280.1.1"
+	}
+	1316.7.1 = {
+		death = "1316.7.1"
+	}
+}
+
+93227 = {
+	name = "Izz_ad-Din_Husayn"
+	dynasty = 7334
+	religion = "ashari"
+	culture = "turkish"
+	father = 93226
+	1300.1.1 = {
+		birth = "1300.1.1"
+	}
+	1348.1.1 = {
+		death = "1348.1.1"
+	}
+}
+
+93228 = {
+	name = "Shoja_ad-Din_Mahmud"
+	dynasty = 7334
+	religion = "ashari"
+	culture = "turkish"
+	father = 93227
+	1320.1.1 = {
+		birth = "1320.1.1"
+	}
+	1349.1.1 = {
+		death = "1349.1.1"
+	}
+}
+
 93241 = {
 	name = "Boz-Aba"
 	dynasty = 7335
@@ -12340,7 +12606,7 @@ asporca_hatun = {
 
 turkish0001 = {
 	name = "Qara-Arslan_Bori" #Son of Musa Yabghu, emir of Sistan
-	dynasty_house = house_seljuk
+	dynasty_house = house_oghuzSeljuks
 	religion = "maturidi"
 	culture = turkish #turkmen
 	father = 1000229901
@@ -12353,7 +12619,7 @@ turkish0001 = {
 }
 turkish0002 = {
 	name = "Toghan-Shah" #son of Chaghri Beg, in Herat
-	dynasty_house = house_seljuk
+	dynasty_house = house_oghuzSeljuks
 	religion = "maturidi"
 	culture = turkish #turkmen
 	father = 3036
@@ -12767,7 +13033,7 @@ extra_turks_0003 = { #historical, former vice governor of Mosul, but dismissed d
 
 extra_seljuks_1 = {
 	name = "Sifri"	
-	dynasty_house = house_seljuk
+	dynasty_house = house_oghuzSeljuks
 	culture = "turkish"
 	religion = "maturidi"	
 	father = 3040
@@ -12788,7 +13054,7 @@ extra_seljuks_1 = {
 
 extra_seljuks_2 = {
 	name = "Zuleikha"	
-	dynasty_house = house_seljuk
+	dynasty_house = house_oghuzSeljuks
 	culture = "turkish"
 	religion = "maturidi"	
 	father = 3040
@@ -12809,7 +13075,7 @@ extra_seljuks_2 = {
 
 extra_seljuks_3 = {
 	name = "Togrul"	
-	dynasty_house = house_seljuk
+	dynasty_house = house_oghuzSeljuks
 	culture = "turkish"
 	religion = "maturidi"	
 	father = 3040

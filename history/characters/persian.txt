@@ -1,7 +1,7 @@
 ﻿6896 = {
 	name = "Mahmud" # Fantasy
 	dynasty = 855
-	religion = ashari
+	religion = mutazila
 	culture = "persian"
 	845.1.1 = {
 		birth = yes
@@ -14,7 +14,7 @@
 6897 = {
 	name = "Farroukh" # Fantasy
 	dynasty = 856
-	religion = ashari
+	religion = mutazila
 	culture = "persian"
 	840.1.1 = {
 		birth = yes
@@ -420,9 +420,11 @@
 	}
 }
 
+
 3050 = {
 	name = "Hassan"
-	dynasty = 1000101807
+	dynasty = persian_tusi
+	father = extra_tusids_1
 	martial = 6
 	diplomacy = 7
 	intrigue = 8
@@ -434,22 +436,56 @@
 	trait = scholar
 	trait = ambitious
 	trait = just
+	trait = loyal
 	trait = education_diplomacy_4
-	father = 1235922
 	1018.4.10 = {
 		birth = yes
 	}
-	#1063.9.5 = {
-	#	employer = 3040
-	#}
-	1064.1.1 = {
-		add_spouse = 1234551 #Her repudiation by Alp Arslan happened no earlier than 1063. And he was very active in the Caucasus in the late 1050'ies and the early 1060'ies, so it was likely a very short marriage
+	1063.9.5 = { give_nickname = nick_order_of_the_realm }
+	1066.1.1 = {
+		employer = 3040
+		effect  = {
+			# Set up some mutual respect for a good working arrangement.
+			## A solid lil relationship, though they do actually share very similar traits regardless.
+			set_relation_friend = {
+				target = character:3040
+				reason = friend_generic_history
+			}
+			## But also let's reinforce the hell out of it.
+			add_opinion = {
+				target = character:3040
+				modifier = respect_opinion
+				opinion = 100
+			}
+			reverse_add_opinion = {
+				target = character:3040
+				modifier = respect_opinion
+				opinion = 100
+			}
+		}
 	}
 	1092.10.14 = {
-		death = {
-			death_reason = death_murder
-			killer = 1229906
-		}
+		death = "1092.10.14"
+	}
+}
+
+41606 = {
+	name = "Shariyar" # IV
+	# AKA: Husam ud
+	dynasty_house = house_bavandid
+	martial = 3
+	diplomacy = 2
+	intrigue = 7
+	stewardship = 4
+	religion = "ismaili"
+	culture = "persian"
+	trait = education_stewardship_2
+	father = 20704
+	1057.1.1 = {
+		birth = yes
+	}
+	1114.1.1 = {
+		death = "1114.1.1"
 	}
 }
 
@@ -1952,6 +1988,341 @@ Kartid1 = {
 	}
 }
 
+extra_saffarids_1 = {
+	name = "Mahan" #Father of the Dynasty
+	dynasty = 812 #Saffarid
+	religion = "ashari"
+	culture = "persian"
+	760.1.1 = {
+		birth = yes
+	}
+	850.5.6 = {
+		death = yes
+	}
+}
+
+extra_saffarids_2 = {
+	name = "Hatim"
+	dynasty = 812 #Saffarid
+	religion = "ashari"
+	culture = "persian"
+	father = extra_saffarids_1
+	782.1.1 = {
+		birth = yes
+	}
+	850.5.6 = {
+		death = yes
+	}
+}
+
+extra_saffarids_3 = {
+	name = "Mu_addal" #Mu'addal
+	dynasty = 812 #Saffarid
+	religion = "ashari"
+	culture = "persian"
+	father = extra_saffarids_2
+	800.1.1 = {
+		birth = yes
+	}
+	863.1.1 = {
+		death = yes
+	}
+}
+
+
+extra_saffarids_4 = {
+	name = "Salim" #Salim or Sulayman - secondary Saffarid Branch "the Khalafids"
+	dynasty = 812 #Saffarid
+	religion = "ashari"
+	culture = "persian"
+	father = extra_saffarids_1
+	802.1.1 = {
+		birth = yes
+	}
+	850.1.1 = {
+		death = yes
+	}
+}
+
+extra_saffarids_5 = {
+	name = "Farqad"
+	dynasty = 812 #Saffarid
+	religion = "ashari"
+	culture = "persian"
+	father = extra_saffarids_4
+	818.1.1 = {
+		birth = yes
+	}
+	870.1.1 = {
+		death = yes
+	}
+}
+
+extra_saffarids_6 = {
+	name = "Layth"
+	dynasty = 812 #Saffarid
+	religion = "ashari"
+	culture = "persian"
+	father = extra_saffarids_5
+	836.1.1 = {
+		birth = yes
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+
+extra_saffarids_7 = {
+	name = "Zuhayr"
+	dynasty = 812 #Saffarid
+	religion = "ashari"
+	culture = "persian"
+	father = extra_saffarids_5
+	838.1.1 = {
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+
+extra_saffarids_8 = {
+	name = "Yahya"
+	dynasty = 812 #Saffarid
+	religion = "ashari"
+	culture = "persian"
+	father = extra_saffarids_7
+	857.1.1 = {
+		birth = yes
+	}
+	892.1.1 = {
+		death = yes
+	}
+}
+
+extra_saffarids_9 = {
+	name = "Azhar"
+	dynasty = 812 #Saffarid
+	religion = "ashari"
+	culture = "persian"
+	father = extra_saffarids_8
+	876.1.1 = {
+		birth = yes
+	}
+	903.1.1 = {
+		death = yes
+	}
+}
+
+extra_saffarids_10 = {
+	name = "Bilal"
+	dynasty = 812 #Saffarid
+	religion = "ashari"
+	culture = "persian"
+	father = extra_saffarids_9
+	896.1.1 = {
+		birth = yes
+	}
+	960.1.1 = {
+		death = yes
+	}
+}
+
+extra_saffarids_29 = {
+	name = "Husayn"
+	dynasty = 812 #Saffarid
+	religion = "ashari"
+	culture = "persian"
+	father = extra_saffarids_10
+	918.1.1 = {
+		birth = yes
+	}
+	975.1.1 = {
+		death = yes
+	}
+}
+
+extra_saffarids_11 = {
+	name = "Muhammad"
+	dynasty = 812 #Saffarid
+	religion = "ashari"
+	culture = "persian"
+	father = extra_saffarids_10
+	919.1.1 = {
+		birth = yes
+	}
+	982.1.1 = {
+		death = yes
+	}
+}
+
+#Start of descendants of Layth in the Khalafid Branch
+
+extra_saffarids_12 = { 
+	name = "Khalaf"
+	dynasty = 812 #Saffarid
+	religion = "ashari"
+	culture = "persian"
+	father = extra_saffarids_6
+	856.1.1 = {
+		birth = yes
+	}
+	892.1.1 = {
+		death = yes
+	}
+}
+
+extra_saffarids_13 = { 
+	name = "Muhammad"
+	dynasty_house = house_khalafid
+	religion = "ashari"
+	culture = "persian"
+	father = extra_saffarids_12
+	880.1.1 = {
+		birth = yes
+	}
+	925.1.1 = {
+		death = yes
+	}
+}
+
+saffarid_07 = {
+	name = "Ahmad"
+	dynasty_house = house_khalafid
+	religion = "ashari"
+	culture = "persian"
+	father = extra_saffarids_13
+	trait = generous
+	trait = ambitious
+	trait = education_learning_3
+	906.6.21 = {
+		birth = yes
+	}
+	963.1.1 = {
+		effect = {
+			add_gold = 300
+		}
+	}
+	963.3.31 = {
+		death = yes
+	}
+}
+
+extra_saffarids_14 = { 
+	name = "Khalaf"
+	dynasty_house = house_khalafid
+	religion = "ashari"
+	culture = "persian"
+	father = saffarid_07
+	trait = education_learning_4
+	937.11.15 = {
+		birth = yes
+	}
+	1009.3.1 = {
+		death = yes
+	}
+}
+
+extra_saffarids_15 = { 
+	name = "Abu_Nasr"
+	dynasty_house = house_khalafid
+	religion = "ashari"
+	culture = "persian"
+	father = extra_saffarids_14
+	960.1.1 = {
+		birth = yes
+	}
+	1040.1.1 = { 
+		death = yes
+	}
+}
+
+extra_saffarids_16 = { 
+	name = "Abu_al-Fadl"
+	dynasty_house = house_khalafid
+	religion = "ashari"
+	culture = "persian"
+	father = extra_saffarids_14
+	962.1.1 = {
+		birth = yes
+	}
+	1030.1.1 = { 
+		death = yes
+	}
+}
+
+extra_saffarids_17 = { 
+	name = "Amr"
+	dynasty_house = house_khalafid
+	religion = "ashari"
+	culture = "persian"
+	father = extra_saffarids_14
+	963.1.1 = {
+		birth = yes
+	}
+	994.1.1 = {
+		death = yes
+	}
+}
+
+extra_saffarids_18 = { 
+	name = "Tahir"
+	dynasty_house = house_khalafid
+	religion = "ashari"
+	culture = "persian"
+	father = extra_saffarids_14
+	965.1.1 = {
+		birth = yes
+	}
+	1000.1.1 = {
+		death = yes
+	}
+}
+
+extra_saffarids_19 = { 
+	name = "Fatima"
+	dynasty_house = house_khalafid
+	religion = "ashari"
+	culture = "persian"
+	female = yes
+	father = extra_saffarids_14
+	967.1.1 = {
+		birth = yes
+	}
+	1020.1.1 = {
+		death = yes
+	}
+}
+
+extra_saffarids_20 = { 
+	name = "Abu_Hafs"
+	dynasty_house = house_khalafid
+	religion = "ashari"
+	culture = "persian"
+	father = extra_saffarids_14
+	969.1.1 = {
+		birth = yes
+	}
+	1060.1.1 = {
+		death = yes
+	}
+}
+
+extra_saffarids_21 = { 
+	name = "Abu_Bakr"
+	dynasty_house = house_khalafid
+	religion = "ashari"
+	culture = "persian"
+	mother = extra_saffarids_19
+	988.1.1 = {
+		birth = yes
+	}
+	1069.1.1 = {
+		death = yes
+	}
+}
+
+#Start of the Main/First Saffarid Branch
 163163 = {
 	name = "Layth"
 	dynasty = 812
@@ -2823,27 +3194,33 @@ Kartid1 = {
 188646 = {
 	name = "Jafar"
 	dynasty = 1042125 # Barmakid
-	religion = "ashari"
+	religion = ashari
 	culture = "persian"
 	father = 188644
 	767.1.1 = {
 		birth = yes
 	}
-	803.1.1 = {
-		death = yes
+	790.1.1 = {
+		religion = "mutazila"
+	}
+	803.4.3 = {
+		death = {
+			death_reason = death_execution
+			killer = 34005
+		}
 	}
 }
 
 188647 = {
 	name = "Musa"
 	dynasty = 1042125 # Barmakid
-	religion = "ashari"
+	religion = mutazila
 	culture = "persian"
 	father = 188644
 	768.1.1 = {
 		birth = yes
 	}
-	810.1.1 = {
+	835.3.2 = {
 		death = yes
 	}
 }
@@ -5040,6 +5417,32 @@ Kartid1 = {
 #		death = yes
 #	}
 #}
+extra_tusids_1 = {
+	name = "Ali"
+	dynasty = persian_tusi
+	religion = ashari
+	father = extra_tusids_2
+	culture = "persian"
+	985.5.1 = {
+		birth = yes
+	}
+	1045.3.5 = {
+		death = yes
+	}
+}
+
+extra_tusids_2 = {
+	name = "Ishaq"
+	dynasty = persian_tusi
+	religion = ashari
+	culture = "persian"
+	961.1.20 = {
+		birth = yes
+	}
+	1011.3.9 = {
+		death = yes
+	}
+}
 
 #Saffarids of Sistan
 1000230510 = {

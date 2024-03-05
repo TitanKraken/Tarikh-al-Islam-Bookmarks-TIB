@@ -282,6 +282,368 @@
 		}
 	}
 }
+#Guido, son of Ardonio, attested 1270(so there must have been a Ardonio II,)
+#-08 reserved
+###################################
+#da Reggio
+###################################
+1062109 = { #Caco da reggio. Leader of the ghibelines of Reggio, murderd 1265.
+	name="Caco"
+	dynasty=1000020076 
+	religion="catholic"
+	culture="italian"
+	1220.1.1 = {
+		birth=yes
+	}
+	1265.1.1 = {
+		death=yes 
+	}
+}
+#############################################################################
+#Rossi
+############################################################################# 
+#Signori e conti di Berceto/Berta, Parma e San Secondo. patricians of Parma. ghibeline tendencies.
+1062125 = { #Orlando first attested member, died before 1174. signore di San secondo. attested 1147, 1164 and 1170
+	name="Orlando"
+	dynasty=101841
+	religion="catholic"
+	culture="cisalpine"
+	trait=education_martial_3
+	1100.1.1 = {
+		birth=yes
+	}
+	1171.1.1 = {
+		death=yes 
+	}
+}
+1062126 = { #Bernardo, son of Orlando. attested 1164, Signore di Gazzano.
+	name="Bernardo"
+	dynasty=101841
+	religion="catholic"
+	culture="cisalpine"
+	trait=education_diplomacy_2
+	father=1062125
+	1120.1.1 = {
+		birth=yes
+	}
+	1179.1.1 = {
+		death=yes 
+	}
+}
+1062127 = { #Sigifredo, son of Bernardo attested 1184 as consul of Parma
+	name="Sigifredo"
+	dynasty=101841
+	religion="catholic"
+	culture="cisalpine"
+	trait=education_martial_2
+	father=1062126
+	1152.1.1 = {
+		birth=yes
+	}
+	1196.1.1 = {
+		death=yes 
+	}
+}
+1062128 = { #Orlando, son of Bernardo. podesta di Parma, 1180, 1182, 1198, 1199, and 1201. also podesta di bologna in 1200 and Modena 1207 and 1212, podesta of cremona 1213.
+	name="Orlando"
+	dynasty=101841
+	religion="catholic"
+	culture="cisalpine"
+	trait=education_martial_2
+	father=1062126
+	1151.1.1 = {
+		birth=yes
+	}
+	1214.1.1 = {
+		death=yes 
+	}
+}
+1062129 = { #Bernardo, son of Orlando. podesta of Modena 1213, 1214 and 1226. Podesta of siena 1224, Cremona 1230, Asti 1231, Arezzo 1235, Firenze 1236(and 1244?), Bergamo, 1238, Mantua 1239 and Parma 1247-1250 . married Maddalena Fieschi in 1224. last attested 1251. Initally a prominent ghibeline, but when his wife's relative became pope his alligiance switched.
+	name="Bernardo"
+	dynasty=101841
+	religion="catholic"
+	culture="cisalpine"
+	trait=education_diplomacy_1
+	father=1062128
+	1183.1.1 = {
+		birth=yes
+	}
+	1210.1.1 = {
+		add_spouse=cisalpine0839
+	}
+	1251.1.1 = {
+		death=yes 
+	}
+}
+1062130 = { #Orlando, son of bernardo, podesta di Siena 1277.
+	name="Orlando"
+	dynasty=101841
+	religion="catholic"
+	culture="cisalpine"
+	trait=education_stewardship_1
+	father=1062129
+	mother=cisalpine0839
+	1225.1.1 = {
+		birth=yes
+	}
+	1279.1.1 = {
+		death=yes 
+	}
+}
+1062131 = { #Giacomo, son of bernardo. Podesta di Mantova 1264, capitano di Popoli of Modena 1274.
+	name="Giacomo"
+	dynasty=101841
+	religion="catholic"
+	culture="cisalpine"
+	trait=education_martial_1
+	father=1062129
+	mother=cisalpine0839
+	1213.1.1 = {
+		birth=yes
+	}
+	1275.1.1 = {
+		death=yes 
+	}
+}
+1062132 = { #Ugolino, son of Giacomo. Podesta di Lucca, 1282, 1295 and 1302. podesta of Perugia(when?), Milano 1285 and Modena 1286. married Elena Cavalcabò, daughter di Cavalcabò Cavalcabò Signore di Viadana
+	name="Ugolino"
+	dynasty=101841
+	religion="catholic"
+	culture="cisalpine"
+	trait=education_martial_2
+	father=1062131
+	1236.1.1 = {
+		birth=yes
+	}
+	1305.1.1 = {
+		death=yes 
+	}
+}
+1062133 = { #Andreasio, son of Ugolino. podesta of Piacenza 1325, bassano 1340, Bergamo 1349 and Firenze 1350. married Vannina Sanvitale, daughter of Gian Quirico Sanvitale, signore di Belforte and Podesta of Parma and Antonia da Corregio.
+	name="Andreasio"
+	dynasty=101841
+	religion="catholic"
+	culture="cisalpine"
+	trait=education_stewardship_2
+	father=1062132
+	1280.1.1 = {
+		birth=yes
+	}
+	1355.1.1 = {
+		death=yes 
+	}
+}
+1062134 = { #Bernardo, son of ugolino. Married Alessandra Ruggeri di Felino.
+	name="Bernardo"
+	dynasty=101841
+	religion="catholic"
+	culture="cisalpine"
+	trait=education_stewardship_1
+	father=1062132
+	1269.1.1 = {
+		birth=yes
+	}
+	1332.1.1 = {
+		death=yes 
+	}
+}
+1062135 = { #Ugolino, son of Bernardo. attested 1344. signore di felino
+	name="Ugolino"
+	dynasty=101841
+	religion="catholic"
+	culture="cisalpine"
+	trait=education_diplomacy_1
+	father=1062134
+	1294.1.1 = {
+		birth=yes
+	}
+	1361.1.1 = {
+		death=yes 
+	}
+}
+1062143 = { #Maddalena, daughter of bernardo. Married Giacomo di Sanvitale. attested 1305
+	name="Maddalena"
+	dynasty=101841
+	religion="catholic"
+	culture="cisalpine"
+	father=1062129
+	mother=cisalpine0839
+	female=yes
+	1229.1.1 = {
+		birth=yes
+	}
+	1310.1.1 = {
+		death=yes 
+	}
+}
+1062144 = { # Guglielmo, son of Giacomo. Podesta di Modena 1281, Milano 1284, Lucca 1290, Bologna 1291, Lucca again in 1293. Signore di San Secondo. Was Knighted by the count of Lavagna in 1282. Married Donella da Carrera daughter of Pietro signore di Padova in 1282.
+	name="Guglielmo"
+	dynasty=101841
+	religion="catholic"
+	culture="cisalpine"
+	trait=education_martial_3
+	father=1062131
+	1240.1.1 = {
+		birth=yes
+	}
+	1329.1.1 = {
+		death=yes 
+	}
+}
+1062145 = { # Rolando, son of Guglielmo. Conte di Berceto, signore di San Secondo. Imperial vicar of Parma 1329-1331 and Lucca 1333. last attested 1345, married Agnese Ruggeri, daughter of Guido di Felino.
+	name="Rolando"
+	dynasty=101841
+	religion="catholic"
+	culture="cisalpine"
+	trait=education_martial_2
+	father=1062144
+	1260.1.1 = {
+		birth=yes
+	}
+	1345.1.1 = {
+		death=yes 
+	}
+}
+1062146 = { # Bertrando, son of Rolando. Signore di Felino.
+	name="Bertrando"
+	dynasty=101841
+	religion="catholic"
+	culture="cisalpine"
+	trait=education_stewardship_2
+	father=1062145
+	1300.1.1 = {
+		birth=yes
+	}
+	1350.1.1 = {
+		death=yes 
+	}
+}
+1062147 = { # Giacomo, son of Rolando. Conte di San Secondo, signore di Felino 1355
+	name="Giacomo"
+	dynasty=101841
+	religion="catholic"
+	culture="cisalpine"
+	trait=education_stewardship_3
+	father=1062145
+	1310.1.1 = {
+		birth=yes
+	}
+	1400.1.1 = {
+		death=yes 
+	}
+}
+1062148 = { # Pietro, son of Guglielmo. Conte di Berceto, knighted by John of Luxembourg. Imperial vicar of Parma 1329 and lucca 1333. married Ginella Fieschi, daughter of Carlo Fieschi.
+	name="Pietro"
+	dynasty=101841
+	religion="catholic"
+	culture="cisalpine"
+	trait=lustful
+	trait=education_martial_2
+	father=1062144
+	1262.1.1 = {
+		birth=yes
+	}
+	1319.1.1 = {
+		add_spouse=cisalpine0911
+	}
+	1338.1.1 = {
+		death=yes 
+	}
+}
+###################################
+1062136 = { #Sigifredo son of Orlando I. Signore di Gazzano. attested. died 1176
+	name="Sigifredo"
+	dynasty=101841
+	religion="catholic"
+	culture="cisalpine"
+	trait=education_martial_2
+	father=1062125
+	1122.1.1 = {
+		birth=yes
+	}
+	1176.1.1 = {
+		death=yes 
+	}
+}
+1062137 = { #Bernardo, son of Sigefredo. signore di Gazzano attested 1176.
+	name="Bernardo"
+	dynasty=101841
+	religion="catholic"
+	culture="cisalpine"
+	father=1062136
+	1140.1.1 = {
+		birth=yes
+	}
+	1196.1.1 = {
+		death=yes 
+	}
+}
+1062138 = { #Sigifredo, of Bernardo. signore di Gazzano. consul of Parma 1197.
+	name="Sigifredo"
+	dynasty=101841
+	religion="catholic"
+	culture="cisalpine"
+	father=1062137
+	1158.1.1 = {
+		birth=yes
+	}
+	1196.1.1 = {
+		death=yes 
+	}
+}
+1062139 = { #Ugo il Vecchio. son of Sigifredo. Podesta di Modena 1209 and Verona 1240. conte di romagna, parma e Berta(Berceto) in 1227
+	name="Ugolino"
+	dynasty=101841
+	religion="catholic"
+	culture="cisalpine"
+	father=1062138
+	1179.1.1 = {
+		birth=yes
+	}
+	1242.1.1 = {
+		death=yes 
+	}
+}
+1062140 = { #Orlando, son of Ugo, podesta of Cremona 1224, Pavia 1227, modena 1233, Rimini 1234 and Mantova 1238.
+	name="Orlando"
+	dynasty=101841
+	religion="catholic"
+	culture="cisalpine"
+	father=1062139
+	1198.1.1 = {
+		birth=yes
+	}
+	1239.1.1 = {
+		death=yes 
+	}
+}
+1062141 = { #Giacomo, son of Orlando. podesta of Reggio 1266 and Padova 1277.
+	name="Giacomo"
+	dynasty=101841
+	religion="catholic"
+	culture="cisalpine"
+	father=1062140
+	1223.1.1 = {
+		birth=yes
+	}
+	1280.1.1 = {
+		death=yes 
+	}
+}
+1062142 = { #Ugolino, son of ugo, podesta di Ferrara 1227, cremona 1237, Pisa 1242 and Firenze 1243. Conte di Romagna 1243. signore di Berceto.
+	name="Ugolino"
+	dynasty=101841
+	religion="catholic"
+	culture="cisalpine"
+	father=1062139
+	1203.1.1 = {
+		birth=yes
+	}
+	1260.1.1 = {
+		death=yes 
+	}
+}
+#49 reserved
 ###################################
 #Adelardi/Marcheselli
 ###################################
@@ -4364,5 +4726,724 @@
 	}
 	1302.1.1={
 		death=yes
+	}
+}
+
+########
+#Prince-Bishop of Trent - not much info available
+########
+1167126 = {
+	name="Udalrich"
+	religion="catholic"
+	culture="lombard"
+	983.1.1 = {
+		birth=yes
+	}
+	1055.1.1 = {
+		death=yes 
+	}
+}
+1167127 = {
+	name="Argyritzus" #Medlands actually have an entry for Melus and his family. A mention of him in Lupus Protospatharius, Argirichi filii Ioannaci. If he is of the same line as Argyros, Ioannakes is likely to be the same person as the very famous Argyrus
+	dynasty=1000035581
+	religion="catholic"
+	culture="lombard"
+	father=1167125
+	1037.1.1 = {
+		birth=yes
+	}
+	1085.1.1 = {
+		death=yes 
+	}
+}
+1227501 = {
+	name="Mabilia"
+	female=yes
+    dynasty_house=house_lampertidi
+	religion="catholic"
+	culture="lombard"
+	father=30858
+	mother=1167113
+	1063.1.1 = {
+		birth=yes
+	}
+	1126.1.1 = {
+		death=yes
+	}
+}
+1227502 = {
+	name="Sica"
+	female=yes
+    dynasty_house=house_lampertidi
+	religion="catholic"
+	culture="lombard"
+	father=30858
+	mother=1167113
+	1065.1.1 = {
+		birth=yes
+	}
+	1120.1.1 = {
+		death=yes
+	}
+}
+1227503 = {
+	name="Sichelgarda"
+	female=yes
+    dynasty_house=house_lampertidi
+	religion="catholic"
+	culture="lombard"
+	father=30858
+	mother=1167113
+	1067.1.1 = {
+		birth=yes
+	}
+	1124.1.1 = {
+		death=yes
+	}
+}
+1227504 = {
+	name="Adenolfo" # Adenolfo, son of Tommaso I, imperial capitano generale of Lombardy
+	dynasty=8682 #di Aquino
+	religion="catholic"
+	culture="neapolitan"
+	father=1167122
+	1199.1.1 = {
+		birth=yes
+	}		
+	1243.1.1 = {
+		death=yes
+	}
+}
+1227505 = {
+	name="Tommaso" # Tommasso II, son of Adenolfo, conte di Accera 1251-1273
+	dynasty=8682 #di Aquino
+	martial=8
+	diplomacy=6
+	intrigue=5
+	stewardship=6
+	religion="catholic"
+	culture="neapolitan"
+	trait=education_martial_2
+	trait=gregarious
+	father=1227504
+	1222.1.1 = {
+		birth=yes
+	}
+	1244.1.1 = {
+		add_spouse=30763
+	}	
+	1273.3.15 = {
+		death=yes
+	}
+}
+1227506 = {
+	name="Cubitosa"
+	female=yes
+	dynasty=8682 #di Aquino
+	martial=7
+	diplomacy=5
+	intrigue=7
+	stewardship=6
+	religion="catholic"
+	culture="neapolitan"
+	trait=education_intrigue_3
+	trait=arrogant
+	father=1227505
+	mother=30763
+	1244.1.1 = {
+		birth=yes
+	}	
+	1309.1.1 = {
+		death=yes
+	}
+}
+1227507 = {
+	name="Adenolfo" # Adenolfo IV, conte di Accera
+	dynasty=8682 #di Aquino
+	martial=5
+	diplomacy=6
+	intrigue=6
+	stewardship=5
+	religion="catholic"
+	culture="neapolitan"
+	trait=humble
+	trait=education_learning_1
+	father=1227505
+	mother=30763
+	1250.1.1 = {
+		birth=yes
+	}
+	1263.1.1 = {
+		add_spouse=71002
+	}
+	1293.11.22 = {
+		death=yes
+	}
+}
+1227508 = {
+	name="Cristoforo"
+	dynasty=8682 #di Aquino
+	religion="catholic"
+	culture="neapolitan"
+	father=1227505
+	mother=30763
+	1254.1.1 = {
+		birth=yes
+	}	
+	1298.1.1 = {
+		death=yes
+	}
+}
+1227509 = {
+	name="Giovanna"
+	female=yes
+	dynasty=8682 #di Aquino
+	religion="catholic"
+	culture="neapolitan"
+	father=1227505
+	mother=30763
+	1245.1.1 = {
+		birth=yes
+	}	
+	1300.8.1 = {
+		death=yes
+	}
+}
+1227510 = {
+	name="Landolfo"
+	dynasty=8682 #di Aquino
+	religion="catholic"
+	culture="neapolitan"
+	father=1227505
+	mother=30763
+	1258.1.1 = {
+		birth=yes
+	}	
+	1299.1.1 = {
+		death=yes
+	}
+}
+1227511 = {
+	name="Isabella"
+	female=yes
+	dynasty=8682 #di Aquino
+	religion="catholic"
+	culture="neapolitan"
+	father=1227505
+	mother=30763
+	1260.1.1 = {
+		birth=yes
+	}	
+	1303.1.1 = {
+		death=yes
+	}
+}
+1227512 = {
+	name="Enrico"
+	dynasty=8682 #di Aquino
+	religion="catholic"
+	culture="neapolitan"
+	father=1227505
+	mother=30763
+	1260.1.1 = {
+		birth=yes
+	}	
+	1294.1.1 = {
+		death=yes
+	}
+}
+1227513 = {
+	name="Giacopo"
+	dynasty=8682 #di Aquino
+	religion="catholic"
+	culture="neapolitan"
+	father=1227504
+	1233.1.1 = {
+		birth=yes
+	}	
+	1306.1.1 = {
+		death=yes
+	}
+}
+1227514 = {
+	name="Federico"
+	dynasty=8682 #di Aquino
+	religion="catholic"
+	culture="neapolitan"
+	father=1227513
+	1251.1.1 = {
+		birth=yes
+	}	
+	1266.1.1 = {
+		death=yes
+	}
+}
+1227515 = {
+	name="Tommaso"
+	dynasty=8682 #di Aquino
+	religion="catholic"
+	culture="neapolitan"
+	father=1227513
+	1252.1.1 = {
+		birth=yes
+	}	
+	1284.6.1 = {
+		death=yes
+	}
+}
+1227516 = {
+	name="Giacopo"
+	dynasty=8682 #di Aquino
+	religion="catholic"
+	culture="neapolitan"
+	father=1227515
+	1270.1.1 = {
+		birth=yes
+	}	
+	1306.1.6 = {
+		death=yes
+	}
+}
+1227517 = {
+	name="Landolfo"
+	dynasty=8682 #di Aquino
+	religion="catholic"
+	culture="neapolitan"
+	father=1167122
+	1202.1.1 = {
+		birth=yes
+	}		
+	1241.1.1 = {
+		death=yes
+	}
+}
+1227518 = {
+	name="Margherita"
+	female=yes
+	dynasty=8682 #di Aquino
+	religion="catholic"
+	culture="neapolitan"
+	father=1227517
+	1223.1.1 = {
+		birth=yes
+	}		
+	1276.1.1 = {
+		death=yes
+	}
+}
+1227519 = {
+	name="Gentile"
+	dynasty=8682 #di Aquino
+	religion="catholic"
+	culture="neapolitan"
+	father=1227517
+	1225.1.1 = {
+		birth=yes
+	}		
+	1268.8.23 = {
+		death=yes
+	}
+}
+1227520 = {
+	name="Atenulf" #Atenulf III
+	dynasty=8682 #di Aquino
+	religion="catholic"
+	culture="lombard"
+	father=1227521	
+	957.1.1 = {
+		birth=yes
+	}
+	1022.1.1 = {
+		death=yes
+	}
+}
+1227521 = {
+	name="Atenulf" #Atenulf II
+	dynasty=8682 #di Aquino
+	religion="catholic"
+	culture="lombard"
+	926.1.1 = {
+		birth=yes
+	}
+	982.1.1 = {
+		death=yes
+	}
+}
+1227522 = {
+	name="Wido" #Guido I
+	dynasty=8682 #di Aquino
+	religion="catholic"
+	culture="lombard"
+	father=1227521	
+	949.1.1 = {
+		birth=yes
+	}
+	988.1.1 = {
+		death=yes
+	}
+}
+1227523 = {
+	name="Landulf" #Landulf
+	dynasty=8682 #di Aquino
+	religion="catholic"
+	culture="lombard"
+	father=1227521	
+	951.1.1 = {
+		birth=yes
+	}
+	985.1.1 = {
+		death=yes
+	}
+}
+1227524 = {
+	name="Siconulf" #Siconulf
+	dynasty=8682 #di Aquino
+	religion="catholic"
+	culture="lombard"
+	father=1227521	
+	954.1.1 = {
+		birth=yes
+	}
+	1006.1.1 = {
+		death=yes
+	}
+}
+1227525 = {
+	name="Landenulf" #Landenulf I
+	dynasty=8682 #di Aquino
+	religion="catholic"
+	culture="lombard"
+	father=1227524
+	983.1.1 = {
+		birth=yes
+	}
+	1020.1.1 = {
+		death=yes
+	}
+}
+1227526 = {
+	name="Lando" #Landone
+	dynasty=8682 #di Aquino
+	religion="catholic"
+	culture="lombard"
+	father=1227524
+	988.1.1 = {
+		birth=yes
+	}
+	1019.1.1 = {
+		death=yes
+	}
+}
+1227527 = {
+	name="Landulf" #Landulf II
+	dynasty=8682 #di Aquino
+	religion="catholic"
+	culture="lombard"
+	father=1227524
+	990.1.1 = {
+		birth=yes
+	}
+	1019.1.1 = {
+		death=yes
+	}
+}
+1227528 = {
+	name="Lando" #Landone
+	dynasty=8682 #di Aquino
+	religion="catholic"
+	culture="lombard"
+	father=1227522	
+	983.1.1 = {
+		birth=yes
+	}
+	1037.1.1 = {
+		death=yes
+	}
+}
+1227529 = {
+	name="Wido" #Guido II Conte di Pontecorvo
+	dynasty=8682 #di Aquino
+	religion="catholic"
+	culture="lombard"
+	father=1227528	
+	1005.1.1 = {
+		birth=yes
+	}
+	1044.1.1 = {
+		death=yes
+	}
+}
+1227530 = {
+	name="Petrus" #Pietro di Pontecorvo
+	dynasty=8682 #di Aquino
+	religion="catholic"
+	culture="lombard"
+	father=1227528	
+	1008.1.1 = {
+		birth=yes
+	}
+	1033.1.1 = {
+		death=yes
+	}
+}
+1227531 = {
+	name="Ioann" #Giovanni di Pontecorvo
+	dynasty=8682 #di Aquino
+	religion="catholic"
+	culture="lombard"
+	father=1227528	
+	1009.1.1 = {
+		birth=yes
+	}
+	1026.1.1 = {
+		death=yes
+	}
+}
+1227532 = {
+	name="Landolfo"
+	dynasty=8682 #di Aquino
+	religion="catholic"
+	culture="neapolitan"
+	father=1167120 #Missing a generation in CJL's tree
+	1131.1.1 = {
+		birth=yes 
+	}
+	1198.1.1 = {
+		death=yes
+	}
+}
+1227533 = {
+	name="Landulf" #Landulf III
+	dynasty=8682 #di Aquino
+	religion="catholic"
+	culture="lombard"
+	father=1167110
+	1013.1.1 = {
+		birth=yes
+	}
+	1049.2.1 = {
+		death=yes
+	}
+}
+1227534 = {
+	name="Peter" #Peter d'Aquino
+	dynasty=8682 #di Aquino
+	religion="catholic"
+	culture="lombard"
+	father=1167110
+	1016.1.1 = {
+		birth=yes
+	}
+	1054.2.1 = {
+		death=yes
+	}
+}
+1227535 = {
+	name="Siconulf" #Siconulf d'Aquino
+	dynasty=8682 #di Aquino
+	religion="catholic"
+	culture="lombard"
+	father=1167110
+	1017.1.1 = {
+		birth=yes
+	}
+	1047.1.1 = {
+		death=yes
+	}
+}
+1227536 = {
+	name="Rinaldo"
+	dynasty=8682 #di Aquino
+	religion="catholic"
+	culture="lombard"
+	father=1167119 #incomplete records after XI century
+	1105.1.1 = {
+		birth=yes
+	}
+	1145.1.1 = {
+		add_spouse=1230863
+	}	
+	1169.1.1 = {
+		death=yes
+	}
+}
+1227537 = {
+	name="Riccardo" # conte di Accera, attested 1171 and 1196. married Cecilia di Medania(sister to previous count)
+	dynasty=8682 #di Aquino
+	religion="catholic"
+	culture="neapolitan"
+	father=1227536
+	mother=1230863
+	1148.1.1 = {
+		birth=yes
+	}	
+	1197.1.1 = {
+		death=yes
+	}
+}
+1227538 = {
+	name="Sibilla"
+	female=yes
+	martial=5
+	diplomacy=4
+	intrigue=7
+	stewardship=7	
+	dynasty=8682 #di Aquino
+	religion="catholic"
+	culture="neapolitan"
+	trait=temperate
+	trait=education_intrigue_2
+	father=1227536
+	mother=1230863
+	1150.1.1 = {
+		birth=yes
+	}	
+	1205.1.1 = {
+		death=yes
+	}
+}
+1227539 = {
+	name="Cristoforo"
+	dynasty=8682 #di Aquino
+	religion="catholic"
+	culture="neapolitan"
+	father=1227508
+	1273.1.1 = {
+		birth=yes
+	}	
+	1308.1.1 = {
+		death=yes
+	}
+}
+1227540 = {
+	name="Udalrich"
+	religion="catholic"
+	culture="lombard"
+	961.1.1 = {
+		birth=yes
+	}
+	1022.1.1 = {
+		death=yes 
+	}
+}
+1227541 = {
+	name="Jacinta" #Mentioned as Jacinthæ Archyrizzi nobilis filliam. The daughter of the leader of the pro-Norman party in Bari
+	female=yes
+	dynasty=1000035581
+	religion="catholic"
+	culture="lombard"
+	father=1167127
+	1060.1.1 = {
+		birth=yes
+	}
+	1119.1.1 = {
+		death=yes 
+	}
+}
+1227542 = {
+	name="Radoald" #Rodoaldo, Patriarch of Aquileia 964-984
+	religion="catholic"
+	culture="lombard"
+	927.1.1 = {
+		birth=yes
+	}
+	984.1.1 = {
+		death=yes 
+	}
+}
+1227543 = {
+	name="Gaitelgrima"
+	female=yes
+	dynasty=7184
+	religion="catholic"
+	culture="lombard"
+	father=73324
+	983.1.1 = {
+		birth = yes
+	}
+	1035.1.1 = {
+		death = yes
+	}
+}
+1227544 = {
+	name="Ioann"
+	dynasty=100336
+	religion="catholic"
+	culture="lombard"
+	946.1.1 = {
+		birth=yes
+	}	
+	999.10.1 = {
+		death=yes
+	}
+}
+1227545 = {
+	name="Wido"
+	dynasty=100336
+	religion="catholic"
+	culture="lombard"
+	father=1227544	
+	968.1.1 = {
+		birth=yes
+	}	
+	988.1.1 = {
+		death=yes
+	}
+}
+1227546 = {
+	name="Ioann"
+	dynasty=100336
+	religion="catholic"
+	culture="lombard"
+	father=1227544	
+	972.1.1 = {
+		birth=yes
+	}	
+	1031.11.1 = {
+		death=yes
+	}
+}
+1227547 = {
+	name="Lupus" #Lupus, Patriarch of Aquileia 932-944
+	religion="catholic"
+	culture="lombard"
+	898.1.1 = {
+		birth=yes
+	}
+	944.1.1 = {
+		death=yes 
+	}
+}
+1227548 = {
+	name="Lantram" #Bishop of Trent
+	religion="catholic"
+	culture="lombard"
+	904.1.1 = {
+		birth=yes
+	}
+	963.1.1 = {
+		death=yes 
+	}
+}
+1227549 = {
+	name="Arimond" #Bishop of Trent
+	religion="catholic"
+	culture="lombard"
+	930.1.1 = {
+		birth=yes
+	}
+	992.1.1 = {
+		death=yes 
+	}
+}
+1973000 = {
+	name="Raimondo" #Bishop of Trent
+	religion="catholic"
+	culture="lombard"
+	946.1.1 = {
+		birth=yes
+	}
+	1004.1.1 = {
+		death=yes 
 	}
 }

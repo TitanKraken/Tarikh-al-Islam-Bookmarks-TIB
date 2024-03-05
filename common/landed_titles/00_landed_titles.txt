@@ -9585,6 +9585,21 @@ e_byzantium = {
 	k_candar = {
 		color = { 238 79 182 }
 	}
+
+	k_albania = {
+		color = { 149 45 102 }
+	
+		capital = c_dyrrachion # Durrës
+		
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture = culture:arberian
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+	}
 	
 	k_thessalonika = {
 		color = { 175 30 130 }

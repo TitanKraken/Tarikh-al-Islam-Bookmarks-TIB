@@ -2022,9 +2022,9 @@ Aarne:0 "Aarne"
 ########################
 #       FRANKISH       #
 ########################
- arpitan_ce:0 "Arpitan"
- arpitan_ce_prefix:0 "Arpitan"
- arpitan_ce_collective_noun:1 "Arpitans"
+ arpitan:0 "Arpitan"
+ arpitan_prefix:0 "Arpitan"
+ arpitan_collective_noun:1 "Arpitans"
 
  # Languages
  language_arpetan_name:0 "Arpetan"

@@ -173,11 +173,11 @@
  nizari_desc:0 "A rationalist faith that emphasizes reasoning in interpretation of the Quran and hadiths. Being Imam is hereditary, and they trace the line of succession to Ali."
  
  #Zayidi
- zayidi:0 "Zayidism"
- zayidi_adj:0 "Zayidi"
- zayidi_adherent:0 "Zayidi"
- zayidi_adherent_plural:0 "Zayidis"
- zayidi_desc:0 "A true Imam is not infallible, but defined by their struggle against corruption and evil. Zayidis are therefore defined by their belief that Zayd ibn Ali was the rightful successor to the Imamate, due to his rebellion against the Umayyads."
+ zayidi:0 "Zaydism"
+ zayidi_adj:0 "Zaydi"
+ zayidi_adherent:0 "Zaydi"
+ zayidi_adherent_plural:0 "Zaydis"
+ zayidi_desc:0 "A true Imam is not infallible, but defined by their struggle against corruption and evil. Zaydis are therefore defined by their belief that Zayd ibn Ali was the rightful successor to the Imamate, due to his rebellion against the Umayyads."
 
  #Imamism (Twelver)
  imami:0 "Imamism"

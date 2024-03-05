@@ -1,12 +1,17 @@
 ﻿l_english:
  tib_pay_zakat_decisions.0001.t:0 "Pay the Zakat"
- tib_pay_zakat_decisions.0001.desc:0 "It's that time of the year again, to fulfill one of the pillars of Islam, by giving a portion of my wealth to those in need, as part of the covenant between Allah and His believers. In the presence and witness of the local Amil, I've uttered the Niyyat (intention) on my mind, then placed the calculated amount of Zakat into a finely crafted container. The Amil then proceeds to scribe my name on his book of records. \n\n"To whom shall your Zakat funds be send to milord?", said the Amil. I responded..."
+ tib_pay_zakat_decisions.0001.desc:0 "It's that time of the year again, to fulfill one of the pillars of Islam, by giving a portion of my wealth to those in need, as part of the covenant between Allah and His believers. In the presence and witness of the local Amil, I've uttered the Niyyat (intention) on my mind, then placed the calculated amount of zakat into a finely crafted container. The Amil then proceeds to scribe my name on his book of records. \n\n"To whom shall your zakat funds be send to milord?", said the Amil. I responded..."
  tib_pay_zakat_decisions.0001.a:0 "To our liege!"
  tib_pay_zakat_decisions.0001.b:0 "To the Commander of the Faithful!"
+ tib_pay_zakat_decisions.1001.t:0 "Zakat Overdue"
+ tib_pay_zakat_decisions.1001.desc:0 "I have been in deep contemplation recently as to whether if I forgot to meet any sort of responsibility. The silence of my contemplation was then broken when my mufti approached me. "My liege, I come to you with a matter of great importance — a matter of piety and obligation. It concerns the overdue zakat, the sacred duty incumbent upon every faithful Muslim", says the mufti. \n\n"Zakat, you say? I am aware of its significance, o mufti. But surely, the treasury has been allocated to various projects for the betterment of our realm. Is this not sufficient?" I reasoned. The mufti then said, "It is not a matter of doing good deeds my liege, however it is a matter of obligating your basic duty as a Muslim". \n\nIf I don't solve this swiftly, I am definitely going to risk my legitimacy as a Muslim ruler." 
+ tib_pay_zakat_decisions.1001.a:0 "Your words resonate with truth, mufti."
+ tib_pay_zakat_decisions.1001.b:0 "The treasury shall not be depleted to satisfy the demands of religious piety."
+ tib_pay_zakat_decisions.0001_tooltip:0 "You will pay the zakat with the cost based on 0.25% of your total [Concept('gold','wealth')|E]"
 
- will_pay_the_zakat:0 "You will pay the Zakat with the cost based on 0.25% of your total [Concept('gold','wealth')|E]"
+ will_pay_the_zakat:0 "You will pay the zakat with the cost based on 0.25% of your total [Concept('gold','wealth')|E]"
 
- has_zakat_funds:0 "You have Zakat funds in the #e Bayt al-Mal#!"
+ has_zakat_funds:0 "You have zakat funds in the #e Bayt al-Mal#!"
  done_zakat_modifier:0 "Has Paid Zakat"
  
  removed_minor_zakat_value.tt:0 "The #e Bayt al-Mal#! loses #negative_value [gold_i][SCOPE.ScriptValue('minor_gold_value')|0]#!"
@@ -46,7 +51,7 @@
  tib_pay_zakat_decisions.0204.f:0 "On second thought, maybe there are others that are more in need..."
 
  tib_pay_zakat_decisions.0202.t:0 "To Public Welfare"
- tib_pay_zakat_decisions.0210.desc:0 "My #e Steward#! then asked of me, "To whom exactly these funds shall be spent on?""
+ tib_pay_zakat_decisions.0210.desc:0 "My #e Steward#! then asked me, "To whom exactly these funds shall be spent on?""
  tib_pay_zakat_decisions.0202.a:0 "The poor and needy"
  tib_pay_zakat_decisions.0202.b:0 "The travelers"
  will_asnaf_poor_minor_effect:0 "Every county in my [realm|e] will receive financial support for the poor and needy for #V 1 year#!. #P This will increase our popular opinion by #bold 5#!.#!"

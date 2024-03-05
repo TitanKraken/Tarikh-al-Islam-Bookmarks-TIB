@@ -1165,21 +1165,9 @@
 		death = yes
 	}
 }
-1300156 = { 
-	name="Muhammad" #b. Khafaja b. Sufyan b. Sawada, governor of Sicily 869-871
-	dynasty=1000054611
-	religion="ashari"
-	culture="maghrebi"
-	father=6885
-	848.1.1={ #?
-		birth=yes
-	}
-	879.1.1={
-		death={ death_reason=death_murder } #Murdered by his slave soldiers
-	}
-}
+
 1300157 = {
-	name="Qasim Abu-Muhammad" #another brother of Ahmad
+	name="Qasim Abu Muhammad" #another brother of Ahmad
 	dynasty=1027019 #Banu 'l-Azafi
 	religion="ashari"
 	culture="maghrebi"

@@ -1827,3 +1827,44 @@ house_pinos = {
 	name = "dynn_PinO_s"
 	dynasty = 8758 # Berga Dynasty
 }
+
+# FP3
+# Pahlavuni, Arsacid cadets
+house_pahlavuni = {
+	name = "dynn_Pahlavuni"
+	dynasty = 100685 # Arsacid
+}
+
+# Karen-Pahlav, Arsacid cadets
+house_karen_pahlav = {
+	name = "dynn_Karen-Pahlav"
+	dynasty = 100685 # Arsacid
+	forced_coa_religiongroup = "zoroastrian_group"
+}
+
+# Karen, Arsacid cadets via Karen-Pahlav
+house_karen = {
+	name = "dynn_Karen"
+	dynasty = 100685 # Arsacid
+	forced_coa_religiongroup = "zoroastrian_group"
+}
+
+house_khalafid = {
+	name = "dynn_Khalafid" #Persian Khalafids
+	dynasty = 812 #Saffarid 
+}
+
+house_harmaytan = { #The house of Avicenna, the Persian scholar 
+	name = "dynn_Harmaytan"
+	dynasty = persian_avicenna
+}
+
+house_tusi = { #The house of Ferdowsi, the Persian scholar 
+	name = "dynn_Tusi"
+	dynasty = persian_ferdowsi 
+}
+
+house_al_adawiyya = { #the Jazira/Mosul branch of the vast Banu Taghlib dynasty 
+	name = "dynn_al_adawiyya"
+	dynasty = 1042127 #Banu Taghlib
+}

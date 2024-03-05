@@ -3,8 +3,9 @@
 ###c_sanaa
 6276 = {	#SANAA
 	culture = yemeni
-	religion = zayidi
+	religion = ismaili
 	holding = castle_holding
+	740.1.1 = { religion = zayidi } # They year Zayd ibn Ali died
 	867.1.1 = {
 		buildings = {
 			hill_forts_01
@@ -50,8 +51,9 @@
 ###c_najran
 6243 = {	#NAJRAN
 	culture = yemeni
-	religion = zayidi
+	religion = ismaili
 	holding = tribal_holding
+	740.1.1 = { religion = zayidi } # They year Zayd ibn Ali died
 	1066.1.1 = {
 		holding = castle_holding
 	}

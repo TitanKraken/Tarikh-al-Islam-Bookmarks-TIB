@@ -2165,9 +2165,9 @@
 ########################
 #       FRANKISH       #
 ########################
- arpitan_ce: "Arpitan"
- arpitan_ce_prefix: "Arpitan"
- arpitan_ce_collective_noun:1 "Arpitans"
+ arpitan: "Arpitan"
+ arpitan_prefix: "Arpitan"
+ arpitan_collective_noun:1 "Arpitans"
 
  # Languages
  language_arpetan_name: "Arpetan"

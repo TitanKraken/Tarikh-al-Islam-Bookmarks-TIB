@@ -107,7 +107,7 @@
 ##d_savoie ###################################
 ###c_savoie
 2031 = {	#MOUTIERS
-	culture = arpitan_ce
+	culture = arpitan
 	religion = catholic
 	holding = castle_holding
 }
@@ -129,7 +129,7 @@
 
 ###c_aosta
 2039 = {	#AOSTA
-	culture = arpitan_ce
+	culture = arpitan
 	religion = catholic
 	holding = castle_holding
 }
@@ -139,7 +139,7 @@
 
 ###c_geneva
 2035 = {	#GENEVA
-	culture = arpitan_ce
+	culture = arpitan
 	religion = catholic
 	holding = castle_holding
 }
@@ -162,7 +162,7 @@
 
 ###c_canavese
 2040 = {	#IVREA
-	culture = arpitan_ce
+	culture = arpitan
 	religion = catholic
 	holding = castle_holding
 }
@@ -179,7 +179,7 @@
 ##d_dauphine ###################################
 ###c_lyon
 2065 = {	#LYON
-	culture = arpitan_ce
+	culture = arpitan
 	religion = catholic
 	holding = castle_holding
 }
@@ -198,7 +198,7 @@
 
 ###c_forez
 2297 = {	#FEURS
-	culture = arpitan_ce
+	culture = arpitan
 	religion = catholic
 	holding = castle_holding
 }
@@ -224,7 +224,7 @@
 
 ###c_viennois
 2030 = {	#GRENOBLE
-	culture = arpitan_ce
+	culture = arpitan
 	religion = catholic
 	holding = castle_holding
 }

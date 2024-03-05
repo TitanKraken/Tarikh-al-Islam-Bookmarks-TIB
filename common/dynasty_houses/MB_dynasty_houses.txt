@@ -1469,6 +1469,7 @@ house_rathore = {
 	dynasty = 1044310
 }
 
+# Saxon
 house_wettin = {
 	name = "dynn_Wettin"
 	prefix = "dynnp_von"
@@ -1481,6 +1482,13 @@ house_goseck = {
 	dynasty = 1054
 }
 
+house_bruonen = {
+	name = "dynn_Brunonen"
+	prefix = "dynnp_von"
+	dynasty = 669
+}
+
+# Norse
 house_hvitserk = {
 	name = "dynn_Hvitserk"
 	prefix = "dynnp_af"	
@@ -2169,6 +2177,13 @@ house_arwystli = {
 house_farighunid = {
 	name="Farighunid"
 	dynasty = 1042112
+}
+
+# Italian
+house_cappai_de_bas = {
+	prefix = "dynnp_de"
+	name = "dynn_Cappai_de_Bas"
+	dynasty = 8758 #Cervera
 }
 
 #Vanilla connection. Probably not actually historical but not a big deal

@@ -592,7 +592,7 @@ Barga1 = {
 	name = "Geleg"
 	dynasty = 2001145	#Galzuud
 	religion = siberian_pagan
-	culture = evenk
+	culture = buryat # evenk
 	1043.3.12 = {
 		birth = yes
 	}
@@ -604,7 +604,7 @@ Barga1 = {
 	name = "Dashinima"
 	dynasty = 2001145	#Galzuud
 	religion = siberian_pagan
-	culture = evenk
+	culture = buryat # evenk
 	father = 8000001
 	1068.8.5 = {
 		birth = yes
@@ -617,7 +617,7 @@ Barga1 = {
 	name = "Azarga"
 	dynasty = 2001145	#Galzuud
 	religion = siberian_pagan
-	culture = evenk
+	culture = buryat # evenk
 	father = 8000002
 	1094.7.18 = {
 		birth = yes
@@ -630,7 +630,7 @@ Barga1 = {
 	name = "Bukha"
 	dynasty = 2001145	#Galzuud
 	religion = siberian_pagan
-	culture = evenk
+	culture = buryat # evenk
 	father = 8000003
 	1121.11.13 = {
 		birth = yes
@@ -643,7 +643,7 @@ Barga1 = {
 	name = "Tekhe"
 	dynasty = 2001145	#Galzuud
 	religion = siberian_pagan
-	culture = evenk
+	culture = buryat # evenk
 	father = 8000004
 	1148.9.29 = {
 		birth = yes
@@ -656,7 +656,7 @@ Barga1 = {
 	name = "Tsyren"
 	dynasty = 2001145	#Galzuud
 	religion = siberian_pagan
-	culture = evenk
+	culture = buryat # evenk
 	father = 8000005
 	1169.2.27 = {
 		birth = yes
@@ -670,7 +670,7 @@ Barga1 = {
 	name = "Tekhe"
 	dynasty = 2001145	#Galzuud
 	religion = siberian_pagan
-	culture = evenk
+	culture = buryat # evenk
 	father = 8000006
 	1200.2.27 = {
 		birth = yes
@@ -684,7 +684,7 @@ Barga1 = {
 	name = "Bukha"
 	dynasty = 2001145	#Galzuud
 	religion = siberian_pagan
-	culture = evenk
+	culture = buryat # evenk
 	father = 80000006
 	1270.2.27 = {
 		birth = yes
@@ -1811,3 +1811,41 @@ Barga1 = {
 	}
 }
 #
+galzuud0001 = {
+	name = "Osor"
+	dynasty = 2001145	#Galzuud
+	religion = siberian_pagan
+	culture = buryat
+	835.6.19 = {
+		birth = yes
+	}
+	889.8.20 = {
+		death = yes
+	}
+}
+galzuud0002 = {
+	name = "Dashinima"
+	dynasty = 2001145	#Galzuud
+	religion = siberian_pagan
+	culture = buryat
+	father = 303142
+	1068.8.5 = {
+		birth = yes
+	}
+	1115.10.30 = {
+		death = yes
+	}
+}
+
+galzuud0003 = {
+	name = "Geleg"
+	dynasty = 2001145	#Galzuud
+	religion = siberian_pagan
+	culture = buryat
+	1043.3.12 = {
+		birth = yes
+	}
+	1095.1.26 = {
+		death = yes
+	}
+}

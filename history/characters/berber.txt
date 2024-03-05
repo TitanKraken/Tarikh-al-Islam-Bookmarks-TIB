@@ -2498,6 +2498,7 @@
 	}
 }
 
+# Marinids moved
 
 33012 = {
 	name = "Abu_Hafs_Umar"
@@ -5664,8 +5665,8 @@
 	827.1.2 = {
 		birth = "827.1.2"
 	}
-	848.12.16 = {
-		death = "848.12.16"
+	849.1.1 = {
+		death = yes
 	}
 }
 159505 = {
@@ -5692,8 +5693,8 @@
 	845.1.2 = {
 		birth = "845.1.2"
 	}
-	874.12.16 = {
-		death = "874.12.16"
+	866.12.16 = {
+		death = yes
 	}
 }
 159507 = {
@@ -5717,6 +5718,7 @@
 	culture = maghrebi
 	trait = sayyid
 	father = 159507
+	sexuality = heterosexual
 	836.1.2 = {
 		birth = yes
 	}
@@ -5781,31 +5783,31 @@
 	}
 }
 159513 = {
-	name = "Muhammad"
+	name="Muhammad"
 	dynasty_house = house_Idrisid
-	religion = "zayidi"
-	culture = maghrebi
-	trait = sayyid
-	father = 159509
-	885.1.2 = {
-		birth = "885.1.2"
+	religion="zayidi"
+	culture="maghrebi"
+	trait="sayyid"
+	father=210034
+	830.1.1={
+		birth = yes
 	}
-	927.12.16 = {
-		death = "927.12.16"
+	900.1.1={
+		death=yes
 	}
 }
 159514 = {
-	name = "Al-Hassan"
+	name = "Al-Hasan"
 	dynasty_house = house_Idrisid
 	religion = "zayidi"
 	culture = maghrebi
 	trait = sayyid
 	father = 159513
-	900.1.2 = {
-		birth = "900.1.2"
+	895.1.1 = {
+		birth = yes
 	}
-	944.12.16 = {
-		death = "944.12.16"
+	930.1.1 = {
+		death = yes
 	}
 }
 159515 = {
@@ -5814,12 +5816,12 @@
 	religion = "zayidi"
 	culture = maghrebi
 	trait = sayyid
-	father = 159513
-	900.1.2 = {
-		birth = "900.1.2"
+	father = 210039
+	870.1.1 = {
+		birth = yes
 	}
-	942.12.16 = {
-		death = "942.12.16"
+	942.1.1 = {
+		death = yes
 	}
 }
 159516 = {
@@ -5828,16 +5830,16 @@
 	religion = "zayidi"
 	culture = maghrebi
 	trait = sayyid
-	father = 159515
-	920.1.2 = {
-		birth = "920.1.2"
+	father = 159513
+	898.1.1 = {
+		birth = yes
 	}
-	948.12.16 = {
-		death = "948.12.16"
+	948.1.1 = {
+		death = yes
 	}
 }
 159517 = {
-	name = "Ahmad"
+	name = "Abu l-'Aysh Ahmad"
 	dynasty_house = house_Idrisid
 	religion = "zayidi"
 	culture = maghrebi
@@ -5846,8 +5848,8 @@
 	935.1.2 = {
 		birth = "935.1.2"
 	}
-	954.12.16 = {
-		death = "954.12.16"
+	954.1.1 = {
+		death = yes
 	}
 }
 159518 = {
@@ -6579,7 +6581,7 @@
 	culture="maghrebi"
 	trait="sayyid"
 	father=159502
-	808.1.1={
+	802.1.1={
 		birth = yes
 	}
 	856.1.1={
@@ -6707,34 +6709,20 @@
 	}
 }
 210039 = {
-	name="Yahya"
+	name="Yahya" # Yahya III
 	dynasty_house = house_Idrisid
 	religion="zayidi"
 	culture="maghrebi"
 	trait="sayyid"
 	father=210034
-	820.1.1={
+	832.1.1={
 		birth = yes
 	}
-	880.1.2 ={
+	905.1.1 ={
 		death=yes
 	}
 }
 210040 = {
-	name="Ibrahim"
-	dynasty_house = house_Idrisid
-	religion="zayidi"
-	culture="maghrebi"
-	trait="sayyid"
-	father=210039
-	850.1.1={
-		birth = yes
-	}
-	893.1.1={
-		death=yes
-	}
-}
-2100400 = {
 	name="Mahtar" # fictitious
 	dynasty=1048012
 	religion = "north_african_acham_pagan"
@@ -6814,7 +6802,7 @@
 
 baranis0001 = {
 	name = "Khafaja" # Khafaja ibn Sufyan, Aghlabid Governor of Sicily (862-869)
-	dynasty = salimid # Create Salimid Dynasty
+	dynasty = 1000054611 # salimid # Create Salimid Dynasty
 	religion = "ashari"
 	culture = "baranis"
 	trait = education_martial_1
@@ -6831,7 +6819,7 @@ baranis0001 = {
 
 baranis0002 = {
 	name = "Muhammad" # Muhammad ibn Khafaja, Aghlabid Governor of Sicily (869-871)
-	dynasty = salimid
+	dynasty = 1000054611 # salimid
 	religion = "ashari"
 	culture = "baranis"
 	trait = education_diplomacy_3
@@ -6841,14 +6829,14 @@ baranis0002 = {
 	832.1.1 = {
 		birth = yes
 	}
-	871.1.1 = {
-		death = yes
+	871.5.27={
+		death={ death_reason=death_murder } # assassinated by his court eunuchs
 	}
 }
 
 baranis0003 = {
 	name = "Jaffar" # Dja'far ibn Muhammad, Aghlabid Governor of Sicily (875-878)
-	dynasty = salimid
+	dynasty = 1000054611 # salimid
 	religion = "ashari"
 	culture = "baranis"
 	trait = education_intrigue_2
@@ -6865,7 +6853,7 @@ baranis0003 = {
 
 baranis0004 = {
 	name = "Sawada" # Sawada ibn Muhammad, Aghlabid Governor of Sicily (885-887 & 890-892)
-	dynasty = salimid
+	dynasty = 1000054611 # salimid
 	religion = "ashari"
 	culture = "baranis"
 	trait = education_diplomacy_2
@@ -6881,7 +6869,7 @@ baranis0004 = {
 }
 baranis0005 = {
 	name = "Sufyan" # Sufyan ibn Sawada
-	dynasty = salimid
+	dynasty = 1000054611 # salimid
 	religion = "ashari"
 	culture = "baranis"
 
@@ -6897,7 +6885,7 @@ baranis0005 = {
 
 baranis0006 = {
 	name = "Sawada" # Sawada ibn Salim
-	dynasty = salimid
+	dynasty = 1000054611 # salimid
 	religion = "ashari"
 	culture = "baranis"
 
@@ -6911,7 +6899,7 @@ baranis0006 = {
 
 baranis0007 = {
 	name = "Modha" # Modha ibn Sawada
-	dynasty = salimid
+	dynasty = 1000054611 # salimid
 	religion = "ashari"
 	culture = "baranis"
 
@@ -6927,7 +6915,7 @@ baranis0007 = {
 
 baranis0008 = {
 	name = "Ya_qub" # Ya'qub ibn Modha
-	dynasty = salimid
+	dynasty = 1000054611 # salimid
 	religion = "ashari"
 	culture = "baranis"
 
@@ -6943,7 +6931,7 @@ baranis0008 = {
 
 baranis0009 = {
 	name = "Ahmad" # Ahmad ibn Ya'qub, Aghlabid Governor of Sicily (872)
-	dynasty = salimid
+	dynasty = 1000054611 # salimid
 	religion = "ashari"
 	culture = "baranis"
 	trait = education_stewardship_4
@@ -7383,7 +7371,7 @@ danis0007 = {
 	name = "Daw_al_sabah" #fictional
 	dna = danis0007_emira_daw
 	female = yes 
-	dynasty = salimid 
+	dynasty = 1000054611 # salimid 
 	
 	religion = ashari
 	culture = baranis 

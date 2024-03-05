@@ -9,6 +9,7 @@ clan_government = {
 	create_cadet_branches = yes
 	rulers_should_have_dynasty = yes
 	royal_court = yes
+	legitimacy = yes
 
 	valid_holdings = { castle_holding }
 	required_county_holdings = { castle_holding city_holding church_holding }
@@ -26,6 +27,10 @@ clan_government = {
 		council_rights
 		title_revocation_rights
 		marriage_favor_rights
+	}
+
+	ai = {
+		use_legends = yes
 	}
 	
 	opinion_of_liege = {
@@ -82,24 +87,6 @@ clan_government = {
 	color = hsv{ 0.39 0.93 0.54 }
 }
 
-# Mercenary will always get this
-mercenary_government = {
-	court_generate_spouses = no
-	court_generate_commanders = 5
-	council = no
-
-	ai = {
-		arrange_marriage = yes
-		use_goals = no
-		use_scripted_guis = no
-		perform_religious_reformation = yes
-	}
-
-	flag = can_not_be_vassal_or_liege
-	flag = government_is_mercenary
-	color = hsv{ 0.00 0.00 0.66 }
-}
-
 # TIB Governments
 
 islamic_government = {
@@ -111,6 +98,7 @@ islamic_government = {
 	create_cadet_branches = yes
 	rulers_should_have_dynasty = yes
 	royal_court = yes
+	legitimacy = yes
 	#can_change_title_law_trigger = yes
 
 	valid_holdings = { castle_holding city_holding church_holding }
@@ -129,6 +117,10 @@ islamic_government = {
 		council_rights
 		title_revocation_rights
 		marriage_favor_rights
+	}
+
+	ai = {
+		use_legends = yes
 	}
 
 	character_modifier = {

@@ -623,8 +623,11 @@
 	religion = nestorian
 	
 	# History
-	867.1.1 = { 
+	860.1.1 = {
 		culture = levantine
+		religion = azariqa
+	}
+	870.1.1 = {
 		religion = ashari
 	}
 
@@ -636,8 +639,11 @@
 	religion = nestorian
 	
 	# History
-	867.1.1 = { 
+	860.1.1 = {
 		culture = levantine
+		religion = azariqa
+	}
+	870.1.1 = { 
 		religion = ashari
 	}
 

@@ -6740,7 +6740,7 @@
 		death = "1067.1.1"
 	}
 }
-anglo_saxon.1001 = {	#Fictional holder to allow barony placement.
+anglo_saxon_1001 = {	#Fictional holder to allow barony placement.
 	name = "Sigeberht"
 	religion = catholic
 	culture = anglo_saxon

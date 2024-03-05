@@ -1,71 +1,54 @@
 ﻿# Brythonic
-language_breton = {
+language_western_brythonic = {
 	type = language
 	is_shown = {
 		language_is_shown_trigger = {
-			LANGUAGE = language_breton
+			LANGUAGE = language_western_brythonic
 		}
 	}
 	ai_will_do = {
 		value = 10
 		if = {
-			limit = { has_cultural_pillar = language_breton }
+			limit = { has_cultural_pillar = language_western_brythonic }
+			multiply = 10
+		}
+	}
+	
+	color = welsh
+}
+language_southwestern_brythonic = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_southwestern_brythonic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_southwestern_brythonic }
 			multiply = 10
 		}
 	}
 	
 	color = hsv { 0.72 0.6 0.76 }
 }
-language_cymraeg = {
+language_brythonic = { # Brittonika / Old Brythonic
 	type = language
 	is_shown = {
 		language_is_shown_trigger = {
-			LANGUAGE = language_cymraeg
+			LANGUAGE = language_brythonic
 		}
 	}
 	ai_will_do = {
 		value = 10
 		if = {
-			limit = { has_cultural_pillar = language_cymraeg }
+			limit = { has_cultural_pillar = language_brythonic }
 			multiply = 10
 		}
 	}
 	
-	color = hsv { 0.72 0.6 0.76 }
-}
-language_cornish = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_cornish
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_cornish }
-			multiply = 10
-		}
-	}
-	
-	color = hsv { 0.72 0.6 0.72 }
-}
-language_cumbrian = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_cumbrian
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_cumbrian }
-			multiply = 10
-		}
-	}
-	
-	color = hsv { 0.64 0.6 0.72 }
+	color = hsv { 0.8 0.66 0.8 }
 }
 language_pictish = {
 	type = language

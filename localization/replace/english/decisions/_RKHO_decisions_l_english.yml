@@ -318,9 +318,9 @@
   #FORM PORTUGAL
  form_portugal_decision:0 "Found the Kingdom of Portugal"
  form_portugal_decision_desc:0 "Once I am in control of the western coast of the Iberian Peninsula, I can form the Kingdom of Portugal and establish our own unique culture."
- portguese_convert_list:1 "Every [THIS.Char.GetCulture.GetGroup.GetName] [culture_group|E] subject in [THIS.Char.GetUINamePossessive] Portuguese realm"
- portguese_convert_list_court:1 "Every [THIS.Char.GetCulture.GetName] [courtier|E]"
- portugese_convert_iberian_counties:0 "Every [THIS.Char.GetCulture.GetGroup.GetName] [culture_group|E] county in the Kingdom of Portugal"
+ portguese_convert_list:1 "Every [THIS.Char.GetCulture.GetHeritage.GetNameNoTooltip] [heritage|E] subject in [THIS.Char.GetUINamePossessive] Portuguese realm"
+ portguese_convert_list_court:1 "Every [THIS.Char.GetCulture.GetHeritage.GetNameNoTooltip] [courtier|E]"
+ portugese_convert_iberian_counties:0 "Every [THIS.Char.GetCulture.GetHeritage.GetNameNoTooltip] [heritage|E] county in the Kingdom of Portugal"
  portugese_convert_non_iberian_counties:0 "Every other county in the Kingdom of Portugal"
  form_portugal_decision_confirm:0 "Found the [kingdom|E] of Portugal"
  form_portugal_decision_tooltip:0 "Form the [kingdom|E] of Portugal and establish the Portuguese [culture|E]"

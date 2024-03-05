@@ -120,6 +120,104 @@ tib_pay_zakat_decisions.0001 = {
                 add = 5
                 scope:caliph = { has_realm_law = tib_caliphal_authority_1 } # More likely to pay the caliph
             }
+            modifier = {
+                add = 10
+                scope:caliph = { has_realm_law = tib_caliphal_authority_2 } # Must pay the caliph
+            }
+            modifier = {
+                add = -10
+                faith.religious_head = {
+                    opinion = {
+                        target = root
+                        value < high_positive_opinion
+                    }
+                }
+            }
+		}
+    }
+}
+tib_pay_zakat_decisions.1001 = { # The mufti reminding the Muslim ruler
+	type = character_event
+    title = tib_pay_zakat_decisions.1001.t
+	desc = tib_pay_zakat_decisions.1001.desc
+	theme = faith
+	left_portrait = {
+		character = root
+        triggered_animation = {
+            trigger = {
+                has_trait = greedy
+                has_trait = cynical
+            }
+            animation = boredom
+        }
+        animation = worry
+	}
+    right_portrait = {
+        character = scope:mufti
+        animation = throne_room_conversation_1
+    }
+
+    immediate = {
+		root.faith.religious_head = {
+            save_scope_as = caliph
+        }
+        root.cp:councillor_court_chaplain = {
+            save_scope_as = mufti
+        }
+	}
+
+    option = { # To pay now
+		name = tib_pay_zakat_decisions.1001.a
+        execute_decision = pay_zakat_decision
+        custom_tooltip = {
+            text = tib_pay_zakat_decisions.0001_tooltip
+        }
+
+		ai_chance = {
+			base = 15
+            modifier = {
+                add = -30
+                ai_greed >= 50
+            }
+            modifier = {
+			add = -20
+			has_trait = cynical
+		    }
+		}
+
+    }
+    option = { # To pay not!!!!!!!!!
+		name = tib_pay_zakat_decisions.1001.b
+        add_piety = -300 # Failing to comply with the Principle of Islam
+        add_prestige = -200
+
+        ai_chance = {
+			base = 15
+            modifier = {
+                add = 15
+                has_trait = zealous
+		    }
+            modifier = {
+                add = -10
+                scope:caliph = { has_realm_law = tib_caliphal_authority_0 } # Less likely to pay the caliph
+            }
+            modifier = {
+                add = 5
+                scope:caliph = { has_realm_law = tib_caliphal_authority_1 } # More likely to pay the caliph
+            }
+            modifier = {
+                add = 10
+                scope:caliph = { has_realm_law = tib_caliphal_authority_2 } # Must pay the caliph
+            }
+            modifier = {
+                add = -10
+                faith.religious_head = {
+                    opinion = {
+                        target = root
+                        value < high_positive_opinion
+                    }
+                }
+            }
 		}
     }
 }

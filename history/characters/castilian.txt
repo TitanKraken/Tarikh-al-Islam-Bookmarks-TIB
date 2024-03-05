@@ -16054,7 +16054,7 @@
 	trait="ambitious"
 	
 	971.1.1 = {
-		culture="andalusian"		
+		#culture="andalusian"		
 		birth=yes
 	}
 	1028.1.1 = {
@@ -16065,10 +16065,10 @@
 	name="Muhammad al-Sabur" #Saqlabi (Slavic Slave) Governor of Badajoz between 1013-1022. Was suceeded by his Vizier Abdallah ibn al-Aftas, while his sons fled to Lisbon where they founded a short-lived Taifa between 1022-1034 
 	dynasty=1000053007
 	religion="muwalladi"
-	culture="persian" #Sábúr is the Arabic form of the Persian Shapur
+	culture="russian" #Sábúr is the Arabic form of the Persian Shapur
 
 	960.1.1 = {
-		culture="andalusian"	
+		#culture="andalusian"	
 		birth=yes
 	}
 	1022.4.8 = {
@@ -16079,10 +16079,10 @@
 	name="Abd al-Aziz" #Saqlabi (Slavic Slave) Governor of Badajoz between 1022-1030?. son of Sábúr
 	dynasty=1000053007
 	religion="muwalladi"
-	culture="persian"
+	culture="russian"
 	father=1235022
 	1006.1.1 = {
-		culture="andalusian"		
+		#culture="andalusian"		
 		birth=yes
 	}
 	1030.1.1 = {
@@ -16093,7 +16093,7 @@
 	name="Abd al-Malik" #Saqlabi (Slavic Slave) Governor of Badajoz between 1030?-1034. son of Sábúr
 	dynasty=1000053007
 	religion="muwalladi"
-	culture="persian"
+	culture="russian"
 	father=1235022
 	1009.1.1 = {
 		culture="andalusian"		
@@ -17399,7 +17399,7 @@
 	}
 }
 1235122 = {
-	name="Qand" #Saqlabi (Slave). Qand is persian for sugar or candy, so i´m making him Persian. Loyal agent of Cordoba, installed alongside Ahmad b. Yala in the Middle March between the siege of Cordoba in 932 and the rise of Ghalib. Mentioned in Hugh Kennedy´s Muslim Spain and Portugal, A Political History
+	name="Qand" #Saqlabi (Slave). Qand is Persian for sugar or candy, so i´m making him Persian. Loyal agent of Cordoba, installed alongside Ahmad b. Yala in the Middle March between the siege of Cordoba in 932 and the rise of Ghalib. Mentioned in Hugh Kennedy´s Muslim Spain and Portugal, A Political History
 	dynasty=1000101921
 	martial=7
 	religion="muwalladi"
@@ -17447,7 +17447,7 @@
 
 	899.1.1={
 		birth = yes
-		culture="andalusian"
+		#culture="andalusian"
 	}
 	955.1.1={
 		death=yes
@@ -17474,7 +17474,7 @@
 
 	897.1.1={
 		birth = yes
-		culture="andalusian"
+		#culture="andalusian"
 	}
 	951.1.1={
 		death=yes

@@ -2,8 +2,9 @@ k_maghreb = {
 	#867.1.1 = {	change_development_level = 7 }
 	#1066.1.1 = { change_development_level = 10 }
 	
+	### The Adarisa / Idrisids
 	788.1.1 = {
-		holder = 159501
+		holder = 159501 # Idris I al-Akbar
 		government = islamic_government # clan_government
 		succession_laws = { tib_islamic_dynastic_elective }
 		effect = {
@@ -23,44 +24,59 @@ k_maghreb = {
 		}
 	}
 	791.12.16 = {
-		holder = 159502
+		holder = 159502 # Idris II
 	}
 	828.12.16 = {
-		holder = 159503
+		holder = 159503 # Muhammad
 	}
 	836.12.16 = {
-		holder = 159504
+		holder = 159504 # Ali I
 	}
-	848.12.16 = {
-		holder = 159505
+	849.1.1 = { # changed
+		holder = 159505 # Yahya I
 	}
 	864.12.16 = {
-		holder = 159506
+		holder = 159506 # Yahya II
 	}
-	883.12.16 = { # Maybe?
-		holder = 159510 # Yahya III ibn al-Qasim
+	866.12.16 = { # new
+		holder = 159508 # Ali II
+	}
+	877.1.1 = {
+		holder = 210036 # Dawud
+	}
+	880.1.1 = {
+		holder = 1300165 # Some other Idrisid uncles took over
+	}
+	893.1.1 = {
+		holder = 1300166
+	}
+	898.1.1 = { # Maybe?
+		holder = 210039 # Yahya III ibn al-Qasim
 	}
 	905.1.2 = {
 		holder = 159512 # Yahya IV ibn Idris
 	}
+	# Time gap filled
 	925.1.2 = {
-		holder = 159514 # al-Hajjam al-Hasan ibn Muhammad ibn al-Qasim
+		holder = 159514 # al-Hasan I al-Hajjam ibn Muhammad ibn al-Qasim
 	}
-	927.1.1 = {
+	930.1.1 = {
 		holder = 0
 	}
-	938.1.1 = { # Northern Morocco Period
-		holder = 159516 # al-Qasim Guennoun/Qanun
+	937.1.1 = { # Northern Morocco Period
+		holder = 159516 # al-Qasim Guennoun/Knun
 	}
 	948.1.1 = {
-		holder = 159517 # Abu'l Aish Ahmad
+		holder = 159517 # Abu l-Aysh Ahmad
 	}
 	954.1.1 = {
-		holder = 159518 # al-Hasan ibn Qanun
+		holder = 159518 # al-Hasan II ibn Qanun
 	}
 	984.1.1 = {
 		holder = 0
 	}
+	### END ###
+
 	# Almoravids
 	1055.1.1 = {
 		holder = 32958
@@ -261,7 +277,7 @@ d_marrakesh = {
 		holder = 32989
 	}
 	1266.1.1 = {
-		holder = 32990
+		holder = 32990 # Idris al-Wathiq
 	}
 	1269.9.1 = {
 		holder = 32997 # Marinid Rule Start
@@ -291,34 +307,65 @@ c_marrakesh = {
 	767.1.1 = {
 		holder = 210039
 	}
+	### The Adarisa / Idrisids
 	788.1.1 = {
-		liege = "k_maghreb"
-	}
-	788.1.1 = {
-		holder = 159501
+		holder = 159501 # Idris I al-Akbar
 	}
 	791.12.16 = {
-		holder = 159502
+		holder = 159502 # Idris II
 	}
-	828.1.1 = {
-		holder = 159503
+	828.12.16 = {
+		holder = 159503 # Muhammad
 	}
-	836.1.1 = {
-		holder = 159504
+	836.12.16 = {
+		holder = 159504 # Ali I
 	}
-	848.1.1 = {
-		holder = 159505
-	}
-	864.1.1 = {
-		holder = 159506
+	849.1.1 = { # changed
+		holder = 159505 # Yahya I
 	}
 	864.12.16 = {
-		liege = k_maghreb
-		holder = 159507
+		holder = 159506 # Yahya II
 	}
-	865.12.16 = {
-		holder = 159508
+	866.12.16 = { # new
+		holder = 159508 # Ali II
 	}
+	877.1.1 = {
+		holder = 210036 # Dawud
+	}
+	880.1.1 = {
+		holder = 1300165 # Some other Idrisid uncles took over
+	}
+	893.1.1 = {
+		holder = 1300166
+	}
+	898.1.1 = { # Maybe?
+		holder = 210039 # Yahya III ibn al-Qasim
+	}
+	905.1.2 = {
+		holder = 159512 # Yahya IV ibn Idris
+	}
+	# Time gap filled
+	925.1.2 = {
+		holder = 159514 # al-Hasan I al-Hajjam ibn Muhammad ibn al-Qasim
+	}
+	930.1.1 = {
+		holder = 0
+	}
+	937.1.1 = { # Northern Morocco Period
+		holder = 159516 # al-Qasim Guennoun/Knun
+	}
+	948.1.1 = {
+		holder = 159517 # Abu l-Aysh Ahmad
+	}
+	954.1.1 = {
+		holder = 159518 # al-Hasan II ibn Qanun
+	}
+	984.1.1 = {
+		holder = 0
+	}
+	### END ###
+
+	# Almoravids
 	1055.1.1 = {
 		holder = 32958
 	}
@@ -340,57 +387,123 @@ c_marrakesh = {
 	1146.1.1 = {
 		holder = 32970
 	}
+	# Almohad
 	1147.1.1 = {
-		holder = 32978
+		holder = 32978 # 'Abd-al-Mu'min
+		government = islamic_government # clan_government
 	}
-	1163.5.1 = {
-		holder = 224000
+	1163.5.12 = {
+		holder = 32979 # Muhammad
+	}
+	1163.6.26 = {
+		holder = 224000 # Abu Ya'qub Yusuf
 	}
 	1184.7.29 = {
-		holder = 32980
+		holder = 32980 # Abu Yusuf Ya'qub al-Mansur
 	}
 	1199.1.23 = {
-		holder = 224005
+		holder = 224005 # Muhammad al-Nasir
 	}
 	1213.1.1 = {
-		holder = 32981
+		holder = 32981 # Abu Ya'qub Yusuf II al-Mustansir
 	}
 	1224.1.1 = {
-		holder = 32982
+		holder = 32982 # Abd-al-Wahid I al-Makhlu
 	}
-	1225.1.1 = {
-		holder = 32983
+	1224.7.1 = {
+		holder = 32983 # Abdallah al-'Adil
 	}
 	1227.1.1 = {
-		holder = 32984
+		holder = 32984 # Yahya al-Mu'tasim
 	}
 	1229.1.1 = {
-		holder = 32985
+		holder = 32985 # Idris I al-Ma'mun
 	}
 	1232.10.17 = {
-		holder = 32986
+		holder = 32986 # Abd-al-Wahid II al-Rashid
 	}
 	1242.1.1 = {
-		holder = 32987
+		holder = 32987 # Abu'l-Hasan 'Ali al-Sa'id
 	}
 	1248.1.1 = {
-		holder = 32989
+		holder = 32989 # Abu Hafs 'Umar al-Murtada
 	}
-	1262.1.1 = {
-		liege = "d_marrakesh"
-		holder = 32990
+	# Marinid Dynasty
+	1258.7.1 = {
+		holder = 32997 # Marinid
 	}
+	#1266.1.1 = { # To make the turmoil on Morocco more interesting
+		#holder = 32990
+	#}
 	1269.9.1 = {
-		holder = 32998
+		holder = 32997 # Abu Yusuf Ya'qub
 	}
 	1286.3.20 = {
-		holder = 32999
+		holder = 32998 # Abu Ya'qub Yusuf al-Nasir
 	}
-	1300.1.1 = {
-		holder = 33002
+	1307.5.13 = {
+		holder = 33000 # Abu Thabit 'Amir
+	}
+	1308.7.28 = {
+		holder = 33001 # Abu'l-Rabi' Sulayman
+	}
+	1310.11.23 = {
+		holder = 33002 # Abu Sa'id Uthman II
 	}
 	1331.8.1 = {
-		holder = 33006
+		holder = 33004 # Abu'l-Hasan 'Ali
+	}
+	1348.1.1 = {
+		holder = 33007 # Abu 'Inan Faris al-Mutawakkil ibn 'Ali
+	}
+	1358.1.10 = {
+		holder = marinid_037 # Abu Zayyan Muhammad II ibn Faris, 1st reign
+	}
+	1358.2.1 = {
+		holder = marinid_038 # Abu Yahya Abu Bakr ibn Faris
+	}
+	1359.1.1 = {
+		holder = 33009 # Abu Salim Ibrahim al-Musta'in billah ibn 'Ali
+	}
+	1361.1.1 = {
+		holder = marinid_030 # Abu 'Amr Tashfin ibn 'Ali
+	}
+	1362.1.1 = {
+		holder = marinid_037 # Abu Zayyan Muhammad II ibn Faris, 2nd reign
+	}
+	1366.1.1 = {
+		holder = 33011 # Abu Faris 'Abd-al-'Aziz
+	}
+	1372.1.1 = {
+		holder = marinid_045 # Abu Zayyan Muhammad al-Sa'id III ibn 'Abd-al-'Aziz
+	}
+	1374.1.1 = {
+		holder = marinid_047 # Abu'l-'Abbas Ahmad al-Mustansir ibn 'Abd-al-'Aziz, 1st reign
+	}
+	1384.1.1 = {
+		holder = marinid_039 # Musa al-Mutawakkil ibn Faris
+	}
+	1386.1.1 = {
+		holder = marinid_053 # Abu Zayyan Muhammad IV ibn Ahmad
+	}
+	1387.1.1 = {
+		holder = marinid_047 # Abu'l-'Abbas Ahmad I al-Mustansir ibn 'Abd-al-'Aziz, 2nd reign
+	}
+	1393.1.1 = {
+		holder = marinid_054 # Abd-al-'Aziz al-Mustansir ibn Ahmad
+	}
+	1396.1.1 = {
+		holder = marinid_055 # Abu 'Amir 'Abdallah al-Mustansir ibn Ahmad
+	}
+	1398.1.1 = {
+		holder = marinid_056 # Abu Sa'id Uthman III ibn Ahmad
+	}
+	1420.10.1 = {
+		holder = marinid_059 # Abu Muhammad Abd-al-Haqq II ibn Uthman III
+	}
+	# Wattasid Dynasty
+	1465.8.14 = {
+		holder = 0
 	}
 }
 
@@ -399,45 +512,73 @@ c_tadla = {
 	767.1.1 = {
 		holder = 210039
 	}
+	### The Adarisa / Idrisids
 	788.1.1 = {
-		liege = "k_maghreb"
-	}
-	788.1.1 = {
-		holder = 159501
+		holder = 159501 # Idris I al-Akbar
 	}
 	791.12.16 = {
-		holder = 159502
+		holder = 159502 # Idris II
 	}
-	828.1.1 = {
-		holder = 159503
+	828.12.16 = {
+		holder = 159503 # Muhammad
 	}
-	836.1.1 = {
-		holder = 159504
+	836.12.16 = {
+		holder = 159504 # Ali I
 	}
-	848.1.1 = {
-		holder = 159505
-	}
-	864.1.1 = {
-		holder = 159506
+	849.1.1 = { # changed
+		holder = 159505 # Yahya I
 	}
 	864.12.16 = {
-		liege = k_maghreb
-		holder = 159507
+		holder = 159506 # Yahya II
 	}
-	865.12.16 = {
-		holder = 159508
+	866.12.16 = { # new
+		holder = 159508 # Ali II
 	}
+	877.1.1 = {
+		holder = 210036 # Dawud
+	}
+	880.1.1 = {
+		holder = 1300165 # Some other Idrisid uncles took over
+	}
+	893.1.1 = {
+		holder = 1300166
+	}
+	898.1.1 = { # Maybe?
+		holder = 210039 # Yahya III ibn al-Qasim
+	}
+	905.1.2 = {
+		holder = 159512 # Yahya IV ibn Idris
+	}
+	# Time gap filled
+	925.1.2 = {
+		holder = 159514 # al-Hasan I al-Hajjam ibn Muhammad ibn al-Qasim
+	}
+	930.1.1 = {
+		holder = 0
+	}
+	937.1.1 = { # Northern Morocco Period
+		holder = 159516 # al-Qasim Guennoun/Knun
+	}
+	948.1.1 = {
+		holder = 159517 # Abu l-Aysh Ahmad
+	}
+	954.1.1 = {
+		holder = 159518 # al-Hasan II ibn Qanun
+	}
+	984.1.1 = {
+		holder = 0
+	}
+	### END ###
 
+	# Almoravids
 	1055.1.1 = {
 		holder = 32958
 	}
 	1057.1.1 = {
 		holder = 3853
 	}
-	1061.1.1 = {
-		government = islamic_government # clan_government
-		liege = d_marrakesh
-		holder = 32965 #Yusuf b.Tashfin
+	1071.1.1 = {
+		holder = 32965
 	}
 	1106.1.1 = {
 		holder = 32969
@@ -451,57 +592,123 @@ c_tadla = {
 	1146.1.1 = {
 		holder = 32970
 	}
+	# Almohad
 	1147.1.1 = {
-		holder = 32978
+		holder = 32978 # 'Abd-al-Mu'min
+		government = islamic_government # clan_government
 	}
-	1163.5.1 = {
-		holder = 224000
+	1163.5.12 = {
+		holder = 32979 # Muhammad
+	}
+	1163.6.26 = {
+		holder = 224000 # Abu Ya'qub Yusuf
 	}
 	1184.7.29 = {
-		holder = 32980
+		holder = 32980 # Abu Yusuf Ya'qub al-Mansur
 	}
 	1199.1.23 = {
-		holder = 224005
+		holder = 224005 # Muhammad al-Nasir
 	}
 	1213.1.1 = {
-		holder = 32981
+		holder = 32981 # Abu Ya'qub Yusuf II al-Mustansir
 	}
 	1224.1.1 = {
-		holder = 32982
+		holder = 32982 # Abd-al-Wahid I al-Makhlu
 	}
-	1225.1.1 = {
-		holder = 32983
+	1224.7.1 = {
+		holder = 32983 # Abdallah al-'Adil
 	}
 	1227.1.1 = {
-		holder = 32984
+		holder = 32984 # Yahya al-Mu'tasim
 	}
 	1229.1.1 = {
-		holder = 32985
+		holder = 32985 # Idris I al-Ma'mun
 	}
 	1232.10.17 = {
-		holder = 32986
+		holder = 32986 # Abd-al-Wahid II al-Rashid
 	}
 	1242.1.1 = {
-		holder = 32987
+		holder = 32987 # Abu'l-Hasan 'Ali al-Sa'id
 	}
 	1248.1.1 = {
-		holder = 32989
+		holder = 32989 # Abu Hafs 'Umar al-Murtada
 	}
-	1262.1.1 = {
-		liege = "d_marrakesh"
-		holder = 32990
+	# Marinid Dynasty
+	1258.7.1 = {
+		holder = 32997 # Marinid
 	}
+	#1266.1.1 = { # To make the turmoil on Morocco more interesting
+		#holder = 32990
+	#}
 	1269.9.1 = {
-		holder = 32998
+		holder = 32997 # Abu Yusuf Ya'qub
 	}
 	1286.3.20 = {
-		holder = 32999
+		holder = 32998 # Abu Ya'qub Yusuf al-Nasir
 	}
-	1300.1.1 = {
-		holder = 33002
+	1307.5.13 = {
+		holder = 33000 # Abu Thabit 'Amir
+	}
+	1308.7.28 = {
+		holder = 33001 # Abu'l-Rabi' Sulayman
+	}
+	1310.11.23 = {
+		holder = 33002 # Abu Sa'id Uthman II
 	}
 	1331.8.1 = {
-		holder = 33006
+		holder = 33004 # Abu'l-Hasan 'Ali
+	}
+	1348.1.1 = {
+		holder = 33007 # Abu 'Inan Faris al-Mutawakkil ibn 'Ali
+	}
+	1358.1.10 = {
+		holder = marinid_037 # Abu Zayyan Muhammad II ibn Faris, 1st reign
+	}
+	1358.2.1 = {
+		holder = marinid_038 # Abu Yahya Abu Bakr ibn Faris
+	}
+	1359.1.1 = {
+		holder = 33009 # Abu Salim Ibrahim al-Musta'in billah ibn 'Ali
+	}
+	1361.1.1 = {
+		holder = marinid_030 # Abu 'Amr Tashfin ibn 'Ali
+	}
+	1362.1.1 = {
+		holder = marinid_037 # Abu Zayyan Muhammad II ibn Faris, 2nd reign
+	}
+	1366.1.1 = {
+		holder = 33011 # Abu Faris 'Abd-al-'Aziz
+	}
+	1372.1.1 = {
+		holder = marinid_045 # Abu Zayyan Muhammad al-Sa'id III ibn 'Abd-al-'Aziz
+	}
+	1374.1.1 = {
+		holder = marinid_047 # Abu'l-'Abbas Ahmad al-Mustansir ibn 'Abd-al-'Aziz, 1st reign
+	}
+	1384.1.1 = {
+		holder = marinid_039 # Musa al-Mutawakkil ibn Faris
+	}
+	1386.1.1 = {
+		holder = marinid_053 # Abu Zayyan Muhammad IV ibn Ahmad
+	}
+	1387.1.1 = {
+		holder = marinid_047 # Abu'l-'Abbas Ahmad I al-Mustansir ibn 'Abd-al-'Aziz, 2nd reign
+	}
+	1393.1.1 = {
+		holder = marinid_054 # Abd-al-'Aziz al-Mustansir ibn Ahmad
+	}
+	1396.1.1 = {
+		holder = marinid_055 # Abu 'Amir 'Abdallah al-Mustansir ibn Ahmad
+	}
+	1398.1.1 = {
+		holder = marinid_056 # Abu Sa'id Uthman III ibn Ahmad
+	}
+	1420.10.1 = {
+		holder = marinid_059 # Abu Muhammad Abd-al-Haqq II ibn Uthman III
+	}
+	# Wattasid Dynasty
+	1465.8.14 = {
+		holder = 0
 	}
 }
 
@@ -510,35 +717,65 @@ c_fazaz = {
 	767.1.1 = {
 		holder = 210039
 	}
+	### The Adarisa / Idrisids
 	788.1.1 = {
-		liege = "k_maghreb"
-	}
-	788.1.1 = {
-		holder = 159501
+		holder = 159501 # Idris I al-Akbar
 	}
 	791.12.16 = {
-		holder = 159502
+		holder = 159502 # Idris II
 	}
-	828.1.1 = {
-		holder = 159503
+	828.12.16 = {
+		holder = 159503 # Muhammad
 	}
-	836.1.1 = {
-		holder = 159504
+	836.12.16 = {
+		holder = 159504 # Ali I
 	}
-	848.1.1 = {
-		holder = 159505
-	}
-	864.1.1 = {
-		holder = 159506
+	849.1.1 = { # changed
+		holder = 159505 # Yahya I
 	}
 	864.12.16 = {
-		liege = k_maghreb
-		holder = 159507
+		holder = 159506 # Yahya II
 	}
-	865.12.16 = {
-		holder = 159508
+	866.12.16 = { # new
+		holder = 159508 # Ali II
 	}
+	877.1.1 = {
+		holder = 210036 # Dawud
+	}
+	880.1.1 = {
+		holder = 1300165 # Some other Idrisid uncles took over
+	}
+	893.1.1 = {
+		holder = 1300166
+	}
+	898.1.1 = { # Maybe?
+		holder = 210039 # Yahya III ibn al-Qasim
+	}
+	905.1.2 = {
+		holder = 159512 # Yahya IV ibn Idris
+	}
+	# Time gap filled
+	925.1.2 = {
+		holder = 159514 # al-Hasan I al-Hajjam ibn Muhammad ibn al-Qasim
+	}
+	930.1.1 = {
+		holder = 0
+	}
+	937.1.1 = { # Northern Morocco Period
+		holder = 159516 # al-Qasim Guennoun/Knun
+	}
+	948.1.1 = {
+		holder = 159517 # Abu l-Aysh Ahmad
+	}
+	954.1.1 = {
+		holder = 159518 # al-Hasan II ibn Qanun
+	}
+	984.1.1 = {
+		holder = 0
+	}
+	### END ###
 
+	# Almoravids
 	1055.1.1 = {
 		holder = 32958
 	}
@@ -562,57 +799,123 @@ c_fazaz = {
 	1146.1.1 = {
 		holder = 32970
 	}
+	# Almohad
 	1147.1.1 = {
-		holder = 32978
+		holder = 32978 # 'Abd-al-Mu'min
+		government = islamic_government # clan_government
 	}
-	1163.5.1 = {
-		holder = 224000
+	1163.5.12 = {
+		holder = 32979 # Muhammad
+	}
+	1163.6.26 = {
+		holder = 224000 # Abu Ya'qub Yusuf
 	}
 	1184.7.29 = {
-		holder = 32980
+		holder = 32980 # Abu Yusuf Ya'qub al-Mansur
 	}
 	1199.1.23 = {
-		holder = 224005
+		holder = 224005 # Muhammad al-Nasir
 	}
 	1213.1.1 = {
-		holder = 32981
+		holder = 32981 # Abu Ya'qub Yusuf II al-Mustansir
 	}
 	1224.1.1 = {
-		holder = 32982
+		holder = 32982 # Abd-al-Wahid I al-Makhlu
 	}
-	1225.1.1 = {
-		holder = 32983
+	1224.7.1 = {
+		holder = 32983 # Abdallah al-'Adil
 	}
 	1227.1.1 = {
-		holder = 32984
+		holder = 32984 # Yahya al-Mu'tasim
 	}
 	1229.1.1 = {
-		holder = 32985
+		holder = 32985 # Idris I al-Ma'mun
 	}
 	1232.10.17 = {
-		holder = 32986
+		holder = 32986 # Abd-al-Wahid II al-Rashid
 	}
 	1242.1.1 = {
-		holder = 32987
+		holder = 32987 # Abu'l-Hasan 'Ali al-Sa'id
 	}
 	1248.1.1 = {
-		holder = 32989
+		holder = 32989 # Abu Hafs 'Umar al-Murtada
 	}
-	1262.1.1 = {
-		liege = "d_marrakesh"
-		holder = 32990
+	# Marinid Dynasty
+	1258.7.1 = {
+		holder = 32997 # Marinid
 	}
+	#1266.1.1 = { # To make the turmoil on Morocco more interesting
+		#holder = 32990
+	#}
 	1269.9.1 = {
-		holder = 32998
+		holder = 32997 # Abu Yusuf Ya'qub
 	}
 	1286.3.20 = {
-		holder = 32999
+		holder = 32998 # Abu Ya'qub Yusuf al-Nasir
 	}
-	1300.1.1 = {
-		holder = 33002
+	1307.5.13 = {
+		holder = 33000 # Abu Thabit 'Amir
+	}
+	1308.7.28 = {
+		holder = 33001 # Abu'l-Rabi' Sulayman
+	}
+	1310.11.23 = {
+		holder = 33002 # Abu Sa'id Uthman II
 	}
 	1331.8.1 = {
-		holder = 33006
+		holder = 33004 # Abu'l-Hasan 'Ali
+	}
+	1348.1.1 = {
+		holder = 33007 # Abu 'Inan Faris al-Mutawakkil ibn 'Ali
+	}
+	1358.1.10 = {
+		holder = marinid_037 # Abu Zayyan Muhammad II ibn Faris, 1st reign
+	}
+	1358.2.1 = {
+		holder = marinid_038 # Abu Yahya Abu Bakr ibn Faris
+	}
+	1359.1.1 = {
+		holder = 33009 # Abu Salim Ibrahim al-Musta'in billah ibn 'Ali
+	}
+	1361.1.1 = {
+		holder = marinid_030 # Abu 'Amr Tashfin ibn 'Ali
+	}
+	1362.1.1 = {
+		holder = marinid_037 # Abu Zayyan Muhammad II ibn Faris, 2nd reign
+	}
+	1366.1.1 = {
+		holder = 33011 # Abu Faris 'Abd-al-'Aziz
+	}
+	1372.1.1 = {
+		holder = marinid_045 # Abu Zayyan Muhammad al-Sa'id III ibn 'Abd-al-'Aziz
+	}
+	1374.1.1 = {
+		holder = marinid_047 # Abu'l-'Abbas Ahmad al-Mustansir ibn 'Abd-al-'Aziz, 1st reign
+	}
+	1384.1.1 = {
+		holder = marinid_039 # Musa al-Mutawakkil ibn Faris
+	}
+	1386.1.1 = {
+		holder = marinid_053 # Abu Zayyan Muhammad IV ibn Ahmad
+	}
+	1387.1.1 = {
+		holder = marinid_047 # Abu'l-'Abbas Ahmad I al-Mustansir ibn 'Abd-al-'Aziz, 2nd reign
+	}
+	1393.1.1 = {
+		holder = marinid_054 # Abd-al-'Aziz al-Mustansir ibn Ahmad
+	}
+	1396.1.1 = {
+		holder = marinid_055 # Abu 'Amir 'Abdallah al-Mustansir ibn Ahmad
+	}
+	1398.1.1 = {
+		holder = marinid_056 # Abu Sa'id Uthman III ibn Ahmad
+	}
+	1420.10.1 = {
+		holder = marinid_059 # Abu Muhammad Abd-al-Haqq II ibn Uthman III
+	}
+	# Wattasid Dynasty
+	1465.8.14 = {
+		holder = 0
 	}
 }
 
@@ -622,33 +925,69 @@ c_tamasna = {
 		government = islamic_government # clan_government
 		holder = 168276
 	}
-	792.1.1 = {
-		holder = 168277
+	### The Adarisa / Idrisids
+	788.1.1 = {
+		holder = 159501 # Idris I al-Akbar
 	}
-	842.1.1 = {
-		holder = 168278
+	791.12.16 = {
+		holder = 159502 # Idris II
 	}
-	885.1.1 = {
-		holder = 168279
+	828.12.16 = {
+		holder = 159503 # Muhammad
 	}
-	917.1.1 = {
-		holder = 168280
+	836.12.16 = {
+		holder = 159504 # Ali I
 	}
-	961.1.1 = {
-		holder = 168281
+	849.1.1 = { # changed
+		holder = 159505 # Yahya I
 	}
-	989.1.1 = {
-		holder = baranis0011
+	864.12.16 = {
+		holder = 159506 # Yahya II
 	}
+	866.12.16 = { # new
+		holder = 159508 # Ali II
+	}
+	877.1.1 = {
+		holder = 210036 # Dawud
+	}
+	880.1.1 = {
+		holder = 1300165 # Some other Idrisid uncles took over
+	}
+	893.1.1 = {
+		holder = 1300166
+	}
+	898.1.1 = { # Maybe?
+		holder = 210039 # Yahya III ibn al-Qasim
+	}
+	905.1.2 = {
+		holder = 159512 # Yahya IV ibn Idris
+	}
+	# Time gap filled
+	925.1.2 = {
+		holder = 159514 # al-Hasan I al-Hajjam ibn Muhammad ibn al-Qasim
+	}
+	930.1.1 = {
+		holder = 0
+	}
+	937.1.1 = { # Northern Morocco Period
+		holder = 159516 # al-Qasim Guennoun/Knun
+	}
+	948.1.1 = {
+		holder = 159517 # Abu l-Aysh Ahmad
+	}
+	954.1.1 = {
+		holder = 159518 # al-Hasan II ibn Qanun
+	}
+	984.1.1 = {
+		holder = 0
+	}
+	### END ###
 
-	1029.1.1 = {
-		holder = baranis0012
+	# Almoravids
+	1055.1.1 = {
+		holder = 32958
 	}
-	1054.1.1 = {
-		holder = baranis0013
-	}
-	1058.1.1 = {
-		liege = k_maghreb
+	1057.1.1 = {
 		holder = 3853
 	}
 	1061.1.1 = {
@@ -668,57 +1007,123 @@ c_tamasna = {
 	1146.1.1 = {
 		holder = 32970
 	}
+	# Almohad
 	1147.1.1 = {
-		holder = 32978
+		holder = 32978 # 'Abd-al-Mu'min
+		government = islamic_government # clan_government
 	}
-	1163.5.1 = {
-		holder = 224000
+	1163.5.12 = {
+		holder = 32979 # Muhammad
+	}
+	1163.6.26 = {
+		holder = 224000 # Abu Ya'qub Yusuf
 	}
 	1184.7.29 = {
-		holder = 32980
+		holder = 32980 # Abu Yusuf Ya'qub al-Mansur
 	}
 	1199.1.23 = {
-		holder = 224005
+		holder = 224005 # Muhammad al-Nasir
 	}
 	1213.1.1 = {
-		holder = 32981
+		holder = 32981 # Abu Ya'qub Yusuf II al-Mustansir
 	}
 	1224.1.1 = {
-		holder = 32982
+		holder = 32982 # Abd-al-Wahid I al-Makhlu
 	}
-	1225.1.1 = {
-		holder = 32983
+	1224.7.1 = {
+		holder = 32983 # Abdallah al-'Adil
 	}
 	1227.1.1 = {
-		holder = 32984
+		holder = 32984 # Yahya al-Mu'tasim
 	}
 	1229.1.1 = {
-		holder = 32985
+		holder = 32985 # Idris I al-Ma'mun
 	}
 	1232.10.17 = {
-		holder = 32986
+		holder = 32986 # Abd-al-Wahid II al-Rashid
 	}
 	1242.1.1 = {
-		holder = 32987
+		holder = 32987 # Abu'l-Hasan 'Ali al-Sa'id
 	}
 	1248.1.1 = {
-		holder = 32990 # Idris al-Wathiq, historical placeholder for him as the acting defense line against the Marinids and later to seize the Almohad Caliphate
+		holder = 32989 # Abu Hafs 'Umar al-Murtada
 	}
-	1262.1.1 = {
-		liege = "d_marrakesh"
-		holder = 32990
+	# Marinid Dynasty
+	1258.7.1 = {
+		holder = 32997 # Marinid
 	}
+	#1266.1.1 = { # To make the turmoil on Morocco more interesting
+		#holder = 32990
+	#}
 	1269.9.1 = {
-		holder = 32998
+		holder = 32997 # Abu Yusuf Ya'qub
 	}
 	1286.3.20 = {
-		holder = 32999
+		holder = 32998 # Abu Ya'qub Yusuf al-Nasir
 	}
-	1300.1.1 = {
-		holder = 33002
+	1307.5.13 = {
+		holder = 33000 # Abu Thabit 'Amir
+	}
+	1308.7.28 = {
+		holder = 33001 # Abu'l-Rabi' Sulayman
+	}
+	1310.11.23 = {
+		holder = 33002 # Abu Sa'id Uthman II
 	}
 	1331.8.1 = {
-		holder = 33006
+		holder = 33004 # Abu'l-Hasan 'Ali
+	}
+	1348.1.1 = {
+		holder = 33007 # Abu 'Inan Faris al-Mutawakkil ibn 'Ali
+	}
+	1358.1.10 = {
+		holder = marinid_037 # Abu Zayyan Muhammad II ibn Faris, 1st reign
+	}
+	1358.2.1 = {
+		holder = marinid_038 # Abu Yahya Abu Bakr ibn Faris
+	}
+	1359.1.1 = {
+		holder = 33009 # Abu Salim Ibrahim al-Musta'in billah ibn 'Ali
+	}
+	1361.1.1 = {
+		holder = marinid_030 # Abu 'Amr Tashfin ibn 'Ali
+	}
+	1362.1.1 = {
+		holder = marinid_037 # Abu Zayyan Muhammad II ibn Faris, 2nd reign
+	}
+	1366.1.1 = {
+		holder = 33011 # Abu Faris 'Abd-al-'Aziz
+	}
+	1372.1.1 = {
+		holder = marinid_045 # Abu Zayyan Muhammad al-Sa'id III ibn 'Abd-al-'Aziz
+	}
+	1374.1.1 = {
+		holder = marinid_047 # Abu'l-'Abbas Ahmad al-Mustansir ibn 'Abd-al-'Aziz, 1st reign
+	}
+	1384.1.1 = {
+		holder = marinid_039 # Musa al-Mutawakkil ibn Faris
+	}
+	1386.1.1 = {
+		holder = marinid_053 # Abu Zayyan Muhammad IV ibn Ahmad
+	}
+	1387.1.1 = {
+		holder = marinid_047 # Abu'l-'Abbas Ahmad I al-Mustansir ibn 'Abd-al-'Aziz, 2nd reign
+	}
+	1393.1.1 = {
+		holder = marinid_054 # Abd-al-'Aziz al-Mustansir ibn Ahmad
+	}
+	1396.1.1 = {
+		holder = marinid_055 # Abu 'Amir 'Abdallah al-Mustansir ibn Ahmad
+	}
+	1398.1.1 = {
+		holder = marinid_056 # Abu Sa'id Uthman III ibn Ahmad
+	}
+	1420.10.1 = {
+		holder = marinid_059 # Abu Muhammad Abd-al-Haqq II ibn Uthman III
+	}
+	# Wattasid Dynasty
+	1465.8.14 = {
+		holder = 0
 	}
 }
 
@@ -816,19 +1221,78 @@ c_asfi = {
 	}
 	1262.1.1 = {
 		liege = "d_marrakesh"
-		holder = 32990
+		holder = 32990 # Idris al-Wathiq
 	}
+	# Marinids
 	1269.9.1 = {
-		holder = 32998
+		holder = 32997 # Abu Yusuf Ya'qub
 	}
 	1286.3.20 = {
-		holder = 32999
+		holder = 32998 # Abu Ya'qub Yusuf al-Nasir
 	}
-	1300.1.1 = {
-		holder = 33002
+	1307.5.13 = {
+		holder = 33000 # Abu Thabit 'Amir
+	}
+	1308.7.28 = {
+		holder = 33001 # Abu'l-Rabi' Sulayman
+	}
+	1310.11.23 = {
+		holder = 33002 # Abu Sa'id Uthman II
 	}
 	1331.8.1 = {
-		holder = 33006
+		holder = 33004 # Abu'l-Hasan 'Ali
+	}
+	1348.1.1 = {
+		holder = 33007 # Abu 'Inan Faris al-Mutawakkil ibn 'Ali
+	}
+	1358.1.10 = {
+		holder = marinid_037 # Abu Zayyan Muhammad II ibn Faris, 1st reign
+	}
+	1358.2.1 = {
+		holder = marinid_038 # Abu Yahya Abu Bakr ibn Faris
+	}
+	1359.1.1 = {
+		holder = 33009 # Abu Salim Ibrahim al-Musta'in billah ibn 'Ali
+	}
+	1361.1.1 = {
+		holder = marinid_030 # Abu 'Amr Tashfin ibn 'Ali
+	}
+	1362.1.1 = {
+		holder = marinid_037 # Abu Zayyan Muhammad II ibn Faris, 2nd reign
+	}
+	1366.1.1 = {
+		holder = 33011 # Abu Faris 'Abd-al-'Aziz
+	}
+	1372.1.1 = {
+		holder = marinid_045 # Abu Zayyan Muhammad al-Sa'id III ibn 'Abd-al-'Aziz
+	}
+	1374.1.1 = {
+		holder = marinid_047 # Abu'l-'Abbas Ahmad al-Mustansir ibn 'Abd-al-'Aziz, 1st reign
+	}
+	1384.1.1 = {
+		holder = marinid_039 # Musa al-Mutawakkil ibn Faris
+	}
+	1386.1.1 = {
+		holder = marinid_053 # Abu Zayyan Muhammad IV ibn Ahmad
+	}
+	1387.1.1 = {
+		holder = marinid_047 # Abu'l-'Abbas Ahmad I al-Mustansir ibn 'Abd-al-'Aziz, 2nd reign
+	}
+	1393.1.1 = {
+		holder = marinid_054 # Abd-al-'Aziz al-Mustansir ibn Ahmad
+	}
+	1396.1.1 = {
+		holder = marinid_055 # Abu 'Amir 'Abdallah al-Mustansir ibn Ahmad
+	}
+	1398.1.1 = {
+		holder = marinid_056 # Abu Sa'id Uthman III ibn Ahmad
+	}
+	1420.10.1 = {
+		holder = marinid_059 # Abu Muhammad Abd-al-Haqq II ibn Uthman III
+	}
+	# Wattasid Dynasty
+	1465.8.14 = {
+		holder = 0
 	}
 }
 
@@ -927,7 +1391,7 @@ c_tinmallal = {
 	}
 	1262.1.1 = {
 		liege = "d_marrakesh"
-		holder = 32990
+		holder = 32990 # Idris al-Wathiq
 	}
 	1269.9.1 = {
 		holder = almohad0016 # Ishaq ibn Ishaq al-Tahir, Almohad Caliph of Tinmel
@@ -936,15 +1400,73 @@ c_tinmallal = {
 	1275.1.1 = {
 		holder = almohad_descendants_006 # 'Abd-al-Wahid III al-Mu'tasim billah, the last Almohad Caliph at Tinmel
 	}
+	# Marinids
 	1286.3.20 = {
-		holder = 32999
-		liege = k_maghreb
+		holder = 32998 # Abu Ya'qub Yusuf al-Nasir
 	}
-	1300.1.1 = {
-		holder = 33002
+	1307.5.13 = {
+		holder = 33000 # Abu Thabit 'Amir
+	}
+	1308.7.28 = {
+		holder = 33001 # Abu'l-Rabi' Sulayman
+	}
+	1310.11.23 = {
+		holder = 33002 # Abu Sa'id Uthman II
 	}
 	1331.8.1 = {
-		holder = 33006
+		holder = 33004 # Abu'l-Hasan 'Ali
+	}
+	1348.1.1 = {
+		holder = 33007 # Abu 'Inan Faris al-Mutawakkil ibn 'Ali
+	}
+	1358.1.10 = {
+		holder = marinid_037 # Abu Zayyan Muhammad II ibn Faris, 1st reign
+	}
+	1358.2.1 = {
+		holder = marinid_038 # Abu Yahya Abu Bakr ibn Faris
+	}
+	1359.1.1 = {
+		holder = 33009 # Abu Salim Ibrahim al-Musta'in billah ibn 'Ali
+	}
+	1361.1.1 = {
+		holder = marinid_030 # Abu 'Amr Tashfin ibn 'Ali
+	}
+	1362.1.1 = {
+		holder = marinid_037 # Abu Zayyan Muhammad II ibn Faris, 2nd reign
+	}
+	1366.1.1 = {
+		holder = 33011 # Abu Faris 'Abd-al-'Aziz
+	}
+	1372.1.1 = {
+		holder = marinid_045 # Abu Zayyan Muhammad al-Sa'id III ibn 'Abd-al-'Aziz
+	}
+	1374.1.1 = {
+		holder = marinid_047 # Abu'l-'Abbas Ahmad al-Mustansir ibn 'Abd-al-'Aziz, 1st reign
+	}
+	1384.1.1 = {
+		holder = marinid_039 # Musa al-Mutawakkil ibn Faris
+	}
+	1386.1.1 = {
+		holder = marinid_053 # Abu Zayyan Muhammad IV ibn Ahmad
+	}
+	1387.1.1 = {
+		holder = marinid_047 # Abu'l-'Abbas Ahmad I al-Mustansir ibn 'Abd-al-'Aziz, 2nd reign
+	}
+	1393.1.1 = {
+		holder = marinid_054 # Abd-al-'Aziz al-Mustansir ibn Ahmad
+	}
+	1396.1.1 = {
+		holder = marinid_055 # Abu 'Amir 'Abdallah al-Mustansir ibn Ahmad
+	}
+	1398.1.1 = {
+		holder = marinid_056 # Abu Sa'id Uthman III ibn Ahmad
+	}
+	1420.10.1 = {
+		holder = marinid_059 # Abu Muhammad Abd-al-Haqq II ibn Uthman III
+	}
+	# Wattasid Dynasty
+	1465.8.14 = {
+		holder = 0
 	}
 }
 
@@ -1033,25 +1555,81 @@ c_sous = {
 		holder = 32987
 	}
 	1248.1.1 = {
-		holder = 32990
+		holder = 32990 # Idris al-Wathiq
 	}
 	1266.1.1 = {
-		holder = 32990
+		holder = 32990 # Idris al-Wathiq
 	}
+	# Marinids
 	1269.9.1 = {
-		liege = "d_marrakesh"
-	}
-	1269.9.1 = {
-		holder = 32998
+		holder = 32997 # Abu Yusuf Ya'qub
 	}
 	1286.3.20 = {
-		holder = 32999
+		holder = 32998 # Abu Ya'qub Yusuf al-Nasir
 	}
-	1300.1.1 = {
-		holder = 33002
+	1307.5.13 = {
+		holder = 33000 # Abu Thabit 'Amir
+	}
+	1308.7.28 = {
+		holder = 33001 # Abu'l-Rabi' Sulayman
+	}
+	1310.11.23 = {
+		holder = 33002 # Abu Sa'id Uthman II
 	}
 	1331.8.1 = {
-		holder = 33006
+		holder = 33004 # Abu'l-Hasan 'Ali
+	}
+	1348.1.1 = {
+		holder = 33007 # Abu 'Inan Faris al-Mutawakkil ibn 'Ali
+	}
+	1358.1.10 = {
+		holder = marinid_037 # Abu Zayyan Muhammad II ibn Faris, 1st reign
+	}
+	1358.2.1 = {
+		holder = marinid_038 # Abu Yahya Abu Bakr ibn Faris
+	}
+	1359.1.1 = {
+		holder = 33009 # Abu Salim Ibrahim al-Musta'in billah ibn 'Ali
+	}
+	1361.1.1 = {
+		holder = marinid_030 # Abu 'Amr Tashfin ibn 'Ali
+	}
+	1362.1.1 = {
+		holder = marinid_037 # Abu Zayyan Muhammad II ibn Faris, 2nd reign
+	}
+	1366.1.1 = {
+		holder = 33011 # Abu Faris 'Abd-al-'Aziz
+	}
+	1372.1.1 = {
+		holder = marinid_045 # Abu Zayyan Muhammad al-Sa'id III ibn 'Abd-al-'Aziz
+	}
+	1374.1.1 = {
+		holder = marinid_047 # Abu'l-'Abbas Ahmad al-Mustansir ibn 'Abd-al-'Aziz, 1st reign
+	}
+	1384.1.1 = {
+		holder = marinid_039 # Musa al-Mutawakkil ibn Faris
+	}
+	1386.1.1 = {
+		holder = marinid_053 # Abu Zayyan Muhammad IV ibn Ahmad
+	}
+	1387.1.1 = {
+		holder = marinid_047 # Abu'l-'Abbas Ahmad I al-Mustansir ibn 'Abd-al-'Aziz, 2nd reign
+	}
+	1393.1.1 = {
+		holder = marinid_054 # Abd-al-'Aziz al-Mustansir ibn Ahmad
+	}
+	1396.1.1 = {
+		holder = marinid_055 # Abu 'Amir 'Abdallah al-Mustansir ibn Ahmad
+	}
+	1398.1.1 = {
+		holder = marinid_056 # Abu Sa'id Uthman III ibn Ahmad
+	}
+	1420.10.1 = {
+		holder = marinid_059 # Abu Muhammad Abd-al-Haqq II ibn Uthman III
+	}
+	# Wattasid Dynasty
+	1465.8.14 = {
+		holder = 0
 	}
 }
 
@@ -1139,25 +1717,81 @@ c_agadir = {
 		holder = 32987
 	}
 	1248.1.1 = {
-		holder = 32990
+		holder = 32990 # Idris al-Wathiq
 	}
 	1266.1.1 = {
-		holder = 32990
+		holder = 32990 # Idris al-Wathiq
 	}
+	# Marinids
 	1269.9.1 = {
-		liege = "d_marrakesh"
-	}
-	1269.9.1 = {
-		holder = 32998
+		holder = 32997 # Abu Yusuf Ya'qub
 	}
 	1286.3.20 = {
-		holder = 32999
+		holder = 32998 # Abu Ya'qub Yusuf al-Nasir
 	}
-	1300.1.1 = {
-		holder = 33002
+	1307.5.13 = {
+		holder = 33000 # Abu Thabit 'Amir
+	}
+	1308.7.28 = {
+		holder = 33001 # Abu'l-Rabi' Sulayman
+	}
+	1310.11.23 = {
+		holder = 33002 # Abu Sa'id Uthman II
 	}
 	1331.8.1 = {
-		holder = 33006
+		holder = 33004 # Abu'l-Hasan 'Ali
+	}
+	1348.1.1 = {
+		holder = 33007 # Abu 'Inan Faris al-Mutawakkil ibn 'Ali
+	}
+	1358.1.10 = {
+		holder = marinid_037 # Abu Zayyan Muhammad II ibn Faris, 1st reign
+	}
+	1358.2.1 = {
+		holder = marinid_038 # Abu Yahya Abu Bakr ibn Faris
+	}
+	1359.1.1 = {
+		holder = 33009 # Abu Salim Ibrahim al-Musta'in billah ibn 'Ali
+	}
+	1361.1.1 = {
+		holder = marinid_030 # Abu 'Amr Tashfin ibn 'Ali
+	}
+	1362.1.1 = {
+		holder = marinid_037 # Abu Zayyan Muhammad II ibn Faris, 2nd reign
+	}
+	1366.1.1 = {
+		holder = 33011 # Abu Faris 'Abd-al-'Aziz
+	}
+	1372.1.1 = {
+		holder = marinid_045 # Abu Zayyan Muhammad al-Sa'id III ibn 'Abd-al-'Aziz
+	}
+	1374.1.1 = {
+		holder = marinid_047 # Abu'l-'Abbas Ahmad al-Mustansir ibn 'Abd-al-'Aziz, 1st reign
+	}
+	1384.1.1 = {
+		holder = marinid_039 # Musa al-Mutawakkil ibn Faris
+	}
+	1386.1.1 = {
+		holder = marinid_053 # Abu Zayyan Muhammad IV ibn Ahmad
+	}
+	1387.1.1 = {
+		holder = marinid_047 # Abu'l-'Abbas Ahmad I al-Mustansir ibn 'Abd-al-'Aziz, 2nd reign
+	}
+	1393.1.1 = {
+		holder = marinid_054 # Abd-al-'Aziz al-Mustansir ibn Ahmad
+	}
+	1396.1.1 = {
+		holder = marinid_055 # Abu 'Amir 'Abdallah al-Mustansir ibn Ahmad
+	}
+	1398.1.1 = {
+		holder = marinid_056 # Abu Sa'id Uthman III ibn Ahmad
+	}
+	1420.10.1 = {
+		holder = marinid_059 # Abu Muhammad Abd-al-Haqq II ibn Uthman III
+	}
+	# Wattasid Dynasty
+	1465.8.14 = {
+		holder = 0
 	}
 }
 
@@ -1602,19 +2236,78 @@ c_sijilmasa = {
 		liege = "d_marrakesh"
 	}
 	1262.1.1 = {
-		holder = 32990
+		holder = 32990 # Idris al-Wathiq
 	}
+	# Marinids
 	1269.9.1 = {
-		holder = 32998
+		holder = 32997 # Abu Yusuf Ya'qub
 	}
 	1286.3.20 = {
-		holder = 32999
+		holder = 32998 # Abu Ya'qub Yusuf al-Nasir
 	}
-	1300.1.1 = {
-		holder = 33002
+	1307.5.13 = {
+		holder = 33000 # Abu Thabit 'Amir
+	}
+	1308.7.28 = {
+		holder = 33001 # Abu'l-Rabi' Sulayman
+	}
+	1310.11.23 = {
+		holder = 33002 # Abu Sa'id Uthman II
 	}
 	1331.8.1 = {
-		holder = 33006
+		holder = 33004 # Abu'l-Hasan 'Ali
+	}
+	1348.1.1 = {
+		holder = 33007 # Abu 'Inan Faris al-Mutawakkil ibn 'Ali
+	}
+	1358.1.10 = {
+		holder = marinid_037 # Abu Zayyan Muhammad II ibn Faris, 1st reign
+	}
+	1358.2.1 = {
+		holder = marinid_038 # Abu Yahya Abu Bakr ibn Faris
+	}
+	1359.1.1 = {
+		holder = 33009 # Abu Salim Ibrahim al-Musta'in billah ibn 'Ali
+	}
+	1361.1.1 = {
+		holder = marinid_030 # Abu 'Amr Tashfin ibn 'Ali
+	}
+	1362.1.1 = {
+		holder = marinid_037 # Abu Zayyan Muhammad II ibn Faris, 2nd reign
+	}
+	1366.1.1 = {
+		holder = 33011 # Abu Faris 'Abd-al-'Aziz
+	}
+	1372.1.1 = {
+		holder = marinid_045 # Abu Zayyan Muhammad al-Sa'id III ibn 'Abd-al-'Aziz
+	}
+	1374.1.1 = {
+		holder = marinid_047 # Abu'l-'Abbas Ahmad al-Mustansir ibn 'Abd-al-'Aziz, 1st reign
+	}
+	1384.1.1 = {
+		holder = marinid_039 # Musa al-Mutawakkil ibn Faris
+	}
+	1386.1.1 = {
+		holder = marinid_053 # Abu Zayyan Muhammad IV ibn Ahmad
+	}
+	1387.1.1 = {
+		holder = marinid_047 # Abu'l-'Abbas Ahmad I al-Mustansir ibn 'Abd-al-'Aziz, 2nd reign
+	}
+	1393.1.1 = {
+		holder = marinid_054 # Abd-al-'Aziz al-Mustansir ibn Ahmad
+	}
+	1396.1.1 = {
+		holder = marinid_055 # Abu 'Amir 'Abdallah al-Mustansir ibn Ahmad
+	}
+	1398.1.1 = {
+		holder = marinid_056 # Abu Sa'id Uthman III ibn Ahmad
+	}
+	1420.10.1 = {
+		holder = marinid_059 # Abu Muhammad Abd-al-Haqq II ibn Uthman III
+	}
+	# Wattasid Dynasty
+	1465.8.14 = {
+		holder = 0
 	}
 }
 
@@ -1701,22 +2394,81 @@ c_tudgha = {
 		liege = e_maghreb
 	}
 	1266.1.1 = {
-		holder = 32990
+		holder = 32990 # Idris al-Wathiq
 	}
 	1269.9.1 = {
 		liege = "d_marrakesh"
 	}
+	# Marinids
 	1269.9.1 = {
-		holder = 32998
+		holder = 32997 # Abu Yusuf Ya'qub
 	}
 	1286.3.20 = {
-		holder = 32999
+		holder = 32998 # Abu Ya'qub Yusuf al-Nasir
 	}
-	1300.1.1 = {
-		holder = 33002
+	1307.5.13 = {
+		holder = 33000 # Abu Thabit 'Amir
+	}
+	1308.7.28 = {
+		holder = 33001 # Abu'l-Rabi' Sulayman
+	}
+	1310.11.23 = {
+		holder = 33002 # Abu Sa'id Uthman II
 	}
 	1331.8.1 = {
-		holder = 33006
+		holder = 33004 # Abu'l-Hasan 'Ali
+	}
+	1348.1.1 = {
+		holder = 33007 # Abu 'Inan Faris al-Mutawakkil ibn 'Ali
+	}
+	1358.1.10 = {
+		holder = marinid_037 # Abu Zayyan Muhammad II ibn Faris, 1st reign
+	}
+	1358.2.1 = {
+		holder = marinid_038 # Abu Yahya Abu Bakr ibn Faris
+	}
+	1359.1.1 = {
+		holder = 33009 # Abu Salim Ibrahim al-Musta'in billah ibn 'Ali
+	}
+	1361.1.1 = {
+		holder = marinid_030 # Abu 'Amr Tashfin ibn 'Ali
+	}
+	1362.1.1 = {
+		holder = marinid_037 # Abu Zayyan Muhammad II ibn Faris, 2nd reign
+	}
+	1366.1.1 = {
+		holder = 33011 # Abu Faris 'Abd-al-'Aziz
+	}
+	1372.1.1 = {
+		holder = marinid_045 # Abu Zayyan Muhammad al-Sa'id III ibn 'Abd-al-'Aziz
+	}
+	1374.1.1 = {
+		holder = marinid_047 # Abu'l-'Abbas Ahmad al-Mustansir ibn 'Abd-al-'Aziz, 1st reign
+	}
+	1384.1.1 = {
+		holder = marinid_039 # Musa al-Mutawakkil ibn Faris
+	}
+	1386.1.1 = {
+		holder = marinid_053 # Abu Zayyan Muhammad IV ibn Ahmad
+	}
+	1387.1.1 = {
+		holder = marinid_047 # Abu'l-'Abbas Ahmad I al-Mustansir ibn 'Abd-al-'Aziz, 2nd reign
+	}
+	1393.1.1 = {
+		holder = marinid_054 # Abd-al-'Aziz al-Mustansir ibn Ahmad
+	}
+	1396.1.1 = {
+		holder = marinid_055 # Abu 'Amir 'Abdallah al-Mustansir ibn Ahmad
+	}
+	1398.1.1 = {
+		holder = marinid_056 # Abu Sa'id Uthman III ibn Ahmad
+	}
+	1420.10.1 = {
+		holder = marinid_059 # Abu Muhammad Abd-al-Haqq II ibn Uthman III
+	}
+	# Wattasid Dynasty
+	1465.8.14 = {
+		holder = 0
 	}
 }
 
@@ -1807,19 +2559,78 @@ c_ziz = {
 		liege = "d_marrakesh"
 	}
 	1262.1.1 = {
-		holder = 32990
+		holder = 32990 # Idris al-Wathiq
 	}
+	# Marinids
 	1269.9.1 = {
-		holder = 32998
+		holder = 32997 # Abu Yusuf Ya'qub
 	}
 	1286.3.20 = {
-		holder = 32999
+		holder = 32998 # Abu Ya'qub Yusuf al-Nasir
 	}
-	1300.1.1 = {
-		holder = 33002
+	1307.5.13 = {
+		holder = 33000 # Abu Thabit 'Amir
+	}
+	1308.7.28 = {
+		holder = 33001 # Abu'l-Rabi' Sulayman
+	}
+	1310.11.23 = {
+		holder = 33002 # Abu Sa'id Uthman II
 	}
 	1331.8.1 = {
-		holder = 33006
+		holder = 33004 # Abu'l-Hasan 'Ali
+	}
+	1348.1.1 = {
+		holder = 33007 # Abu 'Inan Faris al-Mutawakkil ibn 'Ali
+	}
+	1358.1.10 = {
+		holder = marinid_037 # Abu Zayyan Muhammad II ibn Faris, 1st reign
+	}
+	1358.2.1 = {
+		holder = marinid_038 # Abu Yahya Abu Bakr ibn Faris
+	}
+	1359.1.1 = {
+		holder = 33009 # Abu Salim Ibrahim al-Musta'in billah ibn 'Ali
+	}
+	1361.1.1 = {
+		holder = marinid_030 # Abu 'Amr Tashfin ibn 'Ali
+	}
+	1362.1.1 = {
+		holder = marinid_037 # Abu Zayyan Muhammad II ibn Faris, 2nd reign
+	}
+	1366.1.1 = {
+		holder = 33011 # Abu Faris 'Abd-al-'Aziz
+	}
+	1372.1.1 = {
+		holder = marinid_045 # Abu Zayyan Muhammad al-Sa'id III ibn 'Abd-al-'Aziz
+	}
+	1374.1.1 = {
+		holder = marinid_047 # Abu'l-'Abbas Ahmad al-Mustansir ibn 'Abd-al-'Aziz, 1st reign
+	}
+	1384.1.1 = {
+		holder = marinid_039 # Musa al-Mutawakkil ibn Faris
+	}
+	1386.1.1 = {
+		holder = marinid_053 # Abu Zayyan Muhammad IV ibn Ahmad
+	}
+	1387.1.1 = {
+		holder = marinid_047 # Abu'l-'Abbas Ahmad I al-Mustansir ibn 'Abd-al-'Aziz, 2nd reign
+	}
+	1393.1.1 = {
+		holder = marinid_054 # Abd-al-'Aziz al-Mustansir ibn Ahmad
+	}
+	1396.1.1 = {
+		holder = marinid_055 # Abu 'Amir 'Abdallah al-Mustansir ibn Ahmad
+	}
+	1398.1.1 = {
+		holder = marinid_056 # Abu Sa'id Uthman III ibn Ahmad
+	}
+	1420.10.1 = {
+		holder = marinid_059 # Abu Muhammad Abd-al-Haqq II ibn Uthman III
+	}
+	# Wattasid Dynasty
+	1465.8.14 = {
+		holder = 0
 	}
 }
 

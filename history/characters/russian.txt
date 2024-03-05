@@ -12913,19 +12913,19 @@ maria_palaeologina = {
 		death = 945.7.3
 	}
 }
-#302199 = {
-#	name = Rogvolod		#Ragnvald of Polotsk
-#	dynasty = 1029118
-#	religion = slavic_pagan
-#	culture = russian	#originally from Sweden, but no mention of when (or even if) he slavicized
-#	920.1.2 = {
-#		birth = 920.1.2
-#	}
-#	978.6.15 = {
-#		death = 978.6.15
-#	}
-#}
-#
+302199 = {
+	name = Rogvolod		#Ragnvald of Polotsk
+	dynasty = 1029118
+	religion = slavic_pagan
+	culture = russian	#originally from Sweden, but no mention of when (or even if) he slavicized
+	920.1.2 = {
+		birth = 920.1.2
+	}
+	978.6.15 = {
+		death = 978.6.15
+	}
+}
+
 302200 = {
 	name = Voislav
 	dynasty = 1029117	#Dregovich

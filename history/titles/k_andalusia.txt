@@ -133,9 +133,12 @@ d_cordoba = {
 	#867.1.1 = { change_development_level = 10 }
 	#1066.1.1 = { change_development_level = 13 }
 	
-	712.1.1 = {
-		holder = abd_al_aziz_ibn_musa
+	711.1.1 = {
+		holder = levantine0003 # Mughit, Sheik of Cordoba (711-716)
 		liege = e_arabia
+	}
+	712.1.1 = {
+		liege = k_andalusia
 	}
 
 	1031.1.1 = {
@@ -187,18 +190,25 @@ c_cordoba = {
 	#867.1.1 = { change_development_level = 20 }
 	#1066.1.1 = { change_development_level = 25 }
 	
-	21.1.1 = {
-		change_development_level = 12
-	}
+	#21.1.1 = {
+	#	change_development_level = 12
+	#}
 	
-	1001.1.1 = {
-		change_development_level = 18
-	}
+	#1001.1.1 = {
+	#	change_development_level = 18
+	#}
 	
-	1101.1.1 = {
-		change_development_level = 22
-	}
+	#1101.1.1 = {
+	#	change_development_level = 22
+	#}
 	
+	711.1.1 = {
+		holder = levantine0003 # Mughit, Sheik of Cordoba (711-716)
+		liege = e_arabia
+	}
+	712.1.1 = {
+		liege = k_andalusia
+	}
 	756.3.16 = {
 		holder = 73679 # Abd al-Rahman I Umayyad
 		liege = k_andalusia
@@ -351,6 +361,13 @@ c_cordoba = {
 
 
 c_calatrava = {
+	711.1.1 = {
+		holder = levantine0003 # Mughit, Sheik of Cordoba (711-716)
+		liege = e_arabia
+	}
+	712.1.1 = {
+		liege = k_andalusia
+	}
 	756.3.16 = {
 		holder = 73679 # Abd al-Rahman I Umayyad
 		liege = k_andalusia
@@ -526,6 +543,13 @@ c_calatrava = {
 
 
 c_almader = {
+	711.1.1 = {
+		holder = levantine0003 # Mughit, Sheik of Cordoba (711-716)
+		liege = e_arabia
+	}
+	712.1.1 = {
+		liege = k_andalusia
+	}
 	756.3.16 = {
 		holder = 73679 # Abd al-Rahman I Umayyad
 		liege = k_andalusia
@@ -702,6 +726,13 @@ c_almader = {
 
 
 c_andujar = { # Jaen
+	711.1.1 = {
+		holder = levantine0003 # Mughit, Sheik of Cordoba (711-716)
+		liege = e_arabia
+	}
+	712.1.1 = {
+		liege = k_andalusia
+	}
 	756.3.16 = {
 		holder = 73679 # Abd al-Rahman I Umayyad
 		liege = k_andalusia

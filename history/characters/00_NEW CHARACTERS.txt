@@ -1051,7 +1051,7 @@
 769steppe7 = {
 	name = "Aldar"
 	religion = siberian_pagan
-	culture = evenk
+	culture = buryat # evenk
 	740.12.16 = {
 		birth = yes
 	}

@@ -35,7 +35,7 @@ tib_islamic_schism.0001 = { # For later Sunnis
     option = {
         name = tib_islamic_schism.0001.a # The words of Imam al-Ash'ari indeed have defended our Deen
 
-        set_character_faith_with_conversion = faith:asharite
+        set_character_faith = faith:asharite
         if = {
             limit = {
                 is_ruler = yes
@@ -61,7 +61,7 @@ tib_islamic_schism.0001 = { # For later Sunnis
     option = {
         name = tib_islamic_schism.0001.b # Allah has truly guided Imam al-Maturidi with such astonishing writings
 
-        set_character_faith_with_conversion = faith:maturidi
+        set_character_faith = faith:maturidi
         if = {
             limit = {
                 is_ruler = yes
@@ -115,7 +115,7 @@ tib_islamic_schism.0010 = { # For early Shias
     option = {
         name = tib_islamic_schism.0010.a # Only through literal interpretation of the Qur'an and Sunnah we prevail!
 
-        set_character_faith_with_conversion = faith:ismailite
+        set_character_faith = faith:ismailite
         if = {
             limit = {
                 is_ruler = yes
@@ -138,7 +138,7 @@ tib_islamic_schism.0010 = { # For early Shias
     option = {
         name = tib_islamic_schism.0010.b # Let us embrace the wisdom of the Greek philosophers to advance our theological grasp
 
-        set_character_faith_with_conversion = faith:zayidi
+        set_character_faith = faith:zayidi
         if = {
             limit = {
                 is_ruler = yes
@@ -195,7 +195,7 @@ tib_islamic_schism.0002 = { # For early Sunnis
     option = {
         name = tib_islamic_schism.0002.a # Our religion is strictly based on the Quran and Hadith!
 
-        set_character_faith_with_conversion = faith:athari
+        set_character_faith = faith:athari
         if = {
             limit = {
                 is_ruler = yes
@@ -222,7 +222,7 @@ tib_islamic_schism.0002 = { # For early Sunnis
     option = {
         name = tib_islamic_schism.0002.b # Let us embrace the wisdom of the Greek philosophers to advance our knowledge of the Divine
 
-        set_character_faith_with_conversion = faith:mutazila
+        set_character_faith = faith:mutazila
         if = {
             limit = {
                 is_ruler = yes

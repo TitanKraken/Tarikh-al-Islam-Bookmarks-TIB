@@ -54,16 +54,16 @@ k_persia = {
 		holder = 163164 # Amr ibn Layth Saffarid
 	}
 	908.1.1 = {
-		holder = tahir_saffarid
+		holder = saffarid_02
 	}
 	909.1.1 = {
-		holder = sons_of_ali_saffarid_001 # al-Layth ibn Ali Saffarid
+		holder = 163163 # al-Layth ibn Ali Saffarid
 	}
 	910.1.1 = {
-		holder = sons_of_ali_saffarid_002 # Muhammad ibn Ali Saffarid
+		holder = saffarid_04 # Muhammad ibn Ali Saffarid
 	}
 	911.1.1 = {
-		holder = sons_of_ali_saffarid_003 # al-Mu'addal ibn Ali Saffarid
+		holder = extra_saffarids_25 # al-Mu'addal ibn Ali Saffarid
 	}
 	911.6.1 = {
 		holder = 0
@@ -635,6 +635,9 @@ c_kirman = {
 		liege = "d_sistan"
 		holder = 6896
 	}
+	865.1.1 = {
+		holder = extra_turks_0001 #historical, but only confirmable a couple of years later
+	}
 	
 	977.1.1 = {
 		holder = 144123
@@ -748,6 +751,9 @@ c_behabad = {
 		liege = "d_sistan"
 		holder = 6896
 	}
+	865.1.1 = {
+		holder = extra_turks_0001 #historical, but only confirmable a couple of years later
+	}
 	
 	977.1.1 = {
 		holder = 144123
@@ -855,8 +861,12 @@ c_bam = {
 	}
 	
 	861.1.1 = {
-		liege = "d_sistan"
+		holder = azariqa_0006
+		liege = 0
+	}
+	869.1.1 = {
 		holder = 6896
+		liege = d_sistan
 	}
 	
 	977.1.1 = {
@@ -3134,6 +3144,12 @@ d_khuzestan = {
 		holder = 210005
 		liege = k_mesopotamia
 	}
+
+	866.1.1 = {
+		liege = e_arabia
+		holder = sogdian0008 
+	}
+
 	1066.1.1 = {
 		liege = k_persia
 		holder = 93160
@@ -3180,7 +3196,7 @@ c_sardan = {
 	}
 	862.1.1 = {
 		holder = 163160
-		liege = "d_fars"
+		liege = "d_khuzestan"
 	}
 	1066.1.1 = {
 		liege = "d_kirman"
@@ -3265,9 +3281,10 @@ c_ramhurmuz = {
 		holder = 163101
 	}
 	862.1.1 = {
-		holder = 163160
-		liege = "d_fars"
+		holder = extra_kurds_0003
+		liege = "d_khuzestan"
 	}
+
 	1066.1.1 = {
 		liege = "d_khuzestan"
 	}
@@ -3348,6 +3365,17 @@ c_tustar = {
 	}
 	765.1.1 = {
 		holder = 188664
+	}
+	
+	861.1.1 = {
+		liege = "d_sistan"
+	}
+	861.1.1 = {
+		holder = 163101
+	}
+	862.1.1 = {
+		holder = sogdian0008 
+		liege = "d_fars"
 	}
 	
 	861.1.1 = {
@@ -3444,7 +3472,7 @@ c_ahvaz = {
 		liege = "d_merv"
 	}
 	862.1.1 = {
-		holder = 163160
+		holder = sogdian0008 
 		liege = "d_fars"
 	}
 	
@@ -3516,7 +3544,7 @@ c_abbadan = {
 		liege = "d_merv"
 	}
 	862.1.1 = {
-		holder = 163160
+		holder = sogdian0008 
 		liege = "d_fars"
 	}
 	
@@ -3587,7 +3615,7 @@ c_dawraq = {
 		liege = "d_merv"
 	}
 	862.1.1 = {
-		holder = 163160
+		holder = sogdian0008 
 		liege = "d_fars"
 	}
 	
@@ -3792,7 +3820,8 @@ c_kermanshah = {
 		holder = 163098
 	}
 	866.1.1 = {
-		holder = 163152
+		holder = 163132 #Musa ibn Buga
+		liege = e_arabia 
 	}
 	997.1.1 = {
 		holder = 1231108 # Abu Talib Rustam Buyi
@@ -3855,7 +3884,8 @@ c_masabadhan = {
 		holder = 163098
 	}
 	866.1.1 = {
-		holder = 163152
+		holder = 163132 #Musa ibn Buga
+		liege = e_arabia 
 	}
 	997.1.1 = {
 		holder = 1231108 # Abu Talib Rustam Buyi
