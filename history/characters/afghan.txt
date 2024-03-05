@@ -76,7 +76,7 @@
 }
 188565 = {
 	name = "Bo-Fuzun"
-	dynasty = 1042104 # Nandin
+	dynasty_house = house_Nandin # 1042104 # Nandin
 	religion = "mahayana"
 	culture = "afghan"
 	father = 188718
@@ -107,7 +107,7 @@
 
 188567 = {
 	name = "Naz_aktar" # from early rather than mid 700s
-	dynasty = 1042104 # Nandin
+	dynasty_house = house_Nandin # 1042104 # Nandin
 	religion = "mahayana"
 	culture = "afghan"
 	father = 188565
@@ -427,7 +427,7 @@
 188717 = {
 	name = "Tegin-Shah" # more of a title than name
 	# founder of Kabul Shahi line
-	dynasty = 1042104 # Nandin
+	dynasty_house = house_Nandin # 1042104 # Nandin
 	religion = "mahayana"
 	culture = "afghan"
 	father = 188700
@@ -440,7 +440,7 @@
 }
 188718 = {
 	name = "Phrom-Kesar"
-	dynasty = 1042104 # Nandin
+	dynasty_house = house_Nandin # 1042104 # Nandin
 	religion = "mahayana"
 	culture = "afghan"
 	father = 188717

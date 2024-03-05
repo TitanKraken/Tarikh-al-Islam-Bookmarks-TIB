@@ -1980,7 +1980,7 @@ c_al-haditha = {
 		holder = 163132
 	}
 	866.1.1 = {
-       holder = extra_kurds_0010
+        holder = extra_kurds_0010
 	}
 	872.12.1 = {
 		liege = "d_baghdad"

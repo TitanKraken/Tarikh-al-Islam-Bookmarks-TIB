@@ -5,16 +5,15 @@
 }
 trigger_zakat_reminder = {
 	effect = {
-		if = {
-			limit = {
-				every_ruler = {
+		every_ruler = {
+			if = {
+				limit = {
+					years_from_game_start > 1
+					faith.religion = religion:islam_religion
 					NOT = {
 						has_character_modifier = done_zakat_modifier
 					}
-					religion = religion:islam_religion
 				}
-			}
-			every_ruler = {
 				trigger_event = {
 					id = tib_pay_zakat_decisions.1001
 					days = 0

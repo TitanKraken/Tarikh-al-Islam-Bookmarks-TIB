@@ -198,12 +198,6 @@ house_Cornwall = {
     dynasty = 723
 }
 
-# Sassanids
-house_Nersiani = {
-    name = "Nersiani"
-    dynasty = 1029100
-}
-
 # Rus' / Rurikids branch (Credits from MB+)
 
 #Izyaslavichi #705
@@ -253,4 +247,20 @@ house_IzyaslavichiTurov = {
 	
     name = "dynn_IzyaslavichiTurov"
     dynasty = 705 #Rurikid
+}
+
+### Iran
+## Persian
+# Sassanids
+house_Nersiani = {
+    name = "Nersiani"
+    dynasty = 1029100
+}
+
+## Afghan / Pashtun
+# Zunbils
+# Sassanids
+house_Nandin = {
+    name = "dynn_Nandin"
+    dynasty = 1029100
 }

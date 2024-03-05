@@ -591,11 +591,11 @@ baranis = {
     }
 
     gene_hair_type = {
-        75 = {  name = hair_straight             range = { 0.35 0.75 }     }
-        0 = {  name = hair_wavy             range = { 0.35 0.75 }     }
-        15 = {  name = hair_curly             range = { 0.35 0.75 }     }
+        15 = {  name = hair_straight             range = { 0.35 0.75 }     }
+        50 = {  name = hair_wavy             range = { 0.35 0.75 }     }
+        35 = {  name = hair_curly             range = { 0.35 0.75 }     }
         0 = {  name = hair_afro             range = { 0.35 0.75 }     }
-        10 = {  name = hair_straight_thin_beard             range = { 0.35 0.75 }     }
+        0 = {  name = hair_straight_thin_beard             range = { 0.35 0.75 }     }
     }		
 
 	eyelashes_accessory = {
