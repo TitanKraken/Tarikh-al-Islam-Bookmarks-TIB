@@ -5169,7 +5169,7 @@
 	}
 }
 155167 = {
-	name = "Abd-al-Qasim"
+	name = "Abu l-Qasim" # "Abd-al-Qasim"
 	dynasty = 1027019
 	religion = "ashari"
 	culture = maghrebi
@@ -5648,11 +5648,11 @@
 	culture = maghrebi
 	trait = sayyid
 	father = 159502
-	810.1.2 = {
-		birth = "810.1.2"
+	800.1.1 = {
+		birth = yes
 	}
 	836.12.16 = {
-		death = "836.12.16"
+		death = yes
 	}
 }
 159504 = {
@@ -5704,10 +5704,10 @@
 	culture = maghrebi
 	trait = sayyid
 	father = 159502 # Idris II
-	818.1.2 = {
+	802.1.1 = {
 		birth = yes
 	}
-	863.12.16 = {
+	845.10.1 = {
 		death = yes
 	}
 }
@@ -5726,34 +5726,7 @@
 		death = yes
 	}
 }
-159509 = {
-	name = "Al-Qasim"
-	dynasty_house = house_Idrisid
-	religion = "zayidi"
-	culture = maghrebi
-	trait = sayyid
-	father = 159506
-	860.1.2 = {
-		birth = "860.1.2"
-	}
-	880.12.16 = {
-		death = "880.12.16"
-	}
-}
-159510 = {
-	name = "Yahya"
-	dynasty_house = house_Idrisid
-	religion = "zayidi"
-	culture = maghrebi
-	trait = sayyid
-	father = 159509
-	846.1.2 = {
-		birth = "875.1.2"
-	}
-	904.12.16 = {
-		death = "904.12.16"
-	}
-}
+# 159509 & 159510 are duplicates at the wrong ancestral line by vanilla
 159511 = {
 	name = "Idris"
 	dynasty_house = house_Idrisid

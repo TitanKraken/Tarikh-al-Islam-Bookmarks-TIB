@@ -7155,20 +7155,6 @@
 	}
 }
 
-163133 = {
-	name = "Hamdan"
-	dynasty = 7518
-
-	culture = "levantine"
-	religion = "ismaili"
-
-	837.1.1 = {
-		birth = "837.1.1"
-	}
-	874.1.1 = {
-		death = "874.1.1"
-	}
-}
 163167 = {
 	name = "Muhammad"
 	dynasty = 1029123
@@ -8964,20 +8950,6 @@ spouse_of_34027 = {
 		birth = yes
 	}
 	820.1.1 = {
-		death = yes
-	}
-}
-
-levantine0001 = {
-	name = "MA_lik" #Governor of Damascus and Urdunn in early 870's
-	dynasty = bedouindyn007
-	religion = "ashari"
-	culture = levantine
-	father = bedouin0051
-	840.1.1 = {
-		birth = yes
-	}
-	896.1.1 = {
 		death = yes
 	}
 }

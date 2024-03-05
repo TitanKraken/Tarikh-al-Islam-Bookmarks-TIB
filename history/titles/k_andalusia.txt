@@ -2628,8 +2628,8 @@ c_cuenca = {
 	802.1.1 = {
 		holder = 73800 # Yusuf Amrusid
 	}
-	838.1.1 = {
-		holder = 73801 # Umar Amrusid
+	832.1.1 = {
+		holder = 200206 # Amrus ibn Umar Amrusid
 	}
 	840.1.1 = {
 		holder = 73682 # Abd al-Rahman II Umayyad

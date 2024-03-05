@@ -9149,7 +9149,7 @@ armenian000080 = {
 
 armenian000082 = {
 	name = "Katranide"
-	dynasty = armeniankatranidi
+	#dynasty = armeniankatranidi
 	religion = "armenian_apostolic"
 	culture = "armenian"
 	female = yes

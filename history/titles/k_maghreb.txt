@@ -226,14 +226,38 @@ d_marrakesh = {
 		holder = 168275
 		government = islamic_government # clan_government
 	}
-	864.12.16 = {
-		name = d_marrakesh
+	767.1.1 = {
+		government = islamic_government # clan_government
+		holder = 168276
+	}
+	792.1.1 = {
+		holder = 168277
+	}
+	842.1.1 = {
+		holder = 168278
+	}
+	885.1.1 = {
+		holder = 168279
+	}
+	917.1.1 = {
+		holder = 168280
+	}
+	961.1.1 = {
+		holder = 168281
+	}
+	989.1.1 = {
+		holder = baranis0011
+	}
+	1029.1.1 = {
+		holder = baranis0012
+	}
+	1054.1.1 = {
+		holder = baranis0013
+	}
+	1058.1.1 = {
 		liege = k_maghreb
-		holder = 159507
 	}
-	865.12.16 = {
-		holder = 159508
-	}
+	
 	1061.1.1 = {
 		government = islamic_government # clan_government
 		liege = k_maghreb
@@ -3311,7 +3335,7 @@ c_gharb = {
 		holder = 159505
 	}
 	864.1.1 = {
-		holder = 159509
+		holder = 210036 # Dawud al-Idrisi
 	#	liege = d_rif
 	}
 	1061.1.1 = {

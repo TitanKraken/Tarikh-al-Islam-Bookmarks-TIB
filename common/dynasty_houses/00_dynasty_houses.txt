@@ -1868,3 +1868,13 @@ house_al_adawiyya = { #the Jazira/Mosul branch of the vast Banu Taghlib dynasty
 	name = "dynn_al_adawiyya"
 	dynasty = 1042127 #Banu Taghlib
 }
+
+house_attab = {
+	name = "dynn_attab"
+	dynasty = 1042127 #Banu Taghlib
+}
+
+house_hamdan = {
+	name = dynn_Hamdanid
+	dynasty = 1042127 #Banu Taghlib
+}
