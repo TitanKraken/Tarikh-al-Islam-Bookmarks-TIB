@@ -110,7 +110,7 @@ maghrebi = {
 
 	coa_gfx = { arabic_group_coa_gfx } 
 	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
-	clothing_gfx = { iberian_muslim_clothing_gfx mena_clothing_gfx } 
+	clothing_gfx = { iberian_muslim_clothing_gfx afr_berber_clothing_gfx mena_clothing_gfx } 
 	unit_gfx = { mena_unit_gfx } 	
 
 	ethnicities = {
@@ -178,7 +178,7 @@ hadhrami = {
 
 # Copied from More Bookmarks+ (edited a bit by me), credits to the developer :D
 
-sicilian_arabian = { # Arab melting pot in Southern Italy
+sicilian_arabian = { # Siqalli in-game; Arab melting pot in Southern Italy
 	color = { 0.3 0.6 0.3 }
 	created = 850.1.1
 	parents = { greek maghrebi } # Chose Greek mainly since the provinces it shows up in were all originally Greek
@@ -199,7 +199,7 @@ sicilian_arabian = { # Arab melting pot in Southern Italy
 
 	coa_gfx = { arabic_group_coa_gfx } 
 	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
-	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	clothing_gfx = { afr_berber_clothing_gfx mena_clothing_gfx } 
 	unit_gfx = { mena_unit_gfx } 	
 
 	ethnicities = {

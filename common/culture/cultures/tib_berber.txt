@@ -17,7 +17,7 @@
 	
 	coa_gfx = { berber_group_coa_gfx }
 	building_gfx = { iberian_building_gfx mena_building_gfx }
-	clothing_gfx = { iberian_muslim_clothing_gfx mena_clothing_gfx }
+	clothing_gfx = { afr_berber_clothing_gfx mena_clothing_gfx }
 	unit_gfx = { mena_unit_gfx }
 	
 	ethnicities = {
@@ -97,7 +97,7 @@ zaghawa = {
 	
 	coa_gfx = { berber_group_coa_gfx }
 	building_gfx = { mena_building_gfx }
-	clothing_gfx = { mena_clothing_gfx }
+	clothing_gfx = { afr_berber_clothing_gfx mena_clothing_gfx }
 	unit_gfx = { mena_unit_gfx }
 	
 	ethnicities = {
@@ -126,7 +126,7 @@ tuareg = {
 	
 	coa_gfx = { berber_group_coa_gfx }
 	building_gfx = { mena_building_gfx }
-	clothing_gfx = { iberian_muslim_clothing_gfx mena_clothing_gfx }
+	clothing_gfx = { afr_berber_clothing_gfx mena_clothing_gfx }
 	unit_gfx = { sub_sahran_unit_gfx }
 	
 	ethnicities = {
@@ -155,7 +155,7 @@ tagelmust = { # Tagelmust Sanhaja - Based on Baranis
 	
 	coa_gfx = { berber_group_coa_gfx }
 	building_gfx = { mena_building_gfx }
-	clothing_gfx = { iberian_muslim_clothing_gfx mena_clothing_gfx }
+	clothing_gfx = { afr_berber_clothing_gfx iberian_muslim_clothing_gfx mena_clothing_gfx }
 	unit_gfx = { mena_unit_gfx }
 	
 	ethnicities = {
@@ -186,7 +186,7 @@ danhagha = { # Kabyle Sanhaja - Based on Baranis
 	
 	coa_gfx = { berber_group_coa_gfx }
 	building_gfx = { mena_building_gfx }
-	clothing_gfx = { iberian_muslim_clothing_gfx mena_clothing_gfx }
+	clothing_gfx = { afr_berber_clothing_gfx mena_clothing_gfx }
 	unit_gfx = { mena_unit_gfx }
 	
 	ethnicities = {
@@ -214,7 +214,7 @@ masmuda = { # Moroccan Atlas Sanhaja - Based on Baranis
 	
 	coa_gfx = { berber_group_coa_gfx }
 	building_gfx = { iberian_building_gfx mena_building_gfx }
-	clothing_gfx = { iberian_muslim_clothing_gfx mena_clothing_gfx }
+	clothing_gfx = { afr_berber_clothing_gfx iberian_muslim_clothing_gfx mena_clothing_gfx }
 	unit_gfx = { iberian_muslim_unit_gfx }
 	
 	ethnicities = {
@@ -243,7 +243,7 @@ zenata = { # Based on Baranis, historically one of the largest Berber confederat
 	
 	coa_gfx = { berber_group_coa_gfx }
 	building_gfx = { mena_building_gfx }
-	clothing_gfx = { iberian_muslim_clothing_gfx mena_clothing_gfx }
+	clothing_gfx = { afr_berber_clothing_gfx iberian_muslim_clothing_gfx mena_clothing_gfx }
 	unit_gfx = { mena_unit_gfx }
 	
 	ethnicities = {
@@ -272,7 +272,7 @@ hawwara = { # The Aures - Based on Zenata and Baranis, the direct heirs of the a
 	
 	coa_gfx = { berber_group_coa_gfx }
 	building_gfx = { mena_building_gfx }
-	clothing_gfx = { iberian_muslim_clothing_gfx mena_clothing_gfx }
+	clothing_gfx = { afr_berber_clothing_gfx iberian_muslim_clothing_gfx mena_clothing_gfx }
 	unit_gfx = { mena_unit_gfx }
 	
 	ethnicities = {
@@ -301,7 +301,7 @@ siwi = { # Egyptian Berbers residing at Siwa valley - Based on Baranis
 	
 	coa_gfx = { berber_group_coa_gfx }
 	building_gfx = { mena_building_gfx }
-	clothing_gfx = { iberian_muslim_clothing_gfx mena_clothing_gfx }
+	clothing_gfx = { afr_berber_clothing_gfx mena_clothing_gfx }
 	unit_gfx = { mena_unit_gfx }
 	
 	ethnicities = {
