@@ -1,6 +1,8 @@
 ﻿destroy_rum_decision = {
-	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
-	major = yes
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+	}
+	decision_group_type = major
 	ai_check_interval = 60 	# every 5 years, not that AI will be able to pull this off lol
 	title = destroy_rum_title
 	desc = destroy_rum_desc

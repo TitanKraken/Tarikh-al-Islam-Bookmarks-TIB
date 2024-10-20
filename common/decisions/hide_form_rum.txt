@@ -1,10 +1,12 @@
 ﻿# Decision from base game to form Rum. Just hiding it
 form_rum_sultanate_decision = {
-	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	}
+	decision_group_type = major
 
 	desc = form_rum_sultanate_decision_desc
 	selection_tooltip = form_rum_sultanate_decision_tooltip
-	major = yes
 
 	ai_check_interval = 120
 

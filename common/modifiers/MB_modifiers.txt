@@ -36,11 +36,11 @@ the_great_khan_modifier = {
 	independent_ruler_opinion = -50
 	dread_baseline_add = 50
 	dread_decay_mult = -1
-	hostile_scheme_resistance_add = 50
+	#hostile_scheme_resistance_add = 50
 	enemy_hostile_scheme_success_chance_add = -100
 	army_maintenance_mult = -0.5
 
-	monthly_county_control_change_factor = 1
+	monthly_county_control_growth_factor = 1
 	stress_gain_mult = -1
 	stress_loss_mult = 1
 

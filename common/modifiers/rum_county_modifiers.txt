@@ -1,7 +1,7 @@
 ﻿# Bonuses from having Turkish immigrants come to Asia Minor
 turkish_immigrants = {
 	icon = county_modifier_opinion_positive
-	monthly_county_control_change_add = 1.0 # this is so large because you'll only get +12 county control every year through this. It'll take 8.5 years to finally control Asia Minor
+	monthly_county_control_change_growth_add = 1.0 # this is so large because you'll only get +12 county control every year through this. It'll take 8.5 years to finally control Asia Minor
 	county_opinion_add = 100 # to prevent peasant shenanigans
 	development_growth_factor = small_development_growth_gain
 }

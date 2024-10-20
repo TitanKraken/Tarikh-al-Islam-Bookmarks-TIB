@@ -51,7 +51,7 @@
 	discover_innovation = innovation_burhs
 }
 
-1180.1.1 = {
+1178.1.1 = {
 	discover_innovation = innovation_divine_right
 	discover_innovation = innovation_guilds
 	#discover_innovation = innovation_heraldry

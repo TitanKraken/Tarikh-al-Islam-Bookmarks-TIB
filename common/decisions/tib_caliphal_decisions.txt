@@ -1,8 +1,10 @@
 ﻿
 # Expanded decisions for the Caliph!
 caliphal_revolution_decision = {
-	picture = "gfx/interface/illustrations/decisions/huan_kecheng1_narrow.dds"
-	major = yes
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/huan_kecheng1_narrow.dds"
+	}
+	decision_group_type = major
 	sort_order = 90
 
 	ai_check_interval = 24
@@ -471,8 +473,10 @@ demote_other_culture_development_decision = { # Mawali simulation
 
 pay_homage_to_caliph_decision = {
 	ai_check_interval = 45
-	picture = "gfx/interface/illustrations/decisions/islamic_court_council_bowing_narrow.dds"
-	major = yes
+	picture = {
+		"gfx/interface/illustrations/decisions/islamic_court_council_bowing_narrow.dds"
+	}
+	decision_group_type = major
 	sort_order = 70
 
 	cost = {

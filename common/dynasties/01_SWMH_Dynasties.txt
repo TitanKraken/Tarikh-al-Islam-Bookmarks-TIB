@@ -4,7 +4,7 @@
 # -*- ck2.dynasties -*-
 
 ######################################
-#New tuscan_ce dynasties
+#New tuscan dynasties
 ######################################
 #
 #
@@ -16,7 +16,7 @@
 1000035001 = {
 name="Alighieri"
 prefix = "dynnp_da"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035002 = {
 name="Spino Fiori"
@@ -26,125 +26,125 @@ name="Spino Fiori"
 1000035003 = {
 name="Accolti"
 prefix = "dynnp_da"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035004 = {
 name="Albergotti"
 prefix = "dynnp_da"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035005 = {
 name="Ubertini"
 prefix = "dynnp_da"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035006 = {
 name="Acciaiuoli"
 prefix = "dynnp_da"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035007 = {
 name="Amidei"
 prefix = "dynnp_da"
- culture = tuscan_ce
+ culture = tuscan
  
 }
 1000035008 = {
 name="Barberini"
 prefix = "dynnp_da"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035009 = {
 name="Pugliese"
 prefix = "dynnp_del"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035010 = {
 name="Guicciardini"
 prefix = "dynnp_da"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035011 = {
 name="Pazzi"
 prefix = "dynnp_de"
- culture = tuscan_ce
+ culture = tuscan
    
 }
 1000035012 = {
 name="Pucci"
 prefix = "dynnp_da"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035013 = {
 name="Salviati"
 prefix = "dynnp_da"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035014 = {
 name="Torrigiani"
 prefix = "dynnp_da"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035015 = {
 name="Orlando"
 prefix = "dynnp_da"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035016 = {
 name="Busdraghi"
 prefix = "dynnp_da"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035017 = {
 name="Diodati"
 prefix = "dynnp_da"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035018 = {
 name="Guinigi"
 prefix = "dynnp_da"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035019 = {
 name="Obizzi"
 prefix = "dynnp_da"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035020 = {
 name="Ottolini"
 prefix = "dynnp_da"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035021 = {
 name="Petrucci"
 prefix = "dynnp_da"
- culture = tuscan_ce
+ culture = tuscan
 
 }
 1000035022 = {
 name="Caetani"
 prefix = "dynnp_da"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035023 = {
 name="Cancellieri"
 prefix = "dynnp_da"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035024 = {
 name="Cellesi"
 prefix = "dynnp_da"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035025 = {
 name="Rospigliosi"
 prefix = "dynnp_da"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035026 = {
 name="Setticelli"
 prefix = "dynnp_da"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035027 = {
 name="Spino Secco"
@@ -154,338 +154,338 @@ name="Spino Secco"
 1000035028 = {
 name="Adimari"
 prefix = "dynnp_da"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035029 = {
 name="Alamanni"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035030 = {
 name="Albizi"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035031 = {
 name="Alessandri"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035032 = {
 name="Altoviti"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035033 = {
 name="Antinori"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035034 = {
 name="Bardi"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035035 = {
 name="Becchi"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035036 = {
 name="Catellini da Castiglione"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035037 = {
 name="Cerretani"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035038 = {
 name="Corsi"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035039 = {
 name="Casavecchia"
 prefix = "dynnp_da"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035040 = {
 name="Tebaldi della Vitella"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035041 = {
 name="Fifanti"
- culture = tuscan_ce
+ culture = tuscan
 
 }
 1000035042 = {
 name="Filippi"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035043 = {
 name="Gherardini"
- culture = tuscan_ce
+ culture = tuscan
  
 }
 1000035044 = {
 name="Guadagni"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035045 = {
 name="Lamberti"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035046 = {
 name="Lucardesi"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035047 = {
 name="Nerli"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035048 = {
 name="Ricasoli"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035049 = {
 name="Tornaquinci"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035050 = {
 name="Upezzinghi"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035051 = {
 name="Ardengheschi"
- culture = tuscan_ce
+ culture = tuscan
 
 }
 1000035052 = {
 name="Bertoldi"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035053 = {
 name="Linari"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035054 = {
 name="Bonsignori"
 prefix = "dynnp_da"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035055 = {
 name="Angiolieri"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035056 = {
 name="Tolomei"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035057 = {
 name="Abati"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035058 = {
 name="Barbolani di Montauto"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035059 = {
 name="Machiavelli"
- culture = tuscan_ce
+ culture = tuscan
 
 }
 1000035061 = {
 name="Montanini"
- culture = tuscan_ce
+ culture = tuscan
 
 }
 1000035062 = {
 name="Filippeschi"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035063 = {
 name="Uberti"
- culture = tuscan_ce
+ culture = tuscan
 
 }
 1000035064 = {
 name="Salvani"
- culture = tuscan_ce
+ culture = tuscan
 
 }
 1000035065 = {
 name="Ubertini"
- culture = tuscan_ce
+ culture = tuscan
  
 }
 1000035066 = {
 name="Tornaquinci"
- culture = tuscan_ce
+ culture = tuscan
  
 }
 1000035067 = {
 name="Cavalcanti"
- culture = tuscan_ce
+ culture = tuscan
 
 }
 1000035068 = {
 name="Giandonati"
- culture = tuscan_ce
+ culture = tuscan
 
 }
 1000035069 = {
 name="Piccolomini"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035070 = {
 name="Tarlati"
- culture = tuscan_ce
+ culture = tuscan
 
 }
 1000035071 = {
 name="Baglioni"
- culture = tuscan_ce
+ culture = tuscan
   
 }
 1000035072 = {
 name="Altoviti"
- culture = tuscan_ce
+ culture = tuscan
    
 }
 1000035073 = {
 name="Lucchesi"
- culture = tuscan_ce
+ culture = tuscan
   
 }
 1000035074 = {
 name="Buonaparte"
- culture = tuscan_ce
+ culture = tuscan
   
 }
 1000035075 = {
 name="Guicciardini"
- culture = tuscan_ce
+ culture = tuscan
    
 }
 1000035076 = {
 name="Guadagni"
 prefix = "dynnp_da"
- culture = tuscan_ce
+ culture = tuscan
  
 }
 1000035077 = {
 name="Trenta"
 prefix = "dynnp_da"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000035078 = {
 name="Albizzi"
- culture = tuscan_ce
+ culture = tuscan
  
 }
 1000035079 = {
 name="Donati"
- culture = tuscan_ce
+ culture = tuscan
 
 }
 1000035080 = {
 name="Cherchi"
- culture = tuscan_ce
+ culture = tuscan
  
 }
 1000020000 = { # aka Corvaresi
 name="Fraolmi"
 prefix = "dynnp_da"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000020001 = { 
 name="Alberti"
 prefix = "dynnp_da"
- culture = tuscan_ce
+ culture = tuscan
  
 }
 #1000020002 = { 
 #name="" #
-# culture = tuscan_ce
+# culture = tuscan
 #}
 1000020003 = { 
 name="Buondelmonti"
 prefix = "dynnp_da"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000020004 = { 
 name="Palude"
 prefix = "dynnp_da"
- culture = tuscan_ce
+ culture = tuscan
 	 
 }
 1000020005 = { 
 name="Dati"
- culture = tuscan_ce
+ culture = tuscan
 }
 #1000020006 = { 
 #name=""
-# culture = tuscan_ce
+# culture = tuscan
 #}
 1000020007 = { 
 name="Cacciaconti"
- culture = tuscan_ce
+ culture = tuscan
  
 }
 1000020008 = { 
 name="Ugurgieri"
- culture = tuscan_ce
+ culture = tuscan
 
 }
 1000020275 = { 
 name="Pirovano"
 prefix = "dynnp_da"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000020276 = { 
 name="Riccardi"
 prefix = "dynnp_da"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000020277 = { 
 name="Streghi"
 prefix = "dynnp_da"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000020278 = { 
 name="Suffredinghi"
 prefix = "dynnp_da"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000020279 = { 
 name="Guazzalotti"
 prefix = "dynnp_da" #
- culture = tuscan_ce
+ culture = tuscan
  
 }
 1000020280 = { 
 name="Parenzi" # aka Romano
- culture = tuscan_ce
+ culture = tuscan
 
 }
 1000020281 = { 
 name="Asinelli"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000020282 = { 
 name="Castagnacci"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000020283 = { 
 name="Pietrasanta"
- culture = tuscan_ce
+ culture = tuscan
  
 }
 1000020284 = { 
 name="Bozzano"
 prefix = "dynnp_da"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000020285 = { 
 name="degli Oddi" #aka Olodini
- culture = tuscan_ce
+ culture = tuscan
 
 }
 1000020286 = { 
 name="Malpigli"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000020287 = { 
 name="Camilla"
@@ -493,56 +493,56 @@ name="Camilla"
 }
 1000020288 = { 
 name="Maltanotte"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000020289 = { 
 name="Bonfigliastri"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000020290 = { 
 name="Gangalandi"
- culture = tuscan_ce
+ culture = tuscan
  
 }
 1000020291 = { 
 name="Pocari"
- culture = tuscan_ce
+ culture = tuscan
 
 }
 1000020292 = { 
 name="Poggi"
- culture = tuscan_ce
+ culture = tuscan
  
 }
 1000020293 = { 
 name="Capraia"
 prefix = "dynnp_di"
- culture = tuscan_ce
+ culture = tuscan
 
 }
 1000020294 = { 
 name="Bonsignori"
- culture = tuscan_ce
+ culture = tuscan
 }
 1000020295 = { 
 name="della Branca"
- culture = tuscan_ce
+ culture = tuscan
  
 }
 1000020296 = { 
 name="Caponsacchi"
- culture = tuscan_ce
+ culture = tuscan
 
 }
 1000020297 = { 
 name="Tosa"
 prefix = "dynnp_della"
- culture = tuscan_ce
+ culture = tuscan
 
 }
 1000020298 = { 
 name="Botoli"
- culture = tuscan_ce
+ culture = tuscan
 }
 ######################################
 #Generic dynasites
@@ -551,7 +551,7 @@ name="Botoli"
 
 1000035060 = {
 name="Cinta senese"
- culture = tuscan_ce
+ culture = tuscan
 } # so tasty!
 
 # -*- ck2.dynasties -*-
@@ -1063,7 +1063,7 @@ prefix = "dynnp_de"
 # -*- ck2.dynasties -*-
 
 ######################################
-#New venetian_ce dynasties
+#New Venetian dynasties
 ######################################
 #
 #
@@ -1074,303 +1074,303 @@ prefix = "dynnp_de"
 
 1000035221 = {
 name="Carraresi"
- culture = venetian_ce
+ culture = venetian
 }
 1000035222 = {
 name="Camposampiero"
 prefix = "dynnp_di"
- culture = venetian_ce
+ culture = venetian
  
 }
 1000035223 = {
 name="Barbarigo"
- culture = venetian_ce
+ culture = venetian
 }
 1000035224 = {
 name="Picavara"
- culture = venetian_ce
+ culture = venetian
 }
 1000035225 = {
 name="Bon"
- culture = venetian_ce
+ culture = venetian
 }
 1000035226 = {
 name="Bragadin"
- culture = venetian_ce
+ culture = venetian
 }
 1000035227 = {
 name="Badoer"
- culture = venetian_ce
+ culture = venetian
 }
 1000035228 = {
 name="Barbaro"
- culture = venetian_ce
+ culture = venetian
 }
 1000035229 = {
 name="Transalgardi"
- culture = venetian_ce
+ culture = venetian
 }
 1000035230 = {
 name="Dunio"
- culture = venetian_ce
+ culture = venetian
 
 }
 1000035231 = {
 name="Loredan"
- culture = venetian_ce
+ culture = venetian
 }
 1000035232 = {
 name="Capodilista"
- culture = venetian_ce
+ culture = venetian
 }
 1000035233 = {
 name="Pisani"
- culture = venetian_ce
+ culture = venetian
 }
 1000035234 = {
 name="Priuli"
- culture = venetian_ce
+ culture = venetian
 }
 1000035235 = {
 name="Partecipazio"
- culture = venetian_ce
+ culture = venetian
 }
 1000035236 = {
 name="Querini"
- culture = venetian_ce
+ culture = venetian
 }
 1000035237 = {
 name="Thiene"
- culture = venetian_ce
+ culture = venetian
 }
 1000035238 = {
 name="Altan"
- culture = venetian_ce
+ culture = venetian
 }
 1000035239 = {
 name="Amalteo"
- culture = venetian_ce
+ culture = venetian
 }
 1000035240 = {
 name="Bonomo"
- culture = venetian_ce
+ culture = venetian
 }
 1000035241 = {
 name="Caiselli"
- culture = venetian_ce
+ culture = venetian
 }
 1000035242 = {
 name="Colloredo"
- culture = venetian_ce
+ culture = venetian
   
 }
 1000035243 = {
 name="Lanthieri"
- culture = venetian_ce
+ culture = venetian
 }
 1000035244 = {
 name="Panciera"
- culture = venetian_ce
+ culture = venetian
 }
 1000035245 = {
 name="Polcenigo"
- culture = venetian_ce
+ culture = venetian
 }
 1000035246 = {
 name="Prata"
- culture = venetian_ce
+ culture = venetian
 }
 1000035247 = {
 name="Sbrojavacca"
- culture = venetian_ce
+ culture = venetian
 }
 1000035248 = {
 name="Obizzi"
- culture = venetian_ce
+ culture = venetian
 }
 1000035249 = {
 name="da Peraga"
- culture = venetian_ce
+ culture = venetian
 }
 1000035250 = {
 name="Carbonara"
- culture = venetian_ce
+ culture = venetian
 }
 1000035252 = {
 name="Tempesta"
- culture = venetian_ce
+ culture = venetian
 }
 1000035253 = {
 name="Baffo"
- culture = venetian_ce
+ culture = venetian
 }
 1000035254 = {
 name="Bembo"
- culture = venetian_ce
+ culture = venetian
 }
 1000035255 = {
 name="Cappello"
- culture = venetian_ce
+ culture = venetian
 }
 1000035256 = {
 name="Magno"
- culture = venetian_ce
+ culture = venetian
 }
 1000035257 = {
 name="Marcello"
- culture = venetian_ce
+ culture = venetian
 }
 1000035258 = {
 name="Moro"
- culture = venetian_ce
+ culture = venetian
 }
 1000035259 = {
 name="Mosto"
- culture = venetian_ce
+ culture = venetian
 }
 1000035260 = {
 name="Mula"
- culture = venetian_ce
+ culture = venetian
 }
 1000035261 = {
 name="Nadal"
- culture = venetian_ce
+ culture = venetian
 }
 1000035262 = {
 name="Orio"
- culture = venetian_ce
+ culture = venetian
 }
 1000035263 = {
 name="Porto"
- culture = venetian_ce
+ culture = venetian
 }
 1000035264 = {
 name="Salamon"
- culture = venetian_ce
+ culture = venetian
 }
 1000035265 = {
 name="Valier"
- culture = venetian_ce
+ culture = venetian
 }
 1000035266 = {
 name="Trissino"
- culture = venetian_ce
+ culture = venetian
 }
 1000035267 = {
 name="Venier"
- culture = venetian_ce
+ culture = venetian
 }
 1000035268 = {
 name="Molin"
- culture = venetian_ce
+ culture = venetian
 }
 1000035269 = {
 name="Foscari"
- culture = venetian_ce
+ culture = venetian
 }
 1000035270 = {
 name="Briani"
- culture = venetian_ce
+ culture = venetian
 }
 1000035271 = {
 name="Arneri"
- culture = venetian_ce
+ culture = venetian
 
 }
 1000035272 = {
 name="Barbaran"
- culture = venetian_ce
+ culture = venetian
 }
 1000035273 = {
 name="Bissari"
- culture = venetian_ce
+ culture = venetian
 }
 1000035274 = {
 name="Acotanto"
- culture = venetian_ce
+ culture = venetian
 }
 1000035275 = {
 name="Amizzo"
- culture = venetian_ce
+ culture = venetian
 }
 1000035276 = {
 name="Armer"
- culture = venetian_ce
+ culture = venetian
 }
 1000035277 = {
 name="Barison"
- culture = venetian_ce
+ culture = venetian
 }
 1000035278 = {
 name="Basadonna"
- culture = venetian_ce
+ culture = venetian
 }
 1000035279 = {
 name="Baseggio"
- culture = venetian_ce
+ culture = venetian
 }
 1000035280 = {
 name="Belegno"
- culture = venetian_ce
+ culture = venetian
 }
 1000035281 = {
 name="Boldù"
- culture = venetian_ce
+ culture = venetian
 }
 1000035282 = {
 name="Bollani"
- culture = venetian_ce
+ culture = venetian
 }
 1000035283 = {
 name="Calbo"
- culture = venetian_ce
+ culture = venetian
 }
 1000035284 = {
 name="Caotorta"
- culture = venetian_ce
+ culture = venetian
 }
 1000035285 = {
 name="Caravello"
- culture = venetian_ce
+ culture = venetian
 }
 1000035286 = {
 name="Centranico"
- culture = venetian_ce
+ culture = venetian
 }
 1000035287 = {
 name="Correr"
- culture = venetian_ce
+ culture = venetian
 }
 1000035288 = {
 name="Diedo"
- culture = venetian_ce
+ culture = venetian
 }
 1000035289 = {
 name="Erizzo"
- culture = venetian_ce
+ culture = venetian
 }
 1000035290 = {
 name="Valaresso"
- culture = venetian_ce
+ culture = venetian
  
 }
 1000035315 = {
 name="Ragogna"
-  culture = venetian_ce
+  culture = venetian
   
 }
 1000035314 = {
 name="Strassoldo"
-  culture = venetian_ce
+  culture = venetian
   
 }
 1000035316 = {
 name="da Romano"
-  culture = venetian_ce
+  culture = venetian
 }
 1000035326 = {
 name="da Karystos"
-  culture = venetian_ce
+  culture = venetian
 }
 ######################################
 #Generic dynasites
@@ -10555,212 +10555,212 @@ name="Tabarsaran"
 # -*- ck2.dynasties -*-
 
 ######################################
-#SWMH dalmatian_ce Dynasties
+#SWMH dalmatian Dynasties
 ######################################
-#dalmatian_ce dynasties
+#dalmatian dynasties
 #Dynasties: 1000103011 - 1000103060
 #Characters: 1232951 - 1233000
 
 ######################################
 1000103011 = {
 	name="dynn_Buna"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103012 = {
 	name="dynn_Udaina"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103013 = {
 	name="dynn_Babilius"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103014 = {
 	name="dynn_Vaulcassi"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103015 = {
 	name="dynn_Martenussi"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103016 = {
 	name="dynn_Gradei"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103017 = {
 	name="dynn_Giorgi"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103018 = {
 	name="dynn_Dairsa"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103019 = {
 	name="dynn_Getaldei"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103020 = {
 	name="dynn_Zamanya"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103021 = {
 	name="dynn_Pozza"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103022 = {
 	name="dynn_Caboga"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103023 = {
 	name="dynn_Cerva"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103024 = {
 	name="dynn_Guzzei"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103025 = {
 	name="dynn_Gundula"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103026 = {
 	name="dynn_Saraica"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103027 = {
 	name="dynn_Raguseo"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103028 = {
 	name="dynn_Cattaro"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103029 = {
 	name="dynn_Saurgo"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103030 = {
 	name="dynn_Buchja"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103031 = {
 	name="dynn_Mosor"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103032 = {
 	name="dynn_Mencei"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103033 = {
 	name="dynn_Savarei"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103034 = {
 	name="dynn_Barab"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103035 = {
 	name="dynn_Bunessa"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103036 = {
 	name="dynn_Spalatrin"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103037 = {
 	name="dynn_Bonduanza"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103038 = {
 	name="dynn_Cuosamaura"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103039 = {
 	name="dynn_Argusta"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103040 = {
 	name="dynn_Buarca"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103041 = {
 	name="dynn_Amaudi"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103042 = {
 	name="dynn_Sanctificuota_Crauc"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103043 = {
 	name="dynn_Blanca"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103044 = {
 	name="dynn_Moura"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103045 = {
 	name="dynn_Savarin"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103046 = {
 	name="dynn_Aguastin"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103047 = {
 	name="dynn_Vittaurin"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103048 = {
 	name="dynn_Sabbatini"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103049 = {
 	name="dynn_Puol"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103050 = {
 	name="dynn_Cerieva"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103051 = {
 	name="dynn_Babalei"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103052 = {
 	name="dynn_Tudaisi"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103053 = {
 	name="dynn_Procul"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103054 = {
 	name="dynn_Favro"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103055 = {
 	name="dynn_Lucuar"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103056 = {
 	name="dynn_Menzei"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103057 = {
 	name="dynn_Raduagli"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103058 = {
 	name="dynn_Zuzori"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103059 = {
 	name="dynn_Zamanjic"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 1000103060 = {
 	name="dynn_Madi"
-	culture = dalmatian_ce
+	culture = dalmatian
 }
 
 

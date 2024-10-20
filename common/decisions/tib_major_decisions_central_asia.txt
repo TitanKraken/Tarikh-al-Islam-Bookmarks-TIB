@@ -4,8 +4,10 @@
 # Descendants of Genghis Become Genghis Khan
 # by TitanKraken
 descendants_become_greatest_of_khans_decision = {
-	picture = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
-	major = yes
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+	}
+	decision_group_type = major
 	desc = become_greatest_of_khans_decision_desc
 
 	ai_check_interval = 0
@@ -135,8 +137,10 @@ descendants_become_greatest_of_khans_decision = {
 # Descendants of Genghis Become Genghis Khan (Bookmark exclusive)
 # by TitanKraken
 1260_descendants_become_greatest_of_khans_decision = {
-	picture = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
-	major = yes
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+	}
+	decision_group_type = major
 	desc = become_greatest_of_khans_decision_desc
 
 	ai_check_interval = 0
