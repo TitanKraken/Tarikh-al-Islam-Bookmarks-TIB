@@ -492,7 +492,7 @@
 	culture="greek"
 	965.1.1={ #?
 		birth=yes
-		culture="sicilian_arabian"
+		culture="sicilian_arab"
 	}
 	975.1.1={
 		add_trait="eunuch"

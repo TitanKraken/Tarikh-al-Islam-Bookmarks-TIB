@@ -465,11 +465,11 @@ house_alHusayni = {
 }
 
 #Fatimids #7296
-house_Fatimid = {
+#house_Fatimid = {
 	
-    name = "dynn_Fatimid"
-    dynasty = tribe_quraysh #Hashim
-}
+ #   name = "dynn_Fatimid"
+ #   dynasty = tribe_quraysh #Hashim
+#}
 
 #Husayni #7296
 house_Husayni = {

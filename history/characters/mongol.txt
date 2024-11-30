@@ -2912,11 +2912,11 @@ Injuid1 = {
 		remove_spouse = 34434
 	}
 	1335.1.1 = {
-			add_spouse = 478041
-			give_nickname = nick_the_great						
+		#add_spouse = 478041
+		give_nickname = nick_the_great						
 	}
 	1336.7.24 = {
-			add_spouse=478041
+		add_spouse=478041
 	}	
 	1337.1.1 = {
 		set_relation_ward = character:478030

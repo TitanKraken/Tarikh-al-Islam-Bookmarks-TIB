@@ -5,8 +5,10 @@
 
 # A more lenient decision to convert if your liege is feudal
 convert_to_feudalism_liege_converted_decision = {
-	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
-	major = yes
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	}
+	decision_group_type = major
 	desc = convert_to_feudalism_liege_converted_decision_desc
 
 	ai_check_interval = 36
@@ -75,8 +77,10 @@ convert_to_feudalism_liege_converted_decision = {
 
 # A decision to feudalize the entire realm (wow!)
 convert_whole_realm_to_feudalism_decision = {
-	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
-	major = yes
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	} 
+	decision_group_type = major
 	desc = convert_whole_realm_to_feudalism_decision_desc
 
 	ai_check_interval = 36
@@ -166,8 +170,10 @@ convert_whole_realm_to_feudalism_decision = {
 
 ### Muslim rulers personally adopt Sharia for their crown lands.
 tribal_convert_to_islamic_decision = { # For recently converted tribal Muslim rulers that wants to return to the Sharia
-	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
-	major = yes
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	}
+	decision_group_type = major
 	desc = tribal_convert_to_islamic_decision_desc
 		
 	ai_check_interval = 36
@@ -219,8 +225,10 @@ tribal_convert_to_islamic_decision = { # For recently converted tribal Muslim ru
 	}
 }
 convert_to_islamic_decision = { # For recently converted Muslim rulers that wants to return to the Sharia
-	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
-	major = yes
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	}
+	decision_group_type = major
 	desc = convert_to_islamic_decision_desc
 		
 	ai_check_interval = 36
@@ -281,8 +289,10 @@ convert_to_islamic_decision = { # For recently converted Muslim rulers that want
 ##################################################
 # A more lenient decision to convert if your liege is Islamic
 tribal_convert_to_islamic_liege_converted_decision = {
-	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
-	major = yes
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	}
+	decision_group_type = major
 	desc = tribal_convert_to_islamic_liege_converted_decision_desc
 
 	ai_check_interval = 36
@@ -348,8 +358,10 @@ tribal_convert_to_islamic_liege_converted_decision = {
 	}
 }
 convert_to_islamic_liege_converted_decision = { # For non-tribal Muslim rulers to change to Sharia through liege
-	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
-	major = yes
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	}
+	decision_group_type = major
 	desc = convert_to_islamic_liege_converted_decision_desc
 
 	ai_check_interval = 36
@@ -423,8 +435,10 @@ convert_to_islamic_liege_converted_decision = { # For non-tribal Muslim rulers t
 
 # A decision to apply Sharia for the entire realm (wow!)
 tribal_convert_whole_realm_to_islamic_decision = {
-	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
-	major = yes
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	}
+	decision_group_type = major
 	desc = convert_whole_realm_to_islamic_decision_desc
 
 	ai_check_interval = 36
@@ -514,8 +528,10 @@ tribal_convert_whole_realm_to_islamic_decision = {
 	}
 }
 convert_whole_realm_to_islamic_decision = {
-	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
-	major = yes
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	}
+	decision_group_type = major
 	desc = convert_whole_realm_to_islamic_decision_desc
 
 	ai_check_interval = 36
@@ -611,8 +627,10 @@ convert_whole_realm_to_islamic_decision = {
 
 # Pay the Zakat as Muslims!
 pay_zakat_decision = {
-	picture = "gfx/interface/illustrations/decisions/decision_recruitment.dds"
-	major = yes
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_recruitment.dds"
+	}
+	decision_group_type = major
 	desc = pay_zakat_decision_desc
 
 	ai_check_interval = 36

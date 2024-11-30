@@ -213,7 +213,6 @@
 		culture = bulgarian
 		religion = slavic_pagan
 	}
-	holding = castle_holding
 	867.1.1 = {
 		buildings = {
 			curtain_walls_01

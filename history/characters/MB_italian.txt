@@ -1,4 +1,6 @@
-﻿###################################
+﻿# HAVE MISSING father/mother/add_spouse. Please check back MBs original cisalpine files.
+
+###################################
 #Alberti. Conti di Prato, Vernio, Certaldo, Magno e Monterondo.
 ###################################
 #1061130-60
@@ -543,9 +545,9 @@
 	1262.1.1 = {
 		birth=yes
 	}
-	1319.1.1 = {
-		add_spouse=cisalpine0911
-	}
+	#1319.1.1 = {
+	#	add_spouse=cisalpine0911
+	#}
 	1338.1.1 = {
 		death=yes 
 	}
@@ -4209,9 +4211,9 @@
 	1155.1.1={
 		birth=yes
 	}
-	1171.1.1={
-		add_spouse = 1063125
-	}		
+	#1171.1.1={
+	#	add_spouse = 1063125
+	#}		
 	1215.1.1={
 		death=yes
 	}
@@ -4222,7 +4224,7 @@
 	religion="catholic"
 	culture="italian"
 	father=1063040
-	mother=1063125
+	#mother=1063125
 	1180.1.1={
 		birth=yes
 	}
@@ -4748,7 +4750,7 @@
 	dynasty=1000035581
 	religion="catholic"
 	culture="lombard"
-	father=1167125
+	#father=1167125
 	1037.1.1 = {
 		birth=yes
 	}
@@ -4763,7 +4765,7 @@
 	religion="catholic"
 	culture="lombard"
 	father=30858
-	mother=1167113
+	#mother=1167113
 	1063.1.1 = {
 		birth=yes
 	}
@@ -4778,7 +4780,7 @@
 	religion="catholic"
 	culture="lombard"
 	father=30858
-	mother=1167113
+	#mother=1167113
 	1065.1.1 = {
 		birth=yes
 	}
@@ -4793,7 +4795,7 @@
 	religion="catholic"
 	culture="lombard"
 	father=30858
-	mother=1167113
+	#mother=1167113
 	1067.1.1 = {
 		birth=yes
 	}
@@ -4806,7 +4808,7 @@
 	dynasty=8682 #di Aquino
 	religion="catholic"
 	culture="neapolitan"
-	father=1167122
+	#father=1167122
 	1199.1.1 = {
 		birth=yes
 	}		
@@ -5009,7 +5011,7 @@
 	dynasty=8682 #di Aquino
 	religion="catholic"
 	culture="neapolitan"
-	father=1167122
+	#father=1167122
 	1202.1.1 = {
 		birth=yes
 	}		
@@ -5204,7 +5206,7 @@
 	dynasty=8682 #di Aquino
 	religion="catholic"
 	culture="neapolitan"
-	father=1167120 #Missing a generation in CJL's tree
+	#father=1167120 #Missing a generation in CJL's tree
 	1131.1.1 = {
 		birth=yes 
 	}
@@ -5217,7 +5219,7 @@
 	dynasty=8682 #di Aquino
 	religion="catholic"
 	culture="lombard"
-	father=1167110
+	#father=1167110
 	1013.1.1 = {
 		birth=yes
 	}
@@ -5230,7 +5232,7 @@
 	dynasty=8682 #di Aquino
 	religion="catholic"
 	culture="lombard"
-	father=1167110
+	#father=1167110
 	1016.1.1 = {
 		birth=yes
 	}
@@ -5243,7 +5245,7 @@
 	dynasty=8682 #di Aquino
 	religion="catholic"
 	culture="lombard"
-	father=1167110
+	#father=1167110
 	1017.1.1 = {
 		birth=yes
 	}
@@ -5256,7 +5258,7 @@
 	dynasty=8682 #di Aquino
 	religion="catholic"
 	culture="lombard"
-	father=1167119 #incomplete records after XI century
+	#father=1167119 #incomplete records after XI century
 	1105.1.1 = {
 		birth=yes
 	}

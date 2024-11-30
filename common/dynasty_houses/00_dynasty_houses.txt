@@ -209,10 +209,10 @@ house_squillache = {
 	dynasty = 393 #Empuries
 }
 
-#house_ruffo_di_licinardo = {
-#	name = "dynn_Ruffo_di_Licinardo"
-#	dynasty = 1307 #Ruffo
-#}
+house_ruffo_di_licinardo = {
+	name = "dynn_Ruffo_di_Licinardo"
+	dynasty = 13077 #Ruffo
+}
 
 house_montescaglioso = {
 	prefix = "dynnp_di"

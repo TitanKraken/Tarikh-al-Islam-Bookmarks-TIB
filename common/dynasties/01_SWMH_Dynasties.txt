@@ -14,14 +14,13 @@
 ######################################
 
 1000035001 = {
-name="Alighieri"
-prefix = "dynnp_da"
- culture = tuscan
+	name="Alighieri"
+	prefix = "dynnp_da"
+	culture = tuscan
 }
 1000035002 = {
 name="Spino Fiori"
  culture = ligurian
-	 
 }
 1000035003 = {
 name="Accolti"
@@ -707,11 +706,11 @@ name="Viry"
 prefix = "dynnp_de"
  culture = arpitan
 }
-1000020525 = {
-name="Pragins"
-prefix = "dynnp_de"
- culture = arpitan
-}
+#1000020525 = {
+#name="Pragins"
+#prefix = "dynnp_de"
+# culture = arpitan
+#}
 1000020526 = {
 name="Miolans"
 prefix = "dynnp_de"
@@ -727,11 +726,11 @@ name="Aubonne"
 prefix = "dynnp_de"
  culture = arpitan
 }
-1000020529 = {
-name="Choiseul"
-prefix = "dynnp_de"
- culture = arpitan
-}
+#1000020529 = {
+#name="Choiseul"
+#prefix = "dynnp_de"
+# culture = arpitan
+#}
 1000020529 = {
 name="Mailly"
 prefix = "dynnp_de"
@@ -5054,15 +5053,15 @@ prefix = "dynnp_av"
 }
 1000053358 = {
 	name="Mõtsa Puoll"
-	culture = livonians
+	culture = livonian
 }
 1000053359 = {
 	name="Sakala"
-	culture = livonians
+	culture = livonian
 }
 1000053360 = {
 	name="Toreida"
-	culture = livonians
+	culture = livonian
 }
 1000053361 = {
 	name="Inkerilainen"
@@ -5070,7 +5069,7 @@ prefix = "dynnp_av"
 }
 1000053362 = {
 	name="Vanema"
-	culture = livonians
+	culture = livonian
 }
 ###the five clans of Virumaa
 1000053363 = {
@@ -7186,41 +7185,7 @@ name="Werth"
 
 # -*- ck2.dynasties -*-
 
-#Dynasties: 1.000.036.000 - 1.000.036.999 
-
-1000036000 = {
-	name="Alzonne" #AKA Aton 
-	prefix = "dynnp_d_"
-	culture = occitan
-
-}
-1000036001 = {
-	name="Besièrs" 
-	prefix = "dynnp_de"
-	culture = occitan
-
-}
-1000036002 = {
-	name="Carcassonna" 
-	prefix = "dynnp_de"
-	culture = occitan
-
-}
-
-1000036006 = {
-	name="Cinarca"
-	prefix = "dynnp_di"
-	culture = italian
-
-}
-1000036007 = {
-	name="Mare"
-	prefix = "dynnp_da"
-	culture = cisalpine
-}
 #101840 "della Rocca"
-
-
 
 # -*- ck2.dynasties -*-
 
@@ -7228,7 +7193,7 @@ name="Werth"
 
 #1000036000 d'Alzonne
 1000036000 = {
-	name="Alzonne" 
+	name="Alzonne" #aka Aton
 	prefix = "dynnp_de"
 	culture="occitan"
 
@@ -7270,55 +7235,6 @@ name="Werth"
 	name="Porcien" 
 	prefix = "dynnp_de"
 	culture="frankish"
-}
-
-
-# -*- ck2.dynasties -*-
-
-##################################################
-############# SWMH NEW DYNASTIES #################
-##################################################
-
-# 1000100850 - 1000100860 czech
-
-1000100850 = {
-	name="ze Zabrušan"
-	culture = czech
-}
-
-# 1000100861 - 1000100869 Moravian
-
-1000100861 = {
-	name="z Kunštátu"
-	culture = slovien
-}
-1000100862 = {
-	name="z Kunštátu"
-	culture = slovien
-}
-1000100863 = {
-	name="Drnovský"
-	culture = slovien
-}
-1000100864 = {
-	name="z Linavy"
-	culture = slovien
-}
-1000100865 = {
-	name="z Boskovic"
-	culture = slovien
-}
-1000100866 = {
-	name="Horecký z Horky"
-	culture = slovien
-}
-1000100867 = {
-	name="z Lomnice"
-	culture = slovien
-}
-1000100868 = {
-	name="z Víckova"
-	culture = slovien
 }
 
 ######################################
@@ -7443,28 +7359,8 @@ name="Werth"
 ###################################################################
 # Falashim
 
-1000101331= {
-	name="Bnei Gedawon" 
-	culture = ethiopian
-	
-}
-# fictional Falashim
-1000101332= {
-	name="Ha-Dani" 
-	culture = ethiopian
-
-}
-1000101333= {
-	name="Bnei Radai" 
-	culture = ethiopian
-
-}
-1000101334= {
-	name="Bnei Naphtali"
-culture = ethiopian	
-	
-}
 #1000101335 - 1000101350 - free Falashim dynasties
+#MOVED TO dynasties.txt
 
 ###################################################################
 # Afar
@@ -7500,42 +7396,8 @@ culture = ethiopian
 ###################################################################
 # Nubian and Ethiopian
 
-1000101200= {
-	name="Piye"
-	culture = nubian
-}
-1000101201= {
-	name="Memnonid"
-	culture = nubian
-}
-1000101202= {
-	name="Misiwwi"
-	culture = afar
-}
-1000101203= {
-	name="Daju"
-	culture = daju
-
-}
-1000101204= {
-	name="Soba"
-	culture = nubian
-}
-1000101205= {
-	name="Migi"
-	culture = nubian
-}
-1000101206= {
-	name="Makouria"
-	culture = nubian
-}
-1000101207= {
-	name="Aroua"
-	culture = nubian
-}
-
 #Free Nubian Dynasties: 1000101202 - 1000101229
-
+#MOVED TO dynasties.txt
 
 # -*- ck2.dynasties -*-
 
@@ -7948,34 +7810,7 @@ culture = ethiopian
 	name="Pernishki"
 	culture = bulgarian
 }
-1000101410 = {
-	name="Kastrioti"
-	culture = greek
-}
-1000101411 = {
-	name="Jonima"
-	culture = greek
-}
-1000101412 = {
-	name="Blinishti"
-	culture = greek
-}
-1000101413 = {
-	name="Arianiti"
-	culture = greek
-}
-1000101414 = {
-	name="Spani"
-	culture = greek
-}
-1000101415 = {
-	name="Zenevisi"
-	culture = greek
-}
-1000101416 = {
-	name="Gropa"
-	culture = greek
-}
+
 1000101417 = {
 	name="Strumitski"
 	culture = bulgarian
@@ -8402,45 +8237,8 @@ culture = ethiopian
 #Carinthian dynasties
 #Range1: 1000101530 - 1000101549
 ######################################
-1000101530 = {
-	name="Strmški"
-	culture = croatian
-}
-1000101531 = {
-	name="Erbergi"
-	culture = croatian
-}
-1000101532 = {
-	name="Višnjegorski"
-	culture = croatian
-}
-1000101533 = {
-	name="Ortenburški"
-	culture = croatian
-}
-1000101534 = {
-	name="Egkh"
-	culture = croatian
-}
-1000101535 = {
-	name="Ljubljanski"
-	culture = croatian
-}
-1000101536 = {
-	name="Kranjski"
-	culture = croatian
-}
-1000101537 = {
-	name="Celjski"
-	culture = croatian
-}
-1000101538 = {
-	name="Goriški"
-	culture = croatian
-}
 
-
-
+#MOVED TO dynasties.txt
 # -*- ck2.dynasties -*-
 
 ######################################
@@ -8622,11 +8420,7 @@ culture = ethiopian
 #Characters: 1230100 - 1230249  (then Karluk)
 ######################################
 
-1000101720 = {
-	name="Qiniq"
-	culture = turkish
-	
-}
+
 1000101721 = {
 	name="Kün"
 	culture = turkish
@@ -8652,11 +8446,7 @@ culture = ethiopian
 	culture = turkish
 	
 }
-1000101726 = {
-	name="Qayi"
-	culture = turkish
-	
-}
+
 1000101727 = {
 	name="Bayundur"
 	culture = turkish
@@ -8666,11 +8456,7 @@ culture = ethiopian
 	name="Bayat"
 	culture = turkish
 }
-1000101729 = {
-	name="Yazir"
-	culture = turkish
-	
-}
+
 1000101730 = {
 	name="Eymür"
 	culture = turkish
@@ -8692,18 +8478,12 @@ culture = ethiopian
 	name="Yüregir"
 	culture = turkish
 }
-1000101735 = {
-	name="Tutirqa"
-	culture = turkish
-}
+
 1000101736 = {
 	name="Ula Yondlugh"
 	culture = turkish
 }
-1000101737 = {
-	name="Töger"
-	culture = turkish
-}
+
 1000101738 = {
 	name="Ay"
 	culture = turkish
@@ -8723,60 +8503,20 @@ culture = ethiopian
 	name="Çaruqlugh"
 	culture = turkish
 }
-1000101742 = {
-	name="Yaparli"
-	culture = turkish
-}
+
 1000101743 = {
 	name="Qiziq"
 	culture = turkish
 }
-1000101744 = {
-	name="Qarqin"
-	culture = turkish
-}
-1000101745 = {
-	name="Il-Arslanlar"
-	culture = turkish
-	
-}
-1000101746 = {
-	name="Inaltiginlar"
-	culture = turkish
-	
-}
+
 1000101747 = {
 	name="Bursuqlar"
 	culture = turkish
 	
 }
-1000101748 = {
-	name="turkish"
-	culture = turkish
-	
-}
-1000101749 = {
-	name="Altuntashlar"
-	culture = turkish
-	
-}
+
 ######################################
-1000101750 = {
-	name="Qochqarlar"
-	culture = turkish
-	
-}
-1000101751 = {
-	name="Qush-Teginlar"
-	culture = turkish
-	
-}
-1000101752 = {
-	name="Basásírí"
-	prefix = "dynnp_al-"
-	culture = turkish
-	
-}
+
 1000101753 = {
 	name="Qumachlar"
 	culture = turkish
@@ -8808,11 +8548,7 @@ culture = ethiopian
 	culture = turkish
 	
 }
-1000101760 = {
-	name="Uvaklar"
-	culture = turkish
-	
-}
+
 #1000101761 = {
 #	name="Sarighlar"
 #	culture = turkish
@@ -8822,11 +8558,7 @@ culture = ethiopian
 	culture = turkish
 	
 }
-1000101763 = {
-	name="Qumáchlar"
-	culture = turkish
-	
-}
+
 1000101764 = {
 	name="Ahmadílí"
 	prefix = "dynnp_al-"
@@ -10845,31 +10577,31 @@ name="Tabarsaran"
 1000101563 = {
 	name="Husayní"  #Husaynids of Medina
 	prefix = "dynnp_al-"
-	culture = hejazi
+	culture = hijazi
 
 }
 1000101564 = {
 	name="Qatádí"  #Last Hasanid branch of Mecca
 	prefix = "dynnp_al-"
-	culture = hejazi
+	culture = hijazi
 
 }
 1000101565 = {
 	name="Háshimí"  #Hawashim, Second Hasanid branch of Mecca
 	prefix = "dynnp_al-"
-	culture = hejazi
+	culture = hijazi
 
 }
 1000101566 = {
 	name="Músáwí"  #First Hasanid branch of Mecca
 	prefix = "dynnp_al-"
-	culture = hejazi
+	culture = hijazi
 
 }
 1000101567 = {
 	name="Sulaymání"  #Break-away Hasanid branch that settled in Northern Tihama and Asir, and swore loyalty to Zabid
 	prefix = "dynnp_al-"
-	culture = hejazi
+	culture = hijazi
 
 }
 1000101568 = {
@@ -10899,7 +10631,7 @@ name="Tabarsaran"
 1000103493 = {
 	name="'Umarí"
 	prefix = "dynnp_al-"
-	culture = hejazi
+	culture = hijazi
 
 }
 1000103494 = {
@@ -13720,59 +13452,7 @@ name="Tabarsaran"
 
 ######################################
 
-1000103830 = {
-	name="Fayyumí"
-	prefix = "dynnp_al-"
-	culture = nubian
-}
-1000103831 = {
-	name="Dumyatí"
-	prefix = "dynnp_al-"
-	culture = nubian
-}
-1000103832 = {
-	name="Turayk"
-	prefix = "dynnp_al-"
-	culture = nubian
-}
-1000103833 = {
-	name="Iskandarí"
-	prefix = "dynnp_al-"
-	culture = nubian
-}
-1000103834 = {
-	name="Fustatí"
-	prefix = "dynnp_al-"
-	culture = nubian
-}
-1000103835 = {
-	name="Aswaní"
-	prefix = "dynnp_al-"
-	culture = nubian
-}
-1000103836 = {
-	name="Asyutí"
-	prefix = "dynnp_al-"
-	culture = nubian
-}
-1000103837 = {
-	name="Nasturusí"
-	prefix = "dynnp_al-"
-	culture = nubian
-}
-1000103838 = {
-	name="Fahdí"
-	prefix = "dynnp_al-"
-	culture = nubian
-}
-1000103839 = {
-    name="Kazzazí"
-	prefix = "dynnp_al-"
-	culture = sephardi
-	
-}
-
-
+#MOVED TO 00_dynasties.txt
 
 # -*- ck2.dynasties -*-
 
@@ -14232,39 +13912,39 @@ name="Tabarsaran"
 1000103466 = {
 	name="Khuza'ah"
 	prefix = "dynnp_al-"
-	culture = hejazi
+	culture = hijazi
 }
 1000103467 = {
 	name="Thaqif"
 	prefix = "dynnp_al-"
-	culture = hejazi
+	culture = hijazi
 }
 1000103468 = {
 	name="Khinanah"
 	prefix = "dynnp_al-"
-	culture = hejazi
+	culture = hijazi
 }
 1000103469 = {
 	name="Juhaynah"
 	prefix = "dynnp_al-"
-	culture = hejazi
+	culture = hijazi
 }
 1000103470 = {
 	name="Hasaní"
 	prefix = "dynnp_al-"
-	culture = hejazi
+	culture = hijazi
 
 }
 1000103471 = {
 	name="Husayní"
 	prefix = "dynnp_al-"
-	culture = hejazi
+	culture = hijazi
 
 }
 1000103472 = {
 	name="Daylamí"
 	prefix = "dynnp_al-"
-	culture = hejazi
+	culture = hijazi
 
 }
 
@@ -14584,12 +14264,7 @@ name="Tabarsaran"
 	culture = levantine
 
 }
-1000111024 = {
-	name="Thalimí"
-	prefix = "dynnp_al-"
-	culture = levantine
 
-}
 1000111025 = {
 	name="Jarráhí" #Banu 'l-Jarrah in Iraq, a family of Persian descent
 	prefix = "dynnp_banu"
@@ -16453,46 +16128,6 @@ prefix = "dynnp_z"
 #Name and Culture overrides
 ######################################
 
-1022386={
-	name="Ieney" # Was Jenö
-	culture = mogyer # Was hungarian
-}
-1022387={
-	name="Keri" # Was Kér
-	culture = mogyer # Was hungarian
-}
-1022388={
-	name="Kezi" # Was Keszi
-	culture = mogyer # Was hungarian
-}
-1022389={
-	name="Kurt" # Was Kürt
-	culture = mogyer # Was hungarian
-}
-1022390={
-	name="Garmat" # Was Gyarmat
-	culture = mogyer # Was hungarian
-}
-1022391={
-	name="Meger" # Was Megyer
-	culture = mogyer # Was hungarian
-}
-1022392={
-	name="Nýek" # Was Nyék
-	culture = mogyer # Was hungarian
-}
-1022393={
-	name="Tarian" # Was Tarján
-	culture = mogyer # Was hungarian
-}
-1029005={
-	name="Dentumoger" # Was Dentümoger
-	culture=mogyer # Was cuman
-	
-}
-
-
-
 ######################################
 #New mogyer dynasty names added as overrides for duplicate dynasties
 ######################################
@@ -16556,11 +16191,6 @@ prefix = "dynnp_z"
 	name="Annabaldi" #
 	culture ="italian"
 	
-}
-1000036013 = { 
-	name="Montfort"
-	culture = "frankish"
-
 }
 
 # -*- ck2.dynasties -*-
@@ -22687,33 +22317,33 @@ prefix = "dynnp_z"
 }
 1000049254={
 	name = "dynn_Uduyid" #Merkid
-	culture = merkit
+	culture = mongol #merkit
 	
 }
 1000049255={
 	name = "dynn_Tatar"
-	culture = tataric
+	culture = tatars #tataric
 	
 	
 }
 1000049256={
 	name = "dynn_Uqas" #Merkid
-	culture = merkit
+	culture = mongol #merkit
 	
 }
 1000049257={
 	name = "dynn_Qa'ad" #Merkid
-	culture = merkit
+	culture = mongol #merkit
 	
 }
 1000049258={
 	name = "dynn_Megüden" #Merkid
-	culture = merkit
+	culture = mongol #merkit
 	
 }
 1000049259={
 	name = "dynn_Tutuqliyud" #Merkid
-	culture = merkit
+	culture = mongol #merkit
 	
 }
 1000049260={
@@ -22748,37 +22378,37 @@ prefix = "dynnp_z"
 }
 1000049266={
 	name = "dynn_Alchi" #Qaum Tatar
-	culture = tataric
+	culture = tatars #tataric
 	
 }
 1000049267={
 	name = "dynn_Chaghan" #Qaum Tatar
-	culture = tataric
+	culture = tatars #tataric
 	
 }
 1000049268={
 	name = "dynn_Duta'ud" #Qaum Tatar
-	culture = tataric
+	culture = tatars #tataric
 	
 }
 1000049269={
 	name = "dynn_Aluqui" #Qaum Tatar
-	culture = tataric
+	culture = tatars #tataric
 	
 }
 1000049270={
 	name = "dynn_Kuyin" #Qaum Tatar
-	culture = tataric
+	culture = tatars #tataric
 	
 }
 1000049271={
 	name = "dynn_Tereyid" #Qaum Tatar
-	culture = tataric
+	culture = tatars #tataric
 	
 }
 1000049272={
 	name = "dynn_Barqui" #Qaum Tatar
-	culture = tataric
+	culture = tatars #tataric
 	
 }
 

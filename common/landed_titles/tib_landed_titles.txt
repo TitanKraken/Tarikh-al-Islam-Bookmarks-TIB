@@ -32,6 +32,15 @@ e_egypt = { # Misr
 	capital = c_cairo # Cairo
 	ruler_uses_title_name = no
 	#can_create_on_partition = { always = no }
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:egyptian
+			}
+			add = @correct_culture_primary_score
+		}
+	}
 }
 
 e_kangar = {

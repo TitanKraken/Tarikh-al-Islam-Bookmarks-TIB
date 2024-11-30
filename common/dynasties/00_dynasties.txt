@@ -1686,7 +1686,7 @@ danebeaumont = {
 	culture = "bedouin"
 }
 1060002={
-	name="Madhhij"
+	name= "dynn_Madhhij"
 	culture="bedouin"
 }
 7276 = {
@@ -5164,11 +5164,11 @@ persian_ferdowsi = {
 	name = "dynn_Montoire"
 	culture = "french"
 }
-101875 = {
-	name = "dynn_Almohad"
-	culture = "maghrebi"
-	motto = house_almohad_motto
-}
+#101875 = {
+#	name = "dynn_Almohad"
+#	culture = "maghrebi"
+#	motto = house_almohad_motto
+#}
 101876 = {
 	name = "dynn_Ildeguzid"
 	culture = "turkish"
@@ -8045,10 +8045,10 @@ frauenfeld = {
 	name = "dynn_Brisebarre"
 	culture = "french"
 }
-7274 = {
-	name = "dynn_Almoravid"
-	culture = "butr"
-}
+#7274 = {
+#	name = "dynn_Almoravid"
+#	culture = "butr"
+#}
 7275 = {
 	prefix = "dynnp_an-"
 	name = "dynn_Nafzawiyyat"
@@ -8075,7 +8075,7 @@ frauenfeld = {
 }
 
 tribe_quraysh = {
-	name = "dynn_quraysh"
+	name = "dynn_Banu_Quraysh"
 	culture = "bedouin"
 	forced_coa_religiongroup = "muslim"
 }
@@ -11242,7 +11242,7 @@ tribe_quraysh = {
 #}
 1029005 = {
 	name = "dynn_DentU_moger"
-	culture = "cuman"
+	culture = "mogyer" # was Cuman
 }
 1031012 = {
 	name = "dynn_Andersson"
@@ -14410,35 +14410,35 @@ BanuBakr = {
 }
 1022386 = {
 	name = "dynn_JenO_"
-	culture = "hungarian"
+	culture = "mogyer" # Was hungarian
 }
 1022387 = {
 	name = "dynn_KE_r"
-	culture = "hungarian"
+	culture = "mogyer" # Was hungarian
 }
 1022388 = {
 	name = "dynn_Keszi"
-	culture = "hungarian"
+	culture = "mogyer" # Was hungarian
 }
 1022389 = {
 	name = "dynn_KU_rt"
-	culture = "hungarian"
+	culture = "mogyer" # Was hungarian
 }
 1022390 = {
 	name = "dynn_Gyarmat"
-	culture = "hungarian"
+	culture = "mogyer" # Was hungarian
 }
 1022391 = {
 	name = "dynn_Megyer"
-	culture = "hungarian"
+	culture = "mogyer" # Was hungarian
 }
 1022392 = {
 	name = "dynn_NyE_k"
-	culture = "hungarian"
+	culture = "mogyer" # Was hungarian
 }
 1022393 = {
 	name = "dynn_TarjA_n"
-	culture = "hungarian"
+	culture = "mogyer" # Was hungarian
 }
 1042110 = {
 	name = "dynn_Zunbil"
@@ -21712,12 +21712,7 @@ strange = {
 	culture = kirghiz
 
 }
-1000048028 =
-{
-	name = "Li"
-	culture = han
-	
-}
+
 1062550 = {
 	name = "Sripadarayid"
 	culture = kannada
@@ -21763,11 +21758,6 @@ strange = {
 	culture = "mongol"
 
 }
-1100024 = {
-	name = "Khöndlöngiin"
-	culture = mongol
-
-}
 1100025 = {
 	name = "Kharvaach"
 	culture = mongol
@@ -21792,19 +21782,10 @@ strange = {
 	culture = mongol
 	
 }
-1062519 = {
-	name = "Erevid"
-	culture = mongol
-	
-}
 1062520 = {
 	name = "Uriankhai"
 	culture = mongol
 	
-}
-7379 = {
-	name="Jochid"
-	culture = "mongol"
 }
 1062559 = {
 	name = "Udaysan"

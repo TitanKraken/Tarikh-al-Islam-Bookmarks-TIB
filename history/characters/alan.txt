@@ -799,7 +799,6 @@
 	dynasty=12271
 	
 	father = 302275
-	father = 302275
 	
 	culture="alan"
 	religion=pagan # "alan_pagan"

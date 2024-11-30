@@ -27,7 +27,7 @@ tradition_corsairs = {
                     this = culture:maghrebi
                     this = culture:yemeni
                     this = culture:andalusian
-                    this = culture:sicilian_arabian
+                    this = culture:sicilian_arab
 				}
 			}
 		}

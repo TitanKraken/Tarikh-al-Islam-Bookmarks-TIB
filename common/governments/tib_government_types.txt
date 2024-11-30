@@ -5,11 +5,13 @@ clan_government = {
 	
 	fallback = 2
 	
-	#preferred_religions = { islam_religion }
-	create_cadet_branches = yes
-	rulers_should_have_dynasty = yes
-	royal_court = yes
-	legitimacy = yes
+	government_rules = {
+		create_cadet_branches = yes
+		rulers_should_have_dynasty = yes
+		royal_court = yes
+		legitimacy = yes
+		dynasty_named_realms = yes
+	}
 
 	valid_holdings = { castle_holding }
 	required_county_holdings = { castle_holding city_holding church_holding }
@@ -95,11 +97,13 @@ islamic_government = {
 	fallback = 3
 	
 	preferred_religions = { islam_religion }
-	create_cadet_branches = yes
-	rulers_should_have_dynasty = yes
-	royal_court = yes
-	legitimacy = yes
-	#can_change_title_law_trigger = yes
+	government_rules = {
+		create_cadet_branches = yes
+		rulers_should_have_dynasty = yes
+		royal_court = yes
+		legitimacy = yes
+		dynasty_named_realms = yes
+	}
 
 	valid_holdings = { castle_holding city_holding church_holding }
 	required_county_holdings = { castle_holding city_holding church_holding }

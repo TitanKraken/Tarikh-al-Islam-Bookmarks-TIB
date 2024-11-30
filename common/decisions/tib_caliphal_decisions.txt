@@ -276,7 +276,9 @@ caliphal_revolution_decision = {
 
 demote_other_culture_development_decision = { # Mawali simulation
 	title = demote_other_culture_development_decision_name
-	picture = "gfx/interface/illustrations/decisions/islamic_court_council_narrow.dds"
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/islamic_court_council_narrow.dds"
+	}
 	desc = demote_other_culture_development_decision_desc
 	selection_tooltip = demote_other_culture_development_decision_tooltip
 	cooldown = { years = 10 }
@@ -474,7 +476,7 @@ demote_other_culture_development_decision = { # Mawali simulation
 pay_homage_to_caliph_decision = {
 	ai_check_interval = 45
 	picture = {
-		"gfx/interface/illustrations/decisions/islamic_court_council_bowing_narrow.dds"
+		reference = "gfx/interface/illustrations/decisions/islamic_court_council_bowing_narrow.dds"
 	}
 	decision_group_type = major
 	sort_order = 70
@@ -743,8 +745,10 @@ pay_homage_to_caliph_decision = {
 
 # Distribute the Zakat funds
 distribute_zakat_decision = {
-	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
-	major = yes
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	}
+	decision_group_type = major
 	desc = distribute_zakat_decision_desc
 
 	ai_check_interval = 36

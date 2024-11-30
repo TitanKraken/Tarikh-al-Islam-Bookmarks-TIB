@@ -1,8 +1,8 @@
 ﻿# Arabs Expanded
-1042181 = {
-    name = "dynn_Azd"
-    culture = "bedouin"
-}
+#1042181 = {
+#    name = "dynn_Azd"
+#    culture = "bedouin"
+#}
 tribe_Lihyan = {
     name = "dynn_Lihyan"
     culture = "hijazi"
@@ -29,10 +29,10 @@ gibraltar = {
     name = "Jabl-al-Tariq"
     culture = "butr"
 }
-tribe_quraysh = {
-    name = "dynn_Banu_Quraysh"
-    culture = "bedouin"
-}
+#tribe_quraysh = {
+#    name = "dynn_Banu_Quraysh"
+#    culture = "bedouin"
+#}
 tribe_bahili = {
     name = "al-Bahili"
     culture = "bedouin"
@@ -43,10 +43,10 @@ tribe_asir = {
 }
 
 # Extra Arab dynasties
-1000103583 = {
-	name="al-Liyuwi"
-	culture = levantine
-}
+#1000103583 = {
+#	name="al-Liyuwi"
+#	culture = levantine
+#}
 
 # Byzantium Strategos
 house_anafesto = {
@@ -144,6 +144,7 @@ banu_Tujib = {
 }
 101875 = {
     name = "dynn_Almohad"
+    culture = "baranis"
     motto = house_almohad_motto
 }
 ahl_ad_dar = {

@@ -42,7 +42,7 @@ nick_hakim_bi_amrillah = {}
 nick_mustamsik = {}
 
 # Fatimids
-nick_mahdi = {}
+#nick_mahdi = {}
 nick_qaim = {}
 nick_mansur_billah = {}
 nick_muizz = {}

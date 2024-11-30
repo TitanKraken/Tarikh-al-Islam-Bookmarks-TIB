@@ -869,36 +869,36 @@ e_north_sea = {
 	capital = c_sjaelland	#Roskilde
 }
 
-e_bulgaria = {
-	color = { 113 88 101 }
-	definite_form = yes
+#e_bulgaria = {
+#	color = { 113 88 101 }
+#	definite_form = yes
+#		
+#	capital = c_turnovo # Turnovo
 		
-	capital = c_turnovo # Turnovo
-		
-	ai_primary_priority = {
-		if = {
-			limit = {
-				culture = culture:bulgarian
-			}
-			add = @correct_culture_primary_score
-		}
-	}
-}
+#	ai_primary_priority = {
+#		if = {
+#			limit = {
+#				culture = culture:bulgarian
+#			}
+#			add = @correct_culture_primary_score
+#		}
+#	}
+#}
 
-e_egypt = {
-	color = { 10 255 90 }
-		
-	capital	= c_cairo
-		
-	ai_primary_priority = {
-		if = {
-			limit = {
-				culture = culture:egyptian
-			}
-			add = @correct_culture_primary_score
-		}
-	}
-}
+#e_egypt = {
+#	color = { 10 255 90 }
+#		
+#	capital	= c_cairo
+#		
+#	ai_primary_priority = {
+#		if = {
+#			limit = {
+#				culture = culture:egyptian
+#			}
+#			add = @correct_culture_primary_score
+#		}
+#	}
+#}
 
 # TITULAR KINGDOMS
 
@@ -30263,7 +30263,6 @@ e_caspian-pontic_steppe = {
 					
 				}
 				b_yalachi = {
-					province = 5505
 					province = 5505
 
 					color = { 180 60 65 }

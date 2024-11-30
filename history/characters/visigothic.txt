@@ -2411,9 +2411,9 @@
 	852.1.1 = {
 		add_spouse = 73958 # Isra
 	}
-	863.1.1 = {
-		add_spouse = 73958
-	}
+	#863.1.1 = {
+	#	add_spouse = 73958
+	#}
 	866.1.1 = {
 		effect = {
 			set_relation_lover = { reason = lover_history target = character:73958 } #his wife! (fictional, but it seemed fiting for this romantic figure)

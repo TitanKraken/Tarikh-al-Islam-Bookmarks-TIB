@@ -3372,7 +3372,7 @@ set_realm_capital = title:c_palermo
 	stewardship = 7
 	religion = "catholic"
 	culture = "sicilian"
-	trait = blademaster_1
+	trait = lifestyle_blademaster
 	trait = education_martial_2
 
 	father = sicilian0047
