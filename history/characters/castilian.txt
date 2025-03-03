@@ -16848,11 +16848,29 @@
 		death=yes
 	}
 }
+
+1235086a={ # Fictional parent so I can play this dynasty :D
+	name="Abdullah"
+	dynasty=1000053002 # al-Nasrani
+	religion=muwalladi
+	culture=russian #since his son had the nisba "al-Siqlabi", supposing him to be of Saqaliba origin
+
+	828.1.1={
+		birth = yes
+	}
+	869.1.1={
+		culture=andalusian
+	}
+	887.1.1={
+		death = yes
+	}
+}
 1235086={
 	name="Abd-al-Rahman"
-	dynasty=1000053002
+	dynasty=1000053002 # al-Nasrani
+	father=1235086a
 	religion=muwalladi
-	culture=khazar #since his son had the nisba "al-Siqlabi", supposing him to be of Saqaliba origin
+	culture=russian #since his son had the nisba "al-Siqlabi", supposing him to be of Saqaliba origin
 
 	878.1.1={
 		birth = yes
@@ -16864,10 +16882,10 @@
 }
 1235087={
 	name="Ghalib" #Ghalib b. Abd al-Rahman al-Siqlabi al-Nasrani, governor of Toledo (based in Medinaceli) and the Middle March/Upper Frontier 940s-950s
-	dynasty=1000053002
+	dynasty=1000053002 # al-Nasrani
 	martial=8
 	religion=muwalladi
-	culture=khazar
+	culture=russian
 	father=1235086
 	trait="education_martial_4" #arguably the most successful Andalusian Umayyad military leader
 	trait="strong" #lived a very long life
@@ -16886,7 +16904,7 @@
 }
 1235088 ={
 	name="Al-Asma" #Kennedy mentions an Al-Asma, as the daughter of Ghalib al-Siqlabi who married Almanzor
-	dynasty=1000053002
+	dynasty=1000053002 # al-Nasrani
 	female=yes
 
 	father=1235087
@@ -18072,7 +18090,7 @@
 	}
 }
 1235520 = {
-	name="'Azzun" #b. Ghalbun, muwallad lord of Molina de Aragon in the late 11th century
+	name="_Azzun" #b. Ghalbun, muwallad lord of Molina de Aragon in the late 11th century
 	dynasty = 1000053018
 	religion="muwalladi"
 	culture="andalusian"
@@ -18085,7 +18103,7 @@
 	}
 }
 1235521 = {
-	name="'Ali" #Abu 'l-Ala b. 'Azzun b. Ghalbun, younger son of 'Azzun
+	name="_Ali" #Abu 'l-Ala b. 'Azzun b. Ghalbun, younger son of 'Azzun
 	dynasty = 1000053018
 	religion="muwalladi"
 	culture="andalusian"
@@ -18114,7 +18132,7 @@
 	}
 }
 1235523 = {
-	name="Abu-'Amr" #b. al-Jadd, de facto leader of Seville 1238-1246
+	name="Abu__Amr" #b. al-Jadd, de facto leader of Seville 1238-1246
 	dynasty = 1000053027
 	religion="masmudi"
 	culture="andalusian"
@@ -18211,7 +18229,7 @@
 	}
 }
 1235530 = {
-	name="'Amir" #b. Muhib, lord of Tavira in the late 1140s
+	name="_Amir" #b. Muhib, lord of Tavira in the late 1140s
 	dynasty = 1000053029
 	religion="muwalladi"
 	culture="andalusian"

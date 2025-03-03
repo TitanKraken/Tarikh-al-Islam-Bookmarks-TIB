@@ -2446,7 +2446,7 @@
 }
 #Guelfo# son of Malatesta, unknown dates of birth and death
 1091043 = {
-	name="Guido d'Aghinolfo"
+	name="Guido" # Guido d'Aghinolfo
 	dynasty=1042027
 	martial=3
 	diplomacy=6
@@ -3846,9 +3846,11 @@
 		add_trait=devoted		
 	}	
 	1027.1.19={
-		add_trait = "saint"
 		give_nickname = nick_the_saint
 		death=yes
+	}
+	1027.1.20={
+		add_trait = "saint"
 	}
 }
 1063014 = {

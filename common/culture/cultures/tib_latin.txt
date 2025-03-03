@@ -221,7 +221,7 @@ maltese = { # Based on Sicilian (and Maghrebi)
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_xenophilic
-		tradition_ruling_caste # There's some sort of seperation between the Sicilian nobility and the Maltese folks
+		tradition_loyal_soldiers # There's some sort of seperation between the Sicilian nobility and the Maltese folks
 		tradition_fishermen # There are stories that the Maltese would go fishing up until the coasts of Tunisia and spoke Maltese with them XD
 		tradition_storytellers # The Għanja and sorts
 	}
@@ -230,13 +230,14 @@ maltese = { # Based on Sicilian (and Maghrebi)
 	
 	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
+	clothing_gfx = { afr_berber_clothing_gfx western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
 	
 	ethnicities = {
 		20 = mediterranean_byzantine
 		10 = italian
-		1 = arab
+		5 = arab
+		1 = baranis
 	}	
 }
 
@@ -323,8 +324,8 @@ dalmatian = {
 	
 	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { italian_clothing_gfx western_clothing_gfx }
-	unit_gfx = { italian_unit_gfx western_unit_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
 	
 	ethnicities = {
 		10 = mediterranean

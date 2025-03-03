@@ -21867,7 +21867,7 @@ strange = {
 	culture = "persian"
 }
 1031104 = {
-	name="Juwayní"
+	name="dynn_Juwayni"
 	culture = persian
 
 }
@@ -22089,7 +22089,7 @@ strange = {
 	culture = nubian
 }
 1000101206= {
-	name="Makouria"
+	name="c_makuria"
 	culture = nubian
 }
 1000101207= {
@@ -23404,16 +23404,6 @@ turkic_asateginid = {
 	culture = turkish
 }
 
-persian_avicenna = {
-	name = dynn_al_Balkhi
-	culture = persian 
-}
-
-persian_ferdowsi = {
-	name = dynn_Pajid
-	culture = persian 
-}
-
 persian_tusi = {
 	name = dynn_Tusi
 	culture = persian
@@ -23429,10 +23419,10 @@ saka_pamirid = {
 	culture = saka 
 }
 
-1029036 = { #reused from reference files
-	name = dynn_Numayrid
-	culture = bedouin
-}
+#1029036 = { #reused from reference files
+#	name = dynn_Numayrid
+#	culture = bedouin
+#}
 
 karluk_urtujid = {
 	name = dynn_Urtujid

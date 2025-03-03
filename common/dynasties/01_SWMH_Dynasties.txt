@@ -14,383 +14,383 @@
 ######################################
 
 1000035001 = {
-	name="Alighieri"
+	name="dynn_Alighieri"
 	prefix = "dynnp_da"
 	culture = tuscan
 }
 1000035002 = {
-name="Spino Fiori"
+name="dynn_Spino_Fiori"
  culture = ligurian
 }
 1000035003 = {
-name="Accolti"
+name="dynn_Accolti"
 prefix = "dynnp_da"
  culture = tuscan
 }
 1000035004 = {
-name="Albergotti"
+name="dynn_Albergotti"
 prefix = "dynnp_da"
  culture = tuscan
 }
 1000035005 = {
-name="Ubertini"
+name="dynn_Ubertini"
 prefix = "dynnp_da"
  culture = tuscan
 }
 1000035006 = {
-name="Acciaiuoli"
+name="dynn_Acciaiuoli"
 prefix = "dynnp_da"
  culture = tuscan
 }
 1000035007 = {
-name="Amidei"
+name="dynn_Amidei"
 prefix = "dynnp_da"
  culture = tuscan
  
 }
 1000035008 = {
-name="Barberini"
+name="dynn_Barberini"
 prefix = "dynnp_da"
  culture = tuscan
 }
 1000035009 = {
-name="Pugliese"
+name="dynn_Pugliese"
 prefix = "dynnp_del"
  culture = tuscan
 }
 1000035010 = {
-name="Guicciardini"
+name="dynn_Guicciardini"
 prefix = "dynnp_da"
  culture = tuscan
 }
 1000035011 = {
-name="Pazzi"
+name="dynn_Pazzi"
 prefix = "dynnp_de"
  culture = tuscan
    
 }
 1000035012 = {
-name="Pucci"
+name="dynn_Pucci"
 prefix = "dynnp_da"
  culture = tuscan
 }
 1000035013 = {
-name="Salviati"
+name="dynn_Salviati"
 prefix = "dynnp_da"
  culture = tuscan
 }
 1000035014 = {
-name="Torrigiani"
+name="dynn_Torrigiani"
 prefix = "dynnp_da"
  culture = tuscan
 }
 1000035015 = {
-name="Orlando"
+name="dynn_Orlando"
 prefix = "dynnp_da"
  culture = tuscan
 }
 1000035016 = {
-name="Busdraghi"
+name="dynn_Busdraghi"
 prefix = "dynnp_da"
  culture = tuscan
 }
 1000035017 = {
-name="Diodati"
+name="dynn_Diodati"
 prefix = "dynnp_da"
  culture = tuscan
 }
 1000035018 = {
-name="Guinigi"
+name="dynn_Guinigi"
 prefix = "dynnp_da"
  culture = tuscan
 }
 1000035019 = {
-name="Obizzi"
+name="dynn_Obizzi"
 prefix = "dynnp_da"
  culture = tuscan
 }
 1000035020 = {
-name="Ottolini"
+name="dynn_Ottolini"
 prefix = "dynnp_da"
  culture = tuscan
 }
 1000035021 = {
-name="Petrucci"
+name="dynn_Petrucci"
 prefix = "dynnp_da"
  culture = tuscan
 
 }
 1000035022 = {
-name="Caetani"
+name="dynn_Caetani"
 prefix = "dynnp_da"
  culture = tuscan
 }
 1000035023 = {
-name="Cancellieri"
+name="dynn_Cancellieri"
 prefix = "dynnp_da"
  culture = tuscan
 }
 1000035024 = {
-name="Cellesi"
+name="dynn_Cellesi"
 prefix = "dynnp_da"
  culture = tuscan
 }
 1000035025 = {
-name="Rospigliosi"
+name="dynn_Rospigliosi"
 prefix = "dynnp_da"
  culture = tuscan
 }
 1000035026 = {
-name="Setticelli"
+name="dynn_Setticelli"
 prefix = "dynnp_da"
  culture = tuscan
 }
 1000035027 = {
-name="Spino Secco"
+name="dynn_Spino_Secco"
  culture = ligurian
 
 }
 1000035028 = {
-name="Adimari"
+name="dynn_Adimari"
 prefix = "dynnp_da"
  culture = tuscan
 }
 1000035029 = {
-name="Alamanni"
+name="dynn_Alamanni"
  culture = tuscan
 }
 1000035030 = {
-name="Albizi"
+name="dynn_Albizi"
  culture = tuscan
 }
 1000035031 = {
-name="Alessandri"
+name="dynn_Alessandri"
  culture = tuscan
 }
 1000035032 = {
-name="Altoviti"
+name="dynn_Altoviti"
  culture = tuscan
 }
 1000035033 = {
-name="Antinori"
+name="dynn_Antinori"
  culture = tuscan
 }
 1000035034 = {
-name="Bardi"
+name="dynn_Bardi"
  culture = tuscan
 }
 1000035035 = {
-name="Becchi"
+name="dynn_Becchi"
  culture = tuscan
 }
 1000035036 = {
-name="Catellini da Castiglione"
+name="dynn_Catellini_da_Castiglione"
  culture = tuscan
 }
 1000035037 = {
-name="Cerretani"
+name="dynn_Cerretani"
  culture = tuscan
 }
 1000035038 = {
-name="Corsi"
+name="dynn_Corsi"
  culture = tuscan
 }
 1000035039 = {
-name="Casavecchia"
+name="dynn_Casavecchia"
 prefix = "dynnp_da"
  culture = tuscan
 }
 1000035040 = {
-name="Tebaldi della Vitella"
+name="dynn_Tebaldi_della_Vitella"
  culture = tuscan
 }
 1000035041 = {
-name="Fifanti"
+name="dynn_Fifanti"
  culture = tuscan
 
 }
 1000035042 = {
-name="Filippi"
+name="dynn_Filippi"
  culture = tuscan
 }
 1000035043 = {
-name="Gherardini"
+name="dynn_Gherardini"
  culture = tuscan
  
 }
 1000035044 = {
-name="Guadagni"
+name="dynn_Guadagni"
  culture = tuscan
 }
 1000035045 = {
-name="Lamberti"
+name="dynn_Lamberti"
  culture = tuscan
 }
 1000035046 = {
-name="Lucardesi"
+name="dynn_Lucardesi"
  culture = tuscan
 }
 1000035047 = {
-name="Nerli"
+name="dynn_Nerli"
  culture = tuscan
 }
 1000035048 = {
-name="Ricasoli"
+name="dynn_Ricasoli"
  culture = tuscan
 }
 1000035049 = {
-name="Tornaquinci"
+name="dynn_Tornaquinci"
  culture = tuscan
 }
 1000035050 = {
-name="Upezzinghi"
+name="dynn_Upezzinghi"
  culture = tuscan
 }
 1000035051 = {
-name="Ardengheschi"
+name="dynn_Ardengheschi"
  culture = tuscan
 
 }
 1000035052 = {
-name="Bertoldi"
+name="dynn_Bertoldi"
  culture = tuscan
 }
 1000035053 = {
-name="Linari"
+name="dynn_Linari"
  culture = tuscan
 }
 1000035054 = {
-name="Bonsignori"
+name="dynn_Bonsignori"
 prefix = "dynnp_da"
  culture = tuscan
 }
 1000035055 = {
-name="Angiolieri"
+name="dynn_Angiolieri"
  culture = tuscan
 }
 1000035056 = {
-name="Tolomei"
+name="dynn_Tolomei"
  culture = tuscan
 }
 1000035057 = {
-name="Abati"
+name="dynn_Abati"
  culture = tuscan
 }
 1000035058 = {
-name="Barbolani di Montauto"
+name="dynn_Barbolani_di_Montauto"
  culture = tuscan
 }
 1000035059 = {
-name="Machiavelli"
+name="dynn_Machiavelli"
  culture = tuscan
 
 }
 1000035061 = {
-name="Montanini"
+name="dynn_Montanini"
  culture = tuscan
 
 }
 1000035062 = {
-name="Filippeschi"
+name="dynn_Filippeschi"
  culture = tuscan
 }
 1000035063 = {
-name="Uberti"
+name="dynn_Uberti"
  culture = tuscan
 
 }
 1000035064 = {
-name="Salvani"
+name="dynn_Salvani"
  culture = tuscan
 
 }
 1000035065 = {
-name="Ubertini"
+name="dynn_Ubertini"
  culture = tuscan
  
 }
 1000035066 = {
-name="Tornaquinci"
+name="dynn_Tornaquinci"
  culture = tuscan
  
 }
 1000035067 = {
-name="Cavalcanti"
+name="dynn_Cavalcanti"
  culture = tuscan
 
 }
 1000035068 = {
-name="Giandonati"
+name="dynn_Giandonati"
  culture = tuscan
 
 }
 1000035069 = {
-name="Piccolomini"
+name="dynn_Piccolomini"
  culture = tuscan
 }
 1000035070 = {
-name="Tarlati"
+name="dynn_Tarlati"
  culture = tuscan
 
 }
 1000035071 = {
-name="Baglioni"
+name="dynn_Baglioni"
  culture = tuscan
   
 }
 1000035072 = {
-name="Altoviti"
+name="dynn_Altoviti"
  culture = tuscan
    
 }
 1000035073 = {
-name="Lucchesi"
+name="dynn_Lucchesi"
  culture = tuscan
   
 }
 1000035074 = {
-name="Buonaparte"
+name="dynn_Buonaparte"
  culture = tuscan
   
 }
 1000035075 = {
-name="Guicciardini"
+name="dynn_Guicciardini"
  culture = tuscan
    
 }
 1000035076 = {
-name="Guadagni"
+name="dynn_Guadagni"
 prefix = "dynnp_da"
  culture = tuscan
  
 }
 1000035077 = {
-name="Trenta"
+name="dynn_Trenta"
 prefix = "dynnp_da"
  culture = tuscan
 }
 1000035078 = {
-name="Albizzi"
+name="dynn_Albizzi"
  culture = tuscan
  
 }
 1000035079 = {
-name="Donati"
+name="dynn_Donati"
  culture = tuscan
 
 }
 1000035080 = {
-name="Cherchi"
+name="dynn_Cherchi"
  culture = tuscan
  
 }
 1000020000 = { # aka Corvaresi
-name="Fraolmi"
+name="dynn_Fraolmi"
 prefix = "dynnp_da"
  culture = tuscan
 }
 1000020001 = { 
-name="Alberti"
+name="dynn_Alberti"
 prefix = "dynnp_da"
  culture = tuscan
  
@@ -400,18 +400,18 @@ prefix = "dynnp_da"
 # culture = tuscan
 #}
 1000020003 = { 
-name="Buondelmonti"
+name="dynn_Buondelmonti"
 prefix = "dynnp_da"
  culture = tuscan
 }
 1000020004 = { 
-name="Palude"
+name="dynn_Palude"
 prefix = "dynnp_da"
  culture = tuscan
 	 
 }
 1000020005 = { 
-name="Dati"
+name="dynn_Dati"
  culture = tuscan
 }
 #1000020006 = { 
@@ -419,128 +419,129 @@ name="Dati"
 # culture = tuscan
 #}
 1000020007 = { 
-name="Cacciaconti"
+name="dynn_Cacciaconti"
  culture = tuscan
  
 }
 1000020008 = { 
-name="Ugurgieri"
+name="dynn_Ugurgieri"
  culture = tuscan
 
 }
 1000020275 = { 
-name="Pirovano"
+name="dynn_Pirovano"
 prefix = "dynnp_da"
  culture = tuscan
 }
 1000020276 = { 
-name="Riccardi"
+name="dynn_Riccardi"
 prefix = "dynnp_da"
  culture = tuscan
 }
 1000020277 = { 
-name="Streghi"
+name="dynn_Streghi"
 prefix = "dynnp_da"
  culture = tuscan
 }
 1000020278 = { 
-name="Suffredinghi"
+name="dynn_Suffredinghi"
 prefix = "dynnp_da"
  culture = tuscan
 }
 1000020279 = { 
-name="Guazzalotti"
+name="dynn_Guazzalotti"
 prefix = "dynnp_da" #
  culture = tuscan
  
 }
 1000020280 = { 
-name="Parenzi" # aka Romano
+name="dynn_Parenzi" # aka Romano
  culture = tuscan
 
 }
 1000020281 = { 
-name="Asinelli"
+name="dynn_Asinelli"
  culture = tuscan
 }
 1000020282 = { 
-name="Castagnacci"
+name="dynn_Castagnacci"
  culture = tuscan
 }
 1000020283 = { 
-name="Pietrasanta"
+name="dynn_Pietrasanta"
  culture = tuscan
  
 }
 1000020284 = { 
-name="Bozzano"
+name="dynn_Bozzano"
 prefix = "dynnp_da"
  culture = tuscan
 }
 1000020285 = { 
-name="degli Oddi" #aka Olodini
+name="dynn_degli_Oddi" #aka Olodini
  culture = tuscan
 
 }
 1000020286 = { 
-name="Malpigli"
+name="dynn_Malpigli"
  culture = tuscan
 }
 1000020287 = { 
-name="Camilla"
+name="dynn_Camilla"
  culture = ligurian
 }
 1000020288 = { 
-name="Maltanotte"
+name="dynn_Maltanotte"
  culture = tuscan
 }
 1000020289 = { 
-name="Bonfigliastri"
+name="dynn_Bonfigliastri"
  culture = tuscan
 }
 1000020290 = { 
-name="Gangalandi"
+name="dynn_Gangalandi"
  culture = tuscan
  
 }
 1000020291 = { 
-name="Pocari"
+name="dynn_Pocari"
  culture = tuscan
 
 }
 1000020292 = { 
-name="Poggi"
+name="dynn_Poggi"
  culture = tuscan
  
 }
 1000020293 = { 
-name="Capraia"
+name="dynn_Capraia"
 prefix = "dynnp_di"
  culture = tuscan
 
 }
 1000020294 = { 
-name="Bonsignori"
+name="dynn_Bonsignori"
  culture = tuscan
 }
 1000020295 = { 
-name="della Branca"
+name="dynn_Branca"
+prefix = "dynnp_della"
  culture = tuscan
  
 }
 1000020296 = { 
-name="Caponsacchi"
+name="dynn_Caponsacchi"
  culture = tuscan
 
 }
 1000020297 = { 
-name="Tosa"
+name="dynn_Tosa"
 prefix = "dynnp_della"
  culture = tuscan
 
 }
 1000020298 = { 
-name="Botoli"
+name="dynn_Botoli"
  culture = tuscan
 }
 ######################################
@@ -549,7 +550,7 @@ name="Botoli"
 ######################################
 
 1000035060 = {
-name="Cinta senese"
+name="dynn_Cinta_Senese"
  culture = tuscan
 } # so tasty!
 
@@ -567,197 +568,197 @@ name="Cinta senese"
 ######################################
 
 1000035081 = {
-name="Challant"
+name="dynn_Challant"
 prefix = "dynnp_de"
  culture = arpitan
 }
 1000035082 = {
-name="Sarriod"
+name="dynn_Sarriod"
 prefix = "dynnp_de"
  culture = arpitan
 }
 1000020500 = {
-name="Rougemont"
+name="dynn_Rougemont"
 prefix = "dynnp_de"
  culture = arpitan
 }
 1000020501 = {
-name="Montferrand"
+name="dynn_Montferrand"
 prefix = "dynnp_de"
  culture = arpitan
 } 
 1000020502 = {
-name="Cuiseaux"
+name="dynn_Cuiseaux"
 prefix = "dynnp_de"
  culture = arpitan
 } 
 1000020503 = {
-name="Joux"
+name="dynn_Joux"
 prefix = "dynnp_de"
  culture = arpitan
 } 
 1000020504 = {
-name="Uise"
+name="dynn_Uise"
 prefix = "dynnp_de"
  culture = arpitan
 } 
 1000020505 = {
-name="Chevron"
+name="dynn_Chevron"
 prefix = "dynnp_de"
  culture = arpitan
 } 
 1000020506 = {
-name="Ray"
+name="dynn_Ray"
 prefix = "dynnp_de"
  culture = arpitan
 } 
 1000020507 = {
-name="Aucelle"
+name="dynn_Aucelle"
 prefix = "dynnp_de"
  culture = arpitan
 }
 1000020508 = {
-name="Dumes"
+name="dynn_Dumes"
 prefix = "dynnp_de"
  culture = arpitan
 }
 1000020509 = {
-name="Montjoie"
+name="dynn_Montjoie"
 prefix = "dynnp_de"
  culture = arpitan
 }
 1000020510 = {
-name="Bocsozel"
+name="dynn_Bocsozel"
 prefix = "dynnp_de"
  culture = arpitan
 }
 1000020511 = {
-name="Bron"
+name="dynn_Bron"
 prefix = "dynnp_de"
  culture = arpitan
 }
 1000020512 = {
-name="Chandieu"
+name="dynn_Chandieu"
 prefix = "dynnp_de"
  culture = arpitan
 }
 1000020513 = {
-name="Sassenage"
+name="dynn_Sassenage"
 prefix = "dynnp_de"
  culture = arpitan
 }
 1000020514 = {
-name="Montbel"
+name="dynn_Montbel"
 prefix = "dynnp_de"
  culture = arpitan
 }
 1000020515 = {
-name="Bressieux"
+name="dynn_Bressieux"
 prefix = "dynnp_de"
  culture = arpitan
 }
 1000020516 = {
-name="la Tour du Pin"
+name="dynn_la_Tour_du_Pin"
 prefix = "dynnp_de"
  culture = arpitan
 }
 1000020517 = {
-name="Clermont-Tonnerre"
+name="dynn_Clermont-Tonnerre"
 prefix = "dynnp_de"
  culture = arpitan
 }
 1000020518 = {
-name="Colombier"
+name="dynn_Colombier"
 prefix = "dynnp_de"
  culture = arpitan
 }
 1000020519 = {
-name="Grolée"
+name="dynn_Grolée"
 prefix = "dynnp_de"
  culture = arpitan
 }
 1000020520 = { # 
-name="Rarogne"
+name="dynn_Rarogne"
 prefix = "dynnp_de"
  culture = arpitan
 }
 1000020521 = {
-name="Blonay"
+name="dynn_Blonay"
 prefix = "dynnp_de"
  culture = arpitan
 }
 1000020522 = {
-name="Saillon"
+name="dynn_Saillon"
 prefix = "dynnp_de"
  culture = arpitan
 }
 1000020523 = {
-name="Aigle"
+name="dynn_Aigle"
 prefix = "dynnp_de"
  culture = arpitan
 }
 1000020524 = {
-name="Gex"
+name="dynn_Gex"
 prefix = "dynnp_de"
  culture = arpitan
 }
 1000020525 = {
-name="Viry"
+name="dynn_Viry"
 prefix = "dynnp_de"
  culture = arpitan
 }
 #1000020525 = {
-#name="Pragins"
+#name="dynn_Pragins"
 #prefix = "dynnp_de"
 # culture = arpitan
 #}
 1000020526 = {
-name="Miolans"
+name="dynn_Miolans"
 prefix = "dynnp_de"
  culture = arpitan
 }
 1000020527 = {
-name="la Chambre"
+name="dynn_la_Chambre"
 prefix = "dynnp_de"
  culture = arpitan
 }
 1000020528 = {
-name="Aubonne"
+name="dynn_Aubonne"
 prefix = "dynnp_de"
  culture = arpitan
 }
 #1000020529 = {
-#name="Choiseul"
+#name="dynn_Choiseul"
 #prefix = "dynnp_de"
 # culture = arpitan
 #}
 1000020529 = {
-name="Mailly"
+name="dynn_Mailly"
 prefix = "dynnp_de"
  culture = arpitan
 }
 1000020530 = {
-name="Oiselay"
+name="dynn_Oiselay"
 prefix = "dynnp_d_"
  culture = arpitan
 }
 1000020531 = {
-name="Antigny"
+name="dynn_Antigny"
 prefix = "dynnp_d_"
  culture = arpitan
 }
 1000020532 = {
-name="Tilchâtel"
+name="dynn_Tilchâtel"
 prefix = "dynnp_de"
  culture = arpitan
 }
 1000020533 = {
-name="Traves"
+name="dynn_Traves"
 prefix = "dynnp_de"
  culture = arpitan
 }
 1000020534 = {
-name="Autoreille"
+name="dynn_Autoreille"
 prefix = "dynnp_de"
  culture = arpitan
 }
@@ -779,85 +780,85 @@ prefix = "dynnp_de"
 ######################################
 
 1000035151 = {
-name="Capodimonte"
+name="dynn_Capodimonte"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035152 = {
-name="Porto"
+name="dynn_Porto"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035153 = {
-name="San Pietro"
+name="dynn_San_Pietro"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035154 = {
-name="Torrette"
+name="dynn_Torrette"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035155 = {
-name="Brancaleoni"
+name="dynn_Brancaleoni"
 prefix = "dynnp_di"
  culture = italian
 
 }
 1000035156 = {
-name="Carpegna"
+name="dynn_Carpegna"
 prefix = "dynnp_di"
  culture = italian
 
 }
 1000035157 = {
-name="Aprutio"
+name="dynn_Aprutio"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035158 = {
-name="Chieti"
+name="dynn_Chieti"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035159 = {
-name="Maumouzet"
+name="dynn_Maumouzet"
 prefix = "dynnp_of"
  culture = norman
 }
 1000035160 = {
-name="Scrocchiamuro"
+name="dynn_Scrocchiamuro"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035161 = {
-name="Atri"
+name="dynn_Atri"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035162 = {
-name="Palearia" #
+name="dynn_Palearia" #
 prefix = "dynnp_di"
  culture = italian
 
 }
 1000035163 = {
-name="Valva"
+name="dynn_Valva"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035164 = {
-name="Sansoneschi"
+name="dynn_Sansoneschi"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035165 = {
-name="Borelli"
+name="dynn_Borelli"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035166 = {
-name="Celano"
+name="dynn_Celano"
 prefix = "dynnp_di"
  culture = italian
 }
@@ -876,185 +877,185 @@ prefix = "dynnp_di"
 #Range 1000035186-1000035220
 ######################################
 1000035186 = {
-	name="Carroz"
+	name="dynn_Carroz"
 	culture ="catalan"
 
 }
 1000035187 = {
-	name="Sardegna"
+	name="dynn_Sardegna"
 	prefix = "dynnp_di"
 	culture ="italian"
 
 }
 1000035188 = {
-	name="Evoli"
+	name="dynn_Evoli"
 	prefix = "dynnp_d_"
 	culture ="lombard"
 	
 }
 1000035189 = {
-	name="Sangineto"
+	name="dynn_Sangineto"
 	prefix = "dynnp_d_"
 	culture ="lombard"
 	
 }
 1000035190 = {
-	name="Pipino"
+	name="dynn_Pipino"
 	prefix = "dynnp_di"
 	culture ="lombard"
 
 }
 1000035191 = {
-	name="Scalafani"
+	name="dynn_Scalafani"
 	prefix = "dynnp_di"
 	culture ="sicilian"
 	
 }
 1000035192 = {
-	name="Mari"	
+	name="dynn_Mari"	
 	prefix = "dynnp_di"
 	culture ="cisalpine"
 
 }
 1000035193 = {
-	name="Tarsia"	
+	name="dynn_Tarsia"	
 	prefix = "dynnp_di"
 	culture ="sicilian"
 }
 1000035194 = {
-	name="Manopello"	
+	name="dynn_Manopello"	
 	prefix = "dynnp_di"
 	culture ="lombard"
 }
 1000035195 = {
-	name="Stazziona"	
+	name="dynn_Stazziona"	
 	prefix = "dynnp_di"
 	culture ="italian"
 }
 1000035196 = {
-	name="Martesana"	
+	name="dynn_Martesana"	
 	prefix = "dynnp_di"
 	culture ="italian"
 }
 1000035197 = {
-	name="Manfredinghi"	
+	name="dynn_Manfredinghi"	
 	prefix = "dynnp_di"
 	culture ="italian"
 }
 1000035198 = {
-	name="Leonidi"	
+	name="dynn_Leonidi"	
 	prefix = "dynnp_di"
 	culture ="italian"
 }
 1000035199 = {
-	name="Sigifredi"	
+	name="dynn_Sigifredi"	
 	prefix = "dynnp_di"
 	culture ="italian"
 }
 1000035200 = {
-	name="Supponidi"	
+	name="dynn_Supponidi"	
 	prefix = "dynnp_di"
 	culture ="italian"
 }
 1000035201 = {
-	name="Sumarigo"	
+	name="dynn_Sumarigo"	
 	prefix = "dynnp_d_"
 	culture ="italian"
 }
 1000035202 = {
-	name="Pietro-Conti"	
+	name="dynn_Pietro_Conti"	
 	prefix = "dynnp_di"
 	culture ="cisalpine"
 }
 1000035203 = {
-	name="Papafava"	
+	name="dynn_Papafava"	
 	prefix = "dynnp_di"
 	culture ="cisalpine"
 
 }
 1000035204 = {
-	name="Conti"	
+	name="dynn_Conti"	
 	prefix = "dynnp_d_"
 	culture ="cisalpine"
 }
 1000035205 = {
-	name="Lozzo"	
+	name="dynn_Lozzo"	
 	prefix = "dynnp_da"
 	culture ="cisalpine"
 }
 1000035206 = {
-	name="Arzignani"	
+	name="dynn_Arzignani"	
 	prefix = "dynnp_da"
 	culture ="cisalpine"
 
 }
 1000035207 = {
-	name="Ganzera"
+	name="dynn_Ganzera"
 	prefix = "dynnp_di"
 	culture ="cisalpine"
 }
 1000035208 = {
-	name="Malacapelli"	
+	name="dynn_Malacapelli"	
 	prefix = "dynnp_di"
 	culture ="cisalpine"
 }
 1000035209 = {
-	name="Baone"	
+	name="dynn_Baone"	
 	prefix = "dynnp_da"
 	culture ="cisalpine"
 }
 1000035210 = {
-	name="Schinelli"	
+	name="dynn_Schinelli"	
 	prefix = "dynnp_di"
 	culture ="cisalpine"
 }
 1000035211 = {
-	name="Castelnouvo"	
+	name="dynn_Castelnouvo"	
 	prefix = "dynnp_di"
 	culture ="cisalpine"
 }
 1000035212 = {
-	name="Bontraversi"
+	name="dynn_Bontraversi"
 	prefix = "dynnp_di"
 	culture ="cisalpine"
 }
 1000035213 = {
-	name="Scrovegni"	
+	name="dynn_Scrovegni"	
 	prefix = "dynnp_di"
 	culture ="cisalpine"
 }
 1000035214 = {
-	name="Gaya"	
+	name="dynn_Gaya"	
 	prefix = "dynnp_de"
 	culture ="sardinian"
 }
 1000035215 = {
-	name="Gnecco"	
+	name="dynn_Gnecco"	
 	prefix = "dynnp_de"
 	culture ="sardinian"
 }
 1000035216 = {
-	name="Incani"	
+	name="dynn_Incani"	
 	prefix = "dynnp_de"
 	culture ="sardinian"
 }
 1000035217 = {
-	name="Lado"	
+	name="dynn_Lado"	
 	prefix = "dynnp_de"
 	culture ="sardinian"
 }
 1000035218 = {
-	name="Uras"	
+	name="dynn_Uras"	
 	prefix = "dynnp_de"
 	culture ="sardinian"
 }
 1000035219 = {
-	name="Matzeu"
+	name="dynn_Matzeu"
 prefix = "dynnp_de"	
 	culture ="sardinian"
 }
 1000035220 = {
-	name="Angioy"	
+	name="dynn_Angioy"	
 	prefix = "dynnp_de"
 	culture ="sardinian"
 }
@@ -1072,303 +1073,303 @@ prefix = "dynnp_de"
 ######################################
 
 1000035221 = {
-name="Carraresi"
+name="dynn_Carraresi"
  culture = venetian
 }
 1000035222 = {
-name="Camposampiero"
+name="dynn_Camposampiero"
 prefix = "dynnp_di"
  culture = venetian
  
 }
 1000035223 = {
-name="Barbarigo"
+name="dynn_Barbarigo"
  culture = venetian
 }
 1000035224 = {
-name="Picavara"
+name="dynn_Picavara"
  culture = venetian
 }
 1000035225 = {
-name="Bon"
+name="dynn_Bon"
  culture = venetian
 }
 1000035226 = {
-name="Bragadin"
+name="dynn_Bragadin"
  culture = venetian
 }
 1000035227 = {
-name="Badoer"
+name="dynn_Badoer"
  culture = venetian
 }
 1000035228 = {
-name="Barbaro"
+name="dynn_Barbaro"
  culture = venetian
 }
 1000035229 = {
-name="Transalgardi"
+name="dynn_Transalgardi"
  culture = venetian
 }
 1000035230 = {
-name="Dunio"
+name="dynn_Dunio"
  culture = venetian
 
 }
 1000035231 = {
-name="Loredan"
+name="dynn_Loredan"
  culture = venetian
 }
 1000035232 = {
-name="Capodilista"
+name="dynn_Capodilista"
  culture = venetian
 }
 1000035233 = {
-name="Pisani"
+name="dynn_Pisani"
  culture = venetian
 }
 1000035234 = {
-name="Priuli"
+name="dynn_Priuli"
  culture = venetian
 }
 1000035235 = {
-name="Partecipazio"
+name="dynn_Partecipazio"
  culture = venetian
 }
 1000035236 = {
-name="Querini"
+name="dynn_Querini"
  culture = venetian
 }
 1000035237 = {
-name="Thiene"
+name="dynn_Thiene"
  culture = venetian
 }
 1000035238 = {
-name="Altan"
+name="dynn_Altan"
  culture = venetian
 }
 1000035239 = {
-name="Amalteo"
+name="dynn_Amalteo"
  culture = venetian
 }
 1000035240 = {
-name="Bonomo"
+name="dynn_Bonomo"
  culture = venetian
 }
 1000035241 = {
-name="Caiselli"
+name="dynn_Caiselli"
  culture = venetian
 }
 1000035242 = {
-name="Colloredo"
+name="dynn_Colloredo"
  culture = venetian
   
 }
 1000035243 = {
-name="Lanthieri"
+name="dynn_Lanthieri"
  culture = venetian
 }
 1000035244 = {
-name="Panciera"
+name="dynn_Panciera"
  culture = venetian
 }
 1000035245 = {
-name="Polcenigo"
+name="dynn_Polcenigo"
  culture = venetian
 }
 1000035246 = {
-name="Prata"
+name="dynn_Prata"
  culture = venetian
 }
 1000035247 = {
-name="Sbrojavacca"
+name="dynn_Sbrojavacca"
  culture = venetian
 }
 1000035248 = {
-name="Obizzi"
+name="dynn_Obizzi"
  culture = venetian
 }
 1000035249 = {
-name="da Peraga"
+name="dynn_da_Peraga"
  culture = venetian
 }
 1000035250 = {
-name="Carbonara"
+name="dynn_Carbonara"
  culture = venetian
 }
 1000035252 = {
-name="Tempesta"
+name="dynn_Tempesta"
  culture = venetian
 }
 1000035253 = {
-name="Baffo"
+name="dynn_Baffo"
  culture = venetian
 }
 1000035254 = {
-name="Bembo"
+name="dynn_Bembo"
  culture = venetian
 }
 1000035255 = {
-name="Cappello"
+name="dynn_Cappello"
  culture = venetian
 }
 1000035256 = {
-name="Magno"
+name="dynn_Magno"
  culture = venetian
 }
 1000035257 = {
-name="Marcello"
+name="dynn_Marcello"
  culture = venetian
 }
 1000035258 = {
-name="Moro"
+name="dynn_Moro"
  culture = venetian
 }
 1000035259 = {
-name="Mosto"
+name="dynn_Mosto"
  culture = venetian
 }
 1000035260 = {
-name="Mula"
+name="dynn_Mula"
  culture = venetian
 }
 1000035261 = {
-name="Nadal"
+name="dynn_Nadal"
  culture = venetian
 }
 1000035262 = {
-name="Orio"
+name="dynn_Orio"
  culture = venetian
 }
 1000035263 = {
-name="Porto"
+name="dynn_Porto"
  culture = venetian
 }
 1000035264 = {
-name="Salamon"
+name="dynn_Salamon"
  culture = venetian
 }
 1000035265 = {
-name="Valier"
+name="dynn_Valier"
  culture = venetian
 }
 1000035266 = {
-name="Trissino"
+name="dynn_Trissino"
  culture = venetian
 }
 1000035267 = {
-name="Venier"
+name="dynn_Venier"
  culture = venetian
 }
 1000035268 = {
-name="Molin"
+name="dynn_Molin"
  culture = venetian
 }
 1000035269 = {
-name="Foscari"
+name="dynn_Foscari"
  culture = venetian
 }
 1000035270 = {
-name="Briani"
+name="dynn_Briani"
  culture = venetian
 }
 1000035271 = {
-name="Arneri"
+name="dynn_Arneri"
  culture = venetian
 
 }
 1000035272 = {
-name="Barbaran"
+name="dynn_Barbaran"
  culture = venetian
 }
 1000035273 = {
-name="Bissari"
+name="dynn_Bissari"
  culture = venetian
 }
 1000035274 = {
-name="Acotanto"
+name="dynn_Acotanto"
  culture = venetian
 }
 1000035275 = {
-name="Amizzo"
+name="dynn_Amizzo"
  culture = venetian
 }
 1000035276 = {
-name="Armer"
+name="dynn_Armer"
  culture = venetian
 }
 1000035277 = {
-name="Barison"
+name="dynn_Barison"
  culture = venetian
 }
 1000035278 = {
-name="Basadonna"
+name="dynn_Basadonna"
  culture = venetian
 }
 1000035279 = {
-name="Baseggio"
+name="dynn_Baseggio"
  culture = venetian
 }
 1000035280 = {
-name="Belegno"
+name="dynn_Belegno"
  culture = venetian
 }
 1000035281 = {
-name="Boldù"
+name="dynn_Boldù"
  culture = venetian
 }
 1000035282 = {
-name="Bollani"
+name="dynn_Bollani"
  culture = venetian
 }
 1000035283 = {
-name="Calbo"
+name="dynn_Calbo"
  culture = venetian
 }
 1000035284 = {
-name="Caotorta"
+name="dynn_Caotorta"
  culture = venetian
 }
 1000035285 = {
-name="Caravello"
+name="dynn_Caravello"
  culture = venetian
 }
 1000035286 = {
-name="Centranico"
+name="dynn_Centranico"
  culture = venetian
 }
 1000035287 = {
-name="Correr"
+name="dynn_Correr"
  culture = venetian
 }
 1000035288 = {
-name="Diedo"
+name="dynn_Diedo"
  culture = venetian
 }
 1000035289 = {
-name="Erizzo"
+name="dynn_Erizzo"
  culture = venetian
 }
 1000035290 = {
-name="Valaresso"
+name="dynn_Valaresso"
  culture = venetian
  
 }
 1000035315 = {
-name="Ragogna"
+name="dynn_Ragogna"
   culture = venetian
   
 }
 1000035314 = {
-name="Strassoldo"
+name="dynn_Strassoldo"
   culture = venetian
   
 }
 1000035316 = {
-name="da Romano"
+name="dynn_da_Romano"
   culture = venetian
 }
 1000035326 = {
-name="da Karystos"
+name="dynn_da_Karystos"
   culture = venetian
 }
 ######################################
@@ -1391,79 +1392,79 @@ name="da Karystos"
 ######################################
 
 #1000035291 = {
-#name="Cybo"
+#name="dynn_Cybo"
 # culture = ligurian
 #}
 1000035292 = {
-name="Lomellini"
+name="dynn_Lomellini"
 prefix = "dynnp_de"
  culture = ligurian
 
 }
 1000035293 = {
-name="Gentile"
+name="dynn_Gentile"
 prefix = "dynnp_de"
  culture = ligurian
 
 }
 1000035294 = {
-name="Fornari"
+name="dynn_Fornari"
 prefix = "dynnp_de"
  culture = ligurian
 }
 1000035295 = {
-name="Ceva"
+name="dynn_Ceva"
 prefix = "dynnp_de"
  culture = ligurian
 }
 1000035296 = {
-name="Piane"
+name="dynn_Piane"
 prefix = "dynnp_della"
  culture = ligurian
 }
 1000035297 = {
-name="Negro"
+name="dynn_Negro"
 prefix = "dynnp_di"
  culture = ligurian
 }
 1000035298 = {
-name="Tartaro"
+name="dynn_Tartaro"
 prefix = "dynnp_di"
  culture = ligurian
 }
 1000035299 = {
-name="Staglieno"
+name="dynn_Staglieno"
 prefix = "dynnp_di"
  culture = ligurian
 }
 1000035300 = {
-name="Cattaneo"
+name="dynn_Cattaneo"
 prefix = "dynnp_di"
  culture = ligurian
 }
 1000035301 = {
-name="Embriaci"
+name="dynn_Embriaci"
 prefix = "dynnp_di"
  culture = ligurian
 }
 1000035302 = {
-name="Riario"
+name="dynn_Riario"
 prefix = "dynnp_di"
  culture = ligurian
  
 }
 1000035303 = {
-name="Lascaris di Ventimiglia"
+name="dynn_Lascaris_di_Ventimiglia"
 prefix = "dynnp_di"
  culture = ligurian
 }
 1000035342 = {
-name="lo Cavo"
+name="dynn_lo_Cavo"
 prefix = "dynnp_de"
  culture = ligurian
 }
 1000035343 = {
-name="Morisco"
+name="dynn_Morisco"
 prefix = "dynnp_di"
  culture = ligurian
 }
@@ -1494,117 +1495,117 @@ prefix = "dynnp_di"
 ######################################
 
 1000035361 = {
-name="Boncompagni"
+name="dynn_Boncompagni"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035362 = {
-name="Ruspoli"
+name="dynn_Ruspoli"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035363 = {
-name="Caetani"
+name="dynn_Caetani"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035364 = {
-name="Albani"
+name="dynn_Albani"
 prefix = "dynnp_di"
  culture = italian 
 }
 1000035365 = {
-name="Barberini"
+name="dynn_Barberini"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035366 = {
-name="Borghese"
+name="dynn_Borghese"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035367 = {
-name="Cesarini"
+name="dynn_Cesarini"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035368 = {
-name="Pamphili"
+name="dynn_Pamphili"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035369 = {
-name="Farnese"
+name="dynn_Farnese"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035370 = {
-name="Mancini"
+name="dynn_Mancini"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035371 = {
-name="Mazzetti di Pietralata"
+name="dynn_Mazzetti_di_Pietralata"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035372 = {
-name="Torlonia"
+name="dynn_Torlonia"
 prefix = "dynnp_di"
  culture = italian 
 }
 1000035373 = {
-name="Turcii"
+name="dynn_Turcii"
 prefix = "dynnp_di"
  culture = italian 
 }
 1000035374 = {
-name="Baglioni"
+name="dynn_Baglioni"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035375 = {
-name="Trinci"
+name="dynn_Trinci"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035376 = {
-name="Acquaviva"
+name="dynn_Acquaviva"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035377 = {
-name="Crollalanza"
+name="dynn_Crollalanza"
 prefix = "dynnp_di"
  culture = italian 
 }
 1000035378 = {
-name="Montefeltro"
+name="dynn_Montefeltro"
 prefix = "dynnp_da"
  culture = italian
 }
 1000035379 = {
-name="Cassero"
+name="dynn_Cassero"
 prefix = "dynnp_del"
  culture = italian
 }
 1000035380 = {
-name="Rovere"
+name="dynn_Rovere"
 prefix = "dynnp_della"
  culture = italian
 }
 1000035381 = {
-name="Leopardi"
+name="dynn_Leopardi"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035382 = {
-name="Gabrielli"
+name="dynn_Gabrielli"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035383 = {
-name="Massimo"
+name="dynn_Massimo"
 prefix = "dynnp_di"
  culture = italian
 }
@@ -1613,159 +1614,159 @@ prefix = "dynnp_di"
 # culture = italian
 #}
 1000035385 = {
-name="Berardi"
+name="dynn_Berardi"
 prefix = "dynnp_di"
  culture = italian
 
 }
 1000035386 = {
-name="Anguillara"
+name="dynn_Anguillara"
 prefix = "dynnp_di"
  culture = italian
 
 }
 1000035387 = {
-name="Ceccano"
+name="dynn_Ceccano"
 prefix = "dynnp_de"
  culture = italian
 
 }
 1000035388 = {
-name="Balzo"
+name="dynn_Balzo"
 prefix = "dynnp_del"
  culture = italian
 }
 1000035389 = {
-name="Ottaviani"
+name="dynn_Ottaviani"
 prefix = "dynnp_di"
  culture = italian
 
 }
 1000035390 = {
-name="Serlupi"
+name="dynn_Serlupi"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035391 = {
-name="Valderetti"
+name="dynn_Valderetti"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035392 = {
-name="Altieri"
+name="dynn_Altieri"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035393 = {
-name="Annibaldi"
+name="dynn_Annibaldi"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035394 = {
-name="Crescenzi"
+name="dynn_Crescenzi"
 prefix = "dynnp_di"
  culture = italian
 
 }
 1000035395 = {
-name="Frangipane"
+name="dynn_Frangipane"
 prefix = "dynnp_di"
  culture = italian
 
 }
 1000035396 = {
-name="Mattei"
+name="dynn_Mattei"
 prefix = "dynnp_di"
  culture = italian
 
 }
 1000035397 = {
-name="Buscareto"
+name="dynn_Buscareto"
 prefix = "dynnp_da"
  culture = italian
 }
 1000035398 = {
-name="Genga"
+name="dynn_Genga"
 prefix = "dynnp_della"
  culture = italian
 }
 1000035399 = {
-name="Guiderocchi"
+name="dynn_Guiderocchi"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035400 = {
-name="Ottoni"
+name="dynn_Ottoni"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035401 = {
-name="Saladini"
+name="dynn_Saladini"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035402 = {
-name="Sgariglia"
+name="dynn_Sgariglia"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035403 = {
-name="Varano"
+name="dynn_Varano"
 prefix = "dynnp_da"
  culture = italian
 
 }
 1000035404 = {
-name="Baschi"
+name="dynn_Baschi"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035405 = {
-name="Vitelli"
+name="dynn_Vitelli"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035406 = {
-name="Baglioni"
+name="dynn_Baglioni"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035407 = {
-name="Fizdanza"
+name="dynn_Fizdanza"
 prefix = "dynnp_di"
  culture = italian
 }
 
 1000035409 = { 
-name="Ciccala"
+name="dynn_Ciccala"
 prefix = "dynnp_di"
  culture = cisalpine
 
 }
 1000035410 = { 
-name="Via Lata" #aka Teofilatti/Théophylactes
+name="dynn_Via_Lata" #aka Teofilatti/Théophylactes
 prefix = "dynnp_di"
  culture = italian
 }
 1000035411 = { 
-name="Suponi"
+name="dynn_Suponi"
 prefix = "dynnp_da"
  culture = italian
 }
 1000035412 = { 
-name="Roero"
+name="dynn_Roero"
 prefix = "dynnp_di"
  culture = italian
   
 }
 1000035413 = { 
-name="Turco"
+name="dynn_Turco"
 prefix = "dynnp_di"
  culture = italian
 
 }
 1000035414 = { 
-name="Postella"
+name="dynn_Postella"
 prefix = "dynnp_di"
  culture = italian
 }
@@ -1788,261 +1789,261 @@ prefix = "dynnp_di"
 ######################################
 
 1000035501 = {
-name="Alagona"
+name="dynn_Alagona"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035502 = {
-name="Mosca"
+name="dynn_Mosca"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035503 = {
-name="Luna"
+name="dynn_Luna"
 prefix = "dynnp_de"
  culture = sicilian
 }
 1000035504 = {
-name="Florio"
+name="dynn_Florio"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035505 = {
-name="Majorana-Calatabiano"
+name="dynn_Majorana_Calatabiano"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035506 = {
-name="Paternò"
+name="dynn_Paternò"
 prefix = "dynnp_d_"
  culture = sicilian
 
 }
 1000035507 = {
-name="Aceto"
+name="dynn_Aceto"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035508 = {
-name="Asmundo"
+name="dynn_Asmundo"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035509 = {
-name="Lingèvres"
+name="dynn_Lingèvres"
 prefix = "dynnp_de"
  culture = norman
 }
 1000035510 = {
-name="Cipolla"
+name="dynn_Cipolla"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035511 = {
-name="Crisafulli"
+name="dynn_Crisafulli"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035512 = {
-name="Trani"
+name="dynn_Trani"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035513 = {
-name="Fardella"
+name="dynn_Fardella"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035514 = {
-name="Gravina"
+name="dynn_Gravina"
 prefix = "dynnp_di"
  culture = sicilian
 
 }
 1000035515 = {
-name="Ragusa"
+name="dynn_Ragusa"
 prefix = "dynnp_di"
  culture = sicilian 
 }
 1000035516 = {
-name="Lanza"
+name="dynn_Lanza"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035517 = {
-name="Lentini"
+name="dynn_Lentini"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035518 = {
-name="Manno"
+name="dynn_Manno"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035519 = {
-name="Mazzarino"
+name="dynn_Mazzarino"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035520 = {
-name="Montaperto"
+name="dynn_Montaperto"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035521 = {
-name="Peralta"
+name="dynn_Peralta"
 prefix = "dynnp_di"
  culture = sicilian
 
 }
 1000035522 = {
-name="Perollo"
+name="dynn_Perollo"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035523 = {
-name="Rosso"
+name="dynn_Rosso"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035524 = {
-name="Stendardo"
+name="dynn_Stendardo"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035525 = {
-name="Trimarchi"
+name="dynn_Trimarchi"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035526 = {
-name="Valguarnera"
+name="dynn_Valguarnera"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035527 = {
-name="Branciforte"
+name="dynn_Branciforte"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035528 = {
-name="Callari"
+name="dynn_Callari"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035529 = {
-name="Marchetti"
+name="dynn_Marchetti"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035530 = {
-name="Sageyo"
+name="dynn_Sageyo"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035531 = {
-name="Gioeni"
+name="dynn_Gioeni"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035532 = {
-name="Grifeo"
+name="dynn_Grifeo"
  culture = sicilian
  prefix = "dynnp_di"
 }
 1000035533 = {
-name="Grua"
+name="dynn_Grua"
 prefix = "dynnp_la"
  culture = sicilian
 }
 1000035534 = {
-name="Landolina"
+name="dynn_Landolina"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035535 = {
-name="Nasitto"
+name="dynn_Nasitto"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035536 = {
-name="Notarbartolo"
+name="dynn_Notarbartolo"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035537 = {
-name="Orioles"
+name="dynn_Orioles"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035538 = {
-name="Parisio"
+name="dynn_Parisio"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035539 = {
-name="Requesens"
+name="dynn_Requesens"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035540 = {
-name="Roccaberti"
+name="dynn_Roccaberti"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035541 = {
-name="Samonà"
+name="dynn_Samonà"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035542 = {
-name="Statella"
+name="dynn_Statella"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035543 = {
-name="Tagliavia"
+name="dynn_Tagliavia"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035544 = {
-name="Villadicani"
+name="dynn_Villadicani"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035545 = {
-name="Villaragut"
+name="dynn_Villaragut"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035546 = {
-name="Molfetta"
+name="dynn_Molfetta"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035547 = {
-name="Albirolo"
+name="dynn_Albirolo"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035548 = {
-name="Prefoglio"
+name="dynn_Prefoglio"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035549 = {
-name="Podio Ricciardi"
+name="dynn_Podio_Ricciardi"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035550 = {
-name="Abbate"
+name="dynn_Abbate"
 prefix = "dynnp_di"
  culture = sicilian
  
 }
 1000035551 = {
-name="Ocrea"
+name="dynn_Ocrea"
 prefix = "dynnp_d_"
  culture = sicilian
 
@@ -2067,58 +2068,58 @@ prefix = "dynnp_d_"
 ######################################
 
 1000035571 = {
-name="Siconidi"
+name="dynn_Siconidi"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035572 = {
-name="Dauferidi"
+name="dynn_Dauferidi"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035573 = {
-name="Landolfidi"
+name="dynn_Landolfidi"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035574 = {
-name="Amalfitani"
+name="dynn_Amalfitani"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035575 = {
-name="Spoleto"
+name="dynn_Spoleto"
 prefix = "dynnp_di"
  culture = italian 
 }
 #(there is a Di Spoleto family in the big list, they are signed as central_italian)# because they were central Italian at the time of the characters in the vanilla files starting from 1250+ 
 1000035576 = {
-name="Procida"
+name="dynn_Procida"
 prefix = "dynnp_da"
  culture = italian
 }
 1000035577 = {
-name="Barile"
+name="dynn_Barile"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035578 = {
-name="Melatino"
+name="dynn_Melatino"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035579 = {
-name="Monaldeschi"
+name="dynn_Monaldeschi"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035580 = {
-name="Trinci"
+name="dynn_Trinci"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035581 = {
-name="Melo"
+name="dynn_Melo"
 prefix = "dynnp_di"
  culture = italian
 }
@@ -2149,307 +2150,307 @@ prefix = "dynnp_di"
 ######################################
 
 1000035641 = {
-name="Acquaviva"
+name="dynn_Acquaviva"
 prefix = "dynnp_da"
  culture = neapolitan
 }
 1000035642 = {
-name="Angiò"
+name="dynn_Angiò"
 prefix = "dynnp_d_"
  culture = neapolitan
 }
 1000035643 = {
-name="Caracciolo"
+name="dynn_Caracciolo"
 prefix = "dynnp_da"
  culture = neapolitan
 
 }
 1000035644 = {
-name="Carafa"
+name="dynn_Carafa"
 prefix = "dynnp_da"
  culture = neapolitan
  
 }
 1000035646 = {
-name="Sergi"
+name="dynn_Sergi"
 prefix = "dynnp_da"
  culture = neapolitan
 }
 1000035647 = {
-name="Tocco"
+name="dynn_Tocco"
 prefix = "dynnp_da"
  culture = neapolitan
 }
 1000035648 = {
-name="Andria"
+name="dynn_Andria"
 prefix = "dynnp_di"
  culture = neapolitan
 }
 1000035649 = {
-name="Acciapaccia"
+name="dynn_Acciapaccia"
 prefix = "dynnp_da"
  culture = neapolitan
 }
 1000035650 = {
-name="Antinori"
+name="dynn_Antinori"
 prefix = "dynnp_da"
  culture =neapolitan
 }
 1000035651 = {
-name="Alagna"
+name="dynn_Alagna"
 prefix = "dynnp_da"
  culture = neapolitan
 }
 1000035652 = {
-name="Cantelmo"
+name="dynn_Cantelmo"
 prefix = "dynnp_da"
  culture = neapolitan
 
 }
 1000035653 = {
-name="Capano"
+name="dynn_Capano"
 prefix = "dynnp_da"
  culture = neapolitan
 }
 1000035654 = {
-name="Capasso"
+name="dynn_Capasso"
 prefix = "dynnp_da"
  culture = neapolitan
 }
 1000035655 = {
-name="Capece"
+name="dynn_Capece"
 prefix = "dynnp_da"
  culture = neapolitan
 }
 1000035656 = {
-name="Afflitto"
+name="dynn_Afflitto"
 prefix = "dynnp_d_"
  culture = neapolitan
 }
 1000035657 = {
-name="Dentice"
+name="dynn_Dentice"
 prefix = "dynnp_da"
  culture = neapolitan
 }
 1000035658 = {
-name="Filangieri"
+name="dynn_Filangieri"
 prefix = "dynnp_da"
  culture = neapolitan
 
 }
 1000035659 = {
-name="Pignatelli"
+name="dynn_Pignatelli"
 prefix = "dynnp_da"
  culture = neapolitan
 }
 1000035660 = {
-name="Pironti"
+name="dynn_Pironti"
 prefix = "dynnp_da"
  culture = neapolitan
 }
 1000035661 = {
-name="Rizzo"
+name="dynn_Rizzo"
 prefix = "dynnp_da"
  culture = neapolitan
 }
 1000035662 = {
-name="Ruggi"
+name="dynn_Ruggi"
 prefix = "dynnp_da"
  culture = neapolitan
 }
 1000035663 = {
-name="Avarna"
+name="dynn_Avarna"
 prefix = "dynnp_da"
  culture = neapolitan
 }
 1000035664 = {
-name="Marra"
+name="dynn_Marra"
 prefix = "dynnp_della"
  culture = neapolitan
 }
 1000035665 = {
-name="Sangro"
+name="dynn_Sangro"
 prefix = "dynnp_di"
  culture = neapolitan
 
 }
 1000035666 = {
-name="Fontanarosa"
+name="dynn_Fontanarosa"
 prefix = "dynnp_da"
  culture = neapolitan
 }
 1000035667 = {
-name="Gesualdo"
+name="dynn_Gesualdo"
 prefix = "dynnp_da"
  culture = neapolitan
 
 }
 1000035668 = {
-name="Lancellotti"
+name="dynn_Lancellotti"
 prefix = "dynnp_da"
  culture = neapolitan
 }
 1000035669 = {
-name="Nuzzo"
+name="dynn_Nuzzo"
 prefix = "dynnp_da"
  culture = neapolitan
 }
 1000035670 = {
-name="Pagano"
+name="dynn_Pagano"
 prefix = "dynnp_da"
  culture = neapolitan
 }
 1000035671 = {
-name="Sanfelice"
+name="dynn_Sanfelice"
 prefix = "dynnp_da"
  culture = neapolitan
 }
 1000035672 = {
-name="Zurlo"
+name="dynn_Zurlo"
 prefix = "dynnp_da"
  culture = neapolitan
 }
 1000035473 = {
-name="Borgo"
+name="dynn_Borgo"
 prefix = "dynnp_del"
  culture = neapolitan
 
 }
 1000035474 = {
-name="Castriota"
+name="dynn_Castriota"
 prefix = "dynnp_da"
  culture = neapolitan
 }
 1000035475 = {
-name="Amico"
+name="dynn_Amico"
 prefix = "dynnp_d_"
  culture = neapolitan
   
 }
 1000035476 = {
-name="Monti"
+name="dynn_Monti"
 prefix = "dynnp_de"
  culture = neapolitan
 }
 1000035477 = {
-name="Ligorio"
+name="dynn_Ligorio"
 prefix = "dynnp_da"
  culture = neapolitan
 }
 1000035478 = {
-name="Longo"
+name="dynn_Longo"
 prefix = "dynnp_da"
  culture = neapolitan
 }
 1000035479 = {
-name="Paladini"
+name="dynn_Paladini"
 prefix = "dynnp_da"
  culture = neapolitan
 }
 1000035480 = {
-name="Pentasuglia"
+name="dynn_Pentasuglia"
 prefix = "dynnp_da"
  culture = neapolitan
 }
 1000035481 = {
-name="Falluca"
+name="dynn_Falluca"
 prefix = "dynnp_da"
  culture = neapolitan
 }
 1000035482 = {
-name="Borrello"
+name="dynn_Borrello"
 prefix = "dynnp_da"
  culture = neapolitan
 }
 1000035483 = {
-name="Carbone"
+name="dynn_Carbone"
 prefix = "dynnp_da"
  culture = neapolitan
 
 }
 1000035484 = {
-name="Francisio"
+name="dynn_Francisio"
 prefix = "dynnp_da"
  culture = neapolitan
 }
 1000035485 = {
-name="Avezzano"
+name="dynn_Avezzano"
 prefix = "dynnp_d_"
  culture = neapolitan
 }
 1000035486 = {
-name="Bari"
+name="dynn_Bari"
 prefix = "dynnp_da"
  culture = neapolitan
 }
 1000035487 = {
-name="Rayza"
+name="dynn_Rayza"
 prefix = "dynnp_da"
  culture = neapolitan
 }
 1000035488 = {
-name="Ratta" #  Rapta in catalan
+name="dynn_Ratta" #  Rapta in catalan
 prefix = "dynnp_della"
  culture = neapolitan
 
 }
 1000035489 = {
-name="Antiochia"
+name="dynn_Antiochia"
 prefix = "dynnp_di"
  culture = neapolitan
 	
 }
 1000035490 = {
-name="Palermo"
+name="dynn_Palermo"
 prefix = "dynnp_d_"
  culture = sicilian
 }
 1000035491 = {
-name="Mahdia"
+name="dynn_Mahdia"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035492 = {
-name="Bonello"
+name="dynn_Bonello"
 prefix = "dynnp_di"
  culture = sicilian
 }
 1000035493 = {
-name="Ajello"
+name="dynn_Ajello"
 prefix = "dynnp_di"
  culture = sicilian
   
 }
 1000035494 = {
-name="Saragosa"
+name="dynn_Saragosa"
 prefix = "dynnp_di"
  culture = sicilian
  
 }
 1000035495 = {
-name="Bullas"
+name="dynn_Bullas"
 prefix = "dynnp_de"
  culture = occitan
 }
 1000035496 = {
-name="Artus"
+name="dynn_Artus"
 prefix = "dynnp_de"
  culture = frankish
 
 }
 1000035497 = {
-name="Saya"
+name="dynn_Saya"
 prefix = "dynnp_di"
  culture = neapolitan
 
 }
 1000035498 = {
-name="Sarno"
+name="dynn_Sarno"
 prefix = "dynnp_de"
  culture = norman
 }
 1000035499 = {
-name="Procida"
+name="dynn_Procida"
 prefix = "dynnp_da"
  culture = neapolitan
 
@@ -2469,385 +2470,385 @@ prefix = "dynnp_da"
 #Range 1000035711-1000035760
 ######################################
 1000035711 = {
-name="Adelardi" # aka Marcheselli
+name="dynn_Adelardi" # aka Marcheselli
 prefix = "dynnp_di"
  culture = italian
 }
 1000035712 = {
-name="Benaglio"
+name="dynn_Benaglio"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035713 = {
-name="Antegnati"
+name="dynn_Antegnati"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035714 = {
-name="Averoldi"
+name="dynn_Averoldi"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035715 = {
-name="Calegari"
+name="dynn_Calegari"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035716 = {
-name="Carra"
+name="dynn_Carra"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035717 = {
-name="Casaloldi"
+name="dynn_Casaloldi"
 prefix = "dynnp_di"
  culture = italian
 
 }
 1000035718 = {
-name="Croci"
+name="dynn_Croci"
 prefix = "dynnp_della"
  culture = italian
 }
 1000035719 = {
-name="Federici"
+name="dynn_Federici"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035720 = {
-name="Fenaroli"
+name="dynn_Fenaroli"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035721 = {
-name="Gambara"
+name="dynn_Gambara"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035722 = {
-name="Martinengo"
+name="dynn_Martinengo"
 prefix = "dynnp_di"
  culture = italian
  
 }
 1000035723 = {
-name="Olofredi"
+name="dynn_Olofredi"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035724 = {
-name="Poncarale"
+name="dynn_Poncarale"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035725 = {
-name="Rodengo"
+name="dynn_Rodengo"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035726 = {
-name="Besozzi"
+name="dynn_Besozzi"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035727 = {
-name="Corradidi"
+name="dynn_Corradidi"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035728 = {
-name="Curti"
+name="dynn_Curti"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035729 = {
-name="Verme"
+name="dynn_Verme"
 prefix = "dynnp_dalle"
  culture = italian
 
 }
 1000035730 = {
-name="Sessa"
+name="dynn_Sessa"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035731 = {
-name="Albani"
+name="dynn_Albani"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035732 = {
-name="Bravi"
+name="dynn_Bravi"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035733 = {
-name="Crotta"
+name="dynn_Crotta"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035734 = {
-name="Suardi"
+name="dynn_Suardi"
 prefix = "dynnp_di"
  culture = italian
  
 }
 1000035735 = {
-name="Avogadro"
+name="dynn_Avogadro"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035736 = {
-name="Lucini"
+name="dynn_Lucini"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035737 = {
-name="Rusca"
+name="dynn_Rusca"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035738 = {
-name="Zoppo"
+name="dynn_Zoppo"
 prefix = "dynnp_di"
  culture = italian
  
 }
 1000035739 = {
-name="Andreasi"
+name="dynn_Andreasi"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035740 = {
-name="Cavriani"
+name="dynn_Cavriani"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035741 = {
-name="Bottigella"
+name="dynn_Bottigella"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035742 = {
-name="Sannazzaro"
+name="dynn_Sannazzaro"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035743 = {
-name="Aliprandi"
+name="dynn_Aliprandi"
 prefix = "dynnp_di"
  culture = italian
 
 }
 1000035744 = {
-name="Archinto"
+name="dynn_Archinto"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035745 = {
-name="Brivio"
+name="dynn_Brivio"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035746 = {
-name="Casati"
+name="dynn_Casati"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035747 = {
-name="Castelbarco"
+name="dynn_Castelbarco"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035748 = {
-name="Lampugnani"
+name="dynn_Lampugnani"
 prefix = "dynnp_di"
  culture = italian
   	
 
 }
 1000035749 = {
-name="Landriani"
+name="dynn_Landriani"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035750 = {
 prefix = "dynnp_di"
-name="Lanthieri"
+name="dynn_Lanthieri"
  culture = italian
 }
 1000035751 = { 
-name="Porro"
+name="dynn_Porro"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035752 = {
-name="Taverna"
+name="dynn_Taverna"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035753 = {
-name="Trivulzio"
+name="dynn_Trivulzio"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035754 = {
-name="Verri"
+name="dynn_Verri"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035755 = {
-name="Bruno di Tornaforte"
+name="dynn_Bruno_di_Tornaforte"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035756 = {
-name="Buffa di Perrero"
+name="dynn_Buffa_di_Perrero"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035757 = {
-name="Catena"
+name="dynn_Catena"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035758 = {
-name="Gabiano"
+name="dynn_Gabiano"
 prefix = "dynnp_de"
  culture = italian
 }
 1000035759 = {
-name="Vasto"
+name="dynn_Vasto"
 prefix = "dynnp_del"
  culture = italian
 }
 1000035760 = {
-name="Ongran"
+name="dynn_Ongran"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035761 = {
-name="Pombia"
+name="dynn_Pombia"
 prefix = "dynnp_di"
  culture = italian
  
 }
 1000035762 = {
-name="Provana"
+name="dynn_Provana"
 prefix = "dynnp_di"
  culture = italian
 
 }
 1000035763 = {
-name="Vialardi"
+name="dynn_Vialardi"
 prefix = "dynnp_di"
  culture = italian
  
 }
 1000035764 = {
-name="Alfieri"
+name="dynn_Alfieri"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035765 = {
-name="Alioni"
+name="dynn_Alioni"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035766 = {
-name="Antignano"
+name="dynn_Antignano"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035767 = {
-name="Garetti"
+name="dynn_Garetti"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035768 = {
-name="Montafia"
+name="dynn_Montafia"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035769 = {
-name="Manfredi"
+name="dynn_Manfredi"
 prefix = "dynnp_di"
  culture = italian
  
 }
 1000035770 = {
-name="Accarisi"
+name="dynn_Accarisi"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035771 = {
-name="Isnardi"
+name="dynn_Isnardi"
 prefix = "dynnp_di"
  culture = italian
 
 }
 1000035772 = {
-name="Calboli"
+name="dynn_Calboli"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035773 = {
-name="Garagnani"
+name="dynn_Garagnani"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035774 = {
-name="Merenda"
+name="dynn_Merenda"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035775 = {
-name="Silighini"
+name="dynn_Silighini"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035776 = {
-name="Albergati"
+name="dynn_Albergati"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035777 = {
-name="Geremia"
+name="dynn_Geremia"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035778 = {
-name="Isolani"
+name="dynn_Isolani"
 prefix = "dynnp_di"
  culture = italian
 }
 1000035779 = {
-name="Montecuccoli"
+name="dynn_Montecuccoli"
 prefix = "dynnp_di"
  culture = italian
 }
 #(in the big list there is Pico della Mirandola listed as italian, but the family name is just Pico and they came from Emilia)
 1000035780 = { 
-name="Pico" 
+name="dynn_Pico" 
 prefix = "dynnp_di"
  culture = italian
 }
 1000035304 = {
-name="Parpaglia"
+name="dynn_Parpaglia"
 prefix = "dynnp_di"
   culture = italian
 }
 1000035305 = {
-name="Scarampi"
+name="dynn_Scarampi"
 prefix = "dynnp_di"
   culture = italian
 }
 #1000035306 = {
-#name=""
+#name="dynn_"
 #  culture = italian
 #}
 1000035307 = {
-name="Marsciano"
+name="dynn_Marsciano"
 prefix = "dynnp_di"
   culture = italian
     
@@ -3023,7 +3024,7 @@ prefix = "dynnp_af"
 
 }
 1000035860 = {
-name="Kjærulf"
+name="Kj_AE_rulf"
 prefix = "dynnp_af"
  culture = danish
 
@@ -3114,7 +3115,7 @@ prefix = "dynnp_af"
 
 }
 1000035875 = {
-name="Vadskær"
+name="Vadsk_AE_r"
 prefix = "dynnp_af"
  culture = danish
 
@@ -3156,7 +3157,7 @@ prefix = "dynnp_af"
 
 }
 1000035882 = {
-name="Skovgård"
+name="Skovg_AO_rd"
 prefix = "dynnp_af"
  culture = danish
 
@@ -3229,7 +3230,7 @@ prefix = "dynnp_af"
 
 }
 1000035894 = {
-name="Råsted"
+name="R_AO_sted"
 prefix = "dynnp_af"
  culture = danish
 
@@ -3755,7 +3756,7 @@ prefix = "dynnp_z"
 #Range1000053600-1000053699
 ######################################
 1000053600 = {
-name="Slæðe"
+name="Sl_AE_D_e"
  culture = norwegian
 prefix = "dynnp_av"
 }
@@ -3847,12 +3848,12 @@ prefix = "dynnp_av"
  culture = norwegian
 }
 1000053618 = {
-name="Gerðe"
+name="Ger_D_e"
 prefix = "dynnp_av"
  culture = norwegian
 }
 1000053619 = {
-name="Stuðla"
+name="Stu_D_la"
 prefix = "dynnp_av"
  culture = norwegian
 }
@@ -3877,17 +3878,17 @@ prefix = "dynnp_av"
  culture = norwegian
 }
 1000053624 = {
-name="Heiðmørk"
+name="Hei_D_mørk"
 prefix = "dynnp_av"
  culture = norwegian
 }
 1000053625 = {
-name="Raumríkí"
+name="Raumr_I_k_I"
 prefix = "dynnp_av"
  culture = norwegian
 }
 1000053626 = {
-name="Hundþorp"
+name="Hund_TH_orp"
 prefix = "dynnp_av"
  culture = norwegian
 }
@@ -4009,7 +4010,7 @@ prefix = "dynnp_av"
  culture = geat
 }
 1000053902 = { # coa  Gold Lioneagle on Red, same as Fånö-ätten
-name="Aspenäs"
+name="Aspen_A_s"
 prefix = "dynnp_av"
  culture = geat
 }
@@ -4024,32 +4025,32 @@ prefix = "dynnp_av"
  culture = geat
 }
 1000053905 = { 
-name="Gädda" #same coa as 1000035858 "Giedde"
+name="G_A_dda" #same coa as 1000035858 "Giedde"
 prefix = "dynnp_av"
  culture = geat
 }
 1000053906 = { 
-name="Hjärne" #
+name="Hj_A_rne" #
 prefix = "dynnp_av"
  culture = geat
 }
 1000053907 = { 
-name="Läma" # 
+name="L_A_ma" # 
 prefix = "dynnp_av"
  culture = geat
 }
 1000053908 = { 
-name="Änga" # 
+name="A_nga" # 
 prefix = "dynnp_av"
  culture = geat
 }
 1000053909 = { 
-name="Näf" # 
+name="N_A_f" # 
 prefix = "dynnp_av"
  culture = geat
 }
 1000053910 = { 
-name="Stjärnbåt" # 
+name="Stj_A_rnb_AO_t" # 
 prefix = "dynnp_av"
  culture = geat
 }
@@ -4079,193 +4080,193 @@ prefix = "dynnp_av"
 ######################################
 
 1000053000 = {
-	name = "Razidí"
+	name = "Razid_I"
 	prefix = "dynnp_al-"
 	culture = andalusian
 	
 }
 1000053001 = {
-	name = "'Ámirí" #Amirid - Mujahid's line
+	name = "A_mir_I" #Amirid - Mujahid's line
 	prefix = "dynnp_al-"
 	culture = andalusian
 	
 }
 1000053002 = {
-	name = "Nasraní"
+	name = "Nasran_I"
 	prefix = "dynnp_al-"
 	culture = andalusian
 	
 }
 1000053003 = {
-	name = "Bakrí"
+	name = "Bakr_I"
 	prefix = "dynnp_al-"
 	culture = andalusian
 	
 }
 1000053004 = {
-	name = "Hamushkí"
+	name = "Hamushk_I"
 	prefix = "dynnp_al-"
 	culture = andalusian
 	
 }
 1000053005 = {
-	name = "Qasimí"
+	name = "Qasim_I"
 	prefix = "dynnp_al-"
 	culture = andalusian
 	
 }
 1000053006 = {
-	name = "'Ámirí" #Amirid - Khayran's line
+	name = "A_mir_I" #Amirid - Khayran's line
 	prefix = "dynnp_al-"
 	culture = andalusian
 	
 }
 1000053007 = {
-	name = "Sábúrí"
+	name = "S_A_b_U_r_I"
 	prefix = "dynnp_al-"
 	culture = andalusian
 	
 }
 1000053008 = {
-	name = "Asadí"
+	name = "Asad_I"
 	prefix = "dynnp_al-"
 	culture = andalusian
 	
 }
 1000053009 = {
-	name = "Hárúní"
+	name = "H_A_r_U_n_I"
 	prefix = "dynnp_al-"
 	culture = andalusian
 	
 }
 1000053010 = {
-	name = "Tayfurí"
+	name = "Tayfur_I"
 	prefix = "dynnp_al-"
 	culture = andalusian
 	
 }
 1000053011 = {
-	name = "'Ámirí" #Amirid - Zuhayr's line
+	name = "A_mir_I" #Amirid - Zuhayr's line
 	prefix = "dynnp_al-"
 	culture = andalusian
 	
 }
 1000053012 = {
-	name = "'Ámirí" #Amirid - Mubarak's line
+	name = "A_mir_I" #Amirid - Mubarak's line
 	prefix = "dynnp_al-"
 	culture = andalusian
 	
 }
 1000053013 = {
-	name = "'Ámirí" #Amirid - Muzaffar's line
+	name = "A_mir_I" #Amirid - Muzaffar's line
 	prefix = "dynnp_al-"
 	culture = andalusian
 	
 }
 1000053014 = {
-	name = "'Ámirí" #Amirid - Wadih's line
+	name = "A_mir_I" #Amirid - Wadih's line
 	prefix = "dynnp_al-"
 	culture = andalusian
 	
 }
 1000053015 = {
-	name = "Mughíthí"
+	name = "Mugh_I_th_I"
 	prefix = "dynnp_al-"
 	culture = andalusian
 	
 }
 1000053016 = {
-	name = "Qasí"
+	name = "Qas_I"
 	prefix = "dynnp_al-"
 	culture = andalusian
 	
 }
 1000053017 = {
-	name = "Bitrújí"
+	name = "Bitr_U_j_I"
 	prefix = "dynnp_al-"
 	culture = andalusian
 	
 }
 1000053018 = {
-	name = "Ghalbúní"
+	name = "Ghalb_U_n_I"
 	prefix = "dynnp_al-"
 	culture = andalusian
 	
 }
 1000053019 = {
-	name = "Tawílí" #Banu Tawil (AKA Shabrit), an Andalusian muwallad family based in Huesca
+	name = "Taw_I_l_I" #Banu Tawil (AKA Shabrit), an Andalusian muwallad family based in Huesca
 	prefix = "dynnp_banu"
 	culture = andalusian
 	
 }
 1000053020 = {
-	name = "Numárí"
+	name = "Num_A_r_I"
 	prefix = "dynnp_al-"
 	culture = andalusian
 	
 }
 1000053021 = {
-	name = "Ya'lawí"
+	name = "Ya_law_I"
 	prefix = "dynnp_al-"
 	culture = andalusian
 	
 }
 1000053022 = {
-	name = "Hajjájí" #notable family of Seville, of Yemeni origins
+	name = "Hajj_A_j_I" #notable family of Seville, of Yemeni origins
 	prefix = "dynnp_al-"
 	culture = andalusian
 	
 }
 1000053023 = {
-	name="Tulaytulí"
+	name="Tulaytul_I"
 	prefix = "dynnp_al-"
 	culture = andalusian
 	
 }
 1000053024 = {
-	name = "Surunbáqí"
+	name = "Surunb_A_q_I"
 	prefix = "dynnp_al-"
 	culture = andalusian
 	
 }
 1000053025 = {
-	name = "Tútáliqí"
+	name = "T_U_t_A_liq_I"
 	prefix = "dynnp_al-"
 	culture = andalusian
 	
 }
 1000053026 = {
-	name="Ashqilúlí" #Banu Ashqilula, a Tujibid family that was instrumental in the rise of the Nasrids in Jaen and Cordoba
+	name="Ashqil_U_l_I" #Banu Ashqilula, a Tujibid family that was instrumental in the rise of the Nasrids in Jaen and Cordoba
 	prefix = "dynnp_banu"
 	culture = andalusian
 	
 }
 1000053027 = {
-	name="Jaddí"
+	name="Jadd_I"
 	prefix = "dynnp_al-"
 	culture = andalusian
 	
 }
 1000053028 = {
-	name = "Hajjámí"
+	name = "Hajj_A_m_I"
 	prefix = "dynnp_al-"
 	culture = andalusian
 	
 }
 1000053029 = {
-	name = "Muhibí"
+	name = "Muhibb_I"
 	prefix = "dynnp_al-"
 	culture = andalusian
 	
 }
 1000110000 = {
-	name = "Wuhaybí"
+	name = "Wuhayb_I"
 	prefix = "dynnp_al-"
 	culture = andalusian
 	
 }
 1000110001 = {
-	name = "Mundhirí"
+	name = "Mundhir_I"
 	prefix = "dynnp_al-"
 	culture = andalusian
 	
@@ -4307,11 +4308,13 @@ prefix = "dynnp_av"
 	culture = dutch
 }
 1000053034 = {
-	name="fan Innhausen"
+	name="Innhausen"
+	prefix=dynnp_fan
 	culture = dutch
 }
 1000053035 = {
-	name="fan Knyphausen"
+	name="Knyphausen"
+	prefix=dynnp_fan
 	culture = dutch
 }
 1000053036 = {
@@ -4536,12 +4539,14 @@ prefix = "dynnp_av"
 }
 
 1000103818 = {
-	name="fan Westflinge"
+	name="Westflinge"
+	prefix=dynnp_fan
 	culture = dutch
 }
 
 1000103819 = {
-	name="fan Eastfryslân"
+	name="Eastfrysl_A_n"
+	prefix=dynnp_fan
 	culture = dutch
 }
 
@@ -4567,7 +4572,7 @@ prefix = "dynnp_av"
 	culture = icelandic
 }
 1000053072 = {
-	name="Jónsson"
+	name="J_O_nsson"
 	culture = icelandic
 }
 1000053073 = {
@@ -4579,11 +4584,11 @@ prefix = "dynnp_av"
 	culture = icelandic
 }
 1000053075 = {
-	name="Sigurðsson"
+	name="Sigur_D_sson"
 	culture = icelandic
 }
 1000053076 = {
-	name="Kárisson"
+	name="K_A_risson"
 	culture = icelandic
 }
 1000053077 = {
@@ -4599,11 +4604,11 @@ prefix = "dynnp_av"
 	culture = icelandic
 }
 1000053080 = {
-	name="Tómasson"
+	name="T_O_masson"
 	culture = icelandic
 }
 1000053081 = {
-	name="Ólafursson"
+	name="O_lafursson"
 	culture = icelandic
 }
 1000053082 = {
@@ -4623,19 +4628,19 @@ prefix = "dynnp_av"
 	culture = icelandic
 }
 1000053086 = {
-	name="Ísaksson"
+	name="I_saksson"
 	culture = icelandic
 }
 1000053087 = {
-	name="Þorgilsson"
+	name="TH_orgilsson"
 	culture = icelandic
 }
 1000053088 = {
-	name="Þorsson"
+	name="TH_orsson"
 	culture = icelandic
 }
 1000053089 = {
-	name="Eiríksson"
+	name="Eir_I_ksson"
 	culture = icelandic
 }
 1000053090 = {
@@ -4655,11 +4660,11 @@ prefix = "dynnp_av"
 	culture = icelandic
 }
 1000053094 = {
-	name="Magnússon"
+	name="Magn_U_sson"
 	culture = icelandic
 }
 1000053095 = {
-	name="Guðmundsson"
+	name="Gu_D_mundsson"
 	culture = icelandic
 }
 1000053096 = {
@@ -4675,7 +4680,7 @@ prefix = "dynnp_av"
 	culture = icelandic
 }
 1000053099 = {
-	name="Sæmundsson"
+	name="S_AE_mundsson"
 	culture = icelandic
 }
 1000053100 = {
@@ -4852,11 +4857,12 @@ prefix = "dynnp_av"
 #Range 1.000.053.150-1.000.053.168
 ######################################
 1000053150 = {
-	name="of Camelot"
+	name="Camelot"
+	prefix = "dynnp_of"
 	culture = english
 }
 1000053151 = {
-	name="Þorvaldsson"
+	name="TH_orvaldsson"
 	culture = norwegian
 }
 1000053152 = {
@@ -4944,7 +4950,7 @@ prefix = "dynnp_av"
 	culture = dutch
 }
 1000053172 = {
-	name="Brääklem"
+	name="Br_AA_klem"
 	prefix = "dynnp_fan"
 	culture = dutch
 }
@@ -4955,7 +4961,7 @@ prefix = "dynnp_av"
 }
 #Additional(spouses)
 1000053174 = {
-	name="Læk"
+	name="L_AE_k"
 	prefix = "dynnp_af"
 	culture = danish
 }
@@ -4990,7 +4996,7 @@ prefix = "dynnp_av"
 	culture = dutch
 }
 1000053181 = {
-	name="Pälweerm"
+	name="P_A_lweerm"
 	prefix = "dynnp_fan"
 	culture = dutch
 }
@@ -5000,7 +5006,7 @@ prefix = "dynnp_av"
 	culture = dutch
 }
 1000053183 = {
-	name="Hüsem"
+	name="H_U_sem"
 	prefix = "dynnp_fan"
 	culture = dutch
 }
@@ -5028,7 +5034,7 @@ prefix = "dynnp_av"
 	culture = estonian
 }
 1000053352 = {
-	name="Järvalane"
+	name="J_A_rvalane"
 	culture = estonian
 }
 1000053353 = {
@@ -5126,7 +5132,7 @@ prefix = "dynnp_av"
 	culture = merya
 }
 1000053376 = {
-	name="Erzä" 
+	name="Erz_A" 
 	culture = mordvin
 }
 1000053377 = {
@@ -5347,7 +5353,7 @@ prefix = "dynnp_av"
 	culture = sami
 }
 1000100701 = {
-	name="Anár" #Place
+	name="An_A_r" #Place
 	culture = sami
 }
 1000100702 = {
@@ -5359,11 +5365,11 @@ prefix = "dynnp_av"
 	culture = sami
 }
 1000100704 = {
-	name="Hávda" #Eider
+	name="H_A_vda" #Eider
 	culture = sami
 }
 1000100705 = {
-	name="Áhpi" #Sea
+	name="A_hpi" #Sea
 	culture = sami
 }
 1000100706 = {
@@ -5379,7 +5385,7 @@ prefix = "dynnp_av"
 	culture = sami
 }
 1000100709 = {
-	name="Mánnu" #Moon
+	name="M_A_nnu" #Moon
 	culture = sami
 }
 1000100710 = {
@@ -5411,7 +5417,7 @@ prefix = "dynnp_av"
 	culture = sami
 }
 1000100717 = {
-	name="Unjárga" #Place
+	name="Unj_A_rga" #Place
 	culture = sami
 }
 1000100718 = {
@@ -5423,7 +5429,7 @@ prefix = "dynnp_av"
 	culture = sami
 }
 1000100720 = {
-	name="Fálli" #Falcon
+	name="F_A_lli" #Falcon
 	culture = sami
 }
 1000100721 = {
@@ -5443,7 +5449,7 @@ prefix = "dynnp_av"
 	culture = sami
 }
 1000100725 = {
-	name="Rássi" #Flower
+	name="R_A_ssi" #Flower
 	culture = sami
 }
 1000100726 = {
@@ -5455,11 +5461,11 @@ prefix = "dynnp_av"
 	culture = sami
 }
 1000100728 = {
-	name="Divrrát" #Place
+	name="Divrr_A_t" #Place
 	culture = sami
 }
 1000100729 = {
-	name="Rávdi" #Smith
+	name="R_A_vdi" #Smith
 	culture = sami
 }
 1000100730 = {
@@ -5471,15 +5477,15 @@ prefix = "dynnp_av"
 	culture = sami
 }
 1000100732 = {
-	name="Cáhppat" #Black
+	name="C_A_hppat" #Black
 	culture = sami
 }
 1000100733 = {
-	name="Dákti" #Bone
+	name="D_A_kti" #Bone
 	culture = sami
 }
 1000100734 = {
-	name="Duvvá" #Dove
+	name="Duvv_A" #Dove
 	culture = sami
 }
 1000100735 = {
@@ -5503,7 +5509,7 @@ prefix = "dynnp_av"
 	culture = sami
 }
 1000100740 = {
-	name="Garjá" #Crow
+	name="Garj_A" #Crow
 	culture = sami
 }
 1000100741 = {
@@ -5527,7 +5533,7 @@ prefix = "dynnp_av"
 	culture = sami
 }
 1000100746 = {
-	name="Iccát" #Place
+	name="Icc_A_t" #Place
 	culture = sami
 }
 1000100747 = {
@@ -5573,7 +5579,7 @@ prefix = "dynnp_av"
 	culture = norse
 }
 1000053383 = {
-	name="Heiðabýr"
+	name="Hei_D_abýr"
 	prefix = "dynnp_av"
 	culture = norse
 }
@@ -5653,7 +5659,7 @@ prefix = "dynnp_av"
 	culture = norse
 }
 1000053399 = {
-	name="Þorviding"
+	name="TH_orviding"
 	prefix = "dynnp_af"
 	culture = norse
 }
@@ -5875,7 +5881,7 @@ prefix = "dynnp_av"
 	culture = norse
 }
 1000100941 = {
-	name="Austrått"
+	name="Austr_AO_tt"
 	prefix = "dynnp_av"
 	culture = norwegian
 }
@@ -7412,7 +7418,7 @@ name="Werth"
 
 #################################
 1000101124 = {
-	name="Haskúra"   # sedentary tribe High Atlas mountains, originaly among baranis
+	name="Hask_U_ra"   # sedentary tribe High Atlas mountains, originaly among baranis
 	culture = baranis
 }
 # 1000101261 - 1000101264 taken from butr
@@ -7430,7 +7436,7 @@ name="Werth"
 	
 }
 1000101264 = {
-	name="Hazrája"
+	name="Hazr_A_ja"
 	culture = baranis
 	
 }
@@ -7440,18 +7446,19 @@ name="Werth"
 	
 }
 1001000001= {
-	name="Adanísí"        # Banu Danis, Banu Adanis. Berber baranis family active in Portugal. Governors over extensive areas, and after the end of the rebellions around 930 governors over Alcacer do Sal (Qasr Abi Danis) and Setubal
+	name="Adan_I_s_I"        # Banu Danis, Banu Adanis. Berber baranis family active in Portugal. Governors over extensive areas, and after the end of the rebellions around 930 governors over Alcacer do Sal (Qasr Abi Danis) and Setubal
 	prefix = "dynnp_banu"
 	culture = baranis
 	
 }
 1000053598 = {
 	name="Darir" # somewhat fictional dynasty name for Musa al-Darir, a baranis chief in Tinmal
+	prefix = "dynnp_al-"
 	culture = baranis
 	
 }
 1000053599= {
-	name="Tímmalí"
+	name="T_I_mmal_I"
 	prefix = "dynnp_al-"
 	culture = baranis
 	
@@ -7471,12 +7478,12 @@ name="Werth"
 	culture = butr
 }
 1000053592 = {
-	name="Ṣanhāja"
+	name="S_anh_A_ja"
 	culture = butr
 	
 }
 1000054001= {
-	name="Massúfa"
+	name="Mass_U_fa"
 	culture = butr
 	
 }
@@ -7496,7 +7503,7 @@ name="Werth"
 	
 }
 1000054005 = {
-	name="Gazzúla"
+	name="Gazz_U_la"
 	culture = butr
 	
 }
